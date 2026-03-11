@@ -6,16 +6,7 @@
       containerId: "spib-table-container",
       csvPath: "data/spib_en_fr.csv",
       tableId: "spib-table",
-      columns: [
-        "bank_number_key",
-        "entry_title_en",
-        "entry_title_fr",
-        "description_en",
-        "description_fr",
-        "date_last_modified",
-        "url_en",
-        "url_fr",
-      ],
+      columns: [],
     },
     {
       containerId: "institutions-table-container",
@@ -65,7 +56,8 @@
 
   function buildTableHtml(tableId, columns, rows) {
     let html = '<table id="' + tableId + '" class="table table-striped table-hover table-sm wb-tables"';
-    html += ' data-wb-tables=\'{"ordering": true, "paging": true, "lengthChange": true, "info": true, "pageLength": 25, "lengthMenu": [10, 25, 50, 100]}\'';
+    html +=
+      ' data-wb-tables=\'{"ordering": true, "paging": true, "lengthChange": true, "info": true, "pageLength": 25, "lengthMenu": [10, 25, 50, 100], "scrollX": true, "autoWidth": false}\'';
     html += "><thead><tr>";
 
     columns.forEach((column) => {
@@ -82,6 +74,93 @@
     });
     html += "</tbody></table>";
     return html;
+  }
+
+  function buildColumnSelectorHtml(selectorId, columns) {
+    let html = '<details class="mrgn-bttm-md">';
+    html += "<summary>Show or hide columns</summary>";
+    html += '<div id="' + selectorId + '" class="mrgn-tp-sm">';
+    html +=
+      '<p class="mrgn-bttm-sm"><button type="button" data-action="all" class="btn btn-default btn-xs mrgn-rght-sm">Show all</button><button type="button" data-action="none" class="btn btn-default btn-xs">Hide all</button></p>';
+    columns.forEach((column, index) => {
+      html +=
+        '<label style="display:inline-block; margin:0 1rem .5rem 0;"><input type="checkbox" data-col-index="' +
+        index +
+        '" checked /> ' +
+        sanitizeText(column) +
+        "</label>";
+    });
+    html += "</div></details>";
+    return html;
+  }
+
+  function hideShowColumnFallback(table, colIndex, visible) {
+    const rows = table.querySelectorAll("tr");
+    rows.forEach((row) => {
+      const cells = row.children;
+      if (cells[colIndex]) {
+        cells[colIndex].style.display = visible ? "" : "none";
+      }
+    });
+  }
+
+  function applyColumnVisibility(tableId, colIndex, visible) {
+    const table = document.getElementById(tableId);
+    if (!table) {
+      return;
+    }
+
+    if (
+      window.jQuery &&
+      window.jQuery.fn &&
+      window.jQuery.fn.dataTable &&
+      window.jQuery.fn.dataTable.isDataTable(table)
+    ) {
+      const api = window.jQuery(table).DataTable();
+      api.column(colIndex).visible(visible, false);
+      api.columns.adjust().draw(false);
+      return;
+    }
+    hideShowColumnFallback(table, colIndex, visible);
+  }
+
+  function wireColumnSelector(selectorId, tableId) {
+    const selector = document.getElementById(selectorId);
+    if (!selector) {
+      return;
+    }
+
+    selector.addEventListener("change", function (event) {
+      const target = event.target;
+      if (!target || target.type !== "checkbox") {
+        return;
+      }
+      const idx = Number(target.getAttribute("data-col-index"));
+      if (Number.isNaN(idx)) {
+        return;
+      }
+      applyColumnVisibility(tableId, idx, target.checked);
+    });
+
+    selector.addEventListener("click", function (event) {
+      const target = event.target;
+      if (!target || target.tagName !== "BUTTON") {
+        return;
+      }
+      const action = target.getAttribute("data-action");
+      if (!action) {
+        return;
+      }
+      const checkboxes = selector.querySelectorAll('input[type="checkbox"][data-col-index]');
+      const visible = action === "all";
+      checkboxes.forEach((checkbox) => {
+        checkbox.checked = visible;
+        const idx = Number(checkbox.getAttribute("data-col-index"));
+        if (!Number.isNaN(idx)) {
+          applyColumnVisibility(tableId, idx, visible);
+        }
+      });
+    });
   }
 
   function loadCsvTable(config) {
@@ -102,13 +181,19 @@
           return;
         }
 
-        const columns = config.columns.filter((col) => Object.prototype.hasOwnProperty.call(rows[0], col));
+        const columns =
+          Array.isArray(config.columns) && config.columns.length > 0
+            ? config.columns.filter((col) => Object.prototype.hasOwnProperty.call(rows[0], col))
+            : Object.keys(rows[0]);
         if (!columns.length) {
           container.innerHTML = "<p>Expected columns were not found in the CSV.</p>";
           return;
         }
 
-        container.innerHTML = buildTableHtml(config.tableId, columns, rows);
+        const selectorId = config.tableId + "-column-selector";
+        container.innerHTML =
+          buildColumnSelectorHtml(selectorId, columns) + buildTableHtml(config.tableId, columns, rows);
+        wireColumnSelector(selectorId, config.tableId);
         if (window.jQuery) {
           window.jQuery("#" + config.tableId).trigger("wb-init.wb-tables");
         }
