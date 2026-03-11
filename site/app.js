@@ -189,7 +189,7 @@
       "#row-detail-modal .modal-body { overflow-y: auto; min-height: 0; }",
       "#row-detail-modal .table-responsive { overflow-x: auto; }",
       "#row-detail-modal .row-detail-modal-actions { position: sticky; top: 0; z-index: 2; background: #fff; padding-bottom: .5rem; margin-bottom: .5rem; }",
-    ].join("\\n");
+    ].join("\n");
     document.head.appendChild(style);
   }
 
@@ -413,7 +413,7 @@
       lines.push("");
     });
 
-    return lines.join("\\n");
+    return lines.join("\n");
   }
 
   function buildNewTabTemplate(payload, markdown) {
@@ -463,7 +463,7 @@
       "  </script>",
       "</body>",
       "</html>",
-    ].join("\\n");
+    ].join("\n");
   }
 
   function openRowDetailsInNewTab(payload) {
