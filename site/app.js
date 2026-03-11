@@ -188,6 +188,7 @@
       "#row-detail-modal .modal-content { max-height: 88vh; display: flex; flex-direction: column; }",
       "#row-detail-modal .modal-body { overflow-y: auto; min-height: 0; }",
       "#row-detail-modal .table-responsive { overflow-x: auto; }",
+      "#row-detail-modal .row-detail-modal-actions { position: sticky; top: 0; z-index: 2; background: #fff; padding-bottom: .5rem; margin-bottom: .5rem; }",
     ].join("\\n");
     document.head.appendChild(style);
   }
@@ -207,6 +208,9 @@
       '        <h4 class="modal-title" id="row-detail-modal-title">Row details</h4>',
       "      </div>",
       '      <div class="modal-body">',
+      '        <div class="row-detail-modal-actions">',
+      '          <button type="button" class="btn btn-primary" id="row-detail-download-pdf">Download PDF</button>',
+      "        </div>",
       '        <p id="row-detail-modal-subtitle" class="small text-muted"></p>',
       '        <div class="table-responsive">',
       '          <table class="table table-bordered table-condensed" id="row-detail-modal-table">',
@@ -215,7 +219,6 @@
       "        </div>",
       "      </div>",
       '      <div class="modal-footer">',
-      '        <button type="button" class="btn btn-primary" id="row-detail-download-pdf">Download PDF</button>',
       '        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>',
       "      </div>",
       "    </div>",
