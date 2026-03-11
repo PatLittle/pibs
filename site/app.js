@@ -65,7 +65,7 @@
 
   function buildTableHtml(tableId, columns, rows) {
     let html = '<table id="' + tableId + '" class="table table-striped table-hover table-sm wb-tables"';
-    html += ' data-wb-tables=\'{"ordering": true, "pageLength": 25}\'';
+    html += ' data-wb-tables=\'{"ordering": true, "paging": true, "lengthChange": true, "info": true, "pageLength": 25, "lengthMenu": [10, 25, 50, 100]}\'';
     html += "><thead><tr>";
 
     columns.forEach((column) => {
@@ -121,4 +121,3 @@
 
   TABLE_CONFIG.forEach(loadCsvTable);
 })();
-
