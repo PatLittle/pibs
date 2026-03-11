@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Standard personal information banks and Info Source institutions in bilingual WET tables."
+    />
+    <title>Info Source Data Explorer</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.design-system.canada.ca/@gcds-core/css-shortcuts@1.0.1/dist/gcds-css-shortcuts.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.design-system.canada.ca/@gcds-core/components@1.0.0/dist/gcds/gcds.css"
+    />
+    <script
+      type="module"
+      src="https://cdn.design-system.canada.ca/@gcds-core/components@1.0.0/dist/gcds/gcds.esm.js"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/css/theme.min.css"
+    />
+    <style>
+      .table-wrap {
+        margin-top: 1rem;
+        overflow-x: auto;
+      }
+
+      .wb-tables td,
+      .wb-tables th {
+        vertical-align: top;
+        max-width: 28rem;
+      }
+    </style>
+  </head>
+
+  <body vocab="http://schema.org/" typeof="WebPage">
+    <gcds-header lang-href="#" skip-to-href="#main-content">
+      <gcds-search slot="search"></gcds-search>
+      <gcds-breadcrumbs slot="breadcrumb">
+        <gcds-breadcrumbs-item href="#">Home</gcds-breadcrumbs-item>
+        <gcds-breadcrumbs-item href="#">Info Source</gcds-breadcrumbs-item>
+      </gcds-breadcrumbs>
+    </gcds-header>
+
+    <gcds-container id="main-content" layout="page" tag="main">
+      <section>
+        <gcds-heading tag="h1">Info Source Data Explorer</gcds-heading>
+        <gcds-text>
+          This page publishes two bilingual datasets as searchable WET tables:
+          Standard Personal Information Banks (SPIBs) and Info Source institutions.
+        </gcds-text>
+      </section>
+
+      <section>
+        <gcds-heading tag="h2">Standard PIBs</gcds-heading>
+        <gcds-text>
+          Source file: <code>data/spib_en_fr.csv</code>
+        </gcds-text>
+        <div id="spib-table-container" class="table-wrap" aria-live="polite"></div>
+      </section>
+
+      <section>
+        <gcds-heading tag="h2">Institutions</gcds-heading>
+        <gcds-text>
+          Source file: <code>data/infosource_institutions_en_fr.csv</code>
+        </gcds-text>
+        <div id="institutions-table-container" class="table-wrap" aria-live="polite"></div>
+      </section>
+
+      <gcds-date-modified>2026-03-11</gcds-date-modified>
+    </gcds-container>
+
+    <gcds-footer
+      display="full"
+      contextual-heading="Data sources"
+      contextual-links='{ "Standard PIBs CSV": "data/spib_en_fr.csv", "Institutions CSV": "data/infosource_institutions_en_fr.csv" }'
+    >
+    </gcds-footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://wet-boew.github.io/wet-boew/js/wet-boew.min.js"></script>
+    <script src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/js/theme.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
+
