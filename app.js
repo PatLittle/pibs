@@ -210,6 +210,7 @@
       '      <div class="modal-body">',
       '        <div class="row-detail-modal-actions">',
       '          <button type="button" class="btn btn-primary" id="row-detail-download-pdf">Download PDF</button>',
+      '          <button type="button" class="btn btn-default" id="row-detail-open-tab">Open in new tab</button>',
       "        </div>",
       '        <p id="row-detail-modal-subtitle" class="small text-muted"></p>',
       '        <div class="table-responsive">',
@@ -257,6 +258,15 @@
       downloadButton.addEventListener("click", function () {
         if (ACTIVE_MODAL_PAYLOAD) {
           downloadRowDetailsPdf(ACTIVE_MODAL_PAYLOAD);
+        }
+      });
+    }
+
+    const openTabButton = document.getElementById("row-detail-open-tab");
+    if (openTabButton) {
+      openTabButton.addEventListener("click", function () {
+        if (ACTIVE_MODAL_PAYLOAD) {
+          openRowDetailsInNewTab(ACTIVE_MODAL_PAYLOAD);
         }
       });
     }
@@ -372,6 +382,101 @@
       .replace(/[^a-z0-9]+/g, "-")
       .replace(/^-+|-+$/g, "")
       .slice(0, 70) || "row-details";
+  }
+
+  function toMarkdownValue(value) {
+    const text = String(value == null ? "" : value).trim();
+    if (!text) {
+      return "";
+    }
+    if (isUrl(text)) {
+      return "[" + text + "](" + text + ")";
+    }
+    return text;
+  }
+
+  function buildRowMarkdown(payload) {
+    const lines = [];
+    lines.push("# " + (payload.rowTitle || "Row details"));
+    lines.push("");
+    lines.push("_Dataset: " + (payload.tableLabel || "") + "_");
+    lines.push("");
+
+    payload.columns.forEach(function (column) {
+      const value = toMarkdownValue(payload.row[column]);
+      if (!value) {
+        return;
+      }
+      lines.push("## " + humanizeColumn(column));
+      lines.push("");
+      lines.push(value);
+      lines.push("");
+    });
+
+    return lines.join("\\n");
+  }
+
+  function buildNewTabTemplate(payload, markdown) {
+    const pageTitle = sanitizeText(getTopHeadingText());
+    const rowTitle = sanitizeText(payload.rowTitle || "Row details");
+    const safeMarkdown = JSON.stringify(markdown).replace(/</g, "\\u003c");
+
+    return [
+      "<!DOCTYPE html>",
+      '<html dir="ltr" lang="en">',
+      "<head>",
+      '  <meta charset="utf-8" />',
+      '  <meta name="viewport" content="width=device-width, initial-scale=1.0" />',
+      "  <title>" + rowTitle + " - " + pageTitle + "</title>",
+      '  <link rel="stylesheet" href="https://cdn.design-system.canada.ca/@gcds-core/css-shortcuts@1.0.1/dist/gcds-css-shortcuts.min.css" />',
+      '  <link rel="stylesheet" href="https://cdn.design-system.canada.ca/@gcds-core/components@1.0.0/dist/gcds/gcds.css" />',
+      '  <script type="module" src="https://cdn.design-system.canada.ca/@gcds-core/components@1.0.0/dist/gcds/gcds.esm.js"></script>',
+      '  <link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/css/theme.min.css" />',
+      "  <style>",
+      "    #markdown-content h1, #markdown-content h2, #markdown-content h3 { margin-top: 1.25rem; }",
+      "    #markdown-content pre, #markdown-content code { white-space: pre-wrap; word-break: break-word; }",
+      "    #markdown-content table { width: 100%; }",
+      "  </style>",
+      "</head>",
+      '<body vocab="http://schema.org/" typeof="WebPage">',
+      '  <gcds-header lang-href="#" skip-to-href="#main-content">',
+      '    <gcds-search slot="search"></gcds-search>',
+      '    <gcds-breadcrumbs slot="breadcrumb">',
+      '      <gcds-breadcrumbs-item href="index.html">' + pageTitle + "</gcds-breadcrumbs-item>",
+      '      <gcds-breadcrumbs-item href="#">Modal export</gcds-breadcrumbs-item>',
+      "    </gcds-breadcrumbs>",
+      "  </gcds-header>",
+      '  <gcds-container id="main-content" layout="page" tag="main">',
+      '    <section><gcds-heading tag="h1">' + rowTitle + "</gcds-heading></section>",
+      '    <section><div id="markdown-content"></div></section>',
+      "  </gcds-container>",
+      '  <gcds-footer display="full"></gcds-footer>',
+      '  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>',
+      "  <script>",
+      "    const markdown = " + safeMarkdown + ";",
+      "    const container = document.getElementById('markdown-content');",
+      "    if (window.marked && container) {",
+      "      container.innerHTML = marked.parse(markdown);",
+      "    } else if (container) {",
+      "      container.innerHTML = '<pre>' + markdown.replace(/[&<>]/g, function(c){ return ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]); }) + '</pre>';",
+      "    }",
+      "  </script>",
+      "</body>",
+      "</html>",
+    ].join("\\n");
+  }
+
+  function openRowDetailsInNewTab(payload) {
+    const newTab = window.open("", "_blank");
+    if (!newTab) {
+      alert("Unable to open a new tab. Please allow pop-ups for this site.");
+      return;
+    }
+    const markdown = buildRowMarkdown(payload);
+    const html = buildNewTabTemplate(payload, markdown);
+    newTab.document.open();
+    newTab.document.write(html);
+    newTab.document.close();
   }
 
   function downloadRowDetailsPdf(payload) {
