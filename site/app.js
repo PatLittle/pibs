@@ -177,7 +177,23 @@
     removeRowModalBackdrop();
   }
 
+  function ensureRowModalStyles() {
+    if (document.getElementById("row-detail-modal-style")) {
+      return;
+    }
+    const style = document.createElement("style");
+    style.id = "row-detail-modal-style";
+    style.textContent = [
+      "#row-detail-modal .modal-dialog { margin-top: 3vh; margin-bottom: 3vh; }",
+      "#row-detail-modal .modal-content { max-height: 88vh; display: flex; flex-direction: column; }",
+      "#row-detail-modal .modal-body { overflow-y: auto; min-height: 0; }",
+      "#row-detail-modal .table-responsive { overflow-x: auto; }",
+    ].join("\\n");
+    document.head.appendChild(style);
+  }
+
   function ensureRowModal() {
+    ensureRowModalStyles();
     if (document.getElementById("row-detail-modal")) {
       return;
     }
