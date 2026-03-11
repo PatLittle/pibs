@@ -30,6 +30,100 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; InfoSource-Institutions-Scraper/1.0; +https://example.local)"
 }
 
+# Curated EN<->FR institution equivalents for rows that remain unmatched after gcOrgID and alternate-link matching.
+MANUAL_PAIR_RULES = [
+    {"id": "nfb", "en_name": "national film board of canada", "fr_name": "office national du film du canada"},
+    {
+        "id": "oci",
+        "en_name": "office correctional investigator",
+        "fr_name": "bureau lenqueteur correctionnel",
+        "fr_url": "infosource2018-1",
+    },
+    {
+        "id": "erc",
+        "en_name": "royal canadian mounted police external review committee",
+        "fr_name": "comite externe examen gendarmerie royale canada",
+    },
+    {"id": "cer", "en_name": "canada energy regulator", "fr_name": "office national lenergie"},
+    {"id": "parks", "en_name": "parks canada agency", "fr_name": "agence parcs canada"},
+    {
+        "id": "sdtc",
+        "en_name": "sustainable development technology canada",
+        "fr_name": "technologies developpement durable canada",
+    },
+    {
+        "id": "cnsopb",
+        "en_name": "canada nova scotia offshore petroleum board",
+        "fr_name": "office canada nouvelle ecosse hydrocarbures extracotiers",
+    },
+    {
+        "id": "hopa",
+        "en_name": "oshawa port authority",
+        "fr_name": "administration portuaire hamilton",
+        "en_url": "hopaports",
+    },
+    {
+        "id": "history_war_museum",
+        "en_name": "canadian museum history canadian war museum",
+        "fr_name": "musee canadien histoire musee canadien guerre",
+    },
+    {
+        "id": "nsira",
+        "en_name": "national security intelligence review agency",
+        "fr_name": "comite surveillance activites renseignement securite",
+    },
+    {"id": "nac", "en_name": "national arts centre", "fr_name": "centre national arts"},
+    {
+        "id": "ingenium",
+        "en_name": "ingenium canadas museums science innovation",
+        "fr_name": "ingenium musees sciences innovation canada",
+    },
+    {"id": "dcc", "en_name": "defence construction canada", "fr_name": "construction defense canada"},
+    {
+        "id": "bc_treaty",
+        "en_name": "british columbia treaty commission",
+        "fr_name": "commission traites colombie britannique",
+    },
+    {"id": "cdev_eldor", "en_name": "canada eldor inc", "fr_name": "canada eldor inc"},
+    {
+        "id": "cdev_hibernia",
+        "en_name": "canada hibernia holding corporation",
+        "fr_name": "societe gestion canada hibernia",
+    },
+    {"id": "canada_post", "en_name": "canada post", "fr_name": "postes canada"},
+    {
+        "id": "crown_indigenous",
+        "en_name": "crown indigenous northern affairs canada",
+        "fr_name": "relations couronne autochtones affaires nord canada",
+    },
+    {
+        "id": "fraidg",
+        "en_name": "fund railway accidents involving designated goods",
+        "fr_name": "caisse indemnisation accidents ferroviaires impliquant marchandises designees",
+    },
+    {"id": "gwichin_lwb", "en_name": "gwichin land water board", "fr_name": "office gwichin terres eaux"},
+    {"id": "infrastructure", "en_name": "infrastructure canada", "fr_name": "infrastructure canada"},
+    {"id": "nunavut_water", "en_name": "nunavut water board", "fr_name": "office eaux nunavut"},
+    {
+        "id": "ombudsman_dnd",
+        "en_name": "office ombudsman national defence canadian forces",
+        "fr_name": "bureau ombudsman ministere defense nationale forces canadiennes",
+    },
+    {"id": "port_vancouver", "en_name": "port vancouver", "fr_name": "port vancouver"},
+    {"id": "sahtu_lwb", "en_name": "sahtu land water board", "fr_name": "office terres eaux sahtu"},
+    {
+        "id": "seaway_bridge",
+        "en_name": "seaway international bridge corporation limited",
+        "fr_name": "corporation pont international voie maritime limitee",
+    },
+    {"id": "wage", "en_name": "women gender equality", "fr_name": "femmes legalite genres"},
+    {
+        "id": "yesab",
+        "en_name": "yukon environmental socio economic assessment board",
+        "fr_name": "office evaluation environnementale socioeconomique yukon",
+    },
+]
+
 
 def clean_space(text: str) -> str:
     return re.sub(r"\s+", " ", (text or "").replace("\xa0", " ")).strip()
@@ -307,6 +401,64 @@ def apply_alternate_url_pairing(df_en: pd.DataFrame, df_fr: pd.DataFrame) -> Tup
     return en, fr
 
 
+def apply_manual_name_pairing(df_en: pd.DataFrame, df_fr: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFrame]:
+    en = df_en.copy()
+    fr = df_fr.copy()
+    en["manual_row_key"] = pd.NA
+    fr["manual_row_key"] = pd.NA
+
+    used_en = set()
+    used_fr = set()
+    manual_matches = 0
+
+    def candidate_indexes(
+        df: pd.DataFrame,
+        lang: str,
+        name_pattern: str,
+        url_pattern: Optional[str],
+        used: set,
+    ) -> List[int]:
+        if not name_pattern:
+            return []
+        name_pattern_norm = normalize_name(name_pattern)
+        if not name_pattern_norm:
+            return []
+        mask = df["name_norm"].astype(str).str.contains(name_pattern_norm, regex=False, na=False)
+        if url_pattern:
+            mask = mask & df["infosource_url"].astype(str).str.lower().str.contains(url_pattern.lower(), regex=False, na=False)
+        mask = mask & df["manual_row_key"].isna()
+        idxs = [i for i in df.index[mask].tolist() if i not in used]
+        # Prioritize rows still missing a gcOrgID in this language.
+        gc_col = f"gc_orgID_{lang}"
+        idxs.sort(key=lambda i: (pd.notna(df.at[i, gc_col]), i))
+        return idxs
+
+    for rule in MANUAL_PAIR_RULES:
+        en_idxs = candidate_indexes(en, "en", rule.get("en_name", ""), rule.get("en_url"), used_en)
+        fr_idxs = candidate_indexes(fr, "fr", rule.get("fr_name", ""), rule.get("fr_url"), used_fr)
+        if not en_idxs or not fr_idxs:
+            continue
+
+        en_idx = en_idxs[0]
+        fr_idx = fr_idxs[0]
+
+        if pd.notna(en.at[en_idx, "gc_orgID_en"]):
+            key = f"gc:{int(en.at[en_idx, 'gc_orgID_en'])}"
+        elif pd.notna(fr.at[fr_idx, "gc_orgID_fr"]):
+            key = f"gc:{int(fr.at[fr_idx, 'gc_orgID_fr'])}"
+        else:
+            key = f"manual:{rule['id']}"
+
+        en.at[en_idx, "manual_row_key"] = key
+        fr.at[fr_idx, "manual_row_key"] = key
+        used_en.add(en_idx)
+        used_fr.add(fr_idx)
+        manual_matches += 1
+
+    print(f"Manual bilingual name matches applied: {manual_matches}")
+    return en, fr
+
+
 def coalesce_gc_orgid(gc_en: pd.Series, gc_fr: pd.Series) -> Tuple[pd.Series, pd.Series]:
     gc_orgid = []
     conflict = []
@@ -404,6 +556,7 @@ def main():
     df_en = resolve_gc_orgids(df_en, "en", en_exact, en_fuzzy)
     df_fr = resolve_gc_orgids(df_fr, "fr", fr_exact, fr_fuzzy)
     df_en, df_fr = apply_alternate_url_pairing(df_en, df_fr)
+    df_en, df_fr = apply_manual_name_pairing(df_en, df_fr)
 
     print("EN gcOrgID match methods:")
     print(df_en["match_method_en"].value_counts(dropna=False).to_string())
@@ -411,12 +564,14 @@ def main():
     print(df_fr["match_method_fr"].value_counts(dropna=False).to_string())
 
     df_en["row_key"] = df_en["gc_orgID_en"].map(lambda x: f"gc:{int(x)}" if pd.notna(x) else None)
+    df_en["row_key"] = df_en["row_key"].fillna(df_en["manual_row_key"])
     df_en["row_key"] = df_en["row_key"].fillna(df_en["alternate_row_key"])
     df_en["row_key"] = df_en["row_key"].fillna(
         df_en["url_key"].map(lambda x: f"url:{x}" if isinstance(x, str) else pd.NA)
     )
 
     df_fr["row_key"] = df_fr["gc_orgID_fr"].map(lambda x: f"gc:{int(x)}" if pd.notna(x) else None)
+    df_fr["row_key"] = df_fr["row_key"].fillna(df_fr["manual_row_key"])
     df_fr["row_key"] = df_fr["row_key"].fillna(df_fr["alternate_row_key"])
     df_fr["row_key"] = df_fr["row_key"].fillna(
         df_fr["url_key"].map(lambda x: f"url:{x}" if isinstance(x, str) else pd.NA)
