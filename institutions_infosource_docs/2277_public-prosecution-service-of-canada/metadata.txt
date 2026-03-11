@@ -1,0 +1,5 @@
+institution_name_en: Public Prosecution Service of Canada
+institution_name_fr: Service des poursuites pénales du Canada
+gc_orgID: 2277
+infosource_url_en: https://www.ppsc-sppc.gc.ca/eng/tra/is/index.html
+infosource_url_fr: https://www.ppsc-sppc.gc.ca/fra/tra/is/index.html

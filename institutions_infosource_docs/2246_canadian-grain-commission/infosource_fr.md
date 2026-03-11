@@ -1,0 +1,332 @@
+# Info Source : Sources de renseignements du gouvernement fÃ©dÃ©ral et sur les fonctionnaires fÃ©dÃ©raux
+
+## Table des matiÃ¨res
+
+* [PrÃ©sentation dâInfo Source](#en4878)
+* [Renseignements gÃ©nÃ©raux sur la Commission canadienne des grains](#en4879)
+  + [Contexte](en4880)
+  + [ResponsabilitÃ©s](#en4881)
+* [Programmes et activitÃ©s de lâinstitution](#en5754)
+  + [Programme de la QualitÃ© des grains](#en5755)
+  + [Programme de Recherche sur les grains](#en5756)
+  + [Programme de Mesures de protection des producteurs de grain](#en5757)
+  + [Services internes](#en5758)
+  + [CatÃ©gories de renseignements personnels](#en5759)
+* [Renseignements supplÃ©mentaires](#en4887)
+
+## PrÃ©sentation dâInfo Source
+
+Info Source dÃ©crit les programmes et les activitÃ©s, ainsi que les fonds de renseignements relatifs aux programmes et aux activitÃ©s, des institutions gouvernementales assujetties Ã  la [*Loi sur lâaccÃ¨s Ã  lâinformation*](https://laws-lois.justice.gc.ca/fra/lois/a-1/) afin de faciliter le droit dâaccÃ¨s. Il fournit Ã©galement aux particuliers, y compris les employÃ©s actuels et anciens du gouvernement du Canada, des renseignements pertinents pour accÃ©der aux renseignements personnels les concernant dÃ©tenus par des institutions gouvernementales assujetties Ã  la [*Loi sur la protection des renseignements personnels*](https://laws-lois.justice.gc.ca/fra/lois/p-21/index.html) et pour exercer leurs droits en vertu de la *Loi sur la protection des renseignements personnels*.
+
+Un accÃ¨s central permet de consulter une [liste des institutions assujetties](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/sources-renseignements-gouvernement-federal-fonctionnaires-federaux.html) Ã  la *Loi sur lâaccÃ¨s Ã  lâinformation* et Ã  la *Loi sur la protection des renseignements personnels*.
+
+La *Loi sur lâaccÃ¨s Ã  lâinformation* et la *Loi sur la protection des renseignements personnels* attribuent au PrÃ©sident du Conseil du TrÃ©sor (Ã  titre de ministre responsable) la responsabilitÃ© gÃ©nÃ©rale de lâadministration pangouvernementale des lois.
+
+## Renseignements gÃ©nÃ©raux sur la Commission canadienne des grains
+
+### Contexte
+
+CrÃ©Ã©e en 1912, la Commission canadienne des grains est lâorganisme fÃ©dÃ©ral responsable de lâadministration des dispositions de la [*Loi sur les grains du Canada*](http://laws-lois.justice.gc.ca/fra/lois/G-10/index.html).
+
+Relevant du Parlement, par lâentremise du ministre de lâAgriculture et de lâAgroalimentaire, la Commission canadienne des grains est dirigÃ©e par une commission composÃ©e de trois membres, soit un commissaire en chef, un commissaire en chef adjoint et un commissaire.
+
+ConformÃ©ment Ã  la *Loi sur les grains du Canada*, la Commission canadienne des grains Ã©tablit et maintient des normes de qualitÃ© pour le grain canadien et rÃ©git la manutention des grains au Canada pour garantir un produit fiable pour les marchÃ©s intÃ©rieurs et dâexportation. En tant quâorganisme officiel de certification des exportations de grain canadien, la Commission canadienne des grains a le mandat dâentreprendre, de parrainer et de promouvoir des travaux de recherche sur les grains et les produits cÃ©rÃ©aliers.
+
+Des renseignements supplÃ©mentaires sur lâ[historique](/fr/propos-nous/org/historique.html), le [mandat, la vision et les valeurs](/fr/propos-nous/org/mandat.html) de la Commission canadienne des grains sont accessibles sur le site Web de la Commission canadienne des grains.
+
+### ResponsabilitÃ©s
+
+ConformÃ©ment Ã  la *Loi sur les grains du Canada*, la Commission canadienne des grains a pour mission Â« de fixer et de faire respecter, au profit des producteurs de grain, des normes de qualitÃ© pour le grain canadien et de rÃ©gir la manutention des grains au pays afin dâen assurer la fiabilitÃ© sur les marchÃ©s intÃ©rieur et extÃ©rieur Â». Sa vision est la suivante : Â« Ãªtre un fournisseur de classe mondiale en matiÃ¨re de services dâassurance de la qualitÃ© fondÃ©s sur la science Â».
+
+La rÃ©glementation du grain, soit la rÃ©glementation de la manutention du grain au Canada ainsi que lâÃ©tablissement et le maintien de normes fondÃ©es sur la science pour le grain canadien, est la responsabilitÃ© essentielle de la Commission canadienne des grains. Elle rÃ©git la manutention de 21 grains[Note de bas de page1](#fn1) cultivÃ©s au Canada pour protÃ©ger les droits des producteurs et assurer lâintÃ©gritÃ© des transactions de grain.
+
+Comme la rÃ©glementation du grain est la responsabilitÃ© essentielle de la Commission canadienne des grains, il en rÃ©sulte pour le MinistÃ¨re que les marchÃ©s canadien et internationaux estiment que le grain canadien est fiable et salubre et que les producteurs sont dÃ»ment rÃ©munÃ©rÃ©s pour leur grain. La Commission canadienne des grains appuie cette responsabilitÃ© essentielle par lâentremise des programmes Suivants : QualitÃ© des grains, Recherche sur les grains et Mesures de protection des producteurs de grain.
+
+Des renseignements supplÃ©mentaires sur les politiques et procÃ©dures de la Commission canadienne des grains sont accessibles sur le [site Web de la Commission canadienne des grains](/fr/industrie/politique/).
+
+## Programmes et activitÃ©s de lâinstitution
+
+### Programme de la qualitÃ© des grains
+
+La prestation du programme de QualitÃ© des grains est assurÃ©e en conformitÃ© avec les responsabilitÃ©s de la Commission canadienne des grains, en vertu de la *Loi sur les grains du Canada* : fixer et faire respecter des normes de qualitÃ© pour le grain canadien et rÃ©gir la manutention des grains au pays afin dâen assurer la fiabilitÃ© sur les marchÃ©s intÃ©rieur et extÃ©rieur. La Commission canadienne des grains Ã©tablit des normes et des procÃ©dures et crÃ©e du matÃ©riel pour assurer le classement, lâÃ©chantillonnage, lâinspection, la pesÃ©e et dâautres aspects de la manutention des grains au Canada. De plus, la Commission canadienne des grains Ã©labore, examine et analyse les politiques relatives aux grains et Ã  la qualitÃ© des grains. Lâinspection des grains, lâÃ©valuation de la salubritÃ© des grains, les services de salubritÃ© des grains, les services dâanalyse et de classement des grains, la supervision de la pesÃ©e, ainsi que la surveillance et lâanalyse de lâinnocuitÃ© et de la qualitÃ© des grains font partie intÃ©grante du systÃ¨me dâassurance de la qualitÃ© des grains du Canada. De plus, la Commission canadienne des grains recueille et publie de lâinformation sur le grain canadien. Les groupes ciblÃ©s pour ce programme sont les producteurs et lâindustrie agricole du Canada. Le programme est entiÃ¨rement financÃ© par les revenus tirÃ©s des droits de service.
+
+#### ActivitÃ©s dâinspection des grains (CatÃ©gorie de documents)
+
+* **Description** : Documentation sur lâinspection et le classement des Ã©chantillons et des criblures de grains prÃ©levÃ©s par les employÃ©s de la Commission canadienne des grains ou soumis par les membres de lâindustrie des grains; rapports statistiques sur les activitÃ©s du rÃ©seau de manutention des grains agrÃ©Ã©.
+* **Types de documents :** Rapports sur la qualitÃ© des Ã©chantillons soumis, rapports sur la qualitÃ© des grains manutentionnÃ©s par les silos terminaux agrÃ©Ã©s, rapports sur le traitement spÃ©cial des grains dans les silos terminaux agrÃ©Ã©s, rapports dâinspection des silos et de lutte contre les infestations, Ã©chantillons-types dâexportation, rapports de rÃ©inspection.
+* **NumÃ©ro du dossier :** CGC 565
+* ##### Dossier des Ã©chantillons non officiels (Fichier de renseignements personnels)
+
+  + **Description :** Comprend des renseignements comme le nom du producteur et celui du demandeur ainsi que la qualitÃ© de lâÃ©chantillon.
+  + **CatÃ©gorie de personnes :** Producteurs de grain et compagnies cÃ©rÃ©aliÃ¨res.
+  + **But :** Tenir compte de tous les Ã©chantillons non officiels soumis aux fins de classement par les inspecteurs des grains.
+  + **Usages compatibles :** Aucun
+  + **Normes de conservation et de destruction :** Ã Ãªtre dÃ©terminÃ©es par BibliothÃ¨que et Archives Canada.
+  + **NumÃ©ro ADD :** CGC 2017/014
+  + **Renvoi au document no :** CGC 565
+  + **Enregistrement (SCT) :** 001718
+  + **NumÃ©ro de fichier :** CGC PPU 215
+
+#### PesÃ©e des grains (CatÃ©gorie de documents)
+
+* **Description :** Ces documents portent sur ce qui suit : surveillance de la pesÃ©e des grains par la Commission canadienne des grains aux silos terminaux agrÃ©Ã©s, inspections des systÃ¨mes de pesÃ©e et de distribution, enquÃªtes sur les plaintes relatives Ã  la pesÃ©e, surveillance de la conformitÃ© des appareils de pesÃ©e aux silos, inspections des balances de table de la Commission canadienne des grains, planification et contrÃ´le.
+* **Types de documents :** Documents relatifs Ã  la pesÃ©e soumis par les silos terminaux agrÃ©Ã©s, rapports dâinspection des appareils de pesÃ©e, rapports sur les plaintes et les enquÃªtes, rapports de vÃ©rification, documents de planification et de contrÃ´le.
+* **NumÃ©ro du dossier :** CGC 580
+
+### Programme de recherche sur les grains
+
+En vertu de la *Loi sur les grains du Canada*, la Commission canadienne des grains doit entreprendre, parrainer et promouvoir des travaux de recherche sur les grains et les produits cÃ©rÃ©aliers. La recherche sert de fondement Ã  lâÃ©tablissement des caractÃ©ristiques des grades du grain canadien et au systÃ¨me dâassurance de la qualitÃ© des grains du Canada. La Commission canadienne des grains effectue des travaux de recherche et en fait la promotion, et elle met au point des technologies et des procÃ©dures scientifiques servant Ã  la dÃ©termination de la salubritÃ© et de la qualitÃ© des grains. De plus, la Commission canadienne des grains Ã©value la qualitÃ© des rÃ©coltes de grain canadien et Ã©tudie comment les facteurs de classement influencent les propriÃ©tÃ©s du produit en cours dâutilisation finale. La Commission canadienne des grains met aussi au point de nouvelles utilisations pour le grain canadien et Ã©value les nouvelles variÃ©tÃ©s dans le cadre du processus dâenregistrement des variÃ©tÃ©s. La Commission canadienne des grains Ã©labore, examine et analyse des politiques relatives Ã  la qualitÃ© et Ã  la salubritÃ© des grains. Ce programme bÃ©nÃ©ficie Ã  lâensemble des Canadiens en tant que consommateurs de grains et de produits cÃ©rÃ©aliers. Le programme de Recherche sur les grains est financÃ© par les revenus tirÃ©s des droits de service et des crÃ©dits budgÃ©taires. La cible de ce programme est lâindustrie agricole et le programme de QualitÃ© des grains de la Commission canadienne des grains.
+
+#### Recherche sur les cultures
+
+Les programmes de recherche sur les cultures offrent du soutien Ã  la recherche dans les domaines du blÃ© panifiable et du blÃ© dur, de la mouture et du maltage, de lâorge et dâautres grains, des lÃ©gumineuses et des olÃ©agineux. La recherche sur les cultures vise Ã  Ã©valuer la qualitÃ© des rÃ©coltes au Canada et Ã  Ã©tudier comment les facteurs de classement, la composition et les caractÃ©ristiques physiques des grains influent sur les propriÃ©tÃ©s Ã  lâutilisation finale. Elle vise Ã©galement Ã  examiner de nouvelles utilisations innovantes du grain canadien et Ã  Ã©valuer de nouvelles variÃ©tÃ©s dans le cadre du processus dâenregistrement des variÃ©tÃ©s. Dans le cadre du systÃ¨me canadien dâassurance de la qualitÃ©, les programmes de recherche sur les cultures participent Ã  la surveillance des cargaisons pour Ã©valuer la qualitÃ© et la salubritÃ© des expÃ©ditions destinÃ©es Ã  lâexportation.
+
+#### Fichiers sur la recherche sur les cultures (CatÃ©gorie de documents)
+
+* **Description** : Peut inclure des dossiers liÃ©s Ã  la recherche sur la qualitÃ© des rÃ©coltes de blÃ© panifiable et de blÃ© dur, la mouture et le maltage de lâorge et dâautres grains (avoine, sarrasin, graine Ã  canaris), les lÃ©gumineuses et les olÃ©agineux (canola, colza, lin, soja et moutarde). Lâanalyse de la qualitÃ© des Ã©chantillons fournit des renseignements sur les caractÃ©ristiques de qualitÃ© des cultures, la fonctionnalitÃ© et la performance des grains canadiens (cÃ©rÃ©ales, lÃ©gumineuses et olÃ©agineux) et sert Ã  Ã©valuer la fonctionnalitÃ© Ã  lâutilisation finale, ainsi quâÃ  amÃ©liorer les mÃ©thodes et procÃ©dures dâanalyse et en Ã©laborer de nouvelles. Les activitÃ©s de surveillance de la qualitÃ© des cargaisons permettent dâassurer que les exportations satisfont aux exigences en matiÃ¨re de salubritÃ©.
+* **Types de documents :** Ententes, demandes de renseignements, consultations, notes dâinformation, conseils, publications de recherche, donnÃ©es sur la qualitÃ© des rÃ©coltes, rapports scientifiques, bulletins techniques, descriptions de projet, exposÃ©s, ensembles de donnÃ©es, propriÃ©tÃ© intellectuelle, information statistique.
+* **NumÃ©ro du dossier :** CGC 575
+
+#### Recherche sur les technologies
+
+Les programmes de recherche sur les technologies servent Ã  Ã©valuer et Ã  Ã©laborer des mÃ©thodes utilisÃ©es pour Ã©valuer la qualitÃ© et la salubritÃ© du grain canadien dans les domaines suivants : analyse de substances organiques et dâÃ©lÃ©ments Ã  lâÃ©tat de trace, microbiologie et gÃ©nomique des grains, services analytiques, et biotechnologie des grains. La Commission canadienne des grains surveille les rÃ©coltes et les cargaisons de grain destinÃ© Ã  lâexportation. De la recherche est effectuÃ©e en lien avec les pesticides, les mycotoxines, les biomarqueurs fongiques et lâanalyse des Ã©lÃ©ments, dont les mÃ©taux lourds, pour assurer la qualitÃ© des grains et prÃ©venir lâentrÃ©e de grain contaminÃ© dans le rÃ©seau de manutention des grains. De nouveaux outils et de nouvelles technologies sont mis au point pour la dÃ©tection, lâidentification et la caractÃ©risation de microorganismes associÃ©s aux grains canadiens et aux produits Ã  base de grains canadiens. Des mÃ©thodes fondÃ©es sur lâADN sont mises au point pour identifier et quantifier les organismes gÃ©nÃ©tiquement modifiÃ©s dans les grains et olÃ©agineux.
+
+#### Fichiers sur la recherche sur les technologies (CatÃ©gorie de documents)
+
+* **Description** : Peut inclure des dossiers liÃ©s Ã  lâÃ©valuation de la qualitÃ© et de la salubritÃ© des grains et Ã  la surveillance des cargaisons de grain destinÃ© Ã  lâexportation, Ã  lâanalyse dâÃ©chantillons pour appuyer les services dâinspection de la Commission canadienne des grains, et Ã  lâÃ©laboration de nouvelles technologies pour la dÃ©tection, lâidentification et la caractÃ©risation de microorganismes. Les activitÃ©s de surveillance de la qualitÃ© des cargaisons permettent dâassurer que les exportations satisfont aux exigences en matiÃ¨re de salubritÃ© ainsi que de dÃ©tecter le grain contaminÃ© et prÃ©venir son entrÃ©e dans le rÃ©seau de manutention des grains.
+* **Types de documents :** Ententes, demandes de renseignements, consultations, notes dâinformation, conseils, publications de recherche, donnÃ©es sur la salubritÃ© des cultures, rapports scientifiques, bulletins techniques, descriptions de projet, exposÃ©s, ensembles de donnÃ©es, propriÃ©tÃ© intellectuelle, information statistique.
+* **NumÃ©ro du dossier :** CGC 575
+
+### Programme de mesures de protection des producteurs de grain
+
+ConformÃ©ment Ã  la *Loi sur les grains du Canada*, la Commission canadienne des grains rÃ©git la manutention des grains pour sâassurer que les producteurs de grain canadiens reÃ§oivent une juste rÃ©munÃ©ration lorsquâils livrent du grain Ã  des compagnies cÃ©rÃ©aliÃ¨res agrÃ©Ã©es. Cela comprend un programme de protection du paiement pour les producteurs qui livrent du grain Ã  un silo ou un nÃ©gociant en grains agrÃ©Ã© par la Commission canadienne des grains, des services offrant des renseignements sur le grade aux agriculteurs avant la livraison et la dÃ©termination exÃ©cutoire du grade et du taux d'impuretÃ©s en cas de diffÃ©rend. La Commission canadienne des grains attribue Ã©galement des wagons de producteurs disponibles aux producteurs qui souhaitent expÃ©dier leur propre grain. De plus, la Commission canadienne des grains Ã©labore, examine et analyse des politiques concernant les mesures de protection des producteurs de grain. Le programme est entiÃ¨rement financÃ© par les revenus tirÃ©s des droits de service.
+
+### AgrÃ©ment et garantie
+
+Aux termes de la *Loi sur les grains du Canada*, la Commission canadienne des grains dÃ©livre des licences aux compagnies cÃ©rÃ©aliÃ¨res ou les exempte de lâobligation de dÃ©tenir une licence. LâunitÃ© chargÃ©e de lâagrÃ©ment et de la garantie veille Ã  ce que les demandeurs de licences satisfassent aux exigences relatives Ã  lâobtention et au maintien des licences. Les principaux objectifs consistent Ã  assurer la protection des producteurs, Ã  faciliter le fonctionnement des systÃ¨mes dâassurance de la qualitÃ© et de la quantitÃ© des grains et Ã  rÃ©glementer le rÃ©seau de manutention des grains. De faÃ§on gÃ©nÃ©rale, les compagnies cÃ©rÃ©aliÃ¨res suivantes doivent dÃ©tenir au moins une licence de la Commission canadienne des grains ou Ãªtre exemptÃ©es de lâobligation de dÃ©tenir une licence : celles qui font des affaires Ã  titre de nÃ©gociant en grains et achÃ¨tent du grain de lâOuest de producteurs, celles qui exploitent un silo situÃ© dans la rÃ©gion de lâOuest, et celles qui exploitent un silo situÃ© dans la rÃ©gion de lâEst, le long de la Voie maritime du Saint-Laurent et le long des Grands Lacs.
+
+#### Fichiers sur lâagrÃ©ment et la garantie (CatÃ©gorie de documents)
+
+* **Description** : Peut inclure de lâinformation relative Ã  lâagrÃ©ment des nÃ©gociants en grains et des silos, notamment le passif dÃ©clarÃ© et la garantie dÃ©posÃ©e. Chaque mois, les titulaires de licence doivent prÃ©senter Ã  la Commission canadienne des grains un rapport sur leur passif, ce qui permet Ã  la Commission canadienne des grains de surveiller le risque que les producteurs ne soient pas rÃ©munÃ©rÃ©s pour le grain quâils livrent et dâÃ©tablir le montant de la garantie que chaque titulaire de licence doit fournir afin de couvrir les dettes impayÃ©es.
+* **Types de documents :** Demandes de licence, statuts constitutifs, modes de fonctionnement, documents relatifs Ã  la garantie, rapports sur le passif, certificats de licence, avis de construction ou de rÃ©novation dâun silo, renseignements sur le silo indiquant la capacitÃ© de stockage, annÃ©e de construction et emplacement, certificats dâexamen dâappareils, accusÃ©s de rÃ©ception, rÃ©cÃ©pissÃ©s de silo, bons de paiement, Ã©tats financiers, documents dâorientation, consultations, notes dâinformation, correspondance ministÃ©rielle, mÃ©moires au Cabinet, dÃ©clarations des dettes Ã  lâÃ©gard des producteurs, formulaires de demande de paiement, et achats annuels de grain auprÃ¨s de producteurs.
+* **NumÃ©ro du dossier :** CGC 588
+
+#### Attribution de wagons de producteurs
+
+En vertu de la *Loi sur les grains du Canada* et du *RÃ¨glement sur les grains du Canada*, la Commission canadienne des grains offre un mÃ©canisme de rechange aux producteurs qui dÃ©sirent expÃ©dier eux-mÃªmes leur grain par wagons. La Commission canadienne des grains travaille en Ã©troite collaboration avec lâindustrie cÃ©rÃ©aliÃ¨re et les sociÃ©tÃ©s ferroviaires afin que les commandes de wagons de producteurs soient remplies en temps utile. La Commission canadienne des grains a la responsabilitÃ© exclusive de lâattribution des wagons de producteurs disponibles pour tous les grains dÃ©signÃ©s par la Commission canadienne des grains.
+
+#### Fichiers dâattribution de wagons de producteurs (CatÃ©gorie de documents)
+
+* **Description :** Peut comprendre les dossiers liÃ©s aux demandes de wagons de producteurs. Les demandes de wagons de producteurs renferment des renseignements tels que le nom du producteur, son adresse de courriel, le numÃ©ro de la demande, le type, la qualitÃ© et la quantitÃ© de grain, et le numÃ©ro dâidentification du producteur, renseignements utilisÃ©s en vue dâattribuer des wagons de producteurs. On recueille Ã©galement des renseignements auprÃ¨s des nÃ©gociants en grains agrÃ©Ã©s en vue dâattribuer des wagons de producteurs.
+* **Types de documents :** Demandes; lettres; expÃ©ditions par numÃ©ro de wagon de producteurs; renseignements relatifs au calendrier Ã©tabli et rapports.
+* **NumÃ©ro du dossier :** CGC 587
+* ##### Fichiers de demande de wagons de producteurs (Fichier de renseignements personnels)
+
+  + **Description :** Correspondance et demandes de wagons de producteurs, classÃ©es par ordre chronologique de rÃ©ception et comportant des renseignements, tels que le nom du producteur, son adresse de courriel, le numÃ©ro de la demande, le type, la qualitÃ© et la quantitÃ© de grains, et le numÃ©ro dâidentification du producteur.
+  + **CatÃ©gorie de personnes :** Producteurs de grain.
+  + **But :** Attribuer des wagons ferroviaires aux producteurs de grain pour acheminer leur grain vers les destinations, tel que prÃ©vu Ã  lâarticle 87 de la *Loi sur les grains du Canada*.
+  + **Usages compatibles :** Aucun
+  + **Normes de conservation et de destruction :** Ã Ãªtre dÃ©terminÃ©es par BibliothÃ¨que et Archives Canada
+  + **NumÃ©ro ADD :** CGC 2017/014
+  + **Renvoi au document no :** CGC 587
+  + **Enregistrement (SCT) :** 001716
+  + **NumÃ©ro de fichier :** CGC PPU 205
+
+#### Renseignements statistiques (CatÃ©gorie de documents)
+
+* **Description :** Administrer les exigences rÃ©glementaires en matiÃ¨re de rapports statistiques pour toutes les catÃ©gories de licence, examiner et mettre Ã  jour les tableaux officiels de poids spÃ©cifique de la Commission canadienne des grains (c.-Ã -d. poids dâun boisseau), analyser les services de la Commission canadienne des grains liÃ©es aux cargaisons des navires et aux Ã©chantillons soumis et en faire rapport pour appuyer les activitÃ©s de programme de la Commission canadienne des grains. Assurer la liaison avec les ministÃ¨res provinciaux et fÃ©dÃ©raux et les intervenants pour la collecte et lâÃ©change des donnÃ©es. Lâexpertise technique et statistique appuie les activitÃ©s de recherche et les normes dâÃ©chantillonnage. Analyse des donnÃ©es dâenquÃªtes et prÃ©vision des volumes de grain pertinentes pour les droits.
+* **Types de documents :** Formulaires de rapport statistique rÃ©glementaire pour toutes les catÃ©gories de licence. Rapports hebdomadaires, mensuels et annuels sur les recettes commerciales, les expÃ©ditions et les stocks de grain canadien dans les installations agrÃ©Ã©es. Rapports annuels globaux sur les superficies assurÃ©es par les provinces pour les variÃ©tÃ©s de grain. RÃ©sumÃ©s des tarifs des silos et livraisons des producteurs aux silos primaires et silos de transformation agrÃ©Ã©s par campagne agricole.
+* **NumÃ©ro du dossier :** CGC 570
+
+### Services internes
+
+Les services internes sont des groupes dâactivitÃ©s et de ressources connexes qui sont gÃ©rÃ©s de faÃ§on Ã  rÃ©pondre aux besoins des programmes et des autres obligations gÃ©nÃ©rales dâune organisation. Ces groupes sont les suivants : [services de gestion des acquisitions](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/services-internes.html#acq); [services des communications](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/services-internes.html#comm); [services de gestion des finances](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/services-internes.html#sgf); [services de gestion des ressources humaines](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/services-internes.html#sgrh); [services de gestion de lâinformation](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/services-internes.html#sgi); [services de la technologie de lâinformation](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/services-internes.html#sti); [services juridiques](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/services-internes.html#sj); [services de gestion et de surveillance](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/services-internes.html#sgs); [services de gestion du matÃ©riel](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/services-internes.html#sgmat); [services de gestion des biens](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/services-internes.html#sgbi); [services de gestion des voyages et autres services administratifs](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/services-internes.html#sgvsa). Les services internes comprennent uniquement les activitÃ©s et les ressources destinÃ©es Ã  lâensemble dâune organisation et non celles fournies Ã  un programme particulier.
+
+#### Services de gestion des acquisitions
+
+ActivitÃ©s mises en Åuvre dans le but de se procurer les biens et les services requis pour rÃ©pondre Ã  une demande dÃ»ment remplie (y compris une dÃ©finition complÃ¨te et prÃ©cise des exigences et la garantie que les fonds sont disponibles), et ce, jusquâÃ  la passation ou Ã  la modification dâun marchÃ©.
+
+* [CatÃ©gorie de document en matiÃ¨re dâapprovisionnement et marchÃ©s](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#npd912)
+  + [Fichier de renseignements personnels sur les marchÃ©s de services professionnels](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#pou912)
+
+#### Services de communications
+
+ActivitÃ©s mises en Åuvre afin de veiller Ã  ce que les communications du gouvernement du Canada soient gÃ©rÃ©es efficacement, bien coordonnÃ©es et rÃ©pondent aux divers besoins dâinformation du public. La fonction de gestion des communications assure la diffusion de renseignements gouvernementaux au public interne et externe ainsi que la prise en considÃ©ration de ses prÃ©occupations et intÃ©rÃªts dans la planification, la gestion et lâÃ©valuation des politiques, des programmes, des services et des initiatives.
+
+* [CatÃ©gorie de document en matiÃ¨re des communications](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#npd939)
+  + [Fichier de renseignements personnels sur les communications internes](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#pou915)
+  + [Fichier de renseignements personnels sur les communications publiques](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#pou914)
+
+#### Services de gestion financiÃ¨re
+
+ActivitÃ©s visant Ã  assurer lâutilisation responsable des ressources publiques comme la planification, la gestion budgÃ©taire, la comptabilitÃ©, la production de rapports, le contrÃ´le et la surveillance, lâanalyse, les conseils et le soutien au processus dÃ©cisionnel, ainsi que les systÃ¨mes financiers.
+
+* [CatÃ©gorie de document en matiÃ¨re de gestion financiÃ¨re](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#npd914)
+  + [Fichier de renseignements personnels sur les cartes dâachat](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#pou940)
+  + [Fichier de renseignements personnels sur les comptes crÃ©diteurs](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#pou931)
+  + [Fichier de renseignements personnels sur les comptes dÃ©biteurs](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#pou932)
+
+#### Services de gestion des ressources humaines
+
+ActivitÃ©s de dÃ©termination de lâorientation stratÃ©gique, dâaffectation des ressources entre les services et les processus et activitÃ©s liÃ©es Ã  lâanalyse des risques et Ã  la dÃ©termination des mesures dâattÃ©nuation Ã  prendre. Elles permettent de veiller Ã  ce que les services et les programmes du gouvernement fÃ©dÃ©ral respectent les lois, les rÃ¨glements, les politiques et les plans applicables.
+
+* [CatÃ©gorie de document en matiÃ¨re dâaccueil](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#npd933)
+  + [Fichier de renseignements personnels sur lâaccueil](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#pou908)
+* [CatÃ©gorie de document en matiÃ¨re de classification des postes](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#npd919)
+  + [Fichier de renseignements personnels sur la dotation](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#poe9021)
+* [CatÃ©gorie de document en matiÃ¨re dâÃ©quitÃ© en matiÃ¨re dâemploi et diversitÃ©](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#npd942)
+  + [Fichier de renseignements personnels sur lâÃ©quitÃ© en emploi et la diversitÃ©](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#poe918)
+* [CatÃ©gorie de document en matiÃ¨re dâÃ©valuation de la gestion du rendement](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#npd946)
+  + [Fichier de renseignements personnels sur le programme de gestion du rendement des employÃ©s](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#poe912)
+  + [Fichier de renseignements personnels sur les mesures disciplinaires](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#poe911)
+* [CatÃ©gorie de document en matiÃ¨re de formation et perfectionnement](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#npd927)
+  + [Fichier de renseignements personnels sur la formation et le perfectionnement](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#poe905)
+* [CatÃ©gorie de document en matiÃ¨re des langues officielles](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#npd923)
+  + [Fichier de renseignements personnels sur les langues officielles](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#poe906)
+* [CatÃ©gorie de document en matiÃ¨re de planification des ressources humaines](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#npd949)
+  + [Fichier de renseignements personnels sur la planification des ressources humaines](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#pou935)
+* [CatÃ©gorie de document en matiÃ¨re des prix (FiertÃ© et reconnaissance)](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#npd940)
+  + [Fichier de renseignements personnels sur le programme de reconnaissance](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#poe920)
+* CatÃ©gorie de document en matiÃ¨re de recrutement et dotation
+  + [Fichier de renseignements personnels sur le code de valeurs et dâÃ©thique du secteur public et les codes de conduite organisationnels](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#poe915)
+  + [Fichier de renseignements personnels sur le contrÃ´le de sÃ©curitÃ© du personnel](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#pou917)
+  + [Fichier de renseignements personnels sur les demandes dâemploi](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou911)
+  + [Fichier de renseignements personnels sur le dossier personnel de lâemployÃ©](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#poe901)
+  + [Fichier de renseignements personnels sur la dotation](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#poe9021)
+* [CatÃ©gorie de document en matiÃ¨re des relations de travail](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#npd926)
+  + [Fichier de renseignements personnels sur le code de valeurs et dâÃ©thique du secteur public et les codes de conduite organisationnels](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#poe915)
+  + [Fichier de renseignements personnels sur la divulgation dâinformation sur les actes fautifs commis en milieu de travail](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#pou906)
+  + [Fichier de renseignements personnels sur les griefs](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#poe910)
+  + [Fichier de renseignements personnels sur le harcÃ¨lement](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#poe919)
+  + [Fichier de renseignements personnels sur les mesures disciplinaires](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#poe911)
+* [CatÃ©gorie de document en matiÃ¨re de rÃ©installation](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#npd936)
+  + [Fichier de renseignements personnels sur la rÃ©installation](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#pou910)
+* [CatÃ©gorie de document en matiÃ¨re de rÃ©munÃ©ration et avantages sociaux](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#npd924)
+  + [Fichier de renseignements personnels sur les prÃ©sences et les congÃ©s](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#poe903)
+  + [Fichier de renseignements personnels sur la rÃ©munÃ©ration et les avantages](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#poe904)
+* [CatÃ©gorie de document en matiÃ¨re de santÃ© et sÃ©curitÃ© au travail](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#npd922)
+  + [Fichier de renseignements personnels sur le harcÃ¨lement](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#poe919)
+  + [Fichier de renseignements personnels sur la santÃ© et la sÃ©curitÃ© au travail](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#poe9071)
+
+#### Services de gestion de lâinformation
+
+ActivitÃ©s visant Ã  assurer une gestion efficiente et efficace de lâinformation Ã  lâappui de la prestation de programme et de services, Ã  faciliter la prise de dÃ©cisions Ã©clairÃ©es, Ã  faciliter la reddition des comptes, la transparence et la collaboration, ainsi quâÃ  conserver lâinformation et les documents pour le bÃ©nÃ©fice de la prÃ©sente gÃ©nÃ©ration et des gÃ©nÃ©rations futures en veillant Ã  ce quâils demeurent accessibles.
+
+* [CatÃ©gorie de document en matiÃ¨re dâaccÃ¨s Ã  lâinformation et protection des renseignements personnels](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#npd930)
+  + [Fichier de renseignements personnels sur les demandes en vertu de la *Loi sur lâaccÃ¨s Ã  lâinformation* et de la *Loi sur la protection des renseignements personnels*](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#pou901)
+* [CatÃ©gorie de document en matiÃ¨re de gestion de lâinformation](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#npd944)
+  + [Fichier de renseignements personnels sur les services de bibliothÃ¨que](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#pou936)
+
+#### Services de technologie de lâinformation
+
+ActivitÃ©s dont le but est dâassurer lâutilisation efficiente et efficace de la technologie de lâinformation, Ã  lâappui des prioritÃ©s gouvernementales et de la mise en Åuvre de programmes afin dâaccroÃ®tre la productivitÃ© et dâamÃ©liorer les services offerts au public.
+
+* [CatÃ©gorie de document en matiÃ¨re de technologie de lâinformation](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#npd932)
+  + [Fichier de renseignements personnels sur les journaux de contrÃ´le des rÃ©seaux Ã©lectroniques](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#pou905)
+
+#### Services juridiques
+
+ActivitÃ©s permettant aux ministÃ¨res et organismes de rÃ©aliser les prioritÃ©s et dâatteindre les objectifs associÃ©s Ã  leurs politiques, programmes et services dans un cadre juridique appropriÃ©.
+
+* [CatÃ©gorie de document en matiÃ¨re des services juridiques](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#npd902)
+
+#### Services de gestion et de surveillance
+
+ActivitÃ©s de dÃ©termination de lâorientation stratÃ©gique, dâaffectation des ressources entre les services et les processus et activitÃ©s liÃ©es Ã  lâanalyse des risques et Ã  la dÃ©termination des mesures dâattÃ©nuation Ã  prendre. Elles permettent de veiller Ã  ce que les services et les programmes du gouvernement fÃ©dÃ©ral respectent les lois, les rÃ¨glements, les politiques et les plans qui sâappliquent.
+
+* [CatÃ©gorie de document en matiÃ¨re de coopÃ©ration et liaison](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#npd904)
+* [CatÃ©gorie de document en matiÃ¨re de planification et Ã©tablissement de rapports](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#npd947)
+* [CatÃ©gorie de document en matiÃ¨re des services Ã  la haute direction](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#npd943)
+* CatÃ©gorie de document en matiÃ¨re de vÃ©rification interne et Ã©valuation
+
+#### Services de gestion du matÃ©riel
+
+ActivitÃ©s visant Ã  assurer, de la part des ministÃ¨res, une gestion du matÃ©riel durable et responsable sur le plan financier afin de soutenir lâexÃ©cution rentable et efficace des programmes gouvernementaux.
+
+* [CatÃ©gorie de document en matiÃ¨re de gestion du matÃ©riel](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#npd945)
+
+#### Services de gestion des biens immobiliers
+
+ActivitÃ©s ayant pour objet dâassurer une gestion des biens immobiliers durable et responsable sur le plan financier, tout au long de leur cycle de vie, afin de soutenir lâexÃ©cution rentable et efficace des programmes gouvernementaux.
+
+* [CatÃ©gorie de document en matiÃ¨re de gestion des biens immobiliers](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#npd948)
+
+#### Services de gestion de voyages et autres services administratifs
+
+Ces services comprennent les services de voyages du gouvernement du Canada, ainsi que les autres services internes qui ne correspondent Ã  aucune autre catÃ©gorie de services internes.
+
+* [CatÃ©gorie de document en matiÃ¨re des conseils dâadministration, comitÃ©s et conseils](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#npd938)
+  + [Fichier de renseignements personnels sur les membres de conseils dâadministration, de comitÃ©s et de conseils](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#pou919)
+* [CatÃ©gorie de document en matiÃ¨re de divulgation aux organismes dâenquÃªte](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#npd937)
+* [CatÃ©gorie de document en matiÃ¨re de divulgation proactive](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#ndp935)
+* [CatÃ©gorie de document en matiÃ¨re de planification de la continuitÃ© des activitÃ©s](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#ndp928)
+* [CatÃ©gorie de document en matiÃ¨re de sÃ©curitÃ©](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#ndp931)
+  + [Fichier de renseignements personnels sur les contrÃ´les dâaccÃ¨s physique](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#poe907)
+  + [Fichier de renseignements personnels sur la divulgation dâinformation sur les actes fautifs commis en milieu de travail](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#pou906)
+  + [Fichier de renseignements personnels sur les incidents de sÃ©curitÃ© et atteintes Ã  la vie privÃ©e](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#pou939)
+* [CatÃ©gorie de document en matiÃ¨re des services administratifs](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#npd901)
+* [CatÃ©gorie de document en matiÃ¨re de voyages](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#npd934)
+  + [Fichier de renseignements personnels sur les voyages](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#pou909)
+
+## CatÃ©gories de renseignements personnels
+
+### Autres programmes et accords
+
+Cette catÃ©gorie comprend dâautres programmes et accords qui ne sont pas directement traitÃ©s dans dâautres catÃ©gories. Ces autres programmes et accords visent Ã  rÃ©soudre des problÃ¨mes prÃ©cis Ã  portÃ©e limitÃ©e ou concernant des rÃ©gions particuliÃ¨res du pays. Ces donnÃ©es peuvent porter sur la situation financiÃ¨re, les antÃ©cÃ©dents professionnels, les caractÃ©ristiques dÃ©mographiques et la scolaritÃ© des particuliers. Toutefois, elles feront partie des dossiers de nature gÃ©nÃ©rale dont les donnÃ©es ne sont pas normalement extraites Ã  partir du nom de la personne ou dâautres renseignements personnels dâidentification. Lâextraction de renseignements personnels de ce genre nÃ©cessite habituellement la connaissance des dÃ©tails du programme ou le nom du projet en question.
+
+### Manuels
+
+* CD-ROM sur lâentreposage des grains au Canada (produit conjointement avec AAC)
+* [Guide officiel du classement des grains](/fr/qualite-grains/guide-officiel-classement-grains/)
+* [Guide sur le prÃ©lÃ¨vement dâun Ã©chantillon reprÃ©sentatif](/fr/qualite-grains/echantillonnage-grain/guide-echantillon-representatif/)
+* Lexique de la Commission canadienne des grains
+* [Manuel des systÃ¨mes dâÃ©chantillonnage et Guide dâapprobation](https://grainscanada.gc.ca/fr/qualite-grains/echantillonnage-grain/manuel-systemes-dechantillonnage/manuel-systemes-dechantillonnage-1.html)
+* [Manuels des codes de sÃ©grÃ©gation des produits](/application/ProductSegSearch/ProductSegSearch-fr)
+* [MÃ©thodes et analyses pour mesurer la qualitÃ© des lÃ©gumineuses](/fr/recherche-donnees/qualite-exportations/legumineuses/methodes-et-analyses.html)
+* [MÃ©thodes et analyses pour mesurer la qualitÃ© du blÃ©](/fr/recherche-donnees/qualite-exportations/cereales/ble/methodes-et-analyses.html)
+* [MÃ©thodes et analyses servant Ã  mesurer la qualitÃ© des olÃ©agineux](/fr/recherche-donnees/qualite-exportations/oleagineux/methodes-et-analyses.html)
+* [MÃ©thodes servant Ã  mesurer la qualitÃ© de l'orge brassicole](/fr/recherche-donnees/qualite-exportations/cereales/orge-brassicole/methodes-et-analyses.html)
+* [Norme sur le chargement des navires pour la pesÃ©e officielle](/fr/industrie/politique/navire/)
+* Protection des cÃ©rÃ©ales, des olÃ©agineux et des lÃ©gumineuses Ã  grain entreposÃ©s Ã  la ferme contre les insectes, les acariens et les moisissures (brochure)
+* [Protocoles des expÃ©ditions de lin canadien](/fr/industrie/politique/protocols/)
+* [Tableaux de conversion du poids spÃ©cifique](/fr/qualite-grains/classement-des-grains/facteurs-de-classement/tableaux-de-conversion/)
+* [Tableaux de conversion pour les humidimÃ¨tres de modÃ¨le 919/3,5 pouces ou Ã©quivalent](/fr/qualite-grains/classement-des-grains/facteurs-de-classement/teneur-en-eau/tableaux-de-conversion-de-la-teneur.html)
+
+## Renseignements supplÃ©mentaires
+
+Pour obtenir des renseignements gÃ©nÃ©raux sur la faÃ§on de formuler une demande en matiÃ¨re dâaccÃ¨s Ã  lâinformation ou de renseignements personnels, veuillez consulter la rubrique [PrÃ©senter une demande dâaccÃ¨s Ã  lâinformation ou Ã  vos renseignements personnels](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/presenter-demande.html).
+
+Pour faire une demande de renseignements en ligne, veuillez accÃ©der au [Service de demandes dâaccÃ¨s Ã  lâinformation et de renseignements personnels en ligne](https://atip-aiprp.tbs-sct.gc.ca/fr/Bienvenue/Confidentialite).
+
+Pour prÃ©senter une demande de renseignements en vertu de la *Loi sur lâaccÃ¨s Ã  lâinformation* ou de la *Loi sur la protection des renseignements personnels* par la poste, veuillez envoyer votre lettre ou le formulaire de [demande dâaccÃ¨s Ã  lâinformation](https://www.tbs-sct.canada.ca/tbsf-fsct/350-57-fra.asp) (*Loi sur lâaccÃ¨s Ã  lâinformation*) ou le [formulaire de demande de renseignements personnels](https://www.tbs-sct.canada.ca/tbsf-fsct/350-58-fra.asp) (*Loi sur la protection des renseignements personnels*), ainsi que tous les documents nÃ©cessaires (comme le consentement ou les frais de demande de 5 $ pour une demande en vertu de la *Loi sur lâaccÃ¨s Ã  lâinformation*), Ã  lâadresse suivante :
+
+Coordonnateur de lâaccÃ¨s Ã  lâinformation et de la protection des renseignements personnels
+Commission canadienne des grains
+303, rue Main, bureau 600
+Winnipeg (Manitoba) R3C 3G8
+ATIP-AIPRP@grainscanada.gc.ca
+
+ConformÃ©ment Ã  la *Loi sur lâaccÃ¨s Ã  lâinformation* et Ã  la *Loi sur la protection des renseignements personnels*, une zone situÃ©e sur les lieux sera mise Ã  disposition pour examiner les documents originaux sur place si telle est la prÃ©fÃ©rence du demandeur (et sâil est pratique de le faire), ou sâil nâest pas pratique de crÃ©er des copies des documents.
+
+**Veuillez prendre note** : Chaque demande prÃ©sentÃ©e Ã  la Commission canadienne des grains en vertu de la *Loi sur lâaccÃ¨s Ã  lâinformation* doit Ãªtre accompagnÃ©e dâun droit de demande de 5 $. Pour les demandes formulÃ©es en ligne, le paiement peut se faire au moment de la demande Ã  lâaide dâune carte de crÃ©dit. Pour les demandes faites par courrier, vous devriez le faire Ã  lâaide dâun chÃ¨que ou dâun mandat-poste Ã©mis Ã  lâordre du receveur gÃ©nÃ©ral du Canada.
+
+Le gouvernement du Canada encourage la publication dâinformation par lâintermÃ©diaire de demandes en dehors du processus dâAIPRP. Pour faire une demande informelle, envoyez un courriel Ã  ATIP-AIPRP@grainscanada.gc.ca.
+
+Vous pouvez Ã©galement rechercher des rÃ©sumÃ©s de demandes dâaccÃ¨s Ã  lâinformation pour lesquelles la Commission canadienne des grains a dÃ©jÃ  fourni des rÃ©ponses : [AccÃ¨s Ã  lâinformation : Sommaires de demandes complÃ©tÃ©es](https://ouvert.canada.ca/fr/acces-linformation), car cette information peut Ãªtre plus facilement obtenue. Vous pouvez Ã©galement consulter les donnÃ©es ouvertes disponibles concernant la [Commission canadienne des grains sur Gouvernement ouvert](https://ouvert.canada.ca/data/fr/organization/cgc-ccg).
+
+La Commission canadienne des grains est tenue de mener des Ã©valuations des facteurs relatifs Ã  la vie privÃ©e (EFVP) dans le but de bien dÃ©finir, dâÃ©valuer et de minimiser les incidences sur la vie privÃ©e avant la mise en Åuvre de nouvelles activitÃ©s ou de nouveaux programmes ou dâactivitÃ©s et de programmes modifiÃ©s de faÃ§on substantielle touchant les renseignements personnels.
+
+## Notes de bas de page
+
+Note de bas de page 1
+:   Par grain, on entend les semences dÃ©signÃ©es comme tel par rÃ¨glement aux fins de la *Loi sur les grains du Canada*, soit lâavoine, le blÃ©, le canola, le colza, les fÃ©veroles, la graine Ã  canaris, la graine de carthame, la graine de moutarde, la graine de tournesol, le grain mÃ©langÃ©, les haricots, les lentilles, le lin, le maÃ¯s, lâorge, les pois, les pois chiches, le sarrasin, le seigle, le soja et le triticale.
+
+    [Retour Ã  la rÃ©fÃ©rence de la note de bas de page 1](#fn1-rf)
+
+## Ã propos du site
+
+### Commission canadienne des grains
+
+* [Contactez-nous](/fr/propos-nous/contactez-nous/)
+* [Ã propos de notre ministÃ¨re](/fr/propos-nous/org/)
+* [Nouvelles](/fr/propos-nous/medias/communiques/)

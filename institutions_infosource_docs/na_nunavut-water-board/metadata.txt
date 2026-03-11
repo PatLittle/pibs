@@ -1,0 +1,5 @@
+institution_name_en: Nunavut Water Board
+institution_name_fr: Office des eaux du Nunavut
+gc_orgID: na
+infosource_url_en: https://www.nwb-oen.ca/content/info-source-annual-report-2013-2014
+infosource_url_fr: http://www.nwb-oen.ca/fr/content/transparence

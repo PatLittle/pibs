@@ -1,0 +1,5 @@
+institution_name_en: Defence Construction Canada
+institution_name_fr: Construction de Défense Canada
+gc_orgID: 3652
+infosource_url_en: https://www.dcc-cdc.gc.ca/documents/reports/Info_Source_E.pdf
+infosource_url_fr: https://www.dcc-cdc.gc.ca/documents/reports/Info_Source_F.pdf

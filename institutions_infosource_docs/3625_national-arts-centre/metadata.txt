@@ -1,0 +1,5 @@
+institution_name_en: National Arts Centre
+institution_name_fr: Centre national des Arts
+gc_orgID: 3625
+infosource_url_en: http://nac-cna.ca/en/legal/infosource
+infosource_url_fr: http://nac-cna.ca/fr/legal/infosource

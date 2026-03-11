@@ -1,0 +1,5 @@
+institution_name_en: Federal Bridge Corporation Limited, The
+institution_name_fr: Société des ponts fédéraux Limitée
+gc_orgID: 3661
+infosource_url_en: https://www.federalbridge.ca/transparency/info-source-sources-of-federal-government-and-employee-information/
+infosource_url_fr: https://www.pontsfederaux.ca/sources/spfl/

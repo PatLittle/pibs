@@ -1,0 +1,5 @@
+institution_name_en: Privy Council Office
+institution_name_fr: Bureau du Conseil privé
+gc_orgID: 2284
+infosource_url_en: https://www.canada.ca/en/privy-council/services/publications/info-source-federal-government-employee-information.html
+infosource_url_fr: https://www.canada.ca/fr/conseil-prive/services/publications/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux.html

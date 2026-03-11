@@ -1,0 +1,5 @@
+institution_name_en: Canadian Museum for Human Rights
+institution_name_fr: Musée canadien pour les droits de la personne
+gc_orgID: 3620
+infosource_url_en: https://humanrights.ca/about/transparency/access-information-and-privacy/info-source
+infosource_url_fr: https://droitsdelapersonne.ca/propos/transparence/acces-linformation-et-protection-des-renseignements-personnels/info-source

@@ -1,0 +1,5 @@
+institution_name_en: Telefilm Canada
+institution_name_fr: Téléfilm Canada
+gc_orgID: 3629
+infosource_url_en: https://telefilm.ca/en/transparency/info-source
+infosource_url_fr: https://telefilm.ca/fr/transparence/info-source

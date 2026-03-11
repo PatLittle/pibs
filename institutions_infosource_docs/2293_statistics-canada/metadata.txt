@@ -1,0 +1,5 @@
+institution_name_en: Statistics Canada
+institution_name_fr: Statistique Canada
+gc_orgID: 2293
+infosource_url_en: https://www.statcan.gc.ca/eng/public/ipih/index
+infosource_url_fr: https://www.statcan.gc.ca/fra/publique/rpfr/index

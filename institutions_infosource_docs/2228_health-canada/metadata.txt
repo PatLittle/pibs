@@ -1,0 +1,5 @@
+institution_name_en: Health Canada
+institution_name_fr: Santé Canada
+gc_orgID: 2228
+infosource_url_en: https://www.canada.ca/en/health-canada/corporate/about-health-canada/activities-responsibilities/access-information-privacy/info-source-federal-government-employee-information.html
+infosource_url_fr: https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux.html#a21

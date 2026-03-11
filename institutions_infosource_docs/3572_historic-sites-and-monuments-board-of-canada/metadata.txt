@@ -1,0 +1,5 @@
+institution_name_en: Historic Sites and Monuments Board of Canada
+institution_name_fr: Commission des lieux et monuments historiques du Canada
+gc_orgID: 3572
+infosource_url_en: https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/historic-sites-monuments-board-canada.html
+infosource_url_fr: https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/commission-lieux-monuments-historiques-canada.html

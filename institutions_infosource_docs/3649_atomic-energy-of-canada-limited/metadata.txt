@@ -1,0 +1,5 @@
+institution_name_en: Atomic Energy of Canada Limited
+institution_name_fr: Énergie atomique du Canada Limitée
+gc_orgID: 3649
+infosource_url_en: https://www.aecl.ca/access-to-information-and-privacy-acts/info-source/
+infosource_url_fr: https://www.aecl.ca/fr/loi-sur-l-acces-a-l-information-et-sur-la-protection-des-renseignements-personnels/info-source/

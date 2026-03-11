@@ -1,0 +1,5 @@
+institution_name_en: Canadian Space Agency
+institution_name_fr: Agence spatiale canadienne
+gc_orgID: 2251
+infosource_url_en: http://asc-csa.gc.ca/eng/transparency/aipa/info-source.asp
+infosource_url_fr: http://asc-csa.gc.ca/fra/transparence/aiprp/info-source.asp

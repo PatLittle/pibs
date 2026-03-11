@@ -1,0 +1,5 @@
+institution_name_en: Canada Hibernia Holding Corporation
+institution_name_fr: Société de gestion Canada Hibernia
+gc_orgID: na
+infosource_url_en: https://www.cdev.gc.ca/info-source/canada-hibernia-holding-corporation/
+infosource_url_fr: https://www.cdev.gc.ca/fr/info-source-2/societe-de-gestion-canada-hibernia/

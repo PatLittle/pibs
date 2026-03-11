@@ -1,0 +1,5 @@
+institution_name_en: Canadian Commercial Corporation
+institution_name_fr: Corporation commerciale canadienne
+gc_orgID: 3639
+infosource_url_en: https://www.ccc.ca/wp-content/uploads/2021/12/InfoSource-2021-FINAL_EN.pdf
+infosource_url_fr: https://www.ccc.ca/wp-content/uploads/2021/12/InfoSource-2021-FINAL_FR.pdf

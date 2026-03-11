@@ -1,0 +1,5 @@
+institution_name_en: Parole Board of Canada
+institution_name_fr: Commission des libérations conditionnelles du Canada
+gc_orgID: 2267
+infosource_url_en: https://www.canada.ca/en/parole-board/corporate/transparency/access-to-information-and-privacy/infosource.html
+infosource_url_fr: https://www.canada.ca/fr/commission-liberations-conditionnelles/organisation/transparence/access-a-information-et-protection-des-renseignements-personnels/infosource.html

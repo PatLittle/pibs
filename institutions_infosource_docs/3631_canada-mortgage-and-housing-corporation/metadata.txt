@@ -1,0 +1,5 @@
+institution_name_en: Canada Mortgage and Housing Corporation
+institution_name_fr: Société canadienne d’hypothèques et de logement
+gc_orgID: 3631
+infosource_url_en: https://assets.cmhc-schl.gc.ca/sites/cmhc/about-cmhc/corporate-reporting/transparency/access-to-information-and-privacy-protection/info-source-2021-en.pdf?rev=142d8e70-828e-48ef-8df7-f8f3098fbe4c
+infosource_url_fr: https://assets.cmhc-schl.gc.ca/sites/cmhc/about-cmhc/corporate-reporting/transparency/access-to-information-and-privacy-protection/info-source-2021-fr.pdf?rev=8ab763a9-e5bb-4338-a0cb-881c4463f5c6

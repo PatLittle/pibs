@@ -1,0 +1,5 @@
+institution_name_en: Employment and Social Development Canada
+institution_name_fr: Emploi et Développement social Canada
+gc_orgID: 2229
+infosource_url_en: https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource.html
+infosource_url_fr: https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource.html

@@ -1,0 +1,5 @@
+institution_name_en: Canada Lands Company Limited
+institution_name_fr: Société immobilière du Canada limitée
+gc_orgID: 3650
+infosource_url_en: https://www.clc-sic.ca/info-source
+infosource_url_fr: https://www.clc-sic.ca/francais/info-source

@@ -1,0 +1,5 @@
+institution_name_en: Department of Finance Canada
+institution_name_fr: Ministère des Finances Canada
+gc_orgID: 2225
+infosource_url_en: https://www.canada.ca/en/department-finance/corporate/transparency/access-information-privacy/info-source.html
+infosource_url_fr: https://www.canada.ca/fr/ministere-finances/organisation/transparence/acces-information-protection-renseignements-personnels/info-source.html

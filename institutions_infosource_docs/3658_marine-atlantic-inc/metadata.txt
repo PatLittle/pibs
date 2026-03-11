@@ -1,0 +1,5 @@
+institution_name_en: Marine Atlantic Inc.
+institution_name_fr: Marine Atlantique S.C.C.
+gc_orgID: 3658
+infosource_url_en: https://www.marineatlantic.ca/en/about-us/corporate-information/Reports/
+infosource_url_fr: https://www.marineatlantique.ca/sites/default/files/2019-03/Marine_Atlantique_Info_Source_2017.pdf

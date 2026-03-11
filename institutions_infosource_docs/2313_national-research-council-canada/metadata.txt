@@ -1,0 +1,5 @@
+institution_name_en: National Research Council Canada
+institution_name_fr: Conseil national de recherches Canada
+gc_orgID: 2313
+infosource_url_en: https://nrc.canada.ca/en/corporate/transparency/access-information-privacy-acts-info-source
+infosource_url_fr: https://nrc.canada.ca/fr/organisation/transparence/lois-lacces-linformation-protection-renseignements-personnels-info-source

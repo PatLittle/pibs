@@ -1,0 +1,5 @@
+institution_name_en: Jacques Cartier and Champlain Bridges Incorporated, The
+institution_name_fr: Ponts Jacques Cartier et Champlain Incorporée, Les
+gc_orgID: 3643
+infosource_url_en: https://jacquescartierchamplain.ca/en/the-corporation/reports-and-publications/info-source/
+infosource_url_fr: https://jacquescartierchamplain.ca/fr/la-societe/rapports-et-publications/info-source/

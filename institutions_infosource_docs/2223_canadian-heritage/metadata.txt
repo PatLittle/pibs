@@ -1,0 +1,5 @@
+institution_name_en: Canadian Heritage
+institution_name_fr: Patrimoine canadien
+gc_orgID: 2223
+infosource_url_en: https://www.canada.ca/en/canadian-heritage/corporate/publications/general-publications/information-programs-holdings.html
+infosource_url_fr: https://www.canada.ca/fr/patrimoine-canadien/organisation/publications/publications-generales/renseignements-programmes-fonds.html

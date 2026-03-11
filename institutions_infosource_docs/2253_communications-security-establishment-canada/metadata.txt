@@ -1,0 +1,5 @@
+institution_name_en: Communications Security Establishment Canada
+institution_name_fr: Centre de la sécurité des télécommunications Canada
+gc_orgID: 2253
+infosource_url_en: https://www.cse-cst.gc.ca/en/transparency-transparence/atip-aiprp/infosource
+infosource_url_fr: https://www.cse-cst.gc.ca/fr/transparency-transparence/atip-aiprp/infosource

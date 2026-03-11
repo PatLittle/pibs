@@ -1,0 +1,5 @@
+institution_name_en: Office of the Information Commissioner of Canada
+institution_name_fr: Commissariat à l’information du Canada
+gc_orgID: 2281
+infosource_url_en: https://www.oic-ci.gc.ca/en/info-source
+infosource_url_fr: https://www.oic-ci.gc.ca/fr/info-source

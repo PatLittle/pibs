@@ -1,0 +1,5 @@
+institution_name_en: VIA Rail Canada Inc.
+institution_name_fr: VIA Rail Canada Inc.
+gc_orgID: 3662
+infosource_url_en: https://corpo.viarail.ca/en/company/governance-ethics#info-source-en
+infosource_url_fr: https://corpo.viarail.ca/fr/entreprise/gouvernance-ethique#info-source-fr

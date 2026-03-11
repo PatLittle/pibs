@@ -1,0 +1,5 @@
+institution_name_en: St. John's Port Authority
+institution_name_fr: Administration portuaire de St. John’s
+gc_orgID: 3500
+infosource_url_en: https://sjpa-apsj.com/uploads/images/pages/2022-SJPA-Info-Source.pdf
+infosource_url_fr: https://sjpa.com/fr/administration-portuaire/rapports-dinformation/

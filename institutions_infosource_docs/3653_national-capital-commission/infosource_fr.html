@@ -1,0 +1,1862 @@
+
+
+    
+<!DOCTYPE HTML>
+<html class="no-js" lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="csrf-token" content="xWP0Xau7XiSCGM_fZPsK7clfF38ntTLYcQq2oml0Eot1UBluCd3kLLI6pRju821ctleFvjWXPIqCa0AqEdZk6wR4_-sTTF25BWUtPjmxtW4=">
+
+        <link rel="dns-prefetch" href="//ncc-website-2.s3.amazonaws.com" crossorigin>
+        <link rel="dns-prefetch" href="//cdn.fonts.net" crossorigin>
+        <link rel="dns-prefetch" href="//www.googletagmanager.com" crossorigin>
+        <link rel="dns-prefetch" href="https://connect.facebook.net" crossorigin>
+        <link rel="dns-prefetch" href="https://www.facebook.com" crossorigin>
+        <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" crossorigin>
+        <link rel="dns-prefetch" href="https://www.google-analytics.com" crossorigin>
+        <link rel="dns-prefetch" href="https://www.instagram.com" crossorigin>
+        <link rel="dns-prefetch" href="https://www.google.com" crossorigin>
+        <link rel="dns-prefetch" href="https://stats.g.doubleclick.net" crossorigin>
+        <link rel="dns-prefetch" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="dns-prefetch" href="https://i.ytimg.com" crossorigin>
+        <link rel="dns-prefetch" href="https://www.youtube.com" crossorigin>
+        <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net" crossorigin>
+        <link rel="dns-prefetch" href="https://static.doubleclick.net" crossorigin>
+        <link rel="dns-prefetch" href="https://services2.arcgis.com" crossorigin>
+        <link rel="dns-prefetch" href="https://yt3.ggpht.com" crossorigin>
+        <link rel="dns-prefetch" href="https://i.ytimg.com" crossorigin>
+        <link rel="dns-prefetch" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="dns-prefetch" href="https://api.startdate.ca" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/img/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/img/android-icon-512x512.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96x96.png">
+        <meta name="theme-color" content="#ffffff">
+
+        
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+        <link rel="stylesheet" href="/css/vendor.css?1681438492">
+        <link rel="stylesheet" href="/css/main.css?1772028266">
+
+        <title>Transparence | Commission de la capitale nationale</title>
+<script>/* Push default consent state BEFORE GTM loads */
+window.dataLayer = window.dataLayer || [];
+function gtag(){ dataLayer.push(arguments);}
+
+gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'denied',
+    'wait_for_update': 500
+});
+
+/* Push additional dataLayer data if needed */
+
+/* Load GTM */
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WBCN4M');
+
+/* Create global consent update function */
+window.updateGTMConsent = function() {
+  // Update consent via gtag
+  gtag('consent', 'update', {
+    'ad_storage': 'granted',
+    'ad_user_data': 'granted',
+    'ad_personalization': 'granted',
+    'analytics_storage': 'granted'
+  });
+  
+  // Fire event for GTM triggers
+  dataLayer.push({
+    'event': 'consent_granted'
+  });
+};
+
+/* Check initial consent state on page load */
+if (document.cookie.includes('ncc_ccn_tracking=1')) {
+  // For returning users, fire consent immediately on every page load
+  window.updateGTMConsent();
+} else {
+  // No consent yet - push banner shown event
+  dataLayer.push({ event: 'cookie_banner_shown' });
+}
+
+/* Monitor for consent changes in real-time (for new users clicking banner) */
+(function() {
+  var lastConsent = document.cookie.includes('ncc_ccn_tracking=1');
+  var checkCount = 0;
+  var maxChecks = 600; // 60 seconds max
+  
+  if (lastConsent) return; // Already consented, no need to monitor
+  
+  var checkInterval = setInterval(function() {
+    checkCount++;
+    var currentConsent = document.cookie.includes('ncc_ccn_tracking=1');
+    
+    if (currentConsent && !lastConsent) {
+      // Consent just granted!
+      window.updateGTMConsent();
+      clearInterval(checkInterval);
+    }
+    
+    // Stop checking after max attempts
+    if (checkCount >= maxChecks) {
+      clearInterval(checkInterval);
+    }
+  }, 100); // Check every 100ms
+})();
+
+/* Listen for custom events from consent banner (if available) */
+window.addEventListener('cookieConsentGranted', function() {
+  window.updateGTMConsent();
+});
+</script>
+<script>    function initFacebookPixel(){
+        !function(f,b,e,v,n,t,s){
+            if(f.fbq) return; n=f.fbq=function(){
+                n.callMethod ? n.callMethod.apply(n,arguments) : n.queue.push(arguments);
+            };
+            if(!f._fbq) f._fbq=n;
+            n.push=n; n.loaded=!0; n.version='2.0'; n.queue=[];
+            t=b.createElement(e); t.async=!0;
+            t.src=v; s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s);
+        }(window,document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+        fbq('init', '837959289699976');
+
+                            fbq('track', 'PageView');
+            }
+
+    // Lancer automatiquement si consentement déjà donné
+    if (document.cookie.includes('ncc_ccn_tracking=')) {
+        initFacebookPixel();
+    }
+</script><meta name="keywords" content="Commission de la capitale nationale, Région de la capitale nationale">
+<meta name="description" content="La Commission de la capitale nationale bâtit une capitale dynamique, durable et inspirante pour la population canadienne.">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<meta name="robots" content="all">
+<meta content="1381808898732419" property="fb:profile_id">
+<meta content="fr" property="og:locale">
+<meta content="en" property="og:locale:alternate">
+<meta content="Commission de la capitale nationale" property="og:site_name">
+<meta content="website" property="og:type">
+<meta content="https://ccn-ncc.gc.ca/transparence" property="og:url">
+<meta content="Transparence" property="og:title">
+<meta content="La Commission de la capitale nationale bâtit une capitale dynamique, durable et inspirante pour la population canadienne." property="og:description">
+<meta content="https://ncc-website-2.s3.amazonaws.com/images/_1200x630_crop_center-center_82_none/aerial.jpg?mtime=1657548134" property="og:image">
+<meta content="1200" property="og:image:width">
+<meta content="630" property="og:image:height">
+<meta content="Vue aérienne de la région de la capitale" property="og:image:alt">
+<meta content="https://www.instagram.com/ncc_ccn/" property="og:see_also">
+<meta content="https://www.youtube.com/channel/UCQbd2kMcUmec6qaFaLThAtA?view_as=subscriber" property="og:see_also">
+<meta content="https://fr.wikipedia.org/wiki/Commission_de_la_capitale_nationale_(Canada)" property="og:see_also">
+<meta content="https://www.facebook.com/CommissionDeLaCapitaleNationale/" property="og:see_also">
+<meta content="https://x.com/CCN_NCC" property="og:see_also">
+<meta name="facebook-domain-verification" content="9ntmdj7ls2sawixvr3x9syqiw6vbi1">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@NCC_CCN">
+<meta name="twitter:creator" content="@NCC_CCN">
+<meta name="twitter:title" content="Transparence">
+<meta name="twitter:description" content="La Commission de la capitale nationale bâtit une capitale dynamique, durable et inspirante pour la population canadienne.">
+<meta name="twitter:image" content="https://ncc-website-2.s3.amazonaws.com/images/_800x418_crop_center-center_82_none/aerial.jpg?mtime=1657548134">
+<meta name="twitter:image:width" content="800">
+<meta name="twitter:image:height" content="418">
+<meta name="twitter:image:alt" content="Vue aérienne de la région de la capitale">
+<meta name="google-site-verification" content="E0A2cALouScx8W5Pp7l4wqaqTclaak3rPEKsGgGjIVo">
+<link href="https://ccn-ncc.gc.ca/transparence" rel="canonical">
+<link href="https://ccn-ncc.gc.ca/" rel="home">
+<link href="https://ccn-ncc.gc.ca/transparence" rel="alternate" hreflang="fr">
+<link href="https://ncc-ccn.gc.ca/transparency" rel="alternate" hreflang="x-default">
+<link href="https://ncc-ccn.gc.ca/transparency" rel="alternate" hreflang="en">
+<style>            .navbar__logo svg {
+              width: 100%;
+              max-width: 320px;
+              aspect-ratio: 657.6 / 107.99; /* or roughly 6.09 / 1 */
+            }
+            </style>
+<style>				:root {
+					--header-bg-focal-point: 51% 4.49%;
+							--header-bg-image-576px: url(https://ncc-website-2.s3.amazonaws.com/images/_576x379_crop_center-center_82_line/header-background.jpg.webp);
+							--header-bg-image-768px: url(https://ncc-website-2.s3.amazonaws.com/images/_768x506_crop_center-center_82_line/header-background.jpg.webp);
+							--header-bg-image-992px: url(https://ncc-website-2.s3.amazonaws.com/images/_992x653_crop_center-center_82_line/header-background.jpg.webp);
+							--header-bg-image-1200px: url(https://ncc-website-2.s3.amazonaws.com/images/_1200x791_crop_center-center_82_line/header-background.jpg.webp);
+							--header-bg-image-1320px: url(https://ncc-website-2.s3.amazonaws.com/images/_1320x870_crop_center-center_82_line/header-background.jpg.webp);
+							--header-bg-image-1700px: url(https://ncc-website-2.s3.amazonaws.com/images/_1700x1120_crop_center-center_82_line/header-background.jpg.webp);
+							}
+			</style>
+<style>	.toc-subnav{
+		float: right;
+	}
+	</style>
+    </head>
+    <body style="max-width:100vw; overflow-x:hidden"><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WBCN4M"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+            <noscript>
+            <img height="1" width="1" style="display:none"
+                 src="//www.facebook.com/tr?id=837959289699976&ev=PageView&noscript=1" />
+        </noscript>
+    
+    
+        
+
+<a href="#main-content" class="skip-link">
+  Sauter au contenu principal
+</a>
+
+<nav class="navbar js-navbar" role="navigation" aria-label="Main navigation">
+    <div class="navbar-bar mobile-only">
+    <button type="button" class="navbar__hamburger js-hamburger" aria-controls="website-navigation-mobile" aria-expanded="false" aria-label="Afficher le menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <a class="navbar__logo" href="https://ccn-ncc.gc.ca/">
+      <picture>
+        <source media="(min-width: 1200px)" srcset="https://ncc-website-2.s3.amazonaws.com/images/widgets/menu/logo-fr-long.png">
+          <img src="https://ncc-website-2.s3.amazonaws.com/images/widgets/menu/logo-fr.png" alt="Commission de la capitale nationale"></picture>
+        </a>
+
+        <div class="navbar__actions">
+          
+            		
+
+
+									
+					
+	
+
+														<a role="menuitem" class="language-link" style="background:transparent;color:white" href="https://ncc-ccn.gc.ca/transparency">EN</a>
+						
+            <a href="/recherche" class="navbar__action-btn" aria-label="recherche">
+              <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+
+                <div class="desktop-tablet-only">
+          <div class="top-bar">
+            <div class="container">
+              <div class="grid">
+                <div class="col pb-0">
+                  <ul role="menubar">
+                                            
+    
+  
+  
+  <li role="none" >
+    <a role="menuitem" href="https://ccn-ncc.gc.ca/a-propos-de-nous" title="À propos de nous" 
+         >
+      <span>À propos de nous</span>
+    </a>
+  </li>
+
+
+                                            
+    
+  
+  
+  <li role="none" >
+    <a role="menuitem" href="https://ccn-ncc.gc.ca/impliquez-vous" title="Impliquez-vous" 
+         >
+      <span>Impliquez-vous</span>
+    </a>
+  </li>
+
+
+                                            
+    
+  
+  
+  <li role="none" >
+    <a role="menuitem" href="https://ccn-ncc.gc.ca/blogue" title="Blogue" 
+         >
+      <span>Blogue</span>
+    </a>
+  </li>
+
+
+                                            
+    
+  
+  
+  <li role="none" >
+    <a role="menuitem" href="https://ccn-ncc.gc.ca/nouvelles" title="Nouvelles" 
+         >
+      <span>Nouvelles</span>
+    </a>
+  </li>
+
+
+                                            
+    
+  
+  
+  <li role="none" >
+    <a role="menuitem" href="https://ccn-ncc.gc.ca/evenements" title="Événements" 
+         >
+      <span>Événements</span>
+    </a>
+  </li>
+
+
+                                            
+    
+  
+  
+  <li role="none" >
+    <a role="menuitem" href="https://ccn-ncc.gc.ca/fermetures" title="Fermetures" 
+         >
+      <span>Fermetures</span>
+    </a>
+  </li>
+
+
+                                            
+    
+  
+  
+  <li role="none" >
+    <a role="menuitem" href="https://ccn-ncc.gc.ca/carrieres" title="Perspectives de carrière" 
+         >
+      <span>Perspectives de carrière</span>
+    </a>
+  </li>
+
+
+                                        <li role="none">
+                      
+
+
+									
+					
+	
+
+														<a role="menuitem" class="language-link" href="https://ncc-ccn.gc.ca/transparency">English</a>
+						                    </li>
+                                        </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="bottom-bar">
+              <div class="container">
+                <div class="grid-middle">
+                  <div class="col-4_lg-3 pb-0">
+                    <a class="navbar__logo" href="https://ccn-ncc.gc.ca/">
+                      <picture>
+                        <source media="(min-width: 1200px)" srcset="https://ncc-website-2.s3.amazonaws.com/images/widgets/menu/logo-fr-long.png">
+                          <img src="https://ncc-website-2.s3.amazonaws.com/images/widgets/menu/logo-fr.png" alt="Commission de la capitale nationale"></picture>
+                        </a>
+                      </div>
+                      <div class="nav__banner col pb-0">
+                        <ul id="primary-navigation" class="navbar__nav" role="menubar">
+                                                      
+    
+
+    
+  
+        
+  
+  
+  <li role="none"  class="nav__item">
+    <a href="https://ccn-ncc.gc.ca/nos-plans"  class="nav__link" title="Nos plans" role="menuitem">
+      <span>Nos plans</span>
+    </a>
+    
+    <span class="nav__item__mobile" >Nos plans<i style="margin-left:1rem;" class="fa-solid fa-caret-down"></i></span>
+    
+          <ul class="subnav">
+                                    <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/etude-du-paysage-culturel-entourant-le-canal-rideau" role="menuitem" class="subnav__link" title="Étude du paysage culturel entourant le canal Rideau">
+                        <span>Étude du paysage culturel entourant le canal Rideau</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/le-plan-de-la-capitale-du-canada-2017-2067" role="menuitem" class="subnav__link" title="Le Plan de la capitale du Canada">
+                        <span>Le Plan de la capitale du Canada</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/plan-des-terrains-urbains-de-la-capitale" role="menuitem" class="subnav__link" title="Le Plan des terrains urbains de la capitale">
+                        <span>Le Plan des terrains urbains de la capitale</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/plan-amenagement-des-berges-nord-de-la-riviere-des-outaouais" role="menuitem" class="subnav__link" title="Plan d’aménagement des terrains riverains situés au nord de la rivière des Outaouais">
+                        <span>Plan d’aménagement des terrains riverains situés au nord de la rivière des Outaouais</span>
+                    </a>
+                </li>
+                                                                    <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/projets/plan-directeur-conceptuel-des-plaines-lebreton" role="menuitem" class="subnav__link" title="Plan directeur conceptuel des plaines LeBreton">
+                        <span>Plan directeur conceptuel des plaines LeBreton</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/plan-directeur-de-la-ceinture-de-verdure" role="menuitem" class="subnav__link" title="Plan directeur de la Ceinture de verdure">
+                        <span>Plan directeur de la Ceinture de verdure</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/plan-directeur-du-parc-de-la-gatineau" role="menuitem" class="subnav__link" title="Plan directeur du parc de la Gatineau">
+                        <span>Plan directeur du parc de la Gatineau</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/plan-de-secteur-du-coeur-de-la-capitale-du-canada" role="menuitem" class="subnav__link" title="Plan du cœur de la capitale nationale du Canada ">
+                        <span>Plan du cœur de la capitale nationale du Canada </span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/plan-du-parc-sir-george-etienne-cartier" role="menuitem" class="subnav__link" title="Plan du parc Sir-George-Étienne-Cartier">
+                        <span>Plan du parc Sir-George-Étienne-Cartier</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/plan-integre-long-terme-liens-interprovinciaux" role="menuitem" class="subnav__link" title="Plan intégré à long terme sur les liens interprovinciaux">
+                        <span>Plan intégré à long terme sur les liens interprovinciaux</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/plan-lumiere-de-la-capitale" role="menuitem" class="subnav__link" title="Plan lumière de la capitale">
+                        <span>Plan lumière de la capitale</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/plan-du-parc-riverain-de-la-berge-sud-de-la-riviere-des-outaouais" role="menuitem" class="subnav__link" title="Parc riverain de la berge sud de la rivière des Outaouais">
+                        <span>Parc riverain de la berge sud de la rivière des Outaouais</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/plan-strategique-du-sentier-de-la-capitale" role="menuitem" class="subnav__link" title="Plan stratégique du Sentier de la capitale">
+                        <span>Plan stratégique du Sentier de la capitale</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/accessibilite" role="menuitem" class="subnav__link" title="Plan sur l&#039;accessibilité">
+                        <span>Plan sur l&#039;accessibilité</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/strategie-de-developpement-durable" role="menuitem" class="subnav__link" title="Stratégie de développement durable">
+                        <span>Stratégie de développement durable</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/lignes-directrices-conception-capitale" role="menuitem" class="subnav__link" title="Lignes directrices de conception de la capitale ">
+                        <span>Lignes directrices de conception de la capitale </span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/lignes-directrices-de-conception-sure-pour-les-oiseaux" role="menuitem" class="subnav__link" title="Lignes directrices de conception sûre pour les oiseaux">
+                        <span>Lignes directrices de conception sûre pour les oiseaux</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/lignes-directrices-boulevard-confederation" role="menuitem" class="subnav__link" title="Lignes directrices du boulevard de la Confédération">
+                        <span>Lignes directrices du boulevard de la Confédération</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/lignes-directrices-pour-la-planification-et-la-conception-des-promenades" role="menuitem" class="subnav__link" title="Lignes directrices pour la planification et la conception des promenades">
+                        <span>Lignes directrices pour la planification et la conception des promenades</span>
+                    </a>
+                </li>
+                          </ul>
+      <ul class="subnav__mobile subnav__mobile_hide">
+                                    <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/etude-du-paysage-culturel-entourant-le-canal-rideau" role="menuitem" class="sub` sub__item__mobile" title="Étude du paysage culturel entourant le canal Rideau">
+                        <span>Étude du paysage culturel entourant le canal Rideau</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/le-plan-de-la-capitale-du-canada-2017-2067" role="menuitem" class="sub` sub__item__mobile" title="Le Plan de la capitale du Canada">
+                        <span>Le Plan de la capitale du Canada</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/plan-des-terrains-urbains-de-la-capitale" role="menuitem" class="sub` sub__item__mobile" title="Le Plan des terrains urbains de la capitale">
+                        <span>Le Plan des terrains urbains de la capitale</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/plan-amenagement-des-berges-nord-de-la-riviere-des-outaouais" role="menuitem" class="sub` sub__item__mobile" title="Plan d’aménagement des terrains riverains situés au nord de la rivière des Outaouais">
+                        <span>Plan d’aménagement des terrains riverains situés au nord de la rivière des Outaouais</span>
+                    </a>
+                </li>
+                                                                    <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/projets/plan-directeur-conceptuel-des-plaines-lebreton" role="menuitem" class="sub` sub__item__mobile" title="Plan directeur conceptuel des plaines LeBreton">
+                        <span>Plan directeur conceptuel des plaines LeBreton</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/plan-directeur-de-la-ceinture-de-verdure" role="menuitem" class="sub` sub__item__mobile" title="Plan directeur de la Ceinture de verdure">
+                        <span>Plan directeur de la Ceinture de verdure</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/plan-directeur-du-parc-de-la-gatineau" role="menuitem" class="sub` sub__item__mobile" title="Plan directeur du parc de la Gatineau">
+                        <span>Plan directeur du parc de la Gatineau</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/plan-de-secteur-du-coeur-de-la-capitale-du-canada" role="menuitem" class="sub` sub__item__mobile" title="Plan du cœur de la capitale nationale du Canada ">
+                        <span>Plan du cœur de la capitale nationale du Canada </span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/plan-du-parc-sir-george-etienne-cartier" role="menuitem" class="sub` sub__item__mobile" title="Plan du parc Sir-George-Étienne-Cartier">
+                        <span>Plan du parc Sir-George-Étienne-Cartier</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/plan-integre-long-terme-liens-interprovinciaux" role="menuitem" class="sub` sub__item__mobile" title="Plan intégré à long terme sur les liens interprovinciaux">
+                        <span>Plan intégré à long terme sur les liens interprovinciaux</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/plan-lumiere-de-la-capitale" role="menuitem" class="sub` sub__item__mobile" title="Plan lumière de la capitale">
+                        <span>Plan lumière de la capitale</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/plan-du-parc-riverain-de-la-berge-sud-de-la-riviere-des-outaouais" role="menuitem" class="sub` sub__item__mobile" title="Parc riverain de la berge sud de la rivière des Outaouais">
+                        <span>Parc riverain de la berge sud de la rivière des Outaouais</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/plan-strategique-du-sentier-de-la-capitale" role="menuitem" class="sub` sub__item__mobile" title="Plan stratégique du Sentier de la capitale">
+                        <span>Plan stratégique du Sentier de la capitale</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/accessibilite" role="menuitem" class="sub` sub__item__mobile" title="Plan sur l&#039;accessibilité">
+                        <span>Plan sur l&#039;accessibilité</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/strategie-de-developpement-durable" role="menuitem" class="sub` sub__item__mobile" title="Stratégie de développement durable">
+                        <span>Stratégie de développement durable</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/lignes-directrices-conception-capitale" role="menuitem" class="sub` sub__item__mobile" title="Lignes directrices de conception de la capitale ">
+                        <span>Lignes directrices de conception de la capitale </span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/lignes-directrices-de-conception-sure-pour-les-oiseaux" role="menuitem" class="sub` sub__item__mobile" title="Lignes directrices de conception sûre pour les oiseaux">
+                        <span>Lignes directrices de conception sûre pour les oiseaux</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/lignes-directrices-boulevard-confederation" role="menuitem" class="sub` sub__item__mobile" title="Lignes directrices du boulevard de la Confédération">
+                        <span>Lignes directrices du boulevard de la Confédération</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/nos-plans/lignes-directrices-pour-la-planification-et-la-conception-des-promenades" role="menuitem" class="sub` sub__item__mobile" title="Lignes directrices pour la planification et la conception des promenades">
+                        <span>Lignes directrices pour la planification et la conception des promenades</span>
+                    </a>
+                </li>
+                          </ul>
+      </li>
+
+
+                                                      
+    
+
+    
+  
+        
+  
+  
+  <li role="none"  class="nav__item">
+    <a href="https://ccn-ncc.gc.ca/nos-projets"  class="nav__link" title="Nos projets" role="menuitem">
+      <span>Nos projets</span>
+    </a>
+    
+    <span class="nav__item__mobile" >Nos projets<i style="margin-left:1rem;" class="fa-solid fa-caret-down"></i></span>
+    
+          <ul class="subnav">
+                                    <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/projets/ponts-routes" role="menuitem" class="subnav__link" title="Ponts et routes">
+                        <span>Ponts et routes</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/projets/batiments-murs" role="menuitem" class="subnav__link" title="Bâtiments et murs">
+                        <span>Bâtiments et murs</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/projets/conservation-decontamination" role="menuitem" class="subnav__link" title="Conservation et décontamination">
+                        <span>Conservation et décontamination</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/projets/monuments-art-public" role="menuitem" class="subnav__link" title="Monuments et art public">
+                        <span>Monuments et art public</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/projets/parcs-sentiers" role="menuitem" class="subnav__link" title="Parcs et sentiers">
+                        <span>Parcs et sentiers</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/projets/reamenagement" role="menuitem" class="subnav__link" title="Réaménagement">
+                        <span>Réaménagement</span>
+                    </a>
+                </li>
+                          </ul>
+      <ul class="subnav__mobile subnav__mobile_hide">
+                                    <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/projets/ponts-routes" role="menuitem" class="sub` sub__item__mobile" title="Ponts et routes">
+                        <span>Ponts et routes</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/projets/batiments-murs" role="menuitem" class="sub` sub__item__mobile" title="Bâtiments et murs">
+                        <span>Bâtiments et murs</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/projets/conservation-decontamination" role="menuitem" class="sub` sub__item__mobile" title="Conservation et décontamination">
+                        <span>Conservation et décontamination</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/projets/monuments-art-public" role="menuitem" class="sub` sub__item__mobile" title="Monuments et art public">
+                        <span>Monuments et art public</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/projets/parcs-sentiers" role="menuitem" class="sub` sub__item__mobile" title="Parcs et sentiers">
+                        <span>Parcs et sentiers</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/projets/reamenagement" role="menuitem" class="sub` sub__item__mobile" title="Réaménagement">
+                        <span>Réaménagement</span>
+                    </a>
+                </li>
+                          </ul>
+      </li>
+
+
+                                                      
+    
+
+    
+  
+        
+  
+  
+  <li role="none"  class="nav__item">
+    <a href="https://ccn-ncc.gc.ca/traiter-avec-nous"  class="nav__link" title="Traiter avec nous" role="menuitem">
+      <span>Traiter avec nous</span>
+    </a>
+    
+    <span class="nav__item__mobile" >Traiter avec nous<i style="margin-left:1rem;" class="fa-solid fa-caret-down"></i></span>
+    
+          <ul class="subnav">
+                                    <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/traiter/proprietes-a-vendre-ou-louer" role="menuitem" class="subnav__link" title="Immobilier et logement">
+                        <span>Immobilier et logement</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/traiter/approbations-federales-utilisation-sol-design-transactions-immobilieres" role="menuitem" class="subnav__link" title="Approbations fédérales de l&#039;utilisation du sol, du design et des transactions immobilières">
+                        <span>Approbations fédérales de l&#039;utilisation du sol, du design et des transactions immobilières</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/traiter/partenariats-et-collaborations" role="menuitem" class="subnav__link" title="Partenariats et collaborations">
+                        <span>Partenariats et collaborations</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/traiter/conclure-un-contrat-avec-la-ccn" role="menuitem" class="subnav__link" title="Conclure un contrat avec la CCN">
+                        <span>Conclure un contrat avec la CCN</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/traiter/plaques-commemoratives-sur-les-bancs-de-parc-a-ottawa-gatineau" role="menuitem" class="subnav__link" title="Des bancs de parc commémoratifs">
+                        <span>Des bancs de parc commémoratifs</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/traiter/la-culture-se-vit-ici" role="menuitem" class="subnav__link" title="La culture se vit ici">
+                        <span>La culture se vit ici</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/traiter/permis-dactivites" role="menuitem" class="subnav__link" title="Permis d&#039;activité">
+                        <span>Permis d&#039;activité</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/traiter/acces-terrains" role="menuitem" class="subnav__link" title="Permis d&#039;accès aux terrains">
+                        <span>Permis d&#039;accès aux terrains</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/traiter/reservations-pour-les-mariages" role="menuitem" class="subnav__link" title="Réservations pour les mariages">
+                        <span>Réservations pour les mariages</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/traiter/faire-voler-un-drone-au-dessus-des-terrains-de-la-ccn" role="menuitem" class="subnav__link" title="Permis d’utilisation de drone">
+                        <span>Permis d’utilisation de drone</span>
+                    </a>
+                </li>
+                          </ul>
+      <ul class="subnav__mobile subnav__mobile_hide">
+                                    <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/traiter/proprietes-a-vendre-ou-louer" role="menuitem" class="sub` sub__item__mobile" title="Immobilier et logement">
+                        <span>Immobilier et logement</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/traiter/approbations-federales-utilisation-sol-design-transactions-immobilieres" role="menuitem" class="sub` sub__item__mobile" title="Approbations fédérales de l&#039;utilisation du sol, du design et des transactions immobilières">
+                        <span>Approbations fédérales de l&#039;utilisation du sol, du design et des transactions immobilières</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/traiter/partenariats-et-collaborations" role="menuitem" class="sub` sub__item__mobile" title="Partenariats et collaborations">
+                        <span>Partenariats et collaborations</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/traiter/conclure-un-contrat-avec-la-ccn" role="menuitem" class="sub` sub__item__mobile" title="Conclure un contrat avec la CCN">
+                        <span>Conclure un contrat avec la CCN</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/traiter/plaques-commemoratives-sur-les-bancs-de-parc-a-ottawa-gatineau" role="menuitem" class="sub` sub__item__mobile" title="Des bancs de parc commémoratifs">
+                        <span>Des bancs de parc commémoratifs</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/traiter/la-culture-se-vit-ici" role="menuitem" class="sub` sub__item__mobile" title="La culture se vit ici">
+                        <span>La culture se vit ici</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/traiter/permis-dactivites" role="menuitem" class="sub` sub__item__mobile" title="Permis d&#039;activité">
+                        <span>Permis d&#039;activité</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/traiter/acces-terrains" role="menuitem" class="sub` sub__item__mobile" title="Permis d&#039;accès aux terrains">
+                        <span>Permis d&#039;accès aux terrains</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/traiter/reservations-pour-les-mariages" role="menuitem" class="sub` sub__item__mobile" title="Réservations pour les mariages">
+                        <span>Réservations pour les mariages</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/traiter/faire-voler-un-drone-au-dessus-des-terrains-de-la-ccn" role="menuitem" class="sub` sub__item__mobile" title="Permis d’utilisation de drone">
+                        <span>Permis d’utilisation de drone</span>
+                    </a>
+                </li>
+                          </ul>
+      </li>
+
+
+                                                      
+    
+
+    
+  
+        
+  
+  
+  <li role="none"  class="nav__item">
+    <a href="https://ccn-ncc.gc.ca/endroits"  class="nav__link" title="Endroits à visiter" role="menuitem">
+      <span>Endroits à visiter</span>
+    </a>
+    
+    <span class="nav__item__mobile" >Endroits à visiter<i style="margin-left:1rem;" class="fa-solid fa-caret-down"></i></span>
+    
+          <ul class="subnav">
+                                    <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/endroits/parc-de-la-gatineau" role="menuitem" class="subnav__link" title="Le parc de la Gatineau">
+                        <span>Le parc de la Gatineau</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/endroits/ceinture-de-verdure" role="menuitem" class="subnav__link" title="Ceinture de verdure de la capitale du Canada">
+                        <span>Ceinture de verdure de la capitale du Canada</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/endroits/patinoire-du-canal-rideau" role="menuitem" class="subnav__link" title="La patinoire du canal Rideau">
+                        <span>La patinoire du canal Rideau</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/endroits/parcs-urbains" role="menuitem" class="subnav__link" title="Parcs urbains">
+                        <span>Parcs urbains</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/endroits/la-maison-riveraine-de-la-ccn" role="menuitem" class="subnav__link" title="La Maison riveraine de la CCN">
+                        <span>La Maison riveraine de la CCN</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/endroits/les-promenades-panoramiques" role="menuitem" class="subnav__link" title="Les promenades panoramiques">
+                        <span>Les promenades panoramiques</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/endroits/sentier-de-la-capitale" role="menuitem" class="subnav__link" title="Sentier de la capitale">
+                        <span>Sentier de la capitale</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/endroits/boulevard-de-la-confederation" role="menuitem" class="subnav__link" title="Boulevard de la Confédération">
+                        <span>Boulevard de la Confédération</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/endroits/edifices-patrimoniaux-de-la-region-de-la-capitale-nationale" role="menuitem" class="subnav__link" title="Édifices patrimoniaux de la région de la capitale du Canada">
+                        <span>Édifices patrimoniaux de la région de la capitale du Canada</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/endroits/gestion-des-residences-officielles-de-la-region-de-la-capitale-du-canada" role="menuitem" class="subnav__link" title="Résidences officielles">
+                        <span>Résidences officielles</span>
+                    </a>
+                </li>
+                          </ul>
+      <ul class="subnav__mobile subnav__mobile_hide">
+                                    <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/endroits/parc-de-la-gatineau" role="menuitem" class="sub` sub__item__mobile" title="Le parc de la Gatineau">
+                        <span>Le parc de la Gatineau</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/endroits/ceinture-de-verdure" role="menuitem" class="sub` sub__item__mobile" title="Ceinture de verdure de la capitale du Canada">
+                        <span>Ceinture de verdure de la capitale du Canada</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/endroits/patinoire-du-canal-rideau" role="menuitem" class="sub` sub__item__mobile" title="La patinoire du canal Rideau">
+                        <span>La patinoire du canal Rideau</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/endroits/parcs-urbains" role="menuitem" class="sub` sub__item__mobile" title="Parcs urbains">
+                        <span>Parcs urbains</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/endroits/la-maison-riveraine-de-la-ccn" role="menuitem" class="sub` sub__item__mobile" title="La Maison riveraine de la CCN">
+                        <span>La Maison riveraine de la CCN</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/endroits/les-promenades-panoramiques" role="menuitem" class="sub` sub__item__mobile" title="Les promenades panoramiques">
+                        <span>Les promenades panoramiques</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/endroits/sentier-de-la-capitale" role="menuitem" class="sub` sub__item__mobile" title="Sentier de la capitale">
+                        <span>Sentier de la capitale</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/endroits/boulevard-de-la-confederation" role="menuitem" class="sub` sub__item__mobile" title="Boulevard de la Confédération">
+                        <span>Boulevard de la Confédération</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/endroits/edifices-patrimoniaux-de-la-region-de-la-capitale-nationale" role="menuitem" class="sub` sub__item__mobile" title="Édifices patrimoniaux de la région de la capitale du Canada">
+                        <span>Édifices patrimoniaux de la région de la capitale du Canada</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ccn-ncc.gc.ca/endroits/gestion-des-residences-officielles-de-la-region-de-la-capitale-du-canada" role="menuitem" class="sub` sub__item__mobile" title="Résidences officielles">
+                        <span>Résidences officielles</span>
+                    </a>
+                </li>
+                          </ul>
+      </li>
+
+
+                                                                                  
+    
+  
+        <a class="nav__item__mobile" role="menuitem" style="margin-left: -13vw!important;" href="https://ccn-ncc.gc.ca/a-propos-de-nous" title="À propos de nous" 
+            >
+        <span>À propos de nous</span>
+      </a>
+
+                                                        
+    
+  
+        <a class="nav__item__mobile" role="menuitem" style="margin-left: -13vw!important;" href="https://ccn-ncc.gc.ca/impliquez-vous" title="Impliquez-vous" 
+            >
+        <span>Impliquez-vous</span>
+      </a>
+
+                                                        
+    
+  
+        <a class="nav__item__mobile" role="menuitem" style="margin-left: -13vw!important;" href="https://ccn-ncc.gc.ca/blogue" title="Blogue" 
+            >
+        <span>Blogue</span>
+      </a>
+
+                                                        
+    
+  
+        <a class="nav__item__mobile" role="menuitem" style="margin-left: -13vw!important;" href="https://ccn-ncc.gc.ca/nouvelles" title="Nouvelles" 
+            >
+        <span>Nouvelles</span>
+      </a>
+
+                                                        
+    
+  
+        <a class="nav__item__mobile" role="menuitem" style="margin-left: -13vw!important;" href="https://ccn-ncc.gc.ca/evenements" title="Événements" 
+            >
+        <span>Événements</span>
+      </a>
+
+                                                        
+    
+  
+        <a class="nav__item__mobile" role="menuitem" style="margin-left: -13vw!important;" href="https://ccn-ncc.gc.ca/fermetures" title="Fermetures" 
+            >
+        <span>Fermetures</span>
+      </a>
+
+                                                        
+    
+  
+        <a class="nav__item__mobile" role="menuitem" style="margin-left: -13vw!important;" href="https://ccn-ncc.gc.ca/carrieres" title="Perspectives de carrière" 
+            >
+        <span>Perspectives de carrière</span>
+      </a>
+
+                                                  </ul>
+                      </div>
+                      <div class="navbar search col-2 pb-0" role="none">
+                        <i class="fa-solid fa-magnifying-glass search-button"></i>
+                        <input class="search-box" id="search" aria-label="recherche" type="search" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+                            <div class="mobile-only">
+                
+
+
+
+
+
+<div class="navigation-menu">
+    <div id="website-navigation-mobile" class="js-mobile-menu" aria-expanded="false">
+        <nav aria-label="Main menu">
+            <div id="mobile-nav-container" class="mobile-nav-container">
+
+                                <ul class="mobile-nav-level is-active"
+                    id="mobile-nav-level-root"
+                    aria-label="Main menu"
+                    data-level="root">
+
+                                                                                        <li data-has-children="true">
+                                                            <button type="button"
+                                        class="nav-button js-open-submenu"
+                                        aria-expanded="false"
+                                        aria-controls="mobile-nav-submenu-0"
+                                        data-submenu-id="mobile-nav-submenu-0">
+                                    Nos plans
+                                    <span class="nav-arrow" aria-hidden="true">&#8250;</span>
+                                </button>
+                                                    </li>
+                                                                    <li data-has-children="true">
+                                                            <button type="button"
+                                        class="nav-button js-open-submenu"
+                                        aria-expanded="false"
+                                        aria-controls="mobile-nav-submenu-1"
+                                        data-submenu-id="mobile-nav-submenu-1">
+                                    Nos projets
+                                    <span class="nav-arrow" aria-hidden="true">&#8250;</span>
+                                </button>
+                                                    </li>
+                                                                    <li data-has-children="true">
+                                                            <button type="button"
+                                        class="nav-button js-open-submenu"
+                                        aria-expanded="false"
+                                        aria-controls="mobile-nav-submenu-2"
+                                        data-submenu-id="mobile-nav-submenu-2">
+                                    Traiter avec nous
+                                    <span class="nav-arrow" aria-hidden="true">&#8250;</span>
+                                </button>
+                                                    </li>
+                                                                    <li data-has-children="true">
+                                                            <button type="button"
+                                        class="nav-button js-open-submenu"
+                                        aria-expanded="false"
+                                        aria-controls="mobile-nav-submenu-3"
+                                        data-submenu-id="mobile-nav-submenu-3">
+                                    Endroits à visiter
+                                    <span class="nav-arrow" aria-hidden="true">&#8250;</span>
+                                </button>
+                                                    </li>
+                    
+                                                                                            <li class="special-navigation mobile-submenu-item">
+                                <a href="https://ccn-ncc.gc.ca/a-propos-de-nous">
+                                    À propos de nous
+                                </a>
+                            </li>
+                                                    <li class="special-navigation mobile-submenu-item">
+                                <a href="https://ccn-ncc.gc.ca/impliquez-vous">
+                                    Impliquez-vous
+                                </a>
+                            </li>
+                                                    <li class="special-navigation mobile-submenu-item">
+                                <a href="https://ccn-ncc.gc.ca/blogue">
+                                    Blogue
+                                </a>
+                            </li>
+                                                    <li class="special-navigation mobile-submenu-item">
+                                <a href="https://ccn-ncc.gc.ca/nouvelles">
+                                    Nouvelles
+                                </a>
+                            </li>
+                                                    <li class="special-navigation mobile-submenu-item">
+                                <a href="https://ccn-ncc.gc.ca/evenements">
+                                    Événements
+                                </a>
+                            </li>
+                                                    <li class="special-navigation mobile-submenu-item">
+                                <a href="https://ccn-ncc.gc.ca/fermetures">
+                                    Fermetures
+                                </a>
+                            </li>
+                                                    <li class="special-navigation mobile-submenu-item">
+                                <a href="https://ccn-ncc.gc.ca/carrieres">
+                                    Perspectives de carrière
+                                </a>
+                            </li>
+                                                            </ul>
+
+                                                                                                        
+    <ul class="mobile-nav-level"
+        id="mobile-nav-submenu-0"
+        aria-label="Submenu"
+        data-parent-path="0"
+        hidden>
+
+                <li class="special-navigation">
+            <button type="button" class="nav-button js-back-button" aria-label="Retour">
+                <span aria-hidden="true">&#8249;</span> Retour
+            </button>
+        </li>
+
+                            <li>
+                <a style="font-weight:700;" href="https://ccn-ncc.gc.ca/nos-plans">
+                    Nos plans
+                </a>
+            </li>
+        
+                                                    <li>
+                                    <a href="https://ccn-ncc.gc.ca/nos-plans/etude-du-paysage-culturel-entourant-le-canal-rideau">
+                        Étude du paysage culturel entourant le canal Rideau
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/nos-plans/le-plan-de-la-capitale-du-canada-2017-2067">
+                        Le Plan de la capitale du Canada
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/nos-plans/plan-des-terrains-urbains-de-la-capitale">
+                        Le Plan des terrains urbains de la capitale
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/nos-plans/plan-amenagement-des-berges-nord-de-la-riviere-des-outaouais">
+                        Plan d’aménagement des terrains riverains situés au nord de la rivière des Outaouais
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/projets/plan-directeur-conceptuel-des-plaines-lebreton">
+                        Plan directeur conceptuel des plaines LeBreton
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/nos-plans/plan-directeur-de-la-ceinture-de-verdure">
+                        Plan directeur de la Ceinture de verdure
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/nos-plans/plan-directeur-du-parc-de-la-gatineau">
+                        Plan directeur du parc de la Gatineau
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/nos-plans/plan-de-secteur-du-coeur-de-la-capitale-du-canada">
+                        Plan du cœur de la capitale nationale du Canada 
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/nos-plans/plan-du-parc-sir-george-etienne-cartier">
+                        Plan du parc Sir-George-Étienne-Cartier
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/nos-plans/plan-integre-long-terme-liens-interprovinciaux">
+                        Plan intégré à long terme sur les liens interprovinciaux
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/nos-plans/plan-lumiere-de-la-capitale">
+                        Plan lumière de la capitale
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/nos-plans/plan-du-parc-riverain-de-la-berge-sud-de-la-riviere-des-outaouais">
+                        Parc riverain de la berge sud de la rivière des Outaouais
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/nos-plans/plan-strategique-du-sentier-de-la-capitale">
+                        Plan stratégique du Sentier de la capitale
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/accessibilite">
+                        Plan sur l&#039;accessibilité
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/nos-plans/strategie-de-developpement-durable">
+                        Stratégie de développement durable
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/nos-plans/lignes-directrices-conception-capitale">
+                        Lignes directrices de conception de la capitale 
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/nos-plans/lignes-directrices-de-conception-sure-pour-les-oiseaux">
+                        Lignes directrices de conception sûre pour les oiseaux
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/nos-plans/lignes-directrices-boulevard-confederation">
+                        Lignes directrices du boulevard de la Confédération
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/nos-plans/lignes-directrices-pour-la-planification-et-la-conception-des-promenades">
+                        Lignes directrices pour la planification et la conception des promenades
+                    </a>
+                            </li>
+            </ul>
+
+                                                                                                                                                                                                                                                                                                                                                                                                    
+                                                                                                            
+    <ul class="mobile-nav-level"
+        id="mobile-nav-submenu-1"
+        aria-label="Submenu"
+        data-parent-path="1"
+        hidden>
+
+                <li class="special-navigation">
+            <button type="button" class="nav-button js-back-button" aria-label="Retour">
+                <span aria-hidden="true">&#8249;</span> Retour
+            </button>
+        </li>
+
+                            <li>
+                <a style="font-weight:700;" href="https://ccn-ncc.gc.ca/nos-projets">
+                    Nos projets
+                </a>
+            </li>
+        
+                                                    <li>
+                                    <a href="https://ccn-ncc.gc.ca/projets/ponts-routes">
+                        Ponts et routes
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/projets/batiments-murs">
+                        Bâtiments et murs
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/projets/conservation-decontamination">
+                        Conservation et décontamination
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/projets/monuments-art-public">
+                        Monuments et art public
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/projets/parcs-sentiers">
+                        Parcs et sentiers
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/projets/reamenagement">
+                        Réaménagement
+                    </a>
+                            </li>
+            </ul>
+
+                                                                                                                                
+                                                                                                            
+    <ul class="mobile-nav-level"
+        id="mobile-nav-submenu-2"
+        aria-label="Submenu"
+        data-parent-path="2"
+        hidden>
+
+                <li class="special-navigation">
+            <button type="button" class="nav-button js-back-button" aria-label="Retour">
+                <span aria-hidden="true">&#8249;</span> Retour
+            </button>
+        </li>
+
+                            <li>
+                <a style="font-weight:700;" href="https://ccn-ncc.gc.ca/traiter-avec-nous">
+                    Traiter avec nous
+                </a>
+            </li>
+        
+                                                    <li>
+                                    <a href="https://ccn-ncc.gc.ca/traiter/proprietes-a-vendre-ou-louer">
+                        Immobilier et logement
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/traiter/approbations-federales-utilisation-sol-design-transactions-immobilieres">
+                        Approbations fédérales de l&#039;utilisation du sol, du design et des transactions immobilières
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/traiter/partenariats-et-collaborations">
+                        Partenariats et collaborations
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/traiter/conclure-un-contrat-avec-la-ccn">
+                        Conclure un contrat avec la CCN
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/traiter/plaques-commemoratives-sur-les-bancs-de-parc-a-ottawa-gatineau">
+                        Des bancs de parc commémoratifs
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/traiter/la-culture-se-vit-ici">
+                        La culture se vit ici
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/traiter/permis-dactivites">
+                        Permis d&#039;activité
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/traiter/acces-terrains">
+                        Permis d&#039;accès aux terrains
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/traiter/reservations-pour-les-mariages">
+                        Réservations pour les mariages
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/traiter/faire-voler-un-drone-au-dessus-des-terrains-de-la-ccn">
+                        Permis d’utilisation de drone
+                    </a>
+                            </li>
+            </ul>
+
+                                                                                                                                                                                                                
+                                                                                                            
+    <ul class="mobile-nav-level"
+        id="mobile-nav-submenu-3"
+        aria-label="Submenu"
+        data-parent-path="3"
+        hidden>
+
+                <li class="special-navigation">
+            <button type="button" class="nav-button js-back-button" aria-label="Retour">
+                <span aria-hidden="true">&#8249;</span> Retour
+            </button>
+        </li>
+
+                            <li>
+                <a style="font-weight:700;" href="https://ccn-ncc.gc.ca/endroits">
+                    Endroits à visiter
+                </a>
+            </li>
+        
+                                                    <li>
+                                    <a href="https://ccn-ncc.gc.ca/endroits/parc-de-la-gatineau">
+                        Le parc de la Gatineau
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/endroits/ceinture-de-verdure">
+                        Ceinture de verdure de la capitale du Canada
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/endroits/patinoire-du-canal-rideau">
+                        La patinoire du canal Rideau
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/endroits/parcs-urbains">
+                        Parcs urbains
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/endroits/la-maison-riveraine-de-la-ccn">
+                        La Maison riveraine de la CCN
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/endroits/les-promenades-panoramiques">
+                        Les promenades panoramiques
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/endroits/sentier-de-la-capitale">
+                        Sentier de la capitale
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/endroits/boulevard-de-la-confederation">
+                        Boulevard de la Confédération
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/endroits/edifices-patrimoniaux-de-la-region-de-la-capitale-nationale">
+                        Édifices patrimoniaux de la région de la capitale du Canada
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ccn-ncc.gc.ca/endroits/gestion-des-residences-officielles-de-la-region-de-la-capitale-du-canada">
+                        Résidences officielles
+                    </a>
+                            </li>
+            </ul>
+
+                                                                                                                                                                                                                
+                                    
+            </div>
+        </nav>
+    </div>
+</div>
+              </div>
+            </nav>
+
+                                 
+											
+		
+													
+									
+										
+																																		
+						
+			
+									
+								<header class="header" role="banner">
+				<div class="container">
+					<div class="grid-center">
+						<div class="col-10_md-12 py-0">
+																		<h1>Transparence</h1>
+						
+																		</div>
+					</div>
+				</div>
+			</header>
+			
+        <main id="main" class="main" role="main">
+            	<section class="breadcrumb mb-3 py-2">
+	<div class="container">
+		<div class="grid">
+			<nav aria-label="Fil d&#039;Ariane" class="col pb-0">
+				Vous êtes ici :
+				<ul>
+					<li><a href="/">Accueil</a></li>
+					
+															
+																										
+																			
+					<li aria-current="page">Transparence</li>
+				</ul>
+			</nav>
+		</div>
+  	</div>
+</section>
+	
+            <div class="container">
+        <div class="grid">
+                    <div class="col-3_sm-12">
+                                    		<!-- widget:pageGroupWidget -->
+				<div class="newSideBar">
+							<div>
+							<h3 class="mt-0 mb-1 p-0"><a href='https://ccn-ncc.gc.ca/transparence'>Transparence</a></h3>
+				 
+		<nav id="TableOfContents">
+			    		
+    <ol type="1"  class="toc-level pb-0">
+											<li >
+					<a  
+						href="https://ccn-ncc.gc.ca/rapport-detape-sur-lexamen-du-fardeau-administratif-de-2025" >Rapport d’étape sur l&#039;examen du fardeau administratif de 2025</a>
+						
+									</li>
+												<li >
+					<a  
+						href="https://ccn-ncc.gc.ca/la-protection-de-vos-renseignements-personnels-a-la-ccn" >La protection de vos renseignements personnels à la CCN</a>
+						
+									</li>
+												<li >
+					<a  
+						href="https://ccn-ncc.gc.ca/divulgation-proactive" >Divulgation proactive</a>
+						
+									</li>
+												<li >
+					<a  
+						href="https://ccn-ncc.gc.ca/info-source" >Info Source</a>
+						
+									</li>
+												<li >
+					<a  
+						href="https://ccn-ncc.gc.ca/demande-acces-a-des-renseignements-personnels" >Demande d’accès à des renseignements personnels</a>
+						
+									</li>
+												<li >
+					<a  
+						href="https://ccn-ncc.gc.ca/demande-acces-a-linformation" >Demande d’accès à l’information</a>
+						
+									</li>
+						</ol>
+
+		</nav>
+	</div> 
+	
+	
+	
+			</div>
+		
+                            </div>
+                            <div class="content col">
+                                    		<!-- widget:richText -->
+				<div>
+				<p>À la CCN, nous prenons des mesures raisonnables pour améliorer la transparence et l’encadrement des ressources publiques.</p>
+<p>En tant que société d’État, nous devons nous conformer à ce qui suit :</p>
+<ul><li><a href="https://laws-lois.justice.gc.ca/fra/lois/a-1/index.html" target="_blank" rel="noreferrer noopener"><em>Loi sur l’accès à l’information</em></a></li><li><a href="https://laws-lois.justice.gc.ca/fra/lois/p-21/" target="_blank" rel="noreferrer noopener"><em>Loi sur la protection des renseignements personnels</em></a></li><li><a href="https://laws-lois.justice.gc.ca/fra/lois/p-31.9/" target="_blank" rel="noreferrer noopener"><em>Loi sur la protection des fonctionnaires divulgateurs d’actes répréhensibles</em></a></li><li><a href="https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=32756§ion=html" target="_blank" rel="noreferrer noopener">Directive sur la publication proactive du gouvernement du Canada</a></li></ul>
+<h2>Passer à l’action</h2>
+<ul><li><a href="https://ccn-ncc.gc.ca/demande-acces-a-des-renseignements-personnels" target="_blank" rel="noreferrer noopener">Demande d’accès à des renseignements personnels </a></li><li><a href="https://ccn-ncc.gc.ca/demande-acces-a-linformation" target="_blank" rel="noreferrer noopener">Demande d’accès à l’information</a></li></ul>
+<h2>En savoir plus sur la CCN</h2>
+<ul><li><a href="https://ccn-ncc.gc.ca/rapport-detape-sur-lexamen-du-fardeau-administratif-de-2025" target="_blank" rel="noreferrer noopener">Rapport d’étape sur l'examen du fardeau administratif de 2025</a><br></li><li><a href="https://ccn-ncc.gc.ca/la-protection-de-vos-renseignements-personnels-a-la-ccn" target="_blank" rel="noreferrer noopener">La protection de vos renseignements personnels à la CCN</a></li><li><a href="https://ccn-ncc.gc.ca/divulgation-proactive" target="_blank" rel="noreferrer noopener">Divulgation proactive</a></li><li><a href="https://ccn-ncc.gc.ca/info-source" target="_blank" rel="noreferrer noopener">Info Source</a></li></ul><h2>Rapports annuels au Parlement</h2>
+			</div>
+		
+                                    		<!-- widget:documents -->
+			
+
+    <h3 class="left" id="loi-sur-laccès-à-linformation">Loi sur l'accès à l'information</h3>
+
+
+<div class="documents grey" data-type="documents" data-id="1159944">
+    		<ul class="pb-0">
+            <li data-id="1159882">
+            <a href="https://ncc-website-2.s3.amazonaws.com/documents/2024-2025-Acces-a-linformation.pdf">Rapport annuel au Parlement - Loi sur l&#039;accès à l&#039;information - 2024-2025</a> (1,27 Mo)
+        </li>
+            <li data-id="997518">
+            <a href="https://ncc-website-2.s3.amazonaws.com/documents/Rapport_Annuel_Acces-information_2023-24.pdf">Rapport annuel au Parlement - Loi sur l&#039;accès à l&#039;information - 2023-2024</a> (5,76 Mo)
+        </li>
+            <li data-id="844676">
+            <a href="https://ncc-website-2.s3.amazonaws.com/documents/2022-2023-Access-Annual-Report_FR.pdf">Rapport annuel au Parlement - Loi sur l&#039;accès à l&#039;information - 2022-2023</a> (1,01 Mo)
+        </li>
+            <li data-id="617484">
+            <a href="https://ncc-website-2.s3.amazonaws.com/documents/2021-2022-Access-Annual-Report_Fr.pdf">Rapport annuel au Parlement - Loi sur l&#039;accès à l&#039;information - 2021-2022</a> (837,39 Ko)
+        </li>
+            <li data-id="467696">
+            <a href="https://ncc-website-2.s3.amazonaws.com/documents/Rapport-annuel-au-Parlement-Loi-sur-lacc%C3%A8s-%C3%A0-linformation-pour-la-p%C3%A9riode-du-1er-avril-2020-au-31-mars-2021.pdf">Rapport annuel au Parlement - Loi sur l&#039;accès à l&#039;information - 2020-2021</a> (749,39 Ko)
+        </li>
+            <li data-id="207194">
+            <a href="https://ncc-website-2.s3.amazonaws.com/documents/Rapport-annuel-au-Parlement-Loi-sur-l%E2%80%99acc%C3%A8s-%C3%A0-l%E2%80%99information-pour-la-p%C3%A9riode-du-1er-avril-2019-au-31-mars-2020.pdf">Rapport annuel au Parlement - Loi sur l&#039;accès à l&#039;information - 2019- 2020</a> (467,51 Ko)
+        </li>
+            <li data-id="207195">
+            <a href="https://ncc-website-2.s3.amazonaws.com/documents/Rapport-annuel-au-Parlement-Loi-sur-l%E2%80%99acc%C3%A8s-%C3%A0-l%E2%80%99information-pour-la-p%C3%A9riode-du-1er-avril-2018-au-31-mars-2019.pdf">Rapport annuel au Parlement - Loi sur l&#039;accès à l&#039;information - 2018-2019</a> (258,22 Ko)
+        </li>
+            <li data-id="207186">
+            <a href="https://ncc-website-2.s3.amazonaws.com/documents/Rapport-annuel-au-Parlement-Loi-sur-l%E2%80%99acc%C3%A8s-%C3%A0-l%E2%80%99information-pour-la-p%C3%A9riode-du-1er-avril-2017-au-31-mars-2018.pdf">Rapport annuel au Parlement - Loi sur l&#039;accès à l&#039;information - 2017-2018</a> (338,13 Ko)
+        </li>
+        </ul>
+</div>
+
+
+	
+                                    		<!-- widget:documents -->
+			
+
+    <h3 class="left" id="loi-sur-laccès-à-linformation">Loi sur l'accès à l'information</h3>
+
+
+<div class="documents grey" data-type="documents" data-id="1159945">
+    		<ul class="pb-0">
+            <li data-id="1159924">
+            <a href="https://ncc-website-2.s3.amazonaws.com/documents/2024-2025-Renseignements-personnels.pdf">Rapport annuel au Parlement - Loi sur la protection des renseignements personnels - 2024-2025</a> (996,51 Ko)
+        </li>
+            <li data-id="997519">
+            <a href="https://ncc-website-2.s3.amazonaws.com/documents/Rapport_Annuel_Renseignements_Personnels_2023-24.pdf">Rapport annuel au Parlement - Loi sur la protection des renseignements personnels - 2023-2024</a> (3,96 Mo)
+        </li>
+            <li data-id="844678">
+            <a href="https://ncc-website-2.s3.amazonaws.com/documents/2022-2023-Privacy-Annual-Report_FR.pdf">Rapport annuel au Parlement - Loi sur la protection des renseignements personnels - 2022-2023</a> (763,49 Ko)
+        </li>
+            <li data-id="617483">
+            <a href="https://ncc-website-2.s3.amazonaws.com/documents/2021-2022-Privacy-Annual-Report_Fr.pdf">Rapport annuel au Parlement - Loi sur la protection des renseignements personnels - 2021-2022</a> (647,99 Ko)
+        </li>
+            <li data-id="467695">
+            <a href="https://ncc-website-2.s3.amazonaws.com/documents/Rapport-annuel-au-Parlement-Loi-sur-la-protection-des-renseignements-personnels-pour-la-p%C3%A9riode-du-1er-avril-2020-au-31-mars-2021.pdf">Rapport annuel au Parlement - Loi sur la protection des renseignements personnels - 2020-2021</a> (566,62 Ko)
+        </li>
+            <li data-id="207198">
+            <a href="https://ncc-website-2.s3.amazonaws.com/documents/Rapport-annuel-au-Parlement-Loi-sur-la-protection-des-renseignements-personnels-pour-la-p%C3%A9riode-du-1er-avril-2019-au-31-mars-2020.pdf">Rapport annuel au Parlement - Loi sur la protection des renseignements personnels - 2019-2020</a> (497,13 Ko)
+        </li>
+            <li data-id="207197">
+            <a href="https://ncc-website-2.s3.amazonaws.com/documents/Rapport-annuel-au-Parlement-Loi-sur-la-protection-des-renseignements-personnels-pour-la-p%C3%A9riode-du-1er-avril-2018-au-31-mars-2019.pdf">Rapport annuel au Parlement - Loi sur la protection des renseignements personnels - 2018-2019</a> (313,28 Ko)
+        </li>
+            <li data-id="207196">
+            <a href="https://ncc-website-2.s3.amazonaws.com/documents/Rapport-annuel-au-Parlement-Loi-sur-la-protection-des-renseignements-personnels-pour-la-p%C3%A9riode-du-1er-avril-2017-au-31-mars-2018.pdf">Rapport annuel au Parlement - Loi sur la protection des renseignements personnels - 2017-2018</a> (247,95 Ko)
+        </li>
+        </ul>
+</div>
+
+
+	
+                            </div>
+                </div>
+    </div>
+    
+        </main>	
+        
+
+
+
+<footer class="primary-footer" role="contentinfo" aria-label="Footer">
+  <div class="primary-footer__top"></div>
+  <div class="primary-footer__bottom">
+    <div class="container" role="navigation">
+      <div class="grid" role="none">
+        <div class="col_md-last" role="none">
+          <ul class="footer-nav footer-nav--left" role="menubar">
+                            
+    
+  
+  
+  <li role="none" >
+    <a role="menuitem" href="https://ccn-ncc.gc.ca/accessibilite" title="Accessibilité" 
+         >
+      <span>Accessibilité</span>
+    </a>
+  </li>
+
+
+                            
+    
+  
+  
+  <li role="none" >
+    <a role="menuitem" href="https://ccn-ncc.gc.ca/benevolat" title="Bénévolat" 
+         >
+      <span>Bénévolat</span>
+    </a>
+  </li>
+
+
+                            
+    
+  
+  
+  <li role="none" >
+    <a role="menuitem" href="https://ccn-ncc.gc.ca/contactez-nous" title="Contactez-nous" 
+         >
+      <span>Contactez-nous</span>
+    </a>
+  </li>
+
+
+                            
+    
+  
+  
+  <li role="none" >
+    <a role="menuitem" href="https://ccn-ncc.gc.ca/carrieres" title="Perspectives de carrière" 
+         >
+      <span>Perspectives de carrière</span>
+    </a>
+  </li>
+
+
+                            
+    
+  
+  
+  <li role="none" >
+    <a role="menuitem" href="https://ccn-ncc.gc.ca/abonnez-vous-a-notre-bulletin" title="Abonnez-vous à nos infolettres" 
+         >
+      <span>Abonnez-vous à nos infolettres</span>
+    </a>
+  </li>
+
+
+                      </ul>
+        </div>
+        <div class="col-6_md-12"role="none">
+          <div class="footer-center">
+            <img class="footer-brand__image" loading="lazy" src="/img/crown-of-leaves.png" width="125" height="125" alt="Crown of Leaves">
+            <p class="footer-brand__title">Commission de la capitale nationale</p>
+            <div class="footer-brand__copy"></div>
+            <ul class="social-links social-links--inline">
+                                    <li class="flex-fill text-center">
+                        <a aria-label="Facebook" href="https://www.facebook.com/CommissionDeLaCapitaleNationale" rel="noreferrer">
+                            <i alt="Facebook" aria-hidden="true" class="fa-xl fa-brands fa-facebook-f"></i>
+                            <span class="fa-sr-only">Facebook</span>
+                        </a>
+                    </li>
+                                    <li class="flex-fill text-center">
+                        <a aria-label="Instagram" href="https://www.instagram.com/ccn__ncc" rel="noreferrer">
+                            <i alt="Instagram" aria-hidden="true" class="fa-xl fa-brands fa-instagram"></i>
+                            <span class="fa-sr-only">Instagram</span>
+                        </a>
+                    </li>
+                                    <li class="flex-fill text-center">
+                        <a aria-label="X" href="https://x.com/CCN_NCC" rel="noreferrer">
+                            <i alt="X" aria-hidden="true" class="fa-xl fa-brands fa-x-twitter"></i>
+                            <span class="fa-sr-only">X</span>
+                        </a>
+                    </li>
+                                    <li class="flex-fill text-center">
+                        <a aria-label="Bluesky" href="https://bsky.app/profile/ccn-ncc.gc.ca" rel="noreferrer">
+                            <i alt="Bluesky" aria-hidden="true" class="fa-xl fa-brands fa-bluesky"></i>
+                            <span class="fa-sr-only">Bluesky</span>
+                        </a>
+                    </li>
+                                    <li class="flex-fill text-center">
+                        <a aria-label="LinkedIn" href="https://www.linkedin.com/company/national-capital-commission/" rel="noreferrer">
+                            <i alt="LinkedIn" aria-hidden="true" class="fa-xl fa-brands fa-linkedin-in"></i>
+                            <span class="fa-sr-only">LinkedIn</span>
+                        </a>
+                    </li>
+                                    <li class="flex-fill text-center">
+                        <a aria-label="Youtube" href="https://www.youtube.com/user/nccvidccn" rel="noreferrer">
+                            <i alt="Youtube" aria-hidden="true" class="fa-xl fa-brands fa-youtube"></i>
+                            <span class="fa-sr-only">Youtube</span>
+                        </a>
+                    </li>
+                                    <li class="flex-fill text-center">
+                        <a aria-label="Balado" href="/balado" rel="noreferrer">
+                            <i alt="Balado" aria-hidden="true" class="fa-xl fa-solid fa-podcast"></i>
+                            <span class="fa-sr-only">Balado</span>
+                        </a>
+                    </li>
+                              </ul>
+            <img class="footer-brand__canada-image" loading="lazy" src="/img/Canada.png" width="125px" alt="Canada">
+          </div>
+        </div>
+        <div class="col"role="none">
+          <ul class="footer-nav footer-nav--right" role="menubar">
+                            
+    
+  
+  
+  <li role="none" >
+    <a role="menuitem" href="https://ccn-ncc.gc.ca/avis-importants-et-clauses-de-non-responsabilite" title="Avis importants et clauses de non‑responsabilité" 
+         >
+      <span>Avis importants et clauses de non‑responsabilité</span>
+    </a>
+  </li>
+
+
+                            
+    
+  
+  
+  <li role="none" >
+    <a role="menuitem" href="https://ccn-ncc.gc.ca/reglements" title="Règlements" 
+         >
+      <span>Règlements</span>
+    </a>
+  </li>
+
+
+                            
+    
+  
+  
+  <li role="none" >
+    <a role="menuitem" href="https://ccn-ncc.gc.ca/transparence" title="Transparence" 
+         >
+      <span>Transparence</span>
+    </a>
+  </li>
+
+
+                            
+    
+  
+  
+  <li role="none" >
+    <a role="menuitem" href="https://ccn-ncc.gc.ca/documents" title="Documents et rapports" 
+         >
+      <span>Documents et rapports</span>
+    </a>
+  </li>
+
+
+                            
+    
+  
+  
+  <li role="none" >
+    <a role="menuitem" href="https://ccn-hub-ncc-ccn.hub.arcgis.com/" title="Données ouvertes" 
+         target="_blank">
+      <span>Données ouvertes</span>
+    </a>
+  </li>
+
+
+                      </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>        <script src="/js/vendor.js?1681438492"></script>
+        <script src="/js/main.js?1772028267"></script>
+    	
+        <script type="application/ld+json">{"@context":"http://schema.org","@graph":[{"@type":"GovernmentOrganization","description":"La Commission de la capitale nationale bâtit une capitale dynamique, durable et inspirante pour la population canadienne.","image":{"@type":"ImageObject","url":"https://ncc-website-2.s3.amazonaws.com/images/_1200x630_crop_center-center_82_none/aerial.jpg?mtime=1657548134"},"mainEntityOfPage":"https://ccn-ncc.gc.ca/transparence","name":"Transparence","url":"https://ccn-ncc.gc.ca/transparence"},{"@id":"http://ccn-ncc.gc.ca/#identity","@type":"GovernmentOrganization","address":{"@type":"PostalAddress","addressCountry":"Canada","addressLocality":"Ottawa","addressRegion":"Ontario","postalCode":"K1P 1C7","streetAddress":"40 rue Elgin"},"alternateName":"CCN","description":"La Commission de la capitale nationale bâtit une capitale dynamique, durable et inspirante pour la population canadienne.","email":"info@ncc-ccn.ca","image":{"@type":"ImageObject","height":"138","url":"https://ncc-website-2.s3.amazonaws.com/images/ncclogo.png","width":"138"},"logo":{"@type":"ImageObject","height":"60","url":"https://ncc-website-2.s3.amazonaws.com/images/_600x60_fit_center-center_82_none/ncclogo.png?mtime=1610475025","width":"60"},"name":"Commission de la capitale nationale","sameAs":["https://x.com/CCN_NCC","https://www.facebook.com/CommissionDeLaCapitaleNationale/","https://fr.wikipedia.org/wiki/Commission_de_la_capitale_nationale_(Canada)","https://www.youtube.com/channel/UCQbd2kMcUmec6qaFaLThAtA?view_as=subscriber","https://www.instagram.com/ncc_ccn/"],"telephone":"(613) 239-5000","url":"http://ccn-ncc.gc.ca/"},{"@id":"http://ccn-ncc.gc.ca/#creator","@type":"GovernmentOrganization","address":{"@type":"PostalAddress","addressCountry":"Canada","addressLocality":"Ottawa","addressRegion":"Ontario","postalCode":"K1P 1C7","streetAddress":"40 rue Elgin"},"alternateName":"CCN","description":"La Commission de la capitale nationale bâtit une capitale dynamique, durable et inspirante pour la population canadienne.","email":"info@ncc-ccn.ca","image":{"@type":"ImageObject","height":"138","url":"http://ncc-website-2.s3.amazonaws.com/images/ncclogo.png?mtime=20181101150240","width":"138"},"logo":{"@type":"ImageObject","height":"60","url":"https://ncc-website-2.s3.amazonaws.com/images/_600x60_fit_center-center_82_none/ncclogo.png?mtime=1610475025","width":"60"},"name":"Commission de la capitale nationale","telephone":"(613) 239-5000","url":"http://ccn-ncc.gc.ca/"},{"@type":"BreadcrumbList","description":"Breadcrumbs list","itemListElement":[{"@type":"ListItem","item":"https://ccn-ncc.gc.ca/","name":"Commission de la capitale nationale","position":1},{"@type":"ListItem","item":"https://ccn-ncc.gc.ca/transparence","name":"Transparence","position":2}],"name":"Breadcrumbs"}]}</script><script>$(function() {
+		$(".toc-subnav").parents(".toc-level").show("fast")
+			.prev().toggleClass("fa-circle-plus fa-circle-minus");
+		
+		$(".toc-subnav").click(function(){
+			$( this ).toggleClass("fa-circle-plus fa-circle-minus");
+			$( this ).next().toggle("fast");
+		});
+	});
+(function () {
+  // Pull GA4 Measurement ID from environment (SEOmatic env var)
+  const GA_ID = 'G-RTD9BL4DBV';
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+
+  function loadGA4() {
+    if (!GA_ID || window.__gaLoaded) return; // guard
+    window.__gaLoaded = true;
+
+    // (Optional) Consent Mode v2 update – adjust to your policy
+    gtag('consent', 'update', {
+      ad_user_data: 'granted',
+      ad_personalization: 'granted',
+      ad_storage: 'granted',
+      analytics_storage: 'granted',
+      functionality_storage: 'granted',
+      security_storage: 'granted'
+    });
+
+    // Load GA4
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+    s.onload = function () {
+      gtag('js', new Date());
+      // Normal page config; referrer is preserved because we didn't reload
+      gtag('config', GA_ID);
+    };
+    document.head.appendChild(s);
+  }
+
+  // If consent already present on first load, start tracking now
+  
+  $(document).on("click","[data-cookie-accept]",function() {
+    $(".cookie-banner__container").hide();
+    fetch("/api/tracking", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ setting: 1 })
+    }).then(() => {
+      // No reload: preserve real external referrer
+      loadGA4();
+      // Load the rest of your vendors from trackingCodes.twig
+      if (typeof loadConsentTrackers === 'function') loadConsentTrackers();
+    });
+  });
+
+  $(document).on("click","[data-cookie-decline]",function() {
+    $(".cookie-banner__container").hide();
+    fetch("/api/tracking", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ setting: 0 })
+    });
+    // No reload, and don't load trackers.
+  });
+})();</script>
+	
+  
+
+
+
+<div class="cookie-banner cookie-banner--bottom cookie-banner--left" role="dialog" aria-labelledby="cookie-banner-title" aria-describedby="cookie-banner-description">
+  <div class="cookie-banner__container">
+    <div class="cookie-banner__content">
+      <h2 id="cookie-banner-title" class="cookie-banner__title">
+        Notre site Web utilise des témoins
+      </h2>
+      
+      <div id="cookie-banner-description" class="cookie-banner__description">
+          <p>Notre site Web utilise des technologies de suivi (témoins) pour connaître les habitudes de navigation du public. Les témoins aident la CCN à améliorer ses services et la valeur de ses contenus. Nous vous invitons à lire la <a href="https://ccn-ncc.gc.ca/avis-importants-et-clauses-de-non-responsabilite">politique de confidentialité</a> de la CCN. </p>
+      </div>
+      
+      <div class="cookie-banner__actions">
+        <button type="button" class="button btn-secondary btn-md btn-full" data-cookie-accept>
+          J&#039;ai compris
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    </body>
+</html>

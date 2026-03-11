@@ -1,0 +1,5 @@
+institution_name_en: Ship Source Oil Pollution Fund
+institution_name_fr: Caisse d’indemnisation des dommages dus a la pollution par les hydrocarbures causée par les navires
+gc_orgID: 3613
+infosource_url_en: https://sopf.gc.ca/?page_id=3123
+infosource_url_fr: https://sopf.gc.ca/?page_id=3128&lang=fr

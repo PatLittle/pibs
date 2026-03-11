@@ -1,0 +1,5 @@
+institution_name_en: Windsor-Detroit Bridge Authority
+institution_name_fr: Autorité du pont Windsor-Detroit
+gc_orgID: 3644
+infosource_url_en: https://www.wdbridge.com/en/info-source
+infosource_url_fr: https://www.wdbridge.com/fr/info-source

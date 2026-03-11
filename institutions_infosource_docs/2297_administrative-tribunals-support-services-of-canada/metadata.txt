@@ -1,0 +1,5 @@
+institution_name_en: Administrative Tribunals Support Services of Canada
+institution_name_fr: Service canadien d’appui aux tribunaux administratifs
+gc_orgID: 2297
+infosource_url_en: https://www.canada.ca/en/administrative-tribunals-support-service/transparency/info-source.html
+infosource_url_fr: https://www.canada.ca/fr/service-canadien-appui-tribunaux-administratifs/transparence/info-source.html

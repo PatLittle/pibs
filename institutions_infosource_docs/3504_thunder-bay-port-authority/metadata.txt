@@ -1,0 +1,5 @@
+institution_name_en: Thunder Bay Port Authority
+institution_name_fr: Administration portuaire de Thunder Bay
+gc_orgID: 3504
+infosource_url_en: https://www.portofthunderbay.ca/wp-content/uploads/2020/04/Infosource-Thunder-Bay-Port-Authority-20.pdf
+infosource_url_fr: https://www.portofthunderbay.ca/wp-content/uploads/2020/04/Infosource-Administration-portuaire-de-Thunder-Bay-20.pdf

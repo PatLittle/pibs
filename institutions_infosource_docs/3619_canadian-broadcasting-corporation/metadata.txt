@@ -1,0 +1,5 @@
+institution_name_en: Canadian Broadcasting Corporation
+institution_name_fr: Société Radio-Canada (CBC/Radio-Canada)
+gc_orgID: 3619
+infosource_url_en: https://cbc.radio-canada.ca/en/impact-and-accountability/access-to-information/infosource
+infosource_url_fr: https://cbc.radio-canada.ca/fr/transparence-et-engagement/acces-a-linformation/infosource

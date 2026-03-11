@@ -1,0 +1,5 @@
+institution_name_en: Natural Resources Canada
+institution_name_fr: Ressources naturelles Canada
+gc_orgID: 2234
+infosource_url_en: https://natural-resources.canada.ca/transparency/access-information-and-privacy/21403
+infosource_url_fr: https://ressources-naturelles.canada.ca/transparence/acces-linformation-et-protection-des-renseignements-personnels/21404

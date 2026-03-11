@@ -1,0 +1,5 @@
+institution_name_en: Infrastructure Canada
+institution_name_fr: Infrastructure Canada
+gc_orgID: na
+infosource_url_en: https://www.infrastructure.gc.ca/infosource/infosource-eng.html
+infosource_url_fr: https://www.infrastructure.gc.ca/infosource/infosource-fra.html

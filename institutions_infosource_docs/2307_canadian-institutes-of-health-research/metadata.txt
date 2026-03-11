@@ -1,0 +1,5 @@
+institution_name_en: Canadian Institutes of Health Research
+institution_name_fr: Instituts de recherche en santé du Canada
+gc_orgID: 2307
+infosource_url_en: http://www.cihr-irsc.gc.ca/e/47695.html
+infosource_url_fr: http://www.cihr-irsc.gc.ca/f/47695.html

@@ -1,0 +1,5 @@
+institution_name_en: Public Service Commission of Canada
+institution_name_fr: Commission de la fonction publique du Canada
+gc_orgID: 2286
+infosource_url_en: https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/info-source-sources-federal-government-employee-information.html
+infosource_url_fr: https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/info-source.html

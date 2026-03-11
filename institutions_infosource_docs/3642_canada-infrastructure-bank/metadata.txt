@@ -1,0 +1,5 @@
+institution_name_en: Canada Infrastructure Bank
+institution_name_fr: Banque de l’infrastructure du Canada
+gc_orgID: 3642
+infosource_url_en: https://cdn.cib-bic.ca/files/Governance/Info-Source-CIB-2021.pdf
+infosource_url_fr: https://cdn.cib-bic.ca/files/Governance/Info-Source-BIC-2021.pdf

@@ -1,0 +1,5 @@
+institution_name_en: Canada Eldor Inc.
+institution_name_fr: Canada Eldor Inc.
+gc_orgID: na
+infosource_url_en: https://www.cdev.gc.ca/info-source/canada-eldor-inc/
+infosource_url_fr: https://www.cdev.gc.ca/fr/info-source-2/canada-eldor-inc/

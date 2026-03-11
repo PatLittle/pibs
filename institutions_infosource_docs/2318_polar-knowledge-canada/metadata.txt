@@ -1,0 +1,5 @@
+institution_name_en: Polar Knowledge Canada
+institution_name_fr: Savoir polaire Canada
+gc_orgID: 2318
+infosource_url_en: https://www.canada.ca/en/polar-knowledge/proactivedisclosure.html
+infosource_url_fr: https://www.canada.ca/fr/savoir-polaire/divulgationproactive.html

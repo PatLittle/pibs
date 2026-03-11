@@ -1,0 +1,1785 @@
+* [Passer au contenu principal](#wb-cont)
+* [Passer à « Au sujet du gouvernement »](#wb-info)
+
+## Sélection de la langue
+
+* [English
+  en](/en/public-health/corporate/mandate/about-agency/access-information-privacy/info-source-federal-government-employee-information.html)
+
+[![Gouvernement du Canada](/etc/designs/canada/wet-boew/assets/sig-blk-fr.svg)
+ /
+Government of Canada](/fr.html)
+
+## Recherche
+
+Rechercher dans Canada.ca
+
+Recherche
+
+---
+
+## Menu
+
+Menu principal
+
+* [Emplois et milieu de travail](https://www.canada.ca/fr/services/emplois.html)
+* [Immigration et citoyenneté](https://www.canada.ca/fr/services/immigration-citoyennete.html)
+* [Voyage et tourisme](https://voyage.gc.ca/)
+* [Entreprises et industrie](https://www.canada.ca/fr/services/entreprises.html)
+* [Prestations](https://www.canada.ca/fr/services/prestations.html)
+* [Santé](https://www.canada.ca/fr/services/sante.html)
+* [Impôts](https://www.canada.ca/fr/services/impots.html)
+* [Environnement et ressources naturelles](https://www.canada.ca/fr/services/environnement.html)
+* [Sécurité nationale et défense](https://www.canada.ca/fr/services/defense.html)
+* [Culture, histoire et sport](https://www.canada.ca/fr/services/culture.html)
+* [Services de police, justice et urgences](https://www.canada.ca/fr/services/police.html)
+* [Transport et infrastructure](https://www.canada.ca/fr/services/transport.html)
+* [Canada et le monde](https://www.international.gc.ca/world-monde/index.aspx?lang=fra)
+* [Argent et finances](https://www.canada.ca/fr/services/finance.html)
+* [Science et innovation](https://www.canada.ca/fr/services/science.html)
+* [Gérer les événements de la vie](https://www.canada.ca/fr/services/evenements-vie.html)
+
+## Vous êtes ici :
+
+1. [Canada.ca](/fr.html)
+2. [Ministères et organismes](/fr/gouvernement/min.html)
+3. [Agence de la santé publique du Canada](/fr/sante-publique.html)
+4. [Mandat de l’Agence de la santé publique du Canada](/fr/sante-publique/organisation/mandat.html)
+5. [À propos de l'Agence de la santé publique du Canada](/fr/sante-publique/organisation/mandat/a-propos-agence.html)
+6. [Accès à l'information et protection des renseignements personnels](/fr/sante-publique/organisation/mandat/a-propos-agence/acces-a-information-protection-renseignements-personnels.html)
+
+# Info Source : Sources de renseignements du gouvernement fédéral et sur les fonctionnaires fédéraux Agence de la santé publique du Canada
+
+Mise à jour : 2025
+
+Info Source : Sources de renseignements du gouvernement fédéral et sur les fonctionnaires fédéraux fournit de l'information au sujet des fonctions, des programmes, des activités et des fonds de renseignements connexes des institutions fédérales visées par la [Loi sur l'accès à l'information](http://laws-lois.justice.gc.ca/fra/lois/A-1/) et la [Loi sur la protection des renseignements personnels](http://laws-lois.justice.gc.ca/fra/lois/p-21/). Il donne aux personnes et aux employés du gouvernement (actuels et anciens) des renseignements pertinents afin de leur donner accès aux renseignements personnels les concernant et qui sont détenus par les institutions fédérales visées par la *Loi sur la protection des renseignements personnels*, et à les aider à exercer leurs droits en vertu de la *Loi sur la protection des renseignements personnels*.
+
+Un accès central permet de consulter l'[avant-propos](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/fonctionnement-demandes-acces-information-renseignements-personnels.html) d'Info Source : Sources de renseignements du gouvernement fédéral et sur les fonctionnaires fédéraux et la [liste des institutions](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/sources-renseignements-gouvernement-federal-fonctionnaires-federaux.html) assujetties à la *Loi sur l'accès à l'information* et à la *Loi sur la protection des renseignements personnels*.
+
+La Loi sur l'accès à l'information et la Loi sur la protection des renseignements personnels confèrent au président du Conseil du Trésor (à titre de ministre responsable) les responsabilités générales pour ce qui est de l'administration pangouvernementale de ces deux lois.
+
+## Table des matières
+
+* [Renseignements généraux](#a1)
+  + [Contexte](#a1.1)
+  + [Responsabilités](#a1.2)
+* [Fonctions, programmes et activités de l'institution](#a2)
+  + [Promotion de la santé et prévention des maladies chroniques](#a2.1)
+    - [Prévention des maladies chroniques](#a2.1.1)
+    - [Données probantes liées à la promotion de la santé et à la prévention des maladies chroniques et des blessures](#a2.1.2)
+    - [Promotion de la santé](#a2.1.3)
+  + [Sécurité sanitaire](#a2.2)
+    - [Biosécurité](#a2.2.1)
+    - [Santé des voyageurs et santé transfrontalière](#a2.2.2)
+  + [Prévention et contrôle des maladies infectieuses](#a2.3)
+    - [Contrôle des maladies transmissibles et des infections](#a2.3.1)
+    - [Services et leadership en matière de science en laboratoire](#a2.3.2)
+    - [Vaccination](#a2.3.3)
+  + [Services internes](#a2.4)
+  + [Catégories de renseignements personnels](#a2.5)
+  + [Manuels](#a2.6)
+* [Renseignements supplémentaires](#a3)
+  + [Salle de lecture](#a3.1)
+  + [Questions générales](#a3.2)
+
+## Renseignements généraux
+
+### Contexte
+
+En septembre 2004, l'Agence de la santé publique du Canada (l'ASPC ou l'Agence) a été créée et son statut de personne morale a été confirmé en décembre 2006 dans la Loi sur l'Agence de la santé publique du Canada. Son principal objectif est de renforcer la capacité du Canada de protéger et d'améliorer la santé de la population et d'aider à réduire les pressions sur le système de soins de santé. L'Agence concentre ses activités sur la prévention et le contrôle des maladies chroniques et infectieuses, la prévention des lésions, ainsi que les mesures et interventions d'urgence en santé publique.
+
+L'ASPC est l'un des six ministères et organismes qui composent le portefeuille de la Santé du gouvernement fédéral et qui rendent des comptes au Parlement par l'intermédiaire du ministre de la Santé. L'Agence est gérée par l'administrateur en chef de la santé publique et la présidente de [l'Agence de la santé publique du Canada](/fr/sante-publique.html).
+
+Pour de plus amples informations, veuillez consulter le site de l'Agence à l'adresse suivante : [Contexte](/fr/sante-publique/organisation/mandat/a-propos-agence/contexte.html).
+
+### Responsabilités
+
+La santé publique englobe les efforts organisés de la société pour tenir les gens en santé et pour prévenir les blessures, les maladies et les décès prématurés. Elle comprend des programmes, des services et des politiques qui protègent et favorisent la santé de tous les Canadiens. Au Canada, la santé publique constitue une responsabilité que se partagent les trois paliers de gouvernement, le secteur privé, des organisations non gouvernementales, les professionnels de la santé et le public.
+
+Les responsabilités de l'Agence sont les suivantes :
+
+* contribuer à la prévention des maladies et des blessures et promouvoir la santé;
+* améliorer les renseignements fournis par la surveillance et élargir les connaissances sur les maladies et les lésions au Canada;
+* assurer le leadership et la responsabilisation à l'échelon fédéral dans la gestion des urgences en santé publique;
+* renforcer la collaboration intergouvernementale en matière de santé publique et favoriser l'adoption d'approches nationales aux fins de l'élaboration de politiques et de la planification en santé publique;
+* servir de point central pour le partage de l'expertise en santé publique à l'échelle du Canada et avec nos partenaires étrangers et utiliser ces connaissances pour éclairer et soutenir les priorités du Canada en matière de santé publique.
+
+## Fonctions, programmes et activités de l'institution
+
+### Promotion de la santé et prévention des maladies chroniques
+
+Promouvoir la santé et le bien-être des Canadiens et des Canadiennes de tous âges en effectuant des activités de surveillance et de recherche en santé publique et en appuyant les projets communautaires qui s'attaquent aux causes profondes des inégalités en matière de santé ainsi qu'aux facteurs de risque ou de protection courants qui sont importants pour la promotion d'une meilleure santé et la prévention des maladies chroniques.
+
+#### Prévention des maladies chroniques
+
+Ce programme cherche de nouvelles solutions au défi complexe de la prévention des maladies chroniques au Canada. Il travaille dans tous les secteurs pour tirer parti des investissements et de l'expertise afin de développer des approches intégrées en amont qui aident à réduire les facteurs de risque courants de maladies chroniques tels que l'inactivité physique, une mauvaise alimentation, le tabagisme et l'obésité. Le programme finance l'élaboration et la mise à l'essai de moyens novateurs d'accroître l'activité physique et de favoriser une alimentation saine et une vie sans fumée grâce à un changement soutenu des normes de comportement et à la création d'environnements sociaux et physiques favorables qui ont un impact positif sur la santé des Canadiens. Les résultats du projet (à la fois les succès et les échecs intelligents) sont partagés pour aider à construire la base de preuves de ce qui fonctionne et ne fonctionne pas pour qui, et dans quels contextes. En fin de compte, le programme contribue à favoriser les comportements sains et à prévenir les maladies chroniques chez les Canadiens grâce à des partenaires multisectoriels qui adoptent, étendent et maintiennent des politiques et des interventions efficaces en matière de modes de vie sains.
+
+**Projets pilotes de prévention intégrée des maladies chroniques**
+
+**Description :** Comprend des fichiers relatifs à la surveillance, la recherche et la diffusion de renseignements exacts sur des projets de collaboration avec les provinces et territoires, de même que les programmes et politiques novateurs en cours dans tout le pays dans le domaine de la prévention des maladies chroniques qui font l'objet d'évaluations rigoureuses et dont on partage les impacts et les résultats à l'échelle nationale. Les fichiers contiennent également de l'information sur ce programme qui élabore des outils, méthodologies et approches communs pour faciliter la pratique fondée sur les données probantes, les évaluations communes et le partage des connaissances et ainsi maximiser l'impact et l'application de ces innovations sur le plan national. De plus, les fichiers comprennent de l'information sur le programme de Projets pilotes qui permet d'appuyer et d'évaluer rigoureusement la mise en œuvre des stratégies de prévention intégrée des maladies chroniques et les mesures de contrôle, au moyen d'approches scientifiques normalisées et de méthodes d'évaluation des analyses. De plus, les fichiers comprennent de l'information sur d'autres composantes de la prévention et des stratégies de contrôle des maladies chroniques comme la surveillance et les programmes communautaires.
+
+**Remarque** : Cette activité de programme a été éliminée lors de l'Examen stratégique de 2008. Le Centre de prévention des maladies chroniques et d'équité en santé continue d'assurer la tenue des fichiers liés à cette initiative.
+
+**Types de documents :** Documents statistiques, publications universitaires, contrats, protocoles d'entente, mandats, ordres du jour, procès-verbaux de réunions, avis, comptes rendus, documents de recommandations, documents d'information et de discussion, documents de politiques, discours, documents de vérification et d'évaluation, correspondance, fiches d'information, rapports, évaluations, enquêtes, analyses, etc.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 503
+
+**Programmes de financement de la prévention des maladies chroniques et des blessures au moyen de subventions et de contributions, élaboration des politiques et conseils**
+
+**Description :** Les fichiers comprennent de l'information relative aux programmes de financement des modes de vie sains et de la prévention des maladies chroniques, au moyen de subventions et de contributions, en vertu de la Stratégie intégrée sur les modes de vie sains et les maladies chroniques (surveillance des maladies chroniques, observatoire des pratiques exemplaires et partenariats multisectoriels, y compris : cancer, diabète, maladies cardiovasculaires, modes de vie sains) ainsi que l'Initiative canadienne sur le cancer du sein, la Stratégie fédérale de lutte contre le tabagisme et l'Initiative de promotion de l'accès à des défibrillateurs externes automatisés dans des arénas de hockey récréatifs. En outre, les fichiers concernent l'élaboration de politiques et la prestation de conseils sur la prévention des blessures et des maladies chroniques, y compris la planification, la vérification et la mesure du rendement. De plus, les fichiers peuvent comprendre de l'information sur la politique de programme, les interventions et les pratiques exemplaires, le perfectionnement et l'échange de connaissances, la recherche sur les interventions, l'expertise en matière d'élaboration de directives ainsi que des conseils de recherche et du soutien scientifique. Les fichiers peuvent également comprendre de l'information relative aux lignes directrices du Groupe d'étude canadien sur les soins de santé préventifs, aux organisations et réseaux internationaux, comme le Centre de collaboration pour les politiques sur les maladies chroniques de l'Organisation mondiale de la santé, lequel promeut le leadership et l'innovation pour lutter contre les maladies non transmissibles, au moyen de politiques en santé publique, de planification, de mise en œuvre et d'activités d'évaluation.
+
+**Remarque :** L'initiative de promotion de l'accès à des défibrillateurs externes automatisés dans des arénas de hockey récréatifs a été supprimée en 2016.
+
+**Types de documents :** Demandes de propositions, correspondance, formulaires d'approbation de financement, revues de projets (internes et externes), rapports de décisions, ententes/modifications de subventions et de contributions, protocoles d'accord/protocoles d'entente, rapports d'étape et de vérification financière, notes de service (notes de breffage, exposés de la question), évaluations de 48 heures, documents de politiques/recherche, rapports, documents, exposés de position, réponses parlementaires (questions/pétitions écrites), discours (déclarations, sujets d'entretiens, questions et réponses), présentations (diapositives, tableaux de bord), réunions (ordres du jour, rapports de décisions, cadres de référence), réponses juridiques, informations des intervenants (y compris des documents provenant des provinces et des territoires), correspondance, documents de planification (plans stratégiques, plans de mise en œuvre de la gestion, outil de planification intégrée), rapports de vérification (interne et externe), documents sur la mesure du rendement (stratégies, outils de collecte de données, études, affiches) et lignes directrices.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 015 0004
+
+**Subvention de santé scolaire pour les jeunes**
+
+**Description**: Ce fichier décrit les renseignements relatifs à la Subvention de santé scolaire pour les jeunes. Le programme s’adresse aux jeunes qui ont des idées sur la façon d’élaborer un projet dirigé par des jeunes afin de favoriser l’adoption d’un mode de vie sain et le bien-être dans leur communauté scolaire. Les jeunes demandeurs doivent être âgés de 13 à 19 ans et être des élèves de la 9e à la 12e année pour demander cette subvention. Les renseignements personnels peuvent comprendre le nom, les coordonnées, les renseignements démographiques, la citoyenneté, les renseignements sur les études, les renseignements financiers, la signature, l’âge, la langue et les renseignements sur l’équité.
+
+**Catégorie de personnes :** Grand public, y compris les demandeurs et leurs personnes à charge.
+
+**But :** Les renseignements personnels sont recueillis afin de faciliter l'administration du programme Subvention pour la santé en milieu scolaire pour les jeunes, notamment pour évaluer et traiter les demandes, prendre des décisions en matière de financement, traiter les paiements et/ou produire des rapports financiers, et organiser des événements et des activités visant à promouvoir le programme Subvention pour la santé en milieu scolaire pour les jeunes. La collecte est effectuée conformément à l'article 3 de la Loi sur l'Agence de la santé publique du Canada et à l'article 4 de la Loi sur le ministère de la Santé.
+
+**Usages compatibles :** Le nom des bénéficiaires de la subvention, le montant du financement et la nature générale du programme du bénéficiaire sont rendus publics. D'autres renseignements personnels, tels que les coordonnées, peuvent être divulgués aux représentants du gouvernement du Canada à des fins de félicitations ou d'événements promotionnels. Les jeunes donnent leur consentement à cet égard dans le formulaire de demande. Les renseignements personnels peuvent être utilisés à des fins de vérification.
+
+**Normes de conservation et de destruction :** Les dossiers sont détruits six (6) années fiscales après l’année fiscale dont l’information a été collectée.
+
+**No ADD :** 2015/022
+
+**Renvoi à la catégorie de documents no :**ASPC 015 0004
+
+**Enregistrement (SCT) :**20230022
+
+**Numéro du fichier :** ASPC PPU 314
+
+**Promotion de la santé et prévention des maladies chroniques au Canada : Recherche, politiques et pratiques**
+
+**Description :** Comprend des fichiers relatifs à la revue scientifique de la Direction générale de la promotion de la santé et de la prévention des maladies chroniques de l'Agence de la santé publique du Canada diffusée en ligne et accessible au public. Les fichiers comprennent des articles publiés mensuellement (examinés ou non par les pairs) sur la promotion de la santé, la prévention des maladies chroniques, l'équité en santé, les blessures et la santé pendant toute la vie. Les fichiers se rapportent à des recherches dans des domaines tels que la santé publique et communautaire, l'épidémiologie, la biostatistique, les sciences sociales et du comportement et les services de santé.
+
+**Types de documents :** Correspondance et matériel de communication, articles de recherche en santé publique, adresses de courriel des abonnés, ordres du jour de réunions, rapports de décisions, présentations, lettres d'entente, contrats, données d'évaluation du rendement, rapports, politiques, procédures et normes d'édition des périodiques.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 010 0034
+
+**Leadership scientifique en matière de promotion de la santé et de prévention des maladies chroniques**
+
+**Description :** Comprend des fichiers relatifs aux politiques scientifiques de promotion de la santé et de prévention des maladies chroniques, aux activités de leadership et de recherche appliquée, y compris la création, la collecte, la validation, la liaison et l'analyse des données dans toutes les sources de bases de données, et à l'ampleur de la recherche de la Direction générale, à la coordination de l'examen par les pairs des propositions de recherche internes et à la facilitation des activités de formation en recherche de la Direction générale. Les documents de recherche se rapportent aux instruments de collecte de données, à l'évaluation du risque, à l'évaluation des interventions, à la modélisation économique et de la santé de la population pour servir aux fins de la pratique, des politiques et des programmes.
+
+**Types de documents :** Plans, revues scientifiques spécialisées, documents statistiques, documents d'information et de discussion, exposés de la question, évaluations de 48 heures, résumés et présentations, documentation sur l'évaluation et la mesure du rendement, lignes directrices de procédure, méthodologies, examen par les pairs des résultats de recherche, visualisations de données, contrats, protocoles d'entente, ordres du jour, comptes rendus, mandats et rapports.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 015 0010
+
+**Base de données sur la mesure du rendement scientifique : liste d'experts**
+
+**Description :** Le répertoire d'experts est une base de données complète contenant des renseignements personnels sur des personnes qui possèdent des qualifications et une expertise pertinente dans des domaines précis des sciences de la santé publique. Les personnes qui souhaitent être inscrites au répertoire d'experts doivent se présenter elles-mêmes afin d'aider l'Agence de la santé publique du Canada (ASPC) en lui fournissant des conseils et des orientations sur des questions scientifiques. Le répertoire d'experts facilite la sélection, la mobilisation et l'utilisation efficaces d'experts scientifiques par divers services de l'Agence de la santé publique du Canada afin de fournir des conseils et des informations éclairées pour les décisions en matière de santé publique. Les renseignements personnels recueillis peuvent comprendre le nom, les coordonnées, des détails biographiques, notamment le titre, la province et la ville de résidence, des renseignements démographiques, notamment l'année de naissance, les handicaps, l'appartenance à une minorité visible, le sexe et le genre, les renseignements sur la formation, les renseignements sur l'emploi, les compétences linguistiques, les affiliations professionnelles et les intérêts, les publications et les domaines d'expertise scientifique.
+
+**Catégorie de personnes :**  Personnes travaillant dans le domaine de la santé publique ou dans des sciences connexes, scientifiques, chercheurs, universitaires et autres experts scientifiques qui ont manifesté leur intérêt à être inscrits sur une liste et appelés à conseiller l'ASPC au besoin. Les experts travailleront avec l'ASPC à titre contractuel ou volontaire.
+
+**But :**Établir une liste sélectionnée d'experts scientifiques qualifiés pouvant être appelés par l'ASPC à titre consultatif pour appuyer la prise de décisions en matière de santé publique. Permettre des processus de sélection efficaces et transparents pour le recrutement d'experts dans des domaines spécifiques de la santé et des sciences médicales. Faciliter une représentation équitable et diversifiée au sein du bassin d'experts scientifiques, afin d'améliorer la qualité et l'inclusivité des avis scientifiques. Gérer les conflits d'intérêts potentiels et garantir l'intégrité et la crédibilité du processus de sélection des experts. Les renseignements personnels sont recueillis conformément à la *Loi sur l'Agence de la santé publique du Canada et à la Loi sur le ministère de la Santé*.
+
+**Usages compatibles :** Les renseignements personnels peuvent être communiqués à d'autres programmes de l'ASPC afin d'améliorer la capacité du ministère à accéder à l'expertise scientifique externe au besoin. Les données anonymisées peuvent être utilisées à des fins statistiques ou pour produire des rapports globaux à l'intention de la haute direction aux fins de l'évaluation des programmes.
+
+**Normes de conservation et de destruction :** Les renseignements personnel figurant dans le répertoire des experts seront conservés tant que la personne concernée figurera activement dans ce répertoire. Tous les 4 ans, un avis sera envoyé aux participants afin de confirmer leur volonté d'y rester. En l'absence de réponse dans un délai d'un (1) an (pour une période totale de conservation de cinq (5) ans à compter de la date d'inscription au répertoire), ou si une personne demande à être retirée du répertoire, ses renseignements personnels seront supprimés de façon permanente.
+
+**No ADD :**En cours de développement.
+
+**Renvoi à la catégorie de documents no :** PHAC 015 0010
+
+**Enregistrement (SCT) :** 20250003
+
+**Numéro du fichier :**ASPC PPU 315
+
+#### Données probantes liées à la promotion de la santé et à la prévention des maladies chroniques et des blessures
+
+Ce programme recueille et analyse les données nationales de surveillance sur la santé maternelle et infantile, la santé des jeunes, la santé des aînés, la santé buccodentaire, les maladies chroniques, les blessures, les inégalités en matière de santé et les déterminants sociaux, comportementaux et environnementaux associés à la santé. Il sert aussi à mener des recherches afin de construire une base solide de données probantes pour les interventions en santé publique. Le programme fournit un leadership continu, un engagement et des conseils d'experts en collaborant avec des partenaires nationaux et internationaux et en contribuant à l'élaboration et à la diffusion de produits, de lignes directrices, de déclarations, d'exposés conjoints et de cadres qui présentent des connaissances fondées sur des preuves. En abordant les problèmes émergents en matière de santé publique, les priorités et les lacunes en matière de connaissances, le programme vise à mieux éclairer l'élaboration des interventions liées aux politiques et aux programmes au sein de l'Agence de la santé publique et dans tous les secteurs afin d'améliorer les comportements de santé et la santé des Canadiens et des Canadiennes.
+
+**Initiative sur l'ensemble des troubles causés par l'alcoolisation fœtale (ETCAF)**
+
+**Description :** Comprend des fichiers relatifs à la politique, à la coordination et à la collaboration dans l'élaboration de ressources et d'outils fondés sur des données probantes, pour renforcer les capacités des collectivités, des organismes non gouvernementaux, y compris des instituts de recherche et des communautés de pratique qui luttent contre l'ETCAF. Les fichiers peuvent aussi comprendre de l'information sur les activités de sensibilisation et de développement des connaissances des femmes, des familles et de la population générale sur l'ETCAF comme élément de base pour la prévention.
+
+**Types de documents :** Contrats, mandats, ordres du jour, procès-verbaux de réunions, avis, documents d'information et de discussion, documents de politique, présentations, affiches, brochures et publications, documents d'évaluation, rapports de recherche et d'évaluation, correspondance, accords de contribution, etc.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 271
+
+**Dépistage du cancer du col utérin**
+
+**Description :** Comprend des fichiers relatifs à la surveillance, à la recherche et à la diffusion de renseignements exacts au sujet du Réseau pour la prévention et le contrôle du cancer du col utérin (RPCCCU). Les fichiers peuvent contenir des renseignements relatifs à la réduction de l'incidence, de la morbidité et de la mortalité du cancer du col utérin au Canada, car ils fournissent une plateforme pour la discussion et le débat sur les priorités en prévention et en contrôle du cancer du col utérin au Canada. Les fichiers alimentent un réseau pancanadien qui se penche sur les questions relatives à la prévention et au contrôle du cancer du col utérin, favorise les partenariats et les occasions de collaboration, prend connaissance des pratiques exemplaires et en assure la diffusion aux divers secteurs et administrations et communique des messages cohérents sur les principaux enjeux aux intervenants, y compris aux décideurs et aux responsables des politiques. Les fichiers peuvent contenir, en outre, des renseignements relatifs au RPCCCU qui a été dirigé par un comité du dépistage composé de représentants des programmes de dépistage provinciaux et territoriaux, des services des maladies infectieuses, d'associations de professionnels médicaux, de l'Agence de la santé publique du Canada et du Partenariat canadien contre le cancer. En outre, les fichiers peuvent contenir des renseignements au sujet du nom et des coordonnées des intervenants et des experts de divers secteurs (par exemple, d'autres employés fédéraux, les universités, les organisations non gouvernementales, les groupes communautaires, les autorités de santé régionales, les experts-conseils privés et les gouvernements provinciaux et territoriaux, tant à l'échelle nationale qu'internationale) au sujet de questions stratégiques dans le domaine des maladies chroniques.
+
+**Remarques :** Ce programme a été transféré au Partenariat canadien contre le cancer en 2009; toutefois l'Agence de la santé publique du Canada continuera d'assurer la tenue des anciens fichiers pendant une période qui sera déterminée par Bibliothèque et Archives Canada (BAC).
+
+**Types de documents :** Rapports, rapports de décisions, exposés de principes, notes de service, rapports de recherche scientifique, analyses de données, publications, affiches et présentations, feuillets de documentation, rapports d'enquêtes, publications soumises à l'examen par les pairs, contrats et plans de projet relatifs au cancer du col utérin (prévention, dépistage et détection précoce).
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 010 0010
+
+**Surveillance des maladies chroniques et des blessures**
+
+**Description :** Contient des fichiers relatifs à la surveillance, la recherche et la fourniture de renseignements exacts concernant : les maladies chroniques (cancer, diabète, maladies cardiovasculaires, maladies respiratoires chroniques, troubles musculosquelettiques, maladies mentales et conditions neurologiques), les décès et torts liés aux opioïdes, les facteurs de risque médicaux, les conditions de santé, les déterminants de la santé, les facteurs d'hygiène de vie, les comportements protectifs, la violence familiale, les blessures, et la surveillance de la santé maternelle, des enfants et des jeunes. Les fichiers peuvent aussi se rapporter à la santé mentale positive, à l'analyse et l'établissement de rapports sur les activités, et sur la surveillance et l'évaluation de tendances temporelles, géographiques et démographiques pour renseigner des mesures en matière de santé publique. En outre, les fichiers peuvent comprendre des renseignements liés aux besoins actuels et émergents en données du Centre de surveillance et de recherche appliquée de l'ASPC lors de l'élaboration de programmes de collecte de données nationaux. Des fichiers électroniques se trouvent dans les bases de données de programme suivantes : Système national de surveillance des maladies chroniques (SNSMC), Système de surveillance du programme Cancer chez les jeunes au Canada, Système canadien de surveillance périnatale (SCSP), Étude canadienne sur l'incidence des signalements de cas de violence et de négligence envers les enfants, Système canadien hospitalier d'information et de recherche en prévention des traumatismes (SCHIRPT), Base de données canadienne sur le dépistage du cancer du sein (BDCDCS), Système canadien de surveillance des anomalies congénitales (SCSAC), Programme canadien de surveillance pédiatrique, Système national de surveillance du trouble du spectre autistique (SNSTSA).
+
+**Remarque :** Les fichiers peuvent contenir des renseignements dépersonnalisés qui, bien qu'ils soient considérés comme des renseignements personnels dans le cadre de la gestion des renseignements, ne peuvent pas être utilisés pour faciliter le droit d'accès en vertu de la *Loi sur la protection des renseignements personnels*.
+
+**Types de documents :** Documents pour la collecte des données, ensembles de données, analyses de données, rapports, normes de données, manuels de procédures sur la codification de données, lignes directrices sur les demandes de données, soumissions de demandes de données, contrats, avis (et notifications), publications, documents de discussion, rapports annuels, correspondance et courriels, documents d'information, affiches, plans de projet, sondages, notes de service, notes de breffage, exposés de la question, évaluations, documents de politique, pétitions parlementaires, questions et réponses, discours, sujets d'entretien, présentations, diapositives, tableaux de bord, ordres du jour, rapports de décision, mandats, protocoles d'entente, lettres d'entente, ententes sur l'échange de renseignements, études spéciales, rapports d'étape, et produits de perfectionnement et d'échange de connaissances comme des résumés graphiques et du matériel de communication.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 015 0009
+
+**Programme d'accès et de coordination des données**
+
+**Description :** Le Programme d'accès et de coordination des données (PACD) permet d'acquérir et de gérer des fonds de données centralisés qui sont utilisés par les analystes de l'Agence de la santé publique du Canada de même que par Santé Canada par l'entremise du Système d'extraction et d'analyse des données (DEXA), du Statistical Analysis System (SAS) et de l'Enterprise Grid (EG). Ces données comprennent des renseignements liés à la surveillance, la recherche et la fourniture de renseignements exacts. Les fichiers peuvent également inclure des renseignements relatifs à l'élaboration de sources de données et à l'acquisition de données normalisées et protégées des données relatives à la santé, puisque le PACD joue le rôle de courtier en données au nom de l'ASPC. Les fichiers peuvent aussi contenir des renseignements relatifs à la coordination des exigences en données par l'entremise de l'Équipe d'intégration de la surveillance de l'ASPC. Le PACD assure une fonction de liaison avec Statistique Canada, l'Institut canadien d'information sur la santé et d'autres fournisseurs de données pour représenter les besoins de l'Agence dans la négociation des ententes d'échange de données. Enfin, les fichiers peuvent contenir des renseignements sur les données de micro-niveau synthétisées dont les épidémiologistes et les analystes de l'ASPC et de Santé Canada ont besoin pour assurer la surveillance, effectuer des recherches et élaborer des politiques.
+
+**Types de documents :** Contrats, protocoles d'entente, fichiers de micro-données, rapports sur le système d'information en matière de santé, lignes directrices, politiques et rapports.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 702
+
+**Évaluations de la santé de la population**
+
+**Description :** Ce fichier comprend des dossiers antérieurs sur la surveillance, la recherche, l'analyse et la présentation de rapports sur la santé de la population canadienne et de certaines sous-populations précises. Les fichiers peuvent contenir des renseignements relatifs à la préparation de rapports annuels au Parlement, ainsi que des renseignements sur la santé de la population relatifs à un grand éventail de déterminants de la santé et de résultats cliniques, y compris les facteurs physiques, biologiques, comportementaux, sociaux, culturels et économiques. Les fichiers peuvent aussi contenir des renseignements relatifs à des recherches, à des analyses et à des rapports sur la santé de la population. En outre, les fichiers peuvent renfermer des renseignements relatifs aux évaluations de la santé de la population qui sont utilisées dans le domaine de la santé publique pour déterminer l'état de santé de la population en général. Enfin, les fichiers peuvent contenir des renseignements relatifs à la surveillance d'une large gamme de déterminants de la santé et de résultats cliniques, y compris les facteurs physiques, biologiques, comportementaux, sociaux, culturels et économiques, ainsi que diverses analyses, synthèses et intégrations de l'information provenant de nombreuses sources.
+
+**Types de documents :** Documents statistiques, publications universitaires, contrats, protocoles d'accord, mandats, ordres du jour, procès-verbaux, avis, comptes rendus, documents de recommandations, documents d'information et de discussion, documents de politique, documents de vérification et d'évaluation, correspondance, fiches documentaires, ébauches de chapitres et rapports.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 010 0019
+
+**Approche axée sur la santé de la population**
+
+**Description :** Comprend des fichiers relatifs à la surveillance, à la recherche et à la fourniture de renseignements exacts sur les stratégies utilisées pour intégrer l'approche axée sur la santé de la population dans les activités du portefeuille de la santé en général afin d'informer les Canadiens sur l'approche et les initiatives en matière de santé de la population. Les documents peuvent également inclure des renseignements relatifs à ces stratégies qui comprennent un cadre conceptuel qui permet l'analyse des enjeux de la santé; des décisions qui sont inspirées par l'examen de la preuve; un cadre d'action; des actions ciblées sur le niveau sociétal, communautaire, structurel ou systémique; et des exigences de collaboration entre plusieurs secteurs.
+
+**Types de documents :** Guides, rapports, rapports de décision, exposés de principes, notes de service, rapports de recherche scientifique, analyses de données, publications, affiches et présentations portant sur les environnements sociaux, économiques et physiques, le développement de la petite enfance, les pratiques d'hygiène, les capacités individuelles et les facultés d'adaptation, la biologie humaine et les services de santé.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 328
+
+#### Promotion de la santé
+
+Ce programme vise à réduire les inégalités en santé et à améliorer la santé physique et mentale des Canadiens en finançant des programmes communautaires et d'interventions en santé de la population. La priorité est accordée à l'amélioration des connaissances, des compétences et des comportements liés à la santé des particuliers et de la population, à la prise en compte des facteurs de risque qui entraînent des résultats négatifs pour la santé et à l'établissement de facteurs de protection pour améliorer et maintenir la santé physique et mentale. Le programme appuie les Canadiens de tous âges, en particulier dans les domaines de la santé mentale, de la santé maternelle et infantile, du développement des jeunes enfants autochtones et du vieillissement sain, en mettant l'accent sur les populations les plus vulnérables.
+
+**Promotion de la santé**
+
+**Description :** Comprend des fichiers relatifs à la surveillance, à la recherche et à la diffusion de renseignements exacts au sujet de l'approche de promotion de la santé auprès de la population du Canada. Les fichiers peuvent aussi contenir des renseignements relatifs à la promotion de la santé, ce qui comprend cinq stratégies clés : l'élaboration d'une politique gouvernementale saine, la création d'environnements favorables, le renforcement de l'action communautaire, le développement des compétences personnelles et la réorientation des services de santé. On trouve aussi dans ces fichiers des renseignements spécifiques concernant trois de ces stratégies : l'élaboration d'une politique gouvernementale saine, la création d'environnements favorables et la réorientation des services de santé, questions qui se règlent mieux à partir d'une approche systématique de la santé de la population en tenant compte des données probantes nouvelles sur le rôle joué par un grand éventail de déterminants sociaux, économiques et environnementaux dans l'amélioration de la santé globale.
+
+**Types de documents :** Rapports, rapports de décisions, exposés de principes, notes de service, liste des membres du Réseau de santé publique, ordres du jour, contrats, énoncés de travaux, rapports de recherche scientifique, analyses de données, publications, affiches et présentations relatives aux déterminants de la santé, à la santé mentale, au centre national d'échange sur la violence familiale, à l'activité physique, à la santé rurale, à la prévention de la consommation problématique de substances, à la santé des personnes âgées et à l'approche de la santé de la population.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 276
+
+**Programme de mise en quarantaine**
+
+**Description :** Ce fichier décrit les renseignements liés au Programme de mise en quarantaine et des renseignements personnels sont recueillis dans le cadre de la réponse du gouvernement du Canada à la pandémie de COVID-19. À l'heure actuelle, le fichier de renseignements personnels ne reflète pas encore cette activité. Le Programme de mise en quarantaine vise à prévenir la propagation, l'introduction et l'exportation de maladies transmissibles à destination et en provenance du Canada en dépistant et en évaluant les voyageurs malades pour détecter la présence de maladies transmissibles aux points d'entrée et de sortie internationaux. Le programme permet la mise en œuvre de mesures de santé publique lorsque des maladies transmissibles graves sont dépistées et prévoit une collaboration avec des partenaires, notamment l'Agence des services frontaliers du Canada, afin d'assurer un signalement et une intervention efficaces en cas de problème de santé à la frontière. Les renseignements personnels peuvent comprendre le nom, le sexe, les coordonnées, la citoyenneté, la date de naissance, la date de décès, les renseignements médicaux, d'autres numéros d'identification (p. ex., numéro de passeport), le lieu de naissance, le lieu de décès, la signature et les données de voyage (p. ex., pays visités, itinéraire).
+
+**Remarque** : Le fichier s'appelait auparavant « Rapports sur les maladies de voyageurs – ASPC PPU 071 ». Les renseignements peuvent être stockés dans les bases de données et les systèmes internes suivants : Base de données des évaluations de la santé des voyageurs (BDESV) et Système de soutien stratégique opérationnel pour la santé des voyageurs (SSSOSV).
+
+**Catégorie de personnes :** Le public, les employés de l'Agence de la santé publique du Canada ou ASPC (p. ex., les agents de quarantaine), les parents, les tuteurs ou les représentants des voyageurs qui ont besoin d'aide, les employés des partenaires du Programme de mise en quarantaine présents pendant l'évaluation de la santé d'un voyageur (p. ex., agent de l'Agence des services frontaliers du Canada, agent d'hygiène du milieu).
+
+**But :** Les renseignements personnels sont recueillis au moment de l'évaluation des voyageurs malades visant à dépister des maladies transmissibles aux points d'entrée et de sortie du territoire; ils servent à mettre en œuvre des mesures de santé publique lorsque des maladies transmissibles graves sont dépistées et à appliquer la *Loi sur la mise en quarantaine*. Les renseignements personnels sont recueillis conformément aux articles 15, 38, 51 et 55 de la *Loi sur la mise en quarantaine*.
+
+**Usages compatibles :** Les renseignements peuvent être utilisés, communiqués, vérifiés ou évalués aux fins suivantes : sûreté et sécurité, dépistage des contacts et maintien de la liste des restrictions des voyages pour des raisons de santé publique. Les renseignements personnels peuvent être transmis au point focal national du Règlement sanitaire international de l'ASPC; à l'Agence des services frontaliers du Canada (ASFC – PPU 018); aux Centers for Disease Control and Prevention (CDC) des États-Unis; à la Customs and Border Protection (CBP) des États-Unis; aux organismes de santé publique municipaux, d'État, provinciaux ou territoriaux; aux hôpitaux; au personnel médical; aux organismes d'application de la loi; et aux exploitants de moyens de transport. Les renseignements personnels sur les cadavres peuvent être communiqués aux salons funéraires et à d'autres institutions du secteur privé.
+
+**Normes de conservation et de destruction :** Deux ans après la dernière action administrative.
+
+**No ADD :** 2015/022
+
+**Renvoi au document no :** ASPC 008 276, ASPC 010 0045
+
+**Enregistrement (SCT) :** 009931
+
+**Numéro du fichier :** ASPC PPU 071
+
+**Les mesures frontalières en cas de pandémie**
+
+**Description** : Cette banque décrit les renseignements personnels liés à la *Loi sur la mise en quarantaine* et à toute loi connexe administrée et appliquée par l'Agence de la santé publique du Canada (ASPC), y compris les ordonnances d'urgence rendues en vertu de l'article 58 de cette loi. Les mesures frontalières prises en cas de pandémie en vertu des ordonnances d'urgence visaient à prévenir l'importation, la propagation et l'exportation de la COVID-19 au Canada en soumettant les voyageurs à destination du Canada à un dépistage, à des tests et/ou à une évaluation de la COVID-19 aux points d'entrée canadiens. L'ASPC a également géré les installations de quarantaine désignées (IQD) lorsque celles-ci étaient nécessaires pour les voyageurs entrant au Canada. L'ASPC a collaboré avec des partenaires, notamment l'Agence des services frontaliers du Canada (ASFC), afin d'assurer la coordination des notifications et des interventions en cas d'événements sanitaires aux frontières. Les renseignements personnels recueillis pouvaient comprendre le nom, le sexe, les coordonnées, le statut de citoyenneté, la date de naissance, la date du décès, des renseignements médicaux, d'autres numéros d'identification (p. ex. numéro de document de voyage), le lieu de naissance, le lieu du décès, la signature et les détails du voyage (p. ex. pays visités, itinéraire) ainsi que des renseignements sur le séjour du voyageur dans une FQD et sa sortie de celle-ci.
+
+**Remarque**: Anciennement appelé : Rapports sur les maladies des voyageurs - PHAC PPU 071.
+
+**Catégorie de personnes**: Les voyageurs qui entrent au Canada ou qui en sortent, le personnel et/ou les sous-traitants de l'Agence de la santé publique du Canada (p. ex. les agents de quarantaine, les agents de contrôle, etc.), les parents, les tuteurs ou les représentants des voyageurs qui ont besoin d'aide, ainsi que les employés ou les sous-traitants des partenaires chargés des mesures frontalières qui sont présents lors de l'évaluation de la santé d'un voyageur (p. ex. les agents de l'ASFC, les agents d'hygiène du milieu).
+
+**But**: L'ASPC a recueilli des renseignements personnels sur les voyageurs pendant que les ordonnances d'urgence étaient en vigueur. Ces renseignements ont été recueillis à des fins de santé publique, notamment pour prévenir ou réduire au minimum l'introduction ou la propagation de la COVID-19, ainsi que pour l'administration et l'application de la *Loi sur la quarantaine* et des lois connexes par l'ASPC.
+
+**Usages compatibles** : Les renseignements personnels peuvent être utilisés et/ou divulgués aux fins suivantes : pour le suivi en matière de santé publique (y compris la divulgation à cette fin à la province ou au territoire où les voyageurs sont retournés et/ou peuvent être en quarantaine/isolement) ; pour surveiller et vérifier le respect de la *Loi sur la quarantaine* et des ordonnances d'urgence prises en vertu de celle-ci (y compris la divulgation à cette fin aux forces de l'ordre, en particulier aux agents de la paix) ; pour aider à déterminer l'admissibilité à de nouvelles mesures frontalières et pour appuyer une intervention de santé publique en cas de maladies transmissibles ; aux entrepreneurs chargés d'effectuer des travaux liés à l'administration et à l'application de la *Loi sur la quarantaine* et de toute loi connexe par l'ASPC ; pour appuyer des procédures judiciaires lorsque les renseignements personnels d'un voyageur et/ou les renseignements personnels actuels ou antérieurs d'employés fédéraux et d'entrepreneurs (y compris leurs coordonnées personnelles) sont nécessaires ; à d'autres institutions gouvernementales ainsi qu'aux gouvernements provinciaux, territoriaux et municipaux ou aux organisations internationales de santé et/ou à leurs institutions afin de prévenir ou de minimiser l'introduction ou la propagation de maladies transmissibles ; à un exploitant de moyen de transport afin de prévenir ou de minimiser l'introduction ou la propagation de maladies transmissibles (par exemple, pour localiser un voyageur qui présente un risque pour la santé publique, pour faciliter la recherche des contacts).
+
+**Normes de conservation et de destruction** : Les dossiers sont conservés pendant au moins deux ans après leur dernière utilisation administrative, conformément à l'autorisation de destruction 2015/022.
+
+**No ADD** : 2015/022
+
+**Renvoi au document no** : ASPC 008 276, ASPC 010 0045
+
+**Enregistrement (SCT)** : 20220116
+
+**Numéro du fichier** : ASPC PPU 074
+
+**Programme d'action communautaire pour les enfants**
+
+**Description :** Comprend des fichiers relatifs au soutien des groupes et des coalitions communautaires offrant des services de prévention et d'intervention précoce adaptés sur le plan culturel. Les fichiers peuvent aussi comprendre de l'information sur les services qui favorisent la santé et le développement des enfants (du nouveau-né à l'âge de 6 ans) et des familles à risque, ainsi que l'éducation et le soutien des parents. D'autres fichiers peuvent comprendre de l'information sur la prévention des blessures, la santé mentale et la prévention de l'obésité chez les enfants.
+
+**Types de documents :** Contrats, mandats, ordres du jour, procès-verbaux de réunions, avis, documents d'information et de discussion, documents de politique, présentations, affiches, brochures et publications, documents d'évaluation, rapports de recherche et d'évaluation, correspondance, accords de contribution, etc.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 337
+
+**Enfants et jeunes**
+
+**Description :** Comprend des fichiers relatifs à la coordination des programmes et politiques faisant la promotion des conditions propices à la santé maternelle et infantile, notamment le respect des droits des enfants, au moyen de l'exercice du leadership du gouvernement fédéral, au soutien et à la collaboration stratégique avec d'autres administrations et des intervenants clés, tout particulièrement en ce qui touche les populations et les collectivités vulnérables. Les fichiers peuvent comprendre de l'information sur l'élaboration des politiques, la recherche et l'analyse stratégique des tendances des grands déterminants de la santé chez les enfants et les jeunes au Canada, ainsi que des initiatives de collaboration stratégique avec d'autres administrations et intervenants clés dans des programmes et activités concernant les enfants et les jeunes.
+
+**Types de documents :** Contrats, mandats, ordres du jour, procès-verbaux de réunions, avis, documents d'information et de discussion, documents de politique, discours, présentations, correspondance, données financières, rapports généraux, etc.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 011 0001
+
+**Développement de la petite enfance**
+
+**Description :** Comprend des fichiers relatifs à l'Accord sur le développement de la petite enfance annoncé en 2000, en vertu duquel le gouvernement du Canada transfère des fonds aux gouvernements provinciaux et territoriaux, afin qu'ils puissent renforcer les services existants et les services de soutien qui favorisent les investissements des provinces et des territoires dans les programmes et services destinés à la petite enfance. Les fichiers peuvent aussi comprendre de l'information sur le financement accru servant à : promouvoir la santé durant la grossesse, à la naissance et au cours de la petite enfance; améliorer le soutien aux parents et aux familles; renforcer le développement de la petite enfance, l'apprentissage et les soins des enfants; et renforcer le soutien des collectivités. De plus, les fichiers comprennent les activités liées au partage de la recherche, des connaissances et des pratiques exemplaires sur le développement de la petite enfance du gouvernement ainsi qu'à l'élaboration des trois rapports du gouvernement du Canada suivants : Le bien-être des jeunes enfants au Canada; Activités et dépenses relatives au développement de la petite enfance; et Activités et dépenses relatives à l'apprentissage et à la garde des jeunes enfants. Les rapports sont publiés aux termes de l'accord, qui prévoit que tous les gouvernements s'entendent pour rendre public l'état de la situation pour les enfants et rendre compte de leurs investissements dans les programmes et services destinés à la petite enfance.
+
+**Types de documents :** Lettres d'entente interministérielle, protocoles d'entente, contrats, mandats, ordres du jour, procès-verbaux de réunions, présentations, publications, correspondance, etc.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 336
+
+**Phase intermédiaire de l'enfance et adolescence**
+
+**Description :** Comprend des fichiers relatifs à la surveillance, à la recherche et à la diffusion de renseignements exacts sur la recherche, le développement et la diffusion des connaissances, la concertation et l'élaboration des politiques, en ce qui touche principalement les étapes de développement à la phase intermédiaire de l'enfance et à l'adolescence (6 à 18 ans), tant à l'échelle nationale qu'internationale. Les fichiers contiennent également de l'information sur : le soutien des possibilités et des choix pour la jeunesse; la santé et le bien-être des enfants d'âge scolaire et les contextes sociaux de leurs comportements et résultats de santé (comme l'étude sur Les comportements de santé des jeunes d'âge scolaire); la collaboration intersectorielle avec les collectivités, les gouvernements et le secteur privé (comme le Consortium conjoint pour les écoles en santé, qui réunit les secteurs de la santé et de l'éducation pour favoriser la santé en milieu scolaire); et des modèles (comme L'approche globale de la santé en milieu scolaire). Les fichiers dans ce domaine comprennent tous les documents relatifs au développement des initiatives en matière de politique et de recherche sur la phase intermédiaire de l'enfance et sur l'adolescence, y compris : santé en milieu scolaire; participation des jeunes; comportements de santé; santé des jeunes; obésité; activité physique; nutrition et saine alimentation; prévention des blessures; santé mentale et bien-être; relations parents-enfants; tabagisme; consommation d'alcool et de drogues; et santé sexuelle.
+
+**Types de documents :** Documents statistiques, publications universitaires, contrats, lettres d'entente interministérielle, mandats, ordres du jour, procès-verbaux de réunions, comptes rendus, documents de recommandations, documents d'information et de discussion, documents de politique, discours, documents d'évaluation, documents de promotion, correspondance, fiches d'information, rapports, etc.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 182
+
+**Plan d'action canadien pour les enfants**
+
+**Description :** Comprend des fichiers relatifs à la surveillance, à la recherche et à la diffusion de renseignements exacts sur « Un Canada digne des enfants », le plan d'action canadien pour les enfants (publié en mai 2004 dans la foulée des engagements pris à la Session extraordinaire de l'Assemblée de l'ONU sur les enfants de mai 2002) et reposant sur « Un monde digne des enfants ». « Un Canada digne des enfants » est un appel à l'action dont se dégagent des stratégies auxquelles tous les Canadiens peuvent contribuer pour améliorer la vie des enfants au Canada et dans le monde. Les fichiers contiennent également de l'information sur les objectifs, stratégies et possibilités d'action concernant les grandes priorités qui s'articulent autour de quatre thèmes centraux : soutenir les familles et renforcer les collectivités; promouvoir les modes de vie sains; protéger des préjudices; et promouvoir l'éducation et l'apprentissage. Les fichiers de ce domaine comprennent tous les documents relatifs à l'administration du Plan d'action national du Canada pour les enfants, « Un Canada digne des enfants », y compris : soutien des familles; soutiens communautaires; promotion de la santé; droits de l'enfant; développement de la petite enfance; protection de l'enfance; et apprentissage continu.
+
+**Remarques :** Ce programme a pris fin en 2014.
+
+**Types de documents :** Documents statistiques, publications universitaires, contrats, mandats, ordres du jour, procès-verbaux de réunions, comptes rendus, documents de recommandations, documents d'information et de discussion, documents de politique, discours, documents de promotion, correspondance, fiches d'information, rapports, etc.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 313
+
+**Programme des centres d'excellence pour le bien-être des enfants**
+
+**Description :** Comprend des fichiers relatifs à la surveillance, la recherche et la diffusion de renseignements exacts sur le Programme des centres d'excellence pour le bien-être des enfants (créé en 2000 pour fournir des outils, des ressources, des conseils et des renseignements servant à promouvoir la santé des enfants et des jeunes Canadiens. Le programme a réalisé son mandat et ses objectifs originaux et le financement de l'Agence a pris fin le 31 mars 2010). Les fichiers contiennent aussi de l'information sur les Centres (Centre d'excellence pour le développement des jeunes enfants, Centre d'excellence pour la protection et le bien-être des enfants, Centre d'excellence pour les enfants et adolescents ayant des besoins spéciaux et Centre d'excellence pour la participation des jeunes) qui continuent à collaborer avec leurs vastes réseaux de partenaires pour favoriser la santé des enfants et des jeunes.
+
+**Remarque :** Ce programme s'est acquitté de son mandat en 2010 et a été éliminé progressivement.
+
+**Types de documents :** Ordres du jour, procès-verbaux de réunion, documents d'information et de discussion, présentations, affiches, brochures et publications, correspondance, documents de politique, recherche, etc.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 338
+
+**Droits de l'enfant**
+
+**Description :** Comprend des fichiers relatifs à la surveillance, la recherche et la diffusion de renseignements exacts sur les droits de l'enfant, y compris assurer à l'enfant le droit de survivre, de se développer sainement, d'être protégé et d'intervenir dans toutes les questions qui le concerne. Les fichiers peuvent aussi comprendre de l'information sur des activités comme la Journée nationale de l'enfant et le partage des pratiques exemplaires par l'entremise d'organisations internationales comme l'Institut interaméricain de l'enfant. En outre, les fichiers peuvent contenir de l'information sur l'engagement national du Canada envers la Convention de l'ONU relative aux droits de l'enfant et ses protocoles facultatifs, ainsi que son engagement à soutenir les droits de l'enfant et à faire de la sensibilisation à ces droits partout dans le monde. De plus, les fichiers comprennent de l'information sur l'élaboration des initiatives en matière de politique et de recherche sur les droits de l'enfant, y compris la Convention de l'ONU relative aux droits de l'enfant, la Journée nationale de l'enfant et l'Institut interaméricain de l'enfant.
+
+**Types de documents :** Documents statistiques, publications universitaires, contrats, lettres d'entente interministérielle, mandats, ordres du jour, procès-verbaux de réunion, comptes rendus, documents de recommandations, documents d'information et de discussion, documents de politique, discours, documents d'évaluation, documents de promotion, correspondance, fiches d'information, rapports, etc.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 171
+
+**Fonds des projets nationaux du Programme d'action communautaire pour les enfants (PACE) et du Programme canadien de nutrition prénatale (PCNP)**
+
+**Description :** Comprend des fichiers relatifs au financement d'initiatives qui appuieront les objectifs des projets du PACE et/ou du PCNP, auront un rapport direct avec ceux-ci et répondront aux besoins de ceux-ci dans tout le Canada, afin d'aider les collectivités locales et les comités mixtes de gestion à aborder ensemble des problèmes et enjeux communs et permettre aux organisations nationales, régionales ou locales, en partenariat avec le gouvernement fédéral, de collaborer pour entreprendre des initiatives particulières à délai déterminé, à l'appui d'activités qui produisent des connaissances et des mesures relatives aux enfants, aux familles et au rôle que joue la collectivité dans le soutien des familles.
+
+**Remarque :** Le Fonds pour les projets nationaux a été éliminé en 2012.
+
+**Types de documents :** Contrats, mandats, ordres du jour, procès-verbaux de réunion, avis, documents d'information et de discussion, documents de politique, présentations, brochures et publications, rapports d'évaluation, correspondance, accords de contribution, etc.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 436
+
+**Programme canadien de nutrition prénatale**
+
+**Description :** Comprend des fichiers relatifs à la promotion de la santé des femmes enceintes à risque, de leurs bébés et de leur famille dans le cadre de services démontrant un leadership et dispensant un soutien à des groupes communautaires partout au Canada. Les fichiers peuvent comprendre de l'information sur la réduction de l'incidence des grossesses qui se soldent par la naissance d'enfants dont le poids pose une menace pour la santé, l'amélioration de la santé des mères et des bébés ainsi que la promotion de l'allaitement maternel.
+
+**Types de documents :** Contrats, mandats, ordres du jour, procès-verbaux de réunion, avis, documents d'information et de discussion, documents de politique, présentations, affiches, brochures et publications, documents d'évaluation, rapports de recherche et d'évaluation, correspondance, etc.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 435
+
+**Programme d'aide préscolaire aux Autochtones dans les collectivités urbaines et nordiques**
+
+**Description :** Comprend des fichiers relatifs au soutien de stratégies d'intervention pour le développement de la petite enfance conçues et contrôlées à l'échelon local pour les enfants autochtones et leurs familles qui vivent hors réserve. Les fichiers peuvent aussi comprendre de l'information sur le programme est axé sur l'éducation et la maturité scolaire, le développement culturel et linguistique des Autochtones, la participation des parents, la promotion de la santé, la nutrition ainsi que le soutien social.
+
+**Types de documents :** Contrats, mandats, ordres du jour, procès-verbaux de réunion, avis, documents d'information et de discussion, documents de politique, présentations, affiches, brochures et publications, documents d'évaluation, rapports de recherche et d'évaluation, correspondance, etc.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 430
+
+**Violence familiale et violence sexiste**
+
+**Description :** Comprend des fichiers relatifs au financement de projets visant à soutenir la santé des personnes qui ont survécu à la violence familiale et à prévenir la violence sexiste. Comprend également des documents relatifs à la relation entre la violence familiale et la santé; renforcement de la capacité des systèmes de santé et des services sociaux et des professionnels à intervenir; soutien des efforts de collecte de données, de recherche et d'évaluation pour déterminer des interventions efficaces.
+
+**Types de documents :** Documents statistiques, publications universitaires, contrats, protocoles d'accord, mandats, ordres du jour, procès-verbaux, avis, comptes rendus, documents de recommandations, documents d'information et de discussion, documents de politique, discours, documents de vérification et d'évaluation, correspondance, fiches documentaires, rapports, demandes de propositions, rapports de réseaux et de collaboration, revues de la littérature, publications, ébauches de rapport, documents de synthèse, aperçus et feuillets de documentation, etc.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 010 0028
+
+**Promotion de la santé mentale**
+
+**Description :** Comprend des fichiers relatifs à la sensibilisation à l'importance de favoriser une bonne santé mentale et à sa relation avec la santé en général. Comprend également des fichiers liés à la production de connaissances fondées sur des données probantes pour aider à la conception de politiques et de programmes qui traitent du maintien d'une bonne santé mentale et des conditions sous-jacentes d'une mauvaise santé mentale tout au long de la vie.
+
+**Types de documents :** Matériel de planification, documents, publications universitaires, contrats, protocoles d'accord, mandats, ordres du jour, procès-verbaux, avis, comptes rendus, documents de recommandations, documents d'information et de discussion, documents de politique, discours, documents de vérification et d'évaluation, correspondance, fiches documentaires, rapports, etc.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 270
+
+**Prévention du suicide**
+
+**Description** : Comprend des fichiers liés aux initiatives de prévention du suicide de l'Agence de la santé publique du Canada relativement au Cadre fédéral de prévention du suicide, y compris des ressources pour l'envoi de messages de sécurité aux Canadiens, le soutien au service pancanadien de prévention du suicide, l'élaboration d'un programme de recherche et d'application des connaissances sur le suicide, la Coalition nationale pour la prévention du suicide, le Comité fédéral de coordination pour la prévention du suicide, et les exigences en matière de production de rapports de la Loi sur le cadre fédéral de prévention du suicide.
+
+**Types de documents :** Matériel de planification, documents, publications universitaires, contrats, protocoles d'accord, mandats, ordres du jour, procès-verbaux, avis, comptes rendus, documents de recommandations, documents d'information et de discussion, documents de politique, discours, documents de vérification et d'évaluation, correspondance, fiches documentaires, rapports, etc.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 272
+
+**Prévention de l'usage problématique de substances**
+
+**Description :** Comprend des fichiers relatifs aux interventions stratégiques et novatrices qui touchent les enjeux prioritaires en matière de santé publique, y compris la prévention de la consommation problématique de cannabis, d'opioïdes et d'autres substances. Les fichiers peuvent inclure de l'information sur les outils de mobilisation des connaissances et des ressources adaptées aux professionnels de la santé publique et du secteur social pour réduire la consommation problématique de cannabis et aider à renforcer la résilience, et prévenir et réduire chez les jeunes la consommation problématique de cannabis et d'autres substances; et pour promouvoir l'envoi de messages de sécurité aux familles et aux femmes enceintes.
+
+**Types de documents :** Matériel de planification, évaluations, documents statistiques, dictionnaires de données, dispositions d'enregistrement, publications universitaires, résumés, affiches, présentations, contrats, modification de contrats, demandes de propositions, préavis d'adjudication de contrat, accords de contribution, protocoles d'entente, mandats, conditions générales, lignes directrices de programme, ordres du jour, procès-verbaux de réunion, avis, comptes rendus, documents de recommandations, documents d'information et de discussion, documents de politique, discours, documents de vérification et d'évaluation, correspondance, fiches d'information, rapports, etc.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 010 0030
+
+**Fonds d'innovation pour la promotion de la santé mentale**
+
+**Description :** Comprend des fichiers liés au Fonds d'innovation pour la promotion de la santé mentale (FIPSM), un programme national qui finance la mise à l'essai et la prestation d'interventions en santé de la population fondées sur des données probantes. Le FIPSM est un nouveau programme de financement qui remplace la Stratégie d'innovation (SI) en 2019-2020 dans le but de favoriser une bonne santé mentale chez les enfants, les jeunes, leurs fournisseurs de soins et les collectivités. Le programme s'appuie sur les pratiques exemplaires et les enseignements tirés de la SI et utilise une approche à plusieurs points de contrôle pour financer la mise à l'essai et la prestation d'intervention en santé de la population fondée sur des données probantes. Les connaissances acquises grâce à l'évaluation de chaque intervention communautaire sont ensuite appliquées aux politiques et pratiques de santé publique. Les fichiers comprennent des renseignements sur les investissements dans la mise à l'essai et la prestation d'interventions en santé de la population pour accroître l'équité en santé et découvrir quelles sont les interventions qui fonctionnent, pour qui elles fonctionnent et dans quel contexte. Les fichiers peuvent également contenir des renseignements relatifs à la Stratégie d'innovation (SI), car le FIPSM a été créé en fonction de ses paramètres. Enfin, les fichiers peuvent comprendre des renseignements relatifs aux bénéficiaires qui comprennent des organisations et des réseaux non gouvernementaux, des intervenants en santé publique à l'échelle nationale, provinciale, territoriale et communautaire, et d'autres organisations qui ont la capacité d'élaborer, de mettre en œuvre et d'évaluer des politiques et des activités innovantes.
+
+**Types de documents :** Documents statistiques, dictionnaires de données, dessins d'enregistrement, publications universitaires, résumés analytiques, affiches, présentations, contrats, modifications de contrats, demandes de propositions, préavis d'adjudication de contrat, accords de contribution, protocoles d'accord, mandats, documents relatifs à des modalités et à des conditions, lignes directrices de programmes, ordres du jour, procès-verbaux, avis, comptes rendus, documents de recommandations, documents d'information et de discussion, documents de politique, documents de vérification et d'évaluation, exemplaires de rapports annuels, correspondance, rapports de réseaux et de collaborations, fiches documentaires et rapports, etc.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 330
+
+**Trouble de stress post-traumatique**
+
+**Description :** Comprend des fichiers relatifs aux initiatives du Secrétariat du Trouble de stress post-traumatique (TSPT) prises en vertu de la *Loi sur le cadre fédéral relatif à l'état de stress post-traumatique*, y compris : la Conférence nationale sur le TSPT qui éclaire l'élaboration du cadre fédéral sur le TSPT, à l'appui du Plan d'action sur les blessures de stress post-traumatique pour le personnel de la sécurité publique, la collaboration au sein du portefeuille de la Santé et d'autres ministères visant à mettre en œuvre la *Loi sur le cadre fédéral relatif à l'état de stress post-traumatique*.
+
+**Types de documents :** Matériel de planification, documents, publications universitaires, contrats, protocoles d'accord, mandats, ordres du jour, procès-verbaux, avis, comptes rendus, documents de recommandations, documents d'information et de discussion, documents de politique, discours, documents de vérification et d'évaluation, correspondance, fiches documentaires et rapports, etc.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 335
+
+**Vieillissement et aînés**
+
+**Description :** Comprend des fichiers relatifs à l'élaboration et au soutien des initiatives de politique, de recherche et de collecte de données liées aux questions de santé des aînés, tels que la promotion de la santé, la prévention des blessures, la santé mentale, les mauvais traitements infligés aux aînés et les collectivités amies des aînés. Les fichiers peuvent également comprendre de l'information relative à la promotion de la sensibilisation aux questions touchant la santé des aînés, aux efforts visant à déterminer les interventions efficaces, à la conception d'outils et de ressources fondés sur des données probantes et à la collaboration avec d'autres autorités et intervenants clés.
+
+**Types de documents :** Rapports, produits de développement et d'échange de connaissances, tels que des résumés graphiques et du matériel de communication, des documents statistiques, des publications, des contrats, des protocoles d'entente, des mandats, des ordres du jour, des procès-verbaux, des documents d'information et de discussion, des documents de politique, des documents de vérification et d'évaluation, de la correspondance, des fiches d'information et des ententes de subventions et de contributions.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 259
+
+**Politiques de gestion de la démence**
+
+**Description :** Comprend des fichiers relatifs à l'élaboration et au soutien de politiques, de programmes et de recherches liés à des enjeux importants concernant la démence tels que l'élaboration et la mise en œuvre d'une stratégie nationale sur la gestion de la démence et la présentation au Parlement de rapports annuels sur l'efficacité de cette stratégie. Les documents peuvent également comprendre de l'information relative à la collaboration avec d'autres administrations, ministères et intervenants clés, et l'élaboration d'outils et de ressources fondés sur des données probantes.
+
+**Types de documents :** Rapports, fiches de référence, documents statistiques, publications, contrats, plans de travail, présentations, mandats, ordres du jour, procès-verbaux, documents d'information et de discussion, documents de politique, documents de vérification et d'évaluation, correspondance et fiches d'information.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 281
+
+**Investissement en matière de démence dans les communautés**
+
+**Description :** Comprend des fichiers relatifs à l'élaboration et au soutien de politiques, de recherches et d'initiatives de collecte de données liées à l'investissement en matière de démence dans les communautés ainsi qu'à des enjeux et initiatives concernant les affections neurologiques comme la promotion, la sensibilisation, l'innovation et les programmes relatifs à la santé. Les documents peuvent également inclure de l'information relative à la collaboration avec d'autres administrations et intervenants clés et à l'élaboration d'outils et de ressources fondés sur des données probantes et des renseignements sur les subventions et les contributions.
+
+**Types de documents :** Rapports, ententes de subventions et de contributions, fiches de référence, documents statistiques, publications, contrats, mandats, ordres du jour, procès-verbaux de réunions, documents d'information et de discussion, documents de politique, documents de vérification et d'évaluation, correspondance, fiches d'information.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 282
+
+**Équité en santé**
+
+**Description :** Comprend des fichiers relatifs au respect des engagements nationaux et internationaux, lesquels englobent l'établissement et la collecte de preuves et la mobilisation des partenaires clés au sein et en dehors du domaine de la santé, en vue de réduire les inégalités en matière de santé au Canada. Les fichiers comprennent de l'information sur la Déclaration politique de Rio sur les déterminants sociaux de la santé, l'Initiative pancanadienne des rapports sur les inégalités en santé, le Conseil canadien des déterminants sociaux de la santé et l'Analyse comparative fondée sur le sexe et le genre.
+
+**Types de documents :** plans, ordres du jour, rapports de décision, contrats, protocoles d'accord, cadres de travail et outils, présentations, documents d'information et de discussion, documents de politique, documents sur la mesure du rendement, correspondance, rapports et publications se rapportant à l'équité en santé. Cette activité est soutenue par Promouvoir l'équité en santé : Fonds pour la santé mentale des communautés noires.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 015 0008
+
+**Gestion scientifique**
+
+**Description :** Comprend des fichiers relatifs à l'établissement et au contrôle des priorités scientifiques de l'Agence, à ses stratégies visant à soutenir l'excellence en science, l'intégrité scientifique, l'innovation et l'intégration de la science, ainsi qu'à la collaboration scientifique visant à superviser l'infrastructure de soutien de la science de l'Agence. Les services de gestion scientifique comprennent les activités menées pour formuler des conseils à partir du point de vue de l'Agence dans son ensemble et pour assurer la cohérence et la cohésion de l'approche de l'Agence en matière de science et de recherche et renforcer ainsi l'alignement des activités scientifiques de l'Agence sur ses priorités, tout en favorisant une culture de l'excellence au sein de la collectivité scientifique et des infrastructures de soutien de la science de l'Agence.
+
+**Types de documents :** Mandats, politiques, procédures, ordres du jour de comité et rapports de décision, rapports, cadres de travail, documents de discussion, analyses, directives, notes de service, conseils, recommandations, plans stratégiques et opérationnels, correspondance, évaluations des risques, propositions, curriculum vitæ, demandes de remboursement de frais de déplacement, notes d'allocution et autres documents de communications.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 015 0001
+
+**Sciences, recherche et éthique en matière de santé publique**
+
+**Description :** Comprend les fichiers relatifs à l'élaboration de divers outils et politiques, à la prestation de conseils et d'orientations au personnel et à la haute direction sur les questions et les processus en matière d'éthique et à la recherche menée par l'Agence de la santé publique du Canada ou en son nom. Comprend également les fichiers relatifs à l'établissement, à l'organisation, aux fonctions, aux activités et à la gestion du Groupe consultatif en matière d'éthique en santé publique et du Comité d'éthique de la recherche de Santé Canada et de l'Agence de la santé publique du Canada, lesquels ont tous deux été créés pour fournir des conseils et des recommandations à l'Agence de la santé publique du Canada, à la nomination, à l'affectation, à la démission et au départ des membres (y compris les critères d'identification et de sélection des membres, les modalités d'affectation, les rôles et responsabilités et les documents de soutien administratif) ainsi qu'à la correspondance parmi les membres et entre ceux-ci et le personnel de l'Agence et aux analyses et recommandations destinées à la haute direction.
+
+**Types de documents :** Mandats, politiques, procédures, ordres du jour, rapports de décision, rapports annuels, cadres de travail, rapports, documents de discussion, analyses, lignes directrices, notes de service, recommandations, plans de projet, correspondance, évaluations des risques, propositions, curriculum vitæ, demandes de remboursement de frais de déplacement, notes d'allocution et autres documents de communications.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 514
+
+**Projets de recherche**
+
+**Description :** Cette banque décrit les renseignements recueillis auprès de personnes qui dirigent, collaborent ou appuient des projets de recherche auxquels participe l'ASPC, ou qui sont créés à leur sujet. Les renseignements personnels peuvent comprendre le nom, le titre, les coordonnées, les études, les titres de compétences, les antécédents professionnels, les propositions de recherche, les références, les employeurs actuels et passés. Les renseignements personnels peuvent également comprendre des opinions professionnelles et personnelles liées à l'examen par les pairs des résultats de la recherche, ainsi que des évaluations de la qualité, de l'efficacité et/ou de la nature éthique du processus de recherche, conformément aux normes éthiques et scientifiques.
+
+**Remarque :** En plus des exigences précisées dans le formulaire de demande de renseignements personnels du Secrétariat du Conseil du Trésor du Canada, les personnes qui demandent des renseignements décrits par cette banque doivent fournir leur nom, leur lieu de résidence et l'année de leurs recherches ou études.
+
+**Catégorie de personnes :** Les employés du gouvernement fédéral et d'autres personnes, y compris les collaborateurs et les supporter d'organisations externes telles que les universités, les instituts de recherche, les organismes subventionnaires et les organismes internationaux.
+
+**But :** Les renseignements personnels sont utilisés pour appuyer le financement, l'approbation et la gestion des projets de recherche, ainsi que l'examen du processus de recherche. Les renseignements personnels sont recueillis conformément à l'article 3 de la Loi sur l'Agence de la santé publique du Canada et à l'article 4 de la Loi sur le ministère de la Santé.
+
+**Usages compatibles :** Les renseignements personnels peuvent être communiqués à des membres externes du Comité de recherche et d'éthique de Santé Canada-ASPC, ainsi qu'à des bailleurs de fonds et à des partenaires externes participant à une activité de recherche lorsque des questions d'ordre qualitatif, d'efficacité ou d'éthique se posent. Les renseignements peuvent être communiqués à l'interne au service des relations de travail de l'ASPC lorsque des employés mènent des recherches pour le compte de l'Agence (voir la norme FRP : PSE 911).
+
+**Normes de conservation et de destruction :** Deux (2) ans après la dernière mesure administrative.
+
+**No ADD :**2015/022
+
+**Renvoi au document no :** PHAC 008 514
+
+**Enregistrement (SCT) :**20170110
+
+**Numéro du fichier :** ASPC PPU 290
+
+**Effectifs en santé publique**
+
+**Description :** Comprend des fichiers relatifs au perfectionnement des compétences (y compris les capacités, les connaissances, l'expertise, l'éducation et l'expérience), aux profils de compétences et aux outils d'analyse visant à orienter la planification des ressources humaines en santé publique. Les fichiers peuvent également comprendre des renseignements liés à la disponibilité des employés de l'Agence de la santé publique du Canada à être mobilisés sur le terrain ou à participer aux interventions lors d'événements de santé publique. Des renseignements relatifs aux exigences à l'égard de la main-d'œuvre en santé publique, tels que les besoins et les possibilités d'apprentissage, les outils et les programmes de perfectionnement qui permettent aux professionnels en santé publique d'acquérir et de maintenir les compétences requises pour assumer efficacement leurs fonctions de base en santé publique peuvent également être compris dans les fichiers. De plus, les fichiers peuvent englober l'information liée à l'élaboration concertée de ressources telles que les modules de formation, les programmes et les fichiers.
+
+**Types de documents :** Matériel de cours et de formation, présentations, fichiers, rapports, plans, documents statistiques, publications universitaires, contrats, exigences opérationnelles, protocoles d'accord, mandats, ordres du jour, procès-verbaux, avis, comptes rendus, documents de recommandations, documents d'information et de discussion, documents de politique, plans de travail, etc.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 010 0021
+
+**Opérations d'intervention en toutes circonstances (OITC)**
+
+**Description :** Ce fichier décrit l'information relative aux employés du portefeuille de la Santé qui peuvent être sélectionnés pour intervenir en cas de situations d'urgence ou d'événements de santé publique. Les renseignements personnels peuvent comprendre le nom, les renseignements biographiques, les renseignements sur les études, les renseignements médicaux, l'expérience de travail et celle des interventions d'urgence, la disponibilité, les questions et réponses liées à la sûreté, le statut du passeport, les informations relatives au statut de l'employé, l'information sur la formation, les compétences linguistiques, la situation de l'emploi, la personne à joindre en cas d'urgence au travail, les qualifications, les titres professionnels et la signature.
+
+**Catégorie de personnes :** Employés du portefeuille de la Santé qui présentent une demande pour participer aux activités d'intervention en santé publique.
+
+**But :** Les renseignements sont utilisés pour établir un inventaire des employés pour réagir aux urgences et aux événements de santé publique et sélectionner des personnes en vue de leur participation aux mobilisations de terrain et au travail du Centre des opérations d'urgence de l'Agence de la santé publique du Canada. Les renseignements sont recueillis en vertu de l'article 3 de la *Loi sur l'Agence de la santé publique du Canada* et de l'article 4 de la *Loi sur le ministère de la Santé*.
+
+**Usages compatibles :** Les renseignements peuvent être consultés, utilisés ou communiqués aux fins suivantes : vérification ou évaluation, présentation de rapports à la haute direction, statistiques et communication à différents secteurs de programme internes. Une quantité limitée de renseignements concernant le déploiement d'une personne peuvent être communiqués à Affaires mondiales Canada, à Citoyenneté et Immigration Canada (voir Affaires consulaires – aide aux Canadiens (MAECD PPU 010)). Les renseignements peuvent être communiqués à des organismes ou à des institutions internationales (par ex., l'Organisation mondiale de la santé, le Réseau mondial d'alerte et d'action en cas d'épidémie, l'Organisation panaméricaine de la santé ou les Nations Unies), aux gouvernements provinciaux et territoriaux ou aux administrations ou institutions municipales ou régionales en réponse à des mobilisations et à des demandes d'aide.
+
+**Normes de conservation et de destruction :** Deux ans après la dernière action administrative.
+
+**No ADD :** 2015/022
+
+**Renvoi aux catégories de documents no :** ASPC 010 0021, ASPC 010 0048
+
+**Enregistrement (SCT) :** 20160012
+
+**Numéro du fichier :** ASPC PPE 305
+
+**Amélioration des compétences en santé publique**
+
+**Description :** Comprend des fichiers relatifs à la surveillance, à la recherche, à l'analyse et à la communication d'information concernant le programme de perfectionnement professionnel continu appelé Compétences en ligne, programme qui assure une éducation continue grâce à un ensemble de modules Internet animés et non directifs, en français et en anglais, aux praticiens de la santé publique partout au Canada et à l'échelle internationale.
+
+**Remarque :** Le programme Amélioration des compétences en santé publique a été supprimé en mars 2017.
+
+**Types de documents :** Modules d'apprentissage en ligne, contrats, protocoles d'accord et rapports.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 516
+
+**Amélioration des compétences**
+
+**Description :** Ce fichier contient des renseignements liés aux informations d'enregistrement des praticiens de la santé publique au Canada et à l'international au programme de compétences en ligne, un programme de perfectionnement professionnel qui offre de la formation continue par le biais d'un ensemble de modules accessibles sur Internet et qui sont animés ou fondés sur l'auto-apprentissage. Les renseignements personnels peuvent inclure le nom, les coordonnées, des renseignements biographiques, la date de naissance, l'historique de l'éducation, des informations relatives au statut de l'employé, des cours déjà suivis, la signature et les mots de passe personnels.
+
+**Catégorie de personnes :** Les praticiens de santé publique.
+
+**But :** Les renseignements personnels sont utilisés afin d'administrer les activités de la main d'œuvre de la santé publique. Cette information est recueillie conformément à l'article 4 de la *Loi sur le ministère de la Santé*.
+
+**Usages compatibles :** L'information peut être utilisée ou partagée pour les fins suivantes : rapports à la haute direction et sécurité. Les renseignements sont partagés avec un tiers administrateur, qui gère l'enregistrement des participants et administre les modules pour le compte de l'Agence de la santé publique du Canada. L'information peut être divulguée aux organismes gouvernementaux et à des organisations de santé publique des provinces / territoires et fédérales, ainsi qu'à des organisations locales dans l'éventualité d'une crise de santé publique et de la mobilisation des ressources humaines subséquentes permettant de répondre à de telles crises. L'information peut également être utilisée périodiquement pour solliciter les commentaires des participants.
+
+**Normes de conservation et de destruction :** Deux ans après la dernière action administrative.
+
+**No ADD :** 2015/022
+
+**Renvoi à la catégorie de documents no :** ASPC 008 516
+
+**Enregistrement (SCT) :** 20110483
+
+**Numéro du fichier :** ASPC PPU 288
+
+**Partenariats internationaux en santé**
+
+**Description :** Comprend des fichiers relatifs à l'engagement international du portefeuille de la Santé ainsi qu'au Programme de subventions internationales en santé. Les documents comprennent de l'information sur la politique mondiale en matière de santé et de l'information sur les relations multilatérales et bilatérales. Les documents comprennent également des informations sur le financement d'organismes et d'agences internationaux tels que l'Organisation mondiale de la santé (OMS), l'Organisation panaméricaine de la santé (OPS), le Centre international de recherche sur le cancer (CIRC), la Convention-cadre pour la lutte antitabac de l'OMS, les Nations Unies et l'Initiative de sécurité sanitaire mondiale.
+
+**Types de documents** : Notes d'information, notes de service, évaluations d'invitation, correspondance, politiques, présentations, recherche sur les enjeux, fiches d'information, analyses et rapports, propositions de subvention, documentation, ententes, contrats, documents de vérification et d'évaluation et procès-verbaux.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 015 0011
+
+**Gestion de la propriété intellectuelle, Transfert technologique et Développement commercial**
+
+**Description :** Comprend des fichiers relatifs à l'élaboration de politiques sur la gestion de la propriété intellectuelle (PI) de l'Agence et de politiques connexes, ainsi qu'à la gestion de la PI de l'Agence liée à des découvertes scientifiques ou autres. Des conseils sur l'évaluation, la protection et la mise en place de la PI, ainsi que des évaluations de technologies et de marchés, des stratégies promotionnelles, des plans de commercialisation axés sur les priorités et la facilitation d'ententes de collaboration avec des partenaires externes, y compris le milieu des affaires, les universités, les organisations non-gouvernementales et le secteur public (au Canada comme à l'étranger) peuvent également être compris.
+
+**Types de documents :** Politiques, protocoles, analyses, évaluations des risques, conseils, recommandations, brevets d'invention, enregistrements de droits d'auteur et de marques, ententes (par ex., transfert de documentation, non-divulgation, collaboration, publication, octroi de licence, etc.), renseignements sur le marché de la propriété intellectuelle, normes, stratégies et outils d'application des connaissances, notes de service, correspondance et ententes de service.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 015 0002
+
+**Réseau de santé publique**
+
+**Description :** Comprend des fichiers relatifs à l'appui au Réseau pancanadien de santé publique et au Conseil des médecins hygiénistes en chef qui collaborent avec divers secteurs et partenaires dans tout le Canada pour développer, renforcer et améliorer la capacité en matière de santé publique du Canada, permettre aux gouvernements FPT de mieux travailler ensemble sur les affaires quotidiennes de santé publique, et d'anticiper les événements et les menaces en matière de santé publique, de s'y préparer et d'y réagir.
+
+**Types de documents :** Mandats, rapports, documents d'orientation, notes de service, correspondance, présentations, rapports de décision, notes de breffage et analyses.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 701
+
+**Planification, communication pour l'ASPC**
+
+**Description :** Comprend des fichiers relatifs à la gestion systématique des activités de planification, de communication et de gestion de projet tels que l'élaboration et l'examen des plans d'activités, des plans stratégiques et organisationnels, et d'autres stratégies organisationnelles à long terme, le suivi et l'examen des résultats internes, des programmes et des services, la mesure et la communication du rendement des établissements, ainsi que la gestion du risque. Peut également inclure des documents relatifs à la préparation, l'organisation, la coordination et la présentation des rapports annuels au Parlement, du cadre ministériel des résultats (CMR), de la structure d'architecture d'harmonisation de programmes (AHP), du plan ministériel (PM), du rapport sur les plans et les priorités (RPP), du rapport ministériel sur les résultats, du rapport ministériel sur le rendement (RMR) et du cadre de responsabilisation de gestion (CRG).
+
+**Types de documents :** Indicateurs et mesures de rendement, profils et stratégies d'atténuation de risque, plans de développement durable, tableaux de bord prospectifs, analyses environnementales, plans d'urgence, analyse des tendances et copies du CRM, des structures d'AHP, du PM, du RPP, du rapport ministériel sur les résultats, du RMR et des résultats du CRG.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 509
+
+**Secrétariat des indicateurs de santé publique**
+
+**Description :** Comprend des fichiers relatifs à la surveillance, à la recherche et à la diffusion de renseignements exacts au sujet du Groupe de travail fédéral, provincial et territorial, qui collabore avec divers partenaires pour élaborer des indicateurs comparatifs de santé publique.
+
+**Types de documents :** Contrats, cadres, mandats, chartes de projet, rapports.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 010 0026
+
+**Programme canadien d'épidémiologie de terrain (PCET)**
+
+**Description :** Comprend des fichiers relatifs à la surveillance, à la recherche, à l'analyse et à la communication d'information en ce qui concerne la santé de la population afin de permettre au PCET d'embaucher des épidémiologistes de terrain pour une période de deux ans. Les fichiers peuvent également contenir des renseignements relatifs à des protocoles d'accord avec divers organismes de placement dans le but d'affecter les épidémiologistes de terrain à leur propre collectivité publique étant donné qu'ils travaillent avec les intervenants en santé publique à des endroits où peuvent ou non être situés des bureaux de l'ASPC, partout au pays. Les fichiers peuvent contenir des renseignements sur les occasions de réseautage, sur la formation spécialisée dans la pratique de l'épidémiologie appliquée et sur la mobilisation sur le terrain pour répondre aux éclosions à la demande des organisations locales, provinciales, territoriales, fédérales et parfois internationales afin de répondre aux urgences de santé publique nécessitant une aide en épidémiologie.
+
+**Types de documents :** Lettres d'offre, formulaire de ressources humaines, curriculum vitæ, notes d'entrevue, critères d'évaluation, rapports d'éclosion, rapports de formation, rapports d'activité, contrats, énoncés de travaux, propositions, rapports salariaux et financiers, plans de travail, guides de référence, manuels, évaluations de rendement, notes de service et lettres d'entente et protocoles d'accord.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 108
+
+**Service canadien de santé publique (SCSP)**
+
+**Description :** Comprend des fichiers relatifs à la surveillance, à la recherche, à l'analyse et à la communication d'information concernant le programme du SCSP. Dans le cadre de ce programme, des agents de la santé publique (ASP) employés à temps plein de la fonction publique fédérale sont affectés par rotation dans des collectivités et des organisations partout au Canada afin d'assurer une capacité en santé publique. Les fichiers peuvent aussi contenir des renseignements concernant la formation offerte aux ASP de même que des renseignements relatifs à la mobilisation sur le terrain, à la suite de demandes reçues des organisations locales, provinciales, territoriales et fédérales, afin de répondre aux éclosions et aux urgences de santé publique nécessitant une assistance épidémiologique. Les fichiers peuvent aussi contenir des renseignements relatifs aux lettres d'entente (LE) prévoyant l'affectation d'un ASP à une organisation dans des sites de placement donnés. De plus, les fichiers peuvent contenir des renseignements relatifs à l'embauche d'étudiants en santé publique qui sont placés dans des organismes de santé publique du nord et des régions éloignées du Canada.
+
+**Types de documents :** Cadres d'action stratégiques et documents à l'appui sur les plans et les procédures, plans des ressources humaines. Lettres d'offre, formulaires des ressources humaines, curriculum vitæ, notes d'entrevue, critères d'évaluation, rapports d'éclosion, rapports de formation, rapports d'activité, contrats, énoncés de travaux, propositions, rapports salariaux et financiers, plans de travail, guides de référence, manuels, évaluations de rendement, notes de service et lettres d'accord et protocoles d'entente.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 700
+
+**Accès à la connaissance et aux renseignements**
+
+**Description :** Comprend également des fichiers concernant l'accès à la connaissance et aux renseignements du personnel de l'ASPC, y compris les sources d'information imprimées et électroniques, la recherche documentaire et les services d'alerte, ainsi que les outils et les technologies qui soutiennent la découverte et l'utilisation des meilleures et des plus récentes données probantes dans les programmes de recherche, l'élaboration de politiques, l'application des connaissances et l'analyse des risques et les interventions.
+
+**Types de documents :** rapports ISO 9001, guides d'information, listes de ressources, procédures de travail internes, ordres du jour de comités et procès-verbaux.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 015 0003
+
+### Sécurité sanitaire
+
+Se préparer aux événements de santé publique et aux urgences et les traiter; aborder les risques pour la santé et la sécurité associés à l'utilisation d'agents pathogènes et de toxines; aborder les risques en santé publique associés aux voyages.
+
+#### Biosécurité
+
+Ce programme réglemente l'utilisation des agents pathogènes humains et d'animaux terrestres ainsi que des toxines pour protéger la santé et la sécurité du public. Les agents pathogènes et les toxines présentent un risque pour le public, puisqu'ils peuvent entraîner des maladies ou la mort. La propagation de maladies infectieuses au Canada pourrait entraîner des perturbations sociales et économiques considérables et des répercussions négatives à l'échelle internationale. Les agents pathogènes et toxiques sont utilisés dans un large éventail de secteurs canadiens à de nombreuses fins différentes, y compris les suivantes : l'enseignement et la recherche dans les universités; le diagnostic de maladies dans les hôpitaux et les établissements de santé publique; et l'élaboration de vaccins dans l'industrie pharmaceutique. Les composantes du programme ont été conçues dans le but de prévenir la libération accidentelle de ces agents par un laboratoire, y compris par l'intermédiaire d'un travailleur infecté, ainsi que d'empêcher la dissémination volontaire par acte de terrorisme ou autre activité criminelle. Le programme permet également au Canada de s'acquitter de ses obligations dans le cadre du Règlement sanitaire international (RSI) et de la Convention sur les toxines et les armes biologiques.
+
+**Pathogènes et toxines humaines**
+
+**Description :** Comprend les fichiers relatifs à l'administration et à l'application de la *Loi sur les agents pathogènes humains et les toxines* et du *Règlement sur les agents pathogènes humains et les toxines*, ainsi qu'à l'administration de certains articles de la *Loi sur la santé des animaux* et du *Règlement sur la santé des animaux*.
+
+**Types de documents :** Lois, règlements, lignes directrices, normes, politiques, directives, évaluations des risques, avis, licences, demandes, permis, habilitations de sécurité en vertu de la LAPHT et résultats des vérifications des antécédents, documents de surveillance et de contrôle, inspection, rapports d'incidents et d'exposition, documents éducatifs et de sensibilisation, rapports, notes de service, plans de projet, lettres, propositions, documents statistiques, publications universitaires, contrats, protocoles d'accord, mandats, ordres du jour, rapports de réunion, avis, comptes rendus, documents de recommandations, documents d'information et de discussion, documents de politique, discours, documents de vérification et évaluation, correspondance, etc.
+
+**Résumés des divulgations :** Les renseignements personnels ont été communiqués à la Gendarmerie royale du Canada.
+
+**Résumés de** **divulgations :**  L'Agence de la santé publique du Canada a communiqué des renseignements personnels à la Gendarmerie royale du Canada.
+
+**Numéro du fichier :** ASPC 010 0047
+
+**Inscription des personnes responsables d'activités mettant en cause des pathogènes humains ou des toxines**
+
+**Description :** Ce fichier décrit l'information relative aux personnes qui sont responsables des activités touchant aux agents pathogènes humains ou aux toxines (par ex., production; stockage; autorisation d'y accéder accordée à toute personne; transfert; importation ou exportation; libération ou abandon ou élimination d'un agent pathogène humain ou d'une toxine) qui se sont inscrites auprès du Centre de la biosûreté de l'Agence de la santé publique du Canada. Les renseignements personnels peuvent comprendre le nom, les coordonnées et le lieu de travail, l'information sur la formation à la sécurité et un avis au ministre de la Santé qui indique qu'elles ont la responsabilité de s'occuper d'agents pathogènes humains ou de toxines, les groupes de risques auxquels les agents pathogènes humains appartiennent et l'endroit où les activités dont ils sont responsables sont réalisées.
+
+**Remarque :** Le 1er décembre 2015, le *Règlement sur l'importation des agents anthropopathogènes* (RIAA) a été abrogé. Les nouvelles demandes ne sont plus acceptées sur le fondement de ce règlement.
+
+**Catégorie de personnes :** Employés du gouvernement, universitaires, établissements de recherche, de diagnostic et médicaux et représentants des entreprises, des sociétés et des associations.
+
+**But :** Les renseignements personnels sont utilisés pour inscrire les personnes qui sont responsables d'activités qui font appel à des agents pathogènes humains ou à des toxines. Les renseignements personnels sont recueillis en vertu de l'article 70 de la *Loi sur les agents pathogènes humains et les toxines*.
+
+**Usages compatibles :** Les renseignements peuvent être utilisés ou communiqués aux fins suivantes : application de la loi, sûreté et sécurité, et audit et évaluation. Les renseignements personnels peuvent être communiqués à l'Agence canadienne d'inspection des aliments (voir ACIA PPU 096 Enquêtes : infractions aux lois et aux règlements; ACIA PPU 097 Certificat et demande de certificat de l'inspecteur/classificateur; ACIA PPU 011 Animaux – Programme d'importation), à l'Agence des services frontaliers du Canada, à Sécurité publique Canada, au Service des poursuites pénales du Canada (voir SPPC PPU 002 Poursuites et activités connexes) et à Transports Canada aux fins liés au transport des marchandises dangereuses; aux gouvernements d'États étrangers ou à l'une de leurs institutions; aux organisations internationales d'État ou à l'une de leurs institutions; aux provinces ou à l'une de leurs institutions; aux administrations municipales ou régionales ou à l'une de leurs institutions, si : la communication est nécessaire à l'administration ou à l'application de la *Loi sur les agents pathogènes humains et les toxines* ou de son règlement, et le ministre de la Santé a un motif raisonnable de croire que la communication est nécessaire pour remédier à un danger grave et imminent pour la santé ou la sécurité du public; ou la communication est nécessaire pour permettre au Canada de s'acquitter de ses obligations internationales.
+
+**Normes de conservation et de destruction :** Deux ans après la dernière action administrative.
+
+**No ADD :** 2015/022
+
+**Renvoi à la catégorie de documents no :** ASPC 010 0047
+
+**Enregistrement (SCT) :** 20150168
+
+**Numéro du fichier :** ASPC PPU 306
+
+**Programme d'habilitation de sécurité en vertu de la *Loi sur les agents pathogènes humains et les toxines***
+
+**Description** : Ce fichier décrit les renseignements liés au Programme d'habilitation de sécurité en vertu de la *Loi sur les agents pathogènes humains et les toxines* (LAPHT) de l'Agence de la santé publique du Canada. Les personnes sont tenues d'obtenir une habilitation de sécurité en vertu de la LAPHT si elles travaillent au contact de certains agents pathogènes humains et de certaines toxines, connus sous le nom d'agents biologiques à cote de sécurité élevée (ABCSE), qui, s'ils sont mal utilisés, peuvent représenter un risque pour la sécurité nationale du Canada ou si elles y ont accès. Les renseignements personnels peuvent comprendre le nom, les coordonnées, les renseignements biographiques et biométriques, l'état matrimonial, la citoyenneté, les renseignements relatifs à l'entrée au Canada et aux visas, les renseignements sur le crédit, les vérifications du casier judiciaire et des antécédents, les études, l'emploi et les antécédents de voyage, la date et le lieu de naissance et de décès, les numéros d'identification, le sexe, la langue préférée, les autres habilitations de sécurité délivrées par le gouvernement du Canada, les renseignements financiers, les renseignements médicaux, les caractéristiques physiques, les photos, la signature, le consentement, et tout autre renseignement fourni par le demandeur aux fins d'une détermination effectuée en vertu de l'article 14 du Règlement sur les agents pathogènes humains et les toxines (RAPHT).
+
+**Catégorie de personnes** : Le public et les demandeurs d'une habilitation de sécurité en vertu de la LAPHT ainsi que leurs partenaires actuels et anciens.
+
+**But** : Les renseignements personnels servent à appuyer les décisions d'accorder, de refuser, de suspendre, de révoquer ou d'interjeter appel d'une habilitation de sécurité délivrée en vertu de la LAPHT. Les renseignements personnels sont recueillis en vertu des articles 33 à 35 de la *Loi sur les agents pathogènes humains et les toxines* et des articles 11 à 22 du Règlement sur les agents pathogènes humains et les toxines.
+
+**Usages compatibles** : Des renseignements personnels peuvent être communiqués à la Gendarmerie royale du Canada pour effectuer des vérifications de casier judiciaire (voir GRC OPS 1214) et au Service canadien du renseignement de sécurité pour mener une enquête de sécurité (voir SCRS PPU 005). Les renseignements personnels peuvent également être communiqués aux sociétés d'évaluation du crédit pour qu'elles effectuent une vérification du crédit si la personne visée y consent. Conformément à l'article 39(1) de la LAPHT, les renseignements personnels peuvent également être communiqués, aux fins d'audit et évaluation ou de l'administration ou de l'application de la LAPHT ou de ses règlements, afin de faire face à un danger grave et imminent pour la santé ou la sécurité du public et de satisfaire aux obligations internationales.
+
+**Normes de conservation et de destruction** : Cinq ans après la dernière action administrative.
+
+**No ADD :** 2015/022
+
+**Renvoi à la catégorie de documents no :** ASPC 010 0047
+
+**Enregistrement (SCT) :** 20180027
+
+**Numéro du fichier :** ASPC PPU 308
+
+**Délivrance de permis en vertu de la *Loi sur les agents pathogènes humains et les toxines***
+
+**Description :** Ce fichier décrit les renseignements relatifs aux demandes de permis pour mener des activités réglementées mettant en cause des agents pathogènes humains et des toxines. Les renseignements personnels recueillis peuvent comprendre le nom, le numéro de permis, le titre du poste et le nom de l'employeur, les coordonnées, la langue préférée et la signature.
+
+**Remarque :** Le permis délivré en vertu de la *Loi sur les agents pathogènes humains et les toxines* remplace l'ancienne exigence d'enregistrement en vertu de la LAPHT. Voir ASPC PPU 306.
+
+**Catégorie de personnes :** demandeurs du programme.
+
+**But :** Les renseignements personnels sont utilisés pour gérer le programme de délivrance de permis en vertu de la LAPHT, y compris l'octroi, le refus, la suspension, la révocation, l'annulation, la modification d'un permis ou l'appel relatif à une demande de permis ou à un permis. Les renseignements personnels sont recueillis en vertu des articles 18, 20 et 21 de la *Loi sur les agents pathogènes humains et les toxines* et du paragraphe 2(1) du Règlement sur les agents pathogènes humains et les toxines (RAPHT).
+
+**Usages compatibles :** Les renseignements peuvent être utilisés ou communiqués aux fins de la conformité et de l'application de la LAPHT et du RAPHT, et aux fins d'audit et évaluation. Des renseignements personnels peuvent être communiqués à l'Agence canadienne d'inspection des aliments (ACIA) pour vérifier la conformité des installations réglementées à un permis relatif aux agents pathogènes et aux toxines délivré en vertu du Règlement sur la santé des animaux (RSA) pour importer, transférer ou recevoir des agents pathogènes d'animaux terrestres (voir ACIA PPU 096 Enquêtes : Infractions aux lois et aux règlements, ACIA PPU 097 Certificat et demande de l'inspecteur/classificateur; ACIA PPU 011 Animaux – Programme d'importation). Conformément à l'article 39(1) de la LAPHT, les renseignements personnels peuvent également être communiqués à un ministère ou à un organisme du gouvernement du Canada ou d'une province, à un gouvernement étranger ou à une organisation internationale, aux fins de l'administration ou de l'application de la LAPHT ou de ses règlements, afin de faire face à un danger grave et imminent pour la santé ou la sécurité du public et de satisfaire aux obligations internationales de déclaration.
+
+**Normes de conservation et de destruction :** Deux ans après la dernière action administrative.
+
+**No ADD :** 2015/022
+
+**Renvoi à la catégorie de document no :** ASPC 010 0047
+
+**Enregistrement (SCT) :** 20180028
+
+**Numéro du fichier :** ASPC PPU 309
+
+#### Santé des voyageurs et santé transfrontalière
+
+Ce programme protège les voyageurs par l'entremise des moyens suivants : renseigner les voyageurs sur la façon de se protéger contre les risques de santé publique liés aux voyages; travailler avec l'industrie du transport pour protéger les voyageurs contre les risques liés à l'eau, à la nourriture et à l'assainissement; collaborer avec des partenaires transfrontaliers afin de limiter la propagation de risques pour la santé publique en vertu des exigences du Règlement sanitaire international (RSI). La *Loi sur la mise en quarantaine*, la *Loi sur les aliments et drogues* et le Règlement sur l'eau potable à bord des trains, bâtiments, aéronefs et autocars constituent la base législative des activités du programme lié à la santé des voyageurs.
+
+**Santé des voyageurs**
+
+**Description :** Comprend des fichiers relatifs à des renseignements ou à des recommandations fondées sur des données probantes sur la santé des voyageurs afin de contribuer à la réduction des maladies et des blessures chez les Canadiens voyageant à l'étranger et de l'importation de maladies infectieuses au Canada. Cela permet aux Canadiens qui voyagent à l'étranger de prendre des décisions éclairées en matière de santé et de soutenir les professionnels de la santé qui les soignent. Les documents comprennent de l'information sur la surveillance et l'évaluation des risques pour la santé associés aux voyages à l'étranger et la fourniture de recommandations visant à réduire les risques pour la population canadienne voyageant et vivant à l'étranger; la production de recommandations et de conseils sur la santé des voyageurs à l'intention du public et des professionnels de la santé; la désignation des centres de vaccination contre la fièvre jaune au Canada et le respect de la conformité au Règlement sanitaire international (RSI).
+
+**Types de documents :** Analyse de données et rapports; revues universitaires; contrats; PON; mandats; ordres du jour; rapports de décision; avis; comptes rendus; documents de recommandation; documents d'information et de discussion; documents de politique; documents de vérification et d'évaluation; correspondance; fiches d'information; rapports; évaluation des risques pour la santé liés aux voyages à l'étranger; cadre d'évaluation des risques; base de données sur les maladies liées aux voyages; affiches et présentations; conseils de santé aux voyageurs; approbations techniques et de la haute direction des conseils de santé aux voyageurs; recommandations de déclaration; avis du Comité consultatif de la médecine tropicale et de la médecine des voyages (CCMTMV); pages Web et fiches d'information sur les pays; webinaires (les documents associés comprennent des invitations, affiches, courriels, présentations); stratégie de sensibilisation (professionnels de la santé et public); courriel Web; désignation et re-désignation des centres de vaccination contre la fièvre jaune; base de données du programme de vaccination contre la fièvre jaune.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 010 0054
+
+**Désignation des centres de santé des voyageurs (DCSV)**
+
+**Description :** Ce fichier décrit les renseignements recueillis à l'appui du processus de désignation des centres de vaccination contre la fièvre jaune (CVFJ) au Canada. Les renseignements personnels comprennent le nom, les coordonnées et les renseignements sur l'accréditation ou la licence professionnelle.
+
+**Catégorie de personnes :** Personnes qui présentent une demande pour devenir des praticiens de la santé responsables propres à un site.
+
+**But :** L'information est utilisée pour évaluer les demandes de désignation et de nouvelle désignation des CVFJ. Les renseignements personnels sont recueillis en vertu de l'article 3 de la Loi sur l'Agence de la santé publique du Canada et de l'article 4 de la Loi sur le ministère de la Santé.
+
+**Usages compatibles :** L'emplacement du CVFJ sera affiché sur le site [Web de l'ASPC](/fr/sante-publique/services/sante-voyageurs/fievre-jaune.html), y compris l'adresse et le numéro de téléphone. Dans certains cas, ces renseignements refléteront les coordonnées de la personne-ressource et seront également utilisés pour documenter les politiques et informer la haute direction.
+
+**Normes de conservation et de destruction :** Deux ans après la dernière action administrative.
+
+**No ADD :** 2015/022
+
+**Renvoi à la catégorie de documents no :** ASPC 010 0054
+
+**Enregistrement (SCT) :** 20210076
+
+**Numéro de fichier :** ASPC PPU 073
+
+**Quarantaine**
+
+**Description :** Comprend des fichiers relatifs à la prestation de services de quarantaine dans les principaux points d'entrée et de départ, y compris les points de service frontaliers aériens, maritimes et terrestres, en vertu de la *Loi sur la mise en quarantaine*, afin de prévenir et de contrôler l'introduction de maladies transmissibles d'intérêt majeur pour la santé publique tout en aidant à atténuer d'éventuelles perturbations sociales et économiques.
+
+**Types de documents :** Accords, protocoles d'entente, contrats, procédures, notes de service, documents statistiques, publications universitaires, contrats, protocoles d'accord, mandats, ordres du jour, procès-verbaux de réunion, avis, comptes rendus, documents de recommandations, documents d'information et de discussion, documents de politique, discours, documents de vérification et d'évaluation, correspondance, fiches d'information, rapports, rapports de santé des voyageurs, cartes d'information de coordonnés des voyageurs, etc.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 010 0045
+
+**Programme de mise en quarantaine**
+
+**Description :** Ce fichier décrit les renseignements liés au Programme de mise en quarantaine et des renseignements personnels sont recueillis dans le cadre de la réponse du gouvernement du Canada à la pandémie de COVID-19. À l'heure actuelle, le fichier de renseignements personnels ne reflète pas encore cette activité. Le Programme de mise en quarantaine vise à prévenir la propagation, l'introduction et l'exportation de maladies transmissibles à destination et en provenance du Canada en dépistant et en évaluant les voyageurs malades pour détecter la présence de maladies transmissibles aux points d'entrée et de sortie internationaux. Le programme permet la mise en œuvre de mesures de santé publique lorsque des maladies transmissibles graves sont dépistées et prévoit une collaboration avec des partenaires, notamment l'Agence des services frontaliers du Canada, afin d'assurer un signalement et une intervention efficaces en cas de problème de santé à la frontière. Les renseignements personnels peuvent comprendre le nom, le sexe, les coordonnées, la citoyenneté, la date de naissance, la date de décès, les renseignements médicaux, d'autres numéros d'identification (p. ex., numéro de passeport), le lieu de naissance, le lieu de décès, la signature et les données de voyage (p. ex., pays visités, itinéraire).
+
+**Remarque** : Le fichier s'appelait auparavant « Rapports sur les maladies de voyageurs – ASPC PPU 071; ». Les renseignements peuvent être stockés dans les bases de données et les systèmes internes suivants : Base de données des évaluations de la santé des voyageurs (BDESV) et Système de soutien stratégique opérationnel pour la santé des voyageurs (SSSOSV).
+
+**Catégorie de personnes :** Le public, les employés de l'ASPC (p. ex., les agents de quarantaine), les parents, les tuteurs ou les représentants des voyageurs qui ont besoin d'aide, les employés des partenaires du Programme de mise en quarantaine présents pendant l'évaluation de la santé d'un voyageur (p. ex., agent de l'ASFC, agent d'hygiène du milieu).
+
+**But :** Les renseignements personnels sont recueillis au moment de l'évaluation des voyageurs malades visant à dépister des maladies transmissibles aux points d'entrée et de sortie du territoire; ils servent à mettre en œuvre des mesures de santé publique lorsque des maladies transmissibles graves sont dépistées et à appliquer la *Loi sur la mise en quarantaine*. Les renseignements personnels sont recueillis conformément aux articles 15, 38, 51 et 55 de la *Loi sur la mise en quarantaine*.
+
+**Usages compatibles :** Les renseignements peuvent être utilisés, communiqués, vérifiés ou évalués aux fins suivantes : sûreté et sécurité, dépistage des contacts et maintien de la liste des restrictions des voyages pour des raisons de santé publique. Les renseignements personnels peuvent être transmis au point focal national du Règlement sanitaire international de l'ASPC; à l'Agence des services frontaliers du Canada (ASFC – PPU 018); aux Centers for Disease Control and Prevention (CDC) des États-Unis; à la Customs and Border Protection (CBP) des États-Unis; aux organismes de santé publique municipaux, d'État, provinciaux ou territoriaux; aux hôpitaux; au personnel médical; aux organismes d'application de la loi; et aux exploitants de moyens de transport. Les renseignements personnels sur les cadavres peuvent être communiqués aux salons funéraires et à d'autres institutions du secteur privé.
+
+**Normes de conservation et de destruction :** Deux ans après la dernière action administrative.
+
+**No ADD :** 2015/022
+
+**Renvoi à la catégorie de documents no :** ASPC 008 276, ASPC 010 0045
+
+**Enregistrement (SCT) :** 009931
+
+**Numéro du fichier :** ASPC PPU 071
+
+**Les mesures frontalières en cas de pandémie**
+
+**Description :** Cette banque décrit les renseignements personnels liés à la *Loi sur la mise en quarantaine* et à toute loi connexe administrée et appliquée par l'Agence de la santé publique du Canada (ASPC), y compris les ordonnances d'urgence rendues en vertu de l'article 58 de cette loi. Les mesures frontalières prises en cas de pandémie en vertu des ordonnances d'urgence visaient à prévenir l'importation, la propagation et l'exportation de la COVID-19 au Canada en soumettant les voyageurs à destination du Canada à un dépistage, à des tests et/ou à une évaluation de la COVID-19 aux points d'entrée canadiens. L'ASPC a également géré les installations de quarantaine désignées (IQD) lorsque celles-ci étaient nécessaires pour les voyageurs entrant au Canada. L'ASPC a collaboré avec des partenaires, notamment l'Agence des services frontaliers du Canada (ASFC), afin d'assurer la coordination des notifications et des interventions en cas d'événements sanitaires aux frontières. Les renseignements personnels recueillis pouvaient comprendre le nom, le sexe, les coordonnées, le statut de citoyenneté, la date de naissance, la date du décès, des renseignements médicaux, d'autres numéros d'identification (p. ex. numéro de document de voyage), le lieu de naissance, le lieu du décès, la signature et les détails du voyage (p. ex. pays visités, itinéraire) ainsi que des renseignements sur le séjour du voyageur dans une FQD et la  sortie de celle-ci.
+
+**Remarque :** Anciennement appelé : Rapports sur les maladies des voyageurs - PHAC PPU 071.
+
+**Catégorie de personnes :**Les voyageurs qui entrent au Canada ou qui en sortent, le personnel et/ou les sous-traitants de l'Agence de la santé publique du Canada (p. ex. les agents de quarantaine, les agents de contrôle, etc.), les parents, les tuteurs ou les représentants des voyageurs qui ont besoin d'aide, ainsi que les employés ou les sous-traitants des partenaires chargés des mesures frontalières qui sont présents lors de l'évaluation de la santé d'un voyageur (p. ex. les agents de l'ASFC, les agents d'hygiène du milieu).
+
+**But :**L'ASPC a recueilli des renseignements personnels sur les voyageurs pendant que les ordonnances d'urgence étaient en vigueur. Ces renseignements ont été recueillis à des fins de santé publique, notamment pour prévenir ou réduire au minimum l'introduction ou la propagation de la COVID-19, ainsi que pour l'administration et l'application de la *Loi sur la quarantaine* et des lois connexes par l'ASPC.
+
+**Usages compatibles :**Les renseignements personnels peuvent être utilisés et/ou divulgués aux fins suivantes : pour le suivi en matière de santé publique (y compris la divulgation à cette fin à la province ou au territoire où les voyageurs sont retournés et/ou peuvent être en quarantaine/isolement) ; pour surveiller et vérifier le respect de la Loi sur la quarantaine et des ordonnances d'urgence prises en vertu de celle-ci (y compris la divulgation à cette fin aux forces de l'ordre, en particulier aux agents de la paix) ; pour aider à déterminer l'admissibilité à de nouvelles mesures frontalières et pour appuyer une intervention de santé publique en cas de maladies transmissibles ; aux entrepreneurs chargés d'effectuer des travaux liés à l'administration et à l'application de la *Loi sur la quarantaine* et de toute loi connexe par l'ASPC ; pour appuyer des procédures judiciaires lorsque les renseignements personnels d'un voyageur et/ou les renseignements personnels actuels ou antérieurs d'employés fédéraux et d'entrepreneurs (y compris leurs coordonnées personnelles) sont nécessaires ; à d'autres institutions gouvernementales ainsi qu'aux gouvernements provinciaux, territoriaux et municipaux ou aux organisations internationales de santé et/ou à leurs institutions afin de prévenir ou de minimiser l'introduction ou la propagation de maladies transmissibles ; à un exploitant de moyen de transport afin de prévenir ou de minimiser l'introduction ou la propagation de maladies transmissibles (par exemple, pour localiser un voyageur qui présente un risque pour la santé publique, pour faciliter la recherche des contacts).
+
+**Normes de conservation et de destruction :**Les dossiers sont conservés pendant au moins deux ans après leur dernière utilisation administrative, conformément à l'autorisation de destruction 2015/022.
+
+**No ADD :** 2015/022
+
+**Renvoi au document no :**ASPC 008 276, ASPC 010 0045
+
+**Enregistrement (SCT) :** 20220116
+
+**Numéro du fichier :** ASPC PPU 074
+
+**Sécurité des milieux – Transport de passagers**
+
+**Description :** Comprend des rapports d'inspection en ce qui a trait aux risques éventuels pour la santé publique que peuvent poser la nourriture, l'eau et les conditions d'hygiène des navires de croisière, des traversiers pour passagers et d'autres moyens de transport de passagers; avant-projets de règlements, politiques, documents d'orientation en matière de conformité volontaire et programmes de conformité en matière de sécurité environnementale, destinés à l'industrie, en vue de protéger la population; recherches et instruments de politique en ce qui a trait à l'utilisation d'organismes indicateurs dans les réserves d'eau potable, publications sur la sécurité environnementale et l'hygiène.
+
+**Types de documents :** Rapports d'inspection de véhicules de transport public et de leurs services auxiliaires, résultats de tests de laboratoire, évaluations des risques, documents de surveillance et de contrôle, rapports annuels d'activités du secteur du transport, avant-projets de lois et cadres de réglementation, rapports d'enquêtes épidémiologiques, propositions de recherches, analyses et rapports, évaluation des risques pour la santé, recherches sur l'opinion publique, correspondance, questionnaires, notes d'information, présentations, contrats avec des collaborateurs, dossiers de recherche de données publiées ou non, conseils stratégiques en matière de politiques, fiches de renseignements, rapports de comité et procès-verbaux, documents éducatifs et de sensibilisation.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 010 0053
+
+**Programme du public voyageur**
+
+**Description :** Ce fichier décrit l'information liée aux inspections en matière de santé publique et aux interventions lors d'épidémies et à d'autres événements de santé publique. L'Agence de la santé publique du Canada gère un programme d'inspection des moyens de transport sous réglementation fédérale et de leurs services auxiliaires afin d'atténuer les risques pour la santé des personnes qui se rendent au Canada ou à l'étranger ou voyagent à l'intérieur du Canada en supervisant la fourniture d'aliments salubres et d'eau potable, ainsi que le maintien de niveaux d'assainissement appropriés sur les moyens de transport de passagers. Les activités sont exercées sur les moyens de transport de passagers intérieurs et internationaux tels que les navires de croisière, les traversiers, les trains et les avions. Les renseignements personnels peuvent être reçus du public ou d'un membre de l'équipage d'un moyen de transport qui signale un événement de santé publique, ou lors du suivi d'une inspection ou d'une activité d'intervention à partir d'entretiens avec les passagers et de questionnaires. Les renseignements personnels peuvent comprendre le nom, l'âge, le sexe, les coordonnées, les renseignements sur les voyages, les renseignements médicaux, les symptômes et les résultats de tests médicaux liés à des éclosions de maladies transmissibles, ou les réponses à des questionnaires et/ou à des entretiens avec des personnes susceptibles d'avoir contracté ou qui risquent de contracter une maladie d'origine alimentaire ou hydrique à bord d'un moyen de transport de passagers.
+
+**Catégorie de personnes :** Passagers et équipages de moyens de transport sous réglementation fédérale dont les renseignements personnels ont été recueillis lors d'inspections de santé publique, d'interventions lors d'épidémies et d'autres événements de santé publique.
+
+**But :** Les renseignements personnels peuvent être utilisés lors de tout suivi d'une épidémie ou d'un autre événement de santé publique qui survient dans les moyens de transport de passagers pour déterminer la source de la maladie, éclairer toute intervention requise et recommander des mesures de contrôle des infections et de prévention. Les renseignements personnels sont recueillis en vertu de la *Loi sur le ministère de la Santé*, de la *Loi sur la mise en quarantaine* et de la *Loi sur les aliments et drogues*
+
+**Usages compatibles :** Les renseignements peuvent être communiqués par le Programme du public voyageur à d'autres programmes au sein de l'Agence de la santé publique du Canada pour faciliter les interventions en cas d'épidémie ou d'autres événements de santé publique à bord des moyens de transport. En vertu du paragraphe 40.2(3) de la *Loi sur la mise en quarantaine*, les renseignements personnels peuvent être communiqués à une autorité de santé publique provinciale afin de prévenir la propagation d'une maladie transmissible
+
+**Normes de conservation et de destruction :** Deux ans après la dernière action administrative.
+
+**No ADD :** 2015/022
+
+**Renvoi à la catégorie de documents no :** ASPC 010 0053
+
+**Enregistrement (SCT) :** 004065
+
+**Numéro du fichier :** ASPC PPU 072
+
+**Mesures et interventions d'urgence**
+
+Ce programme est responsable du renforcement de la capacité du Canada à prévenir et à atténuer les événements et les urgences de santé publique ainsi qu'à s'y préparer et à y répondre. Les interventions comprennent les suivantes : la préparation aux situations d'urgence et la planification d'urgence; la formation et les exercices; une connaissance constante de la situation et une évaluation continue des risques; le maintien d'un Centre d'opérations du portefeuille de la Santé (point central de coordination en ce qui a trait aux interventions en cas d'urgence en santé publique au Canada); l'appui de l'organisme à l'entraide entre les provinces et les territoires; et le déploiement d'une capacité de pointe, d'une expertise technique et de laboratoires mobiles. Le programme permet au Canada de s'acquitter de ses obligations internationales en matière d'événements de santé publique, tels que les éclosions de maladies infectieuses, les pandémies et le bioterrorisme. Il veille également à la coordination des interventions visant à s'attaquer aux répercussions sur la santé publique des catastrophes naturelles ou d'origine humaine.
+
+**Gestion des situations d'urgence**
+
+**Description :** Comprend des fichiers relatifs à la coordination de la gestion liée à la gestion des situations d'urgence pour anticiper les complications en matière de santé publique qui peuvent découler d'épidémies, de catastrophes naturelles, de situations d'urgence d'origine humaine, de rassemblements de masse et d'événements spéciaux (p. ex., les événements d'importance nationale) au Canada et pour se préparer à y faire face. Les fichiers peuvent contenir des renseignements relatifs au partenariat de l'Agence avec Santé Canada, avec d'autres ministères fédéraux, avec les provinces et les territoires, avec les organisations internationales et avec le secteur bénévole. De plus, des fichiers particuliers peuvent aussi contenir des renseignements relatifs à l'amélioration de l'état de préparation aux situations d'urgence en cas de déversements de produits chimiques, d'utilisation d'armes biologiques ou radionucléaires et d'épidémies comme la grippe aviaire. En outre, les fichiers peuvent inclure des documents de renseignements relatifs aux menaces pour la santé et la sécurité des Canadiens obtenus dans le cadre d'analyses et de mesures de gestion de risque pour aider à la collaboration avec d'autres ministères fédéraux, des gouvernements provinciaux et territoriaux ainsi que les gouvernements étrangers pour l'état de préparation et l'intervention en cas d'urgence.
+
+**Types de documents :** Plans de gestion des urgences, rapports, matériel d'exercice et de formation, ententes, comptes rendus de réunions, procédures, documents statistiques, protocoles d'accord, mandats, ordres du jour, procès-verbaux, avis, comptes rendus, documents de recommandations et de leçons tirées, présentations, notes de breffage, documents de discussion, documents de politique, documents de vérification et d'évaluation, correspondance, fiches documentaires, demandes de soutien, ententes d'échange de renseignements, etc.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 010 0024
+
+**Planification d'urgence et personnel d'intervention dans les transports**
+
+**Description :** Ce fichier banque décrit l'information associée aux qualifications et à la formation du personnel procédant aux inspections, et intervenant en cas d'urgences ou de problèmes de santé publique qui surviennent dans les transports. Les renseignements personnels peuvent inclure le nom, les coordonnées au domicile et au travail, les renseignements biographiques, les renseignements sur l'éducation, le numéro d'identification de l'employé, le statut d'emploi, la personne à appeler en cas d'urgence, les qualifications, le titre, l'immunisation et les données médicales.
+
+**Remarque :** Les responsabilités en matière de gestion des urgences et les fichiers du programme ont été transférés de Santé Canada à l'Agence de la santé publique du Canada à compter de l'exercice 2013-2014.
+
+**Catégorie de personnes :** Les employés actuels et passés de Santé Canada procédant à des inspections et intervenant en cas d'urgences et d'autres problèmes de santé publique.
+
+**But :** Les renseignements personnels sont utilisés pour veiller à ce que le personnel d'intervention en cas d'urgence dispose de l'immunisation nécessaire, d'une formation spécialisée, d'un certificat de santé et d'une habilitation de sécurité et de la délégation de pouvoir nécessaires pour intervenir en cas d'épidémie ou de toute autre situation d'urgence. Les renseignements personnels sont recueillis conformément à la *Loi sur le ministère de la Santé* et à la *Loi sur la mise en quarantaine*.
+
+**Usages compatibles :** Les renseignements peuvent être utilisés ou communiqués, aux fins suivantes : dans un rapport destiné à la haute direction, un audit ou une évaluation, pour dresser un inventaire des employés qualifiés pour mener des inspections, et pour intervenir en cas d'urgence ou de problèmes de santé publique survenant dans les transports. Dans les situations d'urgence, il se peut que les renseignements personnels soient transmis à d'autres institutions fédérales, aux gouvernements provinciaux ou territoriaux, ou à d'autres directions générales au sein de Santé Canada à des fins d'intervention.
+
+**Normes de conservation et de destruction :** Deux ans après la dernière action administrative.
+
+**No ADD** : 2015/022
+
+**Renvoi à la catégorie de documents no :** ASPC 010 0024
+
+**Enregistrement (SCT)** : 20170109
+
+**Numéro du fichier :** ASPC PPU 305
+
+**Rapports et évaluation sur les blessures et accidents au Canada**
+
+**Description :** Ce fichier contient le numéro de dossier, le nom de l'établissement hospitalier, l'âge de la victime, la date d'admission, le nombre de journées d'hospitalisation, la nature et la cause de la blessure, le lieu de l'accident, et le produit concerné.
+
+**Catégorie de personnes :** Grand public.
+
+**But :** Ce fichier a été créé pour faciliter l'établissement des priorités. Il est utilisé pour la recherche de données internes et externes et pour des publications régulières.
+
+**Usages compatibles :** Aucun
+
+**Normes de conservation et de destruction :** Deux ans après la dernière action administrative.
+
+**No ADD :** 2015/022
+
+**Renvoi à la catégorie de documents no :** ASPC 010 0024
+
+**Enregistrement (SCT) :** 20170107
+
+**Numéro du fichier :** ASPC PPU 307
+
+**Opérations d'urgence et intervention**
+
+**Description :** Les fichiers peuvent comprendre des informations relatives à la Réserve nationale stratégique d'urgence (RNSU) de l'Agence de la santé publique du Canada, qui maintient la capacité d'intensification par la distribution d'équipement et de fournitures médicales en certains points stratégiques du pays. Les fichiers comprennent également des informations relatives à la fourniture d'une connaissance de l'évolution des situations qui présentent un risque pour la santé publique ainsi que des fichiers relatifs aux Centres des opérations du portefeuille de la Santé (COPS) en temps d'urgence nationale ou internationale liée à la santé qui facilitent la mise en œuvre d'une intervention coordonnée et efficace lors des événements de santé publique. De plus, les fichiers peuvent comprendre des informations relatives aux activités systématiques de dépistage, de suivi, d'alerte et de connaissance de la situation selon une approche tous risques axée sur les événements/situations d'urgence comportant de possibles incidences courantes sur la santé publique. Ces fichiers sont liés au soutien fourni aux provinces et aux territoires (PT) en réponse à des catastrophes naturelles ou d'origine humaine et peuvent également comprendre des fichiers fournis à titre d'appui aux PT dans le cadre de l'assistance mutuelle dans le domaine de la capacité d'intensification pour le partage des professionnels de la santé pendant les urgences. Les fichiers peuvent comprendre également des informations relatives à la réserve nationale d'antiviraux, mise sur pied pour faire face à une pandémie d'influenza.
+
+**Types de documents :** Protocoles d'entente, contrats, relevés d'inventaire, protocoles, notes de service, documents statistiques, publications universitaires, protocoles d'accord, mandats, ordres du jour, procès-verbaux de réunions, avis, comptes rendus, documents de recommandations, documents d'information et de discussion, politiques, documents de politique, discours, documents de vérification et d'évaluation, correspondance, documents réglementaires et de licence d'établissement de médicaments, fiches d'information, rapports, inventaires, tableurs, renseignements sur les entrepôts, documents de planification, documents sur la préparation aux urgences, rapports de surveillance, ententes, procédures, échange de renseignements, renseignements liés à la surveillance des médias concernant les éclosions de maladies infectieuses, etc.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 010 0048
+
+**Opérations d'intervention en toutes circonstances (OITC)**
+
+**Description :** Ce fichier décrit l'information relative aux employés du portefeuille de la Santé qui peuvent être sélectionnés pour intervenir en cas de situations d'urgence ou d'événements de santé publique. Les renseignements personnels peuvent comprendre le nom, les renseignements biographiques, les renseignements sur les études, les renseignements médicaux, l'expérience de travail et celle des interventions d'urgence, la disponibilité, les questions et réponses liées à la sûreté, le statut du passeport, les informations relatives au statut de l'employé, l'information sur la formation, les compétences linguistiques, la situation de l'emploi, la personne à joindre en cas d'urgence au travail, les qualifications, les titres professionnels et la signature.
+
+**Catégorie de personnes :** Employés du portefeuille de la Santé qui présentent une demande pour participer aux activités d'intervention en santé publique.
+
+**But :** Les renseignements sont utilisés pour établir un inventaire des employés pour réagir aux urgences et aux événements de santé publique et sélectionner des personnes en vue de leur participation aux mobilisations de terrain et au travail du Centre des opérations d'urgence de l'Agence de la santé publique du Canada. Les renseignements sont recueillis en vertu de l'article 3 de la *Loi sur l'Agence de la santé publique du Canada* et de l'article 4 de la *Loi sur le ministère de la Santé*.
+
+**Usages compatibles :** Les renseignements peuvent être consultés, utilisés ou communiqués aux fins suivantes : vérification ou évaluation, présentation de rapports à la haute direction, statistiques et communication à différents secteurs de programme internes. Une quantité limitée de renseignements concernant le déploiement d'une personne peuvent être communiqués à Affaires mondiales Canada, à Citoyenneté et Immigration Canada (voir Affaires consulaires – aide aux Canadiens (MAECD PPU 010)). Les renseignements peuvent être communiqués à des organismes ou à des institutions internationales (par ex., l'Organisation mondiale de la santé, le Réseau mondial d'alerte et d'action en cas d'épidémie, l'Organisation panaméricaine de la santé ou les Nations Unies), aux gouvernements provinciaux et territoriaux ou aux administrations ou institutions municipales ou régionales en réponse à des mobilisations et à des demandes d'aide.
+
+**Normes de conservation et de destruction :** Deux ans après la dernière action administrative.
+
+**No ADD :** 2015/022
+
+**Renvoi aux catégories de document no :** ASPC 010 0021, ASPC 010 0048
+
+**Enregistrement (SCT) :** 20160012
+
+**Numéro du fichier :** ASPC PPE 305
+
+**Règlement sanitaire international (RSI)**
+
+**Description :** Comprend les fichiers relatifs à la mise en œuvre du RSI et aux activités connexes. Les fichiers peuvent aussi contenir des renseignements généraux relatifs au RSI qui est un instrument international juridiquement contraignant pour le Canada et pour les autres États membres de l'Organisation mondiale de la santé.
+
+**Types de documents :** Documents de planification, documents sur les préparatifs d'urgence, documents statistiques (épidémiologiques), publications universitaires, contrats, protocoles d'accord, mandats, ordres du jour, procès-verbaux de réunion, avis, comptes rendus, documents de recommandations, documents d'information et de discussion, documents de politique, discours, documents de vérification et d'évaluation, correspondance, fiches d'information, rapports, etc.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 010 0046
+
+**Règlement sanitaire international - Notifications inter-juridictionnelles**
+
+**Description :** Ce fichier décrit l'information relative au travail accompli par l'Agence de la santé publique du Canada (ASPC) pour aider à prévenir et à détecter les menaces pour la santé publique et à y réagir rapidement. L'ASPC est désignée comme le point focal national (PFN) du Règlement sanitaire international (RSI) pour le Canada. L'ASPC facilite la coordination et la collaboration pour la mise en œuvre du RSI avec les provinces et les territoires ainsi qu'avec l'ensemble du gouvernement fédéral, et sert de plaque tournante pour toutes les communications liées au RSI avec l'Organisation panaméricaine de la santé (OPS), l'Organisation mondiale de la santé (OMS) et les PFN du RSI dans d'autres pays. L'ASPC facilite le partage d'informations bilatérales pertinentes et opportunes sur les événements de santé publique aux fins du suivi critique de la santé publique, conformément au RSI et à la législation canadienne, notamment la *Loi sur le ministère de la Santé*, la *Loi sur l'Agence de la santé publique du Canada* et la *Loi sur la quarantaine*.
+
+Les notifications inter-juridictionnelles (NIJ) sont des communications entre juridictions concernant des cas et des contacts spécifiques de maladies transmissibles présentant un intérêt pour la santé publique. Le partage d'informations en vertu de l'article 44 du RSI (Collaboration et assistance) est coordonné et mis en œuvre par les équipes techniques des NIJ. On parle de NJI lorsque le partage de l'information comporte une composante internationale, par exemple :
+
+* lorsqu'un autre pays informe l'ASPC qu'un Canadien a été exposé à une maladie transmissible dans un autre pays ou qu'on lui a diagnostiqué une telle maladie; ou
+* lorsqu'une province ou un territoire canadien informe l'ASPC d'un résident qui a reçu un diagnostic de maladie transmissible ou qui a été exposé à une telle maladie lors d'un voyage dans un autre pays, pour lequel des mesures de santé publique peuvent être indiquées dans ce pays, ou qui a été contaminé pendant son transit.
+
+Les équipes du NIJ recueillent, utilisent, divulguent et éliminent régulièrement des renseignements personnels dans le cadre de leur soutien à la gestion d'un événement de santé publique et dans les situations où des cas ou des contacts (personnes exposées) ont voyagé à l'étranger dans un délai pertinent pour la gestion d'une maladie. Cela concerne les Canadiens ainsi que les citoyens d'autres pays qui se trouvent au Canada ou qui ont récemment voyagé au Canada. La portée de cette activité implique le partage de l'information avec les autorités de santé publique (provinces et territoires, ainsi que d'autres pays, et les exploitants de moyens de transport (c.-à-d. les compagnies aériennes, etc.)) qui peuvent prendre les mesures de santé publique appropriées (y compris la mise en quarantaine, la recherche des contacts, le suivi des cas, etc.) avec cette information. Les informations personnelles recueillies peuvent inclure le nom, les coordonnées, le statut de citoyenneté, le pays de résidence, la date de naissance, le sexe, le résultat du test pour la maladie en question, la date d'apparition et d'évaluation des symptômes, les détails du voyage personnel et le numéro de passeport.
+
+**Catégorie de personnes :** Grand public.
+
+**But :** Les renseignements personnels sont utilisés pour aider le Canada à respecter ses obligations en vertu du Règlement sanitaire international (RSI) (2005) afin d'informer les autres pays, provinces et territoires, ainsi que les exploitants de moyens de transport, des cas de certaines maladies transmissibles et de l'exposition à celles-ci, dans le but de réduire au minimum la propagation des maladies. Cela comprend le partage d'informations pour la recherche de contacts, la gestion de la santé publique, le suivi des cas et/ou la connaissance de la situation. Les renseignements personnels sont recueillis en vertu de l'article 3 de la *Loi sur l'Agence de la santé publique du Canada* et des paragraphes 4(1) et 4(2) de la *Loi sur le ministère de la Santé*.
+
+**Usages compatibles :** Les renseignements peuvent être utilisés ou communiqués dans les circonstances suivantes :
+
+* lorsqu'un autre pays informe l'ASPC qu'un Canadien a été exposé à une certaine maladie transmissible dans un autre pays ou a reçu un diagnostic à cet égard;
+* lorsqu'une province ou un territoire canadien informe l'ASPC d'un résident qui a contracté ou a été exposé au COVID-19 lors d'un voyage dans un autre pays, pour lequel des mesures de santé publique peuvent être indiquées dans ce pays, ou qui a été contaminé pendant le transit; ou
+* pour aider à contrôler la propagation continue de la maladie et pour fournir de l'aide aux personnes qui sont ou qui pourraient être infectées, ce qui est directement lié à l'objectif pour lequel les renseignements personnels ont été recueillis afin de minimiser la propagation de la maladie.
+
+Par conséquent, les renseignements personnels susmentionnés peuvent être communiqués aux partenaires provinciaux et aux coordonnateurs nationaux du RSI par l'entremise du RSI, conformément à l'alinéa 8(2)a) de la *Loi sur la protection des renseignements personnels*, puisque le but de la divulgation des renseignements personnels est le même que celui pour lequel ils ont été recueillis.
+
+**Normes de conservation et d'élimination :** Deux ans après la dernière mesure administrative.
+
+**No ADD :** 2015/022
+
+**Renvoi au document no :** ASPC 010 0046
+
+**Enregistrement (SCT) :** 20210079
+
+**Numéro de fichier :** ASPC PPU 310
+
+**Laboratoires mobiles**
+
+**Description :** Comprend les fichiers relatifs à la création d'équipes d'intervention sanitaire microbiologique d'urgence en réponse au bioterrorisme ou aux éclosions de maladies infectieuses au Canada et dans le monde.
+
+**Types de documents :** Documents statistiques, publications universitaires, contrats, protocoles d'accord, mandats, ordres du jour, procès-verbaux de réunion, avis, comptes rendus, documents de recommandations, documents d'information et de discussion, documents de politique, discours, documents de vérification et d'évaluation, correspondance, fiches d'information, rapports, etc.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 010 0050
+
+### Prévention et contrôle des maladies infectieuses
+
+Protéger les Canadiens et les Canadiennes des maladies infectieuses en prévoyant, en détectant, en évaluant et en traitant les éclosions et les nouvelles menaces; contribuer à la prévention, au contrôle et à la réduction de la propagation des maladies infectieuses chez les Canadiens et les Canadiennes.
+
+#### Contrôle des maladies transmissibles et des infections
+
+L'objectif de ce programme est de protéger les Canadiens et les Canadiennes de la propagation des maladies infectieuses dans les communautés et les milieux de santé. En réalisant ses objectifs, ce programme fait preuve d'un leadership national en matière de promotion de la santé et de prévention des maladies infectieuses. Le programme collabore avec des intervenants nationaux et internationaux pour partager ses connaissances, ses outils et ses ressources afin de soutenir les efforts de première ligne en santé publique, y compris les interventions communautaires ciblées, pour prévenir, contrôler et réduire les infections associées aux soins de santé et aux communautés.
+
+**Secrétariat exécutif de l'Entente multilatérale relative au partage d'information (EMPI)**
+
+**Description :** Comprend des fichiers relatifs aux activités du Secrétariat exécutif qui appuient la mise en œuvre de l'Entente multilatérale relative au partage d'information.
+
+**Remarques :** Le Secrétariat exécutif de l'EMPI était connu sous le nom de Secrétariat de l'EMPI auparavant.
+
+**Types de documents :** Mandats, lignes directrices, politiques, rapports et cadres.
+
+**Numéro du fichier :** ASPC 008 508
+
+**Surveillance et évaluation des risques des maladies infectieuses et transmissibles**
+
+**Description :** Comprend des fichiers relatifs à la surveillance, à la recherche et à la diffusion de renseignements exacts au sujet de l'incidence des maladies et de l'exposition aux maladies infectieuses et transmissibles, dont la modélisation de maladies infectieuses, afin de permettre des interventions en santé publique et d'éclairer l'élaboration de programmes et de politiques visant à prévenir et à contrôler les maladies infectieuses et transmissibles au Canada. Les fichiers peuvent inclure des renseignements relatifs au VIH, à la surveillance des infections transmises sexuellement et de la tuberculose, aux blessures et aux infections d'origine transfusionnelle, à la transplantation de tissus et d'organes, à l'hépatite (B et C), et au Système canadien de surveillance des maladies à déclaration obligatoire.
+
+**Types de documents :** Documents statistiques, publications universitaires, sondages, contrats, protocoles d'accord, mandats, ordres du jour; procès-verbaux, avis, comptes rendus, liste des membres d'un groupe consultatif externe expert en matière de surveillance, documents de recommandations, documents d'information et de discussion, curriculum vitæ, demandes de remboursement de frais de voyage, documents stratégiques, discours, documents de vérification et d'évaluation, correspondance, fiches documentaires, rapports divers, information recueillie auprès de médecins, d'hôpitaux et de provinces, et rapports de recherche scientifique, analyses de données, publications, sites Web interactifs (par ex., maladies à déclaration obligatoire en direct), affiches et présentations, demandes de soumission pour séquençage, documents de planification et de communication, information sur des recherches effectuées en collaboration, rapports de réseaux et de collaborations, cadres, lignes directrices, tableaux, rapports de surveillance, normes, matériel de formation, contrats, rapports de décision du comité, procès-verbaux de réunion, résultats de recherche, présentations au Conseil du Trésor, conditions générales, protocoles d'entente, propositions, procédures normalisées, outils de mesure du rendement, rapports et critères d'évaluation.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 518
+
+**Prévention et contrôle de la tuberculose (TB)**
+
+**Description :** Contient des fichiers relatifs à la surveillance, la recherche et la prestation de renseignements exacts relatifs aux renseignements et fichiers sur les maladies infectieuses qui sont utilisés par l'ASPC et les intervenants afin d'éclairer la prise de décision, les politiques et pratiques pour faire face à la pharmacorésistance de la TB et à l'infection par son agent et pour la prévention et la gestion des risques et déterminants de la santé associés à la TB.
+
+**Types de documents :** Politiques, cadres de travail, lignes directrices, tableaux, rapports de surveillance, normes, matériel pédagogique, contrats, rapports de décision de comité, comptes rendus de réunion, résultats de recherche, protocoles d'entente, protocoles d'accord, propositions, procédures normalisées, outils de mesure du rendement, critères/rapports d'évaluation.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 519
+
+**Programmes relatifs aux infections transmissibles sexuellement et par le sang**
+
+**Description :** Contient des fichiers relatifs à la surveillance, la recherche et la diffusion de renseignements exacts concernant les données et fichiers sur les maladies infectieuses qui sont utilisés par l'ASPC et les intervenants afin d'éclairer la prise de décision, les politiques et pratiques de prévention et de gestion des risques et des déterminants de santé associés aux ITSS, y compris le VIH, les hépatites B et C, la chlamydia, la gonorrhée et la syphilis.
+
+**Types de documents :** Lignes directrices sur la prévention et le contrôle de l'infection; cadres stratégiques pour l'élaboration/la mise en œuvre de programmes (par ex., présentations au Conseil du Trésor; conditions générales; protocoles d'entente, protocoles d'accord; demandes de propositions; contrats; procédures normalisées; outils de mesure du rendement; critères/rapports d'évaluation, etc.) et documents de vérification et d'évaluation.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 405
+
+**Santé sexuelle et infections transmissibles sexuellement (ITS)**
+
+**Description :** Contient des fichiers relatifs à la surveillance, la recherche et la diffusion de renseignements exacts concernant les données et fichiers sur les maladies infectieuses qui sont utilisés par l'ASPC et les intervenants afin d'éclairer la prise de décisions, les politiques et pratiques de promotion de la santé sexuelle et de prévention et de gestion des risques et déterminants de santé associés aux infections transmissibles sexuellement (y compris la chlamydia, l'herpès génital, la gonorrhée et la syphilis).
+
+**Types de documents :** Politiques, cadres de travail, lignes directrices, tableaux, rapports de surveillance, normes, matériel pédagogique, contrats, rapports de décision de comité, comptes rendus de réunion, résultats de recherche; protocoles d'entente, protocoles d'accord, propositions, procédures normalisées, outils de mesure du rendement, critères/rapports d'évaluation.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 515
+
+**Maladies transmissibles**
+
+**Description :** Comprend des fichiers relatifs à l'examen, la recherche et la diffusion de renseignements exacts sur la surveillance et la recherche concernant l'épidémiologie des maladies infectieuses afin d'identifier et de chiffrer les risques, d'évaluer les stratégies de prévention proposées et les activités courantes de surveillance, de prévention et de contrôle. Les fichiers peuvent aussi comprendre de l'information sur la coordination d'un réseau regroupant des experts scientifiques, des responsables de la santé publique et des comités consultatifs et groupes de travail pour élaborer des lignes directrices et des recommandations sur des sujets choisis et pour étudier les maladies d'importance provinciale et/ou nationale. Les fichiers peuvent aussi comprendre de l'information sur la Division des pathogènes à diffusion hématogène qui s'occupe des questions touchant la sûreté du sang et la xénotransplantation relativement à la transmission des maladies infectieuses, chroniques et dégénératives.
+
+**Types de documents :** Rapports, rapports de décision, documents d'orientation, notes de service, fichiers de recherche scientifique, analyses de données, publications, affiches et présentations relatives à l'immunisation, aux infections nosocomiales et professionnelles, aux maladies respiratoires, aux pathogènes à diffusion hématogène, à la xénotransplantation et à la sûreté du sang.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 015 0007
+
+**Infections respiratoires**
+
+**Description :** Comprend des fichiers relatifs à l'atténuation ou l'élimination de l'incidence négative des infections respiratoires émergentes et réémergentes. Les fichiers peuvent comprendre de l'information sur l'épidémiologie, l'élaboration de lignes directrices et de protocoles ainsi que la coordination des interventions nationales en cas d'éclosion d'infections respiratoires.
+
+**Types de documents :** Documents statistiques, publications universitaires, contrats, protocoles d'accord, mandats, ordres du jour, procès-verbaux de réunion, avis, comptes rendus, documents de recommandations, documents d'information et de discussion, discours, documents de vérification et d'évaluation, correspondance, fiches d'information, chapitres et rapports, etc., relatifs à la surveillance, fichiers de recherche scientifique, analyses de données, publications, affiches et présentations, demandes de soumission pour les fichiers de rapport, renseignements de recherche collaborative et fichiers de réseaux et de collaboration.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 010 0040
+
+**Infections associées à des soins de santé**
+
+**Description :** Contient des fichiers relatifs à la surveillance des infections associées à des soins de santé et à certains organismes résistants aux antimicrobiens (ORA) détectés par des hôpitaux de soins actifs sentinelles participants au Canada et à la fourniture de renseignements exacts sur la surveillance des infections associées à des soins de santé et des ORA par l'entremise du Programme canadien de surveillance des infections nosocomiales (PCSIN) tel qu'indiqué ci-dessous.
+
+**Types de documents :** Rapports de surveillance, résumés graphiques, affiches et présentations relatives aux rapports de surveillance, documents statistiques et analyse des données, publications et manuscrits universitaires, contrats, protocoles d'accord, mandats, ordres du jour, procès-verbaux de réunion/rapports de décision, avis, documents d'information et de discussion, documents de politique, discours, documents de vérification et d'évaluation, correspondance, fiches d'information, etc.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 010 0041
+
+**Surveillance de la sécurité du sang**
+
+**Description :** Contient des fichiers relatifs à l'examen, la recherche et la diffusion de renseignements exacts concernant la surveillance des erreurs de transfusion et des effets indésirables associés aux transfusions ou aux transplantations, aux pathogènes émergents à diffusion hématogène et aux populations à risque, aux évaluations statistiques et de risque, au développement des capacités de santé publique et d'intervention en cas d'éclosion.
+
+**Types de documents :** Politiques, cadres de travail, lignes directrices, tableaux, rapports de surveillance, normes, matériel pédagogique, contrats, rapports de décision de comité, comptes rendus de réunion, résultats de recherche; présentations au Conseil du Trésor, conditions générales, protocoles d'entente, protocoles d'accord, propositions, procédures normalisées, outils de mesure du rendement, critères/rapports d'évaluation.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 401
+
+**Programme de prévention, de soutien et de recherche relatif à l'hépatite C – associé à la communauté**
+
+**Description :** Contient des fichiers relatifs à l'information sur cette maladie infectieuse et des fichiers qui sont utilisés par l'ASPC et les intervenants pour éclairer la prise de décisions, les politiques et les pratiques de prévention et de gestion des risques et déterminants de santé associés à l'hépatite C.
+
+**Types de documents :** Politiques, cadres de travail, normes, matériel pédagogique, demandes de propositions, contrats, rapports de décision de comité, comptes rendus de réunion, résultats de recherche; présentations au Conseil du Trésor, protocoles d'entente, protocoles d'accord, propositions, procédures normalisées, outils de mesure du rendement, documents de vérification et d'évaluation, critères/rapports d'évaluation.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 507
+
+**Infections d'origine communautaire**
+
+**Description :** Contient des fichiers relatifs aux infections transmises sexuellement et hématogènes (ITSH), par exemple le VIH, la chlamydia, l'herpès génital, la gonorrhée (GC), la syphilis, le lymphogranulome vénérien (LGV), le papillomavirus (HPV), l'hépatite C et la tuberculose; ainsi qu'à la promotion de la santé sexuelle, la prévention et la détection des ITSH, par la tuberculose et la GC pharmacorésistantes et les résultats de recherche.
+
+**Types de documents :** Politiques, cadres de travail, normes, matériel pédagogique, contrats, rapports de décision de comité, comptes rendus de réunion, constatations de recherche; présentations au Conseil du Trésor, modalités et conditions des subventions et contributions, protocoles d'entente, protocoles d'accord, propositions, procédures normalisées, outils de mesure du rendement, critères/rapports d'évaluation et documents éducatifs pour le public (par ex., courriels Web et demandes des médias).
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 707
+
+**Résistance aux antimicrobiens**
+
+**Description :** Comprend des fichiers relatifs à la surveillance, à la recherche et à la diffusion de renseignements exacts au sujet de la résistance aux antimicrobiens et à leur utilisation dans les populations humaines et animales. Le Système canadien de surveillance de la résistance aux antimicrobiens (SCSRA)) intègre les données sur la résistance aux antimicrobiens (RAM) et l'utilisation des antimicrobiens (UAM) pour l'Agence. Le SCSRA a pour but d'intégrer les données des systèmes de surveillance individuels existants pour fournir un aperçu complet de la RAM/UAM au Canada afin de contribuer à l'évaluation de la réussite des interventions visant à maintenir l'efficacité des antimicrobiens. Les fichiers peuvent aussi contenir des renseignements relatifs à plusieurs composantes de surveillance représentatives et méthodologiquement unifiées, qui peuvent être reliées pour examiner la relation entre les antimicrobiens utilisés dans la nourriture, chez les animaux et les êtres humains et les répercussions qui en découlent pour la santé. L'information contenue dans le fichier soutient :
+
+* la création de politiques fondées sur des données probantes pour contrôler l'utilisation des antimicrobiens dans les milieux hospitaliers, communautaires et agricoles afin de prolonger l'efficacité de ces médicaments;
+* la détermination des mesures appropriées pour contenir l'émergence et la dissémination de bactéries résistantes chez les animaux, dans l'alimentation et chez les êtres humains au Canada.
+
+**Types de documents :** Rapports, rapports de décision, exposés de principes, notes de service, rapports de recherche scientifique, analyses de données, publications, affiches et présentations relatives aux dossiers de surveillance, y compris les abattoirs, la viande vendue au détail, les fermes, les isolats cliniques humains et les isolats cliniques animaux, les dossiers de recherche en matière de surveillance, les publications, les affiches et les présentations, les rapports d'analyse de données de surveillance, les documents de planification et d'information, l'information sur les recherches effectuées en collaboration, les rapports de réseaux et de collaborations, les rapports annuels ainsi que le site Web et les rapports du Système canadien de surveillance de la résistance aux antimicrobiens.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 010 0017
+
+**Surveillance des maladies infectieuses**
+
+**Description :** Comprend des fichiers relatifs à la surveillance, à la recherche et à la diffusion de renseignements exacts au sujet de l'incidence des maladies et de l'exposition aux maladies infectieuses, afin de permettre des interventions en santé publique et d'éclairer l'élaboration de programmes et de politiques visant à prévenir les maladies infectieuses au Canada et à réduire leur incidence. Les fichiers peuvent inclure des renseignements relatifs au Système canadien de surveillance des maladies à déclaration obligatoire.
+
+**Types de documents :** Documents statistiques, publications universitaires, rapports d'enquête, contrats, protocoles d'accord, mandats, ordres du jour; procès-verbaux, avis, comptes rendus, liste des membres d'un groupe consultatif externe expert en matière de surveillance, documents de recommandations, documents d'information et de discussion, curriculum vitae; demandes de remboursement de frais de voyage, documents stratégiques, discours, documents de vérification et d'évaluation, correspondance, fiches documentaires, rapports divers, information recueillie auprès de médecins, d'hôpitaux et de provinces, et rapports de recherche scientifique, analyses de données, publications, affiches et présentations, demandes de soumission pour le séquençage, documents de planification et de communication, information sur des recherches effectuées en collaboration, rapports de réseaux et de collaborations.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 010 0016
+
+**Maladies zoonotiques et d'origine alimentaire**
+
+L'objectif de ce programme est de protéger les Canadiens et les Canadiennes des risques pour la santé associée aux maladies infectieuses zoonotiques (maladies qui peuvent être transmises d'un animal à un être humain) ou d'origine alimentaire (maladies transmises par la consommation de nourriture). En réalisant ses objectifs, le programme appuie les priorités du gouvernement du Canada qui vise à encourager « un environnement propre et une économie forte » et « la sécurité et des possibilités » à l'aide des moyens suivants : Assurer une meilleure compréhension des impacts du changement climatique sur la santé publique; mener la surveillance et les interventions en cas d'éclosion liées aux risques de maladies infectieuses zoonotiques ou d'origine alimentaire; améliorer le système canadien de salubrité des aliments et élaborer des lignes directrices nationales pour réduire les risques de maladies entériques et minimiser les éclosions futures de toxi-infection d'origine alimentaire; fournir un leadership fédéral sur les activités de prévention et de contrôle des maladies infectieuses au Canada. Le programme collabore avec des organisations fédérales, provinciales, territoriales, privées, publiques et internationales en ce qui concerne les activités de santé publique et assure l'accès aux informations, aux outils, aux ressources, aux stratégies et aux réseaux liés aux maladies infectieuses zoonotiques ou d'origine alimentaire.
+
+**Maladies d'origine alimentaire ou environnementale et zoonoses**
+
+**Description :** Comprend des fichiers portant sur l'analyse des risques et les interventions visant à faire face à l'incidence et à atténuer le fardeau des maladies d'origine alimentaire, hydrique, environnementale ou zoonotique au Canada en faisant également l'étude et la coordination des mesures adoptées en cas d'épidémie. Les fichiers peuvent inclure des renseignements liés au renforcement des capacités en matière de santé publique par l'utilisation de la technologie et de la formation, par l'étude du fardeau lié aux maladies et aux facteurs de risque d'infection ainsi que par l'élaboration de lignes directrices nationales relatives à la réduction des risques et à la prévention pour lutter contre les risques émergents et réémergents qui découlent de changements comportementaux ou de facteurs environnementaux et autres – et des risques continus des maladies attribuables à E. coli, la salmonelle, la listeria, les campylobactéries, les norovirus, le virus du Nil occidental, l'agent responsable de la maladie de Lyme, le Cryptosporidium, la Giardia, la maladie de Creutzfeldt-Jakob et le virus rabique. De plus, les fichiers peuvent comprendre des renseignements relatifs à l'environnement, à l'eau potable, à l'eau utilisée à des fins récréatives, au changement climatique, aux facteurs de risque, aux évaluations de la vulnérabilité et aux maladies gastro-intestinales aiguës.
+
+**Types de documents :** Documents statistiques, publications universitaires, contrats, protocoles d'accord, accords de contribution, mandats, ordres du jour, procès-verbaux de réunion, avis, comptes rendus, documents de recommandations, documents d'information et de discussion, documents de politique, discours, documents de vérification et d'évaluation, correspondance, fiches d'information, rapports, dossiers de santé, questionnaires, documents administratifs, résultats d'imagerie médicale, résultats d'analyse de laboratoire, etc.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 402
+
+**Surveillance de la maladie de Creutzfeldt-Jakob au Canada**
+
+**Description :** Ce fichier contient des renseignements personnels au sujet des personnes que l'on soupçonne être atteintes, ou dont il a été confirmé qu'elles étaient atteintes, de la maladie de Creutzfeldt-Jakob (MCJ) au Canada. La surveillance canadienne de la MCJ sert à mieux comprendre l'épidémiologie des maladies humaines à prions, à améliorer les options disponibles pour leur diagnostic rapide et précis et, en fin de compte, à protéger la santé des Canadiens en réduisant les risques de transmission des maladies à prions. Les renseignements personnels recueillis peuvent comprendre : le nom; les coordonnées; le sexe et l'origine ethnique; la langue; les numéros d'identification; la signature; la date de naissance et de décès; les lieux de naissance et de décès; les antécédents médicaux et de voyage et la citoyenneté; les renseignements biographiques; les antécédents nutritionnels et professionnels; les renseignements médicaux; et les échantillons biologiques, dont le sang, l'acide désoxyribonucléique (ADN), le liquide céphalorachidien et les tissus cérébraux.
+
+**Catégorie de personnes :** Les personnes que l'on soupçonne d'être atteintes de la MCJ et les membres de leur famille, leurs représentants légaux et leurs fournisseurs de soins de santé.
+
+**But :** Les renseignements personnels sont utilisés par l'Agence de la santé publique du Canada pour appuyer les activités liées à la santé publique, telles que la détection, le diagnostic et la surveillance des maladies; l'évaluation et la réduction des risques d'infection; et, avec le consentement des personnes concernées, pour mener des activités de recherche sur la MCJ. Les renseignements personnels des médecins sont utilisés pour coordonner les tests diagnostiques auprès des patients atteints de la MCJ. Les renseignements personnels sont recueillis conformément à l'article 4 de la *Loi sur le ministère de la Santé* et à l'article 3 de la *Loi sur l'Agence de la santé publique du Canada*.
+
+**Usages compatibles :** Les renseignements sur les patients et les médecins peuvent être communiqués à d'autres médecins et établissements de soins de santé, dans la mesure où ils sont pertinents pour les soins et le traitement du patient. Les renseignements personnels peuvent être communiqués à des fournisseurs de services de neuropathologie sous contrat afin de faciliter les tests de laboratoire, le diagnostic et le stockage des échantillons biologiques. Les renseignements diagnostiques et épidémiologiques peuvent être communiqués pour appuyer l'analyse épidémiologique et la prise de décisions en matière de santé publique. Les identificateurs personnels tels que : le nom, la date de naissance, la date du décès et les coordonnées du plus proche parent peuvent être communiqués aux fournisseurs de services funéraire afin de faciliter le transport des dépouilles pour l'autopsie. Les renseignements peuvent être utilisés pour la vérification et l'évaluation du programme et pour informer la haute direction.
+
+**Normes de conservation et de destruction :** Les dossiers sont conservés pendant cinquante ans après le décès d'un patient.
+
+**N° ADD :** 2015/022
+
+**Renvoi à la catégorie de documents no :** ASPC 008 402
+
+**Enregistrement au SCT :** 009940
+
+**Numéro du fichier :** ASPC PPU 286
+
+**Agents pathogènes entériques**
+
+**Description :** Comprend des fichiers relatifs à la surveillance, à la recherche et à la diffusion de renseignements exacts au sujet des maladies entériques humaines provenant du Programme national de surveillance des maladies entériques et de FoodNet Canada qui constitue un programme de surveillance intégrée qui recueille de l'information sur les maladies et le degré d'exposition pour déterminer quels aliments et autres sources rendent les Canadiens malades. Les fichiers peuvent aussi contenir des renseignements sur l'évolution de l'incidence des maladies entériques humaines et des degrés d'exposition aux agents pathogènes provenant de sources alimentaires, animales et hydriques, ainsi que des renseignements relatifs à la proportion de cas humains qui sont attribuables à un contact avec de l'eau, de la nourriture et des animaux. Les fichiers peuvent aussi contenir des renseignements sur les efforts d'attribution des sources au Canada et sur les facteurs de risque statistiquement significatifs des maladies entériques.
+
+**Types de documents :** Rapports divers, rapports de décision, exposés de principes, notes de service, rapports de recherche scientifique, analyses de données, publications, affiches et présentations, rapports d'analyse de données de surveillance, documents de planification et de communication, information sur les recherches effectuées en collaboration, rapports de réseaux et de collaborations, rapports annuels au sujet des dossiers de surveillance, y compris sur la viande vendue au détail, sur les fermes ainsi que sur l'information sur les isolats d'eau de même que sur les données de laboratoire sur les expositions de cas humains anonymisés. Site Web Foodnet et bases de données électroniques (Labware, DEXA).
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 010 0018
+
+**État de préparation à la grippe aviaire et à la grippe pandémique**
+
+**Description :** Comprend des fichiers relatifs aux mesures de préparation à la grippe aviaire et à la grippe pandémique, mesures prises pour aider à assurer la santé et la sécurité des Canadiens et pour aider à atténuer les perturbations sociales et économiques éventuelles.
+
+**Types de documents :** Documents statistiques, publications universitaires, protocoles d'accord, mandats, ordres du jour, procès-verbaux, avis, comptes rendus, documents de recommandations, documents d'information et de discussion, documents de politique, documents de vérification et d'évaluation, correspondance, fiches documentaires, rapports et plans, etc.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 010 0023
+
+#### Services et leadership en matière de science en laboratoire
+
+L'objectif de ce programme est de fournir aux Canadiens et aux Canadiennes les connaissances scientifiques nécessaires pour répondre aux menaces que représentent les maladies infectieuses. Le programme appuie les mesures éclairées en santé publique au moyen de nouvelles approches pour faire progresser les sciences en laboratoire, les services de mise à l'essai, la surveillance en laboratoire, les interventions en cas d'éclosion et le leadership national des laboratoires de santé publique. Les intervenants comprennent des partenaires de la santé publique provenant des gouvernements fédéral, provinciaux et territoriaux, ainsi que des partenaires des milieux internationaux et de santé. Les essais spécialisés et l'élaboration de nouveaux outils peuvent être offerts en tant que service national ou transférés à des gouvernements provinciaux ou territoriaux ou à des municipalités dans le but d'optimiser la capacité d'intervention en matière de santé publique des laboratoires dans l'ensemble du Canada. Le programme fournit la seule installation de confinement et de mise à l'essai pour les agents pathogènes du groupe de risque 4 (les agents pathogènes de niveau 4 comprennent : le virus de Marburg, virus de Lassa, la fièvre hémorragique de Crimée-Congo et le virus Nipah).
+
+**Recherche scientifique sur les maladies infectieuses touchant la santé humaine**
+
+**Description :** Comprend les documents relatifs aux recherches scientifiques sur les maladies infectieuses bactériennes, virales et à prions touchant la santé humaine, y compris les services de référence et les diagnostics, la surveillance de la santé publique en laboratoire, le leadership, la formation, le développement des réseaux et des capacités, ainsi que la recherche appliquée et axée sur la découverte.
+
+**Types de documents :** Demandes de services de référence en laboratoire; analyses et rapports de laboratoire; documents sur la surveillance et le contrôle de la santé publique; guide électronique sur les services; documents externes sur l'assurance de la qualité; procédures; documents de recherche scientifique; évaluations des risques; correspondance; entente de recherche concertée; documents de gestion de la qualité (p. ex., rapports de non-conformité, rapports de mesures correctives, rapports d'audit); manuels, politiques, notes de service; matériel de formation, rapports annuels de formation, plans d'apprentissage individuels, documents d'analyse des besoins en formation et en compétences; affiches et présentations; notes d'information; propositions de recherche; ordres du jour des réunions de comité; mandats et procès-verbaux; rapports de décision; documents de planification; contrats, ententes de transfert de matériel, protocoles d'entente.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 010 0004
+
+**Laboratoires nationaux du virus de l'immunodéficience humaine (VIH) et de rétrovirologie**
+
+**Description :** Comprend des fichiers relatifs à la surveillance, à la recherche et à la diffusion de renseignements exacts au sujet des Laboratoires nationaux du VIH et de rétrovirologie (LNVR) qui fournissent une gamme complète de services scientifiques de laboratoire et d'expertise en matière de VIH et de rétrovirus émergents. Les fichiers peuvent aussi contenir des renseignements relatifs aux organisations qui utilisent les services en question, notamment les laboratoires associés aux ministères provinciaux de la Santé, les hôpitaux et les laboratoires de dépistage sanguin, et les laboratoires du VIH à l'étranger. De plus, les fichiers peuvent comprendre des renseignements relatifs aux LNVR qui fournissent des services de référence moléculaires et sérologiques en matière de VIH et des virus I et II de la leucémie des cellules T humaines (HTL) à l'appui des programmes de tests réalisés par les ministères de la Santé des provinces et par la Société canadienne du sang. Les fichiers peuvent aussi inclure des renseignements relatifs aux principales activités des LNVR : services de référence, enquêtes liées à la surveillance des éclosions, assurance de la qualité, recherches, et activités internationales. Enfin, les fichiers peuvent comprendre des renseignements relatifs aux LNVR, qui comprennent les laboratoires suivants : le Laboratoire national, services de référence sur le VIH, le Laboratoire national sur la génétique du VIH, le Laboratoire national d'immunologie du VIH et le Service de l'infection virale et de l'épidémiologie moléculaire.
+
+**Types de documents :** Rapports de recherche scientifique, analyses de données, publications, rapports de planification et de communication, renseignements sur les recherches effectuées en collaboration, rapports de réseaux et de collaborations, procédures, rapports divers, comptes rendus de réunions, rapports de décisions, politiques relatives aux Laboratoires nationaux du VIH et de rétrovirologie (LMNVR); rapports sur le VIH et LCTH (virus I et II des leucémies de cellules T humaines (LCTH), sur les tests de la résistance aux médicaments du VIH, sur les tests des anticorps du VIH, sur le Programme canadien de surveillance des souches et de la résistance aux médicaments ayant trait au VIH/syndrome d'immunodéficience acquise (SIDA).
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du dossier:** ASPC 008 185
+
+**Régime d'aide extraordinaire**
+
+**Description :**Contient les demandes, la correspondance, les fichiers médicaux des requérants qui ont été infectés par le virus du syndrome d'immunodéficience acquise (SIDA) (virus de l'immunodéficience humaine (VIH)) par du sang ou des produits sanguins ainsi que leurs parents de premier ordre (conjoint/partenaire ou enfant) qui ont été infectés secondairement par le VIH.
+
+**Remarque :** Les renseignements relatifs à l'admissibilité et à l'administration des prestations financières aux victimes de la thalidomide ont été transférés à Santé Canada et sont désormais décrits dans le document Programmes d'aide financière aux survivants canadiens de la thalidomide FRP (HC PPU 422).
+
+**Catégorie de personnes :** Les personnes ou agents de leurs successions qui ont présenté des demandes de prestations.
+
+**But :** Déterminer l'admissibilité et administrer les prestations financières aux personnes infectées par le VIH.
+
+**Usages compatibles :** Les renseignements contenus dans ces fichiers servent uniquement à déterminer l'admissibilité aux prestations financières.
+
+**Normes de conservation et de destruction :** Les fichiers sur le VIH sont conservés pour un minimum de vingt ans après la dernière activité du fichier.
+
+**No ADD :** 2015/022
+
+**Renvoi à la catégorie de documents no :** ASPC 008 185
+
+**Enregistrement (SCT) :** 009928
+
+**Numéro du fichier :** ASPC PPU 039
+
+**Laboratoire national de microbiologie (LNM)**
+
+**Description :** Comprend des fichiers relatifs à la surveillance, à la recherche et aux tests de référence d'experts en microbiologie ainsi qu'un soutien à la recherche sur les éclosions de maladies bactériennes, virales et parasitaires, à l'intention du réseau de la santé publique au Canada. Les fichiers peuvent aussi comprendre des renseignements au sujet du Laboratoire national de microbiologie qui constitue un élément clé de la préparation du Canada contre le terrorisme biologique et d'autres urgences attribuables aux maladies infectieuses. En outre, les fichiers peuvent contenir des renseignements sur l'exploitation de six centres nationaux externes de référence sur la base d'un partage des coûts avec les provinces pour : la parasitologie (sérologie), la mycologie, Yersinia, Streptococcus, le virus rabique et le virus d'Epstein-Barr. Enfin, les fichiers peuvent comprendre des renseignements sur les maladies nosocomiales, les maladies pouvant être prévenues par un vaccin, les maladies entériques, la tuberculose, la microbiologie clinique, la microbiologie environnementale, les infections d'origine communautaire, les infections d'origine hospitalière et les organismes qui résistent à plusieurs médicaments, les maladies bactériennes pouvant être prévenues par un vaccin, les agents pathogènes bactériens émergents, les agents pathogènes entériques d'origine hydrique et alimentaire, les maladies virales transmises sexuellement, les virus et l'Influenza respiratoires; les poxvirus; l'exanthème viral; l'imagerie et la microscopie diagnostiques; les agents pathogènes à diffusion hématogène et les hépatites; les entérovirus et les autres virus entériques.
+
+**Types de documents :** Procédures, rapports, comptes rendus de réunion, rapports de décision, politiques, rapports de recherche scientifique, analyses de données, publications relatives à la parasitologie, à la mycologie, à Streptococcus et au typage moléculaire.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 008 180
+
+**Sentinelle de surveillance de la grippe**
+
+**Description :** Ce fichier contient des renseignements liés à une étude pilote qui consiste à utiliser des dossiers médicaux électroniques pour la surveillance de la grippe. Les renseignements personnels peuvent inclure la date de naissance et des renseignements médicaux.
+
+**Remarque :** Les renseignements peuvent être stockés dans les systèmes internes / bases de données suivants : système de sentinelle de surveillance de la grippe.
+
+**Catégorie de personnes :** Grand public.
+
+**But :** Les renseignements personnels sont utilisés afin d'administrer les activités de sciences et technologie en matière de santé publique de l'Agence de la santé publique du Canada. Ces renseignements personnels sont recueillis conformément à l'article 4 de la *Loi sur le ministère de la Santé*.
+
+**Usages compatibles :** Les renseignements peuvent être utilisés ou partagés pour les fins suivantes : rapports à la haute direction, rapports de sécurité et d'évaluation.
+
+**Normes de conservation et de destruction :** Deux ans après la dernière action administrative.
+
+**No ADD :** 2015/022
+
+**Renvoi à la catégorie de documents no :** ASPC 008 180
+
+**Enregistrement (SCT) :** 20110478
+
+**Numéro du fichier :** ASPC PPU 293
+
+**Phagothérapie, science et recherche (PhageSTAR)**
+
+**Description :** Cette banque décrit les informations relatives au programme de phagothérapie, science et recherche (PhageSTAR), une initiative pilote de cinq ans lancée par le Laboratoire national de microbiologie pour faire face à la menace croissante de la résistance aux antimicrobiens au Canada. PhageSTAR soutient les cliniciens canadiens en leur donnant accès à une bibliothèque centralisée de bactériophages (virus qui ciblent les bactéries) et en leur offrant des services de test de sensibilité aux phages. Les cliniciens peuvent soumettre des cultures bactériennes purifiées ainsi que les informations pertinentes sur les patients à l'Agence de la santé publique du Canada (ASPC). Sur la base des tests, PhageSTAR fournit des recommandations thérapeutiques non contraignantes.
+
+Les renseignements personnels recueillis peuvent inclure : le nom et les coordonnées du professionnel de la santé qui soumet la demande, le nom du patient, sa date de naissance, des détails biographiques (p. ex. historique des voyages récents), des renseignements médicaux tels que les traitements actuels et passés, les maladies chroniques et l'état de grossesse, ainsi que la culture bactérienne.
+
+**Catégorie de personnes :** grand public, responsables de la santé publique, professionnels de la santé.
+
+**But :** Le programme recueille des renseignements personnels afin de fournir des services de diagnostic pour améliorer les soins aux patients et offrir une bibliothèque centralisée de phages (virus bactériens). Les renseignements personnels sont utilisés pour effectuer des tests et fournir des recommandations thérapeutiques personnalisées et non contraignantes basées sur les résultats de la sensibilité aux phages. Ils sont **recueillis en** vertu de l'article 4 de la Loi sur le ministère de la Santé et de l'article 3 de la Loi sur l'Agence de la santé publique du Canada.
+
+**Usages compatibles :** Le programme peut utiliser des isolats bactériens cliniques pour soutenir la recherche sur les phages et pour développer et maintenir sa bibliothèque de phages.
+
+**Normes de conservation et de destruction :** L'ASPC conserve les renseignements personnels pendant dix (10) ans. Si les renseignements personnels sont utilisés pour la phagothérapie dans le cadre de la réglementation sur les essais cliniques, ils sont conservés pendant vingt-cinq (25) ans.
+
+**Numéro RDA : 2015/022**
+
+**Numéro de classe connexe :** PHAC 008 180
+
+**Enregistrement au SCT :** En attente d'enregistrement au SCT.
+
+**Numéro de fichier :** PHAC PPU 316
+
+**Direction scientifique de la Direction générale du laboratoire national de microbiologie, Services de référence et d'analyses diagnostiques**
+
+**Description :** Cette banque décrit les informations relatives aux services de référence et de diagnostic fournis par la Direction générale du Laboratoire national de microbiologie (DGLNM). La branche offre une gamme complète de services de référence et de diagnostic afin de soutenir les efforts en matière de santé publique à travers le Canada. Ces services sont détaillés dans le guide des services du LNM, une ressource centralisée qui décrit les capacités de diagnostic mises à la disposition des professionnels de la santé, des chercheurs et des autorités de santé publique. Ces services facilitent la détection, la surveillance et le contrôle des maladies infectieuses. Les renseignements personnels recueillis varient selon les programmes et peuvent inclure : le nom du patient, sa date ou son année de naissance, le code du laboratoire provincial de santé ou du laboratoire d'analyse, l'identifiant du système de gestion de l'information du laboratoire (LIMS), la province ou le territoire où l'échantillon a été prélevé, le sexe, les antécédents cliniques, les antécédents de voyage, les facteurs de risque, les matériaux biologiques humains, le nom et les coordonnées de la personne qui envoie les échantillons et le formulaire de demande au LNM.
+
+**Remarque :** Les résultats des tests diagnostiques doivent être obtenus directement auprès du fournisseur de soins de santé primaire ou du clinicien qui a demandé le test**.** Veuillez noter que l'Agence de la santé publique du Canada (ASPC) pourrait ne pas être en mesure de récupérer les résultats à partir du nom d'une personne, ce qui pourrait limiter la disponibilité des dossiers en réponse à une demande de renseignements personnels.
+
+**Catégorie de personnes :** Grand public, employés des laboratoires provinciaux ou autres, praticiens de la santé.
+
+**But :** Les renseignements personnels sont utilisés pour administrer la science et la technologie pour la santé publique dans le cadre des activités de l'Agence de la santé publique du Canada. Les renseignements personnels sont recueillis conformément à l'article 4 de la Loi sur le ministère de la Santé.
+
+**Usages compatibles :** Les renseignements peuvent être utilisés ou communiqués aux fins suivantes : rapports à la haute direction, sécurité et évaluation.
+
+**Normes de conservation et d'élimination :** Deux ans après la dernière mesure administrative.
+
+**Numéro RDA :** 2015/022
+
+**Numéro de catégorie de documents connexes :** PHAC 008 180
+
+**Enregistrement au SCT :** En attente d'enregistrement au SCT**.**
+
+**Numéro de fichier :** PHAC PPU 317
+
+#### Vaccination
+
+L'objectif de ce programme est de réduire les taux de maladies évitables par la vaccination (MEV) grâce à une couverture vaccinale accrue. Ce programme définit les objectifs nationaux en matière de couverture vaccinale et les cibles de réduction des MEV; soutient la recherche visant à cerner les populations sous-vaccinées et non vaccinées dans l'ensemble du Canada; donne au public et aux partenaires de la santé publique de l'information et des conseils au sujet de la vaccination; permet de financer des projets visant à accroître le nombre de personnes qui acceptent de se faire vacciner ainsi qu'à augmenter l'accès aux vaccins dans l'ensemble du Canada; assure un rôle de leadership, de collaborateur et de coordonnateur pour des mesures visant à améliorer la couverture vaccinale; et coordonne les activités de préparation à la grippe pandémique au Canada.
+
+**Vaccination**
+
+**Description :** Inclut les fichiers liés aux tentatives faites pour réduire les taux de MEV grâce à une couverture vaccinale accrue. Les fichiers peuvent comprendre des renseignements au niveau national et fondés sur des données probantes liés aux objectifs de couverture vaccinale nationaux mis à jour et aux cibles de réduction des taux de MEV; au soutien à la recherche visant à cerner les populations sous-vaccinées et non vaccinées dans l'ensemble du Canada; aux activités ayant pour but de donner au public et aux partenaires de la santé publique de l'information et des conseils au sujet de la vaccination; au financement des projets visant à accroître le nombre de personnes qui acceptent de se faire vacciner ainsi qu'à augmenter l'accès aux vaccins dans l'ensemble du Canada; à la surveillance des MEV et de la couverture vaccinale, à la collaboration ainsi qu'à la direction et à la coordination des mesures visant à améliorer la couverture vaccinale; et à la coordination des activités de préparation à la grippe pandémique au Canada.
+
+**Types de documents :** Documents statistiques, publications universitaires, contrats, protocoles d'accord, plans, requêtes, vidéos, mandats, ordres du jour, rapports de décision, avis, documents de recommandations scientifiques et programmatiques reposant sur des données probantes, documents d'information et de discussion, documents de politique, discours, documents de vérification et d'évaluation, correspondance, fiches d'information, rapports, etc. traitant des questions d'immunisation.
+
+**Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+**Numéro du fichier :** ASPC 010 0039
+
+### Services internes
+
+Les services internes sont des groupes d'activités et de ressources connexes qui sont gérés de façon à répondre aux besoins des programmes et des autres obligations générales d'une organisation. Ces groupes sont les suivants : [Services de gestion des finances](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements.html); [Services de gestion des ressources humaines](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements.html); [Services de gestion de l'information](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements.html); [Services des technologies de l'information](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements.html); [Services juridiques](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements.html); [Services de gestion et de surveillance](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements.html); [Services de gestion du matériel](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements.html); [Services de gestion des biens immobiliers](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements.html); [Services de gestion des voyages et autres services administratifs](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements.html). Les services internes comprennent uniquement les activités et les ressources destinées à l'ensemble d'une organisation et non celles fournies à un programme en particulier.
+
+#### Services de gestion des acquisitions
+
+Activités mises en œuvre dans le but de se procurer les biens et les services requis pour répondre à une demande dûment remplie (y compris une définition complète et exacte des exigences et la garantie que les fonds sont disponibles), et ce, jusqu'à la passation ou à la modification d'un marché.
+
+* [Catégorie de documents en matière d'approvisionnement et de marchés](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp912)
+* **Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+  + [Fichier de renseignements personnels sur les marchés de services professionnels](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou912)
+
+#### Services de communications
+
+Activités mises en œuvre afin de veiller à ce que les communications du gouvernement du Canada soient gérées efficacement, bien coordonnées et répondent aux divers besoins d'information du public. La fonction de gestion des communications assure la diffusion de renseignements gouvernementaux au public interne et externe ainsi que la prise en considération de ses opinions et préoccupations dans la planification, la gestion et l'évaluation des politiques, des programmes, des services et des initiatives.
+
+* [Catégorie de documents en matière des communications](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp939)
+* **Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+  + [Fichier de renseignements personnels sur les communications internes](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#:~:text=fichier%25C2%25A0%253A%2520POE%25C2%25A0915-,Communications%2520internes,-Description%2520%253A%2520Ce)
+  + [Fichier de renseignements personnels sur les communications publiques](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#:~:text=fichier%25C2%25A0%253A%2520POU%2520915-,Communications%2520publiques,-Description%2520%253A%2520Ce)
+
+#### Services de gestion financière
+
+Activités visant à assurer l'utilisation prudente des ressources publiques comme la planification, la gestion budgétaire, la comptabilité, la production de rapports, le contrôle et la surveillance, l'analyse, les conseils et le soutien au processus décisionnel, ainsi que les systèmes financiers.
+
+* [Catégorie de documents en gestion financière](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp914)
+* **Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+  + [Fichier de renseignements personnels sur les comptes créditeurs](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou931)
+  + [Fichier de renseignements personnels sur les comptes débiteurs](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou932)
+  + [Fichier de renseignements personnels sur les cartes d'achat](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou940)
+
+#### Services de gestion des ressources humaines
+
+Activités de détermination de l'orientation stratégique, d'affectation des ressources entre les services et les processus et activités liées à l'analyse de l'exposition aux risques et à la détermination des mesures d'atténuation à prendre. Elles permettent de veiller à ce que les services et les programmes du gouvernement fédéral soient conformes aux lois, aux règlements, aux politiques et aux plans applicables.
+
+* [Catégorie de documents sur les prix (Fierté et reconnaissance)](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp940)
+* **Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+  + [Fichier de renseignements personnels sur le programme de reconnaissance](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe920)
+* [Catégorie de documents sur la classification des postes](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp919)
+* **Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+  + [Fichier de renseignements personnels sur la dotation](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe9021)
+* [Catégorie de documents sur la rémunération et les avantages sociaux](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp924)
+* **Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+  + [Fichier de renseignements personnels sur les présences et les congés](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe903)
+  + [Fichier de renseignements personnels sur la rémunération et les avantages](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe904)
+* [Catégorie de documents sur l'équité en matière d'emploi et la diversité](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp942)
+* **Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+  + [Fichier de renseignements personnels sur l'équité en emploi et la diversité](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe918)
+* [Catégorie de documents sur l'accueil](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp933)
+* **Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+  + [Fichier de renseignements personnels sur l'accueil](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou908)
+* [Catégorie de documents sur la planification des ressources humaines](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp949).
+* **Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+  + [Fichier de renseignements personnels sur la planification des ressources humaines](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou935)
+* [Catégorie de documents sur les relations de travail](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp926)
+* **Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+  + [Fichier de renseignements personnels sur les plaintes déposées en vertu de la *Loi canadienne sur les droits de la personne*](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou933)
+  + [Fichier de renseignements personnels sur les mesures disciplinaires](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe911)
+  + [Fichier de renseignements personnels sur les griefs](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe910)
+  + [Fichier de renseignements personnels sur le harcèlement](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe919)
+  + [Fichier de renseignements personnels sur la divulgation d'information sur les actes fautifs commis en milieu de travail](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou906)
+  + [Fichier de renseignements personnels sur les codes de valeurs et d'éthique du secteur public et les code(s) de conduite organisationnel(s)](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe915)
+* [Catégorie de documents sur la santé et sécurité au travail](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp922)
+* **Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+  + [Fichier de renseignements personnels sur l'aide aux employés](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe916)
+  + [Fichier de renseignements personnels sur le harcèlement](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe919)
+  + [Fichier de renseignements personnels sur la santé et la sécurité au travail](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe9071)
+  + [Fichier de renseignements personnels sur les accidents d'automobile, de bateau, d'embarcation et d'avion](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe908)
+* [Catégorie de documents sur les langues officielles](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp923)
+* **Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+  + [Fichier de renseignements personnels sur les langues officielles](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe906)
+* [Catégorie de documents sur l'évaluation de la gestion du rendement](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp946)
+* **Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+  + [Fichier de renseignements personnels sur les mesures disciplinaires](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe911)
+  + [Fichier de renseignements personnels sur le programme de gestion du rendement des employés](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe912)
+* [Catégorie de documents sur le recrutement et la dotation](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp920)
+* **Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+  + [Fichier de renseignements personnels sur les demandes d'emploi](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou911)
+  + [Fichier de renseignements personnels sur le dossier personnel d'un employé](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe901)
+  + [Fichier de renseignements personnels sur la gestion des talents des cadres supérieurs](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou934)
+  + [Fichier de renseignements personnels sur le filtrage de sécurité du personnel](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou917)
+  + [Fichier de renseignements personnels sur la dotation](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe9021)
+  + [Fichier de renseignements personnels sur les codes de valeurs et d'éthique du secteur public et les code(s) de conduite organisationnel(s)](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe915)
+* [Catégorie de documents sur la réinstallation](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp936)
+* **Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+  + [Fichier de renseignements personnels sur la réinstallation](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou910)
+* [Catégorie de documents sur la formation et le perfectionnement](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp927)
+* **Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+  + [Fichier de renseignements personnels sur la formation et le perfectionnement](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe905)
+
+#### Services de gestion de l'information
+
+Activités visant à assurer une gestion efficiente et efficace de l'information à l'appui de la prestation de programme et de services, à faciliter la prise de décisions éclairées, à faciliter la reddition des comptes, la transparence et la collaboration, ainsi qu'à conserver l'information et les documents au profit de la présente génération et des générations futures en veillant à ce qu'ils demeurent accessibles.
+
+* [Catégorie de documents en matière d'accès à l'information et de protection des renseignements personnels](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp930)
+* **Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+  + [Fichier de renseignements personnels sur les demandes en vertu de la L*oi sur l'accès à l'information* et de la *Loi sur la protection des renseignements personnels*](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou901)
+* [Catégorie de documents en matière de gestion de l'information](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp944)
+* **Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+  + [Fichier de renseignements personnels sur les services de bibliothèque](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou936)
+
+#### Services de technologie de l'information
+
+Activités dont le but est d'assurer l'utilisation efficiente et efficace de la technologie de l'information, à l'appui des priorités gouvernementales et de la mise en œuvre des programmes afin d'accroître la productivité et d'améliorer les services offerts au public.
+
+* [Catégorie de documents en matière de technologie de l'information](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp932)
+* **Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+  + [Fichier de renseignements personnels sur les journaux de contrôle des réseaux électroniques](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou905)
+
+#### Services juridiques
+
+Activités permettant aux ministères et organismes de réaliser less priorités et d'atteindre les objectifs associés à leurs politiques, programmes et services dans un cadre juridique approprié.
+
+* [Catégorie de documents en matière des services juridiques](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp902)
+* **Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+#### Services de gestion et de surveillance
+
+Activités de détermination de l'orientation stratégique, d'affectation des ressources entre les services et les processus et activités liées à l'analyse de l'exposition aux risques et à la détermination des mesures d'atténuation à prendre. Elles permettent de veiller à ce que les services et les programmes du gouvernement fédéral soient conformes aux lois, aux règlements, aux politiques et aux plans applicables.
+
+* [Catégorie de documents en matière de coopération et de liaison](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp904)
+* **Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+  + [Fichier de renseignements personnels sur les exigences de la Loi sur le lobbying](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou937)
+  + [Fichier de renseignements personnels sur les activités de sensibilisation](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou938)
+* [Catégorie de documents en matière des services à la haute direction](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp943)
+* **Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+  + [Fichier de renseignements personnels sur le système de gestion de la correspondance de la direction](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe902)
+* [Catégorie de documents en matière de vérification interne et évaluation](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp916)
+* **Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+  + [Fichier de renseignements personnels sur l'évaluation](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou942)
+  + [Fichier de renseignements personnels sur la vérification interne](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou941)
+* [Catégorie de documents Planification et établissement de rapports](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp947)
+* **Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+
+#### Matériel
+
+Activités visant à assurer, de la part des ministères, une gestion du matériel durable et responsable sur le plan financier afin de soutenir l'exécution rentable et efficace des programmes gouvernementaux.
+
+* [Catégorie de documents en matière de gestion du matériel](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp945)
+* **Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+  + [Fichier de renseignements personnels sur les accidents d'automobile, de bateau, d'embarcation et d'avion](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe908)
+
+#### Services de gestion de voyages et autres services administratifs
+
+Ces services comprennent les services de voyages du gouvernement du Canada, ainsi que les autres services internes qui ne correspondent à aucune autre catégorie de services internes.
+
+* [Catégorie de documents en matière des services administratifs](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp901)
+* **Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+  + [Fichier de renseignements personnels sur le stationnement](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe914)
+* [Catégorie de documents en matière des conseils d'administration, comités et conseils](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp938)
+* **Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022.
+  + [Fichier de renseignements personnels sur les nominations par le gouverneur en conseil](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou918)
+  + [Fichier de renseignements personnels sur les membres de conseils d'administration, de comités et de conseils](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou919)
+* [Catégorie de documents en matière de planification de la continuité des activités](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp928)
+* **Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022
+  + [Fichier de renseignements personnels sur la planification de la continuité des activités](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou903)
+* [Catégorie de documents en matière de divulgation aux organismes d'enquête](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp937)
+* **Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022
+  + [Fichier de renseignements personnels sur la divulgation aux organismes d'enquête](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou913)
+* [Catégorie de document en matière de divulgation proactive](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp935)
+* **Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022
+  + [Fichier de renseignements personnels sur l'accueil](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou908)
+  + [Fichier de renseignements personnels sur les voyages](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou909)
+* [Catégorie de documents en matière de sécurité](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp931)
+* **Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022
+  + [Fichier de renseignements personnels sur les cartes d'identité et les laissez-passer](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe917)
+  + [Fichier de renseignements personnels sur la divulgation d'information sur les actes fautifs commis en milieu de travail](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou906)
+  + [Fichier de renseignements personnels sur le contrôle de sécurité du personnel](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou917)
+  + [Fichier de renseignements personnels sur les incidents de sécurité et atteintes à la vie privée](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou939)
+  + [Fichier de renseignements personnels sur la surveillance vidéo, les registres de contrôle d'accès des visiteurs et les laissez-passer](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe907)
+* [Catégorie de documents en matière de voyages](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp934)
+* **Résumés de divulgation :** L'Agence de la santé publique du Canada n’a pas communiqué de renseignements personnels à des tiers à la suite d’ententes d’échange de l’information, d’accords d’échange de renseignements ou de contrats entrée en vigueur ou modifiés depuis le 26 octobre 2022
+  + [Fichier de renseignements personnels sur les voyages](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou909)
+
+### Catégories de renseignements personnels
+
+#### Données sur la gestion du rendement des bénéficiaires de financement
+
+Cette catégorie de renseignements personnels contient des renseignements sur les bénéficiaires de financement afin de créer des produits de développement et d'échange des connaissances (p. ex., résumé des résultats pour chaque cycle et tableaux de bord contenant des données clés). Les données contribuent également à la production de rapports ministériels de l'ASPC, comme le Rapport sur les résultats ministériels (RRM) et les Profils d'information sur le rendement (PIR), en plus de contribuer à diverses initiatives de recherche en politiques et à la mesure interne du rendement des programmes. L'information est recueillie tous les deux ans.
+
+#### Plaintes
+
+Cette catégorie contient des renseignements personnels relatifs à l'administration de l'Agence de la santé publique du Canada et peut porter sur la législation en général ou encore toute catégorie de produits ou de services. Le classement est habituellement effectué conformément au codage de classification des activités économiques; la référence clé aux fins d'extraction est le sujet en question. La vérification de concordance et l'enregistrement du courrier d'arrivée sont limités quant aux renseignements personnels qu'ils peuvent contenir. (Cette correspondance inclut les plaintes et les demandes d'information.) L'Agence peut fournir des renseignements personnels qu'elle détient à des ministères et organismes fédéraux ou provinciaux pour assurer un bon niveau de service à la personne identifiée.
+
+#### Liste d'invités aux conférences
+
+La liste d'invités contient les noms de toutes les personnes qui peuvent être admises dans le lieu de réunion. Cette catégorie contient des renseignements personnels relatifs à l'administration de l'Agence de la santé publique du Canada et peut inclure des renseignements au sujet de conférences tenues par l'Agence. L'Agence peut fournir des renseignements personnels qu'elle détient à des ministères et organismes fédéraux ou provinciaux pour assurer un bon niveau de service à la personne identifiée.
+
+#### Enquête auprès des participants aux événements
+
+L'enquête effectuée auprès des participants sert à mesurer leur degré de satisfaction par rapport aux conférences et autres événements tenus par l'Agence de la santé publique du Canada. Cette catégorie contient des renseignements personnels relatifs à l'administration de l'Agence et peut inclure des renseignements au sujet de conférences et d'événements similaires tenus par l'Agence. L'Agence peut fournir des renseignements personnels qu'elle détient à des ministères et organismes fédéraux ou provinciaux pour assurer un bon niveau de service à la personne identifiée.
+
+#### Correspondance générale et courante
+
+Cette catégorie de renseignements contient la correspondance adressée au ministre, à l'administrateur en chef de la santé publique et/ou au sous-ministre délégué de la part d'organisations externes et de particuliers sous forme de demandes d'information, d'opinions et d'autres soumissions soulevant un large éventail de questions stratégiques relatives aux activités de l'Agence de la santé publique du Canada, dans lesquelles les correspondants ont fourni des renseignements personnels non sollicités. Ce genre de renseignements ne serait accessible que si des données particulières étaient fournies, comme le nom, la date de la communication et le sujet invoqué; ils ne sont pas organisés ou accessibles par identifiant personnel. Les délais de conservation de ces catégories de renseignements personnels dépendent du calendrier d'archivage des fichiers de sujets divers dans lesquels ils sont stockés.
+
+#### Demandes de renseignements
+
+Cette catégorie contient les demandes de renseignements sur les activités de l'Agence de la santé publique du Canada. Les noms des personnes apparaissent dans les fichiers. L'Agence peut fournir des renseignements personnels qu'elle détient à des ministères et organismes fédéraux ou provinciaux pour assurer un bon niveau de service à la personne identifiée.
+
+#### Listes de consultants
+
+La liste de consultants contient tous les noms des personnes qui peuvent offrir des services à l'Agence de la santé publique du Canada. Cette catégorie contient des renseignements personnels relatifs à l'administration de l'Agence et peut décrire les services devant être rendus à l'Agence.
+
+#### Listes d'invités et de partenaires
+
+La liste d'invités et de partenaires contient tous les noms des personnes qui peuvent être invitées aux événements organisés par l'Agence de la santé publique du Canada. Cette catégorie contient des renseignements personnels relatifs à l'administration de l'Agence. L'Agence peut fournir des renseignements personnels qu'elle détient à des ministères et organismes fédéraux ou provinciaux pour assurer un bon niveau de service à la personne identifiée.
+
+#### Listes d'envoi
+
+Cette catégorie de renseignements personnels contient les noms et les adresses des personnes se trouvant sur une liste d'envoi pour recevoir des informations ou publications particulières sur les programmes et activités ministériels. L'Agence de la santé publique du Canada utilise les listes pour diffuser les informations de l'Agence et pour répondre aux demandes de renseignements individuelles qui lui sont adressées. Les listes sont mises à jour régulièrement et conservées pendant au moins deux ans.
+
+#### Opinions publiques
+
+Il s'agit d'une catégorie de fichiers générés par les représentants de l'Agence de la santé publique du Canada qui ont mené des recherches sur l'opinion publique pour une grande variété de sujets liés au mandat et à la mission de l'Agence. Les fichiers accessibles sont des outils de cueillette de données comprenant, sans toutefois s'y limiter, des questionnaires pouvant contenir des renseignements personnels qui permettent d'identifier le sujet de recherche. Les données contenues dans cette catégorie de fichiers ne servent pas à des fins administratives. Les personnes souhaitant consulter ces fichiers doivent fournir le titre du projet de recherche auquel elles ont participé, le lieu et la date de la recherche et toute autre donnée pouvant aider à identifier et localiser les renseignements personnels recherchés.
+
+#### Requêtes publiques (listes d'envoi pour expédier certaines publications)
+
+Cette catégorie de renseignements personnels contient les noms et les adresses des personnes se trouvant sur une liste d'envoi pour recevoir des informations ou publications particulières sur les programmes et activités de l'organisme. Les listes sont mises à jour régulièrement et conservées pendant au moins deux ans.
+
+#### Opinions non sollicitées
+
+Certains programmes et activités entraînent l'accumulation de renseignements personnels qui ne sont pas contenus dans les fichiers de renseignements personnels de l'institution décrits dans la publication Info Source. Ces renseignements personnels sont stockés dans les fichiers de sujets décrits dans le cadre du Fonds de renseignements de l'Agence de la santé publique du Canada, où l'on n'accède pas habituellement aux fichiers par le nom de la personne ou par un autre identifiant personnel. Ce genre de renseignements personnels consiste en des demandes de renseignements sur des questions particulières ainsi qu'en des demandes de publications et de rapports. Les renseignements ne sont habituellement accessibles que si l'on fournit des données particulières sur le sujet. La conservation de ce genre de renseignements personnels dépend du calendrier d'archivage des fichiers de sujets où ils sont stockés.
+
+### Manuels
+
+* Cadre de communication stratégique des risques dans le contexte de la gestion intégrée des risques à Santé Canada et à l'Agence de la santé publique du Canada (2007)
+* Guide de l'utilisateur : Déclaration d'effets secondaires suivant l'immunisation (ESSI)
+* Guide de financement des projets régionaux du Programme d'action communautaire sur le sida (PACS)
+* Une optique d'inclusion : cahier d'exercices pour un regard sur l'exclusion et l'inclusion socio-économiques
+* Manuel de préparation à la vérification
+* Avis de biosécurité : Lignes directrices provisoires sur le virus de la grippe H1N1 (grippe porcine chez l'être humain) (15 juin 2009)
+* Avis de biosécurité : Lignes directrices provisoires sur l'influenza aviaire hautement pathogène (10 mars 2004)
+* Avis de biosécurité : Lignes directrices provisoires sur le syndrome respiratoire aigu sévère (25 mars 2003)
+* Avis de biosécurité : Validation de l'inventaire national pour le poliovirus (janvier 2003)
+* Avis de biosécurité : Virus du Nil occidental (juin 2001, révisé en juin 2003)
+* Guide d'évaluation nationale du Programme canadien de nutrition prénatale (PCNP)
+* Plan canadien de lutte contre la pandémie d'influenza dans le secteur de la santé (http://www.phac-aspc.gc.ca/cpip-pclcpi/)
+* Laboratoire de niveau de confinement 2 : pratiques opérationnelles (DVD d'instruction)
+* Confinement des installations de niveau 3: conception et fonctionnement
+* Laboratoires de niveau de confinement 3 : pratiques opérationnelles (DVD d'instruction)
+* Manuel d'orientation de l'administrateur de la santé publique du SSPC
+* Manuel d'orientation de l'étudiant du SSPC
+* Procédures de l'EFM
+* Liste de vérification pour l'examen des dessins
+* Plan d'intervention en cas d'urgence (Centre des opérations d'urgence de Winnipeg)
+* Réponses stratégiques du LNM (Laboratoire national de microbiologie) en matière de pathogènes émergents
+* Manuel de procédures des demandes d'aide épidémiologique pour les directeurs de programme du PCET
+* Production d'un rapport PRNP (Programme des maladies à prions)
+* Production et maintenance du Guide des fiches et demandes d'information sur les services
+* Procédures opérationnelles normalisées pour la gestion des subventions et contributions
+* Guide d'évaluation de projet
+* Lignes directrices relatives aux installations biomédicales dans lesquelles on utilise des moutons comme animaux d'expérience
+* Procédures opérationnelles normalisées pour les gestionnaires de projets de la Division de l'immunisation (25 mars 2010)
+* Outil de cueillette de données de projets (OCDP) concernant l'ensemble des troubles causés par l'alcoolisation fœtale (ETCAF)
+* Rapports internes et externes sur les résultats de tests sensibles ou à grande incidence (Programme des maladies à prions)
+* Confinement grande échelle
+* Spécimens de cas juridiques sur la réception et la distribution du Laboratoire national de microbiologie (ébauche)
+* Manuel sur la qualité du Laboratoire de lutte contre les zoonoses d'origine alimentaire
+* Déploiement et soutien de l'EIUM (équipe d'intervention d'urgence microbiologique)
+* Politique de confidentialité du LNM (Laboratoire national de microbiologie) sur les résultats des tests et les renseignements sur les malades
+* Organismes non pathogènes
+* Avis de biosécurité : Lignes directrices provisoires sur le virus de la grippe H1N1 (grippe porcine chez l'être humain)
+* Conseils de réunion écologique de l'ASPC
+* Conseils d'approvisionnement écologique de l'ASPC
+* Conseil de déplacement écologique de l'ASPC
+* Production d'un rapport du PNC (Programme des maladies à prions)
+* Échantillon et flux de données concernant le PNC (Programme des maladies à prions)
+* Outil de cueillette de données de projets (OCDP) – Guide de l'utilisateur
+* Protection des renseignements personnels : Politique de confidentialité du LNM (Laboratoire national de microbiologie)
+* Agence de la santé publique du Canada – Passation de marchés en cas d'urgence et processus d'approbation des dépenses (inclut les procédures de confirmation de commande)
+* Réception et stockage des prélèvements de liquide céphalo-rachidien (Programme des maladies à prions)
+* Gestion des documents (Laboratoire national de microbiologie)
+* Manuel des lignes directrices provisoires régionales (Manitoba)
+* Production, gestion et distribution des rapports de tests sur le liquide céphalo-rachidien (Programme des maladies à prions)
+* Procédure de rapport (pathogènes transmissibles par le sang)
+* Procédure de rapport (pathogènes transmissibles par le sang)
+* Procédure de rapport (Section des exanthèmes viraux)
+* Procédures de rapport du CNRM (sécurité et services environnementaux)
+* Procédures de rapport à la Section de l'influenza et des virus respiratoires
+* Réception et saisie de données pour l'ECMS (Programme des maladies à prions)
+* Réception et saisie de données pour l'ECMS 2 (Programme des maladies à prions)
+* Manuel administratif pour la zone sud (région du Manitoba)
+* Procédures d'inventaire et de stockage des spécimens et des échantillons de tests (Section des exanthèmes viraux)
+* Réception et distribution des spécimens au Laboratoire national de microbiologie
+* Réception et suivi des spécimens au laboratoire d'hyperplasie bénigne de la prostate (pathogènes transmissibles par le sang)
+* Réception et suivi des spécimens au laboratoire d'hyperplasie bénigne de la prostate (pathogènes transmissibles par le sang)
+* Réception et suivi des spécimens à la Section des exanthèmes viraux
+* Réception et suivi des spécimens à la Section des MTS virales
+* Réception des spécimens à la Section de génétique du PMP (Programme des maladies à prions)
+* Réception des spécimens à la Section de l'influenza et des virus respiratoires
+* Réception, saisie et format de présentation des rapports concernant les spécimens (maladies bactériennes émergentes)
+* Réception, tests et rapports sur les spécimens concernant la syphilis
+* Procédures opérationnelles normalisées (PON) – Liste de vérification des exigences du manuel de biosécurité
+* Procédures opérationnelles normalisées (PON) pour la gestion des subventions et contributions
+* Cadre et guide de communication stratégique des risques
+* Guide de survie pour les consultants de programmes
+* Transport des marchandises dangereuses
+
+## Renseignements supplémentaires
+
+Le gouvernement du Canada encourage la publication d'information par l'intermédiaire de demandes formulées en dehors du processus de l'AIPRP. Vous pouvez consulter [les sommaires des demandes d'accès à l'information complétées](https://ouvert.canada.ca/fr/search/ati) et les données ouvertes de l'Agence de la santé publique du Canada. Pour présenter une demande informelle, veuillez communiquer avec la personne suivante :
+
+Agence de la santé publique du Canada
+130, chemin Colonnade
+Ottawa (Ontario)
+K1A 0K9
+Téléphone : 613-957-2991
+Sans frais : 1-866-225-0709
+ATS : 1-800-267-1245
+Courriel : PHAC\_Web\_Mail@phac-aspc.gc.ca
+Internet : [Agence de la santé publique du Canada](http://www.phac-aspc.gc.ca/)
+
+L'Agence de la santé publique du Canada mène des évaluations des facteurs relatifs à la vie privée (ÉFVP) dans le but de bien définir, d'évaluer et de minimiser les incidences sur la vie privée avant la mise en œuvre d'une activité ou d'un programme nouveau (nouvelle) ou modifié(e) de façon substantielle touchant les renseignements personnels. Des sommaires d'[ÉFVP](/fr/sante-publique/organisation/mandat/a-propos-agence/acces-a-information-protection-renseignements-personnels/protection-renseignements-personnels.html) sont disponibles.
+
+Veuillez consulter la [présentation](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/fonctionnement-demandes-acces-information-renseignements-personnels.html) de cette publication pour obtenir des renseignements sur les procédures d'accès à l'information aux termes de la *Loi sur l'accès à l'information* et de la *Loi sur la protection des renseignements personnels*. Voici comment présenter une demande d'AIPRP officielle :
+
+Accédez aux [services d'achat en ligne](/fr/sante-publique/organisation/mandat/a-propos-agence/acces-a-information-protection-renseignements-personnels/comment-presenter-demande-acces-a-information-a-renseignements-personnels.html) ou postez votre lettre ou votre [formulaire de demande d'accès à l'information](http://www.tbs-sct.gc.ca/tbsf-fsct/350-57-fra.asp) (*Loi sur l'accès à l'information*) ou votre [formulaire de demande d'accès à des renseignements personnels](/fr/sante-publique/organisation/mandat/a-propos-agence/acces-a-information-protection-renseignements-personnels/comment-presenter-demande-acces-a-information-a-renseignements-personnels.html) (*Loi sur la protection des renseignements personnels*), accompagnée de tout document nécessaire (comme le consentement ou les frais de demande de 5,00 $ pour une demande en vertu de la *Loi sur l'accès à l'information*), à l'adresse suivante :
+
+Directeur, Opérations, Accès à l'information et protection des renseignements personnels
+Agence de la santé publique du Canada
+Holland Cross – Tour B
+1600, rue Scott, 7e étage, pièce 700
+Indice de l'adresse : 3107A
+Ottawa (Ontario) K1A 0K9
+Courriel : atip-aiprp@hc-sc.gc.ca
+Téléphone : 613-954-9165
+Téléscripteur : 1-800-267-1245 (Santé Canada)
+
+### Salle de lecture
+
+Conformément aux dispositions de la [*Loi sur l'accès à l'information* et de la *Loi sur la protection des renseignements personnels*](/fr/sante-publique/organisation/mandat/a-propos-agence/acces-a-information-protection-renseignements-personnels/contactez-nous.html), le demandeur pourrait vouloir examiner les documents en personne.
+
+Division de l'accès à l'information et de la protection des renseignements personnels
+Holland Cross – Tour B,
+1600, rue Scott, pièce 707
+Ottawa (Ontario)
+K1A 0K9
+
+### Questions générales
+
+Si vous avez des questions d'ordre général sur cette publication, veuillez communiquer avec :
+Division de la gestion de la protection des renseignements personnels
+11, avenue Holland
+Pièce 513
+Ottawa (Ontario)
+K1A 0K9
+Courriel : privacy-vie.privee@hc-sc.gc.ca ou privacy-vieprivee@phac-aspc.gc.ca
+Téléphone : 613-948-1219
+
+## Détails de la page
+
+2026-02-05
+
+## À propos de ce site
+
+### Agence de la santé publique du Canada
+
+* [Contactez-nous](/fr/sante-publique/organisation/contactez-nous.html)
+
+### Gouvernement du Canada
+
+* [Toutes les coordonnées](/fr/contact.html)
+* [Ministères et organismes](/fr/gouvernement/min.html)
+* [À propos du gouvernement](/fr/gouvernement/systeme.html)
+
+#### Thèmes et sujets
+
+* [Emplois](/fr/services/emplois.html)
+* [Immigration et citoyenneté](/fr/services/immigration-citoyennete.html)
+* [Voyage et tourisme](https://voyage.gc.ca/)
+* [Entreprises](/fr/services/entreprises.html)
+* [Prestations](/fr/services/prestations.html)
+* [Santé](/fr/services/sante.html)
+* [Impôts](/fr/services/impots.html)
+* [Environnement et ressources naturelles](/fr/services/environnement.html)
+* [Sécurité nationale et défense](/fr/services/defense.html)
+* [Culture, histoire et sport](/fr/services/culture.html)
+* [Services de police, justice et urgences](/fr/services/police.html)
+* [Transport et infrastructure](/fr/services/transport.html)
+* [Le Canada et le monde](https://www.international.gc.ca/world-monde/index.aspx?lang=fra)
+* [Argent et finances](/fr/services/finance.html)
+* [Science et innovation](/fr/services/science.html)
+* [Autochtones](/fr/services/autochtones.html)
+* [Vétérans et militaires](/fr/services/veterans-militaire.html)
+* [Jeunesse](/fr/services/jeunesse.html)
+* [Gérer les événements de la vie](/fr/services/evenements-vie.html)
+
+### Organisation du gouvernement du Canada
+
+* [Médias sociaux](https://www.canada.ca/fr/sociaux.html)
+* [Applications mobiles](https://www.canada.ca/fr/mobile.html)
+* [À propos de Canada.ca](https://www.canada.ca/fr/gouvernement/a-propos-canada-ca.html)
+* [Avis](/fr/transparence/avis.html)
+* [Confidentialité](/fr/transparence/confidentialite.html)
+
+![Symbole du gouvernement du Canada](/etc/designs/canada/wet-boew/assets/wmms-blk.svg)

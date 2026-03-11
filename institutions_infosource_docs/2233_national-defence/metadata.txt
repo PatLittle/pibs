@@ -1,0 +1,5 @@
+institution_name_en: National Defence
+institution_name_fr: Défense nationale
+gc_orgID: 2233
+infosource_url_en: https://www.canada.ca/en/department-national-defence/corporate/transparency/access-information-privacy/info-source-sources-of-federal-government-and-employee-information.html
+infosource_url_fr: https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/info-source-sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux.html

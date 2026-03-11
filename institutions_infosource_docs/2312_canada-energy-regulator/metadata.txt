@@ -1,0 +1,5 @@
+institution_name_en: Canada Energy Regulator
+institution_name_fr: Office national de l’énergie
+gc_orgID: 2312
+infosource_url_en: https://www.cer-rec.gc.ca/en/about/open-government/transparency/completed-access-information-requests/info-source.html
+infosource_url_fr: https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/demandes-acces-information-completees/info-source.html

@@ -1,0 +1,5 @@
+institution_name_en: Canadian Grain Commission
+institution_name_fr: Commission canadienne des grains
+gc_orgID: 2246
+infosource_url_en: https://www.grainscanada.gc.ca/en/transparency/info/info-eng.html
+infosource_url_fr: https://www.grainscanada.gc.ca/fr/transparence/info/info-fra.html

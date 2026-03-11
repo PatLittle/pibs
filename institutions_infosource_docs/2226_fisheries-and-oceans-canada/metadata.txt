@@ -1,0 +1,5 @@
+institution_name_en: Fisheries and Oceans Canada
+institution_name_fr: Pêches et Océans Canada
+gc_orgID: 2226
+infosource_url_en: https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/infosource/index-eng.html
+infosource_url_fr: https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/infosource/index-fra.html

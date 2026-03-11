@@ -1,0 +1,5 @@
+institution_name_en: Department of Justice Canada
+institution_name_fr: Ministère de la Justice Canada
+gc_orgID: 2232
+infosource_url_en: https://www.justice.gc.ca/eng/trans/atip-aiprp/infosource/toc-tdm.html
+infosource_url_fr: https://www.justice.gc.ca/fra/trans/aiprp-atip/infosource/tdm-toc.html

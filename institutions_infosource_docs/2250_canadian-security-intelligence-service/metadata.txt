@@ -1,0 +1,5 @@
+institution_name_en: Canadian Security Intelligence Service
+institution_name_fr: Service canadien du renseignement de sécurité
+gc_orgID: 2250
+infosource_url_en: https://www.canada.ca/en/security-intelligence-service/corporate/transparency/access-to-information-and-privacy/info-source.html
+infosource_url_fr: https://www.canada.ca/fr/service-renseignement-securite/organisation/transparence/acces-a-linformation-et-protection-des-renseignements-personnels/info-source.html

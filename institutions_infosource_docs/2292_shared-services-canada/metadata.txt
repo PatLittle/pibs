@@ -1,0 +1,5 @@
+institution_name_en: Shared Services Canada
+institution_name_fr: Services partagés Canada
+gc_orgID: 2292
+infosource_url_en: https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/sources-federal-government-employee-information-2021-info-source.html
+infosource_url_fr: https://www.canada.ca/fr/services-partages/organisation/transparence/acces-information-protection-renseignements-personnels/sources-renseignements-gouvernement-federal-fonctionnaires-federaux-2021-info-source.html

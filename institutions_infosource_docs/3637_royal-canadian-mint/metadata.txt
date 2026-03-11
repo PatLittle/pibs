@@ -1,0 +1,5 @@
+institution_name_en: Royal Canadian Mint
+institution_name_fr: Monnaie royale canadienne
+gc_orgID: 3637
+infosource_url_en: https://www.mint.ca/en/privacy-charter/info-source-en
+infosource_url_fr: https://www.mint.ca/fr/charte-de-confidentialite/info-source-fr

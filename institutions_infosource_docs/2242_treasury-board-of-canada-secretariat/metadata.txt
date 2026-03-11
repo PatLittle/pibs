@@ -1,0 +1,5 @@
+institution_name_en: Treasury Board of Canada Secretariat
+institution_name_fr: Secrétariat du Conseil du Trésor du Canada
+gc_orgID: 2242
+infosource_url_en: https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/treasury-board-secretariat-sources-federal-government-employee-information-info-source.html
+infosource_url_fr: https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/secretariat-conseil-tresor-sources-renseignements-gouvernement-federal-fonctionnaires-federaux-info-source.html

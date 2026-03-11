@@ -1,0 +1,5 @@
+institution_name_en: Immigration, Refugees and Citizenship Canada
+institution_name_fr: Immigration Réfugiés et Citoyenneté Canada
+gc_orgID: 2224
+infosource_url_en: https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/access-information-privacy/info-source/sources-information.html
+infosource_url_fr: https://www.canada.ca/fr/immigration-refugies-citoyennete/organisation/transparence/acces-information-protection/info-source/sources-renseignements.html

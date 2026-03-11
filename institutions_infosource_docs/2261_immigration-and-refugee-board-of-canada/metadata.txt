@@ -1,0 +1,5 @@
+institution_name_en: Immigration and Refugee Board of Canada
+institution_name_fr: Commission de l’immigration et du statut de réfugié du Canada
+gc_orgID: 2261
+infosource_url_en: https://irb-cisr.gc.ca/en/transparency/atip/Pages/infosource.aspx
+infosource_url_fr: https://irb-cisr.gc.ca/fr/transparence/efvp/Pages/infosource.aspx

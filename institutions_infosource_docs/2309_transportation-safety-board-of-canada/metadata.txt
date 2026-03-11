@@ -1,0 +1,5 @@
+institution_name_en: Transportation Safety Board of Canada
+institution_name_fr: Bureau de la sécurité des transports du Canada
+gc_orgID: 2309
+infosource_url_en: http://tsb-bst.gc.ca/eng/divulgation-disclosure/infosource/index.asp
+infosource_url_fr: http://tsb-bst.gc.ca/fra/divulgation-disclosure/infosource/index.asp

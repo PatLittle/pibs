@@ -1,0 +1,5 @@
+institution_name_en: Great Lakes Pilotage Authority
+institution_name_fr: Administration de pilotage des Grands Lacs
+gc_orgID: 3656
+infosource_url_en: https://www.glpa-apgl.com/reports/information-sources/information-source-2013-eng.pdf
+infosource_url_fr: http://www.glpa-apgl.com/fr/reports-and-documents/information-source/

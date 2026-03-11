@@ -1,0 +1,5 @@
+institution_name_en: Impact Assessment Agency of Canada
+institution_name_fr: Agence d’évaluation d’impact du Canada
+gc_orgID: 2245
+infosource_url_en: https://www.canada.ca/en/impact-assessment-agency/corporate/transparency/info-source.html
+infosource_url_fr: https://www.canada.ca/fr/agence-evaluation-impact/organisation/transparence/info-source.html

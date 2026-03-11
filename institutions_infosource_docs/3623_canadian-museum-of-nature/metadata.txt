@@ -1,0 +1,5 @@
+institution_name_en: Canadian Museum of Nature
+institution_name_fr: Musée canadien de la nature
+gc_orgID: 3623
+infosource_url_en: https://nature.ca/en/about-the-museum/governance/corporate-reports/transparency-and-accountability/
+infosource_url_fr: https://nature.ca/fr/au-sujet-du-musee/gouvernance/rapports-dentreprise/transparence-et-responsabilisation/

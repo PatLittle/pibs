@@ -1,0 +1,5 @@
+institution_name_en: Canadian Museum of Immigration at Pier 21
+institution_name_fr: Musée canadien de l’immigration du Quai 21
+gc_orgID: 3622
+infosource_url_en: https://pier21.ca/sites/default/files/corporate-reports/2019_Info_Source_EN.pdf
+infosource_url_fr: https://quai21.ca/sites/default/files/rapports-corporatifs/2019_Info_Source_FR_CMIP21.pdf

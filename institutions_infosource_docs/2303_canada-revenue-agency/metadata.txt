@@ -1,0 +1,5 @@
+institution_name_en: Canada Revenue Agency
+institution_name_fr: Agence du revenu du Canada
+gc_orgID: 2303
+infosource_url_en: https://www.canada.ca/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/information-programs-information-holdings-sources-federal-government-employee-information.html
+infosource_url_fr: https://www.canada.ca/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/renseignements-programmes-fonds-renseignements-sources-renseignements-gouvernement-federal-fonctionnaires-federaux.html

@@ -1,0 +1,5 @@
+institution_name_en: Canada Council for the Arts
+institution_name_fr: Conseil des Arts du Canada
+gc_orgID: 3618
+infosource_url_en: http://canadacouncil.ca/about/public-accountability/info-source
+infosource_url_fr: http://conseildesarts.ca/a-propos/responsabilite-publique/info-source

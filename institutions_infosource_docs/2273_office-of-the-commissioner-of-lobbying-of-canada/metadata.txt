@@ -1,0 +1,5 @@
+institution_name_en: Office of the Commissioner of Lobbying of Canada
+institution_name_fr: Commissariat au lobbying du Canada
+gc_orgID: 2273
+infosource_url_en: https://lobbycanada.gc.ca/en/info-source/
+infosource_url_fr: https://lobbycanada.gc.ca/fr/info-source/
