@@ -108,6 +108,75 @@
       });
   }
 
+  function hasJqueryModal() {
+    return !!(window.jQuery && window.jQuery.fn && typeof window.jQuery.fn.modal === "function");
+  }
+
+  function getRowModalElement() {
+    return document.getElementById("row-detail-modal");
+  }
+
+  function getRowModalBackdropElement() {
+    return document.getElementById("row-detail-modal-backdrop");
+  }
+
+  function ensureRowModalBackdrop() {
+    if (getRowModalBackdropElement()) {
+      return;
+    }
+    const backdrop = document.createElement("div");
+    backdrop.id = "row-detail-modal-backdrop";
+    backdrop.className = "modal-backdrop fade in";
+    document.body.appendChild(backdrop);
+  }
+
+  function removeRowModalBackdrop() {
+    const backdrop = getRowModalBackdropElement();
+    if (backdrop && backdrop.parentNode) {
+      backdrop.parentNode.removeChild(backdrop);
+    }
+  }
+
+  function isRowModalVisible() {
+    const modal = getRowModalElement();
+    if (!modal) {
+      return false;
+    }
+    return modal.style.display === "block";
+  }
+
+  function openRowDetailsModalUi() {
+    const modal = getRowModalElement();
+    if (!modal) {
+      return;
+    }
+    if (hasJqueryModal()) {
+      window.jQuery(modal).modal("show");
+      return;
+    }
+    modal.style.display = "block";
+    modal.classList.add("in");
+    modal.setAttribute("aria-hidden", "false");
+    document.body.classList.add("row-detail-modal-open");
+    ensureRowModalBackdrop();
+  }
+
+  function closeRowDetailsModalUi() {
+    const modal = getRowModalElement();
+    if (!modal) {
+      return;
+    }
+    if (hasJqueryModal()) {
+      window.jQuery(modal).modal("hide");
+      return;
+    }
+    modal.style.display = "none";
+    modal.classList.remove("in");
+    modal.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("row-detail-modal-open");
+    removeRowModalBackdrop();
+  }
+
   function ensureRowModal() {
     if (document.getElementById("row-detail-modal")) {
       return;
@@ -139,6 +208,30 @@
     ].join("");
 
     document.body.insertAdjacentHTML("beforeend", modalHtml);
+
+    const modal = getRowModalElement();
+    if (modal) {
+      modal.setAttribute("aria-hidden", "true");
+      modal.addEventListener("click", function (event) {
+        if (!hasJqueryModal() && event.target === modal) {
+          closeRowDetailsModalUi();
+        }
+      });
+      modal.querySelectorAll('[data-dismiss="modal"]').forEach(function (button) {
+        button.addEventListener("click", function (event) {
+          if (!hasJqueryModal()) {
+            event.preventDefault();
+            closeRowDetailsModalUi();
+          }
+        });
+      });
+    }
+
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape" && !hasJqueryModal() && isRowModalVisible()) {
+        closeRowDetailsModalUi();
+      }
+    });
 
     const downloadButton = document.getElementById("row-detail-download-pdf");
     if (downloadButton) {
@@ -200,9 +293,7 @@
     modalTitle.textContent = ACTIVE_MODAL_PAYLOAD.rowTitle;
     modalSubtitle.textContent = ACTIVE_MODAL_PAYLOAD.tableLabel;
     modalBody.innerHTML = buildModalRows(dataset.columns, row);
-    if (window.jQuery) {
-      window.jQuery("#row-detail-modal").modal("show");
-    }
+    openRowDetailsModalUi();
   }
 
   function wireRowModal(tableId) {
