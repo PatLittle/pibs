@@ -1,0 +1,43 @@
+name: Combine PIB Tables
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "institutions_infosource_docs/**/pib_table_en_fr.csv"
+      - "infosource_institutions_en_fr.csv"
+      - "combine_pib_tables.py"
+      - ".github/workflows/combine-pib-tables.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  combine:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build combined CSV
+        run: python combine_pib_tables.py
+
+      - name: Commit combined CSV if changed
+        run: |
+          if git diff --quiet -- institutions_infosource_docs/pib_table_en_fr_all.csv site/data/pib_table_en_fr_all.csv; then
+            echo "No combined CSV changes."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add institutions_infosource_docs/pib_table_en_fr_all.csv site/data/pib_table_en_fr_all.csv
+          git commit -m "chore: update combined PIB table"
+          git push

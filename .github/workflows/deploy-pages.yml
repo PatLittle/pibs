@@ -8,6 +8,7 @@ on:
       - "site/**"
       - "spib_en_fr.csv"
       - "infosource_institutions_en_fr.csv"
+      - "institutions_infosource_docs/pib_table_en_fr_all.csv"
       - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
 
@@ -26,6 +27,7 @@ jobs:
           mkdir -p site/data
           cp spib_en_fr.csv site/data/spib_en_fr.csv
           cp infosource_institutions_en_fr.csv site/data/infosource_institutions_en_fr.csv
+          cp institutions_infosource_docs/pib_table_en_fr_all.csv site/data/pib_table_en_fr_all.csv
 
       - name: Deploy to pages branch
         uses: JamesIves/github-pages-deploy-action@v4
@@ -33,4 +35,3 @@ jobs:
           branch: pages
           folder: site
           clean: true
-
