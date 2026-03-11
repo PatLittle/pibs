@@ -24,6 +24,12 @@
         "infosource_url_fr",
       ],
     },
+    {
+      containerId: "combined-pibs-table-container",
+      csvPath: "data/pib_table_en_fr_all.csv",
+      tableId: "combined-pibs-table",
+      columns: [],
+    },
   ];
 
   function sanitizeText(value) {

@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Standard personal information banks and Info Source institutions in bilingual WET tables."
+      content="Combined bilingual standard PIB dataset by institution."
     />
-    <title>Info Source Data Explorer</title>
+    <title>Combined Standard PIBs</title>
 
     <link
       rel="stylesheet"
@@ -48,42 +48,23 @@
     <gcds-header lang-href="#" skip-to-href="#main-content">
       <gcds-search slot="search"></gcds-search>
       <gcds-breadcrumbs slot="breadcrumb">
-        <gcds-breadcrumbs-item href="#">Home</gcds-breadcrumbs-item>
-        <gcds-breadcrumbs-item href="#">Info Source</gcds-breadcrumbs-item>
+        <gcds-breadcrumbs-item href="index.html">Info Source Data Explorer</gcds-breadcrumbs-item>
+        <gcds-breadcrumbs-item href="#">Combined Standard PIBs</gcds-breadcrumbs-item>
       </gcds-breadcrumbs>
     </gcds-header>
 
     <gcds-container id="main-content" layout="page" tag="main">
       <section>
-        <gcds-heading tag="h1">Info Source Data Explorer</gcds-heading>
+        <gcds-heading tag="h1">Combined Standard PIBs</gcds-heading>
         <gcds-text>
-          This page publishes two bilingual datasets as searchable WET tables:
-          Standard Personal Information Banks (SPIBs) and Info Source institutions.
+          Combined bilingual table from all institution-level <code>pib_table_en_fr.csv</code> files.
+          Includes <code>orgid</code>, <code>institution_name_en</code>, and
+          <code>institution_name_fr</code>.
         </gcds-text>
-      </section>
-
-      <section>
-        <gcds-heading tag="h2">Standard PIBs</gcds-heading>
         <gcds-text>
-          Source file: <code>data/spib_en_fr.csv</code>
+          Source file: <code>data/pib_table_en_fr_all.csv</code>
         </gcds-text>
-        <div id="spib-table-container" class="table-wrap" aria-live="polite"></div>
-      </section>
-
-      <section>
-        <gcds-heading tag="h2">Institutions</gcds-heading>
-        <gcds-text>
-          Source file: <code>data/infosource_institutions_en_fr.csv</code>
-        </gcds-text>
-        <div id="institutions-table-container" class="table-wrap" aria-live="polite"></div>
-      </section>
-
-      <section>
-        <gcds-heading tag="h2">Combined Standard PIBs</gcds-heading>
-        <gcds-text>
-          Open the dedicated combined table page:
-          <a href="combined-pibs.html">combined-pibs.html</a>
-        </gcds-text>
+        <div id="combined-pibs-table-container" class="table-wrap" aria-live="polite"></div>
       </section>
 
       <gcds-date-modified>2026-03-11</gcds-date-modified>
@@ -92,7 +73,7 @@
     <gcds-footer
       display="full"
       contextual-heading="Data sources"
-      contextual-links='{ "Standard PIBs CSV": "data/spib_en_fr.csv", "Institutions CSV": "data/infosource_institutions_en_fr.csv", "Combined PIBs CSV": "data/pib_table_en_fr_all.csv", "Combined PIBs page": "combined-pibs.html" }'
+      contextual-links='{ "Combined PIBs CSV": "data/pib_table_en_fr_all.csv", "Back to Explorer": "index.html" }'
     >
     </gcds-footer>
 
