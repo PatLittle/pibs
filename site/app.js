@@ -47,6 +47,13 @@
       tableLabel: "Standard Classes of Records",
       columns: [],
     },
+    {
+      containerId: "pi-categories-table-container",
+      csvPath: "data/pi_categories_en_fr.csv",
+      tableId: "pi-categories-table",
+      tableLabel: "Categories of Personal Information",
+      columns: ["PI_CAT_ID", "name_en", "name_fr", "examples_en", "examples_fr"],
+    },
   ];
 
   function sanitizeText(value) {
@@ -311,6 +318,7 @@
     const possibleTitle =
       row.title_en ||
       row.title ||
+      row.name_en ||
       row.harmonized_name ||
       row.institution_name_en ||
       dataset.tableLabel ||

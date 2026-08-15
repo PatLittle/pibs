@@ -11,6 +11,7 @@ Original file is located at
 **Last updated:** 2026-08-14
 
 Scrapes the SPIB entries (EN + FR), normalizes bilingual fields, aligns bank prefixes across languages (e.g., **PSE ↔ POE**, **PSU ↔ POU**), preserves embedded links, merges EN/FR rows, and exports CSV/Excel.
+It also exports the bilingual Categories of Personal Information list as `pi_categories_en_fr.csv`.
 The output also classifies each bank with the Annex B `pib_type` lookup.
 
 **Sources**
@@ -35,9 +36,44 @@ URL_EN = 'https://www.canada.ca/en/treasury-board-secretariat/services/access-in
 URL_FR = 'https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html'
 CSV_PATH = 'spib_en_fr.csv'
 XLSX_PATH = 'spib_en_fr.xlsx'
+PI_CATEGORIES_CSV_PATH = 'pi_categories_en_fr.csv'
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (compatible; SPIB-Scraper/1.1; +https://example.local)'
 }
+
+SPIB_EXCLUDED_ENTRY_IDS = {'categories'}
+
+# The source lists are ordered differently, so pair categories by their translated names.
+# The French source currently also contains one French-only category, which is reported below.
+CATEGORY_NAME_MAP_EN_TO_FR = {
+    'Biographical information': 'Renseignements biographiques',
+    'Biometric information': 'Données biométriques',
+    'Contact information': 'Coordonnées',
+    'Citizenship status': 'Citoyenneté',
+    'Credit card information': 'Renseignements ayant trait à une carte de crédit',
+    'Credit history': 'Antécédents en matière de crédit',
+    'Criminal checks / history': 'Vérifications de casier judiciaire/antécédents criminels',
+    'Date of birth': 'Date de naissance',
+    'Date of death': 'Date du décès',
+    'Employee identification number': 'Numéro d’identification d’employé',
+    'Employment equity information': 'Renseignements sur l’équité en matière d’emploi',
+    'Employee personnel information': 'Renseignements personnels de l’employé',
+    'Financial information': 'Renseignements financiers',
+    'Gender': 'Sexe',
+    'Language': 'Langue',
+    'Medical information': 'Renseignements médicaux',
+    'Name': 'Nom',
+    'Opinion or views of, or about, individuals': 'Opinions et points de vue sur, ou concernant, des individus',
+    'Other identification numbers': 'Autres numéros d’identité',
+    'Photos': 'Photos',
+    'Physical attributes': 'Signes distinctifs',
+    'Place of birth': 'Lieu de naissance',
+    'Place of death': 'Lieu du décès',
+    'Signature': 'Signature',
+    'Social Insurance Number (SIN)': 'Numéro d’assurance sociale (NAS)',
+}
+
+EXPECTED_FR_ONLY_CATEGORY_NAMES = {'Renseignements sur les études'}
 
 # Annex B code families (EN/FR) used to normalize bilingual bank prefixes.
 PREFIX_MAP_TO_EN = {
@@ -142,6 +178,8 @@ def iter_entry_sections(soup: BeautifulSoup, base_url: str):
         if not h3.has_attr('id'):
             continue
         entry_id = h3['id'].strip()
+        if entry_id in SPIB_EXCLUDED_ENTRY_IDS:
+            continue
         entry_title = h3.get_text(' ', strip=True)
         fragment = f'#{entry_id}'
         fields_raw, fields_links = {}, {}
@@ -175,6 +213,80 @@ def iter_entry_sections(soup: BeautifulSoup, base_url: str):
             'fields_links': fields_links,
         })
     return entries
+
+def split_category_item(text: str):
+    text = re.sub(r'\s+', ' ', (text or '').replace('\xa0', ' ')).strip()
+    marker = re.search(r'\s+\((?:e\.g\.|i\.e\.|p\.\s*ex\.|c\.-à-d\.)', text, flags=re.I)
+    if marker is None:
+        return text, ''
+
+    name = text[:marker.start()].strip()
+    examples = text[marker.start() + 2:].strip()
+    if examples.endswith(')'):
+        examples = examples[:-1].rstrip()
+    examples = re.sub(
+        r'^(?:e\.g\.|i\.e\.|p\.\s*ex\.|c\.-à-d\.)\s*,?\s*',
+        '',
+        examples,
+        flags=re.I,
+    )
+    return name, examples
+
+def extract_personal_information_categories(soup: BeautifulSoup, lang: str):
+    heading = soup.find(id='categories')
+    if heading is None:
+        raise RuntimeError(f'Could not find the #categories section in the {lang.upper()} source')
+    category_list = heading.find_next_sibling('ul')
+    if category_list is None:
+        raise RuntimeError(f'Could not find the #categories list in the {lang.upper()} source')
+
+    categories = []
+    for item in category_list.find_all('li', recursive=False):
+        name, examples = split_category_item(item.get_text(' ', strip=True))
+        if name:
+            categories.append({'name': name, 'examples': examples})
+    return categories
+
+def build_personal_information_categories(soup_en: BeautifulSoup, soup_fr: BeautifulSoup) -> pd.DataFrame:
+    categories_en = extract_personal_information_categories(soup_en, 'en')
+    categories_fr = extract_personal_information_categories(soup_fr, 'fr')
+    fr_by_name = {clean_label(item['name']): item for item in categories_fr}
+    if len(fr_by_name) != len(categories_fr):
+        raise RuntimeError('French personal information category names are not unique')
+
+    rows = []
+    matched_fr_names = set()
+    for index, en_item in enumerate(categories_en, start=1):
+        translated_name = CATEGORY_NAME_MAP_EN_TO_FR.get(en_item['name'])
+        if translated_name is None:
+            raise RuntimeError(f'Missing French translation mapping for EN category: {en_item["name"]}')
+        fr_item = fr_by_name.get(clean_label(translated_name))
+        if fr_item is None:
+            raise RuntimeError(
+                f'French category mapped from {en_item["name"]!r} was not found: {translated_name!r}'
+            )
+        matched_fr_names.add(fr_item['name'])
+        rows.append({
+            'PI_CAT_ID': f'PI_CAT-{index}',
+            'name_en': en_item['name'],
+            'name_fr': fr_item['name'],
+            'examples_en': en_item['examples'],
+            'examples_fr': fr_item['examples'],
+        })
+
+    unmatched_fr_names = {item['name'] for item in categories_fr} - matched_fr_names
+    if unmatched_fr_names != EXPECTED_FR_ONLY_CATEGORY_NAMES:
+        raise RuntimeError(
+            'Unexpected unmatched French categories: ' + ', '.join(sorted(unmatched_fr_names))
+        )
+    if len(rows) != len(CATEGORY_NAME_MAP_EN_TO_FR):
+        raise RuntimeError(
+            f'Expected {len(CATEGORY_NAME_MAP_EN_TO_FR)} mapped categories, generated {len(rows)}'
+        )
+
+    if unmatched_fr_names:
+        print('French-only categories without an EN-order ID: ' + ', '.join(sorted(unmatched_fr_names)))
+    return pd.DataFrame(rows, columns=['PI_CAT_ID', 'name_en', 'name_fr', 'examples_en', 'examples_fr'])
 
 def normalize_bank_number(value: str):
     if not isinstance(value, str):
@@ -391,6 +503,10 @@ df_en = normalize_entries(entries_en, URL_EN, lang='en')
 soup_fr = fetch_soup(URL_FR)
 entries_fr = iter_entry_sections(soup_fr, URL_FR)
 df_fr = normalize_entries(entries_fr, URL_FR, lang='fr')
+
+pi_categories = build_personal_information_categories(soup_en, soup_fr)
+pi_categories.to_csv(PI_CATEGORIES_CSV_PATH, index=False)
+print(f'Saved personal information categories CSV -> {PI_CATEGORIES_CSV_PATH}')
 
 print(f'Found EN entries: {len(df_en)}')
 print(f'Found FR entries: {len(df_fr)}')

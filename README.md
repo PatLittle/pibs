@@ -13,6 +13,10 @@ the script stops if either language is missing a matching record.
 `combine_pib_tables.py`. Both bilingual PIB outputs include a `pib_type` column derived
 from the bank code. Codes outside the six Annex B families are left unclassified.
 
+`spib_scraper_(1).py` also rebuilds `pi_categories_en_fr.csv` from the bilingual
+Categories of Personal Information lists. `PI_CAT-1` through `PI_CAT-25` follow the
+English source order and are paired to the differently ordered French list by translated name.
+
 ### Institution-specific PIBs by type
 
 ```mermaid
@@ -33,7 +37,6 @@ pie showData
     title Standard PIBs by type
     "Public Standard Bank" : 31
     "Employee Standard Bank" : 18
-    "Non-bank category row" : 1
 ```
 
 ## Institution change tracking

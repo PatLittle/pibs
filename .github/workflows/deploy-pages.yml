@@ -7,6 +7,7 @@ on:
     paths:
       - "site/**"
       - "spib_en_fr.csv"
+      - "pi_categories_en_fr.csv"
       - "standard_classes_of_records_en_fr.csv"
       - "infosource_institutions_en_fr.csv"
       - "institutions_infosource_docs/pib_table_en_fr_all.csv"
@@ -27,6 +28,7 @@ jobs:
         run: |
           mkdir -p site/data
           cp spib_en_fr.csv site/data/spib_en_fr.csv
+          cp pi_categories_en_fr.csv site/data/pi_categories_en_fr.csv
           cp standard_classes_of_records_en_fr.csv site/data/standard_classes_of_records_en_fr.csv
           cp infosource_institutions_en_fr.csv site/data/infosource_institutions_en_fr.csv
           cp institutions_infosource_docs/pib_table_en_fr_all.csv site/data/pib_table_en_fr_all.csv

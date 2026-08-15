@@ -1,0 +1,26 @@
+PI_CAT_ID,name_en,name_fr,examples_en,examples_fr
+PI_CAT-1,Biographical information,Renseignements biographiques,"work history, curriculum vitae, family information, hobbies, interests, etc.","antécédents professionnels, curriculum vitæ, renseignements sur la famille, passe temps, intérêts, etc."
+PI_CAT-2,Biometric information,Données biométriques,"blood type, eye or facial scan, DNA, finger / hand prints, etc.","groupe sanguin, balayage oculaire ou scan du visage, ADN, empreintes digitales ou empreintes de mains, etc."
+PI_CAT-3,Contact information,Coordonnées,"work and / or home information, including postal and e-mail addresses, telephone, fax, cell phone numbers, etc.","au travail et/ou à domicile, dont adresses postale et électronique, numéros de téléphone, de télécopieur et de téléphone cellulaire, etc."
+PI_CAT-4,Citizenship status,Citoyenneté,"citizen, landed immigrant, etc.","citoyen, immigrant reçu, etc."
+PI_CAT-5,Credit card information,Renseignements ayant trait à une carte de crédit,,
+PI_CAT-6,Credit history,Antécédents en matière de crédit,"credit reports / scores, liens, bankruptcies, third-party collections, etc.","rapports de solvabilité ou cote de crédit, privilèges fiscales, faillites, recouvrements par un tiers, etc."
+PI_CAT-7,Criminal checks / history,Vérifications de casier judiciaire/antécédents criminels,"information related to criminal record checks, investigations, charges, conviction dates and locations, pardons, etc.","information relative aux vérifications de casiers judiciaires, enquêtes, chefs d’accusation, dates et lieux de déclaration de culpabilité, pardons, etc."
+PI_CAT-8,Date of birth,Date de naissance,,
+PI_CAT-9,Date of death,Date du décès,,
+PI_CAT-10,Employee identification number,Numéro d’identification d’employé,"Personal Record Identifier, RCMP regimental number, Canadian Forces service number, etc.","le code d’identification de dossier personnel, le numéro matricule de la GRC, le numéro matricule des Forces canadiennes, etc."
+PI_CAT-11,Employment equity information,Renseignements sur l’équité en matière d’emploi,"information about aboriginal peoples, members of visible minorities, persons with disabilities, and women","renseignements sur les Autochtones, les membres des minorités visibles, les personnes handicapées, et les femmes."
+PI_CAT-12,Employee personnel information,Renseignements personnels de l’employé,"records of attendance and leave, notices of disciplinary action, alternative work arrangements, decisions concerning compensation and fitness for work, official languages qualifications, salary, deductions, level of security clearance, performance reviews and appraisals, rating board assessments, including evaluation notes from staffing boards, training and development course applications and evaluations, etc.","états des présences et des congés, avis de mesure disciplinaire, régimes de travail non conventionnels, décisions relatives à la rémunération et à l’aptitude au travail, qualifications au titre des langues officielles, salaire, déductions, niveau de sécurité, examens du rendement (évaluations), évaluations des jurys de sélection, y compris les notes d’évaluation provenant du comité de dotation en personnel, demandes de formation et de perfectionnement, et évaluations connexes, etc."
+PI_CAT-13,Financial information,Renseignements financiers,"income, investments, mortgages, loans, orders of garnishment, financial institution information for direct deposit and other banking purposes, including name and branch number of institution, account number(s) and name(s) on accounts, etc.","revenue, investissements, hypothèques, emprunts, ordonnances de saisie-arrêt, renseignements sur l’institution financière aux fins de dépôt direct, y compris le nom et le numéro de la succursale de l’institution financière, numéro(s) de compte, nom(s) figurant sur le compte, etc."
+PI_CAT-14,Gender,Sexe,,
+PI_CAT-15,Language,Langue,"mother tongue, official and other languages, etc.","langue maternelle, langues officielles et d’autres langues, etc."
+PI_CAT-16,Medical information,Renseignements médicaux,"psychological assessments, physical disabilities, blood type, medical conditions, etc.","les incapacités physiques, les évaluations psychologiques, le groupe sanguin, les conditions médicales, etc."
+PI_CAT-17,Name,Nom,"last name (surname/family name), given names (first, second or more), maiden name, nicknames, aliases, etc.","nom de famille, prénoms (premier, deuxième, ou plus), nom de fille, surnoms, pseudonymes, etc."
+PI_CAT-18,"Opinion or views of, or about, individuals","Opinions et points de vue sur, ou concernant, des individus",,
+PI_CAT-19,Other identification numbers,Autres numéros d’identité,"fishing license, driver’s license, etc.","permis de pêche, permis de conduire, etc."
+PI_CAT-20,Photos,Photos,,
+PI_CAT-21,Physical attributes,Signes distinctifs,"height, weight, colour of hair and eyes, physical markings (scars, tattoos, body piercing), etc.","taille, poids, couleur des cheveux et des yeux, marques physiques (cicatrices, tatouages, perçages corporels), etc."
+PI_CAT-22,Place of birth,Lieu de naissance,,
+PI_CAT-23,Place of death,Lieu du décès,,
+PI_CAT-24,Signature,Signature,,
+PI_CAT-25,Social Insurance Number (SIN),Numéro d’assurance sociale (NAS),,
