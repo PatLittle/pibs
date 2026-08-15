@@ -1,28 +1,21 @@
 [Skip to main content](#main-content)
 
-![](/themes/custom/mai/assets/img/icons/alert/yellowAlert.png)
-Multiple travel advisories in effect.
+×
 
-![](https://www.marineatlantic.ca/sites/default/files/2023-09/alert-yellow-triangle-icon.png)
+![Marine Atlantic](https://www.marineatlantic.ca/sites/default/files/2026-03/Frame%20427323440%20%281%29.png)
 
-Cancelled Sailing Advisory:
-Adverse Weather Conditions
+Marine Atlantic
+MA
+Free - On Google Play
 
-[View More](/travel-advisory#eid-1064)
+GET
 
-![](https://www.marineatlantic.ca/sites/default/files/2023-09/alert-blue-triangle-icon.png)
+![](https://www.marineatlantic.ca/sites/default/files/2023-09/info-blue-circle-icon.png)
 
-Potential Weather Impact:
-Forecasted Weather Conditions
+Customer Notice:
+Construction Near Argentia Terminal
 
-[View More](/travel-advisory#eid-1065)
-
-![](https://www.marineatlantic.ca/sites/default/files/2023-09/alert-yellow-triangle-icon.png)
-
-Restricted Sailing(s) Cancelled:
-Adverse Weather Conditions
-
-[View More](/travel-advisory#eid-1066)
+[View More](/travel-advisory#eid-1189)
 
 * [Our Blog](https://www.marineatlantic.ca/journey)
 * [Offers](https://www.marineatlantic.ca/offers-promotions)
@@ -43,9 +36,31 @@ Search key words on the site
   + [Sailing Routes](https://www.marineatlantic.ca/sailing-information/sailing-routes)
   + [Schedule](https://www.marineatlantic.ca/sailing-information/schedule)
   + [Rates](https://www.marineatlantic.ca/sailing-information/ferry-rates)
+    +
+    - [Argentia, NL <-> North Sydney, NS](https://www.marineatlantic.ca/sailing-information/ferry-rates/argentia-nl-north-sydney-ns)
+    - [Port aux Basques, NL - North Sydney, NS](https://www.marineatlantic.ca/sailing-information/ferry-rates/port-aux-basques-nl-north-sydney-ns)
+    - [Special Fares](https://www.marineatlantic.ca/sailing-information/ferry-rates/special-fares)
   + [Ferry Safety](https://www.marineatlantic.ca/sailing-information/ferry-safety)
   + [Ferry Terminals](https://www.marineatlantic.ca/sailing-information/ferry-terminals)
+    +
+    - [Argentia, NL](https://www.marineatlantic.ca/sailing-information/terminals/argentia-nl)
+    - [North Sydney, NS](https://www.marineatlantic.ca/sailing-information/terminals/north-sydney-ns)
+    - [Port aux Basques, NL](https://www.marineatlantic.ca/sailing-information/terminals/port-aux-basques-nl)
   + [Travel Information](https://www.marineatlantic.ca/sailing-information/travel-information)
+    +
+    - [Accessibility](https://www.marineatlantic.ca/sailing-information/travel-information/accessibility)
+    - [Cancellations, Changes, and Compensation](https://www.marineatlantic.ca/sailing-information/travel-information/cancellations-changes-and-compensation)
+    - [Baggage](https://www.marineatlantic.ca/sailing-information/travel-information/baggage)
+    - [Loading and Unloading](https://www.marineatlantic.ca/sailing-information/travel-information/loading-and-unloading)
+    - [Frequently Asked Questions](https://www.marineatlantic.ca/sailing-information/travel-information/frequently-asked-questions)
+    - [Reservations and Check-In Time](https://www.marineatlantic.ca/sailing-information/travel-information/reservations-and-check-time)
+    - [Parking](https://www.marineatlantic.ca/sailing-information/travel-information/parking)
+    - [Safety and Security Policies](https://www.marineatlantic.ca/sailing-information/travel-information/safety-and-security-policies)
+    - [Cell Phone and Internet Service](https://www.marineatlantic.ca/sailing-information/travel-information/cell-phone-and-internet-service)
+    - [Travelling with Dangerous Goods](https://www.marineatlantic.ca/sailing-information/travel-information/dangerous-goods)
+    - [Travelling with Pets](https://www.marineatlantic.ca/sailing-information/travel-information/travelling-pets)
+    - [Travelling with Children](https://www.marineatlantic.ca/sailing-information/travel-information/travelling-children)
+    - [Travelling with an Electric Vehicle](https://www.marineatlantic.ca/sailing-information/travel-information/travelling-electric-vehicle)
 
   Close
 
@@ -82,8 +97,15 @@ Search key words on the site
   +
   + [Accommodations](https://www.marineatlantic.ca/onboard-experience/accommodations)
   + [Amenities & Facilities](https://www.marineatlantic.ca/onboard-experience/amenities-facilities)
+    +
+    - [Onboard Entertainment](https://www.marineatlantic.ca/onboard-experience/amenities-facilities/onboard-entertainment)
   + [Dining & Bars](https://www.marineatlantic.ca/onboard-experience/dining-bars)
   + [Our Fleet](https://www.marineatlantic.ca/onboard-experience/our-fleet)
+    +
+    - [*Ala'suinu*](https://www.marineatlantic.ca/onboard-experience/our-fleet/alasuinu)
+    - [*Blue Puttees*](https://www.marineatlantic.ca/onboard-experience/our-fleet/blue-puttees)
+    - [*Highlanders*](https://www.marineatlantic.ca/onboard-experience/our-fleet/highlanders)
+    - [*Leif Ericson*](https://www.marineatlantic.ca/onboard-experience/our-fleet/leif-ericson)
 
   Close
 
@@ -141,9 +163,13 @@ Search key words on the site
 * [Commercial Services](https://www.marineatlantic.ca/commercial-services)
   +
   + [Commercial Rates](https://www.marineatlantic.ca/commercial-services/commercial-rates)
+    +
+    - [Argentia, NL <-> North Sydney, NS](https://www.marineatlantic.ca/commercial-services/commercial-rates/argentia-nl-north-sydney-ns)
+    - [Port aux Basques, NL <-> North Sydney, NS](https://www.marineatlantic.ca/commercial-services/commercial-rates/port-aux-basques-nl-north-sydney-ns)
   + [Commercial Traffic](https://www.marineatlantic.ca/commercial-services/commercial-traffic)
   + [Sailing Reports & Traffic Details](https://www.marineatlantic.ca/commercial-services/sailing-traffic-information)
   + [Lot Status and Commercial Queue Summary](https://www.marineatlantic.ca/commercial-services/lot-status-and-commercial-queue-summary)
+  + [Commercial Cancellations, Changes, and Compensation](https://www.marineatlantic.ca/commercial-services/commercial-cancellations-changes-and-compensation)
   + [Commercial Schedule](https://www.marineatlantic.ca/commercial-services/commercial-schedule)
   + [Transporting Dangerous Goods and Cargo](https://www.marineatlantic.ca/commercial-services/transporting-dangerous-goods-and-cargo)
   + [Commercial News & Updates](https://www.marineatlantic.ca/commercial-services/commercial-news-updates)
@@ -263,6 +289,10 @@ Close
 
 ### Travel & Hospitality Disclosures
 
+* [Marine Atlantic Travel & Hospitality Disclosures - May 2026](https://www.marineatlantic.ca/sites/default/files/2026-06/Travel-and-Hospitality-Disclosures-May-2026.pdf%20)
+* [Marine Atlantic Travel & Hospitality Disclosures - April 2026](https://www.marineatlantic.ca/sites/default/files/2026-05/Travel-and-Hospitality-Disclosures-April-2026.pdf%20)
+* [Marine Atlantic Travel & Hospitality Disclosures - March 2026](https://www.marineatlantic.ca/sites/default/files/2026-05/Travel-and-Hospitality-Disclosures-March-2026-v2.pdf)
+* [Marine Atlantic Travel & Hospitality Disclosures - February 2026](https://www.marineatlantic.ca/sites/default/files/2026-04/Travel-and-Hospitality-Disclosures-February-2026.pdf)
 * [Marine Atlantic Travel & Hospitality Disclosures - January 2026](https://www.marineatlantic.ca/sites/default/files/2026-03/Travel-and-Hospitality-Disclosures-January-2026.pdf)
 * [Marine Atlantic Travel & Hospitality Disclosures - December 2025](https://www.marineatlantic.ca/sites/default/files/2026-01/Travel-and-Hospitality-Disclosures-December-2025.pdf%20)
 * [Marine Atlantic Travel & Hospitality Disclosures - November 2025](https://www.marineatlantic.ca/sites/default/files/2025-12/Travel-and-Hospitality-Disclosures-November-2025.pdf%20)
@@ -352,6 +382,7 @@ Close
 * [Marine Atlantic Quarterly Travel & Hospitality Disclosures - Q2 2018](/sites/default/files/2019-02/marine_atlantic_quarterly_travel_and_hospitality_disclosures_-_q2_2018.pdf)
 * [Marine Atlantic Quarterly Travel & Hospitality Disclosures - Q1 2018](/sites/default/files/2019-02/marine_atlantic_quarterly_travel_and_hospitality_disclosures_-_q1_2018_v2.pdf)
 * [Marine Atlantic Quarterly Travel & Hospitality Disclosures - Q4 2017](/sites/default/files/2019-02/marine_atlantic_quarterly_travel_and_hospitality_disclosures_q4_2017_-_english.pdf)
+* [Annual Disclosure for Travel, Hospitality and Conferences 2025 - 2026](https://www.marineatlantic.ca/sites/default/files/2026-07/F2025-2026-Annual-Disclosure-Travel-Hospitality-Conferences.pdf%20)
 * [Annual Disclosure for Travel, Hospitality and Conferences 2024 - 2025](https://www.marineatlantic.ca/sites/default/files/2025-11/F2024-2025-Annual-Disclosure-Travel-Hospitality-Conferences.pdf%20)
 * [Annual Disclosure for Travel, Hospitality and Conferences 2023 - 2024](https://www.marineatlantic.ca/sites/default/files/2024-12/F2023-2024%20Annual%20Corporate%20Disclosure.pdf)
 * [Annual Disclosure for Travel, Hospitality and Conferences 2022 - 2023](https://www.marineatlantic.ca/sites/default/files/2023-06/Annual-Disclosure-Travel-Hospitality-Conferences-2022-2023.pdf)
@@ -382,22 +413,10 @@ Close
 ### Access to Information Reports
 
 * [2024-25 Annual Report on the Access to Information Act](https://www.marineatlantic.ca/sites/default/files/2025-10/2024-2025_Annual_Report_on_the_Access_to_Information_Act.pdf)
-* [2023-24 Annual Report on the Access to Information Act](https://www.marineatlantic.ca/sites/default/files/2024-09/2023-2024_Annual_Report_on_the_Access_to_Information_Act.pdf)
-* [2017-18 Annual Report on the Access to Information Act](/sites/default/files/2019-04/mai_2017-18_atip_annual_report_-_english.pdf)
-* [2016-17 Annual Report on the Access to Information Act](/sites/default/files/2019-02/2016_-_17_annual_report_on_the_access_to_information_and_privacy_act.pdf)
-* [2015-16 Annual Report on the Access to Information Act](/sites/default/files/2019-02/2015_-_16_annual_report_on_the_access_to_information_and_privacy_act.pdf)
-* [2014-15 Annual Report on the Access to Information Act](/sites/default/files/2019-02/2014_-_15_annual_report_on_the_access_to_information_and_privacy_act.pdf)
-* [2013-14 Annual Report on the Access to Information Act](/sites/default/files/2019-02/mai-2013-14-annual-report-on-the-access-to-information-and-privacy-act.pdf)
 
 ### Privacy Act Reports
 
 * [2024-25 Annual Report on the Privacy Act](https://www.marineatlantic.ca/sites/default/files/2025-10/2024-2025_Annual_Report_on_the_Privacy_Act.pdf)
-* [2023-24 Annual Report on the Privacy Act](https://www.marineatlantic.ca/sites/default/files/2024-09/2023-2024_Annual_Report_on_the_Privacy_Act.pdf)
-* [2017-18 Annual Report on the Privacy Act](/sites/default/files/2019-04/mai_2017-18_atip_annual_report_-_english.pdf)
-* [2016-17 Annual Report on the Privacy Act](/sites/default/files/2019-02/2016_-_17_annual_report_on_the_access_to_information_and_privacy_act.pdf)
-* [2015-16 Annual Report on the Privacy Act](/sites/default/files/2019-02/2015_-_16_annual_report_on_the_access_to_information_and_privacy_act.pdf)
-* [2014-15 Annual Report on the Privacy Act](/sites/default/files/2019-02/2014_-_15_annual_report_on_the_access_to_information_and_privacy_act.pdf)
-* [2013-14 Annual Report on the Privacy Act](/sites/default/files/2019-02/mai-2013-14-annual-report-on-the-access-to-information-and-privacy-act.pdf)
 
 ### Special Examination
 
@@ -416,6 +435,7 @@ Close
 
 ### Bill S-211 - Fighting Against Forced Labour and Child Labour in Supply Chains Act (Canada)
 
+* [2025-2026 Bill S-211 - Fighting Against Forced Labour and Child Labour in Supply Chain Report (Canada)](https://www.marineatlantic.ca/sites/default/files/2026-05/2025-2026%20Bill%20S-211%20-%20Fighting%20Against%20Forced%20Labour%20and%20Child%20Labour%20in%20Supply%20Chain%20Report%20%28Canada%29.pdf)
 * [2024-2025 Bill S-211 - Fighting Against Forced Labour and Child Labour in Supply Chain Report (Canada)](https://www.marineatlantic.ca/sites/default/files/2025-06/2025%20MAI%20Report%20-%20Fighting%20against%20forced%20and%20child%20labour%20053125.pdf)
 * [2023-2024 Bill S-211 - Fighting Against Forced Labour and Child Labour in Supply Chain Report (Canada)](https://www.marineatlantic.ca/sites/default/files/2024-11/2024%20MAI%20Report%20-%20Bill%20S-211%20Fighting%20against%20forced%20and%20child%20labour%20SignedMH.pdf)
 
@@ -455,9 +475,9 @@ image/svg+xml](https://play.google.com/store/apps/details?id=com.consumer.mai)
   Reservations & Customer Relations:
   1-800-341-7981
 
-  Reservations: [[email protected]](/cdn-cgi/l/email-protection#fada889f899f888c9b8e93959489ba979b8893949f9b8e969b948e9399d4999b)
+  Reservations: [[email protected]](/cdn-cgi/l/email-protection#9ebeecfbedfbece8ffeaf7f1f0eddef3ffecf7f0fbffeaf2fff0eaf7fdb0fdff)
 
-  Customer Relations: [[email protected]](/cdn-cgi/l/email-protection#3655434542595b534444535a57425f595845765b57445f585357425a5758425f55185557)
+  Customer Relations: [[email protected]](/cdn-cgi/l/email-protection#5f3c2a2c2b30323a2d2d3a333e2b3630312c1f323e2d36313a3e2b333e312b363c713c3e)
 * [About Us](https://www.marineatlantic.ca/about-us)
 
   + [Accessibility](https://www.marineatlantic.ca/sailing-information/travel-information/accessibility)
@@ -481,15 +501,3 @@ image/svg+xml](https://play.google.com/store/apps/details?id=com.consumer.mai)
   + [Terms & Conditions](https://www.marineatlantic.ca/sailing-information/travel-information/terms-and-conditions)
 
 © 2026 Marine Atlantic Inc.
-
-Close
-
-## Foot Passenger Bookings
-
-02/05/2026
-
-Customers who wish to make a foot-passenger-only booking - those travelling without a vehicle - are advised to make their reservation through our call center at 1-800-341-7981. All other customers can book online
-
-[Book Now](https://book.marineatlantic.ca/)
-
-Or visit [https://book.marineatlantic.ca](https://book.marineatlantic.ca/)

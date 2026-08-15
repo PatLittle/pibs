@@ -1,5 +1,6 @@
 institution_name_en: Farm Credit Canada
 institution_name_fr: Financement agricole Canada
 gc_orgID: 3616
-infosource_url_en: https://www.fcc-fac.ca/en/about-fcc/governance/transparency/info-source.html
-infosource_url_fr: https://www.fcc-fac.ca/fr/a-propos-de-fac/gouvernance/transparence/info-source.html
+infosource_url_en: https://www.fcc-fac.ca/en/about-fcc/governance/transparency/info-source
+infosource_url_fr: https://www.fcc-fac.ca/fr/a-propos-de-fac/gouvernance/transparence/info-source
+audit_timestamp_utc: 2026-08-15T08:18:52.034340+00:00

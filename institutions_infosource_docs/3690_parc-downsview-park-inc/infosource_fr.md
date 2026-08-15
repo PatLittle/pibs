@@ -24,29 +24,29 @@ xml version="1.0" encoding="UTF-8"?
 
 Alertes relatives au parc
 
-19 janv. 2026
+07 août 2026
 
--  Mise à jour sur le projet d’égout Black Creek de la Ville de Toronto
-
-Parc
-
-À l’automne 2025, la Ville de Toronto et le gouvernement du Canada ont annoncé une modernisation de l’infrastructure de traitement des eaux usées de
-
-04 nov. 2025
-
--  Interruption prévue du courant
+-  Réparation de la bordure au passage à niveau
 
 Parc
 
-Nous procéderons à une interruption temporaire du courant le 6 novembre de 0 h 30 à 6 h pour tester nos systèmes.
+Veuillez noter que des travaux de réparation de la bordure auront lieu au passage à niveau le jeudi 13 août 2026, entre 7 h et 16 h.
 
-10 oct. 2025
+23 juil. 2026
 
--  Fermeture du parking P2
+-  Fermeture du Canuck Pavilion le 24 juillet
 
 Parc
 
-Veuillez noter que la partie est du parking P2 sera fermée du lundi 13 octobre à 22 h au mardi 14 octobre à midi en raison d'un événement privé.
+Le Canuck Pavilion sera fermé le 24 juillet 2026 jusqu'au matin du 25 juillet. Nous vous prions de nous excuser pour la gêne occasionnée.
+
+22 juil. 2026
+
+-  Fermeture du bosquet Alouette
+
+Parc
+
+Veuillez éviter la zone du boisé Alouette pendant la durée des travaux d'amélioration forestière visant à préserver la santé et la durabilité de l
 
 [Plus d’alertes](https://parcdownsview.ca/nouvelles?type%5B0%5D=0&type%5B32%5D=32)
 
@@ -70,8 +70,6 @@ Toggle Search
 ## Responsive menu mobile icon
 
 Menu
-
-Certains événements sont faussement présentés comme se déroulant au Parc Downsview; nous n'organisons aucun marché d'artisanat. Pour obtenir des informations exactes sur les événements, [consultez le site https://downsviewpark.ca/events](https://parcdownsview.ca/evenements)
 
 [xml version="1.0" encoding="UTF-8"?
 
@@ -659,7 +657,7 @@ Carte du parc
 
 ![Carte du parc](/sites/default/files/2024-04/PDP_Map_Overall%202024.png)
 
-## Vous souhaitez devenir commanditaire ?
+## Vous souhaitez devenir commanditaire?
 
 [Devenir commanditaire](https://forms.office.com/Pages/ResponsePage.aspx?id=ZugEdPuu6Uu2b9F06sbgL3V8ra68vI9JsAdNLNzB0ZRUNUJKR01XQjVYUVVXSlZVM0NTM1hHMVlYQS4u "Devenez un commanditaire")
 
@@ -667,7 +665,7 @@ Carte du parc
 
 [Abonnez-vous à notre liste d’envoi](https://forms.office.com/r/3GTc8dmhgG)
 
-## Vous cherchez à réserver un événement?
+## Vous souhaitez à réserver un événement?
 
 Situé à proximité des autoroutes de la série 400 et accessible par TTC/GO, le Parc Downsview est l'endroit idéal pour organiser votre prochain événement!
 
@@ -684,7 +682,7 @@ Downsview Logo Icon
 * [Location](https://parcdownsview.ca/location)
 * [Transparence](https://parcdownsview.ca/transparence)
 * [À propos de nous](https://downsviewpark.ca/about)
-* [Accessibility Guide](https://downsviewpark.ca/accessibility-guide)
+* [Guide d’accessibilité](https://parcdownsview.ca/Guide-daccessibilite)
 * [Devenez un partenaire](https://parcdownsview.ca/devenez-un-partenaire)
 
 Copyright 2021-2026, Société immobilière du Canada limitée et Société immobilière du Canada CLC limitée. Tous droits réservés.

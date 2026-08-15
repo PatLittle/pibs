@@ -1,0 +1,6 @@
+institution_name_en: Quebec Port Authority
+institution_name_fr: Administration portuaire de Québec
+gc_orgID: 3490
+infosource_url_en: https://www.portquebec.ca/en/access-to-information-requests/
+infosource_url_fr: https://www.portquebec.ca/demande-dacces-a-linformation/
+audit_timestamp_utc: 2026-08-15T08:18:51.286167+00:00

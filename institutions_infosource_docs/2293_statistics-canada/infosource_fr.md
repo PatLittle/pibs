@@ -7,7 +7,7 @@
 
 * [Englishen](/en/about/transparency/publications-information-holdings/info-source)
 
-[![Government of Canada](/themes/custom/stc_bootstrap/assets/sig-blk-gov-fr.svg)](https://www.canada.ca/fr.html)
+[![Gouvernement du Canada](/themes/custom/stc_bootstrap/assets/sig-blk-gov-fr.svg)](https://www.canada.ca/fr.html)
 
 ## Recherche et menus
 

@@ -1,5 +1,6 @@
 institution_name_en: Veterans Affairs Canada
 institution_name_fr: Anciens Combattants Canada
 gc_orgID: 2239
-infosource_url_en: http://www.veterans.gc.ca/eng/about-us/organization/access-to-information-privacy/info-source
-infosource_url_fr: http://www.veterans.gc.ca/fra/about-us/organization/access-to-information-privacy/info-source
+infosource_url_en: https://www.veterans.gc.ca/en/info-source
+infosource_url_fr: https://www.veterans.gc.ca/fr/info-source
+audit_timestamp_utc: 2026-08-15T08:18:41.320204+00:00

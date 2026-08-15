@@ -1,5 +1,6 @@
 institution_name_en: Federal Public Service Health Care Plan Administration Authority
 institution_name_fr: Administration du Régime de soins de santé de la fonction publique fédérale
 gc_orgID: na
-infosource_url_en: http://www.pshcp.ca/about-the-pshcp/atip/infosourceen.aspx
+infosource_url_en: https://pshcp.ca/about-the-pshcp/atip/infosourceen/
 infosource_url_fr: https://www.rssfp.ca/a-propos-du-rssfp/aiprp/infosourcefr/
+audit_timestamp_utc: 2026-08-15T08:19:01.993848+00:00

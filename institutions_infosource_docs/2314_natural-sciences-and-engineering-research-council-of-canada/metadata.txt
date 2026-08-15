@@ -1,0 +1,6 @@
+institution_name_en: Natural Sciences and Engineering Research Council of Canada
+institution_name_fr: Conseil de recherches en sciences naturelles et en génie du Canada
+gc_orgID: 2314
+infosource_url_en: https://nserc-crsng.canada.ca/en/about/transparency/info-source
+infosource_url_fr: https://nserc-crsng.canada.ca/fr/propos-de/transparence/info-source
+audit_timestamp_utc: 2026-08-15T08:18:48.999440+00:00

@@ -4,7 +4,7 @@
 ## Language selection
 
 * [Français
-  fr](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/commission-lieux-monuments-historiques-canada.html)
+  fr](/fr/secretariat-conseil-tresor/services/acces-information-protection-renseignements-personnels/acces-information/info-source/commission-lieux-monuments-historiques-canada.html)
 
 [![Government of Canada](/etc/designs/canada/wet-boew/assets/sig-blk-en.svg)
  /
@@ -173,7 +173,7 @@ Gatineau QC  J8X 0B3
 
 ## Page details
 
-2023-09-29
+2026-03-23
 
 ## About this site
 

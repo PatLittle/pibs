@@ -4,12 +4,6 @@ BDC utilise des témoins de navigation (cookies) pour améliorer votre expérien
 
 Pour en savoir plus, consultez notre [Politique de confidentialité](/fr/confidentialite).
 
-J’ai compris
-
-**Incertitude commerciale:** Explorez les [ressources et des outils](/fr/soutien-special/tarifs) pour votre entreprise.
-
-**Incertitude commerciale:** Explorez les [solutions, les ressources et des outils](/fr/soutien-special/tarifs) pour votre entreprise.
-
 [![Logo - Banque de développement du Canada - BDC](/assets/icons/bdc_logo.svg)](/fr)
 
 [EN](/en/transparency/infosource)
@@ -56,6 +50,7 @@ Rechercher
 
   + [Des prêts et des conseils pour acheter ou vendre une entreprise
     En savoir plus](/fr/transfert-entreprise)
+  + [Programme de soutien à la foresterie](/fr/solutions/programme-soutien-foresterie)
   + [Soutien commercial: prêt Pivoter pour se propulser](/fr/financement/pret-pivoter-propulser)
   + [Financement pour entreprises en activité depuis 12 à 24 mois](/fr/financement/pret-demarrage-entreprise)
   + [Partenaires de financement](/fr/financement/partenaires)
@@ -79,8 +74,8 @@ Rechercher
     Améliorez vos compétences en gestion](/fr/consultation/leadership-gestion)
   + [Croissance, marketing et ventes
     Propulsez vos ventes avec des activités ciblées](/fr/consultation/ventes-marketing)
-  + [Technologie
-    Faites le virage numérique en toute confiance](/fr/consultation/technologie)
+  + [Expansion internationale
+    Accélérez votre entrée sur les marchés étrangers](/fr/consultation/expansion-internationale)
   + [Opérations
     Optimisez vos opérations pour la croissance](/fr/consultation/efficacite-operationnelle)
   + [Risque et conformité
@@ -90,15 +85,47 @@ Rechercher
 
   + [Résilience commerciale
     Protégez votre entreprise contre l’incertitude commerciale](/fr/consultation/resilience-commerciale)
-  + [Programme de la donnée à l’IA
-    Modernisez votre entreprise grâce aux possibilités de l’IA](/fr/consultation/programme-donnee-ai)
   + [Programme direction croissance
     Renforcez les piliers d’une croissance durable et concrète](/fr/consultation/programme-direction-croissance)
 
   ### À la une
 
-  + [Des prêts et des conseils pour acheter ou vendre une entreprise
-    En savoir plus](/fr/transfert-entreprise)
+  + [![](/globalassets/digizuite/62238-female-construction-worker-with-clipboard-standing-near-stack-of-woods.png?mediaformatid=50955&v=4a0644)
+
+    Programme de soutien à la foresterie
+    Gérez l'incertitude commerciale grâce à des conseils d’experts et du financement](/fr/solutions/programme-soutien-foresterie)
+* Solutions
+
+  Fermer
+
+  Menu principal
+
+  ## Solutions
+
+  ### Soutien spécialisé Soutien spécialisé
+
+  + [Incertitude commerciale et tarifs
+    Financement et conseils pour vous soutenir](/fr/soutien-special/tarifs)
+  + [Programme de soutien aux industries de l’acier et de l’aluminium
+    Soutien financier face aux tarifs douaniers](/fr/solutions/programme-soutien-acier-aluminium)
+  + [Programme de soutien à la foresterie
+    Conseils et financement pour aider votre entreprise forestière](/fr/solutions/programme-soutien-foresterie)
+
+  ### Opportunités stratégiques Opportunités stratégiques
+
+  + [Transfert d’entreprise
+    Acheter ou vendre une entreprise](/fr/transfert-entreprise)
+  + [LIFT
+    IA, outils numériques et équipement de pointe](/fr/solutions/lift)
+  + [Défense
+    Solutions pour le secteur de la défense](/fr/solutions/defense)
+
+  ### À la une
+
+  + [![](/globalassets/digizuite/62238-female-construction-worker-with-clipboard-standing-near-stack-of-woods.png?mediaformatid=50955&v=4a0644)
+
+    Programme de soutien à la foresterie
+    Conseils de spécialistes et financement pour vous aider à protéger vos activités](/fr/solutions/programme-soutien-foresterie)
 * Ressources
 
   Fermer
@@ -133,17 +160,15 @@ Rechercher
 
   ### À la une
 
-  + [![](/globalassets/digizuite/46226-gated-business-plan-template-icon-en.png?mediaformatid=50957&v=492fce)
+  + [![](/globalassets/digizuite/46226-gated-business-plan-template-icon-en.png?mediaformatid=50957&v=498240)
 
     Modèle de plan d'affaires](/fr/articles-outils/boite-outils-entrepreneur/gabarits-documents-guides-affaires/modele-plan-affaires)
-  + [![](/globalassets/digizuite/46228-gated-business-loan-calculator-icon-en.png?mediaformatid=50957&v=492fce)
+  + [![](/globalassets/digizuite/46228-gated-business-loan-calculator-icon-en.png?mediaformatid=50957&v=498240)
 
     Calculateur de prêt commercial](/fr/articles-outils/boite-outils-entrepreneur/outils-financiers/calculateur-pret-commercial)
   + [Glossaire financier](/fr/articles-outils/boite-outils-entrepreneur/gabarits-documents-guides-affaires/glossaire)
   + [Centre d’action climatique](/fr/articles-outils/developpement-durable/centre-action-climatique)
   + [Blogue](/fr/articles-outils/blogue)
-
-[Espace client](https://client.bdc.ca?language=fr)
 
 * [Industries](/fr/industries)
 * [À propos](/fr/a-propos)
@@ -200,6 +225,7 @@ Rechercher
 
   + [Des prêts et des conseils pour acheter ou vendre une entreprise
     En savoir plus](/fr/transfert-entreprise)
+  + [Programme de soutien à la foresterie](/fr/solutions/programme-soutien-foresterie)
   + [Soutien commercial: prêt Pivoter pour se propulser](/fr/financement/pret-pivoter-propulser)
   + [Financement pour entreprises en activité depuis 12 à 24 mois](/fr/financement/pret-demarrage-entreprise)
   + [Partenaires de financement](/fr/financement/partenaires)
@@ -223,8 +249,8 @@ Rechercher
     Améliorez vos compétences en gestion](/fr/consultation/leadership-gestion)
   + [Croissance, marketing et ventes
     Propulsez vos ventes avec des activités ciblées](/fr/consultation/ventes-marketing)
-  + [Technologie
-    Faites le virage numérique en toute confiance](/fr/consultation/technologie)
+  + [Expansion internationale
+    Accélérez votre entrée sur les marchés étrangers](/fr/consultation/expansion-internationale)
   + [Opérations
     Optimisez vos opérations pour la croissance](/fr/consultation/efficacite-operationnelle)
   + [Risque et conformité
@@ -234,15 +260,47 @@ Rechercher
 
   + [Résilience commerciale
     Protégez votre entreprise contre l’incertitude commerciale](/fr/consultation/resilience-commerciale)
-  + [Programme de la donnée à l’IA
-    Modernisez votre entreprise grâce aux possibilités de l’IA](/fr/consultation/programme-donnee-ai)
   + [Programme direction croissance
     Renforcez les piliers d’une croissance durable et concrète](/fr/consultation/programme-direction-croissance)
 
   ### À la une
 
-  + [Des prêts et des conseils pour acheter ou vendre une entreprise
-    En savoir plus](/fr/transfert-entreprise)
+  + [![](/globalassets/digizuite/62238-female-construction-worker-with-clipboard-standing-near-stack-of-woods.png?mediaformatid=50955&v=4a0644)
+
+    Programme de soutien à la foresterie
+    Gérez l'incertitude commerciale grâce à des conseils d’experts et du financement](/fr/solutions/programme-soutien-foresterie)
+* Solutions
+
+  Fermer
+
+  Menu principal
+
+  ## Solutions
+
+  ### Soutien spécialisé Soutien spécialisé
+
+  + [Incertitude commerciale et tarifs
+    Financement et conseils pour vous soutenir](/fr/soutien-special/tarifs)
+  + [Programme de soutien aux industries de l’acier et de l’aluminium
+    Soutien financier face aux tarifs douaniers](/fr/solutions/programme-soutien-acier-aluminium)
+  + [Programme de soutien à la foresterie
+    Conseils et financement pour aider votre entreprise forestière](/fr/solutions/programme-soutien-foresterie)
+
+  ### Opportunités stratégiques Opportunités stratégiques
+
+  + [Transfert d’entreprise
+    Acheter ou vendre une entreprise](/fr/transfert-entreprise)
+  + [LIFT
+    IA, outils numériques et équipement de pointe](/fr/solutions/lift)
+  + [Défense
+    Solutions pour le secteur de la défense](/fr/solutions/defense)
+
+  ### À la une
+
+  + [![](/globalassets/digizuite/62238-female-construction-worker-with-clipboard-standing-near-stack-of-woods.png?mediaformatid=50955&v=4a0644)
+
+    Programme de soutien à la foresterie
+    Conseils de spécialistes et financement pour vous aider à protéger vos activités](/fr/solutions/programme-soutien-foresterie)
 * Ressources
 
   Fermer
@@ -277,10 +335,10 @@ Rechercher
 
   ### À la une
 
-  + [![](/globalassets/digizuite/46226-gated-business-plan-template-icon-en.png?mediaformatid=50957&v=492fce)
+  + [![](/globalassets/digizuite/46226-gated-business-plan-template-icon-en.png?mediaformatid=50957&v=498240)
 
     Modèle de plan d'affaires](/fr/articles-outils/boite-outils-entrepreneur/gabarits-documents-guides-affaires/modele-plan-affaires)
-  + [![](/globalassets/digizuite/46228-gated-business-loan-calculator-icon-en.png?mediaformatid=50957&v=492fce)
+  + [![](/globalassets/digizuite/46228-gated-business-loan-calculator-icon-en.png?mediaformatid=50957&v=498240)
 
     Calculateur de prêt commercial](/fr/articles-outils/boite-outils-entrepreneur/outils-financiers/calculateur-pret-commercial)
   + [Glossaire financier](/fr/articles-outils/boite-outils-entrepreneur/gabarits-documents-guides-affaires/glossaire)
@@ -288,8 +346,6 @@ Rechercher
   + [Blogue](/fr/articles-outils/blogue)
 
 Rechercher
-
-[Espace client](https://client.bdc.ca?language=fr)
 
 Rechercher
 
@@ -609,46 +665,67 @@ S'inscrire
 
 Inscrivez-vous pour recevoir, par courriel, des conseils d’affaires, des articles et outils ainsi que de l’information sur nos solutions et événements. Vous pouvez retirer votre consentement à tout moment.
 
-Ce site est protégé par reCAPTCHA et la [politique de confidentialité](https://policies.google.com/privacy) et les [conditions d'utilisation](https://policies.google.com/terms) de Google s'appliquent.
+## Entrepreneur.es et partenaires
 
-Je suis
+* [Noir.es](/fr/je-suis/entrepreneur-noir "Noir.es")
+* [Autochtones](/fr/je-suis/entrepreneur-autochtone "Autochtones")
+* [Femmes](/fr/je-suis/femme-entrepreneure "Femmes")
+* [Jeunes (18-39)](/fr/je-suis/jeune-entrepreneur "Jeunes (18-39)")
+* [Nouvelles et nouveaux arrivants](/fr/je-suis/nouvel-arrivant-entrepreneur "Nouvelles et nouveaux arrivants")
+* [Technologiques](/fr/industries/technologie "Technologiques")
+* [Professionel.les](/fr/je-suis/un-comptable-banquier-agent-immobilier-commercial "Professionel.les")
+* [Fournisseurs](/fr/je-suis/fournisseur "Fournisseurs")
 
-* [Un.e professionnel.le](/fr/je-suis/un-comptable-banquier-agent-immobilier-commercial "Professionnel.le")
-* [Un.e entrepreneur.e noir.e](/fr/je-suis/entrepreneur-noir "Entrepreneur.e noir.e")
-* [Un.e entrepreneur.e autochtone](/fr/je-suis/entrepreneur-autochtone "Entrepreneur.e autochtone")
-* [Une femme entrepreneure](/fr/je-suis/femme-entrepreneure "Femme entrepreneure")
-* [Un.e jeune entrepreneur.e](/fr/je-suis/jeune-entrepreneur "Jeune entrepreneur.e")
-* [Un.e nouvel.le arrivant.e entrepreneur.e](/fr/je-suis/nouvel-arrivant-entrepreneur "Nouvel.le arrivant.e entrepreneur.e")
-* [Un.e entrepreneur.e en technologies](/fr/industries/technologie "Technologie")
-* [Un.e fournisseur.euse](/fr/je-suis/fournisseur "Fournisseur.euse")
-
-Liens rapides
+## Liens rapides
 
 * [Prêt petites entreprises](/fr/financement/pret-petites-entreprises "Prêt petites entreprises")
-* [Modèle de plan d'affaires](/fr/articles-outils/boite-outils-entrepreneur/gabarits-documents-guides-affaires/modele-plan-affaires "Modèle de plan d'affaires")
-* [Calculateur de prêt commercial](/fr/articles-outils/boite-outils-entrepreneur/outils-financiers/calculateur-pret-commercial "Calculateur de prêt commercial")
-* [Calculateurs de ratios](/fr/articles-outils/boite-outils-entrepreneur/outils-financiers "Outils financiers")
-* [Glossaire](/fr/articles-outils/boite-outils-entrepreneur/gabarits-documents-guides-affaires/glossaire "Glossaire financier")
-* [Gérez vos abonnements](/fr/articles-outils/boite-outils-entrepreneur/publications/formulaire-abonnement "Gérer mes abonnements")
+* [Gabarit de plan d’affaires](/fr/articles-outils/boite-outils-entrepreneur/gabarits-documents-guides-affaires/modele-plan-affaires "Gabarit de plan d’affaires")
+* [Calculatrice de prêts aux entreprises](/fr/articles-outils/boite-outils-entrepreneur/outils-financiers/calculateur-pret-commercial "Calculatrice de prêts aux entreprises")
+* [Calculateurs de ratios](/fr/articles-outils/boite-outils-entrepreneur/outils-financiers "Calculateurs de ratios")
+* [Glossaire](/fr/articles-outils/boite-outils-entrepreneur/gabarits-documents-guides-affaires/glossaire "Glossaire")
+* [Gérer mes abonnements](/fr/articles-outils/boite-outils-entrepreneur/publications/formulaire-abonnement "Gérer mes abonnements")
 * [Carrières](/fr/carrieres "Carrières")
 * [Panel Points de vue BDC](/fr/points-de-vue "Panel Points de vue BDC")
 
-Nous joindre
+## Nous joindre
 
-* [Écrivez-nous](/fr/nous-joindre/nous-joindre-formulaire "Écrivez-nous")
+* [Écrivez-nous](/fr/nous-joindre/nous-joindre-formulaire "Courriel")
 * 1-877-232-2269
-* [Trouvez votre centre d'affaires](/fr/centres-affaires "Centres d'affaires")
-* [Médias sociaux](/fr/a-propos/medias-sociaux "Médias sociaux")
+* [Centre d’affaires](/fr/centres-affaires "Centre d’affaires")
 
-Suivez-nous
+## S'inscrire
+
+Recevez des astuces, des outils et les dernières mises à jour sur nos solutions.
+
+#### S’inscrire à l’infolettre
+
+J’accepte de recevoir des courriels de BDC portant sur des conseils d’affaires, des articles et des outils, ainsi que sur de l’information concernant ses solutions et ses événements. Je reconnais que je peux retirer mon consentement en tout temps.
+
+Courriel
+
+S'inscrire
+
+*Pour plus de détails, veuillez consulter notre [Politique de Confidentialité](/fr/confidentialite) ou [communiquer avec nous](/fr/nous-joindre).*
+
+## Médias sociaux
+
+* [LinkedIn](http://www.linkedin.com/companies/bdc?trk=fc_badge "LinkedIn")
+* [Facebook](http://www.facebook.com/bdc.ca "Facebook")
+* [Instagram](https://www.instagram.com/bdc_ca "Instagram")
+* [YouTube](http://www.youtube.com/BDCBanx "YouTube")
+
+La banque des
+entrepreneur.es
 
 ![Logo Canada](/assets/images/Logo_Canada.svg)
 
 * [À propos](/fr/a-propos "À propos")
 * [Accessibilité](/fr/accessibilite "Accessibilité")
-* [Applications supportées](/fr/applications-supportees "Applications supportées")
+* [Applications soutenues](/fr/applications-supportees "Applications soutenues")
 * [Carte du site](/fr/carte-site "Carte du site")
-* [Conditions d'utilisation](/fr/avis-legal "Conditions d'utilisation")
+* [Conditions d’utilisation](/fr/avis-legal "Conditions d’utilisation")
 * [Confidentialité](/fr/confidentialite "Confidentialité")
 * [Sécurité](/fr/securite "Sécurité")
 * [Transparence](/fr/transparence "Transparence")
+
+Ce site est protégé par reCAPTCHA et la [politique de confidentialité](https://policies.google.com/privacy) et les [conditions d'utilisation](https://policies.google.com/terms) de Google s'appliquent.

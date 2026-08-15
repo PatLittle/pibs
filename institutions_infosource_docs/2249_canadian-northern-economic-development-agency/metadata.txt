@@ -1,0 +1,6 @@
+institution_name_en: Canadian Northern Economic Development Agency
+institution_name_fr: Agence canadienne de développement économique du Nord
+gc_orgID: 2249
+infosource_url_en: https://www.cannor.gc.ca/eng/1395919965310/1395920043963
+infosource_url_fr: https://www.cannor.gc.ca/fra/1395919965310/1395920043963
+audit_timestamp_utc: 2026-08-15T08:18:42.955909+00:00

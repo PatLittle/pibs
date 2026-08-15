@@ -58,6 +58,7 @@ Cherche dans le site
   + [Rapports annuels](content.aspx?section=abo&dir=atip/pub&document=index&lang=f)
   + [Info Source](content.aspx?section=abo&dir=atip/info&document=index&lang=f)
 * [Services d'audit interne](content.aspx?section=abo&dir=aud&document=index&lang=f)
+* [Services d'évaluation](content.aspx?section=abo&dir=eval&document=index&lang=f)
 
 1. [Accueil](accueil.aspx)
 2. [À propos de nous](content.aspx?section=abo&document=index&lang=f)
@@ -102,6 +103,6 @@ Questions? [Contactez-nous](/content.aspx?section=cont&document=index&lang=f).
 * [Questions, plaintes, commentaires](/content.aspx?section=cont&document=index&lang=f)
 * [Devenir un fournisseur d'Élections Canada](/content.aspx?section=abo&dir=pro/sup&document=index&lang=f)
 
-Date de modification: 29 juillet 2024
+Date de modification: 31 octobre 2023
 
 [Avis](/content.aspx?section=pri&document=index&lang=f)

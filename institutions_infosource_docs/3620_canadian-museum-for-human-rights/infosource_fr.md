@@ -6,9 +6,9 @@
 
 ## Annonce spéciale.
 
-La nouvelle exposition « Promesses brisées » maintenant ouverte.
+La nouvelle exposition « Palestine déracinée : La Nakba au passé et au présent » est maintenant ouverte
 
-[En savoir plus exposition Promesses brisées En savoir plus](https://droitsdelapersonne.ca/exposition/promesses-brisees)
+[En savoir plus Palestine déracinée : La Nakba au passé et au présent  En savoir plus](https://droitsdelapersonne.ca/exposition/palestine-deracinee-la-nakba-au-passe-et-au-present)
 
 ## Accueil
 
@@ -22,7 +22,7 @@ La nouvelle exposition « Promesses brisées » maintenant ouverte.
 
 * [Plan du site](/sitemap)
 * [Donner](https://amisdumcdp.com/faites-un-don-maintenant/)
-* [Billetterie](https://billetterie.droitsdelapersonne.ca/events?view=calendar&k=Entr%C3%A9e)
+* [Billetterie](https://billetterie.droitsdelapersonne.ca/events?view=calendar&k=Entrée)
 * [Recherche](https://droitsdelapersonne.ca/search)
 * [English](https://humanrights.ca/about/governance-and-reports/info-source)
 
@@ -30,7 +30,7 @@ La nouvelle exposition « Promesses brisées » maintenant ouverte.
 
 * [Visiter](https://droitsdelapersonne.ca/visiter)
 
-  ![](/sites/prod/files/styles/crop%5Bwidth%5D%3D768%26crop%5Bheight%5D%3D768%26crop%5Bfp%5D%3D0.7%2C0.37%26convert%5Bextension%5D%3Djpeg/public/2021-05/Exterior-Museum-cropped%20copy.jpg?itok=tErbFGOI)
+  ![](/sites/prod/files/styles/crop%5Bwidth%5D%3D320%26crop%5Bar%5D%3D1d1%26crop%5Bfp%5D%3D70x37%26convert%5Bformat%5D%3Dwebp%26convert%5Bextension%5D%3Dwebp/public/2021-05/Exterior-Museum-cropped%20copy.jpg?itok=Pv746azA)
 
   ### Visiter
 
@@ -40,16 +40,16 @@ La nouvelle exposition « Promesses brisées » maintenant ouverte.
   + [Adhésions](https://droitsdelapersonne.ca/visiter/adhesions)
   + [Visites guidées](https://droitsdelapersonne.ca/visiter/visites-guidees)
   + [Enfants et familles](https://droitsdelapersonne.ca/visiter/enfants-et-familles)
-  + [Billetterie](https://billetterie.droitsdelapersonne.ca/events?view=calendar&k=Entr%C3%A9e)
+  + [Billetterie](https://billetterie.droitsdelapersonne.ca/events?view=calendar&k=Entrée)
   + [À manger et à boire](https://droitsdelapersonne.ca/visiter/boire-et-manger-au-musee)
   + [Accessibilité](https://droitsdelapersonne.ca/visiter/accessibilite)
   + [Locations pour événements](https://droitsdelapersonne.ca/visiter/location-pour-evenements-winnipeg)
   + [Centre de référence](https://droitsdelapersonne.ca/visiter/centre-de-reference)
-  + [Guides de ressources](https://droitsdelapersonne.ca/education/guides-de-ressources)
   + [Explorez de chez vous](https://droitsdelapersonne.ca/visiter/explorez-le-musee-de-chez-vous)
+  + [Guides de ressources](https://droitsdelapersonne.ca/education/guides-de-ressources)
 * [Expositions et activités](https://droitsdelapersonne.ca/expositions-et-activites)
 
-  ![](/sites/prod/files/styles/crop%5Bwidth%5D%3D768%26crop%5Bheight%5D%3D768%26crop%5Bfp%5D%3D0.49%2C0.7%26convert%5Bextension%5D%3Djpeg/public/2018-03/indigenous-perspectives_16219803247_o_Edit.jpg?itok=Trp_gTlt)
+  ![](/sites/prod/files/styles/crop%5Bwidth%5D%3D320%26crop%5Bar%5D%3D1d1%26crop%5Bfp%5D%3D49x70%26convert%5Bformat%5D%3Dwebp%26convert%5Bextension%5D%3Dwebp/public/2018-03/indigenous-perspectives_16219803247_o_Edit.jpg?itok=UV9akIZc)
 
   ### Expositions et activités
 
@@ -60,13 +60,13 @@ La nouvelle exposition « Promesses brisées » maintenant ouverte.
   + [Activités à venir](https://droitsdelapersonne.ca/expositions-et-activites/activites-venir)
   + [Activités passées](https://droitsdelapersonne.ca/expositions-et-activites/activites-passees)
   + [Programmes](https://droitsdelapersonne.ca/expositions-et-activites/programmes)
-  + [Billetterie](https://billetterie.droitsdelapersonne.ca/events?view=calendar&k=Entr%C3%A9e)
+  + [Billetterie](https://billetterie.droitsdelapersonne.ca/events?view=calendar&k=Entrée)
   + [Expositions itinérantes](https://droitsdelapersonne.ca/expositions-et-activites/expositions-itinerantes)
   + [Proposer une exposition](https://droitsdelapersonne.ca/expositions-et-activites/proposition-dexposition)
   + [Corridor communautaire](https://droitsdelapersonne.ca/serie-dactivites/corridor-communautaire)
 * [Histoires](https://droitsdelapersonne.ca/histoires)
 
-  ![](/sites/prod/files/styles/crop%5Bwidth%5D%3D768%26crop%5Bheight%5D%3D768%26convert%5Bextension%5D%3Djpeg/public/2020-10/stories-image-cropped.jpg?itok=G7PzjZPd)
+  ![](/sites/prod/files/styles/crop%5Bwidth%5D%3D320%26crop%5Bar%5D%3D1d1%26convert%5Bformat%5D%3Dwebp%26convert%5Bextension%5D%3Dwebp/public/2020-10/stories-image-cropped.jpg?itok=SmFoLXAq)
 
   ### Histoires
 
@@ -75,22 +75,19 @@ La nouvelle exposition « Promesses brisées » maintenant ouverte.
   + [Racontez votre histoire](https://droitsdelapersonne.ca/share-your-story)
 * [Éducation](https://droitsdelapersonne.ca/education)
 
-  ![](/sites/prod/files/styles/crop%5Bwidth%5D%3D768%26crop%5Bheight%5D%3D768%26crop%5Bfp%5D%3D0.5%2C0.5%26convert%5Bextension%5D%3Djpeg/public/2021-05/ramps-cropped.jpg?itok=Q8-gbxtT)
+  ![](/sites/prod/files/styles/crop%5Bwidth%5D%3D320%26crop%5Bar%5D%3D1d1%26crop%5Bfp%5D%3D50x50%26convert%5Bformat%5D%3Dwebp%26convert%5Bextension%5D%3Dwebp/public/2021-05/ramps-cropped.jpg?itok=avlYWcgq)
 
   ### Éducation
 
   + [Aperçu](https://droitsdelapersonne.ca/education)
   + [Réserver votre visite scolaire](https://droitsdelapersonne.ca/education/reservez-votre-visite-scolaire)
   + [Programmes scolaires](https://droitsdelapersonne.ca/education/programmes-scolaires)
-  + [Ressources éducatives](https://droitsdelapersonne.ca/ressources-educatives/)
   + [Passez à l’action](https://droitsdelapersonne.ca/passez-a-laction)
-  + [Amours cachés : Guide pédagogique](https://droitsdelapersonne.ca/amours-caches-guide-pedagogique)
-  + [Passez le micro : Parlons de racisme](https://droitsdelapersonne.ca/histoire/passez-le-micro-parlons-de-racisme)
   + [Découvrez la Couverture des témoins](https://couverturedestemoins.ca/)
-  + [Le projet Panneaux des esprits](https://panneauxdesesprits.droitsdelapersonne.ca/)
+  + [Ressources éducatives](https://droitsdelapersonne.ca/ressources-educatives2)
 * [À propos](https://droitsdelapersonne.ca/propos-du-musee)
 
-  ![](/sites/prod/files/styles/crop%5Bwidth%5D%3D768%26crop%5Bheight%5D%3D768%26crop%5Bfp%5D%3D0.5%2C0.5%26convert%5Bextension%5D%3Djpeg/public/2021-05/Glass-cloud-cropped.jpg?itok=sJ04iXsY)
+  ![](/sites/prod/files/styles/crop%5Bwidth%5D%3D320%26crop%5Bar%5D%3D1d1%26crop%5Bfp%5D%3D50x50%26convert%5Bformat%5D%3Dwebp%26convert%5Bextension%5D%3Dwebp/public/2021-05/Glass-cloud-cropped.jpg?itok=k8Awl7QQ)
 
   ### À propos
 
@@ -406,8 +403,6 @@ S'inscrire
 * [Avis juridiques](https://droitsdelapersonne.ca/avis-juridique)
 * [Code de conduite](https://droitsdelapersonne.ca/code-de-conduite)
 * [Accessibilité](https://droitsdelapersonne.ca/visiter/accessibilite#section_5)
-
-![Symbole du gouvernement du Canada](/themes/custom/cmhr/components/images/canada-wordmark.svg)
 
 ©2026 Musée canadien pour les droits de la personne
 

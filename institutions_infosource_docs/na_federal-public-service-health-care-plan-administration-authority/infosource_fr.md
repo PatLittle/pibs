@@ -58,7 +58,7 @@ Main Menu
 ## [À propos du RSSFP](https://www.rssfp.ca/a-propos-du-rssfp/)
 
 * [Au sujet de l’Administration](https://www.rssfp.ca/a-propos-du-rssfp/au-sujet-de-ladministration/)
-  + [Rapport annuel 2024](https://www.rssfp.ca/a-propos-du-rssfp/au-sujet-de-ladministration/rapport-annuel/)
+  + [Rapport annuel 2025](https://www.rssfp.ca/a-propos-du-rssfp/au-sujet-de-ladministration/rapport-annuel/)
 * [Le Comité des partenaires](https://www.rssfp.ca/a-propos-du-rssfp/le-comite-des-partenaires/)
 * [Administrateur du Régime](https://www.rssfp.ca/a-propos-du-rssfp/administrateur-du-regime/)
 * [Confidentialité](https://www.rssfp.ca/a-propos-du-rssfp/aiprp/)

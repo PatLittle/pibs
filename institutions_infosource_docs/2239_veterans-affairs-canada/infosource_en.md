@@ -4,7 +4,7 @@
 
 ## WxT Language switcher
 
-* [Françaisfr](/fr/droits-des-anciens-combattants/acces-linformation-et-protection-des-renseignements-personnels-axe-sur-les-veterans/renseignements-sur-les-programmes-et-les-fonds-de-renseignements)
+* [Françaisfr](/fr/info-source)
 
 [![Government of Canada](/themes/custom/vac/assets/sig-blk-en.svg)](https://www.canada.ca/en.html)
 
@@ -12,9 +12,9 @@
 
 Search
 
-My VAC Account
+Sign in to My VAC Account
 
- [My VAC Account](/en/contact-us/my-vac-account)
+[Sign in to My VAC Account](/en/contact-us/my-vac-account)
 
 ## Menu
 
@@ -232,25 +232,21 @@ Main Menu
 
                           Funding for projects that recognize traditional and modern-day Canadian Veterans and those who died in service.
                         + ---
-                        + [Video interviews](/en/remembrance/people-and-stories/heroes-remember "Explore our collection of Heroes Remember interviews to hear personal stories from those who were there.")
+                        + [Classroom materials](/en/remembrance/classroom-materials "Resources, lesson plans, and activities for the classroom.")
 
-                          Explore our collection of Heroes Remember interviews to hear personal stories from those who were there.
+                          Resources, lesson plans, and activities for the classroom.
 
-                          + [Classroom materials](/en/remembrance/classroom-materials "Resources, lesson plans, and activities for the classroom.")
-
-                            Resources, lesson plans, and activities for the classroom.
-                          + ---
                           + [Get involved](/en/remembrance/get-involved "There are many ways throughout the year to remember our Veterans.")
 
                             There are many ways throughout the year to remember our Veterans.
+                          + ---
+                          + [How to find military service records and attestation papers](/en/remembrance/how-find-military-service-records-and-attestation-papers "Those who wish to access military service records must do so through Library and Archives Canada.")
 
-                            + [How to find military service records and attestation papers](/en/remembrance/how-find-military-service-records-and-attestation-papers "Those who wish to access military service records must do so through Library and Archives Canada.")
+                            Those who wish to access military service records must do so through Library and Archives Canada.
 
-                              Those who wish to access military service records must do so through Library and Archives Canada.
+                            + [Remembrance – More](/en)
 
-                              + [Remembrance – More](/en)
-
-                                ---* [Veterans' rights](/en)
+                              ---* [Veterans' rights](/en)
                   + [Veterans' rights - Main page](/en/veterans-rights)
 
                     ---
@@ -402,11 +398,11 @@ Main Menu
 
                                   The VAC Assistance Service provides free and confidential psychological support that is available 24 hours a day, 365 days a year.
                                 + ---
-                                + [Find a location nearest you](/en/contact-us#office "Area Offices, CAF Transition Centres, Bureau of Pensions Advocates and Service Canada Centres.")
+                                + [Find a location nearest you](/contact-us#office "Area Offices, CAF Transition Centres, Bureau of Pensions Advocates and Service Canada Centres.")
 
                                   Area Offices, CAF Transition Centres, Bureau of Pensions Advocates and Service Canada Centres.
 
-                                  + [Other inquiries](/en/contact-us#other "Services and Benefits, ATIP, BPAs, Media relations, Learning resources, Outsite of Canada?")
+                                  + [Other inquiries](/contact-us#other "Services and Benefits, ATIP, BPAs, Media relations, Learning resources, Outsite of Canada?")
 
                                     Services and Benefits, ATIP, BPAs, Media relations, Learning resources, Outsite of Canada?
                                   + ---
@@ -424,11 +420,11 @@ Main Menu
 
 1. [Home](/en)
 
-# Information about Programs and Information Holdings
+# Info Source
 
 ## Note to readers
 
-Formally known as "Info Source". Sources of Federal Government and Employee Information is now known as "[Information about Programs and Information Holdings](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/sources-federal-government-employee-information.html)".
+Formally known as "[Information about Programs and Information Holdings](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/sources-federal-government-employee-information.html)” is now known as "Info Source".
 
 This publication is available upon request in alternate formats.
 
@@ -436,8 +432,41 @@ This publication is available upon request in alternate formats.
 
 ---
 
+* [Next](/en/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/1-0)
+
+## Table of Contents
+
+* [1.0 General Information](/en/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/1-0)
+  + [1.1. Introduction to Info Source](/en/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/1-0#a11)
+  + [1.2 Background](/en/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/1-0#a12)
+  + [1.3 Responsibilities](/en/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/1-0#a13)
+* [2.0 Institutional Functions, Programs and Activities](/en/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0)
+  + [2.1 Institution-Specific Content](/en/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0/#a21)
+    - [2.1.1. Benefits, Services, and Support](/en/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0#a211)
+      * [2.1.1.1. Caregiver Recognition Benefit](/en/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0#a2111)
+      * [2.1.1.2. Disability Benefits](/en/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0#a2112)
+      * [2.1.1.3. Health Care Benefits](/en/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0#a2113)
+      * [2.1.1.4. Income Support](/en/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0#a2114)
+      * [2.1.1.5. Long Term Care](/en/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0#a2115)
+      * [2.1.1.6. Research and Innovation](/en/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0#a2116)
+      * [2.1.1.7. Transition Services](/en/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0#a2117)
+      * [2.1.1.8. Veterans Emergency Fund](/en/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0#a2118)
+      * [2.1.1.9. Veterans Independence Program](/en/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0#a2119)
+      * [2.1.1.10. War Veterans Allowance](/en/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0#a21110)
+    - [2.1.2. Commemoration](/en/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0#a212)
+      * [2.1.2.1. Canada Remembers](/en/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0#a2121)
+      * [2.1.2.2. Funeral and Burial Program](/en/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0#a2122)
+    - [2.1.3. Veterans Ombudsman](/en/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0#a213)
+  + [2.2 Other VAC Information Holdings](/en/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0/#a22)
+  + [2.3 Internal Services](/en/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0/#a23)
+* [3.0 Classes of Personal Information](/en/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/3-0)
+* [4.0 Manuals](/en/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/4-0)
+* [5.0 Additional Information](/en/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/5-0)
+  + [5.1 Reading Room](/en/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/5-0#a51)
+* [Appendix A - Personal Information Banks (PIBs)](/en/veterans-rights/access-information-and-privacy/information-about-programs-and-information-holdings/appendix-personal-information-banks-pibs)
+
 Date modified:
-:   2025-01-15
+:   2026-05-08
 
 [Top of page](#wb-bnr "Top of page")
 

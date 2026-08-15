@@ -70,7 +70,7 @@ For general information about making a request for access to information or pers
 
 To make a request for information online, access the [Access to Information and Personal Information Online Request Service](https://atip-aiprp.tbs-sct.gc.ca/welcome/Home/Privacy).
 
-To make a request for information under the *Access to Information Act* or the *Privacy Act* by mail, mail your letter or completed [Access to Information Request Form](https://www.tbs-sct.canada.ca/tbsf-fsct/350-57-eng.asp) (*Access to Information Act*) or [Personal Information Request Form](https://www.tbs-sct.canada.ca/tbsf-fsct/350-58-eng.asp) (*Privacy Act*), along with any necessary documents.
+To make a request for information under the *Access to Information Act* or the *Privacy Act* by mail, mail your letter or completed [Access to Information Request Form](https://www.tbs-sct.canada.ca/tbsf-fsct/350-57-eng.asp) (*Access to Information Act*) or [Personal Information Request Form](https://www.canada.ca/en/treasury-board-secretariat/corporate/forms/350-58.html) (*Privacy Act*), along with any necessary documents.
 
 In accordance with the *Access to Information Act* and the *Privacy Act*, an area on the premises will be made available to review original materials on site if that is the applicant’s preference (and it is practical to do so), or if it is not practical to create copies of the material.
 
@@ -141,8 +141,6 @@ About FCC
 
 [News releases](/en/about-fcc/media-centre/news-releases)
 
-[FCC logo](/en/about-fcc/media-centre/fcc-logo)
-
 [Customer stories](/en/about-fcc/media-centre/customer-stories)
 
 [X: FCCagriculture](https://x.com/FCCagriculture)[Facebook: FCCagriculture](https://www.facebook.com/fccagriculture)[Instagram: FCCagriculture](https://www.instagram.com/fccagriculture)[LinkedIn: fcc-fac](https://www.linkedin.com/company/fcc-fac)[YouTube: FCCTVonline](https://www.youtube.com/user/FCCTVonline)
@@ -161,7 +159,7 @@ Quick Links
 * [AgriSuccess](/en/knowledge/agrisuccess)
 * [Feedback](https://fcc-fac.typeform.com/to/MRsDgFBn)
 * [Subscribe](/en/knowledge/fcc-knowledge-newsletter)
-* [Vision Research Panel](https://www.fccvision.ca)
+* [Vision Research Panel](/en/resources/vision)
 
 Policies
 

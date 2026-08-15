@@ -8,27 +8,29 @@ fr
 
 [en](/en "Access the English version")
 
-# A strong link in a vital logistics chain
+# At the heart of a vital supply chain
 
-The Federal Crown corporation providing pilotage services on the St. Lawrence and Saguenay rivers
+The federal Crown corporation providing pilotage services on the St. Lawrence and Saguenay rivers
 
-[Learn MoreLearn More](/en/about)
+[Corporate videoCorporate video](/en#watch-our-corporate-video)
+
+## Corporate video St Lawrence
 
 ![](https://images.prismic.io/pilotage-st-laurent-dev/aO3mhJ5xUNkB16sC_video-cover.jpg?auto=format%2Ccompress&q=70)
 
-We are a federal Crown corporation created in 1972 under the name *Laurentian Pilotage Authority*, pursuant to the *Pilotage Act*. St. Lawrence Pilotage is the name adopted in 2026.
+We are a federal Crown corporation created in 1972 under the name *Laurentian Pilotage Authority*, pursuant to the *Pilotage Act*. St. Lawrence Pilotage Authority is the name adopted in 2026.
 
 We are responsible for providing marine pilotage services in the waters of the St. Lawrence River, the Gulf of St. Lawrence and the Saguenay River.
 
 ![](https://images.prismic.io/pilotage-st-laurent-dev/aUBcsXNYClf9oO3Q_aOqA755xUNkB12Pp_transbordement.avif?auto=format%2Ccompress&q=70)
 
-We manage a compulsory pilotage zone covering an area of over 265 nautical miles between Montreal and Les Escoumins, and 70 nautical miles on the Saguenay River.
+We manage a compulsory pilotage zone divided into three districts covering a distance of over 265 nautical miles between Montreal and Les Escoumins, and 70 nautical miles on the Saguenay River.
 
 We rely on more than 200 contracted pilots and apprentice pilots who board ships to ensure their safe navigation in the challenging waters of the St. Lawrence River. These local navigation experts are grouped into two corporations that are bound to us by service contracts.
 
 [About SLPAbout SLP](/en/about)
 
-![](https://images.prismic.io/pilotage-st-laurent-dev/aasDAFxvIZEnjbGh_CarteAPLsans%C3%A9criture_courte_avSaguenay.jpg?auto=format%2Ccompress&q=70)
+![](https://images.prismic.io/pilotage-st-laurent-dev/afOZjcBOoF08xhD-_Map_PSL_revised_30-04-2026.jpg?auto=format%2Ccompress&q=70)
 
 ## Request a Pilot
 
@@ -52,17 +54,11 @@ Year 2025
 
 6977
 
-Voyages completed
-
-![](https://images.prismic.io/pilotage-st-laurent-dev/aXFXJQIvOtkhByn4_Icon-2.png?auto=format%2Ccompress&q=70)
-
-16767
-
-Pilotage Missions
+Voyages completed by a licensed pilot
 
 ![](https://images.prismic.io/pilotage-st-laurent-dev/aXFXJgIvOtkhByn5_Icons-3.png?auto=format%2Ccompress&q=70)
 
-22460
+22260
 
 Pilot Assignments
 
@@ -70,37 +66,33 @@ Pilot Assignments
 
 4878
 
-Pilot Transhipments in Les Escoumins
+Pilot Transshipments in Les Escoumins
 
 ## Communications
 
-[December 10, 2025Dec 10, 2025
+[July 1, 2026Jul 1, 2026
 
-News
+### Retirement of Chief Executive Officer, Marc-Yves Bertin
 
-### Notice - Recruitment Apprentice Pilots - Spring 2026
+Read newsRead news](https://pilotage-st-laurent-dev.cdn.prismic.io/pilotage-st-laurent-dev/dGJMmJixPDF5lzs8_PSL-D%C3%A9partdeMarc-YvesBertin_Eng.pdf)
 
-Read newsRead news](https://www.pilotagestlaurent.gc.ca/files/pdf/Notice_of_Recruitement_Apprentice_Pilots_District_2_1_and_1_1_January_2026.pdf)
+[May 15, 2026May 15, 2026
 
-[October 29, 2025Oct 29, 2025
+### Invitation to our Annual Public Meeting
 
-News
+Read newsRead news](https://pilotage-st-laurent-dev.cdn.prismic.io/pilotage-st-laurent-dev/agX42KYofJOwHQPP_SLP-InvitationAPM2026_Eng.pdf)
 
-### Notice of revised pilotage charges - 2026
+[May 14, 2026May 14, 2026
 
-Read newsRead news](https://www.pilotagestlaurent.gc.ca/files/pdf/Notice_of_revised_pilotage_charges_-_2026.pdf)
+### Marine Simulator for Sale
 
-[June 18, 2025Jun 18, 2025
-
-News
-
-### Notice - Written Test of General Knowledge - 2025-2026
-
-Read newsRead news](https://www.pilotagestlaurent.gc.ca/files/pdf/Notice_Written_Test_of_General_Knowledge_Recruitment_2025-2026_fill.pdf)
+Read newsRead news](https://pilotage-st-laurent-dev.cdn.prismic.io/pilotage-st-laurent-dev/agSoIKYofJOwHOT9_PSL_SLP-Miseenventedusimulateurmaritime_MarineSimulatorforSale-2026.pdf)
 
 [Sell all communicationsSell all communications](/en/communications)
 
 ![A red-and-white Pilotage St. Lawrence vessel travels through partially frozen waters. The hull and deck are coated in ice, with a snowy shoreline visible in the distance under a grey winter sky.](https://images.prismic.io/pilotage-st-laurent-dev/aNqJrp5xUNkB1OLH_ship.jpg?auto=format%2Ccompress&q=70)
+
+## Watch our corporate video
 
 ![](https://images.prismic.io/pilotage-st-laurent-dev/aThbI3NYClf9n-yb_08_BP_034.jpg?auto=format%2Ccompress&q=70)
 
@@ -112,19 +104,13 @@ Review the regulatory framework and pilotage fee structures which ensure safe an
 
 [Learn moreLearn more](/en/laws-regulations-and-charges)
 
-![Three Pilotage St. Lawrence employees collaborate around a laptop in a meeting room. One takes notes, another examines the screen closely, and a third smiles, creating a focused and collaborative work environment.](https://images.prismic.io/pilotage-st-laurent-dev/aMgVsmGNHVfTPPfB_reglements.jpg?auto=format%2Ccompress&q=70)
+![Three St. Lawrence Pilotage employees collaborate around a laptop in a meeting room. One takes notes, another examines the screen closely, and a third smiles, creating a focused and collaborative work environment.](https://images.prismic.io/pilotage-st-laurent-dev/aMgVsmGNHVfTPPfB_reglements.jpg?auto=format%2Ccompress&q=70)
 
 ## Careers and Contact
 
-Join our team or contact us to learn more about career opportunities at SLP, the recruitment process of apprentice pilots, and pilot certification.
+Join our team or contact us to learn more about career opportunities at our administration, the recruitment process of apprentice pilots, and pilot certification.
 
 [Contact UsContact Us](/en/careers-and-contact)
-
-## Job offers
-
-[Shuttle Captain - Montreal](https://www.linkedin.com/jobs/view/4382117805/)[Mariner - Les Escoumins](https://www.pilotagestlaurent.gc.ca/files/pdf/Avis_de_recrutement_2025/APL%20-%20Matelot%202025%20pour%20app.pdf)[Mechanic - Les Escoumins](https://www.pilotagestlaurent.gc.ca/files/pdf/Avis_de_recrutement_2025/APL%20-%20M%C3%A9canicien%202025%20pour%20app.pdf)
-
-[View all available positionsView all available positions](/en/careers-and-contact)
 
 ## Subscribe
 
@@ -138,7 +124,7 @@ Receive our notices and press releases through our email subscription service
 
 [999 de Maisonneuve West Blvd, Suite 1410, Montreal, QC, Canada, H3A 3L4](https://maps.app.goo.gl/PLZS7e9n5hkhnwJG8)
 
-[![Certified Green Marine](https://images.prismic.io/pilotage-st-laurent-dev/aaVwtMFoBIGEg-eQ_certified_white_eng.png?auto=format%2Ccompress&q=70)](https://green-marine.org/members/participants/laurentian-pilotage-authority)
+[![Certified Green Marine](https://images.prismic.io/pilotage-st-laurent-dev/aaVwtMFoBIGEg-eQ_certified_white_eng.png?auto=format%2Ccompress&q=70)](https://green-marine.org/members/participants/st-lawrence-pilotage)
 
 [About Us](/en/about)
 
@@ -152,7 +138,7 @@ Receive our notices and press releases through our email subscription service
 
 [Services and Navigation](/en/services-and-navigation)
 
-* [Pilotage Service Request](/en/services-and-navigation#pilotage-service-request)
+* [Submit a Piloting Request](/en/services-and-navigation#submit-a-piloting-request)
 * [Essential Information for the Captain and Crew](/en/services-and-navigation#essential-information-for-the-captain-and-crew)
 * [Notices and Policies on Safety](/en/services-and-navigation#notices-and-policies-on-safety)
 * [Transhipment at Les Escoumins pilotage station](/en/services-and-navigation#transhipment-at-les-escoumins-pilotage-station)

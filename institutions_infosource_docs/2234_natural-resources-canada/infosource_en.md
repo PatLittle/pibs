@@ -78,6 +78,10 @@ Explore the NRCan annual reports on the administration of *the Access to Informa
 
 This application helps Canadians make fuel-efficient buying choices when purchasing a car. This PIA provide an assessment of any potential for the compromise of sensitive personal information.
 
+## [Privacy Impact Assessments (PIA)](/corporate/transparency/privacy-impact-assessments-pia)
+
+Summaries of the Privacy Impact Assessments completed by Natural Resources Canada.
+
 ## Learn about open government
 
 ### [Open information](https://open.canada.ca/en/open-information)
@@ -93,7 +97,7 @@ Search for data about Government of Canada services, financials, national demogr
 Participate in conversations, find data and digital records, and learn about open government.
 
 Date modified:
-:   2025-01-14
+:   2026-05-15
 
 ## About this site
 
@@ -126,9 +130,10 @@ Date modified:
 * [Canada and the world](https://international.gc.ca/world-monde/index.aspx?lang=eng "Canada and the world section.")
 * [Money and finance](https://www.canada.ca/en/services/finance.html "Money and finance section.")
 * [Science and innovation](https://www.canada.ca/en/services/science.html "Science and innovation section.")
-* [Indigenous peoples](https://www.canada.ca/en/services/indigenous-peoples.html "Indigenous peoples section.")
+* [Indigenous Peoples](https://www.canada.ca/en/services/indigenous-peoples.html "Indigenous peoples section.")
 * [Veterans and military](https://www.canada.ca/en/services/veterans.html "Veterans and military section.")
 * [Youth](https://www.canada.ca/en/services/youth.html "Youth section.")
+* [Manage life events](https://www.canada.ca/fr/services/evenements-vie.html)
 
 ### Government of Canada Corporate
 

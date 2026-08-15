@@ -1,0 +1,6 @@
+institution_name_en: Prairies Economic Development Canada (PrairiesCan)
+institution_name_fr: Développement économique Canada pour les Prairies
+gc_orgID: 2240
+infosource_url_en: https://www.canada.ca/en/prairies-economic-development/corporate/transparency/information-holdings.html
+infosource_url_fr: https://www.canada.ca/fr/developpement-economique-prairies/organisation/transparence/fonds-renseignements.html
+audit_timestamp_utc: 2026-08-15T08:18:41.587815+00:00

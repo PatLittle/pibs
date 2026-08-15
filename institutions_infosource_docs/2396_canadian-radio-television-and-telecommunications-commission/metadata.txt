@@ -1,0 +1,6 @@
+institution_name_en: Canadian Radio-television and Telecommunications Commission
+institution_name_fr: Conseil de la radiodiffusion et des télécommunications canadiennes
+gc_orgID: 2396
+infosource_url_en: https://crtc.gc.ca/eng/about/sources.htm
+infosource_url_fr: https://crtc.gc.ca/fra/about/sources.htm
+audit_timestamp_utc: 2026-08-15T08:18:50.524437+00:00

@@ -4,7 +4,7 @@
 
 ## WxT Language switcher
 
-* [Englishen](/en/veterans-rights/access-information-and-privacy/information-about-programs-and-information-holdings)
+* [Englishen](/en/info-source)
 
 [![Government of Canada](/themes/custom/vac/assets/sig-blk-fr.svg)](https://www.canada.ca/fr.html)
 
@@ -12,9 +12,9 @@
 
 Rechercher
 
-Mon dossier ACC
+Se connecter à Mon Dossier ACC
 
- [Mon dossier ACC](/fr/contactez-nous/mon-dossier-acc)
+[Se connecter à Mon Dossier ACC](/fr/contactez-nous/mon-dossier-acc)
 
 ## Menu
 
@@ -226,29 +226,25 @@ Menu principal
 
                         Monuments commémoratifs et cimetières de guerre érigés au Canada et ailleurs dans le monde en hommage aux Canadiens et aux Canadiennes qui ont servi.
 
-                        + [Programmes de financement](/fr/commemoration/comment-simpliquer/programmes-de-financement "Financement des projets qui honorent les anciens combattants du temps de guerre et les vétérans de l'ère moderne du Canada ainsi que ceux et celles qui sont morts au service du Canada.")
+                        + [Programmes de financement](/fr/commemoration/programmes-de-financement "Financement des projets qui honorent les anciens combattants du temps de guerre et les vétérans de l'ère moderne du Canada ainsi que ceux et celles qui sont morts au service du Canada.")
 
                           Financement des projets qui honorent les anciens combattants du temps de guerre et les vétérans de l'ère moderne du Canada ainsi que ceux et celles qui sont morts au service du Canada.
                         + ---
-                        + [Entrevues vidéo](/fr/remembrance/people-and-stories/heroes-remember "Explorez notre collection d'entrevues Des héros se racontent pour entendre les histoires personnelles de ceux et celles qui étaient là.")
+                        + [Comment s'impliquer](/fr/commemoration/comment-simpliquer "Il y a bien des façons, tout au long de l'année, de se souvenir de nos vétérans.")
 
-                          Explorez notre collection d'entrevues Des héros se racontent pour entendre les histoires personnelles de ceux et celles qui étaient là.
+                          Il y a bien des façons, tout au long de l'année, de se souvenir de nos vétérans.
 
-                          + [Comment s'impliquer](/fr/commemoration/comment-simpliquer "Il y a bien des façons, tout au long de l'année, de se souvenir de nos vétérans.")
-
-                            Il y a bien des façons, tout au long de l'année, de se souvenir de nos vétérans.
-                          + ---
                           + [Comment trouver des dossiers de service militaire et des feuilles d’engagement](/fr/commemoration/comment-trouver-des-dossiers-de-service-militaire-et-des-feuilles-dengagement "Les personnes qui désirent avoir accès à des dossiersde service militaire doivent s'adresser à Bibliothèque et Archives Canada.")
 
                             Les personnes qui désirent avoir accès à des dossiersde service militaire doivent s'adresser à Bibliothèque et Archives Canada.
+                          + ---
+                          + [Ressources d'apprentissage](/fr/commemoration/ressources-dapprentissage "Des ressources, des plans de leçons et des activités pour les élèves.")
 
-                            + [Ressources d'apprentissage](/fr/commemoration/ressources-dapprentissage "Des ressources, des plans de leçons et des activités pour les élèves.")
+                            Des ressources, des plans de leçons et des activités pour les élèves.
 
-                              Des ressources, des plans de leçons et des activités pour les élèves.
+                            + [Commémoration – More](/fr)
 
-                              + [Commémoration – More](/fr)
-
-                                ---* [Droits des anciens combattants](/fr)
+                              ---* [Droits des anciens combattants](/fr)
                   + [Droits des anciens combattants - Page principale](/fr/droits-des-anciens-combattants)
 
                     ---
@@ -400,11 +396,11 @@ Menu principal
 
                                   Le Service d'aide d'ACC offre un soutien psychologique gratuit et confidentiel, 24 heures par jour, 365 jours par année.
                                 + ---
-                                + [Trouvez un bureau près de chez vous](/fr/contactez-nous#office "Bureaux locaux, Centres de transition des FAC, Bureaus de services juridiques des pensions et Bureaus de Service Canada.")
+                                + [Trouvez un bureau près de chez vous](/contact-us#office "Bureaux locaux, Centres de transition des FAC, Bureaus de services juridiques des pensions et Bureaus de Service Canada.")
 
                                   Bureaux locaux, Centres de transition des FAC, Bureaus de services juridiques des pensions et Bureaus de Service Canada.
 
-                                  + [Autres demandes de renseignements](/fr/contactez-nous#other "Services et avantages, AIPRP, BSJP, Relations avec les médias, Ressources d'apprentissage, À l'extérieur du Canada?")
+                                  + [Autres demandes de renseignements](/contact-us#other "Services et avantages, AIPRP, BSJP, Relations avec les médias, Ressources d'apprentissage, À l'extérieur du Canada?")
 
                                     Services et avantages, AIPRP, BSJP, Relations avec les médias, Ressources d'apprentissage, À l'extérieur du Canada?
                                   + ---
@@ -422,11 +418,11 @@ Menu principal
 
 1. [Accueil](/fr)
 
-# Renseignements sur les programmes et les fonds de renseignements
+# Info Source
 
 ## Remarque aux lecteurs
 
-Autrefois appelée « Info Source ». Sources de renseignements du gouvernement fédéral et sur les fonctionnaires fédéraux est désormais connu sous le nom « [Renseignements sur les programmes et les fonds de renseignements](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/sources-renseignements-gouvernement-federal-fonctionnaires-federaux.html) ».
+Autrefois appelée « [Renseignements sur les programmes et les fonds de renseignements](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/sources-renseignements-gouvernement-federal-fonctionnaires-federaux.html) » est désormais connu sous le nom « Info Source ».
 
 Cette publication est disponible dans d’autres formats sur demande.
 
@@ -434,8 +430,41 @@ Cette publication est disponible dans d’autres formats sur demande.
 
 ---
 
+* [Suivant](/fr/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/1-0)
+
+## Table des matières
+
+* [1.0 Renseignements généraux](/fr/droits-des-anciens-combattants/acces-linformation-et-protection-des-renseignements-personnels-axe-sur-les-veterans/renseignements-sur-les-programmes/1-0)
+  + [1.1. Introduction à Info Source](/fr/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/1-0#a11)
+  + [1.2. Historique](/fr/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/1-0#a12)
+  + [1.3. Responsabilités](/fr/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/1-0#a13)
+* [2.0 Fonctions, programmes et activités de l’institution](/fr/droits-des-anciens-combattants/acces-linformation-et-protection-des-renseignements-personnels-axe-sur-les-veterans/renseignements-sur-les-programmes/2-0)
+  + [2.1. Contenu spécifique à l’institution](/fr/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0/#a21)
+    - [2.1.1. Avantages, services et soutien](/fr/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0#a211)
+      * [2.1.1.1. Allocation aux anciens combattants](/fr/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0#a2111)
+      * [2.1.1.2. Allocation de reconnaissance pour aidant](/fr/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0#a2112)
+      * [2.1.1.3. Avantages pour soins de santé](/fr/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0#a2113)
+      * [2.1.1.4. Fonds d’urgence pour les vétérans](/fr/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0#a2114)
+      * [2.1.1.5. Prestations d’invalidité](/fr/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0#a2115)
+      * [2.1.1.6. Programme pour l’autonomie des anciens combattants](/fr/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0#a2116)
+      * [2.1.1.7. Recherche et innovation](/fr/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0#a2117)
+      * [2.1.1.8. Services de transition](/fr/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0#a2118)
+      * [2.1.1.9. Soins de longue durée](/fr/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0#a2119)
+      * [2.1.1.10. Soutien du revenu](/fr/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0#a21110)
+    - [2.1.2. Commémoration](/fr/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0#a212)
+      * [2.1.2.1. Le Canada se souvient](/fr/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0#a2121)
+      * [2.1.2.2. Programme de funérailles et d’inhumation](/fr/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0#a2122)
+    - [2.1.3. Ombudsman des vétérans](/fr/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0#a213)
+  + [2.2. Autres fonds de renseignements d’Anciens Combattants Canada](/fr/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0/#a22)
+  + [2.3. Services internes](/fr/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/2-0/#a23)
+* [3.0 Catégories de renseignements personnels](/fr/droits-des-anciens-combattants/acces-linformation-et-protection-des-renseignements-personnels-axe-sur-les-veterans/renseignements-sur-les-programmes/3-0)
+* [4.0 Manuels](/fr/droits-des-anciens-combattants/acces-linformation-et-protection-des-renseignements-personnels-axe-sur-les-veterans/renseignements-sur-les-programmes/4-0)
+* [5.0 Renseignements supplémentaires](/fr/droits-des-anciens-combattants/acces-linformation-et-protection-des-renseignements-personnels-axe-sur-les-veterans/renseignements-sur-les-programmes/5-0)
+  + [5.1. Salle de lecture](/fr/veterans-rights/access-to-information-privacy/info-about-programs-and-info-holdings/5-0#a51)
+* [Annexe A - Fichiers de renseignements personnels (FRP)](/fr/droits-des-anciens-combattants/acces-linformation-et-protection-des-renseignements-personnels-axe-sur-les-veterans/renseignements-sur-les-programmes/annexe-fichiers-renseignements-personnels-frp)
+
 Date modifiée
-:   2025-01-15
+:   2026-05-08
 
 [Haut de page](#wb-bnr)
 

@@ -4,12 +4,6 @@ BDC uses cookies to improve your experience on its website and for advertising p
 
 To find out more, consult our [Policy on confidentiality](/en/confidentiality).
 
-I understand
-
-**Trade uncertainty:** Explore [resources and tools](/en/special-support/tariffs) for your business.
-
-**Trade uncertainty:** Explore [solutions, resources, and tools](/en/special-support/tariffs) for your business.
-
 [![Logo - Business Development Bank of Canada - BDC](/assets/icons/bdc_logo.svg)](/en)
 
 [FR](/fr/transparence/infosource)
@@ -56,6 +50,7 @@ Search
 
   + [Loans and advice to buy or sell a business
     Learn more](/en/business-transfer)
+  + [Forestry Support Program](/en/solutions/forestry-support-program)
   + [Trade Support: Pivot to Grow Loan](/en/financing/pivot-grow-loan)
   + [Financing for businesses in activity for 12-24 months](/en/financing/starting-business-loan)
   + [Financing partners](/en/financing/partners)
@@ -79,8 +74,8 @@ Search
     Hone effective management skills](/en/consulting/leadership-management)
   + [Growth, Marketing and Sales
     Grow sales with targeted activities](/en/consulting/sales-marketing)
-  + [Technology
-    Make the digital shift confidently](/en/consulting/technology)
+  + [International expansion
+    Accelerate your entry into foreign markets](/en/consulting/international-expansion)
   + [Operations
     Apply changes to boost bottom line](/en/consulting/operational-efficiency)
   + [Risk and Compliance
@@ -90,15 +85,47 @@ Search
 
   + [Trade Resilience
     Time to empower your business amid trade complexity](/en/consulting/trade-resilience)
-  + [Data to AI Program
-    Modernize your business with the power of AI](/en/consulting/data-ai-program)
   + [Growth Driver Program
     Strengthen areas critical to measurable growth](/en/consulting/growth-driver-program)
 
   ### Featured
 
-  + [Loans and advice to buy or sell a business
-    Learn more](/en/business-transfer)
+  + [![](/globalassets/digizuite/62238-female-construction-worker-with-clipboard-standing-near-stack-of-woods.png?mediaformatid=50955&v=4a0644)
+
+    Forestry Support Program
+    Manage trade uncertainty with expert advice and financing](/en/solutions/forestry-support-program)
+* Solutions
+
+  Close
+
+  Main menu
+
+  ## Solutions
+
+  ### Specialized support Specialized support
+
+  + [Trade uncertainty and tariffs
+    Financing and consulting to support you](/en/special-support/tariffs)
+  + [Steel and Aluminium Industries Support Program
+    Financial support to help manage rising tariffs](/en/solutions/steel-aluminium-support-program)
+  + [Forestry Support Program
+    Expert advice and financing to help your forestry business](/en/solutions/forestry-support-program)
+
+  ### Strategic opportunities Strategic opportunities
+
+  + [Business transfer
+    Loans and advice to buy or sell a business](/en/business-transfer)
+  + [LIFT
+    AI, digital tools and smart equipment](/en/solutions/lift)
+  + [Defence
+    Growth solutions for the defence sector](/en/solutions/defence)
+
+  ### Featured
+
+  + [![](/globalassets/digizuite/62238-female-construction-worker-with-clipboard-standing-near-stack-of-woods.png?mediaformatid=50955&v=4a0644)
+
+    Forestry Support Program
+    Expert advice and financing to help you manage operations](/en/solutions/forestry-support-program)
 * Resources
 
   Close
@@ -133,17 +160,15 @@ Search
 
   ### Featured
 
-  + [![](/globalassets/digizuite/46226-gated-business-plan-template-icon-en.png?mediaformatid=50957&v=492fce)
+  + [![](/globalassets/digizuite/46226-gated-business-plan-template-icon-en.png?mediaformatid=50957&v=498240)
 
     Business plan template](/en/articles-tools/entrepreneur-toolkit/templates-business-guides/business-plan-template)
-  + [![](/globalassets/digizuite/46228-gated-business-loan-calculator-icon-en.png?mediaformatid=50957&v=492fce)
+  + [![](/globalassets/digizuite/46228-gated-business-loan-calculator-icon-en.png?mediaformatid=50957&v=498240)
 
     Business loan calculator](/en/articles-tools/entrepreneur-toolkit/financial-tools/business-loan-calculator)
   + [Business dictionary](/en/articles-tools/entrepreneur-toolkit/templates-business-guides/glossary)
   + [Climate Action Centre](/en/articles-tools/sustainability/climate-action-centre)
   + [Blog](/en/articles-tools/blog)
-
-[Client Space](https://client.bdc.ca?language=en)
 
 * [Industries](/en/industries)
 * [About](/en/about)
@@ -200,6 +225,7 @@ Search
 
   + [Loans and advice to buy or sell a business
     Learn more](/en/business-transfer)
+  + [Forestry Support Program](/en/solutions/forestry-support-program)
   + [Trade Support: Pivot to Grow Loan](/en/financing/pivot-grow-loan)
   + [Financing for businesses in activity for 12-24 months](/en/financing/starting-business-loan)
   + [Financing partners](/en/financing/partners)
@@ -223,8 +249,8 @@ Search
     Hone effective management skills](/en/consulting/leadership-management)
   + [Growth, Marketing and Sales
     Grow sales with targeted activities](/en/consulting/sales-marketing)
-  + [Technology
-    Make the digital shift confidently](/en/consulting/technology)
+  + [International expansion
+    Accelerate your entry into foreign markets](/en/consulting/international-expansion)
   + [Operations
     Apply changes to boost bottom line](/en/consulting/operational-efficiency)
   + [Risk and Compliance
@@ -234,15 +260,47 @@ Search
 
   + [Trade Resilience
     Time to empower your business amid trade complexity](/en/consulting/trade-resilience)
-  + [Data to AI Program
-    Modernize your business with the power of AI](/en/consulting/data-ai-program)
   + [Growth Driver Program
     Strengthen areas critical to measurable growth](/en/consulting/growth-driver-program)
 
   ### Featured
 
-  + [Loans and advice to buy or sell a business
-    Learn more](/en/business-transfer)
+  + [![](/globalassets/digizuite/62238-female-construction-worker-with-clipboard-standing-near-stack-of-woods.png?mediaformatid=50955&v=4a0644)
+
+    Forestry Support Program
+    Manage trade uncertainty with expert advice and financing](/en/solutions/forestry-support-program)
+* Solutions
+
+  Close
+
+  Main menu
+
+  ## Solutions
+
+  ### Specialized support Specialized support
+
+  + [Trade uncertainty and tariffs
+    Financing and consulting to support you](/en/special-support/tariffs)
+  + [Steel and Aluminium Industries Support Program
+    Financial support to help manage rising tariffs](/en/solutions/steel-aluminium-support-program)
+  + [Forestry Support Program
+    Expert advice and financing to help your forestry business](/en/solutions/forestry-support-program)
+
+  ### Strategic opportunities Strategic opportunities
+
+  + [Business transfer
+    Loans and advice to buy or sell a business](/en/business-transfer)
+  + [LIFT
+    AI, digital tools and smart equipment](/en/solutions/lift)
+  + [Defence
+    Growth solutions for the defence sector](/en/solutions/defence)
+
+  ### Featured
+
+  + [![](/globalassets/digizuite/62238-female-construction-worker-with-clipboard-standing-near-stack-of-woods.png?mediaformatid=50955&v=4a0644)
+
+    Forestry Support Program
+    Expert advice and financing to help you manage operations](/en/solutions/forestry-support-program)
 * Resources
 
   Close
@@ -277,10 +335,10 @@ Search
 
   ### Featured
 
-  + [![](/globalassets/digizuite/46226-gated-business-plan-template-icon-en.png?mediaformatid=50957&v=492fce)
+  + [![](/globalassets/digizuite/46226-gated-business-plan-template-icon-en.png?mediaformatid=50957&v=498240)
 
     Business plan template](/en/articles-tools/entrepreneur-toolkit/templates-business-guides/business-plan-template)
-  + [![](/globalassets/digizuite/46228-gated-business-loan-calculator-icon-en.png?mediaformatid=50957&v=492fce)
+  + [![](/globalassets/digizuite/46228-gated-business-loan-calculator-icon-en.png?mediaformatid=50957&v=498240)
 
     Business loan calculator](/en/articles-tools/entrepreneur-toolkit/financial-tools/business-loan-calculator)
   + [Business dictionary](/en/articles-tools/entrepreneur-toolkit/templates-business-guides/glossary)
@@ -288,8 +346,6 @@ Search
   + [Blog](/en/articles-tools/blog)
 
 Search
-
-[Client Space](https://client.bdc.ca?language=en)
 
 Search
 
@@ -615,38 +671,57 @@ Subscribe
 
 Subscribe to receive, via email, business advice, articles and tools as well as information about our solutions and events. You can withdraw your consent at any time.
 
-This site is protected by reCAPTCHA and the Google [Privacy Policy](https://policies.google.com/privacy) and [term of Service](https://policies.google.com/terms) apply.
+## Entrepreneurs and partners
 
-I am
+* [Black](/en/i-am/black-entrepreneur "Black")
+* [Indigenous](/en/i-am/indigenous-entrepreneur "Indigenous")
+* [Women](/en/i-am/woman-entrepreneur "Women")
+* [Young (18-39)](/en/i-am/young-entrepreneur "Young (18-39)")
+* [Newcomers](/en/i-am/newcomer-entrepreneur "Newcomers")
+* [Technology](/en/industries/technology "Technology")
+* [Professionals](/en/i-am/financial-professional "Professionals")
+* [Suppliers](/en/i-am/supplier "Suppliers")
 
-* [A professional](/en/i-am/financial-professional "Professional")
-* [A Black entrepreneur](/en/i-am/black-entrepreneur "Black Entrepreneur")
-* [An Indigenous entrepreneur](/en/i-am/indigenous-entrepreneur "Indigenous entrepreneur")
-* [A woman entrepreneur](/en/i-am/woman-entrepreneur "Woman entrepreneur")
-* [A young entrepreneur](/en/i-am/young-entrepreneur "Young entrepreneur")
-* [A newcomer entrepreneur](/en/i-am/newcomer-entrepreneur "Newcomer entrepreneur")
-* [A technology entrepreneur](/en/industries/technology "Technology")
-* [A supplier](/en/i-am/supplier "Supplier")
+## Quick links
 
-Quick links
-
-* [Small business loan](/en/financing/small-business-loan "Small Business Loan")
+* [Small Business Loan](/en/financing/small-business-loan "Small Business Loan")
 * [Business plan template](/en/articles-tools/entrepreneur-toolkit/templates-business-guides/business-plan-template "Business plan template")
 * [Business loan calculator](/en/articles-tools/entrepreneur-toolkit/financial-tools/business-loan-calculator "Business loan calculator")
-* [Ratio calculators](/en/articles-tools/entrepreneur-toolkit/financial-tools "Financial tools")
-* [Glossary](/en/articles-tools/entrepreneur-toolkit/templates-business-guides/glossary "Business dictionary")
-* [Manage your subscriptions](/en/articles-tools/entrepreneur-toolkit/publications/subscribe "Manage my email subscriptions")
+* [Ratio calculators](/en/articles-tools/entrepreneur-toolkit/financial-tools "Ratio calculators")
+* [Glossary](/en/articles-tools/entrepreneur-toolkit/templates-business-guides/glossary "Glossary")
+* [Manage your subscriptions](/en/articles-tools/entrepreneur-toolkit/publications/subscribe "Manage your subscriptions")
 * [Careers](/en/careers "Careers")
 * [BDC ViewPoints panel](/en/viewpoints "BDC ViewPoints panel")
 
-Contact us
+## Contact us
 
-* [Email us](/en/contact-us/contact-us-form "Write us")
+* [Email](/en/contact-us/contact-us-form "Email")
 * 1-877-232-2269
-* [Find your business centre](/en/business-centres "Business centres")
-* [Social media](/en/about/social-media "Social media")
+* [Business centre](/en/business-centres "Business centre")
 
-Follow us
+## Subscribe
+
+Get expert advice, practical tools and perspectives to help your business grow.
+
+#### Subscribe to our newsletter
+
+I consent to receiving emails from BDC relating to business advice, articles and tools, as well as information about its solutions and events. I acknowledge that I can withdraw my consent at any time.
+
+Email address
+
+Subscribe
+
+*Please refer to our [Privacy Policy](/en/confidentiality) or [Contact us](/en/contact-us) for more details.*
+
+## Follow us
+
+* [LinkedIn](http://www.linkedin.com/companies/bdc?trk=fc_badge "LinkedIn")
+* [Facebook](http://www.facebook.com/bdc.ca "Facebook")
+* [Instagram](https://www.instagram.com/bdc_ca "Instagram")
+* [YouTube](http://www.youtube.com/BDCBanx "YouTube")
+
+The bank for
+entrepreneurs
 
 ![Logo Canada](/assets/images/Logo_Canada.svg)
 
@@ -658,3 +733,5 @@ Follow us
 * [Confidentiality](/en/confidentiality "Confidentiality")
 * [Security](/en/security "Security")
 * [Transparency](/en/transparency "Transparency")
+
+This site is protected by reCAPTCHA and the Google [Privacy Policy](https://policies.google.com/privacy) and [term of Service](https://policies.google.com/terms) apply.

@@ -7,31 +7,18 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="csrf-token" content="AUWTASGhn-VB0faUx7HJVlg954EpKTmeZGJgggzNAjR3Qg1gjevgXjEu5HZix63SBJafw6qApW4fC6W5a04A8xM0J7R6uDJzNixcM8agrQ8=">
 
-        <link rel="dns-prefetch" href="//ncc-website-2.s3.amazonaws.com" crossorigin>
-        <link rel="dns-prefetch" href="//cdn.fonts.net" crossorigin>
-        <link rel="dns-prefetch" href="//www.googletagmanager.com" crossorigin>
-        <link rel="dns-prefetch" href="https://connect.facebook.net" crossorigin>
-        <link rel="dns-prefetch" href="https://www.facebook.com" crossorigin>
-        <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" crossorigin>
-        <link rel="dns-prefetch" href="https://www.google-analytics.com" crossorigin>
-        <link rel="dns-prefetch" href="https://www.instagram.com" crossorigin>
-        <link rel="dns-prefetch" href="https://www.google.com" crossorigin>
-        <link rel="dns-prefetch" href="https://stats.g.doubleclick.net" crossorigin>
+                
+                <link rel="preconnect" href="https://medias.ncc-ccn.ca">
+        <link rel="dns-prefetch" href="https://medias.ncc-ccn.ca">
         <link rel="dns-prefetch" href="https://fonts.gstatic.com" crossorigin>
         <link rel="dns-prefetch" href="https://i.ytimg.com" crossorigin>
         <link rel="dns-prefetch" href="https://www.youtube.com" crossorigin>
-        <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net" crossorigin>
-        <link rel="dns-prefetch" href="https://static.doubleclick.net" crossorigin>
         <link rel="dns-prefetch" href="https://services2.arcgis.com" crossorigin>
         <link rel="dns-prefetch" href="https://yt3.ggpht.com" crossorigin>
-        <link rel="dns-prefetch" href="https://i.ytimg.com" crossorigin>
-        <link rel="dns-prefetch" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="dns-prefetch" href="https://api.startdate.ca" crossorigin>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
+                        <link rel="preload" href="/fonts/EBGaramond-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="/fonts/OpenSans-VariableFont_wdth,wght.woff2" as="font" type="font/woff2" crossorigin>
+        
         <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-icon-180x180.png">
         <link rel="icon" type="image/png" sizes="192x192"  href="/img/android-icon-192x192.png">
         <link rel="icon" type="image/png" sizes="192x192"  href="/img/android-icon-512x512.png">
@@ -40,28 +27,27 @@
         <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96x96.png">
         <meta name="theme-color" content="#ffffff">
 
+                                                                                                                                                                                                                    
+        <script src="/js/jquery.min.js"></script>
+
+                <link rel="stylesheet" href="/css/vendor.css?1785841608">
+        <link rel="stylesheet" href="/css/main.css?1785841608">
         
-        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
-        <link rel="stylesheet" href="/css/vendor.css?1681438492">
-        <link rel="stylesheet" href="/css/main.css?1772028266">
-
         <title>Transparency | National Capital Commission</title>
-<script>/* Get consent state from Craft (server-side) */
-
-/* Push default consent state BEFORE GTM loads */
+<script>/* Set up dataLayer and gtag */
 window.dataLayer = window.dataLayer || [];
-function gtag(){ dataLayer.push(arguments);}
+function gtag(){ dataLayer.push(arguments); }
 
+/* Default: all consent denied */
 gtag('consent', 'default', {
-    'ad_storage': 'denied',
-    'ad_user_data': 'denied',
-    'ad_personalization': 'denied',
-    'analytics_storage': 'denied',
-    'wait_for_update': 500
+  'ad_storage': 'denied',
+  'ad_user_data': 'denied',
+  'ad_personalization': 'denied',
+  'analytics_storage': 'denied',
+  'wait_for_update': 500
 });
 
-/* Push additional dataLayer data if needed */
+
 
 /* Load GTM */
 (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -70,81 +56,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-WBCN4M');
 
-/* Store consent state */
-window.__trackingConsentGranted = false;
-
-/* Create global consent update function */
+/* Called by tracking.twig accept handler for first-time consent */
 window.updateGTMConsent = function() {
   if (window.__trackingConsentGranted) return;
-  
   window.__trackingConsentGranted = true;
-  
-  dataLayer.push({
-    'event': 'consent_update',
+  gtag('consent', 'update', {
     'ad_storage': 'granted',
     'ad_user_data': 'granted',
     'ad_personalization': 'granted',
     'analytics_storage': 'granted'
   });
-  
-  dataLayer.push({
-    'event': 'consent_granted'
-  });
+  dataLayer.push({ 'event': 'consent_granted' });
 };
-
-/* Check initial consent state on page load */
-  dataLayer.push({ event: 'cookie_banner_shown' });
-  
-  /* Monitor for banner interaction */
-  (function() {
-    function startObserving() {
-      var banner = document.querySelector('.cookie-banner');
-      if (!banner) return;
-      
-      var acceptBtn = banner.querySelector('[data-cookie-accept]');
-      if (acceptBtn) {
-        acceptBtn.addEventListener('click', function() {
-          setTimeout(function() {
-            if (!window.__trackingConsentGranted) {
-              window.updateGTMConsent();
-            }
-          }, 500);
-        });
-      }
-      
-      var observer = new MutationObserver(function() {
-        var isHidden = banner.style.display === 'none' || 
-                      banner.getAttribute('aria-hidden') === 'true';
-        
-        if (isHidden && !window.__trackingConsentGranted) {
-          observer.disconnect();
-          setTimeout(function() {
-            if (!window.__trackingConsentGranted) {
-              window.updateGTMConsent();
-            }
-          }, 500);
-        }
-      });
-      
-      observer.observe(banner, {
-        attributes: true,
-        attributeFilter: ['style', 'aria-hidden']
-      });
-    }
-    
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', startObserving);
-    } else {
-      startObserving();
-    }
-  })();
-
-/* Listen for custom event */
-window.addEventListener('cookieConsentGranted', function() {
-  if (!window.__trackingConsentGranted) {
-    window.updateGTMConsent();
-  }
-});
 </script>
 <script>    function initFacebookPixel(){
         !function(f,b,e,v,n,t,s){
@@ -167,6 +90,27 @@ window.addEventListener('cookieConsentGranted', function() {
     if (document.cookie.includes('ncc_ccn_tracking=')) {
         initFacebookPixel();
     }
+</script>
+<script>/* LinkedIn Insight script did not render */
+</script>
+<script>/* Pinterest Tag script did not render */
+</script>
+<script>/* Fathom script did not render */
+</script>
+<script>/* Matomo script did not render */
+</script>
+<script>/* Plausible script did not render */
+</script>
+<script deprecated deprecation-notice="Universal Analytics (which is what this script uses) is being [discontinued on July 1st, 2023](https://support.google.com/analytics/answer/11583528). You should use Google gtag.js or Google Tag Manager instead and transition to a new GA4 property.">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-97225426-1', 'auto', {allowLinker: true});
+ga('set', 'anonymizeIp', true);
+ga('require', 'displayfeatures');
+ga('require', 'linkid');
+ga('require', 'linker');
+ga('send', 'pageview');
 </script><meta name="keywords" content="National Capital Commission, National Capital Region">
 <meta name="description" content="Every day, we work to build an inspiring capital that is a source of pride for all Canadians.">
 <meta name="referrer" content="no-referrer-when-downgrade">
@@ -179,7 +123,7 @@ window.addEventListener('cookieConsentGranted', function() {
 <meta content="https://ncc-ccn.gc.ca/transparency" property="og:url">
 <meta content="Transparency" property="og:title">
 <meta content="Every day, we work to build an inspiring capital that is a source of pride for all Canadians." property="og:description">
-<meta content="https://ncc-website-2.s3.amazonaws.com/images/_1200x630_crop_center-center_82_none/aerial.jpg?mtime=1657548134" property="og:image">
+<meta content="https://medias.ncc-ccn.ca/ncc/_transforms/images/_1200x630_crop_center-center_82_none/aerial.jpg?mtime=1782996463" property="og:image">
 <meta content="1200" property="og:image:width">
 <meta content="630" property="og:image:height">
 <meta content="Aerial view of the national capital region." property="og:image:alt">
@@ -194,7 +138,7 @@ window.addEventListener('cookieConsentGranted', function() {
 <meta name="twitter:creator" content="@NCC_CCN">
 <meta name="twitter:title" content="Transparency">
 <meta name="twitter:description" content="Every day, we work to build an inspiring capital that is a source of pride for all Canadians.">
-<meta name="twitter:image" content="https://ncc-website-2.s3.amazonaws.com/images/_800x418_crop_center-center_82_none/aerial.jpg?mtime=1657548134">
+<meta name="twitter:image" content="https://medias.ncc-ccn.ca/ncc/_transforms/images/_800x418_crop_center-center_82_none/aerial.jpg?mtime=1782996463">
 <meta name="twitter:image:width" content="800">
 <meta name="twitter:image:height" content="418">
 <meta name="twitter:image:alt" content="Aerial view of the national capital region.">
@@ -212,12 +156,12 @@ window.addEventListener('cookieConsentGranted', function() {
             </style>
 <style>				:root {
 					--header-bg-focal-point: 51% 4.49%;
-							--header-bg-image-576px: url(https://ncc-website-2.s3.amazonaws.com/images/_576x379_crop_center-center_82_line/header-background.jpg.webp);
-							--header-bg-image-768px: url(https://ncc-website-2.s3.amazonaws.com/images/_768x506_crop_center-center_82_line/header-background.jpg.webp);
-							--header-bg-image-992px: url(https://ncc-website-2.s3.amazonaws.com/images/_992x653_crop_center-center_82_line/header-background.jpg.webp);
-							--header-bg-image-1200px: url(https://ncc-website-2.s3.amazonaws.com/images/_1200x791_crop_center-center_82_line/header-background.jpg.webp);
-							--header-bg-image-1320px: url(https://ncc-website-2.s3.amazonaws.com/images/_1320x870_crop_center-center_82_line/header-background.jpg.webp);
-							--header-bg-image-1700px: url(https://ncc-website-2.s3.amazonaws.com/images/_1700x1120_crop_center-center_82_line/header-background.jpg.webp);
+							--header-bg-image-576px: url(https://medias.ncc-ccn.ca/ncc/_transforms/images/_576x379_crop_center-center_76_line/header-background.jpg.webp);
+							--header-bg-image-768px: url(https://medias.ncc-ccn.ca/ncc/_transforms/images/_768x506_crop_center-center_76_line/header-background.jpg.webp);
+							--header-bg-image-992px: url(https://medias.ncc-ccn.ca/ncc/_transforms/images/_992x653_crop_center-center_76_line/header-background.jpg.webp);
+							--header-bg-image-1200px: url(https://medias.ncc-ccn.ca/ncc/_transforms/images/_1200x791_crop_center-center_76_line/header-background.jpg.webp);
+							--header-bg-image-1320px: url(https://medias.ncc-ccn.ca/ncc/_transforms/images/_1320x870_crop_center-center_76_line/header-background.jpg.webp);
+							--header-bg-image-1700px: url(https://medias.ncc-ccn.ca/ncc/_transforms/images/_1700x1120_crop_center-center_76_line/header-background.jpg.webp);
 							}
 			</style>
 <style>	.toc-subnav{
@@ -225,14 +169,13 @@ window.addEventListener('cookieConsentGranted', function() {
 	}
 	</style>
     </head>
-    <body style="max-width:100vw; overflow-x:hidden"><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WBCN4M"
+        <body class="site-shell"><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WBCN4M"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     
-    
-        
+            
 
-<a href="#main-content" class="skip-link">
+<a href="#main" class="skip-link">
   Skip to main content
 </a>
 
@@ -246,8 +189,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <a class="navbar__logo" href="https://ncc-ccn.gc.ca/">
       <picture>
-        <source media="(min-width: 1200px)" srcset="https://ncc-website-2.s3.amazonaws.com/images/widgets/menu/logo-en-long.png">
-          <img src="https://ncc-website-2.s3.amazonaws.com/images/widgets/menu/logo-en.png" alt="National Capital Commission"></picture>
+        <source media="(min-width: 1200px)" srcset="https://medias.ncc-ccn.ca/ncc/images/widgets/menu/logo-en-long.png">
+          <img src="https://medias.ncc-ccn.ca/ncc/images/widgets/menu/logo-en.png" width="226" height="109" alt="National Capital Commission"></picture>
         </a>
 
         <div class="navbar__actions">
@@ -257,13 +200,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 										
 					
-	
-
-														<a role="menuitem" class="language-link" style="background:transparent;color:white" href="https://ccn-ncc.gc.ca/transparence">FR</a>
+														<a class="language-link" style="background:transparent;color:white" href="https://ccn-ncc.gc.ca/transparence">FR</a>
 						
-            <a href="/search" class="navbar__action-btn" aria-label="search">
-              <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
-            </a>
+            <button type="button"
+                    class="navbar__action-btn js-search-toggle"
+                    aria-controls="search-dropdown"
+                    aria-expanded="false"
+                    aria-label="Search">
+                            <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+              <i class="fa-solid fa-xmark"            aria-hidden="true"></i>
+            </button>
           </div>
         </div>
 
@@ -363,8 +309,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 										
 					
-	
-
 														<a role="menuitem" class="language-link" href="https://ccn-ncc.gc.ca/transparence">Français</a>
 						                    </li>
                                         </ul>
@@ -379,8 +323,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="col-4_lg-3 pb-0">
                     <a class="navbar__logo" href="https://ncc-ccn.gc.ca/">
                       <picture>
-                        <source media="(min-width: 1200px)" srcset="https://ncc-website-2.s3.amazonaws.com/images/widgets/menu/logo-en-long.png">
-                          <img src="https://ncc-website-2.s3.amazonaws.com/images/widgets/menu/logo-en.png" alt="National Capital Commission"></picture>
+                        <source media="(min-width: 1200px)" srcset="https://medias.ncc-ccn.ca/ncc/images/widgets/menu/logo-en-long.png">
+                          <img src="https://medias.ncc-ccn.ca/ncc/images/widgets/menu/logo-en.png" width="226" height="109" alt="National Capital Commission"></picture>
                         </a>
                       </div>
                       <div class="nav__banner col pb-0">
@@ -427,11 +371,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </a>
                 </li>
                                                 <li class="subnav__item" role="none">
-                    <a href="https://ncc-ccn.gc.ca/our-plans/greenbelt-master-plan" role="menuitem" class="subnav__link" title="Greenbelt Master Plan">
-                        <span>Greenbelt Master Plan</span>
-                    </a>
-                </li>
-                                                <li class="subnav__item" role="none">
                     <a href="https://ncc-ccn.gc.ca/projects/lebreton-flats-master-concept-plan" role="menuitem" class="subnav__link" title="LeBreton Flats Master Concept Plan">
                         <span>LeBreton Flats Master Concept Plan</span>
                     </a>
@@ -444,6 +383,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                 <li class="subnav__item" role="none">
                     <a href="https://ncc-ccn.gc.ca/our-plans/canadas-capital-core-area-sector-plan" role="menuitem" class="subnav__link" title="National Capital Core Area Plan">
                         <span>National Capital Core Area Plan</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ncc-ccn.gc.ca/our-plans/national-capital-greenbelt-master-plan" role="menuitem" class="subnav__link" title="National Capital Greenbelt Master Plan">
+                        <span>National Capital Greenbelt Master Plan</span>
                     </a>
                 </li>
                                                 <li class="subnav__item" role="none">
@@ -524,11 +468,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </a>
                 </li>
                                                 <li class="subnav__item" role="none">
-                    <a href="https://ncc-ccn.gc.ca/our-plans/greenbelt-master-plan" role="menuitem" class="sub` sub__item__mobile" title="Greenbelt Master Plan">
-                        <span>Greenbelt Master Plan</span>
-                    </a>
-                </li>
-                                                <li class="subnav__item" role="none">
                     <a href="https://ncc-ccn.gc.ca/projects/lebreton-flats-master-concept-plan" role="menuitem" class="sub` sub__item__mobile" title="LeBreton Flats Master Concept Plan">
                         <span>LeBreton Flats Master Concept Plan</span>
                     </a>
@@ -541,6 +480,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                 <li class="subnav__item" role="none">
                     <a href="https://ncc-ccn.gc.ca/our-plans/canadas-capital-core-area-sector-plan" role="menuitem" class="sub` sub__item__mobile" title="National Capital Core Area Plan">
                         <span>National Capital Core Area Plan</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ncc-ccn.gc.ca/our-plans/national-capital-greenbelt-master-plan" role="menuitem" class="sub` sub__item__mobile" title="National Capital Greenbelt Master Plan">
+                        <span>National Capital Greenbelt Master Plan</span>
                     </a>
                 </li>
                                                 <li class="subnav__item" role="none">
@@ -823,23 +767,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </a>
                 </li>
                                                 <li class="subnav__item" role="none">
-                    <a href="https://ncc-ccn.gc.ca/places/greenbelt" role="menuitem" class="subnav__link" title="Greenbelt">
-                        <span>Greenbelt</span>
+                    <a href="https://ncc-ccn.gc.ca/places/greenbelt" role="menuitem" class="subnav__link" title="National Capital Greenbelt">
+                        <span>National Capital Greenbelt</span>
                     </a>
                 </li>
                                                 <li class="subnav__item" role="none">
-                    <a href="https://ncc-ccn.gc.ca/places/rideau-canal-skateway" role="menuitem" class="subnav__link" title="Rideau Canal Skateway">
-                        <span>Rideau Canal Skateway</span>
-                    </a>
-                </li>
-                                                <li class="subnav__item" role="none">
-                    <a href="https://ncc-ccn.gc.ca/places/parks" role="menuitem" class="subnav__link" title="Urban Parks">
-                        <span>Urban Parks</span>
+                    <a href="https://ncc-ccn.gc.ca/places/docks" role="menuitem" class="subnav__link" title="Recreational docks in the Capital">
+                        <span>Recreational docks in the Capital</span>
                     </a>
                 </li>
                                                 <li class="subnav__item" role="none">
                     <a href="https://ncc-ccn.gc.ca/places/ncc-river-house" role="menuitem" class="subnav__link" title="NCC River House">
                         <span>NCC River House</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ncc-ccn.gc.ca/bistro" role="menuitem" class="subnav__link" title="NCC Bistros">
+                        <span>NCC Bistros</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ncc-ccn.gc.ca/places/parks" role="menuitem" class="subnav__link" title="Urban Parks">
+                        <span>Urban Parks</span>
                     </a>
                 </li>
                                                 <li class="subnav__item" role="none">
@@ -867,6 +816,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <span>Official Residences</span>
                     </a>
                 </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ncc-ccn.gc.ca/places/rideau-canal-skateway" role="menuitem" class="subnav__link" title="Rideau Canal Skateway">
+                        <span>Rideau Canal Skateway</span>
+                    </a>
+                </li>
                           </ul>
       <ul class="subnav__mobile subnav__mobile_hide">
                                     <li class="subnav__item" role="none">
@@ -875,23 +829,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </a>
                 </li>
                                                 <li class="subnav__item" role="none">
-                    <a href="https://ncc-ccn.gc.ca/places/greenbelt" role="menuitem" class="sub` sub__item__mobile" title="Greenbelt">
-                        <span>Greenbelt</span>
+                    <a href="https://ncc-ccn.gc.ca/places/greenbelt" role="menuitem" class="sub` sub__item__mobile" title="National Capital Greenbelt">
+                        <span>National Capital Greenbelt</span>
                     </a>
                 </li>
                                                 <li class="subnav__item" role="none">
-                    <a href="https://ncc-ccn.gc.ca/places/rideau-canal-skateway" role="menuitem" class="sub` sub__item__mobile" title="Rideau Canal Skateway">
-                        <span>Rideau Canal Skateway</span>
-                    </a>
-                </li>
-                                                <li class="subnav__item" role="none">
-                    <a href="https://ncc-ccn.gc.ca/places/parks" role="menuitem" class="sub` sub__item__mobile" title="Urban Parks">
-                        <span>Urban Parks</span>
+                    <a href="https://ncc-ccn.gc.ca/places/docks" role="menuitem" class="sub` sub__item__mobile" title="Recreational docks in the Capital">
+                        <span>Recreational docks in the Capital</span>
                     </a>
                 </li>
                                                 <li class="subnav__item" role="none">
                     <a href="https://ncc-ccn.gc.ca/places/ncc-river-house" role="menuitem" class="sub` sub__item__mobile" title="NCC River House">
                         <span>NCC River House</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ncc-ccn.gc.ca/bistro" role="menuitem" class="sub` sub__item__mobile" title="NCC Bistros">
+                        <span>NCC Bistros</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ncc-ccn.gc.ca/places/parks" role="menuitem" class="sub` sub__item__mobile" title="Urban Parks">
+                        <span>Urban Parks</span>
                     </a>
                 </li>
                                                 <li class="subnav__item" role="none">
@@ -917,6 +876,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                 <li class="subnav__item" role="none">
                     <a href="https://ncc-ccn.gc.ca/places/official-residences" role="menuitem" class="sub` sub__item__mobile" title="Official Residences">
                         <span>Official Residences</span>
+                    </a>
+                </li>
+                                                <li class="subnav__item" role="none">
+                    <a href="https://ncc-ccn.gc.ca/places/rideau-canal-skateway" role="menuitem" class="sub` sub__item__mobile" title="Rideau Canal Skateway">
+                        <span>Rideau Canal Skateway</span>
                     </a>
                 </li>
                           </ul>
@@ -979,11 +943,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <span>Careers</span>
       </a>
 
-                                                  </ul>
-                      </div>
-                      <div class="navbar search col-2 pb-0" role="none">
-                        <i class="fa-solid fa-magnifying-glass search-button"></i>
-                        <input class="search-box" id="search" aria-label="search" type="search" />
+                                                    <li role="none" class="nav__item nav__item--search">
+                            <button type="button"
+                              class="nav__link nav__link--search js-search-toggle"
+                              aria-controls="search-dropdown"
+                              aria-expanded="false"
+                              aria-label="Search">
+                                                            <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+                              <i class="fa-solid fa-xmark"            aria-hidden="true"></i>
+                            </button>
+                          </li>
+                        </ul>
                       </div>
                     </div>
                   </div>
@@ -1130,11 +1100,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </a>
                             </li>
                                             <li>
-                                    <a href="https://ncc-ccn.gc.ca/our-plans/greenbelt-master-plan">
-                        Greenbelt Master Plan
-                    </a>
-                            </li>
-                                            <li>
                                     <a href="https://ncc-ccn.gc.ca/projects/lebreton-flats-master-concept-plan">
                         LeBreton Flats Master Concept Plan
                     </a>
@@ -1147,6 +1112,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                             <li>
                                     <a href="https://ncc-ccn.gc.ca/our-plans/canadas-capital-core-area-sector-plan">
                         National Capital Core Area Plan
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ncc-ccn.gc.ca/our-plans/national-capital-greenbelt-master-plan">
+                        National Capital Greenbelt Master Plan
                     </a>
                             </li>
                                             <li>
@@ -1352,22 +1322,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             </li>
                                             <li>
                                     <a href="https://ncc-ccn.gc.ca/places/greenbelt">
-                        Greenbelt
+                        National Capital Greenbelt
                     </a>
                             </li>
                                             <li>
-                                    <a href="https://ncc-ccn.gc.ca/places/rideau-canal-skateway">
-                        Rideau Canal Skateway
-                    </a>
-                            </li>
-                                            <li>
-                                    <a href="https://ncc-ccn.gc.ca/places/parks">
-                        Urban Parks
+                                    <a href="https://ncc-ccn.gc.ca/places/docks">
+                        Recreational docks in the Capital
                     </a>
                             </li>
                                             <li>
                                     <a href="https://ncc-ccn.gc.ca/places/ncc-river-house">
                         NCC River House
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ncc-ccn.gc.ca/bistro">
+                        NCC Bistros
+                    </a>
+                            </li>
+                                            <li>
+                                    <a href="https://ncc-ccn.gc.ca/places/parks">
+                        Urban Parks
                     </a>
                             </li>
                                             <li>
@@ -1395,26 +1370,164 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         Official Residences
                     </a>
                             </li>
+                                            <li>
+                                    <a href="https://ncc-ccn.gc.ca/places/rideau-canal-skateway">
+                        Rideau Canal Skateway
+                    </a>
+                            </li>
             </ul>
 
-                                                                                                                                                                                                                
+                                                                                                                                                                                                                                                        
                                     
             </div>
         </nav>
     </div>
 </div>
               </div>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+
+  
+
+  
+                                                        
+
+<div
+  class="sd-root"
+  id="search-dropdown"
+  aria-hidden="true"
+  hidden
+>
+
+    <div class="sd-cap">
+
+    <form role="search" action="/search" method="get">
+
+            <label for="search-dropdown-input" class="sd-label">
+        Search
+      </label>
+
+      <div class="sd-input-wrap">
+
+        <input
+          type="search"
+          id="search-dropdown-input"
+          name="q"
+          class="sd-input"
+          placeholder="What are you looking for?"
+          autocomplete="off"
+          spellcheck="false"
+        >
+
+                <button
+          type="button"
+          class="sd-clear"
+          aria-label="Clear search"
+        >
+          <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
+
+                <button
+          type="submit"
+          class="sd-submit"
+          aria-label="Search"
+        >
+          <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+        </button>
+
+      </div>    </form>
+
+  </div>
+        <div class="sd-body">
+      <p class="sd-h" aria-hidden="true">Popular topics</p>
+      <nav aria-label="Popular topics">
+        <div class="sd-cols">
+
+          <ul class="sd-list">
+                          <li>
+                <a
+                  href="https://ncc-ccn.gc.ca/places/ncc-river-house"
+                  class="sd-link"
+                  data-gtm-event="hot_topic_click"
+                  data-gtm-topic-name="NCC&#x20;River&#x20;House"
+                  data-gtm-topic-url="https&#x3A;&#x2F;&#x2F;ncc-ccn.gc.ca&#x2F;places&#x2F;ncc-river-house"
+                >NCC River House</a>
+              </li>
+                          <li>
+                <a
+                  href="https://ncc-ccn.gc.ca/projects/management-of-invasive-alien-plants"
+                  class="sd-link"
+                  data-gtm-event="hot_topic_click"
+                  data-gtm-topic-name="Invasive&#x20;plants"
+                  data-gtm-topic-url="https&#x3A;&#x2F;&#x2F;ncc-ccn.gc.ca&#x2F;projects&#x2F;management-of-invasive-alien-plants"
+                >Invasive plants</a>
+              </li>
+                          <li>
+                <a
+                  href="https://ncc-ccn.gc.ca/tree-assessment-request"
+                  class="sd-link"
+                  data-gtm-event="hot_topic_click"
+                  data-gtm-topic-name="Tree&#x20;assessment&#x20;request"
+                  data-gtm-topic-url="https&#x3A;&#x2F;&#x2F;ncc-ccn.gc.ca&#x2F;tree-assessment-request"
+                >Tree assessment request</a>
+              </li>
+                          <li>
+                <a
+                  href="https://ncc-ccn.gc.ca/places/summer-camping-accommodations-gatineau-park"
+                  class="sd-link"
+                  data-gtm-event="hot_topic_click"
+                  data-gtm-topic-name="Summer&#x20;camping&#x20;in&#x20;Gatineau&#x20;Park"
+                  data-gtm-topic-url="https&#x3A;&#x2F;&#x2F;ncc-ccn.gc.ca&#x2F;places&#x2F;summer-camping-accommodations-gatineau-park"
+                >Summer camping in Gatineau Park</a>
+              </li>
+                      </ul>
+
+                      <ul class="sd-list">
+                              <li>
+                  <a
+                    href="https://ncc-ccn.gc.ca/places/leamy-lake-park"
+                    class="sd-link"
+                    data-gtm-event="hot_topic_click"
+                    data-gtm-topic-name="Leamy&#x20;Lake&#x20;Park"
+                    data-gtm-topic-url="https&#x3A;&#x2F;&#x2F;ncc-ccn.gc.ca&#x2F;places&#x2F;leamy-lake-park"
+                  >Leamy Lake Park</a>
+                </li>
+                              <li>
+                  <a
+                    href="https://ncc-ccn.gc.ca/business/event-permits"
+                    class="sd-link"
+                    data-gtm-event="hot_topic_click"
+                    data-gtm-topic-name="Event&#x20;Permits"
+                    data-gtm-topic-url="https&#x3A;&#x2F;&#x2F;ncc-ccn.gc.ca&#x2F;business&#x2F;event-permits"
+                  >Event Permits</a>
+                </li>
+                              <li>
+                  <a
+                    href="https://ncc-ccn.gc.ca/places/vincent-massey-park"
+                    class="sd-link"
+                    data-gtm-event="hot_topic_click"
+                    data-gtm-topic-name="Vincent&#x20;Massey&#x20;Park"
+                    data-gtm-topic-url="https&#x3A;&#x2F;&#x2F;ncc-ccn.gc.ca&#x2F;places&#x2F;vincent-massey-park"
+                  >Vincent Massey Park</a>
+                </li>
+                          </ul>
+          
+        </div>
+      </nav>
+    </div>
+  
+</div>
             </nav>
 
-                                 
+                        
+         
 											
 		
 													
 									
 										
 																																		
-						
-			
+									
 									
 								<header class="header" role="banner">
 				<div class="container">
@@ -1438,8 +1551,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					
 															
 																										
-																			
-					<li aria-current="page">Transparency</li>
+										<li aria-current="page">Transparency</li>
 				</ul>
 			</nav>
 		</div>
@@ -1449,42 +1561,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="container">
         <div class="grid">
                     <div class="col-3_sm-12">
-                                    		<!-- widget:pageGroupWidget -->
-				<div class="newSideBar">
-							<div>
+                                    	<!-- widget:pageGroupWidget -->
+	            <div	class="newSideBar">
+                			<div>
 							<h3 class="mt-0 mb-1 p-0"><a href='https://ncc-ccn.gc.ca/transparency'>Transparency</a></h3>
 				 
 		<nav id="TableOfContents">
 			    		
-    <ol type="1"  class="toc-level pb-0">
+	    <ol type="1" class="toc-level pb-0">
 											<li >
-					<a  
-						href="https://ncc-ccn.gc.ca/2025-progress-report-red-tape-review" >2025 Progress Report – Red Tape Review</a>
+					<a						href="https://ncc-ccn.gc.ca/2025-progress-report-red-tape-review" >2025 Progress Report – Red Tape Review</a>
 						
 									</li>
 												<li >
-					<a  
-						href="https://ncc-ccn.gc.ca/privacy-at-the-ncc" >Privacy at the NCC</a>
+					<a						href="https://ncc-ccn.gc.ca/privacy-at-the-ncc" >Privacy at the NCC</a>
 						
 									</li>
 												<li >
-					<a  
-						href="https://ncc-ccn.gc.ca/proactive-disclosure" >Proactive Disclosure</a>
+					<a						href="https://ncc-ccn.gc.ca/proactive-disclosure" >Proactive Disclosure</a>
 						
 									</li>
 												<li >
-					<a  
-						href="https://ncc-ccn.gc.ca/info-source" >Info Source</a>
+					<a						href="https://ncc-ccn.gc.ca/info-source" >Info Source</a>
 						
 									</li>
 												<li >
-					<a  
-						href="https://ncc-ccn.gc.ca/request-access-to-personal-information" >Request access to personal information</a>
+					<a						href="https://ncc-ccn.gc.ca/request-access-to-personal-information" >Request access to personal information</a>
 						
 									</li>
 												<li >
-					<a  
-						href="https://ncc-ccn.gc.ca/request-access-to-information" >Request access to information</a>
+					<a						href="https://ncc-ccn.gc.ca/request-access-to-information" >Request access to information</a>
 						
 									</li>
 						</ol>
@@ -1494,23 +1600,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	
 	
 	
-			</div>
-		
+            </div>
+        
+
+        
                             </div>
                             <div class="content col">
-                                    		<!-- widget:richText -->
-				<div>
-				<p>At the NCC, we take reasonable steps to improve transparency and oversight of public resources.</p>
-<p>As a Crown corporation, we must comply with the following:</p>
-<ul><li><em><a href="http://laws-lois.justice.gc.ca/eng/acts/A-1/index.html" target="_blank" rel="noreferrer noopener">Access to Information Act</a></em></li><li><em><a href="http://laws-lois.justice.gc.ca/eng/acts/P-21/" target="_blank" rel="noreferrer noopener">Privacy Act</a></em></li><li><em><a href="http://laws-lois.justice.gc.ca/eng/acts/P-31.9/" target="_blank" rel="noreferrer noopener">Public Servants Disclosure Protection Act</a></em></li><li><a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32756%C2%A7ion=html" target="_blank" rel="noreferrer noopener">Government of Canada directive on Proactive Publication</a></li></ul>
-<h2>Take action</h2>
-<ul><li><a href="https://ncc-ccn.gc.ca/request-access-to-personal-information">Request access to personal information</a></li><li><a href="https://ncc-ccn.gc.ca/request-access-to-information">Request access to information</a></li></ul>
-<h2>Learn more about the NCC</h2>
-<ul><li><a href="https://ncc-ccn.gc.ca/2025-progress-report-red-tape-review">2025 Progress Report – Red Tape Review</a><br></li><li><a href="https://ncc-ccn.gc.ca/privacy-at-the-ncc">Privacy at the NCC</a></li><li><a href="https://ncc-ccn.gc.ca/proactive-disclosure">Proactive Disclosure</a></li><li><a href="https://ncc-ccn.gc.ca/info-source">Info Source</a></li></ul><h2>Annual Reports to Parliament</h2>
-			</div>
+                                    	<!-- widget:richText -->
+				    <div class="rte" data-id="1093111" data-type="richText">
+        <p>At the NCC, we take reasonable steps to improve transparency and oversight of public resources.</p><p>As a Crown corporation, we must comply with the following:</p><ul><li><a href="http://laws-lois.justice.gc.ca/eng/acts/A-1/index.html"><i>Access to Information Act</i></a></li><li><a href="http://laws-lois.justice.gc.ca/eng/acts/P-21/"><i>Privacy Act</i></a></li><li><a href="http://laws-lois.justice.gc.ca/eng/acts/P-31.9/"><i>Public Servants Disclosure Protection Act</i></a></li><li><a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32756%C2%A7ion=html">Government of Canada directive on Proactive Publication</a></li></ul><h2>Take action</h2><ul><li><a href="https://ncc-ccn.gc.ca/request-access-to-personal-information">Request access to personal information</a></li><li><a href="https://ncc-ccn.gc.ca/request-access-to-information">Request access to information</a></li></ul><h2>Learn more about the NCC</h2><ul><li><a href="https://medias.ncc-ccn.ca/ncc/documents/NCC-Special-Examination-Report-15-April-2026.PDF">Report of the Auditor General of Canada to the Board of Directors of the National Capital Commission</a></li><li><a href="https://ncc-ccn.gc.ca/2025-progress-report-red-tape-review">2025 Progress Report – Red Tape Review</a></li><li><a href="https://ncc-ccn.gc.ca/privacy-at-the-ncc">Privacy at the NCC</a></li><li><a href="https://ncc-ccn.gc.ca/proactive-disclosure">Proactive Disclosure</a></li><li><a href="https://ncc-ccn.gc.ca/info-source">Info Source</a></li></ul><h2>Annual Reports to Parliament</h2>
+    </div>
+
 		
-                                    		<!-- widget:documents -->
-			
+                                    	<!-- widget:documents -->
+				
 
     <h3 class="left" id="access-to-information-act">Access to Information Act</h3>
 
@@ -1518,36 +1621,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="documents grey" data-type="documents" data-id="1159944">
     		<ul class="pb-0">
             <li data-id="1159883">
-            <a href="https://ncc-website-2.s3.amazonaws.com/documents/2024-2025-Access-to-Information.pdf">Annual Report to Parliament - Access to Information Act - 2024-2025</a> (1.01 MiB)
+            <a href="https://medias.ncc-ccn.ca/ncc/documents/2024-2025-Access-to-Information.pdf">Annual Report to Parliament - Access to Information Act - 2024-2025</a> (1.01 MiB)
         </li>
             <li data-id="1145091">
-            <a href="https://ncc-website-2.s3.amazonaws.com/documents/Annual-Report-to-Parliament-Access-to-Information-Act-2023-2024.pdf">Annual Report to Parliament - Access to Information Act - 2023-2024</a> (3.43 MiB)
+            <a href="https://medias.ncc-ccn.ca/ncc/documents/Annual-Report-to-Parliament-Access-to-Information-Act-2023-2024.pdf">Annual Report to Parliament - Access to Information Act - 2023-2024</a> (3.43 MiB)
         </li>
             <li data-id="1145090">
-            <a href="https://ncc-website-2.s3.amazonaws.com/documents/Annual-Report-to-Parliament-Access-to-Information-Act-2022-2023.pdf">Annual Report to Parliament - Access to Information Act - 2022-2023</a> (1.02 MiB)
+            <a href="https://medias.ncc-ccn.ca/ncc/documents/Annual-Report-to-Parliament-Access-to-Information-Act-2022-2023.pdf">Annual Report to Parliament - Access to Information Act - 2022-2023</a> (1.02 MiB)
         </li>
             <li data-id="617481">
-            <a href="https://ncc-website-2.s3.amazonaws.com/documents/2021-2022-Access-Annual-Report_En.pdf">Annual Report to Parliament - Access to Information Act - 2021-2022</a> (799.89 KiB)
+            <a href="https://medias.ncc-ccn.ca/ncc/documents/2021-2022-Access-Annual-Report_En.pdf">Annual Report to Parliament - Access to Information Act - 2021-2022</a> (799.89 KiB)
         </li>
             <li data-id="467693">
-            <a href="https://ncc-website-2.s3.amazonaws.com/documents/Annual-Report-to-Parliament-Access-to-Information-Act-for-the-period-from-April-1-2020-to-March-31-2021.pdf">Annual Report to Parliament - Access to Information Act - 2020-2021</a> (780.31 KiB)
+            <a href="https://medias.ncc-ccn.ca/ncc/documents/Annual-Report-to-Parliament-Access-to-Information-Act-for-the-period-from-April-1-2020-to-March-31-2021.pdf">Annual Report to Parliament - Access to Information Act - 2020-2021</a> (780.31 KiB)
         </li>
             <li data-id="207189">
-            <a href="https://ncc-website-2.s3.amazonaws.com/documents/Annual-Report-to-Parliament-Access-to-Information-Act-for-the-period-from-April-1-2019-to-March-31-2020.pdf">Annual Report to Parliament - Access to Information Act - 2019-2020</a> (496.52 KiB)
+            <a href="https://medias.ncc-ccn.ca/ncc/documents/Annual-Report-to-Parliament-Access-to-Information-Act-for-the-period-from-April-1-2019-to-March-31-2020.pdf">Annual Report to Parliament - Access to Information Act - 2019-2020</a> (496.52 KiB)
         </li>
             <li data-id="207188">
-            <a href="https://ncc-website-2.s3.amazonaws.com/documents/Annual-Report-to-Parliament-Access-to-Information-Act-for-the-period-from-April-1-2018-to-March-31-2019.pdf">Annual Report to Parliament - Access to Information Act - 2018-2019</a> (333.44 KiB)
+            <a href="https://medias.ncc-ccn.ca/ncc/documents/Annual-Report-to-Parliament-Access-to-Information-Act-for-the-period-from-April-1-2018-to-March-31-2019.pdf">Annual Report to Parliament - Access to Information Act - 2018-2019</a> (333.44 KiB)
         </li>
             <li data-id="207187">
-            <a href="https://ncc-website-2.s3.amazonaws.com/documents/Annual-Report-to-Parliament-Access-to-Information-Act-for-the-period-from-April-1-2017-to-March-31-2018.pdf">Annual Report to Parliament - Access to Information Act - 2017-2018</a> (322.73 KiB)
+            <a href="https://medias.ncc-ccn.ca/ncc/documents/Annual-Report-to-Parliament-Access-to-Information-Act-for-the-period-from-April-1-2017-to-March-31-2018.pdf">Annual Report to Parliament - Access to Information Act - 2017-2018</a> (322.73 KiB)
         </li>
         </ul>
 </div>
 
 
-	
-                                    		<!-- widget:documents -->
-			
+		
+                                    	<!-- widget:documents -->
+				
 
     <h3 class="left" id="privacy-act">Privacy Act</h3>
 
@@ -1555,34 +1658,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="documents grey" data-type="documents" data-id="1159945">
     		<ul class="pb-0">
             <li data-id="1159925">
-            <a href="https://ncc-website-2.s3.amazonaws.com/documents/2024-2025-Privacy-Act.pdf">Annual Report to Parliament - Privacy Act - 2024-2025</a> (844.36 KiB)
+            <a href="https://medias.ncc-ccn.ca/ncc/documents/2024-2025-Privacy-Act.pdf">Annual Report to Parliament - Privacy Act - 2024-2025</a> (844.36 KiB)
         </li>
             <li data-id="997521">
-            <a href="https://ncc-website-2.s3.amazonaws.com/documents/Annual_Report_Privacy_Act_2023-24.pdf">Annual Report to Parliament - Privacy Act - 2023-2024</a> (2.51 MiB)
+            <a href="https://medias.ncc-ccn.ca/ncc/documents/Annual_Report_Privacy_Act_2023-24.pdf">Annual Report to Parliament - Privacy Act - 2023-2024</a> (2.51 MiB)
         </li>
             <li data-id="844677">
-            <a href="https://ncc-website-2.s3.amazonaws.com/documents/2022-2023-Privacy-Annual-Report_EN.pdf">Annual Report to Parliament - Privacy Act - 2022-2023</a> (717.99 KiB)
+            <a href="https://medias.ncc-ccn.ca/ncc/documents/2022-2023-Privacy-Annual-Report_EN.pdf">Annual Report to Parliament - Privacy Act - 2022-2023</a> (717.99 KiB)
         </li>
             <li data-id="617482">
-            <a href="https://ncc-website-2.s3.amazonaws.com/documents/2021-2022-Privacy-Annual-Report_En.pdf">Annual Report to Parliament - Privacy Act - 2021-2022</a> (641.96 KiB)
+            <a href="https://medias.ncc-ccn.ca/ncc/documents/2021-2022-Privacy-Annual-Report_En.pdf">Annual Report to Parliament - Privacy Act - 2021-2022</a> (641.96 KiB)
         </li>
             <li data-id="467694">
-            <a href="https://ncc-website-2.s3.amazonaws.com/documents/Annual-Report-to-Parliament-Privacy-Act-for-the-period-from-April-1-2020-to-March-31-2021.pdf">Annual Report to Parliament - Privacy Act - 2020-2021</a> (558.38 KiB)
+            <a href="https://medias.ncc-ccn.ca/ncc/documents/Annual-Report-to-Parliament-Privacy-Act-for-the-period-from-April-1-2020-to-March-31-2021.pdf">Annual Report to Parliament - Privacy Act - 2020-2021</a> (558.38 KiB)
         </li>
             <li data-id="207190">
-            <a href="https://ncc-website-2.s3.amazonaws.com/documents/Annual-Report-to-Parliament-Privacy-Act-for-the-period-from-April-1-2019-to-March-31-2020.pdf">Annual Report to Parliament - Privacy Act - 2019-2020</a> (478.98 KiB)
+            <a href="https://medias.ncc-ccn.ca/ncc/documents/Annual-Report-to-Parliament-Privacy-Act-for-the-period-from-April-1-2019-to-March-31-2020.pdf">Annual Report to Parliament - Privacy Act - 2019-2020</a> (478.98 KiB)
         </li>
             <li data-id="207191">
-            <a href="https://ncc-website-2.s3.amazonaws.com/documents/Annual-Report-to-Parliament-Privacy-Act-for-the-period-from-April-1-2018-to-March-31-2019.pdf">Annual Report to Parliament - Privacy Act - 2018-2019</a> (345.15 KiB)
+            <a href="https://medias.ncc-ccn.ca/ncc/documents/Annual-Report-to-Parliament-Privacy-Act-for-the-period-from-April-1-2018-to-March-31-2019.pdf">Annual Report to Parliament - Privacy Act - 2018-2019</a> (345.15 KiB)
         </li>
             <li data-id="207192">
-            <a href="https://ncc-website-2.s3.amazonaws.com/documents/Annual-Report-to-Parliament-Privacy-Act-for-the-period-from-April-1-2017-to-March-31-2018.pdf">Annual Report to Parliament - Privacy Act - 2017-2018</a> (309.63 KiB)
+            <a href="https://medias.ncc-ccn.ca/ncc/documents/Annual-Report-to-Parliament-Privacy-Act-for-the-period-from-April-1-2017-to-March-31-2018.pdf">Annual Report to Parliament - Privacy Act - 2017-2018</a> (309.63 KiB)
         </li>
         </ul>
 </div>
 
 
-	
+		
                             </div>
                 </div>
     </div>
@@ -1663,54 +1766,54 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         <div class="col-6_md-12"role="none">
           <div class="footer-center">
-            <img class="footer-brand__image" loading="lazy" src="/img/crown-of-leaves.png" width="125" height="125" alt="Crown of Leaves">
+            <img class="footer-brand__image" loading="lazy" src="/img/crown-of-leaves.webp" width="125" height="125" alt="Crown of Leaves">
             <p class="footer-brand__title">National Capital Commission</p>
             <div class="footer-brand__copy"></div>
             <ul class="social-links social-links--inline">
                                     <li class="flex-fill text-center">
                         <a aria-label="Facebook" href="https://www.facebook.com/NationalCapitalCommission" rel="noreferrer">
                             <i alt="Facebook" aria-hidden="true" class="fa-xl fa-brands fa-facebook-f"></i>
-                            <span class="fa-sr-only">Facebook</span>
+                            <span class="fa sr-only">Facebook</span>
                         </a>
                     </li>
                                     <li class="flex-fill text-center">
                         <a aria-label="Instagram" href="https://www.instagram.com/ncc_ccn" rel="noreferrer">
                             <i alt="Instagram" aria-hidden="true" class="fa-xl fa-brands fa-instagram"></i>
-                            <span class="fa-sr-only">Instagram</span>
+                            <span class="fa sr-only">Instagram</span>
                         </a>
                     </li>
                                     <li class="flex-fill text-center">
                         <a aria-label="X" href="https://x.com/NCC_CCN" rel="noreferrer">
                             <i alt="X" aria-hidden="true" class="fa-xl fa-brands fa-x-twitter"></i>
-                            <span class="fa-sr-only">X</span>
+                            <span class="fa sr-only">X</span>
                         </a>
                     </li>
                                     <li class="flex-fill text-center">
                         <a aria-label="Bluesky" href="https://bsky.app/profile/ncc-ccn.gc.ca" rel="noreferrer">
                             <i alt="Bluesky" aria-hidden="true" class="fa-xl fa-brands fa-bluesky"></i>
-                            <span class="fa-sr-only">Bluesky</span>
+                            <span class="fa sr-only">Bluesky</span>
                         </a>
                     </li>
                                     <li class="flex-fill text-center">
                         <a aria-label="LinkedIn" href="https://www.linkedin.com/company/national-capital-commission/" rel="noreferrer">
                             <i alt="LinkedIn" aria-hidden="true" class="fa-xl fa-brands fa-linkedin-in"></i>
-                            <span class="fa-sr-only">LinkedIn</span>
+                            <span class="fa sr-only">LinkedIn</span>
                         </a>
                     </li>
                                     <li class="flex-fill text-center">
                         <a aria-label="Youtube" href="https://www.youtube.com/user/nccvidccn" rel="noreferrer">
                             <i alt="Youtube" aria-hidden="true" class="fa-xl fa-brands fa-youtube"></i>
-                            <span class="fa-sr-only">Youtube</span>
+                            <span class="fa sr-only">Youtube</span>
                         </a>
                     </li>
                                     <li class="flex-fill text-center">
                         <a aria-label="Podcast" href="/podcast" rel="noreferrer">
                             <i alt="Podcast" aria-hidden="true" class="fa-xl fa-solid fa-podcast"></i>
-                            <span class="fa-sr-only">Podcast</span>
+                            <span class="fa sr-only">Podcast</span>
                         </a>
                     </li>
                               </ul>
-            <img class="footer-brand__canada-image" loading="lazy" src="/img/Canada.png" width="125px" alt="Canada">
+            <img class="footer-brand__canada-image" loading="lazy" src="/img/Canada.webp" width="125" height="31" alt="Canada">
           </div>
         </div>
         <div class="col"role="none">
@@ -1780,10 +1883,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </div>
   </div>
-</footer>        <script src="/js/vendor.js?1681438492"></script>
-        <script src="/js/main.js?1772028267"></script>
-    	
-        <script type="application/ld+json">{"@context":"http://schema.org","@graph":[{"@type":"GovernmentOrganization","description":"Every day, we work to build an inspiring capital that is a source of pride for all Canadians.","image":{"@type":"ImageObject","url":"https://ncc-website-2.s3.amazonaws.com/images/_1200x630_crop_center-center_82_none/aerial.jpg?mtime=1657548134"},"mainEntityOfPage":"https://ncc-ccn.gc.ca/transparency","name":"Transparency","url":"https://ncc-ccn.gc.ca/transparency"},{"@id":"ncc-ccn.ca#identity","@type":"GovernmentOrganization","address":{"@type":"PostalAddress","addressCountry":"Canada","addressLocality":"Ottawa","addressRegion":"Ontario","postalCode":"K1P 1C7","streetAddress":"40 Elgin Street"},"alternateName":"NCC","description":"Every day, we work to build an inspiring capital that is a source of pride for all Canadians.","email":"info@ncc-ccn.ca","image":{"@type":"ImageObject","height":"138","url":"https://ncc-website-2.s3.amazonaws.com/images/ncclogo.png","width":"138"},"logo":{"@type":"ImageObject","height":"60","url":"https://ncc-website-2.s3.amazonaws.com/images/_600x60_fit_center-center_82_none/ncclogo.png?mtime=1610475025","width":"60"},"name":"National Capital Commission","sameAs":["https://x.com/NCC_CCN","https://www.facebook.com/NationalCapitalCommission/","https://en.wikipedia.org/wiki/National_Capital_Commission","https://www.youtube.com/channel/UCQbd2kMcUmec6qaFaLThAtA?view_as=subscriber","https://www.instagram.com/ncc_ccn/"],"telephone":"(613) 239-5000","url":"https://ncc-ccn.gc.ca/ncc-ccn.ca"},{"@id":"http://ncc-ccn.gc.ca/#creator","@type":"GovernmentOrganization","address":{"@type":"PostalAddress","addressCountry":"Canada","addressLocality":"Ottawa","addressRegion":"Ontario","postalCode":"K1P 1C7","streetAddress":"40 Elgin Street"},"alternateName":"NCC","description":"Every day, we work to build an inspiring capital that is a source of pride for all Canadians.","email":"info@ncc-ccn.ca","image":{"@type":"ImageObject","height":"138","url":"http://ncc-website-2.s3.amazonaws.com/images/ncclogo.png?mtime=20181101150240","width":"138"},"logo":{"@type":"ImageObject","height":"60","url":"https://ncc-website-2.s3.amazonaws.com/images/_600x60_fit_center-center_82_none/ncclogo.png?mtime=1610475025","width":"60"},"name":"National Capital Commission","telephone":"(613) 239-5000","url":"http://ncc-ccn.gc.ca/"},{"@type":"BreadcrumbList","description":"Breadcrumbs list","itemListElement":[{"@type":"ListItem","item":"https://ncc-ccn.gc.ca/","name":"National Capital Commission","position":1},{"@type":"ListItem","item":"https://ncc-ccn.gc.ca/transparency","name":"Transparency","position":2}],"name":"Breadcrumbs"}]}</script><script>$(function() {
+</footer>                <script type="module" src="/js/vendor-C57KDZdp.js"></script>
+        <script type="module" src="/js/main-BVkdHj7P.js"></script>
+            	
+        <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"GovernmentOrganization","description":"Every day, we work to build an inspiring capital that is a source of pride for all Canadians.","image":{"@type":"ImageObject","url":"https://medias.ncc-ccn.ca/ncc/_transforms/images/_1200x630_crop_center-center_82_none/aerial.jpg?mtime=1782996463"},"mainEntityOfPage":"https://ncc-ccn.gc.ca/transparency","name":"Transparency","url":"https://ncc-ccn.gc.ca/transparency"},{"@id":"ncc-ccn.ca#identity","@type":"GovernmentOrganization","address":{"@type":"PostalAddress","addressCountry":"Canada","addressLocality":"Ottawa","addressRegion":"Ontario","postalCode":"K1N 5S6","streetAddress":"12 York St"},"alternateName":"NCC","description":"Every day, we work to build an inspiring capital that is a source of pride for all Canadians.","email":"info@ncc-ccn.ca","image":{"@type":"ImageObject","height":"138","url":"https://medias.ncc-ccn.ca/ncc/images/ncclogo.png","width":"138"},"logo":{"@type":"ImageObject","height":"60","url":"https://medias.ncc-ccn.ca/ncc/_transforms/images/_600x60_fit_center-center_82_none/ncclogo.png?mtime=1782996513","width":"60"},"name":"National Capital Commission","sameAs":["https://x.com/NCC_CCN","https://www.facebook.com/NationalCapitalCommission/","https://en.wikipedia.org/wiki/National_Capital_Commission","https://www.youtube.com/channel/UCQbd2kMcUmec6qaFaLThAtA?view_as=subscriber","https://www.instagram.com/ncc_ccn/"],"telephone":"(613) 239-5000","url":"https://ncc-ccn.gc.ca/ncc-ccn.ca"},{"@id":"http://ncc-ccn.gc.ca/#creator","@type":"GovernmentOrganization","address":{"@type":"PostalAddress","addressCountry":"Canada","addressLocality":"Ottawa","addressRegion":"Ontario","postalCode":"K1N 5S6","streetAddress":"12 York Street"},"alternateName":"NCC","description":"Every day, we work to build an inspiring capital that is a source of pride for all Canadians.","email":"info@ncc-ccn.ca","image":{"@type":"ImageObject","height":"138","url":"https://medias.ncc-ccn.ca/ncc/images/ncclogo.png","width":"138"},"logo":{"@type":"ImageObject","height":"60","url":"https://medias.ncc-ccn.ca/ncc/_transforms/images/_600x60_fit_center-center_82_none/ncclogo.png?mtime=1782996513","width":"60"},"name":"National Capital Commission","telephone":"(613) 239-5000","url":"http://ncc-ccn.gc.ca/"},{"@type":"BreadcrumbList","description":"Breadcrumbs list","itemListElement":[{"@type":"ListItem","item":"https://ncc-ccn.gc.ca/","name":"National Capital Commission","position":1},{"@type":"ListItem","item":"https://ncc-ccn.gc.ca/transparency","name":"Transparency","position":2}],"name":"Breadcrumbs"}]}</script><script>$(function() {
 		$(".toc-subnav").parents(".toc-level").show("fast")
 			.prev().toggleClass("fa-circle-plus fa-circle-minus");
 		
@@ -1793,64 +1896,97 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		});
 	});
 (function () {
-  // Pull GA4 Measurement ID from environment (SEOmatic env var)
-  const GA_ID = 'G-RTD9BL4DBV';
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){ dataLayer.push(arguments); }
+  if (window.loadConsentTrackers) return; // already defined
 
-  function loadGA4() {
-    if (!GA_ID || window.__gaLoaded) return; // guard
-    window.__gaLoaded = true;
-
-    // (Optional) Consent Mode v2 update – adjust to your policy
-    gtag('consent', 'update', {
-      ad_user_data: 'granted',
-      ad_personalization: 'granted',
-      ad_storage: 'granted',
-      analytics_storage: 'granted',
-      functionality_storage: 'granted',
-      security_storage: 'granted'
-    });
-
-    // Load GA4
+  function appendScript(src, {async=true, defer=true, id} = {}) {
+    if (id && document.getElementById(id)) return;
     var s = document.createElement('script');
-    s.async = true;
-    s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
-    s.onload = function () {
-      gtag('js', new Date());
-      // Normal page config; referrer is preserved because we didn't reload
-      gtag('config', GA_ID);
-    };
+    s.src = src;
+    s.async = async;
+    s.defer = defer;
+    if (id) s.id = id;
     document.head.appendChild(s);
   }
 
-  // If consent already present on first load, start tracking now
-  
+  function loadVendors() {
+    if (window.__consentVendorsLoaded) return;
+    window.__consentVendorsLoaded = true;
+
+    // Instagram embeds
+    appendScript("https://www.instagram.com/embed.js", { id: "ig-embed-js" });
+
+    // ClickDimensions
+    appendScript("https://analytics-ca.clickdimensions.com/ts.js", { id: "cd-ts-js" });
+
+  }
+
+  // Expose a single entrypoint the accept-click handler can call
+  window.loadConsentTrackers = loadVendors;
+
+  // If consent already exists at render, load immediately
+  })();
+(function () {
+  const seomaticTrackingScripts = [{"handle":"googleTagManager","head":"\/* Set up dataLayer and gtag *\/\nwindow.dataLayer = window.dataLayer || [];\nfunction gtag(){ dataLayer.push(arguments); }\n\n\/* Default: all consent denied *\/\ngtag('consent', 'default', {\n  'ad_storage': 'denied',\n  'ad_user_data': 'denied',\n  'ad_personalization': 'denied',\n  'analytics_storage': 'denied',\n  'wait_for_update': 500\n});\n\n\n\n\/* Load GTM *\/\n(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'\/\/www.googletagmanager.com\/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-WBCN4M');\n\n\/* Called by tracking.twig accept handler for first-time consent *\/\nwindow.updateGTMConsent = function() {\n  if (window.__trackingConsentGranted) return;\n  window.__trackingConsentGranted = true;\n  gtag('consent', 'update', {\n    'ad_storage': 'granted',\n    'ad_user_data': 'granted',\n    'ad_personalization': 'granted',\n    'analytics_storage': 'granted'\n  });\n  dataLayer.push({ 'event': 'consent_granted' });\n};\n","body":"<noscript><iframe src=\"\/\/www.googletagmanager.com\/ns.html?id=GTM-WBCN4M\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"><\/iframe><\/noscript>\n"},{"handle":"facebookPixel","head":"    function initFacebookPixel(){\n        !function(f,b,e,v,n,t,s){\n            if(f.fbq) return; n=f.fbq=function(){\n                n.callMethod ? n.callMethod.apply(n,arguments) : n.queue.push(arguments);\n            };\n            if(!f._fbq) f._fbq=n;\n            n.push=n; n.loaded=!0; n.version='2.0'; n.queue=[];\n            t=b.createElement(e); t.async=!0;\n            t.src=v; s=b.getElementsByTagName(e)[0];\n            s.parentNode.insertBefore(t,s);\n        }(window,document,'script','\/\/connect.facebook.net\/en_US\/fbevents.js');\n\n        fbq('init', '837959289699976');\n\n                            fbq('track', 'PageView');\n            }\n\n    \/\/ Lancer automatiquement si consentement d\u00e9j\u00e0 donn\u00e9\n    if (document.cookie.includes('ncc_ccn_tracking=')) {\n        initFacebookPixel();\n    }\n","body":"    "},{"handle":"linkedInInsight","head":"\/* LinkedIn Insight script did not render *\/\n","body":""},{"handle":"hubSpot","head":"","body":""},{"handle":"pinterestTag","head":"\/* Pinterest Tag script did not render *\/\n","body":""},{"handle":"fathom","head":"\/* Fathom script did not render *\/\n","body":""},{"handle":"matomo","head":"\/* Matomo script did not render *\/\n","body":""},{"handle":"plausible","head":"\/* Plausible script did not render *\/\n","body":""},{"handle":"googleAnalytics","head":"(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\nm=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n})(window,document,'script','https:\/\/www.google-analytics.com\/analytics.js','ga');\nga('create', 'UA-97225426-1', 'auto', {allowLinker: true});\nga('set', 'anonymizeIp', true);\nga('require', 'displayfeatures');\nga('require', 'linkid');\nga('require', 'linker');\nga('send', 'pageview');\n","body":""}];
+
+  function appendHtml(html, target) {
+    if (!html) return;
+    var template = document.createElement('template');
+    template.innerHTML = html.trim();
+    Array.prototype.slice.call(template.content.childNodes).forEach(function(node) {
+      if (node.nodeType !== Node.ELEMENT_NODE) return;
+      if (node.tagName !== 'SCRIPT') {
+        target.appendChild(node.cloneNode(true));
+        return;
+      }
+
+      var script = document.createElement('script');
+      Array.prototype.slice.call(node.attributes).forEach(function(attr) {
+        script.setAttribute(attr.name, attr.value);
+      });
+      if (node.textContent) {
+        script.text = node.textContent;
+      }
+      target.appendChild(script);
+    });
+  }
+
+  function loadSeomaticTrackingScripts() {
+    if (window.__seomaticTrackingLoaded) return;
+    window.__seomaticTrackingLoaded = true;
+
+    seomaticTrackingScripts.forEach(function(scriptParts) {
+      if (scriptParts.head) {
+        var inlineScript = document.createElement('script');
+        inlineScript.text = scriptParts.head;
+        document.head.appendChild(inlineScript);
+      }
+
+      appendHtml(scriptParts.body, document.body);
+    });
+  }
+
+  function persistConsent(value) {
+    var expires = new Date();
+    expires.setFullYear(expires.getFullYear() + 1);
+    var secure = window.location.protocol === 'https:' ? '; Secure' : '';
+    document.cookie = 'ncc_ccn_tracking=' + value + '; path=/; expires=' + expires.toUTCString() + '; SameSite=Lax' + secure;
+  }
+
   $(document).on("click","[data-cookie-accept]",function() {
     $(".cookie-banner__container").hide();
-    fetch("/api/tracking", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ setting: 1 })
-    }).then(() => {
-      // No reload: preserve real external referrer
-      loadGA4();
-      // Load the rest of your vendors from trackingCodes.twig
-      if (typeof loadConsentTrackers === 'function') loadConsentTrackers();
-    });
+    persistConsent(1);
+    loadSeomaticTrackingScripts();
+    if (typeof window.updateGTMConsent === 'function') window.updateGTMConsent();
+    if (typeof loadConsentTrackers === 'function') loadConsentTrackers();
   });
 
   $(document).on("click","[data-cookie-decline]",function() {
     $(".cookie-banner__container").hide();
-    fetch("/api/tracking", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ setting: 0 })
-    });
+    persistConsent(0);
     // No reload, and don't load trackers.
   });
 })();</script>
-	
+	                                    
   
 
 

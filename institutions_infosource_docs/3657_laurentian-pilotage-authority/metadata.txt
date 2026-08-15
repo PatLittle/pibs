@@ -1,5 +1,6 @@
 institution_name_en: Laurentian Pilotage Authority
 institution_name_fr: Administration de pilotage des Laurentides
 gc_orgID: 3657
-infosource_url_en: http://www.pilotagestlaurent.gc.ca/en/information-sources.html
-infosource_url_fr: http://www.pilotagestlaurent.gc.ca/fr/sources-de-renseignements.html
+infosource_url_en: https://www.pilotagestlaurent.gc.ca/en
+infosource_url_fr: https://www.pilotagestlaurent.gc.ca/
+audit_timestamp_utc: 2026-08-15T08:18:58.913611+00:00

@@ -1,0 +1,6 @@
+institution_name_en: Royal Canadian Mounted Police
+institution_name_fr: Gendarmerie royale du Canada
+gc_orgID: 2288
+infosource_url_en: https://rcmp.ca/en/corporate-information/access-information-and-privacy/info-source
+infosource_url_fr: https://grc.ca/fr/renseignements-organisationnels/acces-linformation-et-protection-renseignements-personnels/info-source
+audit_timestamp_utc: 2026-08-15T08:18:46.504436+00:00

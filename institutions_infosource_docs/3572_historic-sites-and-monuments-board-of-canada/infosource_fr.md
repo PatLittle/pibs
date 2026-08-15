@@ -43,8 +43,8 @@ Menu principal
 
 1. [Canada.ca](/fr.html)
 2. [Secrétariat du Conseil du Trésor du Canada](/fr/secretariat-conseil-tresor.html)
-3. [Accès à l’information et protection des renseignements personnels](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels.html)
-4. [Info Source](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source.html)
+3. [Accès à l’information et protection des renseignements personnels](/fr/secretariat-conseil-tresor/services/acces-information-protection-renseignements-personnels.html)
+4. [Info Source](/fr/secretariat-conseil-tresor/services/acces-information-protection-renseignements-personnels/acces-information/info-source.html)
 
 # Commission des lieux et monuments historiques du Canada
 
@@ -173,7 +173,7 @@ Gatineau (Québec) J8X 0B3
 
 ## Détails de la page
 
-2023-09-29
+2026-03-23
 
 ## À propos de ce site
 

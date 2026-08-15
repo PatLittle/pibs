@@ -54,7 +54,7 @@ Menu principal
 
 ## Sources de renseignements du gouvernement fédéral et sur les fonctionnaires fédéraux
 
-## Table des matières
+## Sur cette page
 
 [Introduction à Info Source](#prsttnnfsrc)
 
@@ -96,11 +96,6 @@ Menu principal
 * [Services de voyage et autres services administratifs](#srvcsdvgttrssrvcsdmnstrtfs)
 * [Légende](#Lgnd)
 
-[Contrats, accords et ententes](#contrat)
-
-* [Contrats (en cours d’élaboration)](#contrat)
-* [Ententes et accords d’échange de renseignements](#contrat)
-
 [Manuels de l'ARC](#mnlsdlrc)
 
 [Renseignements supplémentaires](#rnsgnmntsspplmntrs)
@@ -111,25 +106,25 @@ Menu principal
 
 ## Introduction à Info Source
 
-Info Source décrit les programmes et les activités, ainsi que les fonds de renseignements relatifs aux programmes et aux activités, des institutions gouvernementales assujetties à la Loi sur l’accès à l’information afin de faciliter le droit d’accès. Il fournit également aux particuliers, y compris les employés actuels et anciens du gouvernement du Canada, des renseignements pertinents pour accéder aux renseignements personnels les concernant détenus par des institutions gouvernementales assujetties à la Loi sur la protection des renseignements personnels et pour exercer leurs droits en vertu de la Loi sur la protection des renseignements personnels.
+Info Source décrit les programmes et les activités, ainsi que les fonds de renseignements relatifs aux programmes et aux activités, des institutions gouvernementales assujetties à la *[Loi sur l’accès à l’information](https://laws-lois.justice.gc.ca/fra/lois/a-1/)* afin de faciliter le droit d’accès. Il fournit également aux particuliers, y compris les employés actuels et anciens du gouvernement du Canada, des renseignements pertinents pour accéder aux renseignements personnels les concernant détenus par des institutions gouvernementales assujetties à la [*Loi sur la protection des renseignements personnels*](https://laws-lois.justice.gc.ca/fra/lois/p-21/index.html) et pour exercer leurs droits en vertu de la *Loi sur la protection des renseignements personnels*.
 
-Un accès central permet de consulter une liste des institutions assujetties à la Loi sur l’accès à l’information et à la Loi sur la protection des renseignements personnels.
+Un accès central permet de consulter une [liste des institutions assujetties](/fr/secretariat-conseil-tresor/services/acces-information-protection-renseignements-personnels/acces-information/info-source/liste-organisations.html) à la *Loi sur l’accès à l’information* et à la *Loi sur la protection des renseignements personnels*.
 
-La Loi sur l’accès à l’information et la Loi sur la protection des renseignements personnels attribuent au Président du Conseil du Trésor (à titre de ministre responsable) la responsabilité générale de l’administration pangouvernementale des lois.
+La *Loi sur l’accès à l’information* et la *Loi sur la protection des renseignements personnels*attribuent au Président du Conseil du Trésor (à titre de ministre responsable) la responsabilité générale de l’administration pangouvernementale des lois.
 
 ## Renseignements généraux
 
 ### Historique
 
-Le ministère du Revenu national a été créé en 1927 par suite de l'adoption de la Loi sur le ministère de Revenu national, qui donnait un nouveau nom au ministère des Douanes et de l'Accise. Les responsabilités du Ministère englobaient alors l'imposition et la perception de droits et de taxes, le contrôle du mouvement des personnes et des biens à la frontière canadienne et la protection des industries canadiennes contre la concurrence étrangère.
+Le ministère du Revenu national a été créé en 1927 par suite de l'adoption de la *Loi sur le ministère de Revenu national*, qui donnait un nouveau nom au ministère des Douanes et de l'Accise. Les responsabilités du Ministère englobaient alors l'imposition et la perception de droits et de taxes, le contrôle du mouvement des personnes et des biens à la frontière canadienne et la protection des industries canadiennes contre la concurrence étrangère.
 
 Cette même loi créait en outre un second ministère chargé du recouvrement de l'impôt sur le revenu, une responsabilité auparavant confiée à un commissaire du ministère des Finances. Un seul ministre était responsable des deux ministères, qui comptaient deux organisations ministérielles toutefois dirigées par des sous-ministres distincts.
 
-Le 29 avril 1999, le Parlement a adopté la Loi sur l'Agence des douanes et du revenu du Canada constituant l'Agence des douanes et du revenu du Canada (maintenant l'Agence du Revenu du Canada). Le passage du statut de ministère à celui d'agence, qui a eu lieu le 1er novembre 1999, a favorisé la création d'une organisation moderne qui s'engage à faire preuve de leadership et d'innovation et à bien servir la clientèle.
+Le 29 avril 1999, le Parlement a adopté la *Loi sur l'Agence des douanes et du revenu du Canada* constituant l'Agence des douanes et du revenu du Canada (maintenant l'Agence du Revenu du Canada). Le passage du statut de ministère à celui d'agence, qui a eu lieu le 1er novembre 1999, a favorisé la création d'une organisation moderne qui s'engage à faire preuve de leadership et d'innovation et à bien servir la clientèle.
 
 Le 12 décembre 2003, le gouvernement a annoncé la création de l'Agence des services frontaliers du Canada (ASFC), responsable pour les opérations des douanes du Canada. Deux ans plus tard, le 12 décembre 2005, entre en vigueur la disposition législative rendant officiel le nom de l'Agence du revenu du Canada (ARC).
 
-L'Agence du revenu du Canada (ARC) applique les [lois et les règlements](/fr/agence-revenu/programmes/a-propos-agence-revenu-canada-arc/lois-reglements.html) en matière de fiscalité, tels que la [Loi de l'impôt sur le revenu](http://laws-lois.justice.gc.ca/fra/lois/I-3.3/index.html) et la [Loi sur la taxe d'accise](http://laws-lois.justice.gc.ca/fra/lois/E-15/index.html), pour le gouvernement du Canada ainsi que pour la plupart des provinces et des territoires. L'Agence administre également divers programmes incitatifs et d'avantages sociaux et économiques offerts au moyen du régime fiscal. Le [rapport sur les résultats ministériels](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/rapports-ministeriels-rendement.html) est le document principal pour communiquer les résultats de l'ARC aux Canadiens et aux parlementaires. Le rapport sur les résultats ministériels fournit un rapport détaillé portant sur le rendement de l'ARC au cours du dernier exercice et sert de discussion au sujet des réalisations de l'ARC en fonction des objectifs et des indicateurs clés établis dans son plan d'entreprise et son rapport sur les plans et les priorités. Le rapport sur les résultats ministériels comprend également les états financiers vérifiés.
+L'Agence du revenu du Canada (ARC) applique les [lois et les règlements](/fr/agence-revenu/programmes/a-propos-agence-revenu-canada-arc/lois-reglements.html) en matière de fiscalité, tels que la [*Loi de l'impôt sur le revenu*](http://laws-lois.justice.gc.ca/fra/lois/I-3.3/index.html) et la [*Loi sur la taxe d'accise*](http://laws-lois.justice.gc.ca/fra/lois/E-15/index.html), pour le gouvernement du Canada ainsi que pour la plupart des provinces et des territoires. L'Agence administre également divers programmes incitatifs et d'avantages sociaux et économiques offerts au moyen du régime fiscal. Le [rapport sur les résultats ministériels](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/rapports-ministeriels-rendement.html) est le document principal pour communiquer les résultats de l'ARC aux Canadiens et aux parlementaires. Le rapport sur les résultats ministériels fournit un rapport détaillé portant sur le rendement de l'ARC au cours du dernier exercice et sert de discussion au sujet des réalisations de l'ARC en fonction des objectifs et des indicateurs clés établis dans son plan d'entreprise et son plan ministériel. Le rapport sur les résultats ministériels comprend également les états financiers vérifiés.
 
 ### Responsabilités
 
@@ -137,13 +132,11 @@ L'Agence du revenu du Canada (ARC) est le principal percepteur de recettes au pa
 
 L'Agence a été créée pour les raisons suivantes : procurer un meilleur service aux Canadiens; offrir une prestation plus efficiente et efficace des programmes gouvernementaux; favoriser des liens plus étroits avec les provinces et les autres niveaux de gouvernement pour lesquels l'ARC exécute des programmes; et offrir une meilleure reddition de comptes.
 
-L'ARC contribue à deux des objectifs stratégiques du gouvernement du Canada : des organisations fédérales qui appuient tous les ministères et organismes; et la sécurité du revenu et des emplois pour les Canadiens.
-
-L'ARC a pour [mandat](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/mission-vision-valeurs.html) d'administrer les impôts, les prestations et d'autres programmes au nom du gouvernement du Canada, des gouvernements provinciaux, territoriaux et de certains gouvernements des Premières nations. L'ARC procède à l'exercice de son mandat dans le cadre de lois complexes adoptées par le Parlement et d'assemblées législatives provinciales et territoriales. Notre mandat reflète le rôle élargi que nous jouons dans la vie des Canadiens.
+L'ARC a pour mission d’exécuter les programmes fiscaux, de prestation et autres, et d’assurer l’observation fiscale pour le compte de gouvernements dans l’ensemble du Canada, de façon à contribuer au bien-être économique et social continu des Canadiens. L'ARC procède à l'exercice de sa mission dans le cadre de lois complexes adoptées par le Parlement et d'assemblées législatives provinciales et territoriales. Notre mandat reflète le rôle élargi que nous jouons dans la vie des Canadiens
 
 Aucune autre organisation publique ne touche la vie d'autant de Canadiens de façon quotidienne que l'ARC. Chaque année, nous percevons des millions de dollars en recettes fiscales et offrons des prestations, des crédits et autres services fondés sur le revenu qui aident les familles, les enfants et les ménages à faible et à moyen revenu ainsi que les personnes handicapées. Ces programmes contribuent directement au bien-être économique et social des Canadiens.
 
-Les deux résultats stratégiques suivants résument notre contribution à la société canadienne : les contribuables répondent à leurs obligations et l'assiette fiscale du Canada est protégée et; les familles et les particuliers admissibles reçoivent des paiements de prestations corrects et en temps opportun. En plus de l'administration de programmes d'impôts et de prestations, l'ARC administre maintenant la taxe de vente harmonisée (TVH) pour cinq provinces.
+Les deux résultats ministériels suivants résument notre contribution à la société canadienne : les contribuables respectent leurs obligations fiscales canadiennes et les bonnes recettes fiscales sont obtenues pour les Canadiens et; les Canadiens reçoivent les prestions auxquelles ils ont droit. En plus de l'administration de programmes d'impôts et de prestations, l'ARC administre maintenant la taxe de vente harmonisée (TVH) pour cinq provinces.
 
 L'ARC vérifie aussi les niveaux de revenu des contribuables pour appuyer une grande variété de programmes fédéraux, provinciaux et territoriaux, allant des prêts étudiants aux initiatives de soins de santé. Nous fournissons aussi d'autres services, comme le Programme de compensation de dettes par remboursement, par lequel nous aidons d'autres organismes et ministères fédéraux, en plus des gouvernements provinciaux et territoriaux, à recouvrir des dettes qui, autrement, ne seraient pas recouvrables.
 
@@ -151,11 +144,11 @@ L'ARC vérifie aussi les niveaux de revenu des contribuables pour appuyer une gr
 
 ### Responsabilités essentielles - Impôt
 
-S’assurer que le système fiscal d’autocotisation du Canada est maintenu en fournissant aux contribuables le soutien et les renseignements nécessaires pour comprendre et pour respecter leurs obligations fiscales, et prendre des mesures d’observation et d’exécution au besoin pour maintenir l’intégrité du système, en offrant des moyens de recours lorsque les contribuables pourraient être en désaccord avec une cotisation ou une décision.
+Veiller à ce que le régime fiscal d’autocotisation du Canada est maintenu en fournissant aux contribuables le soutien et les renseignements nécessaires pour comprendre et pour respecter leurs obligations fiscales, et prendre des mesures d’observation et d’exécution au besoin pour maintenir l’intégrité du système, en offrant des recours lorsque les contribuables pourraient être en désaccord avec une cotisation ou une décision.
 
 #### Services fiscaux et traitement
 
-Nous fournissons aux contribuables l’accès aux renseignements exacts et opportuns dont ils ont besoin pour respecter les lois fiscales du Canada en modernisant nos services et en enrichissant notre plateforme téléphonique, afin de permettre aux contribuables de respecter plus facilement leurs obligations fiscales. Nous inscrivons les entreprises pour un numéro d'entreprise et administrons les programmes T2, T3, de la TPS/TVH, de l'accise, les remboursements, et d'autres programmes de prélèvements. Nous aidons les entreprises et les particuliers à respecter volontairement les lois fiscales du Canada en traitant leurs renseignements et leurs paiements le plus rapidement et fidèlement possible et en leur communiquant les résultats de leur cotisation ou de leur nouvelle cotisation.
+Nous fournissons aux contribuables un accès à des renseignements exacts et opportuns dont ils ont besoin pour se conformer aux lois fiscales du Canada en modernisant nos services, y compris en élargissant nos services numériques et en améliorant notre plateforme téléphonique, ce qui permet aux contribuables de respecter plus facilement leurs obligations fiscales. Nous inscrivons les entreprises pour obtenir un numéro d’entreprise et administrons les programmes T2, T3, de la TPS/TVH, de l’accise, de remboursements et d’autres prélèvements. Nous aidons les entreprises et les particuliers à observer volontairement les lois fiscales du Canada en traitant leurs renseignements et leurs paiements le plus rapidement et précisément possible, ainsi qu’en les informant des résultats de leur cotisation ou de leur nouvelle cotisation.
 
 * [Catégorie de document du programme communautaire des bénévoles en matière d’impôt (ARC DGCPS 110)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/appendice.html#110)
   + [Programme communautaire des bénévoles en matière d'impôt (ARC PPU 100)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/info-source-annexe.html#PPU100)
@@ -181,18 +174,17 @@ Nous fournissons aux contribuables l’accès aux renseignements exacts et oppor
 * [Catégorie de document en matière d'administration des déclarations et des remboursements de la taxe sur les produits et services/taxe de vente harmonisée (ARC DGCPS 246)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/appendice.html#246)
   + [Fichier de renseignements personnels sur le traitement des déclarations et des remboursements de TPS/TVH (ARC PPU 241)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/info-source-annexe.html#241)
 * [Catégorie de document sur le programme de compensation de dettes par remboursement des entreprises (ARC DGCPS 229)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/appendice.html#229)
-
+  + [Fichier de renseignements personnels sur le programme de compensation de dettes par remboursement des entreprises (ARC PPU 221)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/info-source-annexe.html#221)
 * [Catégorie de document sur le programme des divulgations volontaires (ARC DGPO 264)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/appendice.html#264)
   + [Fichier de renseignements personnels sur le programme des divulgations volontaires (ARC PPU 220)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/info-source-annexe.html#220)
 * [Catégorie de document sur les Initiatives de subvention pour les entités commerciales (ARC DGCPS 230)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/appendice.html#230)
   + [Fichier de renseignements personnels su les initiatives de subvention liées à la COVID-19 pour les entités commerciales (ARC PPU 231)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/info-source-annexe.html#231)
-
 * [Catégorie de document sur la Taxe sur les logements sous-utilisés (ARC DGCPS 215)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/appendice.html#215)
   + [Fichier de renseignements personnels sur la Taxe sur les logements sous-utilisés (ARC PPU 214)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/info-source-annexe.html#214)
 
 #### Organismes de bienfaisance
 
-Nous administrons un programme national de règlementation des organismes de déclarations de renseignements des organismes de bienfaisance et d’autres activités de l’observation. Nous élaborons également des documents et du matériel pédagogiques, organisons des séances d’information et de consultation, de bienfaisance et des autres donataires reconnus. Nous sommes responsables des activités liées à l'éventail complet du continuum de l’observation, y compris l’examen des demandes d’enregistrement, le traitement de déclarations de renseignements des organismes de bienfaisance et d’autres activités de l’observation. Nous élaborons également des documents et du matériel pédagogiques, organisons des séances d’information et de consultation, et maintenons les comptes des clients. Nous encourageons l’observation des lois relatives à l’impôt sur le revenu en avisons les organismes de bienfaisance enregistrés et autres donataires reconnus, ainsi les candidats à ces statuts, de leurs obligations aux termes de la loi, communiquons de l’information relative à la bienfaisance au public, ciblons et corrigeons les inobservations à l’aide d’une variété de mesures nus, de correction, et offrons un service axé sur la clientèle. Ce travail protège les intérêts des contribuables donateurs, ainsi que ceux des Canadiennes et des Canadiens, tout en contribuant à maintenir la confiance du public à l’égard du secteur de la bienfaisance et de l’Agence du revenu du Canada.
+Nous administrons un programme national de réglementation des organismes de bienfaisance et d’autres donataires reconnus. Nous sommes responsables des activités qui couvrent tout le spectre du continuum de l’observation, y compris l’examen des demandes d’enregistrement, le traitement des déclarations d’organismes de bienfaisance et d’autres activités d’observation. Nous élaborons également des produits et des aides éducatifs, organisons des séances d’information et des consultations, et tenons à jour les comptes des clients. Nous favorisons la conformité à la législation de l’impôt sur le revenu, en informant les organismes de bienfaisance enregistrés et les autres donataires reconnus, ainsi que les demandeurs de ces statuts, de leurs obligations en vertu de la loi, en communiquant des renseignements sur les organismes de bienfaisance auprès du public, en détectant et en traitant les cas d’inobservation au moyen d’une gamme de mesures correctives et en fournissant un service axé sur le client. Ce travail protège les intérêts des contribuables donateurs, ainsi que ceux des Canadiennes et des Canadiens, tout en contribuant à maintenir la confiance du public à l’égard du secteur de la bienfaisance et de l’Agence du revenu du Canada.
 
 * [Catégorie de document du programme des organismes de bienfaisance (ARC DGPLAR 290)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/appendice.html#290)
   + [Fichier de renseignements personnels du programme des organismes de bienfaisance (ARC PPU 200)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/info-source-annexe.html#200)
@@ -201,14 +193,14 @@ Nous administrons un programme national de règlementation des organismes de dé
 
 #### Régimes enregistrés
 
-La Direction des régimes enregistrés (DRE) fait partie de l'Agence du revenu du Canada (ARC). La DRE est responsable de l'enregistrement et du contrôle des revenus différés et des régimes d'épargne pour s'assurer qu'ils sont conformes à la Loi de l'impôt sur le revenu, au règlement de l'impôt sur le revenu et aux règles administratives connexes. La DRE donne des informations et des conseils aux employeurs, aux administrateurs de régimes, aux promoteurs, aux émetteurs, à leurs conseillers et à d'autres professionnels de la fiscalité sur la législation et les règles administratives relatives aux régimes d'épargne à revenu différé afin de les aider à remplir leurs obligations fiscales. En investissant dans les personnes, l'éducation, la technologie et les activités d'application responsables, la DRE peut protéger l'intégrité du régime canadien de régimes de revenu différé et d'épargne et fournir aux Canadiens des connaissances et des outils qui favorisent le respect des exigences législatives.
+La Direction des régimes enregistrés (DRE) fait partie de l’Agence du revenu du Canada. La DRE est responsable de l’enregistrement et de la surveillance des régimes de revenu différé et d’épargne pour s’assurer qu’ils sont conformes à la Loi de l’impôt sur le revenu, au Règlement de l’impôt sur le revenu et aux règles administratives connexes. La DRE donne de l’information et des conseils aux employeurs, aux administrateurs de régimes, aux promoteurs, aux émetteurs, à leurs conseillers et aux autres fiscalistes sur la législation et les règles administratives relatives aux régimes d’épargne-revenu différé afin de les aider à remplir leurs obligations fiscales. Investir dans les personnes, l’éducation, la technologie et les activités d’application responsables permet à la DRE de protéger l’intégrité des régimes de revenu différé et d’épargne du Canada et de fournir aux Canadiennes et aux Canadiens des connaissances et des outils qui favorisent le respect des exigences législatives.
 
 * [Catégorie de document sur les régimes enregistrés d'épargne et de revenu différé (ARC DGPLAR 117)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/appendice.html#117)
   + [Fichier de renseignements personnels sur les régimes enregistrés d'épargne et de revenu différé (ARC PPU 226)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/info-source-annexe.html#226)
 
 #### Politique, décisions et interprétations
 
-Nous offrons aux contribuables, aux inscrits, et aux intermédiaires fiscaux des décisions et des interprétations des lois administrées par l‘Agence du revenu du Canada, y compris, mais sans s’y limiter, le Loi de l'impôt sur le revenu, la Loi sur la taxe d'accise, la Loi sur la taxe sur les logements sous-utilisés, le Régime de pensions du Canada et la Loi sur l’assurance emploi. Ce faisant, nous donnons aux contribuables une certitude en expliquant la façon dont la loi s’applique à des situations particulières. Les programmes de politiques, de décisions et d’interprétations de l’Agence analysent toutes les décisions et les interprétations du même angle, sans égard aux renseignements démographiques des clients. Nous travaillons étroitement avec le ministère des Finances Canada à l’élaboration de la politique législative, et fournissons des politique législatives et des services administratifs à d’autres organismes du gouvernement du Canada. Nous présentons et faisons avancer des initiatives conçues pour offrir une certitude précoce sur les questions fiscales, à aider à prévenir les erreurs et, dans certains cas, à réduire le nombre de demandes individuelles de décisions et d’interprétations. Nous appliquons aussi les lois liées aux droits et taxes d’accise. Grâce à ce travail, les contribuables sont plus conscients des informations techniques disponibles, mieux informés de leurs obligations et de leurs droits fiscaux et mieux à même d'appliquer correctement la loi.
+Nous offrons aux contribuables, aux inscrits et aux intermédiaires fiscaux des décisions et des interprétations des lois administrées par l’Agence du revenu du Canada, y compris la *Loi de l’impôt sur le revenu*, la *Loi sur la taxe sur les logements sous-utilisés*, la *Loi sur la taxe d’accise*, le Régime de pensions du Canada et la *Loi sur l’assurance-emploi*. Ce faisant, nous donnons aux contribuables une certitude en expliquant la façon dont la loi s’applique à des situations particulières. Les programmes de politiques, de décisions et d’interprétations de l’Agence analysent toutes les décisions et les interprétations selon le même angle, sans égard aux renseignements démographiques des clients. Nous travaillons étroitement avec le ministère des Finances Canada à l’élaboration de la politique législative, et fournissons des politiques législatives et des services administratifs à d’autres organismes du gouvernement du Canada. Nous présentons et faisons avancer des initiatives conçues pour offrir une certitude précoce sur les questions fiscales, aider à prévenir les erreurs et, dans certains cas, réduire le nombre de demandes individuelles de décisions et d’interprétations. Nous appliquons aussi les lois liées aux droits et taxes d’accise. Grâce à ce travail, les contribuables sont plus conscients des renseignements techniques disponibles, mieux informés de leurs obligations et de leurs droits fiscaux et mieux à même d'appliquer correctement la loi.
 
 * [Catégorie de documents sur les décisions anticipées en matière d'impôt et interprétations techniques (ARC DGPLAR 041)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/appendice.html#041)
   + [Fichier de renseignements personnels sur les décisions anticipées en matière d'impôt sur le revenu et interprétations techniques (ARC PPU 090)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/info-source-annexe.html#090)
@@ -224,25 +216,25 @@ Nous offrons aux contribuables, aux inscrits, et aux intermédiaires fiscaux des
 
 #### Rétroaction sur le service
 
-Nous offrons aux clients un processus pour fournir des commentaires, y compris des plaintes, des suggestions et des compliments, et résoudre les problèmes liés au service, à la qualité ou à la rapidité du travail de l’Agence, comme il est décrit dans la Charte des droits du contribuable. Les problèmes de service soulevés par les clients fournissent des renseignements précieux, et cette rétroaction aide l’Agence à cerner et à mettre en œuvre des améliorations continues des services.
+Nous offrons aux clients un processus pour fournir des commentaires, y compris des plaintes, des suggestions et des compliments, et résoudre les problèmes liés au service, à la qualité ou à la rapidité du travail de l’Agence du revenu du Canada, comme il est décrit dans la Charte des droits du contribuable. Les problèmes liés au service soulevés par les clients fournissent des renseignements précieux, et cette rétroaction aide l’Agence à déterminer les améliorations continues à apporter aux services et à les mettre en œuvre.
 
 * [Catégorie de document en matière de rétroaction sur les services (ARC DGSII 575)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/appendice.html#575)
   + [Fichier de renseignements personnels sur le Programme de la rétroaction sur les services (ARC PPU 571)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/info-source-annexe.html#571)
 
 #### Oppositions et appels
 
-Nous offrons un processus d’examen réglementé et impartial aux contribuables qui choisissent de déposer un litige officiel concernant des cotisations ou  des déterminations effectuées par l’Agence du revenu du Canada en vertu de la Loi de l’impôt sur le revenu, la Loi sur la taxe d’accise, la Loi sur la taxe sur les logements sous-utilises, la Loi sur la taxe sur certains biens de luxe, la Loi sur le droit pour la sécurité des passagers du transport aérien, la Loi sur la tarification la pollution causée par les gaz à effet de serre, la Loi sur les droits d’exportations de produits de bois d’œuvre, le Régime de pensions du Canada, ou la Loi sur l’assurance emploi. Nous travaillons également avec le ministère de la Justice sur les appels devant les tribunaux. Nous offrons de l’éducation et l’aide aux contribuables pour les informer de leurs droits en matière de résolution de litiges, ainsi que du moment où il convient d'enregistrer un litige officiel.
+Nous offrons un processus d’examen législatif et impartial aux contribuables qui choisissent de déposer un différend officiel concernant les cotisations ou les décisions que l’Agence a rendues  en vertu de la *Loi de l’impôt sur le revenu*, de la *Loi sur la taxe d’accise*, de la *Loi sur la taxe sur les logements sous-utilisés*, de la *Loi sur la taxe sur certains biens de luxe*, de la *Loi sur le droit pour la sécurité des passagers du transport aérien*, de la *Loi sur la tarification de la pollution causée par les gaz à effet de serre*, de la *Loi sur les droits d’exportation de produits de bois d’oeuvre*, du Régime de pensions du Canada ou de la *Loi sur l’assurance-emploi*. Nous collaborons également avec le ministère de la Justice en ce qui a trait aux appels déposés devant les tribunaux. Nous offrons de l’éducation et de l’aide aux contribuables pour les informer de leurs droits en matière de résolution des litiges ainsi que du moment où il convient d'enregistrer un avis de différend officiel.
 
 * [Catégorie de document sur les Oppositions en matière d’impôt sur le revenu et des organismes de bienfaisance et appels devant les tribunaux (ARC APP 545)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/appendice.html#545)
   + [Fichier de renseignements personnels sur les oppositions en matière d'impôt sur le revenu et des organismes de bienfaisance, et appels devant les tribunaux (ARC PPU 172)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/info-source-annexe.html#172)
 * [Catégorie de document sur les Oppositions, déterminations et appels devant les tribunaux en matière de taxes à la consommation (ARC APP 555)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/appendice.html#555)
   + [Fichier de renseignements personnels sur les oppositions, déterminations et appels devant le tribunal relatifs à la taxe à la consommation (ARC PPU 177)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/info-source-annexe.html#177)
 * [Catégorie de document en matière d'appels à la ministre et appels devant les tribunaux liés au Régime de pensions du Canada et à l’assurance-emploi (ARC APP 565)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/appendice.html#565)
-  + [Fichier de renseignements personnels sur la Appels concernant le Régime de pensions du Canada et la Loi sur l'assurance emploi (ARC PPU 130)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/info-source-annexe.html#130)
+  + [Fichier de renseignements personnels sur la Appels concernant le Régime de pensions du Canada et la *Loi sur l'assurance emploi* (ARC PPU 130)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/info-source-annexe.html#130)
 
 #### Allègement pour les contribuables
 
-Nous administrons le processus en vertu duquel la ministre du Revenu national peut, selon les dispositions législatives, accorder les contribuables un allègement des pénalités et des intérêts qui surviennent sans que ce soit leur faute, ou en raison d'une incapacité de payer ou des circonstances hors de leur contrôle. Nos activités, y compris l'éducation et l'assistance aux contribuables, ont pour résultat une meilleure sensibilisation des contribuables aux dispositions relatives aux pénalités et à la réduction des intérêts et à ce qu'ils doivent faire pour obtenir un allègement. Nous examinons les demandes de manière impartiale et en temps utile afin que les contribuables obtiennent un allègement lorsque cela est justifié.
+Nous administrons le processus en vertu duquel le ministre du Revenu national peut, selon les dispositions législatives, accorder aux contribuables un allègement des pénalités et des intérêts qui découlent d’une incapacité de payer ou de circonstances indépendantes de leur volonté. Nos activités, y compris l’éducation et l’aide aux contribuables, permettent de sensibiliser davantage les contribuables aux pénalités et aux dispositions d’allègement des intérêts et à ce qu’ils doivent faire pour obtenir un allègement. Nous examinons les demandes de manière impartiale et en temps opportun afin que les contribuables obtiennent un allègement lorsque cela est justifié.
 
 * [Catégorie de document en matière d'allègements pour les contribuables (ARC APP 585)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/appendice.html#585)
   + [Fichier de renseignements personnels sur le programme des allègements pour les contribuables (ARC PPU 580)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/info-source-annexe.html#580)
@@ -275,7 +267,7 @@ Nous nous engageons à faire en sorte que les demandeurs d'aide et d'incitation 
 
 #### Observation en matière de production des déclarations
 
-Grâce à diverses activités d'éducation et de validation, nous encourageons les particuliers, les entreprises et les fiducies à mieux comprendre leurs obligations fiscales et les conséquences de l’inobservation. Nous cherchons continuellement des moyens d'éduquer de manière proactive les contribuables dans le but de les faire participer dans le régime fiscal et de dissuader l’inobservation. Nous exécutons l'inscription et effectuons des validations et des examens pour nous assurer que les particuliers, les entreprises et les fiducies respectent leurs obligations de retenue, de versement, de déclaration et de production, y compris des retenues à la source, la TPS / TVH, des autres prélèvements et de l'impôt des non-résidents.
+Par diverses activités d’éducation et de validation, nous encourageons les particuliers, les entreprises et les fiducies à mieux comprendre leurs obligations fiscales et les conséquences de l’inobservation. Nous cherchons continuellement des moyens d’éduquer de manière proactive les contribuables dans le but de faciliter l’observation et de dissuader l’inobservation. Nous appliquons l’inscription et effectuons des validations et des examens pour nous assurer que les particuliers, entreprises et fiducies respectent leurs obligations en matière de retenue, de versement, de déclaration et de production, y compris les retenues sur la paie, la TPS/TVH, les autres prélèvements et les impôts des non-résidents.
 
 * [Catégorie de document ayant trait à l'observation par les non-déclarants (ARC DGRV 181)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/appendice.html#181)
   + [Fichier de renseignements personnels sur les données sur les non-déclarants (ARC PPU 025)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/info-source-annexe.html#025)
@@ -290,7 +282,7 @@ Grâce à diverses activités d'éducation et de validation, nous encourageons l
 
 #### Recouvrements
 
-Nous percevons les dettes fiscales et non fiscales pour le compte des gouvernements fédéral, provinciaux et territoriaux, ainsi que pour d'autres ministères et organismes gouvernementaux. Pour y parvenir, nous évaluons de nouvelles approches visant à moderniser les stratégies de recouvrement de l'impôt et à favoriser les innovations, facilitées par les renseignements d’entreprise et l’analyse de données. Une meilleure compréhension du comportement des contribuables permet une approche plus ciblée et axée sur le risque. En distinguant les contribuables à faible risque (ceux qui peuvent et veulent payer, ou ceux qui doivent de l'argent, mais ont besoin du temps pour payer) de ceux qui n'ont pas l'intention de payer, nous pouvons personnaliser notre approche en vue d'encourager ou d'exiger l'observation en matière de paiement, au besoin. Pour promouvoir l’auto-résolution, nous nous efforçons d'éduquer tous les contribuables pour nous assurer qu'ils connaissent et comprennent leurs obligations de paiement d’impôt et les conséquences des mesures d’exécution du recouvrement lorsqu’ils sont non-conformes.
+Nous percevons les dettes fiscales et non fiscales au nom des gouvernements fédéraux, provinciaux et territoriaux, ainsi que pour d’autres ministères et organismes gouvernementaux. Pour ce faire, nous évaluons de nouvelles approches pour moderniser les stratégies de recouvrement des impôts et favoriser les innovations, facilitées par l’intelligence d’affaires et l’analyse des données. Une meilleure compréhension du comportement des contribuables permet une approche plus ciblée et fondée sur les risques. En différenciant les contribuables à faible risque (ceux qui peuvent et veulent payer, ou ceux qui doivent, mais qui ont besoin de temps pour payer) de ceux qui n’ont pas l’intention de payer, nous pouvons personnaliser notre approche pour encourager ou faire respecter l’observation des paiements, au besoin. Pour promouvoir l’auto-résolution, nous nous efforçons d’éduquer tous les contribuables pour nous assurer qu’ils connaissent et comprennent leurs obligations en matière de paiement d’impôt et les conséquences des mesures d’exécution de la loi en cas d’inobservation.
 
 * [Catégories de document sur les mesures de recouvrement (ARC DGRV 190)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/appendice.html#190)
   + [Fichier de renseignements personnels sur les recouvrements (ARC PPU 050)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/info-source-annexe.html#050)
@@ -301,7 +293,7 @@ S’assurer que les Canadiens obtiennent le soutien et les renseignements dont i
 
 #### Prestations
 
-Nous offrons une gamme de prestations en cours, crédits, et programmes de paiements uniques qui appuient le bien- être économique et social des Canadiens. Au moyen d'activités de traitement nous nous assurons que le que les Canadiens reçoivent leurs prestations légitimes en temps opportun. Nous offrons aux prestataires des renseignements opportuns et accessibles sur leurs obligations et les prestations auxquelles ils ont droit tant par l'intermédiaire de nos centres de contact que de manière sécurisée en ligne, et par l’entremise du Programme de visibilité des prestations, qui aide les Canadiens à devenir plus conscients des prestations auxquelles ils ont droit et comment les recevoir. Nous appuyons également les organismes communautaires et les bénévoles dans leurs efforts pour aider les personnes ayant un revenu modeste à produire leurs déclarations de revenus par l’intermédiaire du Programme communautaire des bénévoles en matière d’impôt (PCBMI).
+Nous offrons une gamme de prestations continues, de crédits et de programmes de paiements ponctuels qui soutiennent le bien-être économique et social des Canadiens. Au moyen d’activités de traitement, nous nous assurons que les Canadiens reçoivent les prestations auxquelles ils ont droit dans des délais raisonnables. Nous offrons aux prestataires des renseignements opportuns et accessibles sur leurs obligations et les prestations auxquelles ils ont droit tant par l'intermédiaire de nos centres de contact que de manière sécurisée en ligne, et par l’entremise du Programme de visibilité des prestations, qui aide les Canadiens à devenir plus conscients des prestations auxquelles ils ont droit et de la façon de les recevoir. Nous appuyons également les organismes communautaires et les bénévoles dans leurs efforts pour aider les personnes ayant un revenu modeste à produire leurs déclarations de revenus par l’intermédiaire du Programme communautaire des bénévoles en matière d’impôt (PCBMI).
 
 * [Catégorie de document sur les programmes de prestations - Programme des allocations spéciales pour enfants (ARC DGCPS 625)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/appendice.html#625)
   + [Fichier de renseignements personnels sur la allocation canadienne pour enfants et prestations connexes (ARC PPU 620)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/info-source-annexe.html#620)
@@ -325,11 +317,11 @@ Nous offrons une gamme de prestations en cours, crédits, et programmes de paiem
 
 ### Responsabilité essentielle - Ombudsman des contribuables
 
-Les Canadiens ont accès à un examen crédible et indépendant des plaintes liées au service au sujet de l'ARC.
+Les Canadiens ont accès à un examen crédible et indépendant des plaintes liées au service au sujet de l'Agence du revenu du Canada.
 
 #### L'ombudsman des contribuables
 
-Le Bureau de l'ombudsman des contribuables permet aux gens de demander des examens indépendantes et impartiaux relativement à des plaintes liées au service s'ils estiment avoir été traités de façon inéquitable ou peu professionnelle par l’ARC.
+Le Bureau de l’ombudsman des contribuables (BOC) permet aux personnes de demander des examens indépendants et impartiaux des plaintes liées aux services si elles estiment avoir été traitées de manière injuste ou non professionnelle par l’Agence.
 
 * [Catégorie de document sur l'Ombudsman des contribuables (ARC BOC 330)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/appendice.html#330)
   + [Fichier de renseignements personnels sur le bureau de l'ombudsman des contribuables (ARC PPU 222)](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/info-source-annexe.html#222)
@@ -347,7 +339,7 @@ Les services de gestion des acquisitions comprennent des activités entreprises 
 
 ### Services de communication
 
-Communications du gouvernement du Canada soient gérées de manière efficace, bien coordonnées et bien adaptées aux divers besoins d'information du public. Grâce à ces activités, le public reçoit l'information gouvernementale et les opinions et préoccupations du public sont prises en considération dans la planification, la gestion et l'évaluation des politiques, des programmes, des services et des initiatives.
+Les Services de communication comprennent des activités entreprises pour faire en sorte que les communications du gouvernement du Canada soient gérées de manière efficace, bien coordonnées et bien adaptées aux divers besoins d'information du public. Grâce à ces activités, le public reçoit l'information gouvernementale et les opinions et préoccupations du public sont prises en considération dans la planification, la gestion et l'évaluation des politiques, des programmes, des services et des initiatives.
 
 Cette catégorie des Services internes concerne les communications organisationnelles qui visent le ministère dans son ensemble, qu'il s'agisse de communications internes destinées à tous les employés ou de communications externes pour le compte du ministère.
 
@@ -416,7 +408,7 @@ Les services de gestion des ressources humaines comprennent les activités de so
 Les Services de gestion de l'information comprennent des activités entreprises dans le but d'assurer une gestion de l'information efficiente et efficace aux fins d'appuyer la prestation de programmes et de services, de favoriser une prise de décision éclairée, de promouvoir la reddition de comptes, la transparence et la collaboration; et de garantir l'accès à l'information et aux dossiers ainsi que leur conservation au profit des générations actuelles et futures. Les activités de gestion des TI comprennent la planification, le développement (ou l’approvisionnement) et l'exploitation de l'informatique, des télécommunications, de l'infrastructure et des applications.
 
 * [Catégorie de document en matière d'accès à l'information et la protection des renseignements personnels (NDP 930)](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#930)
-  + [Fichier de renseignements personnels sur les demandes en vertu de la Loi sur l'accès à l'information et de la Loi sur la protection des renseignements personnels (POU 901)](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#901)
+  + [Fichier de renseignements personnels sur les demandes en vertu de la *Loi sur l'accès à l'information* et de la *Loi sur la protection des renseignements personnels* (POU 901)](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#901)
 * [Catégorie de document en matière de gestion de l'information (NDP 944)](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#944)
   + [Fichier de renseignements personnels sur les services de bibliothèque (POU 936)](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#936)
 
@@ -441,7 +433,7 @@ Les services de gestion et de surveillance comprennent les activités entreprise
 
 * [Catégorie de document en matière de coopération et liaison (NDP 904)](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#904)
   + [Fichier de renseignements personnels sur les activités de sensibilisation (POU 938)](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#938)
-  + [Fichier de renseignements personnels sur les exigences de la Loi sur le lobbying (POU 937)](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#937)
+  + [Fichier de renseignements personnels sur les exigences de la *Loi sur le lobbying* (POU 937)](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#937)
 * [Catégorie de document en matière de planification et d'établissement de rapports (NDP 947)](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#947)
 * [Catégorie de document en matière des services à la haute direction (NDP 943)](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html#943)
   + [Fichier de renseignements personnels sur le système de gestion de la correspondance de la direction (POU 902)](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#902)
@@ -495,13 +487,6 @@ Ces services comprennent les services de voyages du gouvernement du Canada, ains
 * Catégories de documents ordinaires
 * Fichiers de renseignements personnels ordinaires (FRP)
 
-#### Contrats, accords et ententes
-
-Résumés des contrats, accords d’échange de renseignements et ententes d’échange de renseignements comportant la divulgation de renseignements personnels.
-
-* Contrats (en cours d’élaboration)
-* [Ententes et accords d’échange de renseignements](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/protocole-entente/entre-arc-autres-organisations/ententes-echange-renseignements-arc-autres-organisations.html)
-
 ## Manuels de l'ARC
 
 ### Direction générale des appels
@@ -511,11 +496,10 @@ Résumés des contrats, accords d’échange de renseignements et ententes d’�
 3. @AideAA-RPC/AE
 4. @AideAA-TPS/TVH
 5. @AideAL
-6. @Pac-AideArrivage
-7. Manuel de la Direction générale des appels
-8. Manuel de procédures des Appels RPC/AE
-9. Manuel des litiges des Appels RPC/AE
-10. Manuel des procédures des allègements pour les contribuables
+6. Manuel de la Direction générale des appels
+7. Manuel de procédures des Appels RPC/AE
+8. Manuel des litiges des Appels RPC/AE
+9. Manuel des procédures des allègements pour les contribuables
 
 #### Direction générale de cotisation, de prestations et de services
 
@@ -531,69 +515,69 @@ Résumés des contrats, accords d’échange de renseignements et ententes d’�
 10. Communication avec les contribuables sur les T3 – 4800
 11. Composition T1 – Coordonnateur – 4328-29
 12. Comptabilité des déclarations T3 – 99(18)0
-13. Compte d'épargne libre d'impôt – Guide de l'utilisateur pour superviseur – 9010
-14. Consultation T3 – 4850
-15. Consultations – 4033
-16. Contact avec le contribuable (CC) – 9850
-17. Contrôle de l'inspection des erreurs – 4091
-18. Contrôle de T3 – 4840
-19. Contrôle des documents – 1040
-20. Contrôle RDC –1940
-21. Contrôle T3 GTS/CAC/CCF/PNC – 4860
-22. Correction des erreurs de comptabilité T1 – 3550
-23. Cotisation T3 – 4200
-24. Cotisations par le centre fiscal (CCF) T3 – 4920
-25. Déclaration de revenus des logements sous-utilisés et formulaire de choix
-26. Décrets de remise – 99(21)0
-27. Directives de rajustement et correction des erreurs du régime d'accession à la propriété (RAP) – 19(13)0
-28. Directives de redressement et correction d’erreurs du Régime d’encouragement à l’éducation permanente (REEP) – 19(14)0
-29. Discordances T1 et activités suspectes – 99(22)
-30. Équipe d'examen des prestations ÉEP – 6200
-31. Escompteurs – 4032.8
-32. États de compte – 9950
-33. Examen des annulations – 4082
-34. Examen des annulations T3 – 4810
-35. Fonctions du système du Grand livre auxiliaire automatisé (GLAA) – 5600
-36. Formulaire T1261 - Lignes directrices et procédures à l'intention du Centre fiscal de Sudbury
-37. Groupe de traitement spécialisé (GTS) T3 – 4880
-38. Guide de la correspondance des particuliers et des entreprises - DRE
-39. Guide de la correspondance des particuliers et des entreprises - DRIP
-40. Guide de référence des demandes de renseignements de Mon dossier d'entreprise (MDE)
-41. Guide de référence pour les demandes de renseignements des entreprises
-42. Guide de ressource médicale (GRM)
-43. Guide de soutien au clavardage
-44. Guide de soutien technique
-45. Guide T1PRE CELI pour les agents des DRIP – 9020
-46. Identification T3 – 4900
-47. Information générale pour les utilisateurs – 9910
-48. Insolvabilité – 4041
-49. Inspection des erreurs – Indices d'erreur – Déclarations papiers – 4092.31
-50. Inspection des erreurs – Indices d'erreurs – Déclarations électroniques – 4092.32
-51. Inspection des erreurs – Instructions de travail de l'inspection des erreurs – Déclarations papiers – 4092.1
-52. Inspection des erreurs – Instructions de travail de l'inspection des erreurs – Déclarations électroniques – 4092.3
-53. Inspection des erreurs T3 (IE) – 4870
-54. Inspections des erreurs – Instructions supplémentaires – Déclarations papiers – 4092.2
-55. Instructions concernant le traitement des redressements demandés par le contribuable –  1960
-56. Instructions de composition de la Conversion des données T1 – 4320-27
-57. Instructions de traitement de la saisie des données T10 et T215 – MOI 19(26)
-58. Instructions de traitement spéciales – 1980
-59. Instructions de travail pour l'inspection des erreurs-BSFIO – 4092.31NR
-60. Instructions des cotisations CCF et cotisations spécialisées – 40(10)5-6
-61. Instructions du chef d'équipe – 19(10)
-62. Instructions du système du Grand livre auxiliaire automatisé (GLAA) – 5700
-63. Instructions générales de travail pour les nouvelles cotisations – 1910-30
-64. Instructions pour le contrôle des déclarations GTS/CCF – 40(10)(11)
-65. Instructions pour le traitement des nouvelles cotisations – 1970
-66. Le manuel PRTT - Procédures de rajustement et de traitement de la TPS/TVH
-67. Le système de modification – 9860
+13. Consultation T3 – 4850
+14. Consultations – 4033
+15. Contact avec le contribuable (CC) – 9850
+16. Contrôle de l'inspection des erreurs – 4091
+17. Contrôle de T3 – 4840
+18. Contrôle des documents – 1040
+19. Contrôle RDC –1940
+20. Contrôle T3 GTS/CAC/CCF/PNC – 4860
+21. Correction des erreurs de comptabilité T1 – 3550
+22. Cotisation T3 – 4200
+23. Cotisations par le centre fiscal (CCF) T3 – 4920
+24. Déclaration de revenus des logements sous-utilisés et formulaire de choix
+25. Décrets de remise – 99(21)0
+26. Directives de rajustement et correction des erreurs du régime d'accession à la propriété (RAP) – 19(13)0
+27. Directives de redressement et correction d’erreurs du Régime d’encouragement à l’éducation permanente (REEP) – 19(14)0
+28. Discordances T1 et activités suspectes – 99(22)
+29. Équipe d'examen des prestations ÉEP – 6200
+30. Escompteurs – 4032.8
+31. États de compte – 9950
+32. Examen des annulations – 4082
+33. Examen des annulations T3 – 4810
+34. Fonctions du système du Grand livre auxiliaire automatisé (GLAA) – 5600
+35. Formulaire T1261 - Lignes directrices et procédures à l'intention du Centre fiscal de Sudbury
+36. Groupe de traitement spécialisé (GTS) T3 – 4880
+37. Guide de la correspondance des particuliers et des entreprises - DRE
+38. Guide de la correspondance des particuliers et des entreprises - DRIP
+39. Guide de référence des demandes de renseignements de Mon dossier d'entreprise (MDE)
+40. Guide de référence pour les demandes de renseignements des entreprises
+41. Guide de ressource médicale (GRM)
+42. Guide de Soutien au clavardage
+43. Guide de soutien technique
+44. Guide T1PRE CELI pour les agents des DRIP – 9020
+45. Identification T3 – 4900
+46. Information générale pour les utilisateurs – 9910
+47. Insolvabilité – 4041
+48. Inspection des erreurs – Indices d'erreur – Déclarations papiers – 4092.31
+49. Inspection des erreurs – Indices d'erreurs – Déclarations électroniques – 4092.32
+50. Inspection des erreurs – Instructions de travail de l'inspection des erreurs – Déclarations papiers – 4092.1
+51. Inspection des erreurs – Instructions de travail de l'inspection des erreurs – Déclarations électroniques – 4092.3
+52. Inspection des erreurs T3 (IE) – 4870
+53. Inspections des erreurs – Instructions supplémentaires – Déclarations papiers – 4092.2
+54. Instructions concernant le traitement des redressements demandés par le contribuable –  1960
+55. Instructions de composition de la Conversion des données T1 – 4320-27
+56. Instructions de traitement de la saisie des données T10 et T215 – MOI 19(26)
+57. Instructions de traitement spéciales – 1980
+58. Instructions de travail pour l'inspection des erreurs-BSFIO – 4092.31NR
+59. Instructions des cotisations CCF et cotisations spécialisées – 40(10)5-6
+60. Instructions du chef d'équipe – 19(10)
+61. Instructions du système du Grand livre auxiliaire automatisé (GLAA) – 5700
+62. Instructions générales de travail pour les nouvelles cotisations – 1910-30
+63. Instructions pour le contrôle des déclarations GTS/CCF – 40(10)(11)
+64. Instructions pour le traitement des nouvelles cotisations – 1970
+65. Le manuel PRTT - Procédures de rajustement et de traitement de la TPS/TVH
+66. Le système de modification – 9860
+67. Lignes directrices reliées à la confiance dans la validité – 4070
 68. Lignes directrices reliées à  la comptabilité T1/T3 – 9970
-69. Lignes directrices reliées à la confiance dans la validité – 4070
-70. Loi et politique – 9960
-71. Manuel de la comptabilité normalisée (CN)
-72. Manuel contrôle et services
-73. Manuel d’inscription des non-résidents
-74. Manuel de contrôle du Système des déclarations et choix spéciaux (SDCS)
-75. Manuel de cotisation T2 Dossiers avec Recherche scientifique et développement expérimental (RS&DE)
+69. Loi et politique – 9960
+70. Manuel contrôle et services
+71. Manuel d’inscription des non-résidents
+72. Manuel de contrôle du Système des déclarations et choix spéciaux (SDCS)
+73. Manuel de cotisation T2 Dossiers avec Recherche scientifique et développement expérimental (RS&DE)
+74. Manuel de gestion des case de la comptabilité normalisé
+75. Manuel de la comptabilité normalisée (CN)
 76. Manuel de la revue de la qualité
 77. Manuel de la sécurité des non-résidents
 78. Manuel de la validation des prestations – 6300
@@ -606,42 +590,42 @@ Résumés des contrats, accords d’échange de renseignements et ententes d’�
 85. Manuel de saisie des données du Système des déclarations et choix spéciaux (SDCS)
 86. Manuel des déclarations spécialisées des entreprises
 87. Manuel des DSC complexes
-88. Manuel des opérations de l'impôt – MOI 65
-89. Manuel des opérations du Grand livre des recettes pour les bureaux locaux
-90. Manuel des procédures relatives aux déclarations de renseignements – 98(13)
-91. Manuel du Bureau d'aide – 98(12)
-92. Manuel du bureau d'aide des services de gestion d'authentification et justificatifs d'identité – 2000
-93. Manuel du bureau d'aide pour la transmission électronique des déclarations de revenus des logements sous-utilisés
-94. Manuel du bureau d'aide pour la transmission par Internet des Déclarations et choix spéciaux (DCS)
-95. Manuel du coordonnateur du Programme communautaire des bénévoles en matière d’impôt (PCBMI) Manuel du coordonnateur
-96. Manuel du système d'identification des comptes de programme (SICP)
-97. Manuel du traitement des remboursements de la TPS/TVH (TRT)
-98. Manuel MOI 19(27) Crédit d'impôt pour personnes handicapées
-99. Manuel opérationnel des prestations
-100. Manuel revue de la qualité CIPH
-101. Manuel T5 – 98(16)0
-102. Manuels des déclarations spéciales et choix
-103. Mise à jour IDENT T1 – 4086
-104. Pénalités – 19(15)0
-105. Préparation des transactions et des transcriptions de la comptabilité des particuliers – 99(19)0
-106. Procédures d’autorisations
-107. Procédures de cotisation liées à la déclaration de la partie XIII.2 – 4046.(40)
-108. Procédures de revue – 1990
-109. Procédures d'enregistrement et d'étiquetage – 40(10)9
-110. Procédures du calcul d'impôt T1 – 19(21)0
-111. Procédures T3 APP
-112. Production des avis manuelle – 5400
-113. Programme compte d'épargne libre d'impôt – 9000
-114. Programme Compte d'épargne libre d'impôt pour l'achat d'une première propriété (CELIAPP) – 19(29)
-115. Programme d'acomptes provisionnels – 99(15)0
-116. Programme de compensation de dettes par remboursement (CDR) – 3020
-117. Programme de correction d'erreurs sur les comptes d'épargne libre d'impôt – 9030
-118. Programme de correction d'erreurs sur les comptes d'épargne libre d'impôt - Guide de l'utilisateur pour superviseur – 9040
-119. Programmes d’exécution des ordonnances et ententes familiales et de compensation de dettes par remboursement – 3990
-120. RC391 manuel - Numéro de représentant des non-résidents (NRNR)
-121. RDG T4 Ident manuel des procédures [TS1] – 98(15)
-122. Reference des résolutions de paiement
-123. Référence du SGC normalisé
+88. Manuel des opérations de l'impôt – MOI 43
+89. Manuel des opérations de l'impôt – MOI 65
+90. Manuel des opérations du Grand livre des recettes pour les bureaux locaux
+91. Manuel des procédures relatives aux déclarations de renseignements – 98(13)
+92. Manuel du Bureau d'aide – 98(12)
+93. Manuel du bureau d'aide des services de gestion d'authentification et justificatifs d'identité – 2000
+94. Manuel du bureau d'aide pour la transmission électronique des déclarations de revenus des logements sous-utilisés
+95. Manuel du bureau d'aide pour la transmission par Internet des Déclarations et choix spéciaux (DCS)
+96. Manuel du coordonnateur du Programme communautaire des bénévoles en matière d’impôt (PCBMI) Manuel du coordonnateur
+97. Manuel du système d'identification des comptes de programme (SICP)
+98. Manuel du traitement des remboursements de la TPS/TVH (TRT)
+99. Manuel MOI 19(27) Crédit d'impôt pour personnes handicapées
+100. Manuel opérationnel des prestations
+101. Manuel revue de la qualité CIPH
+102. Manuel T5 – 98(16)0
+103. Manuels des déclarations spéciales et choix
+104. Mise à jour IDENT  – 4086
+105. Pénalités – 19(15)0
+106. Préparation des transactions et des transcriptions de la comptabilité des particuliers – 99(19)0
+107. Procédures d’autorisations
+108. Procédures de cotisation liées à la déclaration de la partie XIII.2 – 4046.(40)
+109. Procédures de revue – 1990
+110. Procédures d'enregistrement et d'étiquetage – 40(10)9
+111. Procédures du calcul d'impôt T1 – 19(21)0
+112. Procédures T3APP
+113. Production des avis manuel – 5400
+114. Programme compte d'épargne libre d'impôt – 9000
+115. Programme Compte d'épargne libre d'impôt pour l'achat d'une première propriété (CELIAPP) – 19(29)
+116. Programme d'acomptes provisionnels – 99(15)0
+117. Programme de compensation de dettes par remboursement (CDR) – 3020
+118. Programme de correction d'erreurs sur les comptes d'épargne libre d'impôt – 9030
+119. Programme de correction d'erreurs sur les comptes d'épargne libre d'impôt - Guide de l'utilisateur pour superviseur – 9040
+120. Programmes d’exécution des ordonnances et ententes familiales et de compensation de dettes par remboursement – 3990
+121. RC391 manuel - Numéro de représentant des non-résidents (NRNR)
+122. RDG T4 Ident manuel des procédures – 98(15)
+123. Reference des résolutions de paiement
 124. Réforme des pensions – 19(24)0
 125. Remise canadienne sur le carbone pour les petites entreprises  (RCC-E)
 126. Renseignements pour le bureau d'aide de la TED et résolutions des problèmes – 4032.15
@@ -650,172 +634,280 @@ Résumés des contrats, accords d’échange de renseignements et ententes d’�
 129. Renvois internes – 1950
 130. Sélection – 4031
 131. Sélection de T3 – 4830
-132. Service de gestion d'authentification de l'ARC – Bureau d'aide – 2000
-133. Système automatisé des fiducies (SAF) – 4700
-134. Système de communication RAPID – 9510-3
-135. Système d'identification des représentants des contribuables T1 (SIRC)
-136. Système d'identification des représentants des contribuables T3 (SIRC)
-137. Système TRUSTME – Information sur la transmission TED T3 – 4032.3
-138. T1 du SIRC T1 et T3 Manuel juridique
-139. Traitement des déclarations CCF de type non-résidents – 4046.(50)
+132. Système automatisé des fiducies (SAF) – 4700
+133. Système de communication RAPID – 9510-30
+134. Système d'identification des représentants des contribuables T1 (SIRC)
+135. Système d'identification des représentants des contribuables T3 (SIRC)
+136. Système TRUSTME – Information sur la transmission TED T3 – 4032.3
+137. T1 du SIRC T1 et T3 Manuel juridique
+138. T1PRE Compte d'épargne libre d'impôt – Guide de l'utilisateur pour superviseur – 9010
+139. Traitement des déclarations GTS/CCF de type non-résidents – 4046.(50)
 140. Traitement des nouvelles cotisations (TNC) T3 – 4910
-141. Traitement spécialisé - indice d'erreur 410 - et indice d'erreur 558 – 4096
-142. Traitement spécialisé – 4095
+141. Traitement spécialisé – 4095
+142. Traitement spécialisé - indice d'erreur 410 - et indice d'erreur 558 – 4096
 143. Traitement, validation et observation des régimes enregistrés d'épargne-retraite (REER) et régimes enregistrés d'épargne-études (REEE) – 19(23)0
 144. Transmission électronique des déclarations de revenus et de prestations des particuliers – 4032
 145. Transmission par internet des déclarations des sociétés - Procédures du bureau d'aide.
-146. Tri et numérotage – 4400
-147. Types d'activités et des objectifs internes de la comptabilité T1/T3 – 9840
+146. Types d'activités et des objectifs internes de la comptabilité T1/T3 – 9840
 
 #### Direction générale des recouvrements et de la vérification
 
-1. Aide-mémoire  du programme des non-déclarants
-2. Aide-mémoire pour les retenues d'impôt des non-résidents
-3. Autres Prélèvements - Manuel d'opérations de l'observation - 6510
-4. Entreprise individuelle - Guide et procédures d’examen de l’appariement du revenu de la TPS/TVH - 6130
-5. Guide de procédure du PRCS - 6160
-6. Guide de référence pour Revenu Québec - 6150
-7. Instructions spécifiques au projet du PRCS - 6170
-8. Manuel d’opérations du Programme des non-inscrits à la TPS/TVH – MOI 6520
-9. Manuel de l'Examen des comptes de fiducie – MOI 6700
-10. Manuel de programme de vérification T3
-11. Manuel des procédures de l'examen des comptes de fiducie à la TPS/TVH - 6540
-12. Manuel des procédures de revue approfondie de l’inscription à la TPS/TVH - 6000
-13. Manuel d'examen de la taxe d'habitation sous-utilisée
-14. Manuel d'opération de l'observation - Observation des comptes de retenues sur la paie
-15. Manuel du Centre d'appels de la gestion des créances — Manuel de procédures pour les prestations liées à la COVID-19
-16. Manuel du Centre d'appels de la gestion des créances — Programmes fiscaux - TPS/TVH
-17. Manuel du Centre d'appels de la gestion des créances — Programmes gouvernementaux
-18. Manuel du Centre d'appels de la gestion des créances —  Programmes gouvernementaux - Manuel de la prestation d'assurance-emploi d'urgence
-19. Manuel du Centre d'appels de la gestion des créances — Programmes fiscaux - PAYDAC
-20. Manuel du Centre d'appels de la gestion des créances — Programmes fiscaux - T1
-21. Manuel du Centre d'appels de la gestion des créances — Programmes fiscaux - T2
-22. Manuel du Centre d'appels de la gestion des créances — Sujets communs
-23. Manuel du Centre d'appels de la gestions des créances — Programmes gouvernementaux - Télédépistage
-24. Manuel du Centre d'appels de la gestions des créances — Programmes fiscaux - Télédépistage
-25. Observation T1-OVP
-26. Pré-rapprochement T1
-27. Processus de diligence raisonnable
-28. Programme de rapprochement
-29. Programme des cotisations spéciales
-30. Programme des examens supplémentaires
-31. Programme d'examen des remboursements
-32. Programmes de validation
-33. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF/CNVR — Capacité de payer
-34. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF/CNVR — Tenue de compte et de l'inventaire
-35. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF/CNVR — Types de prestation
-36. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF/CNVR — Contact pour les Recouvrements
-37. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF/CNVR — Confidentialité
-38. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF/CNVR — Particuliers décédés
-39. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF/CNVR — Peuples autochtones
-40. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF/CNVR — Insolvabilité
-41. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF/CNVR — Gestion des enjeux
-42. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF/CNVR — Lettres, avis et relevés
-43. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF/CNVR — Courrier
-44. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF/CNVR — Paiements
-45. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF/CNVR — Demande de renseignements
-46. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF/CNVR — Créances irrécouvrables
-47. Rapprochement des revenus de sources étrangères – 19(16)0
-48. Recouvrements des programmes fiscaux aux BSF/CNVR — Acquisition et disposition
-49. Recouvrements des programmes fiscaux aux BSF/CNVR — Arrivage, préparation et mise à jour des comptes
-50. Recouvrements des programmes fiscaux aux BSF/CNVR — Charges de travail centralisées et comptes spécialisés
-51. Recouvrements des programmes fiscaux aux BSF/CNVR — Compensations statutaires
-52. Recouvrements des programmes fiscaux aux BSF/CNVR — Confidentialité
-53. Recouvrements des programmes fiscaux aux BSF/CNVR — Contact pour les Recouvrements
-54. Recouvrements des programmes fiscaux aux BSF/CNVR — Contestataires du fisc
-55. Recouvrements des programmes fiscaux aux BSF/CNVR — Contribuables décédés
-56. Recouvrements des programmes fiscaux aux BSF/CNVR — Conventions d'appellation
-57. Recouvrements des programmes fiscaux aux BSF/CNVR — Cotisations pour mémoire
-58. Recouvrements des programmes fiscaux aux BSF/CNVR — Courrier
-59. Recouvrements des programmes fiscaux aux BSF/CNVR — Créances irrécouvrables
-60. Recouvrements des programmes fiscaux aux BSF/CNVR — Crédits compensatoires
-61. Recouvrements des programmes fiscaux aux BSF/CNVR — Cryptomonnaie
-62. Recouvrements des programmes fiscaux aux BSF/CNVR — Dates de cotisation
-63. Recouvrements des programmes fiscaux aux BSF/CNVR — Délai de prescription pour le recouvrement
-64. Recouvrements des programmes fiscaux aux BSF/CNVR — Demande de renseignements
-65. Recouvrements des programmes fiscaux aux BSF/CNVR — Demande péremptoire de renseignements (DPR)
-66. Recouvrements des programmes fiscaux aux BSF/CNVR — Dépôt volontaire
-67. Recouvrements des programmes fiscaux aux BSF/CNVR — Documents de base et imprimés historiques
-68. Recouvrements des programmes fiscaux aux BSF/CNVR — Documents judiciaires
-69. Recouvrements des programmes fiscaux aux BSF/CNVR — Dossiers
-70. Recouvrements des programmes fiscaux aux BSF/CNVR — Droits et frais
-71. Recouvrements des programmes fiscaux aux BSF/CNVR — Entités juridiques
-72. Recouvrements des programmes fiscaux aux BSF/CNVR — Évaluations
-73. Recouvrements des programmes fiscaux aux BSF/CNVR — Fermer un compte et le retirer de son inventaire
-74. Recouvrements des programmes fiscaux aux BSF/CNVR — Fiducie réputée
-75. Recouvrements des programmes fiscaux aux BSF/CNVR — Garantir la dette
-76. Recouvrements des programmes fiscaux aux BSF/CNVR — Gestion des enjeux
-77. Recouvrements des programmes fiscaux aux BSF/CNVR — Insolvabilité
-78. Recouvrements des programmes fiscaux aux BSF/CNVR — Lettres, avis et relevés
-79. Recouvrements des programmes fiscaux aux BSF/CNVR — Livres et registres
-80. Recouvrements des programmes fiscaux aux BSF/CNVR — Ministère de la Justice (JUS)
-81. Recouvrements des programmes fiscaux aux BSF/CNVR — Montants en litige
-82. Recouvrements des programmes fiscaux aux BSF/CNVR — Paiements
-83. Recouvrements des programmes fiscaux aux BSF/CNVR — Plan d'action (PA)
-84. Recouvrements des programmes fiscaux aux BSF/CNVR — Recherche et dépistage
-85. Recouvrements des programmes fiscaux aux BSF/CNVR — Réclamations contre l'État
-86. Recouvrements des programmes fiscaux aux BSF/CNVR — Recouvrement auprès des Peuples Autochtones
-87. Recouvrements des programmes fiscaux aux BSF/CNVR — Recouvrement compromis
-88. Recouvrements des programmes fiscaux aux BSF/CNVR — Recouvrement en vertu de conventions fiscales
-89. Recouvrements des programmes fiscaux aux BSF/CNVR — Règlements à l'amiable
-90. Recouvrements des programmes fiscaux aux BSF/CNVR — Remboursements
-91. Recouvrements des programmes fiscaux aux BSF/CNVR — Remise
-92. Recouvrements des programmes fiscaux aux BSF/CNVR — Renvois
-93. Recouvrements des programmes fiscaux aux BSF/CNVR — Restrictions au recouvrement
-94. Recouvrements des programmes fiscaux aux BSF/CNVR — Saisie et vente
-95. Recouvrements des programmes fiscaux aux BSF/CNVR — Saisie-arrêt
-96. Recouvrements des programmes fiscaux aux BSF/CNVR — Sommaires de comptes
-97. Recouvrements des programmes fiscaux aux BSF/CNVR — Suppressions de remboursement
-98. Recouvrements des programmes fiscaux aux BSF/CNVR — Transfert et association de comptes
-99. Recouvrements des programmes fiscaux aux BSF/CNVR — Visites sur place
-100. Recouvrements pour le programme des douanes aux BSF/CNVR — Acquisition et disposition
-101. Recouvrements pour le programme des douanes aux BSF/CNVR — Appels
-102. Recouvrements pour le programme des douanes aux BSF/CNVR — Arrivage, préparation et mise à jour des comptes
-103. Recouvrements pour le programme des douanes aux BSF/CNVR — Compensation des crédits
-104. Recouvrements pour le programme des douanes aux BSF/CNVR — Compensations statutaires
-105. Recouvrements pour le programme des douanes aux BSF/CNVR — Compte-garantie (COMGA)
-106. Recouvrements pour le programme des douanes aux BSF/CNVR — Confidentialité
-107. Recouvrements pour le programme des douanes aux BSF/CNVR — Contact pour les Recouvrements
-108. Recouvrements pour le programme des douanes aux BSF/CNVR — Contribuables décédés
-109. Recouvrements pour le programme des douanes aux BSF/CNVR — Conventions d'appellation
-110. Recouvrements pour le programme des douanes aux BSF/CNVR — Cotisations pour mémoire
-111. Recouvrements pour le programme des douanes aux BSF/CNVR — Courrier
-112. Recouvrements pour le programme des douanes aux BSF/CNVR — Créances irrécouvrables
-113. Recouvrements pour le programme des douanes aux BSF/CNVR — Dates de factures et d'avis
-114. Recouvrements pour le programme des douanes aux BSF/CNVR — Délai de prescription pour le recouvrement (DPR)
-115. Recouvrements pour le programme des douanes aux BSF/CNVR — Demande de renseignements
-116. Recouvrements pour le programme des douanes aux BSF/CNVR — Demande péremptoire de renseignements (DPR)
-117. Recouvrements pour le programme des douanes aux BSF/CNVR — Dépôt volontaire
-118. Recouvrements pour le programme des douanes aux BSF/CNVR — Documents judiciaires
-119. Recouvrements pour le programme des douanes aux BSF/CNVR — Documents de base et imprimés historiques
-120. Recouvrements pour le programme des douanes aux BSF/CNVR — Dossiers
-121. Recouvrements pour le programme des douanes aux BSF/CNVR — Entités juridiques
-122. Recouvrements pour le programme des douanes aux BSF/CNVR — Évaluations
-123. Recouvrements pour le programme des douanes aux BSF/CNVR — Fermer un compte et le retirer de votre inventaire
-124. Recouvrements pour le programme des douanes aux BSF/CNVR — Frais et redevances
-125. Recouvrements pour le programme des douanes aux BSF/CNVR — Garantir la dette
-126. Recouvrements pour le programme des douanes aux BSF/CNVR — Gestion des enjeux
-127. Recouvrements pour le programme des douanes aux BSF/CNVR — Insolvabilité
-128. Recouvrements pour le programme des douanes aux BSF/CNVR — Lettres, avis et relevés
-129. Recouvrements pour le programme des douanes aux BSF/CNVR — Livres et registres
-130. Recouvrements pour le programme des douanes aux BSF/CNVR — Ministère de la Justice (JUS)
-131. Recouvrements pour le programme des douanes aux BSF/CNVR — Paiements
-132. Recouvrements pour le programme des douanes aux BSF/CNVR — Plan d'action (PA)
-133. Recouvrements pour le programme des douanes aux BSF/CNVR — Recherche et dépistage
-134. Recouvrements pour le programme des douanes aux BSF/CNVR — Recouvrement compromis
-135. Recouvrements pour le programme des douanes aux BSF/CNVR — Règlements à l'amiable
-136. Recouvrements pour le programme des douanes aux BSF/CNVR — Restrictions au recouvrement
-137. Recouvrements pour le programme des douanes aux BSF/CNVR — Rétention à la frontière
-138. Recouvrements pour le programme des douanes aux BSF/CNVR — Saisie et vente
-139. Recouvrements pour le programme des douanes aux BSF/CNVR — Saisie-arrêt
-140. Recouvrements pour le programme des douanes aux BSF/CNVR — Sommaires de comptes
-141. Recouvrements pour le programme des douanes aux BSF/CNVR — Transfert et association de comptes
-142. Recouvrements pour le programme des douanes aux BSF/CNVR — Visites sur place
-143. Société - Guide et procédures d'examen de l’appariement du revenu de la TPS/TVH - 6135
-144. Sujets du programme des non-déclarants (SPND)
-145. TPS/TVH Manuel d'opérations de l'Observation - 6500
-146. Validation de la Ligne 105 Guide et procédures - 6125
-147. Validités de confiance – 4092.4
+1. Aide-mémoire – Personne-ressource du Programme visant les non-inscrits à la TPS/TVH – 6530
+2. Aide-mémoire des procédures de la section de la vérification après cotisation (SVAC) – MOI 6120
+3. Aide-mémoire pour les retenues d'impôt des non-résidents
+4. Aide-mémoire  du programme des non-déclarants
+5. Centre d'appel de la gestion de la créance - Guide de référence des programmes fiscaux (GRPF) — Confidentialité
+6. Centre d'appel de la gestion de la créance - Guide de référence des programmes fiscaux (GRPF) — Paiements
+7. Centre d'appel de la gestion de la créance - Guide de référence des programmes fiscaux (GRPF) — Contact du CAGC
+8. Centre d'appel de la gestion de la créance - Guide de référence des programmes fiscaux (GRPF) — Déclarations
+9. Centre d'appel de la gestion de la créance - Guide de référence des programmes fiscaux (GRPF) — Mise à jour des comptes
+10. Centre d'appel de la gestion de la créance - Guide de référence des programmes fiscaux (GRPF) — Renvois
+11. Centre d'appel de la gestion de la créance - Guide de référence des programmes fiscaux (GRPF) — Contribuables sceptiques et fraude
+12. Centre d'appel de la gestion de la créance - Guide de référence des programmes fiscaux (GRPF) — Courrier
+13. Centre d'appel de la gestion de la créance - Guide de référence des programmes fiscaux (GRPF) — Assistance et soutien
+14. Centre d'appel de la gestion de la créance - Guide de référence des programmes fiscaux (GRPF) — Technologie et automatisation
+15. DSCCE Procédures de la coordination des cas – MOI 6400
+16. Entreprise individuelle - Guide et procédures d’examen de l’appariement du revenu de la TPS/TVH - 6130
+17. Guide de procédure du PRCS - 6160
+18. Guide de référence pour Revenu Québec - 6150
+19. Instructions spécifiques au projet du PRCS - 6170
+20. Manuel d’opérations de l’observation des autres prélèvements (MOO) - chef d’équipe – 6510.1
+21. Manuel d’opérations de l’observation des autres prélèvements (MOO) - conseiller technique – 6510.2
+22. Manuel d’opérations du Programme visant les non-inscrits à la TPS/TVH – MOI 6520
+23. Manuel de la vérification du niveau d'observation des employeurs (MVNOE) – MOI 6740
+24. Manuel de l'Examen des comptes de fiducie (ECF) (retenues sur la paie) – MOI 6700
+25. Manuel de l'insolvabilité — Circuits de travail et lignes directrices générales
+26. Manuel de l'insolvabilité — Faillite
+27. Manuel de l'insolvabilité — *Loi sur la médiation en matière d'endettement agricole* (LMEA)
+28. Manuel de l'insolvabilité — *Loi sur les arrangements avec les créanciers des compagnies* (LACC)
+29. Manuel de l'insolvabilité — Mise sous séquestre
+30. Manuel de l'insolvabilité — Paiement méthodique des dettes (PMD)
+31. Manuel de l'insolvabilité — Propositions
+32. Manuel des procédures de la SETLSU
+33. Manuel des procédures de l'examen des comptes de fiducie à la TPS/TVH – MOI 6540
+34. Manuel des procédures de revue approfondie de l’inscription à la TPS/TVH – MOI 6000
+35. Manuel d'opération de l'observation - Observation des comptes de retenues sur la paie  – MOI 6600
+36. Manuel d'opérations de l'observation des autres prélèvements (MOO) – 6510
+37. Manuel du Centre d'appels de la gestion des créances - Manuel de procédures pour les prestations liées à la COVID-19
+38. Manuel du Centre d'appels de la gestion des créances - Programmes fiscaux — Télédépistage
+39. Manuel du Centre d'appels de la gestion des créances - Programmes gouvernementaux
+40. Manuel du Centre d'appels de la gestion des créances - Programmes gouvernementaux — Sujets communs
+41. Manuel du Centre d'appels de la gestion des créances - Programmes gouvernementaux — Télédépistage
+42. Manuel du chef d'équipe de la vérification du niveau d’observation des employeurs (VNOE) – MOI 6730
+43. Observation T1-OVP – 9870
+44. Pré-rapprochement T1 – 7000
+45. Processus de diligence raisonnable – 97
+46. Programme de rapprochement – 19(17)0
+47. Programme de vérification T3 - 9740
+48. Programme des cotisations spéciales – 9880
+49. Programme des examens supplémentaires – 9710
+50. Programme d'examen des remboursements – 9720
+51. Programmes de validation – 19(25)0
+52. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF — Capacité de payer
+53. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF — Tenue de compte et de l'inventaire
+54. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF — Types de prestation
+55. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF — Contact pour les Recouvrements
+56. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF — Confidentialité
+57. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF — Particuliers décédés
+58. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF — Peuples autochtones
+59. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF — Insolvabilité
+60. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF — Gestion des enjeux
+61. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF — Lettres, avis et relevés
+62. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF — Courrier
+63. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF — Paiements
+64. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF — Demande de renseignements
+65. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF — Délai de prescription pour le recouvrement (DPR)
+66. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF — Actions en Cour fédérale
+67. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF — Renvois au Soutien aux bureaux locaux
+68. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF — Saisie-arrêt
+69. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF — Conventions d'appellation
+70. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF — Demande péremptoire de renseignements
+71. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF — Recherche et dépistage
+72. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF — Deuxième examen ou contrôle judiciaire
+73. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF — Compensations statutaires
+74. Programmes d'urgence – Recouvrements des programmes visant les particuliers aux BSF — Créances irrécouvrables
+75. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Fermer un compte et le retirer de son inventaire
+76. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Arrivage, préparation et mise à jour des comptes
+77. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Sommaires de comptes
+78. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Transfert et association de comptes
+79. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Acquisition et disposition
+80. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Dates de cotisation
+81. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Livres et registres
+82. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Charges de travail centralisées et comptes spécialisés
+83. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Réclamations contre l'État
+84. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Délai de prescription pour le recouvrement (DPR)
+85. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Contact pour les Recouvrements
+86. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Règlements à l'amiable
+87. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Confidentialité
+88. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Documents judiciaires
+89. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Compensation des crédits
+90. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Contribuables décédés
+91. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Ministère de la Justice (JUS)
+92. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Montants en litige
+93. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Dossiers
+94. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Droits et frais
+95. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Visites sur place
+96. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Saisie-arrêt
+97. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Peuples autochtones
+98. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Insolvabilité
+99. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Gestion des enjeux
+100. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Recouvrement compromis
+101. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Entités juridiques
+102. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Lettres, avis et relevés
+103. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Courrier
+104. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Cotisations pour mémoire
+105. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Conventions d’appellation
+106. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Paiements
+107. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Plan d'action (PA)
+108. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Renvois
+109. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Suppressions de remboursement
+110. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Remboursements
+111. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Remise
+112. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Demande de renseignements
+113. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Demande péremptoire de renseignements (DPR)
+114. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Recherche et dépistage
+115. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Garantir la dette
+116. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Saisie et vente
+117. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Documents de base et imprimés historiques
+118. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Compensations statutaires
+119. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Recouvrements en vertu de conventions fiscales
+120. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Créances irrécouvrables
+121. Programmes d'urgence – Recouvrements des subventions visant les entreprises aux BSF — Dépôt volontaire
+122. Rapprochement des revenus de sources étrangères – 19(16)0
+123. Recouvrements des programmes fiscaux aux BSF/CNVR — Acquisition et disposition
+124. Recouvrements des programmes fiscaux aux BSF/CNVR — Arrivage, préparation et mise à jour des comptes
+125. Recouvrements des programmes fiscaux aux BSF/CNVR — Charges de travail centralisées et comptes spécialisés
+126. Recouvrements des programmes fiscaux aux BSF/CNVR — Compensations statutaires
+127. Recouvrements des programmes fiscaux aux BSF/CNVR — Confidentialité
+128. Recouvrements des programmes fiscaux aux BSF/CNVR — Contact pour les Recouvrements
+129. Recouvrements des programmes fiscaux aux BSF/CNVR — Contestataires du fisc
+130. Recouvrements des programmes fiscaux aux BSF/CNVR — Contribuables décédés
+131. Recouvrements des programmes fiscaux aux BSF/CNVR — Conventions d'appellation
+132. Recouvrements des programmes fiscaux aux BSF/CNVR — Cotisations pour mémoire
+133. Recouvrements des programmes fiscaux aux BSF/CNVR — Courrier
+134. Recouvrements des programmes fiscaux aux BSF/CNVR — Créances irrécouvrables
+135. Recouvrements des programmes fiscaux aux BSF/CNVR — Crédits compensatoires
+136. Recouvrements des programmes fiscaux aux BSF/CNVR — Cryptomonnaie
+137. Recouvrements des programmes fiscaux aux BSF/CNVR — Dates de cotisation
+138. Recouvrements des programmes fiscaux aux BSF/CNVR — Délai de prescription pour le recouvrement
+139. Recouvrements des programmes fiscaux aux BSF/CNVR — Demande de renseignements
+140. Recouvrements des programmes fiscaux aux BSF/CNVR — Demande péremptoire de renseignements (DPR)
+141. Recouvrements des programmes fiscaux aux BSF/CNVR — Dépôt volontaire
+142. Recouvrements des programmes fiscaux aux BSF/CNVR — Documents de base et imprimés historiques
+143. Recouvrements des programmes fiscaux aux BSF/CNVR — Documents judiciaires
+144. Recouvrements des programmes fiscaux aux BSF/CNVR — Dossiers
+145. Recouvrements des programmes fiscaux aux BSF/CNVR — Droits et frais
+146. Recouvrements des programmes fiscaux aux BSF/CNVR — Entités juridiques
+147. Recouvrements des programmes fiscaux aux BSF/CNVR — Évaluations
+148. Recouvrements des programmes fiscaux aux BSF/CNVR — Fermer un compte et le retirer de son inventaire
+149. Recouvrements des programmes fiscaux aux BSF/CNVR — Fiducie réputée
+150. Recouvrements des programmes fiscaux aux BSF/CNVR — Garantir la dette
+151. Recouvrements des programmes fiscaux aux BSF/CNVR — Gestion des enjeux
+152. Recouvrements des programmes fiscaux aux BSF/CNVR — Insolvabilité
+153. Recouvrements des programmes fiscaux aux BSF/CNVR — Lettres, avis et relevés
+154. Recouvrements des programmes fiscaux aux BSF/CNVR — Livres et registres
+155. Recouvrements des programmes fiscaux aux BSF/CNVR — Ministère de la Justice (JUS)
+156. Recouvrements des programmes fiscaux aux BSF/CNVR — Montants en litige
+157. Recouvrements des programmes fiscaux aux BSF/CNVR — Paiements
+158. Recouvrements des programmes fiscaux aux BSF/CNVR — Plan d'action (PA)
+159. Recouvrements des programmes fiscaux aux BSF/CNVR — Recherche et dépistage
+160. Recouvrements des programmes fiscaux aux BSF/CNVR — Réclamations contre l'État
+161. Recouvrements des programmes fiscaux aux BSF/CNVR — Recouvrement auprès des Peuples Autochtones
+162. Recouvrements des programmes fiscaux aux BSF/CNVR — Recouvrement compromis
+163. Recouvrements des programmes fiscaux aux BSF/CNVR — Recouvrement en vertu de conventions fiscales
+164. Recouvrements des programmes fiscaux aux BSF/CNVR — Règlements à l'amiable
+165. Recouvrements des programmes fiscaux aux BSF/CNVR — Remboursements
+166. Recouvrements des programmes fiscaux aux BSF/CNVR — Remise
+167. Recouvrements des programmes fiscaux aux BSF/CNVR — Renvois
+168. Recouvrements des programmes fiscaux aux BSF/CNVR — Restrictions au recouvrement
+169. Recouvrements des programmes fiscaux aux BSF/CNVR — Saisie et vente
+170. Recouvrements des programmes fiscaux aux BSF/CNVR — Saisie-arrêt
+171. Recouvrements des programmes fiscaux aux BSF/CNVR — Sommaires de comptes
+172. Recouvrements des programmes fiscaux aux BSF/CNVR — Suppressions de remboursement
+173. Recouvrements des programmes fiscaux aux BSF/CNVR — Transfert et association de comptes
+174. Recouvrements des programmes fiscaux aux BSF/CNVR — Visites sur place
+175. Recouvrements des programmes gouvernementaux aux BSF/CNVR — Actions en Cour fédérale (ACF)
+176. Recouvrements des programmes gouvernementaux aux BSF/CNVR — Appels
+177. Recouvrements des programmes gouvernementaux aux BSF/CNVR — Compensations statutaires
+178. Recouvrements des programmes gouvernementaux aux BSF/CNVR — Confidentialité
+179. Recouvrements des programmes gouvernementaux aux BSF/CNVR — Conseils juridiques et litiges – Recouvrements (CJL-R)
+180. Recouvrements des programmes gouvernementaux aux BSF/CNVR — Contact pour les Recouvrements
+181. Recouvrements des programmes gouvernementaux aux BSF/CNVR — Conventions d'appellation
+182. Recouvrements des programmes gouvernementaux aux BSF/CNVR — Courrier
+183. Recouvrements des programmes gouvernementaux aux BSF/CNVR — Créances irrécouvrables
+184. Recouvrements des programmes gouvernementaux aux BSF/CNVR — Débiteurs décédés
+185. Recouvrements des programmes gouvernementaux aux BSF/CNVR — Délais de prescription
+186. Recouvrements des programmes gouvernementaux aux BSF/CNVR — Demande de renseignements (DR)
+187. Recouvrements des programmes gouvernementaux aux BSF/CNVR — Demande péremptoire de renseignements (DPR)
+188. Recouvrements des programmes gouvernementaux aux BSF/CNVR — Dépôt volontaire
+189. Recouvrements des programmes gouvernementaux aux BSF/CNVR — Difficultés financières
+190. Recouvrements des programmes gouvernementaux aux BSF/CNVR — Gestion des enjeux
+191. Recouvrements des programmes gouvernementaux aux BSF/CNVR — Insolvabilité
+192. Recouvrements des programmes gouvernementaux aux BSF/CNVR — Jugements provinciaux
+193. Recouvrements des programmes gouvernementaux aux BSF/CNVR — Lettres, avis et relevés
+194. Recouvrements des programmes gouvernementaux aux BSF/CNVR — Paiements
+195. Recouvrements des programmes gouvernementaux aux BSF/CNVR — Pénalités, intérêts, droits, amendes et frais
+196. Recouvrements des programmes gouvernementaux aux BSF/CNVR — Plan d'action (PA)
+197. Recouvrements des programmes gouvernementaux aux BSF/CNVR — Recherche et dépistage
+198. Recouvrements des programmes gouvernementaux aux BSF/CNVR — Reçus d'impôt
+199. Recouvrements des programmes gouvernementaux aux BSF/CNVR — Règlements à l'amiable
+200. Recouvrements des programmes gouvernementaux aux BSF/CNVR — Régularisation
+201. Recouvrements des programmes gouvernementaux aux BSF/CNVR — Renvois au Soutien aux bureaux locaux
+202. Recouvrements des programmes gouvernementaux aux BSF/CNVR — Retenues sur les prestations d'AE
+203. Recouvrements des programmes gouvernementaux aux BSF/CNVR — Saisie-arrêt
+204. Recouvrements des programmes gouvernementaux aux BSF/CNVR — Sommaires de comptes
+205. Recouvrements des programmes gouvernementaux aux BSF/CNVR — Tenue des comptes et de l'inventaire
+206. Recouvrements des programmes gouvernementaux aux BSF/CNVR — Types de programmes
+207. Recouvrements pour le programme des douanes aux BSF/CNVR — Acquisition et disposition
+208. Recouvrements pour le programme des douanes aux BSF/CNVR — Appels
+209. Recouvrements pour le programme des douanes aux BSF/CNVR — Arrivage, préparation et mise à jour des comptes
+210. Recouvrements pour le programme des douanes aux BSF/CNVR — Compensation des crédits
+211. Recouvrements pour le programme des douanes aux BSF/CNVR — Compensations statutaires
+212. Recouvrements pour le programme des douanes aux BSF/CNVR — Compte-garantie (COMGA)
+213. Recouvrements pour le programme des douanes aux BSF/CNVR — Confidentialité
+214. Recouvrements pour le programme des douanes aux BSF/CNVR — Contact pour les Recouvrements
+215. Recouvrements pour le programme des douanes aux BSF/CNVR — Contribuables décédés
+216. Recouvrements pour le programme des douanes aux BSF/CNVR — Conventions d'appellation
+217. Recouvrements pour le programme des douanes aux BSF/CNVR — Cotisations pour mémoire
+218. Recouvrements pour le programme des douanes aux BSF/CNVR — Courrier
+219. Recouvrements pour le programme des douanes aux BSF/CNVR — Créances irrécouvrables
+220. Recouvrements pour le programme des douanes aux BSF/CNVR — Dates de factures et d'avis
+221. Recouvrements pour le programme des douanes aux BSF/CNVR — Délai de prescription pour le recouvrement (DPR)
+222. Recouvrements pour le programme des douanes aux BSF/CNVR — Demande de renseignements
+223. Recouvrements pour le programme des douanes aux BSF/CNVR — Demande péremptoire de renseignements (DPR)
+224. Recouvrements pour le programme des douanes aux BSF/CNVR — Dépôt volontaire
+225. Recouvrements pour le programme des douanes aux BSF/CNVR — Documents judiciaires
+226. Recouvrements pour le programme des douanes aux BSF/CNVR — Documents de base et imprimés historiques
+227. Recouvrements pour le programme des douanes aux BSF/CNVR — Dossiers
+228. Recouvrements pour le programme des douanes aux BSF/CNVR — Entités juridiques
+229. Recouvrements pour le programme des douanes aux BSF/CNVR — Évaluations
+230. Recouvrements pour le programme des douanes aux BSF/CNVR — Fermer un compte et le retirer de votre inventaire
+231. Recouvrements pour le programme des douanes aux BSF/CNVR — Frais et redevances
+232. Recouvrements pour le programme des douanes aux BSF/CNVR — Garantir la dette
+233. Recouvrements pour le programme des douanes aux BSF/CNVR — Gestion des enjeux
+234. Recouvrements pour le programme des douanes aux BSF/CNVR — Insolvabilité
+235. Recouvrements pour le programme des douanes aux BSF/CNVR — Lettres, avis et relevés
+236. Recouvrements pour le programme des douanes aux BSF/CNVR — Livres et registres
+237. Recouvrements pour le programme des douanes aux BSF/CNVR — Ministère de la Justice (JUS)
+238. Recouvrements pour le programme des douanes aux BSF/CNVR — Paiements
+239. Recouvrements pour le programme des douanes aux BSF/CNVR — Plan d'action (PA)
+240. Recouvrements pour le programme des douanes aux BSF/CNVR — Recherche et dépistage
+241. Recouvrements pour le programme des douanes aux BSF/CNVR — Recouvrement compromis
+242. Recouvrements pour le programme des douanes aux BSF/CNVR — Règlements à l'amiable
+243. Recouvrements pour le programme des douanes aux BSF/CNVR — Restrictions au recouvrement
+244. Recouvrements pour le programme des douanes aux BSF/CNVR — Rétention à la frontière
+245. Recouvrements pour le programme des douanes aux BSF/CNVR — Saisie et vente
+246. Recouvrements pour le programme des douanes aux BSF/CNVR — Saisie-arrêt
+247. Recouvrements pour le programme des douanes aux BSF/CNVR — Sommaires de comptes
+248. Recouvrements pour le programme des douanes aux BSF/CNVR — Transfert et association de comptes
+249. Recouvrements pour le programme des douanes aux BSF/CNVR — Visites sur place
+250. Renvois du Québec - 6880
+251. Service de protection de l'identité - 9730
+252. Société - Guide et procédures d'examen de l’appariement du revenu de la TPS/TVH - 6135
+253. Sujets du programme des non-déclarants (SPND)
+254. TPS/TVH Manuel d'opérations de l'Observation – MOI 6500
+255. Validation de la Ligne 105 Guide et procédures - 6125
+256. Validités de confiance – 4092.4
 
 #### Direction générale des programmes d'observation
 
@@ -823,12 +915,12 @@ Résumés des contrats, accords d’échange de renseignements et ententes d’�
 2. [Crédit d'impôt pour services de production cinématographique ou magnétoscopique – Guide du formulaire T1177](/fr/agence-revenu/services/recherche-scientifique-developpement-experimental-programme-encouragements-fiscaux/manuel-examen-demandes-conseillers-recherche-technologie-programme-8.html)
 3. Dispositions par des non–résidents en vertu de l'article 116
 4. Évaluation des biens immobiliers – manuel des opérations
-5. Guide à l'intention des évaluateurs de l'ARC en matière d'établissement de la juste valeur marchande aux fins de la fourniture à soi–même en vertu de la Loi sur la taxe d'accise
-6. [Le processus d’examen de la RS&DE : Un guide à l’intention des demandeurs](/fr/agence-revenu/services/recherche-scientifique-developpement-experimental-programme-encouragements-fiscaux/examen-technique-guide-demandeurs.html)
+5. Guide à l'intention des évaluateurs de l'ARC en matière d'établissement de la juste valeur marchande aux fins de la fourniture à soi–même en vertu de la *Loi sur la taxe d'accise*
+6. [Le processus d’examen de la RS&DE : Un guide à l’intention des demandeurs](/fr/agence-revenu/services/recherche-scientifique-developpement-experimental-programme-encouragements-fiscaux/examen-technique-guide-demandeurs.html)
 7. [Lignes directrices pour résoudre les préoccupations des demandeurs en matière de RS&ED](/fr/agence-revenu/services/recherche-scientifique-developpement-experimental-programme-encouragements-fiscaux/lignes-directrices-resoudre-preoccupations-demandeurs-matiere.html)
 8. [Manuel de la vérification de l'impôt sur le revenu](/fr/agence-revenu/services/impot/renseignements-techniques/manuel-verification-impot-revenu-direction-generale-programmes-observation-nationaux-dgpon-5.html)
 9. [Manuel de la vérification des grandes entreprises](/fr/agence-revenu/services/impot/renseignements-techniques/manuels-politiques-observation/manuel-verification-grandes-entreprises-direction-generale-secteur-international-grandes-entreprises-enquetes-dgsigee.html)
-10. Manuel de la vérification des non-résidents
+10. Manuel de la vérification des non-résidents
 11. Manuel de la vérification et de l'examen de la TPS/TVH
 12. Manuel de procédure pour les dispenses internationales
 13. Manuel des enquêtes criminelles
@@ -843,41 +935,43 @@ Résumés des contrats, accords d’échange de renseignements et ententes d’�
 
 #### Direction générale du service, de l’innovation et de l’intégration
 
-1. Manuel de l'utilisateur du système de gestion des cas T1PRE
-2. Manuel du système de rétroaction sur les services – Plaintes liées au service programme de solution de problème
-3. Programme de la rétroaction sur les services - Manuel des procédures du Programme de Solution de problèmes – 9120
-4. Programme de la rétroaction sur les services - Manuel des procédures Plaintes liées au service Manuel du système de rétroaction sur les services – programme des plaintes liées au service
-5. Programme de la rétroaction sur les services - Manuel du Système de gestion des cas T1PRE
+1. Manuel du système de rétroaction sur les services – Plaintes liées au service
+2. Manuel du système de rétroaction sur les services – Solution de problème
+3. Programme de la rétroaction sur les services - Manuel des procédures Solution de problèmes - 9120
+4. Programme de la rétroaction sur les services - Manuel des procédures Plaintes liées au service
 
 #### Direction générale des politiques législative et des affaires réglementaires
 
 1. Droit d'accise vérification Titulaire de licence de tabac
-2. Lignes directrices pour l’imposition de pénalités administratives
-3. Manuel d’audit du cannabis
-4. Manuel de la sécurité sociale
-5. Manuel De La Vérification Taxe De Luxe
-6. Manuel de procédures de la DDI
-7. Manuel de procédures du STR
-8. Manuel de vérification de la redevance sur les combustibles
-9. Manuel des politiques RPC/AE
-10. Manuel des procédures de l’octroi des licences de la taxe d'accise
-11. Manuel des procédures de la TPS/TVH
-12. Manuel des procédures pour les décisions du RPC/AE
-13. Manuel technique sur les RPA de la direction des régimes enregistrés
-14. Procédures d'octroi des licences de produits de vapotage
-15. Vérification des procédures de délivrance de licences de cannabis
+2. Licences, agréments et autorisations liés à l’alcool en vertu de la *Loi de 2001 sur l’accise* et de la *Loi sur l’accise*
+3. Lignes directrices pour l’imposition de pénalités administratives
+4. Manuel d’audit du cannabis
+5. Manuel de la sécurité sociale
+6. Manuel de la vérification taxe de luxe
+7. Manuel de procédures de déterminations
+8. Manuel de procédures de la DDI
+9. Manuel de procédures du STR
+10. Manuel de vérification de la redevance sur les combustibles
+11. Manuel des politiques RPC/AE
+12. Manuel des procédures de l’octroi des licences de la taxe d'accise
+13. Manuel des procédures de la TPS/TVH
+14. Manuel des procédures pour les décisions du RPC/AE
+15. Manuel sur les remises à l’intention des employés de l’agence du revenu du Canada
+16. Manuel technique sur les RPA de la direction des régimes enregistrés
+17. Procédures d'octroi des licences de produits de vapotage
+18. Vérification des procédures de délivrance de licences de cannabis
 
 Pour demander une version électronique d'un manuel, envoyer un courriel à l’adresse Renseignements généraux de la Direction de l'AIPRP de l'ARC.
 
 ## Renseignements supplémentaires
 
-L'Agence du revenu du Canada (ARC) est assujettie aux exigences de la [Loi sur l'accès à l'information](http://laws-lois.justice.gc.ca/fra/lois/A-1/) et de la [Loi sur la protection des renseignements personnels](http://laws-lois.justice.gc.ca/fra/lois/P-21/). La Direction de l'accès à l'information et de la protection des renseignements personnels (AIPRP), qui relève de la Direction générale des affaires publiques, aide l'ARC à respecter les exigences que lui imposent ces deux lois.
+L'Agence du revenu du Canada (ARC) est assujettie aux exigences de la [*Loi sur l'accès à l'information*](http://laws-lois.justice.gc.ca/fra/lois/A-1/) et de la [*Loi sur la protection des renseignements personnels*](http://laws-lois.justice.gc.ca/fra/lois/P-21/). La Direction de l'accès à l'information et de la protection des renseignements personnels (AIPRP), qui relève de la Direction générale des affaires publiques, aide l'ARC à respecter les exigences que lui imposent ces deux lois.
 
-Pour obtenir des renseignements sur l'accès à l'information et la protection des renseignements personnels à l'ARC, veuillez consulter le [site Web de l'ARC sur l'Accès à l'information et la protection des renseignements personnels](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada.html). Vous y trouverez des informations sur :
+Pour obtenir des renseignements sur l'accès à l'information et la protection des renseignements personnels à l'ARC, veuillez consulter le [site Web de l'ARC sur l'Accès à l'information et la protection des renseignements personnels](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada.html)Vous y trouverez des informations sur :
 
-### [Demandes en dehors du processus de l’AIPRP](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/etape-1-verifier-renseignements-sont-deja-disponibles.html)
+### Demandes en dehors du processus de l’AIPRP
 
-Le gouvernement du Canada encourage la diffusion d'information par l'entremise de demandes en dehors du processus de l'AIPRP. Vous pouvez accéder à la plupart de vos renseignements personnels et à d'autres renseignements que détient l'ARC en consultant :
+Le gouvernement du Canada encourage la diffusion d'information par l'entremise de [demandes en dehors du processus de l'AIPRP](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/etape-1-verifier-renseignements-sont-deja-disponibles.html). Vous pouvez accéder à la plupart de vos renseignements personnels et à d'autres renseignements que détient l'ARC en consultant :
 
 * [Mon dossier](/fr/agence-revenu/services/services-electroniques/services-ouverture-session-arc.html) - pour les particuliers
 * [Mon dossier d'entreprise](/fr/agence-revenu/services/services-electroniques/services-ouverture-session-arc.html) - pour les entreprises
@@ -892,30 +986,30 @@ Le gouvernement du Canada encourage la diffusion d'information par l'entremise d
 * [Gouvernement ouvert](https://rechercher.ouvert.canada.ca/donneesouvertes/)
 * [Manuels d’observation, politiques et comités](/fr/agence-revenu/services/impot/renseignements-techniques/manuels-politiques-observation.html)
 
-### [Demandes formelles de renseignements](/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/etape-2-faire-demande-acces-a-information-a-renseignements-personnels.html)
+### Demandes formelles de renseignements
 
-Si vous ne pouvez obtenir l’information que vous recherchez en dehors du processus de l'AIPRP, veuillez consulter la site sur le [fonctionnement des demandes d'accès à l'information et à des renseignements personnels](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/fonctionnement-demandes-acces-information-renseignements-personnels.html)  pour obtenir des renseignements sur les procédures d'accès à l'information aux termes de la Loi sur l'accès à l'information et de la Loi sur la protection des renseignements personnels.
+Si vous ne pouvez obtenir l’information que vous recherchez en dehors du processus de l'AIPRP, veuillez consulter le site sur le [fonctionnement des demandes d'accès à l'information et à des renseignements personnels](/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/fonctionnement-demandes-acces-information-renseignements-personnels.html)  pour obtenir des renseignements sur les procédures d'accès à l'information aux termes de la *Loi sur l'accès à l'information* et de la *Loi sur la protection des renseignements personnel*s.
 
 De plus, voici comment présenter une demande officielle à l'ARC :
 
-[Demande d’AIPRP en ligne](https://atip-aiprp.apps.gc.ca/atip/) ou poster votre lettre ou le [formulaire RC378 Formulaire de demande d’accès à l’information et aux renseignements personnels](/fr/agence-revenu/services/formulaires-publications/formulaires/rc378.html) avec les documents nécessaires (tel que le consentement ou les frais de demande de 5.00 $ pour une demande en vertu de la Loi sur l’accès à l’information) à l’adresse suivante :
+[Demande d’AIPRP en ligne](https://atip-aiprp.apps.gc.ca/atip/) ou poster votre lettre ou le [formulaire RC378 Formulaire de demande d’accès à l’information et aux renseignements personnels](/fr/agence-revenu/services/formulaires-publications/formulaires/rc378.html) avec les documents nécessaires (tel que le consentement ou les frais de demande de 5.00 $ pour une demande en vertu de la *Loi sur l’accès à l’information*) à l’adresse suivante :
 
 Directeur général de la Direction de l’AIPRP
 Agence du revenu du Canada
 555, avenue MacKenzie, 5e étage
 Ottawa ON  K1A 0L5
 
-Conformément à la Loi sur l’accès à l’information et à la Loi sur la protection des renseignements personnels, une zone située sur les lieux sera mise à disposition pour examiner les documents originaux sur place si telle est la préférence du demandeur (et s’il est pratique de le faire), ou s’il n’est pas pratique de créer des copies des documents.
+Conformément à la *Loi sur l’accès à l’information* et à la *Loi sur la protection des renseignements personnels*, une zone située sur les lieux sera mise à disposition pour examiner les documents originaux sur place si telle est la préférence du demandeur (et s’il est pratique de le faire), ou s’il n’est pas pratique de créer des copies des documents.
 
-### [Sommaire d'évaluations des facteurs relatifs à la vie privée](/fr/agence-revenu/services/a-propos-agence-revenu-canada-arc/protection-vos-renseignements-personnels/evaluation-facteurs-relatifs-a-vie-privee.html)
+### Sommaire d'évaluations des facteurs relatifs à la vie privée
 
-L’ARC mène des évaluations de la protection de la vie privée pour bien définir, évaluer et réduire au minimum les incidences sur la vie privée avant de mettre en œuvre ou de modifier de façon importante un programme ou une activité touchant les renseignements personnels. Allez à la page [Sommaires d’évaluations de la protection de la vie privée](/fr/agence-revenu/services/a-propos-agence-revenu-canada-arc/protection-vos-renseignements-personnels/evaluation-facteurs-relatifs-a-vie-privee.html) pour consulter les sommaires.
+L’Agence du revenu du Canada mène des évaluations de la protection de la vie privée pour bien définir, évaluer et réduire au minimum les incidences sur la vie privée avant de mettre en œuvre ou de modifier de façon importante un programme ou une activité touchant les renseignements personnels. Allez à la page [Sommaires d’évaluations de la protection de la vie privée](/fr/agence-revenu/services/a-propos-agence-revenu-canada-arc/protection-vos-renseignements-personnels/evaluation-facteurs-relatifs-a-vie-privee.html) pour consulter les sommaires.
 
 Pour plus de renseignements sur les programmes et les activités de l’Agence du revenu du Canada, veuillez consulter le site [Web de l’ARC](/fr/agence-revenu.html).
 
 ## Détails de la page
 
-2025-12-11
+2026-07-24
 
 ## À propos de ce site
 

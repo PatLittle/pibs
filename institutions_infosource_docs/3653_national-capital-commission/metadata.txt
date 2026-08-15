@@ -1,5 +1,6 @@
 institution_name_en: National Capital Commission
 institution_name_fr: Commission de la capitale nationale
 gc_orgID: 3653
-infosource_url_en: http://ncc-ccn.gc.ca/transparency
+infosource_url_en: https://ncc-ccn.gc.ca/transparency
 infosource_url_fr: https://ccn-ncc.gc.ca/transparence
+audit_timestamp_utc: 2026-08-15T08:18:54.701567+00:00

@@ -22,6 +22,7 @@
         "pib_count",
         "date_captured",
         "date_removed",
+        "status_statut",
         "harmonized_name",
         "nom_harmonise",
         "institution_name_en",

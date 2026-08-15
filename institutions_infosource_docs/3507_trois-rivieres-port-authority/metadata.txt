@@ -2,4 +2,5 @@ institution_name_en: Trois-Rivières Port Authority
 institution_name_fr: Administration portuaire de Trois-Rivières
 gc_orgID: 3507
 infosource_url_en: https://porttr.com/en/port-authority/governance/info-source/
-infosource_url_fr: http://www.porttr.com/communications-medias/info-source
+infosource_url_fr: https://porttr.com/administration-portuaire/gouvernance/info-source/
+audit_timestamp_utc: 2026-08-15T08:18:51.625196+00:00

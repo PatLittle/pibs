@@ -1,6 +1,6 @@
-[Skip to main content](#main-content)
+[Skip to main content](#main)
 
-[![National Capital Commission](https://ncc-website-2.s3.amazonaws.com/images/widgets/menu/logo-en.png)](https://ncc-ccn.gc.ca/)
+[![National Capital Commission](https://medias.ncc-ccn.ca/ncc/images/widgets/menu/logo-en.png)](https://ncc-ccn.gc.ca/)
 
 [FR](https://ccn-ncc.gc.ca/transparence)
 
@@ -13,7 +13,7 @@
 * [Careers](https://ncc-ccn.gc.ca/careers "Careers")
 * [Français](https://ccn-ncc.gc.ca/transparence)
 
-[![National Capital Commission](https://ncc-website-2.s3.amazonaws.com/images/widgets/menu/logo-en.png)](https://ncc-ccn.gc.ca/)
+[![National Capital Commission](https://medias.ncc-ccn.ca/ncc/images/widgets/menu/logo-en.png)](https://ncc-ccn.gc.ca/)
 
 * [Our Plans](https://ncc-ccn.gc.ca/our-plans "Our Plans")
   Our Plans
@@ -22,10 +22,10 @@
   + [Capital Pathway Strategic Plan](https://ncc-ccn.gc.ca/our-plans/capital-pathway-strategic-plan "Capital Pathway Strategic Plan")
   + [Capital Urban Lands Plan](https://ncc-ccn.gc.ca/our-plans/capital-urban-lands-plan "Capital Urban Lands Plan")
   + [Gatineau Park Master Plan](https://ncc-ccn.gc.ca/our-plans/gatineau-park-master-plan "Gatineau Park Master Plan")
-  + [Greenbelt Master Plan](https://ncc-ccn.gc.ca/our-plans/greenbelt-master-plan "Greenbelt Master Plan")
   + [LeBreton Flats Master Concept Plan](https://ncc-ccn.gc.ca/projects/lebreton-flats-master-concept-plan "LeBreton Flats Master Concept Plan")
   + [Long-Term Integrated Interprovincial Crossings Plan](https://ncc-ccn.gc.ca/our-plans/long-term-integrated-interprovincial-crossings-plan "Long-Term Integrated Interprovincial Crossings Plan")
   + [National Capital Core Area Plan](https://ncc-ccn.gc.ca/our-plans/canadas-capital-core-area-sector-plan "National Capital Core Area Plan")
+  + [National Capital Greenbelt Master Plan](https://ncc-ccn.gc.ca/our-plans/national-capital-greenbelt-master-plan "National Capital Greenbelt Master Plan")
   + [Ottawa River North Shore Improvement Plan](https://ncc-ccn.gc.ca/our-plans/ottawa-river-north-shore-parklands-plan "Ottawa River North Shore Improvement Plan")
   + [Ottawa River South Shore Riverfront Park Plan](https://ncc-ccn.gc.ca/our-plans/ottawa-river-south-shore-riverfront-park "Ottawa River South Shore Riverfront Park Plan")
   + [Rideau Canal Cultural Landscape Study](https://ncc-ccn.gc.ca/our-plans/rideau-canal-cultural-landscape-study "Rideau Canal Cultural Landscape Study")
@@ -41,10 +41,10 @@
   + [Capital Pathway Strategic Plan](https://ncc-ccn.gc.ca/our-plans/capital-pathway-strategic-plan "Capital Pathway Strategic Plan")
   + [Capital Urban Lands Plan](https://ncc-ccn.gc.ca/our-plans/capital-urban-lands-plan "Capital Urban Lands Plan")
   + [Gatineau Park Master Plan](https://ncc-ccn.gc.ca/our-plans/gatineau-park-master-plan "Gatineau Park Master Plan")
-  + [Greenbelt Master Plan](https://ncc-ccn.gc.ca/our-plans/greenbelt-master-plan "Greenbelt Master Plan")
   + [LeBreton Flats Master Concept Plan](https://ncc-ccn.gc.ca/projects/lebreton-flats-master-concept-plan "LeBreton Flats Master Concept Plan")
   + [Long-Term Integrated Interprovincial Crossings Plan](https://ncc-ccn.gc.ca/our-plans/long-term-integrated-interprovincial-crossings-plan "Long-Term Integrated Interprovincial Crossings Plan")
   + [National Capital Core Area Plan](https://ncc-ccn.gc.ca/our-plans/canadas-capital-core-area-sector-plan "National Capital Core Area Plan")
+  + [National Capital Greenbelt Master Plan](https://ncc-ccn.gc.ca/our-plans/national-capital-greenbelt-master-plan "National Capital Greenbelt Master Plan")
   + [Ottawa River North Shore Improvement Plan](https://ncc-ccn.gc.ca/our-plans/ottawa-river-north-shore-parklands-plan "Ottawa River North Shore Improvement Plan")
   + [Ottawa River South Shore Riverfront Park Plan](https://ncc-ccn.gc.ca/our-plans/ottawa-river-south-shore-riverfront-park "Ottawa River South Shore Riverfront Park Plan")
   + [Rideau Canal Cultural Landscape Study](https://ncc-ccn.gc.ca/our-plans/rideau-canal-cultural-landscape-study "Rideau Canal Cultural Landscape Study")
@@ -94,25 +94,29 @@
 * [Places to Visit](https://ncc-ccn.gc.ca/places-to-visit "Places to Visit")
   Places to Visit
   + [Gatineau Park](https://ncc-ccn.gc.ca/places/gatineau-park "Gatineau Park")
-  + [Greenbelt](https://ncc-ccn.gc.ca/places/greenbelt "Greenbelt")
-  + [Rideau Canal Skateway](https://ncc-ccn.gc.ca/places/rideau-canal-skateway "Rideau Canal Skateway")
-  + [Urban Parks](https://ncc-ccn.gc.ca/places/parks "Urban Parks")
+  + [National Capital Greenbelt](https://ncc-ccn.gc.ca/places/greenbelt "National Capital Greenbelt")
+  + [Recreational docks in the Capital](https://ncc-ccn.gc.ca/places/docks "Recreational docks in the Capital")
   + [NCC River House](https://ncc-ccn.gc.ca/places/ncc-river-house "NCC River House")
+  + [NCC Bistros](https://ncc-ccn.gc.ca/bistro "NCC Bistros")
+  + [Urban Parks](https://ncc-ccn.gc.ca/places/parks "Urban Parks")
   + [Parkways](https://ncc-ccn.gc.ca/places/parkways "Parkways")
   + [Capital Pathway](https://ncc-ccn.gc.ca/places/capital-pathway "Capital Pathway")
   + [Confederation Boulevard](https://ncc-ccn.gc.ca/places/confederation-boulevard "Confederation Boulevard")
   + [Heritage Buildings](https://ncc-ccn.gc.ca/places/heritage-buildings-in-national-capital-region "Heritage Buildings")
   + [Official Residences](https://ncc-ccn.gc.ca/places/official-residences "Official Residences")
+  + [Rideau Canal Skateway](https://ncc-ccn.gc.ca/places/rideau-canal-skateway "Rideau Canal Skateway")
   + [Gatineau Park](https://ncc-ccn.gc.ca/places/gatineau-park "Gatineau Park")
-  + [Greenbelt](https://ncc-ccn.gc.ca/places/greenbelt "Greenbelt")
-  + [Rideau Canal Skateway](https://ncc-ccn.gc.ca/places/rideau-canal-skateway "Rideau Canal Skateway")
-  + [Urban Parks](https://ncc-ccn.gc.ca/places/parks "Urban Parks")
+  + [National Capital Greenbelt](https://ncc-ccn.gc.ca/places/greenbelt "National Capital Greenbelt")
+  + [Recreational docks in the Capital](https://ncc-ccn.gc.ca/places/docks "Recreational docks in the Capital")
   + [NCC River House](https://ncc-ccn.gc.ca/places/ncc-river-house "NCC River House")
+  + [NCC Bistros](https://ncc-ccn.gc.ca/bistro "NCC Bistros")
+  + [Urban Parks](https://ncc-ccn.gc.ca/places/parks "Urban Parks")
   + [Parkways](https://ncc-ccn.gc.ca/places/parkways "Parkways")
   + [Capital Pathway](https://ncc-ccn.gc.ca/places/capital-pathway "Capital Pathway")
   + [Confederation Boulevard](https://ncc-ccn.gc.ca/places/confederation-boulevard "Confederation Boulevard")
   + [Heritage Buildings](https://ncc-ccn.gc.ca/places/heritage-buildings-in-national-capital-region "Heritage Buildings")
   + [Official Residences](https://ncc-ccn.gc.ca/places/official-residences "Official Residences")
+  + [Rideau Canal Skateway](https://ncc-ccn.gc.ca/places/rideau-canal-skateway "Rideau Canal Skateway")
 [About Us](https://ncc-ccn.gc.ca/about-us "About Us")
 [Get Involved](https://ncc-ccn.gc.ca/get-involved "Get Involved")
 [Blog](https://ncc-ccn.gc.ca/blog "Blog")
@@ -144,10 +148,10 @@
 * [Capital Pathway Strategic Plan](https://ncc-ccn.gc.ca/our-plans/capital-pathway-strategic-plan)
 * [Capital Urban Lands Plan](https://ncc-ccn.gc.ca/our-plans/capital-urban-lands-plan)
 * [Gatineau Park Master Plan](https://ncc-ccn.gc.ca/our-plans/gatineau-park-master-plan)
-* [Greenbelt Master Plan](https://ncc-ccn.gc.ca/our-plans/greenbelt-master-plan)
 * [LeBreton Flats Master Concept Plan](https://ncc-ccn.gc.ca/projects/lebreton-flats-master-concept-plan)
 * [Long-Term Integrated Interprovincial Crossings Plan](https://ncc-ccn.gc.ca/our-plans/long-term-integrated-interprovincial-crossings-plan)
 * [National Capital Core Area Plan](https://ncc-ccn.gc.ca/our-plans/canadas-capital-core-area-sector-plan)
+* [National Capital Greenbelt Master Plan](https://ncc-ccn.gc.ca/our-plans/national-capital-greenbelt-master-plan)
 * [Ottawa River North Shore Improvement Plan](https://ncc-ccn.gc.ca/our-plans/ottawa-river-north-shore-parklands-plan)
 * [Ottawa River South Shore Riverfront Park Plan](https://ncc-ccn.gc.ca/our-plans/ottawa-river-south-shore-riverfront-park)
 * [Rideau Canal Cultural Landscape Study](https://ncc-ccn.gc.ca/our-plans/rideau-canal-cultural-landscape-study)
@@ -184,15 +188,30 @@
 * ‹ Back
 * [Places to Visit](https://ncc-ccn.gc.ca/places-to-visit)
 * [Gatineau Park](https://ncc-ccn.gc.ca/places/gatineau-park)
-* [Greenbelt](https://ncc-ccn.gc.ca/places/greenbelt)
-* [Rideau Canal Skateway](https://ncc-ccn.gc.ca/places/rideau-canal-skateway)
-* [Urban Parks](https://ncc-ccn.gc.ca/places/parks)
+* [National Capital Greenbelt](https://ncc-ccn.gc.ca/places/greenbelt)
+* [Recreational docks in the Capital](https://ncc-ccn.gc.ca/places/docks)
 * [NCC River House](https://ncc-ccn.gc.ca/places/ncc-river-house)
+* [NCC Bistros](https://ncc-ccn.gc.ca/bistro)
+* [Urban Parks](https://ncc-ccn.gc.ca/places/parks)
 * [Parkways](https://ncc-ccn.gc.ca/places/parkways)
 * [Capital Pathway](https://ncc-ccn.gc.ca/places/capital-pathway)
 * [Confederation Boulevard](https://ncc-ccn.gc.ca/places/confederation-boulevard)
 * [Heritage Buildings](https://ncc-ccn.gc.ca/places/heritage-buildings-in-national-capital-region)
 * [Official Residences](https://ncc-ccn.gc.ca/places/official-residences)
+* [Rideau Canal Skateway](https://ncc-ccn.gc.ca/places/rideau-canal-skateway)
+
+Search
+
+Popular topics
+
+* [NCC River House](https://ncc-ccn.gc.ca/places/ncc-river-house)
+* [Invasive plants](https://ncc-ccn.gc.ca/projects/management-of-invasive-alien-plants)
+* [Tree assessment request](https://ncc-ccn.gc.ca/tree-assessment-request)
+* [Summer camping in Gatineau Park](https://ncc-ccn.gc.ca/places/summer-camping-accommodations-gatineau-park)
+
+* [Leamy Lake Park](https://ncc-ccn.gc.ca/places/leamy-lake-park)
+* [Event Permits](https://ncc-ccn.gc.ca/business/event-permits)
+* [Vincent Massey Park](https://ncc-ccn.gc.ca/places/vincent-massey-park)
 
 # Transparency
 
@@ -214,9 +233,9 @@ At the NCC, we take reasonable steps to improve transparency and oversight of pu
 
 As a Crown corporation, we must comply with the following:
 
-* *[Access to Information Act](http://laws-lois.justice.gc.ca/eng/acts/A-1/index.html)*
-* *[Privacy Act](http://laws-lois.justice.gc.ca/eng/acts/P-21/)*
-* *[Public Servants Disclosure Protection Act](http://laws-lois.justice.gc.ca/eng/acts/P-31.9/)*
+* [*Access to Information Act*](http://laws-lois.justice.gc.ca/eng/acts/A-1/index.html)
+* [*Privacy Act*](http://laws-lois.justice.gc.ca/eng/acts/P-21/)
+* [*Public Servants Disclosure Protection Act*](http://laws-lois.justice.gc.ca/eng/acts/P-31.9/)
 * [Government of Canada directive on Proactive Publication](https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32756%C2%A7ion=html)
 
 ## Take action
@@ -226,6 +245,7 @@ As a Crown corporation, we must comply with the following:
 
 ## Learn more about the NCC
 
+* [Report of the Auditor General of Canada to the Board of Directors of the National Capital Commission](https://medias.ncc-ccn.ca/ncc/documents/NCC-Special-Examination-Report-15-April-2026.PDF)
 * [2025 Progress Report – Red Tape Review](https://ncc-ccn.gc.ca/2025-progress-report-red-tape-review)
 * [Privacy at the NCC](https://ncc-ccn.gc.ca/privacy-at-the-ncc)
 * [Proactive Disclosure](https://ncc-ccn.gc.ca/proactive-disclosure)
@@ -235,25 +255,25 @@ As a Crown corporation, we must comply with the following:
 
 ### Access to Information Act
 
-* [Annual Report to Parliament - Access to Information Act - 2024-2025](https://ncc-website-2.s3.amazonaws.com/documents/2024-2025-Access-to-Information.pdf) (1.01 MiB)
-* [Annual Report to Parliament - Access to Information Act - 2023-2024](https://ncc-website-2.s3.amazonaws.com/documents/Annual-Report-to-Parliament-Access-to-Information-Act-2023-2024.pdf) (3.43 MiB)
-* [Annual Report to Parliament - Access to Information Act - 2022-2023](https://ncc-website-2.s3.amazonaws.com/documents/Annual-Report-to-Parliament-Access-to-Information-Act-2022-2023.pdf) (1.02 MiB)
-* [Annual Report to Parliament - Access to Information Act - 2021-2022](https://ncc-website-2.s3.amazonaws.com/documents/2021-2022-Access-Annual-Report_En.pdf) (799.89 KiB)
-* [Annual Report to Parliament - Access to Information Act - 2020-2021](https://ncc-website-2.s3.amazonaws.com/documents/Annual-Report-to-Parliament-Access-to-Information-Act-for-the-period-from-April-1-2020-to-March-31-2021.pdf) (780.31 KiB)
-* [Annual Report to Parliament - Access to Information Act - 2019-2020](https://ncc-website-2.s3.amazonaws.com/documents/Annual-Report-to-Parliament-Access-to-Information-Act-for-the-period-from-April-1-2019-to-March-31-2020.pdf) (496.52 KiB)
-* [Annual Report to Parliament - Access to Information Act - 2018-2019](https://ncc-website-2.s3.amazonaws.com/documents/Annual-Report-to-Parliament-Access-to-Information-Act-for-the-period-from-April-1-2018-to-March-31-2019.pdf) (333.44 KiB)
-* [Annual Report to Parliament - Access to Information Act - 2017-2018](https://ncc-website-2.s3.amazonaws.com/documents/Annual-Report-to-Parliament-Access-to-Information-Act-for-the-period-from-April-1-2017-to-March-31-2018.pdf) (322.73 KiB)
+* [Annual Report to Parliament - Access to Information Act - 2024-2025](https://medias.ncc-ccn.ca/ncc/documents/2024-2025-Access-to-Information.pdf) (1.01 MiB)
+* [Annual Report to Parliament - Access to Information Act - 2023-2024](https://medias.ncc-ccn.ca/ncc/documents/Annual-Report-to-Parliament-Access-to-Information-Act-2023-2024.pdf) (3.43 MiB)
+* [Annual Report to Parliament - Access to Information Act - 2022-2023](https://medias.ncc-ccn.ca/ncc/documents/Annual-Report-to-Parliament-Access-to-Information-Act-2022-2023.pdf) (1.02 MiB)
+* [Annual Report to Parliament - Access to Information Act - 2021-2022](https://medias.ncc-ccn.ca/ncc/documents/2021-2022-Access-Annual-Report_En.pdf) (799.89 KiB)
+* [Annual Report to Parliament - Access to Information Act - 2020-2021](https://medias.ncc-ccn.ca/ncc/documents/Annual-Report-to-Parliament-Access-to-Information-Act-for-the-period-from-April-1-2020-to-March-31-2021.pdf) (780.31 KiB)
+* [Annual Report to Parliament - Access to Information Act - 2019-2020](https://medias.ncc-ccn.ca/ncc/documents/Annual-Report-to-Parliament-Access-to-Information-Act-for-the-period-from-April-1-2019-to-March-31-2020.pdf) (496.52 KiB)
+* [Annual Report to Parliament - Access to Information Act - 2018-2019](https://medias.ncc-ccn.ca/ncc/documents/Annual-Report-to-Parliament-Access-to-Information-Act-for-the-period-from-April-1-2018-to-March-31-2019.pdf) (333.44 KiB)
+* [Annual Report to Parliament - Access to Information Act - 2017-2018](https://medias.ncc-ccn.ca/ncc/documents/Annual-Report-to-Parliament-Access-to-Information-Act-for-the-period-from-April-1-2017-to-March-31-2018.pdf) (322.73 KiB)
 
 ### Privacy Act
 
-* [Annual Report to Parliament - Privacy Act - 2024-2025](https://ncc-website-2.s3.amazonaws.com/documents/2024-2025-Privacy-Act.pdf) (844.36 KiB)
-* [Annual Report to Parliament - Privacy Act - 2023-2024](https://ncc-website-2.s3.amazonaws.com/documents/Annual_Report_Privacy_Act_2023-24.pdf) (2.51 MiB)
-* [Annual Report to Parliament - Privacy Act - 2022-2023](https://ncc-website-2.s3.amazonaws.com/documents/2022-2023-Privacy-Annual-Report_EN.pdf) (717.99 KiB)
-* [Annual Report to Parliament - Privacy Act - 2021-2022](https://ncc-website-2.s3.amazonaws.com/documents/2021-2022-Privacy-Annual-Report_En.pdf) (641.96 KiB)
-* [Annual Report to Parliament - Privacy Act - 2020-2021](https://ncc-website-2.s3.amazonaws.com/documents/Annual-Report-to-Parliament-Privacy-Act-for-the-period-from-April-1-2020-to-March-31-2021.pdf) (558.38 KiB)
-* [Annual Report to Parliament - Privacy Act - 2019-2020](https://ncc-website-2.s3.amazonaws.com/documents/Annual-Report-to-Parliament-Privacy-Act-for-the-period-from-April-1-2019-to-March-31-2020.pdf) (478.98 KiB)
-* [Annual Report to Parliament - Privacy Act - 2018-2019](https://ncc-website-2.s3.amazonaws.com/documents/Annual-Report-to-Parliament-Privacy-Act-for-the-period-from-April-1-2018-to-March-31-2019.pdf) (345.15 KiB)
-* [Annual Report to Parliament - Privacy Act - 2017-2018](https://ncc-website-2.s3.amazonaws.com/documents/Annual-Report-to-Parliament-Privacy-Act-for-the-period-from-April-1-2017-to-March-31-2018.pdf) (309.63 KiB)
+* [Annual Report to Parliament - Privacy Act - 2024-2025](https://medias.ncc-ccn.ca/ncc/documents/2024-2025-Privacy-Act.pdf) (844.36 KiB)
+* [Annual Report to Parliament - Privacy Act - 2023-2024](https://medias.ncc-ccn.ca/ncc/documents/Annual_Report_Privacy_Act_2023-24.pdf) (2.51 MiB)
+* [Annual Report to Parliament - Privacy Act - 2022-2023](https://medias.ncc-ccn.ca/ncc/documents/2022-2023-Privacy-Annual-Report_EN.pdf) (717.99 KiB)
+* [Annual Report to Parliament - Privacy Act - 2021-2022](https://medias.ncc-ccn.ca/ncc/documents/2021-2022-Privacy-Annual-Report_En.pdf) (641.96 KiB)
+* [Annual Report to Parliament - Privacy Act - 2020-2021](https://medias.ncc-ccn.ca/ncc/documents/Annual-Report-to-Parliament-Privacy-Act-for-the-period-from-April-1-2020-to-March-31-2021.pdf) (558.38 KiB)
+* [Annual Report to Parliament - Privacy Act - 2019-2020](https://medias.ncc-ccn.ca/ncc/documents/Annual-Report-to-Parliament-Privacy-Act-for-the-period-from-April-1-2019-to-March-31-2020.pdf) (478.98 KiB)
+* [Annual Report to Parliament - Privacy Act - 2018-2019](https://medias.ncc-ccn.ca/ncc/documents/Annual-Report-to-Parliament-Privacy-Act-for-the-period-from-April-1-2018-to-March-31-2019.pdf) (345.15 KiB)
+* [Annual Report to Parliament - Privacy Act - 2017-2018](https://medias.ncc-ccn.ca/ncc/documents/Annual-Report-to-Parliament-Privacy-Act-for-the-period-from-April-1-2017-to-March-31-2018.pdf) (309.63 KiB)
 
 * [Accessibility](https://ncc-ccn.gc.ca/accessibility "Accessibility")
 * [Volunteers](https://ncc-ccn.gc.ca/volunteers "Volunteers")
@@ -261,7 +281,7 @@ As a Crown corporation, we must comply with the following:
 * [Careers](https://ncc-ccn.gc.ca/careers "Careers")
 * [Sign up for newsletters](https://ncc-ccn.gc.ca/sign-up-for-our-newsletter "Sign up for newsletters")
 
-![Crown of Leaves](/img/crown-of-leaves.png)
+![Crown of Leaves](/img/crown-of-leaves.webp)
 
 National Capital Commission
 
@@ -273,7 +293,7 @@ National Capital Commission
 * [Youtube](https://www.youtube.com/user/nccvidccn)
 * [Podcast](/podcast)
 
-![Canada](/img/Canada.png)
+![Canada](/img/Canada.webp)
 
 * [Important notices and disclaimers](https://ncc-ccn.gc.ca/important-notices-and-disclaimers "Important notices and disclaimers")
 * [Regulations](https://ncc-ccn.gc.ca/regulations "Regulations")

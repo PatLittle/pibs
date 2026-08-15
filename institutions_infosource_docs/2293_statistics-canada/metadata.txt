@@ -1,5 +1,6 @@
 institution_name_en: Statistics Canada
 institution_name_fr: Statistique Canada
 gc_orgID: 2293
-infosource_url_en: https://www.statcan.gc.ca/eng/public/ipih/index
-infosource_url_fr: https://www.statcan.gc.ca/fra/publique/rpfr/index
+infosource_url_en: https://www.statcan.gc.ca/en/about/transparency/publications-information-holdings/info-source
+infosource_url_fr: https://www.statcan.gc.ca/fr/a-propos/transparence/publications-fonds-renseigments/info-source
+audit_timestamp_utc: 2026-08-15T08:18:47.278630+00:00

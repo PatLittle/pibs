@@ -1,0 +1,6 @@
+institution_name_en: Canada Post
+institution_name_fr: Postes Canada
+gc_orgID: 3651
+infosource_url_en: https://www.canadapost-postescanada.ca/cpc/en/our-company/transparency-and-trust/access-to-information.page
+infosource_url_fr: https://www.canadapost-postescanada.ca/scp/fr/notre-entreprise/transparence-et-confiance/centre-de-protection-de-la-vie-privee/info-source.page
+audit_timestamp_utc: 2026-08-15T08:18:54.317867+00:00

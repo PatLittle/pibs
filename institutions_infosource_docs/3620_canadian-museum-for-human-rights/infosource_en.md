@@ -6,9 +6,9 @@
 
 ## Special announcement.
 
-New exhibit "Broken Promises" now open.
+Palestine Uprooted: Nakba Past and Present now open
 
-[Learn more Broken Promises exhibition Learn more](https://humanrights.ca/exhibition/broken-promises)
+[Learn more Palestine Uprooted: Nakba Past and Present Learn more](https://humanrights.ca/exhibition/palestine-uprooted-nakba-past-and-present)
 
 ## Home
 
@@ -30,7 +30,7 @@ New exhibit "Broken Promises" now open.
 
 * [Visit](https://humanrights.ca/visit)
 
-  ![](/sites/prod/files/styles/crop%5Bwidth%5D%3D768%26crop%5Bheight%5D%3D768%26crop%5Bfp%5D%3D0.7%2C0.37%26convert%5Bextension%5D%3Djpeg/public/2021-05/Exterior-Museum-cropped%20copy.jpg?itok=tErbFGOI)
+  ![](/sites/prod/files/styles/crop%5Bwidth%5D%3D320%26crop%5Bar%5D%3D1d1%26crop%5Bfp%5D%3D70x37%26convert%5Bformat%5D%3Dwebp%26convert%5Bextension%5D%3Dwebp/public/2021-05/Exterior-Museum-cropped%20copy.jpg?itok=Pv746azA)
 
   ### Visit
 
@@ -45,11 +45,11 @@ New exhibit "Broken Promises" now open.
   + [Accessibility](https://humanrights.ca/visit/accessibility)
   + [Event Rentals](https://humanrights.ca/visit/event-rentals-winnipeg)
   + [Reference Centre](https://humanrights.ca/visit/reference-centre)
-  + [Resource Guides](https://humanrights.ca/education/resource-guides)
   + [Explore from Home](https://humanrights.ca/visit/explore-museum-home)
+  + [Resource Guides](https://humanrights.ca/education/resource-guides)
 * [Exhibitions and Events](https://humanrights.ca/exhibitions-and-events)
 
-  ![](/sites/prod/files/styles/crop%5Bwidth%5D%3D768%26crop%5Bheight%5D%3D768%26crop%5Bfp%5D%3D0.49%2C0.7%26convert%5Bextension%5D%3Djpeg/public/2018-03/indigenous-perspectives_16219803247_o_Edit.jpg?itok=Trp_gTlt)
+  ![](/sites/prod/files/styles/crop%5Bwidth%5D%3D320%26crop%5Bar%5D%3D1d1%26crop%5Bfp%5D%3D49x70%26convert%5Bformat%5D%3Dwebp%26convert%5Bextension%5D%3Dwebp/public/2018-03/indigenous-perspectives_16219803247_o_Edit.jpg?itok=UV9akIZc)
 
   ### Exhibitions and Events
 
@@ -66,7 +66,7 @@ New exhibit "Broken Promises" now open.
   + [Community Corridor](https://humanrights.ca/event-series/community-corridor)
 * [Stories](https://humanrights.ca/stories)
 
-  ![](/sites/prod/files/styles/crop%5Bwidth%5D%3D768%26crop%5Bheight%5D%3D768%26convert%5Bextension%5D%3Djpeg/public/2020-10/stories-image-cropped.jpg?itok=G7PzjZPd)
+  ![](/sites/prod/files/styles/crop%5Bwidth%5D%3D320%26crop%5Bar%5D%3D1d1%26convert%5Bformat%5D%3Dwebp%26convert%5Bextension%5D%3Dwebp/public/2020-10/stories-image-cropped.jpg?itok=SmFoLXAq)
 
   ### Stories
 
@@ -75,22 +75,19 @@ New exhibit "Broken Promises" now open.
   + [Share Your Story](https://humanrights.ca/share-your-story)
 * [Education](https://humanrights.ca/education)
 
-  ![](/sites/prod/files/styles/crop%5Bwidth%5D%3D768%26crop%5Bheight%5D%3D768%26crop%5Bfp%5D%3D0.5%2C0.5%26convert%5Bextension%5D%3Djpeg/public/2021-05/ramps-cropped.jpg?itok=Q8-gbxtT)
+  ![](/sites/prod/files/styles/crop%5Bwidth%5D%3D320%26crop%5Bar%5D%3D1d1%26crop%5Bfp%5D%3D50x50%26convert%5Bformat%5D%3Dwebp%26convert%5Bextension%5D%3Dwebp/public/2021-05/ramps-cropped.jpg?itok=avlYWcgq)
 
   ### Education
 
   + [Overview](https://humanrights.ca/education)
   + [Book Your School](https://humanrights.ca/education/book-your-school)
   + [School Programs](https://humanrights.ca/education/school-programs)
-  + [Teaching Resources](https://humanrights.ca/education-resources)
   + [Be an Upstander](https://humanrights.ca/be-an-upstander)
-  + [Love in Dangerous Time: Teacher Guide](https://humanrights.ca/love-dangerous-time-teacher-guide)
-  + [Pass the Mic: Let’s Talk About Racism](https://humanrights.ca/story/pass-mic-lets-talk-about-racism)
   + [Discover the Witness Blanket](https://witnessblanket.ca/)
-  + [The Spirit Panel Project](https://spiritpanels.humanrights.ca/)
+  + [Teaching Resources](https://humanrights.ca/teaching-resources)
 * [About](https://humanrights.ca/about-us)
 
-  ![](/sites/prod/files/styles/crop%5Bwidth%5D%3D768%26crop%5Bheight%5D%3D768%26crop%5Bfp%5D%3D0.5%2C0.5%26convert%5Bextension%5D%3Djpeg/public/2021-05/Glass-cloud-cropped.jpg?itok=sJ04iXsY)
+  ![](/sites/prod/files/styles/crop%5Bwidth%5D%3D320%26crop%5Bar%5D%3D1d1%26crop%5Bfp%5D%3D50x50%26convert%5Bformat%5D%3Dwebp%26convert%5Bextension%5D%3Dwebp/public/2021-05/Glass-cloud-cropped.jpg?itok=k8Awl7QQ)
 
   ### About
 
@@ -394,8 +391,6 @@ Sign up
 * [Legal](https://humanrights.ca/legal-notice)
 * [Code of conduct](https://humanrights.ca/code-conduct)
 * [Accessibility](https://humanrights.ca/visit/accessibility#section_5)
-
-![Symbol of the Government of Canada](/themes/custom/cmhr/components/images/canada-wordmark.svg)
 
 ©2026 Canadian Museum for Human Rights
 

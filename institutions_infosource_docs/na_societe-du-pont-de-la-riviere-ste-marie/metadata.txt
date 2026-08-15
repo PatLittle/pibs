@@ -1,0 +1,6 @@
+institution_name_en: 
+institution_name_fr: Société du pont de la rivière Ste Marie
+gc_orgID: na
+infosource_url_en: https://federalbridge.ca/sources/smrbc/
+infosource_url_fr: https://www.pontsfederaux.ca/sources/smrbc/
+audit_timestamp_utc: 2026-08-15T08:19:08.643936+00:00

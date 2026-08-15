@@ -2,6 +2,7 @@
 """Build a bilingual Info Source institutions dataset with gcOrgID and URL status codes."""
 
 import difflib
+import io
 import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date
@@ -26,6 +27,10 @@ URL_FR = (
 )
 CKAN_DATASTORE_API = "https://open.canada.ca/data/api/3/action/datastore_search"
 CKAN_RESOURCE_ID = "3faaafb4-00e2-4303-947d-ac786b62559f"
+ORG_INFO_URL = (
+    "https://open.canada.ca/data/dataset/57180b36-3428-4a7f-afe3-2161a6b44ec5/"
+    "resource/cb5b5566-f599-4d12-abae-8279a0230928/download/gc_org_info.csv"
+)
 
 OUT_CSV = "infosource_institutions_en_fr.csv"
 OUT_XLSX = "infosource_institutions_en_fr.xlsx"
@@ -244,6 +249,24 @@ def fetch_ckan_records() -> pd.DataFrame:
     df = pd.DataFrame(records)
     df["gc_orgID"] = pd.to_numeric(df["gc_orgID"], errors="coerce").astype("Int64")
     return df
+
+
+def fetch_org_statuses() -> Dict[int, str]:
+    response = requests.get(ORG_INFO_URL, headers=HEADERS, timeout=60)
+    response.raise_for_status()
+    status_df = pd.read_csv(io.BytesIO(response.content), encoding="utf-8-sig")
+    required = {"gc_orgID", "status_statut"}
+    if not required.issubset(status_df.columns):
+        raise RuntimeError(f"Organization Information CSV is missing columns: {required - set(status_df.columns)}")
+    status_df["gc_orgID"] = pd.to_numeric(status_df["gc_orgID"], errors="coerce").astype("Int64")
+    status_df = status_df.dropna(subset=["gc_orgID"]).drop_duplicates(subset=["gc_orgID"], keep="first")
+    statuses = {}
+    for _, row in status_df.iterrows():
+        if pd.isna(row["gc_orgID"]):
+            continue
+        status = row.get("status_statut", "")
+        statuses[int(row["gc_orgID"])] = "" if pd.isna(status) else clean_space(str(status)).lower()
+    return statuses
 
 
 def build_name_indexes(
@@ -773,6 +796,11 @@ def main():
     )
     merged["gc_orgID"] = pd.to_numeric(merged["gc_orgID"], errors="coerce").astype("Int64")
 
+    org_statuses = fetch_org_statuses()
+    merged["status_statut"] = merged["gc_orgID"].map(
+        lambda value: org_statuses.get(int(value), "") if pd.notna(value) else ""
+    )
+
     pib_counts = load_pib_counts(COMBINED_PIB_CSV)
     merged["pib_count"] = merged["gc_orgID"].map(
         lambda value: pib_counts.get(str(int(value)), 0) if pd.notna(value) else pd.NA
@@ -786,6 +814,7 @@ def main():
         "pib_count",
         "date_captured",
         "date_removed",
+        "status_statut",
         "gc_orgID_conflict",
         "harmonized_name",
         "nom_harmonise",

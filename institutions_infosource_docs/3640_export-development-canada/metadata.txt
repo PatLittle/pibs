@@ -1,0 +1,6 @@
+institution_name_en: Export Development Canada
+institution_name_fr: Exportation et développement Canada
+gc_orgID: 3640
+infosource_url_en: https://www.edc.ca/en/about-us/corporate/disclosure/info-source.html
+infosource_url_fr: https://www.edc.ca/fr/a-propos-de-nous/entreprise/divulgation/source-info.html
+audit_timestamp_utc: 2026-08-15T08:18:53.218846+00:00

@@ -1,5 +1,6 @@
 institution_name_en: Canada Economic Development for Quebec Regions
 institution_name_fr: Développement économique Canada pour les régions du Québec
 gc_orgID: 2257
-infosource_url_en: http://www.dec-ced.gc.ca/eng/disclosure/info-source/index.html
-infosource_url_fr: http://www.dec-ced.gc.ca/fra/divulgation/info-source/index.html
+infosource_url_en: https://www.canada.ca/en/economic-development-quebec-regions/about/transparency-proactive-disclosure/infosource.html
+infosource_url_fr: https://www.canada.ca/fr/developpement-economique-regions-quebec/a-propos/transparence-divulgations-proactives/infosource.html
+audit_timestamp_utc: 2026-08-15T08:18:44.964965+00:00

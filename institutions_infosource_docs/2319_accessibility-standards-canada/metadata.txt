@@ -1,0 +1,6 @@
+institution_name_en: Accessibility Standards Canada
+institution_name_fr: Normes d’accessibilité Canada
+gc_orgID: 2319
+infosource_url_en: https://accessible.canada.ca/transparency/ATIP/info-source-sources-federal-government-and-employee-information
+infosource_url_fr: https://accessibilite.canada.ca/transparence/AIPRP/info-source-sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux
+audit_timestamp_utc: 2026-08-15T08:18:50.016751+00:00

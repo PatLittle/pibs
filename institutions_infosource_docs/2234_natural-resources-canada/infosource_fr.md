@@ -62,7 +62,7 @@ Lisez les définitions des dispositions qui donnent une brève explication de l'
 
 Découvrez les lois et les politiques portant sur l'accès à l'information.
 
-## [Demandes traitées d'accès à l'information](/organisation/transparence/demandes-traitees-acces-information?_ga=2.150207862.1153332355.1564414668-1758878438.1560362399)
+## [Demandes traitées d'accès à l'information](/organisation/transparence/demandes-traitees-acces-information)
 
 Accédez aux résumés de demandes d'accès à l'information traitées par Ressources naturelles Canada.
 
@@ -77,6 +77,10 @@ Accédez à la liste des rapports annuel de RNCan sur l’application de la *Loi
 ## [Évaluation des facteurs relatifs à la vie privée Application Smarthphone My GreenCar](/organisation/transparence/evaluation-facteurs-relatifs-vie-privee-efvp-application-smartphone-mygreencar)
 
 Cette application aide les Canadiens et Canadiennes à faire des choix d’achat éco- énergétiques lors de l’achat d’une voiture. Ce ÉFVP aide à fournir une évaluation de tout potentiel de compromission d'informations personnelles sensibles.
+
+## [Évaluations des facteurs relatifs à la vie privée (EFVP)](/organisation/transparence/evaluations-facteurs-relatifs-vie-privee-efvp)
+
+Les résumés des évaluations des facteurs relatifs à la vie privée réalisées par Ressources naturelles Canada.
 
 ## Renseignez-vous sur le gouvernement ouvert
 
@@ -93,7 +97,7 @@ Obtenez de l'information sur les services du gouvernement du Canada ou consultez
 Participez à des conversations, trouvez des données numériques et apprenez-en davantage sur le gouvernement ouvert.
 
 Date de modification :
-:   2025-01-14
+:   2026-05-15
 
 ## About this site
 
@@ -129,6 +133,7 @@ Date de modification :
 * [Autochtones](https://www.canada.ca/fr/services/autochtones.html "Autochtones section.")
 * [Vétérans et militaires](https://www.canada.ca/fr/services/veterans.html "Vétérans et militaires section.")
 * [Jeunesse](https://www.canada.ca/fr/services/jeunesse.html "Jeunesse section.")
+* [Gérer les événements de la vie](https://www.canada.ca/fr/services/evenements-vie.html)
 
 ### Organisation du gouvernement du Canada
 

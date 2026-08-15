@@ -309,11 +309,11 @@ Cette forme d’information personnelle n’est normalement récupérable que si
 
 Le gouvernement du Canada encourage la publication d’information par l’intermédiaire de demandes informelles. Vous pouvez consulter les [sommaires](https://porttr.com/communications-medias/acces-a-l-information) des demandes d’accès à l’information  complétés en matière d’accès à l’information. Pour présenter une demande informelle, veuillez communiquer avec la personne suivante :
 
-Me Jean Mongeau
-Secrétaire corporatif
+Me Marie-Lise Gaudet
+Directrice – Ententes, Partenariats et Affaires Juridiques
 1545, rue du Fleuve
 Trois-Rivières, QC G9A 6K4
-Courriel : [[email protected]](/cdn-cgi/l/email-protection#5f3e3b3200383a311f2f302d2b2b2d713c3032)
+Courriel : [[email protected]](/cdn-cgi/l/email-protection#3051545d6f57555e70405f424444421e535f5d)
 
 Veuillez consulter la [présentation](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source.html) de cette publication pour obtenir des renseignements sur les procédures d’accès à l’information aux termes de la *Loi sur l’accès à l’information*et de la *Loi sur la protection des renseignements personnels*. Voici comment présenter une demande officielle :
 
@@ -333,7 +333,7 @@ Trois-Rivières, Québec
 [1545, rue du Fleuve](https://www.google.com/maps/place/1545%2BRue%2Bdu%2BFleuve%2C%2BTrois-Rivi%C3%A8res%2C%2BQC%2BG9A%2B2J2/%4046.3404978%2C-72.5415835%2C17z/data%3D%213m1%214b1%214m5%213m4%211s0x4cc7c606eda54453%3A0xa076ab7d06853c02%218m2%213d46.3404941%214d-72.5393948)
 Trois-Rivières (Québec) G9A 6K4
 Téléphone : 819 378-2887
-Courriel : [[email protected]](/cdn-cgi/l/email-protection#9cfdf8f1c3fbf9f2dcecf3eee8e8eeb2fff3f1)
+Courriel : [[email protected]](/cdn-cgi/l/email-protection#5233363f0d35373c12223d202626207c313d3f)
 
 [Politique de confidentialité](/politique-de-confidentialite/)
 

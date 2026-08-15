@@ -58,7 +58,7 @@ Main Menu
 ## [About the PSHCP](https://pshcp.ca/about-the-pshcp/)
 
 * [About the Administration Authority](https://pshcp.ca/about-the-pshcp/about-the-administration-authority/)
-  + [2024 Annual Report](https://pshcp.ca/about-the-pshcp/about-the-administration-authority/annual-report/)
+  + [2025 Annual Report](https://pshcp.ca/about-the-pshcp/about-the-administration-authority/annual-report/)
 * [Partners Committee](https://pshcp.ca/about-the-pshcp/partners-committee/)
 * [The Plan Administrator](https://pshcp.ca/about-the-pshcp/the-plan-administrator/)
 * [Access to Information and Privacy](https://pshcp.ca/about-the-pshcp/atip/)

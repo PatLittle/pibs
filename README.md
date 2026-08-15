@@ -18,11 +18,12 @@ from the bank code. Codes outside the six Annex B families are left unclassified
 ```mermaid
 pie showData
     title Institution-specific PIBs by type
-    "Public Bank" : 414
-    "Particular Bank" : 76
+    "Public Bank" : 543
+    "Particular Bank" : 81
     "Central Bank" : 51
-    "Public Central Bank" : 10
-    "Unclassified or legacy code" : 28
+    "Public Central Bank" : 11
+    "Public Standard Bank" : 1
+    "Unclassified or legacy code" : 34
 ```
 
 ### Standard PIBs by type
@@ -38,11 +39,15 @@ pie showData
 ## Institution change tracking
 
 Run `python infosource_institutions_en_fr.py` to refresh the bilingual institution list.
+Run `python audit_zero_pib_infosource_urls.py` to audit every institution with a zero or
+empty PIB count, follow redirects, recover missing language links, build eligible bilingual
+Markdown corpora and PIB tables, and write `infosource_zero_pib_url_report.json`.
 The process preserves organizations that disappear from the public list and maintains:
 
 - `pib_count`: number of rows for the organization in `pib_table_en_fr_all.csv`
 - `date_captured`: first date the organization was captured (`2026-03-11` for the baseline data)
 - `date_removed`: first refresh date on which the list entry was absent from both language lists
+- `status_statut`: organization status from the Open Government Organization Information resource
 
 Exact historical institution-name matches are reused when a current list entry does not resolve
 through CKAN, which prevents English and French entries from being split during later refreshes.

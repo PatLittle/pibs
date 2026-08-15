@@ -1,0 +1,6 @@
+institution_name_en: Federal Economic Development Agency for Northern Ontario
+institution_name_fr: Agence fédérale de développement économique pour le Nord de l’Ontario
+gc_orgID: 2299
+infosource_url_en: https://fednor.canada.ca/en/transparency/info-source-2025
+infosource_url_fr: https://fednor.canada.ca/fr/transparence/info-source-2025
+audit_timestamp_utc: 2026-08-15T08:18:47.839303+00:00

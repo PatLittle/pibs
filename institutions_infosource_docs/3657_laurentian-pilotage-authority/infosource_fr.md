@@ -8,27 +8,29 @@
 
 en
 
-# Un maillon fort d'une chaîne logistique vitale
+# Au cœur d'une chaîne logistique vitale
 
-La société d'État fédérale qui fournit les services de pilotage sur le Saint-Laurent et la Saguenay
+La société d'État fédérale qui offre les services de pilotage sur le fleuve Saint-Laurent et la rivière Saguenay
 
-[En savoir plus En savoir plus](/a-propos)
+[Vidéo corporativeVidéo corporative](/#decouvrez-notre-video-corporative)
+
+## Vidéo corporate St-Laurent
 
 ![Vue aérienne d’un grand navire de charge bleu et rouge naviguant sur le fleuve Saint-Laurent. Le bateau avance calmement sur une vaste étendue d’eau bleue sous un ciel clair, illustrant la navigation commerciale encadrée par le Pilotage St-Laurent.](https://images.prismic.io/pilotage-st-laurent-dev/aO3mhJ5xUNkB16sC_video-cover.jpg?auto=format%2Ccompress&q=70)
 
-Nous sommes une société d'État fédérale créée en 1972 sous le nom d’*Administration de pilotage des Laurentides*, en vertu de la *Loi sur le pilotage*. Pilotage St-Laurent est le nom d’usage adopté en 2026.
+Nous sommes une société d'État fédérale créée en 1972 sous le nom d’*Administration de pilotage des Laurentides*, en vertu de la *Loi sur le pilotage*. Administration Pilotage Saint-Laurent est le nom d’usage adopté en 2026.
 
 Nous sommes chargés d’offrir des services de pilotage maritime dans les eaux du fleuve Saint-Laurent, de son golfe et de la rivière Saguenay.
 
 ![](https://images.prismic.io/pilotage-st-laurent-dev/aUBcsXNYClf9oO3Q_aOqA755xUNkB12Pp_transbordement.avif?auto=format%2Ccompress&q=70)
 
-Nous gérons une zone de pilotage obligatoire divisée en trois circonscriptions couvrant une superficie de plus 265 milles nautiques entre Montréal et Les Escoumins, et de 70 milles nautiques sur la rivière Saguenay.
+Nous gérons une zone de pilotage obligatoire divisée en trois circonscriptions couvrant une distance de plus de 265 milles nautiques entre Montréal et Les Escoumins, et de 70 milles nautiques sur la rivière Saguenay.
 
 Nous nous appuyons sur plus de 200 pilotes et apprentis pilotes contractuels qui montent à bord des navires pour en assurer la conduite et maintenir une navigation sécuritaire sur les eaux difficiles du Saint-Laurent. Ces experts en navigation locale sont regroupés en deux corporations qui nous sont liées par des contrats de service.
 
 [À propos de PSLÀ propos de PSL](/a-propos)
 
-![](https://images.prismic.io/pilotage-st-laurent-dev/aasDAFxvIZEnjbGh_CarteAPLsans%C3%A9criture_courte_avSaguenay.jpg?auto=format%2Ccompress&q=70)
+![](https://images.prismic.io/pilotage-st-laurent-dev/afOZX8BOoF08xhD6_Map_PSL_revised_30-04-2026.jpg?auto=format%2Ccompress&q=70)
 
 ## Demande de pilotage
 
@@ -52,17 +54,11 @@ Année 2025
 
 6977
 
-Voyages effectués
-
-![](https://images.prismic.io/pilotage-st-laurent-dev/aXFXJQIvOtkhByn4_Icon-2.png?auto=format%2Ccompress&q=70)
-
-16767
-
-Missions de pilotage
+Voyages effectués sous la conduite d'un pilote breveté
 
 ![](https://images.prismic.io/pilotage-st-laurent-dev/aXFXJgIvOtkhByn5_Icons-3.png?auto=format%2Ccompress&q=70)
 
-22460
+22260
 
 Affectations de pilotes
 
@@ -74,33 +70,29 @@ Transbordements de pilotes aux Escoumins
 
 ## Communications
 
-[10 décembre 202510 déc. 2025
+[1 juillet 20261 juill. 2026
 
-Nouvelles
+### Départ à la retraite du Premier dirigeant, Marc-Yves Bertin
 
-### Avis de recrutement d'apprentis pilotes - Printemps 2026
+Lire la communicationLire la communication](https://pilotage-st-laurent-dev.cdn.prismic.io/pilotage-st-laurent-dev/rV5JTdLeCgChXe1u_PSL-D%C3%A9partdeMarc-YvesBertin_Fr.pdf)
 
-Lire la communicationLire la communication](https://www.pilotagestlaurent.gc.ca/files/pdf/Avis_de_recrutement_d_apprentis_pilotes_janvier_2026_circonscription_1_2_et_1_1.pdf)
+[15 mai 202615 mai 2026
 
-[29 octobre 202529 oct. 2025
+### Invitation à notre assemblée publique annuelle
 
-Nouvelles
+Lire la communicationLire la communication](https://pilotage-st-laurent-dev.cdn.prismic.io/pilotage-st-laurent-dev/agX376YofJOwHQOr_PSL-InvitationAPA2026_Fr.pdf)
 
-### Avis de révision des redevances de pilotage - 2026
+[14 mai 202614 mai 2026
 
-Lire la communicationLire la communication](https://www.pilotagestlaurent.gc.ca/files/pdf/Avis_de_revision_des_redevances_de_pilotage_-_2026.pdf)
+### Mise en vente du simulateur de navigation maritime
 
-[18 juin 202518 juin 2025
-
-Nouvelles
-
-### Avis de test de connaissances générales - 2025-2026
-
-Lire la communicationLire la communication](https://www.pilotagestlaurent.gc.ca/files/pdf/Avis_test_de_connaissances_generales_2025-2026-fill.pdf)
+Lire la communicationLire la communication](https://pilotage-st-laurent-dev.cdn.prismic.io/pilotage-st-laurent-dev/agSoIKYofJOwHOT9_PSL_SLP-Miseenventedusimulateurmaritime_MarineSimulatorforSale-2026.pdf)
 
 [Voir toutes les communicationsVoir toutes les communications](/communications)
 
 ![](https://images.prismic.io/pilotage-st-laurent-dev/aQuxebpReVYa4GtE_Bateaupilotes-glace-6_5310_f.jpg?auto=format%2Ccompress&q=70)
+
+## Découvrez notre vidéo corporative
 
 ![](https://images.prismic.io/pilotage-st-laurent-dev/aThbI3NYClf9n-yb_08_BP_034.jpg?auto=format%2Ccompress&q=70)
 
@@ -112,19 +104,13 @@ Consultez le cadre réglementaire et les structures de redevances de pilotage qu
 
 [En savoir plusEn savoir plus](/lois-reglements-et-redevances)
 
-![Trois employées du Pilotage St-Laurent collaborent autour d’un ordinateur portable dans une salle de réunion. L’une prend des notes, une autre observe l’écran attentivement, et la troisième sourit, créant une ambiance de travail concentrée et conviviale.](https://images.prismic.io/pilotage-st-laurent-dev/aMgVsmGNHVfTPPfB_reglements.jpg?auto=format%2Ccompress&q=70)
+![Trois employées de Pilotage St-Laurent collaborent autour d’un ordinateur portable dans une salle de réunion. L’une prend des notes, une autre observe l’écran attentivement, et la troisième sourit, créant une ambiance de travail conviviale.](https://images.prismic.io/pilotage-st-laurent-dev/aMgVsmGNHVfTPPfB_reglements.jpg?auto=format%2Ccompress&q=70)
 
 ## Carrières et contact
 
-Joignez-vous à notre équipe ou contactez-nous pour en savoir plus sur les opportunités de carrière au sein de PSL, sur le processus de recrutement d’apprentis pilotes et sur l’obtention d’un certificat de pilotage.
+Joignez-vous à notre équipe ou contactez-nous pour en savoir plus sur les opportunités de carrière au sein de notre administration, sur le processus de recrutement d’apprentis pilotes et sur l’obtention d’un certificat de pilotage.
 
 [Contactez-nousContactez-nous](/carrieres-et-contact)
-
-## Postes disponibles
-
-[Capitaine de navette - Montréal](https://www.linkedin.com/jobs/view/4382117805/)[Répartiteur - Montréal](https://www.pilotagestlaurent.gc.ca/files/pdf/Avis_de_recrutement_2025/APL%20-%20R%C3%A9partiteur%202025%20pour%20app.pdf)[Mécanicien - Les Escoumins](https://www.pilotagestlaurent.gc.ca/files/pdf/Avis_de_recrutement_2025/APL%20-%20M%C3%A9canicien%202025%20pour%20app.pdf)
-
-[Voir tous les postes disponiblesVoir tous les postes disponibles](/carrieres-et-contact#emplois-disponibles)
 
 ## Abonnez-vous
 
@@ -138,7 +124,7 @@ Recevez nos avis et communiqués grâce à notre service d'abonnement par courri
 
 [999 boul. De Maisonneuve Ouest, Bureau 1410, Montréal, QC, Canada, H3A 3L4](https://maps.app.goo.gl/yqmMCVY6D3HQ7v2n9)
 
-[![Certifié Alliance Verte](https://images.prismic.io/pilotage-st-laurent-dev/aaVws8FoBIGEg-eP_certifie_blanc_fr.png?auto=format%2Ccompress&q=70)](https://allianceverte.org/membres/participants/administration-de-pilotage-des-laurentides)
+[![Certifié Alliance Verte](https://images.prismic.io/pilotage-st-laurent-dev/aaVws8FoBIGEg-eP_certifie_blanc_fr.png?auto=format%2Ccompress&q=70)](https://allianceverte.org/membres/participants/pilotage-saint-laurent)
 
 [À propos](/a-propos)
 

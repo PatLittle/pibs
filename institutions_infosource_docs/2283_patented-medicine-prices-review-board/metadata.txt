@@ -1,5 +1,6 @@
 institution_name_en: Patented Medicine Prices Review Board
 institution_name_fr: Conseil d’examen du prix des médicaments brevetés
 gc_orgID: 2283
-infosource_url_en: http://www.pmprb-cepmb.gc.ca/en/view.asp?ccid=1093
+infosource_url_en: http://www.pmprb-cepmb.gc.ca/view.asp?ccid=1093
 infosource_url_fr: http://www.pmprb-cepmb.gc.ca/view.asp?ccid=1093
+audit_timestamp_utc: 2026-08-15T08:18:45.848983+00:00

@@ -54,7 +54,7 @@ Main Menu
 
 ## Sources of Federal Government and Employee Information
 
-## Table of Contents
+## On this page
 
 [Introduction to Info Source](#ntodctn)
 
@@ -96,11 +96,6 @@ Main Menu
 * [Travel and Other Administrative Services](#trvlndthrdmnstrtvsrvcs)
 * [Legend](#lgnd)
 
-[Contracts, Agreements, and Arrangements](#CAA)
-
-* [Contracts](#contracts) (under development)
-* [Information sharing arrangements and agreements](#isaa)
-
 [CRA Manuals](#crmnls)
 
 [Additional Information](#ddtnlnfrmtn)
@@ -111,25 +106,25 @@ Main Menu
 
 ## Introduction to Info Source
 
-Info Source describes the programs and activities, and the information holdings related to programs and activities, of government institutions subject to the [Access to Information Act](http://laws-lois.justice.gc.ca/eng/acts/A-1/) to facilitate the right of access. It also provides individuals, including current and former employees of the Government of Canada, with relevant information to access personal information about themselves held by government institutions subject to the [Privacy Act](https://laws-lois.justice.gc.ca/ENG/ACTS/P-21/index.html) and to exercise their rights under the Privacy Act.
+Info Source describes the programs and activities, and the information holdings related to programs and activities, of government institutions subject to the [*Access to Information Act*](http://laws-lois.justice.gc.ca/eng/acts/A-1/) to facilitate the right of access. It also provides individuals, including current and former employees of the Government of Canada, with relevant information to access personal information about themselves held by government institutions subject to the [*Privacy Act*](https://laws-lois.justice.gc.ca/ENG/ACTS/P-21/index.html) and to exercise their rights under the *Privacy Act*.
 
-An [index of institutions](/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/list-institutions.html) that are subject to the Access to Information Act and the Privacy Act is available centrally.
+An [index of institutions](/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/list-institutions.html) that are subject to the *Access to Information Act* and the *Privacy Act* is available centrally.
 
-The Access to Information Act and the Privacy Act assign overall responsibility to the President of Treasury Board (as the designated Minister) for the government-wide administration of the legislation.
+The *Access to Information Act* and the *Privacy Act* assign overall responsibility to the President of Treasury Board (as the designated Minister) for the government-wide administration of the legislation.
 
 ## General Information
 
 ### Background
 
-In 1927, the Department of National Revenue Act established the Department of National Revenue by renaming the Department of Customs and Excise. The Department was responsible for assessing and collecting duty and tax, monitoring the movement of people and goods across the Canadian border, and protecting Canadian industries from foreign competition.
+In 1927, the *Department of National Revenue Act* established the Department of National Revenue by renaming the Department of Customs and Excise. The Department was responsible for assessing and collecting duty and tax, monitoring the movement of people and goods across the Canadian border, and protecting Canadian industries from foreign competition.
 
 The same act created a second department to collect income tax, a responsibility that a commissioner from the Department of Finance had been meeting. Both departments had the same minister, but each had its own departmental organization and deputy minister.
 
-On April 29, 1999, Parliament passed the Canada Customs and Revenue Agency Act, which established the Canada Customs and Revenue Agency (now the Canada Revenue Agency). The change in status from department to agency, which took place on November 1, 1999, has helped build a modern organization that is committed to leadership, innovation, and client service.
+On April 29, 1999, Parliament passed the *Canada Customs and Revenue Agency Act*, which established the Canada Customs and Revenue Agency (now the Canada Revenue Agency). The change in status from department to agency, which took place on November 1, 1999, has helped build a modern organization that is committed to leadership, innovation, and client service.
 
-On December 12, 2003 the government announced the creation of the Canada Border Services Agency (CBSA), which is responsible for Canada's customs operations. Two years later, on December 12, 2005, legislation came into effect to legally change our name to Canada Revenue Agency (CRA).
+On December 12, 2003 the government announced the creation of the Canada Border Services Agency (CBSA), which is responsible for Canada's customs operations. Two years later, on December 12, 2005, legislation came into effect to legally change our name to Canada Revenue Agency (CRA).
 
-The Canada Revenue Agency (CRA) administers [tax legislation and regulations](/en/revenue-agency/programs/about-canada-revenue-agency-cra/acts-regulations.html), such as the [Income Tax Act](http://laws-lois.justice.gc.ca/eng/acts/I-3.3/index.html) and the [Excise Tax Act](http://laws-lois.justice.gc.ca/eng/acts/E-15/index.html), for the Government of Canada and for most provinces and territories. The Agency also administers various social and economic benefit and incentive programs delivered through the tax system. The [Departmental Results Report](/en/revenue-agency/corporate/about-canada-revenue-agency-cra/departmental-performance-reports.html) is the primary document for communicating our results to Canadians and Parliamentarians. The Departmental Results Report provides a comprehensive report on the performance of the CRA for the previous fiscal year, and a discussion of the CRA's achievements against the key targets and indicators set out in our Corporate Business Plan and Report on Plans and Priorities. The Departmental Results Report also contains the audited financial statements.
+The Canada Revenue Agency (CRA) administers [tax legislation and regulations](/en/revenue-agency/programs/about-canada-revenue-agency-cra/acts-regulations.html), such as the [*Income Tax Act*](http://laws-lois.justice.gc.ca/eng/acts/I-3.3/index.html) and the [*Excise Tax Act*](http://laws-lois.justice.gc.ca/eng/acts/E-15/index.html), for the Government of Canada and for most provinces and territories. The Agency also administers various social and economic benefit and incentive programs delivered through the tax system. The [Departmental Results Report](/en/revenue-agency/corporate/about-canada-revenue-agency-cra/departmental-performance-reports.html) is the primary document for communicating our results to Canadians and Parliamentarians. The Departmental Results Report provides a comprehensive report on the performance of the CRA for the previous fiscal year, and a discussion of the CRA's achievements against the key targets and indicators set out in our Corporate Business Plan and Departmental Plan. The Departmental Results Report also contains the audited financial statements.
 
 ### Responsibilities
 
@@ -137,13 +132,11 @@ The Canada Revenue Agency (CRA) is the principal revenue collector in the countr
 
 The Agency was created to: provide better service to Canadians; offer more efficient and more effective delivery of government programs; foster closer relationships with provinces and other levels of government for which the CRA delivers programs; and provide better accountability.
 
-The CRA contributes to two of the Government of Canada’s strategic outcomes: Federal organizations that support all departments and agencies; and Income security and employment for Canadians.
-
-The CRA is [mandated](/en/revenue-agency/corporate/about-canada-revenue-agency-cra/mission-vision-values.html) to administer tax, benefit, and other programs on behalf of the Government of Canada and provincial, territorial, and certain First Nations governments. The CRA exercises its mandate within a framework of complex laws enacted by Parliament, as well as by provincial and territorial legislatures. Our mandate reflects the broad role that we assume in the lives of Canadians.
+The CRA’s [mission](/en/revenue-agency/corporate/about-canada-revenue-agency-cra/mission-vision-values.html) is to administer tax, benefits, and related programs, and ensure compliance on behalf of governments across Canada, thereby contributing to the ongoing economic and social well-being of Canadians. The CRA exercises its mission within a framework of complex laws enacted by Parliament, as well as by provincial and territorial legislatures. Our mission reflects the broad role that we assume in the lives of Canadians.
 
 No other public organization touches the lives of more Canadians on a daily basis than the CRA. Each year, we collect billions of dollars in tax revenue and deliver income-based benefits, credits, and other services that help families and children, low- and moderate-income households, and persons with disabilities. These programs contribute directly to the economic and social well-being of Canadians.
 
-The following two strategic outcomes summarize our contribution to Canadian society: Taxpayers meet their obligations and Canada’s revenue base is protected; and eligible families and individuals receive timely and correct benefit payments. In addition to the administration of income tax and benefit programs, the CRA now administers the harmonized sales tax (HST) for five provinces.
+The following two departmental results summarize our contribution to Canadian society: Taxpayers comply with Canadian tax obligations, the right revenue is secured for Canadians; and Canadians receive their rightful benefits. In addition to the administration of income tax and benefit programs, the CRA now administers the harmonized sales tax (HST) for five provinces.
 
 The CRA also verifies taxpayer income levels in support of a wide variety of federal, provincial, and territorial programs, ranging from student loans to health care initiatives. In addition, we provide other services, such as the Refund Set-Off Program, through which we aid other federal agencies and departments, as well as provincial and territorial governments, in the collection of debts that might otherwise become uncollectible.
 
@@ -182,6 +175,7 @@ We give taxpayers access to accurate and timely information they need to comply 
 * [Administration of GST/HST Returns and Rebates - Class of Record (CRA ABSB 246)](/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/appendix.html#246)
   + [GST/HST Returns and Rebates Program - Personal Information Bank (CRA PPU 241)](/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/info-source-appendix.html#PPU241)
 * [Business Refund Set-off program - Class of Record (CRA ABSB 229)](/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/appendix.html#229)
+  + [Business Refund Set-off program – Personal Information Bank (CRA PPU 221)](/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/info-source-appendix.html#221)
 * [Voluntary Disclosures Program - Class of Record (CRA CPB 264)](/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/appendix.html#264)
   + [Voluntary Disclosures Program - Personal Information Bank (CRA PPU 220)](/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/info-source-appendix.html#PPU220)
 * [Covid-19 Subsidy Initiatives For Business Entities - Class of Record (CRA ABSB 230)](/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/appendix.html#230)
@@ -191,7 +185,7 @@ We give taxpayers access to accurate and timely information they need to comply 
 
 #### Charities
 
-We administer a national program for the regulation of charities and other qualified donees. We are responsible for activities that span the full spectrum of the compliance continuum, including reviewing applications for registration, processing charity returns, and other compliance activities. We also develop educational products/aids, organize information sessions and consultations, and maintain client accounts. We promote compliance with the income tax legislation by informing registered charities and other qualified donees, as well as applicants for those statuses, of their obligations under the law, sharing charity information with the public, detecting and addressing non-compliance using a range of corrective measures, and providing client-centric service. This work safeguards the interests of taxpayer donors and Canadians, and contributes to public trust in the charitable sector and the Canada Revenue Agency.
+We administer a national program for the regulation of charities and other qualified donees. We are responsible for activities that span the full spectrum of the compliance continuum, including reviewing applications for registration, processing charity returns, and other compliance activities. We also develop educational products/aids, organize information sessions and consultations, and maintain client accounts. We promote compliance with income tax legislation by informing registered charities and other qualified donees, as well as applicants for those statuses, of their obligations under the law, sharing charity information with the public, detecting and addressing non-compliance using a range of corrective measures, and providing client-centric service. This work safeguards the interests of taxpayer donors and Canadians, and contributes to public trust in the charitable sector and the Canada Revenue Agency.
 
 * [Charities Program - Class of Record (CRA LPRAB 290)](/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/appendix.html#290)
   + [Charities Program - Personal Information Bank  (CRA PPU 200)](/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/info-source-appendix.html#200)
@@ -200,14 +194,14 @@ We administer a national program for the regulation of charities and other quali
 
 #### Registered Plans
 
-The Registered Plans Directorate (RPD) is part of the Canada Revenue Agency (CRA). The RPD is responsible for registering and monitoring deferred income and savings plans to make sure they comply with the Income Tax Act, Income Tax Regulations and related administrative rules. The RPD gives information and advice to employers, plan administrators, promoters, issuers, their advisors and other tax professionals on the legislation and administrative rules related to deferred income savings plans in order to help them fulfill their tax obligations. Investing in people, education, technology, and responsible enforcement activities allows the RPD to protect the integrity of Canada’s deferred income and savings plan regime and to provide Canadians with knowledge and tools that support compliance with legislative requirements.
+The Registered Plans Directorate (RPD) is part of the Canada Revenue Agency (CRA). The RPD is responsible for registering and monitoring deferred income and savings plans to make sure they comply with the *Income Tax Act*, Income Tax Regulations and related administrative rules. The RPD gives information and advice to employers, plan administrators, promoters, issuers, their advisors and other tax professionals on the legislation and administrative rules related to deferred income savings plans in order to help them fulfill their tax obligations. Investing in people, education, technology, and responsible enforcement activities allows the RPD to protect the integrity of Canada’s deferred income and savings plan regime and to provide Canadians with knowledge and tools that support compliance with legislative requirements.
 
 * [Registered Deferred Income and Savings Plans - Class of Record (CRA LPRAB 117)](/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/appendix.html#046)
   + [Registered Deferred Income and Savings Plans - Personal Information Bank (CRA PPU 226)](/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/info-source-appendix.html#226)
 
 #### Policy, Rulings and Interpretations
 
-We offer taxpayers, registrants, and tax intermediaries rulings and interpretations of the acts the Canada Revenue Agency administers, including, but not limited to, the Income Tax Act, Underused Housing Tax Act, Excise Tax Act, Canada Pension Plan and the Employment Insurance Act. In doing so, we give taxpayers certainty by explaining how the law applies to specific situations. The CRA’s Policy, Rulings, and Interpretations Programs analyze all ruling and interpretations through the same lens, regardless of client demographic information. We work closely with the Department of Finance Canada in developing legislative policy, as well as providing legislative policy and administrative services to other Canadian government organizations. We introduce and advance initiatives designed to provide early certainty on tax matters, help prevent errors and, in some cases, reduce the number of individual requests for rulings and interpretations. We also administer legislation related to excise duties and taxes. As a result of this work, taxpayers are more aware of available technical information, better informed of their tax obligations and entitlements, and better able to apply the law correctly.
+We offer taxpayers, registrants, and tax intermediaries rulings and interpretations of the acts the Canada Revenue Agency administers, including, but not limited to, the *Income Tax Act*, *Underused Housing Tax Act*, *Excise Tax Act*, Canada Pension Plan and the *Employment Insurance Act*. In doing so, we give taxpayers certainty by explaining how the law applies to specific situations. The CRA’s Policy, Rulings, and Interpretations Programs analyze all rulings and interpretations through the same lens regardless of client demographic information. We work closely with the Department of Finance Canada in developing legislative policy, as well as providing legislative policy and administrative services to other Canadian government organizations. We introduce and advance initiatives designed to provide early certainty on tax matters, help prevent errors and, in some cases, reduce the number of individual requests for rulings and interpretations. We also administer legislation related to excise duties and taxes. As a result of this work, taxpayers are more aware of available technical information, better informed of their tax obligations and entitlements, and better able to apply the law correctly.
 
 * [Advance Income Tax Rulings and Technical Interpretations - Class of Record (CRA LPRAB 041)](/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/appendix.html#002)
   + [Advance Income Tax Rulings and Technical Interpretations - Personal Information Bank (CRA PPU 090)](/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/info-source-appendix.html#PPU090)
@@ -223,14 +217,14 @@ We offer taxpayers, registrants, and tax intermediaries rulings and interpretati
 
 #### Service Feedback
 
-We offer clients a process to provide feedback, including complaints, suggestions and compliments, and resolve problems about the service, quality, or timeliness of the Canada Revenue Agency’s work, as described under the service rights in the Taxpayer Bill of Rights. The service issues raised by clients provide valuable insight and that feedback in turn helps the CRA identify and implement ongoing service improvements.
+We offer clients a process to provide feedback, including complaints, suggestions and compliments, and resolve problems about the service, quality, or timeliness of the Canada Revenue Agency’s work, as described under the service rights in the Taxpayer Bill of Rights. The service issues raised by clients provide valuable insight and that feedback, in turn helps the CRA identify and implement ongoing service improvements.
 
 * [Service Feedback - Class of Record (CRA SIIB 575)](/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/appendix.html#575)
   + [Service Feedback Program - Personal Information Bank (CRA PPU 571)](/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/info-source-appendix.html#571)
 
 #### Objections and Appeals
 
-We offer a legislated and impartial review process for taxpayers who choose to file a formal dispute relating to assessments or determinations the Canada Revenue Agency made under the Income Tax Act, the Excise Tax Act, Underused Housing Tax Act, Select Luxury Items Tax Act, Air Travelers Security Charge Act, Greenhouse Gas Pollution Pricing Act, Softwood Lumber Products Export Charge Act, the Canada Pension Plan, or the Employment Insurance Act. We also work with the Department of Justice on appeals before the courts. We provide education and assistance to taxpayers to make them aware of their rights to dispute resolution as well as when it is appropriate to register a formal dispute.
+We offer a legislated and impartial review process for taxpayers who choose to file a formal dispute relating to assessments or determinations the Canada Revenue Agency made under the *Income Tax Ac*t, the *Excise Tax Act*, *Underused Housing Tax Act*, *Select Luxury Items Tax Act*, *Air Travelers Security Charge Act*, *Greenhouse Gas Pollution Pricing Act*, *Softwood Lumber Products Export Charge Act*, the Canada Pension Plan, or the *Employment Insurance Act*. We also work with the Department of Justice on appeals before the courts. We provide education and assistance to taxpayers to make them aware of their rights to dispute resolution as well as when it is appropriate to register a formal dispute.
 
 * [Income Tax and Charities Objections and Appeals to the Courts - Class of Record (CRA APP 545)](/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/appendix.html#034)
   + [Income Tax and Charity Objections, and Appeals to the Courts - Personal Information Bank (CRA PPU 172)](/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/info-source-appendix.html#PPU172)
@@ -301,7 +295,7 @@ To ensure that Canadians obtain the support and information they need to know wh
 
 #### Benefits
 
-We deliver a range of ongoing benefits, credits, and one-time payment programs that support the economic and social well-being of Canadians. Through processing activities, we make sure that Canadians receive their rightful benefits in a timely manner. We offer recipients timely and accessible information on their entitlements and obligations through our contact centres, securely online services, and through the Benefits Outreach Program, which helps Canadians become more aware of the benefits they are entitled to and how to receive them. We also support community organizations and volunteers in their efforts to help individuals with modest income file their tax returns through the Community Volunteer Income Tax Program (CVITP).
+We deliver a range of ongoing benefits, credits, and one-time payment programs that support the economic and social well-being of Canadians. Through processing activities, we make sure that Canadians receive their rightful benefits in a timely manner. We offer benefit recipients timely and accessible information on their entitlements and obligations through our contact centres, secure online services, and through the Benefits Outreach Program, which helps Canadians become more aware of the benefits they are entitled to and how to receive them. We also support community organizations and volunteers in their efforts to help individuals with modest income file their tax returns through the Community Volunteer Income Tax Program (CVITP).
 
 * [Benefit Programs - Children's Special Allowances (CSA) Program - Class of Record (CRA ABSB 625)](/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/appendix.html#006)
   + [Children's Special Allowances - Personal Information Bank (CRA PPU 620)](/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/info-source-appendix.html#PPU620)
@@ -495,13 +489,6 @@ Travel and other administrative services include Government of Canada travel ser
 * Standard Classes of Records (CoRs)
 * Standard Personal Information Banks (PIBs)
 
-#### Contracts, Agreements, and Arrangements
-
-Summaries of contracts, information sharing agreements and information sharing arrangements that involve the disclosure of personal information.
-
-* Contracts (under development)
-* [Information sharing arrangements and agreements](/en/revenue-agency/corporate/about-canada-revenue-agency-cra/memorandum-understanding/between-cra-other-organizations/memorandum-understanding-cra-other-organizations.html)
-
 ## CRA Manuals
 
 ### Appeals Branch
@@ -511,61 +498,60 @@ Summaries of contracts, information sharing agreements and information sharing a
 3. @GST/HST-AOhelp
 4. @ITA\_AOhelp
 5. @LOHelp
-6. @TRP-Intakehelp
-7. Appeals Manual
-8. CPP/EI Appeals Procedures Manual
-9. CPP/EI Litigation Manual
-10. Taxpayer Relief Procedures Manual
+6. Appeals Manual
+7. CPP/EI Appeals Procedures Manual
+8. CPP/EI Litigation Manual
+9. Taxpayer Relief Procedures Manual
 
 #### Assessment, Benefit, and Services Branch
 
 1. Amendment System (AS) Manual – 9860
 2. Assessing Procedures Related to the Part XIII.2 Return – 4046.(40)
 3. Authentication and Credential Management Services Helpdesk Manual – 2000
-4. Authentication Management Services – Helpdesk – 2000
-5. Authorizations Procedures
-6. Automated Subsidiary Ledger (ASL) System Functionalities – 5600
-7. Automated Subsidiary Ledger (ASL) System Instructions – 5700
-8. Automated Trust System (ATS) – 4700
-9. Benefit Examination Team (BET) – 6200
-10. Benefits Operations Manual
-11. Benefits Validation Manual – 6300
-12. Business Enquiries Reference Guide
-13. Business Registration Manual
-14. Canada Carbon Rebate for Small Businesses (CCR-B)
-15. Cancellation Examination – 4082
-16. Chat Help Guide
-17. Common User Information – 9910
-18. Community Volunteer Income Tax Program (CVITP) Coordinator’s Manual
-19. Complex SERS Manual
-20. Confidence Validity Guidelines – 4070
-21. Control and Services Manual
+4. Authorizations Procedures
+5. Automated Subsidiary Ledger (ASL) System Functionalities – 5600
+6. Automated Subsidiary Ledger (ASL) System Instructions – 5700
+7. Automated Trust System (ATS) – 4700
+8. Benefit Examination Team (BET) – 6200
+9. Benefits Operations Manual
+10. Benefits Validation Manual – 6300
+11. Business Enquiries Reference Guide
+12. Business Registration Manual
+13. Canada Carbon Rebate for Small Businesses (CCR-B)
+14. Cancellation Examination – 4082
+15. Chat Help Guide
+16. Common User Information – 9910
+17. Community Volunteer Income Tax Program (CVITP) Coordinator’s Manual
+18. Complex SERS Manual
+19. Confidence Validity Guidelines – 4070
+20. Control and Services Manual
+21. Corporation Internet Filing Helpdesk Procedures Manual
 22. CPP Record of earnings Program Procedures Manual – 9890
-23. Corporation Internet Filing Helpdesk Procedures Manual
-24. Discounters – 4032.8
-25. Document Control – 1040
-26. DTC Quality Review Manual
-27. EFILE helpdesk information and resolving problems – 4032.15
-28. EFILE Helpdesks information – 4032.(16)
-29. Electronic Filing for Individual Income Tax and Benefit Returns – 4032
-30. Error Inspection – Error Clues – Electronic Returns – 4092.32
-31. Error Inspection – Error Clues – Paper Returns – 4092.31
-32. Error Inspection – Supplementary Instructions – Paper Returns – 4092.2
-33. Error Inspection – Work Instructions – Electronic Returns – 4092.3
-34. Error inspection - Work Instructions - Paper returns – 4092.1
-35. Error Inspection Control – 4091
-36. Error Inspection Work Instructions – IOTSO – 4092.31NR
-37. Explanation Codes and Messages – 40(10)8
-38. Explanation Codes used on Reassessment – 19(20)0
-39. Family orders and agreements enforcement assistance and refund set-off programs – 3990
-40. First Home Savings Account (FHSA) Program – 19(29)
-41. Form 1261 - Guidelines and Procedures for the Sudbury Tax Centre
-42. Functional Currency (FC) Manual
-43. General Work Instructions for Reassessments – 1910-30
-44. GST/HST Adjustment and Processing Procedures (GAPP) Manual
-45. GST/HST Rebates Processing (GRP) Manual
-46. Helpdesk Manual – 98(12)
-47. Home Buyers' Plan (HBP) Error Correction and Adjustment Instructions – 19(13)0
+23. Discounters – 4032.8
+24. Document Control –1040
+25. DTC Quality Review Manual
+26. EFILE helpdesk information and resolving problems – 4032.15
+27. EFILE Helpdesks information – 4032.(16)
+28. Electronic Filing for Individual Income Tax and Benefit Returns – 4032
+29. Error Inspection – Error Clues – Electronic Returns – 4092.32
+30. Error Inspection – Error Clues – Paper Returns – 4092.31
+31. Error Inspection – Supplementary Instructions – Paper Returns – 4092.2
+32. Error Inspection – Work Instructions – Electronic Returns – 4092.3
+33. Error inspection - Work Instructions - Paper returns – 4092.1
+34. Error Inspection Control – 4091
+35. Error Inspection Work Instructions – IOTSO – 4092.31NR
+36. Explanation Codes and Messages – 40(10)8
+37. Explanation Codes used on Reassessment –19(20)0
+38. Family orders and agreements enforcement assistance and refund set-off programs – 3990
+39. First Home Savings Account (FHSA) Program – 19(29)
+40. Form 1261 - Guidelines and Procedures for the Sudbury Tax Centre
+41. Functional Currency (FC) Manual
+42. General Work Instructions for Reassessments – 1910-30
+43. GST/HST Adjustment and Processing Procedures (GAPP) Manual
+44. GST/HST Rebates Processing (GRP) Manual
+45. Helpdesk Manual – 98(12)
+46. Home Buyers' Plan (HBP) Error Correction and Adjustment Instructions – 19(13)0
+47. IDENT Update – 4086
 48. Individual & Business Correspondence Guide – BE
 49. Individual & Business Correspondence Guide – ITE
 50. Individual Accounting transaction and transcript preparation – 99(19)0
@@ -600,53 +586,53 @@ Summaries of contracts, information sharing agreements and information sharing a
 79. Review Procedures – 1990
 80. Reviewer Instructions – 40(10)(10)
 81. Selection – 4031
-82. Sorting and Numbering – 4400
-83. Special Elections and Returns (SERs) Internet Filing Helpdesk Manual
-84. Special Elections and Returns System (SERS) Control Manual
-85. Special Elections and Returns System (SERS) Data Capture Manual
-86. Special Processing Instructions
-87. Specialized Processing – 4095
-88. Specialized Processing – Error Clue 410 and Error Clue 558 – 4096
-89. Specialty Business Returns Manual
-90. SPG/TCA Control Instructions – 40(10)(11)
+82. Special Elections and Returns (SERs) Internet Filing Helpdesk Manual
+83. Special Elections and Returns System (SERS) Control Manual
+84. Special Elections and Returns System (SERS) Data Capture Manual
+85. Special Processing Instructions – 1980
+86. Specialized Processing – 4095
+87. Specialized Processing – Error Clue 410 and Error Clue 558 – 4096
+88. Specialty Business Returns Manual
+89. SPG/TCA Control Instructions – 40(10)(11)
+90. SPG/TCA Processing for non-residents type return – 4046.(50)
 91. Standardized Accounting (SA) Manual
-92. Standardized Case Management System Reference
+92. Standardized Accounting Case Manual
 93. Statement of Account – 9950
-94. T1 Accounting Error Correction
+94. T1 Accounting Error Correction – 3550
 95. T1 and T3 Legal Manual
 96. T1 Data Capture Keying Instructions – 4320-27
-97. T1 IDENT Update – 4086
-98. T1 keying – Coordinator – 4328-29
-99. T1 Mismatch / suspicious activities – 99(22)
-100. T1 Tax Calculation Procedures – 19(21)0
-101. T1 Taxfiler Representative Identification System
-102. T1/T3 Accounting Activity Types and Internal Targets – 9840
-103. T1/T3 Accounting Related Guidelines – 9970
-104. T10 and T215 Data Capture Processing instructions – 19(26)
-105. T1BEN Case Decision Support System Guide – 9830
-106. T1BEN Tax-Free Savings Account – Supervisor User Guide – 9010
-107. T2 Assessing Manual – Scientific Research And Experimental Development (RS&ED)
-108. T2 Assessing Reference Manual
-109. T2 Direct Data Entry Manual
-110. T3 Assessing – 4200
-111. T3 Cancel Examination – 4810
-112. T3 Control – 4840
-113. T3 Direct Data Entry (DDE) Information – 4820
-114. T3 Error Inspection (EI) – 4870
-115. T3 Explantation Codes – 4890
-116. T3 Ident – 4900
-117. T3 Reassessment Processing (RAP) – 4910
-118. T3 Referrals – 4850
-119. T3 Returns Accounting – 99(18)0
-120. T3 Selection – 4830
-121. T3 Specialized Process Group (SPG) – 4880
-122. T3 SPG/TPC/TCA/RAP Control – 4860
-123. T3 Tax Centre Assessments (TCA) – 4920
-124. T3 Taxfiler Representative Identification System (TRIS)
-125. T3 Taxpayer Contact (TPC) – 4800
-126. T3APP Procedures
-127. T4 ROE Ident Procedures Manual – 98(15)
-128. T5 Manual – 98(16)
+97. T1 keying – Coordinator – 4328-29
+98. T1 Mismatch / suspicious activities – 99(22)
+99. T1 Tax Calculation Procedures – 19(21)0
+100. T1 Taxfiler Representative Identification System
+101. T1/T3 Accounting Activity Types and Internal Targets – 9840
+102. T1/T3 Accounting Related Guidelines – 9970
+103. T10 and T215 Data Capture Processing instructions – 19(26)
+104. T1BEN Case Decision Support System Guide – 9830
+105. T1BEN Tax-Free Savings Account – Supervisor User Guide – 9010
+106. T2 Assessing Manual – Scientific Research And Experimental Development (RS&ED)
+107. T2 Assessing Reference Manual
+108. T2 Direct Data Entry Manual
+109. T3 Assessing – 4200
+110. T3 Cancel Examination – 4810
+111. T3 Control – 4840
+112. T3 Direct Data Entry (DDE) Information – 4820
+113. T3 Error Inspection (EI) – 4870
+114. T3 Explanation Codes – 4890
+115. T3 Ident – 4900
+116. T3 Reassessment Processing (RAP) – 4910
+117. T3 Referrals – 4850
+118. T3 Returns Accounting – 99(18)0
+119. T3 Selection – 4830
+120. T3 Specialized Process Group (SPG) – 4880
+121. T3 SPG/TPC/TCA/RAP Control – 4860
+122. T3 Tax Centre Assessments (TCA) – 4920
+123. T3 Taxfiler Representative Identification System (TRIS)
+124. T3 Taxpayer Contact (TPC) – 4800
+125. T3APP Procedures
+126. T4 ROE Ident Procedures Manual – 98(15)
+127. T5 Manual – 98(16)
+128. Taxation Operations Manual – TOM 43
 129. Taxation Operations Manual – TOM 65
 130. Tax-Free Savings Account Error Correction Program – 9030
 131. Tax-Free Savings Account Error Correction Program – Supervisors User Guide – 9040
@@ -654,179 +640,287 @@ Summaries of contracts, information sharing agreements and information sharing a
 133. Taxpayer Contact (TPC) – 9850
 134. Taxpayer Requested Reassessment Processing Instructions – 1960
 135. TCA Assessing and Specialized Assessing Instructions – 40(10)5-6
-136. TCA Processing for non-residents type return – 4046.(50)
-137. TCA, SLR, and Code 5 RAP Accounting Activities – 99(14)0
-138. Team Leader Procedures – 19(10)
-139. Technical Help Guide
-140. TFSA T1BEN user guide for IITE agents – 9020
-141. The RAPID Communication System – 9510-30
-142. TOM 19(27) Disability Tax Credit Manual
-143. TPR Control – 1940
-144. TRUSTME- T3 Efile Transmission Info System – 4032.3
-145. Underused Housing Tax Electronic Filing Helpdesk Manual
-146. Underused Housing Tax Return and Election Form
-147. Web access code (WAC) maintenance manual – 98(11)
+136. TCA, SLR, and Code 5 RAP Accounting Activities – 99(14)0
+137. Team Leader Procedures – 19(10)
+138. Technical Help Guide
+139. TFSA T1BEN user guide for IITE agents – 9020
+140. The RAPID Communication System – 9510-30
+141. TOM 19(27) Disability Tax Credit Manual
+142. TPR Control – 1940
+143. TRUSTME- T3 Efile Transmission Info System – 4032.3
+144. Underused Housing Tax Electronic Filing Helpdesk Manual
+145. Underused Housing Tax Return and Election Form
+146. Web access code (WAC) maintenance manual – 98(11)
 
 #### Collections and Verification Branch
 
-1. CARP Procedures Guide
-2. CARP Project Specific Instructions
-3. Compliance Operations Manual - GST/HST
-4. Compliance Operations Manual - Other Levies
-5. Compliance Operations Manual - Payroll Compliance
-6. Confidence Validities
-7. Corporation - GST HST Matching Review Guide
-8. Customs program TSO/NVCC collections — Account Closure & Removal
-9. Customs program TSO/NVCC collections — Account intake, preparation and maintenance
-10. Customs program TSO/NVCC collections — Account security (ASEC)
-11. Customs program TSO/NVCC collections — Account summaries
-12. Customs program TSO/NVCC collections — Account transfer and association
-13. Customs program TSO/NVCC collections — Acquisition and disposition
-14. Customs program TSO/NVCC collections — Appeals
-15. Customs program TSO/NVCC collections — Appraisals and valuations
-16. Customs program TSO/NVCC collections — Books and records
-17. Customs program TSO/NVCC collections — Collection limitation period (CLP)
-18. Customs program TSO/NVCC collections — Collection restrictions
-19. Customs program TSO/NVCC collections — Collections contact
-20. Customs program TSO/NVCC collections — Compromise settlements
-21. Customs program TSO/NVCC collections — Confidentiality
-22. Customs program TSO/NVCC collections — Court documents
-23. Customs program TSO/NVCC collections — Credit offsets
-24. Customs program TSO/NVCC collections — Dates of invoices and notices
-25. Customs program TSO/NVCC collections — Deceased taxpayers
-26. Customs program TSO/NVCC collections — Department of Justice (JUS)
-27. Customs program TSO/NVCC collections — Dockets
-28. Customs program TSO/NVCC collections — Fees and charges
-29. Customs program TSO/NVCC collections — Field calls
-30. Customs program TSO/NVCC collections — Garnishment
-31. Customs program TSO/NVCC collections — Insolvency
-32. Customs program TSO/NVCC collections — Issues management
-33. Customs program TSO/NVCC collections — Jeopardy
-34. Customs program TSO/NVCC collections — Legal entities
-35. Customs program TSO/NVCC collections — Letters, notices and statements
-36. Customs program TSO/NVCC collections — Lien at the border
-37. Customs program TSO/NVCC collections — Mail
-38. Customs program TSO/NVCC collections — Memorandum assessments
-39. Customs program TSO/NVCC collections — Naming conventions
-40. Customs program TSO/NVCC collections — Payments
-41. Customs program TSO/NVCC collections — Plan of action (POA)
-42. Customs program TSO/NVCC collections — Request for information
-43. Customs program TSO/NVCC collections — Requirement for information (RFI)
-44. Customs program TSO/NVCC collections — Searches and skip tracing
-45. Customs program TSO/NVCC collections — Securing Debt
-46. Customs program TSO/NVCC collections — Seizure and sale
-47. Customs program TSO/NVCC collections — Source documents and historical printouts
-48. Customs program TSO/NVCC collections — Statutory set-offs
-49. Customs program TSO/NVCC collections — Uncollectible debts
-50. Customs program TSO/NVCC collections — Voluntary deposit
-51. Debt Management Call Centre  Manual — Tax programs - Teletrace
-52. Debt Management Call Centre Manual —  Tax programs - T1
-53. Debt Management Call Centre Manual — Common topics
-54. Debt Management Call Centre Manual — COVID-19 benefits procedures manual
-55. Debt Management Call Centre Manual — Government programs
-56. Debt Management Call Centre Manual — Government programs – Employment insurance - Emergency recovery benefit manual
-57. Debt Management Call Centre Manual — Government programs - Teletrace
-58. Debt Management Call Centre Manual — Tax programs - GST/HST
-59. Debt Management Call Centre Manual — Tax programs - PAYDAC
-60. Debt Management Call Centre Manual — Tax programs - T2
-61. Due Diligence Process
-62. Emergency programs – Individual programs TSO/NVCC collections — Ability to pay
-63. Emergency programs – Individual programs TSO/NVCC collections — Account and inventory management
-64. Emergency programs – Individual programs TSO/NVCC collections — Benefit types
-65. Emergency programs – Individual programs TSO/NVCC collections — Collections contact
-66. Emergency programs – Individual programs TSO/NVCC collections — Confidentiality
-67. Emergency programs – Individual programs TSO/NVCC collections — Deceased individuals
-68. Emergency programs – Individual programs TSO/NVCC collections — Indigenous peoples
-69. Emergency programs – Individual programs TSO/NVCC collections — Insolvency
-70. Emergency programs – Individual programs TSO/NVCC collections — Issues management
-71. Emergency programs – Individual programs TSO/NVCC collections — Letters, notices, and statements
-72. Emergency programs – Individual programs TSO/NVCC collections — Mail
-73. Emergency programs – Individual programs TSO/NVCC collections — Payments
-74. Emergency programs – Individual programs TSO/NVCC collections — Request for information (RFI)
-75. Emergency programs – Individual programs TSO/NVCC collections—  Uncollectible debts
-76. Foreign Source Matching
-77. GST/HST Non-Registrant Operations Manual
-78. GST/HST Registration Review Manual
-79. GST/HST Trust Accounts Examination Manual — 6540
-80. Line 105 Validation guide and procedures
-81. Matching Program
-82. Non-Filer Program Job Aids
-83. Non-Filer Program Topics (NFPT)
-84. Non-Resident Withholding Job Aids
-85. Refund Examination program
-86. RQ Reference Guide
-87. Sole Proprietorship- GST/HST Income Matching review Guide and Procedures
-88. Special Assessment Program
-89. Supplementary Examination Program
-90. T1 Pre-Matching
-91. T1-OVP Compliance
-92. T3 Verification Program Manual
-93. Tax programs TSO/NVCC collections — Centralized workloads and specialized accounts
-94. Tax programs TSO/NVCC collections — Account closure and removal
-95. Tax programs TSO/NVCC collections — Account summaries
-96. Tax programs TSO/NVCC collections — Account transfer and association
-97. Tax programs TSO/NVCC collections — Acquisition and disposition
-98. Tax programs TSO/NVCC collections — Appraisals and valuation
-99. Tax programs TSO/NVCC collections — Assessment dates
-100. Tax programs TSO/NVCC collections — Books and records
-101. Tax programs TSO/NVCC collections — Claims against the Crown
-102. Tax programs TSO/NVCC collections — Collection limitation period (CLP)
-103. Tax programs TSO/NVCC collections — Collections contact
-104. Tax programs TSO/NVCC collections — Collections restrictions
-105. Tax programs TSO/NVCC collections — Compromise settlements
-106. Tax programs TSO/NVCC collections — Confidentiality
-107. Tax programs TSO/NVCC collections — Court documents
-108. Tax programs TSO/NVCC collections — Credit offsets
-109. Tax programs TSO/NVCC collections — Crypto assets
-110. Tax programs TSO/NVCC collections — Deceased taxpayers
-111. Tax programs TSO/NVCC collections — Deemed trust
-112. Tax programs TSO/NVCC collections — Department of Justice (JUS)
-113. Tax programs TSO/NVCC collections — Disputed amounts
-114. Tax programs TSO/NVCC collections — Dockets
-115. Tax programs TSO/NVCC collections — Fees and charges
-116. Tax programs TSO/NVCC collections — Field calls
-117. Tax programs TSO/NVCC collections — Garnishment
-118. Tax programs TSO/NVCC collections — Indigenous peoples collections
-119. Tax programs TSO/NVCC collections — Insolvency
-120. Tax programs TSO/NVCC collections — intake, preparation and maintenance
-121. Tax programs TSO/NVCC collections — Issues management
-122. Tax programs TSO/NVCC collections — Jeopardy
-123. Tax programs TSO/NVCC collections — Legal entities
-124. Tax programs TSO/NVCC collections — Letters, notices and statements
-125. Tax programs TSO/NVCC collections — Mail
-126. Tax programs TSO/NVCC collections — Memorandum assessments
-127. Tax programs TSO/NVCC collections — Naming conventions
-128. Tax programs TSO/NVCC collections — Payments
-129. Tax programs TSO/NVCC collections — Plan of action (POA)
-130. Tax programs TSO/NVCC collections — Referrals
-131. Tax programs TSO/NVCC collections — Refund inhibits
-132. Tax programs TSO/NVCC collections — Refunds and rebates
-133. Tax programs TSO/NVCC collections — Remission
-134. Tax programs TSO/NVCC collections — Request for information
-135. Tax programs TSO/NVCC collections — Requirement for information (RFI)
-136. Tax programs TSO/NVCC collections — Searches and skip tracing
-137. Tax programs TSO/NVCC collections — Securing debt
-138. Tax programs TSO/NVCC collections — Seizure and Sale
-139. Tax programs TSO/NVCC collections — Source documents and historical printouts
-140. Tax programs TSO/NVCC collections — Statutory set-offs
-141. Tax programs TSO/NVCC collections — Tax protesters
-142. Tax programs TSO/NVCC collections — Tax treaty collections
-143. Tax programs TSO/NVCC collections — Uncollectible debts
-144. Tax programs TSO/NVCC collections — Voluntary Deposit
-145. Trust Accounts Examination Manual
-146. Underused Housing Tax Examination Manual
-147. Validation programs
+1. BASCD Case Coordination Procedures – TOM 6400
+2. CARP Procedures Guide – 6160
+3. CARP Project Specific Instructions – 6170
+4. Compliance Operations Manual - Payroll Compliance – TOM 6600
+5. Confidence Validities – 4092.4
+6. Corporation - GST HST Matching Review Guide – 6135
+7. Customs program TSO/NVCC collections — Account closure and removal
+8. Customs program TSO/NVCC collections — Account intake, preparation and maintenance
+9. Customs program TSO/NVCC collections — Account security (ASEC)
+10. Customs program TSO/NVCC collections — Account summaries
+11. Customs program TSO/NVCC collections — Account transfer and association
+12. Customs program TSO/NVCC collections — Acquisition and disposition
+13. Customs program TSO/NVCC collections — Appeals
+14. Customs program TSO/NVCC collections — Appraisals and valuations
+15. Customs program TSO/NVCC collections — Books and records
+16. Customs program TSO/NVCC collections — Collection limitation period (CLP)
+17. Customs program TSO/NVCC collections — Collection restrictions
+18. Customs program TSO/NVCC collections — Collections contact
+19. Customs program TSO/NVCC collections — Compromise settlements
+20. Customs program TSO/NVCC collections — Confidentiality
+21. Customs program TSO/NVCC collections — Court documents
+22. Customs program TSO/NVCC collections — Credit offsets
+23. Customs program TSO/NVCC collections — Dates of invoices and notices
+24. Customs program TSO/NVCC collections — Deceased taxpayers
+25. Customs program TSO/NVCC collections — Department of Justice (JUS)
+26. Customs program TSO/NVCC collections — Dockets
+27. Customs program TSO/NVCC collections — Fees and charges
+28. Customs program TSO/NVCC collections — Field calls
+29. Customs program TSO/NVCC collections — Garnishment
+30. Customs program TSO/NVCC collections — Insolvency
+31. Customs program TSO/NVCC collections — Issues management
+32. Customs program TSO/NVCC collections — Jeopardy
+33. Customs program TSO/NVCC collections — Legal entities
+34. Customs program TSO/NVCC collections — Letters, notices and statements
+35. Customs program TSO/NVCC collections — Lien at the border
+36. Customs program TSO/NVCC collections — Mail
+37. Customs program TSO/NVCC collections — Memorandum assessments
+38. Customs program TSO/NVCC collections — Naming conventions
+39. Customs program TSO/NVCC collections — Payments
+40. Customs program TSO/NVCC collections — Plan of action (POA)
+41. Customs program TSO/NVCC collections — Request for information
+42. Customs program TSO/NVCC collections — Requirement for information (RFI)
+43. Customs program TSO/NVCC collections — Searches and skip tracing
+44. Customs program TSO/NVCC collections — Securing Debt
+45. Customs program TSO/NVCC collections — Seizure and sale
+46. Customs program TSO/NVCC collections — Source documents and historical printouts
+47. Customs program TSO/NVCC collections — Statutory set-offs
+48. Customs program TSO/NVCC collections — Uncollectible debts
+49. Customs program TSO/NVCC collections — Voluntary deposit
+50. Debt Management Call Centre - Tax programs reference guide (TPRG) — Confidentiality
+51. Debt Management Call Centre - Tax programs reference guide (TPRG) — Payments
+52. Debt Management Call Centre - Tax programs reference guide (TPRG) — DMCC contact
+53. Debt Management Call Centre - Tax programs reference guide (TPRG) — Returns
+54. Debt Management Call Centre - Tax programs reference guide (TPRG) — Account maintenance
+55. Debt Management Call Centre - Tax programs reference guide (TPRG) — Referrals
+56. Debt Management Call Centre - Tax programs reference guide (TPRG) — Skeptical taxpayers and fraud
+57. Debt Management Call Centre - Tax programs reference guide (TPRG) — Mail
+58. Debt Management Call Centre - Tax programs reference guide (TPRG) — Support and care
+59. Debt Management Call Centre - Tax programs reference guide (TPRG) — Technology and automation
+60. Debt Management Call Centre Manual - COVID-19 benefits procedures manual
+61. Debt Management Call Centre Manual - Government programs
+62. Debt Management Call Centre Manual - Government programs — Common topics
+63. Debt Management Call Centre Manual - Government programs — Teletrace
+64. Debt Management Call Centre Manual - Tax programs — Teletrace
+65. Due Diligence Process – 97
+66. Emergency programs – Business Subsidies TSO Collections — Account closure and removal
+67. Emergency programs – Business Subsidies TSO Collections — Account intake, preparation and maintenance
+68. Emergency programs – Business Subsidies TSO Collections — Account summaries
+69. Emergency programs – Business Subsidies TSO Collections — Account transfer and association
+70. Emergency programs – Business Subsidies TSO Collections — Acquisition and disposition
+71. Emergency programs – Business Subsidies TSO Collections — Assessment dates
+72. Emergency programs – Business Subsidies TSO Collections — Books and records
+73. Emergency programs – Business Subsidies TSO Collections — Centralized workloads and specialized accounts
+74. Emergency programs – Business Subsidies TSO Collections — Claims against the Crown
+75. Emergency programs – Business Subsidies TSO Collections — Collection limitation period (CLP)
+76. Emergency programs – Business Subsidies TSO Collections — Collections contact
+77. Emergency programs – Business Subsidies TSO Collections — Compromise settlements
+78. Emergency programs – Business Subsidies TSO Collections — Confidentiality
+79. Emergency programs – Business Subsidies TSO Collections — Court documents
+80. Emergency programs – Business Subsidies TSO Collections — Credit offsets
+81. Emergency programs – Business Subsidies TSO Collections — Deceased taxpayers
+82. Emergency programs – Business Subsidies TSO Collections — Disputed amounts
+83. Emergency programs – Business Subsidies TSO Collections — Dockets
+84. Emergency programs – Business Subsidies TSO Collections — Fees and charges
+85. Emergency programs – Business Subsidies TSO Collections — Field calls
+86. Emergency programs – Business Subsidies TSO Collections — Garnishment
+87. Emergency programs – Business Subsidies TSO Collections — Indigenous peoples
+88. Emergency programs – Business Subsidies TSO Collections — Insolvency
+89. Emergency programs – Business Subsidies TSO Collections — Issues management
+90. Emergency programs – Business Subsidies TSO Collections — Jeopardy
+91. Emergency programs – Business Subsidies TSO Collections — Legal entities
+92. Emergency programs – Business Subsidies TSO Collections — Letters, notices, and statements
+93. Emergency programs – Business Subsidies TSO Collections — Mail
+94. Emergency programs – Business Subsidies TSO Collections — Memorandum assessments
+95. Emergency programs – Business Subsidies TSO Collections — Naming conventions
+96. Emergency programs – Business Subsidies TSO Collections — Payments
+97. Emergency programs – Business Subsidies TSO Collections — Plan of action (POA)
+98. Emergency programs – Business Subsidies TSO Collections — Referrals
+99. Emergency programs – Business Subsidies TSO Collections — Refund inhibits
+100. Emergency programs – Business Subsidies TSO Collections — Refunds and rebates
+101. Emergency programs – Business Subsidies TSO Collections — Remission
+102. Emergency programs – Business Subsidies TSO Collections — Request for information
+103. Emergency programs – Business Subsidies TSO Collections — Requirement for information (RFI)
+104. Emergency programs – Business Subsidies TSO Collections — Searches and skip tracing
+105. Emergency programs – Business Subsidies TSO Collections — Securing Debt
+106. Emergency programs – Business Subsidies TSO Collections — Seizure and sale
+107. Emergency programs – Business Subsidies TSO Collections — Source documents and historical printouts
+108. Emergency programs – Business Subsidies TSO Collections — Statutory set-offs
+109. Emergency programs – Business Subsidies TSO Collections — Tax treaty collections
+110. Emergency programs – Business Subsidies TSO Collections — Uncollectible debts
+111. Emergency programs – Business Subsidies TSO Collections — Voluntary deposit
+112. Emergency programs – Business Subsidies TSO Collections —Department of Justice (JUS)
+113. Emergency programs – Individual programs TSO collections — Ability to pay
+114. Emergency programs – Individual programs TSO collections — Account and inventory management
+115. Emergency programs – Individual programs TSO collections — Benefit types
+116. Emergency programs – Individual programs TSO collections — Collection limitation period (CLP)
+117. Emergency programs – Individual programs TSO collections — Collections contact
+118. Emergency programs – Individual programs TSO collections — Confidentiality
+119. Emergency programs – Individual programs TSO collections — Deceased individuals
+120. Emergency programs – Individual programs TSO collections — Federal Court actions
+121. Emergency programs – Individual programs TSO collections — Field Support referrals
+122. Emergency programs – Individual programs TSO collections — Garnishment
+123. Emergency programs – Individual programs TSO collections — Indigenous peoples
+124. Emergency programs – Individual programs TSO collections — Insolvency
+125. Emergency programs – Individual programs TSO collections — Issues management
+126. Emergency programs – Individual programs TSO collections — Letters, notices, and statements
+127. Emergency programs – Individual programs TSO collections — Mail
+128. Emergency programs – Individual programs TSO collections — Naming conventions
+129. Emergency programs – Individual programs TSO collections — Payments
+130. Emergency programs – Individual programs TSO collections — Request for information (RFI)
+131. Emergency programs – Individual programs TSO collections — Requirement to provide information
+132. Emergency programs – Individual programs TSO collections — Searches and tracing
+133. Emergency programs – Individual programs TSO collections — Second review or judicial review
+134. Emergency programs – Individual programs TSO collections — Statutory set-offs
+135. Emergency programs – Individual programs TSO collections—  Uncollectible debts
+136. Employer Compliance Audit (ECA) Team Leader Manual – TOM 6730
+137. Employer Compliance Audit Manual (ECAM) – TOM 6740
+138. Foreign Source Matching – 19(16)0
+139. Government programs TSO/NVCC collections — Account and inventory maintenance
+140. Government programs TSO/NVCC collections — Appeals
+141. Government programs TSO/NVCC collections — Collections contact
+142. Government programs TSO/NVCC collections — Collections Litigation and Advisory Services (CLAS)
+143. Government programs TSO/NVCC collections — Compromise settlements
+144. Government programs TSO/NVCC collections — Confidentiality
+145. Government programs TSO/NVCC collections — Deceased debtors
+146. Government programs TSO/NVCC collections — Employment insurance recoupment
+147. Government programs TSO/NVCC collections — Federal Court actions (FCA)
+148. Government programs TSO/NVCC collections — Field Support referrals
+149. Government programs TSO/NVCC collections — Garnishment
+150. Government programs TSO/NVCC collections — Hardship
+151. Government programs TSO/NVCC collections — Insolvency
+152. Government programs TSO/NVCC collections — Issues management
+153. Government programs TSO/NVCC collections — Letters, notices, and statements
+154. Government programs TSO/NVCC collections — Limitation periods
+155. Government programs TSO/NVCC collections — Mail
+156. Government programs TSO/NVCC collections — Naming conventions
+157. Government programs TSO/NVCC collections — Payments
+158. Government programs TSO/NVCC collections — Penalties, interest, fees, fines, and charges
+159. Government programs TSO/NVCC collections — Plan of action (POA)
+160. Government programs TSO/NVCC collections — Program types
+161. Government programs TSO/NVCC collections — Provincial judgments
+162. Government programs TSO/NVCC collections — Rehabilitation
+163. Government programs TSO/NVCC collections — Request for information (RFI)
+164. Government programs TSO/NVCC collections — Requirement to provide information (RPI)
+165. Government programs TSO/NVCC collections — Searches and tracing
+166. Government programs TSO/NVCC collections — Statutory set-offs
+167. Government programs TSO/NVCC collections — Summary of account
+168. Government programs TSO/NVCC collections — Tax receipts
+169. Government programs TSO/NVCC collections — Uncollectible debts
+170. Government programs TSO/NVCC collections — Voluntary deposit
+171. GST/HST - Compliance Operations Manual – TOM 6500
+172. GST/HST Enhanced Registration Review Procedures Manual – TOM 6000
+173. GST/HST Non-Registrant Program Operations Manual – TOM 6520
+174. GST/HST Trust Accounts Examination Manual – TOM 6540
+175. Identity Protection Services – 9730
+176. Insolvency manual — Bankruptcy
+177. Insolvency manual — Companies' Creditors Arrangement Act (CCAA)
+178. Insolvency manual — Farm Debt Mediation Act (FDMA)
+179. Insolvency manual — Orderly payment of debts (OPD)
+180. Insolvency manual — Proposals
+181. Insolvency manual — Receivership
+182. Insolvency manual — Workflow and general guidelines
+183. Job Aid – GST/HST Non-Registrant Resource Officer – 6530
+184. Line 105 Validation guide and procedures – 6125
+185. Matching Program – 19(17)0
+186. Non-Filer Program Job Aids
+187. Non-Filer Program Topics (NFPT)
+188. Non-Resident Withholding Job Aids
+189. Other Levies Compliance Operations Manual (COM) – 6510
+190. Other Levies Compliance Operations Manual (COM) – Team Leader – 6510.1
+191. Other Levies Compliance Operations Manual (COM) – Technical Advisor – 6510. 2
+192. Post-Assessing Review Section (PARS) Procedural Job Aids – TOM 6120
+193. Quebec Referrals – 6880
+194. Refund Examination program – 9720
+195. RQ Reference Guide – 6150
+196. Sole Proprietorship- GST/HST Income Matching review Guide and Procedures – 6130
+197. Special Assessment Program – 9880
+198. Supplementary Examination Program – 9710
+199. T1 Pre-Matching – 7000
+200. T1-OVP Compliance – 9870
+201. T3 Verification Program – 9740
+202. Tax programs TSO/NVCC collections — Account closure and removal
+203. Tax programs TSO/NVCC collections — Account summaries
+204. Tax programs TSO/NVCC collections — Account transfer and association
+205. Tax programs TSO/NVCC collections — Acquisition and disposition
+206. Tax programs TSO/NVCC collections — Appraisals and valuation
+207. Tax programs TSO/NVCC collections — Assessment dates
+208. Tax programs TSO/NVCC collections — Books and records
+209. Tax programs TSO/NVCC collections — Centralized workloads and specialized accounts
+210. Tax programs TSO/NVCC collections — Claims against the Crown
+211. Tax programs TSO/NVCC collections — Collection limitation period (CLP)
+212. Tax programs TSO/NVCC collections — Collections contact
+213. Tax programs TSO/NVCC collections — Collections restrictions
+214. Tax programs TSO/NVCC collections — Compromise settlements
+215. Tax programs TSO/NVCC collections — Confidentiality
+216. Tax programs TSO/NVCC collections — Court documents
+217. Tax programs TSO/NVCC collections — Credit offsets
+218. Tax programs TSO/NVCC collections — Crypto assets
+219. Tax programs TSO/NVCC collections — Deceased taxpayers
+220. Tax programs TSO/NVCC collections — Deemed trust
+221. Tax programs TSO/NVCC collections — Department of Justice (JUS)
+222. Tax programs TSO/NVCC collections — Disputed amounts
+223. Tax programs TSO/NVCC collections — Dockets
+224. Tax programs TSO/NVCC collections — Fees and charges
+225. Tax programs TSO/NVCC collections — Field calls
+226. Tax programs TSO/NVCC collections — Garnishment
+227. Tax programs TSO/NVCC collections — Indigenous peoples collections
+228. Tax programs TSO/NVCC collections — Insolvency
+229. Tax programs TSO/NVCC collections — intake, preparation and maintenance
+230. Tax programs TSO/NVCC collections — Issues management
+231. Tax programs TSO/NVCC collections — Jeopardy
+232. Tax programs TSO/NVCC collections — Legal entities
+233. Tax programs TSO/NVCC collections — Letters, notices and statements
+234. Tax programs TSO/NVCC collections — Mail
+235. Tax programs TSO/NVCC collections — Memorandum assessments
+236. Tax programs TSO/NVCC collections — Naming conventions
+237. Tax programs TSO/NVCC collections — Payments
+238. Tax programs TSO/NVCC collections — Plan of action (POA)
+239. Tax programs TSO/NVCC collections — Referrals
+240. Tax programs TSO/NVCC collections — Refund inhibits
+241. Tax programs TSO/NVCC collections — Refunds and rebates
+242. Tax programs TSO/NVCC collections — Remission
+243. Tax programs TSO/NVCC collections — Request for information
+244. Tax programs TSO/NVCC collections — Requirement for information (RFI)
+245. Tax programs TSO/NVCC collections — Searches and skip tracing
+246. Tax programs TSO/NVCC collections — Securing debt
+247. Tax programs TSO/NVCC collections — Seizure and Sale
+248. Tax programs TSO/NVCC collections — Source documents and historical printouts
+249. Tax programs TSO/NVCC collections — Statutory set-offs
+250. Tax programs TSO/NVCC collections — Tax protesters
+251. Tax programs TSO/NVCC collections — Tax treaty collections
+252. Tax programs TSO/NVCC collections — Uncollectible debts
+253. Tax programs TSO/NVCC collections — Voluntary Deposit
+254. Trust Accounts Examination (TAE) Manual (Payroll) – TOM 6700
+255. UHTES Procedures Manual
+256. Validation programs – 19(25)0
 
 #### Compliance Programs Branch
 
 1. Business Equity Valuations Operations Manual
 2. [Canadian Film or Video Production Tax Credit – Guide to form T1131](/en/revenue-agency/services/forms-publications/publications/rc4164.html)
-3. [Claim Review Manual for Research and Technology Advisors](/en/revenue-agency/services/scientific-research-experimental-development-tax-incentive-program/claim-review-manual-research-technology-advisors-program-8.html)
+3. [Claim Review Manual for Research and Technology Advisors](/en/revenue-agency/services/scientific-research-experimental-development-tax-incentive-program/claim-review-manual-research-technology-advisors-program-8.html)
 4. CRA Appraisers Guide to Fair Market Value for Self-Assessment Purposes under the Excise Tax Act
 5. Criminal Investigations Manual
 6. Exchange of Information services – reference guide
 7. [Film or Video Production Services Tax Credit Guide to Form T1177](/en/revenue-agency/services/scientific-research-experimental-development-tax-incentive-program/claim-review-manual-research-technology-advisors-program-8.html)
-8. [Financial Claim Review Manual- Review Procedures for Financial Reviewers](/en/revenue-agency/services/scientific-research-experimental-development-tax-incentive-program/financial-claim-review-manual-review-procedures-financial-reviewers-6.html)
+8. [Financial Claim Review Manual- Review Procedures for Financial Reviewers](/en/revenue-agency/services/scientific-research-experimental-development-tax-incentive-program/financial-claim-review-manual-review-procedures-financial-reviewers-6.html)
 9. GST/HST Audit and Examination Manual
 10. [Guidelines for Resolving Claimants' SR&ED concerns](/en/revenue-agency/services/scientific-research-experimental-development-tax-incentive-program/guidelines-resolving-claimants-concerns.html)
 11. [Income Tax Audit Manual](/en/revenue-agency/services/tax/technical-information/income-tax-audit-manual-domestic-compliance-programs-branch-dcpb-5.html)
@@ -843,37 +937,39 @@ Summaries of contracts, information sharing agreements and information sharing a
 
 #### Legislative Policy and Regulatory Affairs Branch
 
-1. Audit Manual Luxury Tax
-2. Cannabis Audit Manual
-3. Cannabis Licensing Procedures
-4. CPP/EI Policy Manual
-5. CPP/EI Rulings Procedures Manual
-6. DTS Procedure Manual
-7. Excise Duty Tobacco Licensee Audit Report
-8. Excise Tax Licensing Procedures Manual
-9. Fuel Charge Audit Manual
-10. GST/HST Procedures Manual
-11. Guidelines for the imposition of administrative monetary penalties (AMPS)
-12. ITRD Procedure Manual
-13. Registered Plans Directorate Technical Manual
-14. Social Security Manual
-15. Vaping Product Licensing Procedures under the Excise Act, 2001
+1. Alcohol related Licenses under the Excise Act, 2001 and Excise Act
+2. Audit Manual Luxury Tax
+3. Cannabis Audit Manual
+4. Cannabis Licensing Procedures
+5. Canada Revenue Agency Employee Remission Manual
+6. CPP/EI Policy Manual
+7. CPP/EI Rulings Procedures Manual
+8. Determinations Procedures Manual
+9. DTS Procedure Manual
+10. Excise Duty Tobacco Licensee Audit Report
+11. Excise Tax Licensing Procedures Manual
+12. Fuel Charge Audit Manual
+13. GST/HST Procedures Manual
+14. Guidelines for the imposition of administrative monetary penalties (AMPS)
+15. ITRD Procedure Manual
+16. Registered Plans Directorate Technical Manual
+17. Social Security Manual
+18. Vaping Product Licensing Procedures under the Excise Act, 2001
 
 #### Service, Innovation and Integration Branch
 
 1. Service Feedback Program- Problem Resolution Procedures Manual – 9120
 2. Service Feedback Program- Service Complaints Procedures Manual
-3. Service Feedback Program- T1 Ben Case Management System Manual
-4. Service Feedback System (SFS) Manual – Problem Resolution
-5. Service Feedback System (SFS) Manual – Service Complaints
+3. Service Feedback System (SFS) Manual – Problem Resolution
+4. Service Feedback System (SFS) Manual – Service Complaints
 
 To request an electronic copy of a CRA manual, please email the CRA ATIP General Enquiries.
 
 ## Additional Information
 
-The Canada Revenue Agency (CRA) is subject to the legislative requirements of the Access to Information Act and the Privacy Act. The Access to Information and Privacy (ATIP) Directorate, part of the Public Affairs Branch, supports the CRA in meeting its requirements under both acts.
+The Canada Revenue Agency (CRA) is subject to the legislative requirements of the *Access to Information Act* and the *Privacy Act*. The Access to Information and Privacy (ATIP) Directorate, part of the Public Affairs Branch, supports the CRA in meeting its requirements under both acts.
 
-For information on Access to Information and Privacy at the CRA, as well as both formal and informal access procedures under the provisions of the Access to Information Act and the Privacy Act, please consult [CRA's Access to Information and Privacy Web site](/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency.html). There you will find information on:
+For information on Access to Information and Privacy at the CRA, as well as both formal and informal access procedures under the provisions of the *Access to Information Act* and the *Privacy Act*, please consult [CRA's Access to Information and Privacy Web site](/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency.html). There you will find information on:
 
 ### [Requests outside of the ATIP process](/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/step-1-find-information-already-available.html)
 
@@ -894,28 +990,28 @@ The Government of Canada encourages the release of information through requests 
 
 ### [Formal requests for information](/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/step-2-make-access-information-personal-information-request.html)
 
-If you cannot get the information you are looking for outside the ATIP process, please see the link [How access to information and personal information requests work](/en/treasury-board-secretariat/services/access-information-privacy/access-information/how-access-information-personal-information-requests-work.html) for information on formal access procedures under the provisions of the Access to Information Act and the Privacy Act.
+If you cannot get the information you are looking for outside the ATIP process, please see the link [How access to information and personal information requests work](/en/treasury-board-secretariat/services/access-information-privacy/access-information/how-access-information-personal-information-requests-work.html) for information on formal access procedures under the provisions of the *Access to Information Act* and the *Privacy Act*.
 
 In addition, the following outlines how to make a formal ATIP request to the CRA:
 
-[ATIP Online Request](https://atip-aiprp.apps.gc.ca/atip/) or mail your letter or Form [RC378, Access to Information and Personal Information Request Form](/en/revenue-agency/services/forms-publications/forms/rc378.html) along with any necessary documents (such as consent or the $5.00 application fee for a request under the Access to Information Act) to the following address:
+[ATIP Online Request](https://atip-aiprp.apps.gc.ca/atip/) or mail your letter or [Form RC378, Access to Information and Personal Information Request Form](/en/revenue-agency/services/forms-publications/forms/rc378.html) along with any necessary documents (such as consent or the $5.00 application fee for a request under the *Access to Information Act*) to the following address:
 
 Director General, ATIP Directorate
 Canada Revenue Agency
 555 MacKenzie Avenue, 5th Floor
 Ottawa ON K1A 0L5
 
-In accordance with the  Access to Information Act and the Privacy Act, an area on the premises will be made available to review original materials on site if that is the applicant’s preference (and it is practical to do so), or if it is not practical to create copies of the material.
+In accordance with the *Access to Information Act* and the *Privacy Act*, an area on the premises will be made available to review original materials on site if that is the applicant’s preference (and it is practical to do so), or if it is not practical to create copies of the material.
 
 ### [Privacy assessment summaries](/en/revenue-agency/services/about-canada-revenue-agency-cra/protecting-your-privacy/privacy-impact-assessment.html)
 
 The CRA conducts privacy assessments to ensure that privacy implications are appropriately identified, assessed and resolved before a new or substantially modified program or activity involving personal information is implemented. Visit the [Privacy assessments page](/en/revenue-agency/services/about-canada-revenue-agency-cra/protecting-your-privacy/privacy-impact-assessment.html) to see the summaries.
 
-For additional information about the programs and activities of the Canada Revenue Agency, please see CRA's Web site.
+For additional information about the programs and activities of the Canada Revenue Agency, please see [CRA's Web site](/en/revenue-agency.html).
 
 ## Page details
 
-2025-12-11
+2026-07-24
 
 ## About this site
 

@@ -24,29 +24,29 @@ xml version="1.0" encoding="UTF-8"?
 
 Park Alerts
 
-Jan 19, 2026
+Aug 07, 2026
 
--  City of Toronto Black Creek Sewer Construction Update
-
-Park
-
-In the Fall of 2025, the City of Toronto and the Government of Canada announced an upgrade to Toronto’s Black Creek wastewater infrastructure.
-
-Nov 04, 2025
-
--  Scheduled Power Shut Down
+-  Curb Repair at Railroad Crossing
 
 Park
 
-Our power will experience a temporary shut down on November 6 from 12:30am-6am to test our systems.
+Please be advised that curb repair work will be taking place at the railroad crossing on Thursday, August 13, 2026, between 7:00 a.m.
 
-Oct 10, 2025
+Jul 23, 2026
 
--  P2 Parking Lot Closure
+-  Canuck Pavilion Closed on July 24
 
 Park
 
-Please note that east side of the P2 parking lot will be closed from 10pm on Monday, October 13 until noon on Tuesday, October 14 for a private event.
+The Canuck Pavilion will be out of service on July 24, 2026 until July 25 morning. We apologize for any inconvenience.
+
+Jul 22, 2026
+
+-  Alouette Grove Closure
+
+Park
+
+Please avoid the Alouette Grove area while forest improvement work is underway to support the health and sustainability of the park’s natural
 
 [More alerts](https://downsviewpark.ca/news?type%5B0%5D=0&type%5B32%5D=32)
 
@@ -70,8 +70,6 @@ Toggle Search
 ## Responsive menu mobile icon
 
 Menu
-
-Some events are being falsely promoted as taking place at Downsview Park; we are not hosting any arts and craft vendor markets. For accurate event info, [visit https://downsviewpark.ca/events](https://downsviewpark.ca/events)
 
 [xml version="1.0" encoding="UTF-8"?
 

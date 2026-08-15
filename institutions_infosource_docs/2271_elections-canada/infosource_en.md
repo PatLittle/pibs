@@ -47,7 +47,7 @@ Search the site
 * [The Commissioner of Canada Elections](content.aspx?section=abo&dir=cce&document=index&lang=e)
 * [Broadcasting Arbitrator](content.aspx?section=abo&dir=bra&document=index&lang=e)
 * [Advisory Groups](content.aspx?section=abo&dir=adv&document=index&lang=e)
-* [Chief Electoral Officer Appearances before Parliament Â Briefing Material](content.aspx?section=abo&dir=comp&document=index&lang=e)
+* [Chief Electoral Officer Appearances before Parliament  Briefing Material](content.aspx?section=abo&dir=comp&document=index&lang=e)
 * [Overview of Elections Canada and the Federal Electoral System Briefing Book](content.aspx?section=abo&dir=oec&document=index&lang=e)
 * [Procurement at Elections Canada](content.aspx?section=abo&dir=pro&document=index&lang=e)
 * [International Affairs](content.aspx?section=abo&dir=int&document=index&lang=e)
@@ -58,6 +58,7 @@ Search the site
   + [Annual Reports](content.aspx?section=abo&dir=atip/pub&document=index&lang=e)
   + [Info Source](content.aspx?section=abo&dir=atip/info&document=index&lang=e)
 * [Internal Audit Services](content.aspx?section=abo&dir=aud&document=index&lang=e)
+* [Evaluation services](content.aspx?section=abo&dir=eval&document=index&lang=e)
 
 1. [Home](home.aspx)
 2. [About Us](content.aspx?section=abo&document=index&lang=e)
@@ -139,6 +140,6 @@ Questions? [Contact us](/content.aspx?section=cont&document=index&lang=e).
 * [Questions, Complaints, Feedback](/content.aspx?section=cont&document=index&lang=e)
 * [Become a supplier to Elections Canada](/content.aspx?section=abo&dir=pro/sup&document=index&lang=e)
 
-Date Modified: July 29, 2024
+Date Modified: October 31, 2023
 
 [Terms and Conditions](/content.aspx?section=pri&document=index&lang=e)

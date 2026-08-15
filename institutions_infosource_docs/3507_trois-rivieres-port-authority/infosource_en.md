@@ -319,15 +319,11 @@ This form of personal information is normally retrievable only if specifics are 
 
 The Government of Canada encourages the release of information through requests outside of the ATIP process. You may wish to consult completed Access to Information (ATI) [summaries](https://porttr.com/en/communications-media/access-to-information). To make an informal request, contact:
 
-Me Jean Mongeau
-
-Corporate secretary
-
+Me Marie-Lise Gaudet
+Director – Agreements, Partnerships and Legal Affairs
 1545 du Fleuve Street
-
 Trois-Rivières, QC G9A 6K4
-
-E-mail: [[email protected]](/cdn-cgi/l/email-protection#08696c65576f6d664878677a7c7c7a266b6765)
+E-mail: [[email protected]](/cdn-cgi/l/email-protection#9bfafff6c4fcfef5dbebf4e9efefe9b5f8f4f6)
 
 Please see the [Introduction](http://www.infosource.gc.ca/emp/emp01-eng.asp) to this publication for information on formal access procedures under the provisions of the *Access to Information Act* and the *Privacy Act*. The following outlines how to make a formal ATIP request.
 
@@ -348,7 +344,7 @@ Trois-Rivières, Québec
 [1545 Du Fleuve Street](https://www.google.com/maps/place/1545%2BRue%2Bdu%2BFleuve%2C%2BTrois-Rivi%C3%A8res%2C%2BQC%2BG9A%2B2J2/%4046.3404978%2C-72.5415835%2C17z/data%3D%213m1%214b1%214m5%213m4%211s0x4cc7c606eda54453%3A0xa076ab7d06853c02%218m2%213d46.3404941%214d-72.5393948)
 Trois-Rivières (Québec) G9A 6K4
 Phone: 819 378-2887
-E-Mail: [[email protected]](/cdn-cgi/l/email-protection#e8898c85b78f8d86a898879a9c9c9ac68b8785)
+E-Mail: [[email protected]](/cdn-cgi/l/email-protection#97f6f3fac8f0f2f9d7e7f8e5e3e3e5b9f4f8fa)
 
 [Privacy Policy](http://porttr.mywhc.ca/en/privacy-policy/)
 

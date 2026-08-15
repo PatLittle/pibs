@@ -70,7 +70,7 @@ Pour obtenir des renseignements généraux sur la façon de formuler une demande
 
 Pour faire une demande de renseignements en ligne, veuillez accéder au [Service de demande d’accès à l’information et de renseignements personnels en ligne](https://atip-aiprp.tbs-sct.gc.ca/fr/Bienvenue/Confidentialite).
 
-Pour présenter une demande de renseignements en vertu de la *Loi sur l’accès à l’information* ou de la *Loi sur la protection des renseignements personnels* par la poste, envoyez votre lettre ou votre formulaire rempli à [Formulaire de demande d’accès à l’information](http://www.tbs-sct.gc.ca/tbsf-fsct/350-57-fra.asp) (*Loi sur l’accès à l’information*) ou à [Formulaire de demande de renseignements personnels](http://www.tbs-sct.gc.ca/tbsf-fsct/350-58-fra.asp) (*Loi sur la protection des renseignements personnels*), ainsi que tous les documents nécessaires.
+Pour présenter une demande de renseignements en vertu de la *Loi sur l’accès à l’information* ou de la *Loi sur la protection des renseignements personnels* par la poste, envoyez votre lettre ou votre formulaire rempli à [Formulaire de demande d’accès à l’information](https://www.tbs-sct.gc.ca/tbsf-fsct/350-57-fra.asp) (*Loi sur l’accès à l’information*) ou à [Formulaire de demande de renseignements personnels](https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/formulaires/350-58.html) (*Loi sur la protection des renseignements personnels*), ainsi que tous les documents nécessaires.
 
 Conformément à la *Loi sur l’accès à l’information* et à la *Loi sur la protection des renseignements personnels*, une zone située sur les lieux sera mise à disposition pour examiner les documents originaux sur place si telle est la préférence du demandeur (et s’il est pratique de le faire), ou s’il n’est pas pratique de créer des copies des documents.
 
@@ -143,8 +143,6 @@ Financement agricole Canada mène des évaluations des facteurs relatifs à la v
 
 [Communiqués de presse](/fr/a-propos-de-fac/centre-des-medias/communiques-de-presse)
 
-[Logo de FAC](/fr/a-propos-de-fac/centre-des-medias/logo-de-fac)
-
 [Histoires de clients](/fr/a-propos-de-fac/centre-des-medias/histoires-de-clients)
 
 [X : FACagriculture](https://x.com/FACagriculture)[Facebook : FACagriculture](https://www.facebook.com/FACagriculture)[Instagram : FACagriculture](https://www.instagram.com/facagriculture)[LinkedIn: fcc-fac](https://www.linkedin.com/company/fcc-fac)[YouTube : FACenligne](https://www.youtube.com/user/FACenligne)
@@ -162,7 +160,7 @@ Liens rapides
 
 * [AgriSuccès](/fr/savoir/agrisucces)
 * [Commentaires](https://fcc-fac.typeform.com/to/A7uFLuER)
-* [Groupe consultatif Vision](https://www.visionfac.ca)
+* [Groupe consultatif Vision](/fr/ressources/vision-fac)
 * [S'abonner](/fr/savoir/l-infolettre-de-savoir-fac)
 
 Politiques
