@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-trois-rivieres-port-authority",
+  "gc_orgID": "3507",
+  "institution_name_en": "Trois-Rivières Port Authority",
+  "institution_name_fr": "Administration portuaire de Trois-Rivières",
+  "access_act_order": 143,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-trois-rivieres-port-authority",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T16:05:40.881626+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://porttr.com/en/port-authority/governance/info-source/",
+      "final_url": "https://porttr.com/en/port-authority/governance/info-source/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 111698,
+      "sha256": "3485e5624440ec18e76c731cc7940df4d28670a312ea7019c51aa5e290fabb50",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-trois-rivieres-port-authority/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-trois-rivieres-port-authority/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://porttr.com/administration-portuaire/gouvernance/info-source/",
+      "final_url": "https://porttr.com/administration-portuaire/gouvernance/info-source/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 121538,
+      "sha256": "d170089194f952372b01443a7688bee50b9bf64732c143654bb421735a3d4aa5",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-trois-rivieres-port-authority/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-trois-rivieres-port-authority/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://porttr.com/en/port-authority/governance/info-source/",
+      "final_url": "https://porttr.com/en/port-authority/governance/info-source/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 111698,
+      "sha256": "3485e5624440ec18e76c731cc7940df4d28670a312ea7019c51aa5e290fabb50",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-trois-rivieres-port-authority/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-trois-rivieres-port-authority/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://porttr.com/administration-portuaire/gouvernance/info-source/",
+      "final_url": "https://porttr.com/administration-portuaire/gouvernance/info-source/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 121538,
+      "sha256": "d170089194f952372b01443a7688bee50b9bf64732c143654bb421735a3d4aa5",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-trois-rivieres-port-authority/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-trois-rivieres-port-authority/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 3,
+      "french": 3,
+      "merged": 3
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:17.406592+00:00",
+  "extraction_rebuild_version": 2
+}

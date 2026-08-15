@@ -1,0 +1,128 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-office-of-the-correctional-investigator-of-canada",
+  "gc_orgID": "2276",
+  "institution_name_en": "Office of the Correctional Investigator of Canada",
+  "institution_name_fr": "Bureau de l’enquêteur correctionnel du Canada",
+  "access_act_order": 108,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-office-of-the-correctional-investigator-of-canada",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:57:05.730476+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://oci-bec.gc.ca/en/content/transparency/info-source",
+      "final_url": "https://oci-bec.gc.ca/en/content/transparency/info-source",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 25784,
+      "sha256": "93c48f347694dad083e50d23c436aa5655931c4a50b3ef9a673d3d0347cfcf44",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-correctional-investigator-of-canada/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-correctional-investigator-of-canada/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://oci-bec.gc.ca/en/content/institutional-functions-programs-and-activities",
+          "final_url": "https://oci-bec.gc.ca/en/content/institutional-functions-programs-and-activities",
+          "http_status": 200,
+          "byte_count": 59433,
+          "sha256": "53f73805192402399bedf2ee9f8866206992df5cde4c786ceb169eea87d7fb34",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-correctional-investigator-of-canada/snapshots/2026-08-15/raw/pibs_en_linked_1.html",
+          "included_in_extraction": true
+        }
+      ]
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://oci-bec.gc.ca/fr/content/transparence/info-source",
+      "final_url": "https://oci-bec.gc.ca/fr/content/transparence/info-source",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 25832,
+      "sha256": "0a46b658b55db4635324750ac899c4885fa07eaaf46d7facf4398cb21fed6fb4",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-correctional-investigator-of-canada/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-correctional-investigator-of-canada/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://oci-bec.gc.ca/fr/content/fonctions-programmes-et-activites-institution",
+          "final_url": "https://oci-bec.gc.ca/fr/content/fonctions-programmes-et-activites-institution",
+          "http_status": 200,
+          "byte_count": 67424,
+          "sha256": "d5fc74779c99eaf3cdc997a1c1096bf76e9e3170f022aadf00cc1f1893a224ea",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-correctional-investigator-of-canada/snapshots/2026-08-15/raw/pibs_fr_linked_1.html",
+          "included_in_extraction": true
+        }
+      ]
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://oci-bec.gc.ca/en/content/transparency/info-source",
+      "final_url": "https://oci-bec.gc.ca/en/content/transparency/info-source",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 25784,
+      "sha256": "93c48f347694dad083e50d23c436aa5655931c4a50b3ef9a673d3d0347cfcf44",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-correctional-investigator-of-canada/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-correctional-investigator-of-canada/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://oci-bec.gc.ca/en/content/institutional-functions-programs-and-activities",
+          "final_url": "https://oci-bec.gc.ca/en/content/institutional-functions-programs-and-activities",
+          "http_status": 200,
+          "byte_count": 59433,
+          "sha256": "53f73805192402399bedf2ee9f8866206992df5cde4c786ceb169eea87d7fb34",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-correctional-investigator-of-canada/snapshots/2026-08-15/raw/classes_of_records_en_linked_1.html",
+          "included_in_extraction": true
+        }
+      ]
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://oci-bec.gc.ca/fr/content/transparence/info-source",
+      "final_url": "https://oci-bec.gc.ca/fr/content/transparence/info-source",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 25832,
+      "sha256": "0a46b658b55db4635324750ac899c4885fa07eaaf46d7facf4398cb21fed6fb4",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-correctional-investigator-of-canada/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-correctional-investigator-of-canada/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://oci-bec.gc.ca/fr/content/fonctions-programmes-et-activites-institution",
+          "final_url": "https://oci-bec.gc.ca/fr/content/fonctions-programmes-et-activites-institution",
+          "http_status": 200,
+          "byte_count": 67424,
+          "sha256": "d5fc74779c99eaf3cdc997a1c1096bf76e9e3170f022aadf00cc1f1893a224ea",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-correctional-investigator-of-canada/snapshots/2026-08-15/raw/classes_of_records_fr_linked_1.html",
+          "included_in_extraction": true
+        }
+      ]
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 2,
+      "french": 2,
+      "merged": 2
+    },
+    "classes_of_records": {
+      "english": 6,
+      "french": 6,
+      "merged": 6
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:15.232745+00:00",
+  "extraction_rebuild_version": 2
+}

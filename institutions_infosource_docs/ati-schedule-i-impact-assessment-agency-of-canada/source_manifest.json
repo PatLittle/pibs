@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-impact-assessment-agency-of-canada",
+  "gc_orgID": "2245",
+  "institution_name_en": "Impact Assessment Agency of Canada",
+  "institution_name_fr": "Agence canadienne d’évaluation d’impact",
+  "access_act_order": 80,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-impact-assessment-agency-of-canada",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:56:20.288894+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/impact-assessment-agency/corporate/transparency/info-source.html",
+      "final_url": "https://www.canada.ca/en/impact-assessment-agency/corporate/transparency/info-source.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 81088,
+      "sha256": "c8419e0d25e70e9e6e67d0ebaffd186317e4e26e7a55be6033a864ce02c95819",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-impact-assessment-agency-of-canada/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-impact-assessment-agency-of-canada/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/agence-evaluation-impact/organisation/transparence/info-source.html",
+      "final_url": "https://www.canada.ca/fr/agence-evaluation-impact/organisation/transparence/info-source.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 96234,
+      "sha256": "51d7d002eed8482fcee011b98740712eb12c9c964490bb5c296dd2a4817dbc8d",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-impact-assessment-agency-of-canada/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-impact-assessment-agency-of-canada/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/impact-assessment-agency/corporate/transparency/info-source.html",
+      "final_url": "https://www.canada.ca/en/impact-assessment-agency/corporate/transparency/info-source.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 81088,
+      "sha256": "c8419e0d25e70e9e6e67d0ebaffd186317e4e26e7a55be6033a864ce02c95819",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-impact-assessment-agency-of-canada/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-impact-assessment-agency-of-canada/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/agence-evaluation-impact/organisation/transparence/info-source.html",
+      "final_url": "https://www.canada.ca/fr/agence-evaluation-impact/organisation/transparence/info-source.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 96234,
+      "sha256": "51d7d002eed8482fcee011b98740712eb12c9c964490bb5c296dd2a4817dbc8d",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-impact-assessment-agency-of-canada/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-impact-assessment-agency-of-canada/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 1,
+      "french": 1,
+      "merged": 1
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:14.566574+00:00",
+  "extraction_rebuild_version": 2
+}

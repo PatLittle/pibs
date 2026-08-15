@@ -1,0 +1,98 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-department-of-agriculture-and-agri-food",
+  "gc_orgID": "2222",
+  "institution_name_en": "Department of Agriculture and Agri-Food",
+  "institution_name_fr": "Ministère de l’Agriculture et de l’Agroalimentaire",
+  "access_act_order": 2,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-department-of-agriculture-and-agri-food",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:53:20.977392+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "http://agriculture.canada.ca/eng/about-us/offices-and-locations/access-to-information-and-privacy-services/info-source-2016/?id=1347308413430",
+      "final_url": "https://agriculture.canada.ca/en/department/transparency/info-source-employee-information",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 247,
+      "sha256": "95dcbf3b75b384a3bc429f2c68d3b48df648adca8e8d4082772cc6882193b48e",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-agriculture-and-agri-food/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-agriculture-and-agri-food/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://agriculture.canada.ca/fr/ministere/transparence/info-source-renseignements-pour-fonctionnaires",
+      "final_url": "https://agriculture.canada.ca/fr/ministere/transparence/info-source-renseignements-pour-fonctionnaires",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 318668,
+      "sha256": "bf0def14a1b1a424c3509550092567b636429ea8b3044971f7078adb1b8b7bd8",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-agriculture-and-agri-food/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-agriculture-and-agri-food/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://agriculture.canada.ca/fr/ministere/transparence/fichier-renseignements-personnels-programmes-subventions-contributions",
+          "final_url": "https://agriculture.canada.ca/fr/ministere/transparence/fichier-renseignements-personnels-programmes-subventions-contributions",
+          "http_status": 200,
+          "byte_count": 31957,
+          "sha256": "13034e939629c3fd158e7950792f5d67fea35a437b41a497e8d6d86401f0e128",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-agriculture-and-agri-food/snapshots/2026-08-15/raw/pibs_fr_linked_1.html",
+          "included_in_extraction": true
+        }
+      ]
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "http://agriculture.canada.ca/eng/about-us/offices-and-locations/access-to-information-and-privacy-services/info-source-2016/?id=1347308413430",
+      "final_url": "https://agriculture.canada.ca/en/department/transparency/info-source-employee-information",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 247,
+      "sha256": "95dcbf3b75b384a3bc429f2c68d3b48df648adca8e8d4082772cc6882193b48e",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-agriculture-and-agri-food/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-agriculture-and-agri-food/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://agriculture.canada.ca/fr/ministere/transparence/info-source-renseignements-pour-fonctionnaires",
+      "final_url": "https://agriculture.canada.ca/fr/ministere/transparence/info-source-renseignements-pour-fonctionnaires",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 318668,
+      "sha256": "bf0def14a1b1a424c3509550092567b636429ea8b3044971f7078adb1b8b7bd8",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-agriculture-and-agri-food/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-agriculture-and-agri-food/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:07.499986+00:00",
+  "extraction_rebuild_version": 2
+}

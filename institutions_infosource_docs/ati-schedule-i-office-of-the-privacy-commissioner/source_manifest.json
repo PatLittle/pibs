@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-office-of-the-privacy-commissioner",
+  "gc_orgID": "2282",
+  "institution_name_en": "Office of the Privacy Commissioner",
+  "institution_name_fr": "Commissariat à la protection de la vie privée",
+  "access_act_order": 112,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-office-of-the-privacy-commissioner",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:58:46.957310+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.priv.gc.ca/en/about-the-opc/opc-access-to-information-and-privacy/infosource/",
+      "final_url": "https://www.priv.gc.ca/en/about-the-opc/opc-access-to-information-and-privacy/infosource/",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 88543,
+      "sha256": "6d70074e8c11d5ed97488ddc04a4e2a5bc58008d8a45698d4c33b4c0e0920671",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-privacy-commissioner/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-privacy-commissioner/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/acces-a-l-information-et-protection-des-renseignements-personnels-au-commissariat/infosource/",
+      "final_url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/acces-a-l-information-et-protection-des-renseignements-personnels-au-commissariat/infosource/",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 107044,
+      "sha256": "915872d0300901c5841563cd67c3ee892990dc344bf523c799b08e77fe5180f2",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-privacy-commissioner/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-privacy-commissioner/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.priv.gc.ca/en/about-the-opc/opc-access-to-information-and-privacy/infosource/",
+      "final_url": "https://www.priv.gc.ca/en/about-the-opc/opc-access-to-information-and-privacy/infosource/",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 88543,
+      "sha256": "6d70074e8c11d5ed97488ddc04a4e2a5bc58008d8a45698d4c33b4c0e0920671",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-privacy-commissioner/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-privacy-commissioner/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/acces-a-l-information-et-protection-des-renseignements-personnels-au-commissariat/infosource/",
+      "final_url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/acces-a-l-information-et-protection-des-renseignements-personnels-au-commissariat/infosource/",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 107044,
+      "sha256": "915872d0300901c5841563cd67c3ee892990dc344bf523c799b08e77fe5180f2",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-privacy-commissioner/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-privacy-commissioner/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 6,
+      "french": 0,
+      "merged": 6
+    },
+    "classes_of_records": {
+      "english": 11,
+      "french": 0,
+      "merged": 11
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:15.340555+00:00",
+  "extraction_rebuild_version": 2
+}

@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-gwich-in-land-and-water-board",
+  "gc_orgID": "",
+  "institution_name_en": "Gwich’in Land and Water Board",
+  "institution_name_fr": "Office gwich’in des terres et des eaux",
+  "access_act_order": 74,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-gwich-in-land-and-water-board",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T16:00:45.899787+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://glwb.com/our-board/access-information-requests-2",
+      "final_url": "https://glwb.com/our-board/access-information-requests-2",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 50102,
+      "sha256": "85656f6b683f021828595fabe253c35b6d5fc6a3512339aa754bda0167ba0ddc",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-gwich-in-land-and-water-board/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-gwich-in-land-and-water-board/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-renseignements-personnels/acces-information/info-source/office-gwichin-terres-eaux.html",
+      "final_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-renseignements-personnels/acces-information/info-source/office-gwichin-terres-eaux.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 29490,
+      "sha256": "59dbac2e4b8b3d02356e2b0c644a99b4b33b7b90bdde32e384da4e649bc64d5c",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-gwich-in-land-and-water-board/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-gwich-in-land-and-water-board/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://glwb.com/our-board/access-information-requests-2",
+      "final_url": "https://glwb.com/our-board/access-information-requests-2",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 50102,
+      "sha256": "85656f6b683f021828595fabe253c35b6d5fc6a3512339aa754bda0167ba0ddc",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-gwich-in-land-and-water-board/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-gwich-in-land-and-water-board/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-renseignements-personnels/acces-information/info-source/office-gwichin-terres-eaux.html",
+      "final_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-renseignements-personnels/acces-information/info-source/office-gwichin-terres-eaux.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 29490,
+      "sha256": "59dbac2e4b8b3d02356e2b0c644a99b4b33b7b90bdde32e384da4e649bc64d5c",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-gwich-in-land-and-water-board/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-gwich-in-land-and-water-board/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 1,
+      "merged": 1
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:14.427460+00:00",
+  "extraction_rebuild_version": 2
+}

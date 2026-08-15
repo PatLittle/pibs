@@ -1,0 +1,52 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-veterans-review-and-appeal-board",
+  "gc_orgID": "2294",
+  "institution_name_en": "Veterans Review and Appeal Board",
+  "institution_name_fr": "Tribunal des anciens combattants (révision et appel)",
+  "access_act_order": 145,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-veterans-review-and-appeal-board",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T16:00:11.112831+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "error",
+      "requested_url": "http://www.vrab-tacra.gc.ca/Plans/Info-Source-eng.cfm",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://www.vrab-tacra.gc.ca/Plans/Info-Source-eng.cfm"
+    },
+    "pibs_fr": {
+      "status": "error",
+      "requested_url": "http://www.vrab-tacra.gc.ca/Plans/Info-Source-fra.cfm",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://www.vrab-tacra.gc.ca/Plans/Info-Source-fra.cfm"
+    },
+    "classes_of_records_en": {
+      "status": "error",
+      "requested_url": "http://www.vrab-tacra.gc.ca/Plans/Info-Source-eng.cfm",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://www.vrab-tacra.gc.ca/Plans/Info-Source-eng.cfm"
+    },
+    "classes_of_records_fr": {
+      "status": "error",
+      "requested_url": "http://www.vrab-tacra.gc.ca/Plans/Info-Source-fra.cfm",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://www.vrab-tacra.gc.ca/Plans/Info-Source-fra.cfm"
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:17.408536+00:00",
+  "extraction_rebuild_version": 2
+}

@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-canadian-centre-for-occupational-health-and-safety",
+  "gc_orgID": "2305",
+  "institution_name_en": "Canadian Centre for Occupational Health and Safety",
+  "institution_name_fr": "Centre canadien d’hygiène et de sécurité au travail",
+  "access_act_order": 39,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-canadian-centre-for-occupational-health-and-safety",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:58:39.239367+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.ccohs.ca:443/ccohs/reports/transparency.html",
+      "final_url": "https://www.ccohs.ca:443/ccohs/reports/transparency.html",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 421019,
+      "sha256": "b9edcfb3d5743bfee5a12cdc27bda5cc93ff98b128cb4004918a472293a8b95a",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-centre-for-occupational-health-and-safety/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-centre-for-occupational-health-and-safety/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.cchst.ca:443/ccohs/reports/transparency.html",
+      "final_url": "https://www.cchst.ca:443/ccohs/reports/transparency.html",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 378944,
+      "sha256": "ab1f67d4b88bebc236b9f42846f1ca6c8feca13ea9521021bc848bb38a6ca3a6",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-centre-for-occupational-health-and-safety/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-centre-for-occupational-health-and-safety/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.ccohs.ca:443/ccohs/reports/transparency.html",
+      "final_url": "https://www.ccohs.ca:443/ccohs/reports/transparency.html",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 421019,
+      "sha256": "b9edcfb3d5743bfee5a12cdc27bda5cc93ff98b128cb4004918a472293a8b95a",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-centre-for-occupational-health-and-safety/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-centre-for-occupational-health-and-safety/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.cchst.ca:443/ccohs/reports/transparency.html",
+      "final_url": "https://www.cchst.ca:443/ccohs/reports/transparency.html",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 378944,
+      "sha256": "ab1f67d4b88bebc236b9f42846f1ca6c8feca13ea9521021bc848bb38a6ca3a6",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-centre-for-occupational-health-and-safety/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-centre-for-occupational-health-and-safety/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 1,
+      "french": 1,
+      "merged": 1
+    },
+    "classes_of_records": {
+      "english": 12,
+      "french": 11,
+      "merged": 12
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:12.514039+00:00",
+  "extraction_rebuild_version": 2
+}

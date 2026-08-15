@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-thunder-bay-port-authority",
+  "gc_orgID": "3504",
+  "institution_name_en": "Thunder Bay Port Authority",
+  "institution_name_fr": "Administration portuaire de Thunder Bay",
+  "access_act_order": 140,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-thunder-bay-port-authority",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T16:05:35.010431+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.portofthunderbay.ca/wp-content/uploads/2020/04/Infosource-Thunder-Bay-Port-Authority-20.pdf",
+      "final_url": "https://www.portofthunderbay.ca/wp-content/uploads/2020/04/Infosource-Thunder-Bay-Port-Authority-20.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "encoding": "",
+      "byte_count": 148812,
+      "sha256": "7ed3e986dc693d2dc65bcbdb174306e751da3b69ba76dc4ef41bc314c4871b06",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-thunder-bay-port-authority/snapshots/2026-08-15/raw/pibs_en.pdf",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-thunder-bay-port-authority/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.portofthunderbay.ca/wp-content/uploads/2020/04/Infosource-Administration-portuaire-de-Thunder-Bay-20.pdf",
+      "final_url": "https://www.portofthunderbay.ca/wp-content/uploads/2020/04/Infosource-Administration-portuaire-de-Thunder-Bay-20.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "encoding": "",
+      "byte_count": 156379,
+      "sha256": "b6a2e8a68bc7f427e26a8bbc522751c7aa7e4286c89517fb46c02c0214ce8ec6",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-thunder-bay-port-authority/snapshots/2026-08-15/raw/pibs_fr.pdf",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-thunder-bay-port-authority/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.portofthunderbay.ca/wp-content/uploads/2020/04/Infosource-Thunder-Bay-Port-Authority-20.pdf",
+      "final_url": "https://www.portofthunderbay.ca/wp-content/uploads/2020/04/Infosource-Thunder-Bay-Port-Authority-20.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "encoding": "",
+      "byte_count": 148812,
+      "sha256": "7ed3e986dc693d2dc65bcbdb174306e751da3b69ba76dc4ef41bc314c4871b06",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-thunder-bay-port-authority/snapshots/2026-08-15/raw/classes_of_records_en.pdf",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-thunder-bay-port-authority/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.portofthunderbay.ca/wp-content/uploads/2020/04/Infosource-Administration-portuaire-de-Thunder-Bay-20.pdf",
+      "final_url": "https://www.portofthunderbay.ca/wp-content/uploads/2020/04/Infosource-Administration-portuaire-de-Thunder-Bay-20.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "encoding": "",
+      "byte_count": 156379,
+      "sha256": "b6a2e8a68bc7f427e26a8bbc522751c7aa7e4286c89517fb46c02c0214ce8ec6",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-thunder-bay-port-authority/snapshots/2026-08-15/raw/classes_of_records_fr.pdf",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-thunder-bay-port-authority/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 1,
+      "french": 1,
+      "merged": 1
+    },
+    "classes_of_records": {
+      "english": 6,
+      "french": 6,
+      "merged": 6
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:16.919728+00:00",
+  "extraction_rebuild_version": 2
+}

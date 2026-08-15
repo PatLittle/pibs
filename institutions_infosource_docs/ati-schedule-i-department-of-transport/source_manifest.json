@@ -1,0 +1,164 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-department-of-transport",
+  "gc_orgID": "2238",
+  "institution_name_en": "Department of Transport",
+  "institution_name_fr": "Ministère des Transports",
+  "access_act_order": 20,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-department-of-transport",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:54:45.226233+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://tc.canada.ca/en/corporate-services/transparency/info-source",
+      "final_url": "https://tc.canada.ca/en/corporate-services/transparency/info-source",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 147824,
+      "sha256": "177775250baa9387cad3d72394802b4e19be5684b121ca6c050f962036e037e7",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-transport/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-transport/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://tc.canada.ca/en/corporate-services/transparency/appendix-personal-information-banks",
+          "final_url": "https://tc.canada.ca/en/corporate-services/transparency/appendix-personal-information-banks",
+          "http_status": 200,
+          "byte_count": 125609,
+          "sha256": "8ebaa7edc346d993b3fe16cd30de79141f0425cd8745c0935f2447d41a082588",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-transport/snapshots/2026-08-15/raw/pibs_en_linked_1.html",
+          "included_in_extraction": true
+        },
+        {
+          "url": "https://tc.canada.ca/en/corporate-services/transparency/appendix-classes-records",
+          "final_url": "https://tc.canada.ca/en/corporate-services/transparency/appendix-classes-records",
+          "http_status": 200,
+          "byte_count": 166779,
+          "sha256": "85d82c7f13a75b466e6da77a91c11c6bc9d82cd806c7c2182d22eed076d57a13",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-transport/snapshots/2026-08-15/raw/pibs_en_linked_2.html",
+          "included_in_extraction": true
+        },
+        {
+          "url": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-drone-management-portal",
+          "final_url": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-drone-management-portal",
+          "http_status": 200,
+          "byte_count": 40545,
+          "sha256": "46278a9997b9a1f9294de0f064b95d452989f75e4f487db0a718a5f74a4d067f",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-transport/snapshots/2026-08-15/raw/pibs_en_linked_3.html",
+          "included_in_extraction": true
+        },
+        {
+          "url": "https://tc.canada.ca/node/38164",
+          "final_url": "https://tc.canada.ca/en/corporate-services/transparency/appendix-personal-information-banks",
+          "http_status": 200,
+          "byte_count": 125609,
+          "sha256": "8ebaa7edc346d993b3fe16cd30de79141f0425cd8745c0935f2447d41a082588",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-transport/snapshots/2026-08-15/raw/pibs_en_linked_4.html",
+          "included_in_extraction": true
+        }
+      ]
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://tc.canada.ca/fr/services-generaux/transparence/info-source",
+      "final_url": "https://tc.canada.ca/fr/services-generaux/transparence/info-source",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 167731,
+      "sha256": "ba07b27dd9e1c8a7e659519fb31af5ec64c687db1d0ff74ab2547207d1fed47f",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-transport/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-transport/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://tc.canada.ca/fr/services-generaux/transparence/appendice-fichiers-renseignements-personnels",
+          "final_url": "https://tc.canada.ca/fr/services-generaux/transparence/appendice-fichiers-renseignements-personnels",
+          "http_status": 200,
+          "byte_count": 149212,
+          "sha256": "68dd641f297618b269fce057e2dce7ffc6b6cd9d02a458f39481e7784e2822cd",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-transport/snapshots/2026-08-15/raw/pibs_fr_linked_1.html",
+          "included_in_extraction": true
+        },
+        {
+          "url": "https://tc.canada.ca/en/corporate-services/transparency/appendix-personal-information-banks",
+          "final_url": "https://tc.canada.ca/en/corporate-services/transparency/appendix-personal-information-banks",
+          "http_status": 200,
+          "byte_count": 125609,
+          "sha256": "8ebaa7edc346d993b3fe16cd30de79141f0425cd8745c0935f2447d41a082588",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-transport/snapshots/2026-08-15/raw/pibs_fr_linked_2.html",
+          "included_in_extraction": false
+        }
+      ]
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://tc.canada.ca/en/corporate-services/transparency/info-source",
+      "final_url": "https://tc.canada.ca/en/corporate-services/transparency/info-source",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 147824,
+      "sha256": "177775250baa9387cad3d72394802b4e19be5684b121ca6c050f962036e037e7",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-transport/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-transport/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://tc.canada.ca/en/corporate-services/transparency/appendix-classes-records",
+          "final_url": "https://tc.canada.ca/en/corporate-services/transparency/appendix-classes-records",
+          "http_status": 200,
+          "byte_count": 166779,
+          "sha256": "85d82c7f13a75b466e6da77a91c11c6bc9d82cd806c7c2182d22eed076d57a13",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-transport/snapshots/2026-08-15/raw/classes_of_records_en_linked_1.html",
+          "included_in_extraction": true
+        }
+      ]
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://tc.canada.ca/fr/services-generaux/transparence/appendice-categories-documents",
+      "final_url": "https://tc.canada.ca/fr/services-generaux/transparence/appendice-categories-documents",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 199970,
+      "sha256": "a0535487873bf9f93b6b7754a4eb93e4ba547ab0dfd6f642f576825b3c6c855e",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-transport/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-transport/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://tc.canada.ca/en/corporate-services/transparency/appendix-classes-records",
+          "final_url": "https://tc.canada.ca/en/corporate-services/transparency/appendix-classes-records",
+          "http_status": 200,
+          "byte_count": 166779,
+          "sha256": "85d82c7f13a75b466e6da77a91c11c6bc9d82cd806c7c2182d22eed076d57a13",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-transport/snapshots/2026-08-15/raw/classes_of_records_fr_linked_1.html",
+          "included_in_extraction": false
+        }
+      ]
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 27,
+      "french": 25,
+      "merged": 27
+    },
+    "classes_of_records": {
+      "english": 1,
+      "french": 1,
+      "merged": 1
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:11.131643+00:00",
+  "extraction_rebuild_version": 2
+}

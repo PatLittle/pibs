@@ -1,0 +1,108 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-asia-pacific-foundation-of-canada",
+  "gc_orgID": "3437",
+  "institution_name_en": "Asia-Pacific Foundation of Canada",
+  "institution_name_fr": "Fondation Asie-Pacifique du Canada",
+  "access_act_order": 24,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-asia-pacific-foundation-of-canada",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:54:59.688728+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.asiapacific.ca/about-us/transparency/info-source",
+      "final_url": "https://www.asiapacific.ca/about-us/transparency/info-source",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 102715,
+      "sha256": "d12b70eed5765ad35f1d81b9172be35594650119f1fffc67af1a4d899ac0cf46",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-asia-pacific-foundation-of-canada/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-asia-pacific-foundation-of-canada/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://www.asiapacific.ca/about-us/transparency/info-source?page=0%2C1",
+          "final_url": "https://www.asiapacific.ca/about-us/transparency/info-source?page=0%2C1",
+          "http_status": 200,
+          "byte_count": 102756,
+          "sha256": "e58f4085b92ee666c2b3e90fa6d618ebfe49883562475d7828efe791148e725c",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-asia-pacific-foundation-of-canada/snapshots/2026-08-15/raw/pibs_en_linked_1.html",
+          "included_in_extraction": true
+        }
+      ]
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.asiapacific.ca/fr/about-us/transparency/info-source",
+      "final_url": "https://www.asiapacific.ca/fr/about-us/transparency/info-source",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 117115,
+      "sha256": "ad23fdd2fc0c4e166de0e30ae462284483f949c179d8ffc5a2f6540ca18002e6",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-asia-pacific-foundation-of-canada/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-asia-pacific-foundation-of-canada/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.asiapacific.ca/about-us/transparency/info-source",
+      "final_url": "https://www.asiapacific.ca/about-us/transparency/info-source",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 102715,
+      "sha256": "d12b70eed5765ad35f1d81b9172be35594650119f1fffc67af1a4d899ac0cf46",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-asia-pacific-foundation-of-canada/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-asia-pacific-foundation-of-canada/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://www.asiapacific.ca/about-us/transparency/info-source?page=0%2C1",
+          "final_url": "https://www.asiapacific.ca/about-us/transparency/info-source?page=0%2C1",
+          "http_status": 200,
+          "byte_count": 102756,
+          "sha256": "e58f4085b92ee666c2b3e90fa6d618ebfe49883562475d7828efe791148e725c",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-asia-pacific-foundation-of-canada/snapshots/2026-08-15/raw/classes_of_records_en_linked_1.html",
+          "included_in_extraction": true
+        }
+      ]
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.asiapacific.ca/fr/about-us/transparency/info-source",
+      "final_url": "https://www.asiapacific.ca/fr/about-us/transparency/info-source",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 117115,
+      "sha256": "ad23fdd2fc0c4e166de0e30ae462284483f949c179d8ffc5a2f6540ca18002e6",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-asia-pacific-foundation-of-canada/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-asia-pacific-foundation-of-canada/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 7,
+      "french": 7,
+      "merged": 7
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:11.268386+00:00",
+  "extraction_rebuild_version": 2
+}

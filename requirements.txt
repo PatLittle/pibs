@@ -1,0 +1,7 @@
+beautifulsoup4>=4.14
+lxml>=6.0
+markitdown[pdf]>=0.1.5
+openpyxl>=3.1
+pandas>=2.3
+requests>=2.32
+unidecode>=1.4

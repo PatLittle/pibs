@@ -1,0 +1,98 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-public-health-agency-of-canada",
+  "gc_orgID": "2285",
+  "institution_name_en": "Public Health Agency of Canada",
+  "institution_name_fr": "Agence de la santé publique du Canada",
+  "access_act_order": 123,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-public-health-agency-of-canada",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:59:14.026403+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/public-health/corporate/mandate/about-agency/access-information-privacy/info-source-federal-government-employee-information.html",
+      "final_url": "https://www.canada.ca/en/public-health/corporate/mandate/about-agency/access-information-privacy/info-source-federal-government-employee-information.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 264404,
+      "sha256": "3ee4e1f4600857ef9ac2754457a263a6a1f7e3620748035755f3f2681019593e",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-public-health-agency-of-canada/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-public-health-agency-of-canada/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/how-access-information-personal-information-requests-work.html",
+          "final_url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/how-access-information-personal-information-requests-work.html",
+          "http_status": 200,
+          "byte_count": 41035,
+          "sha256": "2ab1bc33b37424e30cffbf83b924753f4b4395a83f0c889bc100b8a95f35a2d5",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-public-health-agency-of-canada/snapshots/2026-08-15/raw/pibs_en_linked_1.html",
+          "included_in_extraction": false
+        }
+      ]
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/sante-publique/organisation/mandat/a-propos-agence/acces-a-information-protection-renseignements-personnels/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+      "final_url": "https://www.canada.ca/fr/sante-publique/organisation/mandat/a-propos-agence/acces-a-information-protection-renseignements-personnels/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 321254,
+      "sha256": "b7695f30393b56e64748b8ca448ec194bdc8e968ae4b32085628049a0d390ec1",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-public-health-agency-of-canada/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-public-health-agency-of-canada/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/public-health/corporate/mandate/about-agency/access-information-privacy/info-source-federal-government-employee-information.html",
+      "final_url": "https://www.canada.ca/en/public-health/corporate/mandate/about-agency/access-information-privacy/info-source-federal-government-employee-information.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 264404,
+      "sha256": "3ee4e1f4600857ef9ac2754457a263a6a1f7e3620748035755f3f2681019593e",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-public-health-agency-of-canada/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-public-health-agency-of-canada/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/sante-publique/organisation/mandat/a-propos-agence/acces-a-information-protection-renseignements-personnels/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+      "final_url": "https://www.canada.ca/fr/sante-publique/organisation/mandat/a-propos-agence/acces-a-information-protection-renseignements-personnels/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 321254,
+      "sha256": "b7695f30393b56e64748b8ca448ec194bdc8e968ae4b32085628049a0d390ec1",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-public-health-agency-of-canada/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-public-health-agency-of-canada/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 21,
+      "french": 20,
+      "merged": 21
+    },
+    "classes_of_records": {
+      "english": 4,
+      "french": 1,
+      "merged": 4
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:15.983010+00:00",
+  "extraction_rebuild_version": 2
+}

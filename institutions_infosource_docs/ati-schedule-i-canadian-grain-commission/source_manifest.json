@@ -1,0 +1,143 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-canadian-grain-commission",
+  "gc_orgID": "2246",
+  "institution_name_en": "Canadian Grain Commission",
+  "institution_name_fr": "Commission canadienne des grains",
+  "access_act_order": 43,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-canadian-grain-commission",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:55:18.618807+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.grainscanada.gc.ca/en/transparency/info/info-eng.html",
+      "final_url": "https://www.grainscanada.gc.ca/en/transparency/info/info-eng.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "encoding": "ISO-8859-1",
+      "byte_count": 61338,
+      "sha256": "c2ed09d70f0c61c08e41d4f5527bff1d9bbe7b1489bee3ae39346163d978827d",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-grain-commission/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-grain-commission/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.grainscanada.gc.ca/fr/transparence/info/info-fra.html",
+      "final_url": "https://www.grainscanada.gc.ca/fr/transparence/info/info-fra.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "encoding": "ISO-8859-1",
+      "byte_count": 74215,
+      "sha256": "70a454dec5997fc5368ee4f185aaad7eb1c313fa35d1badff843fb462d912542",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-grain-commission/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-grain-commission/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.grainscanada.gc.ca/en/transparency/info/info-eng.html",
+      "final_url": "https://www.grainscanada.gc.ca/en/transparency/info/info-eng.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "encoding": "ISO-8859-1",
+      "byte_count": 61338,
+      "sha256": "c2ed09d70f0c61c08e41d4f5527bff1d9bbe7b1489bee3ae39346163d978827d",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-grain-commission/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-grain-commission/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.grainscanada.gc.ca/fr/transparence/info/info-fra.html",
+      "final_url": "https://www.grainscanada.gc.ca/fr/transparence/info/info-fra.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "encoding": "ISO-8859-1",
+      "byte_count": 74215,
+      "sha256": "70a454dec5997fc5368ee4f185aaad7eb1c313fa35d1badff843fb462d912542",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-grain-commission/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-grain-commission/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://www.grainscanada.gc.ca/fr/qualite-grains/classement-des-grains/facteurs-de-classement/tableaux-de-conversion/",
+          "final_url": "https://www.grainscanada.gc.ca/fr/qualite-grains/classement-des-grains/facteurs-de-classement/tableaux-de-conversion/",
+          "http_status": 200,
+          "byte_count": 13713,
+          "sha256": "e2669cd1fba1038ef68afd548f735e6dde81f4faf027e34a31623ba3aed8080e",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-grain-commission/snapshots/2026-08-15/raw/classes_of_records_fr_linked_1.html",
+          "included_in_extraction": true
+        },
+        {
+          "url": "https://www.grainscanada.gc.ca/fr/qualite-grains/classement-des-grains/facteurs-de-classement/teneur-en-eau/tableaux-de-conversion-de-la-teneur.html",
+          "final_url": "https://www.grainscanada.gc.ca/fr/qualite-grains/classement-des-grains/facteurs-de-classement/teneur-en-eau/tableaux-de-conversion-de-la-teneur.html",
+          "http_status": 200,
+          "byte_count": 22594,
+          "sha256": "cad07fc6fa9448325882f9ffe1b682877883e81c6b05c82f0d97d781f02fb50f",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-grain-commission/snapshots/2026-08-15/raw/classes_of_records_fr_linked_2.html",
+          "included_in_extraction": true
+        },
+        {
+          "url": "https://www.grainscanada.gc.ca/fr/qualite-grains/guide-officiel-classement-grains/",
+          "final_url": "https://www.grainscanada.gc.ca/fr/qualite-grains/guide-officiel-classement-grains/",
+          "http_status": 200,
+          "byte_count": 14426,
+          "sha256": "af18efeee874d529c49c9fc648b4ad23238f3f407ab43f6dfbbded1e22bba911",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-grain-commission/snapshots/2026-08-15/raw/classes_of_records_fr_linked_3.html",
+          "included_in_extraction": true
+        },
+        {
+          "url": "https://www.grainscanada.gc.ca/fr/qualite-grains/classement-des-grains/facteurs-de-classement/tableaux-de-conversion/avoine-conversion.html",
+          "final_url": "https://www.grainscanada.gc.ca/fr/qualite-grains/classement-des-grains/facteurs-de-classement/tableaux-de-conversion/avoine-conversion.html",
+          "http_status": 200,
+          "byte_count": 38824,
+          "sha256": "01cb7fb038160f85746017c9019fdb226c83ae6ba7ad89d5f48b9aa0b84f1e82",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-grain-commission/snapshots/2026-08-15/raw/classes_of_records_fr_linked_4.html",
+          "included_in_extraction": true
+        },
+        {
+          "url": "https://www.grainscanada.gc.ca/fr/qualite-grains/classement-des-grains/facteurs-de-classement/tableaux-de-conversion/ble-conversion.html",
+          "final_url": "https://www.grainscanada.gc.ca/fr/qualite-grains/classement-des-grains/facteurs-de-classement/tableaux-de-conversion/ble-conversion.html",
+          "http_status": 200,
+          "byte_count": 45654,
+          "sha256": "7aa3d5ba159f91568fa3c8daf9461dc97d14e7cebe91ded28a3481cfac5f7562",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-grain-commission/snapshots/2026-08-15/raw/classes_of_records_fr_linked_5.html",
+          "included_in_extraction": true
+        },
+        {
+          "url": "https://www.grainscanada.gc.ca/fr/qualite-grains/classement-des-grains/facteurs-de-classement/tableaux-de-conversion/ble-dur-ambre-conversion.html",
+          "final_url": "https://www.grainscanada.gc.ca/fr/qualite-grains/classement-des-grains/facteurs-de-classement/tableaux-de-conversion/ble-dur-ambre-conversion.html",
+          "http_status": 200,
+          "byte_count": 45728,
+          "sha256": "745ff1dee8b792380fc8fb811ea3fcbc8a5f84544790ca0bc2c9338eb99db06a",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-grain-commission/snapshots/2026-08-15/raw/classes_of_records_fr_linked_6.html",
+          "included_in_extraction": true
+        }
+      ]
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 2,
+      "french": 2,
+      "merged": 2
+    },
+    "classes_of_records": {
+      "english": 6,
+      "french": 6,
+      "merged": 6
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:13.573217+00:00",
+  "extraction_rebuild_version": 2
+}

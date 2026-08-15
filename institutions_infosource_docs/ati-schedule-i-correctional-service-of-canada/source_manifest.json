@@ -1,0 +1,107 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-correctional-service-of-canada",
+  "gc_orgID": "2255",
+  "institution_name_en": "Correctional Service of Canada",
+  "institution_name_fr": "Service correctionnel du Canada",
+  "access_act_order": 61,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-correctional-service-of-canada",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T16:00:20.763367+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source.html",
+      "final_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 324164,
+      "sha256": "4f8fd2cd3631f239e53cc1550f7171da8c389f3687298952e645e1d455ef9730",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-correctional-service-of-canada/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-correctional-service-of-canada/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/atip/correcting-personal-information.html",
+          "final_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/atip/correcting-personal-information.html",
+          "http_status": 200,
+          "byte_count": 24509,
+          "sha256": "72e1ec0e1e274997a2fbdf4cfb71d52e056bf23154f7d081c89bf0a957d4cd26",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-correctional-service-of-canada/snapshots/2026-08-15/raw/pibs_en_linked_1.html",
+          "included_in_extraction": true
+        },
+        {
+          "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/atip/personal-information-request.html",
+          "final_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/atip/personal-information-request.html",
+          "http_status": 200,
+          "byte_count": 23473,
+          "sha256": "1c6580970c03dbb4d7a8c8332fdd8ce12ee01ab9df1d34449e8b78c005286b95",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-correctional-service-of-canada/snapshots/2026-08-15/raw/pibs_en_linked_2.html",
+          "included_in_extraction": true
+        }
+      ]
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source.html",
+      "final_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 375493,
+      "sha256": "32a9171009e650c23d5864060b58425e1c24bdf82f3c3c854eb7e48ee90dcbc7",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-correctional-service-of-canada/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-correctional-service-of-canada/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source.html",
+      "final_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 324164,
+      "sha256": "4f8fd2cd3631f239e53cc1550f7171da8c389f3687298952e645e1d455ef9730",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-correctional-service-of-canada/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-correctional-service-of-canada/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source.html",
+      "final_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 375493,
+      "sha256": "32a9171009e650c23d5864060b58425e1c24bdf82f3c3c854eb7e48ee90dcbc7",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-correctional-service-of-canada/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-correctional-service-of-canada/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 25,
+      "french": 25,
+      "merged": 26
+    },
+    "classes_of_records": {
+      "english": 19,
+      "french": 19,
+      "merged": 19
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:14.307299+00:00",
+  "extraction_rebuild_version": 2
+}

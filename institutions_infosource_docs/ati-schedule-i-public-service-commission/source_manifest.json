@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-public-service-commission",
+  "gc_orgID": "2286",
+  "institution_name_en": "Public Service Commission",
+  "institution_name_fr": "Commission de la fonction publique",
+  "access_act_order": 124,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-public-service-commission",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:59:13.108925+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/info-source-sources-federal-government-employee-information.html",
+      "final_url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/info-source-sources-federal-government-employee-information.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 129027,
+      "sha256": "1eed032e53b6b997c213588a88cdb8748fba9093cc55a46becd0b48e8b311dfa",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-public-service-commission/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-public-service-commission/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/info-source.html",
+      "final_url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/info-source.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 158676,
+      "sha256": "05dd1daa1b1efa477f5826268ec9eaab08f9826a5b8c4007656e3ddd0cbb033b",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-public-service-commission/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-public-service-commission/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/info-source-sources-federal-government-employee-information.html",
+      "final_url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/info-source-sources-federal-government-employee-information.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 129027,
+      "sha256": "1eed032e53b6b997c213588a88cdb8748fba9093cc55a46becd0b48e8b311dfa",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-public-service-commission/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-public-service-commission/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/info-source.html",
+      "final_url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/info-source.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 158676,
+      "sha256": "05dd1daa1b1efa477f5826268ec9eaab08f9826a5b8c4007656e3ddd0cbb033b",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-public-service-commission/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-public-service-commission/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 21,
+      "french": 22,
+      "merged": 22
+    },
+    "classes_of_records": {
+      "english": 8,
+      "french": 8,
+      "merged": 8
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:16.220640+00:00",
+  "extraction_rebuild_version": 2
+}

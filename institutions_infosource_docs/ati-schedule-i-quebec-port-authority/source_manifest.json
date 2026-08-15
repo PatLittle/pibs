@@ -1,0 +1,70 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-quebec-port-authority",
+  "gc_orgID": "3490",
+  "institution_name_en": "Quebec Port Authority",
+  "institution_name_fr": "Administration portuaire de Québec",
+  "access_act_order": 125,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-quebec-port-authority",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T16:03:10.687081+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.portquebec.ca/en/access-to-information-requests/",
+      "final_url": "https://www.portquebec.ca/en/access-to-information-requests/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 125805,
+      "sha256": "1284188548282d8841210495c37021bd628172427e537ba7902f3204f5940b9e",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-quebec-port-authority/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-quebec-port-authority/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "error",
+      "requested_url": "http://www.portquebec.ca/infosource",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://www.portquebec.ca/infosource"
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.portquebec.ca/en/access-to-information-requests/",
+      "final_url": "https://www.portquebec.ca/en/access-to-information-requests/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 125805,
+      "sha256": "1284188548282d8841210495c37021bd628172427e537ba7902f3204f5940b9e",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-quebec-port-authority/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-quebec-port-authority/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "error",
+      "requested_url": "http://www.portquebec.ca/infosource",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://www.portquebec.ca/infosource"
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:16.230750+00:00",
+  "extraction_rebuild_version": 2
+}

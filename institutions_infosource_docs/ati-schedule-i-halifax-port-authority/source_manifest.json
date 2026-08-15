@@ -1,0 +1,52 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-halifax-port-authority",
+  "gc_orgID": "3468",
+  "institution_name_en": "Halifax Port Authority",
+  "institution_name_fr": "Administration portuaire de Halifax",
+  "access_act_order": 76,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-halifax-port-authority",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:56:14.818474+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "error",
+      "requested_url": "https://www.portofhalifax.ca/about-us/",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.portofhalifax.ca/about-us/"
+    },
+    "pibs_fr": {
+      "status": "error",
+      "requested_url": "https://www.portofhalifax.ca/a-propos-de-nous/administration-portuaire/info-source/?lang=fr",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.portofhalifax.ca/a-propos-de-nous/administration-portuaire/info-source/?lang=fr"
+    },
+    "classes_of_records_en": {
+      "status": "error",
+      "requested_url": "https://www.portofhalifax.ca/about-us/",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.portofhalifax.ca/about-us/"
+    },
+    "classes_of_records_fr": {
+      "status": "error",
+      "requested_url": "https://www.portofhalifax.ca/a-propos-de-nous/administration-portuaire/info-source/?lang=fr",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.portofhalifax.ca/a-propos-de-nous/administration-portuaire/info-source/?lang=fr"
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:14.434194+00:00",
+  "extraction_rebuild_version": 2
+}

@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-office-of-the-intelligence-commissioner",
+  "gc_orgID": "2275",
+  "institution_name_en": "Office of the Intelligence Commissioner",
+  "institution_name_fr": "Bureau du commissaire au renseignement",
+  "access_act_order": 111,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-office-of-the-intelligence-commissioner",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:57:26.206396+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/content/dam/oic-bcr/info-source/2025%20-%20Info%20Source%20-%20Sources%20of%20Federal%20Government%20and%20Employee%20Information.pdf",
+      "final_url": "https://www.canada.ca/content/dam/oic-bcr/info-source/2025%20-%20Info%20Source%20-%20Sources%20of%20Federal%20Government%20and%20Employee%20Information.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "encoding": "",
+      "byte_count": 184279,
+      "sha256": "e96f15063647d240a65536b313d8f8a79733bce380826e50d18ed9d30ffc1535",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-intelligence-commissioner/snapshots/2026-08-15/raw/pibs_en.pdf",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-intelligence-commissioner/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/content/dam/oic-bcr/info-source/2025%20-%20Info%20Source%20-%20Sources%20de%20renseignements%20du%20gouvernement%20f%C3%A9d%C3%A9ral%20et%20sur%20les%20fonctionnaires%20f%C3%A9d%C3%A9raux.pdf",
+      "final_url": "https://www.canada.ca/content/dam/oic-bcr/info-source/2025%20-%20Info%20Source%20-%20Sources%20de%20renseignements%20du%20gouvernement%20f%C3%A9d%C3%A9ral%20et%20sur%20les%20fonctionnaires%20f%C3%A9d%C3%A9raux.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "encoding": "",
+      "byte_count": 227634,
+      "sha256": "71c312151f5c815e0066516d561bca92d6483236622733d253958f87a9142899",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-intelligence-commissioner/snapshots/2026-08-15/raw/pibs_fr.pdf",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-intelligence-commissioner/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/content/dam/oic-bcr/info-source/2025%20-%20Info%20Source%20-%20Sources%20of%20Federal%20Government%20and%20Employee%20Information.pdf",
+      "final_url": "https://www.canada.ca/content/dam/oic-bcr/info-source/2025%20-%20Info%20Source%20-%20Sources%20of%20Federal%20Government%20and%20Employee%20Information.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "encoding": "",
+      "byte_count": 184279,
+      "sha256": "e96f15063647d240a65536b313d8f8a79733bce380826e50d18ed9d30ffc1535",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-intelligence-commissioner/snapshots/2026-08-15/raw/classes_of_records_en.pdf",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-intelligence-commissioner/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/content/dam/oic-bcr/info-source/2025%20-%20Info%20Source%20-%20Sources%20de%20renseignements%20du%20gouvernement%20f%C3%A9d%C3%A9ral%20et%20sur%20les%20fonctionnaires%20f%C3%A9d%C3%A9raux.pdf",
+      "final_url": "https://www.canada.ca/content/dam/oic-bcr/info-source/2025%20-%20Info%20Source%20-%20Sources%20de%20renseignements%20du%20gouvernement%20f%C3%A9d%C3%A9ral%20et%20sur%20les%20fonctionnaires%20f%C3%A9d%C3%A9raux.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "encoding": "",
+      "byte_count": 227634,
+      "sha256": "71c312151f5c815e0066516d561bca92d6483236622733d253958f87a9142899",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-intelligence-commissioner/snapshots/2026-08-15/raw/classes_of_records_fr.pdf",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-intelligence-commissioner/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 1,
+      "french": 1,
+      "merged": 1
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:15.294746+00:00",
+  "extraction_rebuild_version": 2
+}

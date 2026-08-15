@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-communications-security-establishment",
+  "gc_orgID": "2253",
+  "institution_name_en": "Communications Security Establishment",
+  "institution_name_fr": "Centre de la sécurité des télécommunications",
+  "access_act_order": 59,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-communications-security-establishment",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:55:54.544336+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.cse-cst.gc.ca/en/accountability/transparency/atip/info-source",
+      "final_url": "https://www.cse-cst.gc.ca/en/accountability/transparency/atip/info-source",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 137335,
+      "sha256": "04d55a45ead03c9930f9e58a3410ff67e99013dda05c0700bdd0b3e2e8bdb554",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-communications-security-establishment/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-communications-security-establishment/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.cse-cst.gc.ca/fr/reddition-de-comptes/transparence/info-source",
+      "final_url": "https://www.cse-cst.gc.ca/fr/reddition-de-comptes/transparence/info-source",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 157795,
+      "sha256": "f6a4b63653c7984335ae6e298413c44447c71027eb43cdb3816a89a795441bc7",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-communications-security-establishment/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-communications-security-establishment/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.cse-cst.gc.ca/en/accountability/transparency/atip/info-source",
+      "final_url": "https://www.cse-cst.gc.ca/en/accountability/transparency/atip/info-source",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 137335,
+      "sha256": "04d55a45ead03c9930f9e58a3410ff67e99013dda05c0700bdd0b3e2e8bdb554",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-communications-security-establishment/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-communications-security-establishment/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.cse-cst.gc.ca/fr/reddition-de-comptes/transparence/info-source",
+      "final_url": "https://www.cse-cst.gc.ca/fr/reddition-de-comptes/transparence/info-source",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 157795,
+      "sha256": "f6a4b63653c7984335ae6e298413c44447c71027eb43cdb3816a89a795441bc7",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-communications-security-establishment/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-communications-security-establishment/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 3,
+      "french": 3,
+      "merged": 3
+    },
+    "classes_of_records": {
+      "english": 3,
+      "french": 2,
+      "merged": 3
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:14.046463+00:00",
+  "extraction_rebuild_version": 2
+}

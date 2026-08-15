@@ -1,0 +1,164 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-department-of-justice",
+  "gc_orgID": "2232",
+  "institution_name_en": "Department of Justice",
+  "institution_name_fr": "Ministère de la Justice",
+  "access_act_order": 15,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-department-of-justice",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:54:26.427628+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/infosource/p5.html#1",
+      "final_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/infosource/p5.html#1",
+      "http_status": 200,
+      "content_type": "text/html",
+      "encoding": "ISO-8859-1",
+      "byte_count": 51961,
+      "sha256": "3f174c3fc08d709b9d7b6b66c11ed3ac38358cb39f6d65580788340a27e0a8b9",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-justice/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-justice/pibs_en.md",
+      "fragment": "1",
+      "discovered_pages": [
+        {
+          "url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/infosource/p5.html?wbdisable=true",
+          "final_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/infosource/p5.html?wbdisable=true",
+          "http_status": 200,
+          "byte_count": 51961,
+          "sha256": "3f174c3fc08d709b9d7b6b66c11ed3ac38358cb39f6d65580788340a27e0a8b9",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-justice/snapshots/2026-08-15/raw/pibs_en_linked_1.html",
+          "included_in_extraction": true
+        }
+      ]
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.justice.gc.ca/fra/trans/aiprp-atip/infosource/tdm-toc.html",
+      "final_url": "https://www.justice.gc.ca/fra/trans/aiprp-atip/infosource/tdm-toc.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "encoding": "ISO-8859-1",
+      "byte_count": 14818,
+      "sha256": "4b6d17ffacbfdbbe83e362d75bb0935752327adb497c3c65fa45a073841952ed",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-justice/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-justice/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://www.justice.gc.ca/fra/trans/aiprp-atip/infosource/p3.html",
+          "final_url": "https://www.justice.gc.ca/fra/trans/aiprp-atip/infosource/p3.html",
+          "http_status": 200,
+          "byte_count": 137057,
+          "sha256": "2869a1e528f8832db6d11b7c13ad191fbcb1459a17ea7920efce9ec86c500052",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-justice/snapshots/2026-08-15/raw/pibs_fr_linked_1.html",
+          "included_in_extraction": true
+        },
+        {
+          "url": "https://www.justice.gc.ca/fra/trans/aiprp-atip/infosource/p5.html",
+          "final_url": "https://www.justice.gc.ca/fra/trans/aiprp-atip/infosource/p5.html",
+          "http_status": 200,
+          "byte_count": 60500,
+          "sha256": "72c47dc3fea485d1ddb8f8dce7c43febe3bf07393ecceef679dee93c9530f3ab",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-justice/snapshots/2026-08-15/raw/pibs_fr_linked_2.html",
+          "included_in_extraction": true
+        },
+        {
+          "url": "https://www.justice.gc.ca/fra/trans/aiprp-atip/infosource/p5.html?wbdisable=true",
+          "final_url": "https://www.justice.gc.ca/fra/trans/aiprp-atip/infosource/p5.html?wbdisable=true",
+          "http_status": 200,
+          "byte_count": 60500,
+          "sha256": "72c47dc3fea485d1ddb8f8dce7c43febe3bf07393ecceef679dee93c9530f3ab",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-justice/snapshots/2026-08-15/raw/pibs_fr_linked_3.html",
+          "included_in_extraction": true
+        }
+      ]
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/infosource/p5.html#2",
+      "final_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/infosource/p5.html#2",
+      "http_status": 200,
+      "content_type": "text/html",
+      "encoding": "ISO-8859-1",
+      "byte_count": 51961,
+      "sha256": "3f174c3fc08d709b9d7b6b66c11ed3ac38358cb39f6d65580788340a27e0a8b9",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-justice/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-justice/classes_of_records_en.md",
+      "fragment": "2",
+      "discovered_pages": [
+        {
+          "url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/infosource/p3.html",
+          "final_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/infosource/p3.html",
+          "http_status": 200,
+          "byte_count": 115505,
+          "sha256": "caef83672b8a1dd001c3d773f1c42530dd5844406142aa776a8dcf99ec19a7a5",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-justice/snapshots/2026-08-15/raw/classes_of_records_en_linked_1.html",
+          "included_in_extraction": true
+        },
+        {
+          "url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/infosource/p3.html?wbdisable=true",
+          "final_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/infosource/p3.html?wbdisable=true",
+          "http_status": 200,
+          "byte_count": 115505,
+          "sha256": "caef83672b8a1dd001c3d773f1c42530dd5844406142aa776a8dcf99ec19a7a5",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-justice/snapshots/2026-08-15/raw/classes_of_records_en_linked_2.html",
+          "included_in_extraction": true
+        }
+      ]
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.justice.gc.ca/fra/trans/aiprp-atip/infosource/tdm-toc.html",
+      "final_url": "https://www.justice.gc.ca/fra/trans/aiprp-atip/infosource/tdm-toc.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "encoding": "ISO-8859-1",
+      "byte_count": 14818,
+      "sha256": "4b6d17ffacbfdbbe83e362d75bb0935752327adb497c3c65fa45a073841952ed",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-justice/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-justice/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://www.justice.gc.ca/fra/trans/aiprp-atip/infosource/p3.html",
+          "final_url": "https://www.justice.gc.ca/fra/trans/aiprp-atip/infosource/p3.html",
+          "http_status": 200,
+          "byte_count": 137057,
+          "sha256": "2869a1e528f8832db6d11b7c13ad191fbcb1459a17ea7920efce9ec86c500052",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-justice/snapshots/2026-08-15/raw/classes_of_records_fr_linked_1.html",
+          "included_in_extraction": true
+        },
+        {
+          "url": "https://www.justice.gc.ca/fra/trans/aiprp-atip/infosource/p3.html?wbdisable=true",
+          "final_url": "https://www.justice.gc.ca/fra/trans/aiprp-atip/infosource/p3.html?wbdisable=true",
+          "http_status": 200,
+          "byte_count": 137057,
+          "sha256": "2869a1e528f8832db6d11b7c13ad191fbcb1459a17ea7920efce9ec86c500052",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-justice/snapshots/2026-08-15/raw/classes_of_records_fr_linked_2.html",
+          "included_in_extraction": true
+        }
+      ]
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 13,
+      "french": 13,
+      "merged": 13
+    },
+    "classes_of_records": {
+      "english": 32,
+      "french": 31,
+      "merged": 32
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:10.137530+00:00",
+  "extraction_rebuild_version": 2
+}

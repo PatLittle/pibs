@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-patented-medicine-prices-review-board",
+  "gc_orgID": "2283",
+  "institution_name_en": "Patented Medicine Prices Review Board",
+  "institution_name_fr": "Conseil d’examen du prix des médicaments brevetés",
+  "access_act_order": 118,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-patented-medicine-prices-review-board",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:59:01.618180+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "http://www.pmprb-cepmb.gc.ca/view.asp?ccid=1093",
+      "final_url": "http://www.pmprb-cepmb.gc.ca/view.asp?ccid=1093",
+      "http_status": 200,
+      "content_type": "text/html",
+      "encoding": "ISO-8859-1",
+      "byte_count": 52625,
+      "sha256": "52e00fec949f39674efb7a0a33e3b9f473942230936b470ad6c448ea20e6b0bb",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-patented-medicine-prices-review-board/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-patented-medicine-prices-review-board/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "http://www.pmprb-cepmb.gc.ca/view.asp?ccid=1093",
+      "final_url": "http://www.pmprb-cepmb.gc.ca/view.asp?ccid=1093",
+      "http_status": 200,
+      "content_type": "text/html",
+      "encoding": "ISO-8859-1",
+      "byte_count": 52625,
+      "sha256": "52e00fec949f39674efb7a0a33e3b9f473942230936b470ad6c448ea20e6b0bb",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-patented-medicine-prices-review-board/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-patented-medicine-prices-review-board/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "http://www.pmprb-cepmb.gc.ca/view.asp?ccid=1093",
+      "final_url": "http://www.pmprb-cepmb.gc.ca/view.asp?ccid=1093",
+      "http_status": 200,
+      "content_type": "text/html",
+      "encoding": "ISO-8859-1",
+      "byte_count": 52625,
+      "sha256": "52e00fec949f39674efb7a0a33e3b9f473942230936b470ad6c448ea20e6b0bb",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-patented-medicine-prices-review-board/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-patented-medicine-prices-review-board/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "http://www.pmprb-cepmb.gc.ca/view.asp?ccid=1093",
+      "final_url": "http://www.pmprb-cepmb.gc.ca/view.asp?ccid=1093",
+      "http_status": 200,
+      "content_type": "text/html",
+      "encoding": "ISO-8859-1",
+      "byte_count": 52625,
+      "sha256": "52e00fec949f39674efb7a0a33e3b9f473942230936b470ad6c448ea20e6b0bb",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-patented-medicine-prices-review-board/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-patented-medicine-prices-review-board/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 3,
+      "french": 3,
+      "merged": 3
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:15.549083+00:00",
+  "extraction_rebuild_version": 2
+}

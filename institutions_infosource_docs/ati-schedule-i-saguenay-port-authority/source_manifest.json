@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-saguenay-port-authority",
+  "gc_orgID": "3493",
+  "institution_name_en": "Saguenay Port Authority",
+  "institution_name_fr": "Administration portuaire du Saguenay",
+  "access_act_order": 129,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-saguenay-port-authority",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T16:03:11.755239+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.portsaguenay.ca/en/page/info-source",
+      "final_url": "https://www.portsaguenay.ca/en/page/info-source",
+      "http_status": 200,
+      "content_type": "text/html; charset=iso-8859-1",
+      "encoding": "iso-8859-1",
+      "byte_count": 41395,
+      "sha256": "fc950e17a6775d167f731ea3910523c6340833d4faf8e02180776ca5db25a166",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-saguenay-port-authority/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-saguenay-port-authority/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.portsaguenay.ca/fr/page/info-source",
+      "final_url": "https://www.portsaguenay.ca/fr/page/info-source",
+      "http_status": 200,
+      "content_type": "text/html; charset=iso-8859-1",
+      "encoding": "iso-8859-1",
+      "byte_count": 47351,
+      "sha256": "0ba28a60cd64a519eaa900629c9d3ad6082e3f1bb17b69b9352c03663c0e0ee7",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-saguenay-port-authority/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-saguenay-port-authority/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.portsaguenay.ca/en/page/info-source",
+      "final_url": "https://www.portsaguenay.ca/en/page/info-source",
+      "http_status": 200,
+      "content_type": "text/html; charset=iso-8859-1",
+      "encoding": "iso-8859-1",
+      "byte_count": 41395,
+      "sha256": "fc950e17a6775d167f731ea3910523c6340833d4faf8e02180776ca5db25a166",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-saguenay-port-authority/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-saguenay-port-authority/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.portsaguenay.ca/fr/page/info-source",
+      "final_url": "https://www.portsaguenay.ca/fr/page/info-source",
+      "http_status": 200,
+      "content_type": "text/html; charset=iso-8859-1",
+      "encoding": "iso-8859-1",
+      "byte_count": 47351,
+      "sha256": "0ba28a60cd64a519eaa900629c9d3ad6082e3f1bb17b69b9352c03663c0e0ee7",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-saguenay-port-authority/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-saguenay-port-authority/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:16.709646+00:00",
+  "extraction_rebuild_version": 2
+}

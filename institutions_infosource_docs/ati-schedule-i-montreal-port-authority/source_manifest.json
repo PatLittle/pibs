@@ -1,0 +1,70 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-montreal-port-authority",
+  "gc_orgID": "3477",
+  "institution_name_en": "Montreal Port Authority",
+  "institution_name_fr": "Administration portuaire de Montréal",
+  "access_act_order": 89,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-montreal-port-authority",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T16:01:20.080795+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.port-montreal.com/images/pdf/2015-03-10_Info-Source-en.pdf",
+      "final_url": "https://www.port-montreal.com/images/pdf/2015-03-10_Info-Source-en.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "encoding": "",
+      "byte_count": 144672,
+      "sha256": "d1cdf08b7317ce6b33895d18b5a2a5b2e1be28fff58f9eb242c6b8b94087b98b",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-montreal-port-authority/snapshots/2026-08-15/raw/pibs_en.pdf",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-montreal-port-authority/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "error",
+      "requested_url": "https://www.port-montreal.com/fr/centre-de-documentation/acces-a-l-information",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.port-montreal.com/fr/centre-de-documentation/acces-a-l-information"
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.port-montreal.com/images/pdf/2015-03-10_Info-Source-en.pdf",
+      "final_url": "https://www.port-montreal.com/images/pdf/2015-03-10_Info-Source-en.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "encoding": "",
+      "byte_count": 144672,
+      "sha256": "d1cdf08b7317ce6b33895d18b5a2a5b2e1be28fff58f9eb242c6b8b94087b98b",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-montreal-port-authority/snapshots/2026-08-15/raw/classes_of_records_en.pdf",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-montreal-port-authority/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "error",
+      "requested_url": "https://www.port-montreal.com/fr/centre-de-documentation/acces-a-l-information",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.port-montreal.com/fr/centre-de-documentation/acces-a-l-information"
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 4,
+      "french": 0,
+      "merged": 4
+    },
+    "classes_of_records": {
+      "english": 15,
+      "french": 0,
+      "merged": 15
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:14.752423+00:00",
+  "extraction_rebuild_version": 2
+}

@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-department-of-indigenous-services",
+  "gc_orgID": "2243",
+  "institution_name_en": "Department of Indigenous Services",
+  "institution_name_fr": "Ministère des Services aux Autochtones",
+  "access_act_order": 13,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-department-of-indigenous-services",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:54:15.575237+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.sac-isc.gc.ca/eng/1639748667069/1639748703555",
+      "final_url": "https://www.sac-isc.gc.ca/eng/1639748667069/1639748703555",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 281037,
+      "sha256": "c16cb4645df7ae1e7dcdf6d16122b8ec550dc7318d7fe606fc99f2d2c1d83f76",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-indigenous-services/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-indigenous-services/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.sac-isc.gc.ca/fra/1639748667069/1639748703555",
+      "final_url": "https://www.sac-isc.gc.ca/fra/1639748667069/1639748703555",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 351698,
+      "sha256": "f8202227d4f5d65d1eb85f3eae6a8cb49500387cf1bc29b46079f177536a6942",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-indigenous-services/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-indigenous-services/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.sac-isc.gc.ca/eng/1639748667069/1639748703555",
+      "final_url": "https://www.sac-isc.gc.ca/eng/1639748667069/1639748703555",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 281037,
+      "sha256": "c16cb4645df7ae1e7dcdf6d16122b8ec550dc7318d7fe606fc99f2d2c1d83f76",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-indigenous-services/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-indigenous-services/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.sac-isc.gc.ca/fra/1639748667069/1639748703555",
+      "final_url": "https://www.sac-isc.gc.ca/fra/1639748667069/1639748703555",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 351698,
+      "sha256": "f8202227d4f5d65d1eb85f3eae6a8cb49500387cf1bc29b46079f177536a6942",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-indigenous-services/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-indigenous-services/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 33,
+      "french": 33,
+      "merged": 33
+    },
+    "classes_of_records": {
+      "english": 62,
+      "french": 62,
+      "merged": 62
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:09.833196+00:00",
+  "extraction_rebuild_version": 2
+}

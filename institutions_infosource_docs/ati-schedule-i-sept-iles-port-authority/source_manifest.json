@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-sept-iles-port-authority",
+  "gc_orgID": "3497",
+  "institution_name_en": "Sept-Îles Port Authority",
+  "institution_name_fr": "Administration portuaire de Sept-Îles",
+  "access_act_order": 134,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-sept-iles-port-authority",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:59:57.621190+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.portsi.com/knowledge-base/info-source/?lang=en",
+      "final_url": "https://www.portsi.com/knowledge-base/info-source/?lang=en",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 570680,
+      "sha256": "918ea5a1454fc35acef0a167d492a070acaf1ec824719aa9b12c83d102a3266e",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-sept-iles-port-authority/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-sept-iles-port-authority/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.portsi.com/centre-de-documentation/info-source/",
+      "final_url": "https://www.portsi.com/centre-de-documentation/info-source/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 515447,
+      "sha256": "60832d691afdc0014800828f4c3cfc2455ad3a6026bf86a5979a7a1a6b39d471",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-sept-iles-port-authority/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-sept-iles-port-authority/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.portsi.com/knowledge-base/info-source/?lang=en",
+      "final_url": "https://www.portsi.com/knowledge-base/info-source/?lang=en",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 570680,
+      "sha256": "918ea5a1454fc35acef0a167d492a070acaf1ec824719aa9b12c83d102a3266e",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-sept-iles-port-authority/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-sept-iles-port-authority/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.portsi.com/centre-de-documentation/info-source/",
+      "final_url": "https://www.portsi.com/centre-de-documentation/info-source/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 515447,
+      "sha256": "60832d691afdc0014800828f4c3cfc2455ad3a6026bf86a5979a7a1a6b39d471",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-sept-iles-port-authority/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-sept-iles-port-authority/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 3,
+      "merged": 3
+    },
+    "classes_of_records": {
+      "english": 21,
+      "french": 0,
+      "merged": 21
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:16.789453+00:00",
+  "extraction_rebuild_version": 2
+}

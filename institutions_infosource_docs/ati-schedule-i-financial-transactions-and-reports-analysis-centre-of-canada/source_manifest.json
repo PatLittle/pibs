@@ -1,0 +1,52 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-financial-transactions-and-reports-analysis-centre-of-canada",
+  "gc_orgID": "2260",
+  "institution_name_en": "Financial Transactions and Reports Analysis Centre of Canada",
+  "institution_name_fr": "Centre d’analyse des opérations et déclarations financières du Canada",
+  "access_act_order": 70,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-financial-transactions-and-reports-analysis-centre-of-canada",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T16:00:43.577737+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "error",
+      "requested_url": "http://www.fintrac-canafe.gc.ca/atip-aiprp/infosource-eng.asp",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://fintrac-canafe.canada.ca/atip-aiprp/infosource-eng.asp"
+    },
+    "pibs_fr": {
+      "status": "error",
+      "requested_url": "http://www.canafe-fintrac.gc.ca/atip-aiprp/infosource-fra.asp",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://fintrac-canafe.canada.ca/atip-aiprp/infosource-fra.asp"
+    },
+    "classes_of_records_en": {
+      "status": "error",
+      "requested_url": "http://www.fintrac-canafe.gc.ca/atip-aiprp/infosource-eng.asp",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://fintrac-canafe.canada.ca/atip-aiprp/infosource-eng.asp"
+    },
+    "classes_of_records_fr": {
+      "status": "error",
+      "requested_url": "http://www.canafe-fintrac.gc.ca/atip-aiprp/infosource-fra.asp",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://fintrac-canafe.canada.ca/atip-aiprp/infosource-fra.asp"
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:14.418560+00:00",
+  "extraction_rebuild_version": 2
+}

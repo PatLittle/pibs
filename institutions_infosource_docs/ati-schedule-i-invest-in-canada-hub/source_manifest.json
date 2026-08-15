@@ -1,0 +1,50 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-invest-in-canada-hub",
+  "gc_orgID": "2317",
+  "institution_name_en": "Invest in Canada Hub",
+  "institution_name_fr": "Investir au Canada",
+  "access_act_order": 81,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-invest-in-canada-hub",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T16:00:48.600169+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "error",
+      "requested_url": "https://www.investcanada.ca/transparency/info-source-chapter-invest-canada",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.investcanada.ca/transparency/info-source-chapter-invest-canada"
+    },
+    "pibs_fr": {
+      "status": "missing_url",
+      "url": ""
+    },
+    "classes_of_records_en": {
+      "status": "error",
+      "requested_url": "https://www.investcanada.ca/transparency/info-source-chapter-invest-canada",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.investcanada.ca/transparency/info-source-chapter-invest-canada"
+    },
+    "classes_of_records_fr": {
+      "status": "missing_url",
+      "url": ""
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:14.567796+00:00",
+  "extraction_rebuild_version": 2
+}

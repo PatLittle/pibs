@@ -38,6 +38,7 @@ add_alias(
 add_alias(
     "rda_number",
     "rda number",
+    "n add",
     "no add",
     "no. add",
     "numero d add",
@@ -52,6 +53,7 @@ add_alias(
     "related record number",
     "related record numbers",
     "renvoi au document no",
+    "renvoi au document n",
     "renvoi au document numero",
     "numero de renvoi au document",
     "numero de connexe",
@@ -66,6 +68,7 @@ add_alias(
     "enregistrement au sct",
     "enregistrement aupres du sct",
     "numero d enregistrement du sct",
+    "numero d enregistrement",
     "enregistrement",
 )
 add_alias(
@@ -170,6 +173,7 @@ OUT_COLUMNS = [
 ]
 
 BANK_RE = re.compile(r"\b([A-Z]{2,6})\s*([A-Z]{3})\s*(\d{3})\b")
+PIB_SERIES = {"PPU", "PPE", "PCE", "PCU", "POU", "PSE", "PSU", "PIB", "FRP"}
 
 
 def normalize_spaces(value):
@@ -240,7 +244,7 @@ def extract_label_value(line):
 
 
 def heading_title(line):
-    match = re.match(r"^#{4,6}\s+(.+)$", line.strip())
+    match = re.match(r"^#{2,6}\s+(.+)$", line.strip())
     if not match:
         return None
     title = clean_value(match.group(1)).strip("* ").strip()
@@ -268,7 +272,7 @@ def inline_title(line):
 
 def parse_bank_number(value):
     match = BANK_RE.search(normalize_spaces(value).upper())
-    if not match:
+    if not match or match.group(2) not in PIB_SERIES:
         return ""
     return f"{match.group(1)} {match.group(2)} {match.group(3)}"
 
@@ -303,12 +307,34 @@ def parse_records(markdown):
 
         title_index = None
         title = ""
+        # Prefer the line immediately preceding the first Description label in
+        # this bank block. Many PDF-derived publications use plain text titles
+        # rather than Markdown headings, while higher-level program headings
+        # occur farther back and are not bank names.
         for scan in range(bank_idx - 1, prev_bank_idx, -1):
-            candidate = heading_title(lines[scan])
-            if candidate:
-                title_index = scan
+            field, _ = extract_label_value(lines[scan])
+            if field != "description":
+                continue
+            candidate_index = scan - 1
+            while candidate_index > prev_bank_idx and not clean_value(lines[candidate_index]):
+                candidate_index -= 1
+            candidate = clean_value(lines[candidate_index].lstrip("#").strip("* "))
+            if (
+                candidate
+                and normalize_label(candidate) not in BAD_TITLES
+                and not candidate.startswith(("[", "* ", "+ ", "- "))
+            ):
+                title_index = candidate_index
                 title = candidate
-                break
+            break
+
+        if title_index is None:
+            for scan in range(bank_idx - 1, prev_bank_idx, -1):
+                candidate = heading_title(lines[scan])
+                if candidate:
+                    title_index = scan
+                    title = candidate
+                    break
 
         if title_index is None:
             for scan in range(bank_idx - 1, prev_bank_idx, -1):
@@ -317,6 +343,27 @@ def parse_records(markdown):
                     title_index = scan
                     title = candidate
                     break
+
+        if title_index is None:
+            # PDF conversions commonly place an unformatted title immediately
+            # before an initial ``- Bank Number`` line, then repeat the number
+            # after the descriptive fields. Use only that adjacent plain line;
+            # scanning farther back risks promoting a value from the prior bank.
+            scan = bank_idx - 1
+            while scan > prev_bank_idx and not clean_value(lines[scan]):
+                scan -= 1
+            candidate = clean_value(lines[scan].lstrip("#").strip("* "))
+            candidate_field, _ = extract_label_value(lines[scan])
+            if (
+                candidate
+                and not candidate_field
+                and not BANK_RE.search(candidate.upper())
+                and normalize_label(candidate) not in BAD_TITLES
+                and len(re.findall(r"[A-Za-zÀ-ÿ]+", candidate)) >= 2
+                and not candidate.startswith(("[", "+ ", "- "))
+            ):
+                title_index = scan
+                title = candidate
 
         if title_index is None:
             title_index = max(prev_bank_idx + 1, 0)
@@ -353,9 +400,11 @@ def parse_records(markdown):
                 scan += 1
 
             value = clean_value(" ".join(values))
-            if value:
+            if value and field != "bank_number":
                 record[field] = value
             block_idx = scan
+
+        record["bank_number"] = bank_number
 
         if not record["last_updated"]:
             match = re.search(
@@ -368,15 +417,39 @@ def parse_records(markdown):
 
         records.append(record)
 
-    deduped = []
-    seen = set()
+    # A number of publications repeat the same bank under multiple program
+    # headings. Canonical identity is the normalized bank number, not the
+    # surrounding heading guessed from presentation markup. Retain the most
+    # complete occurrence deterministically.
+    best_by_number = {}
+    order = []
     for record in records:
-        key = (record["bank_number"], record["title"])
-        if key in seen:
-            continue
-        seen.add(key)
-        deduped.append(record)
-    return deduped
+        # French publications often translate the organization acronym while
+        # preserving the bank series and number (for example ESDC/EDSC). Within
+        # one institution those two components are the canonical local identity.
+        key = short_key(record["bank_number"]) or normalize_label(record["bank_number"])
+        quality = (
+            sum(bool(record[field]) for field in FIELDS),
+            sum(len(record[field]) for field in FIELDS),
+            -len(record["title"]),
+            record["title"],
+        )
+        if key not in best_by_number:
+            order.append(key)
+            best_by_number[key] = (quality, record)
+        else:
+            previous_quality, previous = best_by_number[key]
+            if quality > previous_quality:
+                preferred, fallback = record.copy(), previous
+                preferred_quality = quality
+            else:
+                preferred, fallback = previous.copy(), record
+                preferred_quality = previous_quality
+            for field in FIELDS:
+                if not preferred[field] and fallback[field]:
+                    preferred[field] = fallback[field]
+            best_by_number[key] = (preferred_quality, preferred)
+    return [best_by_number[key][1] for key in order]
 
 
 def normalize_series(series):
@@ -465,25 +538,34 @@ def merge_records(en_records, fr_records):
     return rows
 
 
-def process_folder(folder: Path):
-    en_path = folder / "infosource_en.md"
-    fr_path = folder / "infosource_fr.md"
-    if not en_path.exists() or not fr_path.exists():
-        return "skip", 0, 0, 0
-
-    en_records = parse_records(en_path.read_text(encoding="utf-8", errors="replace"))
-    fr_records = parse_records(fr_path.read_text(encoding="utf-8", errors="replace"))
-    if not en_records and not fr_records:
-        return "skip", 0, 0, 0
-
+def process_files(en_path: Path, fr_path: Path, out_path: Path):
+    en_records = (
+        parse_records(en_path.read_text(encoding="utf-8", errors="replace"))
+        if en_path.exists()
+        else []
+    )
+    fr_records = (
+        parse_records(fr_path.read_text(encoding="utf-8", errors="replace"))
+        if fr_path.exists()
+        else []
+    )
     rows = merge_records(en_records, fr_records)
-    out_path = folder / "pib_table_en_fr.csv"
+    out_path.parent.mkdir(parents=True, exist_ok=True)
     with out_path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=OUT_COLUMNS)
+        writer = csv.DictWriter(handle, fieldnames=OUT_COLUMNS, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
-
     return "processed", len(en_records), len(fr_records), len(rows)
+
+
+def process_folder(folder: Path):
+    en_path = folder / "pibs_en.md"
+    fr_path = folder / "pibs_fr.md"
+    if not en_path.exists():
+        en_path = folder / "infosource_en.md"
+    if not fr_path.exists():
+        fr_path = folder / "infosource_fr.md"
+    return process_files(en_path, fr_path, folder / "pib_table_en_fr.csv")
 
 
 def main():
@@ -497,10 +579,6 @@ def main():
         return 1
 
     status, en_count, fr_count, merged_count = process_folder(folder)
-    if status == "skip":
-        print(f"SKIP {folder.name} (no PIB content in markdown)")
-        return 2
-
     print(f"OK {folder.name}: en={en_count} fr={fr_count} merged={merged_count}")
     return 0
 

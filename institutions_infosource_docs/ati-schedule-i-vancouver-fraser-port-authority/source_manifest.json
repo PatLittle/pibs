@@ -1,0 +1,70 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-vancouver-fraser-port-authority",
+  "gc_orgID": "3509",
+  "institution_name_en": "Vancouver Fraser Port Authority",
+  "institution_name_fr": "Administration portuaire de Vancouver Fraser",
+  "access_act_order": 144,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-vancouver-fraser-port-authority",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T16:00:01.114164+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "error",
+      "requested_url": "https://www.portvancouver.com/transparency/info-source/",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.portvancouver.com/transparency/info-source/"
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.portvancouver.com%2Fwp-content%2Fuploads%2F2015%2F07%2F2017-Sources-de-renseignements-du-gouvernement-f%25C3%25A9d%25C3%A9ral.docx&wdOrigin=BROWSELINK",
+      "final_url": "https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.portvancouver.com%2Fwp-content%2Fuploads%2F2015%2F07%2F2017-Sources-de-renseignements-du-gouvernement-f%25C3%25A9d%25C3%A9ral.docx&wdOrigin=BROWSELINK",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 5451,
+      "sha256": "b57523394063e930473545fe969ed473fe7e3115d31b55141a152b31f692ff27",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-vancouver-fraser-port-authority/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-vancouver-fraser-port-authority/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "error",
+      "requested_url": "https://www.portvancouver.com/transparency/info-source/",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.portvancouver.com/transparency/info-source/"
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.portvancouver.com%2Fwp-content%2Fuploads%2F2015%2F07%2F2017-Sources-de-renseignements-du-gouvernement-f%25C3%25A9d%25C3%A9ral.docx&wdOrigin=BROWSELINK",
+      "final_url": "https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.portvancouver.com%2Fwp-content%2Fuploads%2F2015%2F07%2F2017-Sources-de-renseignements-du-gouvernement-f%25C3%25A9d%25C3%A9ral.docx&wdOrigin=BROWSELINK",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 5451,
+      "sha256": "b57523394063e930473545fe969ed473fe7e3115d31b55141a152b31f692ff27",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-vancouver-fraser-port-authority/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-vancouver-fraser-port-authority/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:17.407668+00:00",
+  "extraction_rebuild_version": 2
+}

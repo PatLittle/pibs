@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-department-of-crown-indigenous-relations-and-northern-affairs",
+  "gc_orgID": "2230",
+  "institution_name_en": "Department of Crown-Indigenous Relations and Northern Affairs",
+  "institution_name_fr": "Ministère des Relations Couronne-Autochtones et des Affaires du Nord",
+  "access_act_order": 5,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-department-of-crown-indigenous-relations-and-northern-affairs",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:53:25.086372+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.rcaanc-cirnac.gc.ca/eng/1638307261809/1638307285229",
+      "final_url": "https://www.rcaanc-cirnac.gc.ca/eng/1638307261809/1638307285229",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 173994,
+      "sha256": "fa3587e3ade800b38d9c2f338d072dee792f2270721f4c0646bb35547335b7bc",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-crown-indigenous-relations-and-northern-affairs/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-crown-indigenous-relations-and-northern-affairs/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.rcaanc-cirnac.gc.ca/fra/1638307261809/1638307285229",
+      "final_url": "https://www.rcaanc-cirnac.gc.ca/fra/1638307261809/1638307285229",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 208987,
+      "sha256": "ec927ade45c6550c8a5223157ac2389cca264d75379b0df9a1cea0ef25d51f86",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-crown-indigenous-relations-and-northern-affairs/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-crown-indigenous-relations-and-northern-affairs/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.rcaanc-cirnac.gc.ca/eng/1638307261809/1638307285229",
+      "final_url": "https://www.rcaanc-cirnac.gc.ca/eng/1638307261809/1638307285229",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 173994,
+      "sha256": "fa3587e3ade800b38d9c2f338d072dee792f2270721f4c0646bb35547335b7bc",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-crown-indigenous-relations-and-northern-affairs/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-crown-indigenous-relations-and-northern-affairs/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.rcaanc-cirnac.gc.ca/fra/1638307261809/1638307285229",
+      "final_url": "https://www.rcaanc-cirnac.gc.ca/fra/1638307261809/1638307285229",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 208987,
+      "sha256": "ec927ade45c6550c8a5223157ac2389cca264d75379b0df9a1cea0ef25d51f86",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-crown-indigenous-relations-and-northern-affairs/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-crown-indigenous-relations-and-northern-affairs/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 15,
+      "french": 14,
+      "merged": 16
+    },
+    "classes_of_records": {
+      "english": 49,
+      "french": 47,
+      "merged": 49
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:07.928673+00:00",
+  "extraction_rebuild_version": 2
+}

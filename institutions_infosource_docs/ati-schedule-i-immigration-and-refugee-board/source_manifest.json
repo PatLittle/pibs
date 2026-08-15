@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-immigration-and-refugee-board",
+  "gc_orgID": "2261",
+  "institution_name_en": "Immigration and Refugee Board",
+  "institution_name_fr": "Commission de l’immigration et du statut de réfugié",
+  "access_act_order": 79,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-immigration-and-refugee-board",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:56:19.992255+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://irb-cisr.gc.ca/en/transparency/atip/Pages/infosource.aspx",
+      "final_url": "https://irb-cisr.gc.ca/en/transparency/atip/Pages/infosource.aspx",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 126226,
+      "sha256": "732d2d257489c42fa7293d4b974e7ed0cc11782b40d0545b3d3190a8b7ea8b62",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-immigration-and-refugee-board/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-immigration-and-refugee-board/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://irb-cisr.gc.ca/fr/transparence/efvp/Pages/infosource.aspx",
+      "final_url": "https://irb-cisr.gc.ca/fr/transparence/efvp/Pages/infosource.aspx",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 142976,
+      "sha256": "8da1a92c2ed7b9faf1d1f7b2fbf27a262e21bdceab643cb29fda93350389c57f",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-immigration-and-refugee-board/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-immigration-and-refugee-board/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://irb-cisr.gc.ca/en/transparency/atip/Pages/infosource.aspx",
+      "final_url": "https://irb-cisr.gc.ca/en/transparency/atip/Pages/infosource.aspx",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 126226,
+      "sha256": "732d2d257489c42fa7293d4b974e7ed0cc11782b40d0545b3d3190a8b7ea8b62",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-immigration-and-refugee-board/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-immigration-and-refugee-board/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://irb-cisr.gc.ca/fr/transparence/efvp/Pages/infosource.aspx",
+      "final_url": "https://irb-cisr.gc.ca/fr/transparence/efvp/Pages/infosource.aspx",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 142976,
+      "sha256": "8da1a92c2ed7b9faf1d1f7b2fbf27a262e21bdceab643cb29fda93350389c57f",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-immigration-and-refugee-board/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-immigration-and-refugee-board/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 7,
+      "french": 7,
+      "merged": 7
+    },
+    "classes_of_records": {
+      "english": 11,
+      "french": 11,
+      "merged": 11
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:14.548231+00:00",
+  "extraction_rebuild_version": 2
+}

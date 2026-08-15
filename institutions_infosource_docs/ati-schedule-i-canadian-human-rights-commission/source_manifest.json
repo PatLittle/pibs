@@ -1,0 +1,52 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-canadian-human-rights-commission",
+  "gc_orgID": "2247",
+  "institution_name_en": "Canadian Human Rights Commission",
+  "institution_name_fr": "Commission canadienne des droits de la personne",
+  "access_act_order": 45,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-canadian-human-rights-commission",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:59:17.846211+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "error",
+      "requested_url": "https://www.chrc-ccdp.gc.ca/sites/default/files/2022-09/OTTAWAITI7-%233111281-v1-Info_Source__Sources_of_Federal_Government_and_Employee_Information_2022_FINAL.pdf",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://www.chrc-ccdp.gc.ca/sites/default/files/2022-09/OTTAWAITI7-%233111281-v1-Info_Source__Sources_of_Federal_Government_and_Employee_Information_2022_FINAL.pdf"
+    },
+    "pibs_fr": {
+      "status": "error",
+      "requested_url": "https://www.chrc-ccdp.gc.ca/sites/default/files/2022-09/OTTAWAITI7-%233111276-v1-Info_Source___Sources_de_renseignements_sur_le_gouvernement_et_les_employes_federaux_2022_FINAL.pdf",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://www.chrc-ccdp.gc.ca/sites/default/files/2022-09/OTTAWAITI7-%233111276-v1-Info_Source___Sources_de_renseignements_sur_le_gouvernement_et_les_employes_federaux_2022_FINAL.pdf"
+    },
+    "classes_of_records_en": {
+      "status": "error",
+      "requested_url": "https://www.chrc-ccdp.gc.ca/sites/default/files/2022-09/OTTAWAITI7-%233111281-v1-Info_Source__Sources_of_Federal_Government_and_Employee_Information_2022_FINAL.pdf",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://www.chrc-ccdp.gc.ca/sites/default/files/2022-09/OTTAWAITI7-%233111281-v1-Info_Source__Sources_of_Federal_Government_and_Employee_Information_2022_FINAL.pdf"
+    },
+    "classes_of_records_fr": {
+      "status": "error",
+      "requested_url": "https://www.chrc-ccdp.gc.ca/sites/default/files/2022-09/OTTAWAITI7-%233111276-v1-Info_Source___Sources_de_renseignements_sur_le_gouvernement_et_les_employes_federaux_2022_FINAL.pdf",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://www.chrc-ccdp.gc.ca/sites/default/files/2022-09/OTTAWAITI7-%233111276-v1-Info_Source___Sources_de_renseignements_sur_le_gouvernement_et_les_employes_federaux_2022_FINAL.pdf"
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:13.578921+00:00",
+  "extraction_rebuild_version": 2
+}

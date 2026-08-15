@@ -1,0 +1,70 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-mackenzie-valley-environmental-impact-review-board",
+  "gc_orgID": "",
+  "institution_name_en": "Mackenzie Valley Environmental Impact Review Board",
+  "institution_name_fr": "Office d’examen des répercussions environnementales de la vallée du Mackenzie",
+  "access_act_order": 84,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-mackenzie-valley-environmental-impact-review-board",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:56:33.849280+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://reviewboard.ca/about/access_information_requests",
+      "final_url": "https://reviewboard.ca/about/access_information_requests",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 26653,
+      "sha256": "9ea86e81ba1caf8c45f7a9ba0881e6a75b2f799b4b19921bf80d3ba14c7c9bd8",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-mackenzie-valley-environmental-impact-review-board/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-mackenzie-valley-environmental-impact-review-board/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "error",
+      "requested_url": "http://www.reviewboard.ca/about/access_information_requests.php",
+      "error": "SSLError: HTTPSConnectionPool(host='www.reviewboard.ca', port=443): Max retries exceeded with url: /about/access_information_requests.php (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.reviewboard.ca'. (_ssl.c:1000)\")))"
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://reviewboard.ca/about/access_information_requests",
+      "final_url": "https://reviewboard.ca/about/access_information_requests",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 26653,
+      "sha256": "9ea86e81ba1caf8c45f7a9ba0881e6a75b2f799b4b19921bf80d3ba14c7c9bd8",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-mackenzie-valley-environmental-impact-review-board/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-mackenzie-valley-environmental-impact-review-board/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "error",
+      "requested_url": "http://www.reviewboard.ca/about/access_information_requests.php",
+      "error": "SSLError: HTTPSConnectionPool(host='www.reviewboard.ca', port=443): Max retries exceeded with url: /about/access_information_requests.php (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.reviewboard.ca'. (_ssl.c:1000)\")))"
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:14.702558+00:00",
+  "extraction_rebuild_version": 2
+}

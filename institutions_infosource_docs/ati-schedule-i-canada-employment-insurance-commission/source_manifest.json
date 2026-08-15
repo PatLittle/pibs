@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-canada-employment-insurance-commission",
+  "gc_orgID": "2302",
+  "institution_name_en": "Canada Employment Insurance Commission",
+  "institution_name_fr": "Commission de l’assurance-emploi du Canada",
+  "access_act_order": 30,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-canada-employment-insurance-commission",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:55:06.065595+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html",
+      "final_url": "https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 377732,
+      "sha256": "7028bfc86f6e4a5df5f14d5ec32ac223a71be35a974a72323df5ddeb652ba7b8",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canada-employment-insurance-commission/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canada-employment-insurance-commission/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource-2023-2024/infosource-detaille.html",
+      "final_url": "https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource-2023-2024/infosource-detaille.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 454031,
+      "sha256": "fca0f689acedc5e5f0d0be8eb6b5327a0d6dd1a741bac0d64917555a1feea36a",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canada-employment-insurance-commission/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canada-employment-insurance-commission/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html",
+      "final_url": "https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 377732,
+      "sha256": "7028bfc86f6e4a5df5f14d5ec32ac223a71be35a974a72323df5ddeb652ba7b8",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canada-employment-insurance-commission/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canada-employment-insurance-commission/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource-2023-2024/infosource-detaille.html",
+      "final_url": "https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource-2023-2024/infosource-detaille.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 454031,
+      "sha256": "fca0f689acedc5e5f0d0be8eb6b5327a0d6dd1a741bac0d64917555a1feea36a",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canada-employment-insurance-commission/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canada-employment-insurance-commission/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 66,
+      "french": 66,
+      "merged": 66
+    },
+    "classes_of_records": {
+      "english": 82,
+      "french": 80,
+      "merged": 86
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:12.106038+00:00",
+  "extraction_rebuild_version": 2
+}

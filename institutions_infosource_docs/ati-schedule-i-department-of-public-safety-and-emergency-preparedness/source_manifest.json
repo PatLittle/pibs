@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-department-of-public-safety-and-emergency-preparedness",
+  "gc_orgID": "2235",
+  "institution_name_en": "Department of Public Safety and Emergency Preparedness",
+  "institution_name_fr": "Ministère de la Sécurité publique et de la Protection civile",
+  "access_act_order": 18,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:54:31.249955+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/nfsrc-en.aspx",
+      "final_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/nfsrc-en.aspx",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 143212,
+      "sha256": "9b139ae3f2983b8f451fb81c77c2739f0c711f4a77696e83e505466a271de48e",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/nfsrc-fr.aspx",
+      "final_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/nfsrc-fr.aspx",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 170602,
+      "sha256": "52eb962d3ff54f282253ca4e03656bd84079307cbe030ef9cc02da2c89311cd1",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/nfsrc-en.aspx",
+      "final_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/nfsrc-en.aspx",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 143212,
+      "sha256": "9b139ae3f2983b8f451fb81c77c2739f0c711f4a77696e83e505466a271de48e",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/nfsrc-fr.aspx",
+      "final_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/nfsrc-fr.aspx",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 170602,
+      "sha256": "52eb962d3ff54f282253ca4e03656bd84079307cbe030ef9cc02da2c89311cd1",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 8,
+      "french": 10,
+      "merged": 10
+    },
+    "classes_of_records": {
+      "english": 1,
+      "french": 0,
+      "merged": 1
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:10.856056+00:00",
+  "extraction_rebuild_version": 2
+}

@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-canada-school-of-public-service",
+  "gc_orgID": "2304",
+  "institution_name_en": "Canada School of Public Service",
+  "institution_name_fr": "École de la fonction publique du Canada",
+  "access_act_order": 36,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-canada-school-of-public-service",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:55:09.930534+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://csps-efpc.gc.ca/About_Us/currentreport/programs-holdings-eng.aspx",
+      "final_url": "https://www.csps-efpc.gc.ca/error/default.aspx?aspxerrorpath=/about_us/currentreport/programs-holdings-eng.aspx",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 11844,
+      "sha256": "63c0561f4de39d948c2526d0c910d5a7d427a862e064ebaaaf836d832f215288",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canada-school-of-public-service/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canada-school-of-public-service/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://csps-efpc.gc.ca/about_us/currentreport/programs-holdings-fra.aspx",
+      "final_url": "https://www.csps-efpc.gc.ca/error/default.aspx?aspxerrorpath=/about_us/currentreport/programs-holdings-fra.aspx",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 11844,
+      "sha256": "2a5c8f76eb04ad633dfc94dd4efa88a1066949302c9e0f87a885fae997ed13ea",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canada-school-of-public-service/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canada-school-of-public-service/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://csps-efpc.gc.ca/About_Us/currentreport/programs-holdings-eng.aspx",
+      "final_url": "https://www.csps-efpc.gc.ca/error/default.aspx?aspxerrorpath=/about_us/currentreport/programs-holdings-eng.aspx",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 11844,
+      "sha256": "63c0561f4de39d948c2526d0c910d5a7d427a862e064ebaaaf836d832f215288",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canada-school-of-public-service/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canada-school-of-public-service/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://csps-efpc.gc.ca/about_us/currentreport/programs-holdings-fra.aspx",
+      "final_url": "https://www.csps-efpc.gc.ca/error/default.aspx?aspxerrorpath=/about_us/currentreport/programs-holdings-fra.aspx",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 11844,
+      "sha256": "2a5c8f76eb04ad633dfc94dd4efa88a1066949302c9e0f87a885fae997ed13ea",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canada-school-of-public-service/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canada-school-of-public-service/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:12.448444+00:00",
+  "extraction_rebuild_version": 2
+}

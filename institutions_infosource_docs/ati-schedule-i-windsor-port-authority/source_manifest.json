@@ -1,0 +1,52 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-windsor-port-authority",
+  "gc_orgID": "3514",
+  "institution_name_en": "Windsor Port Authority",
+  "institution_name_fr": "Administration portuaire de Windsor",
+  "access_act_order": 146,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-windsor-port-authority",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T16:05:41.452259+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "error",
+      "requested_url": "https://www.portwindsor.com/wp-content/uploads/2018/02/Port-of-Windsor-Info-Source-2018-1.pdf",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://portwindsor.com/wp-content/uploads/2018/02/Port-of-Windsor-Info-Source-2018-1.pdf"
+    },
+    "pibs_fr": {
+      "status": "error",
+      "requested_url": "https://www.portwindsor.com/wp-content/uploads/2018/02/Port-of-Windsor-Info-Source-2018-fr-2.pdf",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://portwindsor.com/wp-content/uploads/2018/02/Port-of-Windsor-Info-Source-2018-fr-2.pdf"
+    },
+    "classes_of_records_en": {
+      "status": "error",
+      "requested_url": "https://www.portwindsor.com/wp-content/uploads/2018/02/Port-of-Windsor-Info-Source-2018-1.pdf",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://portwindsor.com/wp-content/uploads/2018/02/Port-of-Windsor-Info-Source-2018-1.pdf"
+    },
+    "classes_of_records_fr": {
+      "status": "error",
+      "requested_url": "https://www.portwindsor.com/wp-content/uploads/2018/02/Port-of-Windsor-Info-Source-2018-fr-2.pdf",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://portwindsor.com/wp-content/uploads/2018/02/Port-of-Windsor-Info-Source-2018-fr-2.pdf"
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:17.409365+00:00",
+  "extraction_rebuild_version": 2
+}

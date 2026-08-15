@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-department-of-canadian-heritage",
+  "gc_orgID": "2223",
+  "institution_name_en": "Department of Canadian Heritage",
+  "institution_name_fr": "Ministère du Patrimoine canadien",
+  "access_act_order": 3,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-department-of-canadian-heritage",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:53:34.551668+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/canadian-heritage/corporate/publications/general-publications/information-programs-holdings.html",
+      "final_url": "https://www.canada.ca/en/canadian-heritage/corporate/publications/general-publications/information-programs-holdings.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 231480,
+      "sha256": "c835285b6fdd5a53dcb4dede28bdd3a33772e95a43dede6db0fa6a58cd3dea41",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-canadian-heritage/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-canadian-heritage/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/patrimoine-canadien/organisation/publications/publications-generales/renseignements-programmes-fonds.html",
+      "final_url": "https://www.canada.ca/fr/patrimoine-canadien/organisation/publications/publications-generales/renseignements-programmes-fonds.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 277568,
+      "sha256": "8c2ff2e2821ba01d9dc57b701735b15e6024cb6fd835eafacb1523901bf01377",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-canadian-heritage/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-canadian-heritage/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/canadian-heritage/corporate/publications/general-publications/information-programs-holdings.html",
+      "final_url": "https://www.canada.ca/en/canadian-heritage/corporate/publications/general-publications/information-programs-holdings.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 231480,
+      "sha256": "c835285b6fdd5a53dcb4dede28bdd3a33772e95a43dede6db0fa6a58cd3dea41",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-canadian-heritage/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-canadian-heritage/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/patrimoine-canadien/organisation/publications/publications-generales/renseignements-programmes-fonds.html",
+      "final_url": "https://www.canada.ca/fr/patrimoine-canadien/organisation/publications/publications-generales/renseignements-programmes-fonds.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 277568,
+      "sha256": "8c2ff2e2821ba01d9dc57b701735b15e6024cb6fd835eafacb1523901bf01377",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-canadian-heritage/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-canadian-heritage/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 7,
+      "french": 7,
+      "merged": 7
+    },
+    "classes_of_records": {
+      "english": 63,
+      "french": 63,
+      "merged": 63
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:07.597416+00:00",
+  "extraction_rebuild_version": 2
+}

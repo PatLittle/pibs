@@ -1,0 +1,52 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-social-sciences-and-humanities-research-council",
+  "gc_orgID": "2316",
+  "institution_name_en": "Social Sciences and Humanities Research Council",
+  "institution_name_fr": "Conseil de recherches en sciences humaines",
+  "access_act_order": 136,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-social-sciences-and-humanities-research-council",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T16:05:26.217946+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "error",
+      "requested_url": "http://www.sshrc-crsh.gc.ca/transparency-transparence/atip-aiprp/infosource-eng.aspx",
+      "error": "ConnectionError: HTTPConnectionPool(host='sshrc-crsh.canada.ca', port=80): Max retries exceeded with url: /en/about-sshrc/transparency/info-source.aspx (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))"
+    },
+    "pibs_fr": {
+      "status": "error",
+      "requested_url": "http://www.sshrc-crsh.gc.ca/transparency-transparence/atip-aiprp/infosource-fra.aspx",
+      "error": "ConnectionError: HTTPConnectionPool(host='sshrc-crsh.canada.ca', port=80): Max retries exceeded with url: /fr/sujet-crsh/transparence/info-source.aspx (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))"
+    },
+    "classes_of_records_en": {
+      "status": "error",
+      "requested_url": "http://www.sshrc-crsh.gc.ca/transparency-transparence/atip-aiprp/infosource-eng.aspx",
+      "error": "ConnectionError: HTTPConnectionPool(host='sshrc-crsh.canada.ca', port=80): Max retries exceeded with url: /en/about-sshrc/transparency/info-source.aspx (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))"
+    },
+    "classes_of_records_fr": {
+      "status": "error",
+      "requested_url": "http://www.sshrc-crsh.gc.ca/transparency-transparence/atip-aiprp/infosource-fra.aspx",
+      "error": "ConnectionError: HTTPConnectionPool(host='sshrc-crsh.canada.ca', port=80): Max retries exceeded with url: /fr/sujet-crsh/transparence/info-source.aspx (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))"
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:16.874021+00:00",
+  "extraction_rebuild_version": 2
+}

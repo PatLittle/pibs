@@ -1,0 +1,108 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-canada-revenue-agency",
+  "gc_orgID": "2303",
+  "institution_name_en": "Canada Revenue Agency",
+  "institution_name_fr": "Agence du revenu du Canada",
+  "access_act_order": 35,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-canada-revenue-agency",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:58:33.600770+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/info-source-appendix.html",
+      "final_url": "https://www.canada.ca/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/info-source-appendix.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 353183,
+      "sha256": "1e9d9e9943e99b2e27765fa1bb3799a6c72558056b675058f06ce505de555408",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canada-revenue-agency/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canada-revenue-agency/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/fonds-renseignements-agence-revenu-canada-info-source.html",
+      "final_url": "https://www.canada.ca/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/fonds-renseignements-agence-revenu-canada-info-source.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 172799,
+      "sha256": "d257d129cd36deac5f9a724bf7552c1b2e5c9c80bb46a1b5941b357a02035e39",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canada-revenue-agency/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canada-revenue-agency/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://www.canada.ca/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/info-source-annexe.html",
+          "final_url": "https://www.canada.ca/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/info-source-annexe.html",
+          "http_status": 200,
+          "byte_count": 464856,
+          "sha256": "bc602f2dac8fd7ba0a17f253653bf7065830916f6f33b74ec6342aa690ec855b",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-canada-revenue-agency/snapshots/2026-08-15/raw/pibs_fr_linked_1.html",
+          "included_in_extraction": true
+        }
+      ]
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/info-source-sources-federal-government-employee-information.html",
+      "final_url": "https://www.canada.ca/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/info-source-sources-federal-government-employee-information.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 139873,
+      "sha256": "74ce43708dc4fdb03b359240774b00b80773c1481c158383e0b3122c2ac3308b",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canada-revenue-agency/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canada-revenue-agency/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://www.canada.ca/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/appendix.html",
+          "final_url": "https://www.canada.ca/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/appendix.html",
+          "http_status": 200,
+          "byte_count": 147699,
+          "sha256": "de2ac177dda1485aadccfad809d4e846b72542e865c1ceb64141b2282eac7508",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-canada-revenue-agency/snapshots/2026-08-15/raw/classes_of_records_en_linked_1.html",
+          "included_in_extraction": true
+        }
+      ]
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/appendice.html",
+      "final_url": "https://www.canada.ca/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/appendice.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 183503,
+      "sha256": "d50acf8d8cbaad4244b6c5b1e3bb97be35b9f94465c0282093d4496a3c91f70e",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canada-revenue-agency/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canada-revenue-agency/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 3,
+      "merged": 3
+    },
+    "classes_of_records": {
+      "english": 53,
+      "french": 53,
+      "merged": 54
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:12.446539+00:00",
+  "extraction_rebuild_version": 2
+}

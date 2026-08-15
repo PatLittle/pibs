@@ -1,0 +1,98 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-library-and-archives-of-canada",
+  "gc_orgID": "2262",
+  "institution_name_en": "Library and Archives of Canada",
+  "institution_name_fr": "Bibliothèque et Archives du Canada",
+  "access_act_order": 83,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-library-and-archives-of-canada",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:56:29.239947+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/library-archives/services/public/access-information-privacy/infosource/institution-specific-personal-information-banks.html",
+      "final_url": "https://www.canada.ca/en/library-archives/services/public/access-information-privacy/infosource/institution-specific-personal-information-banks.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 115939,
+      "sha256": "e8fcae8c1ec08f534bbe7964a49ebc4ab8268fde925548b17a47a745935da35d",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-library-and-archives-of-canada/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-library-and-archives-of-canada/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/bibliotheque-archives/services/public/acces-information-renseignements-personnels/infosource/categories-documents-renseignements-institution.html",
+      "final_url": "https://www.canada.ca/fr/bibliotheque-archives/services/public/acces-information-renseignements-personnels/infosource/categories-documents-renseignements-institution.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 141025,
+      "sha256": "d258cc0b5408d6e8276b8163dccdb9bb031b0236fab732e4a366310d4b81d282",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-library-and-archives-of-canada/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-library-and-archives-of-canada/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://www.canada.ca/en/library-archives/services/public/access-information-privacy/infosource/institution-specific-personal-information-banks.html",
+          "final_url": "https://www.canada.ca/en/library-archives/services/public/access-information-privacy/infosource/institution-specific-personal-information-banks.html",
+          "http_status": 200,
+          "byte_count": 115939,
+          "sha256": "d11f65da30004bf4bb048e2abde2e4ec24aedbb8d16916ce007ab0a67688c28a",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-library-and-archives-of-canada/snapshots/2026-08-15/raw/pibs_fr_linked_1.html",
+          "included_in_extraction": false
+        }
+      ]
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/library-archives/services/public/access-information-privacy/infosource/institution-specific-personal-information-banks.html",
+      "final_url": "https://www.canada.ca/en/library-archives/services/public/access-information-privacy/infosource/institution-specific-personal-information-banks.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 115939,
+      "sha256": "e8fcae8c1ec08f534bbe7964a49ebc4ab8268fde925548b17a47a745935da35d",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-library-and-archives-of-canada/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-library-and-archives-of-canada/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/bibliotheque-archives/services/public/acces-information-renseignements-personnels/infosource/categories-documents-renseignements-institution.html",
+      "final_url": "https://www.canada.ca/fr/bibliotheque-archives/services/public/acces-information-renseignements-personnels/infosource/categories-documents-renseignements-institution.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 141025,
+      "sha256": "d258cc0b5408d6e8276b8163dccdb9bb031b0236fab732e4a366310d4b81d282",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-library-and-archives-of-canada/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-library-and-archives-of-canada/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 23,
+      "french": 23,
+      "merged": 23
+    },
+    "classes_of_records": {
+      "english": 33,
+      "french": 33,
+      "merged": 33
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:14.700160+00:00",
+  "extraction_rebuild_version": 2
+}

@@ -1,0 +1,118 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-department-of-western-economic-diversification",
+  "gc_orgID": "2240",
+  "institution_name_en": "Department of Western Economic Diversification",
+  "institution_name_fr": "Ministère de la Diversification de l’économie de l’Ouest canadien",
+  "access_act_order": 22,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-department-of-western-economic-diversification",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:55:41.832338+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/prairies-economic-development/corporate/transparency/information-holdings.html",
+      "final_url": "https://www.canada.ca/en/prairies-economic-development/corporate/transparency/information-holdings.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 63509,
+      "sha256": "b7cb6f3adda9f50c900b9e4a357a84b4576ace7945effddbc38368653c7fa49f",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-western-economic-diversification/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-western-economic-diversification/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://www.canada.ca/en/prairies-economic-development/corporate/transparency/information-holdings/personal-information-banks.html",
+          "final_url": "https://www.canada.ca/en/prairies-economic-development/corporate/transparency/information-holdings/personal-information-banks.html",
+          "http_status": 200,
+          "byte_count": 21536,
+          "sha256": "dc86718f49a8d6de4bae8225cc74248b2f3fd49e2d237b1f38273ae0ec777a36",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-western-economic-diversification/snapshots/2026-08-15/raw/pibs_en_linked_1.html",
+          "included_in_extraction": true
+        }
+      ]
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/developpement-economique-prairies/organisation/transparence/fonds-renseignements.html",
+      "final_url": "https://www.canada.ca/fr/developpement-economique-prairies/organisation/transparence/fonds-renseignements.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 74560,
+      "sha256": "9e0c49cc9d0c4067f083a1494b80130823b3c70e3691b89b22d2a0ee94c350fa",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-western-economic-diversification/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-western-economic-diversification/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/prairies-economic-development/corporate/transparency/information-holdings.html",
+      "final_url": "https://www.canada.ca/en/prairies-economic-development/corporate/transparency/information-holdings.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 63509,
+      "sha256": "b7cb6f3adda9f50c900b9e4a357a84b4576ace7945effddbc38368653c7fa49f",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-western-economic-diversification/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-western-economic-diversification/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://www.canada.ca/en/prairies-economic-development/corporate/transparency/information-holdings/classes-records.html",
+          "final_url": "https://www.canada.ca/en/prairies-economic-development/corporate/transparency/information-holdings/classes-records.html",
+          "http_status": 200,
+          "byte_count": 37384,
+          "sha256": "2342561d84174840d4e0d485559cf10dc4d4c1ad5570740b88f8ef6f0ccb2f5b",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-western-economic-diversification/snapshots/2026-08-15/raw/classes_of_records_en_linked_1.html",
+          "included_in_extraction": true
+        }
+      ]
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/developpement-economique-prairies/organisation/transparence/fonds-renseignements/categories-documents.html#services",
+      "final_url": "https://www.canada.ca/fr/developpement-economique-prairies/organisation/transparence/fonds-renseignements/categories-documents.html#services",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 43767,
+      "sha256": "653f06838f4485c28452e7b00e2749f30da0b5f8f18cf8cb9e7ed3cb9599fa3e",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-western-economic-diversification/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-western-economic-diversification/classes_of_records_fr.md",
+      "fragment": "services",
+      "discovered_pages": [
+        {
+          "url": "https://www.canada.ca/en/prairies-economic-development/corporate/transparency/information-holdings/classes-records.html",
+          "final_url": "https://www.canada.ca/en/prairies-economic-development/corporate/transparency/information-holdings/classes-records.html",
+          "http_status": 200,
+          "byte_count": 37384,
+          "sha256": "97f9c77924db23f28724640b53da96ce8d2a764d636eecf27e45af74e52a4882",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-western-economic-diversification/snapshots/2026-08-15/raw/classes_of_records_fr_linked_1.html",
+          "included_in_extraction": false
+        }
+      ]
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:11.219483+00:00",
+  "extraction_rebuild_version": 2
+}

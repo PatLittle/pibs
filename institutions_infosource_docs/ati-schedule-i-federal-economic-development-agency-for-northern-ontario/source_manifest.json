@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-federal-economic-development-agency-for-northern-ontario",
+  "gc_orgID": "2299",
+  "institution_name_en": "Federal Economic Development Agency for Northern Ontario",
+  "institution_name_fr": "Agence fédérale de développement économique pour le Nord de l’Ontario",
+  "access_act_order": 66,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-federal-economic-development-agency-for-northern-ontario",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:55:58.901996+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://fednor.canada.ca/en/transparency/info-source-2025",
+      "final_url": "https://fednor.canada.ca/en/transparency/info-source-2025",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 83948,
+      "sha256": "8014bb6b06a1610ebe29294c24d363ebe640bcecc9a4a788a8e6760363fa92ee",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-federal-economic-development-agency-for-northern-ontario/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-federal-economic-development-agency-for-northern-ontario/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://fednor.canada.ca/fr/transparence/info-source-2025",
+      "final_url": "https://fednor.canada.ca/fr/transparence/info-source-2025",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 98790,
+      "sha256": "981de8b234c88958ed2b79b4918903c7f245126050b6ef318bfe04591c466700",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-federal-economic-development-agency-for-northern-ontario/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-federal-economic-development-agency-for-northern-ontario/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://fednor.canada.ca/en/transparency/info-source-2025",
+      "final_url": "https://fednor.canada.ca/en/transparency/info-source-2025",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 83948,
+      "sha256": "8014bb6b06a1610ebe29294c24d363ebe640bcecc9a4a788a8e6760363fa92ee",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-federal-economic-development-agency-for-northern-ontario/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-federal-economic-development-agency-for-northern-ontario/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://fednor.canada.ca/fr/transparence/info-source-2025",
+      "final_url": "https://fednor.canada.ca/fr/transparence/info-source-2025",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 98790,
+      "sha256": "981de8b234c88958ed2b79b4918903c7f245126050b6ef318bfe04591c466700",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-federal-economic-development-agency-for-northern-ontario/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-federal-economic-development-agency-for-northern-ontario/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 1,
+      "french": 1,
+      "merged": 1
+    },
+    "classes_of_records": {
+      "english": 3,
+      "french": 3,
+      "merged": 3
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:14.403716+00:00",
+  "extraction_rebuild_version": 2
+}

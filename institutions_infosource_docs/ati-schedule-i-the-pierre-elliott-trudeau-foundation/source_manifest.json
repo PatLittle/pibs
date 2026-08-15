@@ -1,0 +1,52 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-the-pierre-elliott-trudeau-foundation",
+  "gc_orgID": "3484",
+  "institution_name_en": "The Pierre Elliott Trudeau Foundation",
+  "institution_name_fr": "La Fondation Pierre-Elliott-Trudeau",
+  "access_act_order": 119,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-the-pierre-elliott-trudeau-foundation",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T16:02:59.438971+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "error",
+      "requested_url": "http://www.trudeaufoundation.ca/en/about/publications/info-source",
+      "error": "HTTPError: 404 Client Error: Not Found for url: http://www.trudeaufoundation.ca/en/about/publications/info-source"
+    },
+    "pibs_fr": {
+      "status": "error",
+      "requested_url": "https://www.fondationtrudeau.ca/activites/nouvelles/covid-19-ressources-pour-la-communaute-de-la-fondation-pierre-elliott-trudeau",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://www.fondationtrudeau.ca/activites/nouvelles/covid-19-ressources-pour-la-communaute-de-la-fondation-pierre-elliott-trudeau"
+    },
+    "classes_of_records_en": {
+      "status": "error",
+      "requested_url": "http://www.trudeaufoundation.ca/en/about/publications/info-source",
+      "error": "HTTPError: 404 Client Error: Not Found for url: http://www.trudeaufoundation.ca/en/about/publications/info-source"
+    },
+    "classes_of_records_fr": {
+      "status": "error",
+      "requested_url": "https://www.fondationtrudeau.ca/activites/nouvelles/covid-19-ressources-pour-la-communaute-de-la-fondation-pierre-elliott-trudeau",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://www.fondationtrudeau.ca/activites/nouvelles/covid-19-ressources-pour-la-communaute-de-la-fondation-pierre-elliott-trudeau"
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:15.550081+00:00",
+  "extraction_rebuild_version": 2
+}

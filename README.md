@@ -35,6 +35,47 @@ deliberately answers the Act Schedule I membership question. The pre-existing
 `infosource_institutions_en_fr.csv` remains the broader operational publication directory and is
 not a substitute for the legal registry.
 
+### Institution content refresh
+
+The current collector uses stable `institution_id` directories and preserves dated raw responses,
+role-specific Markdown, source checksums, fetch results, and extraction counts. Prepare a job
+manifest, run one or more disjoint batches, rebuild with the current parsers, and compile only
+after every batch finishes:
+
+```bash
+.venv/bin/python prepare_institution_collection_jobs.py --snapshot-date 2026-08-15
+.venv/bin/python collect_institution_content.py \
+  --jobs-file data/collection_jobs/institution_collection_jobs_2026-08-15.jsonl \
+  --batch-index 0 --batch-count 1
+.venv/bin/python rebuild_institution_extractions.py \
+  --jobs-file data/collection_jobs/institution_collection_jobs_2026-08-15.jsonl
+.venv/bin/python compile_institution_tables.py \
+  --jobs-file data/collection_jobs/institution_collection_jobs_2026-08-15.jsonl
+.venv/bin/python summarize_institution_collection.py \
+  --jobs-file data/collection_jobs/institution_collection_jobs_2026-08-15.jsonl \
+  --status-csv data/collection_jobs/institution_collection_status_2026-08-15.csv \
+  --summary-json data/collection_jobs/institution_collection_summary_2026-08-15.json
+.venv/bin/python validate_institution_collection.py \
+  --jobs-file data/collection_jobs/institution_collection_jobs_2026-08-15.jsonl
+```
+
+Each collectable institution receives `pib_table_en_fr.csv` and `cor_table_en_fr.csv`. The latter
+has exactly `record_number`, `name_en`, `name_fr`, `document_types_en`, and `document_types_fr`.
+The compiler writes registry-keyed comprehensive tables and site copies, and rejects stale parser
+versions, missing outputs, or duplicate canonical keys.
+
+The dated status CSV and JSON summary distinguish successful retrievals, source errors, missing
+URLs, and successful pages with zero extracted holdings. For the 2026-08-15 snapshot, all 131
+collectable institutions completed; 99 yielded at least one source, while 17 additional registry
+institutions had no publication URL suitable for collection.
+
+The relational and controlled-vocabulary model is documented in `DATA_MODEL.md` and declared in
+`data_model.json`. Validate its primary keys and foreign keys with:
+
+```bash
+.venv/bin/python validate_data_model.py
+```
+
 ## Standard classes of records
 
 Run `python scrape_standard_classes_of_records.py` to retrieve the English and French
@@ -57,12 +98,12 @@ English source order and are paired to the differently ordered French list by tr
 ```mermaid
 pie showData
     title Institution-specific PIBs by type
-    "Public Bank" : 543
-    "Particular Bank" : 81
-    "Central Bank" : 51
-    "Public Central Bank" : 11
+    "Public Bank" : 783
+    "Particular Bank" : 132
+    "Central Bank" : 50
+    "Public Central Bank" : 12
     "Public Standard Bank" : 1
-    "Unclassified or legacy code" : 34
+    "Unclassified or legacy code" : 1
 ```
 
 ### Standard PIBs by type

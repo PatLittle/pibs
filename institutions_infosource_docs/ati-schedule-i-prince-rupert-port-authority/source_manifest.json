@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-prince-rupert-port-authority",
+  "gc_orgID": "3489",
+  "institution_name_en": "Prince Rupert Port Authority",
+  "institution_name_fr": "Administration portuaire de Prince-Rupert",
+  "access_act_order": 121,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-prince-rupert-port-authority",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:59:04.626431+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.rupertport.com/infosource/",
+      "final_url": "https://www.rupertport.com/infosource/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 169847,
+      "sha256": "2e558403b19ec85f44f34bde4d2fc2ec30bdff6e85840f925febf1cfe552ee44",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-prince-rupert-port-authority/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-prince-rupert-port-authority/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.rupertport.com/fr/linfosource/",
+      "final_url": "https://www.rupertport.com/fr/linfosource/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 180712,
+      "sha256": "d2ae06e6ac86b9ef8f26cf0765a2e4180725b54955ad85a3139ba3cdc9367d5f",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-prince-rupert-port-authority/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-prince-rupert-port-authority/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.rupertport.com/infosource/",
+      "final_url": "https://www.rupertport.com/infosource/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 169847,
+      "sha256": "2e558403b19ec85f44f34bde4d2fc2ec30bdff6e85840f925febf1cfe552ee44",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-prince-rupert-port-authority/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-prince-rupert-port-authority/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.rupertport.com/fr/linfosource/",
+      "final_url": "https://www.rupertport.com/fr/linfosource/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 180712,
+      "sha256": "d2ae06e6ac86b9ef8f26cf0765a2e4180725b54955ad85a3139ba3cdc9367d5f",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-prince-rupert-port-authority/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-prince-rupert-port-authority/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 9,
+      "french": 9,
+      "merged": 9
+    },
+    "classes_of_records": {
+      "english": 9,
+      "french": 9,
+      "merged": 9
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:15.637302+00:00",
+  "extraction_rebuild_version": 2
+}

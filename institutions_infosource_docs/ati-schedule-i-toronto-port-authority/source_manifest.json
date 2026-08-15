@@ -1,0 +1,52 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-toronto-port-authority",
+  "gc_orgID": "3506",
+  "institution_name_en": "Toronto Port Authority",
+  "institution_name_fr": "Administration portuaire de Toronto",
+  "access_act_order": 141,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-toronto-port-authority",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T16:00:00.131050+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "error",
+      "requested_url": "https://www.portstoronto.com/Media/PortsToronto/PortsToronto/Toronto-Port-Authority-InfoSource-Chapter-(2016)-March-2017ENG.pdf",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://www.portstoronto.com/Media/PortsToronto/PortsToronto/Toronto-Port-Authority-InfoSource-Chapter-(2016)-March-2017ENG.pdf"
+    },
+    "pibs_fr": {
+      "status": "error",
+      "requested_url": "https://www.portstoronto.com/portstoronto/responsabilite.aspx",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://www.portstoronto.com/portstoronto/responsabilite.aspx"
+    },
+    "classes_of_records_en": {
+      "status": "error",
+      "requested_url": "https://www.portstoronto.com/Media/PortsToronto/PortsToronto/Toronto-Port-Authority-InfoSource-Chapter-(2016)-March-2017ENG.pdf",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://www.portstoronto.com/Media/PortsToronto/PortsToronto/Toronto-Port-Authority-InfoSource-Chapter-(2016)-March-2017ENG.pdf"
+    },
+    "classes_of_records_fr": {
+      "status": "error",
+      "requested_url": "https://www.portstoronto.com/portstoronto/responsabilite.aspx",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://www.portstoronto.com/portstoronto/responsabilite.aspx"
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:16.920690+00:00",
+  "extraction_rebuild_version": 2
+}

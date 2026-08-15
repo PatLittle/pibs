@@ -1,0 +1,108 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-pacific-economic-development-agency-of-canada",
+  "gc_orgID": "2298",
+  "institution_name_en": "Pacific Economic Development Agency of Canada",
+  "institution_name_fr": "Agence de développement économique du Pacifique Canada",
+  "access_act_order": 115,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-pacific-economic-development-agency-of-canada",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:58:57.932259+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/pacific-economic-development/corporate/transparency/information-holdings.html",
+      "final_url": "https://www.canada.ca/en/pacific-economic-development/corporate/transparency/information-holdings.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 61064,
+      "sha256": "c130c7bb0cf1c40dc9f6513c51ac8879d6e5b960eaa96479e86b9aea4db2ab3e",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-pacific-economic-development-agency-of-canada/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-pacific-economic-development-agency-of-canada/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://www.canada.ca/en/pacific-economic-development/corporate/transparency/information-holdings/personal-information-banks.html",
+          "final_url": "https://www.canada.ca/en/pacific-economic-development/corporate/transparency/information-holdings/personal-information-banks.html",
+          "http_status": 200,
+          "byte_count": 21165,
+          "sha256": "ad43a9a007e795f713c8a0ac2c862d867730b275f40b574f44f1704e7d4bf260",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-pacific-economic-development-agency-of-canada/snapshots/2026-08-15/raw/pibs_en_linked_1.html",
+          "included_in_extraction": true
+        }
+      ]
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/developpement-economique-pacifique/organisation/transparence/fonds-renseignements.html",
+      "final_url": "https://www.canada.ca/fr/developpement-economique-pacifique/organisation/transparence/fonds-renseignements.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 72377,
+      "sha256": "c7681f923a12d8feb9bd692c367cc9897b1bbf610d10e2f82538ea8423e78ea2",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-pacific-economic-development-agency-of-canada/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-pacific-economic-development-agency-of-canada/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/pacific-economic-development/corporate/transparency/information-holdings.html",
+      "final_url": "https://www.canada.ca/en/pacific-economic-development/corporate/transparency/information-holdings.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 61064,
+      "sha256": "c130c7bb0cf1c40dc9f6513c51ac8879d6e5b960eaa96479e86b9aea4db2ab3e",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-pacific-economic-development-agency-of-canada/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-pacific-economic-development-agency-of-canada/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://www.canada.ca/en/pacific-economic-development/corporate/transparency/information-holdings/classes-records.html",
+          "final_url": "https://www.canada.ca/en/pacific-economic-development/corporate/transparency/information-holdings/classes-records.html",
+          "http_status": 200,
+          "byte_count": 38633,
+          "sha256": "4e04c77faf2e550b02f57560c959eae2c10c4060b72efb80ed6bd04896a292e7",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-pacific-economic-development-agency-of-canada/snapshots/2026-08-15/raw/classes_of_records_en_linked_1.html",
+          "included_in_extraction": true
+        }
+      ]
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/developpement-economique-pacifique/organisation/transparence/fonds-renseignements.html",
+      "final_url": "https://www.canada.ca/fr/developpement-economique-pacifique/organisation/transparence/fonds-renseignements.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 72377,
+      "sha256": "c7681f923a12d8feb9bd692c367cc9897b1bbf610d10e2f82538ea8423e78ea2",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-pacific-economic-development-agency-of-canada/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-pacific-economic-development-agency-of-canada/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 1,
+      "french": 0,
+      "merged": 1
+    },
+    "classes_of_records": {
+      "english": 1,
+      "french": 0,
+      "merged": 1
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:15.441472+00:00",
+  "extraction_rebuild_version": 2
+}

@@ -1,0 +1,98 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-royal-canadian-mounted-police-external-review-committee",
+  "gc_orgID": "2289",
+  "institution_name_en": "Royal Canadian Mounted Police External Review Committee",
+  "institution_name_fr": "Comité externe d’examen de la Gendarmerie royale du Canada",
+  "access_act_order": 128,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-royal-canadian-mounted-police-external-review-committee",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:59:20.930402+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/rcmp-external-review-committee/corporate/transparency/access-information-privacy/info-source-sources-federal-government-employee-information.html",
+      "final_url": "https://www.canada.ca/en/rcmp-external-review-committee/corporate/transparency/access-information-privacy/info-source-sources-federal-government-employee-information.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 79506,
+      "sha256": "d1bf55dbd8cd68a70293dac8c5fb96052ceae1663d54a5babc5015637b40843c",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-royal-canadian-mounted-police-external-review-committee/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-royal-canadian-mounted-police-external-review-committee/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://www.canada.ca/en/rcmp-external-review-committee/corporate/transparency/access-information-privacy/make-personal-information-request.html",
+          "final_url": "https://www.canada.ca/en/rcmp-external-review-committee/corporate/transparency/access-information-privacy/make-personal-information-request.html",
+          "http_status": 200,
+          "byte_count": 20559,
+          "sha256": "0cd860a363a3c2b9dfd646da84caed252c5e96d687ee3bddc542d703f91953ea",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-royal-canadian-mounted-police-external-review-committee/snapshots/2026-08-15/raw/pibs_en_linked_1.html",
+          "included_in_extraction": true
+        }
+      ]
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/comite-externe-examen-grc/organisation/transparence/acces-information-protection-renseignements-personnels/info-source-sources-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+      "final_url": "https://www.canada.ca/fr/comite-externe-examen-grc/organisation/transparence/acces-information-protection-renseignements-personnels/info-source-sources-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 90440,
+      "sha256": "61199288cfd0aaee7d972c3b12a630e4bbd4882527ace3802eff166ed7b25712",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-royal-canadian-mounted-police-external-review-committee/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-royal-canadian-mounted-police-external-review-committee/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/rcmp-external-review-committee/corporate/transparency/access-information-privacy/info-source-sources-federal-government-employee-information.html",
+      "final_url": "https://www.canada.ca/en/rcmp-external-review-committee/corporate/transparency/access-information-privacy/info-source-sources-federal-government-employee-information.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 79506,
+      "sha256": "d1bf55dbd8cd68a70293dac8c5fb96052ceae1663d54a5babc5015637b40843c",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-royal-canadian-mounted-police-external-review-committee/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-royal-canadian-mounted-police-external-review-committee/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/comite-externe-examen-grc/organisation/transparence/acces-information-protection-renseignements-personnels/info-source-sources-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+      "final_url": "https://www.canada.ca/fr/comite-externe-examen-grc/organisation/transparence/acces-information-protection-renseignements-personnels/info-source-sources-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 90440,
+      "sha256": "61199288cfd0aaee7d972c3b12a630e4bbd4882527ace3802eff166ed7b25712",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-royal-canadian-mounted-police-external-review-committee/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-royal-canadian-mounted-police-external-review-committee/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 5,
+      "french": 5,
+      "merged": 5
+    },
+    "classes_of_records": {
+      "english": 8,
+      "french": 8,
+      "merged": 8
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:16.684579+00:00",
+  "extraction_rebuild_version": 2
+}

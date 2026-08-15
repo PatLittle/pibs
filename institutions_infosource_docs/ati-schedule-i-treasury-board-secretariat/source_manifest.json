@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-treasury-board-secretariat",
+  "gc_orgID": "2242",
+  "institution_name_en": "Treasury Board Secretariat",
+  "institution_name_fr": "Secrétariat du Conseil du Trésor",
+  "access_act_order": 142,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-treasury-board-secretariat",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T16:00:10.158345+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/treasury-board-secretariat-sources-federal-government-employee-information-info-source.html",
+      "final_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/treasury-board-secretariat-sources-federal-government-employee-information-info-source.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 459041,
+      "sha256": "3532c3785f2fc064ca812f04a2df2022fa392ed4f35fa93ddf22f80e7349519b",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-treasury-board-secretariat/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-treasury-board-secretariat/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/secretariat-conseil-tresor-sources-renseignements-gouvernement-federal-fonctionnaires-federaux-info-source.html",
+      "final_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/secretariat-conseil-tresor-sources-renseignements-gouvernement-federal-fonctionnaires-federaux-info-source.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 558290,
+      "sha256": "55dea9366a1472b23cc22e87d986990e0f5930e434d5a46a5c531d822222f656",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-treasury-board-secretariat/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-treasury-board-secretariat/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/treasury-board-secretariat-sources-federal-government-employee-information-info-source.html",
+      "final_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/treasury-board-secretariat-sources-federal-government-employee-information-info-source.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 459041,
+      "sha256": "3532c3785f2fc064ca812f04a2df2022fa392ed4f35fa93ddf22f80e7349519b",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-treasury-board-secretariat/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-treasury-board-secretariat/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/secretariat-conseil-tresor-sources-renseignements-gouvernement-federal-fonctionnaires-federaux-info-source.html",
+      "final_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/secretariat-conseil-tresor-sources-renseignements-gouvernement-federal-fonctionnaires-federaux-info-source.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 558290,
+      "sha256": "55dea9366a1472b23cc22e87d986990e0f5930e434d5a46a5c531d822222f656",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-treasury-board-secretariat/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-treasury-board-secretariat/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 40,
+      "french": 42,
+      "merged": 42
+    },
+    "classes_of_records": {
+      "english": 85,
+      "french": 85,
+      "merged": 88
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:17.385129+00:00",
+  "extraction_rebuild_version": 2
+}

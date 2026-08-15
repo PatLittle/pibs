@@ -1,0 +1,107 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-college-of-patent-agents-and-trademark-agents",
+  "gc_orgID": "",
+  "institution_name_en": "College of Patent Agents and Trademark Agents",
+  "institution_name_fr": "Collège des agents de brevets et des agents de marques de commerce",
+  "access_act_order": 58,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-college-of-patent-agents-and-trademark-agents",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:59:57.121592+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://cpata-cabamc.ca/en/about-us/info-source/",
+      "final_url": "https://cpata-cabamc.ca/en/about-us/info-source/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 371138,
+      "sha256": "d9d188e0d2efcee4e1575415dd3d4c3ac571147a0fa789fb143ded6a7d220b24",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-college-of-patent-agents-and-trademark-agents/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-college-of-patent-agents-and-trademark-agents/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://cpata-cabamc.ca/fr/a-propos-de-nous/info-source/",
+      "final_url": "https://cpata-cabamc.ca/fr/a-propos-de-nous/info-source/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 470642,
+      "sha256": "4663573941898e9c7149258c47060ccd31863f5b4020b8db5a676e95ba6b19d2",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-college-of-patent-agents-and-trademark-agents/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-college-of-patent-agents-and-trademark-agents/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://cpata-cabamc.ca/en/about-us/info-source/",
+      "final_url": "https://cpata-cabamc.ca/en/about-us/info-source/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 371138,
+      "sha256": "d9d188e0d2efcee4e1575415dd3d4c3ac571147a0fa789fb143ded6a7d220b24",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-college-of-patent-agents-and-trademark-agents/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-college-of-patent-agents-and-trademark-agents/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://cpata-cabamc.ca/en/become-an-agent/become-an-agent-in-training/submit-an-agent-in-training-class-3-application/",
+          "final_url": "https://cpata-cabamc.ca/en/become-an-agent/become-an-agent-in-training/submit-an-agent-in-training-class-3-application/",
+          "http_status": 200,
+          "byte_count": 362933,
+          "sha256": "8bc60550c3bb22e4d48f431bd6acf9677bc4157acad8bf2e68b0cd2fd1cfdf70",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-college-of-patent-agents-and-trademark-agents/snapshots/2026-08-15/raw/classes_of_records_en_linked_1.html",
+          "included_in_extraction": true
+        },
+        {
+          "url": "https://cpata-cabamc.ca/en/your-practice/licence-classes/",
+          "final_url": "https://cpata-cabamc.ca/en/your-practice/licence-classes/",
+          "http_status": 200,
+          "byte_count": 364186,
+          "sha256": "235456a3af694891d5d62fde174f8cdde38d49d0df59b6fdda9fb95c85138de3",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-college-of-patent-agents-and-trademark-agents/snapshots/2026-08-15/raw/classes_of_records_en_linked_2.html",
+          "included_in_extraction": true
+        }
+      ]
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://cpata-cabamc.ca/fr/a-propos-de-nous/info-source/",
+      "final_url": "https://cpata-cabamc.ca/fr/a-propos-de-nous/info-source/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 470642,
+      "sha256": "4663573941898e9c7149258c47060ccd31863f5b4020b8db5a676e95ba6b19d2",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-college-of-patent-agents-and-trademark-agents/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-college-of-patent-agents-and-trademark-agents/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 1,
+      "french": 1,
+      "merged": 1
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:14.009554+00:00",
+  "extraction_rebuild_version": 2
+}

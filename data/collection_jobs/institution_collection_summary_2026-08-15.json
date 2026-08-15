@@ -1,0 +1,31 @@
+{
+  "jobs_file": "data/collection_jobs/institution_collection_jobs_2026-08-15.jsonl",
+  "registry_institutions": 148,
+  "collectable_institutions": 131,
+  "not_collectable_no_source_urls": 17,
+  "collection_completed": 131,
+  "institutions_with_all_four_sources_collected": 91,
+  "institutions_with_any_source_collected": 99,
+  "institutions_with_no_source_collected": 32,
+  "role_status_counts": {
+    "collected": 380,
+    "error": 134,
+    "missing_url": 10,
+    "not_applicable": 68
+  },
+  "source_error_classes": {
+    "connection": 9,
+    "dns": 8,
+    "http_400": 4,
+    "http_403": 26,
+    "http_404": 58,
+    "timeout": 3,
+    "tls_certificate": 26
+  },
+  "unique_failing_requested_urls": 66,
+  "institutions_with_pibs": 62,
+  "institutions_with_classes_of_records": 73,
+  "pib_rows": 979,
+  "classes_of_records_rows": 1924,
+  "status_csv": "data/collection_jobs/institution_collection_status_2026-08-15.csv"
+}

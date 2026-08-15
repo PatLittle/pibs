@@ -1,0 +1,70 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-sahtu-land-and-water-board",
+  "gc_orgID": "",
+  "institution_name_en": "Sahtu Land and Water Board",
+  "institution_name_fr": "Office des terres et des eaux du Sahtu",
+  "access_act_order": 130,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-sahtu-land-and-water-board",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:59:50.329266+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "error",
+      "requested_url": "https://slwb.com/our-board/access-information-requests-0",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://slwb.com/our-board/access-information-requests-0"
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://wlwb.ca/sites/default/files/mvlwb_-_info_source_-_may_14_19.pdf?_gl=1*1qsdw3z*_ga*ODE3NjYzOTEwLjE2NjYyMDQwNTQ.*_ga_1YN4RQ50MS*MTY2NjIwNDA1My4xLjEuMTY2NjIwNDQ1Ny4wLjAuMA..*_ga_DM4CTC801Y*MTY2NjIwNDA1My4xLjEuMTY2NjIwNDQ1Ny4wLjAuMA..*_ga_WH73GNZLKK*MTY2NjIwNDA1My4xLjEuMTY2NjIwNDQ1Ny4wLjAuMA..*_ga_FFVRERZXBW*MTY2NjIwNDA1My4xLjEuMTY2NjIwNDQ1Ny4wLjAuMA..",
+      "final_url": "https://wlwb.ca/sites/default/files/mvlwb_-_info_source_-_may_14_19.pdf?_gl=1*1qsdw3z*_ga*ODE3NjYzOTEwLjE2NjYyMDQwNTQ.*_ga_1YN4RQ50MS*MTY2NjIwNDA1My4xLjEuMTY2NjIwNDQ1Ny4wLjAuMA..*_ga_DM4CTC801Y*MTY2NjIwNDA1My4xLjEuMTY2NjIwNDQ1Ny4wLjAuMA..*_ga_WH73GNZLKK*MTY2NjIwNDA1My4xLjEuMTY2NjIwNDQ1Ny4wLjAuMA..*_ga_FFVRERZXBW*MTY2NjIwNDA1My4xLjEuMTY2NjIwNDQ1Ny4wLjAuMA..",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "encoding": "",
+      "byte_count": 546568,
+      "sha256": "69d18c2bbc79cb82169b09b081cb0d159186a891c0b1b4c4447d8e47802f0c9a",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-sahtu-land-and-water-board/snapshots/2026-08-15/raw/pibs_fr.pdf",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-sahtu-land-and-water-board/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "error",
+      "requested_url": "https://slwb.com/our-board/access-information-requests-0",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://slwb.com/our-board/access-information-requests-0"
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://wlwb.ca/sites/default/files/mvlwb_-_info_source_-_may_14_19.pdf?_gl=1*1qsdw3z*_ga*ODE3NjYzOTEwLjE2NjYyMDQwNTQ.*_ga_1YN4RQ50MS*MTY2NjIwNDA1My4xLjEuMTY2NjIwNDQ1Ny4wLjAuMA..*_ga_DM4CTC801Y*MTY2NjIwNDA1My4xLjEuMTY2NjIwNDQ1Ny4wLjAuMA..*_ga_WH73GNZLKK*MTY2NjIwNDA1My4xLjEuMTY2NjIwNDQ1Ny4wLjAuMA..*_ga_FFVRERZXBW*MTY2NjIwNDA1My4xLjEuMTY2NjIwNDQ1Ny4wLjAuMA..",
+      "final_url": "https://wlwb.ca/sites/default/files/mvlwb_-_info_source_-_may_14_19.pdf?_gl=1*1qsdw3z*_ga*ODE3NjYzOTEwLjE2NjYyMDQwNTQ.*_ga_1YN4RQ50MS*MTY2NjIwNDA1My4xLjEuMTY2NjIwNDQ1Ny4wLjAuMA..*_ga_DM4CTC801Y*MTY2NjIwNDA1My4xLjEuMTY2NjIwNDQ1Ny4wLjAuMA..*_ga_WH73GNZLKK*MTY2NjIwNDA1My4xLjEuMTY2NjIwNDQ1Ny4wLjAuMA..*_ga_FFVRERZXBW*MTY2NjIwNDA1My4xLjEuMTY2NjIwNDQ1Ny4wLjAuMA..",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "encoding": "",
+      "byte_count": 546568,
+      "sha256": "69d18c2bbc79cb82169b09b081cb0d159186a891c0b1b4c4447d8e47802f0c9a",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-sahtu-land-and-water-board/snapshots/2026-08-15/raw/classes_of_records_fr.pdf",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-sahtu-land-and-water-board/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 1,
+      "merged": 1
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:16.721633+00:00",
+  "extraction_rebuild_version": 2
+}

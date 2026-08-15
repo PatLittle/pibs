@@ -1,0 +1,52 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-federal-economic-development-agency-for-southern-ontario",
+  "gc_orgID": "2258",
+  "institution_name_en": "Federal Economic Development Agency for Southern Ontario",
+  "institution_name_fr": "Agence fédérale de développement économique pour le Sud de l’Ontario",
+  "access_act_order": 67,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-federal-economic-development-agency-for-southern-ontario",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T16:00:43.199297+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "error",
+      "requested_url": "http://www.feddevontario.gc.ca/eic/site/723.nsf/eng/01754.html",
+      "error": "SSLError: HTTPSConnectionPool(host='feddevontario.gc.ca', port=443): Max retries exceeded with url: /eic/site/723.nsf/eng/01754.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
+    },
+    "pibs_fr": {
+      "status": "error",
+      "requested_url": "http://www.feddevontario.gc.ca/eic/site/723.nsf/fra/01754.html",
+      "error": "SSLError: HTTPSConnectionPool(host='feddevontario.gc.ca', port=443): Max retries exceeded with url: /eic/site/723.nsf/fra/01754.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
+    },
+    "classes_of_records_en": {
+      "status": "error",
+      "requested_url": "http://www.feddevontario.gc.ca/eic/site/723.nsf/eng/01754.html",
+      "error": "SSLError: HTTPSConnectionPool(host='feddevontario.gc.ca', port=443): Max retries exceeded with url: /eic/site/723.nsf/eng/01754.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
+    },
+    "classes_of_records_fr": {
+      "status": "error",
+      "requested_url": "http://www.feddevontario.gc.ca/eic/site/723.nsf/fra/01754.html",
+      "error": "SSLError: HTTPSConnectionPool(host='feddevontario.gc.ca', port=443): Max retries exceeded with url: /eic/site/723.nsf/fra/01754.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:14.404850+00:00",
+  "extraction_rebuild_version": 2
+}

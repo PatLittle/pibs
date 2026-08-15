@@ -1,0 +1,188 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-department-of-health",
+  "gc_orgID": "2228",
+  "institution_name_en": "Department of Health",
+  "institution_name_fr": "Ministère de la Santé",
+  "access_act_order": 11,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-department-of-health",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:54:18.963409+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/health-canada/corporate/about-health-canada/activities-responsibilities/access-information-privacy/info-source-federal-government-employee-information.html",
+      "final_url": "https://www.canada.ca/en/health-canada/corporate/about-health-canada/activities-responsibilities/access-information-privacy/info-source-federal-government-employee-information.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 402910,
+      "sha256": "8f952efa72b733da7e26686681b45b97ec3e93ec469145b3001ac5c08c08c93a",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-health/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-health/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/how-access-information-personal-information-requests-work.html",
+          "final_url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/how-access-information-personal-information-requests-work.html",
+          "http_status": 200,
+          "byte_count": 41035,
+          "sha256": "2b35da63b6be8e533a20290e3bb045d10f73ffa03137456fd7bfd727d1c186b6",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-health/snapshots/2026-08-15/raw/pibs_en_linked_1.html",
+          "included_in_extraction": false
+        }
+      ]
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux.html#a21",
+      "final_url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux.html#a21",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 467255,
+      "sha256": "5717f283c2cf114727d47a95f73758cd21a834dc7fb228c544292562d0b87add",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-health/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-health/pibs_fr.md",
+      "fragment": "a21",
+      "discovered_pages": [
+        {
+          "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels.html",
+          "status": "error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels.html",
+          "included_in_extraction": false
+        }
+      ]
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/health-canada/corporate/about-health-canada/activities-responsibilities/access-information-privacy/info-source-federal-government-employee-information.html",
+      "final_url": "https://www.canada.ca/en/health-canada/corporate/about-health-canada/activities-responsibilities/access-information-privacy/info-source-federal-government-employee-information.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 402910,
+      "sha256": "8f952efa72b733da7e26686681b45b97ec3e93ec469145b3001ac5c08c08c93a",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-health/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-health/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://www.canada.ca/en/health-canada/services/consumer-product-safety/reports-publications/pesticides-pest-management/policies-guidelines/label-process-changes/designing-marketplace-labels-domestic-class-pest-control-products.html",
+          "final_url": "https://www.canada.ca/en/health-canada/services/consumer-product-safety/reports-publications/pesticides-pest-management/policies-guidelines/label-process-changes/designing-marketplace-labels-domestic-class-pest-control-products.html",
+          "http_status": 200,
+          "byte_count": 83402,
+          "sha256": "b9856bcdbcdd855789da14277393ec57d087df34254c44c65eca81b4b36c7f3b",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-health/snapshots/2026-08-15/raw/classes_of_records_en_linked_1.html",
+          "included_in_extraction": true
+        },
+        {
+          "url": "https://www.canada.ca/en/health-canada/services/consumer-product-safety/reports-publications/pesticides-pest-management/policies-guidelines/label-process-changes/guidance-designing-peel-back-multi-component-labels-domestic-class-pest-control-products.html",
+          "final_url": "https://www.canada.ca/en/health-canada/services/consumer-product-safety/reports-publications/pesticides-pest-management/policies-guidelines/label-process-changes/guidance-designing-peel-back-multi-component-labels-domestic-class-pest-control-products.html",
+          "http_status": 200,
+          "byte_count": 46304,
+          "sha256": "73d8f827a09bf60e287d961487e621bbecced16a42eb88604d2d685c761c5506",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-health/snapshots/2026-08-15/raw/classes_of_records_en_linked_2.html",
+          "included_in_extraction": true
+        },
+        {
+          "url": "https://www.canada.ca/en/health-canada/services/consumer-product-safety/reports-publications/pesticides-pest-management/policies-guidelines/label-process-changes/guidance-improve-statements-labels-domestic-class-pest-control-products.html",
+          "final_url": "https://www.canada.ca/en/health-canada/services/consumer-product-safety/reports-publications/pesticides-pest-management/policies-guidelines/label-process-changes/guidance-improve-statements-labels-domestic-class-pest-control-products.html",
+          "http_status": 200,
+          "byte_count": 49143,
+          "sha256": "54dc9c94ad4c3211ff0233b2fe8a84062f3850669c560c187b76118d1fa43bce",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-health/snapshots/2026-08-15/raw/classes_of_records_en_linked_3.html",
+          "included_in_extraction": true
+        },
+        {
+          "url": "https://www.canada.ca/en/health-canada/services/consumer-product-safety/reports-publications/pesticides-pest-management/policies-guidelines/regulatory-directive/1993/classification-beans-labels-research-requirements-dir93-14.html",
+          "final_url": "https://www.canada.ca/en/health-canada/services/consumer-product-safety/reports-publications/pesticides-pest-management/policies-guidelines/regulatory-directive/1993/classification-beans-labels-research-requirements-dir93-14.html",
+          "http_status": 200,
+          "byte_count": 29252,
+          "sha256": "cf173e5a1435ded7fa8be47bb6d6a82583ed86952f040a5e6df801143a8343fa",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-health/snapshots/2026-08-15/raw/classes_of_records_en_linked_4.html",
+          "included_in_extraction": true
+        },
+        {
+          "url": "https://www.canada.ca/fr/sante-canada/services/securite-produits-consommation/rapports-publications/pesticides-lutte-antiparasitaire/politiques-lignes-directrices/directive-homologation/1993/classification-haricots-etiquettes-exigences-plan-recherche-dir93-14.html",
+          "final_url": "https://www.canada.ca/fr/sante-canada/services/securite-produits-consommation/rapports-publications/pesticides-lutte-antiparasitaire/politiques-lignes-directrices/directive-homologation/1993/classification-haricots-etiquettes-exigences-plan-recherche-dir93-14.html",
+          "http_status": 200,
+          "byte_count": 31211,
+          "sha256": "e6097e2cf3254a6cb1775dd86873f2679072af806ddc8271a8a5e540208d2f68",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-health/snapshots/2026-08-15/raw/classes_of_records_en_linked_5.html",
+          "included_in_extraction": false
+        }
+      ]
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux.html#a21",
+      "final_url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux.html#a21",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 467255,
+      "sha256": "5717f283c2cf114727d47a95f73758cd21a834dc7fb228c544292562d0b87add",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-health/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-health/classes_of_records_fr.md",
+      "fragment": "a21",
+      "discovered_pages": [
+        {
+          "url": "https://www.canada.ca/fr/sante-canada/services/securite-produits-consommation/rapports-publications/pesticides-lutte-antiparasitaire/politiques-lignes-directrices/directive-homologation/1993/classification-haricots-etiquettes-exigences-plan-recherche-dir93-14.html",
+          "final_url": "https://www.canada.ca/fr/sante-canada/services/securite-produits-consommation/rapports-publications/pesticides-lutte-antiparasitaire/politiques-lignes-directrices/directive-homologation/1993/classification-haricots-etiquettes-exigences-plan-recherche-dir93-14.html",
+          "http_status": 200,
+          "byte_count": 31212,
+          "sha256": "590b4e965ed15c724201768330d509e93fc3da4f49a38a353f2320478e254372",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-health/snapshots/2026-08-15/raw/classes_of_records_fr_linked_1.html",
+          "included_in_extraction": true
+        },
+        {
+          "url": "https://www.canada.ca/fr/sante-canada/services/securite-produits-consommation/rapports-publications/pesticides-lutte-antiparasitaire/politiques-lignes-directrices/directive-homologation/2012/homologation-pesticides-non-classiques-dir2012-01.html",
+          "final_url": "https://www.canada.ca/fr/sante-canada/services/securite-produits-consommation/rapports-publications/pesticides-lutte-antiparasitaire/politiques-lignes-directrices/concernant-homologation-pesticides-non-classiques.html",
+          "http_status": 200,
+          "byte_count": 28014,
+          "sha256": "39a12226aac4dfe08f744ec0e2de5024b317c1d5a1ab3a645effce9ac121c17c",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-health/snapshots/2026-08-15/raw/classes_of_records_fr_linked_2.html",
+          "included_in_extraction": true
+        },
+        {
+          "url": "https://www.canada.ca/en/health-canada/services/consumer-product-safety/reports-publications/pesticides-pest-management/policies-guidelines/regulatory-directive/1993/classification-beans-labels-research-requirements-dir93-14.html",
+          "final_url": "https://www.canada.ca/en/health-canada/services/consumer-product-safety/reports-publications/pesticides-pest-management/policies-guidelines/regulatory-directive/1993/classification-beans-labels-research-requirements-dir93-14.html",
+          "http_status": 200,
+          "byte_count": 29253,
+          "sha256": "58be3793ac3d696b40f635973bc3b9d12c9c15119b7280093f5ae8b8d9b17d16",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-health/snapshots/2026-08-15/raw/classes_of_records_fr_linked_3.html",
+          "included_in_extraction": false
+        },
+        {
+          "url": "https://www.canada.ca/fr/sante-canada/services/securite-produits-consommation/rapports-publications/pesticides-lutte-antiparasitaire/politiques-lignes-directrices/concernant-homologation-pesticides-non-classiques.html",
+          "final_url": "https://www.canada.ca/fr/sante-canada/services/securite-produits-consommation/rapports-publications/pesticides-lutte-antiparasitaire/politiques-lignes-directrices/concernant-homologation-pesticides-non-classiques.html",
+          "http_status": 200,
+          "byte_count": 28014,
+          "sha256": "0b07f4d7335b584d28de837b8098c591cf3240d526d553eac41273bf7eec8ce2",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-health/snapshots/2026-08-15/raw/classes_of_records_fr_linked_4.html",
+          "included_in_extraction": true
+        }
+      ]
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 61,
+      "french": 61,
+      "merged": 61
+    },
+    "classes_of_records": {
+      "english": 50,
+      "french": 50,
+      "merged": 50
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:09.596471+00:00",
+  "extraction_rebuild_version": 2
+}

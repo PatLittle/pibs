@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-administrative-tribunals-support-service-of-canada",
+  "gc_orgID": "2297",
+  "institution_name_en": "Administrative Tribunals Support Service of Canada",
+  "institution_name_fr": "Service canadien d’appui aux tribunaux administratifs",
+  "access_act_order": 23,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-administrative-tribunals-support-service-of-canada",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:54:52.555956+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/administrative-tribunals-support-service/transparency/info-source.html",
+      "final_url": "https://www.canada.ca/en/administrative-tribunals-support-service/transparency/info-source.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 77361,
+      "sha256": "e39486ded4287a9bd6c06ccf3486e7552f243ce2f0c17562c6be6b0024e24e97",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-administrative-tribunals-support-service-of-canada/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-administrative-tribunals-support-service-of-canada/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/service-canadien-appui-tribunaux-administratifs/transparence/info-source.html",
+      "final_url": "https://www.canada.ca/fr/service-canadien-appui-tribunaux-administratifs/transparence/info-source.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 89884,
+      "sha256": "1a7f32ba464b46446f79cac936c0acd47ecfac562b17a009a4d86a18f8c6ee16",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-administrative-tribunals-support-service-of-canada/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-administrative-tribunals-support-service-of-canada/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/administrative-tribunals-support-service/transparency/info-source.html",
+      "final_url": "https://www.canada.ca/en/administrative-tribunals-support-service/transparency/info-source.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 77361,
+      "sha256": "e39486ded4287a9bd6c06ccf3486e7552f243ce2f0c17562c6be6b0024e24e97",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-administrative-tribunals-support-service-of-canada/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-administrative-tribunals-support-service-of-canada/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/service-canadien-appui-tribunaux-administratifs/transparence/info-source.html",
+      "final_url": "https://www.canada.ca/fr/service-canadien-appui-tribunaux-administratifs/transparence/info-source.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 89884,
+      "sha256": "1a7f32ba464b46446f79cac936c0acd47ecfac562b17a009a4d86a18f8c6ee16",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-administrative-tribunals-support-service-of-canada/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-administrative-tribunals-support-service-of-canada/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 12,
+      "french": 12,
+      "merged": 12
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:11.246453+00:00",
+  "extraction_rebuild_version": 2
+}

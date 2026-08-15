@@ -1,0 +1,98 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-shared-services-canada",
+  "gc_orgID": "2292",
+  "institution_name_en": "Shared Services Canada",
+  "institution_name_fr": "Services partagés Canada",
+  "access_act_order": 135,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-shared-services-canada",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:59:32.050266+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/sources-federal-government-employee-information-2021-info-source.html",
+      "final_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/sources-federal-government-employee-information-2021-info-source.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 132469,
+      "sha256": "422b4882f5a5ea2aa88b36a9187386d50e63240b2f001ce8c65afa5afaa42689",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-shared-services-canada/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-shared-services-canada/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/how-access-information-personal-information-requests-work.html",
+          "final_url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/how-access-information-personal-information-requests-work.html",
+          "http_status": 200,
+          "byte_count": 41036,
+          "sha256": "312746f9c3e2a6e5495da74542cc41c38396d73f1da756928c9c941db78e833f",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-shared-services-canada/snapshots/2026-08-15/raw/pibs_en_linked_1.html",
+          "included_in_extraction": false
+        }
+      ]
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/sources-renseignements-gouvernement-federal-fonctionnaires-federaux-2021-info-source.html",
+      "final_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/sources-renseignements-gouvernement-federal-fonctionnaires-federaux-2021-info-source.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 158889,
+      "sha256": "3e863642fd48ac5c08abb49cc9dc643f40f1b8c72875e57c2545fb9af743fef9",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-shared-services-canada/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-shared-services-canada/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/sources-federal-government-employee-information-2021-info-source.html",
+      "final_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/sources-federal-government-employee-information-2021-info-source.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 132469,
+      "sha256": "422b4882f5a5ea2aa88b36a9187386d50e63240b2f001ce8c65afa5afaa42689",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-shared-services-canada/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-shared-services-canada/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/sources-renseignements-gouvernement-federal-fonctionnaires-federaux-2021-info-source.html",
+      "final_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/sources-renseignements-gouvernement-federal-fonctionnaires-federaux-2021-info-source.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 158889,
+      "sha256": "3e863642fd48ac5c08abb49cc9dc643f40f1b8c72875e57c2545fb9af743fef9",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-shared-services-canada/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-shared-services-canada/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 5,
+      "french": 5,
+      "merged": 5
+    },
+    "classes_of_records": {
+      "english": 26,
+      "french": 26,
+      "merged": 26
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:16.872968+00:00",
+  "extraction_rebuild_version": 2
+}

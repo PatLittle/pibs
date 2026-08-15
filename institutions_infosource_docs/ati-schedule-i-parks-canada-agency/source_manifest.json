@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-parks-canada-agency",
+  "gc_orgID": "2315",
+  "institution_name_en": "Parks Canada Agency",
+  "institution_name_fr": "Agence Parcs Canada",
+  "access_act_order": 116,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-parks-canada-agency",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T16:02:54.886599+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://parks.canada.ca/agence-agency/dp-pd/infosource/appendice-1-appendix",
+      "final_url": "https://parks.canada.ca/agence-agency/dp-pd/infosource/appendice-1-appendix",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 115173,
+      "sha256": "4dbe7d005b682b24354a7f367ebce0c04e8a1dd02260bde2a7e87ed0f74d5d66",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-parks-canada-agency/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-parks-canada-agency/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://parcs.canada.ca/agence-agency/dp-pd/infosource/appendice-1-appendix",
+      "final_url": "https://parcs.canada.ca/agence-agency/dp-pd/infosource/appendice-1-appendix",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 138056,
+      "sha256": "d7cad2c12d33d5b6c00d0a00c476437904fc9fb07dc41aeb3883f395ae1b2f3c",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-parks-canada-agency/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-parks-canada-agency/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://parks.canada.ca/agence-agency/dp-pd/infosource/appendice-2-appendix",
+      "final_url": "https://parks.canada.ca/agence-agency/dp-pd/infosource/appendice-2-appendix",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 93324,
+      "sha256": "9a78a97dda7e27b66498a0574a8945761a0bf8b087db3f5a232eb431b5bc4df8",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-parks-canada-agency/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-parks-canada-agency/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://parcs.canada.ca/agence-agency/dp-pd/infosource/appendice-2-appendix",
+      "final_url": "https://parcs.canada.ca/agence-agency/dp-pd/infosource/appendice-2-appendix",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 107640,
+      "sha256": "48694d3becb1c001c80fdc2ec036b12ee2e727427b15e3ea68e3afdcd1ab251c",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-parks-canada-agency/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-parks-canada-agency/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:15.462640+00:00",
+  "extraction_rebuild_version": 2
+}

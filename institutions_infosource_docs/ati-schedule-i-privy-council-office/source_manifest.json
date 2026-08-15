@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-privy-council-office",
+  "gc_orgID": "2284",
+  "institution_name_en": "Privy Council Office",
+  "institution_name_fr": "Bureau du Conseil privé",
+  "access_act_order": 122,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-privy-council-office",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T16:03:06.028479+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/privy-council/services/publications/info-source-federal-government-employee-information.html",
+      "final_url": "https://www.canada.ca/en/privy-council/services/publications/info-source-federal-government-employee-information.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 94389,
+      "sha256": "4ed2fd5fbe201f039e6a9b0cc64bdaeefefe599c6c2c837b4c54564921c338e7",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-privy-council-office/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-privy-council-office/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/conseil-prive/services/publications/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+      "final_url": "https://www.canada.ca/fr/conseil-prive/services/publications/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 109765,
+      "sha256": "a5391a37dbef35d5777d78e33bf1a827dfcf95cf9ef4cdcfe196223b1df1ba8c",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-privy-council-office/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-privy-council-office/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/privy-council/services/publications/info-source-federal-government-employee-information.html",
+      "final_url": "https://www.canada.ca/en/privy-council/services/publications/info-source-federal-government-employee-information.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 94389,
+      "sha256": "4ed2fd5fbe201f039e6a9b0cc64bdaeefefe599c6c2c837b4c54564921c338e7",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-privy-council-office/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-privy-council-office/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/conseil-prive/services/publications/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+      "final_url": "https://www.canada.ca/fr/conseil-prive/services/publications/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 109765,
+      "sha256": "a5391a37dbef35d5777d78e33bf1a827dfcf95cf9ef4cdcfe196223b1df1ba8c",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-privy-council-office/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-privy-council-office/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 5,
+      "french": 0,
+      "merged": 5
+    },
+    "classes_of_records": {
+      "english": 42,
+      "french": 0,
+      "merged": 42
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:15.700257+00:00",
+  "extraction_rebuild_version": 2
+}

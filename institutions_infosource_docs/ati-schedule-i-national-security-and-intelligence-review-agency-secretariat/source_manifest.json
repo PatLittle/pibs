@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-national-security-and-intelligence-review-agency-secretariat",
+  "gc_orgID": "2291",
+  "institution_name_en": "National Security and Intelligence Review Agency Secretariat",
+  "institution_name_fr": "Secrétariat de l’Office de surveillance des activités en matière de sécurité nationale et de renseignement",
+  "access_act_order": 96,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-national-security-and-intelligence-review-agency-secretariat",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:56:58.102399+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://nsira-ossnr.gc.ca/en/secretariat/access-to-information-and-privacy/info-source/",
+      "final_url": "https://nsira-ossnr.gc.ca/en/secretariat/access-to-information-and-privacy/info-source/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 106250,
+      "sha256": "00078ec66a68c1f278c4a48861a8734dcbb328c40258f5e4950ff4fa455f63fe",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-national-security-and-intelligence-review-agency-secretariat/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-national-security-and-intelligence-review-agency-secretariat/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://nsira-ossnr.gc.ca/fr/secretariat/acces-a-l-information-et-a-la-protection-des-renseignements-personnels/info-source/",
+      "final_url": "https://nsira-ossnr.gc.ca/fr/secretariat/acces-a-l-information-et-a-la-protection-des-renseignements-personnels/info-source/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 113955,
+      "sha256": "3a6657f00dcc02595249067a50094e2db9f102d74aaf03d13215bf9c25152a5c",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-national-security-and-intelligence-review-agency-secretariat/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-national-security-and-intelligence-review-agency-secretariat/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://nsira-ossnr.gc.ca/en/secretariat/access-to-information-and-privacy/info-source/",
+      "final_url": "https://nsira-ossnr.gc.ca/en/secretariat/access-to-information-and-privacy/info-source/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 106250,
+      "sha256": "00078ec66a68c1f278c4a48861a8734dcbb328c40258f5e4950ff4fa455f63fe",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-national-security-and-intelligence-review-agency-secretariat/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-national-security-and-intelligence-review-agency-secretariat/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://nsira-ossnr.gc.ca/fr/secretariat/acces-a-l-information-et-a-la-protection-des-renseignements-personnels/info-source/",
+      "final_url": "https://nsira-ossnr.gc.ca/fr/secretariat/acces-a-l-information-et-a-la-protection-des-renseignements-personnels/info-source/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 113955,
+      "sha256": "3a6657f00dcc02595249067a50094e2db9f102d74aaf03d13215bf9c25152a5c",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-national-security-and-intelligence-review-agency-secretariat/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-national-security-and-intelligence-review-agency-secretariat/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:15.075239+00:00",
+  "extraction_rebuild_version": 2
+}

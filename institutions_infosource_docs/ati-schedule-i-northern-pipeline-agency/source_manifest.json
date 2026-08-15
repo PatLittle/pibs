@@ -1,0 +1,52 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-northern-pipeline-agency",
+  "gc_orgID": "2268",
+  "institution_name_en": "Northern Pipeline Agency",
+  "institution_name_fr": "Administration du pipe-line du Nord",
+  "access_act_order": 97,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-northern-pipeline-agency",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:56:43.004169+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "error",
+      "requested_url": "http://npa.gc.ca/177?wb48617274=03F2D5A0",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://northern-pipeline.canada.ca/177?wb48617274=03F2D5A0"
+    },
+    "pibs_fr": {
+      "status": "error",
+      "requested_url": "http://apn.gc.ca/180?wb48617274=0F1523F5",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://pipe-line-nord.canada.ca/180?wb48617274=0F1523F5"
+    },
+    "classes_of_records_en": {
+      "status": "error",
+      "requested_url": "http://npa.gc.ca/177?wb48617274=03F2D5A0",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://northern-pipeline.canada.ca/177?wb48617274=03F2D5A0"
+    },
+    "classes_of_records_fr": {
+      "status": "error",
+      "requested_url": "http://apn.gc.ca/180?wb48617274=0F1523F5",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://pipe-line-nord.canada.ca/180?wb48617274=0F1523F5"
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:15.076175+00:00",
+  "extraction_rebuild_version": 2
+}

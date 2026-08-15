@@ -1,0 +1,52 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-canadian-nuclear-safety-commission",
+  "gc_orgID": "2308",
+  "institution_name_en": "Canadian Nuclear Safety Commission",
+  "institution_name_fr": "Commission canadienne de sûreté nucléaire",
+  "access_act_order": 50,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-canadian-nuclear-safety-commission",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:55:26.072682+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "error",
+      "requested_url": "http://www.nuclearsafety.gc.ca/eng/resources/publications/reports/access-to-information-and-privacy/info-source/index.cfm",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://www.nuclearsafety.gc.ca/eng/resources/publications/reports/access-to-information-and-privacy/info-source/index.cfm"
+    },
+    "pibs_fr": {
+      "status": "error",
+      "requested_url": "http://www.nuclearsafety.gc.ca/fra/resources/publications/reports/access-to-information-and-privacy/info-source/index.cfm",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://www.nuclearsafety.gc.ca/fra/resources/publications/reports/access-to-information-and-privacy/info-source/index.cfm"
+    },
+    "classes_of_records_en": {
+      "status": "error",
+      "requested_url": "http://www.nuclearsafety.gc.ca/eng/resources/publications/reports/access-to-information-and-privacy/info-source/index.cfm",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://www.nuclearsafety.gc.ca/eng/resources/publications/reports/access-to-information-and-privacy/info-source/index.cfm"
+    },
+    "classes_of_records_fr": {
+      "status": "error",
+      "requested_url": "http://www.nuclearsafety.gc.ca/fra/resources/publications/reports/access-to-information-and-privacy/info-source/index.cfm",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://www.nuclearsafety.gc.ca/fra/resources/publications/reports/access-to-information-and-privacy/info-source/index.cfm"
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:13.616079+00:00",
+  "extraction_rebuild_version": 2
+}

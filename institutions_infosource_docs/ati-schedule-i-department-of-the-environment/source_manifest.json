@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-department-of-the-environment",
+  "gc_orgID": "2237",
+  "institution_name_en": "Department of the Environment",
+  "institution_name_fr": "Ministère de l’Environnement",
+  "access_act_order": 7,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-department-of-the-environment",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:53:57.726695+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy/info-source.html",
+      "final_url": "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy/info-source.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 175942,
+      "sha256": "eeabcf2322a5fac2b2af377b5cbf8b3306f1c628d3c31db029dd755e24835abe",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-the-environment/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-the-environment/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels/info-source.html",
+      "final_url": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels/info-source.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 212114,
+      "sha256": "2219da8028d3a08a4763614d217996cfd544cac511e71932d269268a3153afe0",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-the-environment/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-the-environment/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy/info-source.html",
+      "final_url": "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy/info-source.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 175942,
+      "sha256": "eeabcf2322a5fac2b2af377b5cbf8b3306f1c628d3c31db029dd755e24835abe",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-the-environment/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-the-environment/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels/info-source.html",
+      "final_url": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels/info-source.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 212114,
+      "sha256": "2219da8028d3a08a4763614d217996cfd544cac511e71932d269268a3153afe0",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-the-environment/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-the-environment/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 16,
+      "french": 16,
+      "merged": 16
+    },
+    "classes_of_records": {
+      "english": 8,
+      "french": 8,
+      "merged": 8
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:08.363867+00:00",
+  "extraction_rebuild_version": 2
+}

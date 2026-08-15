@@ -1,0 +1,52 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-yukon-environmental-and-socio-economic-assessment-board",
+  "gc_orgID": "",
+  "institution_name_en": "Yukon Environmental and Socio-economic Assessment Board",
+  "institution_name_fr": "Office d’évaluation environnementale et socioéconomique du Yukon",
+  "access_act_order": 147,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-yukon-environmental-and-socio-economic-assessment-board",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T16:00:15.793879+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "error",
+      "requested_url": "http://www.yesab.ca/wp-content/uploads/2019/05/2019-InfoSource-Chapter.pdf",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://yesab.ca/wp-content/uploads/2019/05/2019-InfoSource-Chapter.pdf"
+    },
+    "pibs_fr": {
+      "status": "error",
+      "requested_url": "http://www.yesab.ca/about-yesab/demandes-de-communication-traitees/",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://yesab.ca/about-yesab/demandes-de-communication-traitees/"
+    },
+    "classes_of_records_en": {
+      "status": "error",
+      "requested_url": "http://www.yesab.ca/wp-content/uploads/2019/05/2019-InfoSource-Chapter.pdf",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://yesab.ca/wp-content/uploads/2019/05/2019-InfoSource-Chapter.pdf"
+    },
+    "classes_of_records_fr": {
+      "status": "error",
+      "requested_url": "http://www.yesab.ca/about-yesab/demandes-de-communication-traitees/",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://yesab.ca/about-yesab/demandes-de-communication-traitees/"
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:17.410173+00:00",
+  "extraction_rebuild_version": 2
+}

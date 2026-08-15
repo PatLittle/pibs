@@ -1,0 +1,52 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-belledune-port-authority",
+  "gc_orgID": "3439",
+  "institution_name_en": "Belledune Port Authority",
+  "institution_name_fr": "Administration portuaire de Belledune",
+  "access_act_order": 26,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-belledune-port-authority",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:54:53.221887+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "error",
+      "requested_url": "http://www.portofbelledune.ca/infoSource.php",
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://www.portbelledune.ca/infoSource.php"
+    },
+    "pibs_fr": {
+      "status": "error",
+      "requested_url": "http://www.portofbelledune.ca/infoSource.php?lang=1",
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://www.portbelledune.ca/infoSource.php?lang=1"
+    },
+    "classes_of_records_en": {
+      "status": "error",
+      "requested_url": "http://www.portofbelledune.ca/infoSource.php",
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://www.portbelledune.ca/infoSource.php"
+    },
+    "classes_of_records_fr": {
+      "status": "error",
+      "requested_url": "http://www.portofbelledune.ca/infoSource.php?lang=1",
+      "error": "HTTPError: 400 Client Error: Bad Request for url: https://www.portbelledune.ca/infoSource.php?lang=1"
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:11.384290+00:00",
+  "extraction_rebuild_version": 2
+}

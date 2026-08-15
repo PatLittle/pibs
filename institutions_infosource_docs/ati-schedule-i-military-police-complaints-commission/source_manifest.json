@@ -1,0 +1,52 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-military-police-complaints-commission",
+  "gc_orgID": "2264",
+  "institution_name_en": "Military Police Complaints Commission",
+  "institution_name_fr": "Commission d’examen des plaintes concernant la police militaire",
+  "access_act_order": 87,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-military-police-complaints-commission",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:56:34.597159+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "error",
+      "requested_url": "https://www.mpcc-cppm.gc.ca/corporate-organisation/transparency-transparence/infosource-eng.aspx",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.mpcc-cppm.gc.ca/corporate-organisation/transparency-transparence/infosource-eng.aspx"
+    },
+    "pibs_fr": {
+      "status": "error",
+      "requested_url": "https://www.mpcc-cppm.gc.ca/corporate-organisation/transparency-transparence/infosource-fra.aspx",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.mpcc-cppm.gc.ca/corporate-organisation/transparency-transparence/infosource-fra.aspx"
+    },
+    "classes_of_records_en": {
+      "status": "error",
+      "requested_url": "https://www.mpcc-cppm.gc.ca/corporate-organisation/transparency-transparence/infosource-eng.aspx",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.mpcc-cppm.gc.ca/corporate-organisation/transparency-transparence/infosource-eng.aspx"
+    },
+    "classes_of_records_fr": {
+      "status": "error",
+      "requested_url": "https://www.mpcc-cppm.gc.ca/corporate-organisation/transparency-transparence/infosource-fra.aspx",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.mpcc-cppm.gc.ca/corporate-organisation/transparency-transparence/infosource-fra.aspx"
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:14.731943+00:00",
+  "extraction_rebuild_version": 2
+}

@@ -1,0 +1,3429 @@
+[
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-department-for-women-and-gender-equality",
+    "gc_orgID": "2241",
+    "institution_name_en": "Department for Women and Gender Equality",
+    "institution_name_fr": "Ministère des Femmes et de l’Égalité des genres",
+    "access_act_order": 1,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-department-for-women-and-gender-equality",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T15:53:13.443112+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/en/women-gender-equality/transparency/annual-report-parliament-access-information-privacy/info-source-2023-2024.html",
+        "final_url": "https://www.canada.ca/en/women-gender-equality/transparency/annual-report-parliament-access-information-privacy/info-source-2023-2024.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 79029,
+        "sha256": "46359a4702fcea68c51b3f6f3bae50b303d146976340b6c0758074f303970dd2",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-department-for-women-and-gender-equality/snapshots/2026-08-15/raw/pibs_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-for-women-and-gender-equality/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "pibs_fr": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/fr/femmes-egalite-genres/transparence/rapport-annuel-parlement-acces-information-protection-renseignements-personnels/info-source-2023-2024.html",
+        "final_url": "https://www.canada.ca/fr/femmes-egalite-genres/transparence/rapport-annuel-parlement-acces-information-protection-renseignements-personnels/info-source-2023-2024.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 94344,
+        "sha256": "c3d91f57d3c177e492bdfd3d1a36be6d5b78ef918f8cb358e9b01a6c54cd81af",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-department-for-women-and-gender-equality/snapshots/2026-08-15/raw/pibs_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-for-women-and-gender-equality/pibs_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/en/women-gender-equality/transparency/annual-report-parliament-access-information-privacy/info-source-2023-2024.html",
+        "final_url": "https://www.canada.ca/en/women-gender-equality/transparency/annual-report-parliament-access-information-privacy/info-source-2023-2024.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 79029,
+        "sha256": "46359a4702fcea68c51b3f6f3bae50b303d146976340b6c0758074f303970dd2",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-department-for-women-and-gender-equality/snapshots/2026-08-15/raw/classes_of_records_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-for-women-and-gender-equality/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_fr": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/fr/femmes-egalite-genres/transparence/rapport-annuel-parlement-acces-information-protection-renseignements-personnels/info-source-2023-2024.html",
+        "final_url": "https://www.canada.ca/fr/femmes-egalite-genres/transparence/rapport-annuel-parlement-acces-information-protection-renseignements-personnels/info-source-2023-2024.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 94344,
+        "sha256": "c3d91f57d3c177e492bdfd3d1a36be6d5b78ef918f8cb358e9b01a6c54cd81af",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-department-for-women-and-gender-equality/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-for-women-and-gender-equality/classes_of_records_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      },
+      "classes_of_records": {
+        "english": 13,
+        "french": 13,
+        "merged": 13
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-department-of-citizenship-and-immigration",
+    "gc_orgID": "2224",
+    "institution_name_en": "Department of Citizenship and Immigration",
+    "institution_name_fr": "Ministère de la Citoyenneté et de l’Immigration",
+    "access_act_order": 4,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-department-of-citizenship-and-immigration",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T15:53:47.696604+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/access-information-privacy/info-source/personal-information-banks.html",
+        "final_url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/access-information-privacy/info-source/personal-information-banks.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 189429,
+        "sha256": "44473ebbd45564c920909ff81d09aa83eb58a846b5fe62bda8d54c422aa7b923",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-citizenship-and-immigration/snapshots/2026-08-15/raw/pibs_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-citizenship-and-immigration/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": [
+          {
+            "url": "https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html",
+            "final_url": "https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html",
+            "http_status": 200,
+            "byte_count": 377732,
+            "sha256": "521c4527c537cac14571d0c05287be6a5f954969d30b30fee1883c81a409d642",
+            "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-citizenship-and-immigration/snapshots/2026-08-15/raw/pibs_en_linked_1.html"
+          }
+        ]
+      },
+      "pibs_fr": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/fr/immigration-refugies-citoyennete/organisation/transparence/acces-information-protection/info-source/fichiers-renseignements-personnels.html",
+        "final_url": "https://www.canada.ca/fr/immigration-refugies-citoyennete/organisation/transparence/acces-information-protection/info-source/fichiers-renseignements-personnels.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 232411,
+        "sha256": "e6ae9ec3de563e64c7ec9e037e38fd811af02db2efe127fae55b9474f77ed150",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-citizenship-and-immigration/snapshots/2026-08-15/raw/pibs_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-citizenship-and-immigration/pibs_fr.md",
+        "fragment": "",
+        "discovered_pages": [
+          {
+            "url": "https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource-2023-2024/infosource-detaille.html",
+            "final_url": "https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource-2023-2024/infosource-detaille.html",
+            "http_status": 200,
+            "byte_count": 454031,
+            "sha256": "6525f424ab3b4bf4e0249f71e799269eb70a5e53ddbc3cdaf4c3c03af32f2b91",
+            "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-citizenship-and-immigration/snapshots/2026-08-15/raw/pibs_fr_linked_1.html"
+          },
+          {
+            "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/access-information-privacy/info-source/personal-information-banks.html",
+            "final_url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/access-information-privacy/info-source/personal-information-banks.html",
+            "http_status": 200,
+            "byte_count": 189429,
+            "sha256": "526f5e790787082d3d5a3376adba888afc3f635bd41419edb90c3b1021c04bcf",
+            "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-citizenship-and-immigration/snapshots/2026-08-15/raw/pibs_fr_linked_2.html"
+          },
+          {
+            "url": "https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html",
+            "final_url": "https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html",
+            "http_status": 200,
+            "byte_count": 377732,
+            "sha256": "9fc34c0036311123243f1a9ff0330787aceb960de37ee362182fce2405b5b843",
+            "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-citizenship-and-immigration/snapshots/2026-08-15/raw/pibs_fr_linked_3.html"
+          }
+        ]
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/access-information-privacy/info-source/sources-information.html",
+        "final_url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/access-information-privacy/info-source/sources-information.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 28390,
+        "sha256": "91a0f31f079c0a3dcd9c5df3fbfafc2a94767a3abfc51da589b2c9f285d53816",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-citizenship-and-immigration/snapshots/2026-08-15/raw/classes_of_records_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-citizenship-and-immigration/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": [
+          {
+            "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/access-information-privacy/info-source/institutional-functions-programs-activities.html",
+            "final_url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/access-information-privacy/info-source/institutional-functions-programs-activities.html",
+            "http_status": 200,
+            "byte_count": 177051,
+            "sha256": "0255c45f0fc15bd0a3805a844bd4362696ac5d334f1e4b8358a48d286e4ae5da",
+            "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-citizenship-and-immigration/snapshots/2026-08-15/raw/classes_of_records_en_linked_1.html"
+          },
+          {
+            "url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/glossary-access-information-privacy.html",
+            "final_url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/glossary-access-information-privacy.html",
+            "http_status": 200,
+            "byte_count": 43904,
+            "sha256": "50afb61d7b421c3ea8387fec53cd55d880489928ce2cb65310741f14e78a6248",
+            "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-citizenship-and-immigration/snapshots/2026-08-15/raw/classes_of_records_en_linked_2.html"
+          }
+        ]
+      },
+      "classes_of_records_fr": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/fr/immigration-refugies-citoyennete/organisation/transparence/acces-information-protection/info-source/sources-renseignements.html",
+        "final_url": "https://www.canada.ca/fr/immigration-refugies-citoyennete/organisation/transparence/acces-information-protection/info-source/sources-renseignements.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 30766,
+        "sha256": "e94c6440000ed4bb6fb356a6f333c4076cf9fbba1ca6443e7f57b5c25cbd5583",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-citizenship-and-immigration/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-citizenship-and-immigration/classes_of_records_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 88,
+        "french": 153,
+        "merged": 153
+      },
+      "classes_of_records": {
+        "english": 15,
+        "french": 0,
+        "merged": 15
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-department-of-the-environment",
+    "gc_orgID": "2237",
+    "institution_name_en": "Department of the Environment",
+    "institution_name_fr": "Ministère de l’Environnement",
+    "access_act_order": 7,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-department-of-the-environment",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T15:53:57.726695+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy/info-source.html",
+        "final_url": "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy/info-source.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 175942,
+        "sha256": "eeabcf2322a5fac2b2af377b5cbf8b3306f1c628d3c31db029dd755e24835abe",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-the-environment/snapshots/2026-08-15/raw/pibs_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-the-environment/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "pibs_fr": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels/info-source.html",
+        "final_url": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels/info-source.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 212114,
+        "sha256": "2219da8028d3a08a4763614d217996cfd544cac511e71932d269268a3153afe0",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-the-environment/snapshots/2026-08-15/raw/pibs_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-the-environment/pibs_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy/info-source.html",
+        "final_url": "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy/info-source.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 175942,
+        "sha256": "eeabcf2322a5fac2b2af377b5cbf8b3306f1c628d3c31db029dd755e24835abe",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-the-environment/snapshots/2026-08-15/raw/classes_of_records_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-the-environment/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_fr": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels/info-source.html",
+        "final_url": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels/info-source.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 212114,
+        "sha256": "2219da8028d3a08a4763614d217996cfd544cac511e71932d269268a3153afe0",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-the-environment/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-the-environment/classes_of_records_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 16,
+        "french": 16,
+        "merged": 16
+      },
+      "classes_of_records": {
+        "english": 8,
+        "french": 8,
+        "merged": 8
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-department-of-foreign-affairs-trade-and-development",
+    "gc_orgID": "2227",
+    "institution_name_en": "Department of Foreign Affairs, Trade and Development",
+    "institution_name_fr": "Ministère des Affaires étrangères, du Commerce et du Développement",
+    "access_act_order": 10,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-department-of-foreign-affairs-trade-and-development",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T15:54:06.969513+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "https://international.canada.ca/en/global-affairs/corporate/transparency/info-source",
+        "final_url": "https://international.canada.ca/en/global-affairs/corporate/transparency/info-source",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 332486,
+        "sha256": "0d19e1ca2f4594d361ec0995a86d9101af3bec596a00f27460f248bafef6c3be",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-foreign-affairs-trade-and-development/snapshots/2026-08-15/raw/pibs_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-foreign-affairs-trade-and-development/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "pibs_fr": {
+        "status": "collected",
+        "requested_url": "https://international.canada.ca/fr/affaires-mondiales/organisation/transparence/info-source",
+        "final_url": "https://international.canada.ca/fr/affaires-mondiales/organisation/transparence/info-source",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 447112,
+        "sha256": "d4d4c13e059beab05aa27ede9ccca23db6ec16c35d80385f2f2e3bbe2c0c8f7a",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-foreign-affairs-trade-and-development/snapshots/2026-08-15/raw/pibs_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-foreign-affairs-trade-and-development/pibs_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "https://international.canada.ca/en/global-affairs/corporate/transparency/info-source",
+        "final_url": "https://international.canada.ca/en/global-affairs/corporate/transparency/info-source",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 332486,
+        "sha256": "0d19e1ca2f4594d361ec0995a86d9101af3bec596a00f27460f248bafef6c3be",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-foreign-affairs-trade-and-development/snapshots/2026-08-15/raw/classes_of_records_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-foreign-affairs-trade-and-development/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_fr": {
+        "status": "collected",
+        "requested_url": "https://international.canada.ca/fr/affaires-mondiales/organisation/transparence/info-source",
+        "final_url": "https://international.canada.ca/fr/affaires-mondiales/organisation/transparence/info-source",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 447112,
+        "sha256": "d4d4c13e059beab05aa27ede9ccca23db6ec16c35d80385f2f2e3bbe2c0c8f7a",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-foreign-affairs-trade-and-development/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-foreign-affairs-trade-and-development/classes_of_records_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 16,
+        "french": 3,
+        "merged": 19
+      },
+      "classes_of_records": {
+        "english": 119,
+        "french": 134,
+        "merged": 134
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-department-of-indigenous-services",
+    "gc_orgID": "2243",
+    "institution_name_en": "Department of Indigenous Services",
+    "institution_name_fr": "Ministère des Services aux Autochtones",
+    "access_act_order": 13,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-department-of-indigenous-services",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T15:54:15.575237+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "https://www.sac-isc.gc.ca/eng/1639748667069/1639748703555",
+        "final_url": "https://www.sac-isc.gc.ca/eng/1639748667069/1639748703555",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 281037,
+        "sha256": "c16cb4645df7ae1e7dcdf6d16122b8ec550dc7318d7fe606fc99f2d2c1d83f76",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-indigenous-services/snapshots/2026-08-15/raw/pibs_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-indigenous-services/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "pibs_fr": {
+        "status": "collected",
+        "requested_url": "https://www.sac-isc.gc.ca/fra/1639748667069/1639748703555",
+        "final_url": "https://www.sac-isc.gc.ca/fra/1639748667069/1639748703555",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 351698,
+        "sha256": "f8202227d4f5d65d1eb85f3eae6a8cb49500387cf1bc29b46079f177536a6942",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-indigenous-services/snapshots/2026-08-15/raw/pibs_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-indigenous-services/pibs_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "https://www.sac-isc.gc.ca/eng/1639748667069/1639748703555",
+        "final_url": "https://www.sac-isc.gc.ca/eng/1639748667069/1639748703555",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 281037,
+        "sha256": "c16cb4645df7ae1e7dcdf6d16122b8ec550dc7318d7fe606fc99f2d2c1d83f76",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-indigenous-services/snapshots/2026-08-15/raw/classes_of_records_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-indigenous-services/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_fr": {
+        "status": "collected",
+        "requested_url": "https://www.sac-isc.gc.ca/fra/1639748667069/1639748703555",
+        "final_url": "https://www.sac-isc.gc.ca/fra/1639748667069/1639748703555",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 351698,
+        "sha256": "f8202227d4f5d65d1eb85f3eae6a8cb49500387cf1bc29b46079f177536a6942",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-indigenous-services/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-indigenous-services/classes_of_records_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 33,
+        "french": 33,
+        "merged": 33
+      },
+      "classes_of_records": {
+        "english": 72,
+        "french": 72,
+        "merged": 72
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-department-of-national-defence",
+    "gc_orgID": "2233",
+    "institution_name_en": "Department of National Defence",
+    "institution_name_fr": "Ministère de la Défense nationale",
+    "access_act_order": 16,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-department-of-national-defence",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T15:55:07.296115+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/en/department-national-defence/corporate/transparency/access-information-privacy/info-source-sources-of-federal-government-and-employee-information.html",
+        "final_url": "https://www.canada.ca/en/department-national-defence/corporate/transparency/access-information-privacy/info-source-sources-of-federal-government-and-employee-information.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 591776,
+        "sha256": "96c3db9d88631892fa97a92baeb28f550e24a8a27a12072e110ad4124f632ecd",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-national-defence/snapshots/2026-08-15/raw/pibs_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-national-defence/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": [
+          {
+            "url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings.html",
+            "final_url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source.html",
+            "http_status": 200,
+            "byte_count": 22519,
+            "sha256": "2827c9dff8686e639da9256c731735e56c25bddd6e8b92780e6d2ee412e9ec61",
+            "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-national-defence/snapshots/2026-08-15/raw/pibs_en_linked_1.html"
+          },
+          {
+            "url": "https://www.canada.ca/en/public-services-procurement/corporate/transparency/access-information-privacy/understanding-your-right-obtain-information/info-source-federal-government-employee-information.html",
+            "final_url": "https://www.canada.ca/en/public-services-procurement/corporate/transparency/access-information-privacy/understanding-your-right-obtain-information/info-source-federal-government-employee-information.html",
+            "http_status": 200,
+            "byte_count": 249468,
+            "sha256": "4c349faf01ae55b459f0606dc54e9074a1bfc73a15a3fb7dc144ccd7537fe815",
+            "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-national-defence/snapshots/2026-08-15/raw/pibs_en_linked_2.html"
+          },
+          {
+            "url": "https://www.canada.ca/en/security-intelligence-service/corporate/transparency/access-to-information-and-privacy/info-source.html",
+            "final_url": "https://www.canada.ca/en/security-intelligence-service/corporate/transparency/access-to-information-and-privacy/info-source.html",
+            "http_status": 200,
+            "byte_count": 94891,
+            "sha256": "60c23e1c799480aa3bcf01f33f53023f7de2a6cbc60ee894992b8884bfcaed39",
+            "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-national-defence/snapshots/2026-08-15/raw/pibs_en_linked_3.html"
+          },
+          {
+            "url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/how-access-information-personal-information-requests-work.html",
+            "final_url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/how-access-information-personal-information-requests-work.html",
+            "http_status": 200,
+            "byte_count": 41035,
+            "sha256": "3db556a06dcf5782fc30492dc889b7ff28d3db738b2cd44fabddc347452dc006",
+            "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-national-defence/snapshots/2026-08-15/raw/pibs_en_linked_4.html"
+          }
+        ]
+      },
+      "pibs_fr": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/info-source-sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux.html",
+        "final_url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/info-source-sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 738310,
+        "sha256": "3cb2697afb254f08ea46d5e8abd0cb028b54a41006d8d3c4de475bee2f44855a",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-national-defence/snapshots/2026-08-15/raw/pibs_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-national-defence/pibs_fr.md",
+        "fragment": "",
+        "discovered_pages": [
+          {
+            "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements.html",
+            "final_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-renseignements-personnels/acces-information/info-source.html",
+            "http_status": 200,
+            "byte_count": 23966,
+            "sha256": "217056df4ea7b01da38c7f35a94d67d5d4641639e30a9c8b41ce5159cb329163",
+            "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-national-defence/snapshots/2026-08-15/raw/pibs_fr_linked_1.html"
+          },
+          {
+            "url": "https://www.canada.ca/fr/service-renseignement-securite/organisation/transparence/acces-a-linformation-et-protection-des-renseignements-personnels/info-source.html",
+            "final_url": "https://www.canada.ca/fr/service-renseignement-securite/organisation/transparence/acces-a-linformation-et-protection-des-renseignements-personnels/info-source.html",
+            "http_status": 200,
+            "byte_count": 109277,
+            "sha256": "22c80ae4b9c61af9b97b9f727629468d52d21def213e1be76510f453bc9a8913",
+            "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-national-defence/snapshots/2026-08-15/raw/pibs_fr_linked_2.html"
+          },
+          {
+            "url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/comprendre-votre-droit-obtenir-renseignements/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+            "final_url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/comprendre-votre-droit-obtenir-renseignements/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+            "http_status": 200,
+            "byte_count": 292939,
+            "sha256": "5843492833afe4ad60daca2fa2f0c4feca3643faeaa12f89d9ead155adbfebc1",
+            "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-national-defence/snapshots/2026-08-15/raw/pibs_fr_linked_3.html"
+          }
+        ]
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/en/department-national-defence/corporate/transparency/access-information-privacy/info-source-sources-of-federal-government-and-employee-information.html",
+        "final_url": "https://www.canada.ca/en/department-national-defence/corporate/transparency/access-information-privacy/info-source-sources-of-federal-government-and-employee-information.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 591776,
+        "sha256": "96c3db9d88631892fa97a92baeb28f550e24a8a27a12072e110ad4124f632ecd",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-national-defence/snapshots/2026-08-15/raw/classes_of_records_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-national-defence/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_fr": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/info-source-sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux.html",
+        "final_url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/info-source-sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 738310,
+        "sha256": "3cb2697afb254f08ea46d5e8abd0cb028b54a41006d8d3c4de475bee2f44855a",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-national-defence/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-national-defence/classes_of_records_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 108,
+        "french": 103,
+        "merged": 111
+      },
+      "classes_of_records": {
+        "english": 151,
+        "french": 150,
+        "merged": 153
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-department-of-public-works-and-government-services",
+    "gc_orgID": "2236",
+    "institution_name_en": "Department of Public Works and Government Services",
+    "institution_name_fr": "Ministère des Travaux publics et des Services gouvernementaux",
+    "access_act_order": 19,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-department-of-public-works-and-government-services",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T15:55:29.919748+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "error",
+        "requested_url": "http://www.tpsgc-pwgsc.gc.ca/aiprp-atip/infosource-eng.html",
+        "error": "SSLError: HTTPSConnectionPool(host='www.tpsgc-pwgsc.gc.ca', port=443): Max retries exceeded with url: /aiprp-atip/infosource-eng.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
+      },
+      "pibs_fr": {
+        "status": "error",
+        "requested_url": "http://www.tpsgc-pwgsc.gc.ca/aiprp-atip/infosource-fra.html",
+        "error": "SSLError: HTTPSConnectionPool(host='www.tpsgc-pwgsc.gc.ca', port=443): Max retries exceeded with url: /aiprp-atip/infosource-fra.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
+      },
+      "classes_of_records_en": {
+        "status": "error",
+        "requested_url": "http://www.tpsgc-pwgsc.gc.ca/aiprp-atip/infosource-eng.html",
+        "error": "SSLError: HTTPSConnectionPool(host='www.tpsgc-pwgsc.gc.ca', port=443): Max retries exceeded with url: /aiprp-atip/infosource-eng.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
+      },
+      "classes_of_records_fr": {
+        "status": "error",
+        "requested_url": "http://www.tpsgc-pwgsc.gc.ca/aiprp-atip/infosource-fra.html",
+        "error": "SSLError: HTTPSConnectionPool(host='www.tpsgc-pwgsc.gc.ca', port=443): Max retries exceeded with url: /aiprp-atip/infosource-fra.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      },
+      "classes_of_records": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-department-of-western-economic-diversification",
+    "gc_orgID": "2240",
+    "institution_name_en": "Department of Western Economic Diversification",
+    "institution_name_fr": "Ministère de la Diversification de l’économie de l’Ouest canadien",
+    "access_act_order": 22,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-department-of-western-economic-diversification",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T15:55:41.832338+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/en/prairies-economic-development/corporate/transparency/information-holdings.html",
+        "final_url": "https://www.canada.ca/en/prairies-economic-development/corporate/transparency/information-holdings.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 63509,
+        "sha256": "b7cb6f3adda9f50c900b9e4a357a84b4576ace7945effddbc38368653c7fa49f",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-western-economic-diversification/snapshots/2026-08-15/raw/pibs_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-western-economic-diversification/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": [
+          {
+            "url": "https://www.canada.ca/en/prairies-economic-development/corporate/transparency/information-holdings/personal-information-banks.html",
+            "final_url": "https://www.canada.ca/en/prairies-economic-development/corporate/transparency/information-holdings/personal-information-banks.html",
+            "http_status": 200,
+            "byte_count": 21536,
+            "sha256": "dc86718f49a8d6de4bae8225cc74248b2f3fd49e2d237b1f38273ae0ec777a36",
+            "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-western-economic-diversification/snapshots/2026-08-15/raw/pibs_en_linked_1.html"
+          }
+        ]
+      },
+      "pibs_fr": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/fr/developpement-economique-prairies/organisation/transparence/fonds-renseignements.html",
+        "final_url": "https://www.canada.ca/fr/developpement-economique-prairies/organisation/transparence/fonds-renseignements.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 74560,
+        "sha256": "9e0c49cc9d0c4067f083a1494b80130823b3c70e3691b89b22d2a0ee94c350fa",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-western-economic-diversification/snapshots/2026-08-15/raw/pibs_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-western-economic-diversification/pibs_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/en/prairies-economic-development/corporate/transparency/information-holdings.html",
+        "final_url": "https://www.canada.ca/en/prairies-economic-development/corporate/transparency/information-holdings.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 63509,
+        "sha256": "b7cb6f3adda9f50c900b9e4a357a84b4576ace7945effddbc38368653c7fa49f",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-western-economic-diversification/snapshots/2026-08-15/raw/classes_of_records_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-western-economic-diversification/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": [
+          {
+            "url": "https://www.canada.ca/en/prairies-economic-development/corporate/transparency/information-holdings/classes-records.html",
+            "final_url": "https://www.canada.ca/en/prairies-economic-development/corporate/transparency/information-holdings/classes-records.html",
+            "http_status": 200,
+            "byte_count": 37384,
+            "sha256": "2342561d84174840d4e0d485559cf10dc4d4c1ad5570740b88f8ef6f0ccb2f5b",
+            "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-western-economic-diversification/snapshots/2026-08-15/raw/classes_of_records_en_linked_1.html"
+          }
+        ]
+      },
+      "classes_of_records_fr": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/fr/developpement-economique-prairies/organisation/transparence/fonds-renseignements/categories-documents.html#services",
+        "final_url": "https://www.canada.ca/fr/developpement-economique-prairies/organisation/transparence/fonds-renseignements/categories-documents.html#services",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 43767,
+        "sha256": "653f06838f4485c28452e7b00e2749f30da0b5f8f18cf8cb9e7ed3cb9599fa3e",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-western-economic-diversification/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-western-economic-diversification/classes_of_records_fr.md",
+        "fragment": "services",
+        "discovered_pages": [
+          {
+            "url": "https://www.canada.ca/en/prairies-economic-development/corporate/transparency/information-holdings/classes-records.html",
+            "final_url": "https://www.canada.ca/en/prairies-economic-development/corporate/transparency/information-holdings/classes-records.html",
+            "http_status": 200,
+            "byte_count": 37384,
+            "sha256": "97f9c77924db23f28724640b53da96ce8d2a764d636eecf27e45af74e52a4882",
+            "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-western-economic-diversification/snapshots/2026-08-15/raw/classes_of_records_fr_linked_1.html"
+          }
+        ]
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      },
+      "classes_of_records": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-atlantic-canada-opportunities-agency",
+    "gc_orgID": "2244",
+    "institution_name_en": "Atlantic Canada Opportunities Agency",
+    "institution_name_fr": "Agence de promotion économique du Canada atlantique",
+    "access_act_order": 25,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-atlantic-canada-opportunities-agency",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T15:55:56.970537+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/en/atlantic-canada-opportunities/corporate/transparency/info-source-introduction1.html",
+        "final_url": "https://www.canada.ca/en/atlantic-canada-opportunities/corporate/transparency/info-source-introduction1.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 142042,
+        "sha256": "747ad43b1e35513ccbedc16df3fb04b53314b028eee8bf32408c108a88254bec",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-atlantic-canada-opportunities-agency/snapshots/2026-08-15/raw/pibs_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-atlantic-canada-opportunities-agency/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "pibs_fr": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/fr/promotion-economique-canada-atlantique/organisation/transparence/introduction-a-infosource1.html",
+        "final_url": "https://www.canada.ca/fr/promotion-economique-canada-atlantique/organisation/transparence/introduction-a-infosource1.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 189749,
+        "sha256": "ff23aa4d3a34632e00a16c3249b0e12b17c3c8b1624458b4dc7b6c14ffdba229",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-atlantic-canada-opportunities-agency/snapshots/2026-08-15/raw/pibs_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-atlantic-canada-opportunities-agency/pibs_fr.md",
+        "fragment": "",
+        "discovered_pages": [
+          {
+            "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements.html",
+            "final_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-renseignements-personnels/acces-information/info-source.html",
+            "http_status": 200,
+            "byte_count": 23967,
+            "sha256": "9aaf395e0268229be45f5a00f7699cca4830e8647c0fd68d957d946eef788196",
+            "raw_path": "institutions_infosource_docs/ati-schedule-i-atlantic-canada-opportunities-agency/snapshots/2026-08-15/raw/pibs_fr_linked_1.html"
+          }
+        ]
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/en/atlantic-canada-opportunities/corporate/transparency/info-source-introduction1.html",
+        "final_url": "https://www.canada.ca/en/atlantic-canada-opportunities/corporate/transparency/info-source-introduction1.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 142042,
+        "sha256": "747ad43b1e35513ccbedc16df3fb04b53314b028eee8bf32408c108a88254bec",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-atlantic-canada-opportunities-agency/snapshots/2026-08-15/raw/classes_of_records_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-atlantic-canada-opportunities-agency/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_fr": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/fr/promotion-economique-canada-atlantique/organisation/transparence/introduction-a-infosource1.html",
+        "final_url": "https://www.canada.ca/fr/promotion-economique-canada-atlantique/organisation/transparence/introduction-a-infosource1.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 189749,
+        "sha256": "ff23aa4d3a34632e00a16c3249b0e12b17c3c8b1624458b4dc7b6c14ffdba229",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-atlantic-canada-opportunities-agency/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-atlantic-canada-opportunities-agency/classes_of_records_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 7,
+        "french": 0,
+        "merged": 7
+      },
+      "classes_of_records": {
+        "english": 21,
+        "french": 27,
+        "merged": 31
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-canada-border-services-agency",
+    "gc_orgID": "2300",
+    "institution_name_en": "Canada Border Services Agency",
+    "institution_name_fr": "Agence des services frontaliers du Canada",
+    "access_act_order": 28,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-canada-border-services-agency",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T15:56:05.519565+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-eng.html",
+        "final_url": "https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-eng.html",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 337864,
+        "sha256": "92ceef9aa11a18c202aeecc1f47da69dedf9ec6807e00ce10a73652a69e18b77",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-canada-border-services-agency/snapshots/2026-08-15/raw/pibs_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-canada-border-services-agency/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "pibs_fr": {
+        "status": "collected",
+        "requested_url": "https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-fra.html",
+        "final_url": "https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-fra.html",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 409179,
+        "sha256": "fecd01391c87a5931ad8312e0aca4c0742c47430a6e11e67c6e66306fc864a20",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-canada-border-services-agency/snapshots/2026-08-15/raw/pibs_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-canada-border-services-agency/pibs_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-eng.html",
+        "final_url": "https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-eng.html",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 337864,
+        "sha256": "92ceef9aa11a18c202aeecc1f47da69dedf9ec6807e00ce10a73652a69e18b77",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-canada-border-services-agency/snapshots/2026-08-15/raw/classes_of_records_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-canada-border-services-agency/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_fr": {
+        "status": "collected",
+        "requested_url": "https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-fra.html",
+        "final_url": "https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-fra.html",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 409179,
+        "sha256": "fecd01391c87a5931ad8312e0aca4c0742c47430a6e11e67c6e66306fc864a20",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-canada-border-services-agency/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-canada-border-services-agency/classes_of_records_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 37,
+        "french": 37,
+        "merged": 37
+      },
+      "classes_of_records": {
+        "english": 112,
+        "french": 109,
+        "merged": 116
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-canada-foundation-for-sustainable-development-technology",
+    "gc_orgID": "3444",
+    "institution_name_en": "Canada Foundation for Sustainable Development Technology",
+    "institution_name_fr": "Fondation du Canada pour l’appui technologique au développement durable",
+    "access_act_order": 32,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-canada-foundation-for-sustainable-development-technology",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T15:58:17.947805+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "error",
+        "requested_url": "https://www.sdtc.ca/en/about/accountability/info-source/",
+        "error": "ConnectTimeout: HTTPSConnectionPool(host='www.sdtc.ca', port=443): Max retries exceeded with url: /en/about/accountability/info-source/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.sdtc.ca', port=443) at 0x7fc6cc131370>, 'Connection to www.sdtc.ca timed out. (connect timeout=15)'))"
+      },
+      "pibs_fr": {
+        "status": "missing_url",
+        "url": ""
+      },
+      "classes_of_records_en": {
+        "status": "error",
+        "requested_url": "https://www.sdtc.ca/en/about/accountability/info-source/",
+        "error": "ConnectTimeout: HTTPSConnectionPool(host='www.sdtc.ca', port=443): Max retries exceeded with url: /en/about/accountability/info-source/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.sdtc.ca', port=443) at 0x7fc6cc132840>, 'Connection to www.sdtc.ca timed out. (connect timeout=15)'))"
+      },
+      "classes_of_records_fr": {
+        "status": "missing_url",
+        "url": ""
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      },
+      "classes_of_records": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-canada-revenue-agency",
+    "gc_orgID": "2303",
+    "institution_name_en": "Canada Revenue Agency",
+    "institution_name_fr": "Agence du revenu du Canada",
+    "access_act_order": 35,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-canada-revenue-agency",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T15:58:33.600770+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/info-source-appendix.html",
+        "final_url": "https://www.canada.ca/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/info-source-appendix.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 353183,
+        "sha256": "1e9d9e9943e99b2e27765fa1bb3799a6c72558056b675058f06ce505de555408",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-canada-revenue-agency/snapshots/2026-08-15/raw/pibs_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-canada-revenue-agency/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "pibs_fr": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/fonds-renseignements-agence-revenu-canada-info-source.html",
+        "final_url": "https://www.canada.ca/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/fonds-renseignements-agence-revenu-canada-info-source.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 172799,
+        "sha256": "d257d129cd36deac5f9a724bf7552c1b2e5c9c80bb46a1b5941b357a02035e39",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-canada-revenue-agency/snapshots/2026-08-15/raw/pibs_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-canada-revenue-agency/pibs_fr.md",
+        "fragment": "",
+        "discovered_pages": [
+          {
+            "url": "https://www.canada.ca/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/info-source-annexe.html",
+            "final_url": "https://www.canada.ca/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/info-source-annexe.html",
+            "http_status": 200,
+            "byte_count": 464856,
+            "sha256": "bc602f2dac8fd7ba0a17f253653bf7065830916f6f33b74ec6342aa690ec855b",
+            "raw_path": "institutions_infosource_docs/ati-schedule-i-canada-revenue-agency/snapshots/2026-08-15/raw/pibs_fr_linked_1.html"
+          }
+        ]
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/info-source-sources-federal-government-employee-information.html",
+        "final_url": "https://www.canada.ca/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/info-source-sources-federal-government-employee-information.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 139873,
+        "sha256": "74ce43708dc4fdb03b359240774b00b80773c1481c158383e0b3122c2ac3308b",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-canada-revenue-agency/snapshots/2026-08-15/raw/classes_of_records_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-canada-revenue-agency/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": [
+          {
+            "url": "https://www.canada.ca/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/appendix.html",
+            "final_url": "https://www.canada.ca/en/revenue-agency/corporate/about-canada-revenue-agency-cra/access-information-privacy-canada-revenue-agency/appendix.html",
+            "http_status": 200,
+            "byte_count": 147699,
+            "sha256": "de2ac177dda1485aadccfad809d4e846b72542e865c1ceb64141b2282eac7508",
+            "raw_path": "institutions_infosource_docs/ati-schedule-i-canada-revenue-agency/snapshots/2026-08-15/raw/classes_of_records_en_linked_1.html"
+          }
+        ]
+      },
+      "classes_of_records_fr": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/appendice.html",
+        "final_url": "https://www.canada.ca/fr/agence-revenu/organisation/a-propos-agence-revenu-canada-arc/acces-a-information-protection-renseignements-personnels-a-agence-revenu-canada/appendice.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 183503,
+        "sha256": "d50acf8d8cbaad4244b6c5b1e3bb97be35b9f94465c0282093d4496a3c91f70e",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-canada-revenue-agency/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-canada-revenue-agency/classes_of_records_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 0,
+        "french": 3,
+        "merged": 3
+      },
+      "classes_of_records": {
+        "english": 53,
+        "french": 53,
+        "merged": 54
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-canadian-centre-for-occupational-health-and-safety",
+    "gc_orgID": "2305",
+    "institution_name_en": "Canadian Centre for Occupational Health and Safety",
+    "institution_name_fr": "Centre canadien d’hygiène et de sécurité au travail",
+    "access_act_order": 39,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-canadian-centre-for-occupational-health-and-safety",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T15:58:39.239367+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "https://www.ccohs.ca:443/ccohs/reports/transparency.html",
+        "final_url": "https://www.ccohs.ca:443/ccohs/reports/transparency.html",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 421019,
+        "sha256": "b9edcfb3d5743bfee5a12cdc27bda5cc93ff98b128cb4004918a472293a8b95a",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-centre-for-occupational-health-and-safety/snapshots/2026-08-15/raw/pibs_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-centre-for-occupational-health-and-safety/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "pibs_fr": {
+        "status": "collected",
+        "requested_url": "https://www.cchst.ca:443/ccohs/reports/transparency.html",
+        "final_url": "https://www.cchst.ca:443/ccohs/reports/transparency.html",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 378944,
+        "sha256": "ab1f67d4b88bebc236b9f42846f1ca6c8feca13ea9521021bc848bb38a6ca3a6",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-centre-for-occupational-health-and-safety/snapshots/2026-08-15/raw/pibs_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-centre-for-occupational-health-and-safety/pibs_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "https://www.ccohs.ca:443/ccohs/reports/transparency.html",
+        "final_url": "https://www.ccohs.ca:443/ccohs/reports/transparency.html",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 421019,
+        "sha256": "b9edcfb3d5743bfee5a12cdc27bda5cc93ff98b128cb4004918a472293a8b95a",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-centre-for-occupational-health-and-safety/snapshots/2026-08-15/raw/classes_of_records_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-centre-for-occupational-health-and-safety/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_fr": {
+        "status": "collected",
+        "requested_url": "https://www.cchst.ca:443/ccohs/reports/transparency.html",
+        "final_url": "https://www.cchst.ca:443/ccohs/reports/transparency.html",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 378944,
+        "sha256": "ab1f67d4b88bebc236b9f42846f1ca6c8feca13ea9521021bc848bb38a6ca3a6",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-centre-for-occupational-health-and-safety/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-centre-for-occupational-health-and-safety/classes_of_records_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 1,
+        "french": 1,
+        "merged": 1
+      },
+      "classes_of_records": {
+        "english": 12,
+        "french": 11,
+        "merged": 12
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-canadian-forces",
+    "gc_orgID": "",
+    "institution_name_en": "Canadian Forces",
+    "institution_name_fr": "Forces canadiennes",
+    "access_act_order": 42,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-canadian-forces",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T15:59:16.577033+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/en/department-national-defence/corporate/transparency/access-information-privacy/info-source-sources-of-federal-government-and-employee-information.html",
+        "final_url": "https://www.canada.ca/en/department-national-defence/corporate/transparency/access-information-privacy/info-source-sources-of-federal-government-and-employee-information.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 591776,
+        "sha256": "91e2fed8c0e5013f604ebc93507c2f22c3a9a738d8e5137b090dc3840dff3c85",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-forces/snapshots/2026-08-15/raw/pibs_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-forces/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": [
+          {
+            "url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings.html",
+            "final_url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source.html",
+            "http_status": 200,
+            "byte_count": 22519,
+            "sha256": "561795c87b51ede7d392080eb01cfa1733e97b5f9ee51ef021cd5f1ac0ab1d2d",
+            "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-forces/snapshots/2026-08-15/raw/pibs_en_linked_1.html"
+          },
+          {
+            "url": "https://www.canada.ca/en/public-services-procurement/corporate/transparency/access-information-privacy/understanding-your-right-obtain-information/info-source-federal-government-employee-information.html",
+            "final_url": "https://www.canada.ca/en/public-services-procurement/corporate/transparency/access-information-privacy/understanding-your-right-obtain-information/info-source-federal-government-employee-information.html",
+            "http_status": 200,
+            "byte_count": 249468,
+            "sha256": "0ae196b924b2eac7bfd931a0f116e18db0b0ee20eee1b5844c69719e72b0067f",
+            "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-forces/snapshots/2026-08-15/raw/pibs_en_linked_2.html"
+          },
+          {
+            "url": "https://www.canada.ca/en/security-intelligence-service/corporate/transparency/access-to-information-and-privacy/info-source.html",
+            "final_url": "https://www.canada.ca/en/security-intelligence-service/corporate/transparency/access-to-information-and-privacy/info-source.html",
+            "http_status": 200,
+            "byte_count": 94891,
+            "sha256": "97ed2a83f8c6e093f76ca24bebb86c454e71edf5a82e559de110b293ff2e8129",
+            "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-forces/snapshots/2026-08-15/raw/pibs_en_linked_3.html"
+          },
+          {
+            "url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/how-access-information-personal-information-requests-work.html",
+            "final_url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/how-access-information-personal-information-requests-work.html",
+            "http_status": 200,
+            "byte_count": 41036,
+            "sha256": "d60ecebf527ee113bfc39894f711079ea5c47ada4015920b8c5980fe748f6de4",
+            "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-forces/snapshots/2026-08-15/raw/pibs_en_linked_4.html"
+          }
+        ]
+      },
+      "pibs_fr": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/info-source-sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux.html",
+        "final_url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/info-source-sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 738310,
+        "sha256": "cb265ad26117e499df12364435ffda1299377b921f15c4d441deaac990147aba",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-forces/snapshots/2026-08-15/raw/pibs_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-forces/pibs_fr.md",
+        "fragment": "",
+        "discovered_pages": [
+          {
+            "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements.html",
+            "final_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-renseignements-personnels/acces-information/info-source.html",
+            "http_status": 200,
+            "byte_count": 23966,
+            "sha256": "b56caa9528aab32a99ea44116a405c6e1b357ada16b6eb57c4ef191a1c4a62e4",
+            "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-forces/snapshots/2026-08-15/raw/pibs_fr_linked_1.html"
+          },
+          {
+            "url": "https://www.canada.ca/fr/service-renseignement-securite/organisation/transparence/acces-a-linformation-et-protection-des-renseignements-personnels/info-source.html",
+            "final_url": "https://www.canada.ca/fr/service-renseignement-securite/organisation/transparence/acces-a-linformation-et-protection-des-renseignements-personnels/info-source.html",
+            "http_status": 200,
+            "byte_count": 109278,
+            "sha256": "dce4935e87e9e94fa937b19f1b36fe102413c48bf28e5b7958298202724d4b6e",
+            "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-forces/snapshots/2026-08-15/raw/pibs_fr_linked_2.html"
+          },
+          {
+            "url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/comprendre-votre-droit-obtenir-renseignements/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+            "final_url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/comprendre-votre-droit-obtenir-renseignements/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+            "http_status": 200,
+            "byte_count": 292939,
+            "sha256": "39374d4c7d07b537183610b88c0417629e2ff38db393df4bfee1757d3bc0e602",
+            "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-forces/snapshots/2026-08-15/raw/pibs_fr_linked_3.html"
+          }
+        ]
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/en/department-national-defence/corporate/transparency/access-information-privacy/info-source-sources-of-federal-government-and-employee-information.html",
+        "final_url": "https://www.canada.ca/en/department-national-defence/corporate/transparency/access-information-privacy/info-source-sources-of-federal-government-and-employee-information.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 591776,
+        "sha256": "91e2fed8c0e5013f604ebc93507c2f22c3a9a738d8e5137b090dc3840dff3c85",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-forces/snapshots/2026-08-15/raw/classes_of_records_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-forces/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_fr": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/info-source-sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux.html",
+        "final_url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/info-source-sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 738310,
+        "sha256": "cb265ad26117e499df12364435ffda1299377b921f15c4d441deaac990147aba",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-forces/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-forces/classes_of_records_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 108,
+        "french": 103,
+        "merged": 111
+      },
+      "classes_of_records": {
+        "english": 151,
+        "french": 150,
+        "merged": 153
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-canadian-human-rights-commission",
+    "gc_orgID": "2247",
+    "institution_name_en": "Canadian Human Rights Commission",
+    "institution_name_fr": "Commission canadienne des droits de la personne",
+    "access_act_order": 45,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-canadian-human-rights-commission",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T15:59:17.846211+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "error",
+        "requested_url": "https://www.chrc-ccdp.gc.ca/sites/default/files/2022-09/OTTAWAITI7-%233111281-v1-Info_Source__Sources_of_Federal_Government_and_Employee_Information_2022_FINAL.pdf",
+        "error": "HTTPError: 404 Client Error: Not Found for url: https://www.chrc-ccdp.gc.ca/sites/default/files/2022-09/OTTAWAITI7-%233111281-v1-Info_Source__Sources_of_Federal_Government_and_Employee_Information_2022_FINAL.pdf"
+      },
+      "pibs_fr": {
+        "status": "error",
+        "requested_url": "https://www.chrc-ccdp.gc.ca/sites/default/files/2022-09/OTTAWAITI7-%233111276-v1-Info_Source___Sources_de_renseignements_sur_le_gouvernement_et_les_employes_federaux_2022_FINAL.pdf",
+        "error": "HTTPError: 404 Client Error: Not Found for url: https://www.chrc-ccdp.gc.ca/sites/default/files/2022-09/OTTAWAITI7-%233111276-v1-Info_Source___Sources_de_renseignements_sur_le_gouvernement_et_les_employes_federaux_2022_FINAL.pdf"
+      },
+      "classes_of_records_en": {
+        "status": "error",
+        "requested_url": "https://www.chrc-ccdp.gc.ca/sites/default/files/2022-09/OTTAWAITI7-%233111281-v1-Info_Source__Sources_of_Federal_Government_and_Employee_Information_2022_FINAL.pdf",
+        "error": "HTTPError: 404 Client Error: Not Found for url: https://www.chrc-ccdp.gc.ca/sites/default/files/2022-09/OTTAWAITI7-%233111281-v1-Info_Source__Sources_of_Federal_Government_and_Employee_Information_2022_FINAL.pdf"
+      },
+      "classes_of_records_fr": {
+        "status": "error",
+        "requested_url": "https://www.chrc-ccdp.gc.ca/sites/default/files/2022-09/OTTAWAITI7-%233111276-v1-Info_Source___Sources_de_renseignements_sur_le_gouvernement_et_les_employes_federaux_2022_FINAL.pdf",
+        "error": "HTTPError: 404 Client Error: Not Found for url: https://www.chrc-ccdp.gc.ca/sites/default/files/2022-09/OTTAWAITI7-%233111276-v1-Info_Source___Sources_de_renseignements_sur_le_gouvernement_et_les_employes_federaux_2022_FINAL.pdf"
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      },
+      "classes_of_records": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-canadian-museum-of-immigration-at-pier-21",
+    "gc_orgID": "3622",
+    "institution_name_en": "Canadian Museum of Immigration at Pier 21",
+    "institution_name_fr": "Musée canadien de l’immigration du Quai 21",
+    "access_act_order": 48,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-canadian-museum-of-immigration-at-pier-21",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T15:59:45.709991+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "https://pier21.ca/sites/default/files/corporate-reports/2019_Info_Source_EN.pdf",
+        "final_url": "https://pier21.ca/sites/default/files/corporate-reports/2019_Info_Source_EN.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "encoding": "",
+        "byte_count": 501929,
+        "sha256": "6bb05db05362a2971e6a1434e74157d2facb2d0e369433bf8a3fd132b27501c7",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-museum-of-immigration-at-pier-21/snapshots/2026-08-15/raw/pibs_en.pdf",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-museum-of-immigration-at-pier-21/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "pibs_fr": {
+        "status": "collected",
+        "requested_url": "https://quai21.ca/sites/default/files/rapports-corporatifs/2019_Info_Source_FR_CMIP21.pdf",
+        "final_url": "https://quai21.ca/sites/default/files/rapports-corporatifs/2019_Info_Source_FR_CMIP21.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "encoding": "",
+        "byte_count": 527274,
+        "sha256": "40c87364a30dff974a8788655265f607c310dfc7482f45aa75aadb3283b636a7",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-museum-of-immigration-at-pier-21/snapshots/2026-08-15/raw/pibs_fr.pdf",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-museum-of-immigration-at-pier-21/pibs_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "https://pier21.ca/sites/default/files/corporate-reports/2019_Info_Source_EN.pdf",
+        "final_url": "https://pier21.ca/sites/default/files/corporate-reports/2019_Info_Source_EN.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "encoding": "",
+        "byte_count": 501929,
+        "sha256": "6bb05db05362a2971e6a1434e74157d2facb2d0e369433bf8a3fd132b27501c7",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-museum-of-immigration-at-pier-21/snapshots/2026-08-15/raw/classes_of_records_en.pdf",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-museum-of-immigration-at-pier-21/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_fr": {
+        "status": "collected",
+        "requested_url": "https://quai21.ca/sites/default/files/rapports-corporatifs/2019_Info_Source_FR_CMIP21.pdf",
+        "final_url": "https://quai21.ca/sites/default/files/rapports-corporatifs/2019_Info_Source_FR_CMIP21.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "encoding": "",
+        "byte_count": 527274,
+        "sha256": "40c87364a30dff974a8788655265f607c310dfc7482f45aa75aadb3283b636a7",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-museum-of-immigration-at-pier-21/snapshots/2026-08-15/raw/classes_of_records_fr.pdf",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-museum-of-immigration-at-pier-21/classes_of_records_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      },
+      "classes_of_records": {
+        "english": 10,
+        "french": 10,
+        "merged": 10
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-canadian-radio-television-and-telecommunications-commission",
+    "gc_orgID": "2396",
+    "institution_name_en": "Canadian Radio-television and Telecommunications Commission",
+    "institution_name_fr": "Conseil de la radiodiffusion et des télécommunications canadiennes",
+    "access_act_order": 51,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-canadian-radio-television-and-telecommunications-commission",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T15:59:50.061194+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "https://crtc.gc.ca/eng/about/sources.htm",
+        "final_url": "https://crtc.gc.ca/eng/about/sources.htm",
+        "http_status": 200,
+        "content_type": "text/html",
+        "encoding": "ISO-8859-1",
+        "byte_count": 125763,
+        "sha256": "6d3f53310131f67ce844ea2f1f52c87e31392ef9b941f66f63162c7a3a50d319",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-radio-television-and-telecommunications-commission/snapshots/2026-08-15/raw/pibs_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-radio-television-and-telecommunications-commission/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "pibs_fr": {
+        "status": "collected",
+        "requested_url": "https://crtc.gc.ca/fra/about/sources.htm",
+        "final_url": "https://crtc.gc.ca/fra/about/sources.htm",
+        "http_status": 200,
+        "content_type": "text/html",
+        "encoding": "ISO-8859-1",
+        "byte_count": 147212,
+        "sha256": "7494b4349adcc25b773b8e04a28e2f339c13deb405655bd73cd977f1f2d62234",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-radio-television-and-telecommunications-commission/snapshots/2026-08-15/raw/pibs_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-radio-television-and-telecommunications-commission/pibs_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "https://crtc.gc.ca/eng/about/sources.htm",
+        "final_url": "https://crtc.gc.ca/eng/about/sources.htm",
+        "http_status": 200,
+        "content_type": "text/html",
+        "encoding": "ISO-8859-1",
+        "byte_count": 125763,
+        "sha256": "6d3f53310131f67ce844ea2f1f52c87e31392ef9b941f66f63162c7a3a50d319",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-radio-television-and-telecommunications-commission/snapshots/2026-08-15/raw/classes_of_records_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-radio-television-and-telecommunications-commission/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_fr": {
+        "status": "collected",
+        "requested_url": "https://crtc.gc.ca/fra/about/sources.htm",
+        "final_url": "https://crtc.gc.ca/fra/about/sources.htm",
+        "http_status": 200,
+        "content_type": "text/html",
+        "encoding": "ISO-8859-1",
+        "byte_count": 147212,
+        "sha256": "7494b4349adcc25b773b8e04a28e2f339c13deb405655bd73cd977f1f2d62234",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-radio-television-and-telecommunications-commission/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-radio-television-and-telecommunications-commission/classes_of_records_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 12,
+        "french": 11,
+        "merged": 12
+      },
+      "classes_of_records": {
+        "english": 17,
+        "french": 19,
+        "merged": 21
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-canadian-transportation-accident-investigation-and-safety-board",
+    "gc_orgID": "2309",
+    "institution_name_en": "Canadian Transportation Accident Investigation and Safety Board",
+    "institution_name_fr": "Bureau canadien d’enquête sur les accidents de transport et de la sécurité des transports",
+    "access_act_order": 54,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-canadian-transportation-accident-investigation-and-safety-board",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T15:59:51.003127+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "http://tsb-bst.gc.ca/eng/divulgation-disclosure/infosource/index.asp",
+        "final_url": "https://tsb-bst.gc.ca/splash?destination=/homepage",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 9264,
+        "sha256": "ab852047b0cfa6db4542d35cca33c6169c6e4770d5263f95b041ed1b55c4dc35",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-transportation-accident-investigation-and-safety-board/snapshots/2026-08-15/raw/pibs_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-transportation-accident-investigation-and-safety-board/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "pibs_fr": {
+        "status": "collected",
+        "requested_url": "http://tsb-bst.gc.ca/fra/divulgation-disclosure/infosource/index.asp",
+        "final_url": "https://tsb-bst.gc.ca/splash?destination=/homepage",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 9264,
+        "sha256": "ab852047b0cfa6db4542d35cca33c6169c6e4770d5263f95b041ed1b55c4dc35",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-transportation-accident-investigation-and-safety-board/snapshots/2026-08-15/raw/pibs_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-transportation-accident-investigation-and-safety-board/pibs_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "http://tsb-bst.gc.ca/eng/divulgation-disclosure/infosource/index.asp",
+        "final_url": "https://tsb-bst.gc.ca/splash?destination=/homepage",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 9264,
+        "sha256": "ab852047b0cfa6db4542d35cca33c6169c6e4770d5263f95b041ed1b55c4dc35",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-transportation-accident-investigation-and-safety-board/snapshots/2026-08-15/raw/classes_of_records_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-transportation-accident-investigation-and-safety-board/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_fr": {
+        "status": "collected",
+        "requested_url": "http://tsb-bst.gc.ca/fra/divulgation-disclosure/infosource/index.asp",
+        "final_url": "https://tsb-bst.gc.ca/splash?destination=/homepage",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 9264,
+        "sha256": "ab852047b0cfa6db4542d35cca33c6169c6e4770d5263f95b041ed1b55c4dc35",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-transportation-accident-investigation-and-safety-board/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-transportation-accident-investigation-and-safety-board/classes_of_records_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      },
+      "classes_of_records": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-college-of-patent-agents-and-trademark-agents",
+    "gc_orgID": "",
+    "institution_name_en": "College of Patent Agents and Trademark Agents",
+    "institution_name_fr": "Collège des agents de brevets et des agents de marques de commerce",
+    "access_act_order": 58,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-college-of-patent-agents-and-trademark-agents",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T15:59:57.121592+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "https://cpata-cabamc.ca/en/about-us/info-source/",
+        "final_url": "https://cpata-cabamc.ca/en/about-us/info-source/",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 371138,
+        "sha256": "d9d188e0d2efcee4e1575415dd3d4c3ac571147a0fa789fb143ded6a7d220b24",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-college-of-patent-agents-and-trademark-agents/snapshots/2026-08-15/raw/pibs_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-college-of-patent-agents-and-trademark-agents/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "pibs_fr": {
+        "status": "collected",
+        "requested_url": "https://cpata-cabamc.ca/fr/a-propos-de-nous/info-source/",
+        "final_url": "https://cpata-cabamc.ca/fr/a-propos-de-nous/info-source/",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 470642,
+        "sha256": "4663573941898e9c7149258c47060ccd31863f5b4020b8db5a676e95ba6b19d2",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-college-of-patent-agents-and-trademark-agents/snapshots/2026-08-15/raw/pibs_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-college-of-patent-agents-and-trademark-agents/pibs_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "https://cpata-cabamc.ca/en/about-us/info-source/",
+        "final_url": "https://cpata-cabamc.ca/en/about-us/info-source/",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 371138,
+        "sha256": "d9d188e0d2efcee4e1575415dd3d4c3ac571147a0fa789fb143ded6a7d220b24",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-college-of-patent-agents-and-trademark-agents/snapshots/2026-08-15/raw/classes_of_records_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-college-of-patent-agents-and-trademark-agents/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": [
+          {
+            "url": "https://cpata-cabamc.ca/en/become-an-agent/become-an-agent-in-training/submit-an-agent-in-training-class-3-application/",
+            "final_url": "https://cpata-cabamc.ca/en/become-an-agent/become-an-agent-in-training/submit-an-agent-in-training-class-3-application/",
+            "http_status": 200,
+            "byte_count": 362933,
+            "sha256": "8bc60550c3bb22e4d48f431bd6acf9677bc4157acad8bf2e68b0cd2fd1cfdf70",
+            "raw_path": "institutions_infosource_docs/ati-schedule-i-college-of-patent-agents-and-trademark-agents/snapshots/2026-08-15/raw/classes_of_records_en_linked_1.html"
+          },
+          {
+            "url": "https://cpata-cabamc.ca/en/your-practice/licence-classes/",
+            "final_url": "https://cpata-cabamc.ca/en/your-practice/licence-classes/",
+            "http_status": 200,
+            "byte_count": 364186,
+            "sha256": "235456a3af694891d5d62fde174f8cdde38d49d0df59b6fdda9fb95c85138de3",
+            "raw_path": "institutions_infosource_docs/ati-schedule-i-college-of-patent-agents-and-trademark-agents/snapshots/2026-08-15/raw/classes_of_records_en_linked_2.html"
+          }
+        ]
+      },
+      "classes_of_records_fr": {
+        "status": "collected",
+        "requested_url": "https://cpata-cabamc.ca/fr/a-propos-de-nous/info-source/",
+        "final_url": "https://cpata-cabamc.ca/fr/a-propos-de-nous/info-source/",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 470642,
+        "sha256": "4663573941898e9c7149258c47060ccd31863f5b4020b8db5a676e95ba6b19d2",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-college-of-patent-agents-and-trademark-agents/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-college-of-patent-agents-and-trademark-agents/classes_of_records_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 1,
+        "french": 1,
+        "merged": 1
+      },
+      "classes_of_records": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-correctional-service-of-canada",
+    "gc_orgID": "2255",
+    "institution_name_en": "Correctional Service of Canada",
+    "institution_name_fr": "Service correctionnel du Canada",
+    "access_act_order": 61,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-correctional-service-of-canada",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T16:00:20.763367+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source.html",
+        "final_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 324164,
+        "sha256": "4f8fd2cd3631f239e53cc1550f7171da8c389f3687298952e645e1d455ef9730",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-correctional-service-of-canada/snapshots/2026-08-15/raw/pibs_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-correctional-service-of-canada/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": [
+          {
+            "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/atip/correcting-personal-information.html",
+            "final_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/atip/correcting-personal-information.html",
+            "http_status": 200,
+            "byte_count": 24509,
+            "sha256": "72e1ec0e1e274997a2fbdf4cfb71d52e056bf23154f7d081c89bf0a957d4cd26",
+            "raw_path": "institutions_infosource_docs/ati-schedule-i-correctional-service-of-canada/snapshots/2026-08-15/raw/pibs_en_linked_1.html"
+          },
+          {
+            "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/atip/personal-information-request.html",
+            "final_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/atip/personal-information-request.html",
+            "http_status": 200,
+            "byte_count": 23473,
+            "sha256": "1c6580970c03dbb4d7a8c8332fdd8ce12ee01ab9df1d34449e8b78c005286b95",
+            "raw_path": "institutions_infosource_docs/ati-schedule-i-correctional-service-of-canada/snapshots/2026-08-15/raw/pibs_en_linked_2.html"
+          }
+        ]
+      },
+      "pibs_fr": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source.html",
+        "final_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 375493,
+        "sha256": "32a9171009e650c23d5864060b58425e1c24bdf82f3c3c854eb7e48ee90dcbc7",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-correctional-service-of-canada/snapshots/2026-08-15/raw/pibs_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-correctional-service-of-canada/pibs_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source.html",
+        "final_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 324164,
+        "sha256": "4f8fd2cd3631f239e53cc1550f7171da8c389f3687298952e645e1d455ef9730",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-correctional-service-of-canada/snapshots/2026-08-15/raw/classes_of_records_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-correctional-service-of-canada/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_fr": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source.html",
+        "final_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 375493,
+        "sha256": "32a9171009e650c23d5864060b58425e1c24bdf82f3c3c854eb7e48ee90dcbc7",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-correctional-service-of-canada/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-correctional-service-of-canada/classes_of_records_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 25,
+        "french": 25,
+        "merged": 26
+      },
+      "classes_of_records": {
+        "english": 19,
+        "french": 19,
+        "merged": 19
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-federal-economic-development-agency-for-southern-ontario",
+    "gc_orgID": "2258",
+    "institution_name_en": "Federal Economic Development Agency for Southern Ontario",
+    "institution_name_fr": "Agence fédérale de développement économique pour le Sud de l’Ontario",
+    "access_act_order": 67,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-federal-economic-development-agency-for-southern-ontario",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T16:00:43.199297+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "error",
+        "requested_url": "http://www.feddevontario.gc.ca/eic/site/723.nsf/eng/01754.html",
+        "error": "SSLError: HTTPSConnectionPool(host='feddevontario.gc.ca', port=443): Max retries exceeded with url: /eic/site/723.nsf/eng/01754.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
+      },
+      "pibs_fr": {
+        "status": "error",
+        "requested_url": "http://www.feddevontario.gc.ca/eic/site/723.nsf/fra/01754.html",
+        "error": "SSLError: HTTPSConnectionPool(host='feddevontario.gc.ca', port=443): Max retries exceeded with url: /eic/site/723.nsf/fra/01754.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
+      },
+      "classes_of_records_en": {
+        "status": "error",
+        "requested_url": "http://www.feddevontario.gc.ca/eic/site/723.nsf/eng/01754.html",
+        "error": "SSLError: HTTPSConnectionPool(host='feddevontario.gc.ca', port=443): Max retries exceeded with url: /eic/site/723.nsf/eng/01754.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
+      },
+      "classes_of_records_fr": {
+        "status": "error",
+        "requested_url": "http://www.feddevontario.gc.ca/eic/site/723.nsf/fra/01754.html",
+        "error": "SSLError: HTTPSConnectionPool(host='feddevontario.gc.ca', port=443): Max retries exceeded with url: /eic/site/723.nsf/fra/01754.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      },
+      "classes_of_records": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-financial-transactions-and-reports-analysis-centre-of-canada",
+    "gc_orgID": "2260",
+    "institution_name_en": "Financial Transactions and Reports Analysis Centre of Canada",
+    "institution_name_fr": "Centre d’analyse des opérations et déclarations financières du Canada",
+    "access_act_order": 70,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-financial-transactions-and-reports-analysis-centre-of-canada",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T16:00:43.577737+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "error",
+        "requested_url": "http://www.fintrac-canafe.gc.ca/atip-aiprp/infosource-eng.asp",
+        "error": "HTTPError: 404 Client Error: Not Found for url: https://fintrac-canafe.canada.ca/atip-aiprp/infosource-eng.asp"
+      },
+      "pibs_fr": {
+        "status": "error",
+        "requested_url": "http://www.canafe-fintrac.gc.ca/atip-aiprp/infosource-fra.asp",
+        "error": "HTTPError: 404 Client Error: Not Found for url: https://fintrac-canafe.canada.ca/atip-aiprp/infosource-fra.asp"
+      },
+      "classes_of_records_en": {
+        "status": "error",
+        "requested_url": "http://www.fintrac-canafe.gc.ca/atip-aiprp/infosource-eng.asp",
+        "error": "HTTPError: 404 Client Error: Not Found for url: https://fintrac-canafe.canada.ca/atip-aiprp/infosource-eng.asp"
+      },
+      "classes_of_records_fr": {
+        "status": "error",
+        "requested_url": "http://www.canafe-fintrac.gc.ca/atip-aiprp/infosource-fra.asp",
+        "error": "HTTPError: 404 Client Error: Not Found for url: https://fintrac-canafe.canada.ca/atip-aiprp/infosource-fra.asp"
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      },
+      "classes_of_records": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-gwich-in-land-and-water-board",
+    "gc_orgID": "",
+    "institution_name_en": "Gwich’in Land and Water Board",
+    "institution_name_fr": "Office gwich’in des terres et des eaux",
+    "access_act_order": 74,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-gwich-in-land-and-water-board",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T16:00:45.899787+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "https://glwb.com/our-board/access-information-requests-2",
+        "final_url": "https://glwb.com/our-board/access-information-requests-2",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 50102,
+        "sha256": "85656f6b683f021828595fabe253c35b6d5fc6a3512339aa754bda0167ba0ddc",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-gwich-in-land-and-water-board/snapshots/2026-08-15/raw/pibs_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-gwich-in-land-and-water-board/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "pibs_fr": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-renseignements-personnels/acces-information/info-source/office-gwichin-terres-eaux.html",
+        "final_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-renseignements-personnels/acces-information/info-source/office-gwichin-terres-eaux.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 29490,
+        "sha256": "59dbac2e4b8b3d02356e2b0c644a99b4b33b7b90bdde32e384da4e649bc64d5c",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-gwich-in-land-and-water-board/snapshots/2026-08-15/raw/pibs_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-gwich-in-land-and-water-board/pibs_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "https://glwb.com/our-board/access-information-requests-2",
+        "final_url": "https://glwb.com/our-board/access-information-requests-2",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 50102,
+        "sha256": "85656f6b683f021828595fabe253c35b6d5fc6a3512339aa754bda0167ba0ddc",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-gwich-in-land-and-water-board/snapshots/2026-08-15/raw/classes_of_records_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-gwich-in-land-and-water-board/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_fr": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-renseignements-personnels/acces-information/info-source/office-gwichin-terres-eaux.html",
+        "final_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-renseignements-personnels/acces-information/info-source/office-gwichin-terres-eaux.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 29490,
+        "sha256": "59dbac2e4b8b3d02356e2b0c644a99b4b33b7b90bdde32e384da4e649bc64d5c",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-gwich-in-land-and-water-board/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-gwich-in-land-and-water-board/classes_of_records_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      },
+      "classes_of_records": {
+        "english": 0,
+        "french": 1,
+        "merged": 1
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-historic-sites-and-monuments-board-of-canada",
+    "gc_orgID": "3572",
+    "institution_name_en": "Historic Sites and Monuments Board of Canada",
+    "institution_name_fr": "Commission des lieux et monuments historiques du Canada",
+    "access_act_order": 78,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-historic-sites-and-monuments-board-of-canada",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T16:00:48.375788+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/historic-sites-monuments-board-canada.html",
+        "final_url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/historic-sites-monuments-board-canada.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 33389,
+        "sha256": "58500ecd540747e7d598e0aa5a6ca68cadcd926d5247ecb67c2834f7e0d14d54",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-historic-sites-and-monuments-board-of-canada/snapshots/2026-08-15/raw/pibs_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-historic-sites-and-monuments-board-of-canada/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "pibs_fr": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-renseignements-personnels/acces-information/info-source/commission-lieux-monuments-historiques-canada.html",
+        "final_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-renseignements-personnels/acces-information/info-source/commission-lieux-monuments-historiques-canada.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 35756,
+        "sha256": "ff3a0ab733acd53c452bc4e01c1613aee9b83ba0542e7c25c2df814ab01598ef",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-historic-sites-and-monuments-board-of-canada/snapshots/2026-08-15/raw/pibs_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-historic-sites-and-monuments-board-of-canada/pibs_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/historic-sites-monuments-board-canada.html",
+        "final_url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/historic-sites-monuments-board-canada.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 33389,
+        "sha256": "58500ecd540747e7d598e0aa5a6ca68cadcd926d5247ecb67c2834f7e0d14d54",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-historic-sites-and-monuments-board-of-canada/snapshots/2026-08-15/raw/classes_of_records_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-historic-sites-and-monuments-board-of-canada/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_fr": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-renseignements-personnels/acces-information/info-source/commission-lieux-monuments-historiques-canada.html",
+        "final_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-renseignements-personnels/acces-information/info-source/commission-lieux-monuments-historiques-canada.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 35756,
+        "sha256": "ff3a0ab733acd53c452bc4e01c1613aee9b83ba0542e7c25c2df814ab01598ef",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-historic-sites-and-monuments-board-of-canada/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-historic-sites-and-monuments-board-of-canada/classes_of_records_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      },
+      "classes_of_records": {
+        "english": 1,
+        "french": 1,
+        "merged": 2
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-invest-in-canada-hub",
+    "gc_orgID": "2317",
+    "institution_name_en": "Invest in Canada Hub",
+    "institution_name_fr": "Investir au Canada",
+    "access_act_order": 81,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-invest-in-canada-hub",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T16:00:48.600169+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "error",
+        "requested_url": "https://www.investcanada.ca/transparency/info-source-chapter-invest-canada",
+        "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.investcanada.ca/transparency/info-source-chapter-invest-canada"
+      },
+      "pibs_fr": {
+        "status": "missing_url",
+        "url": ""
+      },
+      "classes_of_records_en": {
+        "status": "error",
+        "requested_url": "https://www.investcanada.ca/transparency/info-source-chapter-invest-canada",
+        "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.investcanada.ca/transparency/info-source-chapter-invest-canada"
+      },
+      "classes_of_records_fr": {
+        "status": "missing_url",
+        "url": ""
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      },
+      "classes_of_records": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-mackenzie-valley-land-and-water-board",
+    "gc_orgID": "",
+    "institution_name_en": "Mackenzie Valley Land and Water Board",
+    "institution_name_fr": "Office des terres et des eaux de la vallée du Mackenzie",
+    "access_act_order": 85,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-mackenzie-valley-land-and-water-board",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T16:01:07.980967+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "https://mvlwb.com/our-board/access-information-requests",
+        "final_url": "https://mvlwb.com/our-board/access-information-requests",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 51043,
+        "sha256": "527030a3cc628a0f0dbab398df25e5404ce9474139f884e165c1d60424a6322b",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-mackenzie-valley-land-and-water-board/snapshots/2026-08-15/raw/pibs_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-mackenzie-valley-land-and-water-board/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "pibs_fr": {
+        "status": "collected",
+        "requested_url": "https://wlwb.ca/sites/default/files/mvlwb_-_info_source_-_may_14_19.pdf",
+        "final_url": "https://wlwb.ca/sites/default/files/mvlwb_-_info_source_-_may_14_19.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "encoding": "",
+        "byte_count": 546568,
+        "sha256": "69d18c2bbc79cb82169b09b081cb0d159186a891c0b1b4c4447d8e47802f0c9a",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-mackenzie-valley-land-and-water-board/snapshots/2026-08-15/raw/pibs_fr.pdf",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-mackenzie-valley-land-and-water-board/pibs_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "https://mvlwb.com/our-board/access-information-requests",
+        "final_url": "https://mvlwb.com/our-board/access-information-requests",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 51043,
+        "sha256": "527030a3cc628a0f0dbab398df25e5404ce9474139f884e165c1d60424a6322b",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-mackenzie-valley-land-and-water-board/snapshots/2026-08-15/raw/classes_of_records_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-mackenzie-valley-land-and-water-board/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_fr": {
+        "status": "collected",
+        "requested_url": "https://wlwb.ca/sites/default/files/mvlwb_-_info_source_-_may_14_19.pdf",
+        "final_url": "https://wlwb.ca/sites/default/files/mvlwb_-_info_source_-_may_14_19.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "encoding": "",
+        "byte_count": 546568,
+        "sha256": "69d18c2bbc79cb82169b09b081cb0d159186a891c0b1b4c4447d8e47802f0c9a",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-mackenzie-valley-land-and-water-board/snapshots/2026-08-15/raw/classes_of_records_fr.pdf",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-mackenzie-valley-land-and-water-board/classes_of_records_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      },
+      "classes_of_records": {
+        "english": 0,
+        "french": 1,
+        "merged": 1
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-montreal-port-authority",
+    "gc_orgID": "3477",
+    "institution_name_en": "Montreal Port Authority",
+    "institution_name_fr": "Administration portuaire de Montréal",
+    "access_act_order": 89,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-montreal-port-authority",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T16:01:20.080795+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "https://www.port-montreal.com/images/pdf/2015-03-10_Info-Source-en.pdf",
+        "final_url": "https://www.port-montreal.com/images/pdf/2015-03-10_Info-Source-en.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "encoding": "",
+        "byte_count": 144672,
+        "sha256": "d1cdf08b7317ce6b33895d18b5a2a5b2e1be28fff58f9eb242c6b8b94087b98b",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-montreal-port-authority/snapshots/2026-08-15/raw/pibs_en.pdf",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-montreal-port-authority/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "pibs_fr": {
+        "status": "error",
+        "requested_url": "https://www.port-montreal.com/fr/centre-de-documentation/acces-a-l-information",
+        "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.port-montreal.com/fr/centre-de-documentation/acces-a-l-information"
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "https://www.port-montreal.com/images/pdf/2015-03-10_Info-Source-en.pdf",
+        "final_url": "https://www.port-montreal.com/images/pdf/2015-03-10_Info-Source-en.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "encoding": "",
+        "byte_count": 144672,
+        "sha256": "d1cdf08b7317ce6b33895d18b5a2a5b2e1be28fff58f9eb242c6b8b94087b98b",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-montreal-port-authority/snapshots/2026-08-15/raw/classes_of_records_en.pdf",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-montreal-port-authority/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_fr": {
+        "status": "error",
+        "requested_url": "https://www.port-montreal.com/fr/centre-de-documentation/acces-a-l-information",
+        "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.port-montreal.com/fr/centre-de-documentation/acces-a-l-information"
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 4,
+        "french": 0,
+        "merged": 4
+      },
+      "classes_of_records": {
+        "english": 15,
+        "french": 0,
+        "merged": 15
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-national-farm-products-council",
+    "gc_orgID": "2265",
+    "institution_name_en": "National Farm Products Council",
+    "institution_name_fr": "Conseil national des produits agricoles",
+    "access_act_order": 92,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-national-farm-products-council",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T16:02:21.457268+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "error",
+        "requested_url": "http://fpcc-cpac.gc.ca/index.php/en-GB/proactive-disclosures",
+        "error": "ConnectionError: HTTPConnectionPool(host='fpcc-cpac.gc.ca', port=80): Max retries exceeded with url: /index.php/en-GB/proactive-disclosures (Caused by NewConnectionError(\"HTTPConnection(host='fpcc-cpac.gc.ca', port=80): Failed to establish a new connection: [Errno 113] No route to host\"))"
+      },
+      "pibs_fr": {
+        "status": "error",
+        "requested_url": "http://fpcc-cpac.gc.ca/index.php/fr-FR/divulgations-proactive",
+        "error": "ConnectionError: HTTPConnectionPool(host='fpcc-cpac.gc.ca', port=80): Max retries exceeded with url: /index.php/fr-FR/divulgations-proactive (Caused by NewConnectionError(\"HTTPConnection(host='fpcc-cpac.gc.ca', port=80): Failed to establish a new connection: [Errno 113] No route to host\"))"
+      },
+      "classes_of_records_en": {
+        "status": "error",
+        "requested_url": "http://fpcc-cpac.gc.ca/index.php/en-GB/proactive-disclosures",
+        "error": "ConnectionError: HTTPConnectionPool(host='fpcc-cpac.gc.ca', port=80): Max retries exceeded with url: /index.php/en-GB/proactive-disclosures (Caused by NewConnectionError(\"HTTPConnection(host='fpcc-cpac.gc.ca', port=80): Failed to establish a new connection: [Errno 113] No route to host\"))"
+      },
+      "classes_of_records_fr": {
+        "status": "error",
+        "requested_url": "http://fpcc-cpac.gc.ca/index.php/fr-FR/divulgations-proactive",
+        "error": "ConnectionError: HTTPConnectionPool(host='fpcc-cpac.gc.ca', port=80): Max retries exceeded with url: /index.php/fr-FR/divulgations-proactive (Caused by NewConnectionError(\"HTTPConnection(host='fpcc-cpac.gc.ca', port=80): Failed to establish a new connection: [Errno 113] No route to host\"))"
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      },
+      "classes_of_records": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-natural-sciences-and-engineering-research-council",
+    "gc_orgID": "2314",
+    "institution_name_en": "Natural Sciences and Engineering Research Council",
+    "institution_name_fr": "Conseil de recherches en sciences naturelles et en génie",
+    "access_act_order": 95,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-natural-sciences-and-engineering-research-council",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T16:02:23.056501+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "https://nserc-crsng.canada.ca/en/about/transparency/info-source",
+        "final_url": "https://nserc-crsng.canada.ca/en/about/transparency/info-source",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 90759,
+        "sha256": "0ee4cc1a7026f63092ccd9be199b0390454c05425cf41676524e55cd82a210e4",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-natural-sciences-and-engineering-research-council/snapshots/2026-08-15/raw/pibs_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-natural-sciences-and-engineering-research-council/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "pibs_fr": {
+        "status": "collected",
+        "requested_url": "https://nserc-crsng.canada.ca/fr/propos-de/transparence/info-source",
+        "final_url": "https://nserc-crsng.canada.ca/fr/propos-de/transparence/info-source",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 108065,
+        "sha256": "5f3516ccc4b236abd0de9a5900daee8b604f8caddf454c17db37f0e7033170cc",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-natural-sciences-and-engineering-research-council/snapshots/2026-08-15/raw/pibs_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-natural-sciences-and-engineering-research-council/pibs_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "https://nserc-crsng.canada.ca/en/about/transparency/info-source",
+        "final_url": "https://nserc-crsng.canada.ca/en/about/transparency/info-source",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 90759,
+        "sha256": "0ee4cc1a7026f63092ccd9be199b0390454c05425cf41676524e55cd82a210e4",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-natural-sciences-and-engineering-research-council/snapshots/2026-08-15/raw/classes_of_records_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-natural-sciences-and-engineering-research-council/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_fr": {
+        "status": "collected",
+        "requested_url": "https://nserc-crsng.canada.ca/fr/propos-de/transparence/info-source",
+        "final_url": "https://nserc-crsng.canada.ca/fr/propos-de/transparence/info-source",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 108065,
+        "sha256": "5f3516ccc4b236abd0de9a5900daee8b604f8caddf454c17db37f0e7033170cc",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-natural-sciences-and-engineering-research-council/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-natural-sciences-and-engineering-research-council/classes_of_records_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 2,
+        "french": 2,
+        "merged": 2
+      },
+      "classes_of_records": {
+        "english": 1,
+        "french": 1,
+        "merged": 1
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-nunavut-water-board",
+    "gc_orgID": "",
+    "institution_name_en": "Nunavut Water Board",
+    "institution_name_fr": "Office des eaux du Nunavut",
+    "access_act_order": 101,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-nunavut-water-board",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T16:02:24.611017+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "https://www.nwb-oen.ca/content/info-source-annual-report-2013-2014",
+        "final_url": "https://www.nwb-oen.ca/content/info-source-annual-report-2013-2014",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 34131,
+        "sha256": "49b41aa3515531caa8151337620ea06e91819e2c9115c2ef3a4807abd1bccecc",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-nunavut-water-board/snapshots/2026-08-15/raw/pibs_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-nunavut-water-board/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "pibs_fr": {
+        "status": "collected",
+        "requested_url": "http://www.nwb-oen.ca/fr/content/transparence",
+        "final_url": "http://www.nwb-oen.ca/fr/content/transparence",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 20976,
+        "sha256": "507212aafd432fa1e83fbf16f0bd7f04638c1e76d38854f10521ee6ab3dde60d",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-nunavut-water-board/snapshots/2026-08-15/raw/pibs_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-nunavut-water-board/pibs_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "https://www.nwb-oen.ca/content/info-source-annual-report-2013-2014",
+        "final_url": "https://www.nwb-oen.ca/content/info-source-annual-report-2013-2014",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 34131,
+        "sha256": "49b41aa3515531caa8151337620ea06e91819e2c9115c2ef3a4807abd1bccecc",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-nunavut-water-board/snapshots/2026-08-15/raw/classes_of_records_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-nunavut-water-board/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_fr": {
+        "status": "collected",
+        "requested_url": "http://www.nwb-oen.ca/fr/content/transparence",
+        "final_url": "http://www.nwb-oen.ca/fr/content/transparence",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 20976,
+        "sha256": "507212aafd432fa1e83fbf16f0bd7f04638c1e76d38854f10521ee6ab3dde60d",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-nunavut-water-board/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-nunavut-water-board/classes_of_records_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      },
+      "classes_of_records": {
+        "english": 1,
+        "french": 0,
+        "merged": 1
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-office-of-the-auditor-general-of-canada",
+    "gc_orgID": "2270",
+    "institution_name_en": "Office of the Auditor General of Canada",
+    "institution_name_fr": "Bureau du vérificateur général du Canada",
+    "access_act_order": 104,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-office-of-the-auditor-general-of-canada",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T16:02:25.382030+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "http://www.oag-bvg.gc.ca/internet/English/acc_fs_e_38857.html",
+        "final_url": "https://www.oag-bvg.gc.ca/internet/English/acc_fs_e_38857.html",
+        "http_status": 200,
+        "content_type": "text/html",
+        "encoding": "ISO-8859-1",
+        "byte_count": 3818,
+        "sha256": "d6dd795a7c51004fb951b6a1ff62aefdb032dbe8a6550a6a9cebca994da452c3",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-auditor-general-of-canada/snapshots/2026-08-15/raw/pibs_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-auditor-general-of-canada/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "pibs_fr": {
+        "status": "collected",
+        "requested_url": "http://www.oag-bvg.gc.ca/internet/Francais/acc_fs_f_38857.html",
+        "final_url": "https://www.oag-bvg.gc.ca/internet/Francais/acc_fs_f_38857.html",
+        "http_status": 200,
+        "content_type": "text/html",
+        "encoding": "ISO-8859-1",
+        "byte_count": 3818,
+        "sha256": "d6dd795a7c51004fb951b6a1ff62aefdb032dbe8a6550a6a9cebca994da452c3",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-auditor-general-of-canada/snapshots/2026-08-15/raw/pibs_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-auditor-general-of-canada/pibs_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "http://www.oag-bvg.gc.ca/internet/English/acc_fs_e_38857.html",
+        "final_url": "https://www.oag-bvg.gc.ca/internet/English/acc_fs_e_38857.html",
+        "http_status": 200,
+        "content_type": "text/html",
+        "encoding": "ISO-8859-1",
+        "byte_count": 3818,
+        "sha256": "d6dd795a7c51004fb951b6a1ff62aefdb032dbe8a6550a6a9cebca994da452c3",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-auditor-general-of-canada/snapshots/2026-08-15/raw/classes_of_records_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-auditor-general-of-canada/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_fr": {
+        "status": "collected",
+        "requested_url": "http://www.oag-bvg.gc.ca/internet/Francais/acc_fs_f_38857.html",
+        "final_url": "https://www.oag-bvg.gc.ca/internet/Francais/acc_fs_f_38857.html",
+        "http_status": 200,
+        "content_type": "text/html",
+        "encoding": "ISO-8859-1",
+        "byte_count": 3818,
+        "sha256": "d6dd795a7c51004fb951b6a1ff62aefdb032dbe8a6550a6a9cebca994da452c3",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-auditor-general-of-canada/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-auditor-general-of-canada/classes_of_records_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      },
+      "classes_of_records": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-office-of-the-commissioner-of-official-languages",
+    "gc_orgID": "2274",
+    "institution_name_en": "Office of the Commissioner of Official Languages",
+    "institution_name_fr": "Commissariat aux langues officielles",
+    "access_act_order": 107,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-office-of-the-commissioner-of-official-languages",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T16:02:46.768745+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "error",
+        "requested_url": "https://www.clo-ocol.gc.ca/en/publications/other/2021/info-source-2021",
+        "error": "SSLError: HTTPSConnectionPool(host='www.clo-ocol.gc.ca', port=443): Max retries exceeded with url: /en/publications/other/2021/info-source-2021 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
+      },
+      "pibs_fr": {
+        "status": "error",
+        "requested_url": "https://www.clo-ocol.gc.ca/fr/publications/autres/2021/info-source-2021",
+        "error": "SSLError: HTTPSConnectionPool(host='www.clo-ocol.gc.ca', port=443): Max retries exceeded with url: /fr/publications/autres/2021/info-source-2021 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
+      },
+      "classes_of_records_en": {
+        "status": "error",
+        "requested_url": "https://www.clo-ocol.gc.ca/en/publications/other/2021/info-source-2021",
+        "error": "SSLError: HTTPSConnectionPool(host='www.clo-ocol.gc.ca', port=443): Max retries exceeded with url: /en/publications/other/2021/info-source-2021 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
+      },
+      "classes_of_records_fr": {
+        "status": "error",
+        "requested_url": "https://www.clo-ocol.gc.ca/fr/publications/autres/2021/info-source-2021",
+        "error": "SSLError: HTTPSConnectionPool(host='www.clo-ocol.gc.ca', port=443): Max retries exceeded with url: /fr/publications/autres/2021/info-source-2021 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      },
+      "classes_of_records": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-office-of-the-information-commissioner",
+    "gc_orgID": "2281",
+    "institution_name_en": "Office of the Information Commissioner",
+    "institution_name_fr": "Commissariat à l’information",
+    "access_act_order": 110,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-office-of-the-information-commissioner",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T16:02:48.578404+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "https://www.oic-ci.gc.ca/en/info-source",
+        "final_url": "https://www.oic-ci.gc.ca/en/info-source",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 73903,
+        "sha256": "b1ec548001b5811ffe7c0511b3dd10344cd04039e233c8aa608a03f3364896ae",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-information-commissioner/snapshots/2026-08-15/raw/pibs_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-information-commissioner/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "pibs_fr": {
+        "status": "collected",
+        "requested_url": "https://www.oic-ci.gc.ca/fr/info-source",
+        "final_url": "https://www.oic-ci.gc.ca/fr/info-source",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 81441,
+        "sha256": "0879cf2b5148f4911e174e4fc7865da375d5b79b6123ee29ba4af5cda0219254",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-information-commissioner/snapshots/2026-08-15/raw/pibs_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-information-commissioner/pibs_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "https://www.oic-ci.gc.ca/en/info-source",
+        "final_url": "https://www.oic-ci.gc.ca/en/info-source",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 73903,
+        "sha256": "b1ec548001b5811ffe7c0511b3dd10344cd04039e233c8aa608a03f3364896ae",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-information-commissioner/snapshots/2026-08-15/raw/classes_of_records_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-information-commissioner/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_fr": {
+        "status": "collected",
+        "requested_url": "https://www.oic-ci.gc.ca/fr/info-source",
+        "final_url": "https://www.oic-ci.gc.ca/fr/info-source",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 81441,
+        "sha256": "0879cf2b5148f4911e174e4fc7865da375d5b79b6123ee29ba4af5cda0219254",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-information-commissioner/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-information-commissioner/classes_of_records_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 1,
+        "french": 1,
+        "merged": 1
+      },
+      "classes_of_records": {
+        "english": 2,
+        "french": 2,
+        "merged": 2
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-office-of-the-public-sector-integrity-commissioner",
+    "gc_orgID": "2279",
+    "institution_name_en": "Office of the Public Sector Integrity Commissioner",
+    "institution_name_fr": "Commissariat à l’intégrité du secteur public",
+    "access_act_order": 113,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-office-of-the-public-sector-integrity-commissioner",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T16:02:50.651681+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "https://www.psic-ispc.gc.ca/en/info-source-sources-federal-government-and-employee-information",
+        "final_url": "https://www.psic-ispc.gc.ca/en/info-source-sources-federal-government-and-employee-information",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 85716,
+        "sha256": "b2486b87e43632dc405df2f0b2392b40158240a60a14ac84d8030d1ab76cd65e",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-public-sector-integrity-commissioner/snapshots/2026-08-15/raw/pibs_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-public-sector-integrity-commissioner/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "pibs_fr": {
+        "status": "collected",
+        "requested_url": "https://www.psic-ispc.gc.ca/fr/info-source-sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux",
+        "final_url": "https://www.psic-ispc.gc.ca/fr/info-source-sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 90052,
+        "sha256": "a98a38901e683c83580fa31d09137c18e22f7c544ba2bb2532587ae08e073aea",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-public-sector-integrity-commissioner/snapshots/2026-08-15/raw/pibs_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-public-sector-integrity-commissioner/pibs_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "https://www.psic-ispc.gc.ca/en/info-source-sources-federal-government-and-employee-information",
+        "final_url": "https://www.psic-ispc.gc.ca/en/info-source-sources-federal-government-and-employee-information",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 85716,
+        "sha256": "b2486b87e43632dc405df2f0b2392b40158240a60a14ac84d8030d1ab76cd65e",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-public-sector-integrity-commissioner/snapshots/2026-08-15/raw/classes_of_records_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-public-sector-integrity-commissioner/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_fr": {
+        "status": "collected",
+        "requested_url": "https://www.psic-ispc.gc.ca/fr/info-source-sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux",
+        "final_url": "https://www.psic-ispc.gc.ca/fr/info-source-sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 90052,
+        "sha256": "a98a38901e683c83580fa31d09137c18e22f7c544ba2bb2532587ae08e073aea",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-public-sector-integrity-commissioner/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-public-sector-integrity-commissioner/classes_of_records_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 2,
+        "french": 2,
+        "merged": 2
+      },
+      "classes_of_records": {
+        "english": 5,
+        "french": 5,
+        "merged": 5
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-parks-canada-agency",
+    "gc_orgID": "2315",
+    "institution_name_en": "Parks Canada Agency",
+    "institution_name_fr": "Agence Parcs Canada",
+    "access_act_order": 116,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-parks-canada-agency",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T16:02:54.886599+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "https://parks.canada.ca/agence-agency/dp-pd/infosource/appendice-1-appendix",
+        "final_url": "https://parks.canada.ca/agence-agency/dp-pd/infosource/appendice-1-appendix",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 115173,
+        "sha256": "4dbe7d005b682b24354a7f367ebce0c04e8a1dd02260bde2a7e87ed0f74d5d66",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-parks-canada-agency/snapshots/2026-08-15/raw/pibs_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-parks-canada-agency/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "pibs_fr": {
+        "status": "collected",
+        "requested_url": "https://parcs.canada.ca/agence-agency/dp-pd/infosource/appendice-1-appendix",
+        "final_url": "https://parcs.canada.ca/agence-agency/dp-pd/infosource/appendice-1-appendix",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 138056,
+        "sha256": "d7cad2c12d33d5b6c00d0a00c476437904fc9fb07dc41aeb3883f395ae1b2f3c",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-parks-canada-agency/snapshots/2026-08-15/raw/pibs_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-parks-canada-agency/pibs_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "https://parks.canada.ca/agence-agency/dp-pd/infosource/appendice-2-appendix",
+        "final_url": "https://parks.canada.ca/agence-agency/dp-pd/infosource/appendice-2-appendix",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 93324,
+        "sha256": "9a78a97dda7e27b66498a0574a8945761a0bf8b087db3f5a232eb431b5bc4df8",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-parks-canada-agency/snapshots/2026-08-15/raw/classes_of_records_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-parks-canada-agency/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_fr": {
+        "status": "collected",
+        "requested_url": "https://parcs.canada.ca/agence-agency/dp-pd/infosource/appendice-2-appendix",
+        "final_url": "https://parcs.canada.ca/agence-agency/dp-pd/infosource/appendice-2-appendix",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 107640,
+        "sha256": "48694d3becb1c001c80fdc2ec036b12ee2e727427b15e3ea68e3afdcd1ab251c",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-parks-canada-agency/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-parks-canada-agency/classes_of_records_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      },
+      "classes_of_records": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-the-pierre-elliott-trudeau-foundation",
+    "gc_orgID": "3484",
+    "institution_name_en": "The Pierre Elliott Trudeau Foundation",
+    "institution_name_fr": "La Fondation Pierre-Elliott-Trudeau",
+    "access_act_order": 119,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-the-pierre-elliott-trudeau-foundation",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T16:02:59.438971+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "error",
+        "requested_url": "http://www.trudeaufoundation.ca/en/about/publications/info-source",
+        "error": "HTTPError: 404 Client Error: Not Found for url: http://www.trudeaufoundation.ca/en/about/publications/info-source"
+      },
+      "pibs_fr": {
+        "status": "error",
+        "requested_url": "https://www.fondationtrudeau.ca/activites/nouvelles/covid-19-ressources-pour-la-communaute-de-la-fondation-pierre-elliott-trudeau",
+        "error": "HTTPError: 404 Client Error: Not Found for url: https://www.fondationtrudeau.ca/activites/nouvelles/covid-19-ressources-pour-la-communaute-de-la-fondation-pierre-elliott-trudeau"
+      },
+      "classes_of_records_en": {
+        "status": "error",
+        "requested_url": "http://www.trudeaufoundation.ca/en/about/publications/info-source",
+        "error": "HTTPError: 404 Client Error: Not Found for url: http://www.trudeaufoundation.ca/en/about/publications/info-source"
+      },
+      "classes_of_records_fr": {
+        "status": "error",
+        "requested_url": "https://www.fondationtrudeau.ca/activites/nouvelles/covid-19-ressources-pour-la-communaute-de-la-fondation-pierre-elliott-trudeau",
+        "error": "HTTPError: 404 Client Error: Not Found for url: https://www.fondationtrudeau.ca/activites/nouvelles/covid-19-ressources-pour-la-communaute-de-la-fondation-pierre-elliott-trudeau"
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      },
+      "classes_of_records": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-privy-council-office",
+    "gc_orgID": "2284",
+    "institution_name_en": "Privy Council Office",
+    "institution_name_fr": "Bureau du Conseil privé",
+    "access_act_order": 122,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-privy-council-office",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T16:03:06.028479+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/en/privy-council/services/publications/info-source-federal-government-employee-information.html",
+        "final_url": "https://www.canada.ca/en/privy-council/services/publications/info-source-federal-government-employee-information.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 94389,
+        "sha256": "4ed2fd5fbe201f039e6a9b0cc64bdaeefefe599c6c2c837b4c54564921c338e7",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-privy-council-office/snapshots/2026-08-15/raw/pibs_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-privy-council-office/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "pibs_fr": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/fr/conseil-prive/services/publications/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+        "final_url": "https://www.canada.ca/fr/conseil-prive/services/publications/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 109765,
+        "sha256": "a5391a37dbef35d5777d78e33bf1a827dfcf95cf9ef4cdcfe196223b1df1ba8c",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-privy-council-office/snapshots/2026-08-15/raw/pibs_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-privy-council-office/pibs_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/en/privy-council/services/publications/info-source-federal-government-employee-information.html",
+        "final_url": "https://www.canada.ca/en/privy-council/services/publications/info-source-federal-government-employee-information.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 94389,
+        "sha256": "4ed2fd5fbe201f039e6a9b0cc64bdaeefefe599c6c2c837b4c54564921c338e7",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-privy-council-office/snapshots/2026-08-15/raw/classes_of_records_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-privy-council-office/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_fr": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/fr/conseil-prive/services/publications/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+        "final_url": "https://www.canada.ca/fr/conseil-prive/services/publications/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 109765,
+        "sha256": "a5391a37dbef35d5777d78e33bf1a827dfcf95cf9ef4cdcfe196223b1df1ba8c",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-privy-council-office/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-privy-council-office/classes_of_records_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 5,
+        "french": 0,
+        "merged": 5
+      },
+      "classes_of_records": {
+        "english": 42,
+        "french": 0,
+        "merged": 42
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-quebec-port-authority",
+    "gc_orgID": "3490",
+    "institution_name_en": "Quebec Port Authority",
+    "institution_name_fr": "Administration portuaire de Québec",
+    "access_act_order": 125,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-quebec-port-authority",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T16:03:10.687081+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "https://www.portquebec.ca/en/access-to-information-requests/",
+        "final_url": "https://www.portquebec.ca/en/access-to-information-requests/",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 125805,
+        "sha256": "1284188548282d8841210495c37021bd628172427e537ba7902f3204f5940b9e",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-quebec-port-authority/snapshots/2026-08-15/raw/pibs_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-quebec-port-authority/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "pibs_fr": {
+        "status": "error",
+        "requested_url": "http://www.portquebec.ca/infosource",
+        "error": "HTTPError: 404 Client Error: Not Found for url: https://www.portquebec.ca/infosource"
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "https://www.portquebec.ca/en/access-to-information-requests/",
+        "final_url": "https://www.portquebec.ca/en/access-to-information-requests/",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 125805,
+        "sha256": "1284188548282d8841210495c37021bd628172427e537ba7902f3204f5940b9e",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-quebec-port-authority/snapshots/2026-08-15/raw/classes_of_records_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-quebec-port-authority/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_fr": {
+        "status": "error",
+        "requested_url": "http://www.portquebec.ca/infosource",
+        "error": "HTTPError: 404 Client Error: Not Found for url: https://www.portquebec.ca/infosource"
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      },
+      "classes_of_records": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-saguenay-port-authority",
+    "gc_orgID": "3493",
+    "institution_name_en": "Saguenay Port Authority",
+    "institution_name_fr": "Administration portuaire du Saguenay",
+    "access_act_order": 129,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-saguenay-port-authority",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T16:03:11.755239+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "https://www.portsaguenay.ca/en/page/info-source",
+        "final_url": "https://www.portsaguenay.ca/en/page/info-source",
+        "http_status": 200,
+        "content_type": "text/html; charset=iso-8859-1",
+        "encoding": "iso-8859-1",
+        "byte_count": 41395,
+        "sha256": "fc950e17a6775d167f731ea3910523c6340833d4faf8e02180776ca5db25a166",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-saguenay-port-authority/snapshots/2026-08-15/raw/pibs_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-saguenay-port-authority/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "pibs_fr": {
+        "status": "collected",
+        "requested_url": "https://www.portsaguenay.ca/fr/page/info-source",
+        "final_url": "https://www.portsaguenay.ca/fr/page/info-source",
+        "http_status": 200,
+        "content_type": "text/html; charset=iso-8859-1",
+        "encoding": "iso-8859-1",
+        "byte_count": 47351,
+        "sha256": "0ba28a60cd64a519eaa900629c9d3ad6082e3f1bb17b69b9352c03663c0e0ee7",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-saguenay-port-authority/snapshots/2026-08-15/raw/pibs_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-saguenay-port-authority/pibs_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "https://www.portsaguenay.ca/en/page/info-source",
+        "final_url": "https://www.portsaguenay.ca/en/page/info-source",
+        "http_status": 200,
+        "content_type": "text/html; charset=iso-8859-1",
+        "encoding": "iso-8859-1",
+        "byte_count": 41395,
+        "sha256": "fc950e17a6775d167f731ea3910523c6340833d4faf8e02180776ca5db25a166",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-saguenay-port-authority/snapshots/2026-08-15/raw/classes_of_records_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-saguenay-port-authority/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_fr": {
+        "status": "collected",
+        "requested_url": "https://www.portsaguenay.ca/fr/page/info-source",
+        "final_url": "https://www.portsaguenay.ca/fr/page/info-source",
+        "http_status": 200,
+        "content_type": "text/html; charset=iso-8859-1",
+        "encoding": "iso-8859-1",
+        "byte_count": 47351,
+        "sha256": "0ba28a60cd64a519eaa900629c9d3ad6082e3f1bb17b69b9352c03663c0e0ee7",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-saguenay-port-authority/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-saguenay-port-authority/classes_of_records_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 0,
+        "french": 6,
+        "merged": 6
+      },
+      "classes_of_records": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-secretariat-of-the-national-security-and-intelligence-committee-of-parliamentarians",
+    "gc_orgID": "2295",
+    "institution_name_en": "Secretariat of the National Security and Intelligence Committee of Parliamentarians",
+    "institution_name_fr": "Secrétariat du Comité des parlementaires sur la sécurité nationale et le renseignement",
+    "access_act_order": 133,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-secretariat-of-the-national-security-and-intelligence-committee-of-parliamentarians",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T16:03:16.632130+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/en/secretariat-national-security-intelligence-committee-parliamentarians/corporate/transparency/info-source/2025.html",
+        "final_url": "https://www.canada.ca/en/secretariat-national-security-intelligence-committee-parliamentarians/corporate/transparency/info-source/2025.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 52368,
+        "sha256": "ec4bd1ac18e1078cf58bf7f8b208831e805ba3560989166869db56b0ee273864",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-secretariat-of-the-national-security-and-intelligence-committee-of-parliamentarians/snapshots/2026-08-15/raw/pibs_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-secretariat-of-the-national-security-and-intelligence-committee-of-parliamentarians/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "pibs_fr": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/fr/secretariat-comite-parlementaires-securite-nationale-renseignement/organisation/transparence/info-source/2025.html",
+        "final_url": "https://www.canada.ca/fr/secretariat-comite-parlementaires-securite-nationale-renseignement/organisation/transparence/info-source/2025.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 71562,
+        "sha256": "9e907b616b5bcb1c8da534c3dd96ff8114522d5046bf220277ed247e7591421f",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-secretariat-of-the-national-security-and-intelligence-committee-of-parliamentarians/snapshots/2026-08-15/raw/pibs_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-secretariat-of-the-national-security-and-intelligence-committee-of-parliamentarians/pibs_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/en/secretariat-national-security-intelligence-committee-parliamentarians/corporate/transparency/info-source/2025.html",
+        "final_url": "https://www.canada.ca/en/secretariat-national-security-intelligence-committee-parliamentarians/corporate/transparency/info-source/2025.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 52368,
+        "sha256": "ec4bd1ac18e1078cf58bf7f8b208831e805ba3560989166869db56b0ee273864",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-secretariat-of-the-national-security-and-intelligence-committee-of-parliamentarians/snapshots/2026-08-15/raw/classes_of_records_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-secretariat-of-the-national-security-and-intelligence-committee-of-parliamentarians/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_fr": {
+        "status": "collected",
+        "requested_url": "https://www.canada.ca/fr/secretariat-comite-parlementaires-securite-nationale-renseignement/organisation/transparence/info-source/2025.html",
+        "final_url": "https://www.canada.ca/fr/secretariat-comite-parlementaires-securite-nationale-renseignement/organisation/transparence/info-source/2025.html",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8",
+        "encoding": "utf-8",
+        "byte_count": 71562,
+        "sha256": "9e907b616b5bcb1c8da534c3dd96ff8114522d5046bf220277ed247e7591421f",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-secretariat-of-the-national-security-and-intelligence-committee-of-parliamentarians/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-secretariat-of-the-national-security-and-intelligence-committee-of-parliamentarians/classes_of_records_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      },
+      "classes_of_records": {
+        "english": 1,
+        "french": 1,
+        "merged": 1
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-social-sciences-and-humanities-research-council",
+    "gc_orgID": "2316",
+    "institution_name_en": "Social Sciences and Humanities Research Council",
+    "institution_name_fr": "Conseil de recherches en sciences humaines",
+    "access_act_order": 136,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-social-sciences-and-humanities-research-council",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T16:05:26.217946+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "error",
+        "requested_url": "http://www.sshrc-crsh.gc.ca/transparency-transparence/atip-aiprp/infosource-eng.aspx",
+        "error": "ConnectionError: HTTPConnectionPool(host='sshrc-crsh.canada.ca', port=80): Max retries exceeded with url: /en/about-sshrc/transparency/info-source.aspx (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))"
+      },
+      "pibs_fr": {
+        "status": "error",
+        "requested_url": "http://www.sshrc-crsh.gc.ca/transparency-transparence/atip-aiprp/infosource-fra.aspx",
+        "error": "ConnectionError: HTTPConnectionPool(host='sshrc-crsh.canada.ca', port=80): Max retries exceeded with url: /fr/sujet-crsh/transparence/info-source.aspx (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))"
+      },
+      "classes_of_records_en": {
+        "status": "error",
+        "requested_url": "http://www.sshrc-crsh.gc.ca/transparency-transparence/atip-aiprp/infosource-eng.aspx",
+        "error": "ConnectionError: HTTPConnectionPool(host='sshrc-crsh.canada.ca', port=80): Max retries exceeded with url: /en/about-sshrc/transparency/info-source.aspx (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))"
+      },
+      "classes_of_records_fr": {
+        "status": "error",
+        "requested_url": "http://www.sshrc-crsh.gc.ca/transparency-transparence/atip-aiprp/infosource-fra.aspx",
+        "error": "ConnectionError: HTTPConnectionPool(host='sshrc-crsh.canada.ca', port=80): Max retries exceeded with url: /fr/sujet-crsh/transparence/info-source.aspx (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))"
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      },
+      "classes_of_records": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-thunder-bay-port-authority",
+    "gc_orgID": "3504",
+    "institution_name_en": "Thunder Bay Port Authority",
+    "institution_name_fr": "Administration portuaire de Thunder Bay",
+    "access_act_order": 140,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-thunder-bay-port-authority",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T16:05:35.010431+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "https://www.portofthunderbay.ca/wp-content/uploads/2020/04/Infosource-Thunder-Bay-Port-Authority-20.pdf",
+        "final_url": "https://www.portofthunderbay.ca/wp-content/uploads/2020/04/Infosource-Thunder-Bay-Port-Authority-20.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "encoding": "",
+        "byte_count": 148812,
+        "sha256": "7ed3e986dc693d2dc65bcbdb174306e751da3b69ba76dc4ef41bc314c4871b06",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-thunder-bay-port-authority/snapshots/2026-08-15/raw/pibs_en.pdf",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-thunder-bay-port-authority/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "pibs_fr": {
+        "status": "collected",
+        "requested_url": "https://www.portofthunderbay.ca/wp-content/uploads/2020/04/Infosource-Administration-portuaire-de-Thunder-Bay-20.pdf",
+        "final_url": "https://www.portofthunderbay.ca/wp-content/uploads/2020/04/Infosource-Administration-portuaire-de-Thunder-Bay-20.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "encoding": "",
+        "byte_count": 156379,
+        "sha256": "b6a2e8a68bc7f427e26a8bbc522751c7aa7e4286c89517fb46c02c0214ce8ec6",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-thunder-bay-port-authority/snapshots/2026-08-15/raw/pibs_fr.pdf",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-thunder-bay-port-authority/pibs_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "https://www.portofthunderbay.ca/wp-content/uploads/2020/04/Infosource-Thunder-Bay-Port-Authority-20.pdf",
+        "final_url": "https://www.portofthunderbay.ca/wp-content/uploads/2020/04/Infosource-Thunder-Bay-Port-Authority-20.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "encoding": "",
+        "byte_count": 148812,
+        "sha256": "7ed3e986dc693d2dc65bcbdb174306e751da3b69ba76dc4ef41bc314c4871b06",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-thunder-bay-port-authority/snapshots/2026-08-15/raw/classes_of_records_en.pdf",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-thunder-bay-port-authority/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_fr": {
+        "status": "collected",
+        "requested_url": "https://www.portofthunderbay.ca/wp-content/uploads/2020/04/Infosource-Administration-portuaire-de-Thunder-Bay-20.pdf",
+        "final_url": "https://www.portofthunderbay.ca/wp-content/uploads/2020/04/Infosource-Administration-portuaire-de-Thunder-Bay-20.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "encoding": "",
+        "byte_count": 156379,
+        "sha256": "b6a2e8a68bc7f427e26a8bbc522751c7aa7e4286c89517fb46c02c0214ce8ec6",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-thunder-bay-port-authority/snapshots/2026-08-15/raw/classes_of_records_fr.pdf",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-thunder-bay-port-authority/classes_of_records_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 1,
+        "french": 1,
+        "merged": 1
+      },
+      "classes_of_records": {
+        "english": 6,
+        "french": 6,
+        "merged": 6
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-trois-rivieres-port-authority",
+    "gc_orgID": "3507",
+    "institution_name_en": "Trois-Rivières Port Authority",
+    "institution_name_fr": "Administration portuaire de Trois-Rivières",
+    "access_act_order": 143,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-trois-rivieres-port-authority",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T16:05:40.881626+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "collected",
+        "requested_url": "https://porttr.com/en/port-authority/governance/info-source/",
+        "final_url": "https://porttr.com/en/port-authority/governance/info-source/",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 111698,
+        "sha256": "3485e5624440ec18e76c731cc7940df4d28670a312ea7019c51aa5e290fabb50",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-trois-rivieres-port-authority/snapshots/2026-08-15/raw/pibs_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-trois-rivieres-port-authority/pibs_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "pibs_fr": {
+        "status": "collected",
+        "requested_url": "https://porttr.com/administration-portuaire/gouvernance/info-source/",
+        "final_url": "https://porttr.com/administration-portuaire/gouvernance/info-source/",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 121538,
+        "sha256": "d170089194f952372b01443a7688bee50b9bf64732c143654bb421735a3d4aa5",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-trois-rivieres-port-authority/snapshots/2026-08-15/raw/pibs_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-trois-rivieres-port-authority/pibs_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_en": {
+        "status": "collected",
+        "requested_url": "https://porttr.com/en/port-authority/governance/info-source/",
+        "final_url": "https://porttr.com/en/port-authority/governance/info-source/",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 111698,
+        "sha256": "3485e5624440ec18e76c731cc7940df4d28670a312ea7019c51aa5e290fabb50",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-trois-rivieres-port-authority/snapshots/2026-08-15/raw/classes_of_records_en.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-trois-rivieres-port-authority/classes_of_records_en.md",
+        "fragment": "",
+        "discovered_pages": []
+      },
+      "classes_of_records_fr": {
+        "status": "collected",
+        "requested_url": "https://porttr.com/administration-portuaire/gouvernance/info-source/",
+        "final_url": "https://porttr.com/administration-portuaire/gouvernance/info-source/",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "encoding": "UTF-8",
+        "byte_count": 121538,
+        "sha256": "d170089194f952372b01443a7688bee50b9bf64732c143654bb421735a3d4aa5",
+        "raw_path": "institutions_infosource_docs/ati-schedule-i-trois-rivieres-port-authority/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+        "markdown_path": "institutions_infosource_docs/ati-schedule-i-trois-rivieres-port-authority/classes_of_records_fr.md",
+        "fragment": "",
+        "discovered_pages": []
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      },
+      "classes_of_records": {
+        "english": 3,
+        "french": 3,
+        "merged": 3
+      }
+    }
+  },
+  {
+    "snapshot_date": "2026-08-15",
+    "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+    "institution_id": "ati-schedule-i-windsor-port-authority",
+    "gc_orgID": "3514",
+    "institution_name_en": "Windsor Port Authority",
+    "institution_name_fr": "Administration portuaire de Windsor",
+    "access_act_order": 146,
+    "content_folder": "institutions_infosource_docs/ati-schedule-i-windsor-port-authority",
+    "collector_version": 2,
+    "collected_at_utc": "2026-08-15T16:05:41.452259+00:00",
+    "sources": {
+      "pibs_en": {
+        "status": "error",
+        "requested_url": "https://www.portwindsor.com/wp-content/uploads/2018/02/Port-of-Windsor-Info-Source-2018-1.pdf",
+        "error": "HTTPError: 404 Client Error: Not Found for url: https://portwindsor.com/wp-content/uploads/2018/02/Port-of-Windsor-Info-Source-2018-1.pdf"
+      },
+      "pibs_fr": {
+        "status": "error",
+        "requested_url": "https://www.portwindsor.com/wp-content/uploads/2018/02/Port-of-Windsor-Info-Source-2018-fr-2.pdf",
+        "error": "HTTPError: 404 Client Error: Not Found for url: https://portwindsor.com/wp-content/uploads/2018/02/Port-of-Windsor-Info-Source-2018-fr-2.pdf"
+      },
+      "classes_of_records_en": {
+        "status": "error",
+        "requested_url": "https://www.portwindsor.com/wp-content/uploads/2018/02/Port-of-Windsor-Info-Source-2018-1.pdf",
+        "error": "HTTPError: 404 Client Error: Not Found for url: https://portwindsor.com/wp-content/uploads/2018/02/Port-of-Windsor-Info-Source-2018-1.pdf"
+      },
+      "classes_of_records_fr": {
+        "status": "error",
+        "requested_url": "https://www.portwindsor.com/wp-content/uploads/2018/02/Port-of-Windsor-Info-Source-2018-fr-2.pdf",
+        "error": "HTTPError: 404 Client Error: Not Found for url: https://portwindsor.com/wp-content/uploads/2018/02/Port-of-Windsor-Info-Source-2018-fr-2.pdf"
+      }
+    },
+    "extraction": {
+      "pibs": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      },
+      "classes_of_records": {
+        "english": 0,
+        "french": 0,
+        "merged": 0
+      }
+    }
+  }
+]

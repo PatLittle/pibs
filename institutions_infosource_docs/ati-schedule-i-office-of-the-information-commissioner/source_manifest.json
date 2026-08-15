@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-office-of-the-information-commissioner",
+  "gc_orgID": "2281",
+  "institution_name_en": "Office of the Information Commissioner",
+  "institution_name_fr": "Commissariat à l’information",
+  "access_act_order": 110,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-office-of-the-information-commissioner",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T16:02:48.578404+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.oic-ci.gc.ca/en/info-source",
+      "final_url": "https://www.oic-ci.gc.ca/en/info-source",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 73903,
+      "sha256": "b1ec548001b5811ffe7c0511b3dd10344cd04039e233c8aa608a03f3364896ae",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-information-commissioner/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-information-commissioner/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.oic-ci.gc.ca/fr/info-source",
+      "final_url": "https://www.oic-ci.gc.ca/fr/info-source",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 81441,
+      "sha256": "0879cf2b5148f4911e174e4fc7865da375d5b79b6123ee29ba4af5cda0219254",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-information-commissioner/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-information-commissioner/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.oic-ci.gc.ca/en/info-source",
+      "final_url": "https://www.oic-ci.gc.ca/en/info-source",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 73903,
+      "sha256": "b1ec548001b5811ffe7c0511b3dd10344cd04039e233c8aa608a03f3364896ae",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-information-commissioner/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-information-commissioner/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.oic-ci.gc.ca/fr/info-source",
+      "final_url": "https://www.oic-ci.gc.ca/fr/info-source",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 81441,
+      "sha256": "0879cf2b5148f4911e174e4fc7865da375d5b79b6123ee29ba4af5cda0219254",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-information-commissioner/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-information-commissioner/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 1,
+      "french": 1,
+      "merged": 1
+    },
+    "classes_of_records": {
+      "english": 2,
+      "french": 2,
+      "merged": 2
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:15.285411+00:00",
+  "extraction_rebuild_version": 2
+}

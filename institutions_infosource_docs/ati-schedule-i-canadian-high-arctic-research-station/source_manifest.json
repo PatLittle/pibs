@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-canadian-high-arctic-research-station",
+  "gc_orgID": "2318",
+  "institution_name_en": "Canadian High Arctic Research Station",
+  "institution_name_fr": "Station canadienne de recherche dans l’Extrême-Arctique",
+  "access_act_order": 44,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-canadian-high-arctic-research-station",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:55:23.532658+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/polar-knowledge/proactivedisclosure.html",
+      "final_url": "https://www.canada.ca/en/polar-knowledge/proactivedisclosure.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 24216,
+      "sha256": "1b96217e85becdfad3da0261cc4d048d603378d744cff757ad4b4f1a57362838",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-high-arctic-research-station/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-high-arctic-research-station/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/savoir-polaire/divulgationproactive.html",
+      "final_url": "https://www.canada.ca/fr/savoir-polaire/divulgationproactive.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 25548,
+      "sha256": "c11f48738ee1e528d737abdb6478ef9127b2120ea2e93838c7863ba1ccdf79cc",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-high-arctic-research-station/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-high-arctic-research-station/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/polar-knowledge/proactivedisclosure.html",
+      "final_url": "https://www.canada.ca/en/polar-knowledge/proactivedisclosure.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 24216,
+      "sha256": "1b96217e85becdfad3da0261cc4d048d603378d744cff757ad4b4f1a57362838",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-high-arctic-research-station/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-high-arctic-research-station/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/savoir-polaire/divulgationproactive.html",
+      "final_url": "https://www.canada.ca/fr/savoir-polaire/divulgationproactive.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 25548,
+      "sha256": "c11f48738ee1e528d737abdb6478ef9127b2120ea2e93838c7863ba1ccdf79cc",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-high-arctic-research-station/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-high-arctic-research-station/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:13.577923+00:00",
+  "extraction_rebuild_version": 2
+}

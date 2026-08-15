@@ -1,0 +1,52 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-office-of-the-commissioner-of-official-languages",
+  "gc_orgID": "2274",
+  "institution_name_en": "Office of the Commissioner of Official Languages",
+  "institution_name_fr": "Commissariat aux langues officielles",
+  "access_act_order": 107,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-office-of-the-commissioner-of-official-languages",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T16:02:46.768745+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "error",
+      "requested_url": "https://www.clo-ocol.gc.ca/en/publications/other/2021/info-source-2021",
+      "error": "SSLError: HTTPSConnectionPool(host='www.clo-ocol.gc.ca', port=443): Max retries exceeded with url: /en/publications/other/2021/info-source-2021 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
+    },
+    "pibs_fr": {
+      "status": "error",
+      "requested_url": "https://www.clo-ocol.gc.ca/fr/publications/autres/2021/info-source-2021",
+      "error": "SSLError: HTTPSConnectionPool(host='www.clo-ocol.gc.ca', port=443): Max retries exceeded with url: /fr/publications/autres/2021/info-source-2021 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
+    },
+    "classes_of_records_en": {
+      "status": "error",
+      "requested_url": "https://www.clo-ocol.gc.ca/en/publications/other/2021/info-source-2021",
+      "error": "SSLError: HTTPSConnectionPool(host='www.clo-ocol.gc.ca', port=443): Max retries exceeded with url: /en/publications/other/2021/info-source-2021 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
+    },
+    "classes_of_records_fr": {
+      "status": "error",
+      "requested_url": "https://www.clo-ocol.gc.ca/fr/publications/autres/2021/info-source-2021",
+      "error": "SSLError: HTTPSConnectionPool(host='www.clo-ocol.gc.ca', port=443): Max retries exceeded with url: /fr/publications/autres/2021/info-source-2021 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:15.177466+00:00",
+  "extraction_rebuild_version": 2
+}

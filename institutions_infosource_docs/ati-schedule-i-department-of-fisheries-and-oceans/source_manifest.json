@@ -1,0 +1,108 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-department-of-fisheries-and-oceans",
+  "gc_orgID": "2226",
+  "institution_name_en": "Department of Fisheries and Oceans",
+  "institution_name_fr": "Ministère des Pêches et des Océans",
+  "access_act_order": 9,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-department-of-fisheries-and-oceans",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:53:54.053300+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/infosource/index-eng.html",
+      "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/infosource/index-eng.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "encoding": "ISO-8859-1",
+      "byte_count": 228912,
+      "sha256": "b099f86c90d1676de63d6a0d8e040354d7a69f7197e65457296c09cac8022acd",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-fisheries-and-oceans/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-fisheries-and-oceans/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/infosource/appendix-appendice-eng.html",
+          "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/infosource/appendix-appendice-eng.html",
+          "http_status": 200,
+          "byte_count": 164848,
+          "sha256": "a2f51a3195eeeaa0439ac4137aa9a2153fd08102c1bf409eb5a46814a592f559",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-fisheries-and-oceans/snapshots/2026-08-15/raw/pibs_en_linked_1.html",
+          "included_in_extraction": true
+        }
+      ]
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/infosource/index-fra.html",
+      "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/infosource/index-fra.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "encoding": "ISO-8859-1",
+      "byte_count": 276878,
+      "sha256": "5716458388fa10dfbf5024ca2ad302cda839ee132ee8fd9cd6e13d18858d2142",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-fisheries-and-oceans/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-fisheries-and-oceans/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/infosource/appendix-appendice-fra.html",
+          "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/infosource/appendix-appendice-fra.html",
+          "http_status": 200,
+          "byte_count": 202998,
+          "sha256": "0fdbbb7d6822356d79b88497f17ec1df5cbbdf27862cdeb5f85c4e2cf7933484",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-fisheries-and-oceans/snapshots/2026-08-15/raw/pibs_fr_linked_1.html",
+          "included_in_extraction": true
+        }
+      ]
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/infosource/index-eng.html",
+      "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/infosource/index-eng.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "encoding": "ISO-8859-1",
+      "byte_count": 228912,
+      "sha256": "b099f86c90d1676de63d6a0d8e040354d7a69f7197e65457296c09cac8022acd",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-fisheries-and-oceans/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-fisheries-and-oceans/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/infosource/index-fra.html",
+      "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/infosource/index-fra.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "encoding": "ISO-8859-1",
+      "byte_count": 276878,
+      "sha256": "5716458388fa10dfbf5024ca2ad302cda839ee132ee8fd9cd6e13d18858d2142",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-fisheries-and-oceans/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-fisheries-and-oceans/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 45,
+      "french": 44,
+      "merged": 45
+    },
+    "classes_of_records": {
+      "english": 37,
+      "french": 37,
+      "merged": 37
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:08.940322+00:00",
+  "extraction_rebuild_version": 2
+}

@@ -1,0 +1,153 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-department-of-national-defence",
+  "gc_orgID": "2233",
+  "institution_name_en": "Department of National Defence",
+  "institution_name_fr": "Ministère de la Défense nationale",
+  "access_act_order": 16,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-department-of-national-defence",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:55:07.296115+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/department-national-defence/corporate/transparency/access-information-privacy/info-source-sources-of-federal-government-and-employee-information.html",
+      "final_url": "https://www.canada.ca/en/department-national-defence/corporate/transparency/access-information-privacy/info-source-sources-of-federal-government-and-employee-information.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 591776,
+      "sha256": "96c3db9d88631892fa97a92baeb28f550e24a8a27a12072e110ad4124f632ecd",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-national-defence/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-national-defence/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings.html",
+          "final_url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source.html",
+          "http_status": 200,
+          "byte_count": 22519,
+          "sha256": "2827c9dff8686e639da9256c731735e56c25bddd6e8b92780e6d2ee412e9ec61",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-national-defence/snapshots/2026-08-15/raw/pibs_en_linked_1.html",
+          "included_in_extraction": false
+        },
+        {
+          "url": "https://www.canada.ca/en/public-services-procurement/corporate/transparency/access-information-privacy/understanding-your-right-obtain-information/info-source-federal-government-employee-information.html",
+          "final_url": "https://www.canada.ca/en/public-services-procurement/corporate/transparency/access-information-privacy/understanding-your-right-obtain-information/info-source-federal-government-employee-information.html",
+          "http_status": 200,
+          "byte_count": 249468,
+          "sha256": "4c349faf01ae55b459f0606dc54e9074a1bfc73a15a3fb7dc144ccd7537fe815",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-national-defence/snapshots/2026-08-15/raw/pibs_en_linked_2.html",
+          "included_in_extraction": false
+        },
+        {
+          "url": "https://www.canada.ca/en/security-intelligence-service/corporate/transparency/access-to-information-and-privacy/info-source.html",
+          "final_url": "https://www.canada.ca/en/security-intelligence-service/corporate/transparency/access-to-information-and-privacy/info-source.html",
+          "http_status": 200,
+          "byte_count": 94891,
+          "sha256": "60c23e1c799480aa3bcf01f33f53023f7de2a6cbc60ee894992b8884bfcaed39",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-national-defence/snapshots/2026-08-15/raw/pibs_en_linked_3.html",
+          "included_in_extraction": false
+        },
+        {
+          "url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/how-access-information-personal-information-requests-work.html",
+          "final_url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/how-access-information-personal-information-requests-work.html",
+          "http_status": 200,
+          "byte_count": 41035,
+          "sha256": "3db556a06dcf5782fc30492dc889b7ff28d3db738b2cd44fabddc347452dc006",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-national-defence/snapshots/2026-08-15/raw/pibs_en_linked_4.html",
+          "included_in_extraction": false
+        }
+      ]
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/info-source-sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux.html",
+      "final_url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/info-source-sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 738310,
+      "sha256": "3cb2697afb254f08ea46d5e8abd0cb028b54a41006d8d3c4de475bee2f44855a",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-national-defence/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-national-defence/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements.html",
+          "final_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-renseignements-personnels/acces-information/info-source.html",
+          "http_status": 200,
+          "byte_count": 23966,
+          "sha256": "217056df4ea7b01da38c7f35a94d67d5d4641639e30a9c8b41ce5159cb329163",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-national-defence/snapshots/2026-08-15/raw/pibs_fr_linked_1.html",
+          "included_in_extraction": false
+        },
+        {
+          "url": "https://www.canada.ca/fr/service-renseignement-securite/organisation/transparence/acces-a-linformation-et-protection-des-renseignements-personnels/info-source.html",
+          "final_url": "https://www.canada.ca/fr/service-renseignement-securite/organisation/transparence/acces-a-linformation-et-protection-des-renseignements-personnels/info-source.html",
+          "http_status": 200,
+          "byte_count": 109277,
+          "sha256": "22c80ae4b9c61af9b97b9f727629468d52d21def213e1be76510f453bc9a8913",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-national-defence/snapshots/2026-08-15/raw/pibs_fr_linked_2.html",
+          "included_in_extraction": false
+        },
+        {
+          "url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/comprendre-votre-droit-obtenir-renseignements/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+          "final_url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/comprendre-votre-droit-obtenir-renseignements/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+          "http_status": 200,
+          "byte_count": 292939,
+          "sha256": "5843492833afe4ad60daca2fa2f0c4feca3643faeaa12f89d9ead155adbfebc1",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-national-defence/snapshots/2026-08-15/raw/pibs_fr_linked_3.html",
+          "included_in_extraction": false
+        }
+      ]
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/department-national-defence/corporate/transparency/access-information-privacy/info-source-sources-of-federal-government-and-employee-information.html",
+      "final_url": "https://www.canada.ca/en/department-national-defence/corporate/transparency/access-information-privacy/info-source-sources-of-federal-government-and-employee-information.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 591776,
+      "sha256": "96c3db9d88631892fa97a92baeb28f550e24a8a27a12072e110ad4124f632ecd",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-national-defence/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-national-defence/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/info-source-sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux.html",
+      "final_url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/info-source-sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 738310,
+      "sha256": "3cb2697afb254f08ea46d5e8abd0cb028b54a41006d8d3c4de475bee2f44855a",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-national-defence/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-national-defence/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 93,
+      "french": 86,
+      "merged": 94
+    },
+    "classes_of_records": {
+      "english": 145,
+      "french": 144,
+      "merged": 147
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:10.790961+00:00",
+  "extraction_rebuild_version": 2
+}

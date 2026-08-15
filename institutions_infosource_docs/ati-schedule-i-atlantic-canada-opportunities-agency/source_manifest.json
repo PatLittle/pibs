@@ -1,0 +1,98 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-atlantic-canada-opportunities-agency",
+  "gc_orgID": "2244",
+  "institution_name_en": "Atlantic Canada Opportunities Agency",
+  "institution_name_fr": "Agence de promotion économique du Canada atlantique",
+  "access_act_order": 25,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-atlantic-canada-opportunities-agency",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:55:56.970537+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/atlantic-canada-opportunities/corporate/transparency/info-source-introduction1.html",
+      "final_url": "https://www.canada.ca/en/atlantic-canada-opportunities/corporate/transparency/info-source-introduction1.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 142042,
+      "sha256": "747ad43b1e35513ccbedc16df3fb04b53314b028eee8bf32408c108a88254bec",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-atlantic-canada-opportunities-agency/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-atlantic-canada-opportunities-agency/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/promotion-economique-canada-atlantique/organisation/transparence/introduction-a-infosource1.html",
+      "final_url": "https://www.canada.ca/fr/promotion-economique-canada-atlantique/organisation/transparence/introduction-a-infosource1.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 189749,
+      "sha256": "ff23aa4d3a34632e00a16c3249b0e12b17c3c8b1624458b4dc7b6c14ffdba229",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-atlantic-canada-opportunities-agency/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-atlantic-canada-opportunities-agency/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements.html",
+          "final_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-renseignements-personnels/acces-information/info-source.html",
+          "http_status": 200,
+          "byte_count": 23967,
+          "sha256": "9aaf395e0268229be45f5a00f7699cca4830e8647c0fd68d957d946eef788196",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-atlantic-canada-opportunities-agency/snapshots/2026-08-15/raw/pibs_fr_linked_1.html",
+          "included_in_extraction": false
+        }
+      ]
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/atlantic-canada-opportunities/corporate/transparency/info-source-introduction1.html",
+      "final_url": "https://www.canada.ca/en/atlantic-canada-opportunities/corporate/transparency/info-source-introduction1.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 142042,
+      "sha256": "747ad43b1e35513ccbedc16df3fb04b53314b028eee8bf32408c108a88254bec",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-atlantic-canada-opportunities-agency/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-atlantic-canada-opportunities-agency/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/promotion-economique-canada-atlantique/organisation/transparence/introduction-a-infosource1.html",
+      "final_url": "https://www.canada.ca/fr/promotion-economique-canada-atlantique/organisation/transparence/introduction-a-infosource1.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 189749,
+      "sha256": "ff23aa4d3a34632e00a16c3249b0e12b17c3c8b1624458b4dc7b6c14ffdba229",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-atlantic-canada-opportunities-agency/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-atlantic-canada-opportunities-agency/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 6,
+      "french": 0,
+      "merged": 6
+    },
+    "classes_of_records": {
+      "english": 11,
+      "french": 18,
+      "merged": 18
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:11.383117+00:00",
+  "extraction_rebuild_version": 2
+}

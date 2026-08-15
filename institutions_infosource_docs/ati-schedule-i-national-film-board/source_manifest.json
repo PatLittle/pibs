@@ -1,0 +1,52 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-national-film-board",
+  "gc_orgID": "2266",
+  "institution_name_en": "National Film Board",
+  "institution_name_fr": "Office national du film",
+  "access_act_order": 93,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-national-film-board",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:56:55.176556+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "error",
+      "requested_url": "http://onf-nfb.gc.ca/en/about-the-nfb/publications/info-source/",
+      "error": "ConnectionError: HTTPConnectionPool(host='onf-nfb.gc.ca', port=80): Max retries exceeded with url: /en/about-the-nfb/publications/info-source/ (Caused by NameResolutionError(\"HTTPConnection(host='onf-nfb.gc.ca', port=80): Failed to resolve 'onf-nfb.gc.ca' ([Errno -5] No address associated with hostname)\"))"
+    },
+    "pibs_fr": {
+      "status": "error",
+      "requested_url": "http://onf-nfb.gc.ca/fr/a-propos-de-lonf/publications/info-source/",
+      "error": "ConnectionError: HTTPConnectionPool(host='onf-nfb.gc.ca', port=80): Max retries exceeded with url: /fr/a-propos-de-lonf/publications/info-source/ (Caused by NameResolutionError(\"HTTPConnection(host='onf-nfb.gc.ca', port=80): Failed to resolve 'onf-nfb.gc.ca' ([Errno -5] No address associated with hostname)\"))"
+    },
+    "classes_of_records_en": {
+      "status": "error",
+      "requested_url": "http://onf-nfb.gc.ca/en/about-the-nfb/publications/info-source/",
+      "error": "ConnectionError: HTTPConnectionPool(host='onf-nfb.gc.ca', port=80): Max retries exceeded with url: /en/about-the-nfb/publications/info-source/ (Caused by NameResolutionError(\"HTTPConnection(host='onf-nfb.gc.ca', port=80): Failed to resolve 'onf-nfb.gc.ca' ([Errno -5] No address associated with hostname)\"))"
+    },
+    "classes_of_records_fr": {
+      "status": "error",
+      "requested_url": "http://onf-nfb.gc.ca/fr/a-propos-de-lonf/publications/info-source/",
+      "error": "ConnectionError: HTTPConnectionPool(host='onf-nfb.gc.ca', port=80): Max retries exceeded with url: /fr/a-propos-de-lonf/publications/info-source/ (Caused by NameResolutionError(\"HTTPConnection(host='onf-nfb.gc.ca', port=80): Failed to resolve 'onf-nfb.gc.ca' ([Errno -5] No address associated with hostname)\"))"
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:14.772510+00:00",
+  "extraction_rebuild_version": 2
+}

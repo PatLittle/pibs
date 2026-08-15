@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-military-grievances-external-review-committee",
+  "gc_orgID": "2263",
+  "institution_name_en": "Military Grievances External Review Committee",
+  "institution_name_fr": "Comité externe d’examen des griefs militaires",
+  "access_act_order": 86,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-military-grievances-external-review-committee",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:56:34.334901+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/military-grievances-external-review/corporate/transparency/info-source-sources-federal-government-employee-information.html",
+      "final_url": "https://www.canada.ca/en/military-grievances-external-review/corporate/transparency/info-source-sources-federal-government-employee-information.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 52833,
+      "sha256": "5392c8b7c353b6132addb699f3f4a9d030f28b2c1e54f875cba78aa6a14874da",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-military-grievances-external-review-committee/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-military-grievances-external-review-committee/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/externe-examen-griefs-militaires/organisation/transparence/info-source-sources-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+      "final_url": "https://www.canada.ca/fr/externe-examen-griefs-militaires/organisation/transparence/info-source-sources-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 58133,
+      "sha256": "88a84c7539a4c4ae8acfdc03a881ae62342c6afd29d564ae9bcf1db176afae0c",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-military-grievances-external-review-committee/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-military-grievances-external-review-committee/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/military-grievances-external-review/corporate/transparency/info-source-sources-federal-government-employee-information.html",
+      "final_url": "https://www.canada.ca/en/military-grievances-external-review/corporate/transparency/info-source-sources-federal-government-employee-information.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 52833,
+      "sha256": "5392c8b7c353b6132addb699f3f4a9d030f28b2c1e54f875cba78aa6a14874da",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-military-grievances-external-review-committee/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-military-grievances-external-review-committee/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/externe-examen-griefs-militaires/organisation/transparence/info-source-sources-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+      "final_url": "https://www.canada.ca/fr/externe-examen-griefs-militaires/organisation/transparence/info-source-sources-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 58133,
+      "sha256": "88a84c7539a4c4ae8acfdc03a881ae62342c6afd29d564ae9bcf1db176afae0c",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-military-grievances-external-review-committee/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-military-grievances-external-review-committee/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 1,
+      "french": 1,
+      "merged": 1
+    },
+    "classes_of_records": {
+      "english": 1,
+      "french": 1,
+      "merged": 1
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:14.730892+00:00",
+  "extraction_rebuild_version": 2
+}

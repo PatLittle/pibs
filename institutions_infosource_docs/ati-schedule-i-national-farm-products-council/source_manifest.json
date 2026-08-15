@@ -1,0 +1,52 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-national-farm-products-council",
+  "gc_orgID": "2265",
+  "institution_name_en": "National Farm Products Council",
+  "institution_name_fr": "Conseil national des produits agricoles",
+  "access_act_order": 92,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-national-farm-products-council",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T16:02:21.457268+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "error",
+      "requested_url": "http://fpcc-cpac.gc.ca/index.php/en-GB/proactive-disclosures",
+      "error": "ConnectionError: HTTPConnectionPool(host='fpcc-cpac.gc.ca', port=80): Max retries exceeded with url: /index.php/en-GB/proactive-disclosures (Caused by NewConnectionError(\"HTTPConnection(host='fpcc-cpac.gc.ca', port=80): Failed to establish a new connection: [Errno 113] No route to host\"))"
+    },
+    "pibs_fr": {
+      "status": "error",
+      "requested_url": "http://fpcc-cpac.gc.ca/index.php/fr-FR/divulgations-proactive",
+      "error": "ConnectionError: HTTPConnectionPool(host='fpcc-cpac.gc.ca', port=80): Max retries exceeded with url: /index.php/fr-FR/divulgations-proactive (Caused by NewConnectionError(\"HTTPConnection(host='fpcc-cpac.gc.ca', port=80): Failed to establish a new connection: [Errno 113] No route to host\"))"
+    },
+    "classes_of_records_en": {
+      "status": "error",
+      "requested_url": "http://fpcc-cpac.gc.ca/index.php/en-GB/proactive-disclosures",
+      "error": "ConnectionError: HTTPConnectionPool(host='fpcc-cpac.gc.ca', port=80): Max retries exceeded with url: /index.php/en-GB/proactive-disclosures (Caused by NewConnectionError(\"HTTPConnection(host='fpcc-cpac.gc.ca', port=80): Failed to establish a new connection: [Errno 113] No route to host\"))"
+    },
+    "classes_of_records_fr": {
+      "status": "error",
+      "requested_url": "http://fpcc-cpac.gc.ca/index.php/fr-FR/divulgations-proactive",
+      "error": "ConnectionError: HTTPConnectionPool(host='fpcc-cpac.gc.ca', port=80): Max retries exceeded with url: /index.php/fr-FR/divulgations-proactive (Caused by NewConnectionError(\"HTTPConnection(host='fpcc-cpac.gc.ca', port=80): Failed to establish a new connection: [Errno 113] No route to host\"))"
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:14.770857+00:00",
+  "extraction_rebuild_version": 2
+}

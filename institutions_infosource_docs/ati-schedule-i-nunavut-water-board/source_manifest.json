@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-nunavut-water-board",
+  "gc_orgID": "",
+  "institution_name_en": "Nunavut Water Board",
+  "institution_name_fr": "Office des eaux du Nunavut",
+  "access_act_order": 101,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-nunavut-water-board",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T16:02:24.611017+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.nwb-oen.ca/content/info-source-annual-report-2013-2014",
+      "final_url": "https://www.nwb-oen.ca/content/info-source-annual-report-2013-2014",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 34131,
+      "sha256": "49b41aa3515531caa8151337620ea06e91819e2c9115c2ef3a4807abd1bccecc",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-nunavut-water-board/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-nunavut-water-board/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "http://www.nwb-oen.ca/fr/content/transparence",
+      "final_url": "http://www.nwb-oen.ca/fr/content/transparence",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 20976,
+      "sha256": "507212aafd432fa1e83fbf16f0bd7f04638c1e76d38854f10521ee6ab3dde60d",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-nunavut-water-board/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-nunavut-water-board/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.nwb-oen.ca/content/info-source-annual-report-2013-2014",
+      "final_url": "https://www.nwb-oen.ca/content/info-source-annual-report-2013-2014",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 34131,
+      "sha256": "49b41aa3515531caa8151337620ea06e91819e2c9115c2ef3a4807abd1bccecc",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-nunavut-water-board/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-nunavut-water-board/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "http://www.nwb-oen.ca/fr/content/transparence",
+      "final_url": "http://www.nwb-oen.ca/fr/content/transparence",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 20976,
+      "sha256": "507212aafd432fa1e83fbf16f0bd7f04638c1e76d38854f10521ee6ab3dde60d",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-nunavut-water-board/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-nunavut-water-board/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 1,
+      "french": 0,
+      "merged": 1
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:15.082688+00:00",
+  "extraction_rebuild_version": 2
+}

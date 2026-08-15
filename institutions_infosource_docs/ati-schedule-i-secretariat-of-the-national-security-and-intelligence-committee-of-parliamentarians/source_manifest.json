@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-secretariat-of-the-national-security-and-intelligence-committee-of-parliamentarians",
+  "gc_orgID": "2295",
+  "institution_name_en": "Secretariat of the National Security and Intelligence Committee of Parliamentarians",
+  "institution_name_fr": "Secrétariat du Comité des parlementaires sur la sécurité nationale et le renseignement",
+  "access_act_order": 133,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-secretariat-of-the-national-security-and-intelligence-committee-of-parliamentarians",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T16:03:16.632130+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/secretariat-national-security-intelligence-committee-parliamentarians/corporate/transparency/info-source/2025.html",
+      "final_url": "https://www.canada.ca/en/secretariat-national-security-intelligence-committee-parliamentarians/corporate/transparency/info-source/2025.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 52368,
+      "sha256": "ec4bd1ac18e1078cf58bf7f8b208831e805ba3560989166869db56b0ee273864",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-secretariat-of-the-national-security-and-intelligence-committee-of-parliamentarians/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-secretariat-of-the-national-security-and-intelligence-committee-of-parliamentarians/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/secretariat-comite-parlementaires-securite-nationale-renseignement/organisation/transparence/info-source/2025.html",
+      "final_url": "https://www.canada.ca/fr/secretariat-comite-parlementaires-securite-nationale-renseignement/organisation/transparence/info-source/2025.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 71562,
+      "sha256": "9e907b616b5bcb1c8da534c3dd96ff8114522d5046bf220277ed247e7591421f",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-secretariat-of-the-national-security-and-intelligence-committee-of-parliamentarians/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-secretariat-of-the-national-security-and-intelligence-committee-of-parliamentarians/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/en/secretariat-national-security-intelligence-committee-parliamentarians/corporate/transparency/info-source/2025.html",
+      "final_url": "https://www.canada.ca/en/secretariat-national-security-intelligence-committee-parliamentarians/corporate/transparency/info-source/2025.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 52368,
+      "sha256": "ec4bd1ac18e1078cf58bf7f8b208831e805ba3560989166869db56b0ee273864",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-secretariat-of-the-national-security-and-intelligence-committee-of-parliamentarians/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-secretariat-of-the-national-security-and-intelligence-committee-of-parliamentarians/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://www.canada.ca/fr/secretariat-comite-parlementaires-securite-nationale-renseignement/organisation/transparence/info-source/2025.html",
+      "final_url": "https://www.canada.ca/fr/secretariat-comite-parlementaires-securite-nationale-renseignement/organisation/transparence/info-source/2025.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 71562,
+      "sha256": "9e907b616b5bcb1c8da534c3dd96ff8114522d5046bf220277ed247e7591421f",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-secretariat-of-the-national-security-and-intelligence-committee-of-parliamentarians/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-secretariat-of-the-national-security-and-intelligence-committee-of-parliamentarians/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 1,
+      "merged": 1
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:16.740450+00:00",
+  "extraction_rebuild_version": 2
+}

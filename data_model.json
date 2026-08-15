@@ -1,0 +1,121 @@
+{
+  "model_version": "1.0",
+  "description": "Relational model for authoritative institutions, Info Source holdings, and controlled vocabularies.",
+  "tables": {
+    "institution_registry": {
+      "path": "institution_registry.csv",
+      "primary_key": ["institution_id"],
+      "description": "Schedule I institution authority and publication metadata."
+    },
+    "institution_classes_of_records": {
+      "path": "institutions_infosource_docs/cor_table_en_fr_all.csv",
+      "primary_key": ["institution_id", "record_number"],
+      "foreign_keys": [
+        {
+          "fields": ["institution_id"],
+          "references": "institution_registry",
+          "reference_fields": ["institution_id"]
+        }
+      ]
+    },
+    "institution_personal_information_banks": {
+      "path": "institutions_infosource_docs/pib_table_en_fr_all.csv",
+      "primary_key": ["institution_id", "bank_number_key"],
+      "foreign_keys": [
+        {
+          "fields": ["institution_id"],
+          "references": "institution_registry",
+          "reference_fields": ["institution_id"]
+        },
+        {
+          "fields": ["pib_type"],
+          "references": "pib_type_values",
+          "reference_fields": ["pib_type"]
+        }
+      ]
+    },
+    "pib_cor_links": {
+      "path": "institutions_infosource_docs/pib_cor_links.csv",
+      "primary_key": [
+        "institution_id",
+        "bank_number_key",
+        "language",
+        "related_record_number"
+      ],
+      "description": "Normalized many-to-many links parsed from PIB related-record fields.",
+      "foreign_keys": [
+        {
+          "fields": ["institution_id", "bank_number_key"],
+          "references": "institution_personal_information_banks",
+          "reference_fields": ["institution_id", "bank_number_key"]
+        }
+      ],
+      "polymorphic_target": {
+        "discriminator": "relationship_scope",
+        "institution_specific": "institution_classes_of_records",
+        "standard": "standard_classes_of_records"
+      }
+    },
+    "standard_classes_of_records": {
+      "path": "standard_classes_of_records_en_fr.csv",
+      "primary_key": ["record_number"],
+      "alternate_keys": [["record_number_en"], ["record_number_fr"]]
+    },
+    "standard_personal_information_banks": {
+      "path": "spib_en_fr.csv",
+      "primary_key": ["bank_number_key"],
+      "foreign_keys": [
+        {
+          "fields": ["pib_type"],
+          "references": "pib_type_values",
+          "reference_fields": ["pib_type"]
+        }
+      ]
+    },
+    "pib_type_values": {
+      "path": "pib_type_values.csv",
+      "primary_key": ["pib_code"],
+      "alternate_keys": [["pib_type"]],
+      "controlled_fields": [
+        "institution_personal_information_banks.pib_type",
+        "standard_personal_information_banks.pib_type"
+      ]
+    },
+    "personal_information_categories": {
+      "path": "pi_categories_en_fr.csv",
+      "primary_key": ["PI_CAT_ID"],
+      "description": "Controlled vocabulary available for future explicit PIB-category assignments; no assignment is inferred from narrative descriptions."
+    }
+  },
+  "relationships": [
+    {
+      "name": "institution_has_classes_of_records",
+      "cardinality": "one_to_many",
+      "from": "institution_registry.institution_id",
+      "to": "institution_classes_of_records.institution_id"
+    },
+    {
+      "name": "institution_has_personal_information_banks",
+      "cardinality": "one_to_many",
+      "from": "institution_registry.institution_id",
+      "to": "institution_personal_information_banks.institution_id"
+    },
+    {
+      "name": "pib_relates_to_classes_of_records",
+      "cardinality": "many_to_many",
+      "through": "pib_cor_links",
+      "note": "A related-record value may resolve to an institution-specific class or a Treasury Board standard class."
+    },
+    {
+      "name": "pib_uses_type_vocabulary",
+      "cardinality": "many_to_one",
+      "from": "institution_personal_information_banks.pib_type",
+      "to": "pib_type_values.pib_type"
+    }
+  ],
+  "source_provenance": {
+    "job_manifest": "data/collection_jobs/institution_collection_jobs_2026-08-15.jsonl",
+    "institution_manifest_pattern": "institutions_infosource_docs/<institution_id>/source_manifest.json",
+    "raw_snapshot_pattern": "institutions_infosource_docs/<institution_id>/snapshots/<date>/raw/"
+  }
+}

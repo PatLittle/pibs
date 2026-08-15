@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-national-research-council-of-canada",
+  "gc_orgID": "2313",
+  "institution_name_en": "National Research Council of Canada",
+  "institution_name_fr": "Conseil national de recherches du Canada",
+  "access_act_order": 94,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-national-research-council-of-canada",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:56:41.878311+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://nrc.canada.ca/en/corporate/transparency/access-information-privacy-acts-info-source",
+      "final_url": "https://nrc.canada.ca/en/corporate/transparency/access-information-privacy-acts-info-source",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 235991,
+      "sha256": "5b58e8b819ce8afa98736ec64e4343aa22ea1b6db011160827db01dfa5b7d14b",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-national-research-council-of-canada/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-national-research-council-of-canada/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://nrc.canada.ca/fr/organisation/transparence/lois-lacces-linformation-protection-renseignements-personnels-info-source",
+      "final_url": "https://nrc.canada.ca/fr/organisation/transparence/lois-lacces-linformation-protection-renseignements-personnels-info-source",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 284049,
+      "sha256": "23505d6a997a949cb716489db49cb7c83c721eb9c7e5e4ee94ee60629792aee5",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-national-research-council-of-canada/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-national-research-council-of-canada/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://nrc.canada.ca/en/corporate/transparency/access-information-privacy-acts-info-source",
+      "final_url": "https://nrc.canada.ca/en/corporate/transparency/access-information-privacy-acts-info-source",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 235991,
+      "sha256": "5b58e8b819ce8afa98736ec64e4343aa22ea1b6db011160827db01dfa5b7d14b",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-national-research-council-of-canada/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-national-research-council-of-canada/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://nrc.canada.ca/fr/organisation/transparence/lois-lacces-linformation-protection-renseignements-personnels-info-source",
+      "final_url": "https://nrc.canada.ca/fr/organisation/transparence/lois-lacces-linformation-protection-renseignements-personnels-info-source",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 284049,
+      "sha256": "23505d6a997a949cb716489db49cb7c83c721eb9c7e5e4ee94ee60629792aee5",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-national-research-council-of-canada/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-national-research-council-of-canada/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 6,
+      "french": 7,
+      "merged": 7
+    },
+    "classes_of_records": {
+      "english": 86,
+      "french": 84,
+      "merged": 88
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:15.004583+00:00",
+  "extraction_rebuild_version": 2
+}

@@ -1,0 +1,50 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-canada-nova-scotia-offshore-energy-regulator",
+  "gc_orgID": "3449",
+  "institution_name_en": "Canada–Nova Scotia Offshore Energy Regulator",
+  "institution_name_fr": "Régie Canada — Nouvelle-Écosse de l’énergie extracôtière",
+  "access_act_order": 34,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-canada-nova-scotia-offshore-energy-regulator",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:55:09.853094+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "error",
+      "requested_url": "https://www.cnsopb.ns.ca/sites/default/files/resource/infosource_self_publishing_eng.pdf",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://cnsoer.ca/sites/default/files/resource/infosource_self_publishing_eng.pdf"
+    },
+    "pibs_fr": {
+      "status": "missing_url",
+      "url": ""
+    },
+    "classes_of_records_en": {
+      "status": "error",
+      "requested_url": "https://www.cnsopb.ns.ca/sites/default/files/resource/infosource_self_publishing_eng.pdf",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://cnsoer.ca/sites/default/files/resource/infosource_self_publishing_eng.pdf"
+    },
+    "classes_of_records_fr": {
+      "status": "missing_url",
+      "url": ""
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    },
+    "classes_of_records": {
+      "english": 0,
+      "french": 0,
+      "merged": 0
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:12.176971+00:00",
+  "extraction_rebuild_version": 2
+}

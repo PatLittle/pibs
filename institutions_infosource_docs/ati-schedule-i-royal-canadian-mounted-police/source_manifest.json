@@ -1,0 +1,150 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-royal-canadian-mounted-police",
+  "gc_orgID": "2288",
+  "institution_name_en": "Royal Canadian Mounted Police",
+  "institution_name_fr": "Gendarmerie royale du Canada",
+  "access_act_order": 127,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-royal-canadian-mounted-police",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:59:24.360014+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://rcmp.ca/en/corporate-information/access-information-and-privacy/info-source/rcmp-specific-personal-information-banks",
+      "final_url": "https://rcmp.ca/en/corporate-information/access-information-and-privacy/info-source/rcmp-specific-personal-information-banks",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 199975,
+      "sha256": "a19ee225fdd61518585cbf61cab0d230b30dfbf3a57d25751615ae8f4895a841",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-royal-canadian-mounted-police/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-royal-canadian-mounted-police/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://grc.ca/fr/renseignements-organisationnels/acces-linformation-et-protection-renseignements-personnels/info-source/fichiers-renseignements-personnels-specifiques-grc",
+      "final_url": "https://grc.ca/fr/renseignements-organisationnels/acces-linformation-et-protection-renseignements-personnels/info-source/fichiers-renseignements-personnels-specifiques-grc",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 240993,
+      "sha256": "c161a177d65687f8b0ebb5789b7674750bab24df6dda2f6c51bef6c1d7165790",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-royal-canadian-mounted-police/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-royal-canadian-mounted-police/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://rcmp.ca/en/corporate-information/access-information-and-privacy/info-source/rcmp-specific-classes-records",
+      "final_url": "https://rcmp.ca/en/corporate-information/access-information-and-privacy/info-source/rcmp-specific-classes-records",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 139241,
+      "sha256": "bef48bbd5f554ca7db083e5de3193a50b952659d2c66b4e963770d788775b205",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-royal-canadian-mounted-police/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-royal-canadian-mounted-police/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://rcmp.ca/en/criminal-records/criminal-record-checks",
+          "final_url": "https://rcmp.ca/en/criminal-records/criminal-record-checks",
+          "http_status": 200,
+          "byte_count": 17595,
+          "sha256": "c1d6b8c118d8ef208b1f218587636aacd7bcbfb503a252dcfb07376f2dd7e6b0",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-royal-canadian-mounted-police/snapshots/2026-08-15/raw/classes_of_records_en_linked_1.html",
+          "included_in_extraction": true
+        },
+        {
+          "url": "https://rcmp.ca/en/criminal-records",
+          "final_url": "https://rcmp.ca/en/criminal-records",
+          "http_status": 200,
+          "byte_count": 16039,
+          "sha256": "59656bf05fabdce6a527dd7f46b70b622ad4d313a87d8dacba3f9fe875bc1c56",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-royal-canadian-mounted-police/snapshots/2026-08-15/raw/classes_of_records_en_linked_2.html",
+          "included_in_extraction": true
+        },
+        {
+          "url": "https://rcmp.ca/en/criminal-records/criminal-record-checks/canadian-criminal-real-time-identification-services-forms",
+          "final_url": "https://rcmp.ca/en/criminal-records/criminal-record-checks/canadian-criminal-real-time-identification-services-forms",
+          "http_status": 200,
+          "byte_count": 24139,
+          "sha256": "d713d19d8948a94313f62f2632c7af7f4cd923e3a33ab9e369b9b8ab6622c7cc",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-royal-canadian-mounted-police/snapshots/2026-08-15/raw/classes_of_records_en_linked_3.html",
+          "included_in_extraction": true
+        },
+        {
+          "url": "https://rcmp.ca/en/criminal-records/criminal-record-checks/private-fingerprinting-companies-accredited-rcmp",
+          "final_url": "https://rcmp.ca/en/criminal-records/criminal-record-checks/private-fingerprinting-companies-accredited-rcmp",
+          "http_status": 200,
+          "byte_count": 68604,
+          "sha256": "9c24ad90be01026f1edf7ba46819da298d0dd1f806705f514f6d7527c7d9e015",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-royal-canadian-mounted-police/snapshots/2026-08-15/raw/classes_of_records_en_linked_4.html",
+          "included_in_extraction": true
+        },
+        {
+          "url": "https://rcmp.ca/en/criminal-records/criminal-record-checks/processing-times-and-fees",
+          "final_url": "https://rcmp.ca/en/criminal-records/criminal-record-checks/processing-times-and-fees",
+          "http_status": 200,
+          "byte_count": 19957,
+          "sha256": "520f8912e8c364f0ac5f993a73d9af19f402e290b9b024b563c72831d6bf6252",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-royal-canadian-mounted-police/snapshots/2026-08-15/raw/classes_of_records_en_linked_5.html",
+          "included_in_extraction": true
+        },
+        {
+          "url": "https://rcmp.ca/en/criminal-records/criminal-record-checks/types-certified-criminal-record-checks",
+          "final_url": "https://rcmp.ca/en/criminal-records/criminal-record-checks/types-certified-criminal-record-checks",
+          "http_status": 200,
+          "byte_count": 32433,
+          "sha256": "042a366a6ad73a4ff4b556e9d3e16fd6a955e04280f0832d829ad552914823d2",
+          "raw_path": "institutions_infosource_docs/ati-schedule-i-royal-canadian-mounted-police/snapshots/2026-08-15/raw/classes_of_records_en_linked_6.html",
+          "included_in_extraction": true
+        }
+      ]
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://grc.ca/fr/renseignements-organisationnels/acces-linformation-et-protection-renseignements-personnels/info-source/categories-documents-specifiques-grc",
+      "final_url": "https://grc.ca/fr/renseignements-organisationnels/acces-linformation-et-protection-renseignements-personnels/info-source/categories-documents-specifiques-grc",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 159638,
+      "sha256": "c228c5b114580161c3ee97873ae715a922b373ee009a0faf0a39ce6fb3690f09",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-royal-canadian-mounted-police/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-royal-canadian-mounted-police/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": [
+        {
+          "url": "https://grc.ca/fr/criminal-records/criminal-record-checks",
+          "status": "error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://grc.ca/fr/criminal-records/criminal-record-checks",
+          "included_in_extraction": false
+        }
+      ]
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 40,
+      "french": 40,
+      "merged": 41
+    },
+    "classes_of_records": {
+      "english": 1,
+      "french": 2,
+      "merged": 2
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:16.637862+00:00",
+  "extraction_rebuild_version": 2
+}

@@ -1,0 +1,88 @@
+{
+  "snapshot_date": "2026-08-15",
+  "registry_sha256": "1e0969f2cf177b80867600443003f280053adb3024076f29bbaf7bcea4ef879c",
+  "institution_id": "ati-schedule-i-canadian-food-inspection-agency",
+  "gc_orgID": "2306",
+  "institution_name_en": "Canadian Food Inspection Agency",
+  "institution_name_fr": "Agence canadienne d’inspection des aliments",
+  "access_act_order": 41,
+  "content_folder": "institutions_infosource_docs/ati-schedule-i-canadian-food-inspection-agency",
+  "collector_version": 2,
+  "collected_at_utc": "2026-08-15T15:55:16.946223+00:00",
+  "sources": {
+    "pibs_en": {
+      "status": "collected",
+      "requested_url": "https://inspection.canada.ca/en/about-cfia/transparency/access-information-and-privacy/info-source",
+      "final_url": "https://inspection.canada.ca/en/about-cfia/transparency/access-information-and-privacy/info-source",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 187677,
+      "sha256": "92132be7083551590a31f8fb604e2e386a1afaa97cdb4e47cf5d09309ebe1879",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-food-inspection-agency/snapshots/2026-08-15/raw/pibs_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-food-inspection-agency/pibs_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "pibs_fr": {
+      "status": "collected",
+      "requested_url": "https://inspection.canada.ca/fr/propos-lacia/transparence/acces-linformation-protection-renseignements-personnels/info-source",
+      "final_url": "https://inspection.canada.ca/fr/propos-lacia/transparence/acces-linformation-protection-renseignements-personnels/info-source",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 232088,
+      "sha256": "801f07503b18c9505cb906a024aab9213b5a1ee8102599e43cf07ec6e7960b66",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-food-inspection-agency/snapshots/2026-08-15/raw/pibs_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-food-inspection-agency/pibs_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_en": {
+      "status": "collected",
+      "requested_url": "https://inspection.canada.ca/en/about-cfia/transparency/access-information-and-privacy/info-source",
+      "final_url": "https://inspection.canada.ca/en/about-cfia/transparency/access-information-and-privacy/info-source",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 187677,
+      "sha256": "92132be7083551590a31f8fb604e2e386a1afaa97cdb4e47cf5d09309ebe1879",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-food-inspection-agency/snapshots/2026-08-15/raw/classes_of_records_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-food-inspection-agency/classes_of_records_en.md",
+      "fragment": "",
+      "discovered_pages": []
+    },
+    "classes_of_records_fr": {
+      "status": "collected",
+      "requested_url": "https://inspection.canada.ca/fr/propos-lacia/transparence/acces-linformation-protection-renseignements-personnels/info-source",
+      "final_url": "https://inspection.canada.ca/fr/propos-lacia/transparence/acces-linformation-protection-renseignements-personnels/info-source",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 232088,
+      "sha256": "801f07503b18c9505cb906a024aab9213b5a1ee8102599e43cf07ec6e7960b66",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-food-inspection-agency/snapshots/2026-08-15/raw/classes_of_records_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-food-inspection-agency/classes_of_records_fr.md",
+      "fragment": "",
+      "discovered_pages": []
+    }
+  },
+  "extraction": {
+    "pibs": {
+      "english": 5,
+      "french": 5,
+      "merged": 5
+    },
+    "classes_of_records": {
+      "english": 61,
+      "french": 61,
+      "merged": 61
+    }
+  },
+  "parser_versions": {
+    "pibs": 4,
+    "classes_of_records": 1
+  },
+  "extracted_at_utc": "2026-08-15T16:16:12.726456+00:00",
+  "extraction_rebuild_version": 2
+}
