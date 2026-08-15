@@ -19,6 +19,9 @@
       tableLabel: "Institutions",
       columns: [
         "gc_orgID",
+        "pib_count",
+        "date_captured",
+        "date_removed",
         "harmonized_name",
         "nom_harmonise",
         "institution_name_en",
