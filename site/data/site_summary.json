@@ -1,0 +1,128 @@
+{
+  "snapshot_date": "2026-08-15",
+  "headline": {
+    "institutions": 148,
+    "institution_pibs": 979,
+    "institution_classes": 1924,
+    "pib_cor_links": 1938
+  },
+  "quality": {
+    "pibs_bilingual": 842,
+    "pibs_bilingual_percent": 86.0,
+    "classes_bilingual": 1639,
+    "classes_bilingual_percent": 85.2,
+    "links_resolved": 1535,
+    "links_resolved_percent": 79.2
+  },
+  "collection": {
+    "collectable_institutions": 131,
+    "collection_completed": 131,
+    "all_four_sources": 91,
+    "any_source": 99,
+    "no_source_urls": 17,
+    "no_successful_source": 32,
+    "unique_failing_urls": 66
+  },
+  "datasets": {
+    "institutions": 148,
+    "pibs": 979,
+    "classes": 1924,
+    "links": 1938,
+    "standard_pibs": 49,
+    "standard_classes": 33,
+    "categories": 25,
+    "pib_types": 6
+  },
+  "pib_types": [
+    {
+      "name": "Public Bank",
+      "count": 783
+    },
+    {
+      "name": "Particular Bank",
+      "count": 132
+    },
+    {
+      "name": "Central Bank",
+      "count": 50
+    },
+    {
+      "name": "Public Central Bank",
+      "count": 12
+    },
+    {
+      "name": "Public Standard Bank",
+      "count": 1
+    },
+    {
+      "name": "Unclassified legacy code",
+      "count": 1
+    }
+  ],
+  "top_institutions": [
+    {
+      "institution_id": "ati-schedule-i-canadian-forces",
+      "pibs": 94,
+      "classes": 147,
+      "name_en": "Canadian Forces",
+      "name_fr": "Forces canadiennes",
+      "total": 241
+    },
+    {
+      "institution_id": "ati-schedule-i-department-of-national-defence",
+      "pibs": 94,
+      "classes": 147,
+      "name_en": "Department of National Defence",
+      "name_fr": "Ministère de la Défense nationale",
+      "total": 241
+    },
+    {
+      "institution_id": "ati-schedule-i-department-of-foreign-affairs-trade-and-development",
+      "pibs": 19,
+      "classes": 134,
+      "name_en": "Department of Foreign Affairs, Trade and Development",
+      "name_fr": "Ministère des Affaires étrangères, du Commerce et du Développement",
+      "total": 153
+    },
+    {
+      "institution_id": "ati-schedule-i-canada-employment-insurance-commission",
+      "pibs": 66,
+      "classes": 86,
+      "name_en": "Canada Employment Insurance Commission",
+      "name_fr": "Commission de l’assurance-emploi du Canada",
+      "total": 152
+    },
+    {
+      "institution_id": "ati-schedule-i-department-of-employment-and-social-development",
+      "pibs": 66,
+      "classes": 86,
+      "name_en": "Department of Employment and Social Development",
+      "name_fr": "Ministère de l’Emploi et du Développement social",
+      "total": 152
+    },
+    {
+      "institution_id": "ati-schedule-i-canada-border-services-agency",
+      "pibs": 37,
+      "classes": 100,
+      "name_en": "Canada Border Services Agency",
+      "name_fr": "Agence des services frontaliers du Canada",
+      "total": 137
+    },
+    {
+      "institution_id": "ati-schedule-i-treasury-board-secretariat",
+      "pibs": 42,
+      "classes": 88,
+      "name_en": "Treasury Board Secretariat",
+      "name_fr": "Secrétariat du Conseil du Trésor",
+      "total": 130
+    },
+    {
+      "institution_id": "ati-schedule-i-department-of-finance",
+      "pibs": 3,
+      "classes": 118,
+      "name_en": "Department of Finance",
+      "name_fr": "Ministère des Finances",
+      "total": 121
+    }
+  ]
+}

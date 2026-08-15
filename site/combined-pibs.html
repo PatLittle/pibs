@@ -1,110 +1,15 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Combined bilingual institution-specific PIB dataset."
-    />
-    <title>Combined Institution PIBs</title>
-
-    <link
-      rel="stylesheet"
-      href="https://cdn.design-system.canada.ca/@gcds-core/css-shortcuts@1.0.1/dist/gcds-css-shortcuts.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.design-system.canada.ca/@gcds-core/components@1.0.0/dist/gcds/gcds.css"
-    />
-    <script
-      type="module"
-      src="https://cdn.design-system.canada.ca/@gcds-core/components@1.0.0/dist/gcds/gcds.esm.js"
-    ></script>
-
-    <link
-      rel="stylesheet"
-      href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/css/theme.min.css"
-    />
-    <style>
-      .table-wrap {
-        margin-top: 1rem;
-        overflow-x: auto;
-      }
-
-      .wb-tables td,
-      .wb-tables th {
-        vertical-align: top;
-        max-width: 28rem;
-      }
-
-      .dataTables_wrapper {
-        overflow-x: auto;
-      }
-
-      .data-row-clickable {
-        cursor: pointer;
-      }
-
-      .data-row-clickable:hover,
-      .data-row-clickable:focus {
-        background-color: #f0f5ff !important;
-        outline: 2px solid #26374a;
-        outline-offset: -2px;
-      }
-
-      body.row-detail-modal-open {
-        overflow: hidden;
-      }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <meta http-equiv="refresh" content="0; url=table.html?dataset=pibs" />
+    <link rel="canonical" href="table.html?dataset=pibs" />
+    <title>Institution PIBs — Info Source Data Explorer</title>
   </head>
-
-  <body vocab="http://schema.org/" typeof="WebPage">
-    <gcds-header lang-href="#" skip-to-href="#main-content">
-      <gcds-search slot="search"></gcds-search>
-      <gcds-breadcrumbs slot="breadcrumb">
-        <gcds-breadcrumbs-item href="index.html">Info Source Data Explorer</gcds-breadcrumbs-item>
-        <gcds-breadcrumbs-item href="#">Combined Institution PIBs</gcds-breadcrumbs-item>
-      </gcds-breadcrumbs>
-    </gcds-header>
-
-    <gcds-container id="main-content" layout="page" tag="main">
-      <section>
-        <gcds-heading tag="h1">Combined Institution PIBs</gcds-heading>
-        <gcds-text>
-          Combined bilingual table from all institution-level <code>pib_table_en_fr.csv</code> files.
-          Includes <code>institution_id</code>, <code>gc_orgID</code>, <code>institution_name_en</code>, and
-          <code>institution_name_fr</code>. The <code>pib_type</code> field is derived from the Annex B
-          code in each bank number; unrecognized legacy codes are left blank.
-        </gcds-text>
-        <gcds-text>
-          Source file: <code>data/pib_table_en_fr_all.csv</code>
-        </gcds-text>
-        <nav aria-label="Dataset pages">
-          <ul class="list-inline">
-            <li><a href="index.html">Explorer</a></li>
-            <li><a href="personal-information-categories.html">Categories of Personal Information</a></li>
-            <li><a href="standard-classes-of-records.html">Standard Classes of Records</a></li>
-          </ul>
-        </nav>
-        <div id="combined-pibs-table-container" class="table-wrap" aria-live="polite"></div>
-      </section>
-
-      <gcds-date-modified>2026-08-15</gcds-date-modified>
-    </gcds-container>
-
-    <gcds-footer
-      display="full"
-      contextual-heading="Data sources"
-      contextual-links='{ "Combined PIBs CSV": "data/pib_table_en_fr_all.csv", "PI categories page": "personal-information-categories.html", "Standard classes page": "standard-classes-of-records.html", "Back to Explorer": "index.html" }'
-    >
-    </gcds-footer>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/js/wet-boew.min.js"></script>
-    <script src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/js/theme.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.2/dist/jspdf.umd.min.js"></script>
-    <script src="app.js"></script>
+  <body>
+    <p>This table has moved to the <a href="table.html?dataset=pibs">Institution PIB explorer</a>.</p>
+    <script>window.location.replace("table.html?dataset=pibs");</script>
   </body>
 </html>

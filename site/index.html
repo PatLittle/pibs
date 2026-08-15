@@ -3,154 +3,119 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Standard personal information banks and Info Source institutions in bilingual WET tables."
-    />
+    <meta name="description" content="Explore the institutions, personal information banks, classes of records and relationships published through Government of Canada Info Source." />
     <title>Info Source Data Explorer</title>
-
-    <link
-      rel="stylesheet"
-      href="https://cdn.design-system.canada.ca/@gcds-core/css-shortcuts@1.0.1/dist/gcds-css-shortcuts.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.design-system.canada.ca/@gcds-core/components@1.0.0/dist/gcds/gcds.css"
-    />
-    <script
-      type="module"
-      src="https://cdn.design-system.canada.ca/@gcds-core/components@1.0.0/dist/gcds/gcds.esm.js"
-    ></script>
-
-    <link
-      rel="stylesheet"
-      href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/css/theme.min.css"
-    />
-    <style>
-      .table-wrap {
-        margin-top: 1rem;
-        overflow-x: auto;
-      }
-
-      .wb-tables td,
-      .wb-tables th {
-        vertical-align: top;
-        max-width: 28rem;
-      }
-
-      .dataTables_wrapper {
-        overflow-x: auto;
-      }
-
-      .data-row-clickable {
-        cursor: pointer;
-      }
-
-      .data-row-clickable:hover,
-      .data-row-clickable:focus {
-        background-color: #f0f5ff !important;
-        outline: 2px solid #26374a;
-        outline-offset: -2px;
-      }
-
-      body.row-detail-modal-open {
-        overflow: hidden;
-      }
-    </style>
+    <link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/css/theme.min.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
-
   <body vocab="http://schema.org/" typeof="WebPage">
-    <gcds-header lang-href="#" skip-to-href="#main-content">
-      <gcds-search slot="search"></gcds-search>
-      <gcds-breadcrumbs slot="breadcrumb">
-        <gcds-breadcrumbs-item href="#">Home</gcds-breadcrumbs-item>
-        <gcds-breadcrumbs-item href="#">Info Source</gcds-breadcrumbs-item>
-      </gcds-breadcrumbs>
-    </gcds-header>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <div><a class="site-brand" href="index.html">Info Source Data Explorer</a><span class="site-brand__tag">Independent open-data project</span></div>
+        <nav class="site-nav" aria-label="Main navigation"><a aria-current="page" href="index.html">Overview</a><a href="table.html?dataset=institutions">Institutions</a><a href="table.html?dataset=pibs">PIBs</a><a href="table.html?dataset=classes">Classes</a><a href="table.html?dataset=links">Linkages</a></nav>
+      </div>
+    </header>
 
-    <gcds-container id="main-content" layout="page" tag="main">
-      <section>
-        <gcds-heading tag="h1">Info Source Data Explorer</gcds-heading>
-        <gcds-text>
-          This page publishes bilingual Info Source datasets as searchable WET tables:
-          Standard Personal Information Banks (SPIBs), categories of personal information,
-          standard classes of records, and Info Source institutions.
-        </gcds-text>
+    <main id="main-content">
+      <section class="hero">
+        <p class="independent-notice">Independent data product — not an official Government of Canada publication</p>
+        <p class="hero__eyebrow">Government information holdings</p>
+        <h1 class="hero__title">See what federal institutions hold—and how the records connect.</h1>
+        <p class="hero__lede">
+          A bilingual, source-backed view of institutions subject to the <em>Access to Information Act</em>,
+          their Personal Information Banks, Classes of Records, and the references between them.
+        </p>
+        <div class="hero__actions">
+          <a class="button-link button-link--light" href="table.html?dataset=institutions">Start with an institution</a>
+          <a class="button-link button-link--outline" href="#datasets">Browse all datasets</a>
+        </div>
       </section>
 
-      <nav aria-labelledby="table-of-contents-heading">
-        <gcds-heading id="table-of-contents-heading" tag="h2">Table of contents</gcds-heading>
-        <ul>
-          <li><a href="#standard-pibs">Standard PIBs</a></li>
-          <li><a href="#personal-information-categories">Categories of Personal Information</a></li>
-          <li><a href="#institutions">Institutions</a></li>
-          <li><a href="#combined-standard-pibs">Combined Standard PIBs</a></li>
-          <li><a href="#standard-classes-of-records">Standard Classes of Records</a></li>
-        </ul>
-      </nav>
+      <div class="page-container">
+        <section class="stat-grid" aria-label="Dataset overview">
+          <article class="stat-card"><span class="stat-card__value" id="stat-institutions">—</span><span class="stat-card__label">authoritative institutions</span><span class="stat-card__note">Schedule I of the Act</span></article>
+          <article class="stat-card"><span class="stat-card__value" id="stat-pibs">—</span><span class="stat-card__label">institution-specific PIBs</span><span class="stat-card__note">personal information holdings</span></article>
+          <article class="stat-card"><span class="stat-card__value" id="stat-classes">—</span><span class="stat-card__label">Classes of Records</span><span class="stat-card__note">program and activity records</span></article>
+          <article class="stat-card"><span class="stat-card__value" id="stat-links">—</span><span class="stat-card__label">PIB-to-class references</span><span class="stat-card__note">English and French source references</span></article>
+        </section>
+        <p id="overview-status" class="skip-note">Snapshot date: <strong id="snapshot-date">2026-08-15</strong>. Counts are calculated from the downloadable site data.</p>
 
-      <section id="standard-pibs">
-        <gcds-heading tag="h2">Standard PIBs</gcds-heading>
-        <gcds-text>
-          Source file: <code>data/spib_en_fr.csv</code>
-        </gcds-text>
-        <gcds-text>
-          The <code>pib_type</code> field is derived from the Annex B code in each bank number.
-        </gcds-text>
-        <div id="spib-table-container" class="table-wrap" aria-live="polite"></div>
-      </section>
+        <section class="section-block" aria-labelledby="how-heading">
+          <div class="section-heading">
+            <p class="section-eyebrow">How to read the database</p>
+            <h2 id="how-heading">Start with the legal institution, then follow its holdings</h2>
+            <p>Each institution can publish many PIBs and Classes of Records. A PIB may cite one or more institution-specific or Treasury Board standard classes, producing a many-to-many relationship.</p>
+          </div>
+          <div class="relationship-flow" aria-label="Institution and holdings relationship model">
+            <article class="relationship-node"><strong>Institution</strong><span>Legal name, due date and Info Source URLs</span><a href="table.html?dataset=institutions">Explore institutions</a></article>
+            <span class="relationship-arrow" aria-hidden="true">→</span>
+            <article class="relationship-node"><strong>Personal Information Bank</strong><span>People, purpose, uses, retention and identifiers</span><a href="table.html?dataset=pibs">Explore PIBs</a></article>
+            <span class="relationship-arrow" aria-hidden="true">⇄</span>
+            <article class="relationship-node"><strong>Class of Records</strong><span>Program records and document types</span><a href="table.html?dataset=classes">Explore classes</a></article>
+          </div>
+          <p class="muted">The normalized <a href="table.html?dataset=links">PIB-to-class linkage table</a> shows which source references resolve to a known record and which still require review.</p>
+        </section>
 
-      <section id="personal-information-categories">
-        <gcds-heading tag="h2">Categories of Personal Information</gcds-heading>
-        <gcds-text>
-          Open the dedicated bilingual table page:
-          <a href="personal-information-categories.html">personal-information-categories.html</a>
-        </gcds-text>
-      </section>
+        <section id="datasets" class="section-block" aria-labelledby="datasets-heading">
+          <div class="section-heading"><p class="section-eyebrow">Explore the tables</p><h2 id="datasets-heading">Core datasets</h2><p>Search, sort and select a row to see the complete bilingual record and links into related tables.</p></div>
+          <div class="dataset-grid">
+            <article class="dataset-card"><div class="dataset-card__count" id="dataset-count-institutions">—</div><div><h3>Authoritative institutions</h3><p>Legal bilingual names, annual publication due dates, source matching and institution-specific Info Source URLs.</p><div class="dataset-card__actions"><a href="table.html?dataset=institutions">Open table</a><a href="data/institution_registry.csv" download>Download CSV</a></div></div></article>
+            <article class="dataset-card"><div class="dataset-card__count" id="dataset-count-pibs">—</div><div><h3>Institution-specific PIBs</h3><p>Descriptions, individuals, purposes, uses, retention, registration and related record numbers.</p><div class="dataset-card__actions"><a href="table.html?dataset=pibs">Open table</a><a href="data/pib_table_en_fr_all.csv" download>Download CSV</a></div></div></article>
+            <article class="dataset-card"><div class="dataset-card__count" id="dataset-count-classes">—</div><div><h3>Institution Classes of Records</h3><p>Record number, bilingual class name and the types of documents held by each institution.</p><div class="dataset-card__actions"><a href="table.html?dataset=classes">Open table</a><a href="data/cor_table_en_fr_all.csv" download>Download CSV</a></div></div></article>
+            <article class="dataset-card"><div class="dataset-card__count" id="dataset-count-links">—</div><div><h3>PIB-to-class linkages</h3><p>Normalized related-record references, language, relationship scope and resolution status.</p><div class="dataset-card__actions"><a href="table.html?dataset=links">Open table</a><a href="data/pib_cor_links.csv" download>Download CSV</a></div></div></article>
+          </div>
+        </section>
 
-      <section id="institutions">
-        <gcds-heading tag="h2">Institutions</gcds-heading>
-        <gcds-text>
-          Source file: <code>data/infosource_institutions_en_fr.csv</code>
-        </gcds-text>
-        <gcds-text>
-          Includes the number of extracted PIBs for each organization and the dates when an
-          institution was first captured or first detected as removed from the public list.
-        </gcds-text>
-        <div id="institutions-table-container" class="table-wrap" aria-live="polite"></div>
-      </section>
+        <section class="section-block" aria-labelledby="reference-heading">
+          <div class="section-heading"><p class="section-eyebrow">Government-wide reference data</p><h2 id="reference-heading">Standard and controlled-value tables</h2></div>
+          <div class="dataset-grid">
+            <article class="dataset-card"><div class="dataset-card__count" id="dataset-count-standard-pibs">—</div><div><h3>Standard PIBs</h3><p>Government-wide banks used by multiple institutions.</p><a href="table.html?dataset=standard-pibs">Open table</a></div></article>
+            <article class="dataset-card"><div class="dataset-card__count" id="dataset-count-standard-classes">—</div><div><h3>Standard Classes of Records</h3><p>Common administrative classes identified by PRN and NDP codes.</p><a href="table.html?dataset=standard-classes">Open table</a></div></article>
+            <article class="dataset-card"><div class="dataset-card__count" id="dataset-count-categories">—</div><div><h3>Personal information categories</h3><p>Bilingual controlled vocabulary with examples of information types.</p><a href="table.html?dataset=categories">Open table</a></div></article>
+            <article class="dataset-card"><div class="dataset-card__count" id="dataset-count-pib-types">—</div><div><h3>PIB type codes</h3><p>Controlled values used to classify institution and standard PIBs.</p><a href="table.html?dataset=pib-types">Open table</a></div></article>
+          </div>
+        </section>
 
-      <section id="combined-standard-pibs">
-        <gcds-heading tag="h2">Combined Standard PIBs</gcds-heading>
-        <gcds-text>
-          Open the dedicated combined table page:
-          <a href="combined-pibs.html">combined-pibs.html</a>
-        </gcds-text>
-      </section>
+        <section class="section-block" aria-labelledby="insights-heading">
+          <div class="section-heading"><p class="section-eyebrow">At a glance</p><h2 id="insights-heading">Coverage and composition</h2></div>
+          <div class="insight-grid">
+            <article class="panel"><h3>Institution-specific PIBs by type</h3><p class="muted">The registration number series distinguishes institution-specific public and particular banks, along with government-wide standard banks and legacy codes.</p><div id="pib-type-bars" class="bar-list" aria-live="polite"></div></article>
+            <article class="panel"><h3>Largest published holdings</h3><p class="muted">PIBs and Classes of Records combined; legal institutions sharing a publication remain separate.</p><div id="institution-bars" class="bar-list" aria-live="polite"></div></article>
+          </div>
+        </section>
 
-      <section id="standard-classes-of-records">
-        <gcds-heading tag="h2">Standard Classes of Records</gcds-heading>
-        <gcds-text>
-          Open the dedicated bilingual table page:
-          <a href="standard-classes-of-records.html">standard-classes-of-records.html</a>
-        </gcds-text>
-      </section>
+        <section class="section-block" aria-labelledby="quality-heading">
+          <div class="section-heading"><p class="section-eyebrow">Data quality</p><h2 id="quality-heading">What is complete—and what still needs review</h2></div>
+          <div class="insight-grid">
+            <article class="panel">
+              <h3>Record quality indicators</h3>
+              <div class="quality-list">
+                <div class="quality-item"><strong id="quality-pibs">—</strong><span>PIBs have both English and French titles<br><small id="quality-pibs-note"></small></span></div>
+                <div class="quality-item"><strong id="quality-classes">—</strong><span>classes have both English and French names<br><small id="quality-classes-note"></small></span></div>
+                <div class="quality-item"><strong id="quality-links">—</strong><span>related-record references resolve to a known class<br><small id="quality-links-note"></small></span></div>
+                <div class="quality-item"><strong id="quality-sources">—</strong><span>institutions yielded at least one source<br><small id="quality-sources-note"></small></span></div>
+              </div>
+            </article>
+            <article class="panel">
+              <h3>Collection coverage</h3>
+              <dl><dt>Collection jobs completed</dt><dd id="coverage-complete">—</dd><dt>All four bilingual source roles collected</dt><dd id="coverage-all">—</dd><dt>At least one source collected</dt><dd id="coverage-any">—</dd><dt>No successful source retrieval</dt><dd id="coverage-none">—</dd><dt>No suitable publication URL</dt><dd id="coverage-no-url">—</dd><dt>Unique requested URLs with errors</dt><dd id="coverage-failing">—</dd></dl>
+              <p class="notice">Empty holdings are not automatically evidence that an institution has no records. Source errors, missing URLs, and successful pages with zero extracted records remain distinct in the collection audit.</p>
+            </article>
+          </div>
+        </section>
 
-      <gcds-date-modified>2026-08-15</gcds-date-modified>
-    </gcds-container>
+        <section class="section-block" aria-labelledby="about-heading">
+          <div class="section-heading"><p class="section-eyebrow">About this data product</p><h2 id="about-heading">Authority, provenance and reuse</h2></div>
+          <p>Institution membership and legal names come from <a href="https://laws-lois.justice.gc.ca/eng/XML/A-1.xml">Schedule I of the <em>Access to Information Act</em></a>. <a href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/access-informatio-policies-guidance/programs-holdings-online-publishing-requirements.html#toc-a">Treasury Board publication requirements</a> supply annual due dates; <a href="https://open.canada.ca/data/api/action/organization_list?all_fields=true&amp;include_extras=true">Open Government organization data</a> supplies identifiers and metadata. Institution Info Source publications supply the PIB and Class-of-Records content.</p>
+          <p>The collection preserves dated raw responses, checksums and bilingual normalized tables. Review the <a href="data/institution_collection_status.csv">collection audit</a>, <a href="https://github.com/PatLittle/pibs/blob/main/DATA_MODEL.md">data model</a>, and <a href="https://github.com/PatLittle/pibs#readme">methodology</a>. Source code and generated data are available in the <a href="https://github.com/PatLittle/pibs">GitHub repository</a> under its <a href="https://github.com/PatLittle/pibs/blob/main/LICENSE">stated licence</a>.</p>
+          <p class="notice"><strong>Independent data product.</strong> This explorer is not an official Government of Canada publication. Consult linked source pages for authoritative and current information.</p>
+        </section>
+        <p class="date-modified">Data snapshot: <strong id="footer-snapshot-date">2026-08-15</strong></p>
+      </div>
+    </main>
 
-    <gcds-footer
-      display="full"
-      contextual-heading="Data sources"
-      contextual-links='{ "Authoritative institutions CSV": "data/institution_registry.csv", "Operational institutions CSV": "data/infosource_institutions_en_fr.csv", "Institution classes CSV": "data/cor_table_en_fr_all.csv", "PIB-to-class links CSV": "data/pib_cor_links.csv", "Standard PIBs CSV": "data/spib_en_fr.csv", "PI categories CSV": "data/pi_categories_en_fr.csv", "Standard classes CSV": "data/standard_classes_of_records_en_fr.csv", "Combined PIBs CSV": "data/pib_table_en_fr_all.csv", "PI categories page": "personal-information-categories.html", "Standard classes page": "standard-classes-of-records.html", "Combined PIBs page": "combined-pibs.html" }'
-    >
-    </gcds-footer>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/js/wet-boew.min.js"></script>
-    <script src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/js/theme.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.2/dist/jspdf.umd.min.js"></script>
-    <script src="app.js"></script>
+    <footer class="site-footer"><div class="site-footer__inner"><div><strong>Info Source Data Explorer</strong><p>Independent, source-backed public-interest data.</p></div><nav aria-label="Footer navigation"><a href="table.html?dataset=institutions">Institutions</a><a href="table.html?dataset=pibs">PIBs</a><a href="table.html?dataset=classes">Classes</a><a href="table.html?dataset=links">Linkages</a><a href="https://github.com/PatLittle/pibs">Source repository</a></nav></div></footer>
+    <script src="overview.js"></script>
   </body>
 </html>

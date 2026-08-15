@@ -76,6 +76,23 @@ The relational and controlled-vocabulary model is documented in `DATA_MODEL.md` 
 .venv/bin/python validate_data_model.py
 ```
 
+## Static data explorer
+
+The GitHub Pages site is built from the compiled CSVs. Its landing page provides overview and
+quality statistics, while `site/table.html` supplies a reusable searchable view for the
+authoritative institution registry, institution PIBs, institution Classes of Records,
+PIB-to-class links, standard holdings, and controlled vocabularies. Record dialogs link between
+the related tables using `institution_id`, `bank_number_key`, and class record keys.
+
+Rebuild and validate the deployable site assets with:
+
+```bash
+.venv/bin/python build_site_assets.py
+.venv/bin/python validate_site.py
+node --check site/app.js
+node --check site/overview.js
+```
+
 ## Standard classes of records
 
 Run `python scrape_standard_classes_of_records.py` to retrieve the English and French

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Search and explore a bilingual Info Source dataset." />
+    <title>Dataset table - Info Source Data Explorer</title>
+    <link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/css/theme.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body vocab="http://schema.org/" typeof="WebPage">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <div><a class="site-brand" href="index.html">Info Source Data Explorer</a><span class="site-brand__tag">Independent open-data project</span></div>
+        <nav class="site-nav" aria-label="Main navigation"><a href="index.html">Overview</a><a href="table.html?dataset=institutions">Institutions</a><a href="table.html?dataset=pibs">PIBs</a><a href="table.html?dataset=classes">Classes</a><a href="table.html?dataset=links">Linkages</a></nav>
+      </div>
+    </header>
+
+    <main id="main-content" class="page-container">
+      <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Overview</a><span aria-hidden="true">›</span><span id="breadcrumb-dataset" aria-current="page">Dataset</span></nav>
+      <nav id="dataset-nav" class="dataset-nav" aria-label="Explore datasets">
+        <span>Explore:</span><a data-dataset-nav="institutions" href="table.html?dataset=institutions">Institutions</a><a data-dataset-nav="pibs" href="table.html?dataset=pibs">PIBs</a><a data-dataset-nav="classes" href="table.html?dataset=classes">Classes</a><a data-dataset-nav="links" href="table.html?dataset=links">Linkages</a><a data-dataset-nav="standard-pibs" href="table.html?dataset=standard-pibs">Standard PIBs</a><a data-dataset-nav="standard-classes" href="table.html?dataset=standard-classes">Standard classes</a><a data-dataset-nav="categories" href="table.html?dataset=categories">Categories</a><a data-dataset-nav="pib-types" href="table.html?dataset=pib-types">PIB types</a>
+      </nav>
+      <section class="page-intro">
+        <p class="independent-notice independent-notice--dark">Independent data product — not an official Government of Canada publication</p>
+        <p class="section-eyebrow">Bilingual table explorer</p>
+        <h1 id="dataset-title">Loading dataset…</h1>
+        <p id="dataset-description"></p>
+        <ul class="dataset-meta">
+          <li><strong id="dataset-row-count">—</strong> records</li>
+          <li>Snapshot: <strong id="snapshot-date">2026-08-15</strong></li>
+          <li><a id="dataset-download" href="#" download>Download complete CSV</a></li>
+        </ul>
+        <div id="active-filter" class="active-filter" hidden></div>
+      </section>
+
+      <section aria-labelledby="table-heading">
+        <h2 id="table-heading" class="wb-inv">Dataset records</h2>
+        <div class="table-toolbar">
+          <div>
+            <label for="table-search"><strong>Search this table</strong></label><br />
+            <input id="table-search" class="form-control" type="search" placeholder="Search all record fields, including details" autocomplete="off" />
+          </div>
+          <div>
+            <label for="page-size"><strong>Rows per page</strong></label><br />
+            <select id="page-size" class="form-control"><option>10</option><option selected>25</option><option>50</option><option>100</option></select>
+          </div>
+        </div>
+        <div id="dataset-facets" class="dataset-facets" aria-label="Filter this dataset"></div>
+        <p id="table-status" class="muted" aria-live="polite">Loading records…</p>
+        <p class="table-scroll-hint">Scroll horizontally to see every column. Open Details for the complete record.</p>
+        <div id="dataset-table-container" class="table-wrap"></div>
+        <nav id="table-pagination" class="table-pagination" aria-label="Table pages" hidden>
+          <button id="page-first" type="button" class="btn btn-default">First</button>
+          <button id="page-previous" type="button" class="btn btn-default">Previous</button>
+          <span id="page-summary"></span>
+          <button id="page-next" type="button" class="btn btn-default">Next</button>
+          <button id="page-last" type="button" class="btn btn-default">Last</button>
+        </nav>
+      </section>
+
+      <p class="skip-note">Tip: open Details to inspect the complete record and navigate to linked datasets.</p>
+      <p class="date-modified">Data snapshot: <strong id="footer-snapshot-date">2026-08-15</strong></p>
+    </main>
+
+    <dialog id="record-dialog" class="record-dialog" aria-labelledby="record-dialog-title">
+      <div class="record-dialog__header">
+        <div><p id="record-dialog-kicker" class="section-eyebrow"></p><h2 id="record-dialog-title">Record details</h2></div>
+        <button id="record-dialog-close" type="button" class="record-dialog__close" aria-label="Close record details">×</button>
+      </div>
+      <div id="record-dialog-links" class="modal-record-links"></div>
+      <div class="table-wrap"><table class="table table-bordered table-condensed"><tbody id="record-dialog-body"></tbody></table></div>
+    </dialog>
+
+    <footer class="site-footer"><div class="site-footer__inner"><div><strong>Info Source Data Explorer</strong><p>Independent, source-backed public-interest data.</p></div><nav aria-label="Footer navigation"><a href="index.html">Overview</a><a href="table.html?dataset=institutions">Institutions</a><a href="table.html?dataset=pibs">PIBs</a><a href="table.html?dataset=classes">Classes</a><a href="table.html?dataset=links">Linkages</a></nav></div></footer>
+    <script src="app.js"></script>
+  </body>
+</html>
