@@ -8,9 +8,10 @@ Original file is located at
 
 # SPIB Scraper (English + French)
 
-**Last updated:** 2026-03-10
+**Last updated:** 2026-08-14
 
 Scrapes the SPIB entries (EN + FR), normalizes bilingual fields, aligns bank prefixes across languages (e.g., **PSE ↔ POE**, **PSU ↔ POU**), preserves embedded links, merges EN/FR rows, and exports CSV/Excel.
+The output also classifies each bank with the Annex B `pib_type` lookup.
 
 **Sources**
 - EN: https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-personal-information-banks.html
@@ -25,6 +26,9 @@ import pandas as pd
 from bs4 import BeautifulSoup, Tag
 from urllib.parse import urljoin
 from unidecode import unidecode
+
+from pib_types import get_pib_type
+
 pd.set_option('display.max_colwidth', 200)
 
 URL_EN = 'https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-personal-information-banks.html'
@@ -424,6 +428,7 @@ final_cols_map = [
 
 out = pd.DataFrame()
 out['bank_number_key'] = df_merged['_merge_key']
+out['pib_type'] = out['bank_number_key'].apply(get_pib_type)
 for src, dst in final_cols_map:
     out[dst] = df_merged.get(src)
 
@@ -436,6 +441,7 @@ out['date_last_modified'] = out.apply(
 
 preferred_order = [
     'bank_number_key',
+    'pib_type',
     'bank_number_en', 'bank_number_fr',
     'entry_id_en', 'entry_id_fr',
     'entry_title_en', 'entry_title_fr',

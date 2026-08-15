@@ -3,6 +3,8 @@ import csv
 import re
 from pathlib import Path
 
+from pib_types import get_pib_type
+
 INPUT_GLOB = "institutions_infosource_docs/*/pib_table_en_fr.csv"
 OUTPUT_PATH = Path("institutions_infosource_docs/pib_table_en_fr_all.csv")
 SITE_OUTPUT_PATH = Path("site/data/pib_table_en_fr_all.csv")
@@ -76,11 +78,20 @@ def main():
                     "institution_name_en": institution["institution_name_en"],
                     "institution_name_fr": institution["institution_name_fr"],
                     **row,
+                    "pib_type": get_pib_type(
+                        row.get("bank_number_key"),
+                        row.get("bank_number_en"),
+                        row.get("bank_number_fr"),
+                    ),
                 }
             )
 
     fixed_headers = ["orgid", "institution_name_en", "institution_name_fr"]
-    header_order = [header for header in header_order if header not in fixed_headers]
+    header_order = [
+        header for header in header_order if header not in fixed_headers and header != "pib_type"
+    ]
+    bank_number_index = header_order.index("bank_number_key") + 1
+    header_order.insert(bank_number_index, "pib_type")
     output_headers = fixed_headers + header_order
     write_combined_csv(OUTPUT_PATH, output_headers, records)
     write_combined_csv(SITE_OUTPUT_PATH, output_headers, records)

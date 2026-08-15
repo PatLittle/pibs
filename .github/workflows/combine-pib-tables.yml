@@ -8,6 +8,7 @@ on:
       - "institutions_infosource_docs/**/pib_table_en_fr.csv"
       - "infosource_institutions_en_fr.csv"
       - "combine_pib_tables.py"
+      - "pib_types.py"
       - ".github/workflows/combine-pib-tables.yml"
   workflow_dispatch:
 

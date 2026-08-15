@@ -7,6 +7,12 @@ Canada.ca source pages and rebuild `standard_classes_of_records_en_fr.csv`. Engl
 `PRN ###` entries are paired with French `NDP ###` entries by their shared numeric code;
 the script stops if either language is missing a matching record.
 
+## PIB types
+
+`pib_types.py` contains the Annex B lookup used by `spib_scraper_(1).py` and
+`combine_pib_tables.py`. Both bilingual PIB outputs include a `pib_type` column derived
+from the bank code. Codes outside the six Annex B families are left unclassified.
+
 ## Processing Status
 
 - Total departments: 103
