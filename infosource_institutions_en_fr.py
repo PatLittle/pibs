@@ -4,6 +4,8 @@
 import difflib
 import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from datetime import date
+from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 from urllib.parse import parse_qsl, urljoin, urlparse, urlunparse, urlencode
 
@@ -11,6 +13,8 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 from unidecode import unidecode
+
+from institution_pib_counts import load_pib_counts
 
 URL_EN = (
     "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/"
@@ -25,6 +29,9 @@ CKAN_RESOURCE_ID = "3faaafb4-00e2-4303-947d-ac786b62559f"
 
 OUT_CSV = "infosource_institutions_en_fr.csv"
 OUT_XLSX = "infosource_institutions_en_fr.xlsx"
+SITE_OUT_CSV = "site/data/infosource_institutions_en_fr.csv"
+COMBINED_PIB_CSV = Path("institutions_infosource_docs/pib_table_en_fr_all.csv")
+BASELINE_CAPTURE_DATE = "2026-03-11"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; InfoSource-Institutions-Scraper/1.0; +https://example.local)"
@@ -331,6 +338,45 @@ def resolve_gc_orgids(df: pd.DataFrame, lang: str, exact_index: Dict[str, set], 
     return out
 
 
+def apply_historical_gc_orgids(
+    df: pd.DataFrame,
+    lang: str,
+    previous: pd.DataFrame,
+) -> pd.DataFrame:
+    if previous.empty:
+        return df
+
+    name_column = f"institution_name_{lang}"
+    if name_column not in previous.columns or "gc_orgID" not in previous.columns:
+        return df
+
+    historical_ids: Dict[str, set] = {}
+    for _, row in previous.iterrows():
+        gc_orgid = row.get("gc_orgID")
+        name = row.get(name_column)
+        if pd.isna(gc_orgid) or not isinstance(name, str) or not name.strip():
+            continue
+        historical_ids.setdefault(normalize_name(name), set()).add(int(gc_orgid))
+
+    out = df.copy()
+    gc_column = f"gc_orgID_{lang}"
+    method_column = f"match_method_{lang}"
+    score_column = f"match_score_{lang}"
+    applied = 0
+    for idx, row in out[out[gc_column].isna()].iterrows():
+        ids = historical_ids.get(row["name_norm"], set())
+        if len(ids) != 1:
+            continue
+        out.at[idx, gc_column] = next(iter(ids))
+        out.at[idx, method_column] = "historical_exact"
+        out.at[idx, score_column] = None
+        applied += 1
+
+    out[gc_column] = out[gc_column].astype("Int64")
+    print(f"Historical exact-name gcOrgID matches ({lang.upper()}): {applied}")
+    return out
+
+
 def fetch_alternate_hreflang_links(url: str) -> Dict[str, str]:
     if not isinstance(url, str) or not url.strip():
         return {}
@@ -542,7 +588,92 @@ def probe_urls_parallel_and_stream(
     return status_cache
 
 
+def history_key(row: pd.Series) -> str:
+    gc_orgid = row.get("gc_orgID")
+    if pd.notna(gc_orgid):
+        return f"gc:{int(gc_orgid)}"
+    row_key = row.get("row_key")
+    if isinstance(row_key, str) and row_key.strip():
+        return row_key.strip()
+    raise RuntimeError("Institution row is missing both gc_orgID and row_key")
+
+
+def merge_institution_history(
+    current: pd.DataFrame,
+    previous: pd.DataFrame,
+    as_of_date: str,
+) -> Tuple[pd.DataFrame, int, int]:
+    current = current.copy()
+    current["_history_key"] = current.apply(history_key, axis=1)
+    if current["_history_key"].duplicated().any():
+        duplicates = current.loc[current["_history_key"].duplicated(False), "_history_key"].tolist()
+        raise RuntimeError(f"Duplicate current institution history keys: {duplicates}")
+
+    if previous.empty:
+        current["date_captured"] = as_of_date
+        current["date_removed"] = pd.NA
+        return current.drop(columns=["_history_key"]), len(current), 0
+
+    previous = previous.copy()
+    if "date_captured" not in previous.columns:
+        previous["date_captured"] = BASELINE_CAPTURE_DATE
+    else:
+        previous["date_captured"] = previous["date_captured"].fillna(BASELINE_CAPTURE_DATE)
+    if "date_removed" not in previous.columns:
+        previous["date_removed"] = pd.NA
+
+    previous["_history_key"] = previous.apply(history_key, axis=1)
+    if previous["_history_key"].duplicated().any():
+        duplicates = previous.loc[previous["_history_key"].duplicated(False), "_history_key"].tolist()
+        raise RuntimeError(f"Duplicate previous institution history keys: {duplicates}")
+
+    previous_by_key = previous.set_index("_history_key")
+    previous_keys = set(previous_by_key.index)
+
+    historical_name_keys: Dict[str, set] = {}
+    for _, row in previous.iterrows():
+        for column in ["institution_name_en", "institution_name_fr"]:
+            name = row.get(column)
+            if isinstance(name, str) and name.strip():
+                historical_name_keys.setdefault(normalize_name(name), set()).add(row["_history_key"])
+
+    claimed_keys = set(current.loc[current["_history_key"].isin(previous_keys), "_history_key"])
+    for idx, row in current.loc[~current["_history_key"].isin(previous_keys)].iterrows():
+        candidate_keys = set()
+        for column in ["institution_name_en", "institution_name_fr"]:
+            name = row.get(column)
+            if isinstance(name, str) and name.strip():
+                keys = historical_name_keys.get(normalize_name(name), set())
+                if len(keys) == 1:
+                    candidate_keys.update(keys)
+        if len(candidate_keys) != 1:
+            continue
+        historical_key = next(iter(candidate_keys))
+        if historical_key in claimed_keys:
+            continue
+        current.at[idx, "_history_key"] = historical_key
+        claimed_keys.add(historical_key)
+
+    captured_by_key = previous_by_key["date_captured"].to_dict()
+    current["date_captured"] = current["_history_key"].map(captured_by_key).fillna(as_of_date)
+    current["date_removed"] = pd.NA
+
+    current_keys = set(current["_history_key"])
+    removed = previous.loc[~previous["_history_key"].isin(current_keys)].copy()
+    newly_removed_mask = removed["date_removed"].isna()
+    removed.loc[newly_removed_mask, "date_removed"] = as_of_date
+
+    all_columns = list(dict.fromkeys(list(current.columns) + list(removed.columns)))
+    current = current.reindex(columns=all_columns)
+    removed = removed.reindex(columns=all_columns)
+    merged = pd.concat([current, removed], ignore_index=True)
+    new_count = int((~current["_history_key"].isin(previous_keys)).sum())
+    removed_count = int(newly_removed_mask.sum())
+    return merged.drop(columns=["_history_key"]), new_count, removed_count
+
+
 def main():
+    previous = pd.read_csv(OUT_CSV) if Path(OUT_CSV).exists() else pd.DataFrame()
     df_en = scrape_institutions(URL_EN, lang="en")
     df_fr = scrape_institutions(URL_FR, lang="fr")
     print(f"Scraped EN institutions: {len(df_en)}")
@@ -555,6 +686,8 @@ def main():
     en_exact, fr_exact, en_fuzzy, fr_fuzzy = build_name_indexes(ckan_df)
     df_en = resolve_gc_orgids(df_en, "en", en_exact, en_fuzzy)
     df_fr = resolve_gc_orgids(df_fr, "fr", fr_exact, fr_fuzzy)
+    df_en = apply_historical_gc_orgids(df_en, "en", previous)
+    df_fr = apply_historical_gc_orgids(df_fr, "fr", previous)
     df_en, df_fr = apply_alternate_url_pairing(df_en, df_fr)
     df_en, df_fr = apply_manual_name_pairing(df_en, df_fr)
 
@@ -633,11 +766,26 @@ def main():
     ckan_lookup = ckan_df[ckan_cols].copy()
     merged = merged.merge(ckan_lookup, on="gc_orgID", how="left")
 
+    merged, new_count, removed_count = merge_institution_history(
+        merged,
+        previous,
+        date.today().isoformat(),
+    )
+    merged["gc_orgID"] = pd.to_numeric(merged["gc_orgID"], errors="coerce").astype("Int64")
+
+    pib_counts = load_pib_counts(COMBINED_PIB_CSV)
+    merged["pib_count"] = merged["gc_orgID"].map(
+        lambda value: pib_counts.get(str(int(value)), 0) if pd.notna(value) else pd.NA
+    ).astype("Int64")
+
     merged["infosource_status_en"] = pd.NA
     merged["infosource_status_fr"] = pd.NA
 
     final_order = [
         "gc_orgID",
+        "pib_count",
+        "date_captured",
+        "date_removed",
         "gc_orgID_conflict",
         "harmonized_name",
         "nom_harmonise",
@@ -682,6 +830,7 @@ def main():
     merged["infosource_status_fr"] = merged["infosource_url_fr"].map(status_cache)
 
     merged.to_csv(OUT_CSV, index=False)
+    merged.to_csv(SITE_OUT_CSV, index=False)
     merged.to_excel(OUT_XLSX, index=False, engine="openpyxl")
 
     print(f"Saved CSV -> {OUT_CSV}")
@@ -690,6 +839,8 @@ def main():
     print(f"Rows with gcOrgID: {merged['gc_orgID'].notna().sum()}")
     print(f"Rows with EN URL status: {merged['infosource_status_en'].notna().sum()}")
     print(f"Rows with FR URL status: {merged['infosource_status_fr'].notna().sum()}")
+    print(f"New institutions captured: {new_count}")
+    print(f"Institutions first detected as removed: {removed_count}")
 
 
 if __name__ == "__main__":

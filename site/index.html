@@ -78,7 +78,17 @@
         </gcds-text>
       </section>
 
-      <section>
+      <nav aria-labelledby="table-of-contents-heading">
+        <gcds-heading id="table-of-contents-heading" tag="h2">Table of contents</gcds-heading>
+        <ul>
+          <li><a href="#standard-pibs">Standard PIBs</a></li>
+          <li><a href="#institutions">Institutions</a></li>
+          <li><a href="#combined-standard-pibs">Combined Standard PIBs</a></li>
+          <li><a href="#standard-classes-of-records">Standard Classes of Records</a></li>
+        </ul>
+      </nav>
+
+      <section id="standard-pibs">
         <gcds-heading tag="h2">Standard PIBs</gcds-heading>
         <gcds-text>
           Source file: <code>data/spib_en_fr.csv</code>
@@ -89,15 +99,19 @@
         <div id="spib-table-container" class="table-wrap" aria-live="polite"></div>
       </section>
 
-      <section>
+      <section id="institutions">
         <gcds-heading tag="h2">Institutions</gcds-heading>
         <gcds-text>
           Source file: <code>data/infosource_institutions_en_fr.csv</code>
         </gcds-text>
+        <gcds-text>
+          Includes the number of extracted PIBs for each organization and the dates when an
+          institution was first captured or first detected as removed from the public list.
+        </gcds-text>
         <div id="institutions-table-container" class="table-wrap" aria-live="polite"></div>
       </section>
 
-      <section>
+      <section id="combined-standard-pibs">
         <gcds-heading tag="h2">Combined Standard PIBs</gcds-heading>
         <gcds-text>
           Open the dedicated combined table page:
@@ -105,7 +119,7 @@
         </gcds-text>
       </section>
 
-      <section>
+      <section id="standard-classes-of-records">
         <gcds-heading tag="h2">Standard Classes of Records</gcds-heading>
         <gcds-text>
           Open the dedicated bilingual table page:
@@ -113,7 +127,7 @@
         </gcds-text>
       </section>
 
-      <gcds-date-modified>2026-08-14</gcds-date-modified>
+      <gcds-date-modified>2026-08-15</gcds-date-modified>
     </gcds-container>
 
     <gcds-footer

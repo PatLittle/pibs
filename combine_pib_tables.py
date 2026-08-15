@@ -3,12 +3,14 @@ import csv
 import re
 from pathlib import Path
 
+from institution_pib_counts import count_pibs_by_orgid, normalize_orgid, update_institution_csv_counts
 from pib_types import get_pib_type
 
 INPUT_GLOB = "institutions_infosource_docs/*/pib_table_en_fr.csv"
 OUTPUT_PATH = Path("institutions_infosource_docs/pib_table_en_fr_all.csv")
 SITE_OUTPUT_PATH = Path("site/data/pib_table_en_fr_all.csv")
 INSTITUTIONS_PATH = Path("infosource_institutions_en_fr.csv")
+SITE_INSTITUTIONS_PATH = Path("site/data/infosource_institutions_en_fr.csv")
 ORGID_FROM_FOLDER_RE = re.compile(r"^(\d+)_")
 
 
@@ -25,7 +27,7 @@ def load_institutions_map(path: Path):
         reader = csv.DictReader(handle)
         institutions = {}
         for row in reader:
-            orgid = str(row.get("gc_orgID", "")).strip()
+            orgid = normalize_orgid(row.get("gc_orgID"))
             if not orgid:
                 continue
             institutions[orgid] = {
@@ -95,11 +97,18 @@ def main():
     output_headers = fixed_headers + header_order
     write_combined_csv(OUTPUT_PATH, output_headers, records)
     write_combined_csv(SITE_OUTPUT_PATH, output_headers, records)
+    pib_counts = count_pibs_by_orgid(records)
+    institution_rows = update_institution_csv_counts(
+        INSTITUTIONS_PATH,
+        [INSTITUTIONS_PATH, SITE_INSTITUTIONS_PATH],
+        pib_counts,
+    )
 
     print(
         f"Wrote {len(records)} rows from {len(csv_paths)} files to "
         f"{OUTPUT_PATH} and {SITE_OUTPUT_PATH}. "
-        f"Institution-name misses: {missing_orgid_map}"
+        f"Institution-name misses: {missing_orgid_map}. "
+        f"Updated PIB counts for {institution_rows} institution rows."
     )
 
 

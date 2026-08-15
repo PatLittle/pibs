@@ -13,6 +13,40 @@ the script stops if either language is missing a matching record.
 `combine_pib_tables.py`. Both bilingual PIB outputs include a `pib_type` column derived
 from the bank code. Codes outside the six Annex B families are left unclassified.
 
+### Institution-specific PIBs by type
+
+```mermaid
+pie showData
+    title Institution-specific PIBs by type
+    "Public Bank" : 414
+    "Particular Bank" : 76
+    "Central Bank" : 51
+    "Public Central Bank" : 10
+    "Unclassified or legacy code" : 28
+```
+
+### Standard PIBs by type
+
+```mermaid
+pie showData
+    title Standard PIBs by type
+    "Public Standard Bank" : 31
+    "Employee Standard Bank" : 18
+    "Non-bank category row" : 1
+```
+
+## Institution change tracking
+
+Run `python infosource_institutions_en_fr.py` to refresh the bilingual institution list.
+The process preserves organizations that disappear from the public list and maintains:
+
+- `pib_count`: number of rows for the organization in `pib_table_en_fr_all.csv`
+- `date_captured`: first date the organization was captured (`2026-03-11` for the baseline data)
+- `date_removed`: first refresh date on which the list entry was absent from both language lists
+
+Exact historical institution-name matches are reused when a current list entry does not resolve
+through CKAN, which prevents English and French entries from being split during later refreshes.
+
 ## Processing Status
 
 - Total departments: 103
