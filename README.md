@@ -103,7 +103,7 @@ the script stops if either language is missing a matching record.
 ## PIB types
 
 `pib_types.py` contains the Annex B lookup used by `spib_scraper_(1).py` and
-`combine_pib_tables.py`. Both bilingual PIB outputs include a `pib_type` column derived
+`compile_institution_tables.py`. Both bilingual PIB outputs include a `pib_type` column derived
 from the bank code. Codes outside the six Annex B families are left unclassified.
 
 `spib_scraper_(1).py` also rebuilds `pi_categories_en_fr.csv` from the bilingual

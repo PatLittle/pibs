@@ -22,6 +22,12 @@ DATASETS = {
     "categories": "pi_categories_en_fr.csv",
     "pib_types": "pib_type_values.csv",
 }
+REQUIRED_FIELDS = {
+    "institutions": {"institution_id", "legal_name_en", "legal_name_fr"},
+    "pibs": {"institution_id", "bank_number_key", "title_en", "title_fr"},
+    "classes": {"institution_id", "record_number", "name_en", "name_fr"},
+    "links": {"institution_id", "bank_number_key", "cor_record_number"},
+}
 
 
 def row_count(path: Path) -> int:
@@ -43,6 +49,12 @@ def main() -> None:
             errors.append(
                 f"summary count mismatch for {key}: {summary['datasets'][key]} != {actual}"
             )
+        if key in REQUIRED_FIELDS:
+            with path.open(encoding="utf-8", newline="") as handle:
+                fields = set(csv.DictReader(handle).fieldnames or [])
+            missing = sorted(REQUIRED_FIELDS[key] - fields)
+            if missing:
+                errors.append(f"{key} dataset missing relational fields: {missing}")
 
     generated_assets = {
         "pib_cor_links_explorer.csv": summary["datasets"]["links"],

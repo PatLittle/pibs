@@ -6,9 +6,10 @@ on:
       - main
     paths:
       - "institutions_infosource_docs/**/pib_table_en_fr.csv"
-      - "infosource_institutions_en_fr.csv"
-      - "combine_pib_tables.py"
-      - "institution_pib_counts.py"
+      - "institutions_infosource_docs/**/cor_table_en_fr.csv"
+      - "institutions_infosource_docs/**/source_manifest.json"
+      - "data/collection_jobs/*.jsonl"
+      - "compile_institution_tables.py"
       - "pib_types.py"
       - ".github/workflows/combine-pib-tables.yml"
   workflow_dispatch:
@@ -29,17 +30,21 @@ jobs:
           python-version: "3.11"
 
       - name: Build combined CSV
-        run: python combine_pib_tables.py
+        run: |
+          python -m pip install --disable-pip-version-check pandas
+          jobs_file=$(find data/collection_jobs -maxdepth 1 -name 'institution_collection_jobs_*.jsonl' -print | sort | tail -n 1)
+          test -n "$jobs_file"
+          python compile_institution_tables.py --jobs-file "$jobs_file" --allow-incomplete
 
       - name: Commit combined CSV if changed
         run: |
-          if git diff --quiet -- institutions_infosource_docs/pib_table_en_fr_all.csv site/data/pib_table_en_fr_all.csv infosource_institutions_en_fr.csv site/data/infosource_institutions_en_fr.csv; then
+          if git diff --quiet -- institutions_infosource_docs/pib_table_en_fr_all.csv institutions_infosource_docs/cor_table_en_fr_all.csv institutions_infosource_docs/pib_cor_links.csv site/data/pib_table_en_fr_all.csv site/data/cor_table_en_fr_all.csv site/data/pib_cor_links.csv; then
             echo "No combined CSV changes."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add institutions_infosource_docs/pib_table_en_fr_all.csv site/data/pib_table_en_fr_all.csv infosource_institutions_en_fr.csv site/data/infosource_institutions_en_fr.csv
-          git commit -m "chore: update combined PIB table and institution counts"
+          git add institutions_infosource_docs/pib_table_en_fr_all.csv institutions_infosource_docs/cor_table_en_fr_all.csv institutions_infosource_docs/pib_cor_links.csv site/data/pib_table_en_fr_all.csv site/data/cor_table_en_fr_all.csv site/data/pib_cor_links.csv
+          git commit -m "chore: compile registry-keyed institution holdings"
           git push
