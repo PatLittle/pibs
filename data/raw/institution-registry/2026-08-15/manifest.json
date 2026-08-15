@@ -1,0 +1,74 @@
+[
+  {
+    "filename": "access_to_information_act.xml",
+    "url": "https://laws-lois.justice.gc.ca/eng/XML/A-1.xml",
+    "status_code": 200,
+    "content_type": "application/xml",
+    "fetched_at_utc": "2026-08-15T14:26:48.934387+00:00",
+    "sha256": "ac631ba9e6a1bdaa997464176f631ccd2a05d3e6225cb68503e0cff0cec78847",
+    "byte_count": 488623
+  },
+  {
+    "filename": "tbs_due_dates_en.html",
+    "url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/access-informatio-policies-guidance/programs-holdings-online-publishing-requirements.html",
+    "status_code": 200,
+    "content_type": "text/html",
+    "fetched_at_utc": "2026-08-15T14:26:51.065568+00:00",
+    "sha256": "d4072ae19cb8066a4aebbea766b0b1761f99da25947a096833faa1fb0caeb08f",
+    "byte_count": 64454
+  },
+  {
+    "filename": "tbs_due_dates_fr.html",
+    "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-renseignements-personnels/acces-information/politiques-directives-acces-information/exigences-publication-ligne-programmes-fonds.html",
+    "status_code": 200,
+    "content_type": "text/html",
+    "fetched_at_utc": "2026-08-15T14:26:52.204818+00:00",
+    "sha256": "4a0e9665471fd29ebbea52cbdd51de6152dac4230f1e9cf7ce442eec14330a69",
+    "byte_count": 73944
+  },
+  {
+    "filename": "tbs_central_list_en.html",
+    "url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/list-institutions.html",
+    "status_code": 200,
+    "content_type": "text/html",
+    "fetched_at_utc": "2026-08-15T14:26:54.394926+00:00",
+    "sha256": "5fce949fe17ee774c4e24c1caf4f2c5458de803e20e42ced400de4f20d49e90b",
+    "byte_count": 61651
+  },
+  {
+    "filename": "tbs_central_list_fr.html",
+    "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/liste-organisations.html",
+    "status_code": 200,
+    "content_type": "text/html",
+    "fetched_at_utc": "2026-08-15T14:26:57.703173+00:00",
+    "sha256": "6c9b2221ebeeb2ac725888ed3bb894cdca3ae9ad92b9ff6766cc5fd091145e2a",
+    "byte_count": 67505
+  },
+  {
+    "filename": "open_canada_organization_list.json",
+    "url": "https://open.canada.ca/data/api/action/organization_list?all_fields=true&include_extras=true",
+    "status_code": 200,
+    "content_type": "application/json",
+    "fetched_at_utc": "2026-08-15T14:27:08.170450+00:00",
+    "sha256": "75e00a7bbc6e61c45ee5f80002365842f5c8efad7b903cf803c2b7e970c8010d",
+    "byte_count": 289670
+  },
+  {
+    "filename": "open_canada_org_info.json",
+    "url": "https://open.canada.ca/data/en/api/3/action/datastore_search",
+    "status_code": 200,
+    "content_type": "application/json",
+    "fetched_at_utc": "2026-08-15T14:27:08.563284+00:00",
+    "sha256": "2caf8a8fb60b634d2879c8306ac5302ce75e10ec532013383f9c6539dba05231",
+    "byte_count": 184055
+  },
+  {
+    "filename": "open_canada_org_names.json",
+    "url": "https://open.canada.ca/data/en/api/3/action/datastore_search",
+    "status_code": 200,
+    "content_type": "application/json",
+    "fetched_at_utc": "2026-08-15T14:27:08.965939+00:00",
+    "sha256": "cb28279b653085036ead8fa2821993e4688232ccc5c97611b9f7149e325490ad",
+    "byte_count": 131576
+  }
+]

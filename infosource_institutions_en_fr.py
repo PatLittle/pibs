@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Build a bilingual Info Source institutions dataset with gcOrgID and URL status codes."""
+"""Build the legacy operational Info Source institution directory.
+
+Use ``build_institution_registry.py`` for the authoritative Access to
+Information Act Schedule I registry. This broader directory remains useful for
+publication collection because it includes organizations outside Schedule I.
+"""
 
 import difflib
 import io

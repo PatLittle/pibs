@@ -1,5 +1,40 @@
 # pibs
 
+## Authoritative institution registry
+
+`institution_registry.csv` is the bilingual registry of the 148 government institutions
+listed in Schedule I of the Access to Information Act. Legal membership and names come only
+from the Act XML. Treasury Board's bilingual publication-requirements appendices supply the
+annual Info Source due date; Open Government's organization directory and two organization
+datastore resources supply identifiers and metadata. Those enrichment sources never add or
+remove a Schedule I institution.
+
+The registry also records the English and French Info Source report URL and separate PIB and
+Class-of-Records URLs when an institution publishes those holdings on another page. A blank URL
+means that no sufficiently reliable institution report was found; it is not replaced by a fuzzy
+match. Matching method, score, evidence URL, source URLs, validation result, and HTTP status are
+retained in the output. Curated exceptions are reviewable in
+`data/institution_registry_overrides.csv`.
+
+Rebuild from a dated, reproducible raw-source snapshot and then audit the publication links:
+
+```bash
+.venv/bin/python build_institution_registry.py --snapshot-date 2026-08-15 --refresh
+.venv/bin/python audit_institution_registry_urls.py --as-of-date 2026-08-15
+.venv/bin/python -m unittest tests.test_institution_registry
+```
+
+Raw responses and their SHA-256 manifest are stored under
+`data/raw/institution-registry/<date>/`; URL-audit metadata is stored under `data/audits/`.
+The Excel equivalent is `institution_registry.xlsx`, and the site copy is
+`site/data/institution_registry.csv`.
+
+Treasury Board's due-date appendix currently contains 196 reporting entries because its stated
+scope also covers parent Crown corporations and wholly owned subsidiaries. The 148-row registry
+deliberately answers the Act Schedule I membership question. The pre-existing
+`infosource_institutions_en_fr.csv` remains the broader operational publication directory and is
+not a substitute for the legal registry.
+
 ## Standard classes of records
 
 Run `python scrape_standard_classes_of_records.py` to retrieve the English and French
@@ -41,7 +76,7 @@ pie showData
 
 ## Institution change tracking
 
-Run `python infosource_institutions_en_fr.py` to refresh the bilingual institution list.
+Run `python infosource_institutions_en_fr.py` to refresh the legacy operational publication list.
 Run `python audit_zero_pib_infosource_urls.py` to audit every institution with a zero or
 empty PIB count, follow redirects, recover missing language links, build eligible bilingual
 Markdown corpora and PIB tables, and write `infosource_zero_pib_url_report.json`.
