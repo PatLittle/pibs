@@ -74,7 +74,8 @@
         <gcds-text>
           Combined bilingual table from all institution-level <code>pib_table_en_fr.csv</code> files.
           Includes <code>orgid</code>, <code>institution_name_en</code>, and
-          <code>institution_name_fr</code>.
+          <code>institution_name_fr</code>. The <code>pib_type</code> field is derived from the Annex B
+          code in each bank number; unrecognized legacy codes are left blank.
         </gcds-text>
         <gcds-text>
           Source file: <code>data/pib_table_en_fr_all.csv</code>
@@ -82,7 +83,7 @@
         <div id="combined-pibs-table-container" class="table-wrap" aria-live="polite"></div>
       </section>
 
-      <gcds-date-modified>2026-03-11</gcds-date-modified>
+      <gcds-date-modified>2026-08-14</gcds-date-modified>
     </gcds-container>
 
     <gcds-footer
