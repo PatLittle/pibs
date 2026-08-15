@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Standard personal information banks and Info Source institutions in bilingual WET tables."
+      content="Bilingual standard classes of records published by the Treasury Board of Canada Secretariat."
     />
-    <title>Info Source Data Explorer</title>
+    <title>Standard Classes of Records</title>
 
     <link
       rel="stylesheet"
@@ -63,51 +63,23 @@
     <gcds-header lang-href="#" skip-to-href="#main-content">
       <gcds-search slot="search"></gcds-search>
       <gcds-breadcrumbs slot="breadcrumb">
-        <gcds-breadcrumbs-item href="#">Home</gcds-breadcrumbs-item>
-        <gcds-breadcrumbs-item href="#">Info Source</gcds-breadcrumbs-item>
+        <gcds-breadcrumbs-item href="index.html">Info Source Data Explorer</gcds-breadcrumbs-item>
+        <gcds-breadcrumbs-item href="#">Standard Classes of Records</gcds-breadcrumbs-item>
       </gcds-breadcrumbs>
     </gcds-header>
 
     <gcds-container id="main-content" layout="page" tag="main">
       <section>
-        <gcds-heading tag="h1">Info Source Data Explorer</gcds-heading>
+        <gcds-heading tag="h1">Standard Classes of Records</gcds-heading>
         <gcds-text>
-          This page publishes bilingual Info Source datasets as searchable WET tables:
-          Standard Personal Information Banks (SPIBs), standard classes of records, and
-          Info Source institutions.
+          Bilingual descriptions of records maintained by most federal institutions in support of
+          common internal services. English <code>PRN</code> and French <code>NDP</code> entries are
+          matched by their shared numeric code.
         </gcds-text>
-      </section>
-
-      <section>
-        <gcds-heading tag="h2">Standard PIBs</gcds-heading>
         <gcds-text>
-          Source file: <code>data/spib_en_fr.csv</code>
+          Source file: <code>data/standard_classes_of_records_en_fr.csv</code>
         </gcds-text>
-        <div id="spib-table-container" class="table-wrap" aria-live="polite"></div>
-      </section>
-
-      <section>
-        <gcds-heading tag="h2">Institutions</gcds-heading>
-        <gcds-text>
-          Source file: <code>data/infosource_institutions_en_fr.csv</code>
-        </gcds-text>
-        <div id="institutions-table-container" class="table-wrap" aria-live="polite"></div>
-      </section>
-
-      <section>
-        <gcds-heading tag="h2">Combined Standard PIBs</gcds-heading>
-        <gcds-text>
-          Open the dedicated combined table page:
-          <a href="combined-pibs.html">combined-pibs.html</a>
-        </gcds-text>
-      </section>
-
-      <section>
-        <gcds-heading tag="h2">Standard Classes of Records</gcds-heading>
-        <gcds-text>
-          Open the dedicated bilingual table page:
-          <a href="standard-classes-of-records.html">standard-classes-of-records.html</a>
-        </gcds-text>
+        <div id="standard-classes-table-container" class="table-wrap" aria-live="polite"></div>
       </section>
 
       <gcds-date-modified>2026-08-14</gcds-date-modified>
@@ -116,7 +88,7 @@
     <gcds-footer
       display="full"
       contextual-heading="Data sources"
-      contextual-links='{ "Standard PIBs CSV": "data/spib_en_fr.csv", "Standard classes CSV": "data/standard_classes_of_records_en_fr.csv", "Institutions CSV": "data/infosource_institutions_en_fr.csv", "Combined PIBs CSV": "data/pib_table_en_fr_all.csv", "Standard classes page": "standard-classes-of-records.html", "Combined PIBs page": "combined-pibs.html" }'
+      contextual-links='{ "Standard classes CSV": "data/standard_classes_of_records_en_fr.csv", "English source": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-classes-records.html", "French source": "https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-renseignements-personnels/acces-information/info-source/categories-documents-ordinaires.html", "Back to Explorer": "index.html" }'
     >
     </gcds-footer>
 

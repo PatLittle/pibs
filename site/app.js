@@ -36,6 +36,13 @@
       tableLabel: "Combined Standard PIBs",
       columns: [],
     },
+    {
+      containerId: "standard-classes-table-container",
+      csvPath: "data/standard_classes_of_records_en_fr.csv",
+      tableId: "standard-classes-table",
+      tableLabel: "Standard Classes of Records",
+      columns: [],
+    },
   ];
 
   function sanitizeText(value) {

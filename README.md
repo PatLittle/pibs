@@ -1,5 +1,12 @@
 # pibs
 
+## Standard classes of records
+
+Run `python scrape_standard_classes_of_records.py` to retrieve the English and French
+Canada.ca source pages and rebuild `standard_classes_of_records_en_fr.csv`. English
+`PRN ###` entries are paired with French `NDP ###` entries by their shared numeric code;
+the script stops if either language is missing a matching record.
+
 ## Processing Status
 
 - Total departments: 103
