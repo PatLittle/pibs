@@ -1,0 +1,7 @@
+pib_code,pib_type,scope_en,scope_fr
+PPU,Public Bank,Institution-specific public personal information bank,Fichier de renseignements personnels public propre à une institution
+PPE,Particular Bank,Institution-specific employee personal information bank,Fichier de renseignements personnels particulier sur les employés
+PCE,Central Bank,Central personal information bank,Fichier central de renseignements personnels
+PCU,Public Central Bank,Public central personal information bank,Fichier central public de renseignements personnels
+PSE,Employee Standard Bank,Standard employee personal information bank,Fichier de renseignements personnels ordinaire sur les employés
+PSU,Public Standard Bank,Standard public personal information bank,Fichier de renseignements personnels ordinaire public
