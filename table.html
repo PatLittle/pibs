@@ -5,27 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Search and explore a bilingual Info Source dataset." />
     <title>Dataset table - Info Source Data Explorer</title>
+    <link rel="stylesheet" href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-utility@1.9.2/dist/gcds-utility.min.css" />
+    <link rel="stylesheet" href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.40.0/dist/gcds/gcds.css" />
+    <script type="module" src="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.40.0/dist/gcds/gcds.esm.js"></script>
     <link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/css/theme.min.css" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body vocab="http://schema.org/" typeof="WebPage">
-    <a class="skip-link" href="#main-content">Skip to main content</a>
-    <header class="site-header">
-      <div class="site-header__inner">
-        <div><a class="site-brand" href="index.html">Info Source Data Explorer</a><span class="site-brand__tag">Independent open-data project</span></div>
-        <nav class="site-nav" aria-label="Main navigation"><a href="index.html">Overview</a><a href="table.html?dataset=institutions">Institutions</a><a href="table.html?dataset=pibs">PIBs</a><a href="table.html?dataset=classes">Classes</a><a href="table.html?dataset=links">Linkages</a></nav>
-      </div>
-    </header>
+    <gcds-header lang-href="#" skip-to-href="#main-content">
+      <gcds-breadcrumbs slot="breadcrumb"><gcds-breadcrumbs-item href="index.html">Info Source Data Explorer</gcds-breadcrumbs-item><gcds-breadcrumbs-item id="header-breadcrumb-dataset">Dataset</gcds-breadcrumbs-item></gcds-breadcrumbs>
+    </gcds-header>
+    <div class="product-nav"><nav class="site-nav" aria-label="Main navigation"><a href="index.html">Overview</a><a href="table.html?dataset=institutions">Institutions</a><a href="table.html?dataset=pibs">PIBs</a><a href="table.html?dataset=classes">Classes</a><a href="table.html?dataset=links">Linkages</a></nav></div>
 
     <main id="main-content" class="page-container">
-      <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Overview</a><span aria-hidden="true">›</span><span id="breadcrumb-dataset" aria-current="page">Dataset</span></nav>
       <nav id="dataset-nav" class="dataset-nav" aria-label="Explore datasets">
         <span>Explore:</span><a data-dataset-nav="institutions" href="table.html?dataset=institutions">Institutions</a><a data-dataset-nav="pibs" href="table.html?dataset=pibs">PIBs</a><a data-dataset-nav="classes" href="table.html?dataset=classes">Classes</a><a data-dataset-nav="links" href="table.html?dataset=links">Linkages</a><a data-dataset-nav="standard-pibs" href="table.html?dataset=standard-pibs">Standard PIBs</a><a data-dataset-nav="standard-classes" href="table.html?dataset=standard-classes">Standard classes</a><a data-dataset-nav="categories" href="table.html?dataset=categories">Categories</a><a data-dataset-nav="pib-types" href="table.html?dataset=pib-types">PIB types</a>
       </nav>
       <section class="page-intro">
-        <p class="independent-notice independent-notice--dark">Independent data product — not an official Government of Canada publication</p>
+        <p class="independent-notice independent-notice--dark">Prototype - For Discussion</p>
         <p class="section-eyebrow">Bilingual table explorer</p>
-        <h1 id="dataset-title">Loading dataset…</h1>
+        <h1 id="dataset-title">Loading dataset…</h1><span id="breadcrumb-dataset" hidden>Dataset</span>
         <p id="dataset-description"></p>
         <ul class="dataset-meta">
           <li><strong id="dataset-row-count">—</strong> records</li>
@@ -73,7 +72,7 @@
       <div class="table-wrap"><table class="table table-bordered table-condensed"><tbody id="record-dialog-body"></tbody></table></div>
     </dialog>
 
-    <footer class="site-footer"><div class="site-footer__inner"><div><strong>Info Source Data Explorer</strong><p>Independent, source-backed public-interest data.</p></div><nav aria-label="Footer navigation"><a href="index.html">Overview</a><a href="table.html?dataset=institutions">Institutions</a><a href="table.html?dataset=pibs">PIBs</a><a href="table.html?dataset=classes">Classes</a><a href="table.html?dataset=links">Linkages</a></nav></div></footer>
+    <footer class="site-footer"><div class="site-footer__inner"><div><strong>Info Source Data Explorer</strong><p>Wrangle then try to Untangle.</p></div><nav aria-label="Footer navigation"><a href="index.html">Overview</a><a href="table.html?dataset=institutions">Institutions</a><a href="table.html?dataset=pibs">PIBs</a><a href="table.html?dataset=classes">Classes</a><a href="table.html?dataset=links">Linkages</a></nav></div></footer>
     <script src="app.js"></script>
   </body>
 </html>

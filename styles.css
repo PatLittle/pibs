@@ -82,6 +82,14 @@ input:focus-visible {
   gap: 0.45rem 1.15rem;
 }
 
+.product-nav {
+  padding: 0.55rem max(1.5rem, calc((100vw - 1170px) / 2));
+  border-bottom: 1px solid var(--border);
+  background: #fff;
+}
+
+.product-nav .site-nav { justify-content: flex-end; }
+
 .site-nav a {
   padding: 0.45rem 0;
   color: var(--ink);
