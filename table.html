@@ -13,18 +13,29 @@
   </head>
   <body vocab="http://schema.org/" typeof="WebPage">
     <gcds-header lang-href="#" skip-to-href="#main-content">
-      <gcds-breadcrumbs slot="breadcrumb"><gcds-breadcrumbs-item href="index.html">Info Source Data Explorer</gcds-breadcrumbs-item><gcds-breadcrumbs-item id="header-breadcrumb-dataset">Dataset</gcds-breadcrumbs-item></gcds-breadcrumbs>
+      <gcds-breadcrumbs slot="breadcrumb"><gcds-breadcrumbs-item href="index.html">Info Source Data Explorer</gcds-breadcrumbs-item></gcds-breadcrumbs>
+      <gcds-top-nav id="dataset-nav" slot="menu" label="Info Source data explorer navigation">
+        <gcds-nav-link href="index.html" slot="home">Overview</gcds-nav-link>
+        <gcds-nav-group menu-label="Institution data submenu" open-trigger="Institution data" close-trigger="Close institution data">
+          <gcds-nav-link data-dataset-nav="institutions" href="table.html?dataset=institutions">Institutions</gcds-nav-link>
+          <gcds-nav-link data-dataset-nav="pibs" href="table.html?dataset=pibs">PIBs</gcds-nav-link>
+          <gcds-nav-link data-dataset-nav="classes" href="table.html?dataset=classes">Classes of Records</gcds-nav-link>
+          <gcds-nav-link data-dataset-nav="links" href="table.html?dataset=links">PIB-to-class linkages</gcds-nav-link>
+        </gcds-nav-group>
+        <gcds-nav-group menu-label="Reference data submenu" open-trigger="Reference data" close-trigger="Close reference data">
+          <gcds-nav-link data-dataset-nav="standard-pibs" href="table.html?dataset=standard-pibs">Standard PIBs</gcds-nav-link>
+          <gcds-nav-link data-dataset-nav="standard-classes" href="table.html?dataset=standard-classes">Standard classes</gcds-nav-link>
+          <gcds-nav-link data-dataset-nav="categories" href="table.html?dataset=categories">Categories</gcds-nav-link>
+          <gcds-nav-link data-dataset-nav="pib-types" href="table.html?dataset=pib-types">PIB types</gcds-nav-link>
+        </gcds-nav-group>
+      </gcds-top-nav>
     </gcds-header>
-    <div class="product-nav"><nav class="site-nav" aria-label="Main navigation"><a href="index.html">Overview</a><a href="table.html?dataset=institutions">Institutions</a><a href="table.html?dataset=pibs">PIBs</a><a href="table.html?dataset=classes">Classes</a><a href="table.html?dataset=links">Linkages</a></nav></div>
 
     <main id="main-content" class="page-container">
-      <nav id="dataset-nav" class="dataset-nav" aria-label="Explore datasets">
-        <span>Explore:</span><a data-dataset-nav="institutions" href="table.html?dataset=institutions">Institutions</a><a data-dataset-nav="pibs" href="table.html?dataset=pibs">PIBs</a><a data-dataset-nav="classes" href="table.html?dataset=classes">Classes</a><a data-dataset-nav="links" href="table.html?dataset=links">Linkages</a><a data-dataset-nav="standard-pibs" href="table.html?dataset=standard-pibs">Standard PIBs</a><a data-dataset-nav="standard-classes" href="table.html?dataset=standard-classes">Standard classes</a><a data-dataset-nav="categories" href="table.html?dataset=categories">Categories</a><a data-dataset-nav="pib-types" href="table.html?dataset=pib-types">PIB types</a>
-      </nav>
       <section class="page-intro">
         <p class="independent-notice independent-notice--dark">Prototype - For Discussion</p>
         <p class="section-eyebrow">Bilingual table explorer</p>
-        <h1 id="dataset-title">Loading dataset…</h1><span id="breadcrumb-dataset" hidden>Dataset</span>
+        <h1 id="dataset-title">Loading dataset…</h1>
         <p id="dataset-description"></p>
         <ul class="dataset-meta">
           <li><strong id="dataset-row-count">—</strong> records</li>
