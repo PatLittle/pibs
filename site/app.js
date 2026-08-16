@@ -502,6 +502,8 @@
     document.title = state.config.label + " - Info Source Data Explorer";
     document.getElementById("dataset-title").textContent = state.config.label;
     document.getElementById("breadcrumb-dataset").textContent = state.config.label;
+    const headerBreadcrumb = document.getElementById("header-breadcrumb-dataset");
+    if (headerBreadcrumb) { headerBreadcrumb.textContent = state.config.label; }
     document.getElementById("dataset-description").textContent = state.config.description;
     document.getElementById("dataset-download").href = state.config.downloadCsv || state.config.csv;
     document.querySelectorAll("[data-dataset-nav]").forEach(function (link) {
