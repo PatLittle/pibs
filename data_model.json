@@ -1,5 +1,5 @@
 {
-  "model_version": "1.0",
+  "model_version": "1.1",
   "description": "Relational model for authoritative institutions, Info Source holdings, and controlled vocabularies.",
   "tables": {
     "institution_registry": {
@@ -84,7 +84,24 @@
     "personal_information_categories": {
       "path": "pi_categories_en_fr.csv",
       "primary_key": ["PI_CAT_ID"],
-      "description": "Controlled vocabulary available for future explicit PIB-category assignments; no assignment is inferred from narrative descriptions."
+      "description": "Official controlled vocabulary. My Info assignments are explicitly marked as derived from narrative evidence rather than authoritative source assignments."
+    },
+    "my_info_pib_features": {
+      "path": "data/derived/my_info/my_info_pib_features.csv",
+      "primary_key": ["record_id"],
+      "description": "Compact, source-scoped derived features for the My Info questionnaire. Full matching evidence is retained in the adjacent JSONL artifact."
+    },
+    "my_info_pib_category_assignments": {
+      "path": "data/derived/my_info/my_info_pib_category_assignments.csv",
+      "primary_key": ["record_id", "PI_CAT_ID"],
+      "foreign_keys": [
+        {
+          "fields": ["PI_CAT_ID"],
+          "references": "personal_information_categories",
+          "reference_fields": ["PI_CAT_ID"]
+        }
+      ],
+      "description": "Derived, evidence-backed many-to-many assignments from PIB records to the official category vocabulary."
     }
   },
   "relationships": [
@@ -111,6 +128,12 @@
       "cardinality": "many_to_one",
       "from": "institution_personal_information_banks.pib_type",
       "to": "pib_type_values.pib_type"
+    },
+    {
+      "name": "my_info_assigns_personal_information_categories",
+      "cardinality": "many_to_many",
+      "through": "my_info_pib_category_assignments",
+      "note": "Assignments are deterministic estimates with source-field evidence, not authoritative Info Source metadata."
     }
   ],
   "source_provenance": {

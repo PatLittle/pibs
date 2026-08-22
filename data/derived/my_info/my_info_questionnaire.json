@@ -1,0 +1,320 @@
+{
+  "generator_version": "1.0",
+  "personal_information_categories": [
+    {
+      "category_id": "PI_CAT-1",
+      "examples_en": "work history, curriculum vitae, family information, hobbies, interests, etc.",
+      "examples_fr": "antécédents professionnels, curriculum vitæ, renseignements sur la famille, passe temps, intérêts, etc.",
+      "name_en": "Biographical information",
+      "name_fr": "Renseignements biographiques"
+    },
+    {
+      "category_id": "PI_CAT-2",
+      "examples_en": "blood type, eye or facial scan, DNA, finger / hand prints, etc.",
+      "examples_fr": "groupe sanguin, balayage oculaire ou scan du visage, ADN, empreintes digitales ou empreintes de mains, etc.",
+      "name_en": "Biometric information",
+      "name_fr": "Données biométriques"
+    },
+    {
+      "category_id": "PI_CAT-3",
+      "examples_en": "work and / or home information, including postal and e-mail addresses, telephone, fax, cell phone numbers, etc.",
+      "examples_fr": "au travail et/ou à domicile, dont adresses postale et électronique, numéros de téléphone, de télécopieur et de téléphone cellulaire, etc.",
+      "name_en": "Contact information",
+      "name_fr": "Coordonnées"
+    },
+    {
+      "category_id": "PI_CAT-4",
+      "examples_en": "citizen, landed immigrant, etc.",
+      "examples_fr": "citoyen, immigrant reçu, etc.",
+      "name_en": "Citizenship status",
+      "name_fr": "Citoyenneté"
+    },
+    {
+      "category_id": "PI_CAT-5",
+      "examples_en": "",
+      "examples_fr": "",
+      "name_en": "Credit card information",
+      "name_fr": "Renseignements ayant trait à une carte de crédit"
+    },
+    {
+      "category_id": "PI_CAT-6",
+      "examples_en": "credit reports / scores, liens, bankruptcies, third-party collections, etc.",
+      "examples_fr": "rapports de solvabilité ou cote de crédit, privilèges fiscales, faillites, recouvrements par un tiers, etc.",
+      "name_en": "Credit history",
+      "name_fr": "Antécédents en matière de crédit"
+    },
+    {
+      "category_id": "PI_CAT-7",
+      "examples_en": "information related to criminal record checks, investigations, charges, conviction dates and locations, pardons, etc.",
+      "examples_fr": "information relative aux vérifications de casiers judiciaires, enquêtes, chefs d’accusation, dates et lieux de déclaration de culpabilité, pardons, etc.",
+      "name_en": "Criminal checks / history",
+      "name_fr": "Vérifications de casier judiciaire/antécédents criminels"
+    },
+    {
+      "category_id": "PI_CAT-8",
+      "examples_en": "",
+      "examples_fr": "",
+      "name_en": "Date of birth",
+      "name_fr": "Date de naissance"
+    },
+    {
+      "category_id": "PI_CAT-9",
+      "examples_en": "",
+      "examples_fr": "",
+      "name_en": "Date of death",
+      "name_fr": "Date du décès"
+    },
+    {
+      "category_id": "PI_CAT-10",
+      "examples_en": "Personal Record Identifier, RCMP regimental number, Canadian Forces service number, etc.",
+      "examples_fr": "le code d’identification de dossier personnel, le numéro matricule de la GRC, le numéro matricule des Forces canadiennes, etc.",
+      "name_en": "Employee identification number",
+      "name_fr": "Numéro d’identification d’employé"
+    },
+    {
+      "category_id": "PI_CAT-11",
+      "examples_en": "information about aboriginal peoples, members of visible minorities, persons with disabilities, and women",
+      "examples_fr": "renseignements sur les Autochtones, les membres des minorités visibles, les personnes handicapées, et les femmes.",
+      "name_en": "Employment equity information",
+      "name_fr": "Renseignements sur l’équité en matière d’emploi"
+    },
+    {
+      "category_id": "PI_CAT-12",
+      "examples_en": "records of attendance and leave, notices of disciplinary action, alternative work arrangements, decisions concerning compensation and fitness for work, official languages qualifications, salary, deductions, level of security clearance, performance reviews and appraisals, rating board assessments, including evaluation notes from staffing boards, training and development course applications and evaluations, etc.",
+      "examples_fr": "états des présences et des congés, avis de mesure disciplinaire, régimes de travail non conventionnels, décisions relatives à la rémunération et à l’aptitude au travail, qualifications au titre des langues officielles, salaire, déductions, niveau de sécurité, examens du rendement (évaluations), évaluations des jurys de sélection, y compris les notes d’évaluation provenant du comité de dotation en personnel, demandes de formation et de perfectionnement, et évaluations connexes, etc.",
+      "name_en": "Employee personnel information",
+      "name_fr": "Renseignements personnels de l’employé"
+    },
+    {
+      "category_id": "PI_CAT-13",
+      "examples_en": "income, investments, mortgages, loans, orders of garnishment, financial institution information for direct deposit and other banking purposes, including name and branch number of institution, account number(s) and name(s) on accounts, etc.",
+      "examples_fr": "revenue, investissements, hypothèques, emprunts, ordonnances de saisie-arrêt, renseignements sur l’institution financière aux fins de dépôt direct, y compris le nom et le numéro de la succursale de l’institution financière, numéro(s) de compte, nom(s) figurant sur le compte, etc.",
+      "name_en": "Financial information",
+      "name_fr": "Renseignements financiers"
+    },
+    {
+      "category_id": "PI_CAT-14",
+      "examples_en": "",
+      "examples_fr": "",
+      "name_en": "Gender",
+      "name_fr": "Sexe"
+    },
+    {
+      "category_id": "PI_CAT-15",
+      "examples_en": "mother tongue, official and other languages, etc.",
+      "examples_fr": "langue maternelle, langues officielles et d’autres langues, etc.",
+      "name_en": "Language",
+      "name_fr": "Langue"
+    },
+    {
+      "category_id": "PI_CAT-16",
+      "examples_en": "psychological assessments, physical disabilities, blood type, medical conditions, etc.",
+      "examples_fr": "les incapacités physiques, les évaluations psychologiques, le groupe sanguin, les conditions médicales, etc.",
+      "name_en": "Medical information",
+      "name_fr": "Renseignements médicaux"
+    },
+    {
+      "category_id": "PI_CAT-17",
+      "examples_en": "last name (surname/family name), given names (first, second or more), maiden name, nicknames, aliases, etc.",
+      "examples_fr": "nom de famille, prénoms (premier, deuxième, ou plus), nom de fille, surnoms, pseudonymes, etc.",
+      "name_en": "Name",
+      "name_fr": "Nom"
+    },
+    {
+      "category_id": "PI_CAT-18",
+      "examples_en": "",
+      "examples_fr": "",
+      "name_en": "Opinion or views of, or about, individuals",
+      "name_fr": "Opinions et points de vue sur, ou concernant, des individus"
+    },
+    {
+      "category_id": "PI_CAT-19",
+      "examples_en": "fishing license, driver’s license, etc.",
+      "examples_fr": "permis de pêche, permis de conduire, etc.",
+      "name_en": "Other identification numbers",
+      "name_fr": "Autres numéros d’identité"
+    },
+    {
+      "category_id": "PI_CAT-20",
+      "examples_en": "",
+      "examples_fr": "",
+      "name_en": "Photos",
+      "name_fr": "Photos"
+    },
+    {
+      "category_id": "PI_CAT-21",
+      "examples_en": "height, weight, colour of hair and eyes, physical markings (scars, tattoos, body piercing), etc.",
+      "examples_fr": "taille, poids, couleur des cheveux et des yeux, marques physiques (cicatrices, tatouages, perçages corporels), etc.",
+      "name_en": "Physical attributes",
+      "name_fr": "Signes distinctifs"
+    },
+    {
+      "category_id": "PI_CAT-22",
+      "examples_en": "",
+      "examples_fr": "",
+      "name_en": "Place of birth",
+      "name_fr": "Lieu de naissance"
+    },
+    {
+      "category_id": "PI_CAT-23",
+      "examples_en": "",
+      "examples_fr": "",
+      "name_en": "Place of death",
+      "name_fr": "Lieu du décès"
+    },
+    {
+      "category_id": "PI_CAT-24",
+      "examples_en": "",
+      "examples_fr": "",
+      "name_en": "Signature",
+      "name_fr": "Signature"
+    },
+    {
+      "category_id": "PI_CAT-25",
+      "examples_en": "",
+      "examples_fr": "",
+      "name_en": "Social Insurance Number (SIN)",
+      "name_fr": "Numéro d’assurance sociale (NAS)"
+    }
+  ],
+  "questions": [
+    {
+      "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
+      "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+      "code": "q_government_work",
+      "question_en": "Have you ever applied to work for, worked for, or received an employment-related service from the Government of Canada?",
+      "question_fr": "Avez-vous déjà postulé ou travaillé au gouvernement du Canada, ou reçu un service lié à cet emploi?"
+    },
+    {
+      "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
+      "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+      "code": "q_money_programs",
+      "question_en": "Have you ever applied for or received a federal benefit, grant, loan, reimbursement or other payment?",
+      "question_fr": "Avez-vous déjà demandé ou reçu une prestation, une subvention, un prêt, un remboursement ou un autre paiement fédéral?"
+    },
+    {
+      "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
+      "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+      "code": "q_tax_customs",
+      "question_en": "Have you filed federal taxes, paid federal duties, or made a customs declaration?",
+      "question_fr": "Avez-vous produit une déclaration de revenus fédérale, payé des droits fédéraux ou fait une déclaration douanière?"
+    },
+    {
+      "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
+      "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+      "code": "q_immigration",
+      "question_en": "Have you used a Canadian immigration, refugee, visa, permanent-residence or citizenship process?",
+      "question_fr": "Avez-vous utilisé un processus canadien d’immigration, d’asile, de visa, de résidence permanente ou de citoyenneté?"
+    },
+    {
+      "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
+      "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+      "code": "q_travel_border",
+      "question_en": "Have you applied for a Canadian passport, crossed Canada’s border, or joined a trusted-traveller program?",
+      "question_fr": "Avez-vous demandé un passeport canadien, franchi la frontière canadienne ou adhéré à un programme de voyageurs dignes de confiance?"
+    },
+    {
+      "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
+      "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+      "code": "q_health_disability",
+      "question_en": "Have you received a federal health, dental, rehabilitation, disability or medical-device service?",
+      "question_fr": "Avez-vous reçu un service fédéral de santé, de soins dentaires, de réadaptation, d’invalidité ou d’appareil médical?"
+    },
+    {
+      "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
+      "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+      "code": "q_indigenous_services",
+      "question_en": "Have you used a federal service specifically for First Nations, Inuit or Métis people?",
+      "question_fr": "Avez-vous utilisé un service fédéral destiné précisément aux membres des Premières Nations, aux Inuit ou aux Métis?"
+    },
+    {
+      "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
+      "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+      "code": "q_military_veterans",
+      "question_en": "Have you served in the Canadian Armed Forces or used a federal veterans program?",
+      "question_fr": "Avez-vous servi dans les Forces armées canadiennes ou utilisé un programme fédéral pour les vétérans?"
+    },
+    {
+      "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
+      "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+      "code": "q_education_training",
+      "question_en": "Have you applied for federal student aid, an apprenticeship, scholarship or training program?",
+      "question_fr": "Avez-vous demandé une aide fédérale aux étudiants, un apprentissage, une bourse ou un programme de formation?"
+    },
+    {
+      "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
+      "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+      "code": "q_justice_safety",
+      "question_en": "Have you been involved in a matter handled by federal law enforcement, security screening or corrections?",
+      "question_fr": "Avez-vous été impliqué dans une affaire relevant de l’application de la loi fédérale, du filtrage de sécurité ou des services correctionnels?"
+    },
+    {
+      "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
+      "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+      "code": "q_complaint_appeal",
+      "question_en": "Have you made a complaint, grievance or appeal to a federal institution or tribunal?",
+      "question_fr": "Avez-vous présenté une plainte, un grief ou un appel à une institution ou à un tribunal fédéral?"
+    },
+    {
+      "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
+      "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+      "code": "q_access_privacy",
+      "question_en": "Have you made an access-to-information, personal-information access, or correction request?",
+      "question_fr": "Avez-vous présenté une demande d’accès à l’information, d’accès à vos renseignements personnels ou de correction?"
+    },
+    {
+      "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
+      "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+      "code": "q_business_supplier",
+      "question_en": "Have you owned or operated a business, held a federal licence or permit, or contracted with the federal government?",
+      "question_fr": "Avez-vous possédé ou exploité une entreprise, détenu une licence ou un permis fédéral, ou conclu un marché avec le gouvernement fédéral?"
+    },
+    {
+      "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
+      "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+      "code": "q_housing_property",
+      "question_en": "Have you used a federal housing, mortgage, home-buying or property program?",
+      "question_fr": "Avez-vous utilisé un programme fédéral de logement, d’hypothèque, d’achat d’une maison ou de propriété?"
+    },
+    {
+      "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
+      "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+      "code": "q_civic_contact",
+      "question_en": "Have you contacted a federal institution, joined a consultation, signed a petition, or participated in a federal election process?",
+      "question_fr": "Avez-vous communiqué avec une institution fédérale, participé à une consultation, signé une pétition ou pris part à un processus électoral fédéral?"
+    },
+    {
+      "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
+      "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+      "code": "q_culture_volunteer",
+      "question_en": "Have you participated in or volunteered for a federally run cultural, sport, recreation, heritage or park activity?",
+      "question_fr": "Avez-vous participé ou fait du bénévolat à une activité fédérale de culture, de sport, de loisir, de patrimoine ou de parc?"
+    },
+    {
+      "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
+      "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+      "code": "q_research_survey",
+      "question_en": "Have you taken part in federal research, a survey, testing or a focus group?",
+      "question_fr": "Avez-vous participé à une recherche, un sondage, un test ou un groupe de discussion du gouvernement fédéral?"
+    },
+    {
+      "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
+      "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+      "code": "q_emergency",
+      "question_en": "Have you requested or received federal help during an emergency, evacuation or disaster?",
+      "question_fr": "Avez-vous demandé ou reçu de l’aide fédérale lors d’une urgence, d’une évacuation ou d’une catastrophe?"
+    },
+    {
+      "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
+      "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+      "code": "q_family_vital",
+      "question_en": "Have you used a federal service involving a birth, marriage, divorce, adoption, child support, death or estate?",
+      "question_fr": "Avez-vous utilisé un service fédéral concernant une naissance, un mariage, un divorce, une adoption, une pension alimentaire, un décès ou une succession?"
+    }
+  ],
+  "retention_statuses": [
+    "likely_held",
+    "likely_disposed",
+    "uncertain"
+  ]
+}

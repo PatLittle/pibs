@@ -76,6 +76,27 @@ The relational and controlled-vocabulary model is documented in `DATA_MODEL.md` 
 .venv/bin/python validate_data_model.py
 ```
 
+## My Info derived features
+
+My Info is the business-logic layer for a future citizen questionnaire that estimates which
+standard and institution-specific PIBs may be relevant to a person's government interactions.
+It derives bilingual, evidence-backed personal-information categories, interaction topics,
+citizen roles, service actions, grouped questionnaire questions, and conservative retention rules
+for every PIB source row.
+
+Build and validate the derived dataset with:
+
+```bash
+.venv/bin/python build_my_info_features.py --generated-date 2026-08-22
+.venv/bin/python validate_my_info_features.py
+```
+
+Outputs are under `data/derived/my_info/`: a compact 1-row-per-PIB feature CSV, a normalized
+PIB-to-category assignment CSV, full derivation evidence as JSONL, the bilingual questionnaire
+contract, and a coverage summary. Category assignments and holding estimates are explicitly
+derived—not confirmations that an institution has a record about a particular person. Detailed
+matching and retention rules are documented in `MY_INFO_BUSINESS_LOGIC.md`.
+
 ## Static data explorer
 
 The GitHub Pages site is built from the compiled CSVs. Its landing page provides overview and
