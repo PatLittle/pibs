@@ -103,6 +103,15 @@ institution and activity. The full wording audit is in
 `docs/MY_INFO_READABILITY_AUDIT.md`; Flesch is not used to judge the French copy. The proposed
 browser and AI-agent architecture is in `MY_INFO_INTERFACE_ARCHITECTURE.md`.
 
+The first executable AI-tool layer is documented in `MY_INFO_AI_TOOLS.md`. It includes a
+framework-neutral, client-owned survey state engine plus four read-only MCP tools. Export their
+machine-readable schemas and run the local server with:
+
+```bash
+.venv/bin/python scripts/export_my_info_mcp_tools.py
+.venv/bin/python -m my_info.mcp_server
+```
+
 ## Static data explorer
 
 The GitHub Pages site is built from the compiled CSVs. Its landing page provides overview and

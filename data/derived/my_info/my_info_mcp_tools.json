@@ -1,0 +1,1700 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "manifest": {
+    "answer_values": [
+      "yes",
+      "no",
+      "not_sure",
+      "prefer_not_to_answer"
+    ],
+    "contract_schema_version": "1.1",
+    "contract_version": "2026-08-22.1",
+    "data_snapshot": {
+      "generated_date": "2026-08-22",
+      "source_files": {
+        "institutions_infosource_docs/pib_table_en_fr_all.csv": {
+          "sha256": "a94f77d5c55b0b65434b9a1fa8ab57771fa6d8cd41b5de9fc52d9c7e81f565d7"
+        },
+        "spib_en_fr.csv": {
+          "sha256": "bbda3c9de3ba8fdbdd55122db38d3fcc5f40c37c71f8d6295624e2ad89b4eabf"
+        }
+      }
+    },
+    "generator_version": "1.1",
+    "limitations": [
+      "Results are estimates, not confirmation that a record exists.",
+      "The current top-level gates can overmatch until adaptive institution and program branches are implemented.",
+      "A published retention rule may not reflect current operational holdings."
+    ],
+    "pib_count": 1028,
+    "privacy": {
+      "free_text_required": false,
+      "notice_en": "Do not provide account numbers, case details, health details, or other sensitive free text.",
+      "notice_fr": "Ne fournissez pas de numéros de compte, de détails de dossier, de renseignements sur la santé ou d'autres textes libres sensibles.",
+      "state_owner": "client"
+    },
+    "question_count": 19,
+    "state_schema_version": "1.0",
+    "supported_locales": [
+      "en-CA",
+      "fr-CA"
+    ],
+    "timing_kinds": [
+      "current",
+      "within_1_year",
+      "1_to_3_years",
+      "4_to_7_years",
+      "8_to_15_years",
+      "more_than_15_years",
+      "approximate_year",
+      "unknown"
+    ],
+    "tool_api_version": "0.1.0",
+    "tools": [
+      "my_info_get_manifest",
+      "my_info_advance",
+      "my_info_evaluate",
+      "my_info_explain_result"
+    ]
+  },
+  "server": {
+    "instructions": "My Info estimates which Government of Canada personal information banks may be relevant. Call my_info_get_manifest before starting, then my_info_advance for each controlled answer. Keep the returned state client-side. Never request names, account numbers, case details, medical details, or exact travel history. Use my_info_evaluate only for estimates and never claim that a record definitely exists.",
+    "name": "my-info-canada",
+    "title": "My Info Canada",
+    "version": "0.1.0"
+  },
+  "tools": [
+    {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true
+      },
+      "description": "Start or continue the survey. Pass back the complete client-owned state returned by the previous call and one or more controlled answer updates. Use this tool to obtain the next question or timing prompt; do not add narrative personal details to state.",
+      "inputSchema": {
+        "$defs": {
+          "AnswerUpdate": {
+            "additionalProperties": false,
+            "properties": {
+              "question_code": {
+                "title": "Question Code",
+                "type": "string"
+              },
+              "timing": {
+                "anyOf": [
+                  {
+                    "$ref": "#/$defs/Timing"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "value": {
+                "enum": [
+                  "yes",
+                  "no",
+                  "not_sure",
+                  "prefer_not_to_answer"
+                ],
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "question_code",
+              "value"
+            ],
+            "title": "AnswerUpdate",
+            "type": "object"
+          },
+          "SurveyAnswer": {
+            "additionalProperties": false,
+            "properties": {
+              "timing": {
+                "anyOf": [
+                  {
+                    "$ref": "#/$defs/Timing"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "value": {
+                "enum": [
+                  "yes",
+                  "no",
+                  "not_sure",
+                  "prefer_not_to_answer"
+                ],
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "value"
+            ],
+            "title": "SurveyAnswer",
+            "type": "object"
+          },
+          "SurveyState": {
+            "additionalProperties": false,
+            "properties": {
+              "answers": {
+                "additionalProperties": {
+                  "$ref": "#/$defs/SurveyAnswer"
+                },
+                "title": "Answers",
+                "type": "object"
+              },
+              "contract_version": {
+                "title": "Contract Version",
+                "type": "string"
+              },
+              "locale": {
+                "enum": [
+                  "en-CA",
+                  "fr-CA"
+                ],
+                "title": "Locale",
+                "type": "string"
+              },
+              "schema_version": {
+                "const": "1.0",
+                "title": "Schema Version",
+                "type": "string"
+              }
+            },
+            "required": [
+              "schema_version",
+              "contract_version",
+              "locale",
+              "answers"
+            ],
+            "title": "SurveyState",
+            "type": "object"
+          },
+          "Timing": {
+            "additionalProperties": false,
+            "properties": {
+              "kind": {
+                "enum": [
+                  "current",
+                  "within_1_year",
+                  "1_to_3_years",
+                  "4_to_7_years",
+                  "8_to_15_years",
+                  "more_than_15_years",
+                  "approximate_year",
+                  "unknown"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "year": {
+                "anyOf": [
+                  {
+                    "maximum": 2200,
+                    "minimum": 1800,
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Year"
+              }
+            },
+            "required": [
+              "kind"
+            ],
+            "title": "Timing",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "answers": {
+            "anyOf": [
+              {
+                "items": {
+                  "$ref": "#/$defs/AnswerUpdate"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Answers"
+          },
+          "locale": {
+            "default": "en-CA",
+            "enum": [
+              "en-CA",
+              "fr-CA"
+            ],
+            "title": "Locale",
+            "type": "string"
+          },
+          "state": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/SurveyState"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "title": "my_info_advanceArguments",
+        "type": "object"
+      },
+      "name": "my_info_advance",
+      "outputSchema": {
+        "$defs": {
+          "QuestionExample": {
+            "additionalProperties": false,
+            "properties": {
+              "activity": {
+                "title": "Activity",
+                "type": "string"
+              },
+              "evidence_note": {
+                "title": "Evidence Note",
+                "type": "string"
+              },
+              "institution": {
+                "title": "Institution",
+                "type": "string"
+              },
+              "source_pib_keys": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Source Pib Keys",
+                "type": "array"
+              }
+            },
+            "required": [
+              "institution",
+              "activity",
+              "source_pib_keys",
+              "evidence_note"
+            ],
+            "title": "QuestionExample",
+            "type": "object"
+          },
+          "QuestionHelp": {
+            "additionalProperties": false,
+            "properties": {
+              "agent_offer": {
+                "enum": [
+                  "proactive",
+                  "on_hesitation",
+                  "on_request"
+                ],
+                "title": "Agent Offer",
+                "type": "string"
+              },
+              "examples": {
+                "items": {
+                  "$ref": "#/$defs/QuestionExample"
+                },
+                "title": "Examples",
+                "type": "array"
+              },
+              "familiarity": {
+                "enum": [
+                  "common",
+                  "mixed",
+                  "unfamiliar"
+                ],
+                "title": "Familiarity",
+                "type": "string"
+              },
+              "split_recommendation": {
+                "title": "Split Recommendation",
+                "type": "string"
+              }
+            },
+            "required": [
+              "familiarity",
+              "agent_offer",
+              "examples",
+              "split_recommendation"
+            ],
+            "title": "QuestionHelp",
+            "type": "object"
+          },
+          "QuestionStep": {
+            "additionalProperties": false,
+            "properties": {
+              "answer_values": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Answer Values",
+                "type": "array"
+              },
+              "help": {
+                "$ref": "#/$defs/QuestionHelp"
+              },
+              "prompt": {
+                "title": "Prompt",
+                "type": "string"
+              },
+              "question_code": {
+                "title": "Question Code",
+                "type": "string"
+              },
+              "source_prompt": {
+                "title": "Source Prompt",
+                "type": "string"
+              },
+              "step_type": {
+                "const": "question",
+                "title": "Step Type",
+                "type": "string"
+              },
+              "wording_status": {
+                "enum": [
+                  "current",
+                  "plain_language_candidate_for_testing"
+                ],
+                "title": "Wording Status",
+                "type": "string"
+              }
+            },
+            "required": [
+              "step_type",
+              "question_code",
+              "prompt",
+              "source_prompt",
+              "wording_status",
+              "answer_values",
+              "help"
+            ],
+            "title": "QuestionStep",
+            "type": "object"
+          },
+          "SurveyAnswer": {
+            "additionalProperties": false,
+            "properties": {
+              "timing": {
+                "anyOf": [
+                  {
+                    "$ref": "#/$defs/Timing"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "value": {
+                "enum": [
+                  "yes",
+                  "no",
+                  "not_sure",
+                  "prefer_not_to_answer"
+                ],
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "value"
+            ],
+            "title": "SurveyAnswer",
+            "type": "object"
+          },
+          "SurveyProgress": {
+            "additionalProperties": false,
+            "properties": {
+              "answered_questions": {
+                "title": "Answered Questions",
+                "type": "integer"
+              },
+              "total_questions": {
+                "title": "Total Questions",
+                "type": "integer"
+              },
+              "yes_answers_with_timing": {
+                "title": "Yes Answers With Timing",
+                "type": "integer"
+              }
+            },
+            "required": [
+              "answered_questions",
+              "total_questions",
+              "yes_answers_with_timing"
+            ],
+            "title": "SurveyProgress",
+            "type": "object"
+          },
+          "SurveyState": {
+            "additionalProperties": false,
+            "properties": {
+              "answers": {
+                "additionalProperties": {
+                  "$ref": "#/$defs/SurveyAnswer"
+                },
+                "title": "Answers",
+                "type": "object"
+              },
+              "contract_version": {
+                "title": "Contract Version",
+                "type": "string"
+              },
+              "locale": {
+                "enum": [
+                  "en-CA",
+                  "fr-CA"
+                ],
+                "title": "Locale",
+                "type": "string"
+              },
+              "schema_version": {
+                "const": "1.0",
+                "title": "Schema Version",
+                "type": "string"
+              }
+            },
+            "required": [
+              "schema_version",
+              "contract_version",
+              "locale",
+              "answers"
+            ],
+            "title": "SurveyState",
+            "type": "object"
+          },
+          "Timing": {
+            "additionalProperties": false,
+            "properties": {
+              "kind": {
+                "enum": [
+                  "current",
+                  "within_1_year",
+                  "1_to_3_years",
+                  "4_to_7_years",
+                  "8_to_15_years",
+                  "more_than_15_years",
+                  "approximate_year",
+                  "unknown"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "year": {
+                "anyOf": [
+                  {
+                    "maximum": 2200,
+                    "minimum": 1800,
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Year"
+              }
+            },
+            "required": [
+              "kind"
+            ],
+            "title": "Timing",
+            "type": "object"
+          },
+          "TimingStep": {
+            "additionalProperties": false,
+            "properties": {
+              "privacy_note": {
+                "title": "Privacy Note",
+                "type": "string"
+              },
+              "prompt": {
+                "title": "Prompt",
+                "type": "string"
+              },
+              "question_code": {
+                "title": "Question Code",
+                "type": "string"
+              },
+              "step_type": {
+                "const": "timing",
+                "title": "Step Type",
+                "type": "string"
+              },
+              "timing_kinds": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Timing Kinds",
+                "type": "array"
+              },
+              "year_required_for": {
+                "const": "approximate_year",
+                "title": "Year Required For",
+                "type": "string"
+              }
+            },
+            "required": [
+              "step_type",
+              "question_code",
+              "prompt",
+              "timing_kinds",
+              "year_required_for",
+              "privacy_note"
+            ],
+            "title": "TimingStep",
+            "type": "object"
+          }
+        },
+        "additionalProperties": false,
+        "properties": {
+          "complete": {
+            "title": "Complete",
+            "type": "boolean"
+          },
+          "next_step": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/QuestionStep"
+              },
+              {
+                "$ref": "#/$defs/TimingStep"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Next Step"
+          },
+          "progress": {
+            "$ref": "#/$defs/SurveyProgress"
+          },
+          "state": {
+            "$ref": "#/$defs/SurveyState"
+          }
+        },
+        "required": [
+          "state",
+          "complete",
+          "next_step",
+          "progress"
+        ],
+        "title": "AdvanceOutput",
+        "type": "object"
+      },
+      "title": "Advance the My Info survey"
+    },
+    {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true
+      },
+      "description": "Evaluate a client-owned survey state and return ranked candidate PIBs with conservative holding estimates. Results are estimates, never confirmation that an institution holds a record.",
+      "inputSchema": {
+        "$defs": {
+          "SurveyAnswer": {
+            "additionalProperties": false,
+            "properties": {
+              "timing": {
+                "anyOf": [
+                  {
+                    "$ref": "#/$defs/Timing"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "value": {
+                "enum": [
+                  "yes",
+                  "no",
+                  "not_sure",
+                  "prefer_not_to_answer"
+                ],
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "value"
+            ],
+            "title": "SurveyAnswer",
+            "type": "object"
+          },
+          "SurveyState": {
+            "additionalProperties": false,
+            "properties": {
+              "answers": {
+                "additionalProperties": {
+                  "$ref": "#/$defs/SurveyAnswer"
+                },
+                "title": "Answers",
+                "type": "object"
+              },
+              "contract_version": {
+                "title": "Contract Version",
+                "type": "string"
+              },
+              "locale": {
+                "enum": [
+                  "en-CA",
+                  "fr-CA"
+                ],
+                "title": "Locale",
+                "type": "string"
+              },
+              "schema_version": {
+                "const": "1.0",
+                "title": "Schema Version",
+                "type": "string"
+              }
+            },
+            "required": [
+              "schema_version",
+              "contract_version",
+              "locale",
+              "answers"
+            ],
+            "title": "SurveyState",
+            "type": "object"
+          },
+          "Timing": {
+            "additionalProperties": false,
+            "properties": {
+              "kind": {
+                "enum": [
+                  "current",
+                  "within_1_year",
+                  "1_to_3_years",
+                  "4_to_7_years",
+                  "8_to_15_years",
+                  "more_than_15_years",
+                  "approximate_year",
+                  "unknown"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "year": {
+                "anyOf": [
+                  {
+                    "maximum": 2200,
+                    "minimum": 1800,
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Year"
+              }
+            },
+            "required": [
+              "kind"
+            ],
+            "title": "Timing",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "as_of_year": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "As Of Year"
+          },
+          "include_possible": {
+            "default": false,
+            "title": "Include Possible",
+            "type": "boolean"
+          },
+          "max_results": {
+            "default": 50,
+            "title": "Max Results",
+            "type": "integer"
+          },
+          "offset": {
+            "default": 0,
+            "title": "Offset",
+            "type": "integer"
+          },
+          "state": {
+            "$ref": "#/$defs/SurveyState"
+          }
+        },
+        "required": [
+          "state"
+        ],
+        "title": "my_info_evaluateArguments",
+        "type": "object"
+      },
+      "name": "my_info_evaluate",
+      "outputSchema": {
+        "$defs": {
+          "Assessment": {
+            "additionalProperties": false,
+            "properties": {
+              "as_of_year": {
+                "title": "As Of Year",
+                "type": "integer"
+              },
+              "caveat": {
+                "title": "Caveat",
+                "type": "string"
+              },
+              "complete_survey": {
+                "title": "Complete Survey",
+                "type": "boolean"
+              },
+              "refinement_needed_question_codes": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Refinement Needed Question Codes",
+                "type": "array"
+              },
+              "unanswered_question_codes": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Unanswered Question Codes",
+                "type": "array"
+              },
+              "uncertain_question_codes": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Uncertain Question Codes",
+                "type": "array"
+              }
+            },
+            "required": [
+              "as_of_year",
+              "complete_survey",
+              "unanswered_question_codes",
+              "uncertain_question_codes",
+              "refinement_needed_question_codes",
+              "caveat"
+            ],
+            "title": "Assessment",
+            "type": "object"
+          },
+          "CategoryResult": {
+            "additionalProperties": false,
+            "properties": {
+              "category_id": {
+                "title": "Category Id",
+                "type": "string"
+              },
+              "name": {
+                "title": "Name",
+                "type": "string"
+              }
+            },
+            "required": [
+              "category_id",
+              "name"
+            ],
+            "title": "CategoryResult",
+            "type": "object"
+          },
+          "CountItem": {
+            "additionalProperties": false,
+            "properties": {
+              "count": {
+                "title": "Count",
+                "type": "integer"
+              },
+              "institution_name": {
+                "title": "Institution Name",
+                "type": "string"
+              }
+            },
+            "required": [
+              "institution_name",
+              "count"
+            ],
+            "title": "CountItem",
+            "type": "object"
+          },
+          "EvaluationSummary": {
+            "additionalProperties": false,
+            "properties": {
+              "holding_status_counts": {
+                "additionalProperties": {
+                  "type": "integer"
+                },
+                "title": "Holding Status Counts",
+                "type": "object"
+              },
+              "match_band_counts": {
+                "additionalProperties": {
+                  "type": "integer"
+                },
+                "title": "Match Band Counts",
+                "type": "object"
+              },
+              "next_offset": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "title": "Next Offset"
+              },
+              "offset": {
+                "title": "Offset",
+                "type": "integer"
+              },
+              "returned_matches": {
+                "title": "Returned Matches",
+                "type": "integer"
+              },
+              "top_institutions": {
+                "items": {
+                  "$ref": "#/$defs/CountItem"
+                },
+                "title": "Top Institutions",
+                "type": "array"
+              },
+              "total_matches": {
+                "title": "Total Matches",
+                "type": "integer"
+              },
+              "truncated": {
+                "title": "Truncated",
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "total_matches",
+              "returned_matches",
+              "truncated",
+              "offset",
+              "next_offset",
+              "holding_status_counts",
+              "match_band_counts",
+              "top_institutions"
+            ],
+            "title": "EvaluationSummary",
+            "type": "object"
+          },
+          "PibCandidate": {
+            "additionalProperties": false,
+            "properties": {
+              "bank_number": {
+                "title": "Bank Number",
+                "type": "string"
+              },
+              "categories_of_personal_information": {
+                "items": {
+                  "$ref": "#/$defs/CategoryResult"
+                },
+                "title": "Categories Of Personal Information",
+                "type": "array"
+              },
+              "holding_status": {
+                "enum": [
+                  "likely_held",
+                  "may_still_be_held",
+                  "likely_disposed",
+                  "retention_unknown"
+                ],
+                "title": "Holding Status",
+                "type": "string"
+              },
+              "institution_id": {
+                "title": "Institution Id",
+                "type": "string"
+              },
+              "institution_name": {
+                "title": "Institution Name",
+                "type": "string"
+              },
+              "match_band": {
+                "enum": [
+                  "strong_match",
+                  "possible_match",
+                  "review_if_relevant"
+                ],
+                "title": "Match Band",
+                "type": "string"
+              },
+              "matched_question_codes": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Matched Question Codes",
+                "type": "array"
+              },
+              "privacy_caveat_codes": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Privacy Caveat Codes",
+                "type": "array"
+              },
+              "record_id": {
+                "title": "Record Id",
+                "type": "string"
+              },
+              "retention": {
+                "$ref": "#/$defs/RetentionResult"
+              },
+              "scope": {
+                "enum": [
+                  "standard",
+                  "institution_specific"
+                ],
+                "title": "Scope",
+                "type": "string"
+              },
+              "source_url": {
+                "title": "Source Url",
+                "type": "string"
+              },
+              "title": {
+                "title": "Title",
+                "type": "string"
+              }
+            },
+            "required": [
+              "record_id",
+              "bank_number",
+              "scope",
+              "institution_id",
+              "institution_name",
+              "title",
+              "source_url",
+              "match_band",
+              "matched_question_codes",
+              "holding_status",
+              "retention",
+              "categories_of_personal_information",
+              "privacy_caveat_codes"
+            ],
+            "title": "PibCandidate",
+            "type": "object"
+          },
+          "RetentionResult": {
+            "additionalProperties": false,
+            "properties": {
+              "confidence": {
+                "title": "Confidence",
+                "type": "string"
+              },
+              "published_text_excerpt": {
+                "title": "Published Text Excerpt",
+                "type": "string"
+              },
+              "published_text_truncated": {
+                "title": "Published Text Truncated",
+                "type": "boolean"
+              },
+              "rationale": {
+                "title": "Rationale",
+                "type": "string"
+              },
+              "reference_events": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Reference Events",
+                "type": "array"
+              },
+              "rule_type": {
+                "title": "Rule Type",
+                "type": "string"
+              },
+              "status": {
+                "enum": [
+                  "likely_held",
+                  "may_still_be_held",
+                  "likely_disposed",
+                  "retention_unknown"
+                ],
+                "title": "Status",
+                "type": "string"
+              },
+              "timing": {
+                "anyOf": [
+                  {
+                    "$ref": "#/$defs/Timing"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "status",
+              "confidence",
+              "rationale",
+              "timing",
+              "rule_type",
+              "reference_events",
+              "published_text_excerpt",
+              "published_text_truncated"
+            ],
+            "title": "RetentionResult",
+            "type": "object"
+          },
+          "Timing": {
+            "additionalProperties": false,
+            "properties": {
+              "kind": {
+                "enum": [
+                  "current",
+                  "within_1_year",
+                  "1_to_3_years",
+                  "4_to_7_years",
+                  "8_to_15_years",
+                  "more_than_15_years",
+                  "approximate_year",
+                  "unknown"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "year": {
+                "anyOf": [
+                  {
+                    "maximum": 2200,
+                    "minimum": 1800,
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Year"
+              }
+            },
+            "required": [
+              "kind"
+            ],
+            "title": "Timing",
+            "type": "object"
+          },
+          "ToolVersions": {
+            "additionalProperties": false,
+            "properties": {
+              "contract_version": {
+                "title": "Contract Version",
+                "type": "string"
+              },
+              "data_snapshot": {
+                "additionalProperties": true,
+                "title": "Data Snapshot",
+                "type": "object"
+              },
+              "state_schema_version": {
+                "title": "State Schema Version",
+                "type": "string"
+              },
+              "tool_api_version": {
+                "title": "Tool Api Version",
+                "type": "string"
+              }
+            },
+            "required": [
+              "tool_api_version",
+              "state_schema_version",
+              "contract_version",
+              "data_snapshot"
+            ],
+            "title": "ToolVersions",
+            "type": "object"
+          }
+        },
+        "additionalProperties": false,
+        "properties": {
+          "assessment": {
+            "$ref": "#/$defs/Assessment"
+          },
+          "results": {
+            "items": {
+              "$ref": "#/$defs/PibCandidate"
+            },
+            "title": "Results",
+            "type": "array"
+          },
+          "summary": {
+            "$ref": "#/$defs/EvaluationSummary"
+          },
+          "versions": {
+            "$ref": "#/$defs/ToolVersions"
+          }
+        },
+        "required": [
+          "assessment",
+          "summary",
+          "results",
+          "versions"
+        ],
+        "title": "EvaluationOutput",
+        "type": "object"
+      },
+      "title": "Evaluate My Info survey answers"
+    },
+    {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true
+      },
+      "description": "Explain why one candidate PIB matched the supplied client-owned state, including question triggers, source-text derivation evidence, categories, and retention reasoning.",
+      "inputSchema": {
+        "$defs": {
+          "SurveyAnswer": {
+            "additionalProperties": false,
+            "properties": {
+              "timing": {
+                "anyOf": [
+                  {
+                    "$ref": "#/$defs/Timing"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null
+              },
+              "value": {
+                "enum": [
+                  "yes",
+                  "no",
+                  "not_sure",
+                  "prefer_not_to_answer"
+                ],
+                "title": "Value",
+                "type": "string"
+              }
+            },
+            "required": [
+              "value"
+            ],
+            "title": "SurveyAnswer",
+            "type": "object"
+          },
+          "SurveyState": {
+            "additionalProperties": false,
+            "properties": {
+              "answers": {
+                "additionalProperties": {
+                  "$ref": "#/$defs/SurveyAnswer"
+                },
+                "title": "Answers",
+                "type": "object"
+              },
+              "contract_version": {
+                "title": "Contract Version",
+                "type": "string"
+              },
+              "locale": {
+                "enum": [
+                  "en-CA",
+                  "fr-CA"
+                ],
+                "title": "Locale",
+                "type": "string"
+              },
+              "schema_version": {
+                "const": "1.0",
+                "title": "Schema Version",
+                "type": "string"
+              }
+            },
+            "required": [
+              "schema_version",
+              "contract_version",
+              "locale",
+              "answers"
+            ],
+            "title": "SurveyState",
+            "type": "object"
+          },
+          "Timing": {
+            "additionalProperties": false,
+            "properties": {
+              "kind": {
+                "enum": [
+                  "current",
+                  "within_1_year",
+                  "1_to_3_years",
+                  "4_to_7_years",
+                  "8_to_15_years",
+                  "more_than_15_years",
+                  "approximate_year",
+                  "unknown"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "year": {
+                "anyOf": [
+                  {
+                    "maximum": 2200,
+                    "minimum": 1800,
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Year"
+              }
+            },
+            "required": [
+              "kind"
+            ],
+            "title": "Timing",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "as_of_year": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "As Of Year"
+          },
+          "record_id": {
+            "title": "Record Id",
+            "type": "string"
+          },
+          "state": {
+            "$ref": "#/$defs/SurveyState"
+          }
+        },
+        "required": [
+          "state",
+          "record_id"
+        ],
+        "title": "my_info_explain_resultArguments",
+        "type": "object"
+      },
+      "name": "my_info_explain_result",
+      "outputSchema": {
+        "$defs": {
+          "CategoryResult": {
+            "additionalProperties": false,
+            "properties": {
+              "category_id": {
+                "title": "Category Id",
+                "type": "string"
+              },
+              "name": {
+                "title": "Name",
+                "type": "string"
+              }
+            },
+            "required": [
+              "category_id",
+              "name"
+            ],
+            "title": "CategoryResult",
+            "type": "object"
+          },
+          "PibCandidate": {
+            "additionalProperties": false,
+            "properties": {
+              "bank_number": {
+                "title": "Bank Number",
+                "type": "string"
+              },
+              "categories_of_personal_information": {
+                "items": {
+                  "$ref": "#/$defs/CategoryResult"
+                },
+                "title": "Categories Of Personal Information",
+                "type": "array"
+              },
+              "holding_status": {
+                "enum": [
+                  "likely_held",
+                  "may_still_be_held",
+                  "likely_disposed",
+                  "retention_unknown"
+                ],
+                "title": "Holding Status",
+                "type": "string"
+              },
+              "institution_id": {
+                "title": "Institution Id",
+                "type": "string"
+              },
+              "institution_name": {
+                "title": "Institution Name",
+                "type": "string"
+              },
+              "match_band": {
+                "enum": [
+                  "strong_match",
+                  "possible_match",
+                  "review_if_relevant"
+                ],
+                "title": "Match Band",
+                "type": "string"
+              },
+              "matched_question_codes": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Matched Question Codes",
+                "type": "array"
+              },
+              "privacy_caveat_codes": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Privacy Caveat Codes",
+                "type": "array"
+              },
+              "record_id": {
+                "title": "Record Id",
+                "type": "string"
+              },
+              "retention": {
+                "$ref": "#/$defs/RetentionResult"
+              },
+              "scope": {
+                "enum": [
+                  "standard",
+                  "institution_specific"
+                ],
+                "title": "Scope",
+                "type": "string"
+              },
+              "source_url": {
+                "title": "Source Url",
+                "type": "string"
+              },
+              "title": {
+                "title": "Title",
+                "type": "string"
+              }
+            },
+            "required": [
+              "record_id",
+              "bank_number",
+              "scope",
+              "institution_id",
+              "institution_name",
+              "title",
+              "source_url",
+              "match_band",
+              "matched_question_codes",
+              "holding_status",
+              "retention",
+              "categories_of_personal_information",
+              "privacy_caveat_codes"
+            ],
+            "title": "PibCandidate",
+            "type": "object"
+          },
+          "RetentionResult": {
+            "additionalProperties": false,
+            "properties": {
+              "confidence": {
+                "title": "Confidence",
+                "type": "string"
+              },
+              "published_text_excerpt": {
+                "title": "Published Text Excerpt",
+                "type": "string"
+              },
+              "published_text_truncated": {
+                "title": "Published Text Truncated",
+                "type": "boolean"
+              },
+              "rationale": {
+                "title": "Rationale",
+                "type": "string"
+              },
+              "reference_events": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Reference Events",
+                "type": "array"
+              },
+              "rule_type": {
+                "title": "Rule Type",
+                "type": "string"
+              },
+              "status": {
+                "enum": [
+                  "likely_held",
+                  "may_still_be_held",
+                  "likely_disposed",
+                  "retention_unknown"
+                ],
+                "title": "Status",
+                "type": "string"
+              },
+              "timing": {
+                "anyOf": [
+                  {
+                    "$ref": "#/$defs/Timing"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "status",
+              "confidence",
+              "rationale",
+              "timing",
+              "rule_type",
+              "reference_events",
+              "published_text_excerpt",
+              "published_text_truncated"
+            ],
+            "title": "RetentionResult",
+            "type": "object"
+          },
+          "Timing": {
+            "additionalProperties": false,
+            "properties": {
+              "kind": {
+                "enum": [
+                  "current",
+                  "within_1_year",
+                  "1_to_3_years",
+                  "4_to_7_years",
+                  "8_to_15_years",
+                  "more_than_15_years",
+                  "approximate_year",
+                  "unknown"
+                ],
+                "title": "Kind",
+                "type": "string"
+              },
+              "year": {
+                "anyOf": [
+                  {
+                    "maximum": 2200,
+                    "minimum": 1800,
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Year"
+              }
+            },
+            "required": [
+              "kind"
+            ],
+            "title": "Timing",
+            "type": "object"
+          }
+        },
+        "additionalProperties": false,
+        "properties": {
+          "category_derivation": {
+            "additionalProperties": true,
+            "title": "Category Derivation",
+            "type": "object"
+          },
+          "holding_inference": {
+            "const": "candidate_only",
+            "title": "Holding Inference",
+            "type": "string"
+          },
+          "question_triggers": {
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "title": "Question Triggers",
+            "type": "array"
+          },
+          "result": {
+            "$ref": "#/$defs/PibCandidate"
+          },
+          "retention_derivation": {
+            "additionalProperties": true,
+            "title": "Retention Derivation",
+            "type": "object"
+          },
+          "supporting_features": {
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "title": "Supporting Features",
+            "type": "array"
+          }
+        },
+        "required": [
+          "result",
+          "question_triggers",
+          "supporting_features",
+          "retention_derivation",
+          "category_derivation",
+          "holding_inference"
+        ],
+        "title": "ExplanationOutput",
+        "type": "object"
+      },
+      "title": "Explain one My Info result"
+    },
+    {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true
+      },
+      "description": "Call before starting a My Info survey to get current versions, supported controlled values, privacy constraints, and limitations.",
+      "inputSchema": {
+        "properties": {},
+        "title": "my_info_get_manifestArguments",
+        "type": "object"
+      },
+      "name": "my_info_get_manifest",
+      "outputSchema": {
+        "additionalProperties": false,
+        "properties": {
+          "answer_values": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Answer Values",
+            "type": "array"
+          },
+          "contract_schema_version": {
+            "title": "Contract Schema Version",
+            "type": "string"
+          },
+          "contract_version": {
+            "title": "Contract Version",
+            "type": "string"
+          },
+          "data_snapshot": {
+            "additionalProperties": true,
+            "title": "Data Snapshot",
+            "type": "object"
+          },
+          "generator_version": {
+            "title": "Generator Version",
+            "type": "string"
+          },
+          "limitations": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Limitations",
+            "type": "array"
+          },
+          "pib_count": {
+            "title": "Pib Count",
+            "type": "integer"
+          },
+          "privacy": {
+            "additionalProperties": true,
+            "title": "Privacy",
+            "type": "object"
+          },
+          "question_count": {
+            "title": "Question Count",
+            "type": "integer"
+          },
+          "state_schema_version": {
+            "title": "State Schema Version",
+            "type": "string"
+          },
+          "supported_locales": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Supported Locales",
+            "type": "array"
+          },
+          "timing_kinds": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Timing Kinds",
+            "type": "array"
+          },
+          "tool_api_version": {
+            "title": "Tool Api Version",
+            "type": "string"
+          },
+          "tools": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Tools",
+            "type": "array"
+          }
+        },
+        "required": [
+          "tool_api_version",
+          "state_schema_version",
+          "contract_schema_version",
+          "contract_version",
+          "generator_version",
+          "data_snapshot",
+          "supported_locales",
+          "question_count",
+          "pib_count",
+          "answer_values",
+          "timing_kinds",
+          "tools",
+          "privacy",
+          "limitations"
+        ],
+        "title": "ManifestOutput",
+        "type": "object"
+      },
+      "title": "Get My Info survey manifest"
+    }
+  ]
+}
