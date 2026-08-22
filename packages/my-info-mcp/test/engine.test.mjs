@@ -1,9 +1,27 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { SurveyToolEngine } from "../dist/engine.mjs";
+import fs from "node:fs";
+import os from "node:os";
+import path from "node:path";
+
+import { findDataDir, SurveyToolEngine } from "../dist/engine.mjs";
 
 const engine = new SurveyToolEngine();
+
+test("runtime data resolves after a Netlify function bundle relocates the module", () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), "my-info-netlify-layout-"));
+  const moduleDir = path.join(root, "netlify", "functions");
+  const dataDir = path.join(root, "vendor", "pibs-my-info", "data");
+  fs.mkdirSync(moduleDir, { recursive: true });
+  fs.mkdirSync(dataDir, { recursive: true });
+  fs.writeFileSync(path.join(dataDir, "runtime.json"), "{}", "utf8");
+  try {
+    assert.equal(findDataDir(moduleDir, root), dataDir);
+  } finally {
+    fs.rmSync(root, { recursive: true, force: true });
+  }
+});
 
 test("manifest and adaptive advance are versioned", () => {
   const manifest = engine.getManifest();
