@@ -25,8 +25,8 @@ DEFAULT_CONTRACT_PATH = ROOT / "data/derived/my_info/my_info_questionnaire.json"
 DEFAULT_FEATURE_PATH = ROOT / "data/derived/my_info/my_info_pib_features.csv"
 DEFAULT_EVIDENCE_PATH = ROOT / "data/derived/my_info/my_info_derivation_evidence.jsonl"
 
-STATE_SCHEMA_VERSION = "1.0"
-TOOL_API_VERSION = "0.1.0"
+STATE_SCHEMA_VERSION = "1.1"
+TOOL_API_VERSION = "0.2.0"
 ANSWER_VALUES = ("yes", "no", "not_sure", "prefer_not_to_answer")
 TIMING_KINDS = (
     "current",
@@ -39,9 +39,10 @@ TIMING_KINDS = (
     "unknown",
 )
 
-_STATE_FIELDS = {"schema_version", "contract_version", "locale", "answers"}
+_STATE_FIELDS = {"schema_version", "contract_version", "locale", "answers", "refinements"}
 _ANSWER_FIELDS = {"value", "timing"}
 _TIMING_FIELDS = {"kind", "year"}
+_REFINEMENT_FIELDS = {"selected_options", "timings"}
 
 
 def _pipe_set(value: object) -> set[str]:
@@ -75,6 +76,14 @@ class SurveyToolEngine:
             question["code"]: question for question in self.contract["questions"]
         }
         self.question_order = [question["code"] for question in self.contract["questions"]]
+        self.routes = {
+            route["parent_question_code"]: route
+            for route in self.contract.get("adaptive_routes", [])
+        }
+        self.route_options = {
+            parent: {option["code"]: option for option in route["options"]}
+            for parent, route in self.routes.items()
+        }
         self.categories = {
             item["category_id"]: item
             for item in self.contract["personal_information_categories"]
@@ -96,6 +105,7 @@ class SurveyToolEngine:
             "contract_version": self.contract["content_version"],
             "locale": locale,
             "answers": {},
+            "refinements": {},
         }
 
     def get_manifest(self) -> dict[str, Any]:
@@ -110,6 +120,8 @@ class SurveyToolEngine:
             "data_snapshot": self.contract["data_snapshot"],
             "supported_locales": self.contract["supported_locales"],
             "question_count": len(self.question_order),
+            "adaptive_route_count": len(self.routes),
+            "adaptive_route_version": self.contract.get("adaptive_route_version", ""),
             "pib_count": len(self.features),
             "answer_values": list(ANSWER_VALUES),
             "timing_kinds": list(TIMING_KINDS),
@@ -122,7 +134,8 @@ class SurveyToolEngine:
             "privacy": self.contract["privacy"],
             "limitations": [
                 "Results are estimates, not confirmation that a record exists.",
-                "The current top-level gates can overmatch until adaptive institution and program branches are implemented.",
+                "Fallback route choices can still overmatch when a named program or institution is not known.",
+                "The current local CRA extract has no defensible direct tax-return PIB record.",
                 "A published retention rule may not reflect current operational holdings.",
             ],
         }
@@ -131,6 +144,7 @@ class SurveyToolEngine:
         self,
         state: Mapping[str, Any] | None = None,
         answers: Sequence[Mapping[str, Any]] | None = None,
+        refinements: Sequence[Mapping[str, Any]] | None = None,
         *,
         locale: str = "en-CA",
     ) -> dict[str, Any]:
@@ -140,6 +154,8 @@ class SurveyToolEngine:
         self.validate_state(working)
         for update in answers or ():
             self._apply_answer(working, update)
+        for update in refinements or ():
+            self._apply_refinement(working, update)
         self.validate_state(working)
 
         next_step: dict[str, Any] | None = None
@@ -148,14 +164,45 @@ class SurveyToolEngine:
             if answer is None:
                 next_step = self._question_view(code, working["locale"])
                 break
-            if answer["value"] == "yes" and "timing" not in answer:
-                next_step = self._timing_view(code, working["locale"])
-                break
+            if answer["value"] == "yes":
+                if code in self.routes:
+                    refinement = working["refinements"].get(code)
+                    if refinement is None:
+                        next_step = self._refinement_view(code, working["locale"])
+                        break
+                    untimed = next(
+                        (
+                            option_code
+                            for option_code in refinement["selected_options"]
+                            if self.route_options[code][option_code].get("ask_timing", True)
+                            and option_code not in refinement.get("timings", {})
+                        ),
+                        None,
+                    )
+                    if untimed:
+                        next_step = self._timing_view(
+                            code, working["locale"], route_option_code=untimed
+                        )
+                        break
+                elif "timing" not in answer:
+                    next_step = self._timing_view(code, working["locale"])
+                    break
 
         answered = len(working["answers"])
         timed_yes = sum(
-            answer["value"] == "yes" and "timing" in answer
-            for answer in working["answers"].values()
+            answer["value"] == "yes"
+            and (
+                (code not in self.routes and "timing" in answer)
+                or (
+                    code in working["refinements"]
+                    and all(
+                        option_code in working["refinements"][code].get("timings", {})
+                        for option_code in working["refinements"][code]["selected_options"]
+                        if self.route_options[code][option_code].get("ask_timing", True)
+                    )
+                )
+            )
+            for code, answer in working["answers"].items()
         )
         return {
             "state": working,
@@ -185,6 +232,11 @@ class SurveyToolEngine:
             raise ValueError("state.answers must be an object")
         for code, answer in answers.items():
             self._validate_answer(str(code), answer)
+        refinements = state.get("refinements")
+        if not isinstance(refinements, Mapping):
+            raise ValueError("state.refinements must be an object")
+        for code, refinement in refinements.items():
+            self._validate_refinement(str(code), refinement, answers)
         return deepcopy(dict(state))
 
     def evaluate(
@@ -217,20 +269,42 @@ class SurveyToolEngine:
             for code, answer in normalized["answers"].items()
             if answer["value"] in {"not_sure", "prefer_not_to_answer"}
         ]
+        incomplete_refinements = [
+            code
+            for code, answer in normalized["answers"].items()
+            if answer["value"] == "yes"
+            and code in self.routes
+            and not self._refinement_complete(code, normalized["refinements"].get(code))
+        ]
+        inventory_gaps = [
+            {
+                "question_code": code,
+                "route_option_code": option_code,
+                "message": (
+                    "The current PIB inventory does not contain a defensible direct record for this interaction."
+                ),
+            }
+            for code, refinement in normalized["refinements"].items()
+            for option_code in refinement["selected_options"]
+            if self.route_options[code][option_code]["coverage"] == "inventory_gap"
+        ]
         refinement_needed = sorted({
             code
             for result in results
             for code in result["matched_question_codes"]
             if self.questions[code]["help"]["split_recommendation_en"]
+            and code not in normalized["refinements"]
         })
         returned = results[offset:offset + max_results]
         next_offset = offset + len(returned)
         return {
             "assessment": {
                 "as_of_year": assessment_year,
-                "complete_survey": not unanswered,
+                "complete_survey": not unanswered and not incomplete_refinements,
                 "unanswered_question_codes": unanswered,
                 "uncertain_question_codes": uncertain,
+                "incomplete_refinement_question_codes": incomplete_refinements,
+                "inventory_gaps": inventory_gaps,
                 "refinement_needed_question_codes": refinement_needed,
                 "caveat": "These are candidate PIBs, not confirmation that an institution holds information about this person.",
             },
@@ -297,9 +371,22 @@ class SurveyToolEngine:
             for feature in derivation["interactions"].get(field, [])
             if feature["code"] in feature_codes
         ]
+        adaptive_triggers = [
+            {
+                "question_code": item["question_code"],
+                "route_option_code": item["route_option_code"],
+                "label_en": self.route_options[item["question_code"]][item["route_option_code"]]["label_en"],
+                "label_fr": self.route_options[item["question_code"]][item["route_option_code"]]["label_fr"],
+                "institution_en": self.route_options[item["question_code"]][item["route_option_code"]]["institution_en"],
+                "institution_fr": self.route_options[item["question_code"]][item["route_option_code"]]["institution_fr"],
+                "coverage": self.route_options[item["question_code"]][item["route_option_code"]]["coverage"],
+            }
+            for item in result["matched_route_options"]
+        ]
         return {
             "result": result,
             "question_triggers": triggers,
+            "adaptive_route_triggers": adaptive_triggers,
             "supporting_features": supporting_features,
             "retention_derivation": derivation["retention"],
             "category_derivation": derivation["categories"],
@@ -325,7 +412,60 @@ class SurveyToolEngine:
         if timing is not None:
             if value != "yes":
                 raise ValueError(f"{code}: timing is accepted only for a yes answer")
+            if code in self.routes:
+                raise ValueError(f"{code}: timing belongs to each selected adaptive route")
             self._validate_timing(code, timing)
+
+    def _validate_refinement(
+        self,
+        code: str,
+        refinement: object,
+        answers: Mapping[str, Any],
+    ) -> None:
+        if code not in self.routes:
+            raise ValueError(f"{code}: no adaptive route exists")
+        if answers.get(code, {}).get("value") != "yes":
+            raise ValueError(f"{code}: a refinement requires a yes parent answer")
+        if not isinstance(refinement, Mapping):
+            raise ValueError(f"{code}: refinement must be an object")
+        unknown = set(refinement) - _REFINEMENT_FIELDS
+        if unknown:
+            raise ValueError(f"{code}: unsupported refinement fields: {sorted(unknown)}")
+        selected = refinement.get("selected_options")
+        if not isinstance(selected, list) or not selected:
+            raise ValueError(f"{code}: selected_options must be a non-empty array")
+        if len(selected) != len(set(selected)):
+            raise ValueError(f"{code}: selected_options cannot contain duplicates")
+        valid_options = self.route_options[code]
+        invalid = [item for item in selected if item not in valid_options]
+        if invalid:
+            raise ValueError(f"{code}: unsupported route options: {invalid}")
+        timings = refinement.get("timings", {})
+        if not isinstance(timings, Mapping):
+            raise ValueError(f"{code}: timings must be an object")
+        unselected = set(timings) - set(selected)
+        if unselected:
+            raise ValueError(f"{code}: timing supplied for unselected options: {sorted(unselected)}")
+        for option_code, timing in timings.items():
+            self._validate_timing(f"{code}.{option_code}", timing)
+
+    def _refinement_complete(self, code: str, refinement: object) -> bool:
+        if not isinstance(refinement, Mapping):
+            return False
+        try:
+            self._validate_refinement(
+                code,
+                refinement,
+                {code: {"value": "yes"}},
+            )
+        except ValueError:
+            return False
+        timings = refinement.get("timings", {})
+        return all(
+            not self.route_options[code][option_code].get("ask_timing", True)
+            or option_code in timings
+            for option_code in refinement["selected_options"]
+        )
 
     def _validate_timing(self, code: str, timing: object) -> None:
         if not isinstance(timing, Mapping):
@@ -353,6 +493,23 @@ class SurveyToolEngine:
         answer = {key: deepcopy(update[key]) for key in ("value", "timing") if key in update}
         self._validate_answer(code, answer)
         state["answers"][code] = answer
+        if answer["value"] != "yes":
+            state["refinements"].pop(code, None)
+
+    def _apply_refinement(self, state: dict[str, Any], update: Mapping[str, Any]) -> None:
+        if not isinstance(update, Mapping):
+            raise ValueError("Each refinement update must be an object")
+        unknown = set(update) - {"question_code", *_REFINEMENT_FIELDS}
+        if unknown:
+            raise ValueError(f"Unsupported refinement-update fields: {sorted(unknown)}")
+        code = str(update.get("question_code") or "")
+        refinement = {
+            key: deepcopy(update[key])
+            for key in _REFINEMENT_FIELDS
+            if key in update
+        }
+        self._validate_refinement(code, refinement, state["answers"])
+        state["refinements"][code] = refinement
 
     def _question_view(self, code: str, locale: str) -> dict[str, Any]:
         question = self.questions[code]
@@ -387,13 +544,56 @@ class SurveyToolEngine:
             },
         }
 
-    def _timing_view(self, code: str, locale: str) -> dict[str, Any]:
+    def _refinement_view(self, code: str, locale: str) -> dict[str, Any]:
+        route = self.routes[code]
+        french = locale == "fr-CA"
+        return {
+            "step_type": "refinement",
+            "question_code": code,
+            "prompt": route["prompt_fr"] if french else route["prompt_en"],
+            "selection_type": "multi_select",
+            "options": [
+                {
+                    "code": option["code"],
+                    "label": option["label_fr"] if french else option["label_en"],
+                    "institution": (
+                        option["institution_fr"] if french else option["institution_en"]
+                    ),
+                    "coverage": option["coverage"],
+                }
+                for option in route["options"]
+            ],
+            "privacy_note": (
+                "Choisissez seulement les types d'interaction; ne fournissez aucun numéro ni détail de dossier."
+                if french
+                else "Choose interaction types only; do not provide identifiers or case details."
+            ),
+        }
+
+    def _timing_view(
+        self,
+        code: str,
+        locale: str,
+        *,
+        route_option_code: str | None = None,
+    ) -> dict[str, Any]:
         question = self.questions[code]
         french = locale == "fr-CA"
+        if route_option_code:
+            option = self.route_options[code][route_option_code]
+            label = option["label_fr"] if french else option["label_en"]
+            prompt = (
+                f"Vers quand cela s'est-il produit pour la dernière fois : {label}?"
+                if french
+                else f"About when did this last happen: {label}?"
+            )
+        else:
+            prompt = question["timing"]["prompt_fr"] if french else question["timing"]["prompt_en"]
         return {
             "step_type": "timing",
             "question_code": code,
-            "prompt": question["timing"]["prompt_fr"] if french else question["timing"]["prompt_en"],
+            "route_option_code": route_option_code,
+            "prompt": prompt,
             "timing_kinds": list(TIMING_KINDS),
             "year_required_for": "approximate_year",
             "privacy_note": (
@@ -411,6 +611,19 @@ class SurveyToolEngine:
     ) -> list[dict[str, Any]]:
         answers = state["answers"]
         yes_codes = {code for code, answer in answers.items() if answer["value"] == "yes"}
+        broad_yes_codes = set(yes_codes)
+        route_matches: dict[str, list[tuple[str, str]]] = {}
+        for parent_code, refinement in state["refinements"].items():
+            selected = refinement["selected_options"]
+            if not any(
+                self.route_options[parent_code][option_code].get("fallback_to_parent", False)
+                for option_code in selected
+            ):
+                broad_yes_codes.discard(parent_code)
+            for option_code in selected:
+                option = self.route_options[parent_code][option_code]
+                for bank_number in option.get("selectors", {}).get("bank_numbers", []):
+                    route_matches.setdefault(bank_number, []).append((parent_code, option_code))
         uncertain_codes = {
             code
             for code, answer in answers.items()
@@ -420,8 +633,10 @@ class SurveyToolEngine:
         for row in self.features:
             primary = _pipe_set(row["question_codes"])
             candidates = _pipe_set(row["candidate_question_codes"])
-            strong_codes = sorted(primary & yes_codes)
-            possible_codes = sorted((candidates & yes_codes) - set(strong_codes))
+            direct_routes = route_matches.get(row["bank_number_key"], [])
+            direct_codes = {parent for parent, _ in direct_routes}
+            strong_codes = sorted((primary & broad_yes_codes) | direct_codes)
+            possible_codes = sorted((candidates & broad_yes_codes) - set(strong_codes))
             review_codes = sorted(candidates & uncertain_codes)
             if strong_codes:
                 band, matched = "strong_match", strong_codes
@@ -431,7 +646,19 @@ class SurveyToolEngine:
                 band, matched = "review_if_relevant", review_codes
             else:
                 continue
-            results.append(self._result_view(row, band, matched, state, as_of_year))
+            results.append(
+                self._result_view(
+                    row,
+                    band,
+                    matched,
+                    state,
+                    as_of_year,
+                    matched_route_options=[
+                        {"question_code": parent, "route_option_code": option}
+                        for parent, option in direct_routes
+                    ],
+                )
+            )
         status_order = {
             "likely_held": 0,
             "may_still_be_held": 1,
@@ -455,13 +682,42 @@ class SurveyToolEngine:
         matched_codes: list[str],
         state: Mapping[str, Any],
         as_of_year: int,
+        *,
+        matched_route_options: list[dict[str, str]],
     ) -> dict[str, Any]:
         french = state["locale"] == "fr-CA"
+        route_parents = {item["question_code"] for item in matched_route_options}
         statuses = [
-            self._holding_status(row, state["answers"][code].get("timing"), as_of_year)
-            for code in matched_codes
-            if state["answers"][code]["value"] == "yes"
+            self._holding_status(
+                row,
+                state["refinements"][item["question_code"]]
+                .get("timings", {})
+                .get(item["route_option_code"]),
+                as_of_year,
+            )
+            for item in matched_route_options
         ]
+        for code in matched_codes:
+            if state["answers"][code]["value"] != "yes":
+                continue
+            if code in route_parents:
+                continue
+            if code in self.routes and code in state["refinements"]:
+                fallback_codes = [
+                    option_code
+                    for option_code in state["refinements"][code]["selected_options"]
+                    if self.route_options[code][option_code].get("fallback_to_parent", False)
+                ]
+                timing = next(
+                    (
+                        state["refinements"][code].get("timings", {}).get(option_code)
+                        for option_code in fallback_codes
+                    ),
+                    None,
+                )
+            else:
+                timing = state["answers"][code].get("timing")
+            statuses.append(self._holding_status(row, timing, as_of_year))
         if statuses:
             precedence = {
                 "likely_held": 0,
@@ -495,6 +751,7 @@ class SurveyToolEngine:
             "source_url": row["source_url_fr" if french else "source_url_en"],
             "match_band": band,
             "matched_question_codes": matched_codes,
+            "matched_route_options": matched_route_options,
             "holding_status": retention["status"],
             "retention": {
                 **retention,
@@ -626,10 +883,11 @@ def get_manifest() -> dict[str, Any]:
 def advance(
     state: Mapping[str, Any] | None = None,
     answers: Sequence[Mapping[str, Any]] | None = None,
+    refinements: Sequence[Mapping[str, Any]] | None = None,
     *,
     locale: str = "en-CA",
 ) -> dict[str, Any]:
-    return default_engine().advance(state, answers, locale=locale)
+    return default_engine().advance(state, answers, refinements, locale=locale)
 
 
 def evaluate(

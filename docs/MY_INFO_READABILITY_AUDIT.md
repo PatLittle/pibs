@@ -12,7 +12,7 @@ Flesch Reading Ease is an English formula. **Do not use these scores to assess t
 
 ## Results
 
-18 of 19 current questions score below 60. The many flags reflect long grouped questions and unavoidable multisyllabic program terms as well as genuine wording complexity. The proposed wording moves detailed program types into examples or follow-ups.
+20 of 21 current questions score below 60. The many flags reflect long grouped questions and unavoidable multisyllabic program terms as well as genuine wording complexity. The proposed wording moves detailed program types into examples or follow-ups.
 
 | Code | Current score | Band | Proposed score | Change |
 |---|---:|---|---:|---:|
@@ -29,6 +29,8 @@ Flesch Reading Ease is an English formula. **Do not use these scores to assess t
 | `q_complaint_appeal` | 47.6 | difficult | 79.6 | 32.0 |
 | `q_access_privacy` | -23.3 | very difficult | 67.5 | 90.8 |
 | `q_business_supplier` | 31.7 | difficult | 60.2 | 28.5 |
+| `q_firearms` | 37.3 | difficult | 69.8 | 32.5 |
+| `q_boating` | 45.3 | difficult | 63.5 | 18.2 |
 | `q_housing_property` | 34.2 | difficult | 81.9 | 47.7 |
 | `q_civic_contact` | 0.5 | very difficult | 71.8 | 71.3 |
 | `q_culture_volunteer` | 10.4 | very difficult | 65.7 | 55.3 |
@@ -115,6 +117,18 @@ Candidate (67.5, standard): Have you asked a federal office for records about yo
 Current (31.7, difficult): Have you owned or operated a business, held a federal licence or permit, or contracted with the federal government?
 
 Candidate (60.2, standard): Did you run a business, get a federal permit or sell goods or services to the government?
+
+### `q_firearms`
+
+Current (37.3, difficult): Have you applied for, renewed or held a Canadian firearms licence, or registered a restricted firearm?
+
+Candidate (69.8, standard): Have you had a firearms licence or registered a gun?
+
+### `q_boating`
+
+Current (45.3, difficult): Have you held a Pleasure Craft Operator Card or licensed or registered a boat with Transport Canada?
+
+Candidate (63.5, standard): Have you had a boating card or registered a boat with Transport Canada?
 
 ### `q_housing_property`
 

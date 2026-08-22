@@ -1,0 +1,23 @@
+{
+  "name": "my-info-canada",
+  "version": "0.2.0",
+  "description": "Conversational guidance and read-only tools for estimating relevant Government of Canada personal information banks.",
+  "author": {
+    "name": "Pat Little",
+    "url": "https://github.com/PatLittle"
+  },
+  "repository": "https://github.com/PatLittle/pibs",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "My Info Canada",
+    "shortDescription": "Estimate relevant federal personal information banks",
+    "longDescription": "Guides a privacy-minimizing questionnaire and uses structured, read-only tools to estimate which Government of Canada personal information banks may be relevant and whether records may still be held.",
+    "developerName": "Pat Little",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read"],
+    "websiteURL": "https://github.com/PatLittle/pibs",
+    "defaultPrompt": "Guide me through the My Info questionnaire."
+  },
+  "mcpServers": "./.mcp.json"
+}

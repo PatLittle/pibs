@@ -14,6 +14,7 @@ from pathlib import Path
 from typing import Any
 
 from my_info.categories import classify_records, load_category_definitions
+from my_info.adaptive import ADAPTIVE_ROUTE_VERSION, adaptive_routes
 from my_info.interactions import (
     coverage_report,
     derive_interaction_features,
@@ -24,7 +25,7 @@ from my_info.retention import derive_retention
 
 
 DEFAULT_OUTPUT_DIR = Path("data/derived/my_info")
-GENERATOR_VERSION = "1.1"
+GENERATOR_VERSION = "1.2"
 
 
 def _json(value: Any) -> str:
@@ -186,8 +187,8 @@ def write_outputs(
         str(pib_path): {"sha256": _sha256(pib_path)},
     }
     questionnaire = {
-        "schema_version": "1.1",
-        "content_version": f"{generated_date}.1",
+        "schema_version": "1.2",
+        "content_version": f"{generated_date}.2",
         "generator_version": GENERATOR_VERSION,
         "data_snapshot": {
             "generated_date": generated_date,
@@ -201,6 +202,8 @@ def write_outputs(
             "notice_fr": "Ne fournissez pas de numéros de compte, de détails de dossier, de renseignements sur la santé ou d'autres textes libres sensibles.",
         },
         "questions": questionnaire_questions(),
+        "adaptive_route_version": ADAPTIVE_ROUTE_VERSION,
+        "adaptive_routes": adaptive_routes(),
         "personal_information_categories": [
             asdict(definitions[key])
             for key in sorted(definitions, key=lambda value: int(value.split("-")[1]))

@@ -1,5 +1,631 @@
 {
-  "content_version": "2026-08-22.1",
+  "adaptive_route_version": "1.0",
+  "adaptive_routes": [
+    {
+      "options": [
+        {
+          "ask_timing": true,
+          "code": "federal_job_application",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Public Service Commission of Canada or the hiring department",
+          "institution_fr": "Commission de la fonction publique du Canada ou ministère d'embauche",
+          "label_en": "I applied for a federal job",
+          "label_fr": "J'ai postulé à un emploi fédéral",
+          "selectors": {
+            "bank_numbers": [
+              "PSU 911",
+              "PSE 902",
+              "PSC PPU 040",
+              "PSC PCU 025"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "federal_employee",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "The person's federal employer and central personnel systems",
+          "institution_fr": "Employeur fédéral de la personne et systèmes centraux de personnel",
+          "label_en": "I worked for the federal government",
+          "label_fr": "J'ai travaillé pour le gouvernement fédéral",
+          "selectors": {
+            "bank_numbers": [
+              "PSE 901",
+              "PSE 903",
+              "PSE 904",
+              "PSE 906",
+              "PSE 907",
+              "PSE 911",
+              "PSE 912",
+              "PSE 914",
+              "PSE 918",
+              "PSE 919",
+              "PSE 920"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "other_federal_work_service",
+          "coverage": "fallback",
+          "fallback_to_parent": true,
+          "institution_en": "Government of Canada institution involved",
+          "institution_fr": "Institution du gouvernement du Canada concernée",
+          "label_en": "Another federal work-related service",
+          "label_fr": "Un autre service lié au travail fédéral",
+          "selectors": {
+            "bank_numbers": []
+          }
+        }
+      ],
+      "parent_question_code": "q_government_work",
+      "prompt_en": "Which federal work situations apply to you? Select all that apply.",
+      "prompt_fr": "Quelles situations de travail fédéral s'appliquent à vous? Sélectionnez toutes les réponses pertinentes."
+    },
+    {
+      "options": [
+        {
+          "ask_timing": true,
+          "code": "employment_pay_reimbursement",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "The person's federal employer and Treasury Board systems",
+          "institution_fr": "Employeur fédéral de la personne et systèmes du Conseil du Trésor",
+          "label_en": "Federal employee pay, benefits or reimbursement",
+          "label_fr": "Paie, avantages sociaux ou remboursement d'un employé fédéral",
+          "selectors": {
+            "bank_numbers": [
+              "PSU 931",
+              "PSE 904"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "employment_insurance",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Employment and Social Development Canada / Service Canada",
+          "institution_fr": "Emploi et Développement social Canada / Service Canada",
+          "label_en": "Employment Insurance",
+          "label_fr": "Assurance-emploi",
+          "selectors": {
+            "bank_numbers": [
+              "ESDC PPU 151",
+              "ESDC PPU 180",
+              "ESDC PPU 501"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "cpp_oas",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Employment and Social Development Canada / Service Canada",
+          "institution_fr": "Emploi et Développement social Canada / Service Canada",
+          "label_en": "Canada Pension Plan or Old Age Security",
+          "label_fr": "Régime de pensions du Canada ou Sécurité de la vieillesse",
+          "selectors": {
+            "bank_numbers": [
+              "ESDC PPU 140",
+              "ESDC PPU 146"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "veterans_payment",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Veterans Affairs Canada, sometimes delivered with Service Canada",
+          "institution_fr": "Anciens Combattants Canada, parfois avec Service Canada",
+          "label_en": "A veterans benefit or payment",
+          "label_fr": "Une prestation ou un paiement pour vétérans",
+          "selectors": {
+            "bank_numbers": [
+              "VAC PPU 040",
+              "VAC PPU 200",
+              "VAC PPU 710",
+              "VAC PPU 715",
+              "ACC PPU 350",
+              "ESDC PPU 701"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "other_payment_program",
+          "coverage": "fallback",
+          "fallback_to_parent": true,
+          "institution_en": "Federal institution that ran the program",
+          "institution_fr": "Institution fédérale responsable du programme",
+          "label_en": "Another grant, loan, benefit or payment",
+          "label_fr": "Une autre subvention, un autre prêt, une autre prestation ou un autre paiement",
+          "selectors": {
+            "bank_numbers": []
+          }
+        }
+      ],
+      "parent_question_code": "q_money_programs",
+      "prompt_en": "What kind of federal payment or support was it? Select all that apply.",
+      "prompt_fr": "Quel type de paiement ou de soutien fédéral était-ce? Sélectionnez toutes les réponses pertinentes."
+    },
+    {
+      "options": [
+        {
+          "ask_timing": true,
+          "code": "federal_tax_return",
+          "coverage": "inventory_gap",
+          "fallback_to_parent": false,
+          "institution_en": "Canada Revenue Agency",
+          "institution_fr": "Agence du revenu du Canada",
+          "label_en": "Filed a federal income tax return",
+          "label_fr": "Produit une déclaration fédérale de revenus",
+          "selectors": {
+            "bank_numbers": []
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "customs_declaration",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Canada Border Services Agency",
+          "institution_fr": "Agence des services frontaliers du Canada",
+          "label_en": "Declared goods or paid duties at the border",
+          "label_fr": "Déclaré des marchandises ou payé des droits à la frontière",
+          "selectors": {
+            "bank_numbers": [
+              "CBSA PPU 018"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "other_tax_customs",
+          "coverage": "fallback",
+          "fallback_to_parent": true,
+          "institution_en": "Canada Revenue Agency or Canada Border Services Agency",
+          "institution_fr": "Agence du revenu du Canada ou Agence des services frontaliers du Canada",
+          "label_en": "Another federal tax or customs interaction",
+          "label_fr": "Une autre interaction fédérale liée aux impôts ou aux douanes",
+          "selectors": {
+            "bank_numbers": []
+          }
+        }
+      ],
+      "parent_question_code": "q_tax_customs",
+      "prompt_en": "Which of these have you done? Select all that apply.",
+      "prompt_fr": "Qu'avez-vous fait parmi les choix suivants? Sélectionnez toutes les réponses pertinentes."
+    },
+    {
+      "options": [
+        {
+          "ask_timing": true,
+          "code": "passport_application",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Immigration, Refugees and Citizenship Canada / Service Canada",
+          "institution_fr": "Immigration, Réfugiés et Citoyenneté Canada / Service Canada",
+          "label_en": "Applied for a Canadian passport",
+          "label_fr": "Demandé un passeport canadien",
+          "selectors": {
+            "bank_numbers": [
+              "IRCC PPU 081",
+              "ESDC PPU 708"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "border_crossing",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Canada Border Services Agency",
+          "institution_fr": "Agence des services frontaliers du Canada",
+          "label_en": "Crossed Canada's international border",
+          "label_fr": "Franchi la frontière internationale du Canada",
+          "selectors": {
+            "bank_numbers": [
+              "CBSA PPU 008",
+              "CBSA PPU 010",
+              "CBSA PPU 014",
+              "CBSA PPU 018"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "trusted_traveller",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Canada Border Services Agency",
+          "institution_fr": "Agence des services frontaliers du Canada",
+          "label_en": "Applied for or used NEXUS or another trusted-traveller program",
+          "label_fr": "Demandé ou utilisé NEXUS ou un autre programme de voyageurs dignes de confiance",
+          "selectors": {
+            "bank_numbers": [
+              "CBSA PPU 013",
+              "CBSA PPU 031"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "other_travel_border",
+          "coverage": "fallback",
+          "fallback_to_parent": true,
+          "institution_en": "Federal institution involved",
+          "institution_fr": "Institution fédérale concernée",
+          "label_en": "Another federal travel or border interaction",
+          "label_fr": "Une autre interaction fédérale liée au voyage ou à la frontière",
+          "selectors": {
+            "bank_numbers": []
+          }
+        }
+      ],
+      "parent_question_code": "q_travel_border",
+      "prompt_en": "Which travel or border interactions apply? Select all that apply.",
+      "prompt_fr": "Quelles interactions de voyage ou à la frontière s'appliquent? Sélectionnez toutes les réponses pertinentes."
+    },
+    {
+      "options": [
+        {
+          "ask_timing": true,
+          "code": "caf_service",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Department of National Defence / Canadian Armed Forces and Library and Archives Canada",
+          "institution_fr": "Ministère de la Défense nationale / Forces armées canadiennes et Bibliothèque et Archives Canada",
+          "label_en": "Applied to join or served in the Canadian Armed Forces",
+          "label_fr": "Demandé à m'enrôler ou servi dans les Forces armées canadiennes",
+          "selectors": {
+            "bank_numbers": [
+              "DND PPU 025",
+              "DND PPE 818",
+              "LAC PPU 024"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "veterans_program",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Veterans Affairs Canada, sometimes delivered with Service Canada",
+          "institution_fr": "Anciens Combattants Canada, parfois avec Service Canada",
+          "label_en": "Applied for or used a veterans program",
+          "label_fr": "Demandé ou utilisé un programme pour vétérans",
+          "selectors": {
+            "bank_numbers": [
+              "VAC PPU 040",
+              "VAC PPU 200",
+              "VAC PPU 710",
+              "VAC PPU 715",
+              "ACC PPU 350",
+              "ESDC PPU 701"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "other_military_veterans",
+          "coverage": "fallback",
+          "fallback_to_parent": true,
+          "institution_en": "National Defence or Veterans Affairs Canada",
+          "institution_fr": "Défense nationale ou Anciens Combattants Canada",
+          "label_en": "Another military or veterans interaction",
+          "label_fr": "Une autre interaction militaire ou liée aux vétérans",
+          "selectors": {
+            "bank_numbers": []
+          }
+        }
+      ],
+      "parent_question_code": "q_military_veterans",
+      "prompt_en": "Which military or veterans situations apply? Select all that apply.",
+      "prompt_fr": "Quelles situations militaires ou liées aux vétérans s'appliquent? Sélectionnez toutes les réponses pertinentes."
+    },
+    {
+      "options": [
+        {
+          "ask_timing": true,
+          "code": "security_screening",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "The screening institution, such as Transport Canada or a federal employer",
+          "institution_fr": "Institution responsable, comme Transports Canada ou un employeur fédéral",
+          "label_en": "A job, airport, port or government security screening",
+          "label_fr": "Un filtrage de sécurité pour un emploi, un aéroport, un port ou le gouvernement",
+          "selectors": {
+            "bank_numbers": [
+              "PSU 917",
+              "DND PPU 834",
+              "RCMP PPU 065",
+              "TC PPU 093"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "police_law_enforcement",
+          "coverage": "partial",
+          "fallback_to_parent": false,
+          "institution_en": "Royal Canadian Mounted Police or another federal enforcement institution",
+          "institution_fr": "Gendarmerie royale du Canada ou autre institution fédérale d'application de la loi",
+          "label_en": "A federal police or law-enforcement matter",
+          "label_fr": "Une affaire de police fédérale ou d'application de la loi",
+          "selectors": {
+            "bank_numbers": [
+              "RCMP PPU 005",
+              "RCMP PPU 010",
+              "RCMP PPU 015",
+              "RCMP PPU 025",
+              "RCMP PPU 030",
+              "RCMP PPU 075",
+              "RCMP PPU 095",
+              "RCMP PPU 139",
+              "RCMP PPU 202",
+              "RCMP PPU 203"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "corrections_parole",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Correctional Service Canada or Parole Board of Canada",
+          "institution_fr": "Service correctionnel Canada ou Commission des libérations conditionnelles du Canada",
+          "label_en": "A federal corrections, parole or record-suspension matter",
+          "label_fr": "Une affaire fédérale de services correctionnels, de libération conditionnelle ou de suspension du casier",
+          "selectors": {
+            "bank_numbers": [
+              "CSC PPU 025",
+              "CSC PPU 030",
+              "CSC PPU 035",
+              "CSC PPU 040",
+              "CSC PPU 042",
+              "CSC PPU 045",
+              "CSC PPU 060",
+              "CSC PPU 065",
+              "CSC PPU 070",
+              "CSC PPU 075",
+              "CSC PPU 080",
+              "CSC PPU 082",
+              "CSC PPU 110",
+              "CSC PPU 115",
+              "CSC PPU 125",
+              "CSC PPU 135",
+              "PBC PPU 005",
+              "PBC PPU 010",
+              "PBC PPU 015"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "other_justice_safety",
+          "coverage": "fallback",
+          "fallback_to_parent": true,
+          "institution_en": "Federal institution involved",
+          "institution_fr": "Institution fédérale concernée",
+          "label_en": "Another federal law-enforcement or public-safety matter",
+          "label_fr": "Une autre affaire fédérale d'application de la loi ou de sécurité publique",
+          "selectors": {
+            "bank_numbers": []
+          }
+        }
+      ],
+      "parent_question_code": "q_justice_safety",
+      "prompt_en": "What kind of federal public-safety interaction was it? Select all that apply.",
+      "prompt_fr": "Quel type d'interaction fédérale en matière de sécurité publique était-ce? Sélectionnez toutes les réponses pertinentes."
+    },
+    {
+      "options": [
+        {
+          "ask_timing": true,
+          "code": "federal_contract",
+          "coverage": "partial",
+          "fallback_to_parent": false,
+          "institution_en": "The contracting department and Public Services and Procurement Canada",
+          "institution_fr": "Ministère contractant et Services publics et Approvisionnement Canada",
+          "label_en": "Bid on or held a federal government contract",
+          "label_fr": "Soumissionné ou détenu un marché du gouvernement fédéral",
+          "selectors": {
+            "bank_numbers": [
+              "PSU 912"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "aviation_licence_clearance",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Transport Canada",
+          "institution_fr": "Transports Canada",
+          "label_en": "Held a federal aviation licence, medical certificate or airport clearance",
+          "label_fr": "Détenu une licence d'aviation, un certificat médical ou une habilitation aéroportuaire fédérale",
+          "selectors": {
+            "bank_numbers": [
+              "TC PPU 005",
+              "TC PPU 011",
+              "TC PPU 020",
+              "TC PPU 031",
+              "TC PPU 085",
+              "TC PPU 093"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "other_business_regulatory",
+          "coverage": "fallback",
+          "fallback_to_parent": true,
+          "institution_en": "Federal regulator or institution involved",
+          "institution_fr": "Organisme de réglementation ou institution fédérale concernée",
+          "label_en": "Another federal business, licence, inspection or permit interaction",
+          "label_fr": "Une autre interaction fédérale liée à une entreprise, une licence, une inspection ou un permis",
+          "selectors": {
+            "bank_numbers": []
+          }
+        }
+      ],
+      "parent_question_code": "q_business_supplier",
+      "prompt_en": "Which business, licence or permit interactions apply? Select all that apply.",
+      "prompt_fr": "Quelles interactions liées aux entreprises, licences ou permis s'appliquent? Sélectionnez toutes les réponses pertinentes."
+    },
+    {
+      "options": [
+        {
+          "ask_timing": true,
+          "code": "firearms_licence",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Royal Canadian Mounted Police / Canadian Firearms Program",
+          "institution_fr": "Gendarmerie royale du Canada / Programme canadien des armes à feu",
+          "label_en": "Applied for, renewed or held a firearms licence",
+          "label_fr": "Demandé, renouvelé ou détenu un permis d'armes à feu",
+          "selectors": {
+            "bank_numbers": [
+              "RCMP PPU 007",
+              "RCMP PPU 037",
+              "RCMP PPU 100"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "restricted_firearm_registration",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Royal Canadian Mounted Police / Canadian Firearms Program",
+          "institution_fr": "Gendarmerie royale du Canada / Programme canadien des armes à feu",
+          "label_en": "Registered a restricted or prohibited firearm",
+          "label_fr": "Enregistré une arme à feu à autorisation restreinte ou prohibée",
+          "selectors": {
+            "bank_numbers": [
+              "RCMP PPU 037",
+              "RCMP PPU 100",
+              "RCMP PPU 101"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "other_firearms_program",
+          "coverage": "fallback",
+          "fallback_to_parent": false,
+          "institution_en": "Royal Canadian Mounted Police",
+          "institution_fr": "Gendarmerie royale du Canada",
+          "label_en": "Another Canadian Firearms Program interaction",
+          "label_fr": "Une autre interaction avec le Programme canadien des armes à feu",
+          "selectors": {
+            "bank_numbers": [
+              "RCMP PPU 007",
+              "RCMP PPU 037",
+              "RCMP PPU 100",
+              "RCMP PPU 101"
+            ]
+          }
+        }
+      ],
+      "parent_question_code": "q_firearms",
+      "prompt_en": "Which firearms-program interactions apply? Select all that apply.",
+      "prompt_fr": "Quelles interactions avec le programme des armes à feu s'appliquent? Sélectionnez toutes les réponses pertinentes."
+    },
+    {
+      "options": [
+        {
+          "ask_timing": true,
+          "code": "pleasure_craft_operator_card",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Transport Canada",
+          "institution_fr": "Transports Canada",
+          "label_en": "Got a Pleasure Craft Operator Card",
+          "label_fr": "Obtenu une carte de conducteur d'embarcation de plaisance",
+          "selectors": {
+            "bank_numbers": [
+              "TC PPU 023"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "pleasure_craft_licence",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Transport Canada",
+          "institution_fr": "Transports Canada",
+          "label_en": "Licensed a pleasure craft",
+          "label_fr": "Obtenu un permis d'embarcation de plaisance",
+          "selectors": {
+            "bank_numbers": [
+              "TC PPU 044"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "vessel_registration",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Transport Canada",
+          "institution_fr": "Transports Canada",
+          "label_en": "Registered a vessel with Transport Canada",
+          "label_fr": "Immatriculé un bâtiment auprès de Transports Canada",
+          "selectors": {
+            "bank_numbers": [
+              "TC PPU 041"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "professional_seafarer",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Transport Canada",
+          "institution_fr": "Transports Canada",
+          "label_en": "Got a federal seafarer certificate or identity document",
+          "label_fr": "Obtenu un brevet ou une pièce d'identité fédérale de marin",
+          "selectors": {
+            "bank_numbers": [
+              "TC PPU 030",
+              "TC PPU 040"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "other_federal_boating",
+          "coverage": "partial",
+          "fallback_to_parent": false,
+          "institution_en": "Transport Canada",
+          "institution_fr": "Transports Canada",
+          "label_en": "Another Transport Canada boating interaction",
+          "label_fr": "Une autre interaction nautique avec Transports Canada",
+          "selectors": {
+            "bank_numbers": [
+              "TC PPU 021",
+              "TC PPU 023",
+              "TC PPU 041",
+              "TC PPU 044",
+              "TC PPU 048"
+            ]
+          }
+        }
+      ],
+      "parent_question_code": "q_boating",
+      "prompt_en": "Which federal boating interactions apply? Select all that apply.",
+      "prompt_fr": "Quelles interactions fédérales liées à la navigation s'appliquent? Sélectionnez toutes les réponses pertinentes."
+    }
+  ],
+  "content_version": "2026-08-22.2",
   "data_snapshot": {
     "generated_date": "2026-08-22",
     "source_files": {
@@ -11,7 +637,7 @@
       }
     }
   },
-  "generator_version": "1.1",
+  "generator_version": "1.2",
   "personal_information_categories": [
     {
       "category_id": "PI_CAT-1",
@@ -1012,33 +1638,20 @@
             ]
           },
           {
-            "activity_en": "Getting a Pleasure Craft Operator Card or licensing a pleasure craft",
-            "activity_fr": "Obtenir une carte de conducteur d'embarcation de plaisance ou un permis d'embarcation de plaisance",
+            "activity_en": "Applying for a civil aviation personnel licence",
+            "activity_fr": "Demander une licence de membre du personnel de l'aviation civile",
             "evidence_note_en": "",
             "evidence_note_fr": "",
             "institution_en": "Transport Canada",
             "institution_fr": "Transports Canada",
             "source_pib_keys": [
-              "TC PPU 023",
-              "TC PPU 044"
-            ]
-          },
-          {
-            "activity_en": "Applying for or renewing a firearms licence",
-            "activity_fr": "Demander ou renouveler un permis d'armes à feu",
-            "evidence_note_en": "",
-            "evidence_note_fr": "",
-            "institution_en": "Royal Canadian Mounted Police",
-            "institution_fr": "Gendarmerie royale du Canada",
-            "source_pib_keys": [
-              "RCMP PPU 007",
-              "RCMP PPU 100"
+              "TC PPU 005"
             ]
           }
         ],
         "familiarity": "unfamiliar",
-        "split_recommendation_en": "Replace the broad business gate with named child routes. Firearms licensing, a boating card, and a vessel licence must not be treated as the same generic permit.",
-        "split_recommendation_fr": "Remplacer la vaste question sur les entreprises par des parcours secondaires nommés. Le permis d'armes à feu, la carte de conducteur d'embarcation et le permis de bâtiment ne doivent pas être traités comme un même permis générique.",
+        "split_recommendation_en": "Use named child routes for contracting, aviation and other regulatory interactions. Firearms and boating are asked separately.",
+        "split_recommendation_fr": "Utiliser des parcours secondaires nommés pour les marchés, l'aviation et les autres interactions réglementaires. Les armes à feu et la navigation sont demandées séparément.",
         "web_display": "inline"
       },
       "question_en": "Have you owned or operated a business, held a federal licence or permit, or contracted with the federal government?",
@@ -1052,6 +1665,139 @@
         "method": "flesch_reading_ease",
         "outlier_below_60": true,
         "score": 31.7
+      },
+      "timing": {
+        "ask_after": [
+          "yes"
+        ],
+        "prompt_en": "About what year did this interaction last happen?",
+        "prompt_fr": "Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+        "response_type": "approximate_period_or_year"
+      }
+    },
+    {
+      "answer": {
+        "type": "single_select",
+        "values": [
+          "yes",
+          "no",
+          "not_sure",
+          "prefer_not_to_answer"
+        ]
+      },
+      "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
+      "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+      "code": "q_firearms",
+      "help": {
+        "agent_offer": "on_request",
+        "examples": [
+          {
+            "activity_en": "Applying for or renewing a Possession and Acquisition Licence",
+            "activity_fr": "Demander ou renouveler un permis de possession et d'acquisition",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Royal Canadian Mounted Police / Canadian Firearms Program",
+            "institution_fr": "Gendarmerie royale du Canada / Programme canadien des armes à feu",
+            "source_pib_keys": [
+              "RCMP PPU 007",
+              "RCMP PPU 100"
+            ]
+          },
+          {
+            "activity_en": "Registering a restricted firearm",
+            "activity_fr": "Enregistrer une arme à feu à autorisation restreinte",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Royal Canadian Mounted Police / Canadian Firearms Program",
+            "institution_fr": "Gendarmerie royale du Canada / Programme canadien des armes à feu",
+            "source_pib_keys": [
+              "RCMP PPU 037",
+              "RCMP PPU 101"
+            ]
+          }
+        ],
+        "familiarity": "common",
+        "split_recommendation_en": "The licence and registration routes can both apply, but their PIB coverage differs.",
+        "split_recommendation_fr": "Les parcours liés au permis et à l'enregistrement peuvent tous deux s'appliquer, mais leur couverture des FRP diffère.",
+        "web_display": "on_request"
+      },
+      "question_en": "Have you applied for, renewed or held a Canadian firearms licence, or registered a restricted firearm?",
+      "question_fr": "Avez-vous demandé, renouvelé ou détenu un permis canadien d'armes à feu, ou enregistré une arme à feu à autorisation restreinte?",
+      "readability_en": {
+        "adaptive_split_recommended": true,
+        "band": "difficult",
+        "candidate_band": "standard",
+        "candidate_question_en": "Have you had a firearms licence or registered a gun?",
+        "candidate_score": 69.8,
+        "method": "flesch_reading_ease",
+        "outlier_below_60": true,
+        "score": 37.3
+      },
+      "timing": {
+        "ask_after": [
+          "yes"
+        ],
+        "prompt_en": "About what year did this interaction last happen?",
+        "prompt_fr": "Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+        "response_type": "approximate_period_or_year"
+      }
+    },
+    {
+      "answer": {
+        "type": "single_select",
+        "values": [
+          "yes",
+          "no",
+          "not_sure",
+          "prefer_not_to_answer"
+        ]
+      },
+      "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
+      "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+      "code": "q_boating",
+      "help": {
+        "agent_offer": "on_hesitation",
+        "examples": [
+          {
+            "activity_en": "Getting a Pleasure Craft Operator Card after boating-safety training",
+            "activity_fr": "Obtenir une carte de conducteur d'embarcation de plaisance après une formation en sécurité nautique",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Transport Canada",
+            "institution_fr": "Transports Canada",
+            "source_pib_keys": [
+              "TC PPU 023"
+            ]
+          },
+          {
+            "activity_en": "Licensing or registering a boat",
+            "activity_fr": "Obtenir un permis ou une immatriculation pour un bateau",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Transport Canada",
+            "institution_fr": "Transports Canada",
+            "source_pib_keys": [
+              "TC PPU 041",
+              "TC PPU 044"
+            ]
+          }
+        ],
+        "familiarity": "mixed",
+        "split_recommendation_en": "Keep operator cards, pleasure-craft licences and vessel registration as separate child routes because the records and retention rules differ.",
+        "split_recommendation_fr": "Séparer les cartes de conducteur, les permis d'embarcation de plaisance et l'immatriculation des bâtiments, car les dossiers et règles de conservation diffèrent.",
+        "web_display": "collapsed"
+      },
+      "question_en": "Have you held a Pleasure Craft Operator Card or licensed or registered a boat with Transport Canada?",
+      "question_fr": "Avez-vous détenu une carte de conducteur d'embarcation de plaisance, ou obtenu un permis ou une immatriculation pour un bateau auprès de Transports Canada?",
+      "readability_en": {
+        "adaptive_split_recommended": true,
+        "band": "difficult",
+        "candidate_band": "standard",
+        "candidate_question_en": "Have you had a boating card or registered a boat with Transport Canada?",
+        "candidate_score": 63.5,
+        "method": "flesch_reading_ease",
+        "outlier_below_60": true,
+        "score": 45.3
       },
       "timing": {
         "ask_after": [
@@ -1457,7 +2203,7 @@
     "likely_disposed",
     "uncertain"
   ],
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "supported_locales": [
     "en-CA",
     "fr-CA"

@@ -42,6 +42,8 @@ PROPOSED_QUESTION_WORDING_EN = {
     "q_complaint_appeal": "Did you file a complaint or ask a federal office to review a choice it made?",
     "q_access_privacy": "Have you asked a federal office for records about you or to fix your records?",
     "q_business_supplier": "Did you run a business, get a federal permit or sell goods or services to the government?",
+    "q_firearms": "Have you had a firearms licence or registered a gun?",
+    "q_boating": "Have you had a boating card or registered a boat with Transport Canada?",
     "q_housing_property": "Have you used a federal program to rent or buy a home?",
     "q_civic_contact": "Did you contact a federal office, share your views, sign a petition or vote?",
     "q_culture_volunteer": "Have you joined or helped with a federal arts, sports, heritage or parks event?",

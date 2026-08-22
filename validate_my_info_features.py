@@ -35,7 +35,7 @@ def validate(output_dir: Path) -> dict[str, int]:
     ]
 
     errors: list[str] = []
-    if questionnaire.get("schema_version") != "1.1":
+    if questionnaire.get("schema_version") != "1.2":
         errors.append("questionnaire JSON has an unexpected schema_version")
     if questionnaire.get("supported_locales") != ["en-CA", "fr-CA"]:
         errors.append("questionnaire JSON must declare equivalent English and French locales")
@@ -64,6 +64,24 @@ def validate(output_dir: Path) -> dict[str, int]:
     expected_questions = {row["code"] for row in questionnaire_questions()}
     if declared_questions != expected_questions:
         errors.append("questionnaire JSON does not match the implemented question taxonomy")
+    routes = questionnaire.get("adaptive_routes", [])
+    routed_questions = [route.get("parent_question_code") for route in routes]
+    if len(routed_questions) != len(set(routed_questions)):
+        errors.append("adaptive routes contain duplicate parent questions")
+    if set(routed_questions) - declared_questions:
+        errors.append("adaptive routes reference undeclared parent questions")
+    known_bank_numbers = {row["bank_number_key"] for row in features}
+    for route in routes:
+        option_codes = [option.get("code") for option in route.get("options", [])]
+        if not option_codes or len(option_codes) != len(set(option_codes)):
+            errors.append(f"{route.get('parent_question_code')}: invalid adaptive options")
+        for option in route.get("options", []):
+            missing = set(option.get("selectors", {}).get("bank_numbers", [])) - known_bank_numbers
+            if missing:
+                errors.append(
+                    f"{route.get('parent_question_code')}.{option.get('code')}: "
+                    f"unknown bank numbers {sorted(missing)}"
+                )
     for question in questionnaire["questions"]:
         if question.get("readability_en", {}).get("method") != "flesch_reading_ease":
             errors.append(f"{question.get('code')}: missing English readability result")

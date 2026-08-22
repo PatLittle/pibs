@@ -1,14 +1,16 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "manifest": {
+    "adaptive_route_count": 9,
+    "adaptive_route_version": "1.0",
     "answer_values": [
       "yes",
       "no",
       "not_sure",
       "prefer_not_to_answer"
     ],
-    "contract_schema_version": "1.1",
-    "contract_version": "2026-08-22.1",
+    "contract_schema_version": "1.2",
+    "contract_version": "2026-08-22.2",
     "data_snapshot": {
       "generated_date": "2026-08-22",
       "source_files": {
@@ -20,10 +22,11 @@
         }
       }
     },
-    "generator_version": "1.1",
+    "generator_version": "1.2",
     "limitations": [
       "Results are estimates, not confirmation that a record exists.",
-      "The current top-level gates can overmatch until adaptive institution and program branches are implemented.",
+      "Fallback route choices can still overmatch when a named program or institution is not known.",
+      "The current local CRA extract has no defensible direct tax-return PIB record.",
       "A published retention rule may not reflect current operational holdings."
     ],
     "pib_count": 1028,
@@ -33,8 +36,8 @@
       "notice_fr": "Ne fournissez pas de numéros de compte, de détails de dossier, de renseignements sur la santé ou d'autres textes libres sensibles.",
       "state_owner": "client"
     },
-    "question_count": 19,
-    "state_schema_version": "1.0",
+    "question_count": 21,
+    "state_schema_version": "1.1",
     "supported_locales": [
       "en-CA",
       "fr-CA"
@@ -49,7 +52,7 @@
       "approximate_year",
       "unknown"
     ],
-    "tool_api_version": "0.1.0",
+    "tool_api_version": "0.2.0",
     "tools": [
       "my_info_get_manifest",
       "my_info_advance",
@@ -58,10 +61,10 @@
     ]
   },
   "server": {
-    "instructions": "My Info estimates which Government of Canada personal information banks may be relevant. Call my_info_get_manifest before starting, then my_info_advance for each controlled answer. Keep the returned state client-side. Never request names, account numbers, case details, medical details, or exact travel history. Use my_info_evaluate only for estimates and never claim that a record definitely exists.",
+    "instructions": "My Info estimates which Government of Canada personal information banks may be relevant. Call my_info_get_manifest before starting, then my_info_advance for each controlled answer, adaptive selection, and approximate timing. Keep the returned state client-side. Never request names, account numbers, case details, medical details, or exact travel history. Use my_info_evaluate only for estimates and never claim that a record definitely exists.",
     "name": "my-info-canada",
     "title": "My Info Canada",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   "tools": [
     {
@@ -110,6 +113,36 @@
             "title": "AnswerUpdate",
             "type": "object"
           },
+          "RefinementUpdate": {
+            "additionalProperties": false,
+            "properties": {
+              "question_code": {
+                "title": "Question Code",
+                "type": "string"
+              },
+              "selected_options": {
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 1,
+                "title": "Selected Options",
+                "type": "array"
+              },
+              "timings": {
+                "additionalProperties": {
+                  "$ref": "#/$defs/Timing"
+                },
+                "title": "Timings",
+                "type": "object"
+              }
+            },
+            "required": [
+              "question_code",
+              "selected_options"
+            ],
+            "title": "RefinementUpdate",
+            "type": "object"
+          },
           "SurveyAnswer": {
             "additionalProperties": false,
             "properties": {
@@ -141,6 +174,31 @@
             "title": "SurveyAnswer",
             "type": "object"
           },
+          "SurveyRefinement": {
+            "additionalProperties": false,
+            "properties": {
+              "selected_options": {
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 1,
+                "title": "Selected Options",
+                "type": "array"
+              },
+              "timings": {
+                "additionalProperties": {
+                  "$ref": "#/$defs/Timing"
+                },
+                "title": "Timings",
+                "type": "object"
+              }
+            },
+            "required": [
+              "selected_options"
+            ],
+            "title": "SurveyRefinement",
+            "type": "object"
+          },
           "SurveyState": {
             "additionalProperties": false,
             "properties": {
@@ -163,8 +221,15 @@
                 "title": "Locale",
                 "type": "string"
               },
+              "refinements": {
+                "additionalProperties": {
+                  "$ref": "#/$defs/SurveyRefinement"
+                },
+                "title": "Refinements",
+                "type": "object"
+              },
               "schema_version": {
-                "const": "1.0",
+                "const": "1.1",
                 "title": "Schema Version",
                 "type": "string"
               }
@@ -173,7 +238,8 @@
               "schema_version",
               "contract_version",
               "locale",
-              "answers"
+              "answers",
+              "refinements"
             ],
             "title": "SurveyState",
             "type": "object"
@@ -241,6 +307,21 @@
             ],
             "title": "Locale",
             "type": "string"
+          },
+          "refinements": {
+            "anyOf": [
+              {
+                "items": {
+                  "$ref": "#/$defs/RefinementUpdate"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Refinements"
           },
           "state": {
             "anyOf": [
@@ -385,6 +466,85 @@
             "title": "QuestionStep",
             "type": "object"
           },
+          "RefinementOption": {
+            "additionalProperties": false,
+            "properties": {
+              "code": {
+                "title": "Code",
+                "type": "string"
+              },
+              "coverage": {
+                "enum": [
+                  "direct",
+                  "partial",
+                  "fallback",
+                  "inventory_gap"
+                ],
+                "title": "Coverage",
+                "type": "string"
+              },
+              "institution": {
+                "title": "Institution",
+                "type": "string"
+              },
+              "label": {
+                "title": "Label",
+                "type": "string"
+              }
+            },
+            "required": [
+              "code",
+              "label",
+              "institution",
+              "coverage"
+            ],
+            "title": "RefinementOption",
+            "type": "object"
+          },
+          "RefinementStep": {
+            "additionalProperties": false,
+            "properties": {
+              "options": {
+                "items": {
+                  "$ref": "#/$defs/RefinementOption"
+                },
+                "title": "Options",
+                "type": "array"
+              },
+              "privacy_note": {
+                "title": "Privacy Note",
+                "type": "string"
+              },
+              "prompt": {
+                "title": "Prompt",
+                "type": "string"
+              },
+              "question_code": {
+                "title": "Question Code",
+                "type": "string"
+              },
+              "selection_type": {
+                "const": "multi_select",
+                "title": "Selection Type",
+                "type": "string"
+              },
+              "step_type": {
+                "const": "refinement",
+                "title": "Step Type",
+                "type": "string"
+              }
+            },
+            "required": [
+              "step_type",
+              "question_code",
+              "prompt",
+              "selection_type",
+              "options",
+              "privacy_note"
+            ],
+            "title": "RefinementStep",
+            "type": "object"
+          },
           "SurveyAnswer": {
             "additionalProperties": false,
             "properties": {
@@ -440,6 +600,31 @@
             "title": "SurveyProgress",
             "type": "object"
           },
+          "SurveyRefinement": {
+            "additionalProperties": false,
+            "properties": {
+              "selected_options": {
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 1,
+                "title": "Selected Options",
+                "type": "array"
+              },
+              "timings": {
+                "additionalProperties": {
+                  "$ref": "#/$defs/Timing"
+                },
+                "title": "Timings",
+                "type": "object"
+              }
+            },
+            "required": [
+              "selected_options"
+            ],
+            "title": "SurveyRefinement",
+            "type": "object"
+          },
           "SurveyState": {
             "additionalProperties": false,
             "properties": {
@@ -462,8 +647,15 @@
                 "title": "Locale",
                 "type": "string"
               },
+              "refinements": {
+                "additionalProperties": {
+                  "$ref": "#/$defs/SurveyRefinement"
+                },
+                "title": "Refinements",
+                "type": "object"
+              },
               "schema_version": {
-                "const": "1.0",
+                "const": "1.1",
                 "title": "Schema Version",
                 "type": "string"
               }
@@ -472,7 +664,8 @@
               "schema_version",
               "contract_version",
               "locale",
-              "answers"
+              "answers",
+              "refinements"
             ],
             "title": "SurveyState",
             "type": "object"
@@ -530,6 +723,18 @@
                 "title": "Question Code",
                 "type": "string"
               },
+              "route_option_code": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Route Option Code"
+              },
               "step_type": {
                 "const": "timing",
                 "title": "Step Type",
@@ -570,6 +775,9 @@
             "anyOf": [
               {
                 "$ref": "#/$defs/QuestionStep"
+              },
+              {
+                "$ref": "#/$defs/RefinementStep"
               },
               {
                 "$ref": "#/$defs/TimingStep"
@@ -639,6 +847,31 @@
             "title": "SurveyAnswer",
             "type": "object"
           },
+          "SurveyRefinement": {
+            "additionalProperties": false,
+            "properties": {
+              "selected_options": {
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 1,
+                "title": "Selected Options",
+                "type": "array"
+              },
+              "timings": {
+                "additionalProperties": {
+                  "$ref": "#/$defs/Timing"
+                },
+                "title": "Timings",
+                "type": "object"
+              }
+            },
+            "required": [
+              "selected_options"
+            ],
+            "title": "SurveyRefinement",
+            "type": "object"
+          },
           "SurveyState": {
             "additionalProperties": false,
             "properties": {
@@ -661,8 +894,15 @@
                 "title": "Locale",
                 "type": "string"
               },
+              "refinements": {
+                "additionalProperties": {
+                  "$ref": "#/$defs/SurveyRefinement"
+                },
+                "title": "Refinements",
+                "type": "object"
+              },
               "schema_version": {
-                "const": "1.0",
+                "const": "1.1",
                 "title": "Schema Version",
                 "type": "string"
               }
@@ -671,7 +911,8 @@
               "schema_version",
               "contract_version",
               "locale",
-              "answers"
+              "answers",
+              "refinements"
             ],
             "title": "SurveyState",
             "type": "object"
@@ -771,6 +1012,23 @@
                 "title": "Complete Survey",
                 "type": "boolean"
               },
+              "incomplete_refinement_question_codes": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Incomplete Refinement Question Codes",
+                "type": "array"
+              },
+              "inventory_gaps": {
+                "items": {
+                  "additionalProperties": {
+                    "type": "string"
+                  },
+                  "type": "object"
+                },
+                "title": "Inventory Gaps",
+                "type": "array"
+              },
               "refinement_needed_question_codes": {
                 "items": {
                   "type": "string"
@@ -798,6 +1056,8 @@
               "complete_survey",
               "unanswered_question_codes",
               "uncertain_question_codes",
+              "incomplete_refinement_question_codes",
+              "inventory_gaps",
               "refinement_needed_question_codes",
               "caveat"
             ],
@@ -955,6 +1215,16 @@
                 "title": "Matched Question Codes",
                 "type": "array"
               },
+              "matched_route_options": {
+                "items": {
+                  "additionalProperties": {
+                    "type": "string"
+                  },
+                  "type": "object"
+                },
+                "title": "Matched Route Options",
+                "type": "array"
+              },
               "privacy_caveat_codes": {
                 "items": {
                   "type": "string"
@@ -996,6 +1266,7 @@
               "source_url",
               "match_band",
               "matched_question_codes",
+              "matched_route_options",
               "holding_status",
               "retention",
               "categories_of_personal_information",
@@ -1208,6 +1479,31 @@
             "title": "SurveyAnswer",
             "type": "object"
           },
+          "SurveyRefinement": {
+            "additionalProperties": false,
+            "properties": {
+              "selected_options": {
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 1,
+                "title": "Selected Options",
+                "type": "array"
+              },
+              "timings": {
+                "additionalProperties": {
+                  "$ref": "#/$defs/Timing"
+                },
+                "title": "Timings",
+                "type": "object"
+              }
+            },
+            "required": [
+              "selected_options"
+            ],
+            "title": "SurveyRefinement",
+            "type": "object"
+          },
           "SurveyState": {
             "additionalProperties": false,
             "properties": {
@@ -1230,8 +1526,15 @@
                 "title": "Locale",
                 "type": "string"
               },
+              "refinements": {
+                "additionalProperties": {
+                  "$ref": "#/$defs/SurveyRefinement"
+                },
+                "title": "Refinements",
+                "type": "object"
+              },
               "schema_version": {
-                "const": "1.0",
+                "const": "1.1",
                 "title": "Schema Version",
                 "type": "string"
               }
@@ -1240,7 +1543,8 @@
               "schema_version",
               "contract_version",
               "locale",
-              "answers"
+              "answers",
+              "refinements"
             ],
             "title": "SurveyState",
             "type": "object"
@@ -1382,6 +1686,16 @@
                 "title": "Matched Question Codes",
                 "type": "array"
               },
+              "matched_route_options": {
+                "items": {
+                  "additionalProperties": {
+                    "type": "string"
+                  },
+                  "type": "object"
+                },
+                "title": "Matched Route Options",
+                "type": "array"
+              },
               "privacy_caveat_codes": {
                 "items": {
                   "type": "string"
@@ -1423,6 +1737,7 @@
               "source_url",
               "match_band",
               "matched_question_codes",
+              "matched_route_options",
               "holding_status",
               "retention",
               "categories_of_personal_information",
@@ -1536,6 +1851,14 @@
         },
         "additionalProperties": false,
         "properties": {
+          "adaptive_route_triggers": {
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "title": "Adaptive Route Triggers",
+            "type": "array"
+          },
           "category_derivation": {
             "additionalProperties": true,
             "title": "Category Derivation",
@@ -1574,6 +1897,7 @@
         "required": [
           "result",
           "question_triggers",
+          "adaptive_route_triggers",
           "supporting_features",
           "retention_derivation",
           "category_derivation",
@@ -1601,6 +1925,14 @@
       "outputSchema": {
         "additionalProperties": false,
         "properties": {
+          "adaptive_route_count": {
+            "title": "Adaptive Route Count",
+            "type": "integer"
+          },
+          "adaptive_route_version": {
+            "title": "Adaptive Route Version",
+            "type": "string"
+          },
           "answer_values": {
             "items": {
               "type": "string"
@@ -1684,6 +2016,8 @@
           "data_snapshot",
           "supported_locales",
           "question_count",
+          "adaptive_route_count",
+          "adaptive_route_version",
           "pib_count",
           "answer_values",
           "timing_kinds",

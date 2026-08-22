@@ -131,7 +131,7 @@ All operations should be deterministic for a fixed contract version, data snapsh
 
 Use one main question per page. Provide large radio-button targets, a visible Back button, a Continue button that activates only after a selection, and a persistent “Save on this device” option only if local persistence is added intentionally. Do not save answers by default.
 
-Because branching makes the exact length uncertain, show progress as “Step 4 — about 7 questions left” or by completed sections rather than “4 of 19.” The browser history should not expose answer values in URLs.
+Because branching makes the exact length uncertain, show progress as “Step 4 — about 7 questions left” or by completed sections rather than “4 of 21.” The browser history should not expose answer values in URLs.
 
 Recommended layout for a question:
 

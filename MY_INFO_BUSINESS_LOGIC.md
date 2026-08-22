@@ -52,9 +52,12 @@ closure, last administrative action, or warrant expiry date.
 
 1. Explain that the tool runs an estimate and that answers should not include account numbers,
    health details, case facts, or other sensitive free text.
-2. Ask broad, multi-select interaction questions derived from the topic taxonomy.
-3. Ask only the role and institution follow-ups that can reduce the candidate set.
-4. For each selected interaction group, ask for an approximate year or bounded period.
+2. Ask the top-level interaction questions derived from the topic taxonomy.
+3. For compound gates, ask one controlled multi-select adaptive follow-up. Direct routes include
+   taxes versus customs, CAF versus veterans services, security screening versus policing and
+   corrections, and explicit firearms and boating interactions.
+4. Ask for an approximate year or bounded period for each selected route, rather than assigning
+   one date to several unrelated interactions.
 5. If a candidate PIB uses a different retention trigger and the distinction can change the
    result, ask one plain-language trigger question, such as the year employment ended.
 6. Score candidates and show why each matched, including whether it is a standard or
@@ -73,11 +76,11 @@ inventory contains direct evidence. Unfamiliar interactions can display examples
 mixed interactions can keep them behind a help control; familiar tax and travel interactions
 can offer them only on request. Examples explain a route but never prove that a record exists.
 
-Compound gates that span institutions or materially different retention triggers should become
-adaptive child questions. The highest-priority splits are taxes versus customs, military service
-versus veterans programs, security screening versus policing and corrections, and the broad
-business/licensing gate into contracting, firearms licensing, pleasure-craft operator cards,
-and pleasure-craft licences.
+Compound gates that span institutions or materially different retention triggers use adaptive
+child questions. Exact, curated bank-number selectors supersede broad classifier matches for a
+selected child route. A fallback choice retains the broad match visibly when a person cannot name
+the interaction. Firearms and boating are top-level questions because they must not disappear
+when a person reasonably answers “no” to the generic business question.
 
 Answers should remain in the browser for the website implementation. No answer history or
 analytics event should contain a person's selections unless a future, separately reviewed

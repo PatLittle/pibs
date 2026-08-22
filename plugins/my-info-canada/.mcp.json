@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "my-info-canada": {
+      "type": "http",
+      "url": "https://lovely-nasturtium-97f019.netlify.app/my-info/mcp"
+    }
+  }
+}

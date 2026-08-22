@@ -40,17 +40,29 @@ class SurveyAnswer(StrictModel):
     timing: Timing | None = None
 
 
+class SurveyRefinement(StrictModel):
+    selected_options: list[str] = Field(min_length=1)
+    timings: dict[str, Timing] = Field(default_factory=dict)
+
+
 class SurveyState(StrictModel):
-    schema_version: Literal["1.0"]
+    schema_version: Literal["1.1"]
     contract_version: str
     locale: Locale
     answers: dict[str, SurveyAnswer]
+    refinements: dict[str, SurveyRefinement]
 
 
 class AnswerUpdate(StrictModel):
     question_code: str
     value: AnswerValue
     timing: Timing | None = None
+
+
+class RefinementUpdate(StrictModel):
+    question_code: str
+    selected_options: list[str] = Field(min_length=1)
+    timings: dict[str, Timing] = Field(default_factory=dict)
 
 
 class ManifestOutput(StrictModel):
@@ -62,6 +74,8 @@ class ManifestOutput(StrictModel):
     data_snapshot: dict[str, Any]
     supported_locales: list[str]
     question_count: int
+    adaptive_route_count: int
+    adaptive_route_version: str
     pib_count: int
     answer_values: list[str]
     timing_kinds: list[str]
@@ -97,9 +111,26 @@ class QuestionStep(StrictModel):
 class TimingStep(StrictModel):
     step_type: Literal["timing"]
     question_code: str
+    route_option_code: str | None = None
     prompt: str
     timing_kinds: list[str]
     year_required_for: Literal["approximate_year"]
+    privacy_note: str
+
+
+class RefinementOption(StrictModel):
+    code: str
+    label: str
+    institution: str
+    coverage: Literal["direct", "partial", "fallback", "inventory_gap"]
+
+
+class RefinementStep(StrictModel):
+    step_type: Literal["refinement"]
+    question_code: str
+    prompt: str
+    selection_type: Literal["multi_select"]
+    options: list[RefinementOption]
     privacy_note: str
 
 
@@ -112,7 +143,7 @@ class SurveyProgress(StrictModel):
 class AdvanceOutput(StrictModel):
     state: SurveyState
     complete: bool
-    next_step: QuestionStep | TimingStep | None
+    next_step: QuestionStep | RefinementStep | TimingStep | None
     progress: SurveyProgress
 
 
@@ -121,6 +152,8 @@ class Assessment(StrictModel):
     complete_survey: bool
     unanswered_question_codes: list[str]
     uncertain_question_codes: list[str]
+    incomplete_refinement_question_codes: list[str]
+    inventory_gaps: list[dict[str, str]]
     refinement_needed_question_codes: list[str]
     caveat: str
 
@@ -169,6 +202,7 @@ class PibCandidate(StrictModel):
     source_url: str
     match_band: Literal["strong_match", "possible_match", "review_if_relevant"]
     matched_question_codes: list[str]
+    matched_route_options: list[dict[str, str]]
     holding_status: Literal[
         "likely_held", "may_still_be_held", "likely_disposed", "retention_unknown"
     ]
@@ -194,6 +228,7 @@ class EvaluationOutput(StrictModel):
 class ExplanationOutput(StrictModel):
     result: PibCandidate
     question_triggers: list[dict[str, Any]]
+    adaptive_route_triggers: list[dict[str, Any]]
     supporting_features: list[dict[str, Any]]
     retention_derivation: dict[str, Any]
     category_derivation: dict[str, Any]
@@ -209,7 +244,7 @@ READ_ONLY = ToolAnnotations(
 
 SERVER_INSTRUCTIONS = (
     "My Info estimates which Government of Canada personal information banks may be relevant. "
-    "Call my_info_get_manifest before starting, then my_info_advance for each controlled answer. "
+    "Call my_info_get_manifest before starting, then my_info_advance for each controlled answer, adaptive selection, and approximate timing. "
     "Keep the returned state client-side. Never request names, account numbers, case details, "
     "medical details, or exact travel history. Use my_info_evaluate only for estimates and never "
     "claim that a record definitely exists."
@@ -220,7 +255,7 @@ mcp = MCPServer(
     title="My Info Canada",
     description="Privacy-minimizing questionnaire tools for estimating relevant Government of Canada personal information banks.",
     instructions=SERVER_INSTRUCTIONS,
-    version="0.1.0",
+    version="0.2.0",
 )
 
 
@@ -248,11 +283,13 @@ def my_info_get_manifest() -> ManifestOutput:
 def my_info_advance(
     state: SurveyState | None = None,
     answers: list[AnswerUpdate] | None = None,
+    refinements: list[RefinementUpdate] | None = None,
     locale: Locale = "en-CA",
 ) -> AdvanceOutput:
     result = advance(
         state.model_dump(exclude_none=True) if state else None,
         [answer.model_dump(exclude_none=True) for answer in answers] if answers else None,
+        [item.model_dump(exclude_none=True) for item in refinements] if refinements else None,
         locale=locale,
     )
     return AdvanceOutput.model_validate(result)
