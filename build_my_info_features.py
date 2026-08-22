@@ -24,7 +24,7 @@ from my_info.retention import derive_retention
 
 
 DEFAULT_OUTPUT_DIR = Path("data/derived/my_info")
-GENERATOR_VERSION = "1.0"
+GENERATOR_VERSION = "1.1"
 
 
 def _json(value: Any) -> str:
@@ -181,8 +181,25 @@ def write_outputs(
             handle.write(_json(row) + "\n")
 
     definitions = load_category_definitions()
+    source_snapshot = {
+        str(spib_path): {"sha256": _sha256(spib_path)},
+        str(pib_path): {"sha256": _sha256(pib_path)},
+    }
     questionnaire = {
+        "schema_version": "1.1",
+        "content_version": f"{generated_date}.1",
         "generator_version": GENERATOR_VERSION,
+        "data_snapshot": {
+            "generated_date": generated_date,
+            "source_files": source_snapshot,
+        },
+        "supported_locales": ["en-CA", "fr-CA"],
+        "privacy": {
+            "state_owner": "client",
+            "free_text_required": False,
+            "notice_en": "Do not provide account numbers, case details, health details, or other sensitive free text.",
+            "notice_fr": "Ne fournissez pas de numéros de compte, de détails de dossier, de renseignements sur la santé ou d'autres textes libres sensibles.",
+        },
         "questions": questionnaire_questions(),
         "personal_information_categories": [
             asdict(definitions[key])
@@ -206,10 +223,7 @@ def write_outputs(
     summary = {
         "generator_version": GENERATOR_VERSION,
         "generated_date": generated_date,
-        "source_files": {
-            str(spib_path): {"sha256": _sha256(spib_path)},
-            str(pib_path): {"sha256": _sha256(pib_path)},
-        },
+        "source_files": source_snapshot,
         "record_count": len(feature_rows),
         "scope_counts": dict(sorted(Counter(row["scope"] for row in feature_rows).items())),
         "category_assignment_count": len(category_rows),

@@ -88,6 +88,7 @@ Build and validate the derived dataset with:
 
 ```bash
 .venv/bin/python build_my_info_features.py --generated-date 2026-08-22
+.venv/bin/python scripts/audit_my_info_readability.py
 .venv/bin/python validate_my_info_features.py
 ```
 
@@ -96,6 +97,11 @@ PIB-to-category assignment CSV, full derivation evidence as JSONL, the bilingual
 contract, and a coverage summary. Category assignments and holding estimates are explicitly
 derived—not confirmations that an institution has a record about a particular person. Detailed
 matching and retention rules are documented in `MY_INFO_BUSINESS_LOGIC.md`.
+The generated questionnaire now includes controlled answer values, Flesch Reading Ease
+metadata for the English prompt, and bilingual progressive-help examples that name the
+institution and activity. The full wording audit is in
+`docs/MY_INFO_READABILITY_AUDIT.md`; Flesch is not used to judge the French copy. The proposed
+browser and AI-agent architecture is in `MY_INFO_INTERFACE_ARCHITECTURE.md`.
 
 ## Static data explorer
 

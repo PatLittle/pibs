@@ -646,17 +646,83 @@ def derive_many(
 
 
 def questionnaire_questions() -> list[dict[str, object]]:
-    """Return the stable, bilingual top-level questions for a UI or exporter."""
-    return [
-        {
+    """Return the stable, bilingual survey contract for a UI or agent.
+
+    Examples and readability results are presentation metadata.  They never
+    participate in PIB matching, so showing help cannot change a result.
+    """
+
+    # Local imports keep the matching taxonomy usable on its own and avoid
+    # making progressive-help content part of the derivation rules.
+    from .question_examples import help_for_question
+    from .readability import PROPOSED_QUESTION_WORDING_EN, flesch_reading_ease
+
+    rows: list[dict[str, object]] = []
+    for item in QUESTION_GROUPS:
+        help_text = help_for_question(item.code)
+        current = flesch_reading_ease(item.question_en)
+        candidate_question = PROPOSED_QUESTION_WORDING_EN.get(item.code, item.question_en)
+        candidate = flesch_reading_ease(candidate_question)
+        if help_text.familiarity == "unfamiliar":
+            web_display = "inline"
+            agent_offer = "proactive"
+        elif help_text.familiarity == "mixed":
+            web_display = "collapsed"
+            agent_offer = "on_hesitation"
+        else:
+            web_display = "on_request"
+            agent_offer = "on_request"
+
+        rows.append({
             "code": item.code,
             "question_en": item.question_en,
             "question_fr": item.question_fr,
+            "answer": {
+                "type": "single_select",
+                "values": ["yes", "no", "not_sure", "prefer_not_to_answer"],
+            },
+            "timing": {
+                "ask_after": ["yes"],
+                "response_type": "approximate_period_or_year",
+                "prompt_en": "About what year did this interaction last happen?",
+                "prompt_fr": "Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+            },
+            # Keep the legacy prompt fields during the contract transition.
             "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
             "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
-        }
-        for item in QUESTION_GROUPS
-    ]
+            "readability_en": {
+                "method": "flesch_reading_ease",
+                "score": current.score,
+                "band": current.band,
+                "outlier_below_60": current.is_outlier,
+                "candidate_question_en": candidate_question,
+                "candidate_score": candidate.score,
+                "candidate_band": candidate.band,
+                # Readability alone cannot detect a semantically compound gate.
+                # Preserve the independently reviewed routing recommendation.
+                "adaptive_split_recommended": bool(help_text.split_recommendation_en),
+            },
+            "help": {
+                "familiarity": help_text.familiarity,
+                "web_display": web_display,
+                "agent_offer": agent_offer,
+                "examples": [
+                    {
+                        "institution_en": example.institution_en,
+                        "institution_fr": example.institution_fr,
+                        "activity_en": example.activity_en,
+                        "activity_fr": example.activity_fr,
+                        "source_pib_keys": list(example.pib_keys),
+                        "evidence_note_en": example.evidence_note_en,
+                        "evidence_note_fr": example.evidence_note_fr,
+                    }
+                    for example in help_text.examples
+                ],
+                "split_recommendation_en": help_text.split_recommendation_en,
+                "split_recommendation_fr": help_text.split_recommendation_fr,
+            },
+        })
+    return rows
 
 
 def coverage_report(

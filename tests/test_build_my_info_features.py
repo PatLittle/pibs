@@ -1,5 +1,6 @@
 import tempfile
 import unittest
+import json
 from pathlib import Path
 
 from build_my_info_features import derive_outputs, write_outputs
@@ -63,6 +64,12 @@ class MyInfoBuilderTests(unittest.TestCase):
             self.assertTrue((root / "out/my_info_derivation_evidence.jsonl").exists())
             self.assertTrue((root / "out/my_info_questionnaire.json").exists())
             self.assertTrue((root / "out/my_info_summary.json").exists())
+            questionnaire = json.loads(
+                (root / "out/my_info_questionnaire.json").read_text(encoding="utf-8")
+            )
+            first = questionnaire["questions"][0]
+            self.assertIn("readability_en", first)
+            self.assertTrue(first["help"]["examples"])
 
 
 if __name__ == "__main__":

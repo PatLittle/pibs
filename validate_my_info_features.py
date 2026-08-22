@@ -35,6 +35,14 @@ def validate(output_dir: Path) -> dict[str, int]:
     ]
 
     errors: list[str] = []
+    if questionnaire.get("schema_version") != "1.1":
+        errors.append("questionnaire JSON has an unexpected schema_version")
+    if questionnaire.get("supported_locales") != ["en-CA", "fr-CA"]:
+        errors.append("questionnaire JSON must declare equivalent English and French locales")
+    if questionnaire.get("privacy", {}).get("state_owner") != "client":
+        errors.append("questionnaire JSON must keep survey state client-owned")
+    if questionnaire.get("data_snapshot", {}).get("source_files") != summary.get("source_files"):
+        errors.append("questionnaire JSON source snapshot must match the build summary")
     feature_ids = [row["record_id"] for row in features]
     if len(feature_ids) != len(set(feature_ids)):
         errors.append("feature CSV has duplicate record_id values")
@@ -56,6 +64,18 @@ def validate(output_dir: Path) -> dict[str, int]:
     expected_questions = {row["code"] for row in questionnaire_questions()}
     if declared_questions != expected_questions:
         errors.append("questionnaire JSON does not match the implemented question taxonomy")
+    for question in questionnaire["questions"]:
+        if question.get("readability_en", {}).get("method") != "flesch_reading_ease":
+            errors.append(f"{question.get('code')}: missing English readability result")
+        examples = question.get("help", {}).get("examples", [])
+        if not examples:
+            errors.append(f"{question.get('code')}: missing real-world examples")
+        for example in examples:
+            if not all(
+                example.get(field)
+                for field in ("institution_en", "institution_fr", "activity_en", "activity_fr")
+            ):
+                errors.append(f"{question.get('code')}: incomplete bilingual named example")
     used_questions = {
         code
         for row in features

@@ -65,6 +65,27 @@ class InteractionFeatureTests(unittest.TestCase):
         self.assertNotEqual(results[0]["record_key"], results[1]["record_key"])
         self.assertLess(len(questionnaire_questions()), 25)
 
+    def test_questionnaire_contract_includes_readability_and_named_help(self):
+        questions = questionnaire_questions()
+        self.assertTrue(questions)
+        for question in questions:
+            self.assertEqual("flesch_reading_ease", question["readability_en"]["method"])
+            self.assertIsInstance(question["readability_en"]["score"], float)
+            self.assertIn(
+                question["help"]["web_display"],
+                {"inline", "collapsed", "on_request"},
+            )
+            self.assertTrue(question["help"]["examples"])
+            for example in question["help"]["examples"]:
+                self.assertTrue(example["institution_en"])
+                self.assertTrue(example["institution_fr"])
+                self.assertTrue(example["activity_en"])
+                self.assertTrue(example["activity_fr"])
+            self.assertEqual(
+                ["yes", "no", "not_sure", "prefer_not_to_answer"],
+                question["answer"]["values"],
+            )
+
     def test_personal_information_contents_do_not_create_primary_questions(self):
         row = {
             "bank_number_key": "TEST PSE 001",

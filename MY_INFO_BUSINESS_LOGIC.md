@@ -62,6 +62,23 @@ closure, last administrative action, or warrant expiry date.
 7. Separate results into `likely still held`, `may still be held`, `likely disposed`, and
    `retention unknown`. Always link back to the source description when a link is available.
 
+Every current English top-level prompt is screened with the Flesch Reading Ease formula. A
+score below 60 is a review flag, not an automatic rewrite: wording still has to preserve the
+matching distinction. The generated contract retains both the current prompt and a shorter
+candidate. Flesch is an English measure and is not applied to the French wording.
+
+Each question also has structured bilingual help examples. Every example names a federal
+department or agency and a concrete activity, and source PIB keys are included when the local
+inventory contains direct evidence. Unfamiliar interactions can display examples immediately;
+mixed interactions can keep them behind a help control; familiar tax and travel interactions
+can offer them only on request. Examples explain a route but never prove that a record exists.
+
+Compound gates that span institutions or materially different retention triggers should become
+adaptive child questions. The highest-priority splits are taxes versus customs, military service
+versus veterans programs, security screening versus policing and corrections, and the broad
+business/licensing gate into contracting, firearms licensing, pleasure-craft operator cards,
+and pleasure-craft licences.
+
 Answers should remain in the browser for the website implementation. No answer history or
 analytics event should contain a person's selections unless a future, separately reviewed
 privacy design explicitly authorizes it.

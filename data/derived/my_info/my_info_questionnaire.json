@@ -1,5 +1,17 @@
 {
-  "generator_version": "1.0",
+  "content_version": "2026-08-22.1",
+  "data_snapshot": {
+    "generated_date": "2026-08-22",
+    "source_files": {
+      "institutions_infosource_docs/pib_table_en_fr_all.csv": {
+        "sha256": "a94f77d5c55b0b65434b9a1fa8ab57771fa6d8cd41b5de9fc52d9c7e81f565d7"
+      },
+      "spib_en_fr.csv": {
+        "sha256": "bbda3c9de3ba8fdbdd55122db38d3fcc5f40c37c71f8d6295624e2ad89b4eabf"
+      }
+    }
+  },
+  "generator_version": "1.1",
   "personal_information_categories": [
     {
       "category_id": "PI_CAT-1",
@@ -177,144 +189,1277 @@
       "name_fr": "Numéro d’assurance sociale (NAS)"
     }
   ],
+  "privacy": {
+    "free_text_required": false,
+    "notice_en": "Do not provide account numbers, case details, health details, or other sensitive free text.",
+    "notice_fr": "Ne fournissez pas de numéros de compte, de détails de dossier, de renseignements sur la santé ou d'autres textes libres sensibles.",
+    "state_owner": "client"
+  },
   "questions": [
     {
+      "answer": {
+        "type": "single_select",
+        "values": [
+          "yes",
+          "no",
+          "not_sure",
+          "prefer_not_to_answer"
+        ]
+      },
       "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
       "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
       "code": "q_government_work",
+      "help": {
+        "agent_offer": "on_hesitation",
+        "examples": [
+          {
+            "activity_en": "Applying for a job in the federal public service",
+            "activity_fr": "Postuler à un emploi dans la fonction publique fédérale",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Public Service Commission of Canada",
+            "institution_fr": "Commission de la fonction publique du Canada",
+            "source_pib_keys": [
+              "PSU 911",
+              "PSC PPU 040"
+            ]
+          },
+          {
+            "activity_en": "Having an employee file, pay records, or leave records",
+            "activity_fr": "Avoir un dossier d'employé, un dossier de paie ou un dossier de congé",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Treasury Board of Canada Secretariat or another federal employer",
+            "institution_fr": "Secrétariat du Conseil du Trésor du Canada ou un autre employeur fédéral",
+            "source_pib_keys": [
+              "PSE 901",
+              "PSE 903",
+              "PSE 904"
+            ]
+          }
+        ],
+        "familiarity": "mixed",
+        "split_recommendation_en": "Split job applications from employment records; their dates and retention triggers differ.",
+        "split_recommendation_fr": "Séparer les demandes d'emploi des dossiers d'emploi; leurs dates et leurs déclencheurs de conservation diffèrent.",
+        "web_display": "collapsed"
+      },
       "question_en": "Have you ever applied to work for, worked for, or received an employment-related service from the Government of Canada?",
-      "question_fr": "Avez-vous déjà postulé ou travaillé au gouvernement du Canada, ou reçu un service lié à cet emploi?"
+      "question_fr": "Avez-vous déjà postulé ou travaillé au gouvernement du Canada, ou reçu un service lié à cet emploi?",
+      "readability_en": {
+        "adaptive_split_recommended": true,
+        "band": "difficult",
+        "candidate_band": "easy",
+        "candidate_question_en": "Have you applied for a federal job or worked for one?",
+        "candidate_score": 80.3,
+        "method": "flesch_reading_ease",
+        "outlier_below_60": true,
+        "score": 36.2
+      },
+      "timing": {
+        "ask_after": [
+          "yes"
+        ],
+        "prompt_en": "About what year did this interaction last happen?",
+        "prompt_fr": "Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+        "response_type": "approximate_period_or_year"
+      }
     },
     {
+      "answer": {
+        "type": "single_select",
+        "values": [
+          "yes",
+          "no",
+          "not_sure",
+          "prefer_not_to_answer"
+        ]
+      },
       "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
       "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
       "code": "q_money_programs",
+      "help": {
+        "agent_offer": "on_hesitation",
+        "examples": [
+          {
+            "activity_en": "Applying for Employment Insurance benefits",
+            "activity_fr": "Demander des prestations d'assurance-emploi",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Employment and Social Development Canada / Service Canada",
+            "institution_fr": "Emploi et Développement social Canada / Service Canada",
+            "source_pib_keys": [
+              "ESDC PPU 151"
+            ]
+          },
+          {
+            "activity_en": "Applying for a veterans program or benefit through a Service Canada Centre",
+            "activity_fr": "Demander un programme ou une prestation pour vétérans dans un Centre Service Canada",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Veterans Affairs Canada, with Service Canada",
+            "institution_fr": "Anciens Combattants Canada, avec Service Canada",
+            "source_pib_keys": [
+              "ESDC PPU 701"
+            ]
+          }
+        ],
+        "familiarity": "mixed",
+        "split_recommendation_en": "Use named benefit families as child questions; 'other payment' is too broad to route reliably.",
+        "split_recommendation_fr": "Utiliser des familles de prestations nommées comme sous-questions; « autre paiement » est trop large pour orienter de façon fiable.",
+        "web_display": "collapsed"
+      },
       "question_en": "Have you ever applied for or received a federal benefit, grant, loan, reimbursement or other payment?",
-      "question_fr": "Avez-vous déjà demandé ou reçu une prestation, une subvention, un prêt, un remboursement ou un autre paiement fédéral?"
+      "question_fr": "Avez-vous déjà demandé ou reçu une prestation, une subvention, un prêt, un remboursement ou un autre paiement fédéral?",
+      "readability_en": {
+        "adaptive_split_recommended": true,
+        "band": "difficult",
+        "candidate_band": "standard",
+        "candidate_question_en": "Did a federal program give you money or other help?",
+        "candidate_score": 69.8,
+        "method": "flesch_reading_ease",
+        "outlier_below_60": true,
+        "score": 37.3
+      },
+      "timing": {
+        "ask_after": [
+          "yes"
+        ],
+        "prompt_en": "About what year did this interaction last happen?",
+        "prompt_fr": "Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+        "response_type": "approximate_period_or_year"
+      }
     },
     {
+      "answer": {
+        "type": "single_select",
+        "values": [
+          "yes",
+          "no",
+          "not_sure",
+          "prefer_not_to_answer"
+        ]
+      },
       "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
       "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
       "code": "q_tax_customs",
+      "help": {
+        "agent_offer": "on_request",
+        "examples": [
+          {
+            "activity_en": "Filing a federal income tax return",
+            "activity_fr": "Produire une déclaration fédérale de revenus",
+            "evidence_note_en": "The activity is familiar, but the current local CRA extract has no direct tax-return PIB record.",
+            "evidence_note_fr": "L'activité est familière, mais l'extrait local actuel de l'ARC ne contient pas de FRP direct sur les déclarations de revenus.",
+            "institution_en": "Canada Revenue Agency",
+            "institution_fr": "Agence du revenu du Canada",
+            "source_pib_keys": []
+          },
+          {
+            "activity_en": "Declaring goods after returning to Canada",
+            "activity_fr": "Déclarer des marchandises au retour au Canada",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Canada Border Services Agency",
+            "institution_fr": "Agence des services frontaliers du Canada",
+            "source_pib_keys": [
+              "CBSA PPU 018"
+            ]
+          }
+        ],
+        "familiarity": "common",
+        "split_recommendation_en": "Split taxes (CRA) from customs and duties (CBSA); a yes answer otherwise cannot identify the institution.",
+        "split_recommendation_fr": "Séparer les impôts (ARC) des douanes et droits (ASFC); une réponse affirmative ne permet sinon pas d'identifier l'institution.",
+        "web_display": "on_request"
+      },
       "question_en": "Have you filed federal taxes, paid federal duties, or made a customs declaration?",
-      "question_fr": "Avez-vous produit une déclaration de revenus fédérale, payé des droits fédéraux ou fait une déclaration douanière?"
+      "question_fr": "Avez-vous produit une déclaration de revenus fédérale, payé des droits fédéraux ou fait une déclaration douanière?",
+      "readability_en": {
+        "adaptive_split_recommended": true,
+        "band": "difficult",
+        "candidate_band": "standard",
+        "candidate_question_en": "Did you ever file federal taxes or declare goods at the border?",
+        "candidate_score": 67.8,
+        "method": "flesch_reading_ease",
+        "outlier_below_60": true,
+        "score": 37.5
+      },
+      "timing": {
+        "ask_after": [
+          "yes"
+        ],
+        "prompt_en": "About what year did this interaction last happen?",
+        "prompt_fr": "Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+        "response_type": "approximate_period_or_year"
+      }
     },
     {
+      "answer": {
+        "type": "single_select",
+        "values": [
+          "yes",
+          "no",
+          "not_sure",
+          "prefer_not_to_answer"
+        ]
+      },
       "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
       "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
       "code": "q_immigration",
+      "help": {
+        "agent_offer": "on_hesitation",
+        "examples": [
+          {
+            "activity_en": "Applying for Canadian citizenship or a permanent resident card",
+            "activity_fr": "Demander la citoyenneté canadienne ou une carte de résident permanent",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Immigration, Refugees and Citizenship Canada",
+            "institution_fr": "Immigration, Réfugiés et Citoyenneté Canada",
+            "source_pib_keys": [
+              "IRCC PPU 050",
+              "IRCC PPU 067"
+            ]
+          },
+          {
+            "activity_en": "Applying for a visitor visa or visitor status",
+            "activity_fr": "Demander un visa de visiteur ou un statut de visiteur",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Immigration, Refugees and Citizenship Canada",
+            "institution_fr": "Immigration, Réfugiés et Citoyenneté Canada",
+            "source_pib_keys": [
+              "IRCC PPU 055"
+            ]
+          }
+        ],
+        "familiarity": "mixed",
+        "split_recommendation_en": "Ask the process type next because citizenship, visitor, refugee, and permanent-residence records use different banks.",
+        "split_recommendation_fr": "Demander ensuite le type de processus, car les dossiers de citoyenneté, de visiteur, d'asile et de résidence permanente utilisent des FRP différents.",
+        "web_display": "collapsed"
+      },
       "question_en": "Have you used a Canadian immigration, refugee, visa, permanent-residence or citizenship process?",
-      "question_fr": "Avez-vous utilisé un processus canadien d’immigration, d’asile, de visa, de résidence permanente ou de citoyenneté?"
+      "question_fr": "Avez-vous utilisé un processus canadien d’immigration, d’asile, de visa, de résidence permanente ou de citoyenneté?",
+      "readability_en": {
+        "adaptive_split_recommended": true,
+        "band": "very difficult",
+        "candidate_band": "fairly easy",
+        "candidate_question_en": "Have you applied to move to Canada, stay here or become a citizen?",
+        "candidate_score": 70.0,
+        "method": "flesch_reading_ease",
+        "outlier_below_60": true,
+        "score": -9.8
+      },
+      "timing": {
+        "ask_after": [
+          "yes"
+        ],
+        "prompt_en": "About what year did this interaction last happen?",
+        "prompt_fr": "Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+        "response_type": "approximate_period_or_year"
+      }
     },
     {
+      "answer": {
+        "type": "single_select",
+        "values": [
+          "yes",
+          "no",
+          "not_sure",
+          "prefer_not_to_answer"
+        ]
+      },
       "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
       "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
       "code": "q_travel_border",
+      "help": {
+        "agent_offer": "on_request",
+        "examples": [
+          {
+            "activity_en": "Applying for a Canadian passport",
+            "activity_fr": "Demander un passeport canadien",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Immigration, Refugees and Citizenship Canada / Service Canada",
+            "institution_fr": "Immigration, Réfugiés et Citoyenneté Canada / Service Canada",
+            "source_pib_keys": [
+              "IRCC PPU 081",
+              "ESDC PPU 708"
+            ]
+          },
+          {
+            "activity_en": "Crossing the border or applying for NEXUS",
+            "activity_fr": "Franchir la frontière ou demander l'adhésion à NEXUS",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Canada Border Services Agency",
+            "institution_fr": "Agence des services frontaliers du Canada",
+            "source_pib_keys": [
+              "CBSA PPU 010",
+              "CBSA PPU 031"
+            ]
+          }
+        ],
+        "familiarity": "common",
+        "split_recommendation_en": "International travel can imply a CBSA interaction, but passport and NEXUS applications should remain separate child routes.",
+        "split_recommendation_fr": "Un voyage international peut supposer une interaction avec l'ASFC, mais les demandes de passeport et de NEXUS devraient rester des parcours secondaires distincts.",
+        "web_display": "on_request"
+      },
       "question_en": "Have you applied for a Canadian passport, crossed Canada’s border, or joined a trusted-traveller program?",
-      "question_fr": "Avez-vous demandé un passeport canadien, franchi la frontière canadienne ou adhéré à un programme de voyageurs dignes de confiance?"
+      "question_fr": "Avez-vous demandé un passeport canadien, franchi la frontière canadienne ou adhéré à un programme de voyageurs dignes de confiance?",
+      "readability_en": {
+        "adaptive_split_recommended": true,
+        "band": "very difficult",
+        "candidate_band": "standard",
+        "candidate_question_en": "Have you applied for a passport, crossed the border or used NEXUS?",
+        "candidate_score": 67.8,
+        "method": "flesch_reading_ease",
+        "outlier_below_60": true,
+        "score": 22.4
+      },
+      "timing": {
+        "ask_after": [
+          "yes"
+        ],
+        "prompt_en": "About what year did this interaction last happen?",
+        "prompt_fr": "Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+        "response_type": "approximate_period_or_year"
+      }
     },
     {
+      "answer": {
+        "type": "single_select",
+        "values": [
+          "yes",
+          "no",
+          "not_sure",
+          "prefer_not_to_answer"
+        ]
+      },
       "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
       "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
       "code": "q_health_disability",
+      "help": {
+        "agent_offer": "proactive",
+        "examples": [
+          {
+            "activity_en": "Applying for the Canadian Dental Care Plan",
+            "activity_fr": "Demander le Régime canadien de soins dentaires",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Employment and Social Development Canada / Service Canada",
+            "institution_fr": "Emploi et Développement social Canada / Service Canada",
+            "source_pib_keys": [
+              "ESDC PPU 712"
+            ]
+          },
+          {
+            "activity_en": "A health professional requesting special access to a medical device for a patient",
+            "activity_fr": "Un professionnel de la santé demandant l'accès spécial à un instrument médical pour un patient",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Health Canada",
+            "institution_fr": "Santé Canada",
+            "source_pib_keys": [
+              "HC PPU 430"
+            ]
+          }
+        ],
+        "familiarity": "unfamiliar",
+        "split_recommendation_en": "Do not infer Health Canada from being a health professional or receiving ordinary provincial care; ask about a named federal program or report.",
+        "split_recommendation_fr": "Ne pas déduire Santé Canada du seul fait d'être un professionnel de la santé ou de recevoir des soins provinciaux ordinaires; demander plutôt un programme ou un signalement fédéral nommé.",
+        "web_display": "inline"
+      },
       "question_en": "Have you received a federal health, dental, rehabilitation, disability or medical-device service?",
-      "question_fr": "Avez-vous reçu un service fédéral de santé, de soins dentaires, de réadaptation, d’invalidité ou d’appareil médical?"
+      "question_fr": "Avez-vous reçu un service fédéral de santé, de soins dentaires, de réadaptation, d’invalidité ou d’appareil médical?",
+      "readability_en": {
+        "adaptive_split_recommended": true,
+        "band": "very difficult",
+        "candidate_band": "fairly easy",
+        "candidate_question_en": "Did a federal health program give you care or support?",
+        "candidate_score": 78.2,
+        "method": "flesch_reading_ease",
+        "outlier_below_60": true,
+        "score": -23.9
+      },
+      "timing": {
+        "ask_after": [
+          "yes"
+        ],
+        "prompt_en": "About what year did this interaction last happen?",
+        "prompt_fr": "Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+        "response_type": "approximate_period_or_year"
+      }
     },
     {
+      "answer": {
+        "type": "single_select",
+        "values": [
+          "yes",
+          "no",
+          "not_sure",
+          "prefer_not_to_answer"
+        ]
+      },
       "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
       "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
       "code": "q_indigenous_services",
+      "help": {
+        "agent_offer": "proactive",
+        "examples": [
+          {
+            "activity_en": "Receiving First Nations and Inuit home and community care",
+            "activity_fr": "Recevoir des soins à domicile et en milieu communautaire pour les Premières Nations et les Inuit",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Indigenous Services Canada",
+            "institution_fr": "Services aux Autochtones Canada",
+            "source_pib_keys": [
+              "ISC PPU 019"
+            ]
+          },
+          {
+            "activity_en": "Applying for registration under the Indian Act or updating an Indian status record",
+            "activity_fr": "Demander l'inscription en vertu de la Loi sur les Indiens ou mettre à jour un dossier de statut d'Indien",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Indigenous Services Canada",
+            "institution_fr": "Services aux Autochtones Canada",
+            "source_pib_keys": [
+              "ISC PPU 110"
+            ]
+          }
+        ],
+        "familiarity": "unfamiliar",
+        "split_recommendation_en": "",
+        "split_recommendation_fr": "",
+        "web_display": "inline"
+      },
       "question_en": "Have you used a federal service specifically for First Nations, Inuit or Métis people?",
-      "question_fr": "Avez-vous utilisé un service fédéral destiné précisément aux membres des Premières Nations, aux Inuit ou aux Métis?"
+      "question_fr": "Avez-vous utilisé un service fédéral destiné précisément aux membres des Premières Nations, aux Inuit ou aux Métis?",
+      "readability_en": {
+        "adaptive_split_recommended": false,
+        "band": "difficult",
+        "candidate_band": "standard",
+        "candidate_question_en": "Have you used a federal service for First Nations, Inuit or Métis people?",
+        "candidate_score": 65.7,
+        "method": "flesch_reading_ease",
+        "outlier_below_60": true,
+        "score": 45.0
+      },
+      "timing": {
+        "ask_after": [
+          "yes"
+        ],
+        "prompt_en": "About what year did this interaction last happen?",
+        "prompt_fr": "Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+        "response_type": "approximate_period_or_year"
+      }
     },
     {
+      "answer": {
+        "type": "single_select",
+        "values": [
+          "yes",
+          "no",
+          "not_sure",
+          "prefer_not_to_answer"
+        ]
+      },
       "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
       "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
       "code": "q_military_veterans",
+      "help": {
+        "agent_offer": "on_hesitation",
+        "examples": [
+          {
+            "activity_en": "Applying to join or serving in the Canadian Armed Forces",
+            "activity_fr": "Demander à s'enrôler ou servir dans les Forces armées canadiennes",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Department of National Defence / Canadian Armed Forces",
+            "institution_fr": "Ministère de la Défense nationale / Forces armées canadiennes",
+            "source_pib_keys": [
+              "DND PPU 025",
+              "DND PPE 818"
+            ]
+          },
+          {
+            "activity_en": "Applying for a veterans program or benefit",
+            "activity_fr": "Demander un programme ou une prestation pour vétérans",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Veterans Affairs Canada",
+            "institution_fr": "Anciens Combattants Canada",
+            "source_pib_keys": [
+              "ESDC PPU 701"
+            ]
+          }
+        ],
+        "familiarity": "mixed",
+        "split_recommendation_en": "Split military service (DND/CAF) from veterans services (VAC); both may be true and usually have different dates.",
+        "split_recommendation_fr": "Séparer le service militaire (MDN/FAC) des services aux vétérans (ACC); les deux peuvent être vrais et ont habituellement des dates différentes.",
+        "web_display": "collapsed"
+      },
       "question_en": "Have you served in the Canadian Armed Forces or used a federal veterans program?",
-      "question_fr": "Avez-vous servi dans les Forces armées canadiennes ou utilisé un programme fédéral pour les vétérans?"
+      "question_fr": "Avez-vous servi dans les Forces armées canadiennes ou utilisé un programme fédéral pour les vétérans?",
+      "readability_en": {
+        "adaptive_split_recommended": true,
+        "band": "difficult",
+        "candidate_band": "standard",
+        "candidate_question_en": "Have you served in the Armed Forces or received help as a veteran?",
+        "candidate_score": 63.5,
+        "method": "flesch_reading_ease",
+        "outlier_below_60": true,
+        "score": 41.6
+      },
+      "timing": {
+        "ask_after": [
+          "yes"
+        ],
+        "prompt_en": "About what year did this interaction last happen?",
+        "prompt_fr": "Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+        "response_type": "approximate_period_or_year"
+      }
     },
     {
+      "answer": {
+        "type": "single_select",
+        "values": [
+          "yes",
+          "no",
+          "not_sure",
+          "prefer_not_to_answer"
+        ]
+      },
       "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
       "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
       "code": "q_education_training",
+      "help": {
+        "agent_offer": "on_hesitation",
+        "examples": [
+          {
+            "activity_en": "Receiving a Canada Student Grant or Canada Student Loan",
+            "activity_fr": "Recevoir une bourse ou un prêt d'études canadien",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Employment and Social Development Canada / Service Canada",
+            "institution_fr": "Emploi et Développement social Canada / Service Canada",
+            "source_pib_keys": [
+              "ESDC PPU 030"
+            ]
+          },
+          {
+            "activity_en": "Receiving a Canada Apprentice Loan for Red Seal technical training",
+            "activity_fr": "Recevoir un prêt canadien aux apprentis pour une formation technique Sceau rouge",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Employment and Social Development Canada / Service Canada",
+            "institution_fr": "Emploi et Développement social Canada / Service Canada",
+            "source_pib_keys": [
+              "ESDC PPU 709"
+            ]
+          }
+        ],
+        "familiarity": "mixed",
+        "split_recommendation_en": "",
+        "split_recommendation_fr": "",
+        "web_display": "collapsed"
+      },
       "question_en": "Have you applied for federal student aid, an apprenticeship, scholarship or training program?",
-      "question_fr": "Avez-vous demandé une aide fédérale aux étudiants, un apprentissage, une bourse ou un programme de formation?"
+      "question_fr": "Avez-vous demandé une aide fédérale aux étudiants, un apprentissage, une bourse ou un programme de formation?",
+      "readability_en": {
+        "adaptive_split_recommended": false,
+        "band": "difficult",
+        "candidate_band": "fairly easy",
+        "candidate_question_en": "Has the Government of Canada helped pay for your school or job training?",
+        "candidate_score": 70.0,
+        "method": "flesch_reading_ease",
+        "outlier_below_60": true,
+        "score": 30.9
+      },
+      "timing": {
+        "ask_after": [
+          "yes"
+        ],
+        "prompt_en": "About what year did this interaction last happen?",
+        "prompt_fr": "Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+        "response_type": "approximate_period_or_year"
+      }
     },
     {
+      "answer": {
+        "type": "single_select",
+        "values": [
+          "yes",
+          "no",
+          "not_sure",
+          "prefer_not_to_answer"
+        ]
+      },
       "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
       "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
       "code": "q_justice_safety",
+      "help": {
+        "agent_offer": "proactive",
+        "examples": [
+          {
+            "activity_en": "Completing a security or reliability screening for work or a contract",
+            "activity_fr": "Faire l'objet d'un filtrage de sécurité ou de fiabilité pour un emploi ou un contrat",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Royal Canadian Mounted Police",
+            "institution_fr": "Gendarmerie royale du Canada",
+            "source_pib_keys": [
+              "RCMP PPU 065",
+              "PSU 917"
+            ]
+          },
+          {
+            "activity_en": "Being admitted to or released from a federal correctional institution",
+            "activity_fr": "Être admis dans un établissement correctionnel fédéral ou en être libéré",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Correctional Service Canada",
+            "institution_fr": "Service correctionnel du Canada",
+            "source_pib_keys": [
+              "CSC PPU 025"
+            ]
+          }
+        ],
+        "familiarity": "unfamiliar",
+        "split_recommendation_en": "Security screening, police matters, and corrections should be separate child routes because they involve different institutions and highly different contexts.",
+        "split_recommendation_fr": "Le filtrage de sécurité, les affaires policières et les services correctionnels devraient être des parcours secondaires distincts, car ils concernent des institutions et des contextes très différents.",
+        "web_display": "inline"
+      },
       "question_en": "Have you been involved in a matter handled by federal law enforcement, security screening or corrections?",
-      "question_fr": "Avez-vous été impliqué dans une affaire relevant de l’application de la loi fédérale, du filtrage de sécurité ou des services correctionnels?"
+      "question_fr": "Avez-vous été impliqué dans une affaire relevant de l’application de la loi fédérale, du filtrage de sécurité ou des services correctionnels?",
+      "readability_en": {
+        "adaptive_split_recommended": true,
+        "band": "very difficult",
+        "candidate_band": "fairly difficult",
+        "candidate_question_en": "Did you have a security check or deal with a federal law officer, prison or parole?",
+        "candidate_score": 58.4,
+        "method": "flesch_reading_ease",
+        "outlier_below_60": true,
+        "score": 26.7
+      },
+      "timing": {
+        "ask_after": [
+          "yes"
+        ],
+        "prompt_en": "About what year did this interaction last happen?",
+        "prompt_fr": "Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+        "response_type": "approximate_period_or_year"
+      }
     },
     {
+      "answer": {
+        "type": "single_select",
+        "values": [
+          "yes",
+          "no",
+          "not_sure",
+          "prefer_not_to_answer"
+        ]
+      },
       "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
       "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
       "code": "q_complaint_appeal",
+      "help": {
+        "agent_offer": "proactive",
+        "examples": [
+          {
+            "activity_en": "Submitting a complaint about air travel",
+            "activity_fr": "Présenter une plainte concernant le transport aérien",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Canadian Transportation Agency",
+            "institution_fr": "Office des transports du Canada",
+            "source_pib_keys": [
+              "CTA PPU 014"
+            ]
+          },
+          {
+            "activity_en": "Submitting a complaint or asking CBSA to review a decision",
+            "activity_fr": "Présenter une plainte ou demander à l'ASFC de réviser une décision",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Canada Border Services Agency",
+            "institution_fr": "Agence des services frontaliers du Canada",
+            "source_pib_keys": [
+              "CBSA PPU 003",
+              "CBSA PPU 005"
+            ]
+          }
+        ],
+        "familiarity": "unfamiliar",
+        "split_recommendation_en": "",
+        "split_recommendation_fr": "",
+        "web_display": "inline"
+      },
       "question_en": "Have you made a complaint, grievance or appeal to a federal institution or tribunal?",
-      "question_fr": "Avez-vous présenté une plainte, un grief ou un appel à une institution ou à un tribunal fédéral?"
+      "question_fr": "Avez-vous présenté une plainte, un grief ou un appel à une institution ou à un tribunal fédéral?",
+      "readability_en": {
+        "adaptive_split_recommended": false,
+        "band": "difficult",
+        "candidate_band": "fairly easy",
+        "candidate_question_en": "Did you file a complaint or ask a federal office to review a choice it made?",
+        "candidate_score": 79.6,
+        "method": "flesch_reading_ease",
+        "outlier_below_60": true,
+        "score": 47.6
+      },
+      "timing": {
+        "ask_after": [
+          "yes"
+        ],
+        "prompt_en": "About what year did this interaction last happen?",
+        "prompt_fr": "Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+        "response_type": "approximate_period_or_year"
+      }
     },
     {
+      "answer": {
+        "type": "single_select",
+        "values": [
+          "yes",
+          "no",
+          "not_sure",
+          "prefer_not_to_answer"
+        ]
+      },
       "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
       "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
       "code": "q_access_privacy",
+      "help": {
+        "agent_offer": "proactive",
+        "examples": [
+          {
+            "activity_en": "Using the ATIP Online service to request government records or your personal information",
+            "activity_fr": "Utiliser le service d'AIPRP en ligne pour demander des documents gouvernementaux ou vos renseignements personnels",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Treasury Board of Canada Secretariat",
+            "institution_fr": "Secrétariat du Conseil du Trésor du Canada",
+            "source_pib_keys": [
+              "TBS PCE 805",
+              "PSU 901"
+            ]
+          },
+          {
+            "activity_en": "Asking an institution to correct personal information in its files under the Privacy Act",
+            "activity_fr": "Demander à une institution de corriger des renseignements personnels dans ses dossiers en vertu de la Loi sur la protection des renseignements personnels",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Veterans Affairs Canada or another federal institution that holds the record",
+            "institution_fr": "Anciens Combattants Canada ou une autre institution fédérale qui détient le document",
+            "source_pib_keys": [
+              "PSU 901"
+            ]
+          }
+        ],
+        "familiarity": "unfamiliar",
+        "split_recommendation_en": "",
+        "split_recommendation_fr": "",
+        "web_display": "inline"
+      },
       "question_en": "Have you made an access-to-information, personal-information access, or correction request?",
-      "question_fr": "Avez-vous présenté une demande d’accès à l’information, d’accès à vos renseignements personnels ou de correction?"
+      "question_fr": "Avez-vous présenté une demande d’accès à l’information, d’accès à vos renseignements personnels ou de correction?",
+      "readability_en": {
+        "adaptive_split_recommended": false,
+        "band": "very difficult",
+        "candidate_band": "standard",
+        "candidate_question_en": "Have you asked a federal office for records about you or to fix your records?",
+        "candidate_score": 67.5,
+        "method": "flesch_reading_ease",
+        "outlier_below_60": true,
+        "score": -23.3
+      },
+      "timing": {
+        "ask_after": [
+          "yes"
+        ],
+        "prompt_en": "About what year did this interaction last happen?",
+        "prompt_fr": "Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+        "response_type": "approximate_period_or_year"
+      }
     },
     {
+      "answer": {
+        "type": "single_select",
+        "values": [
+          "yes",
+          "no",
+          "not_sure",
+          "prefer_not_to_answer"
+        ]
+      },
       "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
       "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
       "code": "q_business_supplier",
+      "help": {
+        "agent_offer": "proactive",
+        "examples": [
+          {
+            "activity_en": "Bidding on or performing a federal professional-services contract",
+            "activity_fr": "Soumissionner ou exécuter un marché fédéral de services professionnels",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Public Services and Procurement Canada or another contracting department",
+            "institution_fr": "Services publics et Approvisionnement Canada ou un autre ministère contractant",
+            "source_pib_keys": [
+              "PSU 912"
+            ]
+          },
+          {
+            "activity_en": "Getting a Pleasure Craft Operator Card or licensing a pleasure craft",
+            "activity_fr": "Obtenir une carte de conducteur d'embarcation de plaisance ou un permis d'embarcation de plaisance",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Transport Canada",
+            "institution_fr": "Transports Canada",
+            "source_pib_keys": [
+              "TC PPU 023",
+              "TC PPU 044"
+            ]
+          },
+          {
+            "activity_en": "Applying for or renewing a firearms licence",
+            "activity_fr": "Demander ou renouveler un permis d'armes à feu",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Royal Canadian Mounted Police",
+            "institution_fr": "Gendarmerie royale du Canada",
+            "source_pib_keys": [
+              "RCMP PPU 007",
+              "RCMP PPU 100"
+            ]
+          }
+        ],
+        "familiarity": "unfamiliar",
+        "split_recommendation_en": "Replace the broad business gate with named child routes. Firearms licensing, a boating card, and a vessel licence must not be treated as the same generic permit.",
+        "split_recommendation_fr": "Remplacer la vaste question sur les entreprises par des parcours secondaires nommés. Le permis d'armes à feu, la carte de conducteur d'embarcation et le permis de bâtiment ne doivent pas être traités comme un même permis générique.",
+        "web_display": "inline"
+      },
       "question_en": "Have you owned or operated a business, held a federal licence or permit, or contracted with the federal government?",
-      "question_fr": "Avez-vous possédé ou exploité une entreprise, détenu une licence ou un permis fédéral, ou conclu un marché avec le gouvernement fédéral?"
+      "question_fr": "Avez-vous possédé ou exploité une entreprise, détenu une licence ou un permis fédéral, ou conclu un marché avec le gouvernement fédéral?",
+      "readability_en": {
+        "adaptive_split_recommended": true,
+        "band": "difficult",
+        "candidate_band": "standard",
+        "candidate_question_en": "Did you run a business, get a federal permit or sell goods or services to the government?",
+        "candidate_score": 60.2,
+        "method": "flesch_reading_ease",
+        "outlier_below_60": true,
+        "score": 31.7
+      },
+      "timing": {
+        "ask_after": [
+          "yes"
+        ],
+        "prompt_en": "About what year did this interaction last happen?",
+        "prompt_fr": "Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+        "response_type": "approximate_period_or_year"
+      }
     },
     {
+      "answer": {
+        "type": "single_select",
+        "values": [
+          "yes",
+          "no",
+          "not_sure",
+          "prefer_not_to_answer"
+        ]
+      },
       "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
       "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
       "code": "q_housing_property",
+      "help": {
+        "agent_offer": "proactive",
+        "examples": [
+          {
+            "activity_en": "Using the On-Reserve Housing Program ministerial loan guarantee",
+            "activity_fr": "Utiliser la garantie d'emprunt ministérielle du Programme de logement dans les réserves",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Indigenous Services Canada",
+            "institution_fr": "Services aux Autochtones Canada",
+            "source_pib_keys": [
+              "ISC PPU 011"
+            ]
+          },
+          {
+            "activity_en": "Living in or applying for Canadian Forces housing",
+            "activity_fr": "Habiter dans un logement des Forces canadiennes ou en faire la demande",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Department of National Defence / Canadian Armed Forces",
+            "institution_fr": "Ministère de la Défense nationale / Forces armées canadiennes",
+            "source_pib_keys": [
+              "DND PPU 885"
+            ]
+          }
+        ],
+        "familiarity": "unfamiliar",
+        "split_recommendation_en": "Ask about named federal programs; buying a home or having a mortgage alone does not establish a direct federal PIB interaction.",
+        "split_recommendation_fr": "Demander des programmes fédéraux nommés; l'achat d'une maison ou le simple fait d'avoir une hypothèque n'établit pas à lui seul une interaction directe avec un FRP fédéral.",
+        "web_display": "inline"
+      },
       "question_en": "Have you used a federal housing, mortgage, home-buying or property program?",
-      "question_fr": "Avez-vous utilisé un programme fédéral de logement, d’hypothèque, d’achat d’une maison ou de propriété?"
+      "question_fr": "Avez-vous utilisé un programme fédéral de logement, d’hypothèque, d’achat d’une maison ou de propriété?",
+      "readability_en": {
+        "adaptive_split_recommended": true,
+        "band": "difficult",
+        "candidate_band": "easy",
+        "candidate_question_en": "Have you used a federal program to rent or buy a home?",
+        "candidate_score": 81.9,
+        "method": "flesch_reading_ease",
+        "outlier_below_60": true,
+        "score": 34.2
+      },
+      "timing": {
+        "ask_after": [
+          "yes"
+        ],
+        "prompt_en": "About what year did this interaction last happen?",
+        "prompt_fr": "Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+        "response_type": "approximate_period_or_year"
+      }
     },
     {
+      "answer": {
+        "type": "single_select",
+        "values": [
+          "yes",
+          "no",
+          "not_sure",
+          "prefer_not_to_answer"
+        ]
+      },
       "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
       "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
       "code": "q_civic_contact",
+      "help": {
+        "agent_offer": "proactive",
+        "examples": [
+          {
+            "activity_en": "Registering to vote or applying to vote by mail in a federal election",
+            "activity_fr": "S'inscrire pour voter ou demander de voter par la poste à une élection fédérale",
+            "evidence_note_en": "The example is a real federal interaction, but no Elections Canada record appears in the current local PIB extract.",
+            "evidence_note_fr": "L'exemple est une interaction fédérale réelle, mais aucun dossier d'Élections Canada ne figure dans l'extrait local actuel des FRP.",
+            "institution_en": "Elections Canada",
+            "institution_fr": "Élections Canada",
+            "source_pib_keys": []
+          },
+          {
+            "activity_en": "Taking part in a consultation on health-protection legislation",
+            "activity_fr": "Participer à une consultation sur une loi de protection de la santé",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Health Canada",
+            "institution_fr": "Santé Canada",
+            "source_pib_keys": [
+              "HC PPU 051"
+            ]
+          }
+        ],
+        "familiarity": "unfamiliar",
+        "split_recommendation_en": "Split voting, petitions, direct correspondence, and consultations; they are not interchangeable and often route to different standard or institution-specific banks.",
+        "split_recommendation_fr": "Séparer le vote, les pétitions, la correspondance directe et les consultations; ces interactions ne sont pas interchangeables et mènent souvent à différents FRP ordinaires ou propres à une institution.",
+        "web_display": "inline"
+      },
       "question_en": "Have you contacted a federal institution, joined a consultation, signed a petition, or participated in a federal election process?",
-      "question_fr": "Avez-vous communiqué avec une institution fédérale, participé à une consultation, signé une pétition ou pris part à un processus électoral fédéral?"
+      "question_fr": "Avez-vous communiqué avec une institution fédérale, participé à une consultation, signé une pétition ou pris part à un processus électoral fédéral?",
+      "readability_en": {
+        "adaptive_split_recommended": true,
+        "band": "very difficult",
+        "candidate_band": "fairly easy",
+        "candidate_question_en": "Did you contact a federal office, share your views, sign a petition or vote?",
+        "candidate_score": 71.8,
+        "method": "flesch_reading_ease",
+        "outlier_below_60": true,
+        "score": 0.5
+      },
+      "timing": {
+        "ask_after": [
+          "yes"
+        ],
+        "prompt_en": "About what year did this interaction last happen?",
+        "prompt_fr": "Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+        "response_type": "approximate_period_or_year"
+      }
     },
     {
+      "answer": {
+        "type": "single_select",
+        "values": [
+          "yes",
+          "no",
+          "not_sure",
+          "prefer_not_to_answer"
+        ]
+      },
       "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
       "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
       "code": "q_culture_volunteer",
+      "help": {
+        "agent_offer": "proactive",
+        "examples": [
+          {
+            "activity_en": "Entering the Canada Day Challenge",
+            "activity_fr": "Participer au Défi de la fête du Canada",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Canadian Heritage",
+            "institution_fr": "Patrimoine canadien",
+            "source_pib_keys": [
+              "PCH PPU 027"
+            ]
+          },
+          {
+            "activity_en": "Registering with a federally run volunteer program",
+            "activity_fr": "S'inscrire à un programme fédéral de bénévolat",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Canadian Heritage",
+            "institution_fr": "Patrimoine canadien",
+            "source_pib_keys": [
+              "PCH PPU 070"
+            ]
+          }
+        ],
+        "familiarity": "unfamiliar",
+        "split_recommendation_en": "Prefer named programs. Simply visiting a park or museum does not necessarily create an identifiable personal record.",
+        "split_recommendation_fr": "Privilégier les programmes nommés. La simple visite d'un parc ou d'un musée ne crée pas nécessairement un dossier personnel identifiable.",
+        "web_display": "inline"
+      },
       "question_en": "Have you participated in or volunteered for a federally run cultural, sport, recreation, heritage or park activity?",
-      "question_fr": "Avez-vous participé ou fait du bénévolat à une activité fédérale de culture, de sport, de loisir, de patrimoine ou de parc?"
+      "question_fr": "Avez-vous participé ou fait du bénévolat à une activité fédérale de culture, de sport, de loisir, de patrimoine ou de parc?",
+      "readability_en": {
+        "adaptive_split_recommended": true,
+        "band": "very difficult",
+        "candidate_band": "standard",
+        "candidate_question_en": "Have you joined or helped with a federal arts, sports, heritage or parks event?",
+        "candidate_score": 65.7,
+        "method": "flesch_reading_ease",
+        "outlier_below_60": true,
+        "score": 10.4
+      },
+      "timing": {
+        "ask_after": [
+          "yes"
+        ],
+        "prompt_en": "About what year did this interaction last happen?",
+        "prompt_fr": "Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+        "response_type": "approximate_period_or_year"
+      }
     },
     {
+      "answer": {
+        "type": "single_select",
+        "values": [
+          "yes",
+          "no",
+          "not_sure",
+          "prefer_not_to_answer"
+        ]
+      },
       "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
       "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
       "code": "q_research_survey",
+      "help": {
+        "agent_offer": "proactive",
+        "examples": [
+          {
+            "activity_en": "Taking part in a study about pesticide exposure, air pollution, or another health risk",
+            "activity_fr": "Participer à une étude sur l'exposition aux pesticides, la pollution de l'air ou un autre risque pour la santé",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Health Canada",
+            "institution_fr": "Santé Canada",
+            "source_pib_keys": [
+              "HC PPU 035",
+              "HC PPU 314"
+            ]
+          },
+          {
+            "activity_en": "Leading, reviewing, or supporting a PHAC research project",
+            "activity_fr": "Diriger, évaluer ou appuyer un projet de recherche de l'ASPC",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Public Health Agency of Canada",
+            "institution_fr": "Agence de la santé publique du Canada",
+            "source_pib_keys": [
+              "PHAC PPU 290"
+            ]
+          }
+        ],
+        "familiarity": "unfamiliar",
+        "split_recommendation_en": "Separate survey respondent or study participant from researcher or peer reviewer; the bank and information collected differ.",
+        "split_recommendation_fr": "Séparer le répondant à un sondage ou le participant à une étude du chercheur ou de l'évaluateur par les pairs; le FRP et les renseignements recueillis diffèrent.",
+        "web_display": "inline"
+      },
       "question_en": "Have you taken part in federal research, a survey, testing or a focus group?",
-      "question_fr": "Avez-vous participé à une recherche, un sondage, un test ou un groupe de discussion du gouvernement fédéral?"
+      "question_fr": "Avez-vous participé à une recherche, un sondage, un test ou un groupe de discussion du gouvernement fédéral?",
+      "readability_en": {
+        "adaptive_split_recommended": true,
+        "band": "standard",
+        "candidate_band": "standard",
+        "candidate_question_en": "Have you taken part in federal research, a survey, testing or a focus group?",
+        "candidate_score": 65.7,
+        "method": "flesch_reading_ease",
+        "outlier_below_60": false,
+        "score": 65.7
+      },
+      "timing": {
+        "ask_after": [
+          "yes"
+        ],
+        "prompt_en": "About what year did this interaction last happen?",
+        "prompt_fr": "Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+        "response_type": "approximate_period_or_year"
+      }
     },
     {
+      "answer": {
+        "type": "single_select",
+        "values": [
+          "yes",
+          "no",
+          "not_sure",
+          "prefer_not_to_answer"
+        ]
+      },
       "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
       "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
       "code": "q_emergency",
+      "help": {
+        "agent_offer": "proactive",
+        "examples": [
+          {
+            "activity_en": "Receiving help in a search-and-rescue incident",
+            "activity_fr": "Recevoir de l'aide lors d'une opération de recherche et sauvetage",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Department of National Defence / Canadian Armed Forces",
+            "institution_fr": "Ministère de la Défense nationale / Forces armées canadiennes",
+            "source_pib_keys": [
+              "DND PPU 050"
+            ]
+          },
+          {
+            "activity_en": "Applying for temporary financial help after severe ice conditions affected a fishery",
+            "activity_fr": "Demander une aide financière temporaire après que de graves conditions de glace ont touché une pêche",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Fisheries and Oceans Canada",
+            "institution_fr": "Pêches et Océans Canada",
+            "source_pib_keys": [
+              "DFO PPU 045"
+            ]
+          }
+        ],
+        "familiarity": "unfamiliar",
+        "split_recommendation_en": "Ask which federal service responded; many emergency services are provincial, territorial, municipal, or delivered through another organization.",
+        "split_recommendation_fr": "Demander quel service fédéral est intervenu; de nombreux services d'urgence sont provinciaux, territoriaux, municipaux ou fournis par un autre organisme.",
+        "web_display": "inline"
+      },
       "question_en": "Have you requested or received federal help during an emergency, evacuation or disaster?",
-      "question_fr": "Avez-vous demandé ou reçu de l’aide fédérale lors d’une urgence, d’une évacuation ou d’une catastrophe?"
+      "question_fr": "Avez-vous demandé ou reçu de l’aide fédérale lors d’une urgence, d’une évacuation ou d’une catastrophe?",
+      "readability_en": {
+        "adaptive_split_recommended": true,
+        "band": "very difficult",
+        "candidate_band": "fairly easy",
+        "candidate_question_en": "Did you ask for federal help in a crisis or after a disaster?",
+        "candidate_score": 70.0,
+        "method": "flesch_reading_ease",
+        "outlier_below_60": true,
+        "score": 11.4
+      },
+      "timing": {
+        "ask_after": [
+          "yes"
+        ],
+        "prompt_en": "About what year did this interaction last happen?",
+        "prompt_fr": "Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+        "response_type": "approximate_period_or_year"
+      }
     },
     {
+      "answer": {
+        "type": "single_select",
+        "values": [
+          "yes",
+          "no",
+          "not_sure",
+          "prefer_not_to_answer"
+        ]
+      },
       "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
       "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
       "code": "q_family_vital",
+      "help": {
+        "agent_offer": "proactive",
+        "examples": [
+          {
+            "activity_en": "Applying for a Canada Pension Plan survivor or death benefit",
+            "activity_fr": "Demander une prestation de survivant ou de décès du Régime de pensions du Canada",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Employment and Social Development Canada / Service Canada",
+            "institution_fr": "Emploi et Développement social Canada / Service Canada",
+            "source_pib_keys": [
+              "ESDC PPU 146"
+            ]
+          },
+          {
+            "activity_en": "Having a First Nations estate administered by the department",
+            "activity_fr": "Faire administrer une succession des Premières Nations par le ministère",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Indigenous Services Canada",
+            "institution_fr": "Services aux Autochtones Canada",
+            "source_pib_keys": [
+              "ISC PPU 105"
+            ]
+          }
+        ],
+        "familiarity": "unfamiliar",
+        "split_recommendation_en": "Replace the broad life-event wording with named federal services. Birth, marriage, and death registration are ordinarily provincial or territorial activities.",
+        "split_recommendation_fr": "Remplacer le libellé général sur les événements de la vie par des services fédéraux nommés. L'enregistrement des naissances, mariages et décès relève habituellement des provinces ou des territoires.",
+        "web_display": "inline"
+      },
       "question_en": "Have you used a federal service involving a birth, marriage, divorce, adoption, child support, death or estate?",
-      "question_fr": "Avez-vous utilisé un service fédéral concernant une naissance, un mariage, un divorce, une adoption, une pension alimentaire, un décès ou une succession?"
+      "question_fr": "Avez-vous utilisé un service fédéral concernant une naissance, un mariage, un divorce, une adoption, une pension alimentaire, un décès ou une succession?",
+      "readability_en": {
+        "adaptive_split_recommended": true,
+        "band": "difficult",
+        "candidate_band": "standard",
+        "candidate_question_en": "Did you use a federal service for a birth, wedding, divorce, adoption or death?",
+        "candidate_score": 65.7,
+        "method": "flesch_reading_ease",
+        "outlier_below_60": true,
+        "score": 45.3
+      },
+      "timing": {
+        "ask_after": [
+          "yes"
+        ],
+        "prompt_en": "About what year did this interaction last happen?",
+        "prompt_fr": "Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+        "response_type": "approximate_period_or_year"
+      }
     }
   ],
   "retention_statuses": [
     "likely_held",
     "likely_disposed",
     "uncertain"
+  ],
+  "schema_version": "1.1",
+  "supported_locales": [
+    "en-CA",
+    "fr-CA"
   ]
 }
