@@ -41,6 +41,7 @@ def _browser_engine(source: str) -> str:
         1,
     )
     transformed = transformed.replace("\nexport const engine = new SurveyToolEngine();\n", "\n")
+    transformed = transformed.rstrip() + "\n"
     if "node:" in transformed or "DATA_DIR" in transformed or "new SurveyToolEngine();" in transformed:
         raise ValueError("Node-only survey engine code remained in the browser build")
     return transformed
