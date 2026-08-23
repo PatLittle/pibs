@@ -17,6 +17,8 @@ DERIVED = ROOT / "data/derived/my_info"
 ENGINE = ROOT / "packages/my-info-mcp/src/engine.mjs"
 WEB_SOURCE = ROOT / "my_info/web"
 SITE_OUTPUT = ROOT / "site/my_info"
+PERSONA_FIXTURES = ROOT / "data/test_personas/personas.json"
+PERSONA_PORTRAITS = ROOT / "data/test_personas/portraits"
 
 
 def _sha256_bytes(value: bytes) -> str:
@@ -47,6 +49,48 @@ def _browser_engine(source: str) -> str:
     return transformed
 
 
+def _public_personas(contract_version: str) -> tuple[bytes, dict[str, str]]:
+    source = json.loads(PERSONA_FIXTURES.read_text(encoding="utf-8"))
+    if source.get("contract_version") != contract_version:
+        raise ValueError("Persona fixtures do not match the web questionnaire contract")
+
+    public: list[dict[str, object]] = []
+    portrait_hashes: dict[str, str] = {}
+    for persona in source.get("personas", []):
+        identifier = persona.get("id")
+        if (
+            not persona.get("fictional")
+            or not isinstance(identifier, str)
+            or not re.fullmatch(r"[a-z0-9_]+", identifier)
+        ):
+            raise ValueError("Every public persona example must be explicitly fictional and have an id")
+        portrait = PERSONA_PORTRAITS / f"{identifier}.png"
+        if not portrait.is_file():
+            raise ValueError(f"Persona portrait is missing: {portrait}")
+        portrait_hashes[identifier] = _sha256_bytes(portrait.read_bytes())
+        public.append({
+            "id": identifier,
+            "display_name": persona["display_name"],
+            "subtitle": persona.get("subtitle", ""),
+            "summary": persona.get("summary", ""),
+            "cv": persona.get("cv", {}),
+            "episodes": persona.get("episodes", []),
+            "survey": persona["survey"],
+            "portrait_path": f"personas/{identifier}.png",
+        })
+
+    payload = {
+        "schema_version": source.get("schema_version"),
+        "contract_version": contract_version,
+        "synthetic_data_notice": source.get("synthetic_data_notice"),
+        "personas": public,
+    }
+    return (
+        json.dumps(payload, ensure_ascii=False, separators=(",", ":")).encode("utf-8"),
+        portrait_hashes,
+    )
+
+
 def build(output: Path = SITE_OUTPUT) -> dict[str, object]:
     contract_bytes = (DERIVED / "my_info_questionnaire.json").read_bytes()
     contract = json.loads(contract_bytes)
@@ -66,12 +110,20 @@ def build(output: Path = SITE_OUTPUT) -> dict[str, object]:
         ensure_ascii=False,
         separators=(",", ":"),
     ).encode("utf-8")
+    personas, portrait_hashes = _public_personas(contract["content_version"])
 
     output.mkdir(parents=True, exist_ok=True)
     for name in ("index.html", "app.mjs", "styles.css"):
         shutil.copy2(WEB_SOURCE / name, output / name)
     (output / "engine.mjs").write_text(browser_engine, encoding="utf-8")
     (output / "runtime.json").write_bytes(runtime)
+    (output / "personas.json").write_bytes(personas)
+    portrait_output = output / "personas"
+    if portrait_output.exists():
+        shutil.rmtree(portrait_output)
+    portrait_output.mkdir()
+    for identifier in portrait_hashes:
+        shutil.copy2(PERSONA_PORTRAITS / f"{identifier}.png", portrait_output / f"{identifier}.png")
 
     manifest = {
         "product": "My Info survey",
@@ -82,16 +134,20 @@ def build(output: Path = SITE_OUTPUT) -> dict[str, object]:
         "question_count": len(contract["questions"]),
         "adaptive_route_count": len(contract.get("adaptive_routes", [])),
         "pib_count": len(features),
+        "persona_count": len(portrait_hashes),
         "source_hashes": {
             "questionnaire_sha256": _sha256_bytes(contract_bytes),
             "feature_csv_sha256": _sha256_bytes(
                 (DERIVED / "my_info_pib_features.csv").read_bytes()
             ),
             "canonical_engine_sha256": _sha256_bytes(engine_source.encode("utf-8")),
+            "persona_fixtures_sha256": _sha256_bytes(PERSONA_FIXTURES.read_bytes()),
+            "persona_portrait_sha256": portrait_hashes,
         },
         "built_hashes": {
             "runtime_sha256": _sha256_bytes(runtime),
             "browser_engine_sha256": _sha256_bytes(browser_engine.encode("utf-8")),
+            "personas_sha256": _sha256_bytes(personas),
         },
     }
     (output / "manifest.json").write_text(

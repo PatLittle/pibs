@@ -30,6 +30,9 @@ const copy = {
     source: "View source description", whyMatched: "Why this matched", categories: "Categories of personal information", noCategory: "No category was derived",
     noFiltered: "No results match these filters.", answerPath: "Review your answer path", change: "Change",
     inventoryGap: "Known inventory gap", gapText: "A selected interaction has no defensible direct match in the current source inventory.",
+    personaExamples: "Explore example life stories and results", personaHint: "Four fictional personas show how different federal interactions affect the estimate.",
+    fictionalExample: "Fictional example", viewLifeStory: "View life story", lifeStory: "Life story", selectedTimeline: "Selected timeline",
+    close: "Close", closeExample: "Close example", results: "Results", exampleResultsFor: "Example results for",
     footer: "My Info is an experimental, source-backed estimate. It cannot confirm that an institution has a record about you.", sourceCode: "Source code and data",
     error: "The survey could not be loaded. Try refreshing the page.", confirmClear: "Clear every answer and start again?"
   },
@@ -56,6 +59,9 @@ const copy = {
     source: "Voir la description source", whyMatched: "Pourquoi cette correspondance", categories: "Catégories de renseignements personnels", noCategory: "Aucune catégorie n’a été dérivée",
     noFiltered: "Aucun résultat ne correspond à ces filtres.", answerPath: "Vérifier votre parcours de réponses", change: "Modifier",
     inventoryGap: "Lacune connue de l’inventaire", gapText: "Une interaction sélectionnée n’a aucune correspondance directe défendable dans l’inventaire source actuel.",
+    personaExamples: "Explorer des récits de vie et des résultats", personaHint: "Quatre profils fictifs montrent comment différentes interactions fédérales influencent l’estimation.",
+    fictionalExample: "Exemple fictif", viewLifeStory: "Voir le récit de vie", lifeStory: "Récit de vie", selectedTimeline: "Éléments du parcours",
+    close: "Fermer", closeExample: "Fermer l’exemple", results: "Résultats", exampleResultsFor: "Exemple de résultats pour",
     footer: "My Info fournit une estimation expérimentale fondée sur les sources. Il ne peut pas confirmer qu’une institution détient un dossier à votre sujet.", sourceCode: "Code source et données",
     error: "Le questionnaire n’a pas pu être chargé. Essayez d’actualiser la page.", confirmClear: "Effacer toutes les réponses et recommencer?"
   }
@@ -71,6 +77,9 @@ let current;
 let history = [];
 let allResults = [];
 let evaluation;
+let personas = [];
+let activePersona = null;
+let modalPersona = null;
 
 const t = (key) => copy[locale][key] ?? key;
 const questionFor = (code) => engine.questions[code];
@@ -95,6 +104,67 @@ function applyStaticCopy() {
   $("#clear-button").textContent = t("clear");
   $("#back-button").textContent = t("back");
   $("#continue-button").textContent = t("continue");
+  $("#persona-examples-title").textContent = t("personaExamples");
+  $("#persona-examples-hint").textContent = t("personaHint");
+  $("#persona-modal-label").textContent = t("fictionalExample");
+  $("#persona-modal-close").textContent = t("close");
+  $("#persona-results-button").textContent = t("results");
+  $("#persona-modal-close-icon").setAttribute("aria-label", t("closeExample"));
+}
+
+const humanHeading = (value) => ({
+  profile: locale === "fr-CA" ? "Profil" : "Profile",
+  experience: locale === "fr-CA" ? "Expérience professionnelle" : "Professional experience",
+  appointments_and_memberships: locale === "fr-CA" ? "Nominations et affiliations" : "Appointments and memberships",
+  education: locale === "fr-CA" ? "Études" : "Education",
+  sport: locale === "fr-CA" ? "Sport" : "Sport",
+  additional_life_context: locale === "fr-CA" ? "Autres éléments du parcours" : "Additional life context",
+  employment_events: locale === "fr-CA" ? "Événements professionnels" : "Employment events"
+})[value] || value.replaceAll("_", " ").replace(/\b\w/g, (letter) => letter.toUpperCase());
+
+function renderPersonaExamples() {
+  const section = $("#persona-examples");
+  if (!personas.length) { section.hidden = true; return; }
+  section.hidden = false;
+  $("#persona-grid").innerHTML = personas.map((persona) => `<button class="persona-card" type="button" data-persona-id="${escapeHtml(persona.id)}" aria-label="${escapeHtml(`${t("viewLifeStory")}: ${persona.display_name}`)}"><img src="${escapeHtml(persona.portrait_path)}" alt=""><span><strong>${escapeHtml(persona.display_name)}</strong><small>${escapeHtml(persona.subtitle)}</small></span></button>`).join("");
+  section.querySelectorAll("[data-persona-id]").forEach((button) => button.addEventListener("click", () => openPersona(button.dataset.personaId)));
+}
+
+function renderCvEntry(entry) {
+  if (typeof entry !== "object" || !entry) return `<div class="persona-cv-entry"><p>${escapeHtml(entry)}</p></div>`;
+  const title = entry.title || entry.role || entry.degree || entry.name || entry.activity || entry.organization || entry.institution || "";
+  const meta = [entry.organization, entry.institution, entry.period, entry.year].filter((value, index, values) => value && value !== title && values.indexOf(value) === index).join(" · ");
+  const description = entry.description || entry.summary || entry.details || "";
+  const highlights = entry.highlights || entry.bullets || entry.activities || [];
+  return `<article class="persona-cv-entry">${title ? `<h4>${escapeHtml(title)}</h4>` : ""}${meta ? `<p class="persona-entry-meta">${escapeHtml(meta)}</p>` : ""}${description ? `<p>${escapeHtml(description)}</p>` : ""}${highlights.length ? `<ul>${highlights.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : ""}</article>`;
+}
+
+function openPersona(personaId) {
+  const persona = personas.find((item) => item.id === personaId);
+  if (!persona) return;
+  modalPersona = persona;
+  const sections = Object.entries(persona.cv || {}).map(([key, values]) => {
+    const items = Array.isArray(values) ? values : [values];
+    return `<section><h3>${escapeHtml(humanHeading(key))}</h3>${items.map(renderCvEntry).join("")}</section>`;
+  }).join("");
+  const timeline = (persona.episodes || []).length ? `<section class="persona-timeline"><h3>${escapeHtml(t("selectedTimeline"))}</h3><ol>${persona.episodes.map((episode) => `<li><strong>${escapeHtml(episode.year)}</strong><span><b>${escapeHtml(episode.title)}</b>${escapeHtml(episode.details)}</span></li>`).join("")}</ol></section>` : "";
+  $("#persona-modal-content").innerHTML = `<header class="persona-modal-header"><img src="${escapeHtml(persona.portrait_path)}" alt=""><div><h2 id="persona-modal-title">${escapeHtml(persona.display_name)}</h2><p>${escapeHtml(persona.subtitle)}</p></div></header><section class="persona-story"><h3>${escapeHtml(t("lifeStory"))}</h3><p>${escapeHtml(persona.summary)}</p></section><div class="persona-cv-grid">${sections}</div>${timeline}`;
+  $("#persona-modal").showModal();
+}
+
+async function showPersonaResults() {
+  if (!modalPersona?.survey) return;
+  const response = engine.advance(
+    engine.createState(locale),
+    clone(modalPersona.survey.answers || []),
+    clone(modalPersona.survey.refinements || [])
+  );
+  if (!response.complete) throw new Error(`Persona fixture ${modalPersona.id} did not complete the survey`);
+  activePersona = modalPersona;
+  state = response.state;
+  history = [];
+  $("#persona-modal").close();
+  await renderResults();
 }
 
 function renderStep(response) {
@@ -195,7 +265,8 @@ async function renderResults() {
   const counts = Object.fromEntries(statusOrder.map((status) => [status, allResults.filter((result) => result.holding_status === status).length]));
   const total = allResults.length || 1;
   const institutions = [...new Set(allResults.map((result) => result.institution_name))].sort((a, b) => a.localeCompare(b));
-  region.innerHTML = `<div class="results-shell"><div class="result-head"><div><p class="beta-label">Beta</p><h2>${escapeHtml(t("resultTitle"))}</h2><p>${escapeHtml(allResults.length)} ${escapeHtml(t("matches"))}</p></div><div><button id="print-button" class="button button-secondary" type="button">${escapeHtml(t("print"))}</button></div></div><p class="caveat">${escapeHtml(t("resultIntro"))}</p>${evaluation.assessment.inventory_gaps.length ? `<div class="privacy-note"><strong>${escapeHtml(t("inventoryGap"))}</strong><br>${escapeHtml(t("gapText"))}</div>` : ""}<div class="summary-grid">${statusOrder.map((status) => `<div class="summary-stat" style="--status:${statusColors[status]}"><strong>${counts[status]}</strong><span>${escapeHtml(t(status))}</span></div>`).join("")}</div><div class="stacked-bar" role="img" aria-label="${statusOrder.map((status) => `${t(status)}: ${counts[status]}`).join(", ")}">${statusOrder.filter((status) => counts[status]).map((status) => `<span style="width:${counts[status] / total * 100}%;background:${statusColors[status]}">${counts[status]}</span>`).join("")}</div><div class="filters" aria-label="${escapeHtml(t("filters"))}"><label>${escapeHtml(t("institution"))}<select id="institution-filter"><option value="">${escapeHtml(t("allInstitutions"))}</option>${institutions.map((name) => `<option value="${escapeHtml(name)}">${escapeHtml(name)}</option>`).join("")}</select></label><label>${escapeHtml(t("status"))}<select id="status-filter"><option value="">${escapeHtml(t("allStatuses"))}</option>${statusOrder.map((status) => `<option value="${status}">${escapeHtml(t(status))}</option>`).join("")}</select></label><label>${escapeHtml(t("scope"))}<select id="scope-filter"><option value="">${escapeHtml(t("allScopes"))}</option><option value="institution_specific">${escapeHtml(t("institution_specific"))}</option><option value="standard">${escapeHtml(t("standard"))}</option></select></label></div><div id="result-list"></div>${renderAnswerTree()}<div class="actions"><button id="restart-button" class="button button-primary" type="button">${escapeHtml(t("restart"))}</button></div></div>`;
+  const personaLabel = activePersona ? `<p class="persona-result-label">${escapeHtml(t("exampleResultsFor"))} <strong>${escapeHtml(activePersona.display_name)}</strong></p>` : "";
+  region.innerHTML = `<div class="results-shell">${personaLabel}<div class="result-head"><div><p class="beta-label">Beta</p><h2>${escapeHtml(t("resultTitle"))}</h2><p>${escapeHtml(allResults.length)} ${escapeHtml(t("matches"))}</p></div><div><button id="print-button" class="button button-secondary" type="button">${escapeHtml(t("print"))}</button></div></div><p class="caveat">${escapeHtml(t("resultIntro"))}</p>${evaluation.assessment.inventory_gaps.length ? `<div class="privacy-note"><strong>${escapeHtml(t("inventoryGap"))}</strong><br>${escapeHtml(t("gapText"))}</div>` : ""}<div class="summary-grid">${statusOrder.map((status) => `<div class="summary-stat" style="--status:${statusColors[status]}"><strong>${counts[status]}</strong><span>${escapeHtml(t(status))}</span></div>`).join("")}</div><div class="stacked-bar" role="img" aria-label="${statusOrder.map((status) => `${t(status)}: ${counts[status]}`).join(", ")}">${statusOrder.filter((status) => counts[status]).map((status) => `<span style="width:${counts[status] / total * 100}%;background:${statusColors[status]}">${counts[status]}</span>`).join("")}</div><div class="filters" aria-label="${escapeHtml(t("filters"))}"><label>${escapeHtml(t("institution"))}<select id="institution-filter"><option value="">${escapeHtml(t("allInstitutions"))}</option>${institutions.map((name) => `<option value="${escapeHtml(name)}">${escapeHtml(name)}</option>`).join("")}</select></label><label>${escapeHtml(t("status"))}<select id="status-filter"><option value="">${escapeHtml(t("allStatuses"))}</option>${statusOrder.map((status) => `<option value="${status}">${escapeHtml(t(status))}</option>`).join("")}</select></label><label>${escapeHtml(t("scope"))}<select id="scope-filter"><option value="">${escapeHtml(t("allScopes"))}</option><option value="institution_specific">${escapeHtml(t("institution_specific"))}</option><option value="standard">${escapeHtml(t("standard"))}</option></select></label></div><div id="result-list"></div>${renderAnswerTree()}<div class="actions"><button id="restart-button" class="button button-primary" type="button">${escapeHtml(t("restart"))}</button></div></div>`;
   $("#print-button").addEventListener("click", () => window.print());
   $("#restart-button").addEventListener("click", resetSurvey);
   region.querySelectorAll("select").forEach((select) => select.addEventListener("change", renderFilteredResults));
@@ -241,6 +312,7 @@ function renderAnswerTree() {
 }
 
 function editQuestion(code) {
+  activePersona = null;
   const fresh = engine.createState(locale);
   for (const questionCode of engine.questionOrder) {
     if (questionCode === code) break;
@@ -254,6 +326,7 @@ function editQuestion(code) {
 }
 
 function resetSurvey() {
+  activePersona = null;
   state = engine.createState(locale);
   history = [];
   renderStep(engine.advance(state));
@@ -266,22 +339,46 @@ $("#back-button").addEventListener("click", () => {
   renderStep(engine.advance(state));
 });
 $("#clear-button").addEventListener("click", () => { if (window.confirm(t("confirmClear"))) resetSurvey(); });
+$("#persona-modal-close").addEventListener("click", () => $("#persona-modal").close());
+$("#persona-modal-close-icon").addEventListener("click", () => $("#persona-modal").close());
+$("#persona-modal").addEventListener("click", (event) => { if (event.target === $("#persona-modal")) $("#persona-modal").close(); });
+$("#persona-results-button").addEventListener("click", () => showPersonaResults().catch((error) => {
+  console.error("Persona fixture failed", error);
+  $("#persona-modal").close();
+  $("#error").hidden = false;
+  $("#error").textContent = t("error");
+}));
 $("#language-toggle").addEventListener("click", () => {
   locale = locale === "en-CA" ? "fr-CA" : "en-CA";
   if (state) state.locale = locale;
   applyStaticCopy();
+  renderPersonaExamples();
+  if ($("#persona-modal").open && modalPersona) {
+    $("#persona-modal").close();
+    openPersona(modalPersona.id);
+  }
   if (!$("#results-region").hidden) renderResults();
   else if (current) renderStep(engine.advance(state));
 });
 
 try {
-  const response = await fetch("runtime.json", { cache: "no-store" });
+  const [response, personaResponse] = await Promise.all([
+    fetch("runtime.json", { cache: "no-store" }),
+    fetch("personas.json", { cache: "no-store" })
+  ]);
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
   const runtime = await response.json();
+  if (personaResponse.ok) {
+    const personaPayload = await personaResponse.json();
+    personas = Array.isArray(personaPayload.personas) ? personaPayload.personas : [];
+  } else {
+    console.warn(`Persona examples unavailable: HTTP ${personaResponse.status}`);
+  }
   engine = new SurveyToolEngine(runtime.contract, runtime.features);
   manifest = engine.getManifest();
   state = engine.createState(locale);
   applyStaticCopy();
+  renderPersonaExamples();
   renderStep(engine.advance(state));
 } catch (error) {
   console.error("My Info initialization failed", error);

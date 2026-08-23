@@ -35,6 +35,16 @@
       <div id="loading" class="loading" role="status">Loading the survey…</div>
       <div id="error" class="error-panel" role="alert" hidden></div>
 
+      <section id="persona-examples" class="persona-examples" hidden aria-labelledby="persona-examples-title">
+        <details>
+          <summary>
+            <span id="persona-examples-title">Explore example life stories and results</span>
+            <small id="persona-examples-hint">Four fictional personas show how different federal interactions affect the estimate.</small>
+          </summary>
+          <div id="persona-grid" class="persona-grid"></div>
+        </details>
+      </section>
+
       <section id="survey-card" class="survey-card" hidden aria-live="polite">
         <div class="progress-row">
           <div>
@@ -53,6 +63,20 @@
 
       <section id="results-region" hidden></section>
     </main>
+
+    <dialog id="persona-modal" class="persona-modal" aria-labelledby="persona-modal-title">
+      <div class="persona-modal-shell">
+        <div class="persona-modal-topbar">
+          <p id="persona-modal-label" class="beta-label">Fictional example</p>
+          <button id="persona-modal-close-icon" class="modal-close" type="button" aria-label="Close example">×</button>
+        </div>
+        <div id="persona-modal-content"></div>
+        <div class="persona-modal-actions">
+          <button id="persona-modal-close" class="button button-secondary" type="button">Close</button>
+          <button id="persona-results-button" class="button button-primary" type="button">Results</button>
+        </div>
+      </div>
+    </dialog>
 
     <footer class="site-footer">
       <div class="footer-inner">

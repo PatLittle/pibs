@@ -77,6 +77,23 @@ process.stdout.write(JSON.stringify({manifest:engine.getManifest(), ids:engine.e
         self.assertEqual(python_ids, browser["ids"])
         self.assertEqual(python_engine.get_manifest(), browser["manifest"])
 
+    def test_build_includes_four_data_driven_persona_examples(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            output = Path(temporary)
+            manifest = build(output)
+            personas = json.loads((output / "personas.json").read_text(encoding="utf-8"))
+            html = (output / "index.html").read_text(encoding="utf-8")
+
+            self.assertEqual(4, manifest["persona_count"])
+            self.assertEqual(4, len(personas["personas"]))
+            self.assertLess(html.index('id="persona-examples"'), html.index('id="survey-card"'))
+            self.assertIn('id="persona-modal"', html)
+            for persona in personas["personas"]:
+                self.assertTrue(persona["survey"]["answers"])
+                self.assertTrue(persona["survey"]["refinements"])
+                self.assertNotIn("expectations", persona)
+                self.assertTrue((output / persona["portrait_path"]).is_file())
+
 
 if __name__ == "__main__":
     unittest.main()
