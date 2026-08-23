@@ -62,6 +62,7 @@ def export_bundle(output: Path) -> None:
                 "commit": _git_value("rev-parse", "HEAD"),
                 "date": _git_value("show", "-s", "--format=%ci", "HEAD"),
                 "tool_api_version": "0.2.0",
+                "release_stage": "beta",
                 "contract_version": contract["content_version"],
             },
             indent=2,

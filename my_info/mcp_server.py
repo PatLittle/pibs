@@ -66,6 +66,7 @@ class RefinementUpdate(StrictModel):
 
 
 class ManifestOutput(StrictModel):
+    release_stage: str
     tool_api_version: str
     state_schema_version: str
     contract_schema_version: str

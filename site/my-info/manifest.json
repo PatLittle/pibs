@@ -1,0 +1,19 @@
+{
+  "adaptive_route_count": 21,
+  "built_hashes": {
+    "browser_engine_sha256": "b69dd8fa2d1646eec292588f7b94a1701b1af4e7a77a6f17c8b291e527bc1b9f",
+    "runtime_sha256": "bbcce73dcb891c91b1953ca49b90901a85357b9476d6ca6f6087146c7cc2818c"
+  },
+  "contract_schema_version": "1.2",
+  "contract_version": "2026-08-22.3",
+  "pib_count": 1028,
+  "product": "My Info survey",
+  "question_count": 21,
+  "release_stage": "beta",
+  "source_hashes": {
+    "canonical_engine_sha256": "5600b168428e6e20ca41731cc94060f1e692a18c705246c961d3df82f17159db",
+    "feature_csv_sha256": "5edd159321f81a97c4c2578cf07a8ac68c43a4d93ba11e549e02beab3138510d",
+    "questionnaire_sha256": "f1de12ecaba536c6aa46cd5b31c9d0b32b249a391cd8d7d415e61fd455f7e64b"
+  },
+  "tool_api_version": "0.2.0"
+}

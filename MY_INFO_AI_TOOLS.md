@@ -1,6 +1,6 @@
 # My Info AI tools
 
-## Implemented slice
+## Agent-facing Beta
 
 My Info now has a framework-neutral survey engine and a local Model Context Protocol (MCP)
 adapter. Both use the generated questionnaire and PIB feature snapshot; neither reproduces
@@ -27,7 +27,7 @@ State uses controlled values only:
 ```json
 {
   "schema_version": "1.1",
-  "contract_version": "2026-08-22.2",
+  "contract_version": "2026-08-22.3",
   "locale": "en-CA",
   "answers": {
     "q_tax_customs": {"value": "yes"}
@@ -129,7 +129,7 @@ rows contain only a short retention-text excerpt so an agent is not flooded with
 
 ## Adaptive routing
 
-The contract contains 21 top-level gates and nine adaptive route groups. Direct route selections
+The Beta contract contains 21 top-level gates and 21 adaptive route groups. Direct route selections
 supersede the broad classifier and become strong matches even when the underlying PIB was only a
 candidate under the earlier keyword model. Implemented splits include:
 
@@ -143,10 +143,11 @@ candidate under the earlier keyword model. Implemented splits include:
 - explicit firearms and boating routes, including separate operator-card, craft-licence, and
   vessel-registration choices.
 
-The prior voice-session fixture falls from 347 broad strong matches to 54 route-aware strong
-matches. Further child routes are still needed for broad civic, health, immigration, research,
-and miscellaneous program answers. Tax filing currently produces an explicit inventory-gap
-notice instead of falsely mapping the blank CRA source rows.
+The prior voice-session fixture falls from 347 broad strong matches to 46 route-aware strong
+matches. Every affirmative top-level answer now asks for a concrete activity or named-program branch
+before timing. The branch uses direct PIB selectors where the current inventory supports one and
+otherwise labels the choice as partial, fallback, or an inventory gap. Tax filing and federal
+election registration currently produce explicit inventory-gap notices instead of false matches.
 
 ## Portable Netlify bundle
 

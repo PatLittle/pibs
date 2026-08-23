@@ -27,6 +27,7 @@ DEFAULT_EVIDENCE_PATH = ROOT / "data/derived/my_info/my_info_derivation_evidence
 
 STATE_SCHEMA_VERSION = "1.1"
 TOOL_API_VERSION = "0.2.0"
+RELEASE_STAGE = "beta"
 ANSWER_VALUES = ("yes", "no", "not_sure", "prefer_not_to_answer")
 TIMING_KINDS = (
     "current",
@@ -112,6 +113,7 @@ class SurveyToolEngine:
         """Return public versions, capabilities, and privacy constraints."""
 
         return {
+            "release_stage": RELEASE_STAGE,
             "tool_api_version": TOOL_API_VERSION,
             "state_schema_version": STATE_SCHEMA_VERSION,
             "contract_schema_version": self.contract["schema_version"],

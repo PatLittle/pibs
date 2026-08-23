@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Answer a private, browser-based survey to estimate which Government of Canada personal information banks may apply to you." />
+    <title>My Info survey (Beta)</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#survey-main">Skip to main content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="wordmark" href="../index.html" aria-label="Info Source Data Explorer home">
+          <span class="flag" aria-hidden="true">◆</span> Government of Canada
+        </a>
+        <button id="language-toggle" class="language-button" type="button">Français</button>
+      </div>
+    </header>
+
+    <main id="survey-main" class="shell" tabindex="-1">
+      <section class="intro" aria-labelledby="page-title">
+        <div>
+          <p class="beta-label">Beta · Prototype</p>
+          <h1 id="page-title">What personal information might the federal government have about you?</h1>
+          <p id="page-lede" class="lede">Answer questions about your interactions with federal programs. My Info will estimate which published Personal Information Banks may apply and whether the records are likely still held.</p>
+        </div>
+        <aside class="privacy-card">
+          <strong id="privacy-title">Private by design</strong>
+          <p id="privacy-copy">Your answers stay in this browser tab. They are not saved or sent to the My Info MCP service.</p>
+        </aside>
+      </section>
+
+      <div id="loading" class="loading" role="status">Loading the survey…</div>
+      <div id="error" class="error-panel" role="alert" hidden></div>
+
+      <section id="survey-card" class="survey-card" hidden aria-live="polite">
+        <div class="progress-row">
+          <div>
+            <span id="step-label" class="eyebrow"></span>
+            <p id="progress-copy" class="progress-copy"></p>
+          </div>
+          <button id="clear-button" class="text-button" type="button">Clear answers</button>
+        </div>
+        <div class="progress-track" aria-hidden="true"><span id="progress-bar"></span></div>
+        <div id="question-region"></div>
+        <div class="actions">
+          <button id="back-button" class="button button-secondary" type="button">Back</button>
+          <button id="continue-button" class="button button-primary" type="button" disabled>Continue</button>
+        </div>
+      </section>
+
+      <section id="results-region" hidden></section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p id="footer-copy"><strong>My Info</strong> is an experimental, source-backed estimate. It cannot confirm that an institution has a record about you.</p>
+        <a id="footer-source" href="https://github.com/PatLittle/pibs">Source code and data</a>
+      </div>
+    </footer>
+
+    <script type="module" src="app.mjs"></script>
+  </body>
+</html>

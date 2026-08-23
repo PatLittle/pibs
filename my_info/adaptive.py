@@ -12,7 +12,7 @@ from copy import deepcopy
 from typing import Any, Mapping
 
 
-ADAPTIVE_ROUTE_VERSION = "1.0"
+ADAPTIVE_ROUTE_VERSION = "2.0"
 
 
 def _option(
@@ -395,12 +395,136 @@ _ROUTES: tuple[dict[str, Any], ...] = (
 )
 
 
+_BETA_ROUTES: tuple[dict[str, Any], ...] = (
+    {
+        "parent_question_code": "q_immigration",
+        "prompt_en": "Which immigration or citizenship processes apply? Select all that apply.",
+        "prompt_fr": "Quelles démarches d'immigration ou de citoyenneté s'appliquent? Sélectionnez toutes les réponses pertinentes.",
+        "options": (
+            _option("citizenship_permanent_resident", "Canadian citizenship or a permanent resident card", "Citoyenneté canadienne ou carte de résident permanent", "Immigration, Refugees and Citizenship Canada", "Immigration, Réfugiés et Citoyenneté Canada", bank_numbers=("IRCC PPU 050", "IRCC PPU 067")),
+            _option("visitor_visa_status", "A visitor visa or visitor status", "Visa de visiteur ou statut de visiteur", "Immigration, Refugees and Citizenship Canada", "Immigration, Réfugiés et Citoyenneté Canada", bank_numbers=("IRCC PPU 055",)),
+            _option("other_immigration_process", "Another immigration, refugee or citizenship process", "Une autre démarche d'immigration, de réfugié ou de citoyenneté", "Immigration, Refugees and Citizenship Canada", "Immigration, Réfugiés et Citoyenneté Canada", coverage="fallback", fallback_to_parent=True),
+        ),
+    },
+    {
+        "parent_question_code": "q_health_disability",
+        "prompt_en": "Which federal health or disability services apply? Select all that apply.",
+        "prompt_fr": "Quels services fédéraux de santé ou d'invalidité s'appliquent? Sélectionnez toutes les réponses pertinentes.",
+        "options": (
+            _option("canadian_dental_care_plan", "The Canadian Dental Care Plan", "Régime canadien de soins dentaires", "Employment and Social Development Canada / Service Canada", "Emploi et Développement social Canada / Service Canada", bank_numbers=("ESDC PPU 712",)),
+            _option("medical_device_special_access", "Special access to a medical device", "Accès spécial à un instrument médical", "Health Canada", "Santé Canada", bank_numbers=("HC PPU 430",)),
+            _option("other_federal_health_support", "Another named federal health, rehabilitation or disability service", "Un autre service fédéral nommé de santé, de réadaptation ou d'invalidité", "Federal institution that ran the service", "Institution fédérale responsable du service", coverage="fallback", fallback_to_parent=True),
+        ),
+    },
+    {
+        "parent_question_code": "q_indigenous_services",
+        "prompt_en": "Which federal Indigenous services apply? Select all that apply.",
+        "prompt_fr": "Quels services fédéraux aux Autochtones s'appliquent? Sélectionnez toutes les réponses pertinentes.",
+        "options": (
+            _option("first_nations_home_care", "First Nations and Inuit home or community care", "Soins à domicile ou communautaires pour les Premières Nations et les Inuit", "Indigenous Services Canada", "Services aux Autochtones Canada", bank_numbers=("ISC PPU 019",)),
+            _option("indian_status_registration", "Registration under the Indian Act or an Indian status record update", "Inscription en vertu de la Loi sur les Indiens ou mise à jour d'un dossier de statut d'Indien", "Indigenous Services Canada", "Services aux Autochtones Canada", bank_numbers=("ISC PPU 110",)),
+            _option("other_indigenous_service", "Another federal First Nations, Inuit or Métis service", "Un autre service fédéral destiné aux Premières Nations, aux Inuit ou aux Métis", "Federal institution that ran the service", "Institution fédérale responsable du service", coverage="fallback", fallback_to_parent=True),
+        ),
+    },
+    {
+        "parent_question_code": "q_education_training",
+        "prompt_en": "Which federal education or training support applies? Select all that apply.",
+        "prompt_fr": "Quel soutien fédéral aux études ou à la formation s'applique? Sélectionnez toutes les réponses pertinentes.",
+        "options": (
+            _option("canada_student_aid", "A Canada Student Grant or Canada Student Loan", "Bourse canadienne pour étudiants ou prêt d'études canadien", "Employment and Social Development Canada / Service Canada", "Emploi et Développement social Canada / Service Canada", bank_numbers=("ESDC PPU 030",)),
+            _option("canada_apprentice_loan", "A Canada Apprentice Loan", "Prêt canadien aux apprentis", "Employment and Social Development Canada / Service Canada", "Emploi et Développement social Canada / Service Canada", bank_numbers=("ESDC PPU 709",)),
+            _option("other_education_training", "Another federal scholarship, training or education program", "Un autre programme fédéral de bourse, de formation ou d'études", "Federal institution that ran the program", "Institution fédérale responsable du programme", coverage="fallback", fallback_to_parent=True),
+        ),
+    },
+    {
+        "parent_question_code": "q_complaint_appeal",
+        "prompt_en": "Which federal complaint or review applies? Select all that apply.",
+        "prompt_fr": "Quelle plainte ou révision fédérale s'applique? Sélectionnez toutes les réponses pertinentes.",
+        "options": (
+            _option("air_travel_complaint", "An air-travel complaint", "Plainte concernant le transport aérien", "Canadian Transportation Agency", "Office des transports du Canada", bank_numbers=("CTA PPU 014",)),
+            _option("cbsa_complaint_review", "A CBSA complaint or request to review a decision", "Plainte à l'ASFC ou demande de révision d'une décision", "Canada Border Services Agency", "Agence des services frontaliers du Canada", bank_numbers=("CBSA PPU 003", "CBSA PPU 005")),
+            _option("other_complaint_appeal", "Another federal complaint, grievance or appeal", "Une autre plainte, un autre grief ou un autre appel fédéral", "Federal institution or tribunal involved", "Institution ou tribunal fédéral concerné", coverage="fallback", fallback_to_parent=True),
+        ),
+    },
+    {
+        "parent_question_code": "q_access_privacy",
+        "prompt_en": "What did you ask a federal office to do? Select all that apply.",
+        "prompt_fr": "Qu'avez-vous demandé à un bureau fédéral de faire? Sélectionnez toutes les réponses pertinentes.",
+        "options": (
+            _option("access_information_request", "Give me government records or my personal information", "Me donner des documents gouvernementaux ou mes renseignements personnels", "The federal institution involved, including requests sent through the ATIP Online service", "Institution fédérale concernée, y compris les demandes envoyées par le service AIPRP en ligne", bank_numbers=("TBS PCE 805", "PSU 901")),
+            _option("personal_information_correction", "Correct personal information in a federal file", "Corriger des renseignements personnels dans un dossier fédéral", "The federal institution that holds the record", "Institution fédérale qui détient le dossier", bank_numbers=("PSU 901",)),
+            _option("other_access_privacy", "Another access or privacy request", "Une autre demande d'accès ou de protection des renseignements personnels", "Federal institution involved", "Institution fédérale concernée", bank_numbers=("PSU 901",), coverage="partial"),
+        ),
+    },
+    {
+        "parent_question_code": "q_housing_property",
+        "prompt_en": "Which named federal housing service applies? Select all that apply.",
+        "prompt_fr": "Quel service fédéral de logement nommé s'applique? Sélectionnez toutes les réponses pertinentes.",
+        "options": (
+            _option("on_reserve_housing", "The On-Reserve Housing Program or its loan guarantee", "Programme de logement dans les réserves ou sa garantie de prêt", "Indigenous Services Canada", "Services aux Autochtones Canada", bank_numbers=("ISC PPU 011",)),
+            _option("canadian_forces_housing", "Canadian Forces housing", "Logements des Forces canadiennes", "Department of National Defence / Canadian Armed Forces", "Ministère de la Défense nationale / Forces armées canadiennes", bank_numbers=("DND PPU 885",)),
+            _option("other_federal_housing", "Another named federal housing or home-buying program", "Un autre programme fédéral nommé de logement ou d'achat d'une habitation", "Federal institution that ran the program", "Institution fédérale responsable du programme", coverage="fallback", fallback_to_parent=True),
+        ),
+    },
+    {
+        "parent_question_code": "q_civic_contact",
+        "prompt_en": "Which civic or public-participation activities apply? Select all that apply.",
+        "prompt_fr": "Quelles activités civiques ou de participation publique s'appliquent? Sélectionnez toutes les réponses pertinentes.",
+        "options": (
+            _option("federal_election", "Registered or applied to vote in a federal election", "Inscription ou demande de vote à une élection fédérale", "Elections Canada", "Élections Canada", coverage="inventory_gap"),
+            _option("federal_consultation", "Took part in a federal public consultation", "Participation à une consultation publique fédérale", "The department conducting the consultation, such as Health Canada", "Ministère responsable de la consultation, comme Santé Canada", bank_numbers=("HC PPU 051",), coverage="partial"),
+            _option("other_civic_contact", "Contacted a federal office, signed a petition or took part in another way", "Communication avec un bureau fédéral, signature d'une pétition ou autre participation", "Federal institution involved", "Institution fédérale concernée", coverage="fallback", fallback_to_parent=True),
+        ),
+    },
+    {
+        "parent_question_code": "q_culture_volunteer",
+        "prompt_en": "Which federal culture, recreation or volunteer activities apply? Select all that apply.",
+        "prompt_fr": "Quelles activités fédérales de culture, de loisirs ou de bénévolat s'appliquent? Sélectionnez toutes les réponses pertinentes.",
+        "options": (
+            _option("canada_day_challenge", "Entered the Canada Day Challenge", "Participation au Défi de la fête du Canada", "Canadian Heritage", "Patrimoine canadien", bank_numbers=("PCH PPU 027",)),
+            _option("federal_volunteer_program", "Registered with a federally run volunteer program", "Inscription à un programme de bénévolat fédéral", "Canadian Heritage or the federal institution running the program", "Patrimoine canadien ou institution fédérale responsable du programme", bank_numbers=("PCH PPU 070",), coverage="partial"),
+            _option("other_culture_recreation", "Another named federal arts, sport, heritage or parks activity", "Une autre activité fédérale nommée liée aux arts, aux sports, au patrimoine ou aux parcs", "Federal institution that ran the activity", "Institution fédérale responsable de l'activité", coverage="fallback", fallback_to_parent=True),
+        ),
+    },
+    {
+        "parent_question_code": "q_research_survey",
+        "prompt_en": "What was your role in federal research? Select all that apply.",
+        "prompt_fr": "Quel était votre rôle dans la recherche fédérale? Sélectionnez toutes les réponses pertinentes.",
+        "options": (
+            _option("research_participant", "I answered a survey, joined a study or took part in testing", "J'ai répondu à un sondage, participé à une étude ou pris part à des essais", "The institution conducting the research, such as Health Canada", "Institution responsable de la recherche, comme Santé Canada", bank_numbers=("HC PPU 035", "HC PPU 314"), coverage="partial"),
+            _option("researcher_reviewer", "I led, reviewed or supported a federal research project", "J'ai dirigé, évalué ou soutenu un projet de recherche fédéral", "The research institution, such as the Public Health Agency of Canada", "Institution de recherche, comme l'Agence de la santé publique du Canada", bank_numbers=("PHAC PPU 290",), coverage="partial"),
+            _option("other_research_survey", "Another federal research, survey or focus-group activity", "Une autre activité fédérale de recherche, de sondage ou de groupe de discussion", "Federal institution that ran the activity", "Institution fédérale responsable de l'activité", coverage="fallback", fallback_to_parent=True),
+        ),
+    },
+    {
+        "parent_question_code": "q_emergency",
+        "prompt_en": "Which federal emergency service helped you? Select all that apply.",
+        "prompt_fr": "Quel service d'urgence fédéral vous a aidé? Sélectionnez toutes les réponses pertinentes.",
+        "options": (
+            _option("search_and_rescue", "A Canadian Armed Forces search-and-rescue response", "Intervention de recherche et sauvetage des Forces armées canadiennes", "Department of National Defence / Canadian Armed Forces", "Ministère de la Défense nationale / Forces armées canadiennes", bank_numbers=("DND PPU 050",)),
+            _option("fishery_ice_assistance", "Temporary fishery help after severe ice conditions", "Aide temporaire aux pêches après de graves conditions de glace", "Fisheries and Oceans Canada", "Pêches et Océans Canada", bank_numbers=("DFO PPU 045",)),
+            _option("other_federal_emergency", "Another named federal emergency or disaster service", "Un autre service fédéral nommé d'urgence ou de catastrophe", "Federal institution that provided the service", "Institution fédérale qui a fourni le service", coverage="fallback", fallback_to_parent=True),
+        ),
+    },
+    {
+        "parent_question_code": "q_family_vital",
+        "prompt_en": "Which named federal life-event service applies? Select all that apply.",
+        "prompt_fr": "Quel service fédéral nommé lié à un événement de vie s'applique? Sélectionnez toutes les réponses pertinentes.",
+        "options": (
+            _option("cpp_survivor_death_benefit", "A Canada Pension Plan survivor or death benefit", "Prestation de survivant ou de décès du Régime de pensions du Canada", "Employment and Social Development Canada / Service Canada", "Emploi et Développement social Canada / Service Canada", bank_numbers=("ESDC PPU 146",)),
+            _option("first_nations_estate", "Administration of a First Nations estate", "Administration d'une succession des Premières Nations", "Indigenous Services Canada", "Services aux Autochtones Canada", bank_numbers=("ISC PPU 105",)),
+            _option("other_federal_life_event", "Another named federal birth, marriage, divorce, adoption or death service", "Un autre service fédéral nommé lié à une naissance, un mariage, un divorce, une adoption ou un décès", "Federal institution that ran the service", "Institution fédérale responsable du service", coverage="fallback", fallback_to_parent=True),
+        ),
+    },
+)
+
+
 def adaptive_routes() -> list[dict[str, Any]]:
     """Return a JSON-serializable copy of the curated route contract."""
 
     return deepcopy([
         {**route, "options": list(route["options"])}
-        for route in _ROUTES
+        for route in _ROUTES + _BETA_ROUTES
     ])
 
 

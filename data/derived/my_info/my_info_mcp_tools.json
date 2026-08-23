@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "manifest": {
-    "adaptive_route_count": 9,
-    "adaptive_route_version": "1.0",
+    "adaptive_route_count": 21,
+    "adaptive_route_version": "2.0",
     "answer_values": [
       "yes",
       "no",
@@ -10,7 +10,7 @@
       "prefer_not_to_answer"
     ],
     "contract_schema_version": "1.2",
-    "contract_version": "2026-08-22.2",
+    "contract_version": "2026-08-22.3",
     "data_snapshot": {
       "generated_date": "2026-08-22",
       "source_files": {
@@ -37,6 +37,7 @@
       "state_owner": "client"
     },
     "question_count": 21,
+    "release_stage": "beta",
     "state_schema_version": "1.1",
     "supported_locales": [
       "en-CA",
@@ -1977,6 +1978,10 @@
             "title": "Question Count",
             "type": "integer"
           },
+          "release_stage": {
+            "title": "Release Stage",
+            "type": "string"
+          },
           "state_schema_version": {
             "title": "State Schema Version",
             "type": "string"
@@ -2008,6 +2013,7 @@
           }
         },
         "required": [
+          "release_stage",
           "tool_api_version",
           "state_schema_version",
           "contract_schema_version",

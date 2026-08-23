@@ -39,7 +39,7 @@ The current repository already supplies much of the lower layer:
 - `build_my_info_features.py` generates a bilingual questionnaire and auditable PIB feature datasets; and
 - `data/derived/my_info/my_info_questionnaire.json` is the natural starting point for a portable contract.
 
-The next step is to turn that generated questionnaire from a flat question list into an explicit state-machine contract. Both interfaces must consume the same generated artifact and call the same evaluation code. This prevents the web and agent experiences from silently producing different results.
+The Beta now implements this as an explicit state-machine contract: all 21 top-level questions can branch to concrete activity choices and separate timing nodes. The MCP adapter and generated browser engine consume the same contract and evaluation source. A cross-runtime fixture and source hashes fail validation if the browser and agent paths drift.
 
 ## Canonical survey contract
 

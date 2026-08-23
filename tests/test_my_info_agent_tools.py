@@ -24,14 +24,14 @@ VOICE_SESSION_ANSWERS = [
     {"question_code": "q_education_training", "value": "no"},
     {"question_code": "q_justice_safety", "value": "yes"},
     {"question_code": "q_complaint_appeal", "value": "no"},
-    {"question_code": "q_access_privacy", "value": "yes", "timing": {"kind": "approximate_year", "year": 2023}},
+    {"question_code": "q_access_privacy", "value": "yes"},
     {"question_code": "q_business_supplier", "value": "no"},
     {"question_code": "q_firearms", "value": "no"},
     {"question_code": "q_boating", "value": "no"},
     {"question_code": "q_housing_property", "value": "no"},
-    {"question_code": "q_civic_contact", "value": "yes", "timing": {"kind": "within_1_year"}},
+    {"question_code": "q_civic_contact", "value": "yes"},
     {"question_code": "q_culture_volunteer", "value": "no"},
-    {"question_code": "q_research_survey", "value": "yes", "timing": {"kind": "4_to_7_years"}},
+    {"question_code": "q_research_survey", "value": "yes"},
     {"question_code": "q_emergency", "value": "no"},
     {"question_code": "q_family_vital", "value": "no"},
 ]
@@ -73,6 +73,21 @@ VOICE_SESSION_REFINEMENTS = [
         "selected_options": ["security_screening"],
         "timings": {"security_screening": {"kind": "within_1_year"}},
     },
+    {
+        "question_code": "q_access_privacy",
+        "selected_options": ["access_information_request"],
+        "timings": {"access_information_request": {"kind": "approximate_year", "year": 2023}},
+    },
+    {
+        "question_code": "q_civic_contact",
+        "selected_options": ["other_civic_contact"],
+        "timings": {"other_civic_contact": {"kind": "within_1_year"}},
+    },
+    {
+        "question_code": "q_research_survey",
+        "selected_options": ["other_research_survey"],
+        "timings": {"other_research_survey": {"kind": "4_to_7_years"}},
+    },
 ]
 
 
@@ -85,7 +100,7 @@ class AgentToolEngineTests(unittest.TestCase):
         manifest = self.engine.get_manifest()
         self.assertEqual(4, len(manifest["tools"]))
         self.assertEqual(21, manifest["question_count"])
-        self.assertEqual(9, manifest["adaptive_route_count"])
+        self.assertEqual(21, manifest["adaptive_route_count"])
         self.assertEqual(1028, manifest["pib_count"])
         start = self.engine.advance()
         self.assertFalse(start["complete"])

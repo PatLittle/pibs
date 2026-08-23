@@ -27,7 +27,7 @@ test("manifest and adaptive advance are versioned", () => {
   const manifest = engine.getManifest();
   assert.equal(manifest.tool_api_version, "0.2.0");
   assert.equal(manifest.question_count, 21);
-  assert.equal(manifest.adaptive_route_count, 9);
+  assert.equal(manifest.adaptive_route_count, 21);
   let step = engine.advance();
   step = engine.advance(step.state, [{ question_code: "q_government_work", value: "yes" }]);
   assert.equal(step.next_step.step_type, "refinement");

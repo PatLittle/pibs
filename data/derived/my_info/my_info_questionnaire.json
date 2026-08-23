@@ -1,5 +1,5 @@
 {
-  "adaptive_route_version": "1.0",
+  "adaptive_route_version": "2.0",
   "adaptive_routes": [
     {
       "options": [
@@ -623,9 +623,613 @@
       "parent_question_code": "q_boating",
       "prompt_en": "Which federal boating interactions apply? Select all that apply.",
       "prompt_fr": "Quelles interactions fédérales liées à la navigation s'appliquent? Sélectionnez toutes les réponses pertinentes."
+    },
+    {
+      "options": [
+        {
+          "ask_timing": true,
+          "code": "citizenship_permanent_resident",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Immigration, Refugees and Citizenship Canada",
+          "institution_fr": "Immigration, Réfugiés et Citoyenneté Canada",
+          "label_en": "Canadian citizenship or a permanent resident card",
+          "label_fr": "Citoyenneté canadienne ou carte de résident permanent",
+          "selectors": {
+            "bank_numbers": [
+              "IRCC PPU 050",
+              "IRCC PPU 067"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "visitor_visa_status",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Immigration, Refugees and Citizenship Canada",
+          "institution_fr": "Immigration, Réfugiés et Citoyenneté Canada",
+          "label_en": "A visitor visa or visitor status",
+          "label_fr": "Visa de visiteur ou statut de visiteur",
+          "selectors": {
+            "bank_numbers": [
+              "IRCC PPU 055"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "other_immigration_process",
+          "coverage": "fallback",
+          "fallback_to_parent": true,
+          "institution_en": "Immigration, Refugees and Citizenship Canada",
+          "institution_fr": "Immigration, Réfugiés et Citoyenneté Canada",
+          "label_en": "Another immigration, refugee or citizenship process",
+          "label_fr": "Une autre démarche d'immigration, de réfugié ou de citoyenneté",
+          "selectors": {
+            "bank_numbers": []
+          }
+        }
+      ],
+      "parent_question_code": "q_immigration",
+      "prompt_en": "Which immigration or citizenship processes apply? Select all that apply.",
+      "prompt_fr": "Quelles démarches d'immigration ou de citoyenneté s'appliquent? Sélectionnez toutes les réponses pertinentes."
+    },
+    {
+      "options": [
+        {
+          "ask_timing": true,
+          "code": "canadian_dental_care_plan",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Employment and Social Development Canada / Service Canada",
+          "institution_fr": "Emploi et Développement social Canada / Service Canada",
+          "label_en": "The Canadian Dental Care Plan",
+          "label_fr": "Régime canadien de soins dentaires",
+          "selectors": {
+            "bank_numbers": [
+              "ESDC PPU 712"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "medical_device_special_access",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Health Canada",
+          "institution_fr": "Santé Canada",
+          "label_en": "Special access to a medical device",
+          "label_fr": "Accès spécial à un instrument médical",
+          "selectors": {
+            "bank_numbers": [
+              "HC PPU 430"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "other_federal_health_support",
+          "coverage": "fallback",
+          "fallback_to_parent": true,
+          "institution_en": "Federal institution that ran the service",
+          "institution_fr": "Institution fédérale responsable du service",
+          "label_en": "Another named federal health, rehabilitation or disability service",
+          "label_fr": "Un autre service fédéral nommé de santé, de réadaptation ou d'invalidité",
+          "selectors": {
+            "bank_numbers": []
+          }
+        }
+      ],
+      "parent_question_code": "q_health_disability",
+      "prompt_en": "Which federal health or disability services apply? Select all that apply.",
+      "prompt_fr": "Quels services fédéraux de santé ou d'invalidité s'appliquent? Sélectionnez toutes les réponses pertinentes."
+    },
+    {
+      "options": [
+        {
+          "ask_timing": true,
+          "code": "first_nations_home_care",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Indigenous Services Canada",
+          "institution_fr": "Services aux Autochtones Canada",
+          "label_en": "First Nations and Inuit home or community care",
+          "label_fr": "Soins à domicile ou communautaires pour les Premières Nations et les Inuit",
+          "selectors": {
+            "bank_numbers": [
+              "ISC PPU 019"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "indian_status_registration",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Indigenous Services Canada",
+          "institution_fr": "Services aux Autochtones Canada",
+          "label_en": "Registration under the Indian Act or an Indian status record update",
+          "label_fr": "Inscription en vertu de la Loi sur les Indiens ou mise à jour d'un dossier de statut d'Indien",
+          "selectors": {
+            "bank_numbers": [
+              "ISC PPU 110"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "other_indigenous_service",
+          "coverage": "fallback",
+          "fallback_to_parent": true,
+          "institution_en": "Federal institution that ran the service",
+          "institution_fr": "Institution fédérale responsable du service",
+          "label_en": "Another federal First Nations, Inuit or Métis service",
+          "label_fr": "Un autre service fédéral destiné aux Premières Nations, aux Inuit ou aux Métis",
+          "selectors": {
+            "bank_numbers": []
+          }
+        }
+      ],
+      "parent_question_code": "q_indigenous_services",
+      "prompt_en": "Which federal Indigenous services apply? Select all that apply.",
+      "prompt_fr": "Quels services fédéraux aux Autochtones s'appliquent? Sélectionnez toutes les réponses pertinentes."
+    },
+    {
+      "options": [
+        {
+          "ask_timing": true,
+          "code": "canada_student_aid",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Employment and Social Development Canada / Service Canada",
+          "institution_fr": "Emploi et Développement social Canada / Service Canada",
+          "label_en": "A Canada Student Grant or Canada Student Loan",
+          "label_fr": "Bourse canadienne pour étudiants ou prêt d'études canadien",
+          "selectors": {
+            "bank_numbers": [
+              "ESDC PPU 030"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "canada_apprentice_loan",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Employment and Social Development Canada / Service Canada",
+          "institution_fr": "Emploi et Développement social Canada / Service Canada",
+          "label_en": "A Canada Apprentice Loan",
+          "label_fr": "Prêt canadien aux apprentis",
+          "selectors": {
+            "bank_numbers": [
+              "ESDC PPU 709"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "other_education_training",
+          "coverage": "fallback",
+          "fallback_to_parent": true,
+          "institution_en": "Federal institution that ran the program",
+          "institution_fr": "Institution fédérale responsable du programme",
+          "label_en": "Another federal scholarship, training or education program",
+          "label_fr": "Un autre programme fédéral de bourse, de formation ou d'études",
+          "selectors": {
+            "bank_numbers": []
+          }
+        }
+      ],
+      "parent_question_code": "q_education_training",
+      "prompt_en": "Which federal education or training support applies? Select all that apply.",
+      "prompt_fr": "Quel soutien fédéral aux études ou à la formation s'applique? Sélectionnez toutes les réponses pertinentes."
+    },
+    {
+      "options": [
+        {
+          "ask_timing": true,
+          "code": "air_travel_complaint",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Canadian Transportation Agency",
+          "institution_fr": "Office des transports du Canada",
+          "label_en": "An air-travel complaint",
+          "label_fr": "Plainte concernant le transport aérien",
+          "selectors": {
+            "bank_numbers": [
+              "CTA PPU 014"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "cbsa_complaint_review",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Canada Border Services Agency",
+          "institution_fr": "Agence des services frontaliers du Canada",
+          "label_en": "A CBSA complaint or request to review a decision",
+          "label_fr": "Plainte à l'ASFC ou demande de révision d'une décision",
+          "selectors": {
+            "bank_numbers": [
+              "CBSA PPU 003",
+              "CBSA PPU 005"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "other_complaint_appeal",
+          "coverage": "fallback",
+          "fallback_to_parent": true,
+          "institution_en": "Federal institution or tribunal involved",
+          "institution_fr": "Institution ou tribunal fédéral concerné",
+          "label_en": "Another federal complaint, grievance or appeal",
+          "label_fr": "Une autre plainte, un autre grief ou un autre appel fédéral",
+          "selectors": {
+            "bank_numbers": []
+          }
+        }
+      ],
+      "parent_question_code": "q_complaint_appeal",
+      "prompt_en": "Which federal complaint or review applies? Select all that apply.",
+      "prompt_fr": "Quelle plainte ou révision fédérale s'applique? Sélectionnez toutes les réponses pertinentes."
+    },
+    {
+      "options": [
+        {
+          "ask_timing": true,
+          "code": "access_information_request",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "The federal institution involved, including requests sent through the ATIP Online service",
+          "institution_fr": "Institution fédérale concernée, y compris les demandes envoyées par le service AIPRP en ligne",
+          "label_en": "Give me government records or my personal information",
+          "label_fr": "Me donner des documents gouvernementaux ou mes renseignements personnels",
+          "selectors": {
+            "bank_numbers": [
+              "TBS PCE 805",
+              "PSU 901"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "personal_information_correction",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "The federal institution that holds the record",
+          "institution_fr": "Institution fédérale qui détient le dossier",
+          "label_en": "Correct personal information in a federal file",
+          "label_fr": "Corriger des renseignements personnels dans un dossier fédéral",
+          "selectors": {
+            "bank_numbers": [
+              "PSU 901"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "other_access_privacy",
+          "coverage": "partial",
+          "fallback_to_parent": false,
+          "institution_en": "Federal institution involved",
+          "institution_fr": "Institution fédérale concernée",
+          "label_en": "Another access or privacy request",
+          "label_fr": "Une autre demande d'accès ou de protection des renseignements personnels",
+          "selectors": {
+            "bank_numbers": [
+              "PSU 901"
+            ]
+          }
+        }
+      ],
+      "parent_question_code": "q_access_privacy",
+      "prompt_en": "What did you ask a federal office to do? Select all that apply.",
+      "prompt_fr": "Qu'avez-vous demandé à un bureau fédéral de faire? Sélectionnez toutes les réponses pertinentes."
+    },
+    {
+      "options": [
+        {
+          "ask_timing": true,
+          "code": "on_reserve_housing",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Indigenous Services Canada",
+          "institution_fr": "Services aux Autochtones Canada",
+          "label_en": "The On-Reserve Housing Program or its loan guarantee",
+          "label_fr": "Programme de logement dans les réserves ou sa garantie de prêt",
+          "selectors": {
+            "bank_numbers": [
+              "ISC PPU 011"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "canadian_forces_housing",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Department of National Defence / Canadian Armed Forces",
+          "institution_fr": "Ministère de la Défense nationale / Forces armées canadiennes",
+          "label_en": "Canadian Forces housing",
+          "label_fr": "Logements des Forces canadiennes",
+          "selectors": {
+            "bank_numbers": [
+              "DND PPU 885"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "other_federal_housing",
+          "coverage": "fallback",
+          "fallback_to_parent": true,
+          "institution_en": "Federal institution that ran the program",
+          "institution_fr": "Institution fédérale responsable du programme",
+          "label_en": "Another named federal housing or home-buying program",
+          "label_fr": "Un autre programme fédéral nommé de logement ou d'achat d'une habitation",
+          "selectors": {
+            "bank_numbers": []
+          }
+        }
+      ],
+      "parent_question_code": "q_housing_property",
+      "prompt_en": "Which named federal housing service applies? Select all that apply.",
+      "prompt_fr": "Quel service fédéral de logement nommé s'applique? Sélectionnez toutes les réponses pertinentes."
+    },
+    {
+      "options": [
+        {
+          "ask_timing": true,
+          "code": "federal_election",
+          "coverage": "inventory_gap",
+          "fallback_to_parent": false,
+          "institution_en": "Elections Canada",
+          "institution_fr": "Élections Canada",
+          "label_en": "Registered or applied to vote in a federal election",
+          "label_fr": "Inscription ou demande de vote à une élection fédérale",
+          "selectors": {
+            "bank_numbers": []
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "federal_consultation",
+          "coverage": "partial",
+          "fallback_to_parent": false,
+          "institution_en": "The department conducting the consultation, such as Health Canada",
+          "institution_fr": "Ministère responsable de la consultation, comme Santé Canada",
+          "label_en": "Took part in a federal public consultation",
+          "label_fr": "Participation à une consultation publique fédérale",
+          "selectors": {
+            "bank_numbers": [
+              "HC PPU 051"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "other_civic_contact",
+          "coverage": "fallback",
+          "fallback_to_parent": true,
+          "institution_en": "Federal institution involved",
+          "institution_fr": "Institution fédérale concernée",
+          "label_en": "Contacted a federal office, signed a petition or took part in another way",
+          "label_fr": "Communication avec un bureau fédéral, signature d'une pétition ou autre participation",
+          "selectors": {
+            "bank_numbers": []
+          }
+        }
+      ],
+      "parent_question_code": "q_civic_contact",
+      "prompt_en": "Which civic or public-participation activities apply? Select all that apply.",
+      "prompt_fr": "Quelles activités civiques ou de participation publique s'appliquent? Sélectionnez toutes les réponses pertinentes."
+    },
+    {
+      "options": [
+        {
+          "ask_timing": true,
+          "code": "canada_day_challenge",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Canadian Heritage",
+          "institution_fr": "Patrimoine canadien",
+          "label_en": "Entered the Canada Day Challenge",
+          "label_fr": "Participation au Défi de la fête du Canada",
+          "selectors": {
+            "bank_numbers": [
+              "PCH PPU 027"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "federal_volunteer_program",
+          "coverage": "partial",
+          "fallback_to_parent": false,
+          "institution_en": "Canadian Heritage or the federal institution running the program",
+          "institution_fr": "Patrimoine canadien ou institution fédérale responsable du programme",
+          "label_en": "Registered with a federally run volunteer program",
+          "label_fr": "Inscription à un programme de bénévolat fédéral",
+          "selectors": {
+            "bank_numbers": [
+              "PCH PPU 070"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "other_culture_recreation",
+          "coverage": "fallback",
+          "fallback_to_parent": true,
+          "institution_en": "Federal institution that ran the activity",
+          "institution_fr": "Institution fédérale responsable de l'activité",
+          "label_en": "Another named federal arts, sport, heritage or parks activity",
+          "label_fr": "Une autre activité fédérale nommée liée aux arts, aux sports, au patrimoine ou aux parcs",
+          "selectors": {
+            "bank_numbers": []
+          }
+        }
+      ],
+      "parent_question_code": "q_culture_volunteer",
+      "prompt_en": "Which federal culture, recreation or volunteer activities apply? Select all that apply.",
+      "prompt_fr": "Quelles activités fédérales de culture, de loisirs ou de bénévolat s'appliquent? Sélectionnez toutes les réponses pertinentes."
+    },
+    {
+      "options": [
+        {
+          "ask_timing": true,
+          "code": "research_participant",
+          "coverage": "partial",
+          "fallback_to_parent": false,
+          "institution_en": "The institution conducting the research, such as Health Canada",
+          "institution_fr": "Institution responsable de la recherche, comme Santé Canada",
+          "label_en": "I answered a survey, joined a study or took part in testing",
+          "label_fr": "J'ai répondu à un sondage, participé à une étude ou pris part à des essais",
+          "selectors": {
+            "bank_numbers": [
+              "HC PPU 035",
+              "HC PPU 314"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "researcher_reviewer",
+          "coverage": "partial",
+          "fallback_to_parent": false,
+          "institution_en": "The research institution, such as the Public Health Agency of Canada",
+          "institution_fr": "Institution de recherche, comme l'Agence de la santé publique du Canada",
+          "label_en": "I led, reviewed or supported a federal research project",
+          "label_fr": "J'ai dirigé, évalué ou soutenu un projet de recherche fédéral",
+          "selectors": {
+            "bank_numbers": [
+              "PHAC PPU 290"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "other_research_survey",
+          "coverage": "fallback",
+          "fallback_to_parent": true,
+          "institution_en": "Federal institution that ran the activity",
+          "institution_fr": "Institution fédérale responsable de l'activité",
+          "label_en": "Another federal research, survey or focus-group activity",
+          "label_fr": "Une autre activité fédérale de recherche, de sondage ou de groupe de discussion",
+          "selectors": {
+            "bank_numbers": []
+          }
+        }
+      ],
+      "parent_question_code": "q_research_survey",
+      "prompt_en": "What was your role in federal research? Select all that apply.",
+      "prompt_fr": "Quel était votre rôle dans la recherche fédérale? Sélectionnez toutes les réponses pertinentes."
+    },
+    {
+      "options": [
+        {
+          "ask_timing": true,
+          "code": "search_and_rescue",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Department of National Defence / Canadian Armed Forces",
+          "institution_fr": "Ministère de la Défense nationale / Forces armées canadiennes",
+          "label_en": "A Canadian Armed Forces search-and-rescue response",
+          "label_fr": "Intervention de recherche et sauvetage des Forces armées canadiennes",
+          "selectors": {
+            "bank_numbers": [
+              "DND PPU 050"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "fishery_ice_assistance",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Fisheries and Oceans Canada",
+          "institution_fr": "Pêches et Océans Canada",
+          "label_en": "Temporary fishery help after severe ice conditions",
+          "label_fr": "Aide temporaire aux pêches après de graves conditions de glace",
+          "selectors": {
+            "bank_numbers": [
+              "DFO PPU 045"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "other_federal_emergency",
+          "coverage": "fallback",
+          "fallback_to_parent": true,
+          "institution_en": "Federal institution that provided the service",
+          "institution_fr": "Institution fédérale qui a fourni le service",
+          "label_en": "Another named federal emergency or disaster service",
+          "label_fr": "Un autre service fédéral nommé d'urgence ou de catastrophe",
+          "selectors": {
+            "bank_numbers": []
+          }
+        }
+      ],
+      "parent_question_code": "q_emergency",
+      "prompt_en": "Which federal emergency service helped you? Select all that apply.",
+      "prompt_fr": "Quel service d'urgence fédéral vous a aidé? Sélectionnez toutes les réponses pertinentes."
+    },
+    {
+      "options": [
+        {
+          "ask_timing": true,
+          "code": "cpp_survivor_death_benefit",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Employment and Social Development Canada / Service Canada",
+          "institution_fr": "Emploi et Développement social Canada / Service Canada",
+          "label_en": "A Canada Pension Plan survivor or death benefit",
+          "label_fr": "Prestation de survivant ou de décès du Régime de pensions du Canada",
+          "selectors": {
+            "bank_numbers": [
+              "ESDC PPU 146"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "first_nations_estate",
+          "coverage": "direct",
+          "fallback_to_parent": false,
+          "institution_en": "Indigenous Services Canada",
+          "institution_fr": "Services aux Autochtones Canada",
+          "label_en": "Administration of a First Nations estate",
+          "label_fr": "Administration d'une succession des Premières Nations",
+          "selectors": {
+            "bank_numbers": [
+              "ISC PPU 105"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
+          "code": "other_federal_life_event",
+          "coverage": "fallback",
+          "fallback_to_parent": true,
+          "institution_en": "Federal institution that ran the service",
+          "institution_fr": "Institution fédérale responsable du service",
+          "label_en": "Another named federal birth, marriage, divorce, adoption or death service",
+          "label_fr": "Un autre service fédéral nommé lié à une naissance, un mariage, un divorce, une adoption ou un décès",
+          "selectors": {
+            "bank_numbers": []
+          }
+        }
+      ],
+      "parent_question_code": "q_family_vital",
+      "prompt_en": "Which named federal life-event service applies? Select all that apply.",
+      "prompt_fr": "Quel service fédéral nommé lié à un événement de vie s'applique? Sélectionnez toutes les réponses pertinentes."
     }
   ],
-  "content_version": "2026-08-22.2",
+  "content_version": "2026-08-22.3",
   "data_snapshot": {
     "generated_date": "2026-08-22",
     "source_files": {
@@ -2200,8 +2804,9 @@
   ],
   "retention_statuses": [
     "likely_held",
+    "may_still_be_held",
     "likely_disposed",
-    "uncertain"
+    "retention_unknown"
   ],
   "schema_version": "1.2",
   "supported_locales": [

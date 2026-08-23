@@ -104,7 +104,7 @@ institution and activity. The full wording audit is in
 browser and AI-agent architecture is in `MY_INFO_INTERFACE_ARCHITECTURE.md`.
 
 The first executable AI-tool layer is documented in `MY_INFO_AI_TOOLS.md`. It includes a
-framework-neutral, client-owned survey state engine, nine adaptive route groups, explicit
+framework-neutral, client-owned survey state engine, 21 adaptive route groups, explicit
 firearms and boating questions, and four read-only MCP tools. Export their machine-readable
 schemas and run the local server with:
 
@@ -117,6 +117,18 @@ Remote AI clients can connect to the stateless Streamable HTTP endpoint at
 `https://lovely-nasturtium-97f019.netlify.app/my-info/mcp`. The portable Netlify runtime and the
 repo-contained `plugins/my-info-canada` conversational skill/plugin are also maintained here;
 `ckan-mcp-netlify` contains only the thin deployment adapter and a pinned generated bundle.
+
+The same state machine also powers a semi-standalone browser Beta under `site/my-info/`.
+It keeps answers in the current browser tab, supports English and French, presents the
+question/refinement/timing tree, and groups results by retention estimate and institution.
+Rebuild it from the canonical MCP engine and derived data with:
+
+```bash
+.venv/bin/python scripts/build_my_info_web.py
+.venv/bin/python -m unittest tests.test_build_my_info_web
+node --check site/my-info/app.mjs
+node --check site/my-info/engine.mjs
+```
 
 ## Static data explorer
 

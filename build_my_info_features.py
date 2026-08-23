@@ -188,7 +188,7 @@ def write_outputs(
     }
     questionnaire = {
         "schema_version": "1.2",
-        "content_version": f"{generated_date}.2",
+        "content_version": f"{generated_date}.3",
         "generator_version": GENERATOR_VERSION,
         "data_snapshot": {
             "generated_date": generated_date,
@@ -208,7 +208,12 @@ def write_outputs(
             asdict(definitions[key])
             for key in sorted(definitions, key=lambda value: int(value.split("-")[1]))
         ],
-        "retention_statuses": ["likely_held", "likely_disposed", "uncertain"],
+        "retention_statuses": [
+            "likely_held",
+            "may_still_be_held",
+            "likely_disposed",
+            "retention_unknown",
+        ],
     }
     (output_dir / "my_info_questionnaire.json").write_text(
         json.dumps(questionnaire, ensure_ascii=False, indent=2, sort_keys=True) + "\n",

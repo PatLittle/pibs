@@ -70,6 +70,8 @@ def validate(output_dir: Path) -> dict[str, int]:
         errors.append("adaptive routes contain duplicate parent questions")
     if set(routed_questions) - declared_questions:
         errors.append("adaptive routes reference undeclared parent questions")
+    if set(routed_questions) != declared_questions:
+        errors.append("Beta questionnaire must provide an adaptive route for every question")
     known_bank_numbers = {row["bank_number_key"] for row in features}
     for route in routes:
         option_codes = [option.get("code") for option in route.get("options", [])]
