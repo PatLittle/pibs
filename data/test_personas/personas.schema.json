@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://patlittle.github.io/pibs/schemas/my-info-test-personas-v1.json",
+  "title": "My Info synthetic persona fixture",
+  "type": "object",
+  "required": ["schema_version", "contract_version", "assessment_year", "personas"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "contract_version": {"type": "string"},
+    "assessment_year": {"type": "integer", "minimum": 2000},
+    "personas": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/persona"}
+    }
+  },
+  "$defs": {
+    "timing": {
+      "type": "object",
+      "required": ["kind"],
+      "properties": {
+        "kind": {
+          "enum": ["current", "within_1_year", "1_to_3_years", "4_to_7_years", "8_to_15_years", "more_than_15_years", "approximate_year", "unknown"]
+        },
+        "year": {"type": "integer", "minimum": 1900}
+      },
+      "additionalProperties": false
+    },
+    "answer": {
+      "type": "object",
+      "required": ["question_code", "value"],
+      "properties": {
+        "question_code": {"type": "string", "pattern": "^q_"},
+        "value": {"enum": ["yes", "no", "not_sure", "prefer_not_to_answer"]}
+      },
+      "additionalProperties": false
+    },
+    "refinement": {
+      "type": "object",
+      "required": ["question_code", "selected_options", "timings"],
+      "properties": {
+        "question_code": {"type": "string", "pattern": "^q_"},
+        "selected_options": {"type": "array", "minItems": 1, "items": {"type": "string"}, "uniqueItems": true},
+        "timings": {"type": "object", "additionalProperties": {"$ref": "#/$defs/timing"}}
+      },
+      "additionalProperties": false
+    },
+    "persona": {
+      "type": "object",
+      "required": ["id", "display_name", "fictional", "subtitle", "summary", "cv", "episodes", "survey", "expectations"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+        "display_name": {"type": "string"},
+        "fictional": {"const": true},
+        "subtitle": {"type": "string"},
+        "summary": {"type": "string"},
+        "cv": {"type": "object"},
+        "episodes": {"type": "array", "items": {"type": "object"}},
+        "survey": {
+          "type": "object",
+          "required": ["answers", "refinements"],
+          "properties": {
+            "answers": {"type": "array", "minItems": 21, "maxItems": 21, "items": {"$ref": "#/$defs/answer"}},
+            "refinements": {"type": "array", "items": {"$ref": "#/$defs/refinement"}}
+          },
+          "additionalProperties": false
+        },
+        "expectations": {"type": "object"}
+      }
+    }
+  }
+}

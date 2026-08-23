@@ -2,3 +2,4 @@
 __pycache__*
 node_modules/
 packages/my-info-mcp/dist/
+data/test_personas/generated/**/*.html
