@@ -4,7 +4,6 @@
 from __future__ import annotations
 
 import csv
-import hashlib
 import json
 from pathlib import Path
 from urllib.parse import urlsplit
@@ -68,7 +67,7 @@ def main() -> None:
         elif row_count(path) < minimum:
             errors.append(f"generated explorer asset is unexpectedly short: {path}")
 
-    for html_path in SITE.rglob("*.html"):
+    for html_path in SITE.glob("*.html"):
         soup = BeautifulSoup(html_path.read_text(encoding="utf-8"), "html.parser")
         if not soup.title or not soup.title.get_text(strip=True):
             errors.append(f"missing title: {html_path}")
@@ -80,29 +79,6 @@ def main() -> None:
             target = (html_path.parent / parsed.path).resolve()
             if not target.exists():
                 errors.append(f"broken local link in {html_path}: {href}")
-
-    my_info = SITE / "my-info"
-    my_info_files = ("index.html", "app.mjs", "engine.mjs", "runtime.json", "manifest.json", "styles.css")
-    missing_my_info = [filename for filename in my_info_files if not (my_info / filename).exists()]
-    for filename in missing_my_info:
-        errors.append(f"missing My Info web asset: {my_info / filename}")
-    if not missing_my_info:
-        my_info_manifest = json.loads((my_info / "manifest.json").read_text(encoding="utf-8"))
-        my_info_runtime = json.loads((my_info / "runtime.json").read_text(encoding="utf-8"))
-        canonical_engine = Path("packages/my-info-mcp/src/engine.mjs").read_bytes()
-        if my_info_manifest.get("release_stage") != "beta":
-            errors.append("My Info web manifest is not marked beta")
-        if my_info_manifest.get("contract_version") != my_info_runtime["contract"].get("content_version"):
-            errors.append("My Info web contract version mismatch")
-        if my_info_manifest.get("question_count") != len(my_info_runtime["contract"].get("questions", [])):
-            errors.append("My Info web question count mismatch")
-        if my_info_manifest.get("pib_count") != len(my_info_runtime.get("features", [])):
-            errors.append("My Info web PIB count mismatch")
-        if my_info_manifest.get("source_hashes", {}).get("canonical_engine_sha256") != hashlib.sha256(canonical_engine).hexdigest():
-            errors.append("My Info web engine is stale relative to the MCP engine")
-        browser_engine = (my_info / "engine.mjs").read_text(encoding="utf-8")
-        if "node:" in browser_engine or "DATA_DIR" in browser_engine:
-            errors.append("My Info browser engine includes Node-only code")
 
     index = BeautifulSoup((SITE / "index.html").read_text(encoding="utf-8"), "html.parser")
     expected_ids = {
@@ -123,7 +99,7 @@ def main() -> None:
     print(
         "Validated static site: "
         f"datasets={len(DATASETS)}, records={sum(summary['datasets'].values())}, "
-        f"html_pages={len(list(SITE.rglob('*.html')))}, broken_links=0"
+        f"html_pages={len(list(SITE.glob('*.html')))}, broken_links=0"
     )
 
 

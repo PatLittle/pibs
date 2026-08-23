@@ -1,0 +1,51 @@
+name: Deploy My Info survey (pages/my_info)
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "site/my_info/**"
+      - "my_info/web/**"
+      - "scripts/build_my_info_web.py"
+      - "validate_my_info_web.py"
+      - "tests/test_build_my_info_web.py"
+      - "my_info/agent_tools.py"
+      - "packages/my-info-mcp/src/engine.mjs"
+      - "data/derived/my_info/my_info_questionnaire.json"
+      - "data/derived/my_info/my_info_pib_features.csv"
+      - ".github/workflows/deploy-my-info-pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages-branch-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy-my-info:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build standalone survey
+        run: python scripts/build_my_info_web.py
+
+      - name: Validate standalone survey and shared engine parity
+        run: |
+          python validate_my_info_web.py
+          python -m unittest tests.test_build_my_info_web
+          node --check site/my_info/app.mjs
+          node --check site/my_info/engine.mjs
+
+      - name: Deploy only the my_info section
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: pages
+          folder: site/my_info
+          target-folder: my_info
+          clean: true
+          force: false

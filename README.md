@@ -118,16 +118,20 @@ Remote AI clients can connect to the stateless Streamable HTTP endpoint at
 repo-contained `plugins/my-info-canada` conversational skill/plugin are also maintained here;
 `ckan-mcp-netlify` contains only the thin deployment adapter and a pinned generated bundle.
 
-The same state machine also powers a semi-standalone browser Beta under `site/my-info/`.
+The same state machine also powers a semi-standalone browser Beta under `site/my_info/`.
 It keeps answers in the current browser tab, supports English and French, presents the
 question/refinement/timing tree, and groups results by retention estimate and institution.
+It is published independently from the data explorer at
+`https://patlittle.github.io/pibs/my_info/`; its workflow updates only the `my_info/`
+folder on the `pages` branch.
 Rebuild it from the canonical MCP engine and derived data with:
 
 ```bash
 .venv/bin/python scripts/build_my_info_web.py
+.venv/bin/python validate_my_info_web.py
 .venv/bin/python -m unittest tests.test_build_my_info_web
-node --check site/my-info/app.mjs
-node --check site/my-info/engine.mjs
+node --check site/my_info/app.mjs
+node --check site/my_info/engine.mjs
 ```
 
 ## Static data explorer

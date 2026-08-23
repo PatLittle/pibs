@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DERIVED = ROOT / "data/derived/my_info"
 ENGINE = ROOT / "packages/my-info-mcp/src/engine.mjs"
 WEB_SOURCE = ROOT / "my_info/web"
-SITE_OUTPUT = ROOT / "site/my-info"
+SITE_OUTPUT = ROOT / "site/my_info"
 
 
 def _sha256_bytes(value: bytes) -> str:

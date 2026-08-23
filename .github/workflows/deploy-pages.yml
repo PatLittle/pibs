@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - "site/**"
+      - "!site/my_info/**"
       - "spib_en_fr.csv"
       - "pi_categories_en_fr.csv"
       - "standard_classes_of_records_en_fr.csv"
@@ -18,18 +19,16 @@ on:
       - "data/collection_jobs/institution_collection_summary_2026-08-15.json"
       - "data/collection_jobs/institution_collection_status_2026-08-15.csv"
       - "build_site_assets.py"
-      - "scripts/build_my_info_web.py"
-      - "my_info/web/**"
-      - "my_info/agent_tools.py"
-      - "packages/my-info-mcp/src/engine.mjs"
-      - "data/derived/my_info/my_info_questionnaire.json"
-      - "data/derived/my_info/my_info_pib_features.csv"
       - "validate_site.py"
       - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: pages-branch-deploy
+  cancel-in-progress: false
 
 jobs:
   deploy:
@@ -51,19 +50,23 @@ jobs:
           cp institutions_infosource_docs/cor_table_en_fr_all.csv site/data/cor_table_en_fr_all.csv
           cp institutions_infosource_docs/pib_cor_links.csv site/data/pib_cor_links.csv
           python build_site_assets.py
-          python scripts/build_my_info_web.py
 
       - name: Validate generated site
         run: |
           python -m pip install --disable-pip-version-check beautifulsoup4
           python validate_site.py
-          python -m unittest tests.test_build_my_info_web
-          node --check site/my-info/app.mjs
-          node --check site/my-info/engine.mjs
+
+      - name: Prepare independent main-site payload
+        run: |
+          mkdir -p _site_root
+          rsync -a --delete --exclude "my_info/" site/ _site_root/
 
       - name: Deploy to pages branch
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: pages
-          folder: site
+          folder: _site_root
           clean: true
+          clean-exclude: |
+            my_info/**
+          force: false
