@@ -2,17 +2,17 @@
   "snapshot_date": "2026-08-15",
   "headline": {
     "institutions": 148,
-    "institution_pibs": 979,
-    "institution_classes": 1924,
-    "pib_cor_links": 1938
+    "institution_pibs": 1044,
+    "institution_classes": 2426,
+    "pib_cor_links": 1990
   },
   "quality": {
-    "pibs_bilingual": 842,
-    "pibs_bilingual_percent": 86.0,
-    "classes_bilingual": 1639,
-    "classes_bilingual_percent": 85.2,
-    "links_resolved": 1535,
-    "links_resolved_percent": 79.2
+    "pibs_bilingual": 887,
+    "pibs_bilingual_percent": 85.0,
+    "classes_bilingual": 2132,
+    "classes_bilingual_percent": 87.9,
+    "links_resolved": 1704,
+    "links_resolved_percent": 85.6
   },
   "collection": {
     "collectable_institutions": 131,
@@ -25,9 +25,9 @@
   },
   "datasets": {
     "institutions": 148,
-    "pibs": 979,
-    "classes": 1924,
-    "links": 1938,
+    "pibs": 1044,
+    "classes": 2426,
+    "links": 1990,
     "standard_pibs": 49,
     "standard_classes": 33,
     "categories": 25,
@@ -36,7 +36,7 @@
   "pib_types": [
     {
       "name": "Public Bank",
-      "count": 783
+      "count": 848
     },
     {
       "name": "Particular Bank",
@@ -63,26 +63,26 @@
     {
       "institution_id": "ati-schedule-i-canadian-forces",
       "pibs": 94,
-      "classes": 147,
+      "classes": 148,
       "name_en": "Canadian Forces",
       "name_fr": "Forces canadiennes",
-      "total": 241
+      "total": 242
     },
     {
       "institution_id": "ati-schedule-i-department-of-national-defence",
       "pibs": 94,
-      "classes": 147,
+      "classes": 148,
       "name_en": "Department of National Defence",
       "name_fr": "Ministère de la Défense nationale",
-      "total": 241
+      "total": 242
     },
     {
-      "institution_id": "ati-schedule-i-department-of-foreign-affairs-trade-and-development",
-      "pibs": 19,
-      "classes": 134,
-      "name_en": "Department of Foreign Affairs, Trade and Development",
-      "name_fr": "Ministère des Affaires étrangères, du Commerce et du Développement",
-      "total": 153
+      "institution_id": "ati-schedule-i-royal-canadian-mounted-police",
+      "pibs": 41,
+      "classes": 163,
+      "name_en": "Royal Canadian Mounted Police",
+      "name_fr": "Gendarmerie royale du Canada",
+      "total": 204
     },
     {
       "institution_id": "ati-schedule-i-canada-employment-insurance-commission",
@@ -101,28 +101,28 @@
       "total": 152
     },
     {
+      "institution_id": "ati-schedule-i-department-of-transport",
+      "pibs": 27,
+      "classes": 113,
+      "name_en": "Department of Transport",
+      "name_fr": "Ministère des Transports",
+      "total": 140
+    },
+    {
+      "institution_id": "ati-schedule-i-department-of-foreign-affairs-trade-and-development",
+      "pibs": 19,
+      "classes": 119,
+      "name_en": "Department of Foreign Affairs, Trade and Development",
+      "name_fr": "Ministère des Affaires étrangères, du Commerce et du Développement",
+      "total": 138
+    },
+    {
       "institution_id": "ati-schedule-i-canada-border-services-agency",
       "pibs": 37,
       "classes": 100,
       "name_en": "Canada Border Services Agency",
       "name_fr": "Agence des services frontaliers du Canada",
       "total": 137
-    },
-    {
-      "institution_id": "ati-schedule-i-treasury-board-secretariat",
-      "pibs": 42,
-      "classes": 88,
-      "name_en": "Treasury Board Secretariat",
-      "name_fr": "Secrétariat du Conseil du Trésor",
-      "total": 130
-    },
-    {
-      "institution_id": "ati-schedule-i-department-of-finance",
-      "pibs": 3,
-      "classes": 118,
-      "name_en": "Department of Finance",
-      "name_fr": "Ministère des Finances",
-      "total": 121
     }
   ]
 }
