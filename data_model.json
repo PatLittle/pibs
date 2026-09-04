@@ -1,5 +1,5 @@
 {
-  "model_version": "1.1",
+  "model_version": "1.2",
   "description": "Relational model for authoritative institutions, Info Source holdings, and controlled vocabularies.",
   "tables": {
     "institution_registry": {
@@ -21,6 +21,11 @@
     "institution_personal_information_banks": {
       "path": "institutions_infosource_docs/pib_table_en_fr_all.csv",
       "primary_key": ["institution_id", "bank_number_key"],
+      "json_array_fields": [
+        "specific_information_types_en",
+        "specific_information_types_fr"
+      ],
+      "description": "Registry-keyed PIBs. Specific information types are conservative source-language derivations from explicit description lists.",
       "foreign_keys": [
         {
           "fields": ["institution_id"],
