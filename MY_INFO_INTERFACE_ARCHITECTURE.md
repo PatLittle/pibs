@@ -141,7 +141,8 @@ Recommended layout for a question:
 - a collapsed “Show examples” control when the interaction may be unfamiliar;
 - one to three concrete examples with the department or agency bolded in the rendered interface;
 - an explanation of why the question is being asked; and
-- timing only after `yes`, and only when it can improve the holding estimate.
+- timing only after `yes`, and only when it can improve the holding estimate; and
+- a controlled department multi-select when the answer still maps to multiple institutions.
 
 Common, deterministic interactions can be compact. For example, “Did you file federal taxes?” can route to the Canada Revenue Agency without asking the person to identify the department. International border crossing can route to the Canada Border Services Agency. Compound questions that span institutions or different retention triggers should be split into child questions after a broad affirmative answer.
 
@@ -211,7 +212,7 @@ The companion skill should instruct the agent to:
 - ask one question at a time unless the user asks for a faster batch mode;
 - accept natural speech such as “currently” or “about three years ago” and map it to controlled values without preserving the transcript;
 - offer examples when the question is unfamiliar or when the user asks, without treating examples as an exhaustive list;
-- use deterministic inferences instead of asking obvious department questions;
+- infer obvious single-department interactions, but offer a controlled department selection when a broad answer maps to multiple institutions;
 - never request identifiers or case details;
 - use MCP output rather than independently recalculating matches;
 - let the person correct any earlier answer; and

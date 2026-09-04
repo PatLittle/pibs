@@ -25,8 +25,8 @@ DEFAULT_CONTRACT_PATH = ROOT / "data/derived/my_info/my_info_questionnaire.json"
 DEFAULT_FEATURE_PATH = ROOT / "data/derived/my_info/my_info_pib_features.csv"
 DEFAULT_EVIDENCE_PATH = ROOT / "data/derived/my_info/my_info_derivation_evidence.jsonl"
 
-STATE_SCHEMA_VERSION = "1.1"
-TOOL_API_VERSION = "0.3.0"
+STATE_SCHEMA_VERSION = "1.2"
+TOOL_API_VERSION = "0.4.0"
 RELEASE_STAGE = "beta"
 ANSWER_VALUES = ("yes", "no", "not_sure", "prefer_not_to_answer")
 TIMING_KINDS = (
@@ -40,7 +40,7 @@ TIMING_KINDS = (
     "unknown",
 )
 
-_STATE_FIELDS = {"schema_version", "contract_version", "locale", "answers", "refinements"}
+_STATE_FIELDS = {"schema_version", "contract_version", "locale", "answers", "refinements", "departments"}
 _ANSWER_FIELDS = {"value", "timing"}
 _TIMING_FIELDS = {"kind", "year"}
 _REFINEMENT_FIELDS = {"selected_options", "timings"}
@@ -93,6 +93,10 @@ class SurveyToolEngine:
             parent: {option["code"]: option for option in route["options"]}
             for parent, route in self.routes.items()
         }
+        self.features_by_question = {
+            code: [row for row in self.features if code in _pipe_set(row["question_codes"])]
+            for code in self.question_order
+        }
         self.categories = {
             item["category_id"]: item
             for item in self.contract["personal_information_categories"]
@@ -115,6 +119,7 @@ class SurveyToolEngine:
             "locale": locale,
             "answers": {},
             "refinements": {},
+            "departments": {},
         }
 
     def get_manifest(self) -> dict[str, Any]:
@@ -155,6 +160,7 @@ class SurveyToolEngine:
         state: Mapping[str, Any] | None = None,
         answers: Sequence[Mapping[str, Any]] | None = None,
         refinements: Sequence[Mapping[str, Any]] | None = None,
+        departments: Sequence[Mapping[str, Any]] | None = None,
         *,
         locale: str = "en-CA",
     ) -> dict[str, Any]:
@@ -166,6 +172,8 @@ class SurveyToolEngine:
             self._apply_answer(working, update)
         for update in refinements or ():
             self._apply_refinement(working, update)
+        for update in departments or ():
+            self._apply_department(working, update)
         self.validate_state(working)
 
         next_step: dict[str, Any] | None = None
@@ -196,6 +204,10 @@ class SurveyToolEngine:
                         break
                 elif "timing" not in answer:
                     next_step = self._timing_view(code, working["locale"])
+                    break
+                options = self._department_options(code, working)
+                if len(options) > 1 and code not in working["departments"]:
+                    next_step = self._department_view(code, working["locale"], options)
                     break
 
         answered = len(working["answers"])
@@ -247,6 +259,11 @@ class SurveyToolEngine:
             raise ValueError("state.refinements must be an object")
         for code, refinement in refinements.items():
             self._validate_refinement(str(code), refinement, answers)
+        departments = state.get("departments")
+        if not isinstance(departments, Mapping):
+            raise ValueError("state.departments must be an object")
+        for code, selection in departments.items():
+            self._validate_department(str(code), selection, state)
         return deepcopy(dict(state))
 
     def evaluate(
@@ -286,6 +303,12 @@ class SurveyToolEngine:
             and code in self.routes
             and not self._refinement_complete(code, normalized["refinements"].get(code))
         ]
+        incomplete_departments = [
+            code for code, answer in normalized["answers"].items()
+            if answer["value"] == "yes"
+            and len(self._department_options(code, normalized)) > 1
+            and code not in normalized["departments"]
+        ]
         inventory_gaps = [
             {
                 "question_code": code,
@@ -310,10 +333,11 @@ class SurveyToolEngine:
         return {
             "assessment": {
                 "as_of_year": assessment_year,
-                "complete_survey": not unanswered and not incomplete_refinements,
+                "complete_survey": not unanswered and not incomplete_refinements and not incomplete_departments,
                 "unanswered_question_codes": unanswered,
                 "uncertain_question_codes": uncertain,
                 "incomplete_refinement_question_codes": incomplete_refinements,
+                "incomplete_department_question_codes": incomplete_departments,
                 "inventory_gaps": inventory_gaps,
                 "refinement_needed_question_codes": refinement_needed,
                 "caveat": "These are candidate PIBs, not confirmation that an institution holds information about this person.",
@@ -477,6 +501,45 @@ class SurveyToolEngine:
             for option_code in refinement["selected_options"]
         )
 
+    def _department_options(
+        self, code: str, state: Mapping[str, Any]
+    ) -> list[dict[str, str]]:
+        rows = self.features_by_question.get(code, [])
+        refinement = state.get("refinements", {}).get(code)
+        if refinement and code in self.routes:
+            selected_options = [self.route_options[code][item] for item in refinement["selected_options"]]
+            if not any(item.get("fallback_to_parent", False) for item in selected_options):
+                selected_banks = {
+                    bank
+                    for option in selected_options
+                    for bank in option.get("selectors", {}).get("bank_numbers", [])
+                }
+                rows = [row for row in rows if row["bank_number_key"] in selected_banks]
+        institutions = {
+            row["institution_id"]: (row["institution_name_en"], row["institution_name_fr"])
+            for row in rows if row["institution_id"]
+        }
+        return [
+            {"institution_id": institution_id, "name_en": names[0], "name_fr": names[1]}
+            for institution_id, names in sorted(
+                institutions.items(), key=lambda item: (item[1][0].casefold(), item[0])
+            )
+        ]
+
+    def _validate_department(
+        self, code: str, selection: object, state: Mapping[str, Any]
+    ) -> None:
+        if state.get("answers", {}).get(code, {}).get("value") != "yes":
+            raise ValueError(f"{code}: a department selection requires a yes parent answer")
+        if not isinstance(selection, list) or not selection:
+            raise ValueError(f"{code}: department selection must be a non-empty array")
+        if len(selection) != len(set(selection)):
+            raise ValueError(f"{code}: department selection cannot contain duplicates")
+        allowed = {item["institution_id"] for item in self._department_options(code, state)}
+        invalid = [item for item in selection if item not in allowed]
+        if invalid:
+            raise ValueError(f"{code}: unsupported department IDs: {invalid}")
+
     def _validate_timing(self, code: str, timing: object) -> None:
         if not isinstance(timing, Mapping):
             raise ValueError(f"{code}: timing must be an object")
@@ -505,6 +568,7 @@ class SurveyToolEngine:
         state["answers"][code] = answer
         if answer["value"] != "yes":
             state["refinements"].pop(code, None)
+            state["departments"].pop(code, None)
 
     def _apply_refinement(self, state: dict[str, Any], update: Mapping[str, Any]) -> None:
         if not isinstance(update, Mapping):
@@ -520,6 +584,18 @@ class SurveyToolEngine:
         }
         self._validate_refinement(code, refinement, state["answers"])
         state["refinements"][code] = refinement
+        state["departments"].pop(code, None)
+
+    def _apply_department(self, state: dict[str, Any], update: Mapping[str, Any]) -> None:
+        if not isinstance(update, Mapping):
+            raise ValueError("Each department update must be an object")
+        unknown = set(update) - {"question_code", "institution_ids"}
+        if unknown:
+            raise ValueError(f"Unsupported department-update fields: {sorted(unknown)}")
+        code = str(update.get("question_code") or "")
+        selection = deepcopy(update.get("institution_ids"))
+        self._validate_department(code, selection, state)
+        state["departments"][code] = selection
 
     def _question_view(self, code: str, locale: str) -> dict[str, Any]:
         question = self.questions[code]
@@ -613,6 +689,33 @@ class SurveyToolEngine:
             ),
         }
 
+    def _department_view(
+        self, code: str, locale: str, options: list[dict[str, str]]
+    ) -> dict[str, Any]:
+        french = locale == "fr-CA"
+        return {
+            "step_type": "department",
+            "question_code": code,
+            "prompt": (
+                "À quelles institutions fédérales cette situation s'applique-t-elle?"
+                if french
+                else "Which federal departments or institutions did this apply to?"
+            ),
+            "selection_type": "multi_select",
+            "options": [
+                {
+                    "institution_id": item["institution_id"],
+                    "label": item["name_fr"] if french else item["name_en"],
+                }
+                for item in options
+            ],
+            "privacy_note": (
+                "Choisissez seulement les institutions; ne fournissez aucun détail sur la plainte ou le dossier."
+                if french
+                else "Select institutions only; do not provide complaint or case details."
+            ),
+        }
+
     def _results(
         self,
         state: Mapping[str, Any],
@@ -643,11 +746,21 @@ class SurveyToolEngine:
         for row in self.features:
             primary = _pipe_set(row["question_codes"])
             candidates = _pipe_set(row["candidate_question_codes"])
-            direct_routes = route_matches.get(row["bank_number_key"], [])
+            def allows(code: str) -> bool:
+                selected = state["departments"].get(code)
+                return not selected or not row["institution_id"] or row["institution_id"] in selected
+
+            direct_routes = [
+                item for item in route_matches.get(row["bank_number_key"], []) if allows(item[0])
+            ]
             direct_codes = {parent for parent, _ in direct_routes}
-            strong_codes = sorted((primary & broad_yes_codes) | direct_codes)
-            possible_codes = sorted((candidates & broad_yes_codes) - set(strong_codes))
-            review_codes = sorted(candidates & uncertain_codes)
+            strong_codes = sorted(
+                {code for code in primary & broad_yes_codes if allows(code)} | direct_codes
+            )
+            possible_codes = sorted(
+                code for code in (candidates & broad_yes_codes) - set(strong_codes) if allows(code)
+            )
+            review_codes = sorted(code for code in candidates & uncertain_codes if allows(code))
             if strong_codes:
                 band, matched = "strong_match", strong_codes
             elif possible_codes and include_possible:
@@ -897,10 +1010,11 @@ def advance(
     state: Mapping[str, Any] | None = None,
     answers: Sequence[Mapping[str, Any]] | None = None,
     refinements: Sequence[Mapping[str, Any]] | None = None,
+    departments: Sequence[Mapping[str, Any]] | None = None,
     *,
     locale: str = "en-CA",
 ) -> dict[str, Any]:
-    return default_engine().advance(state, answers, refinements, locale=locale)
+    return default_engine().advance(state, answers, refinements, departments, locale=locale)
 
 
 def evaluate(

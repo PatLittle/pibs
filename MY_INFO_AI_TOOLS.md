@@ -26,8 +26,8 @@ State uses controlled values only:
 
 ```json
 {
-  "schema_version": "1.1",
-  "contract_version": "2026-08-22.3",
+  "schema_version": "1.2",
+  "contract_version": "2026-09-04.5",
   "locale": "en-CA",
   "answers": {
     "q_tax_customs": {"value": "yes"}
@@ -39,17 +39,23 @@ State uses controlled values only:
         "customs_declaration": {"kind": "within_1_year"}
       }
     }
+  },
+  "departments": {
+    "q_complaint_appeal": ["ati-schedule-i-canadian-transportation-agency"]
   }
 }
 ```
 
-The engine rejects fields outside the state, answer, refinement, and timing schemas. It does not accept a
+The engine rejects fields outside the state, answer, refinement, department-selection, and timing schemas. It does not accept a
 name, account number, case description, medical detail, exact travel history, or narrative free
 text. `not_sure` and `prefer_not_to_answer` remain uncertainty signals; they are not converted to
 negative answers.
 
 Adaptive routes are controlled multi-select values. Each selected route has its own timing, so
 Canadian Armed Forces service and a later Veterans Affairs interaction can be assessed separately.
+When a broad affirmative answer still maps to more than one institution, the engine returns a
+controlled `department` multi-select step. The selected institution IDs narrow only that
+question's institution-specific PIB matches; government-wide standard PIBs remain eligible.
 The agent should pass the complete returned state to the next call. Answer corrections replace
 the prior controlled value and recalculate results without retaining a transcript.
 

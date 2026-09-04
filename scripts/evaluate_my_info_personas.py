@@ -89,11 +89,21 @@ def build_state(engine: SurveyToolEngine, persona: Mapping[str, Any]) -> dict[st
         code_field="question_code",
         field="survey.refinements",
     )
-    state = engine.advance(
+    response = engine.advance(
         answers=answers,
         refinements=refinements,
         locale=locale,
-    )["state"]
+    )
+    while not response["complete"] and response["next_step"]["step_type"] == "department":
+        step = response["next_step"]
+        response = engine.advance(
+            response["state"],
+            departments=[{
+                "question_code": step["question_code"],
+                "institution_ids": [item["institution_id"] for item in step["options"]],
+            }],
+        )
+    state = response["state"]
     return engine.validate_state(state)
 
 

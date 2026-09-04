@@ -22,7 +22,7 @@ class MyInfoPersonaEvaluatorTests(unittest.TestCase):
     def fixture() -> dict[str, object]:
         return {
             "schema_version": "1.0",
-            "contract_version": "2026-09-04.4",
+            "contract_version": "2026-09-04.5",
             "assessment_year": 2026,
             "include_possible": False,
             "personas": [{

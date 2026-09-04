@@ -10,7 +10,7 @@
       "prefer_not_to_answer"
     ],
     "contract_schema_version": "1.2",
-    "contract_version": "2026-09-04.4",
+    "contract_version": "2026-09-04.5",
     "data_snapshot": {
       "generated_date": "2026-09-04",
       "source_files": {
@@ -22,7 +22,7 @@
         }
       }
     },
-    "generator_version": "1.3",
+    "generator_version": "1.4",
     "limitations": [
       "Results are estimates, not confirmation that a record exists.",
       "Fallback route choices can still overmatch when a named program or institution is not known.",
@@ -38,7 +38,7 @@
     },
     "question_count": 21,
     "release_stage": "beta",
-    "state_schema_version": "1.1",
+    "state_schema_version": "1.2",
     "supported_locales": [
       "en-CA",
       "fr-CA"
@@ -53,7 +53,7 @@
       "approximate_year",
       "unknown"
     ],
-    "tool_api_version": "0.3.0",
+    "tool_api_version": "0.4.0",
     "tools": [
       "my_info_get_manifest",
       "my_info_advance",
@@ -65,7 +65,7 @@
     "instructions": "My Info estimates which Government of Canada personal information banks may be relevant. Call my_info_get_manifest before starting, then my_info_advance for each controlled answer, adaptive selection, and approximate timing. Keep the returned state client-side. Never request names, account numbers, case details, medical details, or exact travel history. Use my_info_evaluate only for estimates and never claim that a record definitely exists. When presenting results, include each candidate's categories_of_personal_information and specific_information_types so the person can understand what kinds of information the published bank describes.",
     "name": "my-info-canada",
     "title": "My Info Canada",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   "tools": [
     {
@@ -75,7 +75,7 @@
         "openWorldHint": false,
         "readOnlyHint": true
       },
-      "description": "Start or continue the survey. Pass back the complete client-owned state returned by the previous call and one or more controlled answer updates. Use this tool to obtain the next question or timing prompt; do not add narrative personal details to state.",
+      "description": "Start or continue the survey. Pass back the complete client-owned state returned by the previous call and controlled answer, adaptive refinement, or department-selection updates. Use this tool to obtain the next question or timing prompt; do not add narrative personal details to state.",
       "inputSchema": {
         "$defs": {
           "AnswerUpdate": {
@@ -112,6 +112,29 @@
               "value"
             ],
             "title": "AnswerUpdate",
+            "type": "object"
+          },
+          "DepartmentUpdate": {
+            "additionalProperties": false,
+            "properties": {
+              "institution_ids": {
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 1,
+                "title": "Institution Ids",
+                "type": "array"
+              },
+              "question_code": {
+                "title": "Question Code",
+                "type": "string"
+              }
+            },
+            "required": [
+              "question_code",
+              "institution_ids"
+            ],
+            "title": "DepartmentUpdate",
             "type": "object"
           },
           "RefinementUpdate": {
@@ -214,6 +237,16 @@
                 "title": "Contract Version",
                 "type": "string"
               },
+              "departments": {
+                "additionalProperties": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "title": "Departments",
+                "type": "object"
+              },
               "locale": {
                 "enum": [
                   "en-CA",
@@ -230,7 +263,7 @@
                 "type": "object"
               },
               "schema_version": {
-                "const": "1.1",
+                "const": "1.2",
                 "title": "Schema Version",
                 "type": "string"
               }
@@ -240,7 +273,8 @@
               "contract_version",
               "locale",
               "answers",
-              "refinements"
+              "refinements",
+              "departments"
             ],
             "title": "SurveyState",
             "type": "object"
@@ -300,6 +334,21 @@
             "default": null,
             "title": "Answers"
           },
+          "departments": {
+            "anyOf": [
+              {
+                "items": {
+                  "$ref": "#/$defs/DepartmentUpdate"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Departments"
+          },
           "locale": {
             "default": "en-CA",
             "enum": [
@@ -342,6 +391,69 @@
       "name": "my_info_advance",
       "outputSchema": {
         "$defs": {
+          "DepartmentOption": {
+            "additionalProperties": false,
+            "properties": {
+              "institution_id": {
+                "title": "Institution Id",
+                "type": "string"
+              },
+              "label": {
+                "title": "Label",
+                "type": "string"
+              }
+            },
+            "required": [
+              "institution_id",
+              "label"
+            ],
+            "title": "DepartmentOption",
+            "type": "object"
+          },
+          "DepartmentStep": {
+            "additionalProperties": false,
+            "properties": {
+              "options": {
+                "items": {
+                  "$ref": "#/$defs/DepartmentOption"
+                },
+                "title": "Options",
+                "type": "array"
+              },
+              "privacy_note": {
+                "title": "Privacy Note",
+                "type": "string"
+              },
+              "prompt": {
+                "title": "Prompt",
+                "type": "string"
+              },
+              "question_code": {
+                "title": "Question Code",
+                "type": "string"
+              },
+              "selection_type": {
+                "const": "multi_select",
+                "title": "Selection Type",
+                "type": "string"
+              },
+              "step_type": {
+                "const": "department",
+                "title": "Step Type",
+                "type": "string"
+              }
+            },
+            "required": [
+              "step_type",
+              "question_code",
+              "prompt",
+              "selection_type",
+              "options",
+              "privacy_note"
+            ],
+            "title": "DepartmentStep",
+            "type": "object"
+          },
           "QuestionExample": {
             "additionalProperties": false,
             "properties": {
@@ -640,6 +752,16 @@
                 "title": "Contract Version",
                 "type": "string"
               },
+              "departments": {
+                "additionalProperties": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "title": "Departments",
+                "type": "object"
+              },
               "locale": {
                 "enum": [
                   "en-CA",
@@ -656,7 +778,7 @@
                 "type": "object"
               },
               "schema_version": {
-                "const": "1.1",
+                "const": "1.2",
                 "title": "Schema Version",
                 "type": "string"
               }
@@ -666,7 +788,8 @@
               "contract_version",
               "locale",
               "answers",
-              "refinements"
+              "refinements",
+              "departments"
             ],
             "title": "SurveyState",
             "type": "object"
@@ -784,6 +907,9 @@
                 "$ref": "#/$defs/TimingStep"
               },
               {
+                "$ref": "#/$defs/DepartmentStep"
+              },
+              {
                 "type": "null"
               }
             ],
@@ -887,6 +1013,16 @@
                 "title": "Contract Version",
                 "type": "string"
               },
+              "departments": {
+                "additionalProperties": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "title": "Departments",
+                "type": "object"
+              },
               "locale": {
                 "enum": [
                   "en-CA",
@@ -903,7 +1039,7 @@
                 "type": "object"
               },
               "schema_version": {
-                "const": "1.1",
+                "const": "1.2",
                 "title": "Schema Version",
                 "type": "string"
               }
@@ -913,7 +1049,8 @@
               "contract_version",
               "locale",
               "answers",
-              "refinements"
+              "refinements",
+              "departments"
             ],
             "title": "SurveyState",
             "type": "object"
@@ -1013,6 +1150,13 @@
                 "title": "Complete Survey",
                 "type": "boolean"
               },
+              "incomplete_department_question_codes": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Incomplete Department Question Codes",
+                "type": "array"
+              },
               "incomplete_refinement_question_codes": {
                 "items": {
                   "type": "string"
@@ -1058,6 +1202,7 @@
               "unanswered_question_codes",
               "uncertain_question_codes",
               "incomplete_refinement_question_codes",
+              "incomplete_department_question_codes",
               "inventory_gaps",
               "refinement_needed_question_codes",
               "caveat"
@@ -1527,6 +1672,16 @@
                 "title": "Contract Version",
                 "type": "string"
               },
+              "departments": {
+                "additionalProperties": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "title": "Departments",
+                "type": "object"
+              },
               "locale": {
                 "enum": [
                   "en-CA",
@@ -1543,7 +1698,7 @@
                 "type": "object"
               },
               "schema_version": {
-                "const": "1.1",
+                "const": "1.2",
                 "title": "Schema Version",
                 "type": "string"
               }
@@ -1553,7 +1708,8 @@
               "contract_version",
               "locale",
               "answers",
-              "refinements"
+              "refinements",
+              "departments"
             ],
             "title": "SurveyState",
             "type": "object"

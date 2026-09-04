@@ -12,7 +12,7 @@ const copy = {
     lede: "Answer questions about your interactions with federal programs. My Info will estimate which published Personal Information Banks may apply and whether the records are likely still held.",
     privacyTitle: "Private by design", privacy: "Your answers stay in this browser tab. They are not saved or sent to the My Info MCP service.",
     clear: "Clear answers", back: "Back", continue: "Continue", viewResults: "View results",
-    question: "Interaction", refinement: "A little more detail", timing: "Approximate timing",
+    question: "Interaction", refinement: "A little more detail", timing: "Approximate timing", department: "Relevant departments",
     progress: (answered, total) => `${answered} of ${total} main interactions answered`,
     yes: "Yes", no: "No", not_sure: "Not sure", prefer_not_to_answer: "Prefer not to answer",
     examples: "Show real-world examples", why: "Why this is asked", selectAll: "Select all that apply.",
@@ -41,7 +41,7 @@ const copy = {
     lede: "Répondez à des questions sur vos interactions avec les programmes fédéraux. L’outil estimera quelles banques de renseignements personnels publiées pourraient s’appliquer et si les dossiers sont probablement encore conservés.",
     privacyTitle: "Confidentiel dès la conception", privacy: "Vos réponses restent dans cet onglet. Elles ne sont ni enregistrées ni envoyées au service MCP My Info.",
     clear: "Effacer les réponses", back: "Précédent", continue: "Continuer", viewResults: "Voir les résultats",
-    question: "Interaction", refinement: "Un peu plus de détails", timing: "Période approximative",
+    question: "Interaction", refinement: "Un peu plus de détails", timing: "Période approximative", department: "Institutions concernées",
     progress: (answered, total) => `${answered} interactions principales sur ${total} ont une réponse`,
     yes: "Oui", no: "Non", not_sure: "Je ne sais pas", prefer_not_to_answer: "Je préfère ne pas répondre",
     examples: "Afficher des exemples concrets", why: "Pourquoi cette question est posée", selectAll: "Sélectionnez toutes les réponses pertinentes.",
@@ -154,11 +154,17 @@ function openPersona(personaId) {
 
 async function showPersonaResults() {
   if (!modalPersona?.survey) return;
-  const response = engine.advance(
+  let response = engine.advance(
     engine.createState(locale),
     clone(modalPersona.survey.answers || []),
     clone(modalPersona.survey.refinements || [])
   );
+  while (!response.complete && response.next_step?.step_type === "department") {
+    response = engine.advance(response.state, [], [], [{
+      question_code: response.next_step.question_code,
+      institution_ids: response.next_step.options.map((option) => option.institution_id)
+    }]);
+  }
   if (!response.complete) throw new Error(`Persona fixture ${modalPersona.id} did not complete the survey`);
   activePersona = modalPersona;
   state = response.state;
@@ -184,6 +190,7 @@ function renderStep(response) {
   if (step.step_type === "question") renderQuestion(region, step);
   if (step.step_type === "refinement") renderRefinement(region, step);
   if (step.step_type === "timing") renderTiming(region, step);
+  if (step.step_type === "department") renderDepartment(region, step);
   region.querySelector("input")?.focus();
 }
 
@@ -221,6 +228,13 @@ function renderTiming(region, step) {
   $("#approximate-year").addEventListener("input", update);
 }
 
+function renderDepartment(region, step) {
+  region.innerHTML = `<p class="eyebrow">${escapeHtml(localizedQuestion(step.question_code))}</p><h2 class="question-title">${escapeHtml(step.prompt)}</h2><p class="question-note">${escapeHtml(t("selectAll"))}</p><fieldset class="choice-list" aria-label="${escapeHtml(step.prompt)}">${step.options.map((option) =>
+    `<label class="choice"><input type="checkbox" name="department" value="${escapeHtml(option.institution_id)}"><span><strong>${escapeHtml(option.label)}</strong></span></label>`).join("")}</fieldset><p class="privacy-note">${escapeHtml(step.privacy_note)}</p>`;
+  const update = () => { $("#continue-button").disabled = !region.querySelector('input[name="department"]:checked'); };
+  region.querySelectorAll('input[name="department"]').forEach((input) => input.addEventListener("change", update));
+}
+
 function submitCurrent() {
   const step = current.next_step;
   history.push(clone(state));
@@ -230,7 +244,7 @@ function submitCurrent() {
   } else if (step.step_type === "refinement") {
     const selected = [...document.querySelectorAll('#question-region input[name="route"]:checked')].map((input) => input.value);
     current = engine.advance(state, [], [{ question_code: step.question_code, selected_options: selected, timings: {} }]);
-  } else {
+  } else if (step.step_type === "timing") {
     const kind = $("#question-region input[name=timing]:checked").value;
     const timing = kind === "approximate_year" ? { kind, year: Number($("#approximate-year").value) } : { kind };
     if (step.route_option_code) {
@@ -240,6 +254,9 @@ function submitCurrent() {
     } else {
       current = engine.advance(state, [{ question_code: step.question_code, value: "yes", timing }]);
     }
+  } else {
+    const institutionIds = [...document.querySelectorAll('#question-region input[name="department"]:checked')].map((input) => input.value);
+    current = engine.advance(state, [], [], [{ question_code: step.question_code, institution_ids: institutionIds }]);
   }
   state = current.state;
   current.complete ? renderResults() : renderStep(current);

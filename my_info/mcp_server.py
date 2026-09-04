@@ -46,11 +46,12 @@ class SurveyRefinement(StrictModel):
 
 
 class SurveyState(StrictModel):
-    schema_version: Literal["1.1"]
+    schema_version: Literal["1.2"]
     contract_version: str
     locale: Locale
     answers: dict[str, SurveyAnswer]
     refinements: dict[str, SurveyRefinement]
+    departments: dict[str, list[str]]
 
 
 class AnswerUpdate(StrictModel):
@@ -63,6 +64,11 @@ class RefinementUpdate(StrictModel):
     question_code: str
     selected_options: list[str] = Field(min_length=1)
     timings: dict[str, Timing] = Field(default_factory=dict)
+
+
+class DepartmentUpdate(StrictModel):
+    question_code: str
+    institution_ids: list[str] = Field(min_length=1)
 
 
 class ManifestOutput(StrictModel):
@@ -135,6 +141,20 @@ class RefinementStep(StrictModel):
     privacy_note: str
 
 
+class DepartmentOption(StrictModel):
+    institution_id: str
+    label: str
+
+
+class DepartmentStep(StrictModel):
+    step_type: Literal["department"]
+    question_code: str
+    prompt: str
+    selection_type: Literal["multi_select"]
+    options: list[DepartmentOption]
+    privacy_note: str
+
+
 class SurveyProgress(StrictModel):
     answered_questions: int
     total_questions: int
@@ -144,7 +164,7 @@ class SurveyProgress(StrictModel):
 class AdvanceOutput(StrictModel):
     state: SurveyState
     complete: bool
-    next_step: QuestionStep | RefinementStep | TimingStep | None
+    next_step: QuestionStep | RefinementStep | TimingStep | DepartmentStep | None
     progress: SurveyProgress
 
 
@@ -154,6 +174,7 @@ class Assessment(StrictModel):
     unanswered_question_codes: list[str]
     uncertain_question_codes: list[str]
     incomplete_refinement_question_codes: list[str]
+    incomplete_department_question_codes: list[str]
     inventory_gaps: list[dict[str, str]]
     refinement_needed_question_codes: list[str]
     caveat: str
@@ -259,7 +280,7 @@ mcp = MCPServer(
     title="My Info Canada",
     description="Privacy-minimizing questionnaire tools for estimating relevant Government of Canada personal information banks.",
     instructions=SERVER_INSTRUCTIONS,
-    version="0.3.0",
+    version="0.4.0",
 )
 
 
@@ -278,7 +299,7 @@ def my_info_get_manifest() -> ManifestOutput:
     name="my_info_advance",
     title="Advance the My Info survey",
     description=(
-        "Start or continue the survey. Pass back the complete client-owned state returned by the previous call and one or more controlled answer updates. "
+        "Start or continue the survey. Pass back the complete client-owned state returned by the previous call and controlled answer, adaptive refinement, or department-selection updates. "
         "Use this tool to obtain the next question or timing prompt; do not add narrative personal details to state."
     ),
     annotations=READ_ONLY,
@@ -288,12 +309,14 @@ def my_info_advance(
     state: SurveyState | None = None,
     answers: list[AnswerUpdate] | None = None,
     refinements: list[RefinementUpdate] | None = None,
+    departments: list[DepartmentUpdate] | None = None,
     locale: Locale = "en-CA",
 ) -> AdvanceOutput:
     result = advance(
         state.model_dump(exclude_none=True) if state else None,
         [answer.model_dump(exclude_none=True) for answer in answers] if answers else None,
         [item.model_dump(exclude_none=True) for item in refinements] if refinements else None,
+        [item.model_dump(exclude_none=True) for item in departments] if departments else None,
         locale=locale,
     )
     return AdvanceOutput.model_validate(result)

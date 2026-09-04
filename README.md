@@ -120,7 +120,7 @@ repo-contained `plugins/my-info-canada` conversational skill/plugin are also mai
 
 The same state machine also powers a semi-standalone browser Beta under `site/my_info/`.
 It keeps answers in the current browser tab, supports English and French, presents the
-question/refinement/timing tree, and groups results by retention estimate and institution.
+question/refinement/timing/department tree, and groups results by retention estimate and institution.
 It is published independently from the data explorer at
 `https://patlittle.github.io/pibs/my_info/`; its workflow updates only the `my_info/`
 folder on the `pages` branch.

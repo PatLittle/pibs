@@ -1,24 +1,24 @@
 {
   "aggregate": {
-    "expectation_failure_count": 0,
-    "explicit_route_result_count": 126,
+    "expectation_failure_count": 5,
+    "explicit_route_result_count": 121,
     "fallback_only_result_count": 800,
     "fixture_format_issue_count": 0,
     "holding_status_counts": {
       "likely_disposed": 58,
       "likely_held": 184,
       "may_still_be_held": 46,
-      "retention_unknown": 638
+      "retention_unknown": 633
     },
     "inventory_gap_count": 6,
     "match_band_counts": {
-      "strong_match": 926
+      "strong_match": 921
     },
     "persona_count": 4,
-    "result_count": 926,
-    "retention_unknown_count": 638,
+    "result_count": 921,
+    "retention_unknown_count": 633,
     "scope_counts": {
-      "institution_specific": 888,
+      "institution_specific": 883,
       "standard": 38
     },
     "selected_route_coverage_counts": {
@@ -28,7 +28,7 @@
       "partial": 8
     },
     "uncategorized_result_count": 144,
-    "unique_record_count": 438
+    "unique_record_count": 437
   },
   "configuration": {
     "as_of_year": 2026,
@@ -45,7 +45,7 @@
       "prefer_not_to_answer"
     ],
     "contract_schema_version": "1.2",
-    "contract_version": "2026-09-04.4",
+    "contract_version": "2026-09-04.5",
     "data_snapshot": {
       "generated_date": "2026-09-04",
       "source_files": {
@@ -57,7 +57,7 @@
         }
       }
     },
-    "generator_version": "1.3",
+    "generator_version": "1.4",
     "limitations": [
       "Results are estimates, not confirmation that a record exists.",
       "Fallback route choices can still overmatch when a named program or institution is not known.",
@@ -73,7 +73,7 @@
     },
     "question_count": 21,
     "release_stage": "beta",
-    "state_schema_version": "1.1",
+    "state_schema_version": "1.2",
     "supported_locales": [
       "en-CA",
       "fr-CA"
@@ -88,7 +88,7 @@
       "approximate_year",
       "unknown"
     ],
-    "tool_api_version": "0.3.0",
+    "tool_api_version": "0.4.0",
     "tools": [
       "my_info_get_manifest",
       "my_info_advance",
@@ -103,15 +103,17 @@
           "5 selected route(s) fall back to broad parent matching.",
           "3 selected route(s) have only partial inventory coverage.",
           "1 selected interaction(s) have no defensible direct PIB.",
-          "Retention is unknown for 212 of 319 results.",
-          "50 result(s) have no derived personal-information category."
+          "Retention is unknown for 210 of 317 results.",
+          "50 result(s) have no derived personal-information category.",
+          "3 fixture expectation assertion(s) failed."
         ],
-        "expectation_failure_count": 0
+        "expectation_failure_count": 3
       },
       "assessment": {
         "as_of_year": 2026,
         "caveat": "These are candidate PIBs, not confirmation that an institution holds information about this person.",
         "complete_survey": true,
+        "incomplete_department_question_codes": [],
         "incomplete_refinement_question_codes": [],
         "inventory_gaps": [
           {
@@ -142,41 +144,45 @@
           },
           {
             "code": "retention_unknown_majority",
-            "message": "Retention is unknown for 212 of 319 results."
+            "message": "Retention is unknown for 210 of 317 results."
           },
           {
             "code": "uncategorized_results",
             "message": "50 result(s) have no derived personal-information category."
+          },
+          {
+            "code": "expectation_failure",
+            "message": "3 fixture expectation assertion(s) failed."
           }
         ],
         "category_coverage": {
           "canonical_category_count": 25,
           "category_result_counts": {
-            "PI_CAT-1": 122,
+            "PI_CAT-1": 120,
             "PI_CAT-10": 35,
             "PI_CAT-11": 44,
-            "PI_CAT-12": 56,
-            "PI_CAT-13": 109,
-            "PI_CAT-14": 69,
-            "PI_CAT-15": 82,
-            "PI_CAT-16": 78,
-            "PI_CAT-17": 231,
+            "PI_CAT-12": 55,
+            "PI_CAT-13": 108,
+            "PI_CAT-14": 67,
+            "PI_CAT-15": 81,
+            "PI_CAT-16": 77,
+            "PI_CAT-17": 229,
             "PI_CAT-18": 38,
-            "PI_CAT-19": 90,
-            "PI_CAT-2": 25,
-            "PI_CAT-20": 54,
-            "PI_CAT-21": 61,
-            "PI_CAT-22": 66,
+            "PI_CAT-19": 89,
+            "PI_CAT-2": 23,
+            "PI_CAT-20": 53,
+            "PI_CAT-21": 59,
+            "PI_CAT-22": 64,
             "PI_CAT-23": 42,
-            "PI_CAT-24": 141,
+            "PI_CAT-24": 140,
             "PI_CAT-25": 71,
-            "PI_CAT-3": 228,
-            "PI_CAT-4": 72,
+            "PI_CAT-3": 226,
+            "PI_CAT-4": 70,
             "PI_CAT-5": 14,
-            "PI_CAT-6": 32,
+            "PI_CAT-6": 31,
             "PI_CAT-7": 52,
-            "PI_CAT-8": 129,
-            "PI_CAT-9": 35
+            "PI_CAT-8": 127,
+            "PI_CAT-9": 33
           },
           "coverage_ratio": 1.0,
           "distinct_category_count": 25
@@ -192,12 +198,13 @@
             "found": [
               "CBSA PPU 013",
               "IRCC PPU 050",
-              "IRCC PPU 081",
               "RCMP PPU 007",
-              "TC PPU 023",
-              "TC PPU 093"
+              "TC PPU 023"
             ],
-            "missing": []
+            "missing": [
+              "IRCC PPU 081",
+              "TC PPU 093"
+            ]
           },
           "expected_inventory_gaps": {
             "found": [
@@ -210,13 +217,14 @@
             "found": [
               "institution:ati-schedule-i-canada-border-services-agency:CBSA PPU 013",
               "institution:ati-schedule-i-department-of-citizenship-and-immigration:IRCC PPU 050",
-              "institution:ati-schedule-i-department-of-citizenship-and-immigration:IRCC PPU 081",
               "institution:ati-schedule-i-department-of-transport:TC PPU 023",
               "institution:ati-schedule-i-royal-canadian-mounted-police:RCMP PPU 007"
             ],
-            "missing": []
+            "missing": [
+              "institution:ati-schedule-i-department-of-citizenship-and-immigration:IRCC PPU 081"
+            ]
           },
-          "failed_assertion_count": 0,
+          "failed_assertion_count": 3,
           "fixture_format_issue_count": 0,
           "known_likely_false_positives": {
             "bank_numbers_found": [],
@@ -250,7 +258,7 @@
           "likely_disposed": 28,
           "likely_held": 57,
           "may_still_be_held": 22,
-          "retention_unknown": 212
+          "retention_unknown": 210
         },
         "incomplete_refinement_count": 0,
         "incomplete_refinement_question_codes": [],
@@ -268,7 +276,7 @@
           "Correctional Service of Canada": 24,
           "Department of Agriculture and Agri-Food": 4,
           "Department of Canadian Heritage": 4,
-          "Department of Citizenship and Immigration": 8,
+          "Department of Citizenship and Immigration": 7,
           "Department of Crown-Indigenous Relations and Northern Affairs": 2,
           "Department of Employment and Social Development": 32,
           "Department of Finance": 1,
@@ -280,7 +288,7 @@
           "Department of Justice": 5,
           "Department of National Defence": 15,
           "Department of Public Safety and Emergency Preparedness": 5,
-          "Department of Transport": 16,
+          "Department of Transport": 15,
           "Department of Veterans Affairs": 1,
           "Department of Western Economic Diversification": 1,
           "Department of the Environment": 7,
@@ -318,12 +326,12 @@
           }
         ],
         "match_band_counts": {
-          "strong_match": 319
+          "strong_match": 317
         },
-        "result_count": 319,
-        "retention_unknown_count": 212,
+        "result_count": 317,
+        "retention_unknown_count": 210,
         "scope_counts": {
-          "institution_specific": 313,
+          "institution_specific": 311,
           "standard": 6
         },
         "selected_routes": {
@@ -334,14 +342,14 @@
             "partial": 3
           },
           "result_attribution": {
-            "explicit_route_result_count": 22,
+            "explicit_route_result_count": 20,
             "explicit_route_result_counts_by_coverage": {
-              "direct": 19,
+              "direct": 17,
               "partial": 3
             },
-            "fallback_and_explicit_overlap_count": 8,
+            "fallback_and_explicit_overlap_count": 7,
             "fallback_only_result_count": 297,
-            "fallback_parent_associated_result_count": 305
+            "fallback_parent_associated_result_count": 304
           },
           "selected": [
             {
@@ -10290,144 +10298,6 @@
           "title": "Permanent Resident Card (PPU 067)"
         },
         {
-          "bank_number": "IRCC PPU 081",
-          "categories_of_personal_information": [
-            {
-              "category_id": "PI_CAT-1",
-              "name": "Biographical information"
-            },
-            {
-              "category_id": "PI_CAT-13",
-              "name": "Financial information"
-            },
-            {
-              "category_id": "PI_CAT-14",
-              "name": "Gender"
-            },
-            {
-              "category_id": "PI_CAT-15",
-              "name": "Language"
-            },
-            {
-              "category_id": "PI_CAT-16",
-              "name": "Medical information"
-            },
-            {
-              "category_id": "PI_CAT-17",
-              "name": "Name"
-            },
-            {
-              "category_id": "PI_CAT-19",
-              "name": "Other identification numbers"
-            },
-            {
-              "category_id": "PI_CAT-2",
-              "name": "Biometric information"
-            },
-            {
-              "category_id": "PI_CAT-20",
-              "name": "Photos"
-            },
-            {
-              "category_id": "PI_CAT-21",
-              "name": "Physical attributes"
-            },
-            {
-              "category_id": "PI_CAT-22",
-              "name": "Place of birth"
-            },
-            {
-              "category_id": "PI_CAT-24",
-              "name": "Signature"
-            },
-            {
-              "category_id": "PI_CAT-3",
-              "name": "Contact information"
-            },
-            {
-              "category_id": "PI_CAT-4",
-              "name": "Citizenship status"
-            },
-            {
-              "category_id": "PI_CAT-8",
-              "name": "Date of birth"
-            },
-            {
-              "category_id": "PI_CAT-9",
-              "name": "Date of death"
-            }
-          ],
-          "holding_status": "retention_unknown",
-          "institution_id": "ati-schedule-i-department-of-citizenship-and-immigration",
-          "institution_name": "Department of Citizenship and Immigration",
-          "match_band": "strong_match",
-          "matched_question_codes": [
-            "q_travel_border"
-          ],
-          "matched_route_options": [
-            {
-              "question_code": "q_travel_border",
-              "route_option_code": "passport_application"
-            }
-          ],
-          "privacy_caveat_codes": [
-            "historical_or_ended_bank",
-            "possible_sharing",
-            "possible_third_party_information",
-            "sensitive_context"
-          ],
-          "record_id": "institution:ati-schedule-i-department-of-citizenship-and-immigration:IRCC PPU 081",
-          "retention": {
-            "confidence": "low",
-            "published_text_excerpt": "Passport applications and all supporting documentation are retained until an applicant has reached 100 years of age. When an individual holds a valid Canadian passport that will expire after their 100th birthday, the passport application and supporting documentation are retained ",
-            "published_text_truncated": true,
-            "rationale": "The retention clock starts at another event, such as file closure or departure.",
-            "reference_events": [
-              "individual_age"
-            ],
-            "rule_type": "fixed_period",
-            "status": "retention_unknown",
-            "timing": {
-              "kind": "current"
-            }
-          },
-          "scope": "institution_specific",
-          "source_url": "",
-          "specific_information_types": [
-            "following",
-            "Name",
-            "Contact information",
-            "Date of birth",
-            "Place of birth",
-            "Gender",
-            "Biographical information",
-            "Education Information",
-            "Financial Information",
-            "Signature",
-            "Address history for up to two years prior to the date of application",
-            "Photographs",
-            "Physical attributes",
-            "Biometric information",
-            "Citizenship status",
-            "Date of death",
-            "Travel information",
-            "Language",
-            "Other identification numbers as reflected on documents used to support an individual’s identity",
-            "Supporting documentation in relation to custody of",
-            "access to",
-            "mobility of a child",
-            "court records",
-            "power of attorney",
-            "Supporting documentation in relation to changes to biographical information",
-            "medical records",
-            "Other information collected in order to determine an individual’s ongoing entitlement to a travel document",
-            "Previous entry and/or exit information to",
-            "from Canada (including dates, times, locations",
-            "modes of transport)"
-          ],
-          "title": "Regular and Official Passports (PPU 081)"
-        },
-        {
           "bank_number": "IRCC PPU 065",
           "categories_of_personal_information": [
             {
@@ -16805,119 +16675,6 @@
             "vessel information"
           ],
           "title": "Pleasure Craft Licenses"
-        },
-        {
-          "bank_number": "TC PPU 093",
-          "categories_of_personal_information": [
-            {
-              "category_id": "PI_CAT-1",
-              "name": "Biographical information"
-            },
-            {
-              "category_id": "PI_CAT-12",
-              "name": "Employee personnel information"
-            },
-            {
-              "category_id": "PI_CAT-14",
-              "name": "Gender"
-            },
-            {
-              "category_id": "PI_CAT-17",
-              "name": "Name"
-            },
-            {
-              "category_id": "PI_CAT-2",
-              "name": "Biometric information"
-            },
-            {
-              "category_id": "PI_CAT-21",
-              "name": "Physical attributes"
-            },
-            {
-              "category_id": "PI_CAT-22",
-              "name": "Place of birth"
-            },
-            {
-              "category_id": "PI_CAT-3",
-              "name": "Contact information"
-            },
-            {
-              "category_id": "PI_CAT-4",
-              "name": "Citizenship status"
-            },
-            {
-              "category_id": "PI_CAT-6",
-              "name": "Credit history"
-            },
-            {
-              "category_id": "PI_CAT-8",
-              "name": "Date of birth"
-            },
-            {
-              "category_id": "PI_CAT-9",
-              "name": "Date of death"
-            }
-          ],
-          "holding_status": "retention_unknown",
-          "institution_id": "ati-schedule-i-department-of-transport",
-          "institution_name": "Department of Transport",
-          "match_band": "strong_match",
-          "matched_question_codes": [
-            "q_justice_safety"
-          ],
-          "matched_route_options": [
-            {
-              "question_code": "q_justice_safety",
-              "route_option_code": "security_screening"
-            }
-          ],
-          "privacy_caveat_codes": [
-            "possible_sharing",
-            "possible_third_party_information",
-            "sensitive_context"
-          ],
-          "record_id": "institution:ati-schedule-i-department-of-transport:TC PPU 093",
-          "retention": {
-            "confidence": "low",
-            "published_text_excerpt": "Information is retained for two years after the worker’s departure or after the security clearance is expired, refused, suspended or cancelled and then destroyed. Applications that are not approved are retained for two years after the last administrative action and then destroyed",
-            "published_text_truncated": true,
-            "rationale": "The retention clock starts at another event, such as file closure or departure.",
-            "reference_events": [
-              "employment_or_service_end",
-              "last_administrative_action"
-            ],
-            "rule_type": "fixed_period",
-            "status": "retention_unknown",
-            "timing": {
-              "kind": "current"
-            }
-          },
-          "scope": "institution_specific",
-          "source_url": "",
-          "specific_information_types": [
-            "name (including surname at birth",
-            "all other names used)",
-            "contact information",
-            "employment status (including current",
-            "former employers)",
-            "physical attributes (including sex, height, weight, hair",
-            "eye colour)",
-            "birth certificate information",
-            "port of entry",
-            "date of entry",
-            "citizenship information",
-            "passport information",
-            "education information",
-            "resident history",
-            "employment history",
-            "travel history",
-            "marital status",
-            "names of current",
-            "former spouse(s)/common-law partner(s) (including their sex, date of birth, place of birth, address",
-            "date of death if applicable)",
-            "unique Document Control Number (DCN)"
-          ],
-          "title": "Transportation Security Clearance Program"
         },
         {
           "bank_number": "TC PPU 041",
@@ -23344,7 +23101,116 @@
             "value": "yes"
           }
         },
-        "contract_version": "2026-09-04.4",
+        "contract_version": "2026-09-04.5",
+        "departments": {
+          "q_business_supplier": [
+            "ati-schedule-i-atlantic-canada-opportunities-agency",
+            "ati-schedule-i-canada-border-services-agency",
+            "ati-schedule-i-canada-employment-insurance-commission",
+            "ati-schedule-i-canadian-food-inspection-agency",
+            "ati-schedule-i-canadian-grain-commission",
+            "ati-schedule-i-canadian-radio-television-and-telecommunications-commission",
+            "ati-schedule-i-canadian-space-agency",
+            "ati-schedule-i-canadian-transportation-agency",
+            "ati-schedule-i-department-of-citizenship-and-immigration",
+            "ati-schedule-i-department-of-employment-and-social-development",
+            "ati-schedule-i-department-of-fisheries-and-oceans",
+            "ati-schedule-i-department-of-foreign-affairs-trade-and-development",
+            "ati-schedule-i-department-of-health",
+            "ati-schedule-i-department-of-indigenous-services",
+            "ati-schedule-i-department-of-industry",
+            "ati-schedule-i-department-of-national-defence",
+            "ati-schedule-i-department-of-the-environment",
+            "ati-schedule-i-department-of-transport",
+            "ati-schedule-i-montreal-port-authority",
+            "ati-schedule-i-office-of-the-chief-electoral-officer",
+            "ati-schedule-i-parks-canada-agency",
+            "ati-schedule-i-prince-rupert-port-authority",
+            "ati-schedule-i-privy-council-office",
+            "ati-schedule-i-public-health-agency-of-canada",
+            "ati-schedule-i-public-service-commission",
+            "ati-schedule-i-royal-canadian-mounted-police",
+            "ati-schedule-i-sept-iles-port-authority",
+            "ati-schedule-i-st-john-s-port-authority",
+            "ati-schedule-i-the-national-battlefields-commission",
+            "ati-schedule-i-treasury-board-secretariat"
+          ],
+          "q_culture_volunteer": [
+            "ati-schedule-i-canada-employment-insurance-commission",
+            "ati-schedule-i-correctional-service-of-canada",
+            "ati-schedule-i-department-of-canadian-heritage",
+            "ati-schedule-i-department-of-employment-and-social-development",
+            "ati-schedule-i-department-of-fisheries-and-oceans",
+            "ati-schedule-i-department-of-indigenous-services",
+            "ati-schedule-i-parks-canada-agency"
+          ],
+          "q_justice_safety": [
+            "ati-schedule-i-canada-border-services-agency",
+            "ati-schedule-i-canada-employment-insurance-commission",
+            "ati-schedule-i-canadian-radio-television-and-telecommunications-commission",
+            "ati-schedule-i-canadian-security-intelligence-service",
+            "ati-schedule-i-correctional-service-of-canada",
+            "ati-schedule-i-department-of-citizenship-and-immigration",
+            "ati-schedule-i-department-of-employment-and-social-development",
+            "ati-schedule-i-department-of-fisheries-and-oceans",
+            "ati-schedule-i-department-of-foreign-affairs-trade-and-development",
+            "ati-schedule-i-department-of-health",
+            "ati-schedule-i-department-of-industry",
+            "ati-schedule-i-department-of-justice",
+            "ati-schedule-i-department-of-national-defence",
+            "ati-schedule-i-department-of-public-safety-and-emergency-preparedness",
+            "ati-schedule-i-office-of-the-chief-electoral-officer",
+            "ati-schedule-i-office-of-the-correctional-investigator-of-canada",
+            "ati-schedule-i-office-of-the-information-commissioner",
+            "ati-schedule-i-office-of-the-public-sector-integrity-commissioner",
+            "ati-schedule-i-parks-canada-agency",
+            "ati-schedule-i-parole-board-of-canada",
+            "ati-schedule-i-public-health-agency-of-canada",
+            "ati-schedule-i-public-service-commission",
+            "ati-schedule-i-royal-canadian-mounted-police"
+          ],
+          "q_money_programs": [
+            "ati-schedule-i-atlantic-canada-opportunities-agency",
+            "ati-schedule-i-canada-employment-insurance-commission",
+            "ati-schedule-i-canada-revenue-agency",
+            "ati-schedule-i-canadian-security-intelligence-service",
+            "ati-schedule-i-canadian-space-agency",
+            "ati-schedule-i-department-of-agriculture-and-agri-food",
+            "ati-schedule-i-department-of-canadian-heritage",
+            "ati-schedule-i-department-of-citizenship-and-immigration",
+            "ati-schedule-i-department-of-crown-indigenous-relations-and-northern-affairs",
+            "ati-schedule-i-department-of-employment-and-social-development",
+            "ati-schedule-i-department-of-finance",
+            "ati-schedule-i-department-of-fisheries-and-oceans",
+            "ati-schedule-i-department-of-foreign-affairs-trade-and-development",
+            "ati-schedule-i-department-of-indigenous-services",
+            "ati-schedule-i-department-of-industry",
+            "ati-schedule-i-department-of-justice",
+            "ati-schedule-i-department-of-national-defence",
+            "ati-schedule-i-department-of-public-safety-and-emergency-preparedness",
+            "ati-schedule-i-department-of-the-environment",
+            "ati-schedule-i-department-of-veterans-affairs",
+            "ati-schedule-i-department-of-western-economic-diversification",
+            "ati-schedule-i-economic-development-agency-of-canada-for-the-regions-of-quebec",
+            "ati-schedule-i-federal-economic-development-agency-for-northern-ontario",
+            "ati-schedule-i-national-research-council-of-canada",
+            "ati-schedule-i-office-of-the-administrator-of-the-fund-for-railway-accidents-involving-designated-goods",
+            "ati-schedule-i-office-of-the-administrator-of-the-ship-source-oil-pollution-fund",
+            "ati-schedule-i-office-of-the-chief-electoral-officer",
+            "ati-schedule-i-pacific-economic-development-agency-of-canada",
+            "ati-schedule-i-parks-canada-agency",
+            "ati-schedule-i-public-health-agency-of-canada",
+            "ati-schedule-i-royal-canadian-mounted-police",
+            "ati-schedule-i-shared-services-canada",
+            "ati-schedule-i-the-national-battlefields-commission",
+            "ati-schedule-i-treasury-board-secretariat"
+          ],
+          "q_travel_border": [
+            "ati-schedule-i-canada-border-services-agency",
+            "ati-schedule-i-canada-employment-insurance-commission",
+            "ati-schedule-i-department-of-employment-and-social-development"
+          ]
+        },
         "locale": "en-CA",
         "refinements": {
           "q_boating": {
@@ -23491,21 +23357,21 @@
             }
           }
         },
-        "schema_version": "1.1"
+        "schema_version": "1.2"
       },
       "summary": {
         "holding_status_counts": {
           "likely_disposed": 28,
           "likely_held": 57,
           "may_still_be_held": 22,
-          "retention_unknown": 212
+          "retention_unknown": 210
         },
         "match_band_counts": {
-          "strong_match": 319
+          "strong_match": 317
         },
         "next_offset": null,
         "offset": 0,
-        "returned_matches": 319,
+        "returned_matches": 317,
         "top_institutions": [
           {
             "count": 32,
@@ -23532,12 +23398,12 @@
             "institution_name": "Department of Fisheries and Oceans"
           },
           {
-            "count": 16,
-            "institution_name": "Department of Transport"
+            "count": 15,
+            "institution_name": "Department of Health"
           },
           {
             "count": 15,
-            "institution_name": "Department of Health"
+            "institution_name": "Department of Transport"
           },
           {
             "count": 15,
@@ -23548,7 +23414,7 @@
             "institution_name": "Canada Border Services Agency"
           }
         ],
-        "total_matches": 319,
+        "total_matches": 317,
         "truncated": false
       }
     },
@@ -23558,7 +23424,7 @@
           "6 selected route(s) fall back to broad parent matching.",
           "1 selected route(s) have only partial inventory coverage.",
           "2 selected interaction(s) have no defensible direct PIB.",
-          "Retention is unknown for 218 of 308 results.",
+          "Retention is unknown for 217 of 307 results.",
           "57 result(s) have no derived personal-information category."
         ],
         "expectation_failure_count": 0
@@ -23567,6 +23433,7 @@
         "as_of_year": 2026,
         "caveat": "These are candidate PIBs, not confirmation that an institution holds information about this person.",
         "complete_survey": true,
+        "incomplete_department_question_codes": [],
         "incomplete_refinement_question_codes": [],
         "inventory_gaps": [
           {
@@ -23600,7 +23467,7 @@
           },
           {
             "code": "retention_unknown_majority",
-            "message": "Retention is unknown for 218 of 308 results."
+            "message": "Retention is unknown for 217 of 307 results."
           },
           {
             "code": "uncategorized_results",
@@ -23610,31 +23477,31 @@
         "category_coverage": {
           "canonical_category_count": 25,
           "category_result_counts": {
-            "PI_CAT-1": 96,
+            "PI_CAT-1": 95,
             "PI_CAT-10": 41,
             "PI_CAT-11": 34,
             "PI_CAT-12": 53,
-            "PI_CAT-13": 71,
-            "PI_CAT-14": 67,
-            "PI_CAT-15": 64,
-            "PI_CAT-16": 79,
-            "PI_CAT-17": 210,
+            "PI_CAT-13": 70,
+            "PI_CAT-14": 66,
+            "PI_CAT-15": 63,
+            "PI_CAT-16": 78,
+            "PI_CAT-17": 209,
             "PI_CAT-18": 40,
-            "PI_CAT-19": 73,
-            "PI_CAT-2": 24,
-            "PI_CAT-20": 51,
-            "PI_CAT-21": 65,
-            "PI_CAT-22": 49,
+            "PI_CAT-19": 72,
+            "PI_CAT-2": 23,
+            "PI_CAT-20": 50,
+            "PI_CAT-21": 64,
+            "PI_CAT-22": 48,
             "PI_CAT-23": 30,
-            "PI_CAT-24": 103,
+            "PI_CAT-24": 102,
             "PI_CAT-25": 42,
-            "PI_CAT-3": 202,
-            "PI_CAT-4": 51,
+            "PI_CAT-3": 201,
+            "PI_CAT-4": 50,
             "PI_CAT-5": 11,
             "PI_CAT-6": 19,
             "PI_CAT-7": 50,
-            "PI_CAT-8": 111,
-            "PI_CAT-9": 29
+            "PI_CAT-8": 110,
+            "PI_CAT-9": 28
           },
           "coverage_ratio": 1.0,
           "distinct_category_count": 25
@@ -23711,7 +23578,7 @@
           "likely_disposed": 27,
           "likely_held": 52,
           "may_still_be_held": 11,
-          "retention_unknown": 218
+          "retention_unknown": 217
         },
         "incomplete_refinement_count": 0,
         "incomplete_refinement_question_codes": [],
@@ -23727,7 +23594,7 @@
           "Canadian Transportation Agency": 3,
           "Correctional Service of Canada": 23,
           "Department of Agriculture and Agri-Food": 1,
-          "Department of Citizenship and Immigration": 6,
+          "Department of Citizenship and Immigration": 5,
           "Department of Crown-Indigenous Relations and Northern Affairs": 2,
           "Department of Employment and Social Development": 19,
           "Department of Fisheries and Oceans": 16,
@@ -23777,12 +23644,12 @@
           }
         ],
         "match_band_counts": {
-          "strong_match": 308
+          "strong_match": 307
         },
-        "result_count": 308,
-        "retention_unknown_count": 218,
+        "result_count": 307,
+        "retention_unknown_count": 217,
         "scope_counts": {
-          "institution_specific": 300,
+          "institution_specific": 299,
           "standard": 8
         },
         "selected_routes": {
@@ -23793,9 +23660,9 @@
             "partial": 1
           },
           "result_attribution": {
-            "explicit_route_result_count": 50,
+            "explicit_route_result_count": 49,
             "explicit_route_result_counts_by_coverage": {
-              "direct": 40,
+              "direct": 39,
               "partial": 10
             },
             "fallback_and_explicit_overlap_count": 35,
@@ -30791,144 +30658,6 @@
           "source_url": "",
           "specific_information_types": [],
           "title": "Permanent Resident Card (PPU 067)"
-        },
-        {
-          "bank_number": "IRCC PPU 081",
-          "categories_of_personal_information": [
-            {
-              "category_id": "PI_CAT-1",
-              "name": "Biographical information"
-            },
-            {
-              "category_id": "PI_CAT-13",
-              "name": "Financial information"
-            },
-            {
-              "category_id": "PI_CAT-14",
-              "name": "Gender"
-            },
-            {
-              "category_id": "PI_CAT-15",
-              "name": "Language"
-            },
-            {
-              "category_id": "PI_CAT-16",
-              "name": "Medical information"
-            },
-            {
-              "category_id": "PI_CAT-17",
-              "name": "Name"
-            },
-            {
-              "category_id": "PI_CAT-19",
-              "name": "Other identification numbers"
-            },
-            {
-              "category_id": "PI_CAT-2",
-              "name": "Biometric information"
-            },
-            {
-              "category_id": "PI_CAT-20",
-              "name": "Photos"
-            },
-            {
-              "category_id": "PI_CAT-21",
-              "name": "Physical attributes"
-            },
-            {
-              "category_id": "PI_CAT-22",
-              "name": "Place of birth"
-            },
-            {
-              "category_id": "PI_CAT-24",
-              "name": "Signature"
-            },
-            {
-              "category_id": "PI_CAT-3",
-              "name": "Contact information"
-            },
-            {
-              "category_id": "PI_CAT-4",
-              "name": "Citizenship status"
-            },
-            {
-              "category_id": "PI_CAT-8",
-              "name": "Date of birth"
-            },
-            {
-              "category_id": "PI_CAT-9",
-              "name": "Date of death"
-            }
-          ],
-          "holding_status": "retention_unknown",
-          "institution_id": "ati-schedule-i-department-of-citizenship-and-immigration",
-          "institution_name": "Department of Citizenship and Immigration",
-          "match_band": "strong_match",
-          "matched_question_codes": [
-            "q_travel_border"
-          ],
-          "matched_route_options": [
-            {
-              "question_code": "q_travel_border",
-              "route_option_code": "passport_application"
-            }
-          ],
-          "privacy_caveat_codes": [
-            "historical_or_ended_bank",
-            "possible_sharing",
-            "possible_third_party_information",
-            "sensitive_context"
-          ],
-          "record_id": "institution:ati-schedule-i-department-of-citizenship-and-immigration:IRCC PPU 081",
-          "retention": {
-            "confidence": "low",
-            "published_text_excerpt": "Passport applications and all supporting documentation are retained until an applicant has reached 100 years of age. When an individual holds a valid Canadian passport that will expire after their 100th birthday, the passport application and supporting documentation are retained ",
-            "published_text_truncated": true,
-            "rationale": "The retention clock starts at another event, such as file closure or departure.",
-            "reference_events": [
-              "individual_age"
-            ],
-            "rule_type": "fixed_period",
-            "status": "retention_unknown",
-            "timing": {
-              "kind": "8_to_15_years"
-            }
-          },
-          "scope": "institution_specific",
-          "source_url": "",
-          "specific_information_types": [
-            "following",
-            "Name",
-            "Contact information",
-            "Date of birth",
-            "Place of birth",
-            "Gender",
-            "Biographical information",
-            "Education Information",
-            "Financial Information",
-            "Signature",
-            "Address history for up to two years prior to the date of application",
-            "Photographs",
-            "Physical attributes",
-            "Biometric information",
-            "Citizenship status",
-            "Date of death",
-            "Travel information",
-            "Language",
-            "Other identification numbers as reflected on documents used to support an individual’s identity",
-            "Supporting documentation in relation to custody of",
-            "access to",
-            "mobility of a child",
-            "court records",
-            "power of attorney",
-            "Supporting documentation in relation to changes to biographical information",
-            "medical records",
-            "Other information collected in order to determine an individual’s ongoing entitlement to a travel document",
-            "Previous entry and/or exit information to",
-            "from Canada (including dates, times, locations",
-            "modes of transport)"
-          ],
-          "title": "Regular and Official Passports (PPU 081)"
         },
         {
           "bank_number": "IRCC PPU 082",
@@ -44739,7 +44468,127 @@
             "value": "yes"
           }
         },
-        "contract_version": "2026-09-04.4",
+        "contract_version": "2026-09-04.5",
+        "departments": {
+          "q_business_supplier": [
+            "ati-schedule-i-atlantic-canada-opportunities-agency",
+            "ati-schedule-i-canada-border-services-agency",
+            "ati-schedule-i-canada-employment-insurance-commission",
+            "ati-schedule-i-canadian-food-inspection-agency",
+            "ati-schedule-i-canadian-grain-commission",
+            "ati-schedule-i-canadian-radio-television-and-telecommunications-commission",
+            "ati-schedule-i-canadian-space-agency",
+            "ati-schedule-i-canadian-transportation-agency",
+            "ati-schedule-i-department-of-citizenship-and-immigration",
+            "ati-schedule-i-department-of-employment-and-social-development",
+            "ati-schedule-i-department-of-fisheries-and-oceans",
+            "ati-schedule-i-department-of-foreign-affairs-trade-and-development",
+            "ati-schedule-i-department-of-health",
+            "ati-schedule-i-department-of-indigenous-services",
+            "ati-schedule-i-department-of-industry",
+            "ati-schedule-i-department-of-national-defence",
+            "ati-schedule-i-department-of-the-environment",
+            "ati-schedule-i-department-of-transport",
+            "ati-schedule-i-montreal-port-authority",
+            "ati-schedule-i-office-of-the-chief-electoral-officer",
+            "ati-schedule-i-parks-canada-agency",
+            "ati-schedule-i-prince-rupert-port-authority",
+            "ati-schedule-i-privy-council-office",
+            "ati-schedule-i-public-health-agency-of-canada",
+            "ati-schedule-i-public-service-commission",
+            "ati-schedule-i-royal-canadian-mounted-police",
+            "ati-schedule-i-sept-iles-port-authority",
+            "ati-schedule-i-st-john-s-port-authority",
+            "ati-schedule-i-the-national-battlefields-commission",
+            "ati-schedule-i-treasury-board-secretariat"
+          ],
+          "q_complaint_appeal": [
+            "ati-schedule-i-canada-border-services-agency",
+            "ati-schedule-i-canada-employment-insurance-commission",
+            "ati-schedule-i-canadian-radio-television-and-telecommunications-commission",
+            "ati-schedule-i-canadian-security-intelligence-service",
+            "ati-schedule-i-canadian-transportation-agency",
+            "ati-schedule-i-correctional-service-of-canada",
+            "ati-schedule-i-department-of-agriculture-and-agri-food",
+            "ati-schedule-i-department-of-crown-indigenous-relations-and-northern-affairs",
+            "ati-schedule-i-department-of-employment-and-social-development",
+            "ati-schedule-i-department-of-fisheries-and-oceans",
+            "ati-schedule-i-department-of-foreign-affairs-trade-and-development",
+            "ati-schedule-i-department-of-health",
+            "ati-schedule-i-department-of-indigenous-services",
+            "ati-schedule-i-department-of-industry",
+            "ati-schedule-i-department-of-justice",
+            "ati-schedule-i-department-of-national-defence",
+            "ati-schedule-i-department-of-transport",
+            "ati-schedule-i-immigration-and-refugee-board",
+            "ati-schedule-i-military-grievances-external-review-committee",
+            "ati-schedule-i-montreal-port-authority",
+            "ati-schedule-i-office-of-the-director-of-public-prosecutions",
+            "ati-schedule-i-office-of-the-information-commissioner",
+            "ati-schedule-i-office-of-the-public-sector-integrity-commissioner",
+            "ati-schedule-i-parks-canada-agency",
+            "ati-schedule-i-prince-rupert-port-authority",
+            "ati-schedule-i-public-service-commission",
+            "ati-schedule-i-royal-canadian-mounted-police",
+            "ati-schedule-i-royal-canadian-mounted-police-external-review-committee",
+            "ati-schedule-i-treasury-board-secretariat"
+          ],
+          "q_health_disability": [
+            "ati-schedule-i-canada-employment-insurance-commission",
+            "ati-schedule-i-canadian-security-intelligence-service",
+            "ati-schedule-i-canadian-transportation-agency",
+            "ati-schedule-i-correctional-service-of-canada",
+            "ati-schedule-i-department-of-citizenship-and-immigration",
+            "ati-schedule-i-department-of-employment-and-social-development",
+            "ati-schedule-i-department-of-fisheries-and-oceans",
+            "ati-schedule-i-department-of-health",
+            "ati-schedule-i-department-of-indigenous-services",
+            "ati-schedule-i-department-of-national-defence",
+            "ati-schedule-i-department-of-transport",
+            "ati-schedule-i-library-and-archives-of-canada",
+            "ati-schedule-i-public-health-agency-of-canada",
+            "ati-schedule-i-royal-canadian-mounted-police"
+          ],
+          "q_housing_property": [
+            "ati-schedule-i-department-of-indigenous-services",
+            "ati-schedule-i-department-of-national-defence",
+            "ati-schedule-i-prince-rupert-port-authority"
+          ],
+          "q_justice_safety": [
+            "ati-schedule-i-canada-border-services-agency",
+            "ati-schedule-i-canada-employment-insurance-commission",
+            "ati-schedule-i-canadian-radio-television-and-telecommunications-commission",
+            "ati-schedule-i-canadian-security-intelligence-service",
+            "ati-schedule-i-correctional-service-of-canada",
+            "ati-schedule-i-department-of-citizenship-and-immigration",
+            "ati-schedule-i-department-of-employment-and-social-development",
+            "ati-schedule-i-department-of-fisheries-and-oceans",
+            "ati-schedule-i-department-of-foreign-affairs-trade-and-development",
+            "ati-schedule-i-department-of-health",
+            "ati-schedule-i-department-of-industry",
+            "ati-schedule-i-department-of-justice",
+            "ati-schedule-i-department-of-national-defence",
+            "ati-schedule-i-department-of-public-safety-and-emergency-preparedness",
+            "ati-schedule-i-office-of-the-chief-electoral-officer",
+            "ati-schedule-i-office-of-the-correctional-investigator-of-canada",
+            "ati-schedule-i-office-of-the-information-commissioner",
+            "ati-schedule-i-office-of-the-public-sector-integrity-commissioner",
+            "ati-schedule-i-parks-canada-agency",
+            "ati-schedule-i-parole-board-of-canada",
+            "ati-schedule-i-public-health-agency-of-canada",
+            "ati-schedule-i-public-service-commission",
+            "ati-schedule-i-royal-canadian-mounted-police"
+          ],
+          "q_money_programs": [
+            "ati-schedule-i-canada-employment-insurance-commission",
+            "ati-schedule-i-department-of-employment-and-social-development"
+          ],
+          "q_travel_border": [
+            "ati-schedule-i-canada-border-services-agency",
+            "ati-schedule-i-canada-employment-insurance-commission",
+            "ati-schedule-i-department-of-employment-and-social-development"
+          ]
+        },
         "locale": "en-CA",
         "refinements": {
           "q_access_privacy": {
@@ -44889,21 +44738,21 @@
             }
           }
         },
-        "schema_version": "1.1"
+        "schema_version": "1.2"
       },
       "summary": {
         "holding_status_counts": {
           "likely_disposed": 27,
           "likely_held": 52,
           "may_still_be_held": 11,
-          "retention_unknown": 218
+          "retention_unknown": 217
         },
         "match_band_counts": {
-          "strong_match": 308
+          "strong_match": 307
         },
         "next_offset": null,
         "offset": 0,
-        "returned_matches": 308,
+        "returned_matches": 307,
         "top_institutions": [
           {
             "count": 29,
@@ -44946,7 +44795,7 @@
             "institution_name": "Canada Border Services Agency"
           }
         ],
-        "total_matches": 308,
+        "total_matches": 307,
         "truncated": false
       }
     },
@@ -44956,15 +44805,17 @@
           "3 selected route(s) fall back to broad parent matching.",
           "3 selected route(s) have only partial inventory coverage.",
           "1 selected interaction(s) have no defensible direct PIB.",
-          "Retention is unknown for 93 of 145 results.",
-          "16 result(s) have no derived personal-information category."
+          "Retention is unknown for 92 of 144 results.",
+          "16 result(s) have no derived personal-information category.",
+          "2 fixture expectation assertion(s) failed."
         ],
-        "expectation_failure_count": 0
+        "expectation_failure_count": 2
       },
       "assessment": {
         "as_of_year": 2026,
         "caveat": "These are candidate PIBs, not confirmation that an institution holds information about this person.",
         "complete_survey": true,
+        "incomplete_department_question_codes": [],
         "incomplete_refinement_question_codes": [],
         "inventory_gaps": [
           {
@@ -44995,41 +44846,45 @@
           },
           {
             "code": "retention_unknown_majority",
-            "message": "Retention is unknown for 93 of 145 results."
+            "message": "Retention is unknown for 92 of 144 results."
           },
           {
             "code": "uncategorized_results",
             "message": "16 result(s) have no derived personal-information category."
+          },
+          {
+            "code": "expectation_failure",
+            "message": "2 fixture expectation assertion(s) failed."
           }
         ],
         "category_coverage": {
           "canonical_category_count": 25,
           "category_result_counts": {
-            "PI_CAT-1": 66,
+            "PI_CAT-1": 65,
             "PI_CAT-10": 17,
             "PI_CAT-11": 26,
             "PI_CAT-12": 27,
-            "PI_CAT-13": 77,
-            "PI_CAT-14": 31,
-            "PI_CAT-15": 45,
-            "PI_CAT-16": 42,
-            "PI_CAT-17": 112,
+            "PI_CAT-13": 76,
+            "PI_CAT-14": 30,
+            "PI_CAT-15": 44,
+            "PI_CAT-16": 41,
+            "PI_CAT-17": 111,
             "PI_CAT-18": 10,
-            "PI_CAT-19": 46,
-            "PI_CAT-2": 2,
-            "PI_CAT-20": 20,
-            "PI_CAT-21": 17,
-            "PI_CAT-22": 34,
+            "PI_CAT-19": 45,
+            "PI_CAT-2": 1,
+            "PI_CAT-20": 19,
+            "PI_CAT-21": 16,
+            "PI_CAT-22": 33,
             "PI_CAT-23": 27,
-            "PI_CAT-24": 87,
+            "PI_CAT-24": 86,
             "PI_CAT-25": 68,
-            "PI_CAT-3": 114,
-            "PI_CAT-4": 43,
+            "PI_CAT-3": 113,
+            "PI_CAT-4": 42,
             "PI_CAT-5": 4,
             "PI_CAT-6": 18,
             "PI_CAT-7": 17,
-            "PI_CAT-8": 63,
-            "PI_CAT-9": 20
+            "PI_CAT-8": 62,
+            "PI_CAT-9": 19
           },
           "coverage_ratio": 1.0,
           "distinct_category_count": 25
@@ -45045,11 +44900,12 @@
             "found": [
               "ESDC PPU 030",
               "HC PPU 035",
-              "IRCC PPU 081",
               "PCH PPU 070",
               "PSU 901"
             ],
-            "missing": []
+            "missing": [
+              "IRCC PPU 081"
+            ]
           },
           "expected_inventory_gaps": {
             "found": [
@@ -45060,13 +44916,14 @@
           "expected_record_ids": {
             "format_mismatches": [],
             "found": [
-              "institution:ati-schedule-i-department-of-citizenship-and-immigration:IRCC PPU 081",
               "institution:ati-schedule-i-department-of-employment-and-social-development:ESDC PPU 030",
               "standard:PSU 901"
             ],
-            "missing": []
+            "missing": [
+              "institution:ati-schedule-i-department-of-citizenship-and-immigration:IRCC PPU 081"
+            ]
           },
-          "failed_assertion_count": 0,
+          "failed_assertion_count": 2,
           "fixture_format_issue_count": 0,
           "known_likely_false_positives": {
             "bank_numbers_found": [],
@@ -45097,7 +44954,7 @@
         "holding_status_counts": {
           "likely_held": 47,
           "may_still_be_held": 5,
-          "retention_unknown": 93
+          "retention_unknown": 92
         },
         "incomplete_refinement_count": 0,
         "incomplete_refinement_question_codes": [],
@@ -45112,7 +44969,7 @@
           "Correctional Service of Canada": 1,
           "Department of Agriculture and Agri-Food": 6,
           "Department of Canadian Heritage": 2,
-          "Department of Citizenship and Immigration": 4,
+          "Department of Citizenship and Immigration": 3,
           "Department of Crown-Indigenous Relations and Northern Affairs": 2,
           "Department of Employment and Social Development": 29,
           "Department of Finance": 1,
@@ -45153,12 +45010,12 @@
           }
         ],
         "match_band_counts": {
-          "strong_match": 145
+          "strong_match": 144
         },
-        "result_count": 145,
-        "retention_unknown_count": 93,
+        "result_count": 144,
+        "retention_unknown_count": 92,
         "scope_counts": {
-          "institution_specific": 139,
+          "institution_specific": 138,
           "standard": 6
         },
         "selected_routes": {
@@ -45169,9 +45026,9 @@
             "partial": 3
           },
           "result_attribution": {
-            "explicit_route_result_count": 15,
+            "explicit_route_result_count": 14,
             "explicit_route_result_counts_by_coverage": {
-              "direct": 11,
+              "direct": 10,
               "partial": 4
             },
             "fallback_and_explicit_overlap_count": 3,
@@ -51470,144 +51327,6 @@
           "title": "Athlete Assistance Program"
         },
         {
-          "bank_number": "IRCC PPU 081",
-          "categories_of_personal_information": [
-            {
-              "category_id": "PI_CAT-1",
-              "name": "Biographical information"
-            },
-            {
-              "category_id": "PI_CAT-13",
-              "name": "Financial information"
-            },
-            {
-              "category_id": "PI_CAT-14",
-              "name": "Gender"
-            },
-            {
-              "category_id": "PI_CAT-15",
-              "name": "Language"
-            },
-            {
-              "category_id": "PI_CAT-16",
-              "name": "Medical information"
-            },
-            {
-              "category_id": "PI_CAT-17",
-              "name": "Name"
-            },
-            {
-              "category_id": "PI_CAT-19",
-              "name": "Other identification numbers"
-            },
-            {
-              "category_id": "PI_CAT-2",
-              "name": "Biometric information"
-            },
-            {
-              "category_id": "PI_CAT-20",
-              "name": "Photos"
-            },
-            {
-              "category_id": "PI_CAT-21",
-              "name": "Physical attributes"
-            },
-            {
-              "category_id": "PI_CAT-22",
-              "name": "Place of birth"
-            },
-            {
-              "category_id": "PI_CAT-24",
-              "name": "Signature"
-            },
-            {
-              "category_id": "PI_CAT-3",
-              "name": "Contact information"
-            },
-            {
-              "category_id": "PI_CAT-4",
-              "name": "Citizenship status"
-            },
-            {
-              "category_id": "PI_CAT-8",
-              "name": "Date of birth"
-            },
-            {
-              "category_id": "PI_CAT-9",
-              "name": "Date of death"
-            }
-          ],
-          "holding_status": "retention_unknown",
-          "institution_id": "ati-schedule-i-department-of-citizenship-and-immigration",
-          "institution_name": "Department of Citizenship and Immigration",
-          "match_band": "strong_match",
-          "matched_question_codes": [
-            "q_travel_border"
-          ],
-          "matched_route_options": [
-            {
-              "question_code": "q_travel_border",
-              "route_option_code": "passport_application"
-            }
-          ],
-          "privacy_caveat_codes": [
-            "historical_or_ended_bank",
-            "possible_sharing",
-            "possible_third_party_information",
-            "sensitive_context"
-          ],
-          "record_id": "institution:ati-schedule-i-department-of-citizenship-and-immigration:IRCC PPU 081",
-          "retention": {
-            "confidence": "low",
-            "published_text_excerpt": "Passport applications and all supporting documentation are retained until an applicant has reached 100 years of age. When an individual holds a valid Canadian passport that will expire after their 100th birthday, the passport application and supporting documentation are retained ",
-            "published_text_truncated": true,
-            "rationale": "The retention clock starts at another event, such as file closure or departure.",
-            "reference_events": [
-              "individual_age"
-            ],
-            "rule_type": "fixed_period",
-            "status": "retention_unknown",
-            "timing": {
-              "kind": "1_to_3_years"
-            }
-          },
-          "scope": "institution_specific",
-          "source_url": "",
-          "specific_information_types": [
-            "following",
-            "Name",
-            "Contact information",
-            "Date of birth",
-            "Place of birth",
-            "Gender",
-            "Biographical information",
-            "Education Information",
-            "Financial Information",
-            "Signature",
-            "Address history for up to two years prior to the date of application",
-            "Photographs",
-            "Physical attributes",
-            "Biometric information",
-            "Citizenship status",
-            "Date of death",
-            "Travel information",
-            "Language",
-            "Other identification numbers as reflected on documents used to support an individual’s identity",
-            "Supporting documentation in relation to custody of",
-            "access to",
-            "mobility of a child",
-            "court records",
-            "power of attorney",
-            "Supporting documentation in relation to changes to biographical information",
-            "medical records",
-            "Other information collected in order to determine an individual’s ongoing entitlement to a travel document",
-            "Previous entry and/or exit information to",
-            "from Canada (including dates, times, locations",
-            "modes of transport)"
-          ],
-          "title": "Regular and Official Passports (PPU 081)"
-        },
-        {
           "bank_number": "IRCC PPU 065",
           "categories_of_personal_information": [
             {
@@ -56319,7 +56038,71 @@
             "value": "yes"
           }
         },
-        "contract_version": "2026-09-04.4",
+        "contract_version": "2026-09-04.5",
+        "departments": {
+          "q_civic_contact": [
+            "ati-schedule-i-canadian-radio-television-and-telecommunications-commission",
+            "ati-schedule-i-canadian-security-intelligence-service",
+            "ati-schedule-i-correctional-service-of-canada",
+            "ati-schedule-i-department-of-agriculture-and-agri-food",
+            "ati-schedule-i-department-of-health",
+            "ati-schedule-i-office-of-the-chief-electoral-officer",
+            "ati-schedule-i-privy-council-office",
+            "ati-schedule-i-public-service-commission"
+          ],
+          "q_education_training": [
+            "ati-schedule-i-canada-employment-insurance-commission",
+            "ati-schedule-i-department-of-employment-and-social-development"
+          ],
+          "q_emergency": [
+            "ati-schedule-i-canada-revenue-agency",
+            "ati-schedule-i-department-of-agriculture-and-agri-food",
+            "ati-schedule-i-department-of-fisheries-and-oceans",
+            "ati-schedule-i-department-of-public-safety-and-emergency-preparedness",
+            "ati-schedule-i-public-health-agency-of-canada"
+          ],
+          "q_money_programs": [
+            "ati-schedule-i-atlantic-canada-opportunities-agency",
+            "ati-schedule-i-canada-employment-insurance-commission",
+            "ati-schedule-i-canada-revenue-agency",
+            "ati-schedule-i-canadian-security-intelligence-service",
+            "ati-schedule-i-canadian-space-agency",
+            "ati-schedule-i-department-of-agriculture-and-agri-food",
+            "ati-schedule-i-department-of-canadian-heritage",
+            "ati-schedule-i-department-of-citizenship-and-immigration",
+            "ati-schedule-i-department-of-crown-indigenous-relations-and-northern-affairs",
+            "ati-schedule-i-department-of-employment-and-social-development",
+            "ati-schedule-i-department-of-finance",
+            "ati-schedule-i-department-of-fisheries-and-oceans",
+            "ati-schedule-i-department-of-foreign-affairs-trade-and-development",
+            "ati-schedule-i-department-of-indigenous-services",
+            "ati-schedule-i-department-of-industry",
+            "ati-schedule-i-department-of-justice",
+            "ati-schedule-i-department-of-national-defence",
+            "ati-schedule-i-department-of-public-safety-and-emergency-preparedness",
+            "ati-schedule-i-department-of-the-environment",
+            "ati-schedule-i-department-of-veterans-affairs",
+            "ati-schedule-i-department-of-western-economic-diversification",
+            "ati-schedule-i-economic-development-agency-of-canada-for-the-regions-of-quebec",
+            "ati-schedule-i-federal-economic-development-agency-for-northern-ontario",
+            "ati-schedule-i-national-research-council-of-canada",
+            "ati-schedule-i-office-of-the-administrator-of-the-fund-for-railway-accidents-involving-designated-goods",
+            "ati-schedule-i-office-of-the-administrator-of-the-ship-source-oil-pollution-fund",
+            "ati-schedule-i-office-of-the-chief-electoral-officer",
+            "ati-schedule-i-pacific-economic-development-agency-of-canada",
+            "ati-schedule-i-parks-canada-agency",
+            "ati-schedule-i-public-health-agency-of-canada",
+            "ati-schedule-i-royal-canadian-mounted-police",
+            "ati-schedule-i-shared-services-canada",
+            "ati-schedule-i-the-national-battlefields-commission",
+            "ati-schedule-i-treasury-board-secretariat"
+          ],
+          "q_travel_border": [
+            "ati-schedule-i-canada-border-services-agency",
+            "ati-schedule-i-canada-employment-insurance-commission",
+            "ati-schedule-i-department-of-employment-and-social-development"
+          ]
+        },
         "locale": "en-CA",
         "refinements": {
           "q_access_privacy": {
@@ -56421,20 +56204,20 @@
             }
           }
         },
-        "schema_version": "1.1"
+        "schema_version": "1.2"
       },
       "summary": {
         "holding_status_counts": {
           "likely_held": 47,
           "may_still_be_held": 5,
-          "retention_unknown": 93
+          "retention_unknown": 92
         },
         "match_band_counts": {
-          "strong_match": 145
+          "strong_match": 144
         },
         "next_offset": null,
         "offset": 0,
-        "returned_matches": 145,
+        "returned_matches": 144,
         "top_institutions": [
           {
             "count": 29,
@@ -56462,10 +56245,6 @@
           },
           {
             "count": 4,
-            "institution_name": "Department of Citizenship and Immigration"
-          },
-          {
-            "count": 4,
             "institution_name": "Department of Foreign Affairs, Trade and Development"
           },
           {
@@ -56475,9 +56254,13 @@
           {
             "count": 4,
             "institution_name": "Treasury Board Secretariat"
+          },
+          {
+            "count": 3,
+            "institution_name": "Department of Citizenship and Immigration"
           }
         ],
-        "total_matches": 145,
+        "total_matches": 144,
         "truncated": false
       }
     },
@@ -56487,7 +56270,7 @@
           "4 selected route(s) fall back to broad parent matching.",
           "1 selected route(s) have only partial inventory coverage.",
           "2 selected interaction(s) have no defensible direct PIB.",
-          "Retention is unknown for 115 of 154 results.",
+          "Retention is unknown for 114 of 153 results.",
           "21 result(s) have no derived personal-information category."
         ],
         "expectation_failure_count": 0
@@ -56496,6 +56279,7 @@
         "as_of_year": 2026,
         "caveat": "These are candidate PIBs, not confirmation that an institution holds information about this person.",
         "complete_survey": true,
+        "incomplete_department_question_codes": [],
         "incomplete_refinement_question_codes": [],
         "inventory_gaps": [
           {
@@ -56529,7 +56313,7 @@
           },
           {
             "code": "retention_unknown_majority",
-            "message": "Retention is unknown for 115 of 154 results."
+            "message": "Retention is unknown for 114 of 153 results."
           },
           {
             "code": "uncategorized_results",
@@ -56539,31 +56323,31 @@
         "category_coverage": {
           "canonical_category_count": 25,
           "category_result_counts": {
-            "PI_CAT-1": 53,
+            "PI_CAT-1": 52,
             "PI_CAT-10": 31,
             "PI_CAT-11": 17,
             "PI_CAT-12": 34,
-            "PI_CAT-13": 34,
-            "PI_CAT-14": 31,
-            "PI_CAT-15": 35,
-            "PI_CAT-16": 51,
-            "PI_CAT-17": 104,
+            "PI_CAT-13": 33,
+            "PI_CAT-14": 30,
+            "PI_CAT-15": 34,
+            "PI_CAT-16": 50,
+            "PI_CAT-17": 103,
             "PI_CAT-18": 19,
-            "PI_CAT-19": 29,
-            "PI_CAT-2": 8,
-            "PI_CAT-20": 12,
-            "PI_CAT-21": 25,
-            "PI_CAT-22": 16,
+            "PI_CAT-19": 28,
+            "PI_CAT-2": 7,
+            "PI_CAT-20": 11,
+            "PI_CAT-21": 24,
+            "PI_CAT-22": 15,
             "PI_CAT-23": 8,
-            "PI_CAT-24": 51,
+            "PI_CAT-24": 50,
             "PI_CAT-25": 28,
-            "PI_CAT-3": 100,
-            "PI_CAT-4": 22,
+            "PI_CAT-3": 99,
+            "PI_CAT-4": 21,
             "PI_CAT-5": 1,
             "PI_CAT-6": 9,
             "PI_CAT-7": 12,
-            "PI_CAT-8": 60,
-            "PI_CAT-9": 18
+            "PI_CAT-8": 59,
+            "PI_CAT-9": 17
           },
           "coverage_ratio": 1.0,
           "distinct_category_count": 25
@@ -56643,7 +56427,7 @@
           "likely_disposed": 3,
           "likely_held": 28,
           "may_still_be_held": 8,
-          "retention_unknown": 115
+          "retention_unknown": 114
         },
         "incomplete_refinement_count": 0,
         "incomplete_refinement_question_codes": [],
@@ -56655,7 +56439,7 @@
           "Canadian Transportation Agency": 2,
           "Correctional Service of Canada": 2,
           "Department of Agriculture and Agri-Food": 1,
-          "Department of Citizenship and Immigration": 2,
+          "Department of Citizenship and Immigration": 1,
           "Department of Crown-Indigenous Relations and Northern Affairs": 2,
           "Department of Employment and Social Development": 12,
           "Department of Fisheries and Oceans": 2,
@@ -56696,12 +56480,12 @@
           }
         ],
         "match_band_counts": {
-          "strong_match": 154
+          "strong_match": 153
         },
-        "result_count": 154,
-        "retention_unknown_count": 115,
+        "result_count": 153,
+        "retention_unknown_count": 114,
         "scope_counts": {
-          "institution_specific": 136,
+          "institution_specific": 135,
           "standard": 18
         },
         "selected_routes": {
@@ -56712,9 +56496,9 @@
             "partial": 1
           },
           "result_attribution": {
-            "explicit_route_result_count": 39,
+            "explicit_route_result_count": 38,
             "explicit_route_result_counts_by_coverage": {
-              "direct": 37,
+              "direct": 36,
               "partial": 2
             },
             "fallback_and_explicit_overlap_count": 2,
@@ -60076,144 +59860,6 @@
           "source_url": "",
           "specific_information_types": [],
           "title": ""
-        },
-        {
-          "bank_number": "IRCC PPU 081",
-          "categories_of_personal_information": [
-            {
-              "category_id": "PI_CAT-1",
-              "name": "Biographical information"
-            },
-            {
-              "category_id": "PI_CAT-13",
-              "name": "Financial information"
-            },
-            {
-              "category_id": "PI_CAT-14",
-              "name": "Gender"
-            },
-            {
-              "category_id": "PI_CAT-15",
-              "name": "Language"
-            },
-            {
-              "category_id": "PI_CAT-16",
-              "name": "Medical information"
-            },
-            {
-              "category_id": "PI_CAT-17",
-              "name": "Name"
-            },
-            {
-              "category_id": "PI_CAT-19",
-              "name": "Other identification numbers"
-            },
-            {
-              "category_id": "PI_CAT-2",
-              "name": "Biometric information"
-            },
-            {
-              "category_id": "PI_CAT-20",
-              "name": "Photos"
-            },
-            {
-              "category_id": "PI_CAT-21",
-              "name": "Physical attributes"
-            },
-            {
-              "category_id": "PI_CAT-22",
-              "name": "Place of birth"
-            },
-            {
-              "category_id": "PI_CAT-24",
-              "name": "Signature"
-            },
-            {
-              "category_id": "PI_CAT-3",
-              "name": "Contact information"
-            },
-            {
-              "category_id": "PI_CAT-4",
-              "name": "Citizenship status"
-            },
-            {
-              "category_id": "PI_CAT-8",
-              "name": "Date of birth"
-            },
-            {
-              "category_id": "PI_CAT-9",
-              "name": "Date of death"
-            }
-          ],
-          "holding_status": "retention_unknown",
-          "institution_id": "ati-schedule-i-department-of-citizenship-and-immigration",
-          "institution_name": "Department of Citizenship and Immigration",
-          "match_band": "strong_match",
-          "matched_question_codes": [
-            "q_travel_border"
-          ],
-          "matched_route_options": [
-            {
-              "question_code": "q_travel_border",
-              "route_option_code": "passport_application"
-            }
-          ],
-          "privacy_caveat_codes": [
-            "historical_or_ended_bank",
-            "possible_sharing",
-            "possible_third_party_information",
-            "sensitive_context"
-          ],
-          "record_id": "institution:ati-schedule-i-department-of-citizenship-and-immigration:IRCC PPU 081",
-          "retention": {
-            "confidence": "low",
-            "published_text_excerpt": "Passport applications and all supporting documentation are retained until an applicant has reached 100 years of age. When an individual holds a valid Canadian passport that will expire after their 100th birthday, the passport application and supporting documentation are retained ",
-            "published_text_truncated": true,
-            "rationale": "The retention clock starts at another event, such as file closure or departure.",
-            "reference_events": [
-              "individual_age"
-            ],
-            "rule_type": "fixed_period",
-            "status": "retention_unknown",
-            "timing": {
-              "kind": "current"
-            }
-          },
-          "scope": "institution_specific",
-          "source_url": "",
-          "specific_information_types": [
-            "following",
-            "Name",
-            "Contact information",
-            "Date of birth",
-            "Place of birth",
-            "Gender",
-            "Biographical information",
-            "Education Information",
-            "Financial Information",
-            "Signature",
-            "Address history for up to two years prior to the date of application",
-            "Photographs",
-            "Physical attributes",
-            "Biometric information",
-            "Citizenship status",
-            "Date of death",
-            "Travel information",
-            "Language",
-            "Other identification numbers as reflected on documents used to support an individual’s identity",
-            "Supporting documentation in relation to custody of",
-            "access to",
-            "mobility of a child",
-            "court records",
-            "power of attorney",
-            "Supporting documentation in relation to changes to biographical information",
-            "medical records",
-            "Other information collected in order to determine an individual’s ongoing entitlement to a travel document",
-            "Previous entry and/or exit information to",
-            "from Canada (including dates, times, locations",
-            "modes of transport)"
-          ],
-          "title": "Regular and Official Passports (PPU 081)"
         },
         {
           "bank_number": "CIRNAC PPU 151",
@@ -66997,7 +66643,74 @@
             "value": "yes"
           }
         },
-        "contract_version": "2026-09-04.4",
+        "contract_version": "2026-09-04.5",
+        "departments": {
+          "q_complaint_appeal": [
+            "ati-schedule-i-canada-border-services-agency",
+            "ati-schedule-i-canada-employment-insurance-commission",
+            "ati-schedule-i-canadian-radio-television-and-telecommunications-commission",
+            "ati-schedule-i-canadian-security-intelligence-service",
+            "ati-schedule-i-canadian-transportation-agency",
+            "ati-schedule-i-correctional-service-of-canada",
+            "ati-schedule-i-department-of-agriculture-and-agri-food",
+            "ati-schedule-i-department-of-crown-indigenous-relations-and-northern-affairs",
+            "ati-schedule-i-department-of-employment-and-social-development",
+            "ati-schedule-i-department-of-fisheries-and-oceans",
+            "ati-schedule-i-department-of-foreign-affairs-trade-and-development",
+            "ati-schedule-i-department-of-health",
+            "ati-schedule-i-department-of-indigenous-services",
+            "ati-schedule-i-department-of-industry",
+            "ati-schedule-i-department-of-justice",
+            "ati-schedule-i-department-of-national-defence",
+            "ati-schedule-i-department-of-transport",
+            "ati-schedule-i-immigration-and-refugee-board",
+            "ati-schedule-i-military-grievances-external-review-committee",
+            "ati-schedule-i-montreal-port-authority",
+            "ati-schedule-i-office-of-the-director-of-public-prosecutions",
+            "ati-schedule-i-office-of-the-information-commissioner",
+            "ati-schedule-i-office-of-the-public-sector-integrity-commissioner",
+            "ati-schedule-i-parks-canada-agency",
+            "ati-schedule-i-prince-rupert-port-authority",
+            "ati-schedule-i-public-service-commission",
+            "ati-schedule-i-royal-canadian-mounted-police",
+            "ati-schedule-i-royal-canadian-mounted-police-external-review-committee",
+            "ati-schedule-i-treasury-board-secretariat"
+          ],
+          "q_education_training": [
+            "ati-schedule-i-canada-employment-insurance-commission",
+            "ati-schedule-i-department-of-employment-and-social-development"
+          ],
+          "q_health_disability": [
+            "ati-schedule-i-canada-employment-insurance-commission",
+            "ati-schedule-i-canadian-security-intelligence-service",
+            "ati-schedule-i-canadian-transportation-agency",
+            "ati-schedule-i-correctional-service-of-canada",
+            "ati-schedule-i-department-of-citizenship-and-immigration",
+            "ati-schedule-i-department-of-employment-and-social-development",
+            "ati-schedule-i-department-of-fisheries-and-oceans",
+            "ati-schedule-i-department-of-health",
+            "ati-schedule-i-department-of-indigenous-services",
+            "ati-schedule-i-department-of-national-defence",
+            "ati-schedule-i-department-of-transport",
+            "ati-schedule-i-library-and-archives-of-canada",
+            "ati-schedule-i-public-health-agency-of-canada",
+            "ati-schedule-i-royal-canadian-mounted-police"
+          ],
+          "q_housing_property": [
+            "ati-schedule-i-department-of-indigenous-services",
+            "ati-schedule-i-department-of-national-defence",
+            "ati-schedule-i-prince-rupert-port-authority"
+          ],
+          "q_money_programs": [
+            "ati-schedule-i-canada-employment-insurance-commission",
+            "ati-schedule-i-department-of-employment-and-social-development"
+          ],
+          "q_travel_border": [
+            "ati-schedule-i-canada-border-services-agency",
+            "ati-schedule-i-canada-employment-insurance-commission",
+            "ati-schedule-i-department-of-employment-and-social-development"
+          ]
+        },
         "locale": "en-CA",
         "refinements": {
           "q_access_privacy": {
@@ -67147,21 +66860,21 @@
             }
           }
         },
-        "schema_version": "1.1"
+        "schema_version": "1.2"
       },
       "summary": {
         "holding_status_counts": {
           "likely_disposed": 3,
           "likely_held": 28,
           "may_still_be_held": 8,
-          "retention_unknown": 115
+          "retention_unknown": 114
         },
         "match_band_counts": {
-          "strong_match": 154
+          "strong_match": 153
         },
         "next_offset": null,
         "offset": 0,
-        "returned_matches": 154,
+        "returned_matches": 153,
         "top_institutions": [
           {
             "count": 22,
@@ -67204,7 +66917,7 @@
             "institution_name": "Public Health Agency of Canada"
           }
         ],
-        "total_matches": 154,
+        "total_matches": 153,
         "truncated": false
       }
     }
@@ -67212,21 +66925,21 @@
   "ranked_findings": [
     {
       "code": "fallbacks_flatten_to_strong",
-      "finding": "18 fallback selections are associated with 800 fallback-only results, while 926 of 926 results are labelled strong. The engine retains the broad parent yes for fallback routes instead of lowering match confidence.",
+      "finding": "18 fallback selections are associated with 800 fallback-only results, while 921 of 921 results are labelled strong. The engine retains the broad parent yes for fallback routes instead of lowering match confidence.",
       "rank": 1,
       "recommendation": "Add a fallback-derived match band, or carry route coverage into result confidence and reserve strong_match for explicit selectors.",
       "severity": "high"
     },
     {
       "code": "candidate_volume",
-      "finding": "The four personas return 926 results covering 438 unique PIBs (43.8% of the 999-PIB snapshot).",
+      "finding": "The four personas return 921 results covering 437 unique PIBs (43.7% of the 999-PIB snapshot).",
       "rank": 2,
       "recommendation": "Prioritize named institution/program routes for the fallback interactions that contribute the largest candidate sets.",
       "severity": "high"
     },
     {
       "code": "retention_unknown",
-      "finding": "Retention is unknown for 638 of 926 results (68.9%).",
+      "finding": "Retention is unknown for 633 of 921 results (68.7%).",
       "rank": 3,
       "recommendation": "Capture the actual retention trigger (for example file closure, departure, licence expiry, or last administrative action) only where it can materially change the estimate.",
       "severity": "high"
@@ -67244,6 +66957,13 @@
       "rank": 5,
       "recommendation": "Keep these visible as coverage limitations; do not substitute broad unrelated PIBs merely to return a result.",
       "severity": "medium"
+    },
+    {
+      "code": "genuine_expectation_failures",
+      "finding": "5 expectation assertions remain after record-ID format mismatches are excluded.",
+      "rank": 6,
+      "recommendation": "Review these as genuine coverage or fixture assertion failures.",
+      "severity": "high"
     }
   ],
   "schema_version": "1.0"

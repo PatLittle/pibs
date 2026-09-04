@@ -25,7 +25,7 @@ from my_info.retention import derive_retention
 
 
 DEFAULT_OUTPUT_DIR = Path("data/derived/my_info")
-GENERATOR_VERSION = "1.3"
+GENERATOR_VERSION = "1.4"
 
 
 def _json(value: Any) -> str:
@@ -190,7 +190,7 @@ def write_outputs(
     }
     questionnaire = {
         "schema_version": "1.2",
-        "content_version": f"{generated_date}.4",
+        "content_version": f"{generated_date}.5",
         "generator_version": GENERATOR_VERSION,
         "data_snapshot": {
             "generated_date": generated_date,

@@ -1229,7 +1229,7 @@
       "prompt_fr": "Quel service fédéral nommé lié à un événement de vie s'applique? Sélectionnez toutes les réponses pertinentes."
     }
   ],
-  "content_version": "2026-09-04.4",
+  "content_version": "2026-09-04.5",
   "data_snapshot": {
     "generated_date": "2026-09-04",
     "source_files": {
@@ -1241,7 +1241,7 @@
       }
     }
   },
-  "generator_version": "1.3",
+  "generator_version": "1.4",
   "personal_information_categories": [
     {
       "category_id": "PI_CAT-1",

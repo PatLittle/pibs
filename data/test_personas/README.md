@@ -17,7 +17,7 @@ adaptive selection and an approximate timing for each selected option. The
 `expectations` object records durable assertions and known gaps; it is not proof
 that the fictional person would actually have a record in a named PIB.
 
-The fixtures target contract `2026-09-04.4`, adaptive route version `2.0`, and
+The fixtures target contract `2026-09-04.5`, adaptive route version `2.0`, and
 an assessment year of 2026. Update the fixture version and re-review every
 expectation when the generated questionnaire contract changes.
 

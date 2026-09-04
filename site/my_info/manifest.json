@@ -1,28 +1,28 @@
 {
   "adaptive_route_count": 21,
   "built_hashes": {
-    "browser_engine_sha256": "41410d93f596f9fd544d375db0d5e2dd4f87bfb008e42e1f44f3ee4a5f03c69c",
-    "personas_sha256": "5c7e4b2bc7dc6c690ddeb955ab85246cda3bf70cf6839f9288023d2376a962f6",
-    "runtime_sha256": "a8f1657b2ca94cd54d581963bf287a9b3c5ae417a126f58f9f84a925f6b78b95"
+    "browser_engine_sha256": "e7a87d8ae7b637e8f10fd1edf9b65743ddc6ac50d6161bd58406ab3df18aa3da",
+    "personas_sha256": "d9997979b15635e83e11e45e05f542330f935e523de693183f087960a47fbd93",
+    "runtime_sha256": "b932bf69f714e982b1fd5f00b066c9804345bf2be90ff3fa19b95f260fec7e80"
   },
   "contract_schema_version": "1.2",
-  "contract_version": "2026-09-04.4",
+  "contract_version": "2026-09-04.5",
   "persona_count": 4,
   "pib_count": 999,
   "product": "My Info survey",
   "question_count": 21,
   "release_stage": "beta",
   "source_hashes": {
-    "canonical_engine_sha256": "53db16159d6452b7a73c7df1031559a800c4c6ee9ac68ac32432eeac94ae74a2",
+    "canonical_engine_sha256": "d0ca32c6aedc7d00aad80dc531dd5e20085ac6ab13333a093d0c964acf33d46e",
     "feature_csv_sha256": "8341bd946b3e20df9b3d89dbb5d6d814a3ba816733e6e05095fdc1f05a19d2b1",
-    "persona_fixtures_sha256": "3d4eab59d13af1762d8899ac1a2dba000720fb1732f9fd3542990a2cb0561381",
+    "persona_fixtures_sha256": "8fdb7788944a1ba39b014c953a1504688dc012a258838e3be91b3ba2b8a26e88",
     "persona_portrait_sha256": {
       "aisha_rahman": "73038c3697b027abe0d78e76f42bc3b444db7684da4d774d0f1bad03f39d7892",
       "dominic_vale": "ade8780d0abdc1b4173d5eac1b0cc1ebf033a52d1a66f2d0988bb81d85bee623",
       "peter_deloitte": "f15c4f4eba765a63bb835650be4efb4e4b0ff19a1e065d23253fd1807d0afbf4",
       "sophie_tremblay": "3220abc50da99b320fe7b4a67e20dd81516b51f59a81e45e43944a4bbd5d4a10"
     },
-    "questionnaire_sha256": "46fc861aa75b41caade9e95e70b3bed123433a2b52a85fe4182b5d607107254e"
+    "questionnaire_sha256": "f30668aa1e7ced2bacd59c2a347ddccb7db4caebb84befc140303b9fe0bc396a"
   },
-  "tool_api_version": "0.3.0"
+  "tool_api_version": "0.4.0"
 }

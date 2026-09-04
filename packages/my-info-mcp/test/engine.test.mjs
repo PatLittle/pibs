@@ -25,7 +25,7 @@ test("runtime data resolves after a Netlify function bundle relocates the module
 
 test("manifest and adaptive advance are versioned", () => {
   const manifest = engine.getManifest();
-  assert.equal(manifest.tool_api_version, "0.3.0");
+  assert.equal(manifest.tool_api_version, "0.4.0");
   assert.equal(manifest.question_count, 21);
   assert.equal(manifest.adaptive_route_count, 21);
   let step = engine.advance();
@@ -59,4 +59,24 @@ test("tax filing exposes the current source inventory gap", () => {
   const result = engine.evaluate(state, { asOfYear: 2026 });
   assert.equal(result.results.length, 0);
   assert.equal(result.assessment.inventory_gaps[0].route_option_code, "federal_tax_return");
+});
+
+test("department follow-up narrows broad complaint matches", () => {
+  const answers = engine.questionOrder.filter((code) => code !== "q_complaint_appeal").map((question_code) => ({ question_code, value: "no" }));
+  answers.push({ question_code: "q_complaint_appeal", value: "yes" });
+  let response = engine.advance(null, answers, [{
+    question_code: "q_complaint_appeal",
+    selected_options: ["other_complaint_appeal"],
+    timings: { other_complaint_appeal: { kind: "within_1_year" } }
+  }]);
+  assert.equal(response.next_step.step_type, "department");
+  const selected = response.next_step.options[0].institution_id;
+  response = engine.advance(response.state, [], [], [{
+    question_code: "q_complaint_appeal",
+    institution_ids: [selected]
+  }]);
+  assert.equal(response.complete, true);
+  const results = engine.evaluate(response.state, { asOfYear: 2026, maxResults: 500 }).results;
+  assert.ok(results.length > 0);
+  assert.ok(results.every((item) => !item.institution_id || item.institution_id === selected));
 });

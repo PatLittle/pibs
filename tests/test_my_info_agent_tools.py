@@ -139,6 +139,15 @@ class AgentToolEngineTests(unittest.TestCase):
             answers=VOICE_SESSION_ANSWERS,
             refinements=VOICE_SESSION_REFINEMENTS,
         )
+        while not completed["complete"] and completed["next_step"]["step_type"] == "department":
+            step = completed["next_step"]
+            completed = self.engine.advance(
+                completed["state"],
+                departments=[{
+                    "question_code": step["question_code"],
+                    "institution_ids": [item["institution_id"] for item in step["options"]],
+                }],
+            )
         self.assertTrue(completed["complete"])
         evaluation = self.engine.evaluate(
             completed["state"], as_of_year=2026, include_possible=False, max_results=500
@@ -211,6 +220,39 @@ class AgentToolEngineTests(unittest.TestCase):
             for result in evaluation["results"]
         ))
 
+    def test_department_follow_up_filters_broad_complaint_matches(self) -> None:
+        answers = [
+            {"question_code": code, "value": "no"}
+            for code in self.engine.question_order
+            if code != "q_complaint_appeal"
+        ]
+        answers.append({
+            "question_code": "q_complaint_appeal",
+            "value": "yes",
+        })
+        response = self.engine.advance(
+            answers=answers,
+            refinements=[{
+                "question_code": "q_complaint_appeal",
+                "selected_options": ["other_complaint_appeal"],
+                "timings": {"other_complaint_appeal": {"kind": "within_1_year"}},
+            }],
+        )
+        self.assertEqual("department", response["next_step"]["step_type"])
+        self.assertGreater(len(response["next_step"]["options"]), 1)
+        selected = response["next_step"]["options"][0]["institution_id"]
+        completed = self.engine.advance(
+            response["state"],
+            departments=[{
+                "question_code": "q_complaint_appeal",
+                "institution_ids": [selected],
+            }],
+        )
+        self.assertTrue(completed["complete"])
+        results = self.engine.evaluate(completed["state"], as_of_year=2026, max_results=500)["results"]
+        self.assertTrue(results)
+        self.assertTrue(all(not item["institution_id"] or item["institution_id"] == selected for item in results))
+
     def test_state_rejects_free_text_and_unknown_fields(self) -> None:
         state = self.engine.create_state()
         state["case_details"] = "should never be stored"
@@ -266,7 +308,7 @@ class MCPAdapterTests(unittest.IsolatedAsyncioTestCase):
         async with Client(mcp) as client:
             result = await client.call_tool("my_info_get_manifest", {})
         self.assertFalse(result.is_error)
-        self.assertEqual("0.3.0", result.structured_content["tool_api_version"])
+        self.assertEqual("0.4.0", result.structured_content["tool_api_version"])
 
     async def test_advance_tool_round_trips_client_owned_state(self) -> None:
         async with Client(mcp) as client:
