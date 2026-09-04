@@ -21,6 +21,8 @@ def sample_record() -> PibRecord:
         title_fr="Demandes de prestations",
         description_en="Personal information may include name, contact information and Social Insurance Number.",
         description_fr="Les renseignements personnels peuvent comprendre le nom, les coordonnées et le numéro d’assurance sociale.",
+        specific_information_types_en='["name", "contact information", "Social Insurance Number"]',
+        specific_information_types_fr='["nom", "coordonnées", "numéro d’assurance sociale"]',
         class_of_individuals_en="Benefit applicants.",
         class_of_individuals_fr="Demandeurs de prestations.",
         note_en="",

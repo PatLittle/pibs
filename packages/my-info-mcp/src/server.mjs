@@ -101,7 +101,7 @@ export function createServer() {
   return new McpServer({
     name: "my-info-canada",
     title: "My Info Canada",
-    version: "0.2.0"
+    version: "0.3.0"
   }, {
     instructions: "Call my_info_get_manifest first. Keep survey state client-side, use only controlled answers and adaptive selections, never send identifying or narrative case details, and never claim that a candidate PIB proves a record exists."
   });

@@ -101,7 +101,7 @@ class AgentToolEngineTests(unittest.TestCase):
         self.assertEqual(4, len(manifest["tools"]))
         self.assertEqual(21, manifest["question_count"])
         self.assertEqual(21, manifest["adaptive_route_count"])
-        self.assertEqual(1028, manifest["pib_count"])
+        self.assertEqual(999, manifest["pib_count"])
         start = self.engine.advance()
         self.assertFalse(start["complete"])
         self.assertEqual("q_government_work", start["next_step"]["question_code"])
@@ -266,7 +266,7 @@ class MCPAdapterTests(unittest.IsolatedAsyncioTestCase):
         async with Client(mcp) as client:
             result = await client.call_tool("my_info_get_manifest", {})
         self.assertFalse(result.is_error)
-        self.assertEqual("0.2.0", result.structured_content["tool_api_version"])
+        self.assertEqual("0.3.0", result.structured_content["tool_api_version"])
 
     async def test_advance_tool_round_trips_client_owned_state(self) -> None:
         async with Client(mcp) as client:

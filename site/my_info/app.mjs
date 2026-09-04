@@ -27,7 +27,7 @@ const copy = {
     likely_held: "Likely still held", may_still_be_held: "May still be held", likely_disposed: "Likely disposed of", retention_unknown: "Retention unknown",
     likely_heldHelp: "The approximate date is within the published retention period.", may_still_be_heldHelp: "The date overlaps a boundary or the rule is conditional.",
     likely_disposedHelp: "The approximate date is beyond a published disposal period.", retention_unknownHelp: "The published rule cannot support a date-based estimate.",
-    source: "View source description", whyMatched: "Why this matched", categories: "Categories of personal information", noCategory: "No category was derived",
+    source: "View source description", whyMatched: "Why this matched", categories: "Categories of personal information", noCategory: "No category was derived", specificTypes: "Specific information types described",
     noFiltered: "No results match these filters.", answerPath: "Review your answer path", change: "Change",
     inventoryGap: "Known inventory gap", gapText: "A selected interaction has no defensible direct match in the current source inventory.",
     personaExamples: "Explore example life stories and results", personaHint: "Four fictional personas show how different federal interactions affect the estimate.",
@@ -56,7 +56,7 @@ const copy = {
     likely_held: "Probablement encore conservés", may_still_be_held: "Peut-être encore conservés", likely_disposed: "Probablement éliminés", retention_unknown: "Conservation inconnue",
     likely_heldHelp: "La date approximative se situe dans la période de conservation publiée.", may_still_be_heldHelp: "La date chevauche une limite ou la règle est conditionnelle.",
     likely_disposedHelp: "La date approximative dépasse une période d’élimination publiée.", retention_unknownHelp: "La règle publiée ne permet pas d’estimation fondée sur la date.",
-    source: "Voir la description source", whyMatched: "Pourquoi cette correspondance", categories: "Catégories de renseignements personnels", noCategory: "Aucune catégorie n’a été dérivée",
+    source: "Voir la description source", whyMatched: "Pourquoi cette correspondance", categories: "Catégories de renseignements personnels", noCategory: "Aucune catégorie n’a été dérivée", specificTypes: "Types précis de renseignements décrits",
     noFiltered: "Aucun résultat ne correspond à ces filtres.", answerPath: "Vérifier votre parcours de réponses", change: "Modifier",
     inventoryGap: "Lacune connue de l’inventaire", gapText: "Une interaction sélectionnée n’a aucune correspondance directe défendable dans l’inventaire source actuel.",
     personaExamples: "Explorer des récits de vie et des résultats", personaHint: "Quatre profils fictifs montrent comment différentes interactions fédérales influencent l’estimation.",
@@ -298,7 +298,8 @@ function renderResultCard(result) {
   const questionReasons = result.matched_question_codes.filter((code) => !result.matched_route_options.some((match) => match.question_code === code)).map(localizedQuestion);
   const reasons = [...routeReasons, ...questionReasons];
   const source = /^https?:\/\//.test(result.source_url || "") ? `<a href="${escapeHtml(result.source_url)}" target="_blank" rel="noopener">${escapeHtml(t("source"))}</a>` : "";
-  return `<article class="result-card"><h5>${escapeHtml(result.title)}</h5><div class="result-meta"><span class="pill">${escapeHtml(result.bank_number)}</span><span class="pill">${escapeHtml(t(result.scope))}</span><span class="pill">${escapeHtml(t(result.match_band))}</span></div><details><summary>${escapeHtml(t("whyMatched"))}</summary><ul>${reasons.map((reason) => `<li>${escapeHtml(reason)}</li>`).join("")}</ul><p>${escapeHtml(result.retention.rationale)}</p></details><strong>${escapeHtml(t("categories"))}</strong>${result.categories_of_personal_information.length ? `<ul class="category-list">${result.categories_of_personal_information.map((category) => `<li class="pill">${escapeHtml(category.name)}</li>`).join("")}</ul>` : `<p>${escapeHtml(t("noCategory"))}</p>`}${source}</article>`;
+  const types = result.specific_information_types || [];
+  return `<article class="result-card"><h5>${escapeHtml(result.title)}</h5><div class="result-meta"><span class="pill">${escapeHtml(result.bank_number)}</span><span class="pill">${escapeHtml(t(result.scope))}</span><span class="pill">${escapeHtml(t(result.match_band))}</span></div><details><summary>${escapeHtml(t("whyMatched"))}</summary><ul>${reasons.map((reason) => `<li>${escapeHtml(reason)}</li>`).join("")}</ul><p>${escapeHtml(result.retention.rationale)}</p></details><strong>${escapeHtml(t("categories"))}</strong>${result.categories_of_personal_information.length ? `<ul class="category-list">${result.categories_of_personal_information.map((category) => `<li class="pill">${escapeHtml(category.name)}</li>`).join("")}</ul>` : `<p>${escapeHtml(t("noCategory"))}</p>`}${types.length ? `<details><summary>${escapeHtml(t("specificTypes"))}</summary><ul>${types.map((type) => `<li>${escapeHtml(type)}</li>`).join("")}</ul></details>` : ""}${source}</article>`;
 }
 
 function renderAnswerTree() {

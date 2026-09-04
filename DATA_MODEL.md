@@ -27,9 +27,16 @@ inside the CSV so individual source-language values remain unambiguous even when
 commas. They are conservative derivations: an empty array means no explicit list phrase was found,
 not that the underlying PIB contains no personal information.
 
+The adjacent `standard_personal_information_category_ids`,
+`standard_personal_information_categories_en`, and
+`standard_personal_information_categories_fr` JSON arrays contain conceptual matches against the
+official category vocabulary. The derivation considers only the bilingual PIB descriptions and
+their extracted specific information types; it does not infer categories from program titles,
+purposes, uses, or institution names.
+
 `pi_categories_en_fr.csv` is the official controlled vocabulary, but current Info Source
 publications do not provide explicit category assignments for each PIB. My Info therefore keeps
-its deterministic narrative-text assignments in a separate derived table. Every relationship has
+the compiler's deterministic description-based assignments in a separate derived table. Every relationship has
 confidence and source-field evidence, and is presented as an estimate rather than source metadata.
 
 `data/derived/my_info/my_info_pib_features.csv` uses a source-scoped `record_id` so standard and

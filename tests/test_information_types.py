@@ -65,6 +65,14 @@ class SpecificInformationTypeTests(unittest.TestCase):
         self.assertEqual(json.loads(row["specific_information_types_fr"]), [
             "nom", "coordonnées",
         ])
+        self.assertEqual(
+            json.loads(row["standard_personal_information_category_ids"]),
+            ["PI_CAT-3", "PI_CAT-17"],
+        )
+        self.assertEqual(
+            json.loads(row["standard_personal_information_categories_en"]),
+            ["Contact information", "Name"],
+        )
 
 
 if __name__ == "__main__":

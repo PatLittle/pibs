@@ -10,26 +10,26 @@
       "prefer_not_to_answer"
     ],
     "contract_schema_version": "1.2",
-    "contract_version": "2026-08-22.3",
+    "contract_version": "2026-09-04.4",
     "data_snapshot": {
-      "generated_date": "2026-08-22",
+      "generated_date": "2026-09-04",
       "source_files": {
         "institutions_infosource_docs/pib_table_en_fr_all.csv": {
-          "sha256": "a94f77d5c55b0b65434b9a1fa8ab57771fa6d8cd41b5de9fc52d9c7e81f565d7"
+          "sha256": "1c0dda4a765819e734625622691f04838bd9154985190892bd0f00894bac2119"
         },
         "spib_en_fr.csv": {
           "sha256": "bbda3c9de3ba8fdbdd55122db38d3fcc5f40c37c71f8d6295624e2ad89b4eabf"
         }
       }
     },
-    "generator_version": "1.2",
+    "generator_version": "1.3",
     "limitations": [
       "Results are estimates, not confirmation that a record exists.",
       "Fallback route choices can still overmatch when a named program or institution is not known.",
       "The current local CRA extract has no defensible direct tax-return PIB record.",
       "A published retention rule may not reflect current operational holdings."
     ],
-    "pib_count": 1028,
+    "pib_count": 999,
     "privacy": {
       "free_text_required": false,
       "notice_en": "Do not provide account numbers, case details, health details, or other sensitive free text.",
@@ -53,7 +53,7 @@
       "approximate_year",
       "unknown"
     ],
-    "tool_api_version": "0.2.0",
+    "tool_api_version": "0.3.0",
     "tools": [
       "my_info_get_manifest",
       "my_info_advance",
@@ -62,10 +62,10 @@
     ]
   },
   "server": {
-    "instructions": "My Info estimates which Government of Canada personal information banks may be relevant. Call my_info_get_manifest before starting, then my_info_advance for each controlled answer, adaptive selection, and approximate timing. Keep the returned state client-side. Never request names, account numbers, case details, medical details, or exact travel history. Use my_info_evaluate only for estimates and never claim that a record definitely exists.",
+    "instructions": "My Info estimates which Government of Canada personal information banks may be relevant. Call my_info_get_manifest before starting, then my_info_advance for each controlled answer, adaptive selection, and approximate timing. Keep the returned state client-side. Never request names, account numbers, case details, medical details, or exact travel history. Use my_info_evaluate only for estimates and never claim that a record definitely exists. When presenting results, include each candidate's categories_of_personal_information and specific_information_types so the person can understand what kinds of information the published bank describes.",
     "name": "my-info-canada",
     "title": "My Info Canada",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   "tools": [
     {
@@ -1252,6 +1252,13 @@
                 "title": "Source Url",
                 "type": "string"
               },
+              "specific_information_types": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Specific Information Types",
+                "type": "array"
+              },
               "title": {
                 "title": "Title",
                 "type": "string"
@@ -1271,6 +1278,7 @@
               "holding_status",
               "retention",
               "categories_of_personal_information",
+              "specific_information_types",
               "privacy_caveat_codes"
             ],
             "title": "PibCandidate",
@@ -1723,6 +1731,13 @@
                 "title": "Source Url",
                 "type": "string"
               },
+              "specific_information_types": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Specific Information Types",
+                "type": "array"
+              },
               "title": {
                 "title": "Title",
                 "type": "string"
@@ -1742,6 +1757,7 @@
               "holding_status",
               "retention",
               "categories_of_personal_information",
+              "specific_information_types",
               "privacy_caveat_codes"
             ],
             "title": "PibCandidate",

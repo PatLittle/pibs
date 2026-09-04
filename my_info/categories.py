@@ -11,6 +11,7 @@ taxonomy are reported separately instead of being forced into a category.
 from __future__ import annotations
 
 import csv
+import json
 import re
 import unicodedata
 from dataclasses import asdict, dataclass
@@ -524,28 +525,34 @@ def load_category_definitions(path: Path = DEFAULT_CATEGORY_PATH) -> dict[str, C
 
 
 def _source_fields(record: PibRecord | Mapping[str, str]) -> tuple[tuple[str, str, str], ...]:
-    """Return only fields that describe the bank's personal information."""
+    """Return descriptions and normalized specific-information-type evidence."""
 
     if isinstance(record, Mapping):
         get = lambda name: str(record.get(name, "") or "")
     else:
         get = lambda name: str(getattr(record, name, "") or "")
-    return tuple(
-        (field, language, unicodedata.normalize("NFKC", get(field)))
-        for field, language in (
-            ("description_en", "en"),
-            ("description_fr", "fr"),
-            ("class_of_individuals_en", "en"),
-            ("class_of_individuals_fr", "fr"),
-            ("note_en", "en"),
-            ("note_fr", "fr"),
-            ("purpose_en", "en"),
-            ("purpose_fr", "fr"),
-            ("consistent_uses_en", "en"),
-            ("consistent_uses_fr", "fr"),
-        )
-        if get(field).strip()
-    )
+    fields: list[tuple[str, str, str]] = []
+    for language in ("en", "fr"):
+        description_field = f"description_{language}"
+        description = get(description_field).strip()
+        if description:
+            fields.append((description_field, language, unicodedata.normalize("NFKC", description)))
+
+        types_field = f"specific_information_types_{language}"
+        raw_types = get(types_field).strip()
+        if not raw_types:
+            continue
+        try:
+            values = json.loads(raw_types)
+        except json.JSONDecodeError:
+            values = [item.strip() for item in raw_types.split("|") if item.strip()]
+        if not isinstance(values, list):
+            values = []
+        concepts = ", ".join(str(item).strip() for item in values if str(item).strip())
+        if concepts:
+            prefix = "Personal information may include: " if language == "en" else "Les renseignements personnels peuvent inclure : "
+            fields.append((types_field, language, unicodedata.normalize("NFKC", prefix + concepts)))
+    return tuple(fields)
 
 
 def _record_id(record: PibRecord | Mapping[str, str]) -> str:

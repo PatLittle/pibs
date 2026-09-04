@@ -171,6 +171,14 @@ array that retains the source language and source order. Empty arrays mean that 
 was found; the extractor does not infer types from general program prose, and generic catch-all
 phrases such as “other personal information in relevant records” are excluded.
 
+The compiler conceptually maps each PIB's descriptions and extracted information types to the
+official 25-row taxonomy. It stores JSON arrays in
+`standard_personal_information_category_ids`,
+`standard_personal_information_categories_en`, and
+`standard_personal_information_categories_fr`. These are derived estimates, not categories
+explicitly assigned by the publishing institution. Canadian Forces holdings are consolidated
+under Department of National Defence and excluded from the combined holdings table.
+
 `spib_scraper_(1).py` also rebuilds `pi_categories_en_fr.csv` from the bilingual
 Categories of Personal Information lists. `PI_CAT-1` through `PI_CAT-25` follow the
 English source order and are paired to the differently ordered French list by translated name.

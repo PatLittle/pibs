@@ -25,7 +25,7 @@ test("runtime data resolves after a Netlify function bundle relocates the module
 
 test("manifest and adaptive advance are versioned", () => {
   const manifest = engine.getManifest();
-  assert.equal(manifest.tool_api_version, "0.2.0");
+  assert.equal(manifest.tool_api_version, "0.3.0");
   assert.equal(manifest.question_count, 21);
   assert.equal(manifest.adaptive_route_count, 21);
   let step = engine.advance();

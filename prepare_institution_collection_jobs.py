@@ -16,6 +16,7 @@ import pandas as pd
 REGISTRY = Path("institution_registry.csv")
 OUTPUT_ROOT = Path("data/collection_jobs")
 CONTENT_ROOT = Path("institutions_infosource_docs")
+CONSOLIDATED_INSTITUTION_IDS = {"ati-schedule-i-canadian-forces"}
 
 
 def clean(value: object) -> str:
@@ -61,7 +62,11 @@ def main() -> None:
     registry_bytes = args.registry.read_bytes()
     registry_sha256 = hashlib.sha256(registry_bytes).hexdigest()
     registry = pd.read_csv(args.registry).sort_values("access_act_order")
-    jobs = [make_job(row, args.snapshot_date, registry_sha256) for _, row in registry.iterrows()]
+    jobs = [
+        make_job(row, args.snapshot_date, registry_sha256)
+        for _, row in registry.iterrows()
+        if clean(row["institution_id"]) not in CONSOLIDATED_INSTITUTION_IDS
+    ]
 
     output = args.output or OUTPUT_ROOT / f"institution_collection_jobs_{args.snapshot_date}.jsonl"
     output.parent.mkdir(parents=True, exist_ok=True)

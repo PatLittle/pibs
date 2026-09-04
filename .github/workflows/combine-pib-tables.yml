@@ -12,6 +12,8 @@ on:
       - "compile_institution_tables.py"
       - "extract_information_types.py"
       - "institution_extraction_versions.py"
+      - "my_info/categories.py"
+      - "pi_categories_en_fr.csv"
       - "pib_types.py"
       - ".github/workflows/combine-pib-tables.yml"
   workflow_dispatch:

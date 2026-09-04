@@ -18,7 +18,7 @@ if (!DATA_DIR) {
 const runtime = JSON.parse(fs.readFileSync(path.join(DATA_DIR, "runtime.json"), "utf8"));
 
 export const STATE_SCHEMA_VERSION = "1.1";
-export const TOOL_API_VERSION = "0.2.0";
+export const TOOL_API_VERSION = "0.3.0";
 export const RELEASE_STAGE = "beta";
 export const ANSWER_VALUES = ["yes", "no", "not_sure", "prefer_not_to_answer"];
 export const TIMING_KINDS = [
@@ -28,6 +28,14 @@ export const TIMING_KINDS = [
 
 const pipeSet = (value) => new Set(String(value || "").split("|").filter(Boolean));
 const boolValue = (value) => String(value).toLowerCase() === "true";
+const jsonList = (value) => {
+  try {
+    const parsed = JSON.parse(String(value || "[]"));
+    return Array.isArray(parsed) ? parsed.map(String) : [];
+  } catch {
+    return [];
+  }
+};
 const clone = (value) => structuredClone(value);
 const onlyKeys = (value, allowed, label) => {
   for (const key of Object.keys(value)) {
@@ -418,6 +426,7 @@ export class SurveyToolEngine {
         category_id: code,
         name: this.categories[code][french ? "name_fr" : "name_en"]
       })),
+      specific_information_types: jsonList(row[french ? "specific_information_types_fr" : "specific_information_types_en"]),
       privacy_caveat_codes: [...pipeSet(row.privacy_caveat_codes)].sort()
     };
   }

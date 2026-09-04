@@ -73,8 +73,8 @@ class CategoryClassifierTests(unittest.TestCase):
     def test_classifies_entire_current_corpus_without_duplicate_results(self):
         records = list(self.records.values())
         results = classify_records(records)
-        self.assertEqual(1028, len(results))
-        self.assertEqual(1028, len({result.record_id for result in results}))
+        self.assertEqual(len(records), len(results))
+        self.assertEqual(len(records), len({result.record_id for result in results}))
         self.assertTrue(all(len(result.category_ids) == len(set(result.category_ids)) for result in results))
 
 

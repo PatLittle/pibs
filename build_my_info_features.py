@@ -25,7 +25,7 @@ from my_info.retention import derive_retention
 
 
 DEFAULT_OUTPUT_DIR = Path("data/derived/my_info")
-GENERATOR_VERSION = "1.2"
+GENERATOR_VERSION = "1.3"
 
 
 def _json(value: Any) -> str:
@@ -72,6 +72,8 @@ def _basic_record(record: PibRecord) -> dict[str, str]:
         "title_fr": record.title_fr,
         "source_url_en": record.source_url_en,
         "source_url_fr": record.source_url_fr,
+        "specific_information_types_en": record.specific_information_types_en,
+        "specific_information_types_fr": record.specific_information_types_fr,
     }
 
 
@@ -188,7 +190,7 @@ def write_outputs(
     }
     questionnaire = {
         "schema_version": "1.2",
-        "content_version": f"{generated_date}.3",
+        "content_version": f"{generated_date}.4",
         "generator_version": GENERATOR_VERSION,
         "data_snapshot": {
             "generated_date": generated_date,

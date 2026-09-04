@@ -1,28 +1,28 @@
 {
   "adaptive_route_count": 21,
   "built_hashes": {
-    "browser_engine_sha256": "7ad76d67d68c5f539757494e1df4fd2786c836cfeaf4febb8be07d4a671f6400",
-    "personas_sha256": "23d5bb23496baed41f628e3f564013e9916df680db1006f20f5f38e742c0ec99",
-    "runtime_sha256": "bbcce73dcb891c91b1953ca49b90901a85357b9476d6ca6f6087146c7cc2818c"
+    "browser_engine_sha256": "41410d93f596f9fd544d375db0d5e2dd4f87bfb008e42e1f44f3ee4a5f03c69c",
+    "personas_sha256": "5c7e4b2bc7dc6c690ddeb955ab85246cda3bf70cf6839f9288023d2376a962f6",
+    "runtime_sha256": "a8f1657b2ca94cd54d581963bf287a9b3c5ae417a126f58f9f84a925f6b78b95"
   },
   "contract_schema_version": "1.2",
-  "contract_version": "2026-08-22.3",
+  "contract_version": "2026-09-04.4",
   "persona_count": 4,
-  "pib_count": 1028,
+  "pib_count": 999,
   "product": "My Info survey",
   "question_count": 21,
   "release_stage": "beta",
   "source_hashes": {
-    "canonical_engine_sha256": "5600b168428e6e20ca41731cc94060f1e692a18c705246c961d3df82f17159db",
-    "feature_csv_sha256": "5edd159321f81a97c4c2578cf07a8ac68c43a4d93ba11e549e02beab3138510d",
-    "persona_fixtures_sha256": "b17f48733281fe94f7acd5262e076ecc6aab21743fc94b0269e18535e23c9479",
+    "canonical_engine_sha256": "53db16159d6452b7a73c7df1031559a800c4c6ee9ac68ac32432eeac94ae74a2",
+    "feature_csv_sha256": "8341bd946b3e20df9b3d89dbb5d6d814a3ba816733e6e05095fdc1f05a19d2b1",
+    "persona_fixtures_sha256": "3d4eab59d13af1762d8899ac1a2dba000720fb1732f9fd3542990a2cb0561381",
     "persona_portrait_sha256": {
       "aisha_rahman": "73038c3697b027abe0d78e76f42bc3b444db7684da4d774d0f1bad03f39d7892",
       "dominic_vale": "ade8780d0abdc1b4173d5eac1b0cc1ebf033a52d1a66f2d0988bb81d85bee623",
       "peter_deloitte": "f15c4f4eba765a63bb835650be4efb4e4b0ff19a1e065d23253fd1807d0afbf4",
       "sophie_tremblay": "3220abc50da99b320fe7b4a67e20dd81516b51f59a81e45e43944a4bbd5d4a10"
     },
-    "questionnaire_sha256": "f1de12ecaba536c6aa46cd5b31c9d0b32b249a391cd8d7d415e61fd455f7e64b"
+    "questionnaire_sha256": "46fc861aa75b41caade9e95e70b3bed123433a2b52a85fe4182b5d607107254e"
   },
-  "tool_api_version": "0.2.0"
+  "tool_api_version": "0.3.0"
 }

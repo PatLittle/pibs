@@ -209,6 +209,7 @@ class PibCandidate(StrictModel):
     ]
     retention: RetentionResult
     categories_of_personal_information: list[CategoryResult]
+    specific_information_types: list[str]
     privacy_caveat_codes: list[str]
 
 
@@ -248,7 +249,9 @@ SERVER_INSTRUCTIONS = (
     "Call my_info_get_manifest before starting, then my_info_advance for each controlled answer, adaptive selection, and approximate timing. "
     "Keep the returned state client-side. Never request names, account numbers, case details, "
     "medical details, or exact travel history. Use my_info_evaluate only for estimates and never "
-    "claim that a record definitely exists."
+    "claim that a record definitely exists. When presenting results, include each candidate's "
+    "categories_of_personal_information and specific_information_types so the person can understand "
+    "what kinds of information the published bank describes."
 )
 
 mcp = MCPServer(
@@ -256,7 +259,7 @@ mcp = MCPServer(
     title="My Info Canada",
     description="Privacy-minimizing questionnaire tools for estimating relevant Government of Canada personal information banks.",
     instructions=SERVER_INSTRUCTIONS,
-    version="0.2.0",
+    version="0.3.0",
 )
 
 

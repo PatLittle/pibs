@@ -28,6 +28,8 @@ class PibRecord:
     title_fr: str
     description_en: str
     description_fr: str
+    specific_information_types_en: str
+    specific_information_types_fr: str
     class_of_individuals_en: str
     class_of_individuals_fr: str
     note_en: str
@@ -96,6 +98,8 @@ def _standard_record(row: dict[str, str]) -> PibRecord:
         title_fr=_clean(row.get("entry_title_fr")),
         description_en=_clean(row.get("description_en")),
         description_fr=_clean(row.get("description_fr")),
+        specific_information_types_en="",
+        specific_information_types_fr="",
         class_of_individuals_en=_clean(row.get("class_of_individuals_en")),
         class_of_individuals_fr=_clean(row.get("class_of_individuals_fr")),
         note_en=_clean(row.get("note_en")),
@@ -127,6 +131,8 @@ def _institution_record(row: dict[str, str]) -> PibRecord:
         title_fr=_clean(row.get("title_fr")),
         description_en=_clean(row.get("description_en")),
         description_fr=_clean(row.get("description_fr")),
+        specific_information_types_en=_clean(row.get("specific_information_types_en")),
+        specific_information_types_fr=_clean(row.get("specific_information_types_fr")),
         class_of_individuals_en=_clean(row.get("class_of_individuals_en")),
         class_of_individuals_fr=_clean(row.get("class_of_individuals_fr")),
         note_en=_clean(row.get("note_en")),

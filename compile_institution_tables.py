@@ -15,6 +15,7 @@ from build_cor_table_from_markdown import OUT_COLUMNS as COR_COLUMNS
 from build_pib_table_from_markdown import OUT_COLUMNS as PIB_COLUMNS
 from extract_information_types import extract_specific_information_types
 from institution_extraction_versions import PARSER_VERSIONS
+from my_info.categories import classify_record, load_category_definitions
 from pib_types import get_pib_type
 
 
@@ -23,6 +24,7 @@ SITE_ROOT = Path("site/data")
 RELATED_RECORD_RE = re.compile(
     r"\b[A-Z]{2,8}(?:\s+[A-Z]{2,8})?\s+(?:\d{3}|\d+(?:\.\d+)+)\b", re.I
 )
+CONSOLIDATED_INSTITUTION_IDS = {"ati-schedule-i-canadian-forces"}
 
 
 def load_jobs(path: Path) -> list[dict[str, object]]:
@@ -49,9 +51,11 @@ def normalized_identifier(value: object) -> str:
     return re.sub(r"\s+", " ", str(value or "").upper()).strip()
 
 
-def add_specific_information_types(row: dict[str, object]) -> dict[str, object]:
-    """Return a PIB row with source-language information-type JSON arrays."""
-    return {
+def add_pib_enrichments(
+    row: dict[str, object], category_definitions: dict[str, object]
+) -> dict[str, object]:
+    """Add specific information types and conceptual standard-category matches."""
+    enriched = {
         **row,
         "specific_information_types_en": json.dumps(
             extract_specific_information_types(row.get("description_en"), "en"),
@@ -62,6 +66,24 @@ def add_specific_information_types(row: dict[str, object]) -> dict[str, object]:
             ensure_ascii=False,
         ),
     }
+    category_result = classify_record(enriched, category_definitions)
+    return {
+        **enriched,
+        "standard_personal_information_category_ids": json.dumps(
+            list(category_result.category_ids), ensure_ascii=False
+        ),
+        "standard_personal_information_categories_en": json.dumps(
+            [item.name_en for item in category_result.assignments], ensure_ascii=False
+        ),
+        "standard_personal_information_categories_fr": json.dumps(
+            [item.name_fr for item in category_result.assignments], ensure_ascii=False
+        ),
+    }
+
+
+def add_specific_information_types(row: dict[str, object]) -> dict[str, object]:
+    """Backward-compatible entry point that now returns all PIB enrichments."""
+    return add_pib_enrichments(row, load_category_definitions())
 
 
 def build_pib_cor_links(
@@ -132,7 +154,11 @@ def main() -> None:
     parser.add_argument("--allow-incomplete", action="store_true")
     args = parser.parse_args()
 
-    jobs = [job for job in load_jobs(args.jobs_file) if job.get("collectable")]
+    jobs = [
+        job for job in load_jobs(args.jobs_file)
+        if job.get("collectable") and job.get("institution_id") not in CONSOLIDATED_INSTITUTION_IDS
+    ]
+    category_definitions = load_category_definitions()
     cor_rows: list[dict[str, object]] = []
     pib_rows: list[dict[str, object]] = []
     missing: list[str] = []
@@ -158,13 +184,13 @@ def main() -> None:
         }
         cor_rows.extend({**identity, **row} for row in read_table(cor_path, COR_COLUMNS))
         for row in read_table(pib_path, PIB_COLUMNS):
-            pib_rows.append(add_specific_information_types({
+            pib_rows.append(add_pib_enrichments({
                 **identity,
                 **row,
                 "pib_type": get_pib_type(
                     row.get("bank_number_key"), row.get("bank_number_en"), row.get("bank_number_fr")
                 ),
-            }))
+            }, category_definitions))
 
     if missing and not args.allow_incomplete:
         raise RuntimeError(f"Missing current outputs for {len(missing)} jobs: {missing}")
@@ -176,6 +202,9 @@ def main() -> None:
         *PIB_COLUMNS[1:7],
         "specific_information_types_en",
         "specific_information_types_fr",
+        "standard_personal_information_category_ids",
+        "standard_personal_information_categories_en",
+        "standard_personal_information_categories_fr",
         *PIB_COLUMNS[7:],
     ]
     cor_columns = cor_identity + COR_COLUMNS

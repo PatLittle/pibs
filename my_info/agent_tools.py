@@ -26,7 +26,7 @@ DEFAULT_FEATURE_PATH = ROOT / "data/derived/my_info/my_info_pib_features.csv"
 DEFAULT_EVIDENCE_PATH = ROOT / "data/derived/my_info/my_info_derivation_evidence.jsonl"
 
 STATE_SCHEMA_VERSION = "1.1"
-TOOL_API_VERSION = "0.2.0"
+TOOL_API_VERSION = "0.3.0"
 RELEASE_STAGE = "beta"
 ANSWER_VALUES = ("yes", "no", "not_sure", "prefer_not_to_answer")
 TIMING_KINDS = (
@@ -57,6 +57,14 @@ def _read_csv(path: Path) -> list[dict[str, str]]:
 
 def _bool(value: object) -> bool:
     return str(value).casefold() == "true"
+
+
+def _json_list(value: object) -> list[str]:
+    try:
+        parsed = json.loads(str(value or "[]"))
+    except json.JSONDecodeError:
+        return []
+    return [str(item) for item in parsed] if isinstance(parsed, list) else []
 
 
 class SurveyToolEngine:
@@ -767,6 +775,9 @@ class SurveyToolEngine:
                 ) > 280,
             },
             "categories_of_personal_information": categories,
+            "specific_information_types": _json_list(
+                row["specific_information_types_fr" if french else "specific_information_types_en"]
+            ),
             "privacy_caveat_codes": sorted(_pipe_set(row["privacy_caveat_codes"])),
         }
 

@@ -1,6 +1,6 @@
 interface:
   display_name: "My Info Canada"
-  short_description: "Estimate relevant federal personal information banks"
+  short_description: "Estimate federal PIBs and the information categories they describe"
   default_prompt: "Use $my-info-canada to guide me through the My Info questionnaire."
 dependencies:
   tools:

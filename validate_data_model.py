@@ -64,6 +64,22 @@ def main() -> None:
             if missing:
                 errors.append(f"{name}: {len(missing)} missing keys for {target_name}: {sorted(missing)[:10]}")
 
+    pibs = frames.get("institution_personal_information_banks")
+    categories = frames.get("personal_information_categories")
+    if pibs is not None and categories is not None:
+        definitions = categories.set_index("PI_CAT_ID").to_dict("index")
+        for row_number, row in enumerate(pibs.to_dict("records"), start=2):
+            ids = json.loads(row["standard_personal_information_category_ids"])
+            names_en = json.loads(row["standard_personal_information_categories_en"])
+            names_fr = json.loads(row["standard_personal_information_categories_fr"])
+            unknown = [category_id for category_id in ids if category_id not in definitions]
+            expected_en = [definitions[category_id]["name_en"] for category_id in ids if category_id in definitions]
+            expected_fr = [definitions[category_id]["name_fr"] for category_id in ids if category_id in definitions]
+            if unknown:
+                errors.append(f"institution_personal_information_banks: unknown category IDs row {row_number}: {unknown}")
+            if names_en != expected_en or names_fr != expected_fr:
+                errors.append(f"institution_personal_information_banks: category names do not align with IDs row {row_number}")
+
     links = frames.get("pib_cor_links")
     classes = frames.get("institution_classes_of_records")
     standard = frames.get("standard_classes_of_records")
