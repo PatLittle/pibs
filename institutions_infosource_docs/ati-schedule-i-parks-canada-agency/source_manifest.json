@@ -69,20 +69,20 @@
   },
   "extraction": {
     "pibs": {
-      "english": 0,
-      "french": 0,
-      "merged": 0
+      "english": 34,
+      "french": 34,
+      "merged": 34
     },
     "classes_of_records": {
-      "english": 0,
-      "french": 0,
-      "merged": 0
+      "english": 59,
+      "french": 59,
+      "merged": 59
     }
   },
   "parser_versions": {
-    "pibs": 4,
-    "classes_of_records": 1
+    "pibs": 5,
+    "classes_of_records": 2
   },
-  "extracted_at_utc": "2026-08-15T16:16:15.462640+00:00",
+  "extracted_at_utc": "2026-09-04T07:23:34.592983+00:00",
   "extraction_rebuild_version": 2
 }

@@ -17,6 +17,7 @@ from collect_institution_content import (
     load_jobs,
     same_site_namespace,
 )
+from institution_extraction_versions import PARSER_VERSIONS
 
 
 def rebuild_markdown_from_raw(folder: Path, manifest: dict[str, object]) -> None:
@@ -30,19 +31,20 @@ def rebuild_markdown_from_raw(folder: Path, manifest: dict[str, object]) -> None
     for role, parser in parsers.items():
         source = manifest.get("sources", {}).get(role, {})
         markdown_path = folder / f"{role}.md"
-        if source.get("status") != "collected":
-            markdown_path.write_text("", encoding="utf-8")
-            continue
-        raw_path = Path(str(source["raw_path"]))
-        if not raw_path.exists():
-            raise RuntimeError(f"Missing immutable raw source: {raw_path}")
-        primary = convert_to_markdown(
-            raw_path,
-            raw_path.read_bytes(),
-            str(source.get("content_type", "")),
-            str(source.get("fragment", "")),
-            str(source.get("encoding", "")),
-        )
+        parts: list[str] = []
+        if source.get("status") == "collected":
+            raw_path = Path(str(source["raw_path"]))
+            if not raw_path.exists():
+                raise RuntimeError(f"Missing immutable raw source: {raw_path}")
+            primary = convert_to_markdown(
+                raw_path,
+                raw_path.read_bytes(),
+                str(source.get("content_type", "")),
+                str(source.get("fragment", "")),
+                str(source.get("encoding", "")),
+            )
+        else:
+            primary = ""
         linked: list[str] = []
         initial_url = str(source.get("final_url", source.get("requested_url", "")))
         for discovered in source.get("discovered_pages", []):
@@ -66,8 +68,20 @@ def rebuild_markdown_from_raw(folder: Path, manifest: dict[str, object]) -> None
                     )
                 )
         combined = "\n\n".join([primary, *linked])
-        markdown = combined if linked and len(parser(combined)) > len(parser(primary)) else primary
-        markdown_path.write_text(markdown, encoding="utf-8")
+        if primary:
+            parts.append(combined if linked and len(parser(combined)) > len(parser(primary)) else primary)
+
+        for supplemental in manifest.get("supplemental_sources", []):
+            if role not in supplemental.get("roles", []):
+                continue
+            supplemental_path = Path(str(supplemental.get("markdown_path", "")))
+            if not supplemental_path.exists():
+                raise RuntimeError(f"Missing supplemental Markdown source: {supplemental_path}")
+            supplemental_markdown = supplemental_path.read_text(encoding="utf-8", errors="replace")
+            if supplemental_markdown and supplemental_markdown not in parts:
+                parts.append(supplemental_markdown)
+
+        markdown_path.write_text("\n\n".join(parts), encoding="utf-8")
 
 
 def main() -> None:
@@ -97,7 +111,7 @@ def main() -> None:
             "pibs": {"english": pib_en, "french": pib_fr, "merged": pib_merged},
             "classes_of_records": {"english": cor_en, "french": cor_fr, "merged": cor_merged},
         }
-        manifest["parser_versions"] = {"pibs": 4, "classes_of_records": 1}
+        manifest["parser_versions"] = PARSER_VERSIONS
         manifest["extraction_rebuild_version"] = 2
         manifest["extracted_at_utc"] = datetime.now(timezone.utc).isoformat()
         manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

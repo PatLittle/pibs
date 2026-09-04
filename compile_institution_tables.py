@@ -13,6 +13,8 @@ import pandas as pd
 
 from build_cor_table_from_markdown import OUT_COLUMNS as COR_COLUMNS
 from build_pib_table_from_markdown import OUT_COLUMNS as PIB_COLUMNS
+from extract_information_types import extract_specific_information_types
+from institution_extraction_versions import PARSER_VERSIONS
 from pib_types import get_pib_type
 
 
@@ -45,6 +47,21 @@ def write_table(path: Path, columns: list[str], rows: list[dict[str, object]]) -
 
 def normalized_identifier(value: object) -> str:
     return re.sub(r"\s+", " ", str(value or "").upper()).strip()
+
+
+def add_specific_information_types(row: dict[str, object]) -> dict[str, object]:
+    """Return a PIB row with source-language information-type JSON arrays."""
+    return {
+        **row,
+        "specific_information_types_en": json.dumps(
+            extract_specific_information_types(row.get("description_en"), "en"),
+            ensure_ascii=False,
+        ),
+        "specific_information_types_fr": json.dumps(
+            extract_specific_information_types(row.get("description_fr"), "fr"),
+            ensure_ascii=False,
+        ),
+    }
 
 
 def build_pib_cor_links(
@@ -131,7 +148,7 @@ def main() -> None:
         for field in ("snapshot_date", "registry_sha256", "institution_id"):
             if str(manifest.get(field, "")) != str(job[field]):
                 raise RuntimeError(f"Stale or mismatched {field} in {manifest_path}")
-        if manifest.get("parser_versions") != {"pibs": 4, "classes_of_records": 1}:
+        if manifest.get("parser_versions") != PARSER_VERSIONS:
             raise RuntimeError(f"Stale parser versions in {manifest_path}; rebuild extractions first")
         identity = {
             "institution_id": job["institution_id"],
@@ -141,19 +158,26 @@ def main() -> None:
         }
         cor_rows.extend({**identity, **row} for row in read_table(cor_path, COR_COLUMNS))
         for row in read_table(pib_path, PIB_COLUMNS):
-            pib_rows.append({
+            pib_rows.append(add_specific_information_types({
                 **identity,
                 **row,
                 "pib_type": get_pib_type(
                     row.get("bank_number_key"), row.get("bank_number_en"), row.get("bank_number_fr")
                 ),
-            })
+            }))
 
     if missing and not args.allow_incomplete:
         raise RuntimeError(f"Missing current outputs for {len(missing)} jobs: {missing}")
 
     cor_identity = ["institution_id", "gc_orgID", "institution_name_en", "institution_name_fr"]
-    pib_columns = cor_identity + [PIB_COLUMNS[0], "pib_type", *PIB_COLUMNS[1:]]
+    pib_columns = cor_identity + [
+        PIB_COLUMNS[0],
+        "pib_type",
+        *PIB_COLUMNS[1:7],
+        "specific_information_types_en",
+        "specific_information_types_fr",
+        *PIB_COLUMNS[7:],
+    ]
     cor_columns = cor_identity + COR_COLUMNS
     link_columns = [
         "institution_id", "bank_number_key", "language", "related_record_number",

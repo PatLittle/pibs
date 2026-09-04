@@ -435,3 +435,117 @@ Edmonton, Alberta  T5J 4H7
 * [Privacy](/en/transparency/privacy.html)
 
 ![Symbol of the Government of Canada](/etc/designs/canada/wet-boew/assets/wmms-blk.svg)
+
+* [Skip to main content](#wb-cont)
+* [Skip to "About government"](#wb-info)
+
+## Language selection
+
+* [Français
+  fr](/fr/developpement-economique-prairies/organisation/transparence/fonds-renseignements/fichier-renseignements-personnels.html)
+
+[![Government of Canada](/etc/designs/canada/wet-boew/assets/sig-blk-en.svg)
+ /
+Gouvernement du Canada](/en.html)
+
+## Search
+
+Search PrairiesCan
+
+Search
+
+---
+
+## Menu
+
+Main Menu
+
+* [Jobs and the workplace](https://www.canada.ca/en/services/jobs.html)
+* [Immigration and citizenship](https://www.canada.ca/en/services/immigration-citizenship.html)
+* [Travel and tourism](https://travel.gc.ca/)
+* [Business and industry](https://www.canada.ca/en/services/business.html)
+* [Benefits](https://www.canada.ca/en/services/benefits.html)
+* [Health](https://www.canada.ca/en/services/health.html)
+* [Taxes](https://www.canada.ca/en/services/taxes.html)
+* [Environment and natural resources](https://www.canada.ca/en/services/environment.html)
+* [National security and defence](https://www.canada.ca/en/services/defence.html)
+* [Culture, history and sport](https://www.canada.ca/en/services/culture.html)
+* [Policing, justice and emergencies](https://www.canada.ca/en/services/policing.html)
+* [Transport and infrastructure](https://www.canada.ca/en/services/transport.html)
+* [Canada and the world](https://www.international.gc.ca/world-monde/index.aspx?lang=eng)
+* [Money and finances](https://www.canada.ca/en/services/finance.html)
+* [Science and innovation](https://www.canada.ca/en/services/science.html)
+* [Manage life events](https://www.canada.ca/en/services/life-events.html)
+
+## You are here:
+
+1. [Canada.ca](/en.html)
+2. [Prairies Economic Development Canada](/en/prairies-economic-development.html)
+3. [Transparency at PrairiesCan](/en/prairies-economic-development/corporate/transparency.html)
+4. [Info Source at Prairies Economic Development Canada (PrairiesCan)](/en/prairies-economic-development/corporate/transparency/information-holdings.html)
+
+# Personal Information Banks (PIBs) – Prairies Economic Development Canada (PrairiesCan)
+
+## Grants and contributions (Gs&Cs) programs
+
+**Description:** This bank describes applicant information where funding assistance has been applied for and/or approved under the various grants and contributions programs of Prairies Economic Development Canada. The personal information collected may include: full name(s) of individuals and titles of client and/or project representatives, contact information including name of the organization, amount of the grant or contribution, financial and/or credit information, and signatures. May also include the personal information for Boards of Directors of applicant groups.
+
+**Class of Individuals:** General public, as well as representatives of clients and/or projects, private sector companies, organizations, associations, other levels of government, and groups that have applied for and/or been approved for funding assistance.
+
+**Purpose:** Information is collected for the purpose of determining eligibility, assessing the applicant's request for financial assistance, corresponding with the applicant, and to monitor the progress of funded projects.
+
+**Consistent Uses:** General information about approved funding, including the name of the client, the purpose of the funding, and total funding approved may be used in compilation of the Department's proactive disclosure of grants and contributions, in the Public Accounts, and statistical reports. However, these reports do not include a client and/or project representative's name or other personal information. Some personal information may be used to assess the grants and contribution programs through program audits or evaluations.
+
+**Retention and Disposal Standards:** Project files are destroyed six years after last administrative action.
+
+**RDA Number:** 99/032
+
+**Related Record Number:** PrairiesCan 100, PrairiesCan 120, PrairiesCan 105, PrairiesCan 130, PrairiesCan 215, PrairiesCan 230, PrairiesCan 300, PrairiesCan 310
+
+**TBS Registration:** 20091007
+
+**Bank Number:** PrairiesCan PPU 055
+
+## Page details
+
+2025-11-06
+
+## About this site
+
+### Government of Canada
+
+* [All contacts](/en/contact.html)
+* [Departments and agencies](/en/government/dept.html)
+* [About government](/en/government/system.html)
+
+#### Themes and topics
+
+* [Jobs](/en/services/jobs.html)
+* [Immigration and citizenship](/en/services/immigration-citizenship.html)
+* [Travel and tourism](https://travel.gc.ca/)
+* [Business](/en/services/business.html)
+* [Benefits](/en/services/benefits.html)
+* [Health](/en/services/health.html)
+* [Taxes](/en/services/taxes.html)
+* [Environment and natural resources](/en/services/environment.html)
+* [National security and defence](/en/services/defence.html)
+* [Culture, history and sport](/en/services/culture.html)
+* [Policing, justice and emergencies](/en/services/policing.html)
+* [Transport and infrastructure](/en/services/transport.html)
+* [Canada and the world](https://www.international.gc.ca/world-monde/index.aspx?lang=eng)
+* [Money and finances](/en/services/finance.html)
+* [Science and innovation](/en/services/science.html)
+* [Indigenous Peoples](/en/services/indigenous-peoples.html)
+* [Veterans and military](/en/services/veterans-military.html)
+* [Youth](/en/services/youth.html)
+* [Manage life events](/en/services/life-events.html)
+
+### Government of Canada Corporate
+
+* [Social media](https://www.canada.ca/en/social.html)
+* [Mobile applications](https://www.canada.ca/en/mobile.html)
+* [About Canada.ca](https://www.canada.ca/en/government/about-canada-ca.html)
+* [Terms and conditions](/en/transparency/terms.html)
+* [Privacy](/en/transparency/privacy.html)
+
+![Symbol of the Government of Canada](/etc/designs/canada/wet-boew/assets/wmms-blk.svg)

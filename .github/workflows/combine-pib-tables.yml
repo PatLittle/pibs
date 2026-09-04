@@ -10,6 +10,8 @@ on:
       - "institutions_infosource_docs/**/source_manifest.json"
       - "data/collection_jobs/*.jsonl"
       - "compile_institution_tables.py"
+      - "extract_information_types.py"
+      - "institution_extraction_versions.py"
       - "pib_types.py"
       - ".github/workflows/combine-pib-tables.yml"
   workflow_dispatch:

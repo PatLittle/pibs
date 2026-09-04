@@ -1,0 +1,54 @@
+{
+  "snapshot_date": "2026-08-15",
+  "institution_id": "na_st-mary-s-river-bridge-company",
+  "institution_name_en": "St. Mary's River Bridge Company",
+  "institution_name_fr": "Société du pont de la rivière Ste Marie",
+  "consolidated_from": [
+    "institutions_infosource_docs/na_st-mary-s-river-bridge-company",
+    "institutions_infosource_docs/na_societe-du-pont-de-la-riviere-ste-marie"
+  ],
+  "sources": {
+    "infosource_en": {
+      "status": "collected",
+      "requested_url": "https://federalbridge.ca/sources/smrbc/",
+      "content_type": "text/html",
+      "byte_count": 68186,
+      "sha256": "45bffb02862846425111a5d1d51455fcdb608117cb9f8bdd809cebcb0989ea0f",
+      "raw_path": "institutions_infosource_docs/na_st-mary-s-river-bridge-company/infosource_en.html",
+      "markdown_path": "institutions_infosource_docs/na_st-mary-s-river-bridge-company/infosource_en.md",
+      "original_folder": "institutions_infosource_docs/na_societe-du-pont-de-la-riviere-ste-marie",
+      "original_capture_timestamp_utc": "2026-08-15T08:19:08.643936+00:00"
+    },
+    "infosource_fr": {
+      "status": "collected",
+      "requested_url": "https://www.pontsfederaux.ca/sources/smrbc/",
+      "content_type": "text/html",
+      "byte_count": 70246,
+      "sha256": "37da422db0a478348cb531f115586d935f7f90664787a00ee38e762f18ff31b2",
+      "raw_path": "institutions_infosource_docs/na_st-mary-s-river-bridge-company/infosource_fr.html",
+      "markdown_path": "institutions_infosource_docs/na_st-mary-s-river-bridge-company/infosource_fr.md",
+      "original_folder": "institutions_infosource_docs/na_societe-du-pont-de-la-riviere-ste-marie",
+      "original_capture_timestamp_utc": "2026-08-15T08:19:08.643936+00:00"
+    }
+  },
+  "superseded_sources": [
+    {
+      "language": "en",
+      "requested_url": "https://federalbridge.ca/transparency/info-source-sources-of-federal-government-and-employee-information/",
+      "sha256": "424fbce7a210e897dac5cd079789086abaef1dc80213991df4540dd764d674c7",
+      "raw_path": "institutions_infosource_docs/na_st-mary-s-river-bridge-company/snapshots/2026-08-15/superseded-generic/infosource_en.html",
+      "markdown_path": "institutions_infosource_docs/na_st-mary-s-river-bridge-company/snapshots/2026-08-15/superseded-generic/infosource_en.md",
+      "original_capture_timestamp_utc": "2026-08-15T08:19:04.636823+00:00",
+      "reason": "Generic parent-corporation landing page; replaced by the SMRBC-specific publication."
+    },
+    {
+      "language": "fr",
+      "requested_url": "https://www.pontsfederaux.ca/transparence/info-source-sources-of-federal-government-and-employee-information/",
+      "sha256": "f8793e76d9a237799d98af10c3fe29e161c1bf1382bcb155b08d3e23499488ac",
+      "raw_path": "institutions_infosource_docs/na_st-mary-s-river-bridge-company/snapshots/2026-08-15/superseded-generic/infosource_fr.html",
+      "markdown_path": "institutions_infosource_docs/na_st-mary-s-river-bridge-company/snapshots/2026-08-15/superseded-generic/infosource_fr.md",
+      "original_capture_timestamp_utc": "2026-08-15T08:19:04.636823+00:00",
+      "reason": "Generic parent-corporation landing page; replaced by the SMRBC-specific publication."
+    }
+  ]
+}

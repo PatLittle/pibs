@@ -164,6 +164,13 @@ the script stops if either language is missing a matching record.
 `compile_institution_tables.py`. Both bilingual PIB outputs include a `pib_type` column derived
 from the bank code. Codes outside the six Annex B families are left unclassified.
 
+The registry-driven institution PIB compiler also derives
+`specific_information_types_en` and `specific_information_types_fr` from explicit lists in the
+source descriptions (for example, “Personal information may include…”). Each CSV cell is a JSON
+array that retains the source language and source order. Empty arrays mean that no explicit list
+was found; the extractor does not infer types from general program prose, and generic catch-all
+phrases such as “other personal information in relevant records” are excluded.
+
 `spib_scraper_(1).py` also rebuilds `pi_categories_en_fr.csv` from the bilingual
 Categories of Personal Information lists. `PI_CAT-1` through `PI_CAT-25` follow the
 English source order and are paired to the differently ordered French list by translated name.

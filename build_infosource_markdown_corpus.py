@@ -15,6 +15,28 @@ INPUT_CSV = Path("infosource_institutions_en_fr.csv")
 REGISTRY_CSV = Path("institution_registry.csv")
 OUTPUT_ROOT = Path("institutions_infosource_docs")
 
+# Historical input rows sometimes lack both gc_orgID and Open Government slug,
+# or contain only one language/name from an older institution listing.  Keep
+# those rows in the same corpus folder as their known canonical institution.
+LEGACY_FOLDER_ALIASES = {
+    "na_british-columbia-treaty-commission": "ati-schedule-i-british-columbia-treaty-commission",
+    "na_women-and-gender-equality": "ati-schedule-i-department-for-women-and-gender-equality",
+    "na_infrastructure-canada": "ati-schedule-i-department-of-housing-infrastructure-and-communities",
+    "na_federal-public-service-health-care-plan-administration-authority": (
+        "ati-schedule-i-federal-public-service-health-care-plan-administration-authority"
+    ),
+    "na_gwich-in-land-and-water-board": "ati-schedule-i-gwich-in-land-and-water-board",
+    "na_office-gwich-in-d-amenagement-territorial": (
+        "ati-schedule-i-gwich-in-land-use-planning-board"
+    ),
+    "na_nunavut-water-board": "ati-schedule-i-nunavut-water-board",
+    "na_comite-externe-d-examen-de-la-gendarmerie-royale-du-canada": (
+        "ati-schedule-i-royal-canadian-mounted-police-external-review-committee"
+    ),
+    "na_canada-post": "3651_canada-post",
+    "na_societe-du-pont-de-la-riviere-ste-marie": "na_st-mary-s-river-bridge-company",
+}
+
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; InfoSource-Markdown-Corpus/1.0; +https://example.local)"
 }
@@ -85,7 +107,8 @@ def corpus_folder_for(
     if pd.isna(raw_name) or not str(raw_name).strip():
         raw_name = getter("institution_name_fr")
     name = "" if pd.isna(raw_name) else str(raw_name or "").strip()
-    return root / f"{orgid or 'na'}_{slugify(name)}"
+    fallback_name = f"{orgid or 'na'}_{slugify(name)}"
+    return root / LEGACY_FOLDER_ALIASES.get(fallback_name, fallback_name)
 
 
 def fetch_html(url: str) -> str:

@@ -69,20 +69,174 @@
   },
   "extraction": {
     "pibs": {
-      "english": 0,
-      "french": 0,
-      "merged": 0
+      "english": 11,
+      "french": 11,
+      "merged": 11
     },
     "classes_of_records": {
-      "english": 0,
-      "french": 0,
-      "merged": 0
+      "english": 22,
+      "french": 22,
+      "merged": 22
     }
   },
   "parser_versions": {
-    "pibs": 4,
-    "classes_of_records": 1
+    "pibs": 5,
+    "classes_of_records": 2
   },
-  "extracted_at_utc": "2026-08-15T16:16:15.175665+00:00",
-  "extraction_rebuild_version": 2
+  "extracted_at_utc": "2026-09-04T07:23:07.181444+00:00",
+  "extraction_rebuild_version": 2,
+  "supplemental_sources": [
+    {
+      "source_id": "elections-current-cor-en-p3",
+      "snapshot_date": "2026-09-04",
+      "collected_at_utc": "2026-09-04T07:16:41.497181+00:00",
+      "language": "en",
+      "roles": [
+        "classes_of_records_en"
+      ],
+      "requested_url": "https://www.elections.ca/content.aspx?section=abo&dir=atip/info&document=p3&lang=e",
+      "final_url": "https://www.elections.ca/content.aspx?section=abo&dir=atip/info&document=p3&lang=e",
+      "http_status": 200,
+      "content_type": "text/html; charset=iso-8859-1",
+      "encoding": "iso-8859-1",
+      "byte_count": 23338,
+      "sha256": "297f63b57aecb6c9eda0c093ea10f2353927842275f272c26200b4a2ac389d8b",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-chief-electoral-officer/snapshots/2026-09-04/supplemental/elections-current-cor-en-p3/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-chief-electoral-officer/snapshots/2026-09-04/supplemental/elections-current-cor-en-p3/source.md",
+      "provenance": "Current official Elections Canada Info Source program page omitted by the legacy query-unaware crawler."
+    },
+    {
+      "source_id": "elections-current-cor-en-p4",
+      "snapshot_date": "2026-09-04",
+      "collected_at_utc": "2026-09-04T07:16:46.250167+00:00",
+      "language": "en",
+      "roles": [
+        "classes_of_records_en"
+      ],
+      "requested_url": "https://www.elections.ca/content.aspx?section=abo&dir=atip/info&document=p4&lang=e",
+      "final_url": "https://www.elections.ca/content.aspx?section=abo&dir=atip/info&document=p4&lang=e",
+      "http_status": 200,
+      "content_type": "text/html; charset=iso-8859-1",
+      "encoding": "iso-8859-1",
+      "byte_count": 45840,
+      "sha256": "fd449bc20d111d064804c2d159a837608fa39fd0fcdf5909c8bf0eaaa7f19e9b",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-chief-electoral-officer/snapshots/2026-09-04/supplemental/elections-current-cor-en-p4/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-chief-electoral-officer/snapshots/2026-09-04/supplemental/elections-current-cor-en-p4/source.md",
+      "provenance": "Current official Elections Canada Info Source program page omitted by the legacy query-unaware crawler."
+    },
+    {
+      "source_id": "elections-current-cor-en-p5",
+      "snapshot_date": "2026-09-04",
+      "collected_at_utc": "2026-09-04T07:16:52.551710+00:00",
+      "language": "en",
+      "roles": [
+        "classes_of_records_en"
+      ],
+      "requested_url": "https://www.elections.ca/content.aspx?section=abo&dir=atip/info&document=p5&lang=e",
+      "final_url": "https://www.elections.ca/content.aspx?section=abo&dir=atip/info&document=p5&lang=e",
+      "http_status": 200,
+      "content_type": "text/html; charset=iso-8859-1",
+      "encoding": "iso-8859-1",
+      "byte_count": 31397,
+      "sha256": "ce26e203d77e01a28580648b8f3e1b61c668d23cdcda6e407ca2c723c597920a",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-chief-electoral-officer/snapshots/2026-09-04/supplemental/elections-current-cor-en-p5/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-chief-electoral-officer/snapshots/2026-09-04/supplemental/elections-current-cor-en-p5/source.md",
+      "provenance": "Current official Elections Canada Info Source program page omitted by the legacy query-unaware crawler."
+    },
+    {
+      "source_id": "elections-current-cor-en-p6",
+      "snapshot_date": "2026-09-04",
+      "collected_at_utc": "2026-09-04T07:16:55.084757+00:00",
+      "language": "en",
+      "roles": [
+        "classes_of_records_en"
+      ],
+      "requested_url": "https://www.elections.ca/content.aspx?section=abo&dir=atip/info&document=p6&lang=e",
+      "final_url": "https://www.elections.ca/content.aspx?section=abo&dir=atip/info&document=p6&lang=e",
+      "http_status": 200,
+      "content_type": "text/html; charset=iso-8859-1",
+      "encoding": "iso-8859-1",
+      "byte_count": 50766,
+      "sha256": "c1f92f462ff1d1fe7cf548a19df726c4584eb24fa405a713908f892b38b17d4c",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-chief-electoral-officer/snapshots/2026-09-04/supplemental/elections-current-cor-en-p6/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-chief-electoral-officer/snapshots/2026-09-04/supplemental/elections-current-cor-en-p6/source.md",
+      "provenance": "Current official Elections Canada Info Source program page omitted by the legacy query-unaware crawler."
+    },
+    {
+      "source_id": "elections-current-cor-fr-p3",
+      "snapshot_date": "2026-09-04",
+      "collected_at_utc": "2026-09-04T07:16:56.942210+00:00",
+      "language": "fr",
+      "roles": [
+        "classes_of_records_fr"
+      ],
+      "requested_url": "https://www.elections.ca/content.aspx?section=abo&dir=atip/info&document=p3&lang=f",
+      "final_url": "https://www.elections.ca/content.aspx?section=abo&dir=atip/info&document=p3&lang=f",
+      "http_status": 200,
+      "content_type": "text/html; charset=iso-8859-1",
+      "encoding": "iso-8859-1",
+      "byte_count": 25945,
+      "sha256": "9f13c7cb977b09d8d5a5d67bba629dfd829f6591266f9d5dea338bd3c98383ad",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-chief-electoral-officer/snapshots/2026-09-04/supplemental/elections-current-cor-fr-p3/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-chief-electoral-officer/snapshots/2026-09-04/supplemental/elections-current-cor-fr-p3/source.md",
+      "provenance": "Current official Elections Canada Info Source program page omitted by the legacy query-unaware crawler."
+    },
+    {
+      "source_id": "elections-current-cor-fr-p4",
+      "snapshot_date": "2026-09-04",
+      "collected_at_utc": "2026-09-04T07:16:58.772535+00:00",
+      "language": "fr",
+      "roles": [
+        "classes_of_records_fr"
+      ],
+      "requested_url": "https://www.elections.ca/content.aspx?section=abo&dir=atip/info&document=p4&lang=f",
+      "final_url": "https://www.elections.ca/content.aspx?section=abo&dir=atip/info&document=p4&lang=f",
+      "http_status": 200,
+      "content_type": "text/html; charset=iso-8859-1",
+      "encoding": "iso-8859-1",
+      "byte_count": 39510,
+      "sha256": "30172c8f7a5c14735529de45f53531181a89b04bf148427ba199d4a52e53e5af",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-chief-electoral-officer/snapshots/2026-09-04/supplemental/elections-current-cor-fr-p4/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-chief-electoral-officer/snapshots/2026-09-04/supplemental/elections-current-cor-fr-p4/source.md",
+      "provenance": "Current official Elections Canada Info Source program page omitted by the legacy query-unaware crawler."
+    },
+    {
+      "source_id": "elections-current-cor-fr-p5",
+      "snapshot_date": "2026-09-04",
+      "collected_at_utc": "2026-09-04T07:17:00.769594+00:00",
+      "language": "fr",
+      "roles": [
+        "classes_of_records_fr"
+      ],
+      "requested_url": "https://www.elections.ca/content.aspx?section=abo&dir=atip/info&document=p5&lang=f",
+      "final_url": "https://www.elections.ca/content.aspx?section=abo&dir=atip/info&document=p5&lang=f",
+      "http_status": 200,
+      "content_type": "text/html; charset=iso-8859-1",
+      "encoding": "iso-8859-1",
+      "byte_count": 52102,
+      "sha256": "9ec1c7b0393197f24a986fcc4e5d67d9b2eb05e011e7faf7c76d5040f86a82ae",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-chief-electoral-officer/snapshots/2026-09-04/supplemental/elections-current-cor-fr-p5/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-chief-electoral-officer/snapshots/2026-09-04/supplemental/elections-current-cor-fr-p5/source.md",
+      "provenance": "Current official Elections Canada Info Source program page omitted by the legacy query-unaware crawler."
+    },
+    {
+      "source_id": "elections-current-cor-fr-p6",
+      "snapshot_date": "2026-09-04",
+      "collected_at_utc": "2026-09-04T07:17:03.280298+00:00",
+      "language": "fr",
+      "roles": [
+        "classes_of_records_fr"
+      ],
+      "requested_url": "https://www.elections.ca/content.aspx?section=abo&dir=atip/info&document=p6&lang=f",
+      "final_url": "https://www.elections.ca/content.aspx?section=abo&dir=atip/info&document=p6&lang=f",
+      "http_status": 200,
+      "content_type": "text/html; charset=iso-8859-1",
+      "encoding": "iso-8859-1",
+      "byte_count": 58425,
+      "sha256": "c4a0866b8d0dcbe74d65c6233880d7eb031d8f658e297dcd2c2361b8a4b05f0b",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-chief-electoral-officer/snapshots/2026-09-04/supplemental/elections-current-cor-fr-p6/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-chief-electoral-officer/snapshots/2026-09-04/supplemental/elections-current-cor-fr-p6/source.md",
+      "provenance": "Current official Elections Canada Info Source program page omitted by the legacy query-unaware crawler."
+    }
+  ]
 }

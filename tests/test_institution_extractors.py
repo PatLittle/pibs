@@ -9,12 +9,44 @@ from build_cor_table_from_markdown import parse_records as parse_cor_records
 from build_cor_table_from_markdown import process_files as process_cor_files
 from build_pib_table_from_markdown import parse_records as parse_pib_records
 from build_pib_table_from_markdown import process_files as process_pib_files
-from collect_institution_content import same_site_namespace
+from collect_institution_content import crawl_score, rejected_response, same_site_namespace
 from compile_institution_tables import build_pib_cor_links
 from build_infosource_markdown_corpus import corpus_folder_for, load_registry_folder_lookup
 
 
 class ClassOfRecordsExtractorTests(unittest.TestCase):
+    def test_definition_list_labels_and_long_or_compact_record_numbers(self):
+        markdown = """
+## Aquatic invasive species prevention permits
+Description
+:   Records about permits.
+Document types
+:   Applications and reports.
+Record number
+:   PC PAEC HRC AIS 001
+
+##### Advancement of reconciliation
+* **Document types:** Briefing notes and reports.
+* **Record Number:** WAGE012
+
+**Activités commerciales**
+**Types de documents :** Rapports et correspondance.
+**Numéro du fichier :** SAG COM 005
+
+### Demandes de permis
+**Numéro du fichier :** AAC PPU 140
+
+### Collections
+* **Document Types:** Collection records.
+* **Record Number:** CMHR COL01
+"""
+        rows = parse_cor_records(markdown)
+        self.assertEqual(
+            [row["record_number"] for row in rows],
+            ["PC PAEC HRC AIS 001", "WAGE012", "SAG COM 005", "CMHR COL01"],
+        )
+        self.assertEqual(rows[0]["document_types"], "Applications and reports.")
+
     def test_bilingual_prose_records_pair_by_numeric_suffix(self):
         english = """
 ### Accessible Transportation
@@ -67,6 +99,44 @@ Record Number: ICO 001
 
 
 class PibExtractorTests(unittest.TestCase):
+    def test_definition_list_bank_label_and_long_institution_prefix(self):
+        markdown = """
+## Aquatic invasive species prevention permits
+Description
+:   Personal information about permit applicants.
+Class of individuals
+:   Permit applicants.
+Bank number
+:   PC PPU 201
+
+#### Candidates and Members Elected
+Description: Personal information about candidates.
+Bank Number: Elections PPU 005
+"""
+        rows = parse_pib_records(markdown)
+        self.assertEqual(
+            [row["bank_number"] for row in rows],
+            ["PC PPU 201", "ELECTIONS PPU 005"],
+        )
+        self.assertEqual(rows[0]["title"], "Aquatic invasive species prevention permits")
+
+
+class InstitutionCollectorTests(unittest.TestCase):
+    def test_query_selected_class_pages_are_discoverable(self):
+        url = (
+            "https://www.elections.ca/content.aspx?section=abo&dir=atip/info"
+            "&document=p4&lang=e"
+        )
+        self.assertGreaterEqual(
+            crawl_score("Electoral Data Services (P)", url, "classes_of_records_en"),
+            6,
+        )
+
+    def test_http_200_request_rejection_is_not_collected_as_source_content(self):
+        content = b"The requested URL was rejected. Your support ID is: 12345"
+        self.assertTrue(rejected_response(content))
+        self.assertFalse(rejected_response(b"A valid Info Source publication"))
+
     def test_plain_titles_and_duplicate_bank_numbers_collapse(self):
         markdown = """
 Program context
@@ -209,6 +279,59 @@ class LinkageModelTests(unittest.TestCase):
             "ati-schedule-i-national-security-and-intelligence-review-agency-secretariat",
         )
         self.assertEqual(crown_corporation.name, "3633_bank-of-canada")
+
+    def test_known_name_and_translation_aliases_use_canonical_folders(self):
+        lookup = load_registry_folder_lookup()
+        cases = [
+            (
+                {"institution_name_en": "British Columbia Treaty Commission"},
+                "ati-schedule-i-british-columbia-treaty-commission",
+            ),
+            (
+                {"institution_name_en": "Women and Gender Equality"},
+                "ati-schedule-i-department-for-women-and-gender-equality",
+            ),
+            (
+                {"institution_name_en": "Infrastructure Canada"},
+                "ati-schedule-i-department-of-housing-infrastructure-and-communities",
+            ),
+            (
+                {
+                    "institution_name_en": (
+                        "Federal Public Service Health Care Plan Administration Authority"
+                    )
+                },
+                "ati-schedule-i-federal-public-service-health-care-plan-administration-authority",
+            ),
+            (
+                {"institution_name_en": "Gwich'in Land and Water Board"},
+                "ati-schedule-i-gwich-in-land-and-water-board",
+            ),
+            (
+                {"institution_name_fr": "Office Gwich’in d’aménagement territorial"},
+                "ati-schedule-i-gwich-in-land-use-planning-board",
+            ),
+            (
+                {"institution_name_en": "Nunavut Water Board"},
+                "ati-schedule-i-nunavut-water-board",
+            ),
+            (
+                {
+                    "institution_name_fr": (
+                        "Comité externe d’examen de la Gendarmerie royale du Canada"
+                    )
+                },
+                "ati-schedule-i-royal-canadian-mounted-police-external-review-committee",
+            ),
+            ({"institution_name_en": "Canada Post"}, "3651_canada-post"),
+            (
+                {"institution_name_fr": "Société du pont de la rivière Ste Marie"},
+                "na_st-mary-s-river-bridge-company",
+            ),
+        ]
+        for row, expected in cases:
+            with self.subTest(row=row):
+                self.assertEqual(corpus_folder_for(row, lookup).name, expected)
 
 
 if __name__ == "__main__":

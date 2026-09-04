@@ -22,12 +22,22 @@ from build_cor_table_from_markdown import parse_records as parse_cor_records
 from build_cor_table_from_markdown import process_folder as process_cor_folder
 from build_pib_table_from_markdown import parse_records as parse_pib_records
 from build_pib_table_from_markdown import process_folder as process_pib_folder
+from institution_extraction_versions import PARSER_VERSIONS
 
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; PIBS-Institution-Collector/3.0; +https://github.com/PatLittle/pibs)"
 }
 ROLE_NAMES = ("pibs_en", "pibs_fr", "classes_of_records_en", "classes_of_records_fr")
+
+
+def rejected_response(content: bytes) -> bool:
+    """Identify common government edge/WAF rejection pages returned as HTTP 200."""
+    sample = content[:20_000].decode("utf-8", errors="ignore").casefold()
+    return (
+        "the requested url was rejected" in sample
+        and "support id" in sample
+    ) or "request rejected" in sample
 
 
 def session() -> requests.Session:
@@ -124,7 +134,11 @@ def convert_to_markdown(
 
 def crawl_score(text: str, url: str, role: str) -> int:
     value = re.sub(r"\s+", " ", text).casefold()
-    path = urlparse(url).path.casefold()
+    # Query parameters select content pages on several legacy federal sites
+    # (for example Elections Canada's ``document=p3`` through ``p6`` pages),
+    # so they are part of the discovery signal even though they are not in the
+    # URL path.
+    path = url.casefold()
     if any(marker in path for marker in (
         "standard-personal-information", "fichiers-renseignements-personnels-ordinaires",
         "standard-classes-records", "categories-documents-ordinaires",
@@ -147,7 +161,7 @@ def crawl_score(text: str, url: str, role: str) -> int:
             "categories de documents",
         )):
             score += 10
-        if re.search(r"(?:class|record|p3\.html)", path):
+        if re.search(r"(?:class|record|p3\.html|[?&]document=p[3-6](?:&|$))", path):
             score += 6
         if re.search(r"\b[A-Z]{2,6}(?:\s+[A-Z]{2,6})?\s+\d{3}\b", text, re.I):
             score += 5
@@ -222,6 +236,8 @@ def discover_role_pages(
             try:
                 response = client.get(candidate, allow_redirects=True, timeout=(15, 75))
                 response.raise_for_status()
+                if rejected_response(response.content):
+                    raise ValueError("Upstream returned a request-rejection page")
                 content_type = response.headers.get("content-type", "")
                 if "html" not in content_type.casefold():
                     continue
@@ -268,6 +284,8 @@ def collect_job(job: dict[str, object], client: requests.Session) -> dict[str, o
             if requested_without_fragment not in response_cache:
                 response = client.get(requested_without_fragment, allow_redirects=True, timeout=(15, 75))
                 response.raise_for_status()
+                if rejected_response(response.content):
+                    raise ValueError("Upstream returned a request-rejection page")
                 response_cache[requested_without_fragment] = (
                     response.content,
                     response.headers.get("content-type", ""),
@@ -320,7 +338,7 @@ def collect_job(job: dict[str, object], client: requests.Session) -> dict[str, o
             "institution_name_en", "institution_name_fr", "access_act_order", "content_folder",
         )},
         "collector_version": 3,
-        "parser_versions": {"pibs": 4, "classes_of_records": 1},
+        "parser_versions": PARSER_VERSIONS,
         "collected_at_utc": datetime.now(timezone.utc).isoformat(),
         "sources": sources,
         "extraction": {

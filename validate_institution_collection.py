@@ -12,9 +12,7 @@ from pathlib import Path
 from build_cor_table_from_markdown import OUT_COLUMNS as COR_COLUMNS
 from build_pib_table_from_markdown import OUT_COLUMNS as PIB_COLUMNS
 from collect_institution_content import ROLE_NAMES, load_jobs
-
-
-PARSER_VERSIONS = {"pibs": 4, "classes_of_records": 1}
+from institution_extraction_versions import PARSER_VERSIONS
 
 
 def checksum(path: Path) -> str:
@@ -82,6 +80,31 @@ def main() -> None:
                     errors.append(f"{job['institution_id']} {role}: discovered checksum mismatch")
                 else:
                     raw_files += 1
+
+        for supplemental in manifest.get("supplemental_sources", []):
+            source_id = str(supplemental.get("source_id", "")).strip() or "unnamed"
+            label = f"{job['institution_id']} supplemental {source_id}"
+            roles = supplemental.get("roles")
+            if (
+                not isinstance(roles, list)
+                or not roles
+                or any(role not in ROLE_NAMES for role in roles)
+                or len(roles) != len(set(roles))
+            ):
+                errors.append(f"{label}: invalid roles {roles!r}")
+            raw_path = Path(str(supplemental.get("raw_path", "")))
+            markdown_path = Path(str(supplemental.get("markdown_path", "")))
+            if not raw_path.is_file():
+                errors.append(f"{label}: missing raw source {raw_path}")
+            else:
+                if raw_path.stat().st_size != supplemental.get("byte_count"):
+                    errors.append(f"{label}: raw byte count mismatch")
+                if checksum(raw_path) != supplemental.get("sha256"):
+                    errors.append(f"{label}: raw checksum mismatch")
+                else:
+                    raw_files += 1
+            if not markdown_path.is_file():
+                errors.append(f"{label}: missing supplemental Markdown {markdown_path}")
 
         for filename, expected in (
             ("cor_table_en_fr.csv", COR_COLUMNS),

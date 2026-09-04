@@ -95,14 +95,14 @@
     },
     "classes_of_records": {
       "english": 53,
-      "french": 53,
-      "merged": 54
+      "french": 55,
+      "merged": 55
     }
   },
   "parser_versions": {
-    "pibs": 4,
-    "classes_of_records": 1
+    "pibs": 5,
+    "classes_of_records": 2
   },
-  "extracted_at_utc": "2026-08-15T16:16:12.446539+00:00",
+  "extracted_at_utc": "2026-09-04T07:21:02.140632+00:00",
   "extraction_rebuild_version": 2
 }

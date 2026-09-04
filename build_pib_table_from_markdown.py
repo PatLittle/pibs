@@ -172,7 +172,9 @@ OUT_COLUMNS = [
     "tbs_registration_fr",
 ]
 
-BANK_RE = re.compile(r"\b([A-Z]{2,6})\s*([A-Z]{3})\s*(\d{3})\b")
+# Some institutions use their full name as the bank prefix (for example,
+# ``Elections PPU 005``), rather than a short departmental acronym.
+BANK_RE = re.compile(r"\b([A-ZÀ-ÖØ-Þ]{2,16})\s*([A-Z]{3})\s*(\d{3})\b")
 PIB_SERIES = {"PPU", "PPE", "PCE", "PCU", "POU", "PSE", "PSU", "PIB", "FRP"}
 
 
@@ -239,6 +241,14 @@ def extract_label_value(line):
         field = ALIAS.get(normalize_label(prefix))
         if field:
             return field, clean_value(rest)
+
+    # Definition-list Markdown emitted by document converters commonly puts
+    # the label on one plain line and the value on the following ``:`` line.
+    # Recognize only an exact known label here so ordinary prose is not
+    # promoted to a field.
+    field = ALIAS.get(normalize_label(value))
+    if field:
+        return field, ""
 
     return None, None
 

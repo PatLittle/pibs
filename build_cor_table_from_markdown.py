@@ -30,6 +30,8 @@ LABELS = {
     "numero de document": "record_number",
     "numero du document": "record_number",
     "numero de la categorie de documents": "record_number",
+    "numero de fichier": "record_number",
+    "numero du fichier": "record_number",
 }
 
 BAD_TITLES = {
@@ -46,6 +48,8 @@ BAD_TITLES = {
     "disclosure summaries",
     "sommaire des divulgations",
 }
+
+PIB_SERIES = {"PPU", "PPE", "PCE", "PCU", "POU", "PSE", "PSU", "PIB", "FRP"}
 
 
 def clean_value(value: str) -> str:
@@ -76,11 +80,16 @@ def extract_label_value(line: str) -> tuple[str | None, str]:
         field = LABELS.get(label)
         if field:
             return field, clean_value(match.group(2))
+    # Definition-list Markdown uses a plain label followed by a separate
+    # ``: value`` line. Restrict this to exact known labels.
+    field = LABELS.get(normalize_label(value))
+    if field:
+        return field, ""
     return None, ""
 
 
 def heading_title(line: str) -> str:
-    match = re.match(r"^#{3,6}\s+(.+)$", line.strip())
+    match = re.match(r"^#{2,6}\s+(.+)$", line.strip())
     if not match:
         return ""
     title = clean_value(match.group(1).strip("* "))
@@ -207,11 +216,21 @@ def numeric_key(value: str) -> str:
 def canonical_record_number(value: str) -> str:
     cleaned = clean_value(value)
     match = re.search(
-        r"\b[A-ZÀ-ÖØ-Þ]{2,8}(?:\s+[A-ZÀ-ÖØ-Þ]{2,8})?\s+(?:\d{3,4}|\d+(?:\.\d+)+)\b",
+        r"\b(?:[A-ZÀ-ÖØ-Þ]{2,16}\s+){0,4}[A-ZÀ-ÖØ-Þ]{2,16}\s*"
+        r"(?:\d{2,4}|\d+(?:\.\d+)+)\b",
         cleaned,
         re.I,
     )
-    return clean_value(match.group(0)) if match else ""
+    if not match:
+        return ""
+    number = clean_value(match.group(0))
+    # Some full Info Source pages use the French ``Numéro du fichier`` label
+    # for both class numbers and PIB bank numbers. Never let a known Annex B
+    # PIB series leak into the Classes of Records table.
+    tokens = re.findall(r"[A-ZÀ-ÖØ-Þ]+|\d+(?:\.\d+)*", number, re.I)
+    if len(tokens) >= 2 and tokens[-2].upper() in PIB_SERIES:
+        return ""
+    return number
 
 
 def merge_records(

@@ -47,6 +47,25 @@
       "discovered_pages": []
     }
   },
+  "supplemental_sources": [
+    {
+      "source_id": "legacy-na-office-gwich-in-d-amenagement-territorial-en",
+      "language": "en",
+      "roles": [
+        "pibs_en",
+        "classes_of_records_en"
+      ],
+      "original_folder": "institutions_infosource_docs/na_office-gwich-in-d-amenagement-territorial",
+      "original_capture_timestamp_utc": "2026-08-15T08:19:08.212461+00:00",
+      "requested_url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/gwichin-land-use-planning-board.html",
+      "content_type": "text/html",
+      "byte_count": 22278,
+      "sha256": "1df09a26cf8b357d53b91bdfe03bcd38a7112f7f486e82a59730c75ec92013c4",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-gwich-in-land-use-planning-board/snapshots/2026-08-15/supplemental/na_office-gwich-in-d-amenagement-territorial/infosource_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-gwich-in-land-use-planning-board/snapshots/2026-08-15/supplemental/na_office-gwich-in-d-amenagement-territorial/infosource_en.md",
+      "provenance": "Migrated from the legacy English-name/translated-name split; the registry source had no English URL."
+    }
+  ],
   "extraction": {
     "pibs": {
       "english": 0,
@@ -60,9 +79,9 @@
     }
   },
   "parser_versions": {
-    "pibs": 4,
-    "classes_of_records": 1
+    "pibs": 5,
+    "classes_of_records": 2
   },
-  "extracted_at_utc": "2026-08-15T16:16:14.432592+00:00",
+  "extracted_at_utc": "2026-09-04T07:22:19.667771+00:00",
   "extraction_rebuild_version": 2
 }

@@ -21,6 +21,12 @@ English and French `related_record_number` text. Its `relationship_scope` distin
 institution-specific from standard Classes of Records, and `resolved` makes unresolved source
 references auditable rather than silently discarding them.
 
+The institution PIB table stores explicit description enumerations in
+`specific_information_types_en` and `specific_information_types_fr`. These fields are JSON arrays
+inside the CSV so individual source-language values remain unambiguous even when they contain
+commas. They are conservative derivations: an empty array means no explicit list phrase was found,
+not that the underlying PIB contains no personal information.
+
 `pi_categories_en_fr.csv` is the official controlled vocabulary, but current Info Source
 publications do not provide explicit category assignments for each PIB. My Info therefore keeps
 its deterministic narrative-text assignments in a separate derived table. Every relationship has

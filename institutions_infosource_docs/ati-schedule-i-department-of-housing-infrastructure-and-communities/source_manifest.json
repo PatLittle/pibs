@@ -31,6 +31,42 @@
       "error": "SSLError: HTTPSConnectionPool(host='www.infrastructure.gc.ca', port=443): Max retries exceeded with url: /infosource/infosource-fra.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
     }
   },
+  "supplemental_sources": [
+    {
+      "source_id": "legacy-na-infrastructure-canada-en",
+      "language": "en",
+      "roles": [
+        "pibs_en",
+        "classes_of_records_en"
+      ],
+      "original_folder": "institutions_infosource_docs/na_infrastructure-canada",
+      "original_capture_timestamp_utc": null,
+      "requested_url": "https://www.infrastructure.gc.ca/infosource/infosource-eng.html",
+      "content_type": "text/html",
+      "byte_count": 178849,
+      "sha256": "fc65451b46e0a98b7c5184dd8cdc348f0e335013caebc399c36bd92eb2d047f1",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-housing-infrastructure-and-communities/snapshots/legacy-capture-timestamp-unknown/supplemental/na_infrastructure-canada/infosource_en.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-housing-infrastructure-and-communities/snapshots/legacy-capture-timestamp-unknown/supplemental/na_infrastructure-canada/infosource_en.md",
+      "provenance": "Migrated from the successful legacy corpus capture after the canonical collector failed TLS verification."
+    },
+    {
+      "source_id": "legacy-na-infrastructure-canada-fr",
+      "language": "fr",
+      "roles": [
+        "pibs_fr",
+        "classes_of_records_fr"
+      ],
+      "original_folder": "institutions_infosource_docs/na_infrastructure-canada",
+      "original_capture_timestamp_utc": null,
+      "requested_url": "https://www.infrastructure.gc.ca/infosource/infosource-fra.html",
+      "content_type": "text/html",
+      "byte_count": 212450,
+      "sha256": "386345ece700477c98b8667df793aae037b159cad7ab2205f9455197fbdd5cbf",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-housing-infrastructure-and-communities/snapshots/legacy-capture-timestamp-unknown/supplemental/na_infrastructure-canada/infosource_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-housing-infrastructure-and-communities/snapshots/legacy-capture-timestamp-unknown/supplemental/na_infrastructure-canada/infosource_fr.md",
+      "provenance": "Migrated from the successful legacy corpus capture after the canonical collector failed TLS verification."
+    }
+  ],
   "extraction": {
     "pibs": {
       "english": 0,
@@ -38,15 +74,15 @@
       "merged": 0
     },
     "classes_of_records": {
-      "english": 0,
-      "french": 0,
-      "merged": 0
+      "english": 56,
+      "french": 62,
+      "merged": 73
     }
   },
   "parser_versions": {
-    "pibs": 4,
-    "classes_of_records": 1
+    "pibs": 5,
+    "classes_of_records": 2
   },
-  "extracted_at_utc": "2026-08-15T16:16:09.597761+00:00",
+  "extracted_at_utc": "2026-09-04T07:19:30.405592+00:00",
   "extraction_rebuild_version": 2
 }

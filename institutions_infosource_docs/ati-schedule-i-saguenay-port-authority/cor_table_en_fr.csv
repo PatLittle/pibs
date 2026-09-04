@@ -1,1 +1,7 @@
 record_number,name_en,name_fr,document_types_en,document_types_fr
+SAG COM 005,,Activités commerciales,,"Rapports statistiques, avis tarifaires, demandes de poste d’amarrage, déclarations de navire, ententes, contrats, correspondances."
+SAG ING 010,,Entretien des infrastructures,,"Appel d’offres, contrats, plans, devis, surveillance des travaux, autorisations de travail, inspections, rapports d’étape, correspondances."
+SAG SEC 025,,Sécurité,,"Rapports d’incident, enquêtes, rapports d’évaluation des dommages, avis légal, normes, procédures, plan de mesures d’urgence, rapports d’analyse de risque, correspondances."
+SAG ENV 030,,Environnement,,"Politique, rapports d’audit, vérifications, évaluations, certificats."
+SAG MAR 015,,Marketing et Communications,,"Recherches, études, sondages, enquêtes, rapports, publications."
+SAG DEV 030,,Développement des affaires,,"Études et enquêtes, statistiques, analyses, appels d’offres, contrats, plans, devis, surveillance des travaux, autorisations de travail, inspections, rapports d’étape, correspondances."

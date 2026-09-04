@@ -67,6 +67,25 @@
       "discovered_pages": []
     }
   },
+  "supplemental_sources": [
+    {
+      "source_id": "legacy-na-nunavut-water-board-fr-annual-info-source",
+      "language": "fr",
+      "roles": [
+        "pibs_fr",
+        "classes_of_records_fr"
+      ],
+      "original_folder": "institutions_infosource_docs/na_nunavut-water-board",
+      "original_capture_timestamp_utc": "2026-08-15T08:19:03.926858+00:00",
+      "requested_url": "https://www.nwb-oen.ca/fr/content/rapport-annuel-d%E2%80%99info-source-2013-2014",
+      "content_type": "text/html",
+      "byte_count": 36398,
+      "sha256": "c353aa1f173de338a3e82184fc0241e537268c976739941b57b9f21888ea51d6",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-nunavut-water-board/snapshots/2026-08-15/supplemental/na_nunavut-water-board/infosource_fr.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-nunavut-water-board/snapshots/2026-08-15/supplemental/na_nunavut-water-board/infosource_fr.md",
+      "provenance": "Migrated because the canonical French URL captured only the generic transparency landing page rather than the annual Info Source publication."
+    }
+  ],
   "extraction": {
     "pibs": {
       "english": 0,
@@ -75,14 +94,14 @@
     },
     "classes_of_records": {
       "english": 1,
-      "french": 0,
+      "french": 1,
       "merged": 1
     }
   },
   "parser_versions": {
-    "pibs": 4,
-    "classes_of_records": 1
+    "pibs": 5,
+    "classes_of_records": 2
   },
-  "extracted_at_utc": "2026-08-15T16:16:15.082688+00:00",
+  "extracted_at_utc": "2026-09-04T07:23:02.597545+00:00",
   "extraction_rebuild_version": 2
 }

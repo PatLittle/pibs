@@ -32,6 +32,18 @@ def main() -> None:
             errors.append(f"{name}: blank primary-key values")
         if key and frame.duplicated(key).any():
             errors.append(f"{name}: duplicate primary keys")
+        for field in table.get("json_array_fields", []):
+            if field not in frame.columns:
+                errors.append(f"{name}: missing JSON-array field {field}")
+                continue
+            for row_number, value in enumerate(frame[field], start=2):
+                try:
+                    decoded = json.loads(value)
+                except json.JSONDecodeError:
+                    errors.append(f"{name}: invalid JSON in {field} row {row_number}")
+                    continue
+                if not isinstance(decoded, list) or not all(isinstance(item, str) for item in decoded):
+                    errors.append(f"{name}: {field} row {row_number} is not a string array")
 
     for name, table in model["tables"].items():
         if name not in frames:
