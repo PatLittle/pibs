@@ -2,17 +2,17 @@
   "snapshot_date": "2026-08-15",
   "headline": {
     "institutions": 148,
-    "institution_pibs": 1044,
-    "institution_classes": 2426,
-    "pib_cor_links": 1990
+    "institution_pibs": 950,
+    "institution_classes": 2278,
+    "pib_cor_links": 1797
   },
   "quality": {
-    "pibs_bilingual": 887,
-    "pibs_bilingual_percent": 85.0,
-    "classes_bilingual": 2132,
-    "classes_bilingual_percent": 87.9,
-    "links_resolved": 1704,
-    "links_resolved_percent": 85.6
+    "pibs_bilingual": 802,
+    "pibs_bilingual_percent": 84.4,
+    "classes_bilingual": 1989,
+    "classes_bilingual_percent": 87.3,
+    "links_resolved": 1523,
+    "links_resolved_percent": 84.8
   },
   "collection": {
     "collectable_institutions": 131,
@@ -25,9 +25,9 @@
   },
   "datasets": {
     "institutions": 148,
-    "pibs": 1044,
-    "classes": 2426,
-    "links": 1990,
+    "pibs": 950,
+    "classes": 2278,
+    "links": 1797,
     "standard_pibs": 49,
     "standard_classes": 33,
     "categories": 25,
@@ -36,11 +36,11 @@
   "pib_types": [
     {
       "name": "Public Bank",
-      "count": 848
+      "count": 802
     },
     {
       "name": "Particular Bank",
-      "count": 132
+      "count": 84
     },
     {
       "name": "Central Bank",
@@ -60,14 +60,6 @@
     }
   ],
   "top_institutions": [
-    {
-      "institution_id": "ati-schedule-i-canadian-forces",
-      "pibs": 94,
-      "classes": 148,
-      "name_en": "Canadian Forces",
-      "name_fr": "Forces canadiennes",
-      "total": 242
-    },
     {
       "institution_id": "ati-schedule-i-department-of-national-defence",
       "pibs": 94,
@@ -123,6 +115,14 @@
       "name_en": "Canada Border Services Agency",
       "name_fr": "Agence des services frontaliers du Canada",
       "total": 137
+    },
+    {
+      "institution_id": "ati-schedule-i-treasury-board-secretariat",
+      "pibs": 42,
+      "classes": 88,
+      "name_en": "Treasury Board Secretariat",
+      "name_fr": "Secrétariat du Conseil du Trésor",
+      "total": 130
     }
   ]
 }
