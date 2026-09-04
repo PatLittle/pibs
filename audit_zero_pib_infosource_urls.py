@@ -17,13 +17,18 @@ import requests
 from bs4 import BeautifulSoup
 from markitdown import MarkItDown
 
-from build_infosource_markdown_corpus import slugify, write_format_md
+from build_infosource_markdown_corpus import (
+    corpus_folder_for,
+    load_registry_folder_lookup,
+    write_format_md,
+)
 from build_pib_table_from_markdown import process_folder
 
 
 INPUT_CSV = Path("infosource_institutions_en_fr.csv")
 OUTPUT_JSON = Path("infosource_zero_pib_url_report.json")
 CORPUS_ROOT = Path("institutions_infosource_docs")
+REGISTRY_FOLDER_LOOKUP = load_registry_folder_lookup()
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (compatible; PIBS-Zero-PIB-URL-Audit/1.0; "
@@ -254,18 +259,7 @@ def language_candidates(result: FetchResult, target_language: str) -> List[Dict[
 
 
 def find_corpus_folder(row: Dict[str, str]) -> Path:
-    orgid = clean_space(row.get("gc_orgID"))
-    if orgid:
-        matches = sorted(CORPUS_ROOT.glob(f"{orgid}_*"))
-        if matches:
-            return matches[0]
-    name = clean_space(row.get("institution_name_en")) or clean_space(row.get("institution_name_fr"))
-    slug = slugify(name)
-    if not orgid:
-        matches = sorted(CORPUS_ROOT.glob(f"na_{slug}*"))
-        if matches:
-            return matches[0]
-    return CORPUS_ROOT / f"{orgid or 'na'}_{slug}"
+    return corpus_folder_for(row, REGISTRY_FOLDER_LOOKUP, CORPUS_ROOT)
 
 
 def metadata_final_urls(folder: Path) -> Dict[str, str]:

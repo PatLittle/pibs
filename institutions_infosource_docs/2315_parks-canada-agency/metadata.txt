@@ -1,6 +1,0 @@
-institution_name_en: Parks Canada Agency
-institution_name_fr: Agence Parcs Canada
-gc_orgID: 2315
-infosource_url_en: https://parks.canada.ca/agence-agency/dp-pd/infosource
-infosource_url_fr: https://parcs.canada.ca/agence-agency/dp-pd/infosource
-audit_timestamp_utc: 2026-08-15T08:18:49.520005+00:00

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Create per-institution EN/FR HTML + Markdown copies for matched Info Source entries."""
 
+import csv
 import re
 from pathlib import Path
 from typing import Optional
@@ -11,6 +12,7 @@ from markitdown import MarkItDown
 from unidecode import unidecode
 
 INPUT_CSV = Path("infosource_institutions_en_fr.csv")
+REGISTRY_CSV = Path("institution_registry.csv")
 OUTPUT_ROOT = Path("institutions_infosource_docs")
 
 HEADERS = {
@@ -40,6 +42,50 @@ def slugify(text: str, max_len: int = 80) -> str:
     if not s:
         s = "institution"
     return s[:max_len].rstrip("-")
+
+
+def normalize_orgid(value: object) -> str:
+    text = "" if pd.isna(value) else str(value or "").strip()
+    return text[:-2] if re.fullmatch(r"\d+\.0", text) else text
+
+
+def load_registry_folder_lookup(path: Path = REGISTRY_CSV) -> dict[str, str]:
+    """Map legacy operational identifiers to canonical Schedule I folder IDs."""
+    if not path.exists():
+        return {}
+    lookup: dict[str, str] = {}
+    with path.open(encoding="utf-8-sig", newline="") as handle:
+        for row in csv.DictReader(handle):
+            institution_id = str(row.get("institution_id") or "").strip()
+            orgid = normalize_orgid(row.get("gc_orgID"))
+            open_canada_slug = str(row.get("open_canada_org_slug") or "").strip()
+            if institution_id and orgid:
+                lookup[f"gc:{orgid}"] = institution_id
+            if institution_id and open_canada_slug:
+                lookup[f"slug:{open_canada_slug}"] = institution_id
+    return lookup
+
+
+def corpus_folder_for(
+    row: object,
+    registry_lookup: dict[str, str],
+    root: Path = OUTPUT_ROOT,
+) -> Path:
+    """Use the canonical Schedule I folder, falling back for non-registry entities."""
+    getter = row.get  # pandas Series and dictionaries both provide get().
+    orgid = normalize_orgid(getter("gc_orgID"))
+    raw_slug = getter("open_gov_ouvert")
+    open_canada_slug = "" if pd.isna(raw_slug) else str(raw_slug or "").strip()
+    institution_id = registry_lookup.get(f"gc:{orgid}")
+    if not institution_id and open_canada_slug:
+        institution_id = registry_lookup.get(f"slug:{open_canada_slug}")
+    if institution_id:
+        return root / institution_id
+    raw_name = getter("institution_name_en")
+    if pd.isna(raw_name) or not str(raw_name).strip():
+        raw_name = getter("institution_name_fr")
+    name = "" if pd.isna(raw_name) else str(raw_name or "").strip()
+    return root / f"{orgid or 'na'}_{slugify(name)}"
 
 
 def fetch_html(url: str) -> str:
@@ -111,6 +157,7 @@ def main():
     ].copy()
 
     OUTPUT_ROOT.mkdir(parents=True, exist_ok=True)
+    registry_lookup = load_registry_folder_lookup()
     md = MarkItDown()
 
     print(f"Institutions to process (matched + EN/FR status 200): {len(matched)}")
@@ -122,7 +169,7 @@ def main():
         gco_str = str(int(gco)) if pd.notna(gco) else "na"
         name_en = str(row["institution_name_en"]).strip()
         name_fr = str(row["institution_name_fr"]).strip()
-        folder = OUTPUT_ROOT / f"{gco_str}_{slugify(name_en)}"
+        folder = corpus_folder_for(row, registry_lookup)
         folder.mkdir(parents=True, exist_ok=True)
 
         print(f"[{idx + 1}/{len(matched)}] {name_en}")
@@ -157,4 +204,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

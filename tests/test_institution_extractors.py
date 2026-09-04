@@ -11,6 +11,7 @@ from build_pib_table_from_markdown import parse_records as parse_pib_records
 from build_pib_table_from_markdown import process_files as process_pib_files
 from collect_institution_content import same_site_namespace
 from compile_institution_tables import build_pib_cor_links
+from build_infosource_markdown_corpus import corpus_folder_for, load_registry_folder_lookup
 
 
 class ClassOfRecordsExtractorTests(unittest.TestCase):
@@ -183,6 +184,31 @@ class LinkageModelTests(unittest.TestCase):
         self.assertEqual(sum(bool(job["collectable"]) for job in jobs), 131)
         self.assertEqual(len({job["institution_id"] for job in jobs}), 148)
         self.assertTrue(all(job["content_folder"].endswith(job["institution_id"]) for job in jobs))
+
+    def test_legacy_collection_resolves_schedule_i_to_canonical_folders(self):
+        lookup = load_registry_folder_lookup()
+        treasury_board = corpus_folder_for(
+            {"gc_orgID": "2242", "institution_name_en": "Treasury Board Secretariat"},
+            lookup,
+        )
+        nsira = corpus_folder_for(
+            {
+                "gc_orgID": "3579",
+                "open_gov_ouvert": "nsira-ossnr",
+                "institution_name_en": "National Security and Intelligence Review Agency",
+            },
+            lookup,
+        )
+        crown_corporation = corpus_folder_for(
+            {"gc_orgID": "3633", "institution_name_en": "Bank of Canada"},
+            lookup,
+        )
+        self.assertEqual(treasury_board.name, "ati-schedule-i-treasury-board-secretariat")
+        self.assertEqual(
+            nsira.name,
+            "ati-schedule-i-national-security-and-intelligence-review-agency-secretariat",
+        )
+        self.assertEqual(crown_corporation.name, "3633_bank-of-canada")
 
 
 if __name__ == "__main__":
