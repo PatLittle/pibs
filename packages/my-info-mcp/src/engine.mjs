@@ -55,7 +55,7 @@ export class SurveyToolEngine {
     this.routeOptions = Object.fromEntries(Object.entries(this.routes).map(([parent, route]) => [
       parent, Object.fromEntries(route.options.map((option) => [option.code, option]))
     ]));
-    this.categories = Object.fromEntries(contract.personal_information_categories.map((c) => [c.PI_CAT_ID, c]));
+    this.categories = Object.fromEntries(contract.personal_information_categories.map((c) => [c.category_id, c]));
     this.featuresByQuestion = Object.fromEntries(this.questionOrder.map((code) => [
       code, features.filter((row) => pipeSet(row.question_codes).has(code))
     ]));

@@ -90,6 +90,11 @@ const localizedOption = (code, optionCode) => {
   return locale === "fr-CA" ? option.label_fr : option.label_en;
 };
 const answerLabel = (value) => t(value);
+const textFragment = (value) => encodeURIComponent(String(value)).replaceAll("-", "%2D");
+const tableLink = (dataset, filters, highlight) => {
+  const query = new URLSearchParams({ dataset, ...filters }).toString();
+  return `../table.html?${query}#:~:text=${textFragment(highlight)}`;
+};
 
 function applyStaticCopy() {
   document.documentElement.lang = locale.slice(0, 2);
@@ -316,7 +321,12 @@ function renderResultCard(result) {
   const reasons = [...routeReasons, ...questionReasons];
   const source = /^https?:\/\//.test(result.source_url || "") ? `<a href="${escapeHtml(result.source_url)}" target="_blank" rel="noopener">${escapeHtml(t("source"))}</a>` : "";
   const types = result.specific_information_types || [];
-  return `<article class="result-card"><h5>${escapeHtml(result.title)}</h5><div class="result-meta"><span class="pill">${escapeHtml(result.bank_number)}</span><span class="pill">${escapeHtml(t(result.scope))}</span><span class="pill">${escapeHtml(t(result.match_band))}</span></div><details><summary>${escapeHtml(t("whyMatched"))}</summary><ul>${reasons.map((reason) => `<li>${escapeHtml(reason)}</li>`).join("")}</ul><p>${escapeHtml(result.retention.rationale)}</p></details><strong>${escapeHtml(t("categories"))}</strong>${result.categories_of_personal_information.length ? `<ul class="category-list">${result.categories_of_personal_information.map((category) => `<li class="pill">${escapeHtml(category.name)}</li>`).join("")}</ul>` : `<p>${escapeHtml(t("noCategory"))}</p>`}${types.length ? `<details><summary>${escapeHtml(t("specificTypes"))}</summary><ul>${types.map((type) => `<li>${escapeHtml(type)}</li>`).join("")}</ul></details>` : ""}${source}</article>`;
+  const pibDataset = result.scope === "institution_specific" ? "pibs" : "standard-pibs";
+  const pibFilters = result.scope === "institution_specific" && result.institution_id
+    ? { institution_id: result.institution_id }
+    : {};
+  const pibLink = tableLink(pibDataset, pibFilters, result.bank_number);
+  return `<article class="result-card"><h5><a href="${escapeHtml(pibLink)}">${escapeHtml(result.title)}</a></h5><div class="result-meta"><span class="pill">${escapeHtml(result.bank_number)}</span><span class="pill">${escapeHtml(t(result.scope))}</span><span class="pill">${escapeHtml(t(result.match_band))}</span></div><details><summary>${escapeHtml(t("whyMatched"))}</summary><ul>${reasons.map((reason) => `<li>${escapeHtml(reason)}</li>`).join("")}</ul><p>${escapeHtml(result.retention.rationale)}</p></details><strong>${escapeHtml(t("categories"))}</strong>${result.categories_of_personal_information.length ? `<ul class="category-list">${result.categories_of_personal_information.map((category) => `<li class="pill"><a href="${escapeHtml(tableLink("categories", {}, category.category_id))}">${escapeHtml(category.name)}</a></li>`).join("")}</ul>` : `<p>${escapeHtml(t("noCategory"))}</p>`}${types.length ? `<details><summary>${escapeHtml(t("specificTypes"))}</summary><ul>${types.map((type) => `<li>${escapeHtml(type)}</li>`).join("")}</ul></details>` : ""}${source}</article>`;
 }
 
 function renderAnswerTree() {

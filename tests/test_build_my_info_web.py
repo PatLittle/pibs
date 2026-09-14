@@ -77,6 +77,40 @@ process.stdout.write(JSON.stringify({manifest:engine.getManifest(), ids:engine.e
         self.assertEqual(python_ids, browser["ids"])
         self.assertEqual(python_engine.get_manifest(), browser["manifest"])
 
+    def test_browser_build_resolves_categories_and_links_results_to_tables(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            output = Path(temporary)
+            build(output)
+            app = (output / "app.mjs").read_text(encoding="utf-8")
+            script = """
+import fs from 'node:fs';
+import { SurveyToolEngine } from './engine.mjs';
+const runtime = JSON.parse(fs.readFileSync('./runtime.json', 'utf8'));
+const engine = new SurveyToolEngine(runtime.contract, runtime.features);
+const row = runtime.features.find((item) => item.bank_number_key === 'ECBC PPU 001');
+const state = engine.createState('en-CA');
+state.answers.q_money_programs = {value: 'yes', timing: {kind: 'current'}};
+const result = engine.resultView(row, 'strong_match', ['q_money_programs'], state, 2026, []);
+process.stdout.write(JSON.stringify(result.categories_of_personal_information));
+"""
+            completed = subprocess.run(
+                ["node", "--input-type=module", "--eval", script],
+                cwd=output,
+                check=True,
+                capture_output=True,
+                text=True,
+            )
+            categories = json.loads(completed.stdout)
+
+        self.assertIn(
+            {"category_id": "PI_CAT-3", "name": "Contact information"},
+            categories,
+        )
+        self.assertEqual(9, len(categories))
+        self.assertIn('tableLink("categories", {}, category.category_id)', app)
+        self.assertIn('{ institution_id: result.institution_id }', app)
+        self.assertIn('tableLink(pibDataset, pibFilters, result.bank_number)', app)
+
     def test_build_includes_four_data_driven_persona_examples(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             output = Path(temporary)
