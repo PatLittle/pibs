@@ -127,6 +127,8 @@ h1 { max-width: 800px; margin: 0; color: var(--navy); font: 700 clamp(2rem, 4vw,
 .institution-group h4 { margin-bottom: .5rem; font-size: 1.12rem; }
 .result-card { border: 1px solid var(--line); border-radius: .45rem; padding: 1rem; margin-top: .7rem; }
 .result-card h5 { margin: 0; font-size: 1.05rem; }
+.result-card h5 a, .category-list a { color: var(--blue); }
+.result-card h5 a:hover, .category-list a:hover { text-decoration-thickness: 2px; }
 .result-meta { display: flex; flex-wrap: wrap; gap: .4rem; margin: .55rem 0; }
 .pill { background: #e8eef4; border-radius: 99px; padding: .2rem .55rem; font-size: .83rem; }
 .category-list { display: flex; flex-wrap: wrap; gap: .35rem; padding: 0; list-style: none; }
