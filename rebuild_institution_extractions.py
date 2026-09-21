@@ -92,8 +92,26 @@ def main() -> None:
         action="store_true",
         help="Reparse existing role Markdown without replaying immutable raw snapshots.",
     )
+    parser.add_argument(
+        "--institution-id",
+        action="append",
+        default=[],
+        help="Rebuild only the named institution; repeat to select more than one.",
+    )
     args = parser.parse_args()
-    jobs = [job for job in load_jobs(args.jobs_file) if job.get("collectable")]
+    selected = set(args.institution_id)
+    jobs = [
+        job
+        for job in load_jobs(args.jobs_file)
+        if job.get("collectable")
+        and (not selected or str(job.get("institution_id")) in selected)
+    ]
+    found = {str(job["institution_id"]) for job in jobs}
+    if missing_selected := selected - found:
+        raise SystemExit(
+            "Unknown or non-collectable institution IDs: "
+            + ", ".join(sorted(missing_selected))
+        )
     rebuilt = 0
     missing = []
     for job in jobs:

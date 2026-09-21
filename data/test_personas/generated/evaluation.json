@@ -2,23 +2,23 @@
   "aggregate": {
     "expectation_failure_count": 5,
     "explicit_route_result_count": 121,
-    "fallback_only_result_count": 800,
+    "fallback_only_result_count": 803,
     "fixture_format_issue_count": 0,
     "holding_status_counts": {
       "likely_disposed": 58,
       "likely_held": 184,
       "may_still_be_held": 46,
-      "retention_unknown": 633
+      "retention_unknown": 636
     },
     "inventory_gap_count": 6,
     "match_band_counts": {
-      "strong_match": 921
+      "strong_match": 924
     },
     "persona_count": 4,
-    "result_count": 921,
-    "retention_unknown_count": 633,
+    "result_count": 924,
+    "retention_unknown_count": 636,
     "scope_counts": {
-      "institution_specific": 883,
+      "institution_specific": 886,
       "standard": 38
     },
     "selected_route_coverage_counts": {
@@ -28,7 +28,7 @@
       "partial": 8
     },
     "uncategorized_result_count": 144,
-    "unique_record_count": 437
+    "unique_record_count": 439
   },
   "configuration": {
     "as_of_year": 2026,
@@ -45,12 +45,12 @@
       "prefer_not_to_answer"
     ],
     "contract_schema_version": "1.2",
-    "contract_version": "2026-09-04.5",
+    "contract_version": "2026-09-20.5",
     "data_snapshot": {
-      "generated_date": "2026-09-04",
+      "generated_date": "2026-09-20",
       "source_files": {
         "institutions_infosource_docs/pib_table_en_fr_all.csv": {
-          "sha256": "1c0dda4a765819e734625622691f04838bd9154985190892bd0f00894bac2119"
+          "sha256": "720260b000c5aabe1481b7155be75ce4e72274acf54b1f03e25995d615e29ab6"
         },
         "spib_en_fr.csv": {
           "sha256": "bbda3c9de3ba8fdbdd55122db38d3fcc5f40c37c71f8d6295624e2ad89b4eabf"
@@ -64,7 +64,7 @@
       "The current local CRA extract has no defensible direct tax-return PIB record.",
       "A published retention rule may not reflect current operational holdings."
     ],
-    "pib_count": 999,
+    "pib_count": 1005,
     "privacy": {
       "free_text_required": false,
       "notice_en": "Do not provide account numbers, case details, health details, or other sensitive free text.",
@@ -103,7 +103,7 @@
           "5 selected route(s) fall back to broad parent matching.",
           "3 selected route(s) have only partial inventory coverage.",
           "1 selected interaction(s) have no defensible direct PIB.",
-          "Retention is unknown for 210 of 317 results.",
+          "Retention is unknown for 211 of 318 results.",
           "50 result(s) have no derived personal-information category.",
           "3 fixture expectation assertion(s) failed."
         ],
@@ -144,7 +144,7 @@
           },
           {
             "code": "retention_unknown_majority",
-            "message": "Retention is unknown for 210 of 317 results."
+            "message": "Retention is unknown for 211 of 318 results."
           },
           {
             "code": "uncategorized_results",
@@ -164,19 +164,19 @@
             "PI_CAT-12": 55,
             "PI_CAT-13": 108,
             "PI_CAT-14": 67,
-            "PI_CAT-15": 81,
-            "PI_CAT-16": 77,
-            "PI_CAT-17": 229,
+            "PI_CAT-15": 82,
+            "PI_CAT-16": 78,
+            "PI_CAT-17": 230,
             "PI_CAT-18": 38,
             "PI_CAT-19": 89,
             "PI_CAT-2": 23,
-            "PI_CAT-20": 53,
+            "PI_CAT-20": 54,
             "PI_CAT-21": 59,
             "PI_CAT-22": 64,
             "PI_CAT-23": 42,
             "PI_CAT-24": 140,
             "PI_CAT-25": 71,
-            "PI_CAT-3": 226,
+            "PI_CAT-3": 227,
             "PI_CAT-4": 70,
             "PI_CAT-5": 14,
             "PI_CAT-6": 31,
@@ -258,7 +258,7 @@
           "likely_disposed": 28,
           "likely_held": 57,
           "may_still_be_held": 22,
-          "retention_unknown": 210
+          "retention_unknown": 211
         },
         "incomplete_refinement_count": 0,
         "incomplete_refinement_question_codes": [],
@@ -272,6 +272,7 @@
           "Canadian Radio-television and Telecommunications Commission": 2,
           "Canadian Security Intelligence Service": 4,
           "Canadian Space Agency": 3,
+          "Canadian Transportation Accident Investigation and Safety Board": 1,
           "Canadian Transportation Agency": 1,
           "Correctional Service of Canada": 24,
           "Department of Agriculture and Agri-Food": 4,
@@ -326,12 +327,12 @@
           }
         ],
         "match_band_counts": {
-          "strong_match": 317
+          "strong_match": 318
         },
-        "result_count": 317,
-        "retention_unknown_count": 210,
+        "result_count": 318,
+        "retention_unknown_count": 211,
         "scope_counts": {
-          "institution_specific": 311,
+          "institution_specific": 312,
           "standard": 6
         },
         "selected_routes": {
@@ -348,8 +349,8 @@
               "partial": 3
             },
             "fallback_and_explicit_overlap_count": 7,
-            "fallback_only_result_count": 297,
-            "fallback_parent_associated_result_count": 304
+            "fallback_only_result_count": 298,
+            "fallback_parent_associated_result_count": 305
           },
           "selected": [
             {
@@ -8881,6 +8882,61 @@
             "Social Insurance Number (SIN)"
           ],
           "title": "Sir William Stephenson Scholarship Award"
+        },
+        {
+          "bank_number": "TSB PPU 005",
+          "categories_of_personal_information": [
+            {
+              "category_id": "PI_CAT-15",
+              "name": "Language"
+            },
+            {
+              "category_id": "PI_CAT-16",
+              "name": "Medical information"
+            },
+            {
+              "category_id": "PI_CAT-17",
+              "name": "Name"
+            },
+            {
+              "category_id": "PI_CAT-20",
+              "name": "Photos"
+            },
+            {
+              "category_id": "PI_CAT-3",
+              "name": "Contact information"
+            }
+          ],
+          "holding_status": "retention_unknown",
+          "institution_id": "ati-schedule-i-canadian-transportation-accident-investigation-and-safety-board",
+          "institution_name": "Canadian Transportation Accident Investigation and Safety Board",
+          "match_band": "strong_match",
+          "matched_question_codes": [
+            "q_justice_safety"
+          ],
+          "matched_route_options": [],
+          "privacy_caveat_codes": [
+            "possible_third_party_information",
+            "sensitive_context"
+          ],
+          "record_id": "institution:ati-schedule-i-canadian-transportation-accident-investigation-and-safety-board:TSB PPU 005",
+          "retention": {
+            "confidence": "low",
+            "published_text_excerpt": "",
+            "published_text_truncated": false,
+            "rationale": "The published rule does not provide a duration that can be applied to this answer.",
+            "reference_events": [],
+            "rule_type": "unknown",
+            "status": "retention_unknown",
+            "timing": {
+              "kind": "approximate_year",
+              "year": 1997
+            }
+          },
+          "scope": "institution_specific",
+          "source_url": "",
+          "specific_information_types": [],
+          "title": "Investigation files"
         },
         {
           "bank_number": "CSC PPU 025",
@@ -23101,7 +23157,7 @@
             "value": "yes"
           }
         },
-        "contract_version": "2026-09-04.5",
+        "contract_version": "2026-09-20.5",
         "departments": {
           "q_business_supplier": [
             "ati-schedule-i-atlantic-canada-opportunities-agency",
@@ -23149,6 +23205,7 @@
             "ati-schedule-i-canada-employment-insurance-commission",
             "ati-schedule-i-canadian-radio-television-and-telecommunications-commission",
             "ati-schedule-i-canadian-security-intelligence-service",
+            "ati-schedule-i-canadian-transportation-accident-investigation-and-safety-board",
             "ati-schedule-i-correctional-service-of-canada",
             "ati-schedule-i-department-of-citizenship-and-immigration",
             "ati-schedule-i-department-of-employment-and-social-development",
@@ -23364,14 +23421,14 @@
           "likely_disposed": 28,
           "likely_held": 57,
           "may_still_be_held": 22,
-          "retention_unknown": 210
+          "retention_unknown": 211
         },
         "match_band_counts": {
-          "strong_match": 317
+          "strong_match": 318
         },
         "next_offset": null,
         "offset": 0,
-        "returned_matches": 317,
+        "returned_matches": 318,
         "top_institutions": [
           {
             "count": 32,
@@ -23414,7 +23471,7 @@
             "institution_name": "Canada Border Services Agency"
           }
         ],
-        "total_matches": 317,
+        "total_matches": 318,
         "truncated": false
       }
     },
@@ -23424,7 +23481,7 @@
           "6 selected route(s) fall back to broad parent matching.",
           "1 selected route(s) have only partial inventory coverage.",
           "2 selected interaction(s) have no defensible direct PIB.",
-          "Retention is unknown for 217 of 307 results.",
+          "Retention is unknown for 218 of 308 results.",
           "57 result(s) have no derived personal-information category."
         ],
         "expectation_failure_count": 0
@@ -23467,7 +23524,7 @@
           },
           {
             "code": "retention_unknown_majority",
-            "message": "Retention is unknown for 217 of 307 results."
+            "message": "Retention is unknown for 218 of 308 results."
           },
           {
             "code": "uncategorized_results",
@@ -23483,19 +23540,19 @@
             "PI_CAT-12": 53,
             "PI_CAT-13": 70,
             "PI_CAT-14": 66,
-            "PI_CAT-15": 63,
-            "PI_CAT-16": 78,
-            "PI_CAT-17": 209,
+            "PI_CAT-15": 64,
+            "PI_CAT-16": 79,
+            "PI_CAT-17": 210,
             "PI_CAT-18": 40,
             "PI_CAT-19": 72,
             "PI_CAT-2": 23,
-            "PI_CAT-20": 50,
+            "PI_CAT-20": 51,
             "PI_CAT-21": 64,
             "PI_CAT-22": 48,
             "PI_CAT-23": 30,
             "PI_CAT-24": 102,
             "PI_CAT-25": 42,
-            "PI_CAT-3": 201,
+            "PI_CAT-3": 202,
             "PI_CAT-4": 50,
             "PI_CAT-5": 11,
             "PI_CAT-6": 19,
@@ -23578,7 +23635,7 @@
           "likely_disposed": 27,
           "likely_held": 52,
           "may_still_be_held": 11,
-          "retention_unknown": 217
+          "retention_unknown": 218
         },
         "incomplete_refinement_count": 0,
         "incomplete_refinement_question_codes": [],
@@ -23591,6 +23648,7 @@
           "Canadian Radio-television and Telecommunications Commission": 4,
           "Canadian Security Intelligence Service": 5,
           "Canadian Space Agency": 1,
+          "Canadian Transportation Accident Investigation and Safety Board": 1,
           "Canadian Transportation Agency": 3,
           "Correctional Service of Canada": 23,
           "Department of Agriculture and Agri-Food": 1,
@@ -23644,12 +23702,12 @@
           }
         ],
         "match_band_counts": {
-          "strong_match": 307
+          "strong_match": 308
         },
-        "result_count": 307,
-        "retention_unknown_count": 217,
+        "result_count": 308,
+        "retention_unknown_count": 218,
         "scope_counts": {
-          "institution_specific": 299,
+          "institution_specific": 300,
           "standard": 8
         },
         "selected_routes": {
@@ -23666,8 +23724,8 @@
               "partial": 10
             },
             "fallback_and_explicit_overlap_count": 35,
-            "fallback_only_result_count": 258,
-            "fallback_parent_associated_result_count": 293
+            "fallback_only_result_count": 259,
+            "fallback_parent_associated_result_count": 294
           },
           "selected": [
             {
@@ -29485,6 +29543,60 @@
           "source_url": "",
           "specific_information_types": [],
           "title": "Security Screening Program"
+        },
+        {
+          "bank_number": "TSB PPU 005",
+          "categories_of_personal_information": [
+            {
+              "category_id": "PI_CAT-15",
+              "name": "Language"
+            },
+            {
+              "category_id": "PI_CAT-16",
+              "name": "Medical information"
+            },
+            {
+              "category_id": "PI_CAT-17",
+              "name": "Name"
+            },
+            {
+              "category_id": "PI_CAT-20",
+              "name": "Photos"
+            },
+            {
+              "category_id": "PI_CAT-3",
+              "name": "Contact information"
+            }
+          ],
+          "holding_status": "retention_unknown",
+          "institution_id": "ati-schedule-i-canadian-transportation-accident-investigation-and-safety-board",
+          "institution_name": "Canadian Transportation Accident Investigation and Safety Board",
+          "match_band": "strong_match",
+          "matched_question_codes": [
+            "q_justice_safety"
+          ],
+          "matched_route_options": [],
+          "privacy_caveat_codes": [
+            "possible_third_party_information",
+            "sensitive_context"
+          ],
+          "record_id": "institution:ati-schedule-i-canadian-transportation-accident-investigation-and-safety-board:TSB PPU 005",
+          "retention": {
+            "confidence": "low",
+            "published_text_excerpt": "",
+            "published_text_truncated": false,
+            "rationale": "The published rule does not provide a duration that can be applied to this answer.",
+            "reference_events": [],
+            "rule_type": "unknown",
+            "status": "retention_unknown",
+            "timing": {
+              "kind": "within_1_year"
+            }
+          },
+          "scope": "institution_specific",
+          "source_url": "",
+          "specific_information_types": [],
+          "title": "Investigation files"
         },
         {
           "bank_number": "CSC PPU 025",
@@ -44468,7 +44580,7 @@
             "value": "yes"
           }
         },
-        "contract_version": "2026-09-04.5",
+        "contract_version": "2026-09-20.5",
         "departments": {
           "q_business_supplier": [
             "ati-schedule-i-atlantic-canada-opportunities-agency",
@@ -44559,6 +44671,7 @@
             "ati-schedule-i-canada-employment-insurance-commission",
             "ati-schedule-i-canadian-radio-television-and-telecommunications-commission",
             "ati-schedule-i-canadian-security-intelligence-service",
+            "ati-schedule-i-canadian-transportation-accident-investigation-and-safety-board",
             "ati-schedule-i-correctional-service-of-canada",
             "ati-schedule-i-department-of-citizenship-and-immigration",
             "ati-schedule-i-department-of-employment-and-social-development",
@@ -44745,14 +44858,14 @@
           "likely_disposed": 27,
           "likely_held": 52,
           "may_still_be_held": 11,
-          "retention_unknown": 217
+          "retention_unknown": 218
         },
         "match_band_counts": {
-          "strong_match": 307
+          "strong_match": 308
         },
         "next_offset": null,
         "offset": 0,
-        "returned_matches": 307,
+        "returned_matches": 308,
         "top_institutions": [
           {
             "count": 29,
@@ -44795,7 +44908,7 @@
             "institution_name": "Canada Border Services Agency"
           }
         ],
-        "total_matches": 307,
+        "total_matches": 308,
         "truncated": false
       }
     },
@@ -44805,7 +44918,7 @@
           "3 selected route(s) fall back to broad parent matching.",
           "3 selected route(s) have only partial inventory coverage.",
           "1 selected interaction(s) have no defensible direct PIB.",
-          "Retention is unknown for 92 of 144 results.",
+          "Retention is unknown for 93 of 145 results.",
           "16 result(s) have no derived personal-information category.",
           "2 fixture expectation assertion(s) failed."
         ],
@@ -44846,7 +44959,7 @@
           },
           {
             "code": "retention_unknown_majority",
-            "message": "Retention is unknown for 92 of 144 results."
+            "message": "Retention is unknown for 93 of 145 results."
           },
           {
             "code": "uncategorized_results",
@@ -44860,7 +44973,7 @@
         "category_coverage": {
           "canonical_category_count": 25,
           "category_result_counts": {
-            "PI_CAT-1": 65,
+            "PI_CAT-1": 66,
             "PI_CAT-10": 17,
             "PI_CAT-11": 26,
             "PI_CAT-12": 27,
@@ -44868,7 +44981,7 @@
             "PI_CAT-14": 30,
             "PI_CAT-15": 44,
             "PI_CAT-16": 41,
-            "PI_CAT-17": 111,
+            "PI_CAT-17": 112,
             "PI_CAT-18": 10,
             "PI_CAT-19": 45,
             "PI_CAT-2": 1,
@@ -44876,9 +44989,9 @@
             "PI_CAT-21": 16,
             "PI_CAT-22": 33,
             "PI_CAT-23": 27,
-            "PI_CAT-24": 86,
+            "PI_CAT-24": 87,
             "PI_CAT-25": 68,
-            "PI_CAT-3": 113,
+            "PI_CAT-3": 114,
             "PI_CAT-4": 42,
             "PI_CAT-5": 4,
             "PI_CAT-6": 18,
@@ -44954,7 +45067,7 @@
         "holding_status_counts": {
           "likely_held": 47,
           "may_still_be_held": 5,
-          "retention_unknown": 92
+          "retention_unknown": 93
         },
         "incomplete_refinement_count": 0,
         "incomplete_refinement_question_codes": [],
@@ -44990,6 +45103,7 @@
           "National Research Council of Canada": 1,
           "Office of the Administrator of the Fund for Railway Accidents Involving Designated Goods": 1,
           "Office of the Administrator of the Ship-source Oil Pollution Fund": 1,
+          "Office of the Auditor General of Canada": 1,
           "Office of the Chief Electoral Officer": 6,
           "Pacific Economic Development Agency of Canada": 1,
           "Parks Canada Agency": 1,
@@ -45010,12 +45124,12 @@
           }
         ],
         "match_band_counts": {
-          "strong_match": 144
+          "strong_match": 145
         },
-        "result_count": 144,
-        "retention_unknown_count": 92,
+        "result_count": 145,
+        "retention_unknown_count": 93,
         "scope_counts": {
-          "institution_specific": 138,
+          "institution_specific": 139,
           "standard": 6
         },
         "selected_routes": {
@@ -45032,8 +45146,8 @@
               "partial": 4
             },
             "fallback_and_explicit_overlap_count": 3,
-            "fallback_only_result_count": 130,
-            "fallback_parent_associated_result_count": 133
+            "fallback_only_result_count": 131,
+            "fallback_parent_associated_result_count": 134
           },
           "selected": [
             {
@@ -55170,6 +55284,64 @@
           "title": "1.2 Incident Case Files"
         },
         {
+          "bank_number": "OAG PPU 010",
+          "categories_of_personal_information": [
+            {
+              "category_id": "PI_CAT-1",
+              "name": "Biographical information"
+            },
+            {
+              "category_id": "PI_CAT-17",
+              "name": "Name"
+            },
+            {
+              "category_id": "PI_CAT-24",
+              "name": "Signature"
+            },
+            {
+              "category_id": "PI_CAT-3",
+              "name": "Contact information"
+            }
+          ],
+          "holding_status": "retention_unknown",
+          "institution_id": "ati-schedule-i-office-of-the-auditor-general-of-canada",
+          "institution_name": "Office of the Auditor General of Canada",
+          "match_band": "strong_match",
+          "matched_question_codes": [
+            "q_civic_contact"
+          ],
+          "matched_route_options": [],
+          "privacy_caveat_codes": [
+            "broad_population",
+            "possible_sharing"
+          ],
+          "record_id": "institution:ati-schedule-i-office-of-the-auditor-general-of-canada:OAG PPU 010",
+          "retention": {
+            "confidence": "low",
+            "published_text_excerpt": "15 years (6 years active and 9 years dormant)",
+            "published_text_truncated": false,
+            "rationale": "The published text has no applicable numeric period.",
+            "reference_events": [
+              "unspecified_start"
+            ],
+            "rule_type": "conditional_periods",
+            "status": "retention_unknown",
+            "timing": {
+              "kind": "current"
+            }
+          },
+          "scope": "institution_specific",
+          "source_url": "",
+          "specific_information_types": [
+            "petitioner’s name",
+            "contact information",
+            "biographical information",
+            "signature",
+            "affiliations (if the petition has been submitted on behalf of a group)."
+          ],
+          "title": "Environmental Petitions Process"
+        },
+        {
           "bank_number": "ELECTIONS PPU 015",
           "categories_of_personal_information": [],
           "holding_status": "retention_unknown",
@@ -56038,7 +56210,7 @@
             "value": "yes"
           }
         },
-        "contract_version": "2026-09-04.5",
+        "contract_version": "2026-09-20.5",
         "departments": {
           "q_civic_contact": [
             "ati-schedule-i-canadian-radio-television-and-telecommunications-commission",
@@ -56046,6 +56218,7 @@
             "ati-schedule-i-correctional-service-of-canada",
             "ati-schedule-i-department-of-agriculture-and-agri-food",
             "ati-schedule-i-department-of-health",
+            "ati-schedule-i-office-of-the-auditor-general-of-canada",
             "ati-schedule-i-office-of-the-chief-electoral-officer",
             "ati-schedule-i-privy-council-office",
             "ati-schedule-i-public-service-commission"
@@ -56210,14 +56383,14 @@
         "holding_status_counts": {
           "likely_held": 47,
           "may_still_be_held": 5,
-          "retention_unknown": 92
+          "retention_unknown": 93
         },
         "match_band_counts": {
-          "strong_match": 144
+          "strong_match": 145
         },
         "next_offset": null,
         "offset": 0,
-        "returned_matches": 144,
+        "returned_matches": 145,
         "top_institutions": [
           {
             "count": 29,
@@ -56260,7 +56433,7 @@
             "institution_name": "Department of Citizenship and Immigration"
           }
         ],
-        "total_matches": 144,
+        "total_matches": 145,
         "truncated": false
       }
     },
@@ -66643,7 +66816,7 @@
             "value": "yes"
           }
         },
-        "contract_version": "2026-09-04.5",
+        "contract_version": "2026-09-20.5",
         "departments": {
           "q_complaint_appeal": [
             "ati-schedule-i-canada-border-services-agency",
@@ -66925,21 +67098,21 @@
   "ranked_findings": [
     {
       "code": "fallbacks_flatten_to_strong",
-      "finding": "18 fallback selections are associated with 800 fallback-only results, while 921 of 921 results are labelled strong. The engine retains the broad parent yes for fallback routes instead of lowering match confidence.",
+      "finding": "18 fallback selections are associated with 803 fallback-only results, while 924 of 924 results are labelled strong. The engine retains the broad parent yes for fallback routes instead of lowering match confidence.",
       "rank": 1,
       "recommendation": "Add a fallback-derived match band, or carry route coverage into result confidence and reserve strong_match for explicit selectors.",
       "severity": "high"
     },
     {
       "code": "candidate_volume",
-      "finding": "The four personas return 921 results covering 437 unique PIBs (43.7% of the 999-PIB snapshot).",
+      "finding": "The four personas return 924 results covering 439 unique PIBs (43.7% of the 1005-PIB snapshot).",
       "rank": 2,
       "recommendation": "Prioritize named institution/program routes for the fallback interactions that contribute the largest candidate sets.",
       "severity": "high"
     },
     {
       "code": "retention_unknown",
-      "finding": "Retention is unknown for 633 of 921 results (68.7%).",
+      "finding": "Retention is unknown for 636 of 924 results (68.8%).",
       "rank": 3,
       "recommendation": "Capture the actual retention trigger (for example file closure, departure, licence expiry, or last administrative action) only where it can materially change the estimate.",
       "severity": "high"

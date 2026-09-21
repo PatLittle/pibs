@@ -2,16 +2,16 @@
   "snapshot_date": "2026-08-15",
   "headline": {
     "institutions": 148,
-    "institution_pibs": 950,
-    "institution_classes": 2278,
-    "pib_cor_links": 1797
+    "institution_pibs": 956,
+    "institution_classes": 2287,
+    "pib_cor_links": 1805
   },
   "quality": {
-    "pibs_bilingual": 802,
-    "pibs_bilingual_percent": 84.4,
-    "classes_bilingual": 1989,
-    "classes_bilingual_percent": 87.3,
-    "links_resolved": 1523,
+    "pibs_bilingual": 808,
+    "pibs_bilingual_percent": 84.5,
+    "classes_bilingual": 1998,
+    "classes_bilingual_percent": 87.4,
+    "links_resolved": 1531,
     "links_resolved_percent": 84.8
   },
   "collection": {
@@ -25,9 +25,9 @@
   },
   "datasets": {
     "institutions": 148,
-    "pibs": 950,
-    "classes": 2278,
-    "links": 1797,
+    "pibs": 956,
+    "classes": 2287,
+    "links": 1805,
     "standard_pibs": 49,
     "standard_classes": 33,
     "categories": 25,
@@ -36,7 +36,7 @@
   "pib_types": [
     {
       "name": "Public Bank",
-      "count": 802
+      "count": 808
     },
     {
       "name": "Particular Bank",

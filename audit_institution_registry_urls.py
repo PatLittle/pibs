@@ -23,7 +23,13 @@ INPUT_CSV = Path("institution_registry.csv")
 OUTPUT_XLSX = Path("institution_registry.xlsx")
 SITE_OUTPUT_CSV = Path("site/data/institution_registry.csv")
 AUDIT_ROOT = Path("data/audits")
-HEADERS = {"User-Agent": "PIBs institution URL audit (+https://github.com/PatLittle/pibs)"}
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; "
+        "PIBS-Institution-URL-Audit/1.0; +https://github.com/PatLittle/pibs) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+    )
+}
 
 INFO_SOURCE_MARKERS = [
     "info source",
@@ -209,14 +215,29 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--workers", type=int, default=20)
     parser.add_argument("--as-of-date", default=datetime.now(timezone.utc).date().isoformat())
+    parser.add_argument(
+        "--institution-id",
+        action="append",
+        default=[],
+        help="Audit only the named institution; repeat to select more than one.",
+    )
     args = parser.parse_args()
 
     frame = pd.read_csv(INPUT_CSV)
+    selected_ids = set(args.institution_id)
+    selected_frame = (
+        frame.loc[frame["institution_id"].isin(selected_ids)]
+        if selected_ids
+        else frame
+    )
+    found_ids = set(selected_frame["institution_id"])
+    if missing_ids := selected_ids - found_ids:
+        raise SystemExit("Unknown institution IDs: " + ", ".join(sorted(missing_ids)))
     initial_urls = sorted(
         {
             clean_space(value)
             for lang in ("en", "fr")
-            for value in frame[f"infosource_url_{lang}"].dropna()
+            for value in selected_frame[f"infosource_url_{lang}"].dropna()
             if clean_space(value)
         }
     )
@@ -233,7 +254,7 @@ def main() -> None:
         fetched.update(fetch_many(sorted(followups), args.workers))
 
     audit_rows = []
-    for index, row in frame.iterrows():
+    for index, row in selected_frame.iterrows():
         row_audit: dict[str, object] = {
             "institution_id": row["institution_id"],
             "legal_name_en": row["legal_name_en"],
@@ -286,22 +307,27 @@ def main() -> None:
     accepted = {"verified_info_source", "reachable_pdf", "reachable_document"}
 
     def split_page_count(lang: str) -> int:
-        deep = frame[f"pibs_url_{lang}"].fillna("").astype(str).str.rstrip("/")
-        final = frame[f"infosource_final_url_{lang}"].fillna("").astype(str).str.rstrip("/")
-        valid = frame[f"infosource_validation_{lang}"].isin(accepted)
+        selected = frame.loc[selected_frame.index]
+        deep = selected[f"pibs_url_{lang}"].fillna("").astype(str).str.rstrip("/")
+        final = selected[f"infosource_final_url_{lang}"].fillna("").astype(str).str.rstrip("/")
+        valid = selected[f"infosource_validation_{lang}"].isin(accepted)
         return int((valid & deep.ne("") & final.ne("") & deep.ne(final)).sum())
 
     payload = {
         "generated_at_utc": datetime.now(timezone.utc).isoformat(),
         "source": str(INPUT_CSV),
         "summary": {
-            "institutions": len(frame),
+            "institutions": len(selected_frame),
             "unique_seed_urls": len(initial_urls),
             "unique_followup_urls": len(followups),
-            "english_urls": int(frame["infosource_url_en"].notna().sum()),
-            "french_urls": int(frame["infosource_url_fr"].notna().sum()),
-            "english_verified_or_document": int(frame["infosource_validation_en"].isin(accepted).sum()),
-            "french_verified_or_document": int(frame["infosource_validation_fr"].isin(accepted).sum()),
+            "english_urls": int(selected_frame["infosource_url_en"].notna().sum()),
+            "french_urls": int(selected_frame["infosource_url_fr"].notna().sum()),
+            "english_verified_or_document": int(
+                frame.loc[selected_frame.index, "infosource_validation_en"].isin(accepted).sum()
+            ),
+            "french_verified_or_document": int(
+                frame.loc[selected_frame.index, "infosource_validation_fr"].isin(accepted).sum()
+            ),
             "english_split_pib_pages": split_page_count("en"),
             "french_split_pib_pages": split_page_count("fr"),
         },

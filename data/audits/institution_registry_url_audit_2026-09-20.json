@@ -1,0 +1,187 @@
+{
+  "generated_at_utc": "2026-09-21T03:00:10.845522+00:00",
+  "source": "institution_registry.csv",
+  "summary": {
+    "institutions": 2,
+    "unique_seed_urls": 4,
+    "unique_followup_urls": 0,
+    "english_urls": 2,
+    "french_urls": 2,
+    "english_verified_or_document": 2,
+    "french_verified_or_document": 2,
+    "english_split_pib_pages": 0,
+    "french_split_pib_pages": 0
+  },
+  "institutions": [
+    {
+      "institution_id": "ati-schedule-i-canadian-transportation-accident-investigation-and-safety-board",
+      "legal_name_en": "Canadian Transportation Accident Investigation and Safety Board",
+      "en": {
+        "requested_url": "https://www.tsb.gc.ca/eng/divulgation-disclosure/infosource/index.html",
+        "final_url": "https://www.tsb.gc.ca/eng/divulgation-disclosure/infosource/index.html",
+        "status_code": 200,
+        "content_type": "text/html",
+        "byte_count": 81081,
+        "sha256": "70ffb8c0556aa507106e0f8bff64acf0df70e2212943f6cdf2053bdf864f7b62",
+        "title": "Info Source - Transportation Safety Board of Canada",
+        "page_language": "en",
+        "validation": "verified_info_source",
+        "error": "",
+        "has_pib_details": true,
+        "has_class_details": true,
+        "alternate_urls": {
+          "en": "https://www.tsb.gc.ca/eng/divulgation-disclosure/infosource/index.html",
+          "fr": "https://www.tsb.gc.ca/fra/divulgation-disclosure/infosource/index.html"
+        },
+        "pib_candidates": [],
+        "class_candidates": []
+      },
+      "fr": {
+        "requested_url": "https://www.tsb.gc.ca/fra/divulgation-disclosure/infosource/index.html",
+        "final_url": "https://www.tsb.gc.ca/fra/divulgation-disclosure/infosource/index.html",
+        "status_code": 200,
+        "content_type": "text/html",
+        "byte_count": 91893,
+        "sha256": "cdc640e5b1d116490ce99379081efab136b6ac63aaf18bdc8eaf97835bba557e",
+        "title": "Info Source - Bureau de la sécurité des transports du Canada",
+        "page_language": "fr",
+        "validation": "verified_info_source",
+        "error": "",
+        "has_pib_details": true,
+        "has_class_details": true,
+        "alternate_urls": {
+          "en": "https://www.tsb.gc.ca/eng/divulgation-disclosure/infosource/index.html",
+          "fr": "https://www.tsb.gc.ca/fra/divulgation-disclosure/infosource/index.html"
+        },
+        "pib_candidates": [],
+        "class_candidates": []
+      }
+    },
+    {
+      "institution_id": "ati-schedule-i-office-of-the-auditor-general-of-canada",
+      "legal_name_en": "Office of the Auditor General of Canada",
+      "en": {
+        "requested_url": "https://www.canada.ca/en/auditor-general/transparency/info-source/sources-federal-government-employee-information.html",
+        "final_url": "https://www.canada.ca/en/auditor-general/transparency/info-source/sources-federal-government-employee-information.html",
+        "status_code": 200,
+        "content_type": "text/html",
+        "byte_count": 82689,
+        "sha256": "9c3237003c1d59e1a5b02da6508c4e942811a13454ec8af12f5504f0afe61be1",
+        "title": "Sources of Federal Government and Employee Information - Canada.ca",
+        "page_language": "en",
+        "validation": "verified_info_source",
+        "error": "",
+        "has_pib_details": true,
+        "has_class_details": true,
+        "alternate_urls": {
+          "en": "https://www.canada.ca/en/auditor-general/transparency/info-source/sources-federal-government-employee-information.html",
+          "fr": "https://www.canada.ca/fr/verificateur-general/transparence/info-source/sources-renseignements-gouvernement-federal-fonctionnaires-federaux.html"
+        },
+        "pib_candidates": [],
+        "class_candidates": []
+      },
+      "fr": {
+        "requested_url": "https://www.canada.ca/fr/verificateur-general/transparence/info-source/sources-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+        "final_url": "https://www.canada.ca/fr/verificateur-general/transparence/info-source/sources-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+        "status_code": 200,
+        "content_type": "text/html",
+        "byte_count": 94967,
+        "sha256": "87770ca29a78251be69a9b11415f10a1cb9fba4b9739892c62d4b250341228fb",
+        "title": "Sources de renseignements du gouvernement fédéral et sur les fonctionnaires fédéraux - Canada.ca",
+        "page_language": "fr",
+        "validation": "verified_info_source",
+        "error": "",
+        "has_pib_details": true,
+        "has_class_details": true,
+        "alternate_urls": {
+          "fr": "https://www.canada.ca/fr/verificateur-general/transparence/info-source/sources-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+          "en": "https://www.canada.ca/en/auditor-general/transparency/info-source/sources-federal-government-employee-information.html"
+        },
+        "pib_candidates": [],
+        "class_candidates": []
+      }
+    }
+  ],
+  "fetched_urls": {
+    "https://www.canada.ca/en/auditor-general/transparency/info-source/sources-federal-government-employee-information.html": {
+      "requested_url": "https://www.canada.ca/en/auditor-general/transparency/info-source/sources-federal-government-employee-information.html",
+      "final_url": "https://www.canada.ca/en/auditor-general/transparency/info-source/sources-federal-government-employee-information.html",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 82689,
+      "sha256": "9c3237003c1d59e1a5b02da6508c4e942811a13454ec8af12f5504f0afe61be1",
+      "title": "Sources of Federal Government and Employee Information - Canada.ca",
+      "page_language": "en",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": true,
+      "has_class_details": true,
+      "alternate_urls": {
+        "en": "https://www.canada.ca/en/auditor-general/transparency/info-source/sources-federal-government-employee-information.html",
+        "fr": "https://www.canada.ca/fr/verificateur-general/transparence/info-source/sources-renseignements-gouvernement-federal-fonctionnaires-federaux.html"
+      },
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://www.canada.ca/fr/verificateur-general/transparence/info-source/sources-renseignements-gouvernement-federal-fonctionnaires-federaux.html": {
+      "requested_url": "https://www.canada.ca/fr/verificateur-general/transparence/info-source/sources-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+      "final_url": "https://www.canada.ca/fr/verificateur-general/transparence/info-source/sources-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 94967,
+      "sha256": "87770ca29a78251be69a9b11415f10a1cb9fba4b9739892c62d4b250341228fb",
+      "title": "Sources de renseignements du gouvernement fédéral et sur les fonctionnaires fédéraux - Canada.ca",
+      "page_language": "fr",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": true,
+      "has_class_details": true,
+      "alternate_urls": {
+        "fr": "https://www.canada.ca/fr/verificateur-general/transparence/info-source/sources-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+        "en": "https://www.canada.ca/en/auditor-general/transparency/info-source/sources-federal-government-employee-information.html"
+      },
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://www.tsb.gc.ca/eng/divulgation-disclosure/infosource/index.html": {
+      "requested_url": "https://www.tsb.gc.ca/eng/divulgation-disclosure/infosource/index.html",
+      "final_url": "https://www.tsb.gc.ca/eng/divulgation-disclosure/infosource/index.html",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 81081,
+      "sha256": "70ffb8c0556aa507106e0f8bff64acf0df70e2212943f6cdf2053bdf864f7b62",
+      "title": "Info Source - Transportation Safety Board of Canada",
+      "page_language": "en",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": true,
+      "has_class_details": true,
+      "alternate_urls": {
+        "en": "https://www.tsb.gc.ca/eng/divulgation-disclosure/infosource/index.html",
+        "fr": "https://www.tsb.gc.ca/fra/divulgation-disclosure/infosource/index.html"
+      },
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://www.tsb.gc.ca/fra/divulgation-disclosure/infosource/index.html": {
+      "requested_url": "https://www.tsb.gc.ca/fra/divulgation-disclosure/infosource/index.html",
+      "final_url": "https://www.tsb.gc.ca/fra/divulgation-disclosure/infosource/index.html",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 91893,
+      "sha256": "cdc640e5b1d116490ce99379081efab136b6ac63aaf18bdc8eaf97835bba557e",
+      "title": "Info Source - Bureau de la sécurité des transports du Canada",
+      "page_language": "fr",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": true,
+      "has_class_details": true,
+      "alternate_urls": {
+        "en": "https://www.tsb.gc.ca/eng/divulgation-disclosure/infosource/index.html",
+        "fr": "https://www.tsb.gc.ca/fra/divulgation-disclosure/infosource/index.html"
+      },
+      "pib_candidates": [],
+      "class_candidates": []
+    }
+  }
+}

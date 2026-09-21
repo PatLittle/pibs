@@ -10,12 +10,12 @@
       "prefer_not_to_answer"
     ],
     "contract_schema_version": "1.2",
-    "contract_version": "2026-09-04.5",
+    "contract_version": "2026-09-20.5",
     "data_snapshot": {
-      "generated_date": "2026-09-04",
+      "generated_date": "2026-09-20",
       "source_files": {
         "institutions_infosource_docs/pib_table_en_fr_all.csv": {
-          "sha256": "1c0dda4a765819e734625622691f04838bd9154985190892bd0f00894bac2119"
+          "sha256": "720260b000c5aabe1481b7155be75ce4e72274acf54b1f03e25995d615e29ab6"
         },
         "spib_en_fr.csv": {
           "sha256": "bbda3c9de3ba8fdbdd55122db38d3fcc5f40c37c71f8d6295624e2ad89b4eabf"
@@ -29,7 +29,7 @@
       "The current local CRA extract has no defensible direct tax-return PIB record.",
       "A published retention rule may not reflect current operational holdings."
     ],
-    "pib_count": 999,
+    "pib_count": 1005,
     "privacy": {
       "free_text_required": false,
       "notice_en": "Do not provide account numbers, case details, health details, or other sensitive free text.",

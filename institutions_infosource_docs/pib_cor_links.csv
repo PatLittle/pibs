@@ -1381,6 +1381,14 @@ ati-schedule-i-office-of-the-administrator-of-the-fund-for-railway-accidents-inv
 ati-schedule-i-office-of-the-administrator-of-the-fund-for-railway-accidents-involving-designated-goods,SRCC PPU 001,fr,CIDPHN INC 001,institution_specific,false,
 ati-schedule-i-office-of-the-administrator-of-the-ship-source-oil-pollution-fund,SRCC PPU 001,en,SSOPF INC 001,institution_specific,false,
 ati-schedule-i-office-of-the-administrator-of-the-ship-source-oil-pollution-fund,SRCC PPU 001,fr,CIDPHN INC 001,institution_specific,false,
+ati-schedule-i-office-of-the-auditor-general-of-canada,OAG PPU 001,en,OAG AUD 001,institution_specific,true,OAG AUD 001
+ati-schedule-i-office-of-the-auditor-general-of-canada,OAG PPU 001,fr,OAG AUD 001,institution_specific,true,OAG AUD 001
+ati-schedule-i-office-of-the-auditor-general-of-canada,OAG PPU 002,en,OAG AUD 002,institution_specific,true,OAG AUD 002
+ati-schedule-i-office-of-the-auditor-general-of-canada,OAG PPU 002,fr,OAG AUD 002,institution_specific,true,OAG AUD 002
+ati-schedule-i-office-of-the-auditor-general-of-canada,OAG PPU 003,en,OAG AUD 003,institution_specific,true,OAG AUD 003
+ati-schedule-i-office-of-the-auditor-general-of-canada,OAG PPU 003,fr,OAG AUD 003,institution_specific,true,OAG AUD 003
+ati-schedule-i-office-of-the-auditor-general-of-canada,OAG PPU 010,en,OAG PET 010,institution_specific,true,OAG PET 010
+ati-schedule-i-office-of-the-auditor-general-of-canada,OAG PPU 010,fr,OAG PET 010,institution_specific,true,OAG PET 010
 ati-schedule-i-office-of-the-chief-electoral-officer,ELECTIONS PPU 025,en,PRN 902,standard,true,902
 ati-schedule-i-office-of-the-chief-electoral-officer,ELECTIONS PPU 045,en,PRN 914,standard,true,914
 ati-schedule-i-office-of-the-correctional-investigator-of-canada,OCI PPU 005,en,OCI BEC 030,institution_specific,true,OCI BEC 030

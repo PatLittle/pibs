@@ -474,7 +474,7 @@ def match_enrichment(
     return out
 
 
-def build_registry(payloads: dict[str, bytes]) -> pd.DataFrame:
+def build_registry(payloads: dict[str, bytes], as_of_date: str | None = None) -> pd.DataFrame:
     registry = parse_schedule_i(payloads["access_to_information_act.xml"])
     open_gov = combine_open_government(payloads)
     registry = resolve_open_government(registry, open_gov)
@@ -616,7 +616,9 @@ def build_registry(payloads: dict[str, bytes]) -> pd.DataFrame:
     registry["org_names_source"] = (
         f"{DATASTORE_URL}?resource_id={ORG_NAMES_RESOURCE_ID}&limit=500"
     )
-    registry["registry_as_of_date"] = datetime.now(timezone.utc).date().isoformat()
+    registry["registry_as_of_date"] = (
+        as_of_date or datetime.now(timezone.utc).date().isoformat()
+    )
     return registry.sort_values("access_act_order").reset_index(drop=True)
 
 
@@ -644,7 +646,7 @@ def main() -> None:
     parser.add_argument("--refresh", action="store_true", help="Re-fetch a snapshot that already exists")
     args = parser.parse_args()
     raw_dir, payloads = fetch_sources(args.snapshot_date, args.refresh)
-    registry = build_registry(payloads)
+    registry = build_registry(payloads, args.snapshot_date)
     write_outputs(registry)
     print_summary(registry, raw_dir)
 

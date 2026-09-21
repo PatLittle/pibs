@@ -197,6 +197,24 @@ Bank Number: MPA PPU 005
         self.assertEqual(rows[0]["title"], "Accidents and Compensation")
         self.assertEqual(rows[0]["description"], "Full description.")
 
+    def test_trailing_bank_marker_reuses_heading_before_opening_marker(self):
+        markdown = """
+#### Special Examination Files
+**Bank number:** OAG PPU 002
+
+**Description:** Records about special examinations.
+**records disposition authorityRDA Number:** 2012/003
+**Related Record Number:** OAG AUD 003
+**Treasury Board of Canada Secretariat Registration:** 20250070
+**Bank Number:** OAG PPU 003
+"""
+        rows = parse_pib_records(markdown)
+        record = next(row for row in rows if row["bank_number"] == "OAG PPU 003")
+        self.assertEqual(record["title"], "Special Examination Files")
+        self.assertEqual(record["rda_number"], "2012/003")
+        self.assertEqual(record["related_record_number"], "OAG AUD 003")
+        self.assertEqual(record["tbs_registration"], "20250070")
+
     def test_header_only_pib_table_is_always_written(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

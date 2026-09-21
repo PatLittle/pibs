@@ -1,6 +1,6 @@
 # My Info persona evaluation
 
-Canonical Beta contract `2026-09-04.5` was evaluated as of 2026. Possible matches were excluded.
+Canonical Beta contract `2026-09-20.5` was evaluated as of 2026. Possible matches were excluded.
 
 These are candidate PIBs, not confirmation that an institution holds a record.
 
@@ -8,25 +8,25 @@ These are candidate PIBs, not confirmation that an institution holds a record.
 
 | Personas | Results | Unique PIBs | Inventory gaps | Retention unknown | Expectation failures |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 4 | 921 | 437 | 6 | 633 | 5 |
+| 4 | 924 | 439 | 6 | 636 | 5 |
 
 ## Ranked business-logic findings
 
 ### 1. Fallbacks Flatten To Strong (high)
 
-18 fallback selections are associated with 800 fallback-only results, while 921 of 921 results are labelled strong. The engine retains the broad parent yes for fallback routes instead of lowering match confidence.
+18 fallback selections are associated with 803 fallback-only results, while 924 of 924 results are labelled strong. The engine retains the broad parent yes for fallback routes instead of lowering match confidence.
 
 Recommendation: Add a fallback-derived match band, or carry route coverage into result confidence and reserve strong_match for explicit selectors.
 
 ### 2. Candidate Volume (high)
 
-The four personas return 921 results covering 437 unique PIBs (43.7% of the 999-PIB snapshot).
+The four personas return 924 results covering 439 unique PIBs (43.7% of the 1005-PIB snapshot).
 
 Recommendation: Prioritize named institution/program routes for the fallback interactions that contribute the largest candidate sets.
 
 ### 3. Retention Unknown (high)
 
-Retention is unknown for 633 of 921 results (68.7%).
+Retention is unknown for 636 of 924 results (68.8%).
 
 Recommendation: Capture the actual retention trigger (for example file closure, departure, licence expiry, or last administrative action) only where it can materially change the estimate.
 
@@ -52,20 +52,20 @@ Recommendation: Review these as genuine coverage or fixture assertion failures.
 
 | Persona | Results | Strong | Possible/review | Unknown retention | Route coverage |
 | --- | ---: | ---: | ---: | ---: | --- |
-| Peter Deloitte | 317 | 317 | 0 | 210 | direct: 8, fallback: 5, inventory_gap: 1, partial: 3 |
-| Dominic Vale | 307 | 307 | 0 | 217 | direct: 9, fallback: 6, inventory_gap: 2, partial: 1 |
-| Aisha Rahman | 144 | 144 | 0 | 92 | direct: 4, fallback: 3, inventory_gap: 1, partial: 3 |
+| Peter Deloitte | 318 | 318 | 0 | 211 | direct: 8, fallback: 5, inventory_gap: 1, partial: 3 |
+| Dominic Vale | 308 | 308 | 0 | 218 | direct: 9, fallback: 6, inventory_gap: 2, partial: 1 |
+| Aisha Rahman | 145 | 145 | 0 | 93 | direct: 4, fallback: 3, inventory_gap: 1, partial: 3 |
 | Sophie Tremblay | 153 | 153 | 0 | 114 | direct: 10, fallback: 4, inventory_gap: 2, partial: 1 |
 
 ## Peter Deloitte
 
-The survey produced **317** candidates across **53** institutions. The state is **complete**.
+The survey produced **318** candidates across **54** institutions. The state is **complete**.
 
 ### Result profile
 
-- Match bands: strong_match 317
-- Holding status: likely_disposed 28, likely_held 57, may_still_be_held 22, retention_unknown 210
-- Scope: institution_specific 311, standard 6
+- Match bands: strong_match 318
+- Holding status: likely_disposed 28, likely_held 57, may_still_be_held 22, retention_unknown 211
+- Scope: institution_specific 312, standard 6
 - Top institutions: Canada Employment Insurance Commission (32), Department of Employment and Social Development (32), Correctional Service of Canada (24), Parks Canada Agency (20), Royal Canadian Mounted Police (20)
 - Category coverage: 25 of 25 controlled categories; 50 result(s) uncategorized.
 - Inventory gaps: federal_tax_return.
@@ -99,19 +99,19 @@ Expectation assertions failed: **3**.
 - `fallback_route_selected`: 5 selected route(s) fall back to broad parent matching.
 - `partial_route_selected`: 3 selected route(s) have only partial inventory coverage.
 - `inventory_gap`: 1 selected interaction(s) have no defensible direct PIB.
-- `retention_unknown_majority`: Retention is unknown for 210 of 317 results.
+- `retention_unknown_majority`: Retention is unknown for 211 of 318 results.
 - `uncategorized_results`: 50 result(s) have no derived personal-information category.
 - `expectation_failure`: 3 fixture expectation assertion(s) failed.
 
 ## Dominic Vale
 
-The survey produced **307** candidates across **46** institutions. The state is **complete**.
+The survey produced **308** candidates across **47** institutions. The state is **complete**.
 
 ### Result profile
 
-- Match bands: strong_match 307
-- Holding status: likely_disposed 27, likely_held 52, may_still_be_held 11, retention_unknown 217
-- Scope: institution_specific 299, standard 8
+- Match bands: strong_match 308
+- Holding status: likely_disposed 27, likely_held 52, may_still_be_held 11, retention_unknown 218
+- Scope: institution_specific 300, standard 8
 - Top institutions: Department of Health (29), Correctional Service of Canada (23), Department of National Defence (21), Royal Canadian Mounted Police (21), Canada Employment Insurance Commission (19)
 - Category coverage: 25 of 25 controlled categories; 57 result(s) uncategorized.
 - Inventory gaps: federal_tax_return, federal_election.
@@ -142,18 +142,18 @@ Expectation assertions failed: **0**.
 - `fallback_route_selected`: 6 selected route(s) fall back to broad parent matching.
 - `partial_route_selected`: 1 selected route(s) have only partial inventory coverage.
 - `inventory_gap`: 2 selected interaction(s) have no defensible direct PIB.
-- `retention_unknown_majority`: Retention is unknown for 217 of 307 results.
+- `retention_unknown_majority`: Retention is unknown for 218 of 308 results.
 - `uncategorized_results`: 57 result(s) have no derived personal-information category.
 
 ## Aisha Rahman
 
-The survey produced **144** candidates across **41** institutions. The state is **complete**.
+The survey produced **145** candidates across **42** institutions. The state is **complete**.
 
 ### Result profile
 
-- Match bands: strong_match 144
-- Holding status: likely_held 47, may_still_be_held 5, retention_unknown 92
-- Scope: institution_specific 138, standard 6
+- Match bands: strong_match 145
+- Holding status: likely_held 47, may_still_be_held 5, retention_unknown 93
+- Scope: institution_specific 139, standard 6
 - Top institutions: Canada Employment Insurance Commission (29), Department of Employment and Social Development (29), Department of Agriculture and Agri-Food (6), Government of Canada institutions (6), Office of the Chief Electoral Officer (6)
 - Category coverage: 25 of 25 controlled categories; 16 result(s) uncategorized.
 - Inventory gaps: federal_tax_return.
@@ -185,7 +185,7 @@ Expectation assertions failed: **2**.
 - `fallback_route_selected`: 3 selected route(s) fall back to broad parent matching.
 - `partial_route_selected`: 3 selected route(s) have only partial inventory coverage.
 - `inventory_gap`: 1 selected interaction(s) have no defensible direct PIB.
-- `retention_unknown_majority`: Retention is unknown for 92 of 144 results.
+- `retention_unknown_majority`: Retention is unknown for 93 of 145 results.
 - `uncategorized_results`: 16 result(s) have no derived personal-information category.
 - `expectation_failure`: 2 fixture expectation assertion(s) failed.
 

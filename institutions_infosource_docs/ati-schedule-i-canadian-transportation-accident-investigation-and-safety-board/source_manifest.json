@@ -69,20 +69,62 @@
   },
   "extraction": {
     "pibs": {
-      "english": 0,
-      "french": 0,
-      "merged": 0
+      "english": 2,
+      "french": 2,
+      "merged": 2
     },
     "classes_of_records": {
-      "english": 0,
-      "french": 0,
-      "merged": 0
+      "english": 4,
+      "french": 4,
+      "merged": 4
     }
   },
   "parser_versions": {
     "pibs": 5,
     "classes_of_records": 2
   },
-  "extracted_at_utc": "2026-09-04T07:22:02.888370+00:00",
-  "extraction_rebuild_version": 2
+  "extracted_at_utc": "2026-09-21T02:54:12.339278+00:00",
+  "extraction_rebuild_version": 2,
+  "supplemental_sources": [
+    {
+      "source_id": "tsb-current-en",
+      "snapshot_date": "2026-09-20",
+      "collected_at_utc": "2026-09-21T02:51:44.649762+00:00",
+      "language": "en",
+      "roles": [
+        "pibs_en",
+        "classes_of_records_en"
+      ],
+      "requested_url": "https://www.tsb.gc.ca/eng/divulgation-disclosure/infosource/index.html",
+      "final_url": "https://www.tsb.gc.ca/eng/divulgation-disclosure/infosource/index.html",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 81081,
+      "sha256": "70ffb8c0556aa507106e0f8bff64acf0df70e2212943f6cdf2053bdf864f7b62",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-transportation-accident-investigation-and-safety-board/snapshots/2026-09-20/supplemental/tsb-current-en/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-transportation-accident-investigation-and-safety-board/snapshots/2026-09-20/supplemental/tsb-current-en/source.md",
+      "provenance": "Current English Info Source page supplied by repository owner"
+    },
+    {
+      "source_id": "tsb-current-fr",
+      "snapshot_date": "2026-09-20",
+      "collected_at_utc": "2026-09-21T02:51:45.015474+00:00",
+      "language": "fr",
+      "roles": [
+        "pibs_fr",
+        "classes_of_records_fr"
+      ],
+      "requested_url": "https://www.tsb.gc.ca/fra/divulgation-disclosure/infosource/index.html",
+      "final_url": "https://www.tsb.gc.ca/fra/divulgation-disclosure/infosource/index.html",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 91893,
+      "sha256": "cdc640e5b1d116490ce99379081efab136b6ac63aaf18bdc8eaf97835bba557e",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-transportation-accident-investigation-and-safety-board/snapshots/2026-09-20/supplemental/tsb-current-fr/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-transportation-accident-investigation-and-safety-board/snapshots/2026-09-20/supplemental/tsb-current-fr/source.md",
+      "provenance": "Current French Info Source page supplied by repository owner"
+    }
+  ]
 }

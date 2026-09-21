@@ -38,6 +38,7 @@ add_alias(
 add_alias(
     "rda_number",
     "rda number",
+    "records disposition authorityrda number",
     "n add",
     "no add",
     "no. add",
@@ -45,6 +46,7 @@ add_alias(
     "numero add",
     "numero d autorisation de divulgation",
     "numero d autorisation de divulgation add",
+    "numero autorisation de disposition de documentsadd",
 )
 add_alias(
     "related_record_number",
@@ -58,6 +60,7 @@ add_alias(
     "numero de renvoi au document",
     "numero de connexe",
     "numero de categorie du document connexe",
+    "numero de dossier connexe",
 )
 add_alias("last_updated", "last updated", "derniere mise a jour")
 add_alias(
@@ -70,6 +73,8 @@ add_alias(
     "numero d enregistrement du sct",
     "numero d enregistrement",
     "enregistrement",
+    "treasury board of canada secretariat registration",
+    "enregistrement secretariat du conseil du tresor du canada",
 )
 add_alias(
     "bank_number",
@@ -329,14 +334,31 @@ def parse_records(markdown):
             while candidate_index > prev_bank_idx and not clean_value(lines[candidate_index]):
                 candidate_index -= 1
             candidate = clean_value(lines[candidate_index].lstrip("#").strip("* "))
+            candidate_field, _ = extract_label_value(lines[candidate_index])
             if (
                 candidate
+                and not candidate_field
+                and not BANK_RE.search(candidate.upper())
                 and normalize_label(candidate) not in BAD_TITLES
                 and not candidate.startswith(("[", "* ", "+ ", "- "))
             ):
                 title_index = candidate_index
                 title = candidate
             break
+
+        # Many publications place the bank number immediately after its title,
+        # then repeat it after all descriptive fields. For that trailing marker,
+        # the associated heading is just before the previous bank marker. This
+        # also tolerates a source typo where the opening and closing bank labels
+        # disagree while the intervening record is otherwise unambiguous.
+        if title_index is None and prev_bank_idx >= 0:
+            earlier_bank_idx = bank_points[idx - 2][0] if idx > 1 else -1
+            for scan in range(prev_bank_idx - 1, earlier_bank_idx, -1):
+                candidate = heading_title(lines[scan])
+                if candidate:
+                    title_index = scan
+                    title = candidate
+                    break
 
         if title_index is None:
             for scan in range(bank_idx - 1, prev_bank_idx, -1):

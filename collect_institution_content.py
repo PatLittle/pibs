@@ -26,7 +26,14 @@ from institution_extraction_versions import PARSER_VERSIONS
 
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (compatible; PIBS-Institution-Collector/3.0; +https://github.com/PatLittle/pibs)"
+    # Some current federal Drupal sites reject the traditional ``compatible``
+    # crawler form even though they serve the same public page to browsers.
+    # Keep the collector identifiable while using a modern browser-shaped UA.
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; "
+        "PIBS-Institution-Collector/3.0; +https://github.com/PatLittle/pibs) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+    )
 }
 ROLE_NAMES = ("pibs_en", "pibs_fr", "classes_of_records_en", "classes_of_records_fr")
 

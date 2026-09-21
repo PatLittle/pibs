@@ -1,1 +1,5 @@
 record_number,name_en,name_fr,document_types_en,document_types_fr
+TSB ASI 200,Air occurrence investigations,Enquêtes dans le secteur du transport aérien,"emails, reports, statistics.","courriels, rapports, statistiques."
+TSB MSI 300,Investigations in the Maritime transportation sector,Enquêtes dans le secteur du transport maritime,"emails, reports, statistics.","courriels, rapports, statistiques."
+TSB PSI 420,Investigations in the transport by Pipeline sector,Enquêtes dans le secteur du transport par pipeline,"emails, reports, statistics.","courriels, rapports, statistiques."
+TSB RSI 410,Investigations in the Rail transportation sector,Enquêtes dans le secteur ferroviaire,"emails, reports, statistics.","courriels, rapports, statistiques."

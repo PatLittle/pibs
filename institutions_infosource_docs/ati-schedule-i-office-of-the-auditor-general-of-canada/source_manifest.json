@@ -69,20 +69,62 @@
   },
   "extraction": {
     "pibs": {
-      "english": 0,
-      "french": 0,
-      "merged": 0
+      "english": 4,
+      "french": 4,
+      "merged": 4
     },
     "classes_of_records": {
-      "english": 0,
-      "french": 0,
-      "merged": 0
+      "english": 5,
+      "french": 5,
+      "merged": 5
     }
   },
   "parser_versions": {
     "pibs": 5,
     "classes_of_records": 2
   },
-  "extracted_at_utc": "2026-09-04T07:23:05.807209+00:00",
-  "extraction_rebuild_version": 2
+  "extracted_at_utc": "2026-09-21T02:54:14.380929+00:00",
+  "extraction_rebuild_version": 2,
+  "supplemental_sources": [
+    {
+      "source_id": "oag-current-en",
+      "snapshot_date": "2026-09-20",
+      "collected_at_utc": "2026-09-21T02:49:55.136434+00:00",
+      "language": "en",
+      "roles": [
+        "pibs_en",
+        "classes_of_records_en"
+      ],
+      "requested_url": "https://www.canada.ca/en/auditor-general/transparency/info-source/sources-federal-government-employee-information.html",
+      "final_url": "https://www.canada.ca/en/auditor-general/transparency/info-source/sources-federal-government-employee-information.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 82689,
+      "sha256": "d158df4f3bc5dbefdc9156bfcb5e913b6d93f2f11fd02e857ffb727106bad45e",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-auditor-general-of-canada/snapshots/2026-09-20/supplemental/oag-current-en/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-auditor-general-of-canada/snapshots/2026-09-20/supplemental/oag-current-en/source.md",
+      "provenance": "Current English Info Source page supplied by repository owner"
+    },
+    {
+      "source_id": "oag-current-fr",
+      "snapshot_date": "2026-09-20",
+      "collected_at_utc": "2026-09-21T02:49:55.907768+00:00",
+      "language": "fr",
+      "roles": [
+        "pibs_fr",
+        "classes_of_records_fr"
+      ],
+      "requested_url": "https://www.canada.ca/fr/verificateur-general/transparence/info-source/sources-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+      "final_url": "https://www.canada.ca/fr/verificateur-general/transparence/info-source/sources-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 94967,
+      "sha256": "84141106d07c0b62d70817597b671baceca3eb49c24ff943cc0e0c376497614f",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-auditor-general-of-canada/snapshots/2026-09-20/supplemental/oag-current-fr/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-auditor-general-of-canada/snapshots/2026-09-20/supplemental/oag-current-fr/source.md",
+      "provenance": "Current French Info Source page supplied by repository owner"
+    }
+  ]
 }
