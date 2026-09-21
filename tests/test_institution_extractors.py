@@ -12,6 +12,7 @@ from build_pib_table_from_markdown import process_files as process_pib_files
 from collect_institution_content import crawl_score, rejected_response, same_site_namespace
 from compile_institution_tables import build_pib_cor_links
 from build_infosource_markdown_corpus import corpus_folder_for, load_registry_folder_lookup
+from summarize_institution_collection import supplemental_collected_roles
 
 
 class ClassOfRecordsExtractorTests(unittest.TestCase):
@@ -82,6 +83,28 @@ Record Number: ICO 001
         self.assertEqual(rows[0]["name"], "The quasi-judicial review of certain ministerial conclusions")
         self.assertIn("Reasons, Determinations", rows[0]["document_types"])
 
+    def test_pdf_plain_title_beats_remote_page_heading_and_format_is_excluded(self):
+        markdown = """
+### InfoSource
+
+Petroleum Resource Assessment and Management Program Activities
+
+Description Information relating to petroleum resource assessments.
+
+Document Types: Authorizations, reports and models.
+
+Format: Paper, Electronic, Mylar, Microfilm
+
+Record Number: C-NLOPB RED 080
+"""
+        rows = parse_cor_records(markdown)
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(
+            rows[0]["name"],
+            "Petroleum Resource Assessment and Management Program Activities",
+        )
+        self.assertEqual(rows[0]["document_types"], "Authorizations, reports and models.")
+
     def test_header_only_cor_table_is_always_written(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
@@ -122,6 +145,20 @@ Bank Number: Elections PPU 005
 
 
 class InstitutionCollectorTests(unittest.TestCase):
+    def test_successful_supplemental_capture_counts_as_collected_role(self):
+        with tempfile.TemporaryDirectory() as directory:
+            markdown = Path(directory) / "source.md"
+            markdown.write_text("Current Info Source", encoding="utf-8")
+            manifest = {"supplemental_sources": [{
+                "http_status": 200,
+                "markdown_path": str(markdown),
+                "roles": ["pibs_fr", "classes_of_records_fr"],
+            }]}
+            self.assertEqual(
+                supplemental_collected_roles(manifest),
+                {"pibs_fr", "classes_of_records_fr"},
+            )
+
     def test_query_selected_class_pages_are_discoverable(self):
         url = (
             "https://www.elections.ca/content.aspx?section=abo&dir=atip/info"

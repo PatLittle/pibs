@@ -1,24 +1,24 @@
 {
-  "categorized_record_count": 855,
+  "categorized_record_count": 856,
   "category_ambiguous_record_count": 415,
-  "category_assignment_count": 5213,
+  "category_assignment_count": 5220,
   "category_unclassified_record_count": 150,
-  "generated_date": "2026-09-20",
+  "generated_date": "2026-09-21",
   "generator_version": "1.4",
   "questionnaire": {
     "candidate": {
-      "matched_question_count": 987,
+      "matched_question_count": 988,
       "matched_question_rate": 0.9821,
       "question_counts": {
         "q_access_privacy": 259,
-        "q_business_supplier": 588,
+        "q_business_supplier": 589,
         "q_civic_contact": 237,
         "q_complaint_appeal": 249,
         "q_culture_volunteer": 136,
-        "q_education_training": 208,
+        "q_education_training": 209,
         "q_emergency": 85,
         "q_family_vital": 221,
-        "q_government_work": 372,
+        "q_government_work": 373,
         "q_health_disability": 392,
         "q_housing_property": 35,
         "q_immigration": 242,
@@ -30,20 +30,20 @@
         "q_tax_customs": 101,
         "q_travel_border": 138
       },
-      "record_count": 1005,
+      "record_count": 1006,
       "topic_counts": {
         "access_privacy": 249,
         "benefits_support": 222,
         "business_regulation": 439,
         "communications_engagement": 170,
         "complaints_appeals_legal": 243,
-        "contracts_procurement": 215,
+        "contracts_procurement": 216,
         "culture_recreation_volunteering": 136,
         "democratic_civic": 85,
-        "education_training": 205,
+        "education_training": 206,
         "emergency_assistance": 85,
         "family_vital_events": 42,
-        "government_employment": 362,
+        "government_employment": 363,
         "grants_contributions": 158,
         "health_disability": 392,
         "housing_property": 35,
@@ -91,7 +91,7 @@
     },
     "primary": {
       "matched_question_count": 552,
-      "matched_question_rate": 0.5493,
+      "matched_question_rate": 0.5487,
       "question_counts": {
         "q_access_privacy": 10,
         "q_business_supplier": 112,
@@ -113,20 +113,20 @@
         "q_tax_customs": 1,
         "q_travel_border": 30
       },
-      "record_count": 1005,
+      "record_count": 1006,
       "topic_counts": {
         "access_privacy": 249,
         "benefits_support": 222,
         "business_regulation": 439,
         "communications_engagement": 170,
         "complaints_appeals_legal": 243,
-        "contracts_procurement": 215,
+        "contracts_procurement": 216,
         "culture_recreation_volunteering": 136,
         "democratic_civic": 85,
-        "education_training": 205,
+        "education_training": 206,
         "emergency_assistance": 85,
         "family_vital_events": 42,
-        "government_employment": 362,
+        "government_employment": 363,
         "grants_contributions": 158,
         "health_disability": 392,
         "housing_property": 35,
@@ -416,6 +416,7 @@
         "institution:ati-schedule-i-canada-employment-insurance-commission:ESDC PPU 700",
         "institution:ati-schedule-i-canada-employment-insurance-commission:ESDC PPE 718",
         "institution:ati-schedule-i-canada-revenue-agency:ARC PPU 411",
+        "institution:ati-schedule-i-canada-school-of-public-service:CSPS PPU 015",
         "institution:ati-schedule-i-canadian-energy-regulator:CER PPU 110",
         "institution:ati-schedule-i-canadian-energy-regulator:CER PPU 100",
         "institution:ati-schedule-i-canadian-energy-regulator:CER PPU 120",
@@ -598,11 +599,11 @@
       "weak_record_keys": []
     }
   },
-  "record_count": 1005,
+  "record_count": 1006,
   "retention_rule_counts": {
     "bounded_range": 8,
     "conditional_periods": 221,
-    "fixed_period": 418,
+    "fixed_period": 419,
     "indefinite": 13,
     "institution_defined": 48,
     "maximum_period": 16,
@@ -613,12 +614,12 @@
     "unknown": 37
   },
   "scope_counts": {
-    "institution": 956,
+    "institution": 957,
     "standard": 49
   },
   "source_files": {
     "institutions_infosource_docs/pib_table_en_fr_all.csv": {
-      "sha256": "720260b000c5aabe1481b7155be75ce4e72274acf54b1f03e25995d615e29ab6"
+      "sha256": "30c142f121e33484bb5f4f3fe407ff2bbed948207619a3a7ff93d3dfc4fe9aec"
     },
     "spib_en_fr.csv": {
       "sha256": "bbda3c9de3ba8fdbdd55122db38d3fcc5f40c37c71f8d6295624e2ad89b4eabf"

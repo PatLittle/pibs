@@ -54,15 +54,57 @@
       "merged": 0
     },
     "classes_of_records": {
-      "english": 0,
-      "french": 0,
-      "merged": 0
+      "english": 5,
+      "french": 5,
+      "merged": 5
     }
   },
   "parser_versions": {
     "pibs": 5,
     "classes_of_records": 2
   },
-  "extracted_at_utc": "2026-09-04T07:20:57.185029+00:00",
-  "extraction_rebuild_version": 2
+  "extracted_at_utc": "2026-09-21T04:03:12.418147+00:00",
+  "extraction_rebuild_version": 2,
+  "supplemental_sources": [
+    {
+      "source_id": "cnlopb-current-en",
+      "snapshot_date": "2026-09-20",
+      "collected_at_utc": "2026-09-21T03:48:47.630456+00:00",
+      "language": "en",
+      "roles": [
+        "pibs_en",
+        "classes_of_records_en"
+      ],
+      "requested_url": "https://www.cnlopb.ca/wp-content/uploads/InfoSource.pdf",
+      "final_url": "https://www.cnlopb.ca/wp-content/uploads/InfoSource.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "encoding": "",
+      "byte_count": 1320185,
+      "sha256": "e380a219512554678de7823ea72f22f59426b61b274d999aeda2cfdf7e5a019a",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canada-newfoundland-and-labrador-offshore-energy-regulator/snapshots/2026-09-20/supplemental/cnlopb-current-en/source.pdf",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canada-newfoundland-and-labrador-offshore-energy-regulator/snapshots/2026-09-20/supplemental/cnlopb-current-en/source.md",
+      "provenance": "Current English Info Source PDF supplied by repository owner"
+    },
+    {
+      "source_id": "cnlopb-current-fr",
+      "snapshot_date": "2026-09-20",
+      "collected_at_utc": "2026-09-21T03:48:51.420136+00:00",
+      "language": "fr",
+      "roles": [
+        "pibs_fr",
+        "classes_of_records_fr"
+      ],
+      "requested_url": "https://www.cnlopb.ca/wp-content/uploads/InfoSource_fr.pdf",
+      "final_url": "https://www.cnlopb.ca/wp-content/uploads/InfoSource_fr.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "encoding": "",
+      "byte_count": 1371824,
+      "sha256": "e4b6821564770598f94c2106be4c3c64ec32b9606d13f7653ce6348c48ad01be",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canada-newfoundland-and-labrador-offshore-energy-regulator/snapshots/2026-09-20/supplemental/cnlopb-current-fr/source.pdf",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canada-newfoundland-and-labrador-offshore-energy-regulator/snapshots/2026-09-20/supplemental/cnlopb-current-fr/source.md",
+      "provenance": "Current French Info Source PDF supplied by repository owner"
+    }
+  ]
 }

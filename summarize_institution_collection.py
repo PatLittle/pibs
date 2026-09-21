@@ -47,6 +47,20 @@ def error_class(message: str) -> str:
     return "other"
 
 
+def supplemental_collected_roles(manifest: dict[str, object]) -> set[str]:
+    """Return roles backed by a successful, preserved supplemental capture."""
+    collected: set[str] = set()
+    for source in manifest.get("supplemental_sources", []):
+        try:
+            successful = 200 <= int(source.get("http_status", 0)) < 400
+        except (TypeError, ValueError):
+            successful = False
+        markdown_path = Path(str(source.get("markdown_path", "")))
+        if successful and markdown_path.is_file():
+            collected.update(str(role) for role in source.get("roles", []))
+    return collected
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--jobs-file", type=Path, required=True)
@@ -67,12 +81,17 @@ def main() -> None:
             else {}
         )
         sources = manifest.get("sources", {})
+        supplemental_roles = supplemental_collected_roles(manifest)
         statuses: dict[str, str] = {}
         for role in ROLES:
             source = sources.get(role, {})
-            status = str(
-                source.get(
-                    "status", "not_run" if job.get("collectable") else "not_applicable"
+            status = (
+                "collected"
+                if role in supplemental_roles
+                else str(
+                    source.get(
+                        "status", "not_run" if job.get("collectable") else "not_applicable"
+                    )
                 )
             )
             statuses[role] = status

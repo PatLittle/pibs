@@ -1,0 +1,171 @@
+{
+  "generated_at_utc": "2026-09-21T03:52:36.604109+00:00",
+  "source": "institution_registry.csv",
+  "summary": {
+    "institutions": 2,
+    "unique_seed_urls": 4,
+    "unique_followup_urls": 0,
+    "english_urls": 2,
+    "french_urls": 2,
+    "english_verified_or_document": 2,
+    "french_verified_or_document": 2,
+    "english_split_pib_pages": 0,
+    "french_split_pib_pages": 0
+  },
+  "institutions": [
+    {
+      "institution_id": "ati-schedule-i-canada-newfoundland-and-labrador-offshore-energy-regulator",
+      "legal_name_en": "Canada–Newfoundland and Labrador Offshore Energy Regulator",
+      "en": {
+        "requested_url": "https://www.cnlopb.ca/wp-content/uploads/InfoSource.pdf",
+        "final_url": "https://www.cnlopb.ca/wp-content/uploads/InfoSource.pdf",
+        "status_code": 200,
+        "content_type": "application/pdf",
+        "byte_count": 1320185,
+        "sha256": "e380a219512554678de7823ea72f22f59426b61b274d999aeda2cfdf7e5a019a",
+        "title": "",
+        "page_language": "",
+        "validation": "reachable_pdf",
+        "error": "",
+        "has_pib_details": true,
+        "has_class_details": true,
+        "alternate_urls": {},
+        "pib_candidates": [],
+        "class_candidates": []
+      },
+      "fr": {
+        "requested_url": "https://www.cnlopb.ca/wp-content/uploads/InfoSource_fr.pdf",
+        "final_url": "https://www.cnlopb.ca/wp-content/uploads/InfoSource_fr.pdf",
+        "status_code": 200,
+        "content_type": "application/pdf",
+        "byte_count": 1371824,
+        "sha256": "e4b6821564770598f94c2106be4c3c64ec32b9606d13f7653ce6348c48ad01be",
+        "title": "",
+        "page_language": "",
+        "validation": "reachable_pdf",
+        "error": "",
+        "has_pib_details": true,
+        "has_class_details": true,
+        "alternate_urls": {},
+        "pib_candidates": [],
+        "class_candidates": []
+      }
+    },
+    {
+      "institution_id": "ati-schedule-i-canada-school-of-public-service",
+      "legal_name_en": "Canada School of Public Service",
+      "en": {
+        "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/infosource-eng.aspx",
+        "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/infosource-eng.aspx",
+        "status_code": 200,
+        "content_type": "text/html",
+        "byte_count": 107032,
+        "sha256": "6836f2223d7b34504419284553b429659e4a7f751de0493ee086a188e1ff79c0",
+        "title": "Info-Source: Sources of Federal Government and Employee Information - CSPS",
+        "page_language": "en",
+        "validation": "verified_info_source",
+        "error": "",
+        "has_pib_details": true,
+        "has_class_details": true,
+        "alternate_urls": {
+          "fr": "https://www.csps-efpc.gc.ca/about_us/currentreport/infosource-fra.aspx"
+        },
+        "pib_candidates": [],
+        "class_candidates": []
+      },
+      "fr": {
+        "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/infosource-fra.aspx",
+        "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/infosource-fra.aspx",
+        "status_code": 200,
+        "content_type": "text/html",
+        "byte_count": 127696,
+        "sha256": "1cd8c1922819f394ba3b3e72169b712d44249837f2619d76e1c0bafd108e5406",
+        "title": "Info Source : Sources de renseignements du gouvernement fédéral et sur les fonctionnaires fédéraux - EFPC",
+        "page_language": "fr",
+        "validation": "verified_info_source",
+        "error": "",
+        "has_pib_details": true,
+        "has_class_details": true,
+        "alternate_urls": {
+          "en": "https://www.csps-efpc.gc.ca/about_us/currentreport/infosource-eng.aspx"
+        },
+        "pib_candidates": [],
+        "class_candidates": []
+      }
+    }
+  ],
+  "fetched_urls": {
+    "https://www.cnlopb.ca/wp-content/uploads/InfoSource.pdf": {
+      "requested_url": "https://www.cnlopb.ca/wp-content/uploads/InfoSource.pdf",
+      "final_url": "https://www.cnlopb.ca/wp-content/uploads/InfoSource.pdf",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "byte_count": 1320185,
+      "sha256": "e380a219512554678de7823ea72f22f59426b61b274d999aeda2cfdf7e5a019a",
+      "title": "",
+      "page_language": "",
+      "validation": "reachable_pdf",
+      "error": "",
+      "has_pib_details": true,
+      "has_class_details": true,
+      "alternate_urls": {},
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://www.cnlopb.ca/wp-content/uploads/InfoSource_fr.pdf": {
+      "requested_url": "https://www.cnlopb.ca/wp-content/uploads/InfoSource_fr.pdf",
+      "final_url": "https://www.cnlopb.ca/wp-content/uploads/InfoSource_fr.pdf",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "byte_count": 1371824,
+      "sha256": "e4b6821564770598f94c2106be4c3c64ec32b9606d13f7653ce6348c48ad01be",
+      "title": "",
+      "page_language": "",
+      "validation": "reachable_pdf",
+      "error": "",
+      "has_pib_details": true,
+      "has_class_details": true,
+      "alternate_urls": {},
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://www.csps-efpc.gc.ca/about_us/currentreport/infosource-eng.aspx": {
+      "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/infosource-eng.aspx",
+      "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/infosource-eng.aspx",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 107032,
+      "sha256": "6836f2223d7b34504419284553b429659e4a7f751de0493ee086a188e1ff79c0",
+      "title": "Info-Source: Sources of Federal Government and Employee Information - CSPS",
+      "page_language": "en",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": true,
+      "has_class_details": true,
+      "alternate_urls": {
+        "fr": "https://www.csps-efpc.gc.ca/about_us/currentreport/infosource-fra.aspx"
+      },
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://www.csps-efpc.gc.ca/about_us/currentreport/infosource-fra.aspx": {
+      "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/infosource-fra.aspx",
+      "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/infosource-fra.aspx",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 127696,
+      "sha256": "1cd8c1922819f394ba3b3e72169b712d44249837f2619d76e1c0bafd108e5406",
+      "title": "Info Source : Sources de renseignements du gouvernement fédéral et sur les fonctionnaires fédéraux - EFPC",
+      "page_language": "fr",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": true,
+      "has_class_details": true,
+      "alternate_urls": {
+        "en": "https://www.csps-efpc.gc.ca/about_us/currentreport/infosource-eng.aspx"
+      },
+      "pib_candidates": [],
+      "class_candidates": []
+    }
+  }
+}

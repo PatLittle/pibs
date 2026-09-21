@@ -45,14 +45,15 @@ def main() -> None:
     raw_path = output / f"source{extension}"
     raw_path.write_bytes(response.content)
     markdown_path = output / "source.md"
+    markdown = convert_to_markdown(
+        raw_path,
+        response.content,
+        content_type,
+        "",
+        response.encoding or "",
+    )
     markdown_path.write_text(
-        convert_to_markdown(
-            raw_path,
-            response.content,
-            content_type,
-            "",
-            response.encoding or "",
-        ),
+        markdown.rstrip() + "\n" if markdown else "",
         encoding="utf-8",
     )
 

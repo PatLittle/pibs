@@ -1229,12 +1229,12 @@
       "prompt_fr": "Quel service fédéral nommé lié à un événement de vie s'applique? Sélectionnez toutes les réponses pertinentes."
     }
   ],
-  "content_version": "2026-09-20.5",
+  "content_version": "2026-09-21.5",
   "data_snapshot": {
-    "generated_date": "2026-09-20",
+    "generated_date": "2026-09-21",
     "source_files": {
       "institutions_infosource_docs/pib_table_en_fr_all.csv": {
-        "sha256": "720260b000c5aabe1481b7155be75ce4e72274acf54b1f03e25995d615e29ab6"
+        "sha256": "30c142f121e33484bb5f4f3fe407ff2bbed948207619a3a7ff93d3dfc4fe9aec"
       },
       "spib_en_fr.csv": {
         "sha256": "bbda3c9de3ba8fdbdd55122db38d3fcc5f40c37c71f8d6295624e2ad89b4eabf"

@@ -161,7 +161,7 @@ def fetch_url(url: str) -> UrlResult:
         if not response.ok:
             result.validation = "http_error"
             return result
-        if "html" in result.content_type or response.content.lstrip().casefold().startswith((b"<!doctype html", b"<html")):
+        if "html" in result.content_type or response.content.lstrip().lower().startswith((b"<!doctype html", b"<html")):
             analyze_html(result, response.content)
         elif result.content_type == "application/pdf" or response.content.startswith(b"%PDF"):
             result.validation = "reachable_pdf"

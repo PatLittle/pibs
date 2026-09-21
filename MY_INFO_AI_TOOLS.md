@@ -27,7 +27,7 @@ State uses controlled values only:
 ```json
 {
   "schema_version": "1.2",
-  "contract_version": "2026-09-20.5",
+  "contract_version": "2026-09-21.5",
   "locale": "en-CA",
   "answers": {
     "q_tax_customs": {"value": "yes"}

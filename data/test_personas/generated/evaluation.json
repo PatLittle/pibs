@@ -45,12 +45,12 @@
       "prefer_not_to_answer"
     ],
     "contract_schema_version": "1.2",
-    "contract_version": "2026-09-20.5",
+    "contract_version": "2026-09-21.5",
     "data_snapshot": {
-      "generated_date": "2026-09-20",
+      "generated_date": "2026-09-21",
       "source_files": {
         "institutions_infosource_docs/pib_table_en_fr_all.csv": {
-          "sha256": "720260b000c5aabe1481b7155be75ce4e72274acf54b1f03e25995d615e29ab6"
+          "sha256": "30c142f121e33484bb5f4f3fe407ff2bbed948207619a3a7ff93d3dfc4fe9aec"
         },
         "spib_en_fr.csv": {
           "sha256": "bbda3c9de3ba8fdbdd55122db38d3fcc5f40c37c71f8d6295624e2ad89b4eabf"
@@ -64,7 +64,7 @@
       "The current local CRA extract has no defensible direct tax-return PIB record.",
       "A published retention rule may not reflect current operational holdings."
     ],
-    "pib_count": 1005,
+    "pib_count": 1006,
     "privacy": {
       "free_text_required": false,
       "notice_en": "Do not provide account numbers, case details, health details, or other sensitive free text.",
@@ -23157,7 +23157,7 @@
             "value": "yes"
           }
         },
-        "contract_version": "2026-09-20.5",
+        "contract_version": "2026-09-21.5",
         "departments": {
           "q_business_supplier": [
             "ati-schedule-i-atlantic-canada-opportunities-agency",
@@ -44580,7 +44580,7 @@
             "value": "yes"
           }
         },
-        "contract_version": "2026-09-20.5",
+        "contract_version": "2026-09-21.5",
         "departments": {
           "q_business_supplier": [
             "ati-schedule-i-atlantic-canada-opportunities-agency",
@@ -56210,7 +56210,7 @@
             "value": "yes"
           }
         },
-        "contract_version": "2026-09-20.5",
+        "contract_version": "2026-09-21.5",
         "departments": {
           "q_civic_contact": [
             "ati-schedule-i-canadian-radio-television-and-telecommunications-commission",
@@ -66816,7 +66816,7 @@
             "value": "yes"
           }
         },
-        "contract_version": "2026-09-20.5",
+        "contract_version": "2026-09-21.5",
         "departments": {
           "q_complaint_appeal": [
             "ati-schedule-i-canada-border-services-agency",
@@ -67105,7 +67105,7 @@
     },
     {
       "code": "candidate_volume",
-      "finding": "The four personas return 924 results covering 439 unique PIBs (43.7% of the 1005-PIB snapshot).",
+      "finding": "The four personas return 924 results covering 439 unique PIBs (43.6% of the 1006-PIB snapshot).",
       "rank": 2,
       "recommendation": "Prioritize named institution/program routes for the fallback interactions that contribute the largest candidate sets.",
       "severity": "high"

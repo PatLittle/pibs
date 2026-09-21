@@ -1,6 +1,6 @@
 # My Info persona evaluation
 
-Canonical Beta contract `2026-09-20.5` was evaluated as of 2026. Possible matches were excluded.
+Canonical Beta contract `2026-09-21.5` was evaluated as of 2026. Possible matches were excluded.
 
 These are candidate PIBs, not confirmation that an institution holds a record.
 
@@ -20,7 +20,7 @@ Recommendation: Add a fallback-derived match band, or carry route coverage into 
 
 ### 2. Candidate Volume (high)
 
-The four personas return 924 results covering 439 unique PIBs (43.7% of the 1005-PIB snapshot).
+The four personas return 924 results covering 439 unique PIBs (43.6% of the 1006-PIB snapshot).
 
 Recommendation: Prioritize named institution/program routes for the fallback interactions that contribute the largest candidate sets.
 

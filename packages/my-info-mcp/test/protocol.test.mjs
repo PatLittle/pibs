@@ -29,7 +29,7 @@ test("MCP discovery and structured manifest call work", async () => {
     }
     const result = await client.callTool({ name: "my_info_get_manifest", arguments: {} });
     assert.equal(result.structuredContent.tool_api_version, "0.4.0");
-    assert.equal(result.structuredContent.pib_count, 1005);
+    assert.equal(result.structuredContent.pib_count, 1006);
   } finally {
     await client.close();
     await server.close();

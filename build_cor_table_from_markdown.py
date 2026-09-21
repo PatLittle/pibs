@@ -32,6 +32,9 @@ LABELS = {
     "numero de la categorie de documents": "record_number",
     "numero de fichier": "record_number",
     "numero du fichier": "record_number",
+    # Format is not exported, but it is a boundary after document types in
+    # plain text converted from PDFs.
+    "format": "format",
 }
 
 BAD_TITLES = {
@@ -135,25 +138,42 @@ def parse_records(markdown: str) -> list[dict[str, str]]:
     records: list[dict[str, str]] = []
     previous_point = -1
     for point_index, record_number in points:
-        title_index = -1
-        title = ""
+        heading_index = -1
+        heading = ""
         for scan in range(point_index - 1, previous_point, -1):
-            title = heading_title(lines[scan]) or inline_title(lines[scan])
-            if title:
-                title_index = scan
+            heading = heading_title(lines[scan]) or inline_title(lines[scan])
+            if heading:
+                heading_index = scan
                 break
-        if title_index < 0:
-            for scan in range(point_index - 1, previous_point, -1):
-                if not re.match(r"^\s*(?:description)\s*:\s*", lines[scan], re.I):
-                    continue
-                candidate_index = scan - 1
-                while candidate_index > previous_point and not clean_value(lines[candidate_index]):
-                    candidate_index -= 1
-                candidate = clean_value(lines[candidate_index])
-                if candidate and normalize_label(candidate) not in BAD_TITLES:
-                    title_index = candidate_index
-                    title = candidate
-                    break
+
+        # PDF-to-text conversions commonly emit plain record titles. Prefer
+        # the title immediately preceding Description when it is nearer than
+        # a remote Markdown heading from a surrounding web page. Also accept
+        # the observed malformed ``Description Information ...`` label.
+        description_title_index = -1
+        description_title = ""
+        for scan in range(point_index - 1, previous_point, -1):
+            if not re.match(
+                r"^\s*description(?:\s*:|\s+(?=information\b))",
+                lines[scan],
+                re.I,
+            ):
+                continue
+            candidate_index = scan - 1
+            while candidate_index > previous_point and not clean_value(lines[candidate_index]):
+                candidate_index -= 1
+            candidate = clean_value(lines[candidate_index])
+            if candidate and normalize_label(candidate) not in BAD_TITLES:
+                description_title_index = candidate_index
+                description_title = candidate
+                break
+
+        if description_title_index > heading_index:
+            title_index = description_title_index
+            title = description_title
+        else:
+            title_index = heading_index
+            title = heading
         if title_index < 0:
             previous_point = point_index
             continue

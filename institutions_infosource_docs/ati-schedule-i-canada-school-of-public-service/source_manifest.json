@@ -69,20 +69,62 @@
   },
   "extraction": {
     "pibs": {
-      "english": 0,
-      "french": 0,
-      "merged": 0
+      "english": 1,
+      "french": 1,
+      "merged": 1
     },
     "classes_of_records": {
-      "english": 0,
-      "french": 0,
-      "merged": 0
+      "english": 9,
+      "french": 9,
+      "merged": 9
     }
   },
   "parser_versions": {
     "pibs": 5,
     "classes_of_records": 2
   },
-  "extracted_at_utc": "2026-09-04T07:21:02.689076+00:00",
-  "extraction_rebuild_version": 2
+  "extracted_at_utc": "2026-09-21T04:03:15.354825+00:00",
+  "extraction_rebuild_version": 2,
+  "supplemental_sources": [
+    {
+      "source_id": "csps-current-en",
+      "snapshot_date": "2026-09-20",
+      "collected_at_utc": "2026-09-21T03:48:06.954149+00:00",
+      "language": "en",
+      "roles": [
+        "pibs_en",
+        "classes_of_records_en"
+      ],
+      "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/infosource-eng.aspx",
+      "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/infosource-eng.aspx",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 107032,
+      "sha256": "6836f2223d7b34504419284553b429659e4a7f751de0493ee086a188e1ff79c0",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canada-school-of-public-service/snapshots/2026-09-20/supplemental/csps-current-en/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canada-school-of-public-service/snapshots/2026-09-20/supplemental/csps-current-en/source.md",
+      "provenance": "Current English Info Source page supplied by repository owner"
+    },
+    {
+      "source_id": "csps-current-fr",
+      "snapshot_date": "2026-09-20",
+      "collected_at_utc": "2026-09-21T03:48:12.354516+00:00",
+      "language": "fr",
+      "roles": [
+        "pibs_fr",
+        "classes_of_records_fr"
+      ],
+      "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/infosource-fra.aspx",
+      "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/infosource-fra.aspx",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 127696,
+      "sha256": "1cd8c1922819f394ba3b3e72169b712d44249837f2619d76e1c0bafd108e5406",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canada-school-of-public-service/snapshots/2026-09-20/supplemental/csps-current-fr/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canada-school-of-public-service/snapshots/2026-09-20/supplemental/csps-current-fr/source.md",
+      "provenance": "Current French Info Source page supplied by repository owner"
+    }
+  ]
 }

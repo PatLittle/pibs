@@ -81,7 +81,10 @@ def rebuild_markdown_from_raw(folder: Path, manifest: dict[str, object]) -> None
             if supplemental_markdown and supplemental_markdown not in parts:
                 parts.append(supplemental_markdown)
 
-        markdown_path.write_text("\n\n".join(parts), encoding="utf-8")
+        markdown_path.write_text(
+            "\n\n".join(parts).rstrip() + "\n" if parts else "",
+            encoding="utf-8",
+        )
 
 
 def main() -> None:
