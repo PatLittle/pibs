@@ -1,7 +1,7 @@
 /* Optional GCDS header label. Remove this stylesheet to hide the label.
    Markup:
    <div class="prototype-signature" slot="signature">
-     <span class="prototype-label-text" hidden>Prototype - For Discussion</span>
+     <span class="prototype-label-text" style="display:none">Prototype - For Discussion</span>
      <gcds-signature></gcds-signature>
    </div>
    The official signature remains a GCDS component; only the surrounding label is styled. */
@@ -11,7 +11,7 @@ gcds-header .prototype-signature {
   align-items: flex-start;
 }
 
-gcds-header .prototype-signature .prototype-label-text[hidden] {
+gcds-header .prototype-signature .prototype-label-text {
   display: block !important;
   margin-bottom: 0.3rem;
   color: #26374a;
