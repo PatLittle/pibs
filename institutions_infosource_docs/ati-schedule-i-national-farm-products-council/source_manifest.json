@@ -47,6 +47,50 @@
     "pibs": 5,
     "classes_of_records": 2
   },
-  "extracted_at_utc": "2026-09-04T07:22:56.798387+00:00",
-  "extraction_rebuild_version": 2
+  "extracted_at_utc": "2026-09-28T01:03:27.098850+00:00",
+  "extraction_rebuild_version": 2,
+  "supplemental_sources": [
+    {
+      "source_id": "nfpc-current-en",
+      "snapshot_date": "2026-09-27",
+      "collected_at_utc": "2026-09-28T01:02:26.585911+00:00",
+      "language": "en",
+      "roles": [
+        "pibs_en",
+        "classes_of_records_en"
+      ],
+      "requested_url": "https://www.canada.ca/en/farm-products-council/corporate/about/transparency/info-source-fpcc.html",
+      "final_url": "https://www.canada.ca/en/farm-products-council/corporate/about/transparency/info-source-fpcc.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 27844,
+      "sha256": "d61acf406cb7c1f6f6df42c66e1fe766f5216f1dd6c2df4b140dbe287694f21c",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-national-farm-products-council/snapshots/2026-09-27/supplemental/nfpc-current-en/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-national-farm-products-council/snapshots/2026-09-27/supplemental/nfpc-current-en/source.md",
+      "provenance": "Current English Info Source publication supplied by repository owner",
+      "replaces_previous": true
+    },
+    {
+      "source_id": "nfpc-current-fr",
+      "snapshot_date": "2026-09-27",
+      "collected_at_utc": "2026-09-28T01:02:56.964786+00:00",
+      "language": "fr",
+      "roles": [
+        "pibs_fr",
+        "classes_of_records_fr"
+      ],
+      "requested_url": "https://www.canada.ca/fr/conseil-produits-agricoles/entreprise/propos/transparence/info-source-cpac.html",
+      "final_url": "https://www.canada.ca/fr/conseil-produits-agricoles/entreprise/propos/transparence/info-source-cpac.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 29554,
+      "sha256": "e808d387690c528d54377f5d93dfc6b696ad1c63fec1e9b2cb8deb82fc93fe55",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-national-farm-products-council/snapshots/2026-09-27/supplemental/nfpc-current-fr/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-national-farm-products-council/snapshots/2026-09-27/supplemental/nfpc-current-fr/source.md",
+      "provenance": "Current French Info Source publication supplied by repository owner",
+      "replaces_previous": true
+    }
+  ]
 }

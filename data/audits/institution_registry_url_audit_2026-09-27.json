@@ -1,0 +1,369 @@
+{
+  "generated_at_utc": "2026-09-28T01:09:00.874252+00:00",
+  "source": "institution_registry.csv",
+  "summary": {
+    "institutions": 4,
+    "unique_seed_urls": 8,
+    "unique_followup_urls": 1,
+    "english_urls": 4,
+    "french_urls": 4,
+    "english_verified_or_document": 3,
+    "french_verified_or_document": 3,
+    "english_split_pib_pages": 0,
+    "french_split_pib_pages": 0
+  },
+  "institutions": [
+    {
+      "institution_id": "ati-schedule-i-department-for-women-and-gender-equality",
+      "legal_name_en": "Department for Women and Gender Equality",
+      "en": {
+        "requested_url": "https://www.canada.ca/en/women-gender-equality/transparency/annual-report-parliament-access-information-privacy/info-source-2024-2025.html",
+        "final_url": "https://www.canada.ca/en/women-gender-equality/transparency/annual-report-parliament-access-information-privacy/info-source-2024-2025.html",
+        "status_code": 200,
+        "content_type": "text/html",
+        "byte_count": 84212,
+        "sha256": "ae42c184b2b3f6f72633b77d132b14da1cdaefa34104ced8311171b13c8f122c",
+        "title": "Women and Gender Equality Canada Info Source - Canada.ca",
+        "page_language": "en",
+        "validation": "verified_info_source",
+        "error": "",
+        "has_pib_details": false,
+        "has_class_details": true,
+        "alternate_urls": {
+          "en": "https://www.canada.ca/en/women-gender-equality/transparency/annual-report-parliament-access-information-privacy/info-source-2024-2025.html",
+          "fr": "https://www.canada.ca/fr/femmes-egalite-genres/transparence/rapport-annuel-parlement-acces-information-protection-renseignements-personnels/info-source-2024-2025.html"
+        },
+        "pib_candidates": [],
+        "class_candidates": []
+      },
+      "fr": {
+        "requested_url": "https://www.canada.ca/fr/femmes-egalite-genres/transparence/rapport-annuel-parlement-acces-information-protection-renseignements-personnels/info-source-2024-2025.html",
+        "final_url": "https://www.canada.ca/fr/femmes-egalite-genres/transparence/rapport-annuel-parlement-acces-information-protection-renseignements-personnels/info-source-2024-2025.html",
+        "status_code": 200,
+        "content_type": "text/html",
+        "byte_count": 98939,
+        "sha256": "b9e00eeea15a1c7761256462cdcc66a80a349d43f06bf919f055c7f2e8224dbd",
+        "title": "Femmes et Égalité des genres Canada Info Source - Canada.ca",
+        "page_language": "fr",
+        "validation": "verified_info_source",
+        "error": "",
+        "has_pib_details": false,
+        "has_class_details": true,
+        "alternate_urls": {
+          "fr": "https://www.canada.ca/fr/femmes-egalite-genres/transparence/rapport-annuel-parlement-acces-information-protection-renseignements-personnels/info-source-2024-2025.html",
+          "en": "https://www.canada.ca/en/women-gender-equality/transparency/annual-report-parliament-access-information-privacy/info-source-2024-2025.html"
+        },
+        "pib_candidates": [],
+        "class_candidates": []
+      }
+    },
+    {
+      "institution_id": "ati-schedule-i-canadian-high-arctic-research-station",
+      "legal_name_en": "Canadian High Arctic Research Station",
+      "en": {
+        "requested_url": "https://www.canada.ca/en/polar-knowledge/infosource.html",
+        "final_url": "https://www.canada.ca/en/polar-knowledge/infosource.html",
+        "status_code": 200,
+        "content_type": "text/html",
+        "byte_count": 18085,
+        "sha256": "88833237f514a25c5131b02d8b7dc76fcf074f5eda2de2c07e3a0022c3afc445",
+        "title": "Polar Knowledge Canada Infosource - Canada.ca",
+        "page_language": "en",
+        "validation": "reachable_unverified_content",
+        "error": "",
+        "has_pib_details": false,
+        "has_class_details": false,
+        "alternate_urls": {
+          "en": "https://www.canada.ca/en/polar-knowledge/infosource.html",
+          "fr": "https://www.canada.ca/fr/savoir-polaire/infosource.html"
+        },
+        "pib_candidates": [],
+        "class_candidates": []
+      },
+      "fr": {
+        "requested_url": "https://www.canada.ca/fr/savoir-polaire/infosource.html",
+        "final_url": "https://www.canada.ca/fr/savoir-polaire/infosource.html",
+        "status_code": 404,
+        "content_type": "text/html",
+        "byte_count": 15057,
+        "sha256": "4838f4447f773ecd71b6c769c8e0ea153b66c499b9945721857cf8e7d574cd8e",
+        "title": "",
+        "page_language": "",
+        "validation": "http_error",
+        "error": "",
+        "has_pib_details": false,
+        "has_class_details": false,
+        "alternate_urls": {},
+        "pib_candidates": [],
+        "class_candidates": []
+      }
+    },
+    {
+      "institution_id": "ati-schedule-i-national-farm-products-council",
+      "legal_name_en": "National Farm Products Council",
+      "en": {
+        "requested_url": "https://www.canada.ca/en/farm-products-council/corporate/about/transparency/info-source-fpcc.html",
+        "final_url": "https://www.canada.ca/en/farm-products-council/corporate/about/transparency/info-source-fpcc.html",
+        "status_code": 200,
+        "content_type": "text/html",
+        "byte_count": 27844,
+        "sha256": "21972dc34a995c0153274e252cca7f07e0273df876db835cf16458427f30d801",
+        "title": "Info Source: FPCC - Canada.ca",
+        "page_language": "en",
+        "validation": "verified_info_source",
+        "error": "",
+        "has_pib_details": false,
+        "has_class_details": false,
+        "alternate_urls": {
+          "en": "https://www.canada.ca/en/farm-products-council.html",
+          "fr": "https://www.canada.ca/fr/conseil-produits-agricoles/entreprise/propos/transparence/info-source-cpac.html"
+        },
+        "pib_candidates": [],
+        "class_candidates": []
+      },
+      "fr": {
+        "requested_url": "https://www.canada.ca/fr/conseil-produits-agricoles/entreprise/propos/transparence/info-source-cpac.html",
+        "final_url": "https://www.canada.ca/fr/conseil-produits-agricoles/entreprise/propos/transparence/info-source-cpac.html",
+        "status_code": 200,
+        "content_type": "text/html",
+        "byte_count": 29554,
+        "sha256": "4b1c0fbadb3dcd89e8973912371ddf4b78aca87bc708035b0716834bd2ffe37c",
+        "title": "Info Source : CPAC - Canada.ca",
+        "page_language": "fr",
+        "validation": "verified_info_source",
+        "error": "",
+        "has_pib_details": false,
+        "has_class_details": false,
+        "alternate_urls": {
+          "fr": "https://www.canada.ca/fr/conseil-produits-agricoles/entreprise/propos/transparence/info-source-cpac.html",
+          "en": "https://www.canada.ca/en/farm-products-council/corporate/about/transparency/info-source-fpcc.html"
+        },
+        "pib_candidates": [],
+        "class_candidates": []
+      }
+    },
+    {
+      "institution_id": "ati-schedule-i-national-film-board",
+      "legal_name_en": "National Film Board",
+      "en": {
+        "requested_url": "https://www.canada.ca/en/national-film-board/corporate/publications/general-publications/info-source.html",
+        "final_url": "https://www.canada.ca/en/national-film-board/corporate/publications/general-publications/info-source.html",
+        "status_code": 200,
+        "content_type": "text/html",
+        "byte_count": 89813,
+        "sha256": "b56952ad5449ab153e385020aaac0c8f331c387d93d51dc4e7219ad41486f69e",
+        "title": "Info Source: Sources of Federal Government and Employee Information - Canada.ca",
+        "page_language": "en",
+        "validation": "verified_info_source",
+        "error": "",
+        "has_pib_details": true,
+        "has_class_details": true,
+        "alternate_urls": {
+          "en": "https://www.canada.ca/en/national-film-board/corporate/publications/general-publications/info-source.html",
+          "fr": "https://www.canada.ca/fr/office-national-film/organisation/publications/publications-generales/info-source.html"
+        },
+        "pib_candidates": [],
+        "class_candidates": []
+      },
+      "fr": {
+        "requested_url": "https://www.canada.ca/fr/office-national-film/organisation/publications/publications-generales/info-source.html",
+        "final_url": "https://www.canada.ca/fr/office-national-film/organisation/publications/publications-generales/info-source.html",
+        "status_code": 200,
+        "content_type": "text/html",
+        "byte_count": 106768,
+        "sha256": "0814111a1344be86af9c320a8d3a2314fd353b81963e755dba7c91f138dfe6a3",
+        "title": "Info Source: Sources de renseignements du gouvernement fédéral et sur les fonctionnaires fédéraux - Canada.ca",
+        "page_language": "fr",
+        "validation": "verified_info_source",
+        "error": "",
+        "has_pib_details": false,
+        "has_class_details": true,
+        "alternate_urls": {
+          "fr": "https://www.canada.ca/fr/office-national-film/organisation/publications/publications-generales/info-source.html",
+          "en": "https://www.canada.ca/en/national-film-board/corporate/publications/general-publications/info-source.html"
+        },
+        "pib_candidates": [],
+        "class_candidates": []
+      }
+    }
+  ],
+  "fetched_urls": {
+    "https://www.canada.ca/en/farm-products-council.html": {
+      "requested_url": "https://www.canada.ca/en/farm-products-council.html",
+      "final_url": "https://www.canada.ca/en/farm-products-council.html",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 29052,
+      "sha256": "c9d13d9058d0aa4d56157e3f49f779d0c512885c5665aaedb0f36458079b4b58",
+      "title": "Farm Products Council of Canada - Canada.ca",
+      "page_language": "en",
+      "validation": "reachable_unverified_content",
+      "error": "",
+      "has_pib_details": false,
+      "has_class_details": false,
+      "alternate_urls": {
+        "en": "https://www.canada.ca/en/farm-products-council.html",
+        "fr": "https://www.canada.ca/fr/conseil-produits-agricoles.html"
+      },
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://www.canada.ca/en/farm-products-council/corporate/about/transparency/info-source-fpcc.html": {
+      "requested_url": "https://www.canada.ca/en/farm-products-council/corporate/about/transparency/info-source-fpcc.html",
+      "final_url": "https://www.canada.ca/en/farm-products-council/corporate/about/transparency/info-source-fpcc.html",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 27844,
+      "sha256": "21972dc34a995c0153274e252cca7f07e0273df876db835cf16458427f30d801",
+      "title": "Info Source: FPCC - Canada.ca",
+      "page_language": "en",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": false,
+      "has_class_details": false,
+      "alternate_urls": {
+        "en": "https://www.canada.ca/en/farm-products-council.html",
+        "fr": "https://www.canada.ca/fr/conseil-produits-agricoles/entreprise/propos/transparence/info-source-cpac.html"
+      },
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://www.canada.ca/en/national-film-board/corporate/publications/general-publications/info-source.html": {
+      "requested_url": "https://www.canada.ca/en/national-film-board/corporate/publications/general-publications/info-source.html",
+      "final_url": "https://www.canada.ca/en/national-film-board/corporate/publications/general-publications/info-source.html",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 89813,
+      "sha256": "b56952ad5449ab153e385020aaac0c8f331c387d93d51dc4e7219ad41486f69e",
+      "title": "Info Source: Sources of Federal Government and Employee Information - Canada.ca",
+      "page_language": "en",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": true,
+      "has_class_details": true,
+      "alternate_urls": {
+        "en": "https://www.canada.ca/en/national-film-board/corporate/publications/general-publications/info-source.html",
+        "fr": "https://www.canada.ca/fr/office-national-film/organisation/publications/publications-generales/info-source.html"
+      },
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://www.canada.ca/en/polar-knowledge/infosource.html": {
+      "requested_url": "https://www.canada.ca/en/polar-knowledge/infosource.html",
+      "final_url": "https://www.canada.ca/en/polar-knowledge/infosource.html",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 18085,
+      "sha256": "88833237f514a25c5131b02d8b7dc76fcf074f5eda2de2c07e3a0022c3afc445",
+      "title": "Polar Knowledge Canada Infosource - Canada.ca",
+      "page_language": "en",
+      "validation": "reachable_unverified_content",
+      "error": "",
+      "has_pib_details": false,
+      "has_class_details": false,
+      "alternate_urls": {
+        "en": "https://www.canada.ca/en/polar-knowledge/infosource.html",
+        "fr": "https://www.canada.ca/fr/savoir-polaire/infosource.html"
+      },
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://www.canada.ca/en/women-gender-equality/transparency/annual-report-parliament-access-information-privacy/info-source-2024-2025.html": {
+      "requested_url": "https://www.canada.ca/en/women-gender-equality/transparency/annual-report-parliament-access-information-privacy/info-source-2024-2025.html",
+      "final_url": "https://www.canada.ca/en/women-gender-equality/transparency/annual-report-parliament-access-information-privacy/info-source-2024-2025.html",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 84212,
+      "sha256": "ae42c184b2b3f6f72633b77d132b14da1cdaefa34104ced8311171b13c8f122c",
+      "title": "Women and Gender Equality Canada Info Source - Canada.ca",
+      "page_language": "en",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": false,
+      "has_class_details": true,
+      "alternate_urls": {
+        "en": "https://www.canada.ca/en/women-gender-equality/transparency/annual-report-parliament-access-information-privacy/info-source-2024-2025.html",
+        "fr": "https://www.canada.ca/fr/femmes-egalite-genres/transparence/rapport-annuel-parlement-acces-information-protection-renseignements-personnels/info-source-2024-2025.html"
+      },
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://www.canada.ca/fr/conseil-produits-agricoles/entreprise/propos/transparence/info-source-cpac.html": {
+      "requested_url": "https://www.canada.ca/fr/conseil-produits-agricoles/entreprise/propos/transparence/info-source-cpac.html",
+      "final_url": "https://www.canada.ca/fr/conseil-produits-agricoles/entreprise/propos/transparence/info-source-cpac.html",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 29554,
+      "sha256": "4b1c0fbadb3dcd89e8973912371ddf4b78aca87bc708035b0716834bd2ffe37c",
+      "title": "Info Source : CPAC - Canada.ca",
+      "page_language": "fr",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": false,
+      "has_class_details": false,
+      "alternate_urls": {
+        "fr": "https://www.canada.ca/fr/conseil-produits-agricoles/entreprise/propos/transparence/info-source-cpac.html",
+        "en": "https://www.canada.ca/en/farm-products-council/corporate/about/transparency/info-source-fpcc.html"
+      },
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://www.canada.ca/fr/femmes-egalite-genres/transparence/rapport-annuel-parlement-acces-information-protection-renseignements-personnels/info-source-2024-2025.html": {
+      "requested_url": "https://www.canada.ca/fr/femmes-egalite-genres/transparence/rapport-annuel-parlement-acces-information-protection-renseignements-personnels/info-source-2024-2025.html",
+      "final_url": "https://www.canada.ca/fr/femmes-egalite-genres/transparence/rapport-annuel-parlement-acces-information-protection-renseignements-personnels/info-source-2024-2025.html",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 98939,
+      "sha256": "b9e00eeea15a1c7761256462cdcc66a80a349d43f06bf919f055c7f2e8224dbd",
+      "title": "Femmes et Égalité des genres Canada Info Source - Canada.ca",
+      "page_language": "fr",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": false,
+      "has_class_details": true,
+      "alternate_urls": {
+        "fr": "https://www.canada.ca/fr/femmes-egalite-genres/transparence/rapport-annuel-parlement-acces-information-protection-renseignements-personnels/info-source-2024-2025.html",
+        "en": "https://www.canada.ca/en/women-gender-equality/transparency/annual-report-parliament-access-information-privacy/info-source-2024-2025.html"
+      },
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://www.canada.ca/fr/office-national-film/organisation/publications/publications-generales/info-source.html": {
+      "requested_url": "https://www.canada.ca/fr/office-national-film/organisation/publications/publications-generales/info-source.html",
+      "final_url": "https://www.canada.ca/fr/office-national-film/organisation/publications/publications-generales/info-source.html",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 106768,
+      "sha256": "0814111a1344be86af9c320a8d3a2314fd353b81963e755dba7c91f138dfe6a3",
+      "title": "Info Source: Sources de renseignements du gouvernement fédéral et sur les fonctionnaires fédéraux - Canada.ca",
+      "page_language": "fr",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": false,
+      "has_class_details": true,
+      "alternate_urls": {
+        "fr": "https://www.canada.ca/fr/office-national-film/organisation/publications/publications-generales/info-source.html",
+        "en": "https://www.canada.ca/en/national-film-board/corporate/publications/general-publications/info-source.html"
+      },
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://www.canada.ca/fr/savoir-polaire/infosource.html": {
+      "requested_url": "https://www.canada.ca/fr/savoir-polaire/infosource.html",
+      "final_url": "https://www.canada.ca/fr/savoir-polaire/infosource.html",
+      "status_code": 404,
+      "content_type": "text/html",
+      "byte_count": 15057,
+      "sha256": "4838f4447f773ecd71b6c769c8e0ea153b66c499b9945721857cf8e7d574cd8e",
+      "title": "",
+      "page_language": "",
+      "validation": "http_error",
+      "error": "",
+      "has_pib_details": false,
+      "has_class_details": false,
+      "alternate_urls": {},
+      "pib_candidates": [],
+      "class_candidates": []
+    }
+  }
+}

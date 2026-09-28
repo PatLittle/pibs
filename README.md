@@ -64,10 +64,15 @@ has exactly `record_number`, `name_en`, `name_fr`, `document_types_en`, and `doc
 The compiler writes registry-keyed comprehensive tables and site copies, and rejects stale parser
 versions, missing outputs, or duplicate canonical keys.
 
+Newer full Info Source publications can be stored as dated supplemental captures
+with `collect_institution_supplement.py --replaces-previous`. The original raw
+capture remains in the manifest, while the rebuilt PIB and class tables use
+the replacement publication for its selected language roles.
+
 The dated status CSV and JSON summary distinguish successful retrievals, source errors, missing
-URLs, and successful pages with zero extracted holdings. For the 2026-08-15 snapshot, all 131
-collectable institutions completed; 99 yielded at least one source, while 17 additional registry
-institutions had no publication URL suitable for collection.
+URLs, and successful pages with zero extracted holdings. Including dated supplements through
+2026-09-27, all 131 collectable institutions completed; 101 yielded at least one source, while
+17 additional registry institutions had no publication URL suitable for collection.
 
 The relational and controlled-vocabulary model is documented in `DATA_MODEL.md` and declared in
 `data_model.json`. Validate its primary keys and foreign keys with:

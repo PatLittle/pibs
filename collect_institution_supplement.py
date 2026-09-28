@@ -26,6 +26,11 @@ def main() -> None:
     parser.add_argument("--role", action="append", required=True, choices=ROLE_NAMES)
     parser.add_argument("--snapshot-date", required=True)
     parser.add_argument("--provenance", required=True)
+    parser.add_argument(
+        "--replaces-previous",
+        action="store_true",
+        help="Use this publication in place of earlier captures for the selected roles.",
+    )
     args = parser.parse_args()
 
     folder = Path("institutions_infosource_docs") / args.institution_id
@@ -79,6 +84,7 @@ def main() -> None:
         "raw_path": str(raw_path),
         "markdown_path": str(markdown_path),
         "provenance": args.provenance,
+        "replaces_previous": args.replaces_previous,
     })
     manifest["supplemental_sources"] = supplemental
     manifest_path.write_text(

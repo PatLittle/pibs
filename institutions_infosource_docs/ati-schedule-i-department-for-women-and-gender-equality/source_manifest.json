@@ -74,15 +74,59 @@
       "merged": 0
     },
     "classes_of_records": {
-      "english": 13,
-      "french": 13,
-      "merged": 13
+      "english": 16,
+      "french": 16,
+      "merged": 16
     }
   },
   "parser_versions": {
     "pibs": 5,
     "classes_of_records": 2
   },
-  "extracted_at_utc": "2026-09-04T07:18:45.133412+00:00",
-  "extraction_rebuild_version": 2
+  "extracted_at_utc": "2026-09-28T01:08:29.465896+00:00",
+  "extraction_rebuild_version": 2,
+  "supplemental_sources": [
+    {
+      "source_id": "wage-2024-2025-en",
+      "snapshot_date": "2026-09-27",
+      "collected_at_utc": "2026-09-28T01:02:28.412935+00:00",
+      "language": "en",
+      "roles": [
+        "pibs_en",
+        "classes_of_records_en"
+      ],
+      "requested_url": "https://www.canada.ca/en/women-gender-equality/transparency/annual-report-parliament-access-information-privacy/info-source-2024-2025.html",
+      "final_url": "https://www.canada.ca/en/women-gender-equality/transparency/annual-report-parliament-access-information-privacy/info-source-2024-2025.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 84213,
+      "sha256": "bacc745ba1f474e1c6a2b7e630e5ca36d567265a9ac59d1950e4a3992dc20b75",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-for-women-and-gender-equality/snapshots/2026-09-27/supplemental/wage-2024-2025-en/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-for-women-and-gender-equality/snapshots/2026-09-27/supplemental/wage-2024-2025-en/source.md",
+      "provenance": "Current English Info Source publication supplied by repository owner",
+      "replaces_previous": true
+    },
+    {
+      "source_id": "wage-2024-2025-fr",
+      "snapshot_date": "2026-09-27",
+      "collected_at_utc": "2026-09-28T01:02:57.739433+00:00",
+      "language": "fr",
+      "roles": [
+        "pibs_fr",
+        "classes_of_records_fr"
+      ],
+      "requested_url": "https://www.canada.ca/fr/femmes-egalite-genres/transparence/rapport-annuel-parlement-acces-information-protection-renseignements-personnels/info-source-2024-2025.html",
+      "final_url": "https://www.canada.ca/fr/femmes-egalite-genres/transparence/rapport-annuel-parlement-acces-information-protection-renseignements-personnels/info-source-2024-2025.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 98939,
+      "sha256": "80fe6e82f3a704c14badda34762001cf065ad05426310f85527341b7d5693278",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-for-women-and-gender-equality/snapshots/2026-09-27/supplemental/wage-2024-2025-fr/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-for-women-and-gender-equality/snapshots/2026-09-27/supplemental/wage-2024-2025-fr/source.md",
+      "provenance": "Current French Info Source publication supplied by repository owner",
+      "replaces_previous": true
+    }
+  ]
 }

@@ -3,6 +3,7 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 from build_cor_table_from_markdown import merge_records as merge_cor_records
 from build_cor_table_from_markdown import parse_records as parse_cor_records
@@ -13,9 +14,28 @@ from collect_institution_content import crawl_score, rejected_response, same_sit
 from compile_institution_tables import build_pib_cor_links
 from build_infosource_markdown_corpus import corpus_folder_for, load_registry_folder_lookup
 from summarize_institution_collection import supplemental_collected_roles
+from rebuild_institution_extractions import rebuild_markdown_from_raw
 
 
 class ClassOfRecordsExtractorTests(unittest.TestCase):
+    def test_numbered_activities_under_one_heading_remain_distinct_classes(self):
+        english = """##### Advancement of reconciliation within WAGE
+**Description:** Reconciliation work.
+* **Activity:** Coordinate the circle.
+**Document types:** Agendas.
+**Record Number:** WAGE011
+* **Activity:** Develop learning materials.
+**Document types:** Guides.
+**Record Number:** WAGE012
+* **Activity:** Support employees.
+**Document types:** Terms of reference.
+**Record Number:** WAGE0013
+"""
+        rows = parse_cor_records(english)
+        self.assertEqual([row["record_number"] for row in rows], ["WAGE011", "WAGE012", "WAGE0013"])
+        self.assertEqual(rows[1]["name"], "Advancement of reconciliation within WAGE — Activity WAGE012")
+        self.assertEqual(rows[2]["document_types"], "Terms of reference.")
+
     def test_definition_list_labels_and_long_or_compact_record_numbers(self):
         markdown = """
 ## Aquatic invasive species prevention permits
@@ -122,6 +142,20 @@ Record Number: C-NLOPB RED 080
 
 
 class PibExtractorTests(unittest.TestCase):
+    def test_nfb_english_and_french_bank_number_labels_pair(self):
+        english = """#### Self-Declaration Questionnaire for Filmmakers and Production Teams Bank
+**Description:** Voluntary information about creative teams.
+**PIB Number**: NFB PPU 040
+"""
+        french = """#### Fichier de renseignements personnels du questionnaire d’auto-déclaration
+**Description**: Renseignements fournis volontairement.
+**Numéro du fichier de renseignements personnels** : ONF PPU 040
+"""
+        english_records = parse_pib_records(english)
+        french_records = parse_pib_records(french)
+        self.assertEqual([record["bank_number"] for record in english_records], ["NFB PPU 040"])
+        self.assertEqual([record["bank_number"] for record in french_records], ["ONF PPU 040"])
+
     def test_definition_list_bank_label_and_long_institution_prefix(self):
         markdown = """
 ## Aquatic invasive species prevention permits
@@ -145,6 +179,29 @@ Bank Number: Elections PPU 005
 
 
 class InstitutionCollectorTests(unittest.TestCase):
+    def test_new_publication_replaces_old_role_content(self):
+        with tempfile.TemporaryDirectory() as directory:
+            folder = Path(directory)
+            old_raw = folder / "old.html"
+            new_markdown = folder / "new.md"
+            old_raw.write_text("old publication", encoding="utf-8")
+            new_markdown.write_text("new publication\n", encoding="utf-8")
+            manifest = {
+                "sources": {"pibs_en": {
+                    "status": "collected",
+                    "raw_path": str(old_raw),
+                    "content_type": "text/html",
+                }},
+                "supplemental_sources": [{
+                    "roles": ["pibs_en"],
+                    "markdown_path": str(new_markdown),
+                    "replaces_previous": True,
+                }],
+            }
+            with patch("rebuild_institution_extractions.convert_to_markdown", return_value="old publication"):
+                rebuild_markdown_from_raw(folder, manifest)
+            self.assertEqual((folder / "pibs_en.md").read_text(), "new publication\n")
+
     def test_successful_supplemental_capture_counts_as_collected_role(self):
         with tempfile.TemporaryDirectory() as directory:
             markdown = Path(directory) / "source.md"

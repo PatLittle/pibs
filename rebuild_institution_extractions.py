@@ -74,6 +74,8 @@ def rebuild_markdown_from_raw(folder: Path, manifest: dict[str, object]) -> None
         for supplemental in manifest.get("supplemental_sources", []):
             if role not in supplemental.get("roles", []):
                 continue
+            if supplemental.get("replaces_previous"):
+                parts.clear()
             supplemental_path = Path(str(supplemental.get("markdown_path", "")))
             if not supplemental_path.exists():
                 raise RuntimeError(f"Missing supplemental Markdown source: {supplemental_path}")

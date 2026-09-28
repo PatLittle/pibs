@@ -26,7 +26,7 @@ add_alias(
 )
 add_alias("note", "note", "notes", "nota", "remarque")
 add_alias("social_insurance_number", "social insurance number", "numero d assurance sociale")
-add_alias("purpose", "purpose", "but")
+add_alias("purpose", "purpose", "but", "but de la collecte")
 add_alias("consistent_uses", "consistent uses", "consistent use", "usages compatibles", "utilisations compatibles")
 add_alias(
     "retention_and_disposal_standards",
@@ -82,8 +82,10 @@ add_alias(
     "pib bank number",
     "numero de fichier",
     "numero du fichier",
+    "numero du fichier de renseignements personnels",
     "numero de frp",
     "numero du frp",
+    "pib number",
 )
 
 BAD_TITLES = {

@@ -1392,6 +1392,16 @@ ati-schedule-i-montreal-port-authority,MPA PPU 005,en,MPA LAS 005,institution_sp
 ati-schedule-i-montreal-port-authority,MPA PPU 035,en,MPA LAS 005,institution_specific,true,MPA LAS 005
 ati-schedule-i-montreal-port-authority,MPA PPU 030,en,MPA LAS 005,institution_specific,true,MPA LAS 005
 ati-schedule-i-montreal-port-authority,MPA PPU 040,en,MPA OPE 060,institution_specific,true,MPA SAF 060
+ati-schedule-i-national-film-board,NFB PPU 025,en,NFB EPP 035,institution_specific,true,NFB EPP 035
+ati-schedule-i-national-film-board,NFB PPU 025,en,NFB TSF 045,institution_specific,true,NFB TSF 045
+ati-schedule-i-national-film-board,NFB PPU 030,en,NFB EPP 035,institution_specific,true,NFB EPP 035
+ati-schedule-i-national-film-board,NFB PPU 030,en,NFB TSF 045,institution_specific,true,NFB TSF 045
+ati-schedule-i-national-film-board,NFB PPU 040,en,NFB EPP 035,institution_specific,true,NFB EPP 035
+ati-schedule-i-national-film-board,NFB PPU 040,en,NFB TSF 045,institution_specific,true,NFB TSF 045
+ati-schedule-i-national-film-board,NFB PPU 040,en,NFB EPP 045,institution_specific,true,NFB EPP 045
+ati-schedule-i-national-film-board,NFB PPU 035,en,NFB EFM 025,institution_specific,true,NFB EFM 025
+ati-schedule-i-national-film-board,NFB PPU 035,en,NFB COM 015,institution_specific,true,NFB COM 015
+ati-schedule-i-national-film-board,NFB PPU 035,en,NFB COM 010,institution_specific,true,NFB COM 010
 ati-schedule-i-national-research-council-of-canada,NRC PPU 806,en,NRC IRC 011,institution_specific,false,
 ati-schedule-i-natural-sciences-and-engineering-research-council,NSERC PPU 060,en,NSERC 006,institution_specific,true,NSERC 006
 ati-schedule-i-natural-sciences-and-engineering-research-council,NSERC PPU 060,en,THROUGH 006,institution_specific,true,NSERC 006

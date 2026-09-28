@@ -138,6 +138,10 @@ def parse_records(markdown: str) -> list[dict[str, str]]:
     records: list[dict[str, str]] = []
     previous_point = -1
     for point_index, record_number in points:
+        canonical_number = canonical_record_number(record_number)
+        if not canonical_number:
+            previous_point = point_index
+            continue
         heading_index = -1
         heading = ""
         for scan in range(point_index - 1, previous_point, -1):
@@ -175,8 +179,35 @@ def parse_records(markdown: str) -> list[dict[str, str]]:
             title_index = heading_index
             title = heading
         if title_index < 0:
-            previous_point = point_index
-            continue
+            # Some reports give several separately numbered activities under
+            # one heading. Their later activities have no repeated heading or
+            # Description field, but still carry their own document types.
+            activity_index = next(
+                (
+                    scan for scan in range(point_index - 1, previous_point, -1)
+                    if re.match(
+                        r"^\s*(?:[*+\-]\s*)?\*\*(?:activities|activity|activit[ée]s?)\s*:",
+                        lines[scan],
+                        re.I,
+                    )
+                ),
+                -1,
+            )
+            parent_title = next(
+                (heading_title(lines[scan]) for scan in range(previous_point, -1, -1)
+                 if heading_title(lines[scan])),
+                "",
+            )
+            if activity_index < 0 or not parent_title:
+                previous_point = point_index
+                continue
+            title_index = activity_index
+            activity_label = (
+                "Activité"
+                if re.search(r"\bactivites?\b", normalize_label(lines[activity_index]))
+                else "Activity"
+            )
+            title = f"{parent_title} — {activity_label} {canonical_number}"
 
         document_types = ""
         for scan in range(title_index + 1, point_index):
@@ -185,10 +216,6 @@ def parse_records(markdown: str) -> list[dict[str, str]]:
                 document_types = collect_value(lines, scan, immediate)
                 break
 
-        canonical_number = canonical_record_number(record_number)
-        if not canonical_number:
-            previous_point = point_index
-            continue
         records.append(
             {
                 "record_number": canonical_number,

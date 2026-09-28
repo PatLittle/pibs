@@ -33,20 +33,64 @@
   },
   "extraction": {
     "pibs": {
-      "english": 0,
-      "french": 0,
-      "merged": 0
+      "english": 4,
+      "french": 4,
+      "merged": 4
     },
     "classes_of_records": {
-      "english": 0,
-      "french": 0,
-      "merged": 0
+      "english": 11,
+      "french": 11,
+      "merged": 11
     }
   },
   "parser_versions": {
     "pibs": 5,
     "classes_of_records": 2
   },
-  "extracted_at_utc": "2026-09-04T07:22:56.799779+00:00",
-  "extraction_rebuild_version": 2
+  "extracted_at_utc": "2026-09-28T01:05:32.539519+00:00",
+  "extraction_rebuild_version": 2,
+  "supplemental_sources": [
+    {
+      "source_id": "nfb-current-en",
+      "snapshot_date": "2026-09-27",
+      "collected_at_utc": "2026-09-28T01:02:28.829746+00:00",
+      "language": "en",
+      "roles": [
+        "pibs_en",
+        "classes_of_records_en"
+      ],
+      "requested_url": "https://www.canada.ca/en/national-film-board/corporate/publications/general-publications/info-source.html",
+      "final_url": "https://www.canada.ca/en/national-film-board/corporate/publications/general-publications/info-source.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 89814,
+      "sha256": "f6222120218b45ed8f5f3f6e7ed746e155420a020b54e603931aa80e00afebbe",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-national-film-board/snapshots/2026-09-27/supplemental/nfb-current-en/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-national-film-board/snapshots/2026-09-27/supplemental/nfb-current-en/source.md",
+      "provenance": "Current English Info Source publication supplied by repository owner",
+      "replaces_previous": true
+    },
+    {
+      "source_id": "nfb-current-fr",
+      "snapshot_date": "2026-09-27",
+      "collected_at_utc": "2026-09-28T01:02:53.912220+00:00",
+      "language": "fr",
+      "roles": [
+        "pibs_fr",
+        "classes_of_records_fr"
+      ],
+      "requested_url": "https://www.canada.ca/fr/office-national-film/organisation/publications/publications-generales/info-source.html",
+      "final_url": "https://www.canada.ca/fr/office-national-film/organisation/publications/publications-generales/info-source.html",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 106768,
+      "sha256": "f4ea6f6e6b4c695f3a4d1c77becaec8b38926fbbd2d9424a9934a1264191a25c",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-national-film-board/snapshots/2026-09-27/supplemental/nfb-current-fr/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-national-film-board/snapshots/2026-09-27/supplemental/nfb-current-fr/source.md",
+      "provenance": "Current French Info Source publication supplied by repository owner",
+      "replaces_previous": true
+    }
+  ]
 }
