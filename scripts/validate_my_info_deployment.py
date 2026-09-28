@@ -46,6 +46,22 @@ def validate():
     for folder in ["my_info", "my_info_v2"]:
         for name in ["index.html", "runtime.json", "engine.mjs", "app.mjs", "styles.css"]:
             assert (SITE / folder / name).is_file(), f"Missing {folder}/{name}"
+    header_pages = [SITE / name for name in [
+        "index.html", "table.html", "my_info/index.html", "my_info_v2/index.html",
+        "my_info_compare/index.html", "my_info_compare/v1-review.html",
+        "my_info_v2/review/index.html",
+    ]]
+    assert (SITE / "prototype-label.css").is_file()
+    for path in header_pages:
+        content = path.read_text(encoding="utf-8")
+        assert "<gcds-header" in content and '<gcds-signature></gcds-signature>' in content, path
+        assert 'class="prototype-label-text" hidden>Prototype - For Discussion' in content, path
+        assert "prototype-label.css" in content, path
+    landing = (SITE / "index.html").read_text(encoding="utf-8")
+    assert 'id="survey-heading"' not in landing
+    assert '<nav aria-label="Footer navigation">' in landing and 'href="my_info_compare/"' in landing
+    review = (SITE / "my_info_compare/v1-review.html").read_text(encoding="utf-8")
+    assert 'href="#candidate-only-note"' in review and 'id="candidate-only-note"' in review
     for path in [SITE / "index.html", *list((SITE / "my_info_v2").rglob("*.html")), *list((SITE / "my_info_compare").glob("*.html"))]:
         links = Links()
         links.feed(path.read_text())

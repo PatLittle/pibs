@@ -10,9 +10,11 @@
     <script type="module" src="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.40.0/dist/gcds/gcds.esm.js"></script>
     <link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/css/theme.min.css" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="prototype-label.css" />
   </head>
   <body vocab="http://schema.org/" typeof="WebPage">
     <gcds-header lang-href="#" skip-to-href="#main-content">
+      <div class="prototype-signature" slot="signature"><span class="prototype-label-text" hidden>Prototype - For Discussion</span><gcds-signature></gcds-signature></div>
       <gcds-breadcrumbs slot="breadcrumb"><gcds-breadcrumbs-item href="index.html">Info Source Data Explorer</gcds-breadcrumbs-item></gcds-breadcrumbs>
       <gcds-top-nav id="dataset-nav" slot="menu" label="Info Source data explorer navigation">
         <gcds-nav-link href="index.html" slot="home">Overview</gcds-nav-link>
@@ -33,7 +35,6 @@
 
     <main id="main-content" class="page-container">
       <section class="page-intro">
-        <p class="independent-notice independent-notice--dark">Prototype - For Discussion</p>
         <p class="section-eyebrow">Bilingual table explorer</p>
         <h1 id="dataset-title">Loading dataset…</h1>
         <p id="dataset-description"></p>

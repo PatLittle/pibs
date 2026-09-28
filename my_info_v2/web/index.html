@@ -1,9 +1,12 @@
 <!doctype html>
 <html lang="en">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Find federal record descriptions through activities and programs you recognize."><title>My Info — V2 comparison</title><link rel="icon" href="data:,"><link rel="stylesheet" href="styles.css"></head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Find federal record descriptions through activities and programs you recognize."><title>My Info — V2 comparison</title><link rel="icon" href="data:,"><link rel="stylesheet" href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.40.0/dist/gcds/gcds.css"><script type="module" src="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.40.0/dist/gcds/gcds.esm.js"></script><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="../prototype-label.css"></head>
 <body>
-  <a class="skip" href="#content">Skip to content / Aller au contenu</a>
-  <header><a class="brand" href="../my_info_compare/">My Info <span>V2</span></a><button id="language" type="button">Français</button></header>
+  <gcds-header lang-href="#" skip-to-href="#content">
+    <div class="prototype-signature" slot="signature"><span class="prototype-label-text" hidden>Prototype - For Discussion</span><gcds-signature></gcds-signature></div>
+    <button id="language" type="button" slot="toggle">Français</button>
+    <gcds-breadcrumbs slot="breadcrumb"><gcds-breadcrumbs-item href="../index.html">PIBS</gcds-breadcrumbs-item><gcds-breadcrumbs-item href="../my_info_compare/">My Info surveys</gcds-breadcrumbs-item></gcds-breadcrumbs>
+  </gcds-header>
   <main id="content">
     <section class="intro"><p id="prototype" class="eyebrow"></p><h1 id="title"></h1><p id="lede"></p><p id="privacy" class="privacy"></p></section>
     <nav id="navigation" aria-label="Survey"></nav>

@@ -7,8 +7,10 @@ Generated from checked-in contract 2026-09-28.6. This is a review of existing be
 | Reachability (theoretical) | PIBs | Share |
 | --- | --- | --- |
 | Primary question or named route | 597 | 57.4% |
-| Candidate only; hidden in normal web | 423 | 40.7% |
+| [Candidate only; hidden in normal web¹](#candidate-only-note) | 423 | 40.7% |
 | No current route or question | 20 | 1.9% |
+
+¹ **Candidate only; hidden in normal web:** A candidate-only PIB has a weaker, topic-level association in the derived features, but no primary question or named activity route. It can appear in an expanded review using includePossible; the ordinary V1 web survey calls the engine with includePossible=false and does not display it on that basis alone. The count is an inventory classification, not a prediction that these PIBs apply to a particular person.
 
 Denominator: 1,040 collected inventory rows. This is a static upper bound before a person's answers and department restrictions. It does not measure accuracy, population prevalence or real-world recall. Question counts below overlap. Follow-up department lists are calculated from the Python engine for each option selected alone; multi-option selections can produce different lists.
 

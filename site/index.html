@@ -10,9 +10,11 @@
     <script type="module" src="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.40.0/dist/gcds/gcds.esm.js"></script>
     <link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/css/theme.min.css" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="prototype-label.css" />
   </head>
   <body vocab="http://schema.org/" typeof="WebPage">
     <gcds-header lang-href="#" skip-to-href="#main-content">
+      <div class="prototype-signature" slot="signature"><span class="prototype-label-text" hidden>Prototype - For Discussion</span><gcds-signature></gcds-signature></div>
       <gcds-breadcrumbs slot="breadcrumb"><gcds-breadcrumbs-item href="index.html">Info Source Data Explorer</gcds-breadcrumbs-item></gcds-breadcrumbs>
       <gcds-top-nav id="dataset-nav" slot="menu" label="Info Source data explorer navigation">
         <gcds-nav-link current href="index.html" slot="home">Overview</gcds-nav-link>
@@ -33,7 +35,6 @@
 
     <main id="main-content">
       <section class="hero">
-        <p class="independent-notice">Prototype - For Discussion</p>
         <p class="hero__eyebrow">Government information holdings</p>
         <h1 class="hero__title">See what federal institutions hold—and how the records connect.</h1>
         <p class="hero__lede">
@@ -47,10 +48,6 @@
       </section>
 
       <div class="page-container">
-        <section class="section-block" aria-labelledby="survey-heading">
-          <div class="section-heading"><p class="section-eyebrow">My Info survey prototypes</p><h2 id="survey-heading">Explore which federal records may relate to you</h2><p>Try the original questionnaire or the new activity-based prototype. Both are available separately; V2 has a narrower source-reviewed guided catalogue and a searchable full inventory.</p></div>
-          <div class="hero__actions"><a class="button-link" href="my_info/">Original survey</a><a class="button-link" href="my_info_v2/">Try V2</a><a class="button-link" href="my_info_compare/">Compare versions and review the logic</a></div>
-        </section>
         <section class="stat-grid" aria-label="Dataset overview">
           <article class="stat-card"><span class="stat-card__value" id="stat-institutions">—</span><span class="stat-card__label">authoritative institutions</span><span class="stat-card__note">Schedule I of the Act</span></article>
           <article class="stat-card"><span class="stat-card__value" id="stat-pibs">—</span><span class="stat-card__label">institution-specific PIBs</span><span class="stat-card__note">personal information holdings</span></article>
@@ -132,7 +129,7 @@
       </div>
     </main>
 
-    <footer class="site-footer"><div class="site-footer__inner"><div><strong>Info Source Data Explorer</strong><p>Wrangle then try to Untangle.</p></div><nav aria-label="Footer navigation"><a href="table.html?dataset=institutions">Institutions</a><a href="table.html?dataset=pibs">PIBs</a><a href="table.html?dataset=classes">Classes</a><a href="table.html?dataset=links">Linkages</a><a href="https://github.com/PatLittle/pibs">Source repository</a></nav></div></footer>
+    <footer class="site-footer"><div class="site-footer__inner"><div><strong>Info Source Data Explorer</strong><p>Wrangle then try to Untangle.</p></div><nav aria-label="Footer navigation"><a href="table.html?dataset=institutions">Institutions</a><a href="table.html?dataset=pibs">PIBs</a><a href="table.html?dataset=classes">Classes</a><a href="table.html?dataset=links">Linkages</a><a href="my_info_compare/">Compare My Info surveys</a><a href="https://github.com/PatLittle/pibs">Source repository</a></nav></div></footer>
     <script src="overview.js"></script>
   </body>
 </html>
