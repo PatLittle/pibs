@@ -97,22 +97,6 @@ input:focus-visible {
 .site-footer p { margin: 0.35rem 0 0; }
 .site-footer a { color: #fff; }
 
-.independent-notice {
-  display: inline-block;
-  margin: 0 0 1.15rem;
-  padding: 0.3rem 0.55rem;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  font-size: 0.85rem;
-  font-weight: 700;
-  color: #fff;
-  background: rgba(0, 0, 0, 0.14);
-}
-
-.independent-notice--dark {
-  color: var(--ink);
-  border-color: var(--border);
-  background: var(--surface-soft);
-}
 
 .breadcrumb {
   display: flex;
@@ -412,7 +396,6 @@ main {
   margin: 1rem 0 1.5rem;
 }
 
-.page-intro .independent-notice { margin-bottom: 0.7rem; }
 
 .page-intro h1 {
   margin-top: 0.35rem;
