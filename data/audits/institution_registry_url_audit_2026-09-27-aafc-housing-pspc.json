@@ -1,0 +1,299 @@
+{
+  "generated_at_utc": "2026-09-28T02:34:35.370884+00:00",
+  "source": "institution_registry.csv",
+  "summary": {
+    "institutions": 3,
+    "unique_seed_urls": 6,
+    "unique_followup_urls": 2,
+    "english_urls": 3,
+    "french_urls": 3,
+    "english_verified_or_document": 2,
+    "french_verified_or_document": 2,
+    "english_split_pib_pages": 1,
+    "french_split_pib_pages": 1
+  },
+  "institutions": [
+    {
+      "institution_id": "ati-schedule-i-department-of-agriculture-and-agri-food",
+      "legal_name_en": "Department of Agriculture and Agri-Food",
+      "en": {
+        "requested_url": "https://agriculture.canada.ca/en/department/transparency/info-source-employee-information",
+        "final_url": "https://agriculture.canada.ca/en/department/transparency/info-source-employee-information",
+        "status_code": 200,
+        "content_type": "text/html",
+        "byte_count": 275495,
+        "sha256": "e7dfd06148978505f4494107361e4e8b2262945cc3a09953fce764668014d6b5",
+        "title": "Info Source: Sources of federal government and employee information - agriculture.canada.ca",
+        "page_language": "en",
+        "validation": "verified_info_source",
+        "error": "",
+        "has_pib_details": true,
+        "has_class_details": true,
+        "alternate_urls": {
+          "en": "http://agriculture.canada.ca/en/department/transparency/info-source-employee-information",
+          "fr": "http://agriculture.canada.ca/fr/ministere/transparence/info-source-renseignements-pour-fonctionnaires"
+        },
+        "pib_candidates": [],
+        "class_candidates": []
+      },
+      "fr": {
+        "requested_url": "https://agriculture.canada.ca/fr/ministere/transparence/info-source-renseignements-pour-fonctionnaires",
+        "final_url": "https://agriculture.canada.ca/fr/ministere/transparence/info-source-renseignements-pour-fonctionnaires",
+        "status_code": 200,
+        "content_type": "text/html",
+        "byte_count": 318668,
+        "sha256": "f7a6ddc8eaee313be10676882d622439e6617110efe4bf5c163a81ba3e8fa36a",
+        "title": "Info Source : Source de renseignements du gouvernement fédéral et sur les fonctionnaires fédéraux - agriculture.canada.ca",
+        "page_language": "fr",
+        "validation": "verified_info_source",
+        "error": "",
+        "has_pib_details": true,
+        "has_class_details": false,
+        "alternate_urls": {
+          "en": "https://agriculture.canada.ca/en/department/transparency/info-source-employee-information",
+          "fr": "https://agriculture.canada.ca/fr/ministere/transparence/info-source-renseignements-pour-fonctionnaires"
+        },
+        "pib_candidates": [],
+        "class_candidates": []
+      }
+    },
+    {
+      "institution_id": "ati-schedule-i-department-of-housing-infrastructure-and-communities",
+      "legal_name_en": "Department of Housing, Infrastructure and Communities",
+      "en": {
+        "requested_url": "https://housing-infrastructure.canada.ca/infosource/infosource-eng.html",
+        "final_url": "",
+        "status_code": null,
+        "content_type": "",
+        "byte_count": 0,
+        "sha256": "",
+        "title": "",
+        "page_language": "",
+        "validation": "request_error",
+        "error": "SSLError: HTTPSConnectionPool(host='housing-infrastructure.canada.ca', port=443): Max retries exceeded with url: /infosource/infosource-eng.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))",
+        "has_pib_details": false,
+        "has_class_details": false,
+        "alternate_urls": {},
+        "pib_candidates": [],
+        "class_candidates": []
+      },
+      "fr": {
+        "requested_url": "https://housing-infrastructure.canada.ca/infosource/infosource-fra.html",
+        "final_url": "",
+        "status_code": null,
+        "content_type": "",
+        "byte_count": 0,
+        "sha256": "",
+        "title": "",
+        "page_language": "",
+        "validation": "request_error",
+        "error": "SSLError: HTTPSConnectionPool(host='housing-infrastructure.canada.ca', port=443): Max retries exceeded with url: /infosource/infosource-fra.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))",
+        "has_pib_details": false,
+        "has_class_details": false,
+        "alternate_urls": {},
+        "pib_candidates": [],
+        "class_candidates": []
+      }
+    },
+    {
+      "institution_id": "ati-schedule-i-department-of-public-works-and-government-services",
+      "legal_name_en": "Department of Public Works and Government Services",
+      "en": {
+        "requested_url": "https://www.canada.ca/en/public-services-procurement/corporate/transparency/access-information-privacy/understanding-your-right-obtain-information/info-source-federal-government-employee-information/about.html",
+        "final_url": "https://www.canada.ca/en/public-services-procurement/corporate/transparency/access-information-privacy/understanding-your-right-obtain-information/info-source-federal-government-employee-information/about.html",
+        "status_code": 200,
+        "content_type": "text/html",
+        "byte_count": 26573,
+        "sha256": "e7f3eed340c060465ed8c2294808ca7b35fd1db9e92ee2d6bb9c0a443522d41b",
+        "title": "About Info source - Canada.ca",
+        "page_language": "en",
+        "validation": "verified_info_source",
+        "error": "",
+        "has_pib_details": false,
+        "has_class_details": false,
+        "alternate_urls": {
+          "en": "https://www.canada.ca/en/public-services-procurement/corporate/transparency/access-information-privacy/understanding-your-right-obtain-information/info-source-federal-government-employee-information/about.html",
+          "fr": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/comprendre-votre-droit-obtenir-renseignements/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux/apropos.html"
+        },
+        "pib_candidates": [],
+        "class_candidates": []
+      },
+      "fr": {
+        "requested_url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/comprendre-votre-droit-obtenir-renseignements/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux/apropos.html",
+        "final_url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/comprendre-votre-droit-obtenir-renseignements/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux/apropos.html",
+        "status_code": 200,
+        "content_type": "text/html",
+        "byte_count": 27678,
+        "sha256": "a426ea6190ce7c5e68d6d3cf239892eb075f035339eaf3973d6bcb3f92748035",
+        "title": "À propos d’Info Source - Canada.ca",
+        "page_language": "fr",
+        "validation": "verified_info_source",
+        "error": "",
+        "has_pib_details": false,
+        "has_class_details": false,
+        "alternate_urls": {
+          "fr": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/comprendre-votre-droit-obtenir-renseignements/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux/apropos.html",
+          "en": "https://www.canada.ca/en/public-services-procurement/corporate/transparency/access-information-privacy/understanding-your-right-obtain-information/info-source-federal-government-employee-information/about.html"
+        },
+        "pib_candidates": [],
+        "class_candidates": []
+      }
+    }
+  ],
+  "fetched_urls": {
+    "http://agriculture.canada.ca/en/department/transparency/info-source-employee-information": {
+      "requested_url": "http://agriculture.canada.ca/en/department/transparency/info-source-employee-information",
+      "final_url": "https://agriculture.canada.ca/en/department/transparency/info-source-employee-information",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 275495,
+      "sha256": "e7dfd06148978505f4494107361e4e8b2262945cc3a09953fce764668014d6b5",
+      "title": "Info Source: Sources of federal government and employee information - agriculture.canada.ca",
+      "page_language": "en",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": true,
+      "has_class_details": true,
+      "alternate_urls": {
+        "en": "http://agriculture.canada.ca/en/department/transparency/info-source-employee-information",
+        "fr": "http://agriculture.canada.ca/fr/ministere/transparence/info-source-renseignements-pour-fonctionnaires"
+      },
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "http://agriculture.canada.ca/fr/ministere/transparence/info-source-renseignements-pour-fonctionnaires": {
+      "requested_url": "http://agriculture.canada.ca/fr/ministere/transparence/info-source-renseignements-pour-fonctionnaires",
+      "final_url": "https://agriculture.canada.ca/fr/ministere/transparence/info-source-renseignements-pour-fonctionnaires",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 318668,
+      "sha256": "f7a6ddc8eaee313be10676882d622439e6617110efe4bf5c163a81ba3e8fa36a",
+      "title": "Info Source : Source de renseignements du gouvernement fédéral et sur les fonctionnaires fédéraux - agriculture.canada.ca",
+      "page_language": "fr",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": true,
+      "has_class_details": false,
+      "alternate_urls": {
+        "en": "https://agriculture.canada.ca/en/department/transparency/info-source-employee-information",
+        "fr": "https://agriculture.canada.ca/fr/ministere/transparence/info-source-renseignements-pour-fonctionnaires"
+      },
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://agriculture.canada.ca/en/department/transparency/info-source-employee-information": {
+      "requested_url": "https://agriculture.canada.ca/en/department/transparency/info-source-employee-information",
+      "final_url": "https://agriculture.canada.ca/en/department/transparency/info-source-employee-information",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 275495,
+      "sha256": "e7dfd06148978505f4494107361e4e8b2262945cc3a09953fce764668014d6b5",
+      "title": "Info Source: Sources of federal government and employee information - agriculture.canada.ca",
+      "page_language": "en",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": true,
+      "has_class_details": true,
+      "alternate_urls": {
+        "en": "http://agriculture.canada.ca/en/department/transparency/info-source-employee-information",
+        "fr": "http://agriculture.canada.ca/fr/ministere/transparence/info-source-renseignements-pour-fonctionnaires"
+      },
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://agriculture.canada.ca/fr/ministere/transparence/info-source-renseignements-pour-fonctionnaires": {
+      "requested_url": "https://agriculture.canada.ca/fr/ministere/transparence/info-source-renseignements-pour-fonctionnaires",
+      "final_url": "https://agriculture.canada.ca/fr/ministere/transparence/info-source-renseignements-pour-fonctionnaires",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 318668,
+      "sha256": "f7a6ddc8eaee313be10676882d622439e6617110efe4bf5c163a81ba3e8fa36a",
+      "title": "Info Source : Source de renseignements du gouvernement fédéral et sur les fonctionnaires fédéraux - agriculture.canada.ca",
+      "page_language": "fr",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": true,
+      "has_class_details": false,
+      "alternate_urls": {
+        "en": "https://agriculture.canada.ca/en/department/transparency/info-source-employee-information",
+        "fr": "https://agriculture.canada.ca/fr/ministere/transparence/info-source-renseignements-pour-fonctionnaires"
+      },
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://housing-infrastructure.canada.ca/infosource/infosource-eng.html": {
+      "requested_url": "https://housing-infrastructure.canada.ca/infosource/infosource-eng.html",
+      "final_url": "",
+      "status_code": null,
+      "content_type": "",
+      "byte_count": 0,
+      "sha256": "",
+      "title": "",
+      "page_language": "",
+      "validation": "request_error",
+      "error": "SSLError: HTTPSConnectionPool(host='housing-infrastructure.canada.ca', port=443): Max retries exceeded with url: /infosource/infosource-eng.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))",
+      "has_pib_details": false,
+      "has_class_details": false,
+      "alternate_urls": {},
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://housing-infrastructure.canada.ca/infosource/infosource-fra.html": {
+      "requested_url": "https://housing-infrastructure.canada.ca/infosource/infosource-fra.html",
+      "final_url": "",
+      "status_code": null,
+      "content_type": "",
+      "byte_count": 0,
+      "sha256": "",
+      "title": "",
+      "page_language": "",
+      "validation": "request_error",
+      "error": "SSLError: HTTPSConnectionPool(host='housing-infrastructure.canada.ca', port=443): Max retries exceeded with url: /infosource/infosource-fra.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))",
+      "has_pib_details": false,
+      "has_class_details": false,
+      "alternate_urls": {},
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://www.canada.ca/en/public-services-procurement/corporate/transparency/access-information-privacy/understanding-your-right-obtain-information/info-source-federal-government-employee-information/about.html": {
+      "requested_url": "https://www.canada.ca/en/public-services-procurement/corporate/transparency/access-information-privacy/understanding-your-right-obtain-information/info-source-federal-government-employee-information/about.html",
+      "final_url": "https://www.canada.ca/en/public-services-procurement/corporate/transparency/access-information-privacy/understanding-your-right-obtain-information/info-source-federal-government-employee-information/about.html",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 26573,
+      "sha256": "e7f3eed340c060465ed8c2294808ca7b35fd1db9e92ee2d6bb9c0a443522d41b",
+      "title": "About Info source - Canada.ca",
+      "page_language": "en",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": false,
+      "has_class_details": false,
+      "alternate_urls": {
+        "en": "https://www.canada.ca/en/public-services-procurement/corporate/transparency/access-information-privacy/understanding-your-right-obtain-information/info-source-federal-government-employee-information/about.html",
+        "fr": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/comprendre-votre-droit-obtenir-renseignements/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux/apropos.html"
+      },
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/comprendre-votre-droit-obtenir-renseignements/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux/apropos.html": {
+      "requested_url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/comprendre-votre-droit-obtenir-renseignements/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux/apropos.html",
+      "final_url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/comprendre-votre-droit-obtenir-renseignements/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux/apropos.html",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 27678,
+      "sha256": "a426ea6190ce7c5e68d6d3cf239892eb075f035339eaf3973d6bcb3f92748035",
+      "title": "À propos d’Info Source - Canada.ca",
+      "page_language": "fr",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": false,
+      "has_class_details": false,
+      "alternate_urls": {
+        "fr": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/comprendre-votre-droit-obtenir-renseignements/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux/apropos.html",
+        "en": "https://www.canada.ca/en/public-services-procurement/corporate/transparency/access-information-privacy/understanding-your-right-obtain-information/info-source-federal-government-employee-information/about.html"
+      },
+      "pib_candidates": [],
+      "class_candidates": []
+    }
+  }
+}

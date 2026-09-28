@@ -79,12 +79,12 @@
   },
   "extraction": {
     "pibs": {
-      "english": 0,
-      "french": 19,
-      "merged": 19
+      "english": 21,
+      "french": 20,
+      "merged": 21
     },
     "classes_of_records": {
-      "english": 0,
+      "english": 19,
       "french": 19,
       "merged": 19
     }
@@ -93,6 +93,54 @@
     "pibs": 5,
     "classes_of_records": 2
   },
-  "extracted_at_utc": "2026-09-04T07:18:47.750089+00:00",
-  "extraction_rebuild_version": 2
+  "extracted_at_utc": "2026-09-28T02:22:52.389321+00:00",
+  "extraction_rebuild_version": 2,
+  "supplemental_sources": [
+    {
+      "source_id": "aafc-owner-en-2026-09-27",
+      "snapshot_date": "2026-09-27",
+      "collected_at_utc": "2026-09-28T02:18:30.085139+00:00",
+      "language": "en",
+      "roles": [
+        "pibs_en",
+        "classes_of_records_en"
+      ],
+      "requested_url": "https://agriculture.canada.ca/en/department/transparency/info-source-employee-information",
+      "final_url": "https://agriculture.canada.ca/en/department/transparency/info-source-employee-information",
+      "http_status": null,
+      "capture_method": "provided_local_file",
+      "provided_file_name": "aafc-info-e.html",
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 275495,
+      "sha256": "e7dfd06148978505f4494107361e4e8b2262945cc3a09953fce764668014d6b5",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-agriculture-and-agri-food/snapshots/2026-09-27/supplemental/aafc-owner-en-2026-09-27/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-agriculture-and-agri-food/snapshots/2026-09-27/supplemental/aafc-owner-en-2026-09-27/source.md",
+      "provenance": "Owner-supplied current Info Source saved HTML; collected for bilingual inventory refresh.",
+      "replaces_previous": true
+    },
+    {
+      "source_id": "aafc-owner-fr-2026-09-27",
+      "snapshot_date": "2026-09-27",
+      "collected_at_utc": "2026-09-28T02:18:35.229964+00:00",
+      "language": "fr",
+      "roles": [
+        "pibs_fr",
+        "classes_of_records_fr"
+      ],
+      "requested_url": "https://agriculture.canada.ca/fr/ministere/transparence/info-source-renseignements-pour-fonctionnaires",
+      "final_url": "https://agriculture.canada.ca/fr/ministere/transparence/info-source-renseignements-pour-fonctionnaires",
+      "http_status": null,
+      "capture_method": "provided_local_file",
+      "provided_file_name": "aafc-info-f.html",
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 318668,
+      "sha256": "f7a6ddc8eaee313be10676882d622439e6617110efe4bf5c163a81ba3e8fa36a",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-agriculture-and-agri-food/snapshots/2026-09-27/supplemental/aafc-owner-fr-2026-09-27/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-agriculture-and-agri-food/snapshots/2026-09-27/supplemental/aafc-owner-fr-2026-09-27/source.md",
+      "provenance": "Owner-supplied current Info Source saved HTML; collected for bilingual inventory refresh.",
+      "replaces_previous": true
+    }
+  ]
 }

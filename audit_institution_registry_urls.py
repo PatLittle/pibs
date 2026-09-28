@@ -287,9 +287,13 @@ def main() -> None:
             frame.at[index, f"infosource_final_url_{lang}"] = result.final_url or pd.NA
             pib_url = choose_deep_url(result, "pib", fetched)
             class_url = choose_deep_url(result, "class", fetched)
-            if pib_url:
+            # A curated deep link can name a split holdings page even when the
+            # landing page contains generic PIB/class wording.
+            curated_pib = row.get(f"pibs_url_{lang}_override")
+            curated_class = row.get(f"classes_url_{lang}_override")
+            if pib_url and not (pd.notna(curated_pib) and clean_space(curated_pib)):
                 frame.at[index, f"pibs_url_{lang}"] = pib_url
-            if class_url:
+            if class_url and not (pd.notna(curated_class) and clean_space(curated_class)):
                 frame.at[index, f"classes_of_records_url_{lang}"] = class_url
             row_audit[lang] = result.as_dict()
         audit_rows.append(row_audit)

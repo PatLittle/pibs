@@ -33,20 +33,214 @@
   },
   "extraction": {
     "pibs": {
-      "english": 0,
-      "french": 0,
-      "merged": 0
+      "english": 24,
+      "french": 24,
+      "merged": 24
     },
     "classes_of_records": {
-      "english": 0,
-      "french": 0,
-      "merged": 0
+      "english": 66,
+      "french": 66,
+      "merged": 67
     }
   },
   "parser_versions": {
     "pibs": 5,
     "classes_of_records": 2
   },
-  "extracted_at_utc": "2026-09-04T07:19:59.569754+00:00",
-  "extraction_rebuild_version": 2
+  "extracted_at_utc": "2026-09-28T02:22:59.472819+00:00",
+  "extraction_rebuild_version": 2,
+  "supplemental_sources": [
+    {
+      "source_id": "pspc-about-en-2026-09-27",
+      "snapshot_date": "2026-09-27",
+      "collected_at_utc": "2026-09-28T02:20:38.962438+00:00",
+      "language": "en",
+      "roles": [
+        "pibs_en",
+        "classes_of_records_en"
+      ],
+      "requested_url": "https://www.canada.ca/en/public-services-procurement/corporate/transparency/access-information-privacy/understanding-your-right-obtain-information/info-source-federal-government-employee-information/about.html",
+      "final_url": "https://www.canada.ca/en/public-services-procurement/corporate/transparency/access-information-privacy/understanding-your-right-obtain-information/info-source-federal-government-employee-information/about.html",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 26573,
+      "sha256": "3f8c30ea7cde5614ac9f917d61b3e13263083da8cf10eb6c65068552918c29bf",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-public-works-and-government-services/snapshots/2026-09-27/supplemental/pspc-about-en-2026-09-27/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-public-works-and-government-services/snapshots/2026-09-27/supplemental/pspc-about-en-2026-09-27/source.md",
+      "provenance": "Owner-supplied official PSPC Info Source section; part of four-page EN publication.",
+      "replaces_previous": true
+    },
+    {
+      "source_id": "pspc-apropos-fr-2026-09-27",
+      "snapshot_date": "2026-09-27",
+      "collected_at_utc": "2026-09-28T02:20:54.802383+00:00",
+      "language": "fr",
+      "roles": [
+        "pibs_fr",
+        "classes_of_records_fr"
+      ],
+      "requested_url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/comprendre-votre-droit-obtenir-renseignements/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux/apropos.html",
+      "final_url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/comprendre-votre-droit-obtenir-renseignements/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux/apropos.html",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 27678,
+      "sha256": "e2650dc8f766116b9d799b3ebfda63ea908c3e62d02116256ff351465c83f677",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-public-works-and-government-services/snapshots/2026-09-27/supplemental/pspc-apropos-fr-2026-09-27/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-public-works-and-government-services/snapshots/2026-09-27/supplemental/pspc-apropos-fr-2026-09-27/source.md",
+      "provenance": "Owner-supplied official PSPC Info Source section; part of four-page FR publication.",
+      "replaces_previous": true
+    },
+    {
+      "source_id": "pspc-institutional-program-activities-en-2026-09-27",
+      "snapshot_date": "2026-09-27",
+      "collected_at_utc": "2026-09-28T02:21:10.607493+00:00",
+      "language": "en",
+      "roles": [
+        "pibs_en",
+        "classes_of_records_en"
+      ],
+      "requested_url": "https://www.canada.ca/en/public-services-procurement/corporate/transparency/access-information-privacy/understanding-your-right-obtain-information/info-source-federal-government-employee-information/institutional-program-activities.html",
+      "final_url": "https://www.canada.ca/en/public-services-procurement/corporate/transparency/access-information-privacy/understanding-your-right-obtain-information/info-source-federal-government-employee-information/institutional-program-activities.html",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 244554,
+      "sha256": "354ef4c4c1bd686d71c4eed58b166b911d25e5bb94f0d7e0a674988164d40c78",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-public-works-and-government-services/snapshots/2026-09-27/supplemental/pspc-institutional-program-activities-en-2026-09-27/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-public-works-and-government-services/snapshots/2026-09-27/supplemental/pspc-institutional-program-activities-en-2026-09-27/source.md",
+      "provenance": "Owner-supplied official PSPC Info Source section; part of four-page EN publication.",
+      "replaces_previous": false
+    },
+    {
+      "source_id": "pspc-programmes-activites-institutionnels-fr-2026-09-27",
+      "snapshot_date": "2026-09-27",
+      "collected_at_utc": "2026-09-28T02:21:28.167705+00:00",
+      "language": "fr",
+      "roles": [
+        "pibs_fr",
+        "classes_of_records_fr"
+      ],
+      "requested_url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/comprendre-votre-droit-obtenir-renseignements/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux/programmes-activites-institutionnels.html",
+      "final_url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/comprendre-votre-droit-obtenir-renseignements/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux/programmes-activites-institutionnels.html",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 284384,
+      "sha256": "f422f0e56edef8ff515f734d99dbda687175064254ef1b42f41685d9c647575d",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-public-works-and-government-services/snapshots/2026-09-27/supplemental/pspc-programmes-activites-institutionnels-fr-2026-09-27/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-public-works-and-government-services/snapshots/2026-09-27/supplemental/pspc-programmes-activites-institutionnels-fr-2026-09-27/source.md",
+      "provenance": "Owner-supplied official PSPC Info Source section; part of four-page FR publication.",
+      "replaces_previous": false
+    },
+    {
+      "source_id": "pspc-internal-services-en-2026-09-27",
+      "snapshot_date": "2026-09-27",
+      "collected_at_utc": "2026-09-28T02:21:36.702757+00:00",
+      "language": "en",
+      "roles": [
+        "pibs_en",
+        "classes_of_records_en"
+      ],
+      "requested_url": "https://www.canada.ca/en/public-services-procurement/corporate/transparency/access-information-privacy/understanding-your-right-obtain-information/info-source-federal-government-employee-information/internal-services.html",
+      "final_url": "https://www.canada.ca/en/public-services-procurement/corporate/transparency/access-information-privacy/understanding-your-right-obtain-information/info-source-federal-government-employee-information/internal-services.html",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 44723,
+      "sha256": "605154bbe1f0b58bc54d823edfe1aaccbc839ff0c4c4ddb50fdf801e5dcc3e69",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-public-works-and-government-services/snapshots/2026-09-27/supplemental/pspc-internal-services-en-2026-09-27/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-public-works-and-government-services/snapshots/2026-09-27/supplemental/pspc-internal-services-en-2026-09-27/source.md",
+      "provenance": "Owner-supplied official PSPC Info Source section; part of four-page EN publication.",
+      "replaces_previous": false
+    },
+    {
+      "source_id": "pspc-services-internes-fr-2026-09-27",
+      "snapshot_date": "2026-09-27",
+      "collected_at_utc": "2026-09-28T02:21:47.499605+00:00",
+      "language": "fr",
+      "roles": [
+        "pibs_fr",
+        "classes_of_records_fr"
+      ],
+      "requested_url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/comprendre-votre-droit-obtenir-renseignements/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux/services-internes.html",
+      "final_url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/comprendre-votre-droit-obtenir-renseignements/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux/services-internes.html",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 51725,
+      "sha256": "37ac42104efc58792f190316b07b774cabb98636f111efb3318103bef29ba6a3",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-public-works-and-government-services/snapshots/2026-09-27/supplemental/pspc-services-internes-fr-2026-09-27/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-public-works-and-government-services/snapshots/2026-09-27/supplemental/pspc-services-internes-fr-2026-09-27/source.md",
+      "provenance": "Owner-supplied official PSPC Info Source section; part of four-page FR publication.",
+      "replaces_previous": false
+    },
+    {
+      "source_id": "pspc-manuals-requests-en-2026-09-27",
+      "snapshot_date": "2026-09-27",
+      "collected_at_utc": "2026-09-28T02:22:07.707483+00:00",
+      "language": "en",
+      "roles": [
+        "pibs_en",
+        "classes_of_records_en"
+      ],
+      "requested_url": "https://www.canada.ca/en/public-services-procurement/corporate/transparency/access-information-privacy/understanding-your-right-obtain-information/info-source-federal-government-employee-information/manuals-requests.html",
+      "final_url": "https://www.canada.ca/en/public-services-procurement/corporate/transparency/access-information-privacy/understanding-your-right-obtain-information/info-source-federal-government-employee-information/manuals-requests.html",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 26689,
+      "sha256": "999db5362a23c31c03bd8046b7e4308b1ced9a9f14b1d5917cfc7beff8a9518e",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-public-works-and-government-services/snapshots/2026-09-27/supplemental/pspc-manuals-requests-en-2026-09-27/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-public-works-and-government-services/snapshots/2026-09-27/supplemental/pspc-manuals-requests-en-2026-09-27/source.md",
+      "provenance": "Owner-supplied official PSPC Info Source section; part of four-page EN publication.",
+      "replaces_previous": false
+    },
+    {
+      "source_id": "pspc-manuels-demandes-fr-2026-09-27",
+      "snapshot_date": "2026-09-27",
+      "collected_at_utc": "2026-09-28T02:22:25.314065+00:00",
+      "language": "fr",
+      "roles": [
+        "pibs_fr",
+        "classes_of_records_fr"
+      ],
+      "requested_url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/comprendre-votre-droit-obtenir-renseignements/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux/manuels-demandes.html",
+      "final_url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/comprendre-votre-droit-obtenir-renseignements/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux/manuels-demandes.html",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 29041,
+      "sha256": "84114d15834dbdb5be526e5b162afbb7c882335c6b500955c206ee93c963bff6",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-public-works-and-government-services/snapshots/2026-09-27/supplemental/pspc-manuels-demandes-fr-2026-09-27/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-public-works-and-government-services/snapshots/2026-09-27/supplemental/pspc-manuels-demandes-fr-2026-09-27/source.md",
+      "provenance": "Owner-supplied official PSPC Info Source section; part of four-page FR publication.",
+      "replaces_previous": false
+    }
+  ]
 }

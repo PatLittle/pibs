@@ -51,12 +51,16 @@ def supplemental_collected_roles(manifest: dict[str, object]) -> set[str]:
     """Return roles backed by a successful, preserved supplemental capture."""
     collected: set[str] = set()
     for source in manifest.get("supplemental_sources", []):
-        try:
-            successful = 200 <= int(source.get("http_status", 0)) < 400
-        except (TypeError, ValueError):
-            successful = False
+        if source.get("capture_method") == "provided_local_file":
+            successful = True
+        else:
+            try:
+                successful = 200 <= int(source.get("http_status", 0)) < 400
+            except (TypeError, ValueError):
+                successful = False
         markdown_path = Path(str(source.get("markdown_path", "")))
-        if successful and markdown_path.is_file():
+        raw_path = Path(str(source.get("raw_path", "")))
+        if successful and markdown_path.is_file() and raw_path.is_file():
             collected.update(str(role) for role in source.get("roles", []))
     return collected
 

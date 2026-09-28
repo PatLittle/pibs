@@ -68,10 +68,17 @@ Newer full Info Source publications can be stored as dated supplemental captures
 with `collect_institution_supplement.py --replaces-previous`. The original raw
 capture remains in the manifest, while the rebuilt PIB and class tables use
 the replacement publication for its selected language roles.
+For a user-saved page that cannot be fetched reliably, use `--local-file` with
+its published `--url`; the manifest distinguishes this from a live HTTP fetch,
+and the collection tracker counts it only while both raw and converted copies
+remain available. Multi-page reports can be captured section by section, with
+only the first section replacing the earlier publication. Where the local
+machine cannot validate a source site's TLS chain, `--allow-unverified-tls`
+records that limitation in each capture's provenance.
 
 The dated status CSV and JSON summary distinguish successful retrievals, source errors, missing
 URLs, and successful pages with zero extracted holdings. Including dated supplements through
-2026-09-27, all 131 collectable institutions completed; 101 yielded at least one source, while
+2026-09-27, all 131 collectable institutions completed; 103 yielded at least one source, while
 17 additional registry institutions had no publication URL suitable for collection.
 
 The relational and controlled-vocabulary model is documented in `DATA_MODEL.md` and declared in

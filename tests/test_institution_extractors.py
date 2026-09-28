@@ -205,9 +205,12 @@ class InstitutionCollectorTests(unittest.TestCase):
     def test_successful_supplemental_capture_counts_as_collected_role(self):
         with tempfile.TemporaryDirectory() as directory:
             markdown = Path(directory) / "source.md"
+            raw = Path(directory) / "source.html"
             markdown.write_text("Current Info Source", encoding="utf-8")
+            raw.write_text("<h1>Info Source</h1>", encoding="utf-8")
             manifest = {"supplemental_sources": [{
                 "http_status": 200,
+                "raw_path": str(raw),
                 "markdown_path": str(markdown),
                 "roles": ["pibs_fr", "classes_of_records_fr"],
             }]}
@@ -215,6 +218,23 @@ class InstitutionCollectorTests(unittest.TestCase):
                 supplemental_collected_roles(manifest),
                 {"pibs_fr", "classes_of_records_fr"},
             )
+
+    def test_provided_local_source_counts_only_when_preserved(self):
+        with tempfile.TemporaryDirectory() as directory:
+            raw = Path(directory) / "provided.html"
+            markdown = Path(directory) / "source.md"
+            raw.write_text("<h1>Info Source</h1>", encoding="utf-8")
+            markdown.write_text("# Info Source", encoding="utf-8")
+            manifest = {"supplemental_sources": [{
+                "capture_method": "provided_local_file",
+                "http_status": None,
+                "raw_path": str(raw),
+                "markdown_path": str(markdown),
+                "roles": ["pibs_en"],
+            }]}
+            self.assertEqual(supplemental_collected_roles(manifest), {"pibs_en"})
+            raw.unlink()
+            self.assertEqual(supplemental_collected_roles(manifest), set())
 
     def test_query_selected_class_pages_are_discoverable(self):
         url = (

@@ -1133,42 +1133,808 @@ Vous pouvez également rechercher des résumés de demandes d'accès à l'inform
 
 Logement, Infrastructures et Collectivités Canada mène des évaluations des facteurs relatifs à la vie privée (ÉFVP) dans le but de bien définir, d'évaluer et de minimiser les incidences sur la vie privée avant la mise en œuvre de nouvelles activités ou de nouveaux programmes ou d'activités et de programmes modifiés de façon substantielle touchant les renseignements personnels. [Des résumés des ÉFVP complétées](/atip-aiprp/summaries-sommaires-fra.html) sont disponibles.
 
-Signaler un problème sur cette page
-
-Veuillez cocher toutes les réponses qui s'appliquent :
-
-[ ] Quelque chose ne fonctionne pas
-
-Fournissez plus de détails (facultatif) :
-
-[ ] Il y a une erreur d'orthographe ou de grammaire
-
-Fournissez plus de détails (facultatif) :
-
-[ ] L'information est erronée
-
-Fournissez plus de détails (facultatif) :
-
-[ ] L'information n'est plus à jour
-
-Fournissez plus de détails (facultatif) :
-
-[ ] Je ne trouve pas ce que je cherche
-
-Fournissez plus de détails (facultatif) :
-
-[ ] Autre
-
-Fournissez plus de détails (facultatif) :
-
-Soumettre
-
-### Merci de votre aide!
-
-Vous ne recevrez pas de réponse. Pour toute question, [communiquez avec nous](/contact/index-fra.html).
+## Détails de la page
 
 Date de modification :
 :   2026-01-26
+
+## À propos de ce site
+
+### Gouvernement du Canada
+
+* [Toutes les coordonnées](https://www.canada.ca/fr/contact.html)
+* [Ministères et organismes](https://www.canada.ca/fr/gouvernement/min.html)
+* [À propos du gouvernement](https://www.canada.ca/fr/gouvernement/systeme.html)
+
+#### Thèmes et sujets
+
+* [Emplois](https://www.canada.ca/fr/services/emplois.html)
+* [Immigration et citoyenneté](https://www.canada.ca/fr/services/immigration-citoyennete.html)
+* [Voyage et tourisme](https://voyage.gc.ca/)
+* [Entreprises](https://www.canada.ca/fr/services/entreprises.html)
+* [Prestations](https://www.canada.ca/fr/services/prestations.html)
+* [Santé](https://www.canada.ca/fr/services/sante.html)
+* [Impôts](https://www.canada.ca/fr/services/impots.html)
+* [Environnement et ressources naturelles](https://www.canada.ca/fr/services/environnement.html)
+* [Sécurité nationale et défense](https://www.canada.ca/fr/services/defense.html)
+* [Culture, histoire et sport](https://www.canada.ca/fr/services/culture.html)
+* [Services de police, justice et urgences](https://www.canada.ca/fr/services/police.html)
+* [Transport et infrastructure](https://www.canada.ca/fr/services/transport.html)
+* [Le Canada et le monde](https://www.international.gc.ca/world-monde/index.aspx?lang=fra)
+* [Argent et finances](https://www.canada.ca/fr/services/finance.html)
+* [Science et innovation](https://www.canada.ca/fr/services/science.html)
+* [Autochtones](https://www.canada.ca/fr/services/autochtones.html)
+* [Vétérans et militaires](https://www.canada.ca/fr/services/veterans-militaire.html)
+* [Jeunesse](https://www.canada.ca/fr/services/jeunesse.html)
+* [Gérer les événements de la vie](https://www.canada.ca/fr/services/evenements-vie.html)
+
+### Organisation du gouvernement du Canada
+
+* [Médias sociaux](https://www.canada.ca/fr/sociaux.html)
+* [Applications mobiles](https://www.canada.ca/fr/mobile.html)
+* [À propos de Canada.ca](https://canada.ca/fr/gouvernement/a-propos-canada-ca.html)
+* [Avis](https://www.canada.ca/fr/transparence/avis.html)
+* [Confidentialité](https://www.canada.ca/fr/transparence/confidentialite.html)
+
+![Symbole du gouvernement du Canada](https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg)
+
+
+* [Passer au contenu principal](#wb-cont)
+* [Passer à « Au sujet du gouvernement »](#wb-info)
+
+## Sélection de la langue
+
+* [English
+  en](/infosource/accessibility-hub-pib-carrefour-de-accessibilite-frp-eng.html)
+
+[![Gouvernement du Canada](/wet/theme-gcweb5/GCWeb/assets/sig-blk-fr.svg) / Government of Canada](https://www.canada.ca/fr.html)
+
+## Recherche
+
+Rechercher dans Canada.ca
+
+Recherche
+
+---
+
+## Menu
+
+Menu principal
+
+* [Emplois et milieu de travail](https://www.canada.ca/fr/services/emplois.html)
+* [Immigration et citoyenneté](https://www.canada.ca/fr/services/immigration-citoyennete.html)
+* [Voyage et tourisme](https://voyage.gc.ca/)
+* [Entreprises et industrie](https://www.canada.ca/fr/services/entreprises.html)
+* [Prestations](https://www.canada.ca/fr/services/prestations.html)
+* [Santé](https://www.canada.ca/fr/services/sante.html)
+* [Impôts](https://www.canada.ca/fr/services/impots.html)
+* [Environnement et ressources naturelles](https://www.canada.ca/fr/services/environnement.html)
+* [Sécurité nationale et défense](https://www.canada.ca/fr/services/defense.html)
+* [Culture, histoire et sport](https://www.canada.ca/fr/services/culture.html)
+* [Services de police, justice et urgences](https://www.canada.ca/fr/services/police.html)
+* [Transport et infrastructure](https://www.canada.ca/fr/services/transport.html)
+* [Canada et le monde](https://www.international.gc.ca/world-monde/index.aspx?lang=fra)
+* [Argent et finances](https://www.canada.ca/fr/services/finance.html)
+* [Science et innovation](https://www.canada.ca/fr/services/science.html)
+* [Gérer les événements de la vie](https://www.canada.ca/fr/services/evenements-vie.html)
+
+## Vous êtes ici :
+
+1. [Canada.ca](https://www.canada.ca/fr.html)
+2. [Logement, Infrastructures et Collectivités Canada](/index-fra.html)
+3. [Accès à l’information et de la protection des renseignements personnels](/pd-dp/atip-aiprp/index-fra.html)
+4. [Renseignement sur les programmes et les fond de renseignements](/infosource/infosource-fra.html)
+
+# Fichier de renseignements personnels – Carrefour de l’accessibilité
+
+**Description :** Ce fichier décrit les renseignements personnels utilisés par le Carrefour de l’accessibilité pour appuyer les obligations de LICC en matière de prendre des mesures d’adaptation, notamment en fournissant aux employés et aux gestionnaires du soutien, des conseils et des ressources, ainsi qu’en accélérant la mise en œuvre du [Plan d’accessibilité de LICC](https://logement-infrastructure.canada.ca/accessibility-accessibilite/2023-2025-plan-fra.html). Les renseignements personnels recueillis peuvent inclure les éléments suivants : le nom, les coordonnées, les informations relatives au dossier personnel de l’employé, les renseignements sur l’équité en matière d’emploi, les renseignements médicaux, la langue, ainsi que les opinions ou points de vue de, ou concernant, des individus.
+
+**Catégorie de personnes :** Les employés actuels et les anciens employés de Logement, Infrastructures et Collectivités Canada ainsi que les fournisseurs de services tiers.
+
+**But :** Les renseignements personnels sont recueillis en vertu de l’article 122(4) de la *Loi canadienne sur l’accessibilité (LCA)*, de l’article 24 de la Loi canadienne sur les droits de la personne, de la *Loi sur la gestion des finances publiques*, de la *Loi sur les relations de travail dans le secteur public fédéral*, du *Code canadien du travail*, du Règlement canadien sur la santé et la sécurité au travail, de la *Loi sur l’indemnisation des agents de l’État*, et/ou des directives du Conseil national mixte. Ces renseignements sont recueillis afin de fournir du soutien, des conseils et des ressources en matière d’accessibilité et de l’obligation de prendre des mesures d’adaptation des employés et gestionnaires de LICC, d’améliorer les services du Carrefour de l’accessibilité ainsi que d’autres services de soutien internes dans le cadre de la mise en œuvre du Plan d’accessibilité de LICC, et de contribuer à la réalisation de l’engagement de créer un Canada exempt d’obstacles d’ici 2040, tel qu’établi par la *Loi canadienne sur l’accessibilité*.
+
+**Utilisations compatibles :** Les renseignements personnels peuvent être utilisés aux fins de planification de programme, de gestion, de suivi, d’évaluation, de production de rapports, d’analyse des tendances, de vérification, de statistiques, de recherche et/ou d’élaboration de politiques. Dans certaines situations, et conformément à la loi, ils peuvent être utilisés dans le cadre de mesures disciplinaires. D’autres utilisations compatibles sont énumérées dans les banques de renseignements personnels suivantes : [Dossier personnel d’employé – POE 901](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#poe901), [Planification des ressources humaines – POU 935](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#pou935) et [Santé et sécurité au travail – POE 907](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#poe9071).
+
+Lorsque cela est nécessaire pour appuyer une demande d’accessibilité d’un employé, les renseignements personnels peuvent être communiqués à la direction de LICC, aux Services d’adaptation, aux Relations de travail, aux Services des technologies de l’information, au Carrefour de l’accessibilité, à l’Accessibilité, adaptation et technologie informatique adaptée (AATIA) de Services partagés Canada, ainsi qu’aux fournisseurs de services en ergonomie et en ergothérapie. Certains renseignements anonymisés peuvent être communiqués au public ou à d’autres équipes au sein du Ministère.
+
+**Normes de conservation et de destruction :** Les documents sont conservés pendant cinq ans après la dernière mesure administrative ou la clôture du dossier, puis éliminés conformément à l’autorisation de disposition ADD 2021/003 de Bibliothèque et Archives Canada.
+
+**Numéro ADD :** 2021/003
+
+**Numéro de renvoi au document :** LICC DGSM 030
+
+**Enregistrement du SCT :**En attente de l’approbation du SCT
+
+**Numéro du fichier :** PPU 030
+
+## Détails de la page
+
+Date de modification :
+:   2025-10-02
+
+## À propos de ce site
+
+### Gouvernement du Canada
+
+* [Toutes les coordonnées](https://www.canada.ca/fr/contact.html)
+* [Ministères et organismes](https://www.canada.ca/fr/gouvernement/min.html)
+* [À propos du gouvernement](https://www.canada.ca/fr/gouvernement/systeme.html)
+
+#### Thèmes et sujets
+
+* [Emplois](https://www.canada.ca/fr/services/emplois.html)
+* [Immigration et citoyenneté](https://www.canada.ca/fr/services/immigration-citoyennete.html)
+* [Voyage et tourisme](https://voyage.gc.ca/)
+* [Entreprises](https://www.canada.ca/fr/services/entreprises.html)
+* [Prestations](https://www.canada.ca/fr/services/prestations.html)
+* [Santé](https://www.canada.ca/fr/services/sante.html)
+* [Impôts](https://www.canada.ca/fr/services/impots.html)
+* [Environnement et ressources naturelles](https://www.canada.ca/fr/services/environnement.html)
+* [Sécurité nationale et défense](https://www.canada.ca/fr/services/defense.html)
+* [Culture, histoire et sport](https://www.canada.ca/fr/services/culture.html)
+* [Services de police, justice et urgences](https://www.canada.ca/fr/services/police.html)
+* [Transport et infrastructure](https://www.canada.ca/fr/services/transport.html)
+* [Le Canada et le monde](https://www.international.gc.ca/world-monde/index.aspx?lang=fra)
+* [Argent et finances](https://www.canada.ca/fr/services/finance.html)
+* [Science et innovation](https://www.canada.ca/fr/services/science.html)
+* [Autochtones](https://www.canada.ca/fr/services/autochtones.html)
+* [Vétérans et militaires](https://www.canada.ca/fr/services/veterans-militaire.html)
+* [Jeunesse](https://www.canada.ca/fr/services/jeunesse.html)
+* [Gérer les événements de la vie](https://www.canada.ca/fr/services/evenements-vie.html)
+
+### Organisation du gouvernement du Canada
+
+* [Médias sociaux](https://www.canada.ca/fr/sociaux.html)
+* [Applications mobiles](https://www.canada.ca/fr/mobile.html)
+* [À propos de Canada.ca](https://canada.ca/fr/gouvernement/a-propos-canada-ca.html)
+* [Avis](https://www.canada.ca/fr/transparence/avis.html)
+* [Confidentialité](https://www.canada.ca/fr/transparence/confidentialite.html)
+
+![Symbole du gouvernement du Canada](https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg)
+
+
+* [Passer au contenu principal](#wb-cont)
+* [Passer à « Au sujet du gouvernement »](#wb-info)
+
+## Sélection de la langue
+
+* [English
+  en](/infosource/canadian-infra-council-membs-conseil-canadien-infra-eng.html)
+
+[![Gouvernement du Canada](/wet/theme-gcweb5/GCWeb/assets/sig-blk-fr.svg) / Government of Canada](https://www.canada.ca/fr.html)
+
+## Recherche
+
+Rechercher dans Canada.ca
+
+Recherche
+
+---
+
+## Menu
+
+Menu principal
+
+* [Emplois et milieu de travail](https://www.canada.ca/fr/services/emplois.html)
+* [Immigration et citoyenneté](https://www.canada.ca/fr/services/immigration-citoyennete.html)
+* [Voyage et tourisme](https://voyage.gc.ca/)
+* [Entreprises et industrie](https://www.canada.ca/fr/services/entreprises.html)
+* [Prestations](https://www.canada.ca/fr/services/prestations.html)
+* [Santé](https://www.canada.ca/fr/services/sante.html)
+* [Impôts](https://www.canada.ca/fr/services/impots.html)
+* [Environnement et ressources naturelles](https://www.canada.ca/fr/services/environnement.html)
+* [Sécurité nationale et défense](https://www.canada.ca/fr/services/defense.html)
+* [Culture, histoire et sport](https://www.canada.ca/fr/services/culture.html)
+* [Services de police, justice et urgences](https://www.canada.ca/fr/services/police.html)
+* [Transport et infrastructure](https://www.canada.ca/fr/services/transport.html)
+* [Canada et le monde](https://www.international.gc.ca/world-monde/index.aspx?lang=fra)
+* [Argent et finances](https://www.canada.ca/fr/services/finance.html)
+* [Science et innovation](https://www.canada.ca/fr/services/science.html)
+* [Gérer les événements de la vie](https://www.canada.ca/fr/services/evenements-vie.html)
+
+## Vous êtes ici :
+
+1. [Canada.ca](https://www.canada.ca/fr.html)
+2. [Logement, Infrastructures et Collectivités Canada](/index-fra.html)
+3. [Accès à l’information et de la protection des renseignements personnels](/pd-dp/atip-aiprp/index-fra.html)
+4. [Renseignement sur les programmes et les fond de renseignements](/infosource/infosource-fra.html)
+
+# Membres du Conseil canadien des infrastructures
+
+**Description :** Ce fichier décrit les renseignements personnels utilisés dans le processus d'identification et de sélection des personnes qui seront nommées au sein du Conseil canadien des infrastructures. Les renseignements personnels peuvent comprendre : le nom complet de la personne, ses coordonnées, sa langue officielle de préférence, sa date de naissance, son pays natal, sa citoyenneté, son sexe, sa situation de famille, son appartenance à un groupe minoritaire, son numéro d'assurance sociale (NAS), un numéro d'identification exclusif (p. ex., un numéro d'employé unique), les modalités de sa nomination, y compris sa rémunération (p. ex., traitement, honoraires, indemnité quotidienne) et ses avantages sociaux, sa signature, ses limitations physiques et toute autre information médicale pertinente, des photographies ou d'autres enregistrements visuels, sa scolarité, sa situation d'emploi, les renseignements sur l'équité en emploi, ses antécédents de travail, ses activités bénévoles, ses affiliations professionnelles, de l'information sur ses cartes de crédit et son établissement bancaire, sa cote de sécurité au gouvernement, des données biographiques (y compris des renseignements sur les membres de sa famille), toute déclaration de conflit d'intérêts, les opinions ou les points de vue sur, ou concernant, des individus, des lettres de référence/de recommandation, la date de nomination, la durée de la nomination et la date de démission, s'il y a lieu.
+
+**Catégorie de personnes :** Les candidats, ainsi que les membres actuels et anciens de conseils, les membres de leur famille, ainsi que les personnes dont le nom a été donné à titre de référence personnelle.
+
+**But :** Les renseignements personnels recueillis sont utilisés à l'appui de l'identification et de la sélection des personnes qui siégeront au Conseil canadien des infrastructures. Ils pourront être utilisés pour conseiller le ministre ou le dirigeant de l'institution fédérale au moment de pourvoir des postes actuellement ou prochainement vacants et pour tenir un répertoire de candidats possibles. Les renseignements personnels servent aussi à gérer l'administration des dépenses (p. ex., les frais de voyage) et les régimes de rémunération et d'avantages sociaux, à évaluer le rendement, à tenir un répertoire des membres actuels et anciens, à enregistrer d'éventuels conflits d'intérêts et toute mesure de conformité nécessaire, ainsi qu'à communiquer avec ces personnes. Le pouvoir de recueillir des renseignements personnels est prévu aux articles 11 et 12 de la  *Loi sur le ministère du Logement, de l'Infrastructure et des Collectivités*.  Le numéro d'assurance sociale est recueilli en vertu de l'article 237 de la *Loi de l'impôt sur le revenu*.
+
+**Utilisations compatibles :** Ces renseignements peuvent être utilisés pour la rédaction de rapports destinés à la haute direction ou à un public plus vaste (p. ex., des rapports annuels), à des fins de planification et d'évaluation et dans du matériel de communication (p. ex., des communiqués ou des biographies) qui peut être diffusé dans de multiples formats, y compris par l'entremise le site Web de LICC. Avec le consentement de la personne, ces renseignements peuvent être communiqués à d'autres institutions du gouvernement du Canada pour des utilisations compatibles avec le mandat du Conseil canadien des infrastructures sur lequel des renseignements personnels sont recueillis et/ou à l'échange de pratiques exemplaires. Les renseignements personnels pourraient être communiqués à l'Agence du revenu du Canada (voir Traitement des déclarations et paiements des particuliers – ARC PPU 005) et, le cas échéant, à la province de Québec aux fins de l'impôt sur le revenu. Les services de fournisseurs tiers peuvent être utilisés dans le cadre du processus de sélection. Les renseignements peuvent également être utilisés ou divulgués à des fins de ressources humaines, de planification ou de gestion de programmes, d'établissement de rapports, de sûreté ou de sécurité, de vérification, d'évaluation, de statistiques, de recherche et/ou d'élaboration de politiques.
+
+**Normes de conservation et de destruction :** Les documents sont conservés pendant cinq ans après la fin ou l'abandon de la mesure de dotation, puis détruits.
+
+**Numéro ADD :** 2021/003
+
+**Numéro de renvoi au document :** LICC DGPR 050
+
+**Enregistrement du SCT :**20250017
+
+**Numéro du fichier :** PPU 020
+
+## Détails de la page
+
+Date de modification :
+:   2025-08-14
+
+## À propos de ce site
+
+### Gouvernement du Canada
+
+* [Toutes les coordonnées](https://www.canada.ca/fr/contact.html)
+* [Ministères et organismes](https://www.canada.ca/fr/gouvernement/min.html)
+* [À propos du gouvernement](https://www.canada.ca/fr/gouvernement/systeme.html)
+
+#### Thèmes et sujets
+
+* [Emplois](https://www.canada.ca/fr/services/emplois.html)
+* [Immigration et citoyenneté](https://www.canada.ca/fr/services/immigration-citoyennete.html)
+* [Voyage et tourisme](https://voyage.gc.ca/)
+* [Entreprises](https://www.canada.ca/fr/services/entreprises.html)
+* [Prestations](https://www.canada.ca/fr/services/prestations.html)
+* [Santé](https://www.canada.ca/fr/services/sante.html)
+* [Impôts](https://www.canada.ca/fr/services/impots.html)
+* [Environnement et ressources naturelles](https://www.canada.ca/fr/services/environnement.html)
+* [Sécurité nationale et défense](https://www.canada.ca/fr/services/defense.html)
+* [Culture, histoire et sport](https://www.canada.ca/fr/services/culture.html)
+* [Services de police, justice et urgences](https://www.canada.ca/fr/services/police.html)
+* [Transport et infrastructure](https://www.canada.ca/fr/services/transport.html)
+* [Le Canada et le monde](https://www.international.gc.ca/world-monde/index.aspx?lang=fra)
+* [Argent et finances](https://www.canada.ca/fr/services/finance.html)
+* [Science et innovation](https://www.canada.ca/fr/services/science.html)
+* [Autochtones](https://www.canada.ca/fr/services/autochtones.html)
+* [Vétérans et militaires](https://www.canada.ca/fr/services/veterans-militaire.html)
+* [Jeunesse](https://www.canada.ca/fr/services/jeunesse.html)
+* [Gérer les événements de la vie](https://www.canada.ca/fr/services/evenements-vie.html)
+
+### Organisation du gouvernement du Canada
+
+* [Médias sociaux](https://www.canada.ca/fr/sociaux.html)
+* [Applications mobiles](https://www.canada.ca/fr/mobile.html)
+* [À propos de Canada.ca](https://canada.ca/fr/gouvernement/a-propos-canada-ca.html)
+* [Avis](https://www.canada.ca/fr/transparence/avis.html)
+* [Confidentialité](https://www.canada.ca/fr/transparence/confidentialite.html)
+
+![Symbole du gouvernement du Canada](https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg)
+
+
+* [Passer au contenu principal](#wb-cont)
+* [Passer à « Au sujet du gouvernement »](#wb-info)
+
+## Sélection de la langue
+
+* [English
+  en](/infosource/grants-subventions-eng.html)
+
+[![Gouvernement du Canada](/wet/theme-gcweb5/GCWeb/assets/sig-blk-fr.svg) / Government of Canada](https://www.canada.ca/fr.html)
+
+## Recherche
+
+Rechercher dans Canada.ca
+
+Recherche
+
+---
+
+## Menu
+
+Menu principal
+
+* [Emplois et milieu de travail](https://www.canada.ca/fr/services/emplois.html)
+* [Immigration et citoyenneté](https://www.canada.ca/fr/services/immigration-citoyennete.html)
+* [Voyage et tourisme](https://voyage.gc.ca/)
+* [Entreprises et industrie](https://www.canada.ca/fr/services/entreprises.html)
+* [Prestations](https://www.canada.ca/fr/services/prestations.html)
+* [Santé](https://www.canada.ca/fr/services/sante.html)
+* [Impôts](https://www.canada.ca/fr/services/impots.html)
+* [Environnement et ressources naturelles](https://www.canada.ca/fr/services/environnement.html)
+* [Sécurité nationale et défense](https://www.canada.ca/fr/services/defense.html)
+* [Culture, histoire et sport](https://www.canada.ca/fr/services/culture.html)
+* [Services de police, justice et urgences](https://www.canada.ca/fr/services/police.html)
+* [Transport et infrastructure](https://www.canada.ca/fr/services/transport.html)
+* [Canada et le monde](https://www.international.gc.ca/world-monde/index.aspx?lang=fra)
+* [Argent et finances](https://www.canada.ca/fr/services/finance.html)
+* [Science et innovation](https://www.canada.ca/fr/services/science.html)
+* [Gérer les événements de la vie](https://www.canada.ca/fr/services/evenements-vie.html)
+
+## Vous êtes ici :
+
+1. [Canada.ca](https://www.canada.ca/fr.html)
+2. [Logement, Infrastructures et Collectivités Canada](/index-fra.html)
+3. [Accès à l’information et de la protection des renseignements personnels](/pd-dp/atip-aiprp/index-fra.html)
+4. [Renseignement sur les programmes et les fond de renseignements](/infosource/infosource-fra.html)
+
+# Subventions et contributions de Logement, Infrastructures et Collectivités Canada
+
+**Description :** Ce fichier décrit les renseignements liés aux demandes traitées et/ou approuvées pour différents programmes de subventions et de contributions de LICC. Les renseignements personnels peuvent inclure un profil biographique, des coordonnées, des étiquettes électroniques, des renseignements financiers, une préférence linguistique, une propriété foncière, un nom, des opinions ou points de vue de personnes ou à leur sujet, et une signature.
+
+**Remarque :** En plus des exigences précisées dans le formulaire de demande des renseignements personnels du Secrétariat du Conseil du Trésor du Canada, les personnes qui soumettent une demande de renseignements décrits dans ce fichier doivent fournir le nom du programme de subventions et de contributions dans le cadre duquel la demande a été soumise ainsi que le nom du demandeur fourni dans la demande.
+
+**Catégorie de personnes :** Des représentants des demandeurs qui soumettent une demande de financement au LICC en subventions et contributions, les propriétaires et les entrepreneurs. Les demandeurs peuvent inclure: les gouvernements municipaux, provinciaux ou territoriaux, les organismes du secteur public ou privé, les établissements postsecondaires publics ou sans but lucratif, et les autochtones qui ont fait une demande d'aide financière et/ou dont la demande a été approuvée.
+
+**But :** Des renseignements personnels sont recueillis en vertu de la *Loi sur le ministère du Logement, de l’Infrastructure et des Collectivités* dans le but d'administrer le programme de subvention et de contribution. L'administration du programme comprend : déterminer l'admissibilité et approuver le financement; évaluer, examiner, analyser et sélectionner les demandes de financement; communiquer avec les demandeurs, surveiller les progrès des projets financés, et verser des paiements.
+
+**Utilisations compatibles :** Il est à noter qu'une fois qu'une entente de financement a est signée, des renseignements généraux sur les projets, notamment le nom du demandeur retenu, la date d'approbation, le montant du financement, la description du projet et le lieu, sont [divulgués au public de manière proactive](https://search.open.canada.ca/en/gc/?sort=agreement_start_date_s%20desc&page=1&search_text=&gc-search-orgs=Infrastructure%20Canadahttps://search.open.canada.ca/en/gc/?sort=agreement_start_date_s%20desc&page=1&search_text=&gc-search-orgs=Infrastructure%20Canada).
+
+Des renseignements peuvent être utilisés ou divulgués aux fins de planification ou de gestion des programmes, de sondages, d'établissement de rapports, de vérification, de données statistiques, d'élaboration de politiques, d'analyse, de recherche, d'évaluation, l’obligation de consulter, de promotion et/ou de communication. Ils peuvent également être divulgués aux représentants d'autres programmes de LICC, aux comités d'un programme précis, à d'autres établissements fédéraux, à des experts externes et/ou à des comités d'examen externes, ainsi qu'à des établissements territoriaux ou provinciaux précis pour: administrer et mener une vérification du programme; aider Logement, Infrastructures et Collectivités Canada à examiner des projets et évaluer les résultats du programme; déterminer l'admissibilité aux termes des autres programmes gouvernementaux; et confirmer le financement fédéral antérieur qui a été sollicité par le demandeur. Les renseignements peuvent être communiqués aux organismes chargés de l’application de la loi lorsque cela est nécessaire aux fins d’une enquête portant sur des cas présumés de fraude ou d’autres activités illégales.
+
+**Évaluation des facteurs relatifs à la vie privée :** Une Évaluation des facteurs relatifs à la vie privée a été effectuée en 2021 pour le Fonds d'atténuation et d'adaptation en matière de catastrophes, le Programme pour les bâtiments communautaires verts et inclusifs, le Fonds de l'infrastructure naturelle, et le Programme permanent pour le transport en commun.
+
+**Normes de conservation et de destruction :** Les dossiers sont retenus pendant 6 années suivant la date de fin du programme.
+
+**Numéro ADD :** 2021-003
+
+**Numéro de renvoi au document :** LICC DGPCI 040, LICC DGPCI 050, LICC DGPCI 060, LICC DGPCI 090, LICC DGPCI 100, LICC DGPCI 300, LICC DGLI 010, LICC DGLI 030, LICC DGLI 090, LICC DGLI 130
+
+**Enregistrement du SCT :** 20210083
+
+**Numéro de du fichier :** LICC PPU 005
+
+## Détails de la page
+
+Date de modification :
+:   2026-01-21
+
+## À propos de ce site
+
+### Gouvernement du Canada
+
+* [Toutes les coordonnées](https://www.canada.ca/fr/contact.html)
+* [Ministères et organismes](https://www.canada.ca/fr/gouvernement/min.html)
+* [À propos du gouvernement](https://www.canada.ca/fr/gouvernement/systeme.html)
+
+#### Thèmes et sujets
+
+* [Emplois](https://www.canada.ca/fr/services/emplois.html)
+* [Immigration et citoyenneté](https://www.canada.ca/fr/services/immigration-citoyennete.html)
+* [Voyage et tourisme](https://voyage.gc.ca/)
+* [Entreprises](https://www.canada.ca/fr/services/entreprises.html)
+* [Prestations](https://www.canada.ca/fr/services/prestations.html)
+* [Santé](https://www.canada.ca/fr/services/sante.html)
+* [Impôts](https://www.canada.ca/fr/services/impots.html)
+* [Environnement et ressources naturelles](https://www.canada.ca/fr/services/environnement.html)
+* [Sécurité nationale et défense](https://www.canada.ca/fr/services/defense.html)
+* [Culture, histoire et sport](https://www.canada.ca/fr/services/culture.html)
+* [Services de police, justice et urgences](https://www.canada.ca/fr/services/police.html)
+* [Transport et infrastructure](https://www.canada.ca/fr/services/transport.html)
+* [Le Canada et le monde](https://www.international.gc.ca/world-monde/index.aspx?lang=fra)
+* [Argent et finances](https://www.canada.ca/fr/services/finance.html)
+* [Science et innovation](https://www.canada.ca/fr/services/science.html)
+* [Autochtones](https://www.canada.ca/fr/services/autochtones.html)
+* [Vétérans et militaires](https://www.canada.ca/fr/services/veterans-militaire.html)
+* [Jeunesse](https://www.canada.ca/fr/services/jeunesse.html)
+* [Gérer les événements de la vie](https://www.canada.ca/fr/services/evenements-vie.html)
+
+### Organisation du gouvernement du Canada
+
+* [Médias sociaux](https://www.canada.ca/fr/sociaux.html)
+* [Applications mobiles](https://www.canada.ca/fr/mobile.html)
+* [À propos de Canada.ca](https://canada.ca/fr/gouvernement/a-propos-canada-ca.html)
+* [Avis](https://www.canada.ca/fr/transparence/avis.html)
+* [Confidentialité](https://www.canada.ca/fr/transparence/confidentialite.html)
+
+![Symbole du gouvernement du Canada](https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg)
+
+
+* [Passer au contenu principal](#wb-cont)
+* [Passer à « Au sujet du gouvernement »](#wb-info)
+
+## Sélection de la langue
+
+* [English
+  en](/infosource/hybrid-monitoring-reporting-surveillance-rapports-hybrides-eng.html)
+
+[![Gouvernement du Canada](/wet/theme-gcweb5/GCWeb/assets/sig-blk-fr.svg) / Government of Canada](https://www.canada.ca/fr.html)
+
+## Recherche
+
+Rechercher dans Canada.ca
+
+Recherche
+
+---
+
+## Menu
+
+Menu principal
+
+* [Emplois et milieu de travail](https://www.canada.ca/fr/services/emplois.html)
+* [Immigration et citoyenneté](https://www.canada.ca/fr/services/immigration-citoyennete.html)
+* [Voyage et tourisme](https://voyage.gc.ca/)
+* [Entreprises et industrie](https://www.canada.ca/fr/services/entreprises.html)
+* [Prestations](https://www.canada.ca/fr/services/prestations.html)
+* [Santé](https://www.canada.ca/fr/services/sante.html)
+* [Impôts](https://www.canada.ca/fr/services/impots.html)
+* [Environnement et ressources naturelles](https://www.canada.ca/fr/services/environnement.html)
+* [Sécurité nationale et défense](https://www.canada.ca/fr/services/defense.html)
+* [Culture, histoire et sport](https://www.canada.ca/fr/services/culture.html)
+* [Services de police, justice et urgences](https://www.canada.ca/fr/services/police.html)
+* [Transport et infrastructure](https://www.canada.ca/fr/services/transport.html)
+* [Canada et le monde](https://www.international.gc.ca/world-monde/index.aspx?lang=fra)
+* [Argent et finances](https://www.canada.ca/fr/services/finance.html)
+* [Science et innovation](https://www.canada.ca/fr/services/science.html)
+* [Gérer les événements de la vie](https://www.canada.ca/fr/services/evenements-vie.html)
+
+## Vous êtes ici :
+
+1. [Canada.ca](https://www.canada.ca/fr.html)
+2. [Logement, Infrastructures et Collectivités Canada](/index-fra.html)
+3. [Accès à l’information et de la protection des renseignements personnels](/pd-dp/atip-aiprp/index-fra.html)
+4. [Renseignement sur les programmes et les fond de renseignements](/infosource/infosource-fra.html)
+
+# Logement, Infrastructures et Collectivités Canada – surveillance et rapports hybrides
+
+**Description :** Cette banque décrit les informations relatives aux activités de surveillance et de présentation de rapports pour la mise en œuvre et la vérification de la Directive du SCT sur la présence prescrite au lieu de travail, ce qui comprend la surveillance proactive du respect par les employés de la politique, les rapports globaux et l’analyse des tendances. Les informations personnelles peuvent inclure le nom, les coordonnées, les renseignements personnels de l’employé, le numéro d’identification de l’employé, les données sur la rotation, les rapports de présence et de congé, les formulaires d’attestation de présence de l’employé et les données de connexion au protocole Internet (IP).
+
+**Catégories de personnes :** Les employés actuels et les anciens employés de Logement, Infrastructures et Collectivités Canada (LICC).
+
+**But :** Les renseignements personnels sont utilisés pour faciliter la mise en œuvre et le respect par LICC de la Directive du SCT sur la présence prescrite au lieu de travail. Les renseignements personnels sont recueillis conformément à l’article 11.1 de la *Loi sur la gestion des finances publiques*.
+
+**Utilisations compatibles :** Les renseignements personnels sont utilisés pour confirmer le lieu de travail des employés et s’assurer qu’ils répondent aux exigences de conformité aux dispositions sur le travail hybride du Ministère. Ces renseignements peuvent servir à gérer la présence dans le lieu de travail, mesurer l’occupation des installations de LICC, garantir la santé et la sécurité des occupants, gérer le personnel, vérifier le respect de la politique et prendre des décisions qui affectent directement les individus dans certains cas de non-respect. Ces renseignements seront partagés avec les gestionnaires directs des employés et d’autres employés de LICC ayant un besoin valable d’en prendre connaissance pour se conformer à la directive sur le travail hybride. Les renseignements seront partagés avec les relations de travail en cas de non-respect des modalités. Les renseignements regroupés seront partagés avec la Direction générale. Les renseignements peuvent également être utilisés ou divulgués à des fins de planification ou de gestion de programmes, d’établissement de rapports, d’analyse des tendances, de sécurité, d’audit, d’évaluation, de statistiques, de recherche et/ou d’élaboration de politiques.
+
+**Normes de conservation et de destruction :** Les renseignements sont conservés pendant deux ans après la dernière mesure administrative, puis détruits.
+
+**Numéro ADD :** 2021/003
+
+**Numéro de renvoi au document :**LICC CSB 010
+
+**Enregistrement du SCT :** 20250010
+
+**Numéro du fichier :** HICC PPE 005
+
+## Détails de la page
+
+Date de modification :
+:   2025-07-09
+
+## À propos de ce site
+
+### Gouvernement du Canada
+
+* [Toutes les coordonnées](https://www.canada.ca/fr/contact.html)
+* [Ministères et organismes](https://www.canada.ca/fr/gouvernement/min.html)
+* [À propos du gouvernement](https://www.canada.ca/fr/gouvernement/systeme.html)
+
+#### Thèmes et sujets
+
+* [Emplois](https://www.canada.ca/fr/services/emplois.html)
+* [Immigration et citoyenneté](https://www.canada.ca/fr/services/immigration-citoyennete.html)
+* [Voyage et tourisme](https://voyage.gc.ca/)
+* [Entreprises](https://www.canada.ca/fr/services/entreprises.html)
+* [Prestations](https://www.canada.ca/fr/services/prestations.html)
+* [Santé](https://www.canada.ca/fr/services/sante.html)
+* [Impôts](https://www.canada.ca/fr/services/impots.html)
+* [Environnement et ressources naturelles](https://www.canada.ca/fr/services/environnement.html)
+* [Sécurité nationale et défense](https://www.canada.ca/fr/services/defense.html)
+* [Culture, histoire et sport](https://www.canada.ca/fr/services/culture.html)
+* [Services de police, justice et urgences](https://www.canada.ca/fr/services/police.html)
+* [Transport et infrastructure](https://www.canada.ca/fr/services/transport.html)
+* [Le Canada et le monde](https://www.international.gc.ca/world-monde/index.aspx?lang=fra)
+* [Argent et finances](https://www.canada.ca/fr/services/finance.html)
+* [Science et innovation](https://www.canada.ca/fr/services/science.html)
+* [Autochtones](https://www.canada.ca/fr/services/autochtones.html)
+* [Vétérans et militaires](https://www.canada.ca/fr/services/veterans-militaire.html)
+* [Jeunesse](https://www.canada.ca/fr/services/jeunesse.html)
+* [Gérer les événements de la vie](https://www.canada.ca/fr/services/evenements-vie.html)
+
+### Organisation du gouvernement du Canada
+
+* [Médias sociaux](https://www.canada.ca/fr/sociaux.html)
+* [Applications mobiles](https://www.canada.ca/fr/mobile.html)
+* [À propos de Canada.ca](https://canada.ca/fr/gouvernement/a-propos-canada-ca.html)
+* [Avis](https://www.canada.ca/fr/transparence/avis.html)
+* [Confidentialité](https://www.canada.ca/fr/transparence/confidentialite.html)
+
+![Symbole du gouvernement du Canada](https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg)
+
+
+* [Passer au contenu principal](#wb-cont)
+* [Passer à « Au sujet du gouvernement »](#wb-info)
+
+## Sélection de la langue
+
+* [English
+  en](/infosource/national-housing-council-membs-conseil-national-logement-eng.html)
+
+[![Gouvernement du Canada](/wet/theme-gcweb5/GCWeb/assets/sig-blk-fr.svg) / Government of Canada](https://www.canada.ca/fr.html)
+
+## Recherche
+
+Rechercher dans Canada.ca
+
+Recherche
+
+---
+
+## Menu
+
+Menu principal
+
+* [Emplois et milieu de travail](https://www.canada.ca/fr/services/emplois.html)
+* [Immigration et citoyenneté](https://www.canada.ca/fr/services/immigration-citoyennete.html)
+* [Voyage et tourisme](https://voyage.gc.ca/)
+* [Entreprises et industrie](https://www.canada.ca/fr/services/entreprises.html)
+* [Prestations](https://www.canada.ca/fr/services/prestations.html)
+* [Santé](https://www.canada.ca/fr/services/sante.html)
+* [Impôts](https://www.canada.ca/fr/services/impots.html)
+* [Environnement et ressources naturelles](https://www.canada.ca/fr/services/environnement.html)
+* [Sécurité nationale et défense](https://www.canada.ca/fr/services/defense.html)
+* [Culture, histoire et sport](https://www.canada.ca/fr/services/culture.html)
+* [Services de police, justice et urgences](https://www.canada.ca/fr/services/police.html)
+* [Transport et infrastructure](https://www.canada.ca/fr/services/transport.html)
+* [Canada et le monde](https://www.international.gc.ca/world-monde/index.aspx?lang=fra)
+* [Argent et finances](https://www.canada.ca/fr/services/finance.html)
+* [Science et innovation](https://www.canada.ca/fr/services/science.html)
+* [Gérer les événements de la vie](https://www.canada.ca/fr/services/evenements-vie.html)
+
+## Vous êtes ici :
+
+1. [Canada.ca](https://www.canada.ca/fr.html)
+2. [Logement, Infrastructures et Collectivités Canada](/index-fra.html)
+3. [Accès à l’information et de la protection des renseignements personnels](/pd-dp/atip-aiprp/index-fra.html)
+4. [Renseignement sur les programmes et les fond de renseignements](/infosource/infosource-fra.html)
+
+# Membres du Conseil national du logement
+
+**Description :** Ce fichier décrit les renseignements personnels utilisés dans le processus d'identification et de sélection des personnes qui seront nommées au sein du Conseil national du logement. Les renseignements personnels peuvent comprendre : le nom complet de la personne, ses coordonnées, sa langue officielle de préférence, sa date de naissance, son pays natal, sa citoyenneté, son sexe, sa situation de famille, son appartenance à un groupe minoritaire, son numéro d'assurance sociale (NAS), un numéro d'identification exclusif (p. ex., un numéro d'employé unique), les modalités de sa nomination, y compris sa rémunération (p. ex., traitement, honoraires, indemnité quotidienne) et ses avantages sociaux, sa signature, ses limitations physiques et toute autre information médicale pertinente, des photographies ou d'autres enregistrements visuels, les enregistrements audio, sa scolarité, sa situation d'emploi, les renseignements sur l'équité en emploi, ses antécédents de travail, ses activités bénévoles, ses affiliations professionnelles, de l'information sur ses cartes de crédit et son établissement bancaire, sa cote de sécurité au gouvernement, des données biographiques (y compris des renseignements sur les membres de sa famille), toute déclaration de conflit d'intérêts, les opinions ou les points de vue sur, ou concernant, des individus et des sujets liés aux problèmes systémiques de logement, l'adresse du protocole Internet, des lettres de référence/de recommandation, la date de nomination, la durée de la nomination et la date de démission, s'il y a lieu.
+
+**Catégorie de personnes :** Les candidats, ainsi que les membres actuels et anciens de conseils, les membres de leur famille, ainsi que les personnes dont le nom a été donné à titre de référence personnelle.
+
+**But :** Les renseignements personnels recueillis sont utilisés à l'appui de l'identification et de la sélection des personnes qui siégeront au Conseil national du logement. Ils pourront être utilisés pour conseiller le ministre ou le dirigeant de l'institution fédérale au moment de pourvoir des postes actuellement ou prochainement vacants et pour tenir un répertoire de candidats possibles. Les renseignements personnels servent aussi à gérer l'administration des dépenses (p. ex., les frais de voyage) et les régimes de rémunération et d'avantages sociaux, à évaluer le rendement, à tenir un répertoire des membres actuels et anciens, à enregistrer d'éventuels conflits d'intérêts et toute mesure de conformité nécessaire, ainsi qu'à communiquer avec ces personnes. Le pouvoir de recueillir des renseignements personnels est prévu aux articles 11 et 12 de la  *Loi sur le ministère du Logement, de l'Infrastructure et des Collectivités*. Le numéro d'assurance sociale est recueilli en vertu de l'article 237 de la *Loi de l'impôt sur le revenu*.
+
+**Utilisations compatibles :** Ces renseignements peuvent être utilisés pour la rédaction de rapports destinés à la haute direction ou à un public plus vaste (p. ex., des rapports annuels), à des fins de planification et d'évaluation et dans du matériel de communication (p. ex., des communiqués ou des biographies) qui peut être diffusé dans de multiples formats, y compris par l'entremise du site Web du CNL. Avec le consentement de la personne, ces renseignements peuvent être communiqués à d'autres institutions du gouvernement du Canada pour des utilisations compatibles avec le mandat du Conseil national du logement sur lequel des renseignements personnels sont recueillis et/ou à l'échange de pratiques exemplaires. Les renseignements personnels pourraient être communiqués à l'Agence du revenu du Canada (voir Traitement des déclarations et paiements des particuliers – ARC PPU 005) et, le cas échéant, à la province de Québec aux fins de l'impôt sur le revenu. Les services de fournisseurs tiers peuvent être utilisés dans le cadre du processus de sélection. Les renseignements peuvent également être utilisés ou divulgués à des fins de ressources humaines, de planification ou de gestion de programmes, d'établissement de rapports, de sûreté ou de sécurité, de vérification, d'évaluation, de statistiques, de recherche et/ou d'élaboration de politiques.
+
+**Normes de conservation et de destruction :** Les documents sont conservés pendant six ans après la fin ou l'abandon de la mesure de dotation, puis détruits.
+
+**Numéro ADD :** 2021/003
+
+**Numéro de renvoi au document :** LICC DGPR 040
+
+**Enregistrement du SCT :**20250038
+
+**Numéro du fichier :** PPU 025
+
+## Détails de la page
+
+Date de modification :
+:   2025-10-02
+
+## À propos de ce site
+
+### Gouvernement du Canada
+
+* [Toutes les coordonnées](https://www.canada.ca/fr/contact.html)
+* [Ministères et organismes](https://www.canada.ca/fr/gouvernement/min.html)
+* [À propos du gouvernement](https://www.canada.ca/fr/gouvernement/systeme.html)
+
+#### Thèmes et sujets
+
+* [Emplois](https://www.canada.ca/fr/services/emplois.html)
+* [Immigration et citoyenneté](https://www.canada.ca/fr/services/immigration-citoyennete.html)
+* [Voyage et tourisme](https://voyage.gc.ca/)
+* [Entreprises](https://www.canada.ca/fr/services/entreprises.html)
+* [Prestations](https://www.canada.ca/fr/services/prestations.html)
+* [Santé](https://www.canada.ca/fr/services/sante.html)
+* [Impôts](https://www.canada.ca/fr/services/impots.html)
+* [Environnement et ressources naturelles](https://www.canada.ca/fr/services/environnement.html)
+* [Sécurité nationale et défense](https://www.canada.ca/fr/services/defense.html)
+* [Culture, histoire et sport](https://www.canada.ca/fr/services/culture.html)
+* [Services de police, justice et urgences](https://www.canada.ca/fr/services/police.html)
+* [Transport et infrastructure](https://www.canada.ca/fr/services/transport.html)
+* [Le Canada et le monde](https://www.international.gc.ca/world-monde/index.aspx?lang=fra)
+* [Argent et finances](https://www.canada.ca/fr/services/finance.html)
+* [Science et innovation](https://www.canada.ca/fr/services/science.html)
+* [Autochtones](https://www.canada.ca/fr/services/autochtones.html)
+* [Vétérans et militaires](https://www.canada.ca/fr/services/veterans-militaire.html)
+* [Jeunesse](https://www.canada.ca/fr/services/jeunesse.html)
+* [Gérer les événements de la vie](https://www.canada.ca/fr/services/evenements-vie.html)
+
+### Organisation du gouvernement du Canada
+
+* [Médias sociaux](https://www.canada.ca/fr/sociaux.html)
+* [Applications mobiles](https://www.canada.ca/fr/mobile.html)
+* [À propos de Canada.ca](https://canada.ca/fr/gouvernement/a-propos-canada-ca.html)
+* [Avis](https://www.canada.ca/fr/transparence/avis.html)
+* [Confidentialité](https://www.canada.ca/fr/transparence/confidentialite.html)
+
+![Symbole du gouvernement du Canada](https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg)
+
+
+* [Passer au contenu principal](#wb-cont)
+* [Passer à « Au sujet du gouvernement »](#wb-info)
+
+## Sélection de la langue
+
+* [English
+  en](/infosource/rki-irc-eng.html)
+
+[![Gouvernement du Canada](/wet/theme-gcweb5/GCWeb/assets/sig-blk-fr.svg) / Government of Canada](https://www.canada.ca/fr.html)
+
+## Recherche
+
+Rechercher dans Canada.ca
+
+Recherche
+
+---
+
+## Menu
+
+Menu principal
+
+* [Emplois et milieu de travail](https://www.canada.ca/fr/services/emplois.html)
+* [Immigration et citoyenneté](https://www.canada.ca/fr/services/immigration-citoyennete.html)
+* [Voyage et tourisme](https://voyage.gc.ca/)
+* [Entreprises et industrie](https://www.canada.ca/fr/services/entreprises.html)
+* [Prestations](https://www.canada.ca/fr/services/prestations.html)
+* [Santé](https://www.canada.ca/fr/services/sante.html)
+* [Impôts](https://www.canada.ca/fr/services/impots.html)
+* [Environnement et ressources naturelles](https://www.canada.ca/fr/services/environnement.html)
+* [Sécurité nationale et défense](https://www.canada.ca/fr/services/defense.html)
+* [Culture, histoire et sport](https://www.canada.ca/fr/services/culture.html)
+* [Services de police, justice et urgences](https://www.canada.ca/fr/services/police.html)
+* [Transport et infrastructure](https://www.canada.ca/fr/services/transport.html)
+* [Canada et le monde](https://www.international.gc.ca/world-monde/index.aspx?lang=fra)
+* [Argent et finances](https://www.canada.ca/fr/services/finance.html)
+* [Science et innovation](https://www.canada.ca/fr/services/science.html)
+* [Gérer les événements de la vie](https://www.canada.ca/fr/services/evenements-vie.html)
+
+## Vous êtes ici :
+
+1. [Canada.ca](https://www.canada.ca/fr.html)
+2. [Logement, Infrastructures et Collectivités Canada](/index-fra.html)
+3. [Accès à l’information et de la protection des renseignements personnels](/pd-dp/atip-aiprp/index-fra.html)
+4. [Renseignement sur les programmes et les fond de renseignements](/infosource/infosource-fra.html)
+
+# Initiative de recherche et de connaissances
+
+**Description :** Le présent fichier décrit les renseignements liés aux demandes traitées ou approuvées en vue d'un financement dans le cadre de l'Initiative de recherche et de connaissances. Les renseignements personnels peuvent comprendre des données biographiques, les coordonnées, des renseignements sur les études, des étiquettes électroniques, des renseignements sur l'équité en emploi, des renseignements financiers, les préférences linguistiques, le nom, des opinions ou des avis de la part ou au sujet de personnes, des photos d'individus, la signature et le numéro d'assurance sociale.
+
+**Remarque :** En plus de devoir remplir le « Formulaire de demande de renseignements personnels » du Secrétariat du Conseil du Trésor, les particuliers désireux d'accéder aux renseignements de ce fichier doivent indiquer le nom du demandeur inscrit dans la demande et le programme de financement.
+
+**Catégorie de personnes :** Les demandeurs, y compris les individus qui demandent une subvention ou une contribution de LICC, les personnes-ressources principales, les personnes-ressources secondaires et les références. Les demandeurs sont notamment des individus, des gouvernements municipaux, provinciaux ou territoriaux, des organismes des secteurs public et privé, des établissements postsecondaires publics ou à but non lucratif, et des groupes autochtones qui ont demandé ou obtenu une aide financière dans le cadre de la présente initiative.
+
+**But :** Les renseignements personnels sont recueillis de la *Loi sur le ministère du Logement, de l’Infrastructure et des Collectivités* afin d'évaluer les demandes et d'administrer l'Initiative de recherche et de connaissances. L'administration du programme comprend la détermination de l'admissibilité et l'approbation du financement; l'évaluation, l'examen et la sélection des demandes de financement; la correspondance avec les demandeurs, le suivi des progrès des projets financés et l'émission de paiements.
+
+**Usages compatibles :** Les renseignements peuvent être utilisés ou divulgués à des fins de planification ou de gestion de programmes, de production de rapports, de vérification, de statistiques, d'élaboration de politiques, d'analyse, de recherche, d'évaluation, de promotion ou de communication. Ils peuvent également être divulgués à d'autres programmes de LICC, à certains comités de programmes, à d'autres institutions fédérales, à des experts externes, à certaines institutions provinciales et territoriales en vue d'administrer et de vérifier le programme; d'aider Logement, Infrastructures et Collectivités Canada à examiner et à évaluer des projets; de déterminer l'admissibilité à d'autres programmes gouvernementaux; et de confirmer le financement fédéral antérieur qui a été sollicité par le demandeur.
+
+**Évaluation des facteurs relatifs à la vie privée :** Une évaluation des facteurs relatifs à la vie privée a été réalisée en 2021 pour l'Initiative de recherche et de connaissances.
+
+**Normes de conservation et de destruction :** Les dossiers sont conservés pendant 6 ans après la date de clôture du programme.
+
+**Numéro ADD :** 2021-003
+
+**Numéro de renvoi au document :** LICC DGPR 020
+
+**Enregistrement au SCT :** 20230005
+
+**Numéro de fichier :** LICC PPU 010
+
+## Détails de la page
+
+Date de modification :
+:   2024-08-06
+
+## À propos de ce site
+
+### Gouvernement du Canada
+
+* [Toutes les coordonnées](https://www.canada.ca/fr/contact.html)
+* [Ministères et organismes](https://www.canada.ca/fr/gouvernement/min.html)
+* [À propos du gouvernement](https://www.canada.ca/fr/gouvernement/systeme.html)
+
+#### Thèmes et sujets
+
+* [Emplois](https://www.canada.ca/fr/services/emplois.html)
+* [Immigration et citoyenneté](https://www.canada.ca/fr/services/immigration-citoyennete.html)
+* [Voyage et tourisme](https://voyage.gc.ca/)
+* [Entreprises](https://www.canada.ca/fr/services/entreprises.html)
+* [Prestations](https://www.canada.ca/fr/services/prestations.html)
+* [Santé](https://www.canada.ca/fr/services/sante.html)
+* [Impôts](https://www.canada.ca/fr/services/impots.html)
+* [Environnement et ressources naturelles](https://www.canada.ca/fr/services/environnement.html)
+* [Sécurité nationale et défense](https://www.canada.ca/fr/services/defense.html)
+* [Culture, histoire et sport](https://www.canada.ca/fr/services/culture.html)
+* [Services de police, justice et urgences](https://www.canada.ca/fr/services/police.html)
+* [Transport et infrastructure](https://www.canada.ca/fr/services/transport.html)
+* [Le Canada et le monde](https://www.international.gc.ca/world-monde/index.aspx?lang=fra)
+* [Argent et finances](https://www.canada.ca/fr/services/finance.html)
+* [Science et innovation](https://www.canada.ca/fr/services/science.html)
+* [Autochtones](https://www.canada.ca/fr/services/autochtones.html)
+* [Vétérans et militaires](https://www.canada.ca/fr/services/veterans-militaire.html)
+* [Jeunesse](https://www.canada.ca/fr/services/jeunesse.html)
+* [Gérer les événements de la vie](https://www.canada.ca/fr/services/evenements-vie.html)
+
+### Organisation du gouvernement du Canada
+
+* [Médias sociaux](https://www.canada.ca/fr/sociaux.html)
+* [Applications mobiles](https://www.canada.ca/fr/mobile.html)
+* [À propos de Canada.ca](https://canada.ca/fr/gouvernement/a-propos-canada-ca.html)
+* [Avis](https://www.canada.ca/fr/transparence/avis.html)
+* [Confidentialité](https://www.canada.ca/fr/transparence/confidentialite.html)
+
+![Symbole du gouvernement du Canada](https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg)
+
+
+* [Passer au contenu principal](#wb-cont)
+* [Passer à « Au sujet du gouvernement »](#wb-info)
+
+## Sélection de la langue
+
+* [English
+  en](/infosource/staffing-dotation-eng.html)
+
+[![Gouvernement du Canada](/wet/theme-gcweb5/GCWeb/assets/sig-blk-fr.svg) / Government of Canada](https://www.canada.ca/fr.html)
+
+## Recherche
+
+Rechercher dans Canada.ca
+
+Recherche
+
+---
+
+## Menu
+
+Menu principal
+
+* [Emplois et milieu de travail](https://www.canada.ca/fr/services/emplois.html)
+* [Immigration et citoyenneté](https://www.canada.ca/fr/services/immigration-citoyennete.html)
+* [Voyage et tourisme](https://voyage.gc.ca/)
+* [Entreprises et industrie](https://www.canada.ca/fr/services/entreprises.html)
+* [Prestations](https://www.canada.ca/fr/services/prestations.html)
+* [Santé](https://www.canada.ca/fr/services/sante.html)
+* [Impôts](https://www.canada.ca/fr/services/impots.html)
+* [Environnement et ressources naturelles](https://www.canada.ca/fr/services/environnement.html)
+* [Sécurité nationale et défense](https://www.canada.ca/fr/services/defense.html)
+* [Culture, histoire et sport](https://www.canada.ca/fr/services/culture.html)
+* [Services de police, justice et urgences](https://www.canada.ca/fr/services/police.html)
+* [Transport et infrastructure](https://www.canada.ca/fr/services/transport.html)
+* [Canada et le monde](https://www.international.gc.ca/world-monde/index.aspx?lang=fra)
+* [Argent et finances](https://www.canada.ca/fr/services/finance.html)
+* [Science et innovation](https://www.canada.ca/fr/services/science.html)
+* [Gérer les événements de la vie](https://www.canada.ca/fr/services/evenements-vie.html)
+
+## Vous êtes ici :
+
+1. [Canada.ca](https://www.canada.ca/fr.html)
+2. [Logement, Infrastructures et Collectivités Canada](/index-fra.html)
+3. [Accès à l’information et de la protection des renseignements personnels](/pd-dp/atip-aiprp/index-fra.html)
+4. [Renseignement sur les programmes et les fond de renseignements](/infosource/infosource-fra.html)
+
+# Dotation de Logement, Infrastructures et Collectivités Canada
+
+**Description :** Ce fichier décrit les renseignements liés aux activités de recrutement et de dotation, y compris les demandes d'emploi sollicitées et non sollicitées, la collecte de curriculum vitæ par l’entremise d’outils de recrutement tiers et les reclassifications de postes, les détachements, les mutations ou autres affectations ou modalités de travail au sein des institutions fédérales. Les renseignements personnels peuvent comprendre le nom, les coordonnées, les résultats des analyses/tests, les renseignements biographiques, le statut de citoyen, la date et le lieu de naissance, les renseignements sur les études, le numéro d'identification d'employé, des renseignements sur l'équité en emploi, les renseignements qui figurent au dossier de l'employé, les renseignements financiers, la compétence dans les langues officielles, les renseignements médicaux, les opinions et les points de vue sur, ou concernant, des individus, les signatures, les « étiquettes » électroniques, le sexe, les attributs physiques et les photos/vidéos.
+
+**Remarque :** Les personnes qui demandent des renseignements décrits dans ce fichier doivent fournir un numéro de concours, s'il y a lieu. Une ÉFVP a été effectuée sur les outils de dotation en ligne en 2021 et une ÉFVP subséquente a été réalisée pour LinkedIn Recruiter en 2025.
+
+**Catégories de personnes :** Les employés de l'institution, les personnes qui postulent à un emploi au sein de LICC — y compris par le biais d’initiatives de recrutement —, d’autres personnes qui ont rendu leurs informations publiques sur des outils de recrutement en ligne ainsi que les personnes qui fournissent des références ou sont des superviseurs des demandeurs.
+
+**But :** Les renseignements personnels sont utilisés pour administrer les activités de recrutement et de dotation, ce qui comprend la tenue à jour d'un inventaire de candidats éventuels pour de futures mesures de dotation. Les renseignements personnels sont recueillis en vertu de la *Loi sur le ministère du Logement, de l’Infrastructure et des Collectivités*, la *Loi sur l'emploi dans la fonction publique*, la *Loi sur l'équité en matière d'emploi*, et la *Loi canadienne sur les droits de la personne* (article 16).
+
+**Utilisations compatibles** : Les renseignements peuvent être divulgués à la Commission de la fonction publique, au Secrétariat du Conseil du Trésor et aux autres institutions fédérales à des fins de recrutement, d'équité en matière d'emploi et de dotation, y compris les plaintes (voir les Fichiers de renseignements personnels spécifiques à l'institution : pour la Commission de la fonction publique du Canada : [Répertoire des candidat(e)s et présentations – CFP PPU 015](https://www.canada.ca/fr/commission-fonction-publique.html); [Évaluation par le Centre de psychologie du personnel – CFP PCU 025](https://www.canada.ca/fr/commission-fonction-publique.html), [Résultats aux tests d'évaluation de langue seconde (ELS) – CFP PPU 030](https://www.canada.ca/fr/commission-fonction-publique.html), [Dotation des cadres de direction – CFP PCE 746](https://www.canada.ca/fr/commission-fonction-publique.html), [Cadre analytique – CFP PCE 761](https://www.canada.ca/fr/commission-fonction-publique.html), et [Enquêtes, médiation, conciliation – CFP PPU 010](https://www.canada.ca/fr/commission-fonction-publique.html); pour le Secrétariat du Conseil du Trésor du Canada : [Banque de données sur l'équité en matière d'emploi – SCT PCE 739](http://www.tbs-sct.gc.ca/atipo-baiprp/sfg-srg/sfg-srg00-fra.asp) et [Système de surveillance du réaménagement des effectifs (SSRE) – SCT PCE 804](http://www.tbs-sct.gc.ca/atipo-baiprp/sfg-srg/sfg-srg00-fra.asp)). Les renseignements liés aux plaintes de dotation peuvent être partagés avec la Commission de la fonction publique (voir le Fichier de renseignements personnels spécifique à l'institution [Enquêtes, médiation, conciliation – CFP PPU 010](https://www.canada.ca/fr/commission-fonction-publique.html)) et le Tribunal de la dotation de la fonction publique, au besoin. Sur demande, certains renseignements peuvent être divulgués à un participant d'un processus de dotation. Les renseignements peuvent également être partagés avec des fournisseurs de services tiers pour gérer des initiatives de recrutement et de dotation. Les renseignements peuvent également être utilisés ou divulgués pour les études et la planification des ressources humaines (voir le Fichier de renseignements personnels ordinaire [Planification des ressources humaines – POU 935](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou935)). Les décisions en matière de dotation peuvent également être décrites dans le fichier de renseignements personnels ordinaires, [Dossier personnel d'un employé – POE 901](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe901). Les renseignements sur l'auto-identification volontaire liés aux services et aux programmes d'équité en matière d'emploi sont également décrits dans le Fichier de renseignements personnels ordinaire [Équité en emploi et diversité – POE 918](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe918). Certains renseignements sur les reclassifications peuvent être divulgués de façon proactive dans les sites Web des institutions gouvernementales. Les renseignements peuvent également être utilisés ou divulgués à des fins de planification ou de gestion de programme, de production de rapports, de sûreté ou de sécurité, d'audit, d'évaluation, de statistiques, de recherche ou d'élaboration de politiques.
+
+**Normes de conservation et de destruction :** Les dossiers des candidats retenus pour des postes au LICC seront conservés pendant cinq ans après la conclusion ou l’abandon du processus de dotation, puis détruits. Les dossiers des candidats non retenus pour des postes au LICC seront conservés pendant deux ans après la dernière mesure administrative, puis détruits.
+
+**Numéro ADD :** 2021/003
+
+**Numéro de renvoi au document :** [NDP 919](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#npd919) et [NDP 920](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#npd920)
+
+**Enregistrement du SCT :** 20230008
+
+**Numéro du fichier :** LICC PPU 015
+
+## Détails de la page
+
+Date de modification :
+:   2026-01-28
 
 ## À propos de ce site
 

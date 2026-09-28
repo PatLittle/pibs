@@ -796,42 +796,1144 @@ Historical programs and activities, listed below, have closed (meaning that ther
 
 ---
 
-Report a problem on this page
+### Internal services
 
-Please select all that apply:
+Internal services are groups of related activities and resources that are administered to support the needs of programs and other corporate obligations of an organization. These groups are: [Acquisitions](#Acquisitions); [Communications services](#Communications-Services); [Financial management](#Financial-Management); [Human resources management](#Human-Resources-Management); [Information management](#Information-Management); [Information technology](#Information-Technology); [Legal-services](#Legal-Services); [Management and oversight services](#Management-Oversight-Services); [Materiel](#Materiel); [Real property](#Real-Property); [Travel and other administrative services](#Travel). Internal services include only those activities and resources that apply across an organization and not to those provided specifically to a program.
 
-[ ] Something is broken
+#### Acquisitions
 
-Provide more details (optional):
+Acquisition services involve activities undertaken to acquire a good or service to fulfill a properly completed request (including a complete and accurate definition of requirements and certification that funds are available) until entering into or amending a contract.
 
-[ ] The page has spelling or grammar mistakes
+* [Procurement and Contracting Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn912)
 
-Provide more details (optional):
++ [Professional Services Contracts Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu912)
 
-[ ] The information is wrong
+#### Communications services
 
-Provide more details (optional):
+Communications services involve activities undertaken to ensure that Government of Canada communications are effectively managed, well-coordinated and responsive to the diverse information needs of the public. The communications management function ensures that the public—internal or external—receives government information, and that the views and concerns of the public are taken into account in the planning, management and evaluation of policies, programs, services and initiatives.
 
-[ ] The information is outdated
+* [Communications Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn939)
 
-Provide more details (optional):
++ [Internal Communications Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu915)
++ [Public Communications Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu914)
 
-[ ] I can’t find what I’m looking for
+#### Financial management
 
-Describe what you’re looking for (optional):
+Financial management services involve activities undertaken to ensure the prudent use of public resources, including planning, budgeting, accounting, reporting, control and oversight, analysis, decision support and advice, and financial systems.
 
-[ ] Other
+* [Financial Management Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn914)
 
-Provide more details (optional):
++ [Accounts Payable Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu931)
++ [Accounts Receivable Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu932)
++ [Acquisition Cards Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu940)
 
-Submit
+#### Human resources management services
 
-### Thank you for your help!
+Human resources management services involve activities undertaken for determining strategic direction, allocating resources among services and processes, as well as activities relating to analyzing exposure to risk and determining appropriate countermeasures. They ensure that the service operations and programs of the federal government comply with applicable laws, regulations, policies and plans.
 
-You will not receive a reply. For enquiries, please [contact us](/contact/index-eng.html).
+* [Awards (Pride and Recognition) Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn940)
+
++ [Recognition Program Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#pse920)
+
+* [Classification of Positions Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn919)
+
++ [HICC Staffing Personal Information Bank](/infosource/staffing-dotation-eng.html)
+
+* [Compensation and Benefits Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn941)
+
++ [Attendance and Leave Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#pse903)
++ [Pay and Benefits Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#pse904)
+
+* [Employment Equity and Diversity Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn942)
+
++ [Employment Equity and Diversity Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#pse918)
+
+* [Hospitality Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn933)
+
++ [Hospitality Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu908)
+
+* [Human Resources Planning Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn949)
+
++ [Human Resources Planning Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu935)
++ [Workplace Day Care Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#pse930)
+
+* [Labour Relations Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn926)
+
++ [Canadian Human Rights Act – Complaints Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu933)
++ [Discipline Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#pse911)
++ [Grievances Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#pse910)
++ [Harassment and Violence Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#pse919)
++ [Disclosure of Wrongdoing in the Workplace Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu906)
++ [Values and Ethics Codes for the Public Sector and Organizational Code(s) of Conduct Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#pse915)
+
+* [Occupational Health and Safety Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn922)
+
++ [Employee Assistance Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#pse916)
++ [Harassment and Violence Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#pse919)
++ [Occupational Health and Safety Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#pse907)
++ [Vehicle, Ship, Boat and Aircraft Accidents Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#pse908)
+
+* [Official Languages Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn923)
+
++ [Official Languages Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#pse906)
+
+* [Performance Management Reviews Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn946)
+
++ [Discipline Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#pse911)
++ [Employee Performance Management Program Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#pse912)
+
+* [Recruitment and Staffing Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn920)
+
++ [Applications for Employment Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu911)
++ [Employee Personnel Record Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#pse901)
++ [EX Talent Management Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu934)
++ [Personnel Security Screening Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu917)
++ [HICC Staffing Personal Information Bank](/infosource/staffing-dotation-eng.html)
++ [Values and Ethics Codes for the Public Sector and Organizational Code(s) of Conduct Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#pse915)
+
+* [Relocation Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn936)
+
++ [Relocation Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu910)
+
+* [Training and Development Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn927)
+
++ [Training and Development Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#pse905)
+
+#### Information management
+
+Information management services involve activities undertaken to achieve efficient and effective information management to support program and service delivery; foster informed decision making; facilitate accountability, transparency and collaboration; and preserve and ensure access to information and records for the benefit of present and future generations.
+
+* [Access to Information and Privacy Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn930)
+
++ [*Access to Information Act* and *Privacy Act* Requests Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu901)
+
+* [Information Management Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn944)
+
++ [Library Services Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu936)
+
+#### Information technology
+
+Information technology services involve activities undertaken to achieve efficient and effective use of information technology to support government priorities and program delivery, to increase productivity, and to enhance services to the public.
+
+* [Information Technology Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn932)
+
++ [Electronic Network Monitoring Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu905)
+
+#### Legal services
+
+Legal services involve activities undertaken to enable government departments and agencies to pursue policy, program and service delivery priorities and objectives within a legally sound framework.
+
+* [Legal Services Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn902)
+
+#### Management and oversight services
+
+Management and oversight services involve activities undertaken for determining strategic direction and allocating resources among services and processes, as well as those activities related to analyzing exposure to risk and determining appropriate countermeasures. They ensure that the service operations and programs of the federal government comply with applicable laws, regulations, policies or plans.
+
+* [Cooperation and Liaison Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn904)
+
++ [*Lobbying Act* Requirements Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu937)
++ [Outreach Activities Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu938)
+
+* [Executive Services Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn943)
+
++ [Executive Correspondence Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu902)
+
+* [Internal Audit and Evaluation Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn916)
+
++ [Evaluation Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu942)
++ [Internal Audit Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu941)
+
+* [Planning and Reporting Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn947)
+
+#### Materiel
+
+Materiel services involve activities undertaken to ensure that materiel can be managed by departments in a sustainable and financially responsible manner that supports the cost-effective and efficient delivery of government programs.
+
+* [Materiel Management Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn945)
+
++ [Vehicle, Ship, Boat and Aircraft Accidents Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#pse908)
+
+#### Real property
+
+Real property services involve activities undertaken to ensure that real property is managed in a sustainable and financially responsible manner, throughout its life cycle, to support the cost-effective and efficient delivery of government programs.
+
+* [Real Property Management Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn948)
+
++ [Real Property Management Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu914a)
+
+#### Travel and other administrative services
+
+Travel and other administrative services include Government of Canada travel services, as well as those other internal services that do not smoothly fit with any of the internal services categories.
+
+* [Administrative Services Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn901)
+
++ [Parking Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#pse914)
+
+* [Boards, Committees and Council Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn938)
+
++ [Governor in Council Appointments Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu918)
++ [Members of Boards, Committees and Councils Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu919)
+
+* [Business Continuity Planning Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn928)
+
++ [Business Continuity Planning Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu903)
+
+* [Disclosure to Investigative Bodies Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn937)
+
++ [Disclosure to Investigative Bodies Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu913)
+
+* [Proactive Disclosure Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn935)
+
++ [Hospitality Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu908)
++ [Travel Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu909)
+
+* [Security Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn931)
+
++ [Disclosure of Wrongdoing in the Workplace Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu906)
++ [Personnel Security Screening Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu917)
++ [Physical Access Controls Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu907)
++ [Security Incidents and Privacy Breaches Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu939)
+
+* [Travel Class of Record](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn934)
+
++ [Travel Personal Information Bank](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu909)
+
+#### Institution-specific internal services
+
+##### Accessibility Hub
+
+**Description:** Records relate to the Accessibility Hub providing guidance, support and expertise about accessibility to employees and managers, promoting best practices, sharing knowledge and raising awareness about accessibility, and accelerating departmental actions to address barriers to ensure HICC meets *Accessible Canada Act* (ACA) obligations.
+
+**Document types:** Briefing notes, checklists, contracts, correspondence, employee newsletter articles and staff messages, event scenario notes, feedback questionnaires, key messages, guidelines, meeting agendas and minutes, presentations, procedures, promotional material, questions and answers, records of discussion, social media content, speaking points and notes, statements of work, surveys, templates, terms of reference, triannual accessibility plans, Web content.
+
+**Disclosure summaries:** No third-party disclosure has occurred.
+
+**Record number:** HICC CSB 030
+
+[Accessibility Hub Personal Information Bank](/infosource/accessibility-hub-pib-carrefour-de-accessibilite-frp-eng.html)
+
+##### Anti-Racism, Equity, and Inclusion
+
+**Description:** Records relate to the Anti-Racism, Equity, and Inclusion Secretariat's offerings of strategic guidance, oversight, and awareness-building initiatives across the department to address systemic barriers and racism while enhancing equity and inclusion. This includes records related to supporting the Clerk's Call to Action (CCTA) on Anti-Racism, Equity, and Inclusion by providing internal advice and co-facilitating CCTA working groups.
+
+**Document types:** Annual progress reports, briefing notes, checklists, contracts, correspondence, employee newsletter articles and staff messages, event scenario notes, guidelines, key messages, meeting agenda and minutes, presentations, procedures, promotional material, questions and answers, questionnaires, records of discussion, social media content, speaking points/notes, statements of work, templates, terms of reference, Web content.
+
+**Disclosure summaries:** No third-party disclosure has occurred.
+
+**Record number:** HICC IPI 150
+
+##### Canadian Infrastructure Council
+
+**Description:** Records relate to the administration of the Canadian Infrastructure Council (Council) and national infrastructure assessments. This includes records related to the establishment, functions and management of the Council, engagement and public outreach led by the Council, and administrative support provided by HICC to assist the Council in performing its duties and functions. Records also include data, research and analysis to identify the needs and priorities for Canada's infrastructure, to support the Council in performing its functions and to produce national infrastructure assessments.
+
+**Document types:** Annotated bibliographies, applications, appointment letters, attendance reports, backgrounders, biographies, briefing notes, business cases, charters, communications, consent forms, contracts, correspondence, expenditure reports, financial management reports, guidelines, governance documents, Indigenous consultations, invoices, key messages, media lines, meeting agendas, memos and issue notes, ministerial advice and recommendations, minutes and records of decision, monitoring reports, news releases, newsletters, notices of intent, operational policies, participant guides, payment documentation, payment requisitions, presentations, procedures, proposals, public announcements, publications, questions and answers, receipts and vouchers, research and analytical reports, resource guides, scenario notes, speaking notes, stakeholder written submissions, statements of work, surveys, templates, terms of reference, transcripts, translation requests, Treasury Board submissions, web content, work plans**.**
+
+**Disclosure summaries:**No third-party disclosure has occurred.
+
+**Record number:**HICC PRB 050
+
+[Members of the Canadian Infrastructure Council Personal Information Bank](/infosource/canadian-infra-council-membs-conseil-canadien-infra-eng.html)
+
+##### Data Science
+
+**Description:** Records relate to the Data Science Team providing capacity and support services for advanced data analytics and artificial intelligence (AI) projects. This includes records related the Data Science Team partnering with clients to produce advanced analytic and AI models, outputs and dashboards that are used and maintained by clients once completed.
+
+**Document types:** Agreements, analytical reports, backgrounders, briefing notes, business cases, correspondence, Crown corporation annual reports, dashboards, datasets, delegations of authority, guidelines, meeting agendas and minutes, memoranda of understanding, plans, presentations, procedures, project and reporting data, project listing for communications, project reports, project reviews and evaluations, project risk analyses, project summaries, projects submissions, publications, question period cards, questions and answers, records of decision, records of discussion, reports, risk assessments, scenario notes, scopes of work, speaking notes, statistical analyses, studies, surveys, templates, terms of reference, transcripts**.**
+
+**Disclosure summaries:** No third-party disclosure has occurred.
+
+**Record number:** HICC CSB 010
+
+##### Hybrid Monitoring and Reporting
+
+**Description:** Records relate to HICC's monitoring and reporting activities in support of the implementation and verification of HICC's hybrid requirements and in alignment with the Treasury Board of Canada [Direction on prescribed presence in the workplace](https://www.canada.ca/en/government/publicservice/staffing/direction-prescribed-presence-workplace.html).
+
+**Document types:** Agreements, analytical reports, backgrounders, briefing notes, business cases, correspondence, dashboards, datasets, guidelines, plans, policies, presentations, procedures, publications, question period cards, questions and answers, risk assessments, scenario notes, scopes of work, statistical analyses, strategies and progress reports.
+
+**Disclosure summaries:** No third-party disclosure has occurred.
+
+**Record number:** HICC CSB 020
+
+[HICC Hybrid Monitoring and Reporting Personal Information Bank](/infosource/hybrid-monitoring-reporting-surveillance-rapports-hybrides-eng.html)
+
+**National Housing Council**
+
+**Description:** Records relate to the administration of the National Housing Council. This includes records related to providing advice to the Minister responsible for housing on the effectiveness of the National Housing Strategy, Review Panels on systemic housing issues at the request of the Federal Housing Advocate and administrative services and facilities provided by HICC to assist the National Housing Council in performing its duties and functions.
+
+**Document types:** Annual expenditure reports, applications, appointment letters, attendance reports, backgrounders, biographies, briefing notes, business cases, charters, communications, consent forms, contracts, correspondence, expenditure reports, financial management reports, governance documents, guidelines, hearing plans, Indigenous consultations, invoices, issue notes, key messages, meeting agendas and minutes, meeting documents, meeting summaries, monitoring reports, news releases, newsletters, notices of intent, operational policies, participant guides, payment documentation, payment requisitions, presentations, procedures, proposals, public announcements, publications, questions and answers, receipts and vouchers, recommendations to the minister, recordings, records of decision, research reports, resource guides, scenario notes, social media content, speaking notes, statements of work, surveys, templates, terms of reference, testimonials, transcripts, videos, written and oral participant submissions and associated datasets.
+
+**Disclosure summaries:**No third-party disclosure has occurred.
+
+**Record number:**HICC PRB 040
+
+[Members of the National Housing Council Personal Information Bank](/infosource/national-housing-council-membs-conseil-national-logement-eng.html)
+
+---
+
+## Classes of personal information
+
+Classes of personal information describe personal information which is not used for administrative purposes (a decision-making process that directly affects the individual to whom the personal information pertains) nor is it intended to be retrievable by personal identifiers. To access this type of information, specifics must be provided concerning the subject matter, related program activity or project, date on which the information was received by the Department, and official to whom it was addressed.
+
+#### Grant and contribution programs
+
+This class includes personal information used in support of HICC grant and contribution programs collected from organizations, municipalities, provinces, territories, Indigenous groups, the private sector and advisory groups. Personal information under this class is not used for administrative purposes (a decision-making process that directly affects the individual to whom the personal information pertains). This personal information may be shared within HICC and with other federal institutions and provincial and municipal governments in order to administer and audit the programs. Program information, including personal information under this class, is usually organized and retrievable by project name. The length of time that this personal information must be retained by HICC and the manner in which it can be disposed of is the same as other records related to the program and is set out in HICC's retention and disposition schedules.
+
+---
+
+## Manuals
+
+For the purpose of *Info Source*, manuals are defined as instructions, handbooks or procedures used by employees to carry out institutional programs or activities that affect the general public. Manuals that meet this definition at Housing, Infrastructure and Communities Canada include:
+
+* [Canada Healthy Communities Initiative Applicant Guide](/chci-iccs/applicant-guide-candidat-eng.html)
+* [Canada Rental Protection Fund - Call for Applications: Applicant Guide](/housing-logement/crpf-fcpl/applicant-guide-demandeur-eng.html)
+* [Climate Lens General Guidance](/pub/other-autre/cl-occ-eng.html)
+* [Community Employment Benefits General Guidance](/pub/other-autre/ceb-ace-eng.html)
+* [Consulting Indigenous Peoples](https://www.infrastructure.gc.ca/prog/indigenous-consult-autochtones-eng.html?wbdisable=true)
+* [Disaster Mitigation and Adaptation Fund (DMAF) Applicant Guide](https://www.infrastructure.gc.ca/dmaf-faac/applicant-guide-demandeur-eng.html)
+* [Green and Inclusive Community Buildings (GICB) Program Application Guide](/alt-format/pdf/gicb-bcvi/GICB-Applicant-Guide-BCVI-Guide-du-demandeur-EN.pdf) (385.43 KB)
+* [Reaching Home: Canada's Homelessness Strategy Directives](/homelessness-sans-abri/directives-eng.html)
+* [Research and Knowledge Initiative (RKI) Applicant Guide](/alt-format/pdf/rki-irc/rki-irc-applicant-guide-demandeur-eng.pdf) (386.90 KB)
+* [Short-Term Rental Enforcement Fund: Applicant guide](/housing-logement/stref-farlcd/applicant-guide-demandeur-eng.html)
+* [Smart Cities Community Support Program Application Submission Guide](/cities-villes/support-guide-soutien-eng.html)
+* [Veteran Homelessness Program Applicant Guide](https://publications.gc.ca/collections/collection_2024/infc/T94-66-2023-eng.pdf)
+
+---
+
+## Additional information
+
+For general information about making a request for access to information or personal information, see [Make an access to information or personal information request](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/request-information.html).
+To make a request for information online, access the [Access to Information and Personal Information Online Request Service](https://atip-aiprp.tbs-sct.gc.ca/welcome).
+
+To make a request for information under the*Access to Information Act*or the*Privacy Act*by mail, mail your letter or completed [Access to Information Request Form](http://www.tbs-sct.gc.ca/tbsf-fsct/350-57-eng.asp) (*Access to Information Act*) or [Personal Information Request Form](http://www.tbs-sct.gc.ca/tbsf-fsct/350-58-eng.asp) (*Privacy Act*), along with any necessary documents (such as consent or the $5 application fee for a request under the *Access to Information Act*), to the following address:
+
+Director, ATIP and Executive Correspondence
+180 Kent Street, 11th Floor
+Ottawa, Ontario K1P 0B6
+atip-aiprp@infc.gc.ca
+
+In accordance with the *Access to Information Act* and the *Privacy Act*, an area on the premises will be made available to review original materials on site if that is the applicant's preference (and it is practical to do so), or if it is not practical to create copies of the material.
+
+**Please note:** Each request made to Housing, Infrastructure and Communities Canada under the *Access to Information Act* must be accompanied by an application fee of $5. For requests made online, this is paid at the time of application via credit card. For requests made by mail, this should be paid by enclosing cheque or money order made payable to the Receiver General for Canada.
+
+The Government of Canada encourages the release of information through requests outside of the formal request processes. To make an informal request, contact:
+
+[Housing, Infrastructure and Communities Canada](/contact/index-eng.html)
+General Inquiries
+180 Kent Street
+Suite 1100
+Ottawa, Ontario K1P 0B6
+
+**Email:** info@infc.gc.ca
+**Telephone Housing, Infrastructure and Communities Canada:** 613-948-1148
+**Toll Free Number:** 1-877-250-7154
+**TTY:** 1-800-465-7735
+
+You may also wish to search summaries of completed access to information requests for which Housing, Infrastructure and Communities Canada has already provided [responses](https://open.canada.ca/en/search/ati?f%5B0%5D=ss_ati_organization_en%3AInfrastructure%20Canada&ati%5B0%5D=%3AInfrastructure%20Canada&ati%5B1%5D=ati_organization_en%3AInfrastructure%20Canada), as this information may be more easily obtained. You may also wish to review available open data regarding [Housing, Infrastructure and Communities Canada](https://search.open.canada.ca/opendata/?page=1&sort=metadata_modified+desc&dataset_type=dataset&owner_org=infc).
+
+Housing, Infrastructure and Communities Canada conducts privacy impact assessments (PIAs) to ensure that privacy implications will be appropriately identified, assessed and resolved before a new or substantially modified program or activity involving personal information is implemented. [Summaries of completed PIAs](/atip-aiprp/summaries-sommaires-eng.html) are available.
+
+## Page details
 
 Date modified:
 :   2026-01-26
+
+## About this site
+
+### Government of Canada
+
+* [All contacts](https://www.canada.ca/en/contact.html)
+* [Departments and agencies](https://www.canada.ca/en/government/dept.html)
+* [About government](https://www.canada.ca/en/government/system.html)
+
+#### Themes and topics
+
+* [Jobs](https://www.canada.ca/en/services/jobs.html)
+* [Immigration and citizenship](https://www.canada.ca/en/services/immigration-citizenship.html)
+* [Travel and tourism](https://travel.gc.ca/)
+* [Business](https://www.canada.ca/en/services/business.html)
+* [Benefits](https://www.canada.ca/en/services/benefits.html)
+* [Health](https://www.canada.ca/en/services/health.html)
+* [Taxes](https://www.canada.ca/en/services/taxes.html)
+* [Environment and natural resources](https://www.canada.ca/en/services/environment.html)
+* [National security and defence](https://www.canada.ca/en/services/defence.html)
+* [Culture, history and sport](https://www.canada.ca/en/services/culture.html)
+* [Policing, justice and emergencies](https://www.canada.ca/en/services/policing.html)
+* [Transport and infrastructure](https://www.canada.ca/en/services/transport.html)
+* [Canada and the world](https://www.international.gc.ca/world-monde/index.aspx?lang=eng)
+* [Money and finances](https://www.canada.ca/en/services/finance.html)
+* [Science and innovation](https://www.canada.ca/en/services/science.html)
+* [Indigenous Peoples](https://www.canada.ca/en/services/indigenous-peoples.html)
+* [Veterans and military](https://www.canada.ca/en/services/veterans-military.html)
+* [Youth](https://www.canada.ca/en/services/youth.html)
+* [Manage life events](https://www.canada.ca/en/services/life-events.html)
+
+### Government of Canada Corporate
+
+* [Social media](https://www.canada.ca/en/social.html)
+* [Mobile applications](https://www.canada.ca/en/mobile.html)
+* [About Canada.ca](https://canada.ca/en/government/about-canada-ca.html)
+* [Terms and conditions](https://www.canada.ca/en/transparency/terms.html)
+* [Privacy](https://www.canada.ca/en/transparency/privacy.html)
+
+![Symbol of the Government of Canada](https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg)
+
+
+* [Skip to main content](#wb-cont)
+* [Skip to "About government"](#wb-info)
+
+## Language selection
+
+* [Français
+  fr](/infosource/accessibility-hub-pib-carrefour-de-accessibilite-frp-fra.html)
+
+[![Government of Canada](/wet/theme-gcweb5/GCWeb/assets/sig-blk-en.svg) / Gouvernement du Canada](https://www.canada.ca/en.html)
+
+## Search
+
+Search Canada.ca
+
+Search
+
+---
+
+## Menu
+
+Main Menu
+
+* [Jobs and the workplace](https://www.canada.ca/en/services/jobs.html)
+* [Immigration and citizenship](https://www.canada.ca/en/services/immigration-citizenship.html)
+* [Travel and tourism](https://travel.gc.ca/)
+* [Business and industry](https://www.canada.ca/en/services/business.html)
+* [Benefits](https://www.canada.ca/en/services/benefits.html)
+* [Health](https://www.canada.ca/en/services/health.html)
+* [Taxes](https://www.canada.ca/en/services/taxes.html)
+* [Environment and natural resources](https://www.canada.ca/en/services/environment.html)
+* [National security and defence](https://www.canada.ca/en/services/defence.html)
+* [Culture, history and sport](https://www.canada.ca/en/services/culture.html)
+* [Policing, justice and emergencies](https://www.canada.ca/en/services/policing.html)
+* [Transport and infrastructure](https://www.canada.ca/en/services/transport.html)
+* [Canada and the world](https://www.international.gc.ca/world-monde/index.aspx?lang=eng)
+* [Money and finances](https://www.canada.ca/en/services/finance.html)
+* [Science and innovation](https://www.canada.ca/en/services/science.html)
+* [Manage life events](https://www.canada.ca/en/services/life-events.html)
+
+## You are here:
+
+1. [Canada.ca](https://www.canada.ca/en.html)
+2. [Housing, Infrastructure and Communities Canada](/index-eng.html)
+3. [Access to Information and Privacy](/pd-dp/atip-aiprp/index-eng.html)
+4. [Information About Programs and Information Holdings](/infosource/infosource-eng.html)
+
+# Accessibility Hub Personal Information Bank
+
+**Description:** This bank describes information used by the Accessibility Hub to support HICC’s duty to accommodate obligations, including providing employees and managers with support, guidance and resources, and to accelerate the implementation of the [HICC Accessibility Plan](https://housing-infrastructure.canada.ca/accessibility-accessibilite/2023-2025-plan-eng.html). The personal information collected may include the following: name, contact information, employee personnel information, employment equity information, medical information, language, and opinion or views of, or about, individuals.
+
+**Class of Individuals:** Current and former employees of Housing, Infrastructure and Communities Canada and third party service providers.
+
+**Purpose:** Personal information is collected pursuant to section 122 (4) of the *Accessible Canada Act* (ACA), section 24 of the *Canadian Human Rights Act**, the Financial Administration Act,*the *Federal *Public Sector Labour Relations Act**, the *Canada Labour Code*, the Canada Occupational Health and Safety Regulations, the *Government Employees Compensation Act,* and/or the National Joint Council Directives. It is collected for the purpose of providing support, guidance and resources on accessibility and the duty to accommodate HICC employees and managers, improving Accessibility Hub services and other internal support services as part of the implementation of HICC’s Accessibility Plan, and supporting the realization of the commitment to creating a barrier-free Canada by 2040 established by the *Accessible Canada Act.*
+
+**Consistent Uses:** Personal information may be used for program planning, management, monitoring, evaluation, reporting, trend analysis, audit, statistical, research and/or policy development. In some situations, and as required by law, personal information may be used for disciplinary actions. Other consistent uses are listed in the following personal information banks: [Employee Personnel Record – PSE 901](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-personal-information-banks.html#pse901), [Human Resources Planning – PSU 935](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-personal-information-banks.html#psu935) and [Occupational Health and Safety – PSE 907](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-personal-information-banks.html#pse907).
+
+When required to support an employee’s accessibility request, personal information may be disclosed to HICC management, Accommodation Services, Labour Relations, Information Technology Services, Accessibility Hub, Accessibility, Accommodation and Adaptive Computer Technology (AAACT) at Shared Services Canada, and Ergonomic and Occupational Therapy Service providers. Some anonymized information may be disclosed to the public or to other teams within the Department.
+
+**Retention and Disposal Standards:** Records are retained for 5 years after the last administrative action/closure of the file, then disposed of in accordance with Library and Archives Canada disposition authority RDA 2021/003.
+
+**RDA Number:** 2021/003
+
+**Related Record Number:** HICC CSB 030
+
+**TBS Registration:** Pending TBS approval
+
+**Bank Number:** PPU 030
+
+## Page details
+
+Date modified:
+:   2025-10-02
+
+## About this site
+
+### Government of Canada
+
+* [All contacts](https://www.canada.ca/en/contact.html)
+* [Departments and agencies](https://www.canada.ca/en/government/dept.html)
+* [About government](https://www.canada.ca/en/government/system.html)
+
+#### Themes and topics
+
+* [Jobs](https://www.canada.ca/en/services/jobs.html)
+* [Immigration and citizenship](https://www.canada.ca/en/services/immigration-citizenship.html)
+* [Travel and tourism](https://travel.gc.ca/)
+* [Business](https://www.canada.ca/en/services/business.html)
+* [Benefits](https://www.canada.ca/en/services/benefits.html)
+* [Health](https://www.canada.ca/en/services/health.html)
+* [Taxes](https://www.canada.ca/en/services/taxes.html)
+* [Environment and natural resources](https://www.canada.ca/en/services/environment.html)
+* [National security and defence](https://www.canada.ca/en/services/defence.html)
+* [Culture, history and sport](https://www.canada.ca/en/services/culture.html)
+* [Policing, justice and emergencies](https://www.canada.ca/en/services/policing.html)
+* [Transport and infrastructure](https://www.canada.ca/en/services/transport.html)
+* [Canada and the world](https://www.international.gc.ca/world-monde/index.aspx?lang=eng)
+* [Money and finances](https://www.canada.ca/en/services/finance.html)
+* [Science and innovation](https://www.canada.ca/en/services/science.html)
+* [Indigenous Peoples](https://www.canada.ca/en/services/indigenous-peoples.html)
+* [Veterans and military](https://www.canada.ca/en/services/veterans-military.html)
+* [Youth](https://www.canada.ca/en/services/youth.html)
+* [Manage life events](https://www.canada.ca/en/services/life-events.html)
+
+### Government of Canada Corporate
+
+* [Social media](https://www.canada.ca/en/social.html)
+* [Mobile applications](https://www.canada.ca/en/mobile.html)
+* [About Canada.ca](https://canada.ca/en/government/about-canada-ca.html)
+* [Terms and conditions](https://www.canada.ca/en/transparency/terms.html)
+* [Privacy](https://www.canada.ca/en/transparency/privacy.html)
+
+![Symbol of the Government of Canada](https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg)
+
+
+* [Skip to main content](#wb-cont)
+* [Skip to "About government"](#wb-info)
+
+## Language selection
+
+* [Français
+  fr](/infosource/canadian-infra-council-membs-conseil-canadien-infra-fra.html)
+
+[![Government of Canada](/wet/theme-gcweb5/GCWeb/assets/sig-blk-en.svg) / Gouvernement du Canada](https://www.canada.ca/en.html)
+
+## Search
+
+Search Canada.ca
+
+Search
+
+---
+
+## Menu
+
+Main Menu
+
+* [Jobs and the workplace](https://www.canada.ca/en/services/jobs.html)
+* [Immigration and citizenship](https://www.canada.ca/en/services/immigration-citizenship.html)
+* [Travel and tourism](https://travel.gc.ca/)
+* [Business and industry](https://www.canada.ca/en/services/business.html)
+* [Benefits](https://www.canada.ca/en/services/benefits.html)
+* [Health](https://www.canada.ca/en/services/health.html)
+* [Taxes](https://www.canada.ca/en/services/taxes.html)
+* [Environment and natural resources](https://www.canada.ca/en/services/environment.html)
+* [National security and defence](https://www.canada.ca/en/services/defence.html)
+* [Culture, history and sport](https://www.canada.ca/en/services/culture.html)
+* [Policing, justice and emergencies](https://www.canada.ca/en/services/policing.html)
+* [Transport and infrastructure](https://www.canada.ca/en/services/transport.html)
+* [Canada and the world](https://www.international.gc.ca/world-monde/index.aspx?lang=eng)
+* [Money and finances](https://www.canada.ca/en/services/finance.html)
+* [Science and innovation](https://www.canada.ca/en/services/science.html)
+* [Manage life events](https://www.canada.ca/en/services/life-events.html)
+
+## You are here:
+
+1. [Canada.ca](https://www.canada.ca/en.html)
+2. [Housing, Infrastructure and Communities Canada](/index-eng.html)
+3. [Access to Information and Privacy](/pd-dp/atip-aiprp/index-eng.html)
+4. [Information About Programs and Information Holdings](/infosource/infosource-eng.html)
+
+# Members of the Canadian Infrastructure Council
+
+**Description:** This bank describes information used in the identification and selection of individuals to fill positions on the Canadian Infrastructure Council. The personal information collected may include the following: full name, contact information, official language of choice, date of birth, country of birth, citizenship, gender, marital status, belonging to a minority, Social Insurance Number (SIN), unique identification number (e.g., unique employee number), terms and conditions of appointment including remuneration (e.g., salary, honoraria, per diem rate) and benefits, signature, physical limitations and any other relevant medical information, photographs or other image recordings, educational background, employment status, employment equity information, work history, volunteering history, professional affiliations, credit card and financial institution information, government security clearances, biographical information (including information about family members), conflict of interest declarations, opinions or views of, or about individuals, letters of reference/recommendation, appointment date, and duration and resignation dates, if applicable.
+
+**Class of Individuals:** Candidates, as well as current and former members of the Council**,** their family members, and individuals whose names have been provided as personal references.
+
+**Purpose:** The personal information collected is used to support the identification, evaluation and selection of individuals to serve on the Canadian Infrastructure Council. The information may be used to provide advice to the Minister or Head of the institution to fill existing and/or forthcoming vacancies and to maintain an inventory of potential candidates. The personal information is also used to manage the administration of expenses (e.g., travel) and compensation and benefits packages, conduct performance evaluations, maintain an inventory of current and former appointees, record potential conflicts of interest and any compliance action required, and to communicate with these individuals. The authority to collect personal information is found in sections 11 and 12 of the *Department of Housing, Infrastructure and Communities Act.* The Social Insurance Number is collected pursuant to the section 237 of the *Income Tax Act*.
+
+**Consistent Uses:** This information may be used in the preparation of reports for senior management and broader audiences, ad hoc professional engagement of Council members and communications materials (e.g., press releases, biographies etc.) that may be disseminated in multiple formats, including HICC's website. With consent of the individual, this information may be shared with other Government of Canada institutions for uses consistent with the mandate of the Canadian Infrastructure Council on which personal information is collected and/or sharing of best practices. Information may be disclosed to the Canada Revenue Agency (refer to Individual Returns and Payment Processing – CRA PPU 005) and, where applicable, the Province of Quebec for income tax purposes. Assistance of third party service providers may be used during the selection process. Information may also be used or disclosed for human resource, program planning or management, reporting, safety or security, audit, evaluation, statistical, research and/or policy development purposes.
+
+**Retention and Disposal Standards:** Records are retained for 5 years after the staffing action is completed or abandoned and then destroyed.
+
+**RDA Number:** 2021/003
+
+**Related Record Number:** HICC PRB 050
+
+**TBS Registration:** 20250017
+
+**Bank Number:** PPU 020
+
+## Page details
+
+Date modified:
+:   2025-08-14
+
+## About this site
+
+### Government of Canada
+
+* [All contacts](https://www.canada.ca/en/contact.html)
+* [Departments and agencies](https://www.canada.ca/en/government/dept.html)
+* [About government](https://www.canada.ca/en/government/system.html)
+
+#### Themes and topics
+
+* [Jobs](https://www.canada.ca/en/services/jobs.html)
+* [Immigration and citizenship](https://www.canada.ca/en/services/immigration-citizenship.html)
+* [Travel and tourism](https://travel.gc.ca/)
+* [Business](https://www.canada.ca/en/services/business.html)
+* [Benefits](https://www.canada.ca/en/services/benefits.html)
+* [Health](https://www.canada.ca/en/services/health.html)
+* [Taxes](https://www.canada.ca/en/services/taxes.html)
+* [Environment and natural resources](https://www.canada.ca/en/services/environment.html)
+* [National security and defence](https://www.canada.ca/en/services/defence.html)
+* [Culture, history and sport](https://www.canada.ca/en/services/culture.html)
+* [Policing, justice and emergencies](https://www.canada.ca/en/services/policing.html)
+* [Transport and infrastructure](https://www.canada.ca/en/services/transport.html)
+* [Canada and the world](https://www.international.gc.ca/world-monde/index.aspx?lang=eng)
+* [Money and finances](https://www.canada.ca/en/services/finance.html)
+* [Science and innovation](https://www.canada.ca/en/services/science.html)
+* [Indigenous Peoples](https://www.canada.ca/en/services/indigenous-peoples.html)
+* [Veterans and military](https://www.canada.ca/en/services/veterans-military.html)
+* [Youth](https://www.canada.ca/en/services/youth.html)
+* [Manage life events](https://www.canada.ca/en/services/life-events.html)
+
+### Government of Canada Corporate
+
+* [Social media](https://www.canada.ca/en/social.html)
+* [Mobile applications](https://www.canada.ca/en/mobile.html)
+* [About Canada.ca](https://canada.ca/en/government/about-canada-ca.html)
+* [Terms and conditions](https://www.canada.ca/en/transparency/terms.html)
+* [Privacy](https://www.canada.ca/en/transparency/privacy.html)
+
+![Symbol of the Government of Canada](https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg)
+
+
+* [Skip to main content](#wb-cont)
+* [Skip to "About government"](#wb-info)
+
+## Language selection
+
+* [Français
+  fr](/infosource/grants-subventions-fra.html)
+
+[![Government of Canada](/wet/theme-gcweb5/GCWeb/assets/sig-blk-en.svg) / Gouvernement du Canada](https://www.canada.ca/en.html)
+
+## Search
+
+Search Canada.ca
+
+Search
+
+---
+
+## Menu
+
+Main Menu
+
+* [Jobs and the workplace](https://www.canada.ca/en/services/jobs.html)
+* [Immigration and citizenship](https://www.canada.ca/en/services/immigration-citizenship.html)
+* [Travel and tourism](https://travel.gc.ca/)
+* [Business and industry](https://www.canada.ca/en/services/business.html)
+* [Benefits](https://www.canada.ca/en/services/benefits.html)
+* [Health](https://www.canada.ca/en/services/health.html)
+* [Taxes](https://www.canada.ca/en/services/taxes.html)
+* [Environment and natural resources](https://www.canada.ca/en/services/environment.html)
+* [National security and defence](https://www.canada.ca/en/services/defence.html)
+* [Culture, history and sport](https://www.canada.ca/en/services/culture.html)
+* [Policing, justice and emergencies](https://www.canada.ca/en/services/policing.html)
+* [Transport and infrastructure](https://www.canada.ca/en/services/transport.html)
+* [Canada and the world](https://www.international.gc.ca/world-monde/index.aspx?lang=eng)
+* [Money and finances](https://www.canada.ca/en/services/finance.html)
+* [Science and innovation](https://www.canada.ca/en/services/science.html)
+* [Manage life events](https://www.canada.ca/en/services/life-events.html)
+
+## You are here:
+
+1. [Canada.ca](https://www.canada.ca/en.html)
+2. [Housing, Infrastructure and Communities Canada](/index-eng.html)
+3. [Access to Information and Privacy](/pd-dp/atip-aiprp/index-eng.html)
+4. [Information About Programs and Information Holdings](/infosource/infosource-eng.html)
+
+# Housing, Infrastructure and Communities Canada Grants and Contributions
+
+**Description:** This bank describes information related to applications processed and/or approved for various HICC grants and contributions programs. The personal information may include: biographical information, contact information, electronic tags, financial information, language preference, land ownership, name, opinions or views of – or about – individuals, and signature.
+
+**Note:** In addition to the requirements specified on the Treasury Board of Canada Secretariat Personal Information Request form, individuals requesting information described by this bank must provide the name of the grant or contribution program for which the application was completed and the name of the applicant identified in the application.
+
+**Class of Individuals:** Representatives of the applicants applying for HICC grant and contribution funding, land owners and contractors. Applicants can include: municipal, provincial or territorial governments, public and private sector bodies, public or not-for-profit post-secondary institutions, and Indigenous peoples that have applied for, and/or been approved for, funding assistance.
+
+**Purpose:** Personal information is collected pursuant to the *Department of Housing, Infrastructure and Communities Act* for the purpose of administering the grant or contribution program. Program administration includes: determining eligibility and funding approval; evaluate, review, assess and select funding applications; corresponding with applicants, monitoring the progress of funded projects, and issuing payments.
+
+**Consistent Uses:** General information about approved projects including the name of the successful applicant, date of approval, the funding amount, project description and the location is [proactively disclosed to the public](https://search.open.canada.ca/en/gc/?sort=agreement_start_date_s%20desc&page=1&search_text=&gc-search-orgs=Infrastructure%20Canadahttps://search.open.canada.ca/en/gc/?sort=agreement_start_date_s%20desc&page=1&search_text=&gc-search-orgs=Infrastructure%20Canada) once a funding agreement is signed.
+
+Information may be used or disclosed for program planning or management, surveys, reporting, audit, statistical purposes, policy development, analysis, research, evaluation, duty to consult, promotion and/or communication purposes. It may also be disclosed to other HICC programs, program specific committees, other federal institutions, external experts and/or external review committees, and specific provincial and territorial institutions for the purpose of administering and auditing the program; assisting Housing, Infrastructure and Communities Canada with project review and evaluation and assessing program results; determining eligibility under other government programs; and confirming past federal funding sought by an applicant. Information may be shared with law enforcement agencies if required to investigate potential fraud or unlawful conduct.
+
+**Privacy Impact Assessment:** A PIA was completed in 2021 for the Disaster Mitigation and Adaptation Fund, the Green and Inclusive Community Buildings Program, the Natural Infrastructure Fund and the Permanent Public Transit Program.
+
+**Retention and Disposal Standards:** Records are retained for 6 years after the program close date.
+
+**RDA Number:** 2021-003
+
+**Related Record Number:** HICC CIP 040, HICC CIP 050, HICC CIP 060, HICC CIP 090, HICC CIP 100, HICC CIP 300, HICC HHB 010, HICC HHB 030, HICC HHB 090, HICC HHB 130
+
+**TBS Registration:** 20210083
+
+**Bank Number:** HICC PPU 005
+
+## Page details
+
+Date modified:
+:   2026-01-21
+
+## About this site
+
+### Government of Canada
+
+* [All contacts](https://www.canada.ca/en/contact.html)
+* [Departments and agencies](https://www.canada.ca/en/government/dept.html)
+* [About government](https://www.canada.ca/en/government/system.html)
+
+#### Themes and topics
+
+* [Jobs](https://www.canada.ca/en/services/jobs.html)
+* [Immigration and citizenship](https://www.canada.ca/en/services/immigration-citizenship.html)
+* [Travel and tourism](https://travel.gc.ca/)
+* [Business](https://www.canada.ca/en/services/business.html)
+* [Benefits](https://www.canada.ca/en/services/benefits.html)
+* [Health](https://www.canada.ca/en/services/health.html)
+* [Taxes](https://www.canada.ca/en/services/taxes.html)
+* [Environment and natural resources](https://www.canada.ca/en/services/environment.html)
+* [National security and defence](https://www.canada.ca/en/services/defence.html)
+* [Culture, history and sport](https://www.canada.ca/en/services/culture.html)
+* [Policing, justice and emergencies](https://www.canada.ca/en/services/policing.html)
+* [Transport and infrastructure](https://www.canada.ca/en/services/transport.html)
+* [Canada and the world](https://www.international.gc.ca/world-monde/index.aspx?lang=eng)
+* [Money and finances](https://www.canada.ca/en/services/finance.html)
+* [Science and innovation](https://www.canada.ca/en/services/science.html)
+* [Indigenous Peoples](https://www.canada.ca/en/services/indigenous-peoples.html)
+* [Veterans and military](https://www.canada.ca/en/services/veterans-military.html)
+* [Youth](https://www.canada.ca/en/services/youth.html)
+* [Manage life events](https://www.canada.ca/en/services/life-events.html)
+
+### Government of Canada Corporate
+
+* [Social media](https://www.canada.ca/en/social.html)
+* [Mobile applications](https://www.canada.ca/en/mobile.html)
+* [About Canada.ca](https://canada.ca/en/government/about-canada-ca.html)
+* [Terms and conditions](https://www.canada.ca/en/transparency/terms.html)
+* [Privacy](https://www.canada.ca/en/transparency/privacy.html)
+
+![Symbol of the Government of Canada](https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg)
+
+
+* [Skip to main content](#wb-cont)
+* [Skip to "About government"](#wb-info)
+
+## Language selection
+
+* [Français
+  fr](/infosource/hybrid-monitoring-reporting-surveillance-rapports-hybrides-fra.html)
+
+[![Government of Canada](/wet/theme-gcweb5/GCWeb/assets/sig-blk-en.svg) / Gouvernement du Canada](https://www.canada.ca/en.html)
+
+## Search
+
+Search Canada.ca
+
+Search
+
+---
+
+## Menu
+
+Main Menu
+
+* [Jobs and the workplace](https://www.canada.ca/en/services/jobs.html)
+* [Immigration and citizenship](https://www.canada.ca/en/services/immigration-citizenship.html)
+* [Travel and tourism](https://travel.gc.ca/)
+* [Business and industry](https://www.canada.ca/en/services/business.html)
+* [Benefits](https://www.canada.ca/en/services/benefits.html)
+* [Health](https://www.canada.ca/en/services/health.html)
+* [Taxes](https://www.canada.ca/en/services/taxes.html)
+* [Environment and natural resources](https://www.canada.ca/en/services/environment.html)
+* [National security and defence](https://www.canada.ca/en/services/defence.html)
+* [Culture, history and sport](https://www.canada.ca/en/services/culture.html)
+* [Policing, justice and emergencies](https://www.canada.ca/en/services/policing.html)
+* [Transport and infrastructure](https://www.canada.ca/en/services/transport.html)
+* [Canada and the world](https://www.international.gc.ca/world-monde/index.aspx?lang=eng)
+* [Money and finances](https://www.canada.ca/en/services/finance.html)
+* [Science and innovation](https://www.canada.ca/en/services/science.html)
+* [Manage life events](https://www.canada.ca/en/services/life-events.html)
+
+## You are here:
+
+1. [Canada.ca](https://www.canada.ca/en.html)
+2. [Housing, Infrastructure and Communities Canada](/index-eng.html)
+3. [Access to Information and Privacy](/pd-dp/atip-aiprp/index-eng.html)
+4. [Information About Programs and Information Holdings](/infosource/infosource-eng.html)
+
+# Housing, Infrastructure and Communities Canada Hybrid Monitoring and Reporting
+
+**Description:** This bank describes information about monitoring and reporting activities for the implementation and verification of the Treasury Board of Canada Secretariat Direction on prescribed presence in the workplace, which includes proactive monitoring of employee’s compliance with the policy, aggregate reporting and trend analysis. The personal information may include, name, contact information, employee personnel information, employee identification number, turn-style data, attendance and leave reports, employee presence attestation forms, and Internet Protocol (IP) login data.
+
+**Class of Individuals:** Current and former employees of Housing, Infrastructure and Communities Canada (HICC).
+
+**Purpose:** Personal information is used to facilitate HICC’s implementation and adherence of the TBS Direction on prescribed presence in the workplace. Personal information is collected pursuant to section 11.1 of the [*Financial Administration Act*](https://laws-lois.justice.gc.ca/eng/acts/f-11/FullText.html).
+
+**Consistent Uses:** Personal information is used to confirm the work location of employees and ensure they are meeting the hybrid compliance requirements of the department. It may be used for workplace attendance management, measuring occupancy of HICC facilities, ensuring the health and safety of occupants, personnel management, to verify policy compliance and to make decisions that directly affect individuals in select cases of non-compliance. Information will be shared with employees’ direct managers and other HICC employees with a valid need to know to comply with the hybrid directive and shared with Labour Relations in cases of non-compliance. Aggregate information will be shared with senior management. Information may also be used or disclosed for program planning or management, reporting, trend analysis, safety or security purposes, audit, evaluation, statistical, research and/or policy development.
+
+**Retention and Disposal Standards:** Records are retained for two years after the last administrative action then destroyed.
+
+**RDA Number:** 2021/003
+
+**Related Record Number:**  HICC CSB 010
+
+**TBS Registration:** 20250010
+
+**Bank Number:** HICC PPE 005
+
+## Page details
+
+Date modified:
+:   2025-07-09
+
+## About this site
+
+### Government of Canada
+
+* [All contacts](https://www.canada.ca/en/contact.html)
+* [Departments and agencies](https://www.canada.ca/en/government/dept.html)
+* [About government](https://www.canada.ca/en/government/system.html)
+
+#### Themes and topics
+
+* [Jobs](https://www.canada.ca/en/services/jobs.html)
+* [Immigration and citizenship](https://www.canada.ca/en/services/immigration-citizenship.html)
+* [Travel and tourism](https://travel.gc.ca/)
+* [Business](https://www.canada.ca/en/services/business.html)
+* [Benefits](https://www.canada.ca/en/services/benefits.html)
+* [Health](https://www.canada.ca/en/services/health.html)
+* [Taxes](https://www.canada.ca/en/services/taxes.html)
+* [Environment and natural resources](https://www.canada.ca/en/services/environment.html)
+* [National security and defence](https://www.canada.ca/en/services/defence.html)
+* [Culture, history and sport](https://www.canada.ca/en/services/culture.html)
+* [Policing, justice and emergencies](https://www.canada.ca/en/services/policing.html)
+* [Transport and infrastructure](https://www.canada.ca/en/services/transport.html)
+* [Canada and the world](https://www.international.gc.ca/world-monde/index.aspx?lang=eng)
+* [Money and finances](https://www.canada.ca/en/services/finance.html)
+* [Science and innovation](https://www.canada.ca/en/services/science.html)
+* [Indigenous Peoples](https://www.canada.ca/en/services/indigenous-peoples.html)
+* [Veterans and military](https://www.canada.ca/en/services/veterans-military.html)
+* [Youth](https://www.canada.ca/en/services/youth.html)
+* [Manage life events](https://www.canada.ca/en/services/life-events.html)
+
+### Government of Canada Corporate
+
+* [Social media](https://www.canada.ca/en/social.html)
+* [Mobile applications](https://www.canada.ca/en/mobile.html)
+* [About Canada.ca](https://canada.ca/en/government/about-canada-ca.html)
+* [Terms and conditions](https://www.canada.ca/en/transparency/terms.html)
+* [Privacy](https://www.canada.ca/en/transparency/privacy.html)
+
+![Symbol of the Government of Canada](https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg)
+
+
+* [Skip to main content](#wb-cont)
+* [Skip to "About government"](#wb-info)
+
+## Language selection
+
+* [Français
+  fr](/infosource/national-housing-council-membs-conseil-national-logement-fra.html)
+
+[![Government of Canada](/wet/theme-gcweb5/GCWeb/assets/sig-blk-en.svg) / Gouvernement du Canada](https://www.canada.ca/en.html)
+
+## Search
+
+Search Canada.ca
+
+Search
+
+---
+
+## Menu
+
+Main Menu
+
+* [Jobs and the workplace](https://www.canada.ca/en/services/jobs.html)
+* [Immigration and citizenship](https://www.canada.ca/en/services/immigration-citizenship.html)
+* [Travel and tourism](https://travel.gc.ca/)
+* [Business and industry](https://www.canada.ca/en/services/business.html)
+* [Benefits](https://www.canada.ca/en/services/benefits.html)
+* [Health](https://www.canada.ca/en/services/health.html)
+* [Taxes](https://www.canada.ca/en/services/taxes.html)
+* [Environment and natural resources](https://www.canada.ca/en/services/environment.html)
+* [National security and defence](https://www.canada.ca/en/services/defence.html)
+* [Culture, history and sport](https://www.canada.ca/en/services/culture.html)
+* [Policing, justice and emergencies](https://www.canada.ca/en/services/policing.html)
+* [Transport and infrastructure](https://www.canada.ca/en/services/transport.html)
+* [Canada and the world](https://www.international.gc.ca/world-monde/index.aspx?lang=eng)
+* [Money and finances](https://www.canada.ca/en/services/finance.html)
+* [Science and innovation](https://www.canada.ca/en/services/science.html)
+* [Manage life events](https://www.canada.ca/en/services/life-events.html)
+
+## You are here:
+
+1. [Canada.ca](https://www.canada.ca/en.html)
+2. [Housing, Infrastructure and Communities Canada](/index-eng.html)
+3. [Access to Information and Privacy](/pd-dp/atip-aiprp/index-eng.html)
+4. [Information About Programs and Information Holdings](/infosource/infosource-eng.html)
+
+# Members of the National Housing Council
+
+**Description:** This bank describes information used in the identification and selection of individuals to fill positions on the National Housing Council. The personal information collected may include the following: full name, contact information, official language of choice, date of birth, country of birth, citizenship, gender, marital status, belonging to a minority, Social Insurance Number (SIN), unique identification number (e.g., unique employee number), terms and conditions of appointment including remuneration (e.g., salary, honoraria, per diem rate) and benefits, signature, physical limitations and any other relevant medical information, photographs or other image recordings, audio recordings, educational background, employment status, employment equity information, work history, volunteering history, professional affiliations, credit card and financial institution information, government security clearances, biographical information (including information about family members), conflict of interest declarations, opinions or views of, or about individuals and topics related to systemic housing issues, Internet protocol address, letters of reference/recommendation, appointment date, and duration and resignation dates, if applicable.
+
+**Class of Individuals:** Candidates, as well as current and former members of the Council**,** their family members, and individuals whose names have been provided as personal references.
+
+**Purpose:** The personal information collected is used to support the identification, evaluation and selection of individuals to serve on the National Housing Council. The information may be used to provide advice to the Minister or Head of the institution to fill existing and/or forthcoming vacancies and to maintain an inventory of potential candidates. The personal information is also used to manage the administration of expenses (e.g., travel) and compensation and benefits packages, conduct performance evaluations, maintain an inventory of current and former appointees, record potential conflicts of interest and any compliance action required, and to communicate with these individuals. The authority to collect personal information is found in sections 11 and 12 of the *Department of Housing, Infrastructure and Communities Act.* The Social Insurance Number is collected pursuant to the section 237 of the *Income Tax Act*.
+
+**Consistent Uses:** This information may be used in the preparation of reports for senior management and broader audiences, ad hoc professional engagement of Council members and communications materials (e.g., press releases, biographies etc.) that may be disseminated in multiple formats, including the NHC website. With consent of the individual, this information may be shared with other Government of Canada institutions for uses consistent with the mandate of the National Housing Council on which personal information is collected and/or sharing of best practices. Information may be disclosed to the Canada Revenue Agency (refer to Individual Returns and Payment Processing – CRA PPU 005) and, where applicable, the Province of Quebec for income tax purposes. Assistance of third party service providers may be used during the selection process. Information may also be used or disclosed for human resource, program planning or management, reporting, safety or security, audit, evaluation, statistical, research and/or policy development purposes.
+
+**Retention and Disposal Standards:** Records are retained for 6 years after the staffing action is completed or abandoned and then destroyed.
+
+**RDA Number:** 2021/003
+
+**Related Record Number:** HICC PRB 040
+
+**TBS Registration:** 20250038
+
+**Bank Number:** PPU 025
+
+## Page details
+
+Date modified:
+:   2025-10-02
+
+## About this site
+
+### Government of Canada
+
+* [All contacts](https://www.canada.ca/en/contact.html)
+* [Departments and agencies](https://www.canada.ca/en/government/dept.html)
+* [About government](https://www.canada.ca/en/government/system.html)
+
+#### Themes and topics
+
+* [Jobs](https://www.canada.ca/en/services/jobs.html)
+* [Immigration and citizenship](https://www.canada.ca/en/services/immigration-citizenship.html)
+* [Travel and tourism](https://travel.gc.ca/)
+* [Business](https://www.canada.ca/en/services/business.html)
+* [Benefits](https://www.canada.ca/en/services/benefits.html)
+* [Health](https://www.canada.ca/en/services/health.html)
+* [Taxes](https://www.canada.ca/en/services/taxes.html)
+* [Environment and natural resources](https://www.canada.ca/en/services/environment.html)
+* [National security and defence](https://www.canada.ca/en/services/defence.html)
+* [Culture, history and sport](https://www.canada.ca/en/services/culture.html)
+* [Policing, justice and emergencies](https://www.canada.ca/en/services/policing.html)
+* [Transport and infrastructure](https://www.canada.ca/en/services/transport.html)
+* [Canada and the world](https://www.international.gc.ca/world-monde/index.aspx?lang=eng)
+* [Money and finances](https://www.canada.ca/en/services/finance.html)
+* [Science and innovation](https://www.canada.ca/en/services/science.html)
+* [Indigenous Peoples](https://www.canada.ca/en/services/indigenous-peoples.html)
+* [Veterans and military](https://www.canada.ca/en/services/veterans-military.html)
+* [Youth](https://www.canada.ca/en/services/youth.html)
+* [Manage life events](https://www.canada.ca/en/services/life-events.html)
+
+### Government of Canada Corporate
+
+* [Social media](https://www.canada.ca/en/social.html)
+* [Mobile applications](https://www.canada.ca/en/mobile.html)
+* [About Canada.ca](https://canada.ca/en/government/about-canada-ca.html)
+* [Terms and conditions](https://www.canada.ca/en/transparency/terms.html)
+* [Privacy](https://www.canada.ca/en/transparency/privacy.html)
+
+![Symbol of the Government of Canada](https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg)
+
+
+* [Skip to main content](#wb-cont)
+* [Skip to "About government"](#wb-info)
+
+## Language selection
+
+* [Français
+  fr](/infosource/rki-irc-fra.html)
+
+[![Government of Canada](/wet/theme-gcweb5/GCWeb/assets/sig-blk-en.svg) / Gouvernement du Canada](https://www.canada.ca/en.html)
+
+## Search
+
+Search Canada.ca
+
+Search
+
+---
+
+## Menu
+
+Main Menu
+
+* [Jobs and the workplace](https://www.canada.ca/en/services/jobs.html)
+* [Immigration and citizenship](https://www.canada.ca/en/services/immigration-citizenship.html)
+* [Travel and tourism](https://travel.gc.ca/)
+* [Business and industry](https://www.canada.ca/en/services/business.html)
+* [Benefits](https://www.canada.ca/en/services/benefits.html)
+* [Health](https://www.canada.ca/en/services/health.html)
+* [Taxes](https://www.canada.ca/en/services/taxes.html)
+* [Environment and natural resources](https://www.canada.ca/en/services/environment.html)
+* [National security and defence](https://www.canada.ca/en/services/defence.html)
+* [Culture, history and sport](https://www.canada.ca/en/services/culture.html)
+* [Policing, justice and emergencies](https://www.canada.ca/en/services/policing.html)
+* [Transport and infrastructure](https://www.canada.ca/en/services/transport.html)
+* [Canada and the world](https://www.international.gc.ca/world-monde/index.aspx?lang=eng)
+* [Money and finances](https://www.canada.ca/en/services/finance.html)
+* [Science and innovation](https://www.canada.ca/en/services/science.html)
+* [Manage life events](https://www.canada.ca/en/services/life-events.html)
+
+## You are here:
+
+1. [Canada.ca](https://www.canada.ca/en.html)
+2. [Housing, Infrastructure and Communities Canada](/index-eng.html)
+3. [Access to Information and Privacy](/pd-dp/atip-aiprp/index-eng.html)
+4. [Information About Programs and Information Holdings](/infosource/infosource-eng.html)
+
+# Research and Knowledge Initiative
+
+**Description:** This bank describes information related to applications processed and/or approved for funding under the Research and Knowledge Initiative. The personal information may include: biographical information, contact information, educational information, electronic tags, employment equity information, financial information, language preference, name, opinions or views of – or about – individuals, photographs of individuals, signature and social insurance number.
+
+**Note:** In addition to the requirements specified on the Treasury Board of Canada Secretariat Personal Information Request form, individuals requesting information described by this bank must provide the name of the applicant identified in the application and the funding program.
+
+**Class of Individuals:** Applicants, including individuals, applying for HICC grant and contribution funding, lead contacts, secondary contacts and references. Applicants include: individuals, municipal, provincial or territorial governments, public and private sector bodies, public or not-for-profit post-secondary institutions, and Indigenous groups that have applied for, and/or been approved for, funding assistance under this initiative.
+
+**Purpose:** Personal information is collected pursuant to the *Department of Housing, Infrastructure and Communities Act* for the purpose of assessing applications and administering the Research and Knowledge Initative. Program administration includes: determining eligibility and funding approval; evaluate, review, assess and select funding applications; corresponding with applicants, monitoring the progress of funded projects, and issuing payments.
+
+**Consistent Uses:** Information may be used or disclosed for program planning or management, reporting, audit, statistical purposes, policy development, analysis, research, evaluation, promotion and/or communication purposes. It may also be disclosed to other HICC programs, program specific committees, other federal institutions, external experts, and specific provincial and territorial institutions for the purpose of administering and auditing the program; assisting Housing, Infrastructure and Communities Canada with project review and evaluation; determining eligibility under other government programs; and confirming past federal funding sought by an applicant.
+
+**Privacy Impact Assessment:** A PIA was completed in 2021 for the Research and Knowledge Initiative.
+
+**Retention and Disposal Standards:** Records are retained for 6 years after the program close date.
+
+**RDA Number:** 2021-003
+
+**Related Record Number:** HICC PRB 020
+
+**TBS Registration:** 20230005
+
+**Bank Number:** HICC PPU 010
+
+## Page details
+
+Date modified:
+:   2024-08-06
+
+## About this site
+
+### Government of Canada
+
+* [All contacts](https://www.canada.ca/en/contact.html)
+* [Departments and agencies](https://www.canada.ca/en/government/dept.html)
+* [About government](https://www.canada.ca/en/government/system.html)
+
+#### Themes and topics
+
+* [Jobs](https://www.canada.ca/en/services/jobs.html)
+* [Immigration and citizenship](https://www.canada.ca/en/services/immigration-citizenship.html)
+* [Travel and tourism](https://travel.gc.ca/)
+* [Business](https://www.canada.ca/en/services/business.html)
+* [Benefits](https://www.canada.ca/en/services/benefits.html)
+* [Health](https://www.canada.ca/en/services/health.html)
+* [Taxes](https://www.canada.ca/en/services/taxes.html)
+* [Environment and natural resources](https://www.canada.ca/en/services/environment.html)
+* [National security and defence](https://www.canada.ca/en/services/defence.html)
+* [Culture, history and sport](https://www.canada.ca/en/services/culture.html)
+* [Policing, justice and emergencies](https://www.canada.ca/en/services/policing.html)
+* [Transport and infrastructure](https://www.canada.ca/en/services/transport.html)
+* [Canada and the world](https://www.international.gc.ca/world-monde/index.aspx?lang=eng)
+* [Money and finances](https://www.canada.ca/en/services/finance.html)
+* [Science and innovation](https://www.canada.ca/en/services/science.html)
+* [Indigenous Peoples](https://www.canada.ca/en/services/indigenous-peoples.html)
+* [Veterans and military](https://www.canada.ca/en/services/veterans-military.html)
+* [Youth](https://www.canada.ca/en/services/youth.html)
+* [Manage life events](https://www.canada.ca/en/services/life-events.html)
+
+### Government of Canada Corporate
+
+* [Social media](https://www.canada.ca/en/social.html)
+* [Mobile applications](https://www.canada.ca/en/mobile.html)
+* [About Canada.ca](https://canada.ca/en/government/about-canada-ca.html)
+* [Terms and conditions](https://www.canada.ca/en/transparency/terms.html)
+* [Privacy](https://www.canada.ca/en/transparency/privacy.html)
+
+![Symbol of the Government of Canada](https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg)
+
+
+* [Skip to main content](#wb-cont)
+* [Skip to "About government"](#wb-info)
+
+## Language selection
+
+* [Français
+  fr](/infosource/staffing-dotation-fra.html)
+
+[![Government of Canada](/wet/theme-gcweb5/GCWeb/assets/sig-blk-en.svg) / Gouvernement du Canada](https://www.canada.ca/en.html)
+
+## Search
+
+Search Canada.ca
+
+Search
+
+---
+
+## Menu
+
+Main Menu
+
+* [Jobs and the workplace](https://www.canada.ca/en/services/jobs.html)
+* [Immigration and citizenship](https://www.canada.ca/en/services/immigration-citizenship.html)
+* [Travel and tourism](https://travel.gc.ca/)
+* [Business and industry](https://www.canada.ca/en/services/business.html)
+* [Benefits](https://www.canada.ca/en/services/benefits.html)
+* [Health](https://www.canada.ca/en/services/health.html)
+* [Taxes](https://www.canada.ca/en/services/taxes.html)
+* [Environment and natural resources](https://www.canada.ca/en/services/environment.html)
+* [National security and defence](https://www.canada.ca/en/services/defence.html)
+* [Culture, history and sport](https://www.canada.ca/en/services/culture.html)
+* [Policing, justice and emergencies](https://www.canada.ca/en/services/policing.html)
+* [Transport and infrastructure](https://www.canada.ca/en/services/transport.html)
+* [Canada and the world](https://www.international.gc.ca/world-monde/index.aspx?lang=eng)
+* [Money and finances](https://www.canada.ca/en/services/finance.html)
+* [Science and innovation](https://www.canada.ca/en/services/science.html)
+* [Manage life events](https://www.canada.ca/en/services/life-events.html)
+
+## You are here:
+
+1. [Canada.ca](https://www.canada.ca/en.html)
+2. [Housing, Infrastructure and Communities Canada](/index-eng.html)
+3. [Access to Information and Privacy](/pd-dp/atip-aiprp/index-eng.html)
+4. [Information About Programs and Information Holdings](/infosource/infosource-eng.html)
+
+# Housing, Infrastructure and Communities Canada Staffing
+
+**Description:** This bank describes information about recruitment and staffing activities, which includes solicited and unsolicited applications for employment, the collection of curriculum vitaes through third-party recruitment tools, position reclassifications, secondments, deployments, and other work assignments or arrangements within government institutions. Personal information may include name, contact information, assessment/test results, biographical information, citizenship status, date and place of birth, educational information, employee identification number, employment equity information, employee personnel information, financial information, official language proficiency, medical information, opinions and views of, or about, individuals, signatures, electronic ‘tags', gender, physical attributes and picture/video.
+
+**Note:** Individuals requesting information described by this bank should provide a competition number, if applicable. A PIA was completed on Web-Based Staffing Tools in 2021 and a subsequent PIA was completed for LinkedIn Recruiter in 2025.
+
+**Class of Individuals:** Employees of the institution, individuals who apply for employment at HICC including through recruitment initiatives, other individuals who have made their information public on web based recruitment tools, as well as individuals who provide references or are supervisors of applicants.
+
+**Purpose:** Personal information is used to administer recruitment and staffing activities which includes maintaining an inventory of potential candidates for future staffing actions. Personal information is collected pursuant to the *Department of Housing, Infrastructure and Communities Act*, the *Public Service Employment Act*, the *Employment Equity Act*, and the *Canadian Human Rights Act* (section 16).
+
+**Consistent Uses:** Information may be disclosed to the Public Service Commission, Treasury Board Secretariat and other government institutions for recruitment, employment equity, and staffing purposes, including complaints (refer to Institution-Specific Personal Information Banks: for the Public Service Commission of Canada: [Applicant Inventories and Referrals - PSC PPU 015](https://www.canada.ca/en/public-service-commission.html); [Assessment by the Personnel Psychology Centre - PSC PCU 025](https://www.canada.ca/en/public-service-commission.html), [Second Language Evaluation (SLE) Test Results - PSC PPU 030](https://www.canada.ca/en/public-service-commission.html), [Executive Resourcing - PSC PCE 746](https://www.canada.ca/en/public-service-commission.html), [Analytical Environment - PSC PCE 761](https://www.canada.ca/en/public-service-commission.html), and [Investigations, Mediation and Conciliation - PSC PPU 010](https://www.canada.ca/en/public-service-commission.html); for Treasury Board of Canada Secretariat: [Employment Equity Data Bank - TBS PCE 739](https://www.tbs-sct.canada.ca/atipo-baiprp/sfg-srg/sfg-srg02-eng.asp) and [Workforce Adjustment Monitoring (WFAM) System - TBS PCE 804](https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/treasury-board-secretariat-sources-federal-government-employee-information-info-source.html)). Information relating to staffing complaints may be shared with the Public Service Commission (refer to Institution-Specific Personal Information Bank [Investigations, Mediation and Conciliation - PSC PPU 010](https://www.canada.ca/en/public-service-commission.html)) and the Public Service Staffing Tribunal, when required. On request, selected information may be disclosed to a participant in a staffing process. Information may also be shared with third party service providers to manage recruitment and staffing initiatives. Information may also be used or disclosed for human resources planning and studies (refer to Standard Personal Information Bank [Human Resources Planning - PSU 935](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#psu935)) and staffing decisions may also be described in Standard Personal Information Bank [Employee Personnel Record - PSE 901](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#pse901). Voluntary self-identification information relating to employment equity programs and services is also described in Standard Personal Information Bank [Employment Equity and Diversity - PSE 918](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-personal-information-banks.html#pse918). Selected information about reclassifications may be proactively disclosed on government institutions' websites. Information may also be used or disclosed for program planning or management, reporting, safety or security purposes, audit, evaluation, statistical, research and/or policy development.
+
+**Retention and Disposal Standards:** Records of successful candidates chosen for positions at HICC will be retained for five years after the staffing action is completed or abandoned and then destroyed. Records of candidates who are not selected for positions at HICC will be retained for two years after the last administrative action and then destroyed.
+
+**RDA Number:** 2021/003
+
+**Related Record Number:** [PRN 919](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn919) and [PRN 920](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn920)
+
+**TBS Registration:** 20230008
+
+**Bank Number:** HICC PPU 015
+
+## Page details
+
+Date modified:
+:   2026-01-28
 
 ## About this site
 

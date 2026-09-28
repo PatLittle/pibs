@@ -59,6 +59,22 @@ class InstitutionRegistryTests(unittest.TestCase):
         self.assertEqual(row["pibs_url_en"], row["classes_of_records_url_en"])
         self.assertEqual(row["pibs_url_fr"], row["classes_of_records_url_fr"])
 
+    def test_current_aafc_housing_and_pspc_publication_links(self):
+        registry = self.registry.set_index("institution_id")
+        aafc = registry.loc["ati-schedule-i-department-of-agriculture-and-agri-food"]
+        self.assertIn("/en/department/transparency/info-source", aafc["infosource_url_en"])
+        self.assertIn("/fr/ministere/transparence/info-source", aafc["infosource_url_fr"])
+        housing = registry.loc["ati-schedule-i-department-of-housing-infrastructure-and-communities"]
+        self.assertIn("housing-infrastructure.canada.ca/infosource/infosource-eng.html", housing["infosource_url_en"])
+        self.assertIn("housing-infrastructure.canada.ca/infosource/infosource-fra.html", housing["infosource_url_fr"])
+        pspc = registry.loc["ati-schedule-i-department-of-public-works-and-government-services"]
+        self.assertTrue(pspc["infosource_url_en"].endswith("/about.html"))
+        self.assertTrue(pspc["infosource_url_fr"].endswith("/apropos.html"))
+        self.assertTrue(pspc["pibs_url_en"].endswith("/institutional-program-activities.html"))
+        self.assertTrue(pspc["pibs_url_fr"].endswith("/programmes-activites-institutionnels.html"))
+        self.assertEqual(pspc["pibs_url_en"], pspc["classes_of_records_url_en"])
+        self.assertEqual(pspc["pibs_url_fr"], pspc["classes_of_records_url_fr"])
+
     def test_populated_publication_links_are_urls(self):
         for column in (
             "infosource_url_en", "infosource_url_fr", "pibs_url_en", "pibs_url_fr",
