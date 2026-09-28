@@ -2,32 +2,32 @@
   "snapshot_date": "2026-08-15",
   "headline": {
     "institutions": 148,
-    "institution_pibs": 961,
-    "institution_classes": 2315,
-    "pib_cor_links": 1835
+    "institution_pibs": 991,
+    "institution_classes": 2371,
+    "pib_cor_links": 1915
   },
   "quality": {
-    "pibs_bilingual": 813,
-    "pibs_bilingual_percent": 84.6,
-    "classes_bilingual": 2026,
-    "classes_bilingual_percent": 87.5,
-    "links_resolved": 1555,
-    "links_resolved_percent": 84.7
+    "pibs_bilingual": 860,
+    "pibs_bilingual_percent": 86.8,
+    "classes_bilingual": 2127,
+    "classes_bilingual_percent": 89.7,
+    "links_resolved": 1631,
+    "links_resolved_percent": 85.2
   },
   "collection": {
     "collectable_institutions": 131,
     "collection_completed": 131,
-    "all_four_sources": 94,
-    "any_source": 101,
+    "all_four_sources": 96,
+    "any_source": 103,
     "no_source_urls": 17,
-    "no_successful_source": 30,
-    "unique_failing_urls": 62
+    "no_successful_source": 28,
+    "unique_failing_urls": 58
   },
   "datasets": {
     "institutions": 148,
-    "pibs": 961,
-    "classes": 2315,
-    "links": 1835,
+    "pibs": 991,
+    "classes": 2371,
+    "links": 1915,
     "standard_pibs": 49,
     "standard_classes": 33,
     "categories": 25,
@@ -36,19 +36,19 @@
   "pib_types": [
     {
       "name": "Public Bank",
-      "count": 813
+      "count": 830
     },
     {
       "name": "Particular Bank",
-      "count": 84
+      "count": 87
     },
     {
       "name": "Central Bank",
-      "count": 50
+      "count": 53
     },
     {
       "name": "Public Central Bank",
-      "count": 12
+      "count": 19
     },
     {
       "name": "Public Standard Bank",
