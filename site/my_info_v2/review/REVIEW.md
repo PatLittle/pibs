@@ -1,6 +1,6 @@
 # My Info V2 — reviewable survey specification
 
-This is an isolated comparison prototype. V1 and the published site remain unchanged on their existing paths.
+This is a separately deployed comparison prototype at /pibs/my_info_v2/. The original survey remains at /pibs/my_info/ with its existing logic.
 
 ## Product promise and flow
 

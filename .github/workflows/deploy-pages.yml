@@ -7,6 +7,8 @@ on:
     paths:
       - "site/**"
       - "!site/my_info/**"
+      - "!site/my_info_v2/**"
+      - "!site/my_info_compare/**"
       - "spib_en_fr.csv"
       - "pi_categories_en_fr.csv"
       - "standard_classes_of_records_en_fr.csv"
@@ -28,10 +30,12 @@ permissions:
 
 concurrency:
   group: pages-branch-deploy
+  queue: max
   cancel-in-progress: false
 
 jobs:
   deploy:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -59,7 +63,7 @@ jobs:
       - name: Prepare independent main-site payload
         run: |
           mkdir -p _site_root
-          rsync -a --delete --exclude "my_info/" site/ _site_root/
+          rsync -a --delete --exclude "my_info/" --exclude "my_info_v2/" --exclude "my_info_compare/" site/ _site_root/
 
       - name: Deploy to pages branch
         uses: JamesIves/github-pages-deploy-action@v4
@@ -69,4 +73,6 @@ jobs:
           clean: true
           clean-exclude: |
             my_info/**
+            my_info_v2/**
+            my_info_compare/**
           force: false

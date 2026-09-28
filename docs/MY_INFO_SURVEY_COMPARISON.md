@@ -1,11 +1,13 @@
 # My Info — V1 and V2 comparison
 
-Both versions are preserved on feature branches. `main` and the live GitHub Pages survey remain at the baseline while this design is reviewed.
+Both versions are available side by side on GitHub Pages and preserved on feature branches. The original remains at `/pibs/my_info/`; the new review prototype is at `/pibs/my_info_v2/`. Publication is controlled through `main` with separate deployment folders.
 
 - V1: `codex/my-info-v1-review` — existing survey plus a generated, printable logic document.
 - V2: `codex/my-info-v2` — additive prototype at `site/my_info_v2/`; the V1 application, classifier, data and MCP endpoint are unchanged.
 
 ## Open and review
+
+Published comparison: https://patlittle.github.io/pibs/my_info_compare/ — includes both surveys, printable logic documents and routing spreadsheets.
 
 From a checkout of the V2 branch, run `python3 -m http.server 8766 --directory site`, then open `http://localhost:8766/my_info_compare/`.
 

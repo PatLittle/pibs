@@ -1,0 +1,76 @@
+name: Deploy My Info V2 and comparison
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "my_info_v2/**"
+      - "site/my_info_v2/**"
+      - "site/my_info_compare/**"
+      - "scripts/build_my_info_v2.py"
+      - "scripts/compare_my_info_surveys.mjs"
+      - "scripts/export_my_info_v1_review.py"
+      - "scripts/validate_my_info_deployment.py"
+      - "tests/my_info_v2.test.mjs"
+      - "docs/my_info_v1/**"
+      - "docs/my_info_v2/**"
+      - "docs/MY_INFO_SURVEY_COMPARISON.md"
+      - "data/derived/my_info/**"
+      - "my_info/model.py"
+      - "my_info/agent_tools.py"
+      - "site/my_info/runtime.json"
+      - "site/my_info/engine.mjs"
+      - "institution_registry.csv"
+      - "spib_en_fr.csv"
+      - "institutions_infosource_docs/**"
+      - ".github/workflows/deploy-my-info-v2-pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# All writers to the shared pages branch use this same queue.
+concurrency:
+  group: pages-branch-deploy
+  queue: max
+  cancel-in-progress: false
+
+jobs:
+  deploy-v2:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Build independent V2 and comparison documents
+        run: |
+          python scripts/export_my_info_v1_review.py
+          python scripts/build_my_info_v2.py
+          node scripts/compare_my_info_surveys.mjs
+      - name: Verify routing and deployment isolation
+        run: |
+          node --test tests/my_info_v2.test.mjs
+          node --check site/my_info_v2/app.mjs
+          python scripts/validate_my_info_deployment.py
+          git diff --exit-code -- site/my_info my_info/web packages/my-info-mcp
+      - name: Deploy only V2
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: pages
+          folder: site/my_info_v2
+          target-folder: my_info_v2
+          clean: true
+          force: false
+      - name: Deploy only comparison and review documents
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: pages
+          folder: site/my_info_compare
+          target-folder: my_info_compare
+          clean: true
+          force: false

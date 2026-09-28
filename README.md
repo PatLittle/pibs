@@ -151,6 +151,45 @@ node --check site/my_info/engine.mjs
 
 ## Static data explorer
 
+### Side-by-side survey deployment
+
+The original survey and the V2 comparison prototype have independent URLs:
+
+- [Original survey](https://patlittle.github.io/pibs/my_info/)
+- [V2 prototype](https://patlittle.github.io/pibs/my_info_v2/)
+- [Comparison and printable logic documents](https://patlittle.github.io/pibs/my_info_compare/)
+
+Development versions remain on `codex/my-info-v1-review` and `codex/my-info-v2`.
+Publishing is controlled by `main`, not by pushing either feature branch. Promote only
+the intended version's source and generated files to `main`; do not swap directory names.
+
+The explorer workflow excludes and preserves all three survey directories. The original
+survey workflow owns only `my_info/`; `deploy-my-info-v2-pages.yml` owns only `my_info_v2/`
+and `my_info_compare/`. All three writers share the `pages-branch-deploy` concurrency
+group with `queue: max`, use non-forced pushes, and reject manual deployment from non-main branches.
+The expanded queue prevents one pending publisher from replacing another when a single
+data update triggers all three; see [GitHub's concurrency documentation](https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax#concurrency).
+Thus an explorer refresh or a V2 release cannot clean away or replace the original survey.
+
+Rebuild the comparison release with:
+
+```bash
+python3 scripts/export_my_info_v1_review.py
+python3 scripts/build_my_info_v2.py
+node scripts/compare_my_info_surveys.mjs
+node --test tests/my_info_v2.test.mjs
+python3 scripts/validate_my_info_deployment.py
+```
+
+For a local trial, serve `site/` over HTTP (`python3 -m http.server 8766 --directory site`)
+and open `http://localhost:8766/my_info_compare/`. Do not open the source HTML using
+`file://`: both applications fetch generated JSON and modules from their served directory.
+The V2 workflow validates both engines remain separate; it does not publish the V2 engine
+to the existing voice/MCP endpoint. V2 remains a clearly labelled review prototype, not a
+claim of production-ready automatic coverage.
+
+### Explorer assets
+
 The GitHub Pages site is built from the compiled CSVs. Its landing page provides overview and
 quality statistics, while `site/table.html` supplies a reusable searchable view for the
 authoritative institution registry, institution PIBs, institution Classes of Records,

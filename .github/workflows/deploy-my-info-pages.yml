@@ -25,10 +25,12 @@ permissions:
 
 concurrency:
   group: pages-branch-deploy
+  queue: max
   cancel-in-progress: false
 
 jobs:
   deploy-my-info:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

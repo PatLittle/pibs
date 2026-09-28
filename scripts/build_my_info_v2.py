@@ -148,7 +148,7 @@ def documentation(runtime):
     institutions = {i["id"]: i for i in runtime["institutions"]}
     stats = runtime["coverage"]
     lines = ["# My Info V2 — reviewable survey specification", "",
-             "This is an isolated comparison prototype. V1 and the published site remain unchanged on their existing paths.", "",
+             "This is a separately deployed comparison prototype at /pibs/my_info_v2/. The original survey remains at /pibs/my_info/ with its existing logic.", "",
              "## Product promise and flow", "",
              "Find which federal organizations may have records about you, what those records describe, and where to ask. Start with activities you recognize; dates are optional.", "",
              "1. Choose recognized activities in eight expandable groups, use the optional common-four shortcut, or search by program/institution. Selecting a group only navigates; it never matches a PIB.",
