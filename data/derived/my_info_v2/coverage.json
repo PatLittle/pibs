@@ -1,0 +1,26 @@
+{
+  "inventory_rows": 1040,
+  "distinct_bank_keys": 972,
+  "guided_record_count": 53,
+  "guided_percent": 5.1,
+  "directory_record_count": 1040,
+  "directory_only_count": 987,
+  "activities": 56,
+  "groups": 8,
+  "scope_activities": 9,
+  "source_gap_activities": [
+    "tax_return"
+  ],
+  "needs_detail_activities": [
+    "veterans_unknown",
+    "other_complaint"
+  ],
+  "reviewed_retention_rules": 6,
+  "institutions_with_context_en": 67,
+  "institutions_with_context_fr": 64,
+  "source_quality_flags": {
+    "population_missing": 7,
+    "purpose_missing": 13,
+    "title_needs_review": 33
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "baseline_commit": "9aa3b07",
+  "v1_branch": "codex/my-info-v1-review",
+  "v2_branch": "codex/my-info-v2",
+  "coverage": {
+    "inventory_rows": 1040,
+    "distinct_bank_keys": 972,
+    "guided_record_count": 53,
+    "guided_percent": 5.1,
+    "directory_record_count": 1040,
+    "directory_only_count": 987,
+    "activities": 56,
+    "groups": 8,
+    "scope_activities": 9,
+    "source_gap_activities": [
+      "tax_return"
+    ],
+    "needs_detail_activities": [
+      "veterans_unknown",
+      "other_complaint"
+    ],
+    "reviewed_retention_rules": 6,
+    "institutions_with_context_en": 67,
+    "institutions_with_context_fr": 64,
+    "source_quality_flags": {
+      "population_missing": 7,
+      "purpose_missing": 13,
+      "title_needs_review": 33
+    }
+  },
+  "scenarios": [
+    {
+      "name": "No reported activity",
+      "v1": {
+        "screens": 22,
+        "question": 22,
+        "refinement": 0,
+        "timing": 0,
+        "department": 0,
+        "banks": []
+      },
+      "v2": {
+        "selection_submissions": 1,
+        "required_scope_questions": 0,
+        "optional_date_questions": 0,
+        "banks": []
+      }
+    },
+    {
+      "name": "Veterans education benefit",
+      "v1": {
+        "screens": 25,
+        "question": 22,
+        "refinement": 1,
+        "timing": 1,
+        "department": 1,
+        "banks": [
+          "ACC PPU 350",
+          "VAC PPU 040",
+          "VAC PPU 200",
+          "VAC PPU 710",
+          "VAC PPU 715"
+        ]
+      },
+      "v2": {
+        "selection_submissions": 1,
+        "required_scope_questions": 0,
+        "optional_date_questions": 0,
+        "banks": [
+          "VAC PPU 710"
+        ]
+      }
+    },
+    {
+      "name": "Regular Force service",
+      "v1": {
+        "screens": 25,
+        "question": 22,
+        "refinement": 1,
+        "timing": 1,
+        "department": 1,
+        "banks": [
+          "DND PPE 818",
+          "DND PPU 025"
+        ]
+      },
+      "v2": {
+        "selection_submissions": 1,
+        "required_scope_questions": 0,
+        "optional_date_questions": 1,
+        "banks": [
+          "DND PPE 818"
+        ]
+      }
+    },
+    {
+      "name": "NEXUS application",
+      "v1": {
+        "screens": 24,
+        "question": 22,
+        "refinement": 1,
+        "timing": 1,
+        "department": 0,
+        "banks": [
+          "CBSA PPU 013",
+          "CBSA PPU 031"
+        ]
+      },
+      "v2": {
+        "selection_submissions": 1,
+        "required_scope_questions": 0,
+        "optional_date_questions": 0,
+        "banks": [
+          "CBSA PPU 031"
+        ]
+      }
+    },
+    {
+      "name": "Federal voting",
+      "v1": {
+        "screens": 24,
+        "question": 22,
+        "refinement": 1,
+        "timing": 1,
+        "department": 0,
+        "banks": []
+      },
+      "v2": {
+        "selection_submissions": 1,
+        "required_scope_questions": 0,
+        "optional_date_questions": 0,
+        "banks": [
+          "ELECTIONS PPU 037"
+        ]
+      }
+    },
+    {
+      "name": "Space launch attendance",
+      "v1": {
+        "screens": 24,
+        "question": 22,
+        "refinement": 1,
+        "timing": 1,
+        "department": 0,
+        "banks": [
+          "CSA PPU 020"
+        ]
+      },
+      "v2": {
+        "selection_submissions": 1,
+        "required_scope_questions": 0,
+        "optional_date_questions": 1,
+        "banks": [
+          "CSA PPU 020"
+        ]
+      }
+    },
+    {
+      "name": "CBSA service complaint",
+      "v1": {
+        "screens": 25,
+        "question": 22,
+        "refinement": 1,
+        "timing": 1,
+        "department": 1,
+        "banks": [
+          "CBSA PPU 003",
+          "CBSA PPU 005"
+        ]
+      },
+      "v2": {
+        "selection_submissions": 1,
+        "required_scope_questions": 0,
+        "optional_date_questions": 1,
+        "banks": [
+          "CBSA PPU 003"
+        ]
+      }
+    },
+    {
+      "name": "Common four plus NEXUS",
+      "v1": {
+        "screens": 20,
+        "question": 19,
+        "refinement": 1,
+        "timing": 0,
+        "department": 0,
+        "banks": [
+          "CBSA PPU 008",
+          "CBSA PPU 010",
+          "CBSA PPU 014",
+          "CBSA PPU 018",
+          "ESDC PPU 708",
+          "ESDC PPU 708",
+          "IRCC PPU 081"
+        ]
+      },
+      "v2": {
+        "selection_submissions": 1,
+        "required_scope_questions": 0,
+        "optional_date_questions": 1,
+        "banks": [
+          "CBSA PPU 018",
+          "CBSA PPU 031",
+          "ELECTIONS PPU 037",
+          "IRCC PPU 081"
+        ]
+      }
+    }
+  ]
+}
