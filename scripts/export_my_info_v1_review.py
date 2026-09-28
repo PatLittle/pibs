@@ -23,6 +23,8 @@ def pipe(value):
 
 
 def build_review(engine):
+    with (ROOT / "institution_registry.csv").open(encoding="utf-8-sig", newline="") as handle:
+        registry = {r["institution_id"]: r for r in csv.DictReader(handle)}
     named = {bank for route in engine.routes.values() for option in route["options"]
              for bank in option["selectors"]["bank_numbers"]}
     records = []
@@ -30,7 +32,13 @@ def build_review(engine):
         strong = bool(row["question_codes"]) and row["bank_number_key"] not in engine.exclusive_banks
         possible = bool(row["candidate_question_codes"]) and row["bank_number_key"] not in engine.exclusive_banks
         band = "direct" if strong or row["bank_number_key"] in named else "possible_only" if possible else "not_discoverable"
-        records.append({**row, "reachability": band})
+        item = {**row, "reachability": band}
+        institution = registry.get(row["institution_id"], {})
+        for lang in ("en", "fr"):
+            # Documentation-only links; do not change the V1 runtime or classifier.
+            item[f"source_url_{lang}"] = (row[f"source_url_{lang}"] or institution.get(f"pibs_url_{lang}")
+                                           or institution.get(f"infosource_url_{lang}", ""))
+        records.append(item)
     questions = []
     for code in engine.question_order:
         question = {"code": code, "source": engine.questions[code],
@@ -55,7 +63,7 @@ def build_review(engine):
         question["candidate_records"] = [r["record_id"] for r in records if code in pipe(r["candidate_question_codes"])]
         questions.append(question)
     fingerprint_paths = [engine.contract_path, engine.feature_path, ROOT / "my_info/agent_tools.py",
-                         ROOT / "my_info/web/app.mjs", ROOT / "packages/my-info-mcp/src/engine.mjs"]
+                         ROOT / "my_info/web/app.mjs", ROOT / "packages/my-info-mcp/src/engine.mjs", ROOT / "institution_registry.csv"]
     return {"content_version": engine.contract["content_version"], "data_snapshot": engine.contract["data_snapshot"],
         "inputs": {str(p.relative_to(ROOT)): sha256(p.read_bytes()).hexdigest() for p in fingerprint_paths},
         "inventory_count": len(records), "coverage": dict(Counter(r["reachability"] for r in records)),
