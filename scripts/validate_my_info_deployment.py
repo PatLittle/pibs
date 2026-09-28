@@ -55,7 +55,7 @@ def validate():
     for path in header_pages:
         content = path.read_text(encoding="utf-8")
         assert "<gcds-header" in content and '<gcds-signature></gcds-signature>' in content, path
-        assert 'class="prototype-label-text" hidden>Prototype - For Discussion' in content, path
+        assert 'class="prototype-label-text" style="display:none">Prototype - For Discussion' in content, path
         assert "prototype-label.css" in content, path
     landing = (SITE / "index.html").read_text(encoding="utf-8")
     assert 'id="survey-heading"' not in landing

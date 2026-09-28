@@ -160,13 +160,14 @@ from the page to show the label directly above the unchanged GCDS signature:
 ```html
 <link rel="stylesheet" href="prototype-label.css">
 <div class="prototype-signature" slot="signature">
-  <span class="prototype-label-text" hidden>Prototype - For Discussion</span>
+  <span class="prototype-label-text" style="display:none">Prototype - For Discussion</span>
   <gcds-signature></gcds-signature>
 </div>
 ```
 
-Remove the stylesheet link to hide the label. The `hidden` text remains out
-of view and assistive technology when the optional stylesheet is absent.
+Remove the stylesheet link to hide the label. The baseline inline display
+rule hides it when the optional stylesheet is absent; the stylesheet makes
+the text visible to sighted users and assistive technology.
 
 The original survey and the V2 comparison prototype have independent URLs:
 
