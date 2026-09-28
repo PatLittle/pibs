@@ -163,9 +163,9 @@ No exact-selector inventory rows. A fallback can still match the parent topic; a
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| IRCC PPU 081 | Department of Citizenship and Immigration | Regular and Official Passports (PPU 081) / Passeports réguliers et officiels (PPU 081) | — |
-| ESDC PPU 708 | Department of Employment and Social Development | Passport Program (PIB) / Programme de passeport (FRP) | — |
-| ESDC PPU 708 | Canada Employment Insurance Commission | Passport Program (PIB) / Programme de passeport (FRP) | — |
+| IRCC PPU 081 | Department of Citizenship and Immigration | Regular and Official Passports (PPU 081) / Passeports réguliers et officiels (PPU 081) | [EN](https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/access-information-privacy/info-source/personal-information-banks.html) / [FR](https://www.canada.ca/fr/immigration-refugies-citoyennete/organisation/transparence/acces-information-protection/info-source/fichiers-renseignements-personnels.html) |
+| ESDC PPU 708 | Department of Employment and Social Development | Passport Program (PIB) / Programme de passeport (FRP) | [EN](https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html) / [FR](https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource-2023-2024/infosource-detaille.html) |
+| ESDC PPU 708 | Canada Employment Insurance Commission | Passport Program (PIB) / Programme de passeport (FRP) | [EN](https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html) / [FR](https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource-2023-2024/infosource-detaille.html) |
 
 ### border_crossing
 
@@ -186,10 +186,10 @@ No exact-selector inventory rows. A fallback can still match the parent topic; a
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| CBSA PPU 018 | Canada Border Services Agency | Traveller Declaration Cards – Personal Information Bank / Carte de déclaration du voyageur – Fichier de renseignements personnels | — |
-| CBSA PPU 008 | Canada Border Services Agency | Advance Passenger Information and Passenger Name Record Programs (API/PNR) – Personal Information Bank / Le programme Information préalable sur les voyageurs et du dossier passager (IPV et DP) – Fichier de renseignements personnels | — |
-| CBSA PPU 014 | Canada Border Services Agency | Clients Interviewed by an Officer (DOW) – Personal Information Bank / Clients rencontrés par un agent (DOW) – Fichier de renseignements personnels | — |
-| CBSA PPU 010 | Canada Border Services Agency | Travellers Entry Processing System (TEPS) / Travellers National Database System (TRANDS) – Personal Information Bank / Système de traitement des déclarations des voyageurs (STDV)/Système de base de données nationale sur les voyageurs (SBDNV) – Fichier de renseignements personnels | — |
+| CBSA PPU 018 | Canada Border Services Agency | Traveller Declaration Cards – Personal Information Bank / Carte de déclaration du voyageur – Fichier de renseignements personnels | [EN](https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-eng.html) / [FR](https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-fra.html) |
+| CBSA PPU 008 | Canada Border Services Agency | Advance Passenger Information and Passenger Name Record Programs (API/PNR) – Personal Information Bank / Le programme Information préalable sur les voyageurs et du dossier passager (IPV et DP) – Fichier de renseignements personnels | [EN](https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-eng.html) / [FR](https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-fra.html) |
+| CBSA PPU 014 | Canada Border Services Agency | Clients Interviewed by an Officer (DOW) – Personal Information Bank / Clients rencontrés par un agent (DOW) – Fichier de renseignements personnels | [EN](https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-eng.html) / [FR](https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-fra.html) |
+| CBSA PPU 010 | Canada Border Services Agency | Travellers Entry Processing System (TEPS) / Travellers National Database System (TRANDS) – Personal Information Bank / Système de traitement des déclarations des voyageurs (STDV)/Système de base de données nationale sur les voyageurs (SBDNV) – Fichier de renseignements personnels | [EN](https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-eng.html) / [FR](https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-fra.html) |
 
 ### none_recent
 
@@ -256,8 +256,8 @@ Select one or more activity options. Each selected option asks its own timing un
 | --- | --- | --- | --- |
 | PSU 911 | Government of Canada institutions | Applications for Employment / Demandes d’emploi | [EN](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-personal-information-banks.html#psu911) / [FR](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#pou911) |
 | PSE 902 | Government of Canada institutions | Staffing / Dotation | [EN](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-personal-information-banks.html#pse902) / [FR](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#poe902) |
-| PSC PPU 040 | Public Service Commission | Personnel Selection / Sélection du personnel | — |
-| PSC PCU 025 | Public Service Commission | Assessment by the Personnel Psychology Centre / Évaluation par le Centre de psychologie du personnel | — |
+| PSC PPU 040 | Public Service Commission | Personnel Selection / Sélection du personnel | [EN](https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/info-source-sources-federal-government-employee-information.html) / [FR](https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/info-source.html) |
+| PSC PCU 025 | Public Service Commission | Assessment by the Personnel Psychology Centre / Évaluation par le Centre de psychologie du personnel | [EN](https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/info-source-sources-federal-government-employee-information.html) / [FR](https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/info-source.html) |
 
 ### federal_employee
 
@@ -397,12 +397,12 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| ESDC PPU 151 | Department of Employment and Social Development | Employment Insurance Claim Files (PIB) / Dossiers de demandes d'assurance-emploi (FRP) | — |
-| ESDC PPU 180 | Department of Employment and Social Development | Benefit and Overpayment File (PIB) / Fichier des prestations et des trop-payés (FRP) | — |
-| ESDC PPU 501 | Department of Employment and Social Development | Employment Insurance Databank (PIB) / Base de données de l'assurance-emploi (FRP) | — |
-| ESDC PPU 151 | Canada Employment Insurance Commission | Employment Insurance Claim Files (PIB) / Dossiers de demandes d'assurance-emploi (FRP) | — |
-| ESDC PPU 180 | Canada Employment Insurance Commission | Benefit and Overpayment File (PIB) / Fichier des prestations et des trop-payés (FRP) | — |
-| ESDC PPU 501 | Canada Employment Insurance Commission | Employment Insurance Databank (PIB) / Base de données de l'assurance-emploi (FRP) | — |
+| ESDC PPU 151 | Department of Employment and Social Development | Employment Insurance Claim Files (PIB) / Dossiers de demandes d'assurance-emploi (FRP) | [EN](https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html) / [FR](https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource-2023-2024/infosource-detaille.html) |
+| ESDC PPU 180 | Department of Employment and Social Development | Benefit and Overpayment File (PIB) / Fichier des prestations et des trop-payés (FRP) | [EN](https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html) / [FR](https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource-2023-2024/infosource-detaille.html) |
+| ESDC PPU 501 | Department of Employment and Social Development | Employment Insurance Databank (PIB) / Base de données de l'assurance-emploi (FRP) | [EN](https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html) / [FR](https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource-2023-2024/infosource-detaille.html) |
+| ESDC PPU 151 | Canada Employment Insurance Commission | Employment Insurance Claim Files (PIB) / Dossiers de demandes d'assurance-emploi (FRP) | [EN](https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html) / [FR](https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource-2023-2024/infosource-detaille.html) |
+| ESDC PPU 180 | Canada Employment Insurance Commission | Benefit and Overpayment File (PIB) / Fichier des prestations et des trop-payés (FRP) | [EN](https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html) / [FR](https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource-2023-2024/infosource-detaille.html) |
+| ESDC PPU 501 | Canada Employment Insurance Commission | Employment Insurance Databank (PIB) / Base de données de l'assurance-emploi (FRP) | [EN](https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html) / [FR](https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource-2023-2024/infosource-detaille.html) |
 
 ### cpp_oas
 
@@ -423,10 +423,10 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| ESDC PPU 146 | Department of Employment and Social Development | Canada Pension Plan Program (PIB) / Régime de pensions du Canada (FRP) | — |
-| ESDC PPU 140 | Department of Employment and Social Development | Canada Pension Plan - Record of Earnings (PIB) / Régime de pensions du Canada - Registre des gains (FRP) | — |
-| ESDC PPU 146 | Canada Employment Insurance Commission | Canada Pension Plan Program (PIB) / Régime de pensions du Canada (FRP) | — |
-| ESDC PPU 140 | Canada Employment Insurance Commission | Canada Pension Plan - Record of Earnings (PIB) / Régime de pensions du Canada - Registre des gains (FRP) | — |
+| ESDC PPU 146 | Department of Employment and Social Development | Canada Pension Plan Program (PIB) / Régime de pensions du Canada (FRP) | [EN](https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html) / [FR](https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource-2023-2024/infosource-detaille.html) |
+| ESDC PPU 140 | Department of Employment and Social Development | Canada Pension Plan - Record of Earnings (PIB) / Régime de pensions du Canada - Registre des gains (FRP) | [EN](https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html) / [FR](https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource-2023-2024/infosource-detaille.html) |
+| ESDC PPU 146 | Canada Employment Insurance Commission | Canada Pension Plan Program (PIB) / Régime de pensions du Canada (FRP) | [EN](https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html) / [FR](https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource-2023-2024/infosource-detaille.html) |
+| ESDC PPU 140 | Canada Employment Insurance Commission | Canada Pension Plan - Record of Earnings (PIB) / Régime de pensions du Canada - Registre des gains (FRP) | [EN](https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html) / [FR](https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource-2023-2024/infosource-detaille.html) |
 
 ### veterans_payment
 
@@ -447,13 +447,13 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| ESDC PPU 701 | Department of Employment and Social Development | Veterans Affairs Canada Program Delivery (PIB) / Exécution des programmes d'Anciens Combattants Canada (FRP) | — |
-| VAC PPU 710 | Department of Veterans Affairs | You are here /  | — |
-| VAC PPU 715 | Department of Veterans Affairs | You are here /  | — |
-| VAC PPU 040 | Department of Veterans Affairs | You are here /  | — |
-| VAC PPU 200 | Department of Veterans Affairs | You are here /  | — |
-| ACC PPU 350 | Department of Veterans Affairs |  / Vous êtes ici | — |
-| ESDC PPU 701 | Canada Employment Insurance Commission | Veterans Affairs Canada Program Delivery (PIB) / Exécution des programmes d'Anciens Combattants Canada (FRP) | — |
+| ESDC PPU 701 | Department of Employment and Social Development | Veterans Affairs Canada Program Delivery (PIB) / Exécution des programmes d'Anciens Combattants Canada (FRP) | [EN](https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html) / [FR](https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource-2023-2024/infosource-detaille.html) |
+| VAC PPU 710 | Department of Veterans Affairs | You are here /  | [EN](https://www.veterans.gc.ca/en/info-source) / [FR](https://www.veterans.gc.ca/fr/info-source) |
+| VAC PPU 715 | Department of Veterans Affairs | You are here /  | [EN](https://www.veterans.gc.ca/en/info-source) / [FR](https://www.veterans.gc.ca/fr/info-source) |
+| VAC PPU 040 | Department of Veterans Affairs | You are here /  | [EN](https://www.veterans.gc.ca/en/info-source) / [FR](https://www.veterans.gc.ca/fr/info-source) |
+| VAC PPU 200 | Department of Veterans Affairs | You are here /  | [EN](https://www.veterans.gc.ca/en/info-source) / [FR](https://www.veterans.gc.ca/fr/info-source) |
+| ACC PPU 350 | Department of Veterans Affairs |  / Vous êtes ici | [EN](https://www.veterans.gc.ca/en/info-source) / [FR](https://www.veterans.gc.ca/fr/info-source) |
+| ESDC PPU 701 | Canada Employment Insurance Commission | Veterans Affairs Canada Program Delivery (PIB) / Exécution des programmes d'Anciens Combattants Canada (FRP) | [EN](https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html) / [FR](https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource-2023-2024/infosource-detaille.html) |
 
 ### other_payment_program
 
@@ -574,7 +574,7 @@ No exact-selector inventory rows. A fallback can still match the parent topic; a
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| CBSA PPU 018 | Canada Border Services Agency | Traveller Declaration Cards – Personal Information Bank / Carte de déclaration du voyageur – Fichier de renseignements personnels | — |
+| CBSA PPU 018 | Canada Border Services Agency | Traveller Declaration Cards – Personal Information Bank / Carte de déclaration du voyageur – Fichier de renseignements personnels | [EN](https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-eng.html) / [FR](https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-fra.html) |
 
 ### other_tax_customs
 
@@ -641,8 +641,8 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| IRCC PPU 050 | Department of Citizenship and Immigration | Application and Assessment for Canadian Citizenship (PPU 050) / Citoyenneté canadienne : demandes et évaluation (PPU 050) | — |
-| IRCC PPU 067 | Department of Citizenship and Immigration | Permanent Resident Card (PPU 067) / Carte de résident permanent (PPU 067) | — |
+| IRCC PPU 050 | Department of Citizenship and Immigration | Application and Assessment for Canadian Citizenship (PPU 050) / Citoyenneté canadienne : demandes et évaluation (PPU 050) | [EN](https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/access-information-privacy/info-source/personal-information-banks.html) / [FR](https://www.canada.ca/fr/immigration-refugies-citoyennete/organisation/transparence/acces-information-protection/info-source/fichiers-renseignements-personnels.html) |
+| IRCC PPU 067 | Department of Citizenship and Immigration | Permanent Resident Card (PPU 067) / Carte de résident permanent (PPU 067) | [EN](https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/access-information-privacy/info-source/personal-information-banks.html) / [FR](https://www.canada.ca/fr/immigration-refugies-citoyennete/organisation/transparence/acces-information-protection/info-source/fichiers-renseignements-personnels.html) |
 
 ### visitor_visa_status
 
@@ -663,7 +663,7 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| IRCC PPU 055 | Department of Citizenship and Immigration | Visitor Case File (PPU 055) / Dossiers de visiteurs (PPU 055) | — |
+| IRCC PPU 055 | Department of Citizenship and Immigration | Visitor Case File (PPU 055) / Dossiers de visiteurs (PPU 055) | [EN](https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/access-information-privacy/info-source/personal-information-banks.html) / [FR](https://www.canada.ca/fr/immigration-refugies-citoyennete/organisation/transparence/acces-information-protection/info-source/fichiers-renseignements-personnels.html) |
 
 ### other_immigration_process
 
@@ -738,9 +738,9 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| IRCC PPU 081 | Department of Citizenship and Immigration | Regular and Official Passports (PPU 081) / Passeports réguliers et officiels (PPU 081) | — |
-| ESDC PPU 708 | Department of Employment and Social Development | Passport Program (PIB) / Programme de passeport (FRP) | — |
-| ESDC PPU 708 | Canada Employment Insurance Commission | Passport Program (PIB) / Programme de passeport (FRP) | — |
+| IRCC PPU 081 | Department of Citizenship and Immigration | Regular and Official Passports (PPU 081) / Passeports réguliers et officiels (PPU 081) | [EN](https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/access-information-privacy/info-source/personal-information-banks.html) / [FR](https://www.canada.ca/fr/immigration-refugies-citoyennete/organisation/transparence/acces-information-protection/info-source/fichiers-renseignements-personnels.html) |
+| ESDC PPU 708 | Department of Employment and Social Development | Passport Program (PIB) / Programme de passeport (FRP) | [EN](https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html) / [FR](https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource-2023-2024/infosource-detaille.html) |
+| ESDC PPU 708 | Canada Employment Insurance Commission | Passport Program (PIB) / Programme de passeport (FRP) | [EN](https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html) / [FR](https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource-2023-2024/infosource-detaille.html) |
 
 ### border_crossing
 
@@ -761,10 +761,10 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| CBSA PPU 018 | Canada Border Services Agency | Traveller Declaration Cards – Personal Information Bank / Carte de déclaration du voyageur – Fichier de renseignements personnels | — |
-| CBSA PPU 008 | Canada Border Services Agency | Advance Passenger Information and Passenger Name Record Programs (API/PNR) – Personal Information Bank / Le programme Information préalable sur les voyageurs et du dossier passager (IPV et DP) – Fichier de renseignements personnels | — |
-| CBSA PPU 014 | Canada Border Services Agency | Clients Interviewed by an Officer (DOW) – Personal Information Bank / Clients rencontrés par un agent (DOW) – Fichier de renseignements personnels | — |
-| CBSA PPU 010 | Canada Border Services Agency | Travellers Entry Processing System (TEPS) / Travellers National Database System (TRANDS) – Personal Information Bank / Système de traitement des déclarations des voyageurs (STDV)/Système de base de données nationale sur les voyageurs (SBDNV) – Fichier de renseignements personnels | — |
+| CBSA PPU 018 | Canada Border Services Agency | Traveller Declaration Cards – Personal Information Bank / Carte de déclaration du voyageur – Fichier de renseignements personnels | [EN](https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-eng.html) / [FR](https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-fra.html) |
+| CBSA PPU 008 | Canada Border Services Agency | Advance Passenger Information and Passenger Name Record Programs (API/PNR) – Personal Information Bank / Le programme Information préalable sur les voyageurs et du dossier passager (IPV et DP) – Fichier de renseignements personnels | [EN](https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-eng.html) / [FR](https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-fra.html) |
+| CBSA PPU 014 | Canada Border Services Agency | Clients Interviewed by an Officer (DOW) – Personal Information Bank / Clients rencontrés par un agent (DOW) – Fichier de renseignements personnels | [EN](https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-eng.html) / [FR](https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-fra.html) |
+| CBSA PPU 010 | Canada Border Services Agency | Travellers Entry Processing System (TEPS) / Travellers National Database System (TRANDS) – Personal Information Bank / Système de traitement des déclarations des voyageurs (STDV)/Système de base de données nationale sur les voyageurs (SBDNV) – Fichier de renseignements personnels | [EN](https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-eng.html) / [FR](https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-fra.html) |
 
 ### trusted_traveller
 
@@ -785,8 +785,8 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| CBSA PPU 013 | Canada Border Services Agency | Remote Area Border Crossing (RABC) Permit Program – Personal Information Bank / Programme de Permis de passage de la frontière en région éloignée – Fichier de renseignements personnels | — |
-| CBSA PPU 031 | Canada Border Services Agency | NEXUS – Personal Information Bank / NEXUS – Fichier de renseignements personnels | — |
+| CBSA PPU 013 | Canada Border Services Agency | Remote Area Border Crossing (RABC) Permit Program – Personal Information Bank / Programme de Permis de passage de la frontière en région éloignée – Fichier de renseignements personnels | [EN](https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-eng.html) / [FR](https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-fra.html) |
+| CBSA PPU 031 | Canada Border Services Agency | NEXUS – Personal Information Bank / NEXUS – Fichier de renseignements personnels | [EN](https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-eng.html) / [FR](https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-fra.html) |
 
 ### other_travel_border
 
@@ -864,8 +864,8 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| ESDC PPU 712 | Department of Employment and Social Development | Canadian Dental Care Plan (CoR) / Régime canadien de soins dentaires (CDD) | — |
-| ESDC PPU 712 | Canada Employment Insurance Commission | Canadian Dental Care Plan (CoR) / Régime canadien de soins dentaires (CDD) | — |
+| ESDC PPU 712 | Department of Employment and Social Development | Canadian Dental Care Plan (CoR) / Régime canadien de soins dentaires (CDD) | [EN](https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html) / [FR](https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource-2023-2024/infosource-detaille.html) |
+| ESDC PPU 712 | Canada Employment Insurance Commission | Canadian Dental Care Plan (CoR) / Régime canadien de soins dentaires (CDD) | [EN](https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html) / [FR](https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource-2023-2024/infosource-detaille.html) |
 
 ### medical_device_special_access
 
@@ -886,7 +886,7 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| HC PPU 430 | Department of Health | Special Access Program - Medical Devices / Programme d'accès spécial - Matériel médical | — |
+| HC PPU 430 | Department of Health | Special Access Program - Medical Devices / Programme d'accès spécial - Matériel médical | [EN](https://www.canada.ca/en/health-canada/corporate/about-health-canada/activities-responsibilities/access-information-privacy/info-source-federal-government-employee-information.html) / [FR](https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux.html#a21) |
 
 ### other_federal_health_support
 
@@ -967,7 +967,7 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| ISC PPU 019 | Department of Indigenous Services | Home and Community Care / Soins à domicile et en milieu communautaire | — |
+| ISC PPU 019 | Department of Indigenous Services | Home and Community Care / Soins à domicile et en milieu communautaire | [EN](https://www.sac-isc.gc.ca/eng/1639748667069/1639748703555) / [FR](https://www.sac-isc.gc.ca/fra/1639748667069/1639748703555) |
 
 ### indian_status_registration
 
@@ -988,7 +988,7 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| ISC PPU 110 | Department of Indigenous Services | Indian Register and Departmentally Administered Band Lists / Registre des Indiens et listes de bandes tenues au ministère | — |
+| ISC PPU 110 | Department of Indigenous Services | Indian Register and Departmentally Administered Band Lists / Registre des Indiens et listes de bandes tenues au ministère | [EN](https://www.sac-isc.gc.ca/eng/1639748667069/1639748703555) / [FR](https://www.sac-isc.gc.ca/fra/1639748667069/1639748703555) |
 
 ### other_indigenous_service
 
@@ -1061,9 +1061,9 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| DND PPU 025 | Department of National Defence | Enrolment /  | — |
-| DND PPE 818 | Department of National Defence | Canadian Forces Member Personal Information File / Fichier des renseignements personnels des membres des Forces canadiennes | — |
-| LAC PPU 024 | Library and Archives of Canada | Military Personnel Bank (PIB) / Dossiers du personnel militaire (FRP) | — |
+| DND PPU 025 | Department of National Defence | Enrolment /  | [EN](https://www.canada.ca/en/department-national-defence/corporate/transparency/access-information-privacy/info-source-sources-of-federal-government-and-employee-information.html) / [FR](https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/info-source-sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux.html) |
+| DND PPE 818 | Department of National Defence | Canadian Forces Member Personal Information File / Fichier des renseignements personnels des membres des Forces canadiennes | [EN](https://www.canada.ca/en/department-national-defence/corporate/transparency/access-information-privacy/info-source-sources-of-federal-government-and-employee-information.html) / [FR](https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/info-source-sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux.html) |
+| LAC PPU 024 | Library and Archives of Canada | Military Personnel Bank (PIB) / Dossiers du personnel militaire (FRP) | [EN](https://www.canada.ca/en/library-archives/services/public/access-information-privacy/infosource/institution-specific-personal-information-banks.html) / [FR](https://www.canada.ca/fr/bibliotheque-archives/services/public/acces-information-renseignements-personnels/infosource/categories-documents-renseignements-institution.html) |
 
 ### veterans_program
 
@@ -1084,13 +1084,13 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| ESDC PPU 701 | Department of Employment and Social Development | Veterans Affairs Canada Program Delivery (PIB) / Exécution des programmes d'Anciens Combattants Canada (FRP) | — |
-| VAC PPU 710 | Department of Veterans Affairs | You are here /  | — |
-| VAC PPU 715 | Department of Veterans Affairs | You are here /  | — |
-| VAC PPU 040 | Department of Veterans Affairs | You are here /  | — |
-| VAC PPU 200 | Department of Veterans Affairs | You are here /  | — |
-| ACC PPU 350 | Department of Veterans Affairs |  / Vous êtes ici | — |
-| ESDC PPU 701 | Canada Employment Insurance Commission | Veterans Affairs Canada Program Delivery (PIB) / Exécution des programmes d'Anciens Combattants Canada (FRP) | — |
+| ESDC PPU 701 | Department of Employment and Social Development | Veterans Affairs Canada Program Delivery (PIB) / Exécution des programmes d'Anciens Combattants Canada (FRP) | [EN](https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html) / [FR](https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource-2023-2024/infosource-detaille.html) |
+| VAC PPU 710 | Department of Veterans Affairs | You are here /  | [EN](https://www.veterans.gc.ca/en/info-source) / [FR](https://www.veterans.gc.ca/fr/info-source) |
+| VAC PPU 715 | Department of Veterans Affairs | You are here /  | [EN](https://www.veterans.gc.ca/en/info-source) / [FR](https://www.veterans.gc.ca/fr/info-source) |
+| VAC PPU 040 | Department of Veterans Affairs | You are here /  | [EN](https://www.veterans.gc.ca/en/info-source) / [FR](https://www.veterans.gc.ca/fr/info-source) |
+| VAC PPU 200 | Department of Veterans Affairs | You are here /  | [EN](https://www.veterans.gc.ca/en/info-source) / [FR](https://www.veterans.gc.ca/fr/info-source) |
+| ACC PPU 350 | Department of Veterans Affairs |  / Vous êtes ici | [EN](https://www.veterans.gc.ca/en/info-source) / [FR](https://www.veterans.gc.ca/fr/info-source) |
+| ESDC PPU 701 | Canada Employment Insurance Commission | Veterans Affairs Canada Program Delivery (PIB) / Exécution des programmes d'Anciens Combattants Canada (FRP) | [EN](https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html) / [FR](https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource-2023-2024/infosource-detaille.html) |
 
 ### other_military_veterans
 
@@ -1163,8 +1163,8 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| ESDC PPU 030 | Department of Employment and Social Development | Canada Student Financial Assistance Program (PIB) / Programme canadien d'aide financière aux étudiants (FRP) | — |
-| ESDC PPU 030 | Canada Employment Insurance Commission | Canada Student Financial Assistance Program (PIB) / Programme canadien d'aide financière aux étudiants (FRP) | — |
+| ESDC PPU 030 | Department of Employment and Social Development | Canada Student Financial Assistance Program (PIB) / Programme canadien d'aide financière aux étudiants (FRP) | [EN](https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html) / [FR](https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource-2023-2024/infosource-detaille.html) |
+| ESDC PPU 030 | Canada Employment Insurance Commission | Canada Student Financial Assistance Program (PIB) / Programme canadien d'aide financière aux étudiants (FRP) | [EN](https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html) / [FR](https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource-2023-2024/infosource-detaille.html) |
 
 ### canada_apprentice_loan
 
@@ -1185,8 +1185,8 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| ESDC PPU 709 | Department of Employment and Social Development | Canada Apprentice Loans (PIB) / Prêt canadien aux apprentis (FRP) | — |
-| ESDC PPU 709 | Canada Employment Insurance Commission | Canada Apprentice Loans (PIB) / Prêt canadien aux apprentis (FRP) | — |
+| ESDC PPU 709 | Department of Employment and Social Development | Canada Apprentice Loans (PIB) / Prêt canadien aux apprentis (FRP) | [EN](https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html) / [FR](https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource-2023-2024/infosource-detaille.html) |
+| ESDC PPU 709 | Canada Employment Insurance Commission | Canada Apprentice Loans (PIB) / Prêt canadien aux apprentis (FRP) | [EN](https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html) / [FR](https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource-2023-2024/infosource-detaille.html) |
 
 ### other_education_training
 
@@ -1267,9 +1267,9 @@ Select one or more activity options. Each selected option asks its own timing un
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
 | PSU 917 | Government of Canada institutions | Personnel Security Screening / Filtrage de sécurité du personnel | [EN](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-personal-information-banks.html#psu917) / [FR](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#pou917) |
-| DND PPU 834 | Department of National Defence | Personnel Security Screening Program /  | — |
-| TC PPU 093 | Department of Transport | Transportation Security Clearance Program / Programme d’habilitation de sécurité en matière de transport | — |
-| RCMP PPU 065 | Royal Canadian Mounted Police | Security Reliability Screening Records / Dossiers de vérification de sécurité/fiabilité | — |
+| DND PPU 834 | Department of National Defence | Personnel Security Screening Program /  | [EN](https://www.canada.ca/en/department-national-defence/corporate/transparency/access-information-privacy/info-source-sources-of-federal-government-and-employee-information.html) / [FR](https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/info-source-sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux.html) |
+| TC PPU 093 | Department of Transport | Transportation Security Clearance Program / Programme d’habilitation de sécurité en matière de transport | [EN](https://tc.canada.ca/en/corporate-services/transparency/info-source) / [FR](https://tc.canada.ca/fr/services-generaux/transparence/info-source) |
+| RCMP PPU 065 | Royal Canadian Mounted Police | Security Reliability Screening Records / Dossiers de vérification de sécurité/fiabilité | [EN](https://rcmp.ca/en/corporate-information/access-information-and-privacy/info-source/rcmp-specific-personal-information-banks) / [FR](https://grc.ca/fr/renseignements-organisationnels/acces-linformation-et-protection-renseignements-personnels/info-source/fichiers-renseignements-personnels-specifiques-grc) |
 
 ### police_law_enforcement
 
@@ -1290,16 +1290,16 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| RCMP PPU 005 | Royal Canadian Mounted Police | Operational Case Records / Dossiers opérationnels | — |
-| RCMP PPU 010 | Royal Canadian Mounted Police | Community Policing Services / Services de police communautaires | — |
-| RCMP PPU 015 | Royal Canadian Mounted Police | Criminal Operational Intelligence Records (Exempt bank) / Dossiers opérationnels de renseignements sur la criminalité (fichier inconsultable) | — |
-| RCMP PPU 025 | Royal Canadian Mounted Police | National Security Investigations Records (Exempt bank) / Dossiers des enquêtes relatives à la sécurité nationale (fichier inconsultable) | — |
-| RCMP PPU 030 | Royal Canadian Mounted Police | Forensic Science and Identification Services and Canadian Criminal Real Time Identification Services / Les Services des sciences judiciaires et de l'identité et le Service canadien d'identification criminelle en temps réels | — |
-| RCMP PPU 075 | Royal Canadian Mounted Police | RCMP Police Car Accidents/Claims by or Against the RCMP / Accidents des voitures de police de la GRC demandes de règlements de sinistre déposées par la GRC ou contre celle-ci | — |
-| RCMP PPU 095 | Royal Canadian Mounted Police | National Sex Offender Registry / Registre national des délinquants sexuels | — |
-| RCMP PPU 139 | Royal Canadian Mounted Police | Victim Services / Services aux victimes | — |
-| RCMP PPU 202 | Royal Canadian Mounted Police | National Cybercrime Coordination Centre (NC3) and the Canadian Anti-Fraud Centre (CAFC) / Centre national de coordination en cybercriminalité (CNC3) et Centre antifraude du Canada (CAFC) | — |
-| RCMP PPU 203 | Royal Canadian Mounted Police | Forensic Science and Identification Services – Science and Strategic Policy / Services des sciences judiciaires et de l'identité - Travaux scientifiques et politiques stratégiques | — |
+| RCMP PPU 005 | Royal Canadian Mounted Police | Operational Case Records / Dossiers opérationnels | [EN](https://rcmp.ca/en/corporate-information/access-information-and-privacy/info-source/rcmp-specific-personal-information-banks) / [FR](https://grc.ca/fr/renseignements-organisationnels/acces-linformation-et-protection-renseignements-personnels/info-source/fichiers-renseignements-personnels-specifiques-grc) |
+| RCMP PPU 010 | Royal Canadian Mounted Police | Community Policing Services / Services de police communautaires | [EN](https://rcmp.ca/en/corporate-information/access-information-and-privacy/info-source/rcmp-specific-personal-information-banks) / [FR](https://grc.ca/fr/renseignements-organisationnels/acces-linformation-et-protection-renseignements-personnels/info-source/fichiers-renseignements-personnels-specifiques-grc) |
+| RCMP PPU 015 | Royal Canadian Mounted Police | Criminal Operational Intelligence Records (Exempt bank) / Dossiers opérationnels de renseignements sur la criminalité (fichier inconsultable) | [EN](https://rcmp.ca/en/corporate-information/access-information-and-privacy/info-source/rcmp-specific-personal-information-banks) / [FR](https://grc.ca/fr/renseignements-organisationnels/acces-linformation-et-protection-renseignements-personnels/info-source/fichiers-renseignements-personnels-specifiques-grc) |
+| RCMP PPU 025 | Royal Canadian Mounted Police | National Security Investigations Records (Exempt bank) / Dossiers des enquêtes relatives à la sécurité nationale (fichier inconsultable) | [EN](https://rcmp.ca/en/corporate-information/access-information-and-privacy/info-source/rcmp-specific-personal-information-banks) / [FR](https://grc.ca/fr/renseignements-organisationnels/acces-linformation-et-protection-renseignements-personnels/info-source/fichiers-renseignements-personnels-specifiques-grc) |
+| RCMP PPU 030 | Royal Canadian Mounted Police | Forensic Science and Identification Services and Canadian Criminal Real Time Identification Services / Les Services des sciences judiciaires et de l'identité et le Service canadien d'identification criminelle en temps réels | [EN](https://rcmp.ca/en/corporate-information/access-information-and-privacy/info-source/rcmp-specific-personal-information-banks) / [FR](https://grc.ca/fr/renseignements-organisationnels/acces-linformation-et-protection-renseignements-personnels/info-source/fichiers-renseignements-personnels-specifiques-grc) |
+| RCMP PPU 075 | Royal Canadian Mounted Police | RCMP Police Car Accidents/Claims by or Against the RCMP / Accidents des voitures de police de la GRC demandes de règlements de sinistre déposées par la GRC ou contre celle-ci | [EN](https://rcmp.ca/en/corporate-information/access-information-and-privacy/info-source/rcmp-specific-personal-information-banks) / [FR](https://grc.ca/fr/renseignements-organisationnels/acces-linformation-et-protection-renseignements-personnels/info-source/fichiers-renseignements-personnels-specifiques-grc) |
+| RCMP PPU 095 | Royal Canadian Mounted Police | National Sex Offender Registry / Registre national des délinquants sexuels | [EN](https://rcmp.ca/en/corporate-information/access-information-and-privacy/info-source/rcmp-specific-personal-information-banks) / [FR](https://grc.ca/fr/renseignements-organisationnels/acces-linformation-et-protection-renseignements-personnels/info-source/fichiers-renseignements-personnels-specifiques-grc) |
+| RCMP PPU 139 | Royal Canadian Mounted Police | Victim Services / Services aux victimes | [EN](https://rcmp.ca/en/corporate-information/access-information-and-privacy/info-source/rcmp-specific-personal-information-banks) / [FR](https://grc.ca/fr/renseignements-organisationnels/acces-linformation-et-protection-renseignements-personnels/info-source/fichiers-renseignements-personnels-specifiques-grc) |
+| RCMP PPU 202 | Royal Canadian Mounted Police | National Cybercrime Coordination Centre (NC3) and the Canadian Anti-Fraud Centre (CAFC) / Centre national de coordination en cybercriminalité (CNC3) et Centre antifraude du Canada (CAFC) | [EN](https://rcmp.ca/en/corporate-information/access-information-and-privacy/info-source/rcmp-specific-personal-information-banks) / [FR](https://grc.ca/fr/renseignements-organisationnels/acces-linformation-et-protection-renseignements-personnels/info-source/fichiers-renseignements-personnels-specifiques-grc) |
+| RCMP PPU 203 | Royal Canadian Mounted Police | Forensic Science and Identification Services – Science and Strategic Policy / Services des sciences judiciaires et de l'identité - Travaux scientifiques et politiques stratégiques | [EN](https://rcmp.ca/en/corporate-information/access-information-and-privacy/info-source/rcmp-specific-personal-information-banks) / [FR](https://grc.ca/fr/renseignements-organisationnels/acces-linformation-et-protection-renseignements-personnels/info-source/fichiers-renseignements-personnels-specifiques-grc) |
 
 ### corrections_parole
 
@@ -1320,25 +1320,25 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| CSC PPU 025 | Correctional Service of Canada | Admission and discharge / Admission et libération | — |
-| CSC PPU 042 | Correctional Service of Canada | Case management / Gestion des cas | — |
-| CSC PPU 035 | Correctional Service of Canada | Case management: Institution "A" / Gestion des cas : Établissement « A » | — |
-| CSC PPU 040 | Correctional Service of Canada | Case management: Institution "B" / Gestion des cas : Établissement « B » | — |
-| CSC PPU 030 | Correctional Service of Canada | Case management: Community / Gestion des cas : Collectivité | — |
-| CSC PPU 045 | Correctional Service of Canada | Discipline and dissociation / Discipline et isolement | — |
-| CSC PPU 125 | Correctional Service of Canada | International transfers / Transfèrements internationaux | — |
-| CSC PPU 082 | Correctional Service of Canada | Offender grievances / Griefs des délinquants | — |
-| CSC PPU 060 | Correctional Service of Canada | Offender health care / Soins de santé offerts aux délinquants | — |
-| CSC PPU 115 | Correctional Service of Canada | Offender information / Renseignements sur les délinquants | — |
-| CSC PPU 065 | Correctional Service of Canada | Preventive security and intelligence / Sécurité préventive et renseignement | — |
-| CSC PPU 070 | Correctional Service of Canada | Psychology / Psychologie | — |
-| CSC PPU 110 | Correctional Service of Canada | Record suspensions / Pardons | — |
-| CSC PPU 075 | Correctional Service of Canada | Sentence management / Gestion des peines | — |
-| CSC PPU 135 | Correctional Service of Canada | Victims / Victimes | — |
-| CSC PPU 080 | Correctional Service of Canada | Visits and correspondence / Visites et correspondance | — |
-| PBC PPU 005 | Parole Board of Canada | Conditional Release Decisions (Parole) / Décisions en matière de mise en liberté sous condition (libération conditionnelle) | — |
-| PBC PPU 015 | Parole Board of Canada | Conditional Release Openness and Accountability (Victims, Observers and Requests for Access to the Decision Registry) / Application transparente et responsable du processus de mise en liberté sous condition (victimes, observateurs et demandes d’accès au registre des décisions) | — |
-| PBC PPU 010 | Parole Board of Canada | Record Suspension Decisions/Clemency Recommendations / Décisions relatives à la suspension du casier et recommandations concernant la clémence | — |
+| CSC PPU 025 | Correctional Service of Canada | Admission and discharge / Admission et libération | [EN](https://www.canada.ca/en/correctional-service/corporate/transparency/info-source.html) / [FR](https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source.html) |
+| CSC PPU 042 | Correctional Service of Canada | Case management / Gestion des cas | [EN](https://www.canada.ca/en/correctional-service/corporate/transparency/info-source.html) / [FR](https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source.html) |
+| CSC PPU 035 | Correctional Service of Canada | Case management: Institution "A" / Gestion des cas : Établissement « A » | [EN](https://www.canada.ca/en/correctional-service/corporate/transparency/info-source.html) / [FR](https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source.html) |
+| CSC PPU 040 | Correctional Service of Canada | Case management: Institution "B" / Gestion des cas : Établissement « B » | [EN](https://www.canada.ca/en/correctional-service/corporate/transparency/info-source.html) / [FR](https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source.html) |
+| CSC PPU 030 | Correctional Service of Canada | Case management: Community / Gestion des cas : Collectivité | [EN](https://www.canada.ca/en/correctional-service/corporate/transparency/info-source.html) / [FR](https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source.html) |
+| CSC PPU 045 | Correctional Service of Canada | Discipline and dissociation / Discipline et isolement | [EN](https://www.canada.ca/en/correctional-service/corporate/transparency/info-source.html) / [FR](https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source.html) |
+| CSC PPU 125 | Correctional Service of Canada | International transfers / Transfèrements internationaux | [EN](https://www.canada.ca/en/correctional-service/corporate/transparency/info-source.html) / [FR](https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source.html) |
+| CSC PPU 082 | Correctional Service of Canada | Offender grievances / Griefs des délinquants | [EN](https://www.canada.ca/en/correctional-service/corporate/transparency/info-source.html) / [FR](https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source.html) |
+| CSC PPU 060 | Correctional Service of Canada | Offender health care / Soins de santé offerts aux délinquants | [EN](https://www.canada.ca/en/correctional-service/corporate/transparency/info-source.html) / [FR](https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source.html) |
+| CSC PPU 115 | Correctional Service of Canada | Offender information / Renseignements sur les délinquants | [EN](https://www.canada.ca/en/correctional-service/corporate/transparency/info-source.html) / [FR](https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source.html) |
+| CSC PPU 065 | Correctional Service of Canada | Preventive security and intelligence / Sécurité préventive et renseignement | [EN](https://www.canada.ca/en/correctional-service/corporate/transparency/info-source.html) / [FR](https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source.html) |
+| CSC PPU 070 | Correctional Service of Canada | Psychology / Psychologie | [EN](https://www.canada.ca/en/correctional-service/corporate/transparency/info-source.html) / [FR](https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source.html) |
+| CSC PPU 110 | Correctional Service of Canada | Record suspensions / Pardons | [EN](https://www.canada.ca/en/correctional-service/corporate/transparency/info-source.html) / [FR](https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source.html) |
+| CSC PPU 075 | Correctional Service of Canada | Sentence management / Gestion des peines | [EN](https://www.canada.ca/en/correctional-service/corporate/transparency/info-source.html) / [FR](https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source.html) |
+| CSC PPU 135 | Correctional Service of Canada | Victims / Victimes | [EN](https://www.canada.ca/en/correctional-service/corporate/transparency/info-source.html) / [FR](https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source.html) |
+| CSC PPU 080 | Correctional Service of Canada | Visits and correspondence / Visites et correspondance | [EN](https://www.canada.ca/en/correctional-service/corporate/transparency/info-source.html) / [FR](https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source.html) |
+| PBC PPU 005 | Parole Board of Canada | Conditional Release Decisions (Parole) / Décisions en matière de mise en liberté sous condition (libération conditionnelle) | [EN](https://www.canada.ca/en/parole-board/corporate/transparency/access-to-information-and-privacy/infosource.html) / [FR](https://www.canada.ca/fr/commission-liberations-conditionnelles/organisation/transparence/access-a-information-et-protection-des-renseignements-personnels/infosource.html) |
+| PBC PPU 015 | Parole Board of Canada | Conditional Release Openness and Accountability (Victims, Observers and Requests for Access to the Decision Registry) / Application transparente et responsable du processus de mise en liberté sous condition (victimes, observateurs et demandes d’accès au registre des décisions) | [EN](https://www.canada.ca/en/parole-board/corporate/transparency/access-to-information-and-privacy/infosource.html) / [FR](https://www.canada.ca/fr/commission-liberations-conditionnelles/organisation/transparence/access-a-information-et-protection-des-renseignements-personnels/infosource.html) |
+| PBC PPU 010 | Parole Board of Canada | Record Suspension Decisions/Clemency Recommendations / Décisions relatives à la suspension du casier et recommandations concernant la clémence | [EN](https://www.canada.ca/en/parole-board/corporate/transparency/access-to-information-and-privacy/infosource.html) / [FR](https://www.canada.ca/fr/commission-liberations-conditionnelles/organisation/transparence/access-a-information-et-protection-des-renseignements-personnels/infosource.html) |
 
 ### other_justice_safety
 
@@ -1429,7 +1429,7 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| CTA PPU 014 | Canadian Transportation Agency | Air Travel Complaints / Plaintes relatives au transport aérien | — |
+| CTA PPU 014 | Canadian Transportation Agency | Air Travel Complaints / Plaintes relatives au transport aérien | [EN](https://otc-cta.gc.ca/eng/publication/sources-federal-government-and-employee-information) / [FR](https://otc-cta.gc.ca/fra/publication/sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux-201) |
 
 ### cbsa_complaint_review
 
@@ -1450,8 +1450,8 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| CBSA PPU 005 | Canada Border Services Agency | Recourse Directorate Records – Personal Information Bank / Documents de la Direction des recours – Fichier de renseignements personnels | — |
-| CBSA PPU 003 | Canada Border Services Agency | Complaints – Personal Information Bank / Plaintes – Fichier de renseignements personnels | — |
+| CBSA PPU 005 | Canada Border Services Agency | Recourse Directorate Records – Personal Information Bank / Documents de la Direction des recours – Fichier de renseignements personnels | [EN](https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-eng.html) / [FR](https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-fra.html) |
+| CBSA PPU 003 | Canada Border Services Agency | Complaints – Personal Information Bank / Plaintes – Fichier de renseignements personnels | [EN](https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-eng.html) / [FR](https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/infosource-fra.html) |
 
 ### rcmp_member_review
 
@@ -1472,11 +1472,11 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| ERC PPU 804 | Royal Canadian Mounted Police External Review Committee | RCMP Member Appeals of Conduct Decisions/Measures under the *RCMP Act* (s. 45.15) / Appels interjetés par des membres de la GRC contre des décisions ou des mesures disciplinaires en application de la *Loi sur la Gendarmerie royale du Canada* (article 45.15) | — |
-| ERC PPU 805 | Royal Canadian Mounted Police External Review Committee | RCMP Member Appeals of Decisions under the *RCMP Regulations* (s.17) / Appels interjetés par des membres de la GRC contre des décisions en application du *Règlement de la Gendarmerie royale du Canada* (article 17) | — |
-| ERC PPU 801 | Royal Canadian Mounted Police External Review Committee | RCMP Member Discharge and Demotion Referrals under Part V of the former *RCMP Act / Décisions de licenciement et de rétrogradation de membres de la GRC – renvois en vertu de la partie V de l'ancienne *Loi sur la Gendarmerie royale du Canada | — |
-| ERC PPU 803 | Royal Canadian Mounted Police External Review Committee | RCMP Member Discipline Referrals under Part IV of the former *RCMP Act / Décisions relatives aux mesures disciplinaires prises envers les membres de la GRC – renvois en vertu de la partie IV de l'ancienne *Loi sur la Gendarmerie royale du Canada | — |
-| ERC PPU 802 | Royal Canadian Mounted Police External Review Committee | RCMP Member Grievance Referrals under Part III of the former *RCMP Act / Griefs des membres de la GRC – renvois en vertu de la partie III de l'ancienne *Loi sur la Gendarmerie royale du Canada | — |
+| ERC PPU 804 | Royal Canadian Mounted Police External Review Committee | RCMP Member Appeals of Conduct Decisions/Measures under the *RCMP Act* (s. 45.15) / Appels interjetés par des membres de la GRC contre des décisions ou des mesures disciplinaires en application de la *Loi sur la Gendarmerie royale du Canada* (article 45.15) | [EN](https://www.canada.ca/en/rcmp-external-review-committee/corporate/transparency/access-information-privacy/info-source-sources-federal-government-employee-information.html) / [FR](https://www.canada.ca/fr/comite-externe-examen-grc/organisation/transparence/acces-information-protection-renseignements-personnels/info-source-sources-renseignements-gouvernement-federal-fonctionnaires-federaux.html) |
+| ERC PPU 805 | Royal Canadian Mounted Police External Review Committee | RCMP Member Appeals of Decisions under the *RCMP Regulations* (s.17) / Appels interjetés par des membres de la GRC contre des décisions en application du *Règlement de la Gendarmerie royale du Canada* (article 17) | [EN](https://www.canada.ca/en/rcmp-external-review-committee/corporate/transparency/access-information-privacy/info-source-sources-federal-government-employee-information.html) / [FR](https://www.canada.ca/fr/comite-externe-examen-grc/organisation/transparence/acces-information-protection-renseignements-personnels/info-source-sources-renseignements-gouvernement-federal-fonctionnaires-federaux.html) |
+| ERC PPU 801 | Royal Canadian Mounted Police External Review Committee | RCMP Member Discharge and Demotion Referrals under Part V of the former *RCMP Act / Décisions de licenciement et de rétrogradation de membres de la GRC – renvois en vertu de la partie V de l'ancienne *Loi sur la Gendarmerie royale du Canada | [EN](https://www.canada.ca/en/rcmp-external-review-committee/corporate/transparency/access-information-privacy/info-source-sources-federal-government-employee-information.html) / [FR](https://www.canada.ca/fr/comite-externe-examen-grc/organisation/transparence/acces-information-protection-renseignements-personnels/info-source-sources-renseignements-gouvernement-federal-fonctionnaires-federaux.html) |
+| ERC PPU 803 | Royal Canadian Mounted Police External Review Committee | RCMP Member Discipline Referrals under Part IV of the former *RCMP Act / Décisions relatives aux mesures disciplinaires prises envers les membres de la GRC – renvois en vertu de la partie IV de l'ancienne *Loi sur la Gendarmerie royale du Canada | [EN](https://www.canada.ca/en/rcmp-external-review-committee/corporate/transparency/access-information-privacy/info-source-sources-federal-government-employee-information.html) / [FR](https://www.canada.ca/fr/comite-externe-examen-grc/organisation/transparence/acces-information-protection-renseignements-personnels/info-source-sources-renseignements-gouvernement-federal-fonctionnaires-federaux.html) |
+| ERC PPU 802 | Royal Canadian Mounted Police External Review Committee | RCMP Member Grievance Referrals under Part III of the former *RCMP Act / Griefs des membres de la GRC – renvois en vertu de la partie III de l'ancienne *Loi sur la Gendarmerie royale du Canada | [EN](https://www.canada.ca/en/rcmp-external-review-committee/corporate/transparency/access-information-privacy/info-source-sources-federal-government-employee-information.html) / [FR](https://www.canada.ca/fr/comite-externe-examen-grc/organisation/transparence/acces-information-protection-renseignements-personnels/info-source-sources-renseignements-gouvernement-federal-fonctionnaires-federaux.html) |
 
 ### other_complaint_appeal
 
@@ -1571,7 +1571,7 @@ Select one or more activity options. Each selected option asks its own timing un
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
 | PSU 901 | Government of Canada institutions | Access to Information Act and Privacy Act Requests / Demandes en vertu de la Loi sur l’accès à l’information et de la Loi sur la protection des renseignements personnels | [EN](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-personal-information-banks.html#psu901) / [FR](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/fichiers-renseignements-personnels-ordinaires.html#pou901) |
-| TBS PCE 805 | Treasury Board Secretariat | Access to information and privacy (ATIP) online requests / Demande d’accès à l’information et de protection des renseignements personnels (AIPRP) en ligne | — |
+| TBS PCE 805 | Treasury Board Secretariat | Access to information and privacy (ATIP) online requests / Demande d’accès à l’information et de protection des renseignements personnels (AIPRP) en ligne | [EN](https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/treasury-board-secretariat-sources-federal-government-employee-information-info-source.html) / [FR](https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/secretariat-conseil-tresor-sources-renseignements-gouvernement-federal-fonctionnaires-federaux-info-source.html) |
 
 ### personal_information_correction
 
@@ -1688,12 +1688,12 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| TC PPU 020 | Department of Transport | Medical Assessments / Examens médicaux | — |
-| TC PPU 031 | Department of Transport | Civil Aviation Medical Examiners (CAME) / Médecins examinateurs de l’Aviation civile (MEAC) | — |
-| TC PPU 011 | Department of Transport | Aircraft Maintenance Engineer Licensing / Délivrance des licences de techniciens d’entretien d’aéronefs | — |
-| TC PPU 005 | Department of Transport | Civil Aviation Personnel Licensing / Délivrance des licences du personnel de l’aviation civile | — |
-| TC PPU 093 | Department of Transport | Transportation Security Clearance Program / Programme d’habilitation de sécurité en matière de transport | — |
-| TC PPU 085 | Department of Transport | Airside Vehicle Operators’ Permits (AVOPs) / Permis d’exploitation de véhicules côté piste | — |
+| TC PPU 020 | Department of Transport | Medical Assessments / Examens médicaux | [EN](https://tc.canada.ca/en/corporate-services/transparency/info-source) / [FR](https://tc.canada.ca/fr/services-generaux/transparence/info-source) |
+| TC PPU 031 | Department of Transport | Civil Aviation Medical Examiners (CAME) / Médecins examinateurs de l’Aviation civile (MEAC) | [EN](https://tc.canada.ca/en/corporate-services/transparency/info-source) / [FR](https://tc.canada.ca/fr/services-generaux/transparence/info-source) |
+| TC PPU 011 | Department of Transport | Aircraft Maintenance Engineer Licensing / Délivrance des licences de techniciens d’entretien d’aéronefs | [EN](https://tc.canada.ca/en/corporate-services/transparency/info-source) / [FR](https://tc.canada.ca/fr/services-generaux/transparence/info-source) |
+| TC PPU 005 | Department of Transport | Civil Aviation Personnel Licensing / Délivrance des licences du personnel de l’aviation civile | [EN](https://tc.canada.ca/en/corporate-services/transparency/info-source) / [FR](https://tc.canada.ca/fr/services-generaux/transparence/info-source) |
+| TC PPU 093 | Department of Transport | Transportation Security Clearance Program / Programme d’habilitation de sécurité en matière de transport | [EN](https://tc.canada.ca/en/corporate-services/transparency/info-source) / [FR](https://tc.canada.ca/fr/services-generaux/transparence/info-source) |
+| TC PPU 085 | Department of Transport | Airside Vehicle Operators’ Permits (AVOPs) / Permis d’exploitation de véhicules côté piste | [EN](https://tc.canada.ca/en/corporate-services/transparency/info-source) / [FR](https://tc.canada.ca/fr/services-generaux/transparence/info-source) |
 
 ### other_business_regulatory
 
@@ -1786,9 +1786,9 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| RCMP PPU 007 | Royal Canadian Mounted Police | Inquiries by Firearms Owners, Licence Applicants and the general public / Demandes de renseignements faites par des propriétaires d'armes à feu, des demandeurs de permis et le grand public | — |
-| RCMP PPU 037 | Royal Canadian Mounted Police | Canadian Firearms Information System (CFIS) / Système canadien d'information relativement aux armes à feu (SCIRAF) | — |
-| RCMP PPU 100 | Royal Canadian Mounted Police | Canadian Firearms Program / Programme canadien des armes à feu | — |
+| RCMP PPU 007 | Royal Canadian Mounted Police | Inquiries by Firearms Owners, Licence Applicants and the general public / Demandes de renseignements faites par des propriétaires d'armes à feu, des demandeurs de permis et le grand public | [EN](https://rcmp.ca/en/corporate-information/access-information-and-privacy/info-source/rcmp-specific-personal-information-banks) / [FR](https://grc.ca/fr/renseignements-organisationnels/acces-linformation-et-protection-renseignements-personnels/info-source/fichiers-renseignements-personnels-specifiques-grc) |
+| RCMP PPU 037 | Royal Canadian Mounted Police | Canadian Firearms Information System (CFIS) / Système canadien d'information relativement aux armes à feu (SCIRAF) | [EN](https://rcmp.ca/en/corporate-information/access-information-and-privacy/info-source/rcmp-specific-personal-information-banks) / [FR](https://grc.ca/fr/renseignements-organisationnels/acces-linformation-et-protection-renseignements-personnels/info-source/fichiers-renseignements-personnels-specifiques-grc) |
+| RCMP PPU 100 | Royal Canadian Mounted Police | Canadian Firearms Program / Programme canadien des armes à feu | [EN](https://rcmp.ca/en/corporate-information/access-information-and-privacy/info-source/rcmp-specific-personal-information-banks) / [FR](https://grc.ca/fr/renseignements-organisationnels/acces-linformation-et-protection-renseignements-personnels/info-source/fichiers-renseignements-personnels-specifiques-grc) |
 
 ### restricted_firearm_registration
 
@@ -1809,9 +1809,9 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| RCMP PPU 037 | Royal Canadian Mounted Police | Canadian Firearms Information System (CFIS) / Système canadien d'information relativement aux armes à feu (SCIRAF) | — |
-| RCMP PPU 100 | Royal Canadian Mounted Police | Canadian Firearms Program / Programme canadien des armes à feu | — |
-| RCMP PPU 101 | Royal Canadian Mounted Police | Restricted Weapons Registration System (RWRS) / Système d'enregistrement des armes à autorisation restreinte (SEAAR) | — |
+| RCMP PPU 037 | Royal Canadian Mounted Police | Canadian Firearms Information System (CFIS) / Système canadien d'information relativement aux armes à feu (SCIRAF) | [EN](https://rcmp.ca/en/corporate-information/access-information-and-privacy/info-source/rcmp-specific-personal-information-banks) / [FR](https://grc.ca/fr/renseignements-organisationnels/acces-linformation-et-protection-renseignements-personnels/info-source/fichiers-renseignements-personnels-specifiques-grc) |
+| RCMP PPU 100 | Royal Canadian Mounted Police | Canadian Firearms Program / Programme canadien des armes à feu | [EN](https://rcmp.ca/en/corporate-information/access-information-and-privacy/info-source/rcmp-specific-personal-information-banks) / [FR](https://grc.ca/fr/renseignements-organisationnels/acces-linformation-et-protection-renseignements-personnels/info-source/fichiers-renseignements-personnels-specifiques-grc) |
+| RCMP PPU 101 | Royal Canadian Mounted Police | Restricted Weapons Registration System (RWRS) / Système d'enregistrement des armes à autorisation restreinte (SEAAR) | [EN](https://rcmp.ca/en/corporate-information/access-information-and-privacy/info-source/rcmp-specific-personal-information-banks) / [FR](https://grc.ca/fr/renseignements-organisationnels/acces-linformation-et-protection-renseignements-personnels/info-source/fichiers-renseignements-personnels-specifiques-grc) |
 
 ### other_firearms_program
 
@@ -1832,10 +1832,10 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| RCMP PPU 007 | Royal Canadian Mounted Police | Inquiries by Firearms Owners, Licence Applicants and the general public / Demandes de renseignements faites par des propriétaires d'armes à feu, des demandeurs de permis et le grand public | — |
-| RCMP PPU 037 | Royal Canadian Mounted Police | Canadian Firearms Information System (CFIS) / Système canadien d'information relativement aux armes à feu (SCIRAF) | — |
-| RCMP PPU 100 | Royal Canadian Mounted Police | Canadian Firearms Program / Programme canadien des armes à feu | — |
-| RCMP PPU 101 | Royal Canadian Mounted Police | Restricted Weapons Registration System (RWRS) / Système d'enregistrement des armes à autorisation restreinte (SEAAR) | — |
+| RCMP PPU 007 | Royal Canadian Mounted Police | Inquiries by Firearms Owners, Licence Applicants and the general public / Demandes de renseignements faites par des propriétaires d'armes à feu, des demandeurs de permis et le grand public | [EN](https://rcmp.ca/en/corporate-information/access-information-and-privacy/info-source/rcmp-specific-personal-information-banks) / [FR](https://grc.ca/fr/renseignements-organisationnels/acces-linformation-et-protection-renseignements-personnels/info-source/fichiers-renseignements-personnels-specifiques-grc) |
+| RCMP PPU 037 | Royal Canadian Mounted Police | Canadian Firearms Information System (CFIS) / Système canadien d'information relativement aux armes à feu (SCIRAF) | [EN](https://rcmp.ca/en/corporate-information/access-information-and-privacy/info-source/rcmp-specific-personal-information-banks) / [FR](https://grc.ca/fr/renseignements-organisationnels/acces-linformation-et-protection-renseignements-personnels/info-source/fichiers-renseignements-personnels-specifiques-grc) |
+| RCMP PPU 100 | Royal Canadian Mounted Police | Canadian Firearms Program / Programme canadien des armes à feu | [EN](https://rcmp.ca/en/corporate-information/access-information-and-privacy/info-source/rcmp-specific-personal-information-banks) / [FR](https://grc.ca/fr/renseignements-organisationnels/acces-linformation-et-protection-renseignements-personnels/info-source/fichiers-renseignements-personnels-specifiques-grc) |
+| RCMP PPU 101 | Royal Canadian Mounted Police | Restricted Weapons Registration System (RWRS) / Système d'enregistrement des armes à autorisation restreinte (SEAAR) | [EN](https://rcmp.ca/en/corporate-information/access-information-and-privacy/info-source/rcmp-specific-personal-information-banks) / [FR](https://grc.ca/fr/renseignements-organisationnels/acces-linformation-et-protection-renseignements-personnels/info-source/fichiers-renseignements-personnels-specifiques-grc) |
 
 ### Broad / Other department list
 
@@ -1881,7 +1881,7 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| TC PPU 023 | Department of Transport | National Pleasure Craft Operator Competency Program / Programme national de compétence des conducteurs d’embarcations de plaisance | — |
+| TC PPU 023 | Department of Transport | National Pleasure Craft Operator Competency Program / Programme national de compétence des conducteurs d’embarcations de plaisance | [EN](https://tc.canada.ca/en/corporate-services/transparency/info-source) / [FR](https://tc.canada.ca/fr/services-generaux/transparence/info-source) |
 
 ### pleasure_craft_licence
 
@@ -1902,7 +1902,7 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| TC PPU 044 | Department of Transport | Pleasure Craft Licenses / Permis d’embarcation de plaisance | — |
+| TC PPU 044 | Department of Transport | Pleasure Craft Licenses / Permis d’embarcation de plaisance | [EN](https://tc.canada.ca/en/corporate-services/transparency/info-source) / [FR](https://tc.canada.ca/fr/services-generaux/transparence/info-source) |
 
 ### vessel_registration
 
@@ -1923,7 +1923,7 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| TC PPU 041 | Department of Transport | Vessel Registration Query System / Système de recherche d'informations sur l'immatriculation des bâtiments | — |
+| TC PPU 041 | Department of Transport | Vessel Registration Query System / Système de recherche d'informations sur l'immatriculation des bâtiments | [EN](https://tc.canada.ca/en/corporate-services/transparency/info-source) / [FR](https://tc.canada.ca/fr/services-generaux/transparence/info-source) |
 
 ### professional_seafarer
 
@@ -1944,8 +1944,8 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| TC PPU 040 | Department of Transport | Canadian Seafarers’ Identity Documents, Discharge Books and Records of Sea Service /  | — |
-| TC PPU 030 | Department of Transport | Seafarers’ Certificates and Documents / Certificats de compétence et documents des gens de mer | — |
+| TC PPU 040 | Department of Transport | Canadian Seafarers’ Identity Documents, Discharge Books and Records of Sea Service /  | [EN](https://tc.canada.ca/en/corporate-services/transparency/info-source) / [FR](https://tc.canada.ca/fr/services-generaux/transparence/info-source) |
+| TC PPU 030 | Department of Transport | Seafarers’ Certificates and Documents / Certificats de compétence et documents des gens de mer | [EN](https://tc.canada.ca/en/corporate-services/transparency/info-source) / [FR](https://tc.canada.ca/fr/services-generaux/transparence/info-source) |
 
 ### other_federal_boating
 
@@ -1966,11 +1966,11 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| TC PPU 023 | Department of Transport | National Pleasure Craft Operator Competency Program / Programme national de compétence des conducteurs d’embarcations de plaisance | — |
-| TC PPU 041 | Department of Transport | Vessel Registration Query System / Système de recherche d'informations sur l'immatriculation des bâtiments | — |
-| TC PPU 021 | Department of Transport | Marine Safety Enforcement Program / Programme d’application de la loi de la Sécurité maritime | — |
-| TC PPU 048 | Department of Transport | Marine Occurrences and Hazardous Occurrences / Incidents maritimes et événements dangereux | — |
-| TC PPU 044 | Department of Transport | Pleasure Craft Licenses / Permis d’embarcation de plaisance | — |
+| TC PPU 023 | Department of Transport | National Pleasure Craft Operator Competency Program / Programme national de compétence des conducteurs d’embarcations de plaisance | [EN](https://tc.canada.ca/en/corporate-services/transparency/info-source) / [FR](https://tc.canada.ca/fr/services-generaux/transparence/info-source) |
+| TC PPU 041 | Department of Transport | Vessel Registration Query System / Système de recherche d'informations sur l'immatriculation des bâtiments | [EN](https://tc.canada.ca/en/corporate-services/transparency/info-source) / [FR](https://tc.canada.ca/fr/services-generaux/transparence/info-source) |
+| TC PPU 021 | Department of Transport | Marine Safety Enforcement Program / Programme d’application de la loi de la Sécurité maritime | [EN](https://tc.canada.ca/en/corporate-services/transparency/info-source) / [FR](https://tc.canada.ca/fr/services-generaux/transparence/info-source) |
+| TC PPU 048 | Department of Transport | Marine Occurrences and Hazardous Occurrences / Incidents maritimes et événements dangereux | [EN](https://tc.canada.ca/en/corporate-services/transparency/info-source) / [FR](https://tc.canada.ca/fr/services-generaux/transparence/info-source) |
+| TC PPU 044 | Department of Transport | Pleasure Craft Licenses / Permis d’embarcation de plaisance | [EN](https://tc.canada.ca/en/corporate-services/transparency/info-source) / [FR](https://tc.canada.ca/fr/services-generaux/transparence/info-source) |
 
 ### Broad / Other department list
 
@@ -2016,7 +2016,7 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| ISC PPU 011 | Department of Indigenous Services | On-Reserve Housing Program – Ministerial Loan Guarantee / Garanties d'emprunt ministérielles pour le Programme de logement dans les réserves | — |
+| ISC PPU 011 | Department of Indigenous Services | On-Reserve Housing Program – Ministerial Loan Guarantee / Garanties d'emprunt ministérielles pour le Programme de logement dans les réserves | [EN](https://www.sac-isc.gc.ca/eng/1639748667069/1639748703555) / [FR](https://www.sac-isc.gc.ca/fra/1639748667069/1639748703555) |
 
 ### canadian_forces_housing
 
@@ -2037,7 +2037,7 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| DND PPU 885 | Department of National Defence | Housing and Accommodations / Logement et lieux d'hébergement | — |
+| DND PPU 885 | Department of National Defence | Housing and Accommodations / Logement et lieux d'hébergement | [EN](https://www.canada.ca/en/department-national-defence/corporate/transparency/access-information-privacy/info-source-sources-of-federal-government-and-employee-information.html) / [FR](https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/info-source-sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux.html) |
 
 ### other_federal_housing
 
@@ -2127,7 +2127,7 @@ No exact-selector inventory rows. A fallback can still match the parent topic; a
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| HC PPU 051 | Department of Health | Consultation on Health Protection Legislation / Consultation au sujet de la législation sur la protection de la santé | — |
+| HC PPU 051 | Department of Health | Consultation on Health Protection Legislation / Consultation au sujet de la législation sur la protection de la santé | [EN](https://www.canada.ca/en/health-canada/corporate/about-health-canada/activities-responsibilities/access-information-privacy/info-source-federal-government-employee-information.html) / [FR](https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux.html#a21) |
 
 ### other_civic_contact
 
@@ -2202,7 +2202,7 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| CSA PPU 020 | Canadian Space Agency | Registration to Attend Space Missions Launches /  | — |
+| CSA PPU 020 | Canadian Space Agency | Registration to Attend Space Missions Launches /  | [EN](https://www.asc-csa.gc.ca/eng/transparency/aipa/info-source.asp) / [FR](https://www.asc-csa.gc.ca/fra/transparence/aiprp/info-source.asp) |
 
 ### canada_day_challenge
 
@@ -2223,7 +2223,7 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| PCH PPU 027 | Department of Canadian Heritage | Canada Day Challenge / Défi de la fête du Canada | — |
+| PCH PPU 027 | Department of Canadian Heritage | Canada Day Challenge / Défi de la fête du Canada | [EN](https://www.canada.ca/en/canadian-heritage/corporate/publications/general-publications/information-programs-holdings.html) / [FR](https://www.canada.ca/fr/patrimoine-canadien/organisation/publications/publications-generales/renseignements-programmes-fonds.html) |
 
 ### federal_volunteer_program
 
@@ -2244,7 +2244,7 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| PCH PPU 070 | Department of Canadian Heritage | Volunteer Centre / Centre des bénévoles | — |
+| PCH PPU 070 | Department of Canadian Heritage | Volunteer Centre / Centre des bénévoles | [EN](https://www.canada.ca/en/canadian-heritage/corporate/publications/general-publications/information-programs-holdings.html) / [FR](https://www.canada.ca/fr/patrimoine-canadien/organisation/publications/publications-generales/renseignements-programmes-fonds.html) |
 
 ### other_culture_recreation
 
@@ -2317,8 +2317,8 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| HC PPU 314 | Department of Health | Research into the Health Effects of Air Pollution / Étude des effets de la pollution atmosphérique sur la santé | — |
-| HC PPU 035 | Department of Health | Pesticide Exposure Assessment Pilot Study / Étude pilote sur l'évaluation de l'exposition aux pesticides | — |
+| HC PPU 314 | Department of Health | Research into the Health Effects of Air Pollution / Étude des effets de la pollution atmosphérique sur la santé | [EN](https://www.canada.ca/en/health-canada/corporate/about-health-canada/activities-responsibilities/access-information-privacy/info-source-federal-government-employee-information.html) / [FR](https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux.html#a21) |
+| HC PPU 035 | Department of Health | Pesticide Exposure Assessment Pilot Study / Étude pilote sur l'évaluation de l'exposition aux pesticides | [EN](https://www.canada.ca/en/health-canada/corporate/about-health-canada/activities-responsibilities/access-information-privacy/info-source-federal-government-employee-information.html) / [FR](https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux.html#a21) |
 
 ### researcher_reviewer
 
@@ -2339,7 +2339,7 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| PHAC PPU 290 | Public Health Agency of Canada | Research Projects / Projets de recherche | — |
+| PHAC PPU 290 | Public Health Agency of Canada | Research Projects / Projets de recherche | [EN](https://www.canada.ca/en/public-health/corporate/mandate/about-agency/access-information-privacy/info-source-federal-government-employee-information.html) / [FR](https://www.canada.ca/fr/sante-publique/organisation/mandat/a-propos-agence/acces-a-information-protection-renseignements-personnels/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux.html) |
 
 ### other_research_survey
 
@@ -2409,7 +2409,7 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| DND PPU 050 | Department of National Defence | Search and Rescue / Recherche et sauvetage | — |
+| DND PPU 050 | Department of National Defence | Search and Rescue / Recherche et sauvetage | [EN](https://www.canada.ca/en/department-national-defence/corporate/transparency/access-information-privacy/info-source-sources-of-federal-government-and-employee-information.html) / [FR](https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/info-source-sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux.html) |
 
 ### fishery_ice_assistance
 
@@ -2430,7 +2430,7 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| DFO PPU 045 | Department of Fisheries and Oceans | Ice Assistance Emergency Program / Programme d’urgence d’aide liée aux conditions des glaces | — |
+| DFO PPU 045 | Department of Fisheries and Oceans | Ice Assistance Emergency Program / Programme d’urgence d’aide liée aux conditions des glaces | [EN](https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/infosource/index-eng.html) / [FR](https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/infosource/index-fra.html) |
 
 ### other_federal_emergency
 
@@ -2501,8 +2501,8 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| ESDC PPU 146 | Department of Employment and Social Development | Canada Pension Plan Program (PIB) / Régime de pensions du Canada (FRP) | — |
-| ESDC PPU 146 | Canada Employment Insurance Commission | Canada Pension Plan Program (PIB) / Régime de pensions du Canada (FRP) | — |
+| ESDC PPU 146 | Department of Employment and Social Development | Canada Pension Plan Program (PIB) / Régime de pensions du Canada (FRP) | [EN](https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html) / [FR](https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource-2023-2024/infosource-detaille.html) |
+| ESDC PPU 146 | Canada Employment Insurance Commission | Canada Pension Plan Program (PIB) / Régime de pensions du Canada (FRP) | [EN](https://www.canada.ca/en/employment-social-development/corporate/transparency/access-information/reports/infosource-2023-2024/infosource-detailed.html) / [FR](https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/aai/rapports/infosource-2023-2024/infosource-detaille.html) |
 
 ### first_nations_estate
 
@@ -2523,7 +2523,7 @@ Select one or more activity options. Each selected option asks its own timing un
 
 | PIB selector | Inventory holder | PIB title EN / FR | Source |
 | --- | --- | --- | --- |
-| ISC PPU 105 | Department of Indigenous Services | First Nations Estates / Successions des Premières Nations | — |
+| ISC PPU 105 | Department of Indigenous Services | First Nations Estates / Successions des Premières Nations | [EN](https://www.sac-isc.gc.ca/eng/1639748667069/1639748703555) / [FR](https://www.sac-isc.gc.ca/fra/1639748667069/1639748703555) |
 
 ### other_federal_life_event
 
@@ -2563,3 +2563,4 @@ Run .venv/bin/python scripts/export_my_info_v1_review.py from the repository roo
 | my_info/agent_tools.py | 9b446f0cb306a5300d36883895bf0d3ddd31d2f2ec780a718b767dab3ac8c3f9 |
 | my_info/web/app.mjs | b5d04ab52c7e7be3d0594fd74a6c36eca546fa8359b9093bf9c0a834a06ce926 |
 | packages/my-info-mcp/src/engine.mjs | 41b60dfc48e22ed83d43d1d7d0a9af88f747b0aec652013b480713ff1bf8bbcc |
+| institution_registry.csv | 024249d14837000c7a9d21b7595eb507210d0097d5626967bd7a04b819afd91e |
