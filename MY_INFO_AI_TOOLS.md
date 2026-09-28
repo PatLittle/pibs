@@ -27,7 +27,7 @@ State uses controlled values only:
 ```json
 {
   "schema_version": "1.2",
-  "contract_version": "2026-09-28.5",
+  "contract_version": "2026-09-28.6",
   "locale": "en-CA",
   "answers": {
     "q_tax_customs": {"value": "yes"}
@@ -135,7 +135,11 @@ rows contain only a short retention-text excerpt so an agent is not flooded with
 
 ## Adaptive routing
 
-The Beta contract contains 21 top-level gates and 21 adaptive route groups. Direct route selections
+The Beta contract contains 22 top-level gates and 22 adaptive route groups. The opening
+10-year quick check can select recent tax filing, federal voting, passport application,
+and border crossing together; the individual route retains more precise timing. Complaint
+results require selecting the institutions actually involved, and RCMP External Review
+Committee records require the specific RCMP-member route. Direct route selections
 supersede the broad classifier and become strong matches even when the underlying PIB was only a
 candidate under the earlier keyword model. Implemented splits include:
 

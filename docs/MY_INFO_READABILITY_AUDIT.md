@@ -12,10 +12,11 @@ Flesch Reading Ease is an English formula. **Do not use these scores to assess t
 
 ## Results
 
-20 of 21 current questions score below 60. The many flags reflect long grouped questions and unavoidable multisyllabic program terms as well as genuine wording complexity. The proposed wording moves detailed program types into examples or follow-ups.
+21 of 22 current questions score below 60. The many flags reflect long grouped questions and unavoidable multisyllabic program terms as well as genuine wording complexity. The proposed wording moves detailed program types into examples or follow-ups.
 
 | Code | Current score | Band | Proposed score | Change |
 |---|---:|---|---:|---:|
+| `q_common_start` | 46.0 | difficult | 67.8 | 21.8 |
 | `q_government_work` | 36.2 | difficult | 80.3 | 44.1 |
 | `q_money_programs` | 37.3 | difficult | 69.8 | 32.5 |
 | `q_tax_customs` | 37.5 | difficult | 67.8 | 30.3 |
@@ -33,12 +34,18 @@ Flesch Reading Ease is an English formula. **Do not use these scores to assess t
 | `q_boating` | 45.3 | difficult | 63.5 | 18.2 |
 | `q_housing_property` | 34.2 | difficult | 81.9 | 47.7 |
 | `q_civic_contact` | 0.5 | very difficult | 71.8 | 71.3 |
-| `q_culture_volunteer` | 10.4 | very difficult | 65.7 | 55.3 |
+| `q_culture_volunteer` | 3.3 | very difficult | 27.3 | 24.0 |
 | `q_research_survey` | 65.7 | standard | — | — |
 | `q_emergency` | 11.4 | very difficult | 70.0 | 58.6 |
 | `q_family_vital` | 45.3 | difficult | 65.7 | 20.4 |
 
 ## Questions flagged for rewording
+
+### `q_common_start`
+
+Current (46.0, difficult): Many adult Canadians have filed income taxes, voted federally, applied for or renewed a passport, or crossed the border in the past 10 years. Would you like to check those four activities together? I can also ask about each one separately for a more precise retention estimate.
+
+Candidate (67.8, standard): Many adults in Canada have filed taxes, voted federally, applied for a passport or crossed the border in the past 10 years. Want to check these together? I can ask one by one for more precise timing.
 
 ### `q_government_work`
 
@@ -144,9 +151,9 @@ Candidate (71.8, fairly easy): Did you contact a federal office, share your view
 
 ### `q_culture_volunteer`
 
-Current (10.4, very difficult): Have you participated in or volunteered for a federally run cultural, sport, recreation, heritage or park activity?
+Current (3.3, very difficult): Have you registered for or attended a federal public event, or participated in a federal cultural, sport, recreation, heritage, park or volunteer activity?
 
-Candidate (65.7, standard): Have you joined or helped with a federal arts, sports, heritage or parks event?
+Candidate (27.3, very difficult): Have you registered for a federal public event, or joined a federal arts, sports, heritage, parks or volunteer activity?
 
 ### `q_emergency`
 

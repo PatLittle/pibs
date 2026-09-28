@@ -121,16 +121,16 @@ TOPIC_RULES = (
         r"\b(?:entrepreneur|fournisseur|approvisionnement|march[ée]|soumissionnaire|appel d.offres|carte d.achat|services professionnels)\w*\b",
     )),
     Rule("business_regulation", "Business, licensing and regulation", "Entreprises, permis et réglementation", (
-        r"\b(?:business owner|self-employed|company|corporation|licen[cs]e|permit|registration|regulated|regulatory|inspection|compliance)\w*\b",
-        r"\b(?:propri[ée]taire d.entreprise|travailleur autonome|soci[ée]t[ée]|permis|inscription|r[ée]glement[ée]|inspection|conformit[ée])\w*\b",
+        r"\b(?:business owner|self-employed|company|corporation|licen[cs]e|permit|business registration|commercial registration|regulated|regulatory|inspection|compliance)\w*\b",
+        r"\b(?:propri[ée]taire d.entreprise|travailleur autonome|soci[ée]t[ée]|permis|inscription d.entreprise|inscription commerciale|r[ée]glement[ée]|inspection|conformit[ée])\w*\b",
     )),
     Rule("housing_property", "Housing and property", "Logement et propriété", (
         r"\b(?:housing|homeowner|home buyer|mortgage|property owner|tenant|landlord|residential propert|real estate)\w*\b",
         r"\b(?:logement|propri[ée]taire|acheteur d.une maison|hypoth[eè]que|locataire|immeuble|bien immobilier)\w*\b",
     )),
     Rule("transport_licensing", "Vehicles and transportation", "Véhicules et transport", (
-        r"\b(?:driver|vehicle|motor carrier|vessel|aircraft|pilot|aviation|marine transportation|railway|transportation licence)\w*\b",
-        r"\b(?:conducteur|v[ée]hicule|transporteur routier|navire|a[ée]ronef|pilote|aviation|transport maritime|chemin de fer)\w*\b",
+        r"\b(?:driver|vehicle|motor carrier|vessel|aircraft|aircraft pilot|aviation pilot|pilot licen[cs]e|aviation|marine transportation|railway|transportation licence)\w*\b",
+        r"\b(?:conducteur|v[ée]hicule|transporteur routier|navire|a[ée]ronef|pilote d.a[ée]ronef|licence de pilote|aviation|transport maritime|chemin de fer)\w*\b",
     )),
     Rule("democratic_civic", "Elections and democratic participation", "Élections et participation démocratique", (
         r"\b(?:voter|elector|election|candidate|political part(?:y|ies)|member of parliament|petition|lobbyist)\w*\b",
@@ -285,9 +285,9 @@ ACTION_RULES = (
         r"\b(?:awarded contracts?|contracted with|provided (?:goods|services)|submitted bids?|procurement process)\b",
         r"\b(?:march[ée]s? attribu[ée]s?|fourni des (?:biens|services)|soumis? une offre|processus d.approvisionnement)\b",
     )),
-    Rule("obtained_licence_permit", "Applied for or held a licence, permit or registration", "A demandé ou détenu une licence, un permis ou une inscription", (
-        r"\b(?:appl(?:y|ied|ication) for|holders? of|issued) (?:a |an )?(?:licen[cs]e|permit|registration|certificate)\b",
-        r"\b(?:demande|titulaire|d[ée]livrance) d.(?:une )?(?:licence|permis|inscription|certificat)\b",
+    Rule("obtained_licence_permit", "Applied for or held a licence or permit", "A demandé ou détenu une licence ou un permis", (
+        r"\b(?:appl(?:y|ied|ication) for|holders? of|issued) (?:a |an )?(?:licen[cs]e|permit)\b",
+        r"\b(?:demande|titulaire|d[ée]livrance) d.(?:une )?(?:licence|permis)\b",
     )),
     Rule("received_health_disability_service", "Received a health or disability-related service", "A reçu un service lié à la santé ou à l’invalidité", (
         r"\b(?:received|provided|delivery of) (?:medical|health|dental|disability|rehabilitation) (?:care|services?|benefits?|support)\b",
@@ -321,6 +321,7 @@ ACTION_RULES = (
 
 
 QUESTION_GROUPS = (
+    QuestionGroup("q_common_start", "Many adult Canadians have filed income taxes, voted federally, applied for or renewed a passport, or crossed the border in the past 10 years. Would you like to check those four activities together? I can also ask about each one separately for a more precise retention estimate.", "De nombreux adultes au Canada ont produit une déclaration de revenus, voté à une élection fédérale, demandé ou renouvelé un passeport, ou franchi la frontière au cours des dix dernières années. Voulez-vous vérifier ces quatre activités ensemble? Je peux aussi vous poser les questions séparément pour estimer plus précisément la durée de conservation."),
     QuestionGroup("q_government_work", "Have you ever applied to work for, worked for, or received an employment-related service from the Government of Canada?", "Avez-vous déjà postulé ou travaillé au gouvernement du Canada, ou reçu un service lié à cet emploi?", ("government_employment",), ("government_employee", "job_applicant"), ("applied_for_job", "worked_for_government")),
     QuestionGroup("q_money_programs", "Have you ever applied for or received a federal benefit, grant, loan, reimbursement or other payment?", "Avez-vous déjà demandé ou reçu une prestation, une subvention, un prêt, un remboursement ou un autre paiement fédéral?", ("benefits_support", "grants_contributions", "payments_debt"), ("program_applicant_recipient",), ("applied_for_program", "received_money_support", "owed_or_paid_money")),
     QuestionGroup("q_tax_customs", "Have you filed federal taxes, paid federal duties, or made a customs declaration?", "Avez-vous produit une déclaration de revenus fédérale, payé des droits fédéraux ou fait une déclaration douanière?", ("tax_customs_duties",), (), ("filed_tax_customs",)),
@@ -338,7 +339,7 @@ QUESTION_GROUPS = (
     QuestionGroup("q_boating", "Have you held a Pleasure Craft Operator Card or licensed or registered a boat with Transport Canada?", "Avez-vous détenu une carte de conducteur d'embarcation de plaisance, ou obtenu un permis ou une immatriculation pour un bateau auprès de Transports Canada?"),
     QuestionGroup("q_housing_property", "Have you used a federal housing, mortgage, home-buying or property program?", "Avez-vous utilisé un programme fédéral de logement, d’hypothèque, d’achat d’une maison ou de propriété?", ("housing_property",), ("property_owner_tenant",)),
     QuestionGroup("q_civic_contact", "Have you contacted a federal institution, joined a consultation, signed a petition, or participated in a federal election process?", "Avez-vous communiqué avec une institution fédérale, participé à une consultation, signé une pétition ou pris part à un processus électoral fédéral?", ("communications_engagement", "democratic_civic"), (), ("contacted_government",)),
-    QuestionGroup("q_culture_volunteer", "Have you participated in or volunteered for a federally run cultural, sport, recreation, heritage or park activity?", "Avez-vous participé ou fait du bénévolat à une activité fédérale de culture, de sport, de loisir, de patrimoine ou de parc?", ("culture_recreation_volunteering",), ("volunteer", "artist_athlete"), ("volunteered_participated_event",)),
+    QuestionGroup("q_culture_volunteer", "Have you registered for or attended a federal public event, or participated in a federal cultural, sport, recreation, heritage, park or volunteer activity?", "Vous êtes-vous inscrit ou avez-vous assisté à un événement public fédéral, ou participé à une activité fédérale de culture, de sport, de loisir, de patrimoine, de parc ou de bénévolat?", ("culture_recreation_volunteering",), ("volunteer", "artist_athlete"), ("volunteered_participated_event",)),
     QuestionGroup("q_research_survey", "Have you taken part in federal research, a survey, testing or a focus group?", "Avez-vous participé à une recherche, un sondage, un test ou un groupe de discussion du gouvernement fédéral?", ("research_surveys",), ("research_participant",), ("participated_research_survey",)),
     QuestionGroup("q_emergency", "Have you requested or received federal help during an emergency, evacuation or disaster?", "Avez-vous demandé ou reçu de l’aide fédérale lors d’une urgence, d’une évacuation ou d’une catastrophe?", ("emergency_assistance",)),
     QuestionGroup("q_family_vital", "Have you used a federal service involving a birth, marriage, divorce, adoption, child support, death or estate?", "Avez-vous utilisé un service fédéral concernant une naissance, un mariage, un divorce, une adoption, une pension alimentaire, un décès ou une succession?", ("family_vital_events",), ("family_dependent", "deceased_next_of_kin")),

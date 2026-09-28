@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "contract_version": "2026-09-28.5",
+  "contract_version": "2026-09-28.6",
   "adaptive_route_version": "2.0",
   "assessment_year": 2026,
   "as_of_year": 2026,
@@ -53,6 +53,7 @@
       ],
       "survey": {
         "answers": [
+          {"question_code": "q_common_start", "value": "no"},
           {"question_code": "q_government_work", "value": "not_sure"},
           {"question_code": "q_money_programs", "value": "yes"},
           {"question_code": "q_tax_customs", "value": "yes"},
@@ -140,6 +141,7 @@
       ],
       "survey": {
         "answers": [
+          {"question_code": "q_common_start", "value": "no"},
           {"question_code": "q_government_work", "value": "no"},
           {"question_code": "q_money_programs", "value": "yes"},
           {"question_code": "q_tax_customs", "value": "yes"},
@@ -175,6 +177,9 @@
           {"question_code": "q_boating", "selected_options": ["vessel_registration"], "timings": {"vessel_registration": {"kind": "8_to_15_years"}}},
           {"question_code": "q_housing_property", "selected_options": ["other_federal_housing"], "timings": {"other_federal_housing": {"kind": "approximate_year", "year": 2010}}},
           {"question_code": "q_civic_contact", "selected_options": ["federal_election"], "timings": {"federal_election": {"kind": "within_1_year"}}}
+        ],
+        "departments": [
+          {"question_code": "q_complaint_appeal", "institution_ids": ["ati-schedule-i-canada-border-services-agency", "ati-schedule-i-correctional-service-of-canada"]}
         ]
       },
       "expectations": {
@@ -224,6 +229,7 @@
       ],
       "survey": {
         "answers": [
+          {"question_code": "q_common_start", "value": "no"},
           {"question_code": "q_government_work", "value": "no"},
           {"question_code": "q_money_programs", "value": "yes"},
           {"question_code": "q_tax_customs", "value": "yes"},
@@ -309,6 +315,7 @@
       ],
       "survey": {
         "answers": [
+          {"question_code": "q_common_start", "value": "no"},
           {"question_code": "q_government_work", "value": "yes"},
           {"question_code": "q_money_programs", "value": "yes"},
           {"question_code": "q_tax_customs", "value": "yes"},
@@ -345,6 +352,9 @@
           {"question_code": "q_civic_contact", "selected_options": ["federal_election"], "timings": {"federal_election": {"kind": "within_1_year"}}},
           {"question_code": "q_research_survey", "selected_options": ["research_participant"], "timings": {"research_participant": {"kind": "1_to_3_years"}}},
           {"question_code": "q_family_vital", "selected_options": ["other_federal_life_event"], "timings": {"other_federal_life_event": {"kind": "4_to_7_years"}}}
+        ],
+        "departments": [
+          {"question_code": "q_complaint_appeal", "institution_ids": ["ati-schedule-i-department-of-employment-and-social-development"]}
         ]
       },
       "expectations": {

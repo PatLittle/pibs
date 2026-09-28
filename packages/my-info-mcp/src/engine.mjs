@@ -25,6 +25,9 @@ export const TIMING_KINDS = [
   "current", "within_1_year", "1_to_3_years", "4_to_7_years",
   "8_to_15_years", "more_than_15_years", "approximate_year", "unknown"
 ];
+const COMMON_SHORTCUT_CODE = "q_common_start";
+const COMMON_SHORTCUT_SKIPS = new Set(["q_tax_customs", "q_travel_border", "q_civic_contact"]);
+const COMMON_SHORTCUT_TIMING = { kind: "within_10_years" };
 
 const pipeSet = (value) => new Set(String(value || "").split("|").filter(Boolean));
 const boolValue = (value) => String(value).toLowerCase() === "true";
@@ -55,6 +58,9 @@ export class SurveyToolEngine {
     this.routeOptions = Object.fromEntries(Object.entries(this.routes).map(([parent, route]) => [
       parent, Object.fromEntries(route.options.map((option) => [option.code, option]))
     ]));
+    this.exclusiveBanks = new Set(Object.values(this.routeOptions).flatMap((options) =>
+      Object.values(options).filter((option) => option.exclusive).flatMap((option) => option.selectors?.bank_numbers || [])
+    ));
     this.categories = Object.fromEntries(contract.personal_information_categories.map((c) => [c.category_id, c]));
     this.featuresByQuestion = Object.fromEntries(this.questionOrder.map((code) => [
       code, features.filter((row) => pipeSet(row.question_codes).has(code))
@@ -108,7 +114,9 @@ export class SurveyToolEngine {
     for (const update of departments || []) this.applyDepartment(working, update);
     this.validateState(working);
     let nextStep = null;
+    const skipped = this.skippedQuestions(working);
     for (const code of this.questionOrder) {
+      if (skipped.has(code)) continue;
       const answer = working.answers[code];
       if (!answer) {
         nextStep = this.questionView(code, working.locale);
@@ -133,7 +141,7 @@ export class SurveyToolEngine {
         break;
       }
       const departmentOptions = this.departmentOptions(code, working);
-      if (departmentOptions.length > 1 && !working.departments[code]) {
+      if ((departmentOptions.length > 1 || (code === "q_complaint_appeal" && departmentOptions.length > 0)) && !working.departments[code]) {
         nextStep = this.departmentView(code, working.locale, departmentOptions);
         break;
       }
@@ -150,10 +158,15 @@ export class SurveyToolEngine {
       next_step: nextStep,
       progress: {
         answered_questions: Object.keys(working.answers).length,
-        total_questions: this.questionOrder.length,
+        total_questions: this.questionOrder.length - skipped.size,
         yes_answers_with_timing: timedYes
       }
     };
+  }
+
+  skippedQuestions(state) {
+    return state.answers?.[COMMON_SHORTCUT_CODE]?.value === "yes" && state.refinements?.[COMMON_SHORTCUT_CODE]
+      ? COMMON_SHORTCUT_SKIPS : new Set();
   }
 
   validateState(state) {
@@ -208,6 +221,7 @@ export class SurveyToolEngine {
     for (const option of refinement.selected_options) {
       if (!this.routeOptions[code][option]) throw new Error(`${code}: unsupported route option ${option}`);
     }
+    if (code === COMMON_SHORTCUT_CODE && refinement.selected_options.includes("none_recent") && refinement.selected_options.length !== 1) throw new Error("none_recent cannot be combined with selected activities");
     const timings = refinement.timings || {};
     if (typeof timings !== "object" || Array.isArray(timings)) throw new Error(`${code}: timings must be an object`);
     for (const [option, timing] of Object.entries(timings)) {
@@ -253,8 +267,9 @@ export class SurveyToolEngine {
     const refinement = state.refinements?.[code];
     if (refinement && this.routes[code]) {
       const options = refinement.selected_options.map((item) => this.routeOptions[code][item]);
+      const banks = new Set(options.flatMap((item) => item.selectors?.bank_numbers || []));
+      rows = rows.filter((row) => !this.exclusiveBanks.has(row.bank_number_key) || banks.has(row.bank_number_key));
       if (!options.some((item) => item.fallback_to_parent)) {
-        const banks = new Set(options.flatMap((item) => item.selectors?.bank_numbers || []));
         rows = rows.filter((row) => banks.has(row.bank_number_key));
       }
     }
@@ -289,8 +304,8 @@ export class SurveyToolEngine {
       question_code: code,
       prompt: french ? question.question_fr : question.readability_en.candidate_question_en,
       source_prompt: french ? question.question_fr : question.question_en,
-      wording_status: french ? "current" : "plain_language_candidate_for_testing",
-      answer_values: ANSWER_VALUES,
+      wording_status: french || code === COMMON_SHORTCUT_CODE ? "current" : "plain_language_candidate_for_testing",
+      answer_values: code === COMMON_SHORTCUT_CODE ? ["yes", "no"] : ANSWER_VALUES,
       help: {
         familiarity: question.help.familiarity,
         agent_offer: question.help.agent_offer,
@@ -351,7 +366,9 @@ export class SurveyToolEngine {
     return {
       step_type: "department",
       question_code: code,
-      prompt: french ? "À quelles institutions fédérales cette situation s'applique-t-elle?" : "Which federal departments or institutions did this apply to?",
+      prompt: code === "q_complaint_appeal"
+        ? (french ? "À quel ministère ou organisme fédéral avez-vous adressé votre plainte, ou lequel a examiné votre appel? Choisissez seulement ceux qui ont réellement participé." : "Which federal department or review body received your complaint or considered your appeal? Select only those actually involved.")
+        : (french ? "À quelles institutions fédérales cette situation s'applique-t-elle?" : "Which federal departments or institutions did this apply to?"),
       selection_type: "multi_select",
       options: options.map((item) => ({ institution_id: item.institution_id, label: item[french ? "name_fr" : "name_en"] })),
       privacy_note: french ? "Choisissez seulement les institutions; ne fournissez aucun détail sur la plainte ou le dossier." : "Select institutions only; do not provide complaint or case details."
@@ -368,10 +385,11 @@ export class SurveyToolEngine {
     const countBy = (key) => Object.fromEntries([...new Set(results.map((r) => r[key]))].sort().map((value) => [value, results.filter((r) => r[key] === value).length]));
     const institutionCounts = new Map();
     for (const result of results) institutionCounts.set(result.institution_name, (institutionCounts.get(result.institution_name) || 0) + 1);
-    const unanswered = this.questionOrder.filter((code) => !normalized.answers[code]);
+    const skipped = this.skippedQuestions(normalized);
+    const unanswered = this.questionOrder.filter((code) => !skipped.has(code) && !normalized.answers[code]);
     const uncertain = Object.entries(normalized.answers).filter(([, answer]) => ["not_sure", "prefer_not_to_answer"].includes(answer.value)).map(([code]) => code);
     const incomplete = Object.entries(normalized.answers).filter(([code, answer]) => answer.value === "yes" && this.routes[code] && !this.refinementComplete(code, normalized.refinements[code])).map(([code]) => code);
-    const incompleteDepartments = Object.entries(normalized.answers).filter(([code, answer]) => answer.value === "yes" && this.departmentOptions(code, normalized).length > 1 && !normalized.departments[code]).map(([code]) => code);
+    const incompleteDepartments = Object.entries(normalized.answers).filter(([code, answer]) => answer.value === "yes" && (this.departmentOptions(code, normalized).length > 1 || (code === "q_complaint_appeal" && this.departmentOptions(code, normalized).length > 0)) && !normalized.departments[code]).map(([code]) => code);
     const inventoryGaps = Object.entries(normalized.refinements).flatMap(([code, refinement]) => refinement.selected_options.filter((option) => this.routeOptions[code][option].coverage === "inventory_gap").map((option) => ({
       question_code: code,
       route_option_code: option,
@@ -390,7 +408,7 @@ export class SurveyToolEngine {
         incomplete_department_question_codes: incompleteDepartments,
         inventory_gaps: inventoryGaps,
         refinement_needed_question_codes: refinementNeeded,
-        caveat: "These are candidate PIBs, not confirmation that an institution holds information about this person."
+        caveat: "These are candidate PIBs, not confirmation that an institution holds information about this person." + (skipped.size ? " The quick check uses only a ten-year window for four common activities; it does not rule out older records or other tax, travel, or civic interactions." : "")
       },
       summary: {
         total_matches: results.length,
@@ -435,6 +453,7 @@ export class SurveyToolEngine {
         return !selected || !row.institution_id || selected.includes(row.institution_id);
       };
       const directRoutes = (routeMatches.get(row.bank_number_key) || []).filter(([code]) => allows(code));
+      if (this.exclusiveBanks.has(row.bank_number_key) && !directRoutes.length) continue;
       const directCodes = new Set(directRoutes.map(([parent]) => parent));
       const strong = [...new Set([...primary].filter((code) => broadYes.has(code) && allows(code)).concat([...directCodes]))].sort();
       const possible = [...candidates].filter((code) => broadYes.has(code) && allows(code) && !strong.includes(code)).sort();
@@ -455,7 +474,7 @@ export class SurveyToolEngine {
   resultView(row, band, matchedCodes, state, asOfYear, matchedRoutes) {
     const french = state.locale === "fr-CA";
     const routeParents = new Set(matchedRoutes.map((item) => item.question_code));
-    const statuses = matchedRoutes.map((item) => this.holdingStatus(row, state.refinements[item.question_code]?.timings?.[item.route_option_code], asOfYear));
+    const statuses = matchedRoutes.map((item) => this.holdingStatus(row, item.question_code === COMMON_SHORTCUT_CODE ? COMMON_SHORTCUT_TIMING : state.refinements[item.question_code]?.timings?.[item.route_option_code], asOfYear));
     for (const code of matchedCodes) {
       if (state.answers[code].value !== "yes" || routeParents.has(code)) continue;
       let timing = state.answers[code].timing;
@@ -520,7 +539,7 @@ export class SurveyToolEngine {
   elapsedInterval(timing, asOfYear) {
     const intervals = {
       current: [0, 0], within_1_year: [0, 1], "1_to_3_years": [1, 3],
-      "4_to_7_years": [4, 7], "8_to_15_years": [8, 15], more_than_15_years: [16, null]
+      "4_to_7_years": [4, 7], "8_to_15_years": [8, 15], within_10_years: [0, 10], more_than_15_years: [16, null]
     };
     if (timing.kind === "approximate_year") {
       const elapsed = asOfYear - timing.year;

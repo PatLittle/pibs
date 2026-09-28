@@ -12,7 +12,7 @@ from copy import deepcopy
 from typing import Any, Mapping
 
 
-ADAPTIVE_ROUTE_VERSION = "2.0"
+ADAPTIVE_ROUTE_VERSION = "2.1"
 
 
 def _option(
@@ -25,6 +25,8 @@ def _option(
     bank_numbers: tuple[str, ...] = (),
     coverage: str = "direct",
     fallback_to_parent: bool = False,
+    ask_timing: bool = True,
+    exclusive: bool = False,
 ) -> dict[str, Any]:
     return {
         "code": code,
@@ -33,13 +35,26 @@ def _option(
         "institution_en": institution_en,
         "institution_fr": institution_fr,
         "coverage": coverage,
-        "ask_timing": True,
+        "ask_timing": ask_timing,
         "selectors": {"bank_numbers": list(bank_numbers)},
         "fallback_to_parent": fallback_to_parent,
+        "exclusive": exclusive,
     }
 
 
 _ROUTES: tuple[dict[str, Any], ...] = (
+    {
+        "parent_question_code": "q_common_start",
+        "prompt_en": "Which of these have you done at least once in the past 10 years? You can say all, none, or name the ones that apply. Uncheck any that do not apply; we will use the same broad ten-year window for the selected activities.",
+        "prompt_fr": "Qu'avez-vous fait au moins une fois au cours des dix dernières années? Vous pouvez répondre « toutes », « aucune » ou nommer les activités pertinentes. Décochez celles qui ne s'appliquent pas; nous utiliserons la même période approximative de dix ans pour les activités choisies.",
+        "options": (
+            _option("federal_tax_return", "Filed a federal income tax return", "Produit une déclaration fédérale de revenus", "Canada Revenue Agency", "Agence du revenu du Canada", coverage="inventory_gap", ask_timing=False),
+            _option("federal_election", "Voted in a federal election", "Voté à une élection fédérale", "Elections Canada", "Élections Canada", coverage="inventory_gap", ask_timing=False),
+            _option("passport_application", "Applied for or renewed a Canadian passport", "Demandé ou renouvelé un passeport canadien", "Immigration, Refugees and Citizenship Canada / Service Canada", "Immigration, Réfugiés et Citoyenneté Canada / Service Canada", bank_numbers=("IRCC PPU 081", "ESDC PPU 708"), ask_timing=False),
+            _option("border_crossing", "Crossed Canada's international border", "Franchi la frontière internationale du Canada", "Canada Border Services Agency", "Agence des services frontaliers du Canada", bank_numbers=("CBSA PPU 008", "CBSA PPU 010", "CBSA PPU 014", "CBSA PPU 018"), ask_timing=False),
+            _option("none_recent", "None of these in the past 10 years", "Aucune de ces activités au cours des dix dernières années", "No institution selected", "Aucune institution sélectionnée", coverage="partial", ask_timing=False),
+        ),
+    },
     {
         "parent_question_code": "q_government_work",
         "prompt_en": "Which federal work situations apply to you? Select all that apply.",
@@ -443,6 +458,7 @@ _BETA_ROUTES: tuple[dict[str, Any], ...] = (
         "options": (
             _option("air_travel_complaint", "An air-travel complaint", "Plainte concernant le transport aérien", "Canadian Transportation Agency", "Office des transports du Canada", bank_numbers=("CTA PPU 014",)),
             _option("cbsa_complaint_review", "A CBSA complaint or request to review a decision", "Plainte à l'ASFC ou demande de révision d'une décision", "Canada Border Services Agency", "Agence des services frontaliers du Canada", bank_numbers=("CBSA PPU 003", "CBSA PPU 005")),
+            _option("rcmp_member_review", "I was an RCMP member whose grievance, conduct, discipline, discharge or demotion matter was referred to the RCMP External Review Committee", "J'étais membre de la GRC et mon grief ou dossier de conduite, de discipline, de renvoi ou de rétrogradation a été renvoyé au Comité externe d'examen de la GRC", "RCMP External Review Committee", "Comité externe d'examen de la GRC", bank_numbers=("ERC PPU 801", "ERC PPU 802", "ERC PPU 803", "ERC PPU 804", "ERC PPU 805"), exclusive=True),
             _option("other_complaint_appeal", "Another federal complaint, grievance or appeal", "Une autre plainte, un autre grief ou un autre appel fédéral", "Federal institution or tribunal involved", "Institution ou tribunal fédéral concerné", coverage="fallback", fallback_to_parent=True),
         ),
     },
@@ -478,9 +494,10 @@ _BETA_ROUTES: tuple[dict[str, Any], ...] = (
     },
     {
         "parent_question_code": "q_culture_volunteer",
-        "prompt_en": "Which federal culture, recreation or volunteer activities apply? Select all that apply.",
-        "prompt_fr": "Quelles activités fédérales de culture, de loisirs ou de bénévolat s'appliquent? Sélectionnez toutes les réponses pertinentes.",
+        "prompt_en": "Which federal public events, culture, recreation or volunteer activities apply? Select all that apply.",
+        "prompt_fr": "Quels événements publics ou quelles activités fédérales de culture, de loisirs ou de bénévolat s'appliquent? Sélectionnez toutes les réponses pertinentes.",
         "options": (
+            _option("space_launch_attendance", "Registered to attend a Canadian Space Agency mission launch", "Inscription pour assister au lancement d'une mission de l'Agence spatiale canadienne", "Canadian Space Agency", "Agence spatiale canadienne", bank_numbers=("CSA PPU 020",), exclusive=True),
             _option("canada_day_challenge", "Entered the Canada Day Challenge", "Participation au Défi de la fête du Canada", "Canadian Heritage", "Patrimoine canadien", bank_numbers=("PCH PPU 027",)),
             _option("federal_volunteer_program", "Registered with a federally run volunteer program", "Inscription à un programme de bénévolat fédéral", "Canadian Heritage or the federal institution running the program", "Patrimoine canadien ou institution fédérale responsable du programme", bank_numbers=("PCH PPU 070",), coverage="partial"),
             _option("other_culture_recreation", "Another named federal arts, sport, heritage or parks activity", "Une autre activité fédérale nommée liée aux arts, aux sports, au patrimoine ou aux parcs", "Federal institution that ran the activity", "Institution fédérale responsable de l'activité", coverage="fallback", fallback_to_parent=True),

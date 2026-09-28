@@ -100,6 +100,30 @@ class InteractionFeatureTests(unittest.TestCase):
         self.assertNotIn("q_health_disability", _codes(result, "primary_question_triggers"))
         self.assertNotIn("q_family_vital", _codes(result, "primary_question_triggers"))
 
+    def test_event_registration_is_not_business_registration(self):
+        result = derive_interaction_features({
+            "bank_number_key": "CSA PPU 020",
+            "title_en": "Registration to Attend Space Missions Launches",
+            "title_fr": "Inscription pour assister au lancement de missions spatiales",
+            "description_en": "Applicants may supply passport and citizenship details to attend the launch.",
+        })
+        self.assertNotIn("business_regulation", _codes(result, "interaction_topics"))
+        self.assertNotIn("q_business_supplier", _codes(result, "primary_question_triggers"))
+
+    def test_pilot_study_and_travel_certificate_are_not_business_services(self):
+        study = derive_interaction_features({
+            "bank_number_key": "HC PPU 035",
+            "title_en": "Pesticide Exposure Assessment Pilot Study",
+            "purpose_en": "Research on pesticide exposure.",
+        })
+        document = derive_interaction_features({
+            "bank_number_key": "IRCC PPU 080",
+            "title_en": "Certificates of Identity and Refugee Travel Documents",
+            "class_of_individuals_en": "Refugees who applied for a certificate of identity.",
+        })
+        self.assertNotIn("q_business_supplier", _codes(study, "primary_question_triggers"))
+        self.assertNotIn("q_business_supplier", _codes(document, "primary_question_triggers"))
+
     def test_institution_schema_and_french_text_are_supported(self):
         row = {
             "institution_id": "example",

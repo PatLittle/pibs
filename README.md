@@ -114,9 +114,12 @@ metadata for the English prompt, and bilingual progressive-help examples that na
 institution and activity. The full wording audit is in
 `docs/MY_INFO_READABILITY_AUDIT.md`; Flesch is not used to judge the French copy. The proposed
 browser and AI-agent architecture is in `MY_INFO_INTERFACE_ARCHITECTURE.md`.
+The record-by-record survey matching review is in `docs/MY_INFO_MATCH_COVERAGE_AUDIT.md`;
+it distinguishes direct matches, broad possible matches hidden by the web survey, and PIBs
+that no current question can discover.
 
 The first executable AI-tool layer is documented in `MY_INFO_AI_TOOLS.md`. It includes a
-framework-neutral, client-owned survey state engine, 21 adaptive route groups, explicit
+framework-neutral, client-owned survey state engine, 22 adaptive route groups, explicit
 firearms and boating questions, and four read-only MCP tools. Export their machine-readable
 schemas and run the local server with:
 

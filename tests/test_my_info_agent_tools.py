@@ -13,6 +13,7 @@ from my_info.mcp_server import mcp
 ROOT = Path(__file__).resolve().parents[1]
 
 VOICE_SESSION_ANSWERS = [
+    {"question_code": "q_common_start", "value": "no"},
     {"question_code": "q_government_work", "value": "yes"},
     {"question_code": "q_money_programs", "value": "yes"},
     {"question_code": "q_tax_customs", "value": "yes"},
@@ -99,19 +100,20 @@ class AgentToolEngineTests(unittest.TestCase):
     def test_manifest_and_initial_question_are_versioned(self) -> None:
         manifest = self.engine.get_manifest()
         self.assertEqual(4, len(manifest["tools"]))
-        self.assertEqual(21, manifest["question_count"])
-        self.assertEqual(21, manifest["adaptive_route_count"])
+        self.assertEqual(22, manifest["question_count"])
+        self.assertEqual(22, manifest["adaptive_route_count"])
         self.assertEqual(1040, manifest["pib_count"])
         start = self.engine.advance()
         self.assertFalse(start["complete"])
-        self.assertEqual("q_government_work", start["next_step"]["question_code"])
-        self.assertEqual("plain_language_candidate_for_testing", start["next_step"]["wording_status"])
+        self.assertEqual("q_common_start", start["next_step"]["question_code"])
+        self.assertEqual("current", start["next_step"]["wording_status"])
+        self.assertIn("10 years", start["next_step"]["prompt"])
 
     def test_yes_answer_requires_refinement_then_route_timing(self) -> None:
         start = self.engine.advance()
         result = self.engine.advance(
             start["state"],
-            [{"question_code": "q_government_work", "value": "yes"}],
+            [{"question_code": "q_common_start", "value": "no"}, {"question_code": "q_government_work", "value": "yes"}],
         )
         self.assertEqual("refinement", result["next_step"]["step_type"])
         self.assertEqual("q_government_work", result["next_step"]["question_code"])
@@ -253,6 +255,80 @@ class AgentToolEngineTests(unittest.TestCase):
         self.assertTrue(results)
         self.assertTrue(all(not item["institution_id"] or item["institution_id"] == selected for item in results))
 
+    def test_common_shortcut_uses_ten_year_window_and_skips_duplicate_gates(self) -> None:
+        response = self.engine.advance(
+            answers=[{"question_code": "q_common_start", "value": "yes"}],
+            refinements=[{
+                "question_code": "q_common_start",
+                "selected_options": ["federal_tax_return", "federal_election", "passport_application", "border_crossing"],
+                "timings": {},
+            }],
+        )
+        self.assertEqual("q_government_work", response["next_step"]["question_code"])
+        self.assertEqual(19, response["progress"]["total_questions"])
+        evaluation = self.engine.evaluate(response["state"], as_of_year=2026, max_results=500)
+        self.assertTrue({"federal_tax_return", "federal_election"}.issubset({
+            item["route_option_code"] for item in evaluation["assessment"]["inventory_gaps"]
+        }))
+        self.assertNotIn("q_travel_border", evaluation["assessment"]["unanswered_question_codes"])
+        passport = next(item for item in evaluation["results"] if item["bank_number"] == "IRCC PPU 081")
+        self.assertEqual("within_10_years", passport["retention"]["timing"]["kind"])
+        self.assertIn("does not rule out older records", evaluation["assessment"]["caveat"])
+
+    def test_common_shortcut_none_is_exclusive_and_detailed_path_remains(self) -> None:
+        response = self.engine.advance(
+            answers=[{"question_code": "q_common_start", "value": "yes"}],
+            refinements=[{"question_code": "q_common_start", "selected_options": ["none_recent"], "timings": {}}],
+        )
+        self.assertEqual([], self.engine.evaluate(response["state"], as_of_year=2026)["results"])
+        self.assertEqual(19, response["progress"]["total_questions"])
+        with self.assertRaisesRegex(ValueError, "none_recent cannot be combined"):
+            self.engine.advance(
+                answers=[{"question_code": "q_common_start", "value": "yes"}],
+                refinements=[{"question_code": "q_common_start", "selected_options": ["none_recent", "border_crossing"]}],
+            )
+        detailed = self.engine.advance(answers=[{"question_code": "q_common_start", "value": "no"}])
+        self.assertEqual(22, detailed["progress"]["total_questions"])
+        self.assertIn("q_tax_customs", self.engine.evaluate(detailed["state"])["assessment"]["unanswered_question_codes"])
+
+    def test_erc_banks_require_specific_rcmp_member_review_route(self) -> None:
+        erc = "ati-schedule-i-royal-canadian-mounted-police-external-review-committee"
+        answers = [
+            {"question_code": code, "value": "yes" if code == "q_complaint_appeal" else "no"}
+            for code in self.engine.question_order
+        ]
+        generic = self.engine.advance(
+            answers=answers,
+            refinements=[{"question_code": "q_complaint_appeal", "selected_options": ["other_complaint_appeal"], "timings": {"other_complaint_appeal": {"kind": "within_1_year"}}}],
+        )
+        self.assertNotIn(erc, {item["institution_id"] for item in generic["next_step"]["options"]})
+        with self.assertRaisesRegex(ValueError, "unsupported department IDs"):
+            self.engine.advance(generic["state"], departments=[{"question_code": "q_complaint_appeal", "institution_ids": [erc]}])
+        generic_banks = {item["bank_number"] for item in self.engine.evaluate(generic["state"], as_of_year=2026, max_results=500)["results"]}
+        self.assertFalse(any(bank.startswith("ERC PPU") for bank in generic_banks))
+        specific = self.engine.advance(
+            answers=answers,
+            refinements=[{"question_code": "q_complaint_appeal", "selected_options": ["rcmp_member_review"], "timings": {"rcmp_member_review": {"kind": "within_1_year"}}}],
+        )
+        self.assertEqual("department", specific["next_step"]["step_type"])
+        specific = self.engine.advance(specific["state"], departments=[{"question_code": "q_complaint_appeal", "institution_ids": [erc]}])
+        specific_banks = {item["bank_number"] for item in self.engine.evaluate(specific["state"], as_of_year=2026, max_results=500)["results"]}
+        self.assertIn("ERC PPU 802", specific_banks)
+
+    def test_space_launch_requires_event_attendance_not_business(self) -> None:
+        csa = "CSA PPU 020"
+        business = self.engine.advance(
+            answers=[{"question_code": "q_business_supplier", "value": "yes"}],
+            refinements=[{"question_code": "q_business_supplier", "selected_options": ["other_business_regulatory"], "timings": {"other_business_regulatory": {"kind": "within_1_year"}}}],
+        )
+        self.assertNotIn(csa, {item["bank_number"] for item in self.engine.evaluate(business["state"], as_of_year=2026, include_possible=True, max_results=500)["results"]})
+        attended = self.engine.advance(
+            answers=[{"question_code": "q_culture_volunteer", "value": "yes"}],
+            refinements=[{"question_code": "q_culture_volunteer", "selected_options": ["space_launch_attendance"], "timings": {"space_launch_attendance": {"kind": "within_1_year"}}}],
+        )
+        results = self.engine.evaluate(attended["state"], as_of_year=2026, max_results=500)["results"]
+        self.assertEqual("strong_match", next(item for item in results if item["bank_number"] == csa)["match_band"])
+
     def test_state_rejects_free_text_and_unknown_fields(self) -> None:
         state = self.engine.create_state()
         state["case_details"] = "should never be stored"
@@ -317,7 +393,7 @@ class MCPAdapterTests(unittest.IsolatedAsyncioTestCase):
                 "my_info_advance",
                 {
                     "state": started.structured_content["state"],
-                    "answers": [{
+                    "answers": [{"question_code": "q_common_start", "value": "no"}, {
                         "question_code": "q_government_work",
                         "value": "yes",
                     }],

@@ -1,12 +1,98 @@
 {
-  "adaptive_route_version": "2.0",
+  "adaptive_route_version": "2.1",
   "adaptive_routes": [
+    {
+      "options": [
+        {
+          "ask_timing": false,
+          "code": "federal_tax_return",
+          "coverage": "inventory_gap",
+          "exclusive": false,
+          "fallback_to_parent": false,
+          "institution_en": "Canada Revenue Agency",
+          "institution_fr": "Agence du revenu du Canada",
+          "label_en": "Filed a federal income tax return",
+          "label_fr": "Produit une déclaration fédérale de revenus",
+          "selectors": {
+            "bank_numbers": []
+          }
+        },
+        {
+          "ask_timing": false,
+          "code": "federal_election",
+          "coverage": "inventory_gap",
+          "exclusive": false,
+          "fallback_to_parent": false,
+          "institution_en": "Elections Canada",
+          "institution_fr": "Élections Canada",
+          "label_en": "Voted in a federal election",
+          "label_fr": "Voté à une élection fédérale",
+          "selectors": {
+            "bank_numbers": []
+          }
+        },
+        {
+          "ask_timing": false,
+          "code": "passport_application",
+          "coverage": "direct",
+          "exclusive": false,
+          "fallback_to_parent": false,
+          "institution_en": "Immigration, Refugees and Citizenship Canada / Service Canada",
+          "institution_fr": "Immigration, Réfugiés et Citoyenneté Canada / Service Canada",
+          "label_en": "Applied for or renewed a Canadian passport",
+          "label_fr": "Demandé ou renouvelé un passeport canadien",
+          "selectors": {
+            "bank_numbers": [
+              "IRCC PPU 081",
+              "ESDC PPU 708"
+            ]
+          }
+        },
+        {
+          "ask_timing": false,
+          "code": "border_crossing",
+          "coverage": "direct",
+          "exclusive": false,
+          "fallback_to_parent": false,
+          "institution_en": "Canada Border Services Agency",
+          "institution_fr": "Agence des services frontaliers du Canada",
+          "label_en": "Crossed Canada's international border",
+          "label_fr": "Franchi la frontière internationale du Canada",
+          "selectors": {
+            "bank_numbers": [
+              "CBSA PPU 008",
+              "CBSA PPU 010",
+              "CBSA PPU 014",
+              "CBSA PPU 018"
+            ]
+          }
+        },
+        {
+          "ask_timing": false,
+          "code": "none_recent",
+          "coverage": "partial",
+          "exclusive": false,
+          "fallback_to_parent": false,
+          "institution_en": "No institution selected",
+          "institution_fr": "Aucune institution sélectionnée",
+          "label_en": "None of these in the past 10 years",
+          "label_fr": "Aucune de ces activités au cours des dix dernières années",
+          "selectors": {
+            "bank_numbers": []
+          }
+        }
+      ],
+      "parent_question_code": "q_common_start",
+      "prompt_en": "Which of these have you done at least once in the past 10 years? You can say all, none, or name the ones that apply. Uncheck any that do not apply; we will use the same broad ten-year window for the selected activities.",
+      "prompt_fr": "Qu'avez-vous fait au moins une fois au cours des dix dernières années? Vous pouvez répondre « toutes », « aucune » ou nommer les activités pertinentes. Décochez celles qui ne s'appliquent pas; nous utiliserons la même période approximative de dix ans pour les activités choisies."
+    },
     {
       "options": [
         {
           "ask_timing": true,
           "code": "federal_job_application",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Public Service Commission of Canada or the hiring department",
           "institution_fr": "Commission de la fonction publique du Canada ou ministère d'embauche",
@@ -25,6 +111,7 @@
           "ask_timing": true,
           "code": "federal_employee",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "The person's federal employer and central personnel systems",
           "institution_fr": "Employeur fédéral de la personne et systèmes centraux de personnel",
@@ -50,6 +137,7 @@
           "ask_timing": true,
           "code": "other_federal_work_service",
           "coverage": "fallback",
+          "exclusive": false,
           "fallback_to_parent": true,
           "institution_en": "Government of Canada institution involved",
           "institution_fr": "Institution du gouvernement du Canada concernée",
@@ -70,6 +158,7 @@
           "ask_timing": true,
           "code": "employment_pay_reimbursement",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "The person's federal employer and Treasury Board systems",
           "institution_fr": "Employeur fédéral de la personne et systèmes du Conseil du Trésor",
@@ -86,6 +175,7 @@
           "ask_timing": true,
           "code": "employment_insurance",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Employment and Social Development Canada / Service Canada",
           "institution_fr": "Emploi et Développement social Canada / Service Canada",
@@ -103,6 +193,7 @@
           "ask_timing": true,
           "code": "cpp_oas",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Employment and Social Development Canada / Service Canada",
           "institution_fr": "Emploi et Développement social Canada / Service Canada",
@@ -119,6 +210,7 @@
           "ask_timing": true,
           "code": "veterans_payment",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Veterans Affairs Canada, sometimes delivered with Service Canada",
           "institution_fr": "Anciens Combattants Canada, parfois avec Service Canada",
@@ -139,6 +231,7 @@
           "ask_timing": true,
           "code": "other_payment_program",
           "coverage": "fallback",
+          "exclusive": false,
           "fallback_to_parent": true,
           "institution_en": "Federal institution that ran the program",
           "institution_fr": "Institution fédérale responsable du programme",
@@ -159,6 +252,7 @@
           "ask_timing": true,
           "code": "federal_tax_return",
           "coverage": "inventory_gap",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Canada Revenue Agency",
           "institution_fr": "Agence du revenu du Canada",
@@ -172,6 +266,7 @@
           "ask_timing": true,
           "code": "customs_declaration",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Canada Border Services Agency",
           "institution_fr": "Agence des services frontaliers du Canada",
@@ -187,6 +282,7 @@
           "ask_timing": true,
           "code": "other_tax_customs",
           "coverage": "fallback",
+          "exclusive": false,
           "fallback_to_parent": true,
           "institution_en": "Canada Revenue Agency or Canada Border Services Agency",
           "institution_fr": "Agence du revenu du Canada ou Agence des services frontaliers du Canada",
@@ -207,6 +303,7 @@
           "ask_timing": true,
           "code": "passport_application",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Immigration, Refugees and Citizenship Canada / Service Canada",
           "institution_fr": "Immigration, Réfugiés et Citoyenneté Canada / Service Canada",
@@ -223,6 +320,7 @@
           "ask_timing": true,
           "code": "border_crossing",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Canada Border Services Agency",
           "institution_fr": "Agence des services frontaliers du Canada",
@@ -241,6 +339,7 @@
           "ask_timing": true,
           "code": "trusted_traveller",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Canada Border Services Agency",
           "institution_fr": "Agence des services frontaliers du Canada",
@@ -257,6 +356,7 @@
           "ask_timing": true,
           "code": "other_travel_border",
           "coverage": "fallback",
+          "exclusive": false,
           "fallback_to_parent": true,
           "institution_en": "Federal institution involved",
           "institution_fr": "Institution fédérale concernée",
@@ -277,6 +377,7 @@
           "ask_timing": true,
           "code": "caf_service",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Department of National Defence / Canadian Armed Forces and Library and Archives Canada",
           "institution_fr": "Ministère de la Défense nationale / Forces armées canadiennes et Bibliothèque et Archives Canada",
@@ -294,6 +395,7 @@
           "ask_timing": true,
           "code": "veterans_program",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Veterans Affairs Canada, sometimes delivered with Service Canada",
           "institution_fr": "Anciens Combattants Canada, parfois avec Service Canada",
@@ -314,6 +416,7 @@
           "ask_timing": true,
           "code": "other_military_veterans",
           "coverage": "fallback",
+          "exclusive": false,
           "fallback_to_parent": true,
           "institution_en": "National Defence or Veterans Affairs Canada",
           "institution_fr": "Défense nationale ou Anciens Combattants Canada",
@@ -334,6 +437,7 @@
           "ask_timing": true,
           "code": "security_screening",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "The screening institution, such as Transport Canada or a federal employer",
           "institution_fr": "Institution responsable, comme Transports Canada ou un employeur fédéral",
@@ -352,6 +456,7 @@
           "ask_timing": true,
           "code": "police_law_enforcement",
           "coverage": "partial",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Royal Canadian Mounted Police or another federal enforcement institution",
           "institution_fr": "Gendarmerie royale du Canada ou autre institution fédérale d'application de la loi",
@@ -376,6 +481,7 @@
           "ask_timing": true,
           "code": "corrections_parole",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Correctional Service Canada or Parole Board of Canada",
           "institution_fr": "Service correctionnel Canada ou Commission des libérations conditionnelles du Canada",
@@ -409,6 +515,7 @@
           "ask_timing": true,
           "code": "other_justice_safety",
           "coverage": "fallback",
+          "exclusive": false,
           "fallback_to_parent": true,
           "institution_en": "Federal institution involved",
           "institution_fr": "Institution fédérale concernée",
@@ -429,6 +536,7 @@
           "ask_timing": true,
           "code": "federal_contract",
           "coverage": "partial",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "The contracting department and Public Services and Procurement Canada",
           "institution_fr": "Ministère contractant et Services publics et Approvisionnement Canada",
@@ -444,6 +552,7 @@
           "ask_timing": true,
           "code": "aviation_licence_clearance",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Transport Canada",
           "institution_fr": "Transports Canada",
@@ -464,6 +573,7 @@
           "ask_timing": true,
           "code": "other_business_regulatory",
           "coverage": "fallback",
+          "exclusive": false,
           "fallback_to_parent": true,
           "institution_en": "Federal regulator or institution involved",
           "institution_fr": "Organisme de réglementation ou institution fédérale concernée",
@@ -484,6 +594,7 @@
           "ask_timing": true,
           "code": "firearms_licence",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Royal Canadian Mounted Police / Canadian Firearms Program",
           "institution_fr": "Gendarmerie royale du Canada / Programme canadien des armes à feu",
@@ -501,6 +612,7 @@
           "ask_timing": true,
           "code": "restricted_firearm_registration",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Royal Canadian Mounted Police / Canadian Firearms Program",
           "institution_fr": "Gendarmerie royale du Canada / Programme canadien des armes à feu",
@@ -518,6 +630,7 @@
           "ask_timing": true,
           "code": "other_firearms_program",
           "coverage": "fallback",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Royal Canadian Mounted Police",
           "institution_fr": "Gendarmerie royale du Canada",
@@ -543,6 +656,7 @@
           "ask_timing": true,
           "code": "pleasure_craft_operator_card",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Transport Canada",
           "institution_fr": "Transports Canada",
@@ -558,6 +672,7 @@
           "ask_timing": true,
           "code": "pleasure_craft_licence",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Transport Canada",
           "institution_fr": "Transports Canada",
@@ -573,6 +688,7 @@
           "ask_timing": true,
           "code": "vessel_registration",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Transport Canada",
           "institution_fr": "Transports Canada",
@@ -588,6 +704,7 @@
           "ask_timing": true,
           "code": "professional_seafarer",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Transport Canada",
           "institution_fr": "Transports Canada",
@@ -604,6 +721,7 @@
           "ask_timing": true,
           "code": "other_federal_boating",
           "coverage": "partial",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Transport Canada",
           "institution_fr": "Transports Canada",
@@ -630,6 +748,7 @@
           "ask_timing": true,
           "code": "citizenship_permanent_resident",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Immigration, Refugees and Citizenship Canada",
           "institution_fr": "Immigration, Réfugiés et Citoyenneté Canada",
@@ -646,6 +765,7 @@
           "ask_timing": true,
           "code": "visitor_visa_status",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Immigration, Refugees and Citizenship Canada",
           "institution_fr": "Immigration, Réfugiés et Citoyenneté Canada",
@@ -661,6 +781,7 @@
           "ask_timing": true,
           "code": "other_immigration_process",
           "coverage": "fallback",
+          "exclusive": false,
           "fallback_to_parent": true,
           "institution_en": "Immigration, Refugees and Citizenship Canada",
           "institution_fr": "Immigration, Réfugiés et Citoyenneté Canada",
@@ -681,6 +802,7 @@
           "ask_timing": true,
           "code": "canadian_dental_care_plan",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Employment and Social Development Canada / Service Canada",
           "institution_fr": "Emploi et Développement social Canada / Service Canada",
@@ -696,6 +818,7 @@
           "ask_timing": true,
           "code": "medical_device_special_access",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Health Canada",
           "institution_fr": "Santé Canada",
@@ -711,6 +834,7 @@
           "ask_timing": true,
           "code": "other_federal_health_support",
           "coverage": "fallback",
+          "exclusive": false,
           "fallback_to_parent": true,
           "institution_en": "Federal institution that ran the service",
           "institution_fr": "Institution fédérale responsable du service",
@@ -731,6 +855,7 @@
           "ask_timing": true,
           "code": "first_nations_home_care",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Indigenous Services Canada",
           "institution_fr": "Services aux Autochtones Canada",
@@ -746,6 +871,7 @@
           "ask_timing": true,
           "code": "indian_status_registration",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Indigenous Services Canada",
           "institution_fr": "Services aux Autochtones Canada",
@@ -761,6 +887,7 @@
           "ask_timing": true,
           "code": "other_indigenous_service",
           "coverage": "fallback",
+          "exclusive": false,
           "fallback_to_parent": true,
           "institution_en": "Federal institution that ran the service",
           "institution_fr": "Institution fédérale responsable du service",
@@ -781,6 +908,7 @@
           "ask_timing": true,
           "code": "canada_student_aid",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Employment and Social Development Canada / Service Canada",
           "institution_fr": "Emploi et Développement social Canada / Service Canada",
@@ -796,6 +924,7 @@
           "ask_timing": true,
           "code": "canada_apprentice_loan",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Employment and Social Development Canada / Service Canada",
           "institution_fr": "Emploi et Développement social Canada / Service Canada",
@@ -811,6 +940,7 @@
           "ask_timing": true,
           "code": "other_education_training",
           "coverage": "fallback",
+          "exclusive": false,
           "fallback_to_parent": true,
           "institution_en": "Federal institution that ran the program",
           "institution_fr": "Institution fédérale responsable du programme",
@@ -831,6 +961,7 @@
           "ask_timing": true,
           "code": "air_travel_complaint",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Canadian Transportation Agency",
           "institution_fr": "Office des transports du Canada",
@@ -846,6 +977,7 @@
           "ask_timing": true,
           "code": "cbsa_complaint_review",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Canada Border Services Agency",
           "institution_fr": "Agence des services frontaliers du Canada",
@@ -860,8 +992,29 @@
         },
         {
           "ask_timing": true,
+          "code": "rcmp_member_review",
+          "coverage": "direct",
+          "exclusive": true,
+          "fallback_to_parent": false,
+          "institution_en": "RCMP External Review Committee",
+          "institution_fr": "Comité externe d'examen de la GRC",
+          "label_en": "I was an RCMP member whose grievance, conduct, discipline, discharge or demotion matter was referred to the RCMP External Review Committee",
+          "label_fr": "J'étais membre de la GRC et mon grief ou dossier de conduite, de discipline, de renvoi ou de rétrogradation a été renvoyé au Comité externe d'examen de la GRC",
+          "selectors": {
+            "bank_numbers": [
+              "ERC PPU 801",
+              "ERC PPU 802",
+              "ERC PPU 803",
+              "ERC PPU 804",
+              "ERC PPU 805"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
           "code": "other_complaint_appeal",
           "coverage": "fallback",
+          "exclusive": false,
           "fallback_to_parent": true,
           "institution_en": "Federal institution or tribunal involved",
           "institution_fr": "Institution ou tribunal fédéral concerné",
@@ -882,6 +1035,7 @@
           "ask_timing": true,
           "code": "access_information_request",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "The federal institution involved, including requests sent through the ATIP Online service",
           "institution_fr": "Institution fédérale concernée, y compris les demandes envoyées par le service AIPRP en ligne",
@@ -898,6 +1052,7 @@
           "ask_timing": true,
           "code": "personal_information_correction",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "The federal institution that holds the record",
           "institution_fr": "Institution fédérale qui détient le dossier",
@@ -913,6 +1068,7 @@
           "ask_timing": true,
           "code": "other_access_privacy",
           "coverage": "partial",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Federal institution involved",
           "institution_fr": "Institution fédérale concernée",
@@ -935,6 +1091,7 @@
           "ask_timing": true,
           "code": "on_reserve_housing",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Indigenous Services Canada",
           "institution_fr": "Services aux Autochtones Canada",
@@ -950,6 +1107,7 @@
           "ask_timing": true,
           "code": "canadian_forces_housing",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Department of National Defence / Canadian Armed Forces",
           "institution_fr": "Ministère de la Défense nationale / Forces armées canadiennes",
@@ -965,6 +1123,7 @@
           "ask_timing": true,
           "code": "other_federal_housing",
           "coverage": "fallback",
+          "exclusive": false,
           "fallback_to_parent": true,
           "institution_en": "Federal institution that ran the program",
           "institution_fr": "Institution fédérale responsable du programme",
@@ -985,6 +1144,7 @@
           "ask_timing": true,
           "code": "federal_election",
           "coverage": "inventory_gap",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Elections Canada",
           "institution_fr": "Élections Canada",
@@ -998,6 +1158,7 @@
           "ask_timing": true,
           "code": "federal_consultation",
           "coverage": "partial",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "The department conducting the consultation, such as Health Canada",
           "institution_fr": "Ministère responsable de la consultation, comme Santé Canada",
@@ -1013,6 +1174,7 @@
           "ask_timing": true,
           "code": "other_civic_contact",
           "coverage": "fallback",
+          "exclusive": false,
           "fallback_to_parent": true,
           "institution_en": "Federal institution involved",
           "institution_fr": "Institution fédérale concernée",
@@ -1031,8 +1193,25 @@
       "options": [
         {
           "ask_timing": true,
+          "code": "space_launch_attendance",
+          "coverage": "direct",
+          "exclusive": true,
+          "fallback_to_parent": false,
+          "institution_en": "Canadian Space Agency",
+          "institution_fr": "Agence spatiale canadienne",
+          "label_en": "Registered to attend a Canadian Space Agency mission launch",
+          "label_fr": "Inscription pour assister au lancement d'une mission de l'Agence spatiale canadienne",
+          "selectors": {
+            "bank_numbers": [
+              "CSA PPU 020"
+            ]
+          }
+        },
+        {
+          "ask_timing": true,
           "code": "canada_day_challenge",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Canadian Heritage",
           "institution_fr": "Patrimoine canadien",
@@ -1048,6 +1227,7 @@
           "ask_timing": true,
           "code": "federal_volunteer_program",
           "coverage": "partial",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Canadian Heritage or the federal institution running the program",
           "institution_fr": "Patrimoine canadien ou institution fédérale responsable du programme",
@@ -1063,6 +1243,7 @@
           "ask_timing": true,
           "code": "other_culture_recreation",
           "coverage": "fallback",
+          "exclusive": false,
           "fallback_to_parent": true,
           "institution_en": "Federal institution that ran the activity",
           "institution_fr": "Institution fédérale responsable de l'activité",
@@ -1074,8 +1255,8 @@
         }
       ],
       "parent_question_code": "q_culture_volunteer",
-      "prompt_en": "Which federal culture, recreation or volunteer activities apply? Select all that apply.",
-      "prompt_fr": "Quelles activités fédérales de culture, de loisirs ou de bénévolat s'appliquent? Sélectionnez toutes les réponses pertinentes."
+      "prompt_en": "Which federal public events, culture, recreation or volunteer activities apply? Select all that apply.",
+      "prompt_fr": "Quels événements publics ou quelles activités fédérales de culture, de loisirs ou de bénévolat s'appliquent? Sélectionnez toutes les réponses pertinentes."
     },
     {
       "options": [
@@ -1083,6 +1264,7 @@
           "ask_timing": true,
           "code": "research_participant",
           "coverage": "partial",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "The institution conducting the research, such as Health Canada",
           "institution_fr": "Institution responsable de la recherche, comme Santé Canada",
@@ -1099,6 +1281,7 @@
           "ask_timing": true,
           "code": "researcher_reviewer",
           "coverage": "partial",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "The research institution, such as the Public Health Agency of Canada",
           "institution_fr": "Institution de recherche, comme l'Agence de la santé publique du Canada",
@@ -1114,6 +1297,7 @@
           "ask_timing": true,
           "code": "other_research_survey",
           "coverage": "fallback",
+          "exclusive": false,
           "fallback_to_parent": true,
           "institution_en": "Federal institution that ran the activity",
           "institution_fr": "Institution fédérale responsable de l'activité",
@@ -1134,6 +1318,7 @@
           "ask_timing": true,
           "code": "search_and_rescue",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Department of National Defence / Canadian Armed Forces",
           "institution_fr": "Ministère de la Défense nationale / Forces armées canadiennes",
@@ -1149,6 +1334,7 @@
           "ask_timing": true,
           "code": "fishery_ice_assistance",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Fisheries and Oceans Canada",
           "institution_fr": "Pêches et Océans Canada",
@@ -1164,6 +1350,7 @@
           "ask_timing": true,
           "code": "other_federal_emergency",
           "coverage": "fallback",
+          "exclusive": false,
           "fallback_to_parent": true,
           "institution_en": "Federal institution that provided the service",
           "institution_fr": "Institution fédérale qui a fourni le service",
@@ -1184,6 +1371,7 @@
           "ask_timing": true,
           "code": "cpp_survivor_death_benefit",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Employment and Social Development Canada / Service Canada",
           "institution_fr": "Emploi et Développement social Canada / Service Canada",
@@ -1199,6 +1387,7 @@
           "ask_timing": true,
           "code": "first_nations_estate",
           "coverage": "direct",
+          "exclusive": false,
           "fallback_to_parent": false,
           "institution_en": "Indigenous Services Canada",
           "institution_fr": "Services aux Autochtones Canada",
@@ -1214,6 +1403,7 @@
           "ask_timing": true,
           "code": "other_federal_life_event",
           "coverage": "fallback",
+          "exclusive": false,
           "fallback_to_parent": true,
           "institution_en": "Federal institution that ran the service",
           "institution_fr": "Institution fédérale responsable du service",
@@ -1229,7 +1419,7 @@
       "prompt_fr": "Quel service fédéral nommé lié à un événement de vie s'applique? Sélectionnez toutes les réponses pertinentes."
     }
   ],
-  "content_version": "2026-09-28.5",
+  "content_version": "2026-09-28.6",
   "data_snapshot": {
     "generated_date": "2026-09-28",
     "source_files": {
@@ -1241,7 +1431,7 @@
       }
     }
   },
-  "generator_version": "1.4",
+  "generator_version": "1.5",
   "personal_information_categories": [
     {
       "category_id": "PI_CAT-1",
@@ -1426,6 +1616,71 @@
     "state_owner": "client"
   },
   "questions": [
+    {
+      "answer": {
+        "type": "single_select",
+        "values": [
+          "yes",
+          "no",
+          "not_sure",
+          "prefer_not_to_answer"
+        ]
+      },
+      "ask_when_matched_en": "If yes: About what year did this interaction last happen?",
+      "ask_when_matched_fr": "Si oui : Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+      "code": "q_common_start",
+      "help": {
+        "agent_offer": "on_request",
+        "examples": [
+          {
+            "activity_en": "Applying for or renewing a Canadian passport",
+            "activity_fr": "Demander ou renouveler un passeport canadien",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Immigration, Refugees and Citizenship Canada / Passport Program",
+            "institution_fr": "Immigration, Réfugiés et Citoyenneté Canada / Programme de passeport",
+            "source_pib_keys": [
+              "IRCC PPU 081"
+            ]
+          },
+          {
+            "activity_en": "Crossing Canada's international border",
+            "activity_fr": "Franchir la frontière internationale du Canada",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Canada Border Services Agency",
+            "institution_fr": "Agence des services frontaliers du Canada",
+            "source_pib_keys": [
+              "CBSA PPU 008"
+            ]
+          }
+        ],
+        "familiarity": "common",
+        "split_recommendation_en": "The quick check uses one ten-year window. Individual questions let you give separate dates and cover other tax, travel, and civic interactions.",
+        "split_recommendation_fr": "La vérification rapide utilise une seule période de dix ans. Les questions individuelles permettent de donner des dates distinctes et de couvrir d'autres interactions fiscales, de voyage et civiques.",
+        "web_display": "on_request"
+      },
+      "question_en": "Many adult Canadians have filed income taxes, voted federally, applied for or renewed a passport, or crossed the border in the past 10 years. Would you like to check those four activities together? I can also ask about each one separately for a more precise retention estimate.",
+      "question_fr": "De nombreux adultes au Canada ont produit une déclaration de revenus, voté à une élection fédérale, demandé ou renouvelé un passeport, ou franchi la frontière au cours des dix dernières années. Voulez-vous vérifier ces quatre activités ensemble? Je peux aussi vous poser les questions séparément pour estimer plus précisément la durée de conservation.",
+      "readability_en": {
+        "adaptive_split_recommended": true,
+        "band": "difficult",
+        "candidate_band": "standard",
+        "candidate_question_en": "Many adults in Canada have filed taxes, voted federally, applied for a passport or crossed the border in the past 10 years. Want to check these together? I can ask one by one for more precise timing.",
+        "candidate_score": 67.8,
+        "method": "flesch_reading_ease",
+        "outlier_below_60": true,
+        "score": 46.0
+      },
+      "timing": {
+        "ask_after": [
+          "yes"
+        ],
+        "prompt_en": "About what year did this interaction last happen?",
+        "prompt_fr": "Vers quelle année cette interaction a-t-elle eu lieu pour la dernière fois?",
+        "response_type": "approximate_period_or_year"
+      }
+    },
     {
       "answer": {
         "type": "single_select",
@@ -2557,6 +2812,17 @@
         "agent_offer": "proactive",
         "examples": [
           {
+            "activity_en": "Registering to attend a space mission launch",
+            "activity_fr": "S'inscrire pour assister au lancement d'une mission spatiale",
+            "evidence_note_en": "",
+            "evidence_note_fr": "",
+            "institution_en": "Canadian Space Agency",
+            "institution_fr": "Agence spatiale canadienne",
+            "source_pib_keys": [
+              "CSA PPU 020"
+            ]
+          },
+          {
             "activity_en": "Entering the Canada Day Challenge",
             "activity_fr": "Participer au Défi de la fête du Canada",
             "evidence_note_en": "",
@@ -2580,21 +2846,21 @@
           }
         ],
         "familiarity": "unfamiliar",
-        "split_recommendation_en": "Prefer named programs. Simply visiting a park or museum does not necessarily create an identifiable personal record.",
-        "split_recommendation_fr": "Privilégier les programmes nommés. La simple visite d'un parc ou d'un musée ne crée pas nécessairement un dossier personnel identifiable.",
+        "split_recommendation_en": "Prefer named events or programs that required registration. Simply visiting a park or museum does not necessarily create an identifiable personal record.",
+        "split_recommendation_fr": "Privilégier les événements ou programmes nommés qui exigeaient une inscription. La simple visite d'un parc ou d'un musée ne crée pas nécessairement un dossier personnel identifiable.",
         "web_display": "inline"
       },
-      "question_en": "Have you participated in or volunteered for a federally run cultural, sport, recreation, heritage or park activity?",
-      "question_fr": "Avez-vous participé ou fait du bénévolat à une activité fédérale de culture, de sport, de loisir, de patrimoine ou de parc?",
+      "question_en": "Have you registered for or attended a federal public event, or participated in a federal cultural, sport, recreation, heritage, park or volunteer activity?",
+      "question_fr": "Vous êtes-vous inscrit ou avez-vous assisté à un événement public fédéral, ou participé à une activité fédérale de culture, de sport, de loisir, de patrimoine, de parc ou de bénévolat?",
       "readability_en": {
         "adaptive_split_recommended": true,
         "band": "very difficult",
-        "candidate_band": "standard",
-        "candidate_question_en": "Have you joined or helped with a federal arts, sports, heritage or parks event?",
-        "candidate_score": 65.7,
+        "candidate_band": "very difficult",
+        "candidate_question_en": "Have you registered for a federal public event, or joined a federal arts, sports, heritage, parks or volunteer activity?",
+        "candidate_score": 27.3,
         "method": "flesch_reading_ease",
         "outlier_below_60": true,
-        "score": 10.4
+        "score": 3.3
       },
       "timing": {
         "ask_after": [

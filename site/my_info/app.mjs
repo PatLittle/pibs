@@ -16,6 +16,10 @@ const copy = {
     progress: (answered, total) => `${answered} of ${total} main interactions answered`,
     yes: "Yes", no: "No", not_sure: "Not sure", prefer_not_to_answer: "Prefer not to answer",
     examples: "Show real-world examples", why: "Why this is asked", selectAll: "Select all that apply.",
+    quickUse: "Use the 10-year quick check", quickDetailed: "Ask me one by one for more precise timing",
+    quickSelection: "All four are selected. Uncheck any you have not done in the past 10 years. Leave all unchecked if none apply.",
+    quickCaveat: "Quick check: the four common activities use one broad 10-year window. Unchecked items only mean you did not do them in that window; older records and other tax, travel or civic interactions are not ruled out. Choose the individual path for more precise timing.",
+    noneRecent: "None of these in the past 10 years", within_10_years: "Within the past 10 years",
     year: "Approximate year", yearHint: "For example, 2019", current: "Current or ongoing", within_1_year: "Within the last year",
     "1_to_3_years": "1 to 3 years ago", "4_to_7_years": "4 to 7 years ago", "8_to_15_years": "8 to 15 years ago",
     more_than_15_years: "More than 15 years ago", approximate_year: "A specific approximate year", unknown: "I’m not sure",
@@ -45,6 +49,10 @@ const copy = {
     progress: (answered, total) => `${answered} interactions principales sur ${total} ont une réponse`,
     yes: "Oui", no: "Non", not_sure: "Je ne sais pas", prefer_not_to_answer: "Je préfère ne pas répondre",
     examples: "Afficher des exemples concrets", why: "Pourquoi cette question est posée", selectAll: "Sélectionnez toutes les réponses pertinentes.",
+    quickUse: "Utiliser la vérification rapide sur dix ans", quickDetailed: "Posez-moi les questions une à une pour préciser les dates",
+    quickSelection: "Les quatre activités sont sélectionnées. Décochez celles que vous n'avez pas faites au cours des dix dernières années. Si aucune ne s'applique, décochez-les toutes.",
+    quickCaveat: "Vérification rapide : les quatre activités courantes utilisent une seule période approximative de dix ans. Une activité décochée signifie seulement que vous ne l'avez pas faite pendant cette période; cela n'exclut pas des dossiers plus anciens ni d'autres interactions fiscales, de voyage ou civiques. Choisissez le parcours individuel pour préciser les dates.",
+    noneRecent: "Aucune de ces activités au cours des dix dernières années", within_10_years: "Au cours des dix dernières années",
     year: "Année approximative", yearHint: "Par exemple, 2019", current: "En cours", within_1_year: "Au cours de la dernière année",
     "1_to_3_years": "Il y a 1 à 3 ans", "4_to_7_years": "Il y a 4 à 7 ans", "8_to_15_years": "Il y a 8 à 15 ans",
     more_than_15_years: "Il y a plus de 15 ans", approximate_year: "Une année approximative précise", unknown: "Je ne sais pas",
@@ -162,9 +170,11 @@ async function showPersonaResults() {
   let response = engine.advance(
     engine.createState(locale),
     clone(modalPersona.survey.answers || []),
-    clone(modalPersona.survey.refinements || [])
+    clone(modalPersona.survey.refinements || []),
+    clone(modalPersona.survey.departments || [])
   );
   while (!response.complete && response.next_step?.step_type === "department") {
+    if (response.next_step.question_code === "q_complaint_appeal") throw new Error("Complaint persona is missing a named department");
     response = engine.advance(response.state, [], [], [{
       question_code: response.next_step.question_code,
       institution_ids: response.next_step.options.map((option) => option.institution_id)
@@ -186,8 +196,8 @@ function renderStep(response) {
   const step = response.next_step;
   const answered = response.progress.answered_questions;
   $("#step-label").textContent = t(step.step_type);
-  $("#progress-copy").textContent = t("progress")(answered, manifest.question_count);
-  $("#progress-bar").style.width = `${Math.min(100, Math.round(answered / manifest.question_count * 100))}%`;
+  $("#progress-copy").textContent = t("progress")(answered, response.progress.total_questions);
+  $("#progress-bar").style.width = `${Math.min(100, Math.round(answered / response.progress.total_questions * 100))}%`;
   $("#back-button").disabled = history.length === 0;
   $("#continue-button").disabled = true;
   $("#continue-button").textContent = t("continue");
@@ -200,6 +210,11 @@ function renderStep(response) {
 }
 
 function renderQuestion(region, step) {
+  if (step.question_code === "q_common_start") {
+    region.innerHTML = `<h2 class="question-title">${escapeHtml(step.prompt)}</h2><fieldset class="choice-list" aria-label="${escapeHtml(step.prompt)}"><label class="choice"><input type="radio" name="answer" value="yes"><span><strong>${escapeHtml(t("quickUse"))}</strong></span></label><label class="choice"><input type="radio" name="answer" value="no"><span><strong>${escapeHtml(t("quickDetailed"))}</strong></span></label></fieldset><p class="question-note">${escapeHtml(step.help.split_recommendation)}</p>`;
+    region.querySelectorAll('input[name="answer"]').forEach((input) => input.addEventListener("change", () => { $("#continue-button").disabled = false; }));
+    return;
+  }
   const options = ["yes", "no", "not_sure", "prefer_not_to_answer"];
   const examples = step.help.examples || [];
   const help = examples.length ? `<details class="examples"><summary>${escapeHtml(t("examples"))}</summary><ul>${examples.map((item) =>
@@ -213,6 +228,12 @@ function renderQuestion(region, step) {
 }
 
 function renderRefinement(region, step) {
+  if (step.question_code === "q_common_start") {
+    const choices = step.options.filter((option) => option.code !== "none_recent");
+    region.innerHTML = `<h2 class="question-title">${escapeHtml(step.prompt)}</h2><p class="question-note">${escapeHtml(t("quickSelection"))}</p><fieldset class="choice-list" aria-label="${escapeHtml(step.prompt)}">${choices.map((option) => `<label class="choice"><input type="checkbox" name="route" value="${escapeHtml(option.code)}" checked><span><strong>${escapeHtml(option.label)}</strong></span></label>`).join("")}</fieldset><p class="privacy-note">${escapeHtml(step.privacy_note)}</p>`;
+    $("#continue-button").disabled = false;
+    return;
+  }
   region.innerHTML = `<p class="eyebrow">${escapeHtml(localizedQuestion(step.question_code))}</p><h2 class="question-title">${escapeHtml(step.prompt)}</h2><p class="question-note">${escapeHtml(t("selectAll"))}</p><fieldset class="choice-list" aria-label="${escapeHtml(step.prompt)}">${step.options.map((option) =>
     `<label class="choice"><input type="checkbox" name="route" value="${escapeHtml(option.code)}"><span><strong>${escapeHtml(option.label)}</strong><small>${escapeHtml(option.institution)}</small></span></label>`).join("")}</fieldset><p class="privacy-note">${escapeHtml(step.privacy_note)}</p>`;
   const update = () => { $("#continue-button").disabled = !region.querySelector('input[name="route"]:checked'); };
@@ -248,6 +269,7 @@ function submitCurrent() {
     current = engine.advance(state, [{ question_code: step.question_code, value }]);
   } else if (step.step_type === "refinement") {
     const selected = [...document.querySelectorAll('#question-region input[name="route"]:checked')].map((input) => input.value);
+    if (step.question_code === "q_common_start" && selected.length === 0) selected.push("none_recent");
     current = engine.advance(state, [], [{ question_code: step.question_code, selected_options: selected, timings: {} }]);
   } else if (step.step_type === "timing") {
     const kind = $("#question-region input[name=timing]:checked").value;
@@ -288,7 +310,7 @@ async function renderResults() {
   const total = allResults.length || 1;
   const institutions = [...new Set(allResults.map((result) => result.institution_name))].sort((a, b) => a.localeCompare(b));
   const personaLabel = activePersona ? `<p class="persona-result-label">${escapeHtml(t("exampleResultsFor"))} <strong>${escapeHtml(activePersona.display_name)}</strong></p>` : "";
-  region.innerHTML = `<div class="results-shell">${personaLabel}<div class="result-head"><div><p class="beta-label">Beta</p><h2>${escapeHtml(t("resultTitle"))}</h2><p>${escapeHtml(allResults.length)} ${escapeHtml(t("matches"))}</p></div><div><button id="print-button" class="button button-secondary" type="button">${escapeHtml(t("print"))}</button></div></div><p class="caveat">${escapeHtml(t("resultIntro"))}</p>${evaluation.assessment.inventory_gaps.length ? `<div class="privacy-note"><strong>${escapeHtml(t("inventoryGap"))}</strong><br>${escapeHtml(t("gapText"))}</div>` : ""}<div class="summary-grid">${statusOrder.map((status) => `<div class="summary-stat" style="--status:${statusColors[status]}"><strong>${counts[status]}</strong><span>${escapeHtml(t(status))}</span></div>`).join("")}</div><div class="stacked-bar" role="img" aria-label="${statusOrder.map((status) => `${t(status)}: ${counts[status]}`).join(", ")}">${statusOrder.filter((status) => counts[status]).map((status) => `<span style="width:${counts[status] / total * 100}%;background:${statusColors[status]}">${counts[status]}</span>`).join("")}</div><div class="filters" aria-label="${escapeHtml(t("filters"))}"><label>${escapeHtml(t("institution"))}<select id="institution-filter"><option value="">${escapeHtml(t("allInstitutions"))}</option>${institutions.map((name) => `<option value="${escapeHtml(name)}">${escapeHtml(name)}</option>`).join("")}</select></label><label>${escapeHtml(t("status"))}<select id="status-filter"><option value="">${escapeHtml(t("allStatuses"))}</option>${statusOrder.map((status) => `<option value="${status}">${escapeHtml(t(status))}</option>`).join("")}</select></label><label>${escapeHtml(t("scope"))}<select id="scope-filter"><option value="">${escapeHtml(t("allScopes"))}</option><option value="institution_specific">${escapeHtml(t("institution_specific"))}</option><option value="standard">${escapeHtml(t("standard"))}</option></select></label></div><div id="result-list"></div>${renderAnswerTree()}<div class="actions"><button id="restart-button" class="button button-primary" type="button">${escapeHtml(t("restart"))}</button></div></div>`;
+  region.innerHTML = `<div class="results-shell">${personaLabel}<div class="result-head"><div><p class="beta-label">Beta</p><h2>${escapeHtml(t("resultTitle"))}</h2><p>${escapeHtml(allResults.length)} ${escapeHtml(t("matches"))}</p></div><div><button id="print-button" class="button button-secondary" type="button">${escapeHtml(t("print"))}</button></div></div><p class="caveat">${escapeHtml(t("resultIntro"))}</p>${state.answers.q_common_start?.value === "yes" ? `<p class="caveat">${escapeHtml(t("quickCaveat"))}</p>` : ""}${evaluation.assessment.inventory_gaps.length ? `<div class="privacy-note"><strong>${escapeHtml(t("inventoryGap"))}</strong><br>${escapeHtml(t("gapText"))}</div>` : ""}<div class="summary-grid">${statusOrder.map((status) => `<div class="summary-stat" style="--status:${statusColors[status]}"><strong>${counts[status]}</strong><span>${escapeHtml(t(status))}</span></div>`).join("")}</div><div class="stacked-bar" role="img" aria-label="${statusOrder.map((status) => `${t(status)}: ${counts[status]}`).join(", ")}">${statusOrder.filter((status) => counts[status]).map((status) => `<span style="width:${counts[status] / total * 100}%;background:${statusColors[status]}">${counts[status]}</span>`).join("")}</div><div class="filters" aria-label="${escapeHtml(t("filters"))}"><label>${escapeHtml(t("institution"))}<select id="institution-filter"><option value="">${escapeHtml(t("allInstitutions"))}</option>${institutions.map((name) => `<option value="${escapeHtml(name)}">${escapeHtml(name)}</option>`).join("")}</select></label><label>${escapeHtml(t("status"))}<select id="status-filter"><option value="">${escapeHtml(t("allStatuses"))}</option>${statusOrder.map((status) => `<option value="${status}">${escapeHtml(t(status))}</option>`).join("")}</select></label><label>${escapeHtml(t("scope"))}<select id="scope-filter"><option value="">${escapeHtml(t("allScopes"))}</option><option value="institution_specific">${escapeHtml(t("institution_specific"))}</option><option value="standard">${escapeHtml(t("standard"))}</option></select></label></div><div id="result-list"></div>${renderAnswerTree()}<div class="actions"><button id="restart-button" class="button button-primary" type="button">${escapeHtml(t("restart"))}</button></div></div>`;
   $("#print-button").addEventListener("click", () => window.print());
   $("#restart-button").addEventListener("click", resetSurvey);
   region.querySelectorAll("select").forEach((select) => select.addEventListener("change", renderFilteredResults));
@@ -333,7 +355,7 @@ function renderAnswerTree() {
   const items = engine.questionOrder.filter((code) => state.answers[code]).map((code) => {
     const answer = state.answers[code];
     const refinement = state.refinements[code];
-    const children = refinement ? `<ul>${refinement.selected_options.map((option) => `<li>${escapeHtml(localizedOption(code, option))} · ${escapeHtml(t(refinement.timings[option]?.kind || "unknown"))}</li>`).join("")}</ul>` : answer.timing ? `<ul><li>${escapeHtml(t(answer.timing.kind))}</li></ul>` : "";
+    const children = refinement ? `<ul>${refinement.selected_options.map((option) => `<li>${escapeHtml(localizedOption(code, option))}${code === "q_common_start" ? ` · ${escapeHtml(t("within_10_years"))}` : ` · ${escapeHtml(t(refinement.timings[option]?.kind || "unknown"))}`}</li>`).join("")}</ul>` : answer.timing ? `<ul><li>${escapeHtml(t(answer.timing.kind))}</li></ul>` : "";
     return `<li><strong>${escapeHtml(localizedQuestion(code))}</strong> — ${escapeHtml(answerLabel(answer.value))}<button class="text-button" type="button" data-edit="${escapeHtml(code)}">${escapeHtml(t("change"))}</button>${children}</li>`;
   }).join("");
   return `<details class="examples"><summary>${escapeHtml(t("answerPath"))}</summary><ol class="tree">${items}</ol></details>`;

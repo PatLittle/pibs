@@ -29,6 +29,7 @@ VOWEL_GROUP_RE = re.compile(r"[aeiou]+|(?<![aeiou])y+(?![aeiou])")
 # silently replacing the bilingual production prompts.  Compound questions
 # still need the adaptive splits described in QUESTION_HELP.
 PROPOSED_QUESTION_WORDING_EN = {
+    "q_common_start": "Many adults in Canada have filed taxes, voted federally, applied for a passport or crossed the border in the past 10 years. Want to check these together? I can ask one by one for more precise timing.",
     "q_government_work": "Have you applied for a federal job or worked for one?",
     "q_money_programs": "Did a federal program give you money or other help?",
     "q_tax_customs": "Did you ever file federal taxes or declare goods at the border?",
@@ -46,7 +47,7 @@ PROPOSED_QUESTION_WORDING_EN = {
     "q_boating": "Have you had a boating card or registered a boat with Transport Canada?",
     "q_housing_property": "Have you used a federal program to rent or buy a home?",
     "q_civic_contact": "Did you contact a federal office, share your views, sign a petition or vote?",
-    "q_culture_volunteer": "Have you joined or helped with a federal arts, sports, heritage or parks event?",
+    "q_culture_volunteer": "Have you registered for a federal public event, or joined a federal arts, sports, heritage, parks or volunteer activity?",
     "q_emergency": "Did you ask for federal help in a crisis or after a disaster?",
     "q_family_vital": "Did you use a federal service for a birth, wedding, divorce, adoption or death?",
 }

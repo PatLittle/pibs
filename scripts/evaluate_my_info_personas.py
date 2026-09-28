@@ -89,13 +89,21 @@ def build_state(engine: SurveyToolEngine, persona: Mapping[str, Any]) -> dict[st
         code_field="question_code",
         field="survey.refinements",
     )
+    departments = _updates(
+        survey.get("departments", persona.get("departments")),
+        code_field="question_code",
+        field="survey.departments",
+    )
     response = engine.advance(
         answers=answers,
         refinements=refinements,
+        departments=departments,
         locale=locale,
     )
     while not response["complete"] and response["next_step"]["step_type"] == "department":
         step = response["next_step"]
+        if step["question_code"] == "q_complaint_appeal":
+            raise ValueError("A complaint persona must name only the departments or review bodies actually involved")
         response = engine.advance(
             response["state"],
             departments=[{

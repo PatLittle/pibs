@@ -39,7 +39,7 @@ The current repository already supplies much of the lower layer:
 - `build_my_info_features.py` generates a bilingual questionnaire and auditable PIB feature datasets; and
 - `data/derived/my_info/my_info_questionnaire.json` is the natural starting point for a portable contract.
 
-The Beta now implements this as an explicit state-machine contract: all 21 top-level questions can branch to concrete activity choices and separate timing nodes. The MCP adapter and generated browser engine consume the same contract and evaluation source. A cross-runtime fixture and source hashes fail validation if the browser and agent paths drift.
+The Beta now implements this as an explicit state-machine contract: all 22 top-level questions can branch to concrete activity choices and separate timing nodes. The opening ten-year shortcut uses one broad timing window for four common activities; the individual path keeps per-activity timing. The MCP adapter and generated browser engine consume the same contract and evaluation source. A cross-runtime fixture and source hashes fail validation if the browser and agent paths drift.
 
 ## Canonical survey contract
 

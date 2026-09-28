@@ -44,6 +44,9 @@ _STATE_FIELDS = {"schema_version", "contract_version", "locale", "answers", "ref
 _ANSWER_FIELDS = {"value", "timing"}
 _TIMING_FIELDS = {"kind", "year"}
 _REFINEMENT_FIELDS = {"selected_options", "timings"}
+_COMMON_SHORTCUT_CODE = "q_common_start"
+_COMMON_SHORTCUT_SKIPS = frozenset({"q_tax_customs", "q_travel_border", "q_civic_contact"})
+_COMMON_SHORTCUT_TIMING = {"kind": "within_10_years"}
 
 
 def _pipe_set(value: object) -> set[str]:
@@ -92,6 +95,13 @@ class SurveyToolEngine:
         self.route_options = {
             parent: {option["code"]: option for option in route["options"]}
             for parent, route in self.routes.items()
+        }
+        self.exclusive_banks = {
+            bank
+            for options in self.route_options.values()
+            for option in options.values()
+            if option.get("exclusive")
+            for bank in option.get("selectors", {}).get("bank_numbers", [])
         }
         self.features_by_question = {
             code: [row for row in self.features if code in _pipe_set(row["question_codes"])]
@@ -177,7 +187,10 @@ class SurveyToolEngine:
         self.validate_state(working)
 
         next_step: dict[str, Any] | None = None
+        skipped = self._skipped_questions(working)
         for code in self.question_order:
+            if code in skipped:
+                continue
             answer = working["answers"].get(code)
             if answer is None:
                 next_step = self._question_view(code, working["locale"])
@@ -206,7 +219,7 @@ class SurveyToolEngine:
                     next_step = self._timing_view(code, working["locale"])
                     break
                 options = self._department_options(code, working)
-                if len(options) > 1 and code not in working["departments"]:
+                if (len(options) > 1 or (code == "q_complaint_appeal" and options)) and code not in working["departments"]:
                     next_step = self._department_view(code, working["locale"], options)
                     break
 
@@ -232,7 +245,7 @@ class SurveyToolEngine:
             "next_step": next_step,
             "progress": {
                 "answered_questions": answered,
-                "total_questions": len(self.question_order),
+                "total_questions": len(self.question_order) - len(skipped),
                 "yes_answers_with_timing": timed_yes,
             },
         }
@@ -290,7 +303,8 @@ class SurveyToolEngine:
         status_counts = Counter(result["holding_status"] for result in results)
         band_counts = Counter(result["match_band"] for result in results)
         institution_counts = Counter(result["institution_name"] for result in results)
-        unanswered = [code for code in self.question_order if code not in normalized["answers"]]
+        skipped = self._skipped_questions(normalized)
+        unanswered = [code for code in self.question_order if code not in skipped and code not in normalized["answers"]]
         uncertain = [
             code
             for code, answer in normalized["answers"].items()
@@ -306,7 +320,8 @@ class SurveyToolEngine:
         incomplete_departments = [
             code for code, answer in normalized["answers"].items()
             if answer["value"] == "yes"
-            and len(self._department_options(code, normalized)) > 1
+            and (len(self._department_options(code, normalized)) > 1
+                 or (code == "q_complaint_appeal" and self._department_options(code, normalized)))
             and code not in normalized["departments"]
         ]
         inventory_gaps = [
@@ -340,7 +355,11 @@ class SurveyToolEngine:
                 "incomplete_department_question_codes": incomplete_departments,
                 "inventory_gaps": inventory_gaps,
                 "refinement_needed_question_codes": refinement_needed,
-                "caveat": "These are candidate PIBs, not confirmation that an institution holds information about this person.",
+                "caveat": (
+                    "These are candidate PIBs, not confirmation that an institution holds information about this person. "
+                    + ("The quick check uses only a ten-year window for four common activities; it does not rule out older records or other tax, travel, or civic interactions."
+                       if skipped else "")
+                ),
             },
             "summary": {
                 "total_matches": len(results),
@@ -474,6 +493,8 @@ class SurveyToolEngine:
         invalid = [item for item in selected if item not in valid_options]
         if invalid:
             raise ValueError(f"{code}: unsupported route options: {invalid}")
+        if code == _COMMON_SHORTCUT_CODE and "none_recent" in selected and len(selected) != 1:
+            raise ValueError("none_recent cannot be combined with selected activities")
         timings = refinement.get("timings", {})
         if not isinstance(timings, Mapping):
             raise ValueError(f"{code}: timings must be an object")
@@ -508,12 +529,17 @@ class SurveyToolEngine:
         refinement = state.get("refinements", {}).get(code)
         if refinement and code in self.routes:
             selected_options = [self.route_options[code][item] for item in refinement["selected_options"]]
+            selected_banks = {
+                bank
+                for option in selected_options
+                for bank in option.get("selectors", {}).get("bank_numbers", [])
+            }
+            rows = [
+                row for row in rows
+                if row["bank_number_key"] not in self.exclusive_banks
+                or row["bank_number_key"] in selected_banks
+            ]
             if not any(item.get("fallback_to_parent", False) for item in selected_options):
-                selected_banks = {
-                    bank
-                    for option in selected_options
-                    for bank in option.get("selectors", {}).get("bank_numbers", [])
-                }
                 rows = [row for row in rows if row["bank_number_key"] in selected_banks]
         institutions = {
             row["institution_id"]: (row["institution_name_en"], row["institution_name_fr"])
@@ -616,8 +642,8 @@ class SurveyToolEngine:
             "question_code": code,
             "prompt": prompt,
             "source_prompt": source_prompt,
-            "wording_status": "current" if french else "plain_language_candidate_for_testing",
-            "answer_values": list(ANSWER_VALUES),
+            "wording_status": "current" if french or code == _COMMON_SHORTCUT_CODE else "plain_language_candidate_for_testing",
+            "answer_values": ["yes", "no"] if code == _COMMON_SHORTCUT_CODE else list(ANSWER_VALUES),
             "help": {
                 "familiarity": question["help"]["familiarity"],
                 "agent_offer": question["help"]["agent_offer"],
@@ -697,9 +723,11 @@ class SurveyToolEngine:
             "step_type": "department",
             "question_code": code,
             "prompt": (
-                "À quelles institutions fédérales cette situation s'applique-t-elle?"
-                if french
-                else "Which federal departments or institutions did this apply to?"
+                ("À quel ministère ou organisme fédéral avez-vous adressé votre plainte, ou lequel a examiné votre appel? Choisissez seulement ceux qui ont réellement participé."
+                 if french else "Which federal department or review body received your complaint or considered your appeal? Select only those actually involved.")
+                if code == "q_complaint_appeal" else
+                ("À quelles institutions fédérales cette situation s'applique-t-elle?"
+                 if french else "Which federal departments or institutions did this apply to?")
             ),
             "selection_type": "multi_select",
             "options": [
@@ -753,6 +781,8 @@ class SurveyToolEngine:
             direct_routes = [
                 item for item in route_matches.get(row["bank_number_key"], []) if allows(item[0])
             ]
+            if row["bank_number_key"] in self.exclusive_banks and not direct_routes:
+                continue
             direct_codes = {parent for parent, _ in direct_routes}
             strong_codes = sorted(
                 {code for code in primary & broad_yes_codes if allows(code)} | direct_codes
@@ -813,9 +843,10 @@ class SurveyToolEngine:
         statuses = [
             self._holding_status(
                 row,
-                state["refinements"][item["question_code"]]
-                .get("timings", {})
-                .get(item["route_option_code"]),
+                (_COMMON_SHORTCUT_TIMING if item["question_code"] == _COMMON_SHORTCUT_CODE else
+                 state["refinements"][item["question_code"]]
+                 .get("timings", {})
+                 .get(item["route_option_code"])),
                 as_of_year,
             )
             for item in matched_route_options
@@ -982,6 +1013,7 @@ class SurveyToolEngine:
             "1_to_3_years": (1, 3),
             "4_to_7_years": (4, 7),
             "8_to_15_years": (8, 15),
+            "within_10_years": (0, 10),
             "more_than_15_years": (16, None),
         }
         if kind == "approximate_year":
@@ -990,6 +1022,13 @@ class SurveyToolEngine:
                 raise ValueError("An approximate interaction year cannot be after as_of_year")
             return elapsed, elapsed
         return intervals.get(str(kind), (None, None))
+
+    @staticmethod
+    def _skipped_questions(state: Mapping[str, Any]) -> frozenset[str]:
+        if (state.get("answers", {}).get(_COMMON_SHORTCUT_CODE, {}).get("value") == "yes"
+                and _COMMON_SHORTCUT_CODE in state.get("refinements", {})):
+            return _COMMON_SHORTCUT_SKIPS
+        return frozenset()
 
 
 _DEFAULT_ENGINE: SurveyToolEngine | None = None

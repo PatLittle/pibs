@@ -38,6 +38,27 @@ class QuestionHelp:
 
 
 QUESTION_HELP: dict[str, QuestionHelp] = {
+    "q_common_start": QuestionHelp(
+        "common",
+        (
+            InteractionExample(
+                "Immigration, Refugees and Citizenship Canada / Passport Program",
+                "Immigration, Réfugiés et Citoyenneté Canada / Programme de passeport",
+                "Applying for or renewing a Canadian passport",
+                "Demander ou renouveler un passeport canadien",
+                ("IRCC PPU 081",),
+            ),
+            InteractionExample(
+                "Canada Border Services Agency",
+                "Agence des services frontaliers du Canada",
+                "Crossing Canada's international border",
+                "Franchir la frontière internationale du Canada",
+                ("CBSA PPU 008",),
+            ),
+        ),
+        "The quick check uses one ten-year window. Individual questions let you give separate dates and cover other tax, travel, and civic interactions.",
+        "La vérification rapide utilise une seule période de dix ans. Les questions individuelles permettent de donner des dates distinctes et de couvrir d'autres interactions fiscales, de voyage et civiques.",
+    ),
     "q_government_work": QuestionHelp(
         "mixed",
         (
@@ -395,6 +416,13 @@ QUESTION_HELP: dict[str, QuestionHelp] = {
         "unfamiliar",
         (
             InteractionExample(
+                "Canadian Space Agency",
+                "Agence spatiale canadienne",
+                "Registering to attend a space mission launch",
+                "S'inscrire pour assister au lancement d'une mission spatiale",
+                ("CSA PPU 020",),
+            ),
+            InteractionExample(
                 "Canadian Heritage",
                 "Patrimoine canadien",
                 "Entering the Canada Day Challenge",
@@ -409,8 +437,8 @@ QUESTION_HELP: dict[str, QuestionHelp] = {
                 ("PCH PPU 070",),
             ),
         ),
-        "Prefer named programs. Simply visiting a park or museum does not necessarily create an identifiable personal record.",
-        "Privilégier les programmes nommés. La simple visite d'un parc ou d'un musée ne crée pas nécessairement un dossier personnel identifiable.",
+        "Prefer named events or programs that required registration. Simply visiting a park or museum does not necessarily create an identifiable personal record.",
+        "Privilégier les événements ou programmes nommés qui exigeaient une inscription. La simple visite d'un parc ou d'un musée ne crée pas nécessairement un dossier personnel identifiable.",
     ),
     "q_research_survey": QuestionHelp(
         "unfamiliar",
