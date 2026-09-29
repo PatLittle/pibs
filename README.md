@@ -1,5 +1,233 @@
 # pibs
 
+## End-to-end data pipeline
+
+The legal registry, source captures, extracted holdings, derived survey logic, and
+published applications are separate layers. A source capture is evidence, not a
+validated PIB; a derived category or survey match is an estimate, not an official
+institutional assertion or proof that a person has a record.
+
+```mermaid
+flowchart LR
+    A[Justice Canada<br/>Access to Information Act XML] --> R[Schedule I registry]
+    B[TBS bilingual due dates<br/>and Info Source lists] --> R
+    C[Open Canada organization API<br/>and curated overrides] --> R
+    R --> J[Dated collection jobs<br/>and URL audit]
+    J --> I[EN/FR institution Info Source<br/>HTML, PDF, or supplied files]
+    D[TBS standard PIBs, classes<br/>and category vocabulary] --> X[Normalize and join<br/>bilingual holdings]
+    I --> S[Raw snapshots, converted Markdown<br/>and source manifests]
+    S --> X
+    X --> H[Compiled PIB, class<br/>and PIB-to-class tables]
+    H --> W[Static PIBS explorer<br/>GitHub Pages]
+    H --> F[My Info features, evidence,<br/>questionnaire and retention rules]
+    F --> V1[Original My Info<br/>web survey]
+    F --> MCP[Shared survey engine<br/>MCP tools and voice-capable AI clients]
+    F --> V2[V2 web prototype<br/>and comparison/review pages]
+    R --> W
+    H --> V2
+    R --> V2
+    S --> Q[Collection status, URL audits<br/>and validation reports]
+    F --> Q
+```
+
+1. **Identify institutions and references.** `build_institution_registry.py` saves
+   eight dated raw inputs with URLs, HTTP status, hashes, and byte counts: the
+   Justice Canada Act XML (the authority for Schedule I membership), four
+   Treasury Board EN/FR pages (publication deadlines and central Info Source
+   lists), and three Open Canada API responses (organization directory and two
+   datastore resources). It reconciles names and identifiers, applies
+   `data/institution_registry_overrides.csv`, and writes the bilingual
+   `institution_registry.csv`/`.xlsx` and `site/data/` copy. The TBS and API
+   sources enrich the legal list; they do not define its membership.
+2. **Plan and preserve collection.** `prepare_institution_collection_jobs.py`
+   records the registry hash, stable institution ID, four EN/FR PIB/class URL
+   roles, and snapshot date in `data/collection_jobs/*.jsonl`. The collector
+   stores raw HTML/PDF, converts each role to Markdown, and records redirects,
+   status, content type, checksum, errors, and discovered pages in each
+   `source_manifest.json`. Dated supplemental captures can replace an older
+   publication for extraction without deleting its original capture. A
+   user-supplied file is explicitly identified as such in provenance.
+3. **Extract and integrate.** `rebuild_institution_extractions.py` parses the
+   selected bilingual sources into per-institution PIB and Class-of-Records
+   CSVs. `compile_institution_tables.py` checks snapshot/parser compatibility,
+   joins records to registry IDs, normalizes bilingual keys and PIB types,
+   extracts explicit information-type lists, derives category candidates, and
+   resolves PIB-to-class references. It writes comprehensive tables under
+   `institutions_infosource_docs/` and copies them to `site/data/`. Separate
+   TBS EN/FR scrapers produce the standard PIBs, standard classes, and 25-row
+   personal-information category vocabulary.
+4. **Derive products and publish.** `build_my_info_features.py` combines
+   institution and standard PIBs into one-row-per-PIB features, category
+   assignments, record-level evidence, the bilingual questionnaire, and a
+   coverage summary under `data/derived/my_info/`. The original browser survey
+   is built with `scripts/build_my_info_web.py`; the same V1 state engine is
+   exported for stateless MCP tools used by conversational/voice-capable AI
+   clients. Voice delivery depends on the client: this repository supplies
+   the survey engine and tools, not a speech-recognition or speech-synthesis
+   service. V2 uses its own activity routes and remains a separate review
+   prototype. `build_site_assets.py` prepares the explorer's summary and
+   display datasets. Three queued GitHub Actions workflows publish the main
+   explorer, original survey, and V2/comparison into separate GitHub Pages
+   paths; the voice/MCP endpoint has a separate deployment adapter and is **not**
+   automatically updated by the Pages workflows.
+
+### Per-institution source and extraction layout
+
+The standard Schedule I unit is a stable
+`institutions_infosource_docs/ati-schedule-i-<institution-id>/` directory:
+
+```text
+institutions_infosource_docs/
+├── ati-schedule-i-<institution-id>/          # repeated for each collectable institution
+│   ├── source_manifest.json                  # URLs, status, hashes, parser versions, counts
+│   ├── pibs_en.md                             # selected EN source for PIB extraction
+│   ├── pibs_fr.md                             # selected FR source for PIB extraction
+│   ├── classes_of_records_en.md               # selected EN class source
+│   ├── classes_of_records_fr.md               # selected FR class source
+│   ├── pib_table_en_fr.csv                    # bilingual PIB rows; header even if empty
+│   ├── cor_table_en_fr.csv                    # bilingual class rows; header even if empty
+│   └── snapshots/
+│       ├── <baseline-date>/raw/
+│       │   ├── pibs_en.html|pdf                # one captured file per available role
+│       │   ├── pibs_fr.html|pdf
+│       │   ├── classes_of_records_en.html|pdf
+│       │   └── classes_of_records_fr.html|pdf
+│       └── <later-date>/supplemental/<source-id>/
+│           ├── source.html|pdf                # optional newer or multipart source
+│           └── source.md                      # its converted text
+├── pib_table_en_fr_all.csv                    # compiled across institutions
+├── cor_table_en_fr_all.csv
+└── pib_cor_links.csv
+```
+
+One web page can fill both the PIB and class roles, so role files are not
+necessarily distinct source publications. Some URLs fail or have no extractable
+holdings; those outcomes remain visible in the manifest and trackers. The
+directory currently contains 131 Schedule I folders and 37 older numeric-ID
+folders for non-Schedule-I entries from the broader operational directory;
+the latter are not the canonical Schedule I corpus.
+
+### Logs, audits, and validation
+
+The registry snapshot manifest and per-institution `source_manifest.json` files
+provide URL, timestamp, HTTP, and checksum provenance. The job JSONL is the
+reproducible work plan. `summarize_institution_collection.py` writes dated
+institution-level status CSV and aggregate JSON (`data/collection_jobs/`),
+including collected/error/missing-URL roles, zero-result institutions, and
+error classes. `audit_institution_registry_urls.py` writes dated URL audits in
+`data/audits/`; `audit_zero_pib_infosource_urls.py` produces
+`infosource_zero_pib_url_report.json`. My Info writes per-record derivation
+evidence, readability and match-coverage audits, and V1/V2 routing and
+comparison reports under `data/derived/`, `data/audits/`, and `docs/`.
+`site/data/site_summary.json` is the explorer's dataset/count manifest. These
+are different measures: a successfully fetched page may still yield zero
+records, and a dated status report need not equal a later compiled table.
+
+The checks are layered. `validate_institution_collection.py` verifies job and
+manifest identity, raw-file hashes and sizes, supplemental files, current parser
+versions, and table headers. The compiler rejects missing/stale outputs and
+duplicate canonical keys. `validate_data_model.py` checks primary/foreign keys
+and bilingual controlled-vocabulary references. `validate_my_info_features.py`
+checks one-to-one source/evidence coverage, unique assignments, valid categories,
+route selectors, bilingual examples, and summary counts.
+`validate_my_info_web.py` checks the original survey's generated contract;
+`scripts/validate_my_info_deployment.py` checks V1/V2 path isolation;
+`validate_site.py` checks dataset sizes, required fields, local links, and
+required UI components. The Python `tests/` suite covers the parsers, registry,
+categories, retention, survey engine and builds; Node tests cover V2 routing.
+The three Pages workflows run their relevant build/validation subset, **not**
+the entire extraction and Python test suite on every push. For a full local
+review after changing sources or logic, run the appropriate rebuild commands
+below, then:
+
+```bash
+.venv/bin/python validate_institution_collection.py --jobs-file data/collection_jobs/institution_collection_jobs_2026-08-15.jsonl
+.venv/bin/python validate_data_model.py
+.venv/bin/python validate_my_info_features.py
+.venv/bin/python validate_my_info_web.py
+.venv/bin/python scripts/validate_my_info_deployment.py
+.venv/bin/python validate_site.py
+.venv/bin/python -m unittest discover -s tests
+node --test tests/my_info_v2.test.mjs
+node --check site/app.js
+node --check site/my_info/app.mjs
+node --check site/my_info/engine.mjs
+```
+
+On hosts with snap-confined Chromium, the persona PDF smoke test may be unable
+to write under `/tmp` even when Chromium exits successfully. For that test,
+set `TMPDIR` to a temporary directory inside the checkout; the PDF test passed
+with that setting on the 2026-09-28 verification run.
+
+### Repository and source-volume snapshot
+
+The following are **measured on the tracked files at commit `b4ab25d`
+(2026-09-28, before this documentation change)**. Lines are physical newline
+counts, not executable statements or CSV records; quoted CSV cells may span
+several lines. Binary PDF, DOCX, XLSX, and PNG files have no line count. This
+includes source captures and generated copies, so the total is not a measure
+of hand-written code.
+
+| File type | Tracked files | Physical lines |
+| --- | ---: | ---: |
+| HTML | 606 | 738,442 |
+| Markdown | 711 | 513,844 |
+| JSON | 168 | 203,600 |
+| CSV | 307 | 29,558 |
+| Python | 66 | 16,857 |
+| JavaScript modules (`.mjs`) | 14 | 3,396 |
+| JSONL | 2 | 1,188 |
+| CSS | 6 | 1,102 |
+| JavaScript (`.js`) | 2 | 636 |
+| GitHub Actions YAML (`.yml`) | 4 | 264 |
+| XML / YAML / TXT / extensionless | 43 | 276 |
+| Binary PDF / PNG / XLSX / DOCX | 45 | — |
+| **Total** | **1,974** | **1,509,163** |
+
+The 66 Python files, 16 JavaScript/module files, six CSS files and four
+workflow files account for about **22,255 physical lines** of implementation
+and tests. The remaining text is primarily captured publications, normalized
+records, evidence, documentation, and static output.
+
+| Input or integrated product | Measured volume | Counting rule |
+| --- | ---: | --- |
+| Registry foundation | 8 raw responses | 1 Justice XML, 4 TBS HTML pages, 3 Open Canada API JSON responses; one dated snapshot |
+| Schedule I registry / jobs | 148 institutions / 131 collectable | 17 lacked collection URLs in the dated job plan; Canadian Forces is consolidated under National Defence |
+| Institution Info Source captures | 534 preserved raw copies | 512 HTML and 22 PDF validated for the 131 collectable Schedule I jobs: 380 baseline role files, 102 discovered linked pages and 52 later supplemental captures; repeated PIB/class roles may duplicate one publication |
+| Distinct institution source locations | 313 URLs | Distinct final URLs among those 534 captured copies; 336 distinct SHA-256 payloads, because different captures at one URL can differ |
+| Locally supplied supplemental captures | 2 | Included in the 52 supplements and marked as provided files, not successful live fetches |
+| Separate TBS standard references | 4 live EN/FR pages | 2 standard-PIB/category pages and 2 standard-Class-of-Records pages; scraped outputs contain 49 standard PIBs, 33 standard classes and 25 categories |
+| Current compiled holdings | 991 institution PIBs, 2,371 institution classes, 1,915 PIB-to-class links | Rows in the three comprehensive CSVs; with 49 standard PIBs, My Info's current feature table has 1,040 PIB rows |
+
+The dated collection summary currently records 398 collected roles, 118 errors,
+eight missing URLs and 68 not-applicable roles across 148 jobs; 103 of 131
+collectable institutions had at least one source. This is a **snapshot of
+collection**, not a claim that every publication was valid or that its older
+row totals equal the latest compiled tables. Re-run the summarizer after a
+source refresh before treating its percentages as current.
+
+**Token and effort estimates are not usage logs.** The current preserved
+institution HTML has about 71.2 million Unicode characters (roughly 17.8
+million text-token equivalents at a simple four-characters-per-token rule);
+the eight registry raw responses add about 0.34 million equivalents. The
+converted institution Markdown is about 11.1 million equivalents, and the
+compiled tables, My Info derived files, and entire static site together add
+about 13.0 million more. These layers repeat the same source text and include
+historical copies; PDF binary content is excluded. Across *all* tracked text,
+the repository is on the order of **50–60 million token-equivalents**, not
+50–60 million unique facts or actual AI input/output tokens. Tokenization,
+language, and repeated processing can change real model usage substantially.
+There are no complete per-run model token or active-reasoning-time logs in this
+repository, so actual tokens generated or time spent reasoning cannot be
+recovered defensibly from Git history. As a planning comparison, manually
+reading and checking 313 source locations at 10–30 minutes each (52–157 hours),
+reviewing 1,040 PIBs at 3–10 minutes each (52–173 hours), and integrating and
+QA-ing the bilingual outputs (20–50 hours) would take roughly **125–380 hours
+of focused analysis**, before any substantial manual transcription or web
+development. An average person doing the entire pipeline manually would
+likely need several hundred hours; this is an assumption-based workload range,
+not a measured saving or a claim about historical AI reasoning time.
+
 ## Authoritative institution registry
 
 `institution_registry.csv` is the bilingual registry of the 148 government institutions
