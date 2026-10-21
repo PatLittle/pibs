@@ -231,6 +231,10 @@ def refresh(root=ROOT):
         except Exception as exc:
             meta.update(status='retained_after_error', error=str(exc))
             external_warnings.append(f'oic: {exc}')
+    # Keep legacy summary dates consistent with source-specific freshness.
+    dates = [manifest['disclosures'][kind].get('last_success') for kind in DUMPS]
+    manifest['disclosures']['snapshot_date'] = min(dates) if all(dates) else None
+    manifest['oic_snapshot_date'] = manifest.get('oic', {}).get('last_success')
     manifest['external_last_attempt'] = today.isoformat()
     manifest['external_refresh_warnings'] = external_warnings
     manifest['name_normalization_version'] = VERSION
