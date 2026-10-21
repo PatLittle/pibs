@@ -6,6 +6,7 @@ import io
 import json
 import re
 import unicodedata
+import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date, datetime, timezone
 from pathlib import Path
@@ -16,10 +17,13 @@ from bs4 import BeautifulSoup
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from names import NAME_FIELDS, normalize_record, normalize_name
+
 ROOT = Path(__file__).resolve().parents[1]
 FIELDS = ['name', 'title_en', 'owner_org_title', 'source', 'start_date', 'end_date',
           'source_date', 'date_type', 'source_url', 'appointment_date', 'original_date',
-          'expiry_date', 'appointment_details']
+          'expiry_date', 'appointment_details'] + NAME_FIELDS
 INDEX = 'https://federal-organizations.canada.ca/gindex.php?lang=en&t=1'
 
 
@@ -36,6 +40,7 @@ def iso(value):
 
 
 def key(name):
+    name = normalize_name(name)['name_normalized']
     name = ''.join(c for c in unicodedata.normalize('NFD', name) if not unicodedata.combining(c)).lower()
     if ',' in name:
         family, given = name.split(',', 1)
@@ -198,6 +203,11 @@ def read_csv(path):
 
 
 def save_csv(path, rows):
+    rows = [normalize_record(r) for r in rows]
+    for row in rows:
+        details = json.loads(row.get('appointment_details') or '[]')
+        if details:
+            row['appointment_details'] = json.dumps([normalize_record(a) for a in details], ensure_ascii=False, separators=(',', ':'))
     rows = sorted(rows, key=lambda r: (r['owner_org_title'].casefold(), r['name'].casefold(), r['title_en'].casefold()))
     buffer = io.StringIO(newline='')
     writer = csv.DictWriter(buffer, fieldnames=FIELDS, lineterminator='\n', extrasaction='ignore')
@@ -216,6 +226,11 @@ def refresh(root=ROOT):
     manifest = json.loads(manifest_path.read_text())
     sources = json.loads((root / 'sources.json').read_text())
     accessed = datetime.now(timezone.utc).date().isoformat()
+    # Upgrade retained CSVs too, so failed upstream fetches never leave mixed schemas.
+    for source in sources + [dict(file='appointments.csv')]:
+        path = data_dir / source['file']
+        if path.exists():
+            save_csv(path, read_csv(path))
     errors = []
     for source in sources:
         meta = manifest['sources'][source['id']]

@@ -62,15 +62,45 @@
   "disclosures": {
     "snapshot_date": "2026-08-27",
     "hospitality": {
-      "raw_count": 67852,
-      "unique_count": 4757
+      "raw_count": 68451,
+      "unique_count": 4860,
+      "source_url": "https://open.canada.ca/data/en/datastore/dump/7b301f1a-2a7a-48bd-9ea9-e0ac4a5313ed?format=json",
+      "sha256": "ec9732ddc41df52d0405d1f05efa535d512bac76f5bfe72529cc28b884344a32",
+      "bytes": 32436362,
+      "date_anomaly_count": 3,
+      "latest_observed_date": "2026-10-08",
+      "last_success": "2026-10-21",
+      "status": "current"
     },
     "travel": {
-      "raw_count": 152006,
-      "unique_count": 15151
+      "raw_count": 156029,
+      "unique_count": 15477,
+      "source_url": "https://open.canada.ca/data/en/datastore/dump/8282db2a-878f-475c-af10-ad56aa8fa72c?format=json",
+      "sha256": "bd5bd86175b1c7dff8ad2fd59573e65232eb8a0e6279aceadf754b7f067c1191",
+      "bytes": 83013059,
+      "date_anomaly_count": 9,
+      "latest_observed_date": "2026-09-28",
+      "last_success": "2026-10-21",
+      "status": "current"
     }
   },
   "oic_snapshot_date": "2026-08-27",
   "last_attempt": "2026-10-21",
-  "refresh_warnings": []
+  "refresh_warnings": [],
+  "oic": {
+    "last_success": "2026-10-21",
+    "source_url": "https://raw.githubusercontent.com/PatLittle/oic-data/83f270489152fefbfb098218a2d8d1d11345fe52/processed-csvs/orders.csv",
+    "sha256": "cc16cb2b8460a97d05046799b5a00c35c4b06d1dd4e8ade731735aa489b38195",
+    "bytes": 23963009,
+    "order_count": 67518,
+    "matched_order_count": 6185,
+    "person_key_count": 2431,
+    "latest_order_date": "2026-10-14",
+    "source_commit": "83f270489152fefbfb098218a2d8d1d11345fe52",
+    "status": "current",
+    "match_method": "complete observed normalized name in order precis"
+  },
+  "external_last_attempt": "2026-10-21",
+  "external_refresh_warnings": [],
+  "name_normalization_version": 1
 }

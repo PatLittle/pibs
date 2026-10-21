@@ -23,7 +23,7 @@ jobs:
   refresh-and-deploy:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
         with:
@@ -49,7 +49,7 @@ jobs:
           EVENT_NAME: ${{ github.event_name }}
           BEFORE_SHA: ${{ github.event.before }}
         run: |
-          if [ "$EVENT_NAME" != "push" ] || [ -z "$BEFORE_SHA" ] || [[ "$BEFORE_SHA" =~ ^0+$ ]] || ! git diff --quiet "$BEFORE_SHA" "$GITHUB_SHA" -- gc_snr_officials/scripts/refresh_sources.py gc_snr_officials/sources.json gc_snr_officials/requirements.txt; then
+          if [ "$EVENT_NAME" != "push" ] || [ -z "$BEFORE_SHA" ] || [[ "$BEFORE_SHA" =~ ^0+$ ]] || ! git diff --quiet "$BEFORE_SHA" "$GITHUB_SHA" -- gc_snr_officials/scripts/ gc_snr_officials/sources.json gc_snr_officials/requirements.txt; then
             echo 'needed=true' >> "$GITHUB_OUTPUT"
           else
             echo 'needed=false' >> "$GITHUB_OUTPUT"
@@ -57,15 +57,18 @@ jobs:
       - name: Refresh all eight authority CSVs
         if: steps.refresh.outputs.needed == 'true'
         run: python gc_snr_officials/scripts/refresh_sources.py
+      - name: Refresh travel, hospitality and OIC evidence
+        if: steps.refresh.outputs.needed == 'true'
+        run: python gc_snr_officials/scripts/refresh_external.py
       - name: Validate published data and paths
         run: python gc_snr_officials/scripts/validate.py --require-appointments
-      - name: Commit CSV snapshots and collection status
+      - name: Commit normalized datasets and collection status
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add gc_snr_officials/data/*.csv gc_snr_officials/data/manifest.json
+          git add gc_snr_officials/data/*.csv gc_snr_officials/data/*.json.gz gc_snr_officials/data/manifest.json
           if ! git diff --cached --quiet; then
-            git commit -m 'Refresh senior officials authority CSVs'
+            git commit -m 'Refresh senior officials datasets and normalized names'
             git pull --rebase origin main
             git push origin HEAD:main
           fi

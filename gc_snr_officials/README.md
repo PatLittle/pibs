@@ -23,17 +23,59 @@ remain unknown. The initial migration included designated-role snapshots from Au
 and an October 21, 2026 appointment collection. The Action refreshes all eight
 sources, including TBS definition lists and audit committee tables. Rejected upstream requests do not silently erase good data.
 
-Travel/hospitality combinations and Orders in Council are compressed JSON snapshots
-from August 27, 2026; the authority refresh does not update these. The browser
-retains existing matching, counts, filters, sorting, date windows and detail dialogs.
-The About dialog explains the pipeline and provides CSV links and source status.
+Travel and hospitality are refreshed from the complete DataStore JSON dumps:
+
+- https://open.canada.ca/data/en/datastore/dump/8282db2a-878f-475c-af10-ad56aa8fa72c?format=json
+- https://open.canada.ca/data/en/datastore/dump/7b301f1a-2a7a-48bd-9ea9-e0ac4a5313ed?format=json
+
+The collector streams downloads to temporary disk, then streams records with
+`ijson`. It groups by exact **original** name, English title and organization ID,
+retaining row counts and valid observed date windows. Separate original name
+forms remain separate combinations. Blank-name rows remain in source totals but
+cannot form person entities. Bad dates (non-ISO, before 1900 or more than 366 days
+beyond retrieval) are flagged and excluded from windows, never from row counts.
+
+OIC evidence uses `processed-csvs/orders.csv` from `PatLittle/oic-data`, pinned to
+the upstream main commit at collection time. The Action matches complete observed
+normalized names in order précis text and retains the matched original/normalized
+text, date, PC number, précis and official attachment URLs. This is candidate
+evidence, including mentions of former office holders, not verified appointment
+or identity. Missing matches prove nothing. The index is searched on demand; it
+does not add to observation counts. The collector does not need attachment text,
+SQLite, or individual JSON files.
+
+Each source records its own successful retrieval date, row/combination counts,
+source URL, download SHA-256, and download size in `data/manifest.json`; OIC also
+records its source commit and latest order date. Individual failures retain last
+good data and expose warnings/freshness in About. The compressed JSON snapshots
+and eight CSVs are committed to source control.
+
+## Name fields
+
+All eight authority CSVs, disclosure combinations and OIC matched names retain:
+
+- `name_original`: exact source text, including source order and whitespace.
+- `name_normalized`: given name + middle names/initials + family name for clear
+  comma-separated family-first inputs; existing given-first forms retain order.
+- `name`: compatibility alias for `name_normalized`, used for display/grouping.
+- `name_prefix`, `name_suffix`: recognized honorifics/ranks and suffixes, separated
+  from the presentation name.
+- `name_normalization_method`, `name_normalization_review`: the deterministic
+  conversion and whether interpretation is ambiguous.
+
+Spelling, accents, capitalization, hyphens and initials are preserved. Ambiguous
+multi-comma or single-token inputs are retained and flagged; the scripts do not
+invent missing names or guess comma-free family-first order. All originals remain
+available in the person dialog and search. Normalization occurs in the Action's
+retrieval scripts, not as a browser display transform. Matching confidence is
+separate from presentation normalization. `names.py` owns the shared rules.
 
 ## Refresh and publish
 
 `.github/workflows/gc-snr-officials.yml` runs daily at **08:00 UTC**, on changes to
 this directory/its workflow, and via **Run workflow**. It tests the standalone code,
 collects authority sources with at most six concurrent profile requests, commits
-changed CSVs and the manifest to `main`, and deploys only this app to
+changed CSVs, compressed disclosure/OIC indexes and the manifest to `main`, and deploys only this app to
 `pages/gc_snr_officials`. Publishing occurs in the same workflow because commits
 made with `GITHUB_TOKEN` do not trigger another push workflow.
 
@@ -55,6 +97,7 @@ python -m unittest discover -s gc_snr_officials/tests -p 'test_*.py'
 node --test gc_snr_officials/tests/app.test.mjs
 python gc_snr_officials/scripts/validate.py
 python gc_snr_officials/scripts/refresh_sources.py
+python gc_snr_officials/scripts/refresh_external.py
 python gc_snr_officials/scripts/validate.py --require-appointments
 ```
 

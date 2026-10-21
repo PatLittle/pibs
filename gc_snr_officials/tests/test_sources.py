@@ -53,7 +53,7 @@ class Parsers(unittest.TestCase):
             path = Path(tmp) / 'test.csv'
             r.save_csv(path, [dict(name='Émilie "A", Able', title_en='Director\nChief', owner_org_title='Agency', source='test')])
             row = r.read_csv(path)[0]
-            self.assertEqual(row['name'], 'Émilie "A", Able')
+            self.assertEqual(row['name_original'], 'Émilie "A", Able')
             self.assertEqual(row['title_en'], 'Director\nChief')
 
     def test_refresh_and_retain_last_good(self):
