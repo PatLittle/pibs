@@ -4,6 +4,7 @@ import argparse
 import csv
 import gzip
 import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -33,7 +34,7 @@ def validate(require_appointments=False):
     assert json.loads(gzip.decompress((ROOT / 'data/oic.json.gz').read_bytes()))
     html = (ROOT / 'index.html').read_text()
     js = (ROOT / 'app.js').read_text()
-    assert 'href="./styles.css"' in html and 'src="./app.js"' in html
+    assert 'href="./styles.css"' in html and re.search(r'src="\./app\.js(?:\?[^"]*)?"', html)
     assert '/api/' not in js and 'chatgpt.site' not in js
     assert all((ROOT / p).exists() for p in ['index.html', 'styles.css', 'app.js', 'sources.json'])
     print('Standalone payload, eight CSV schemas, snapshot counts and local paths validated')
