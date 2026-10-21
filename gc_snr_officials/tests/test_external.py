@@ -87,12 +87,12 @@ class Disclosure(unittest.TestCase):
             with path.open('w', newline='') as f:
                 writer = csv.DictWriter(f, fieldnames=['pcNumber', 'date', 'precis', 'attachments'])
                 writer.writeheader()
-                writer.writerow(dict(pcNumber='2026-0001', date='2026-01-01', precis='Appointment of JANE A. SMITH, of Ottawa. Not Jane A. Smithson.', attachments='[123]'))
+                writer.writerow(dict(pcNumber='2026-0001', date='2026-01-01', precis='Appointment of JANE A.\nSMITH, of Ottawa. Not Jane A. Smithson.', attachments='[123]'))
                 writer.writerow(dict(pcNumber='2026-0002', date='2026-01-02', precis='A mention of Jane and an unrelated Smith.', attachments='[]'))
             index, meta = build_oic_index(path, ['Jane A. Smith', 'Jane Smith'])
             self.assertEqual(meta['order_count'], 2)
             self.assertEqual(meta['matched_order_count'], 1)
             self.assertEqual(len(index['jane|smith']), 1)
             evidence = index['jane|smith'][0]
-            self.assertEqual(evidence['matched_names'][0]['name_original'], 'JANE A. SMITH')
+            self.assertEqual(evidence['matched_names'][0]['name_original'], 'JANE A.\nSMITH')
             self.assertEqual(evidence['official_urls'], ['https://orders-in-council.canada.ca/attachment.php?attach=123&lang=en'])

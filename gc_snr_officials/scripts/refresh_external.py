@@ -144,7 +144,7 @@ def build_oic_index(path, names):
         for row in reader:
             total += 1
             latest = max(latest, row['date'])
-            precis = ' '.join((row.get('precis') or '').split())
+            precis = row.get('precis') or ''
             # Token positions preserve original spelling/case for matched-name evidence.
             tokens = []
             for match in re.finditer(r'[^\W_]+', precis, flags=re.UNICODE):

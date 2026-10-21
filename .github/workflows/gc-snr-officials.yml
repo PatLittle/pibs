@@ -49,16 +49,26 @@ jobs:
           EVENT_NAME: ${{ github.event_name }}
           BEFORE_SHA: ${{ github.event.before }}
         run: |
-          if [ "$EVENT_NAME" != "push" ] || [ -z "$BEFORE_SHA" ] || [[ "$BEFORE_SHA" =~ ^0+$ ]] || ! git diff --quiet "$BEFORE_SHA" "$GITHUB_SHA" -- gc_snr_officials/scripts/ gc_snr_officials/sources.json gc_snr_officials/requirements.txt; then
-            echo 'needed=true' >> "$GITHUB_OUTPUT"
+          authority=false
+          external=false
+          if [ "$EVENT_NAME" != "push" ] || [ -z "$BEFORE_SHA" ] || [[ "$BEFORE_SHA" =~ ^0+$ ]]; then
+            authority=true
+            external=true
           else
-            echo 'needed=false' >> "$GITHUB_OUTPUT"
+            if ! git diff --quiet "$BEFORE_SHA" "$GITHUB_SHA" -- gc_snr_officials/scripts/refresh_sources.py gc_snr_officials/scripts/names.py gc_snr_officials/sources.json gc_snr_officials/requirements.txt; then
+              authority=true
+            fi
+            if [ "$authority" = "true" ] || ! git diff --quiet "$BEFORE_SHA" "$GITHUB_SHA" -- gc_snr_officials/scripts/refresh_external.py; then
+              external=true
+            fi
           fi
+          echo "authority=$authority" >> "$GITHUB_OUTPUT"
+          echo "external=$external" >> "$GITHUB_OUTPUT"
       - name: Refresh all eight authority CSVs
-        if: steps.refresh.outputs.needed == 'true'
+        if: steps.refresh.outputs.authority == 'true'
         run: python gc_snr_officials/scripts/refresh_sources.py
       - name: Refresh travel, hospitality and OIC evidence
-        if: steps.refresh.outputs.needed == 'true'
+        if: steps.refresh.outputs.external == 'true'
         run: python gc_snr_officials/scripts/refresh_external.py
       - name: Validate published data and paths
         run: python gc_snr_officials/scripts/validate.py --require-appointments
