@@ -60,7 +60,7 @@
     }
   },
   "disclosures": {
-    "snapshot_date": "2026-08-27",
+    "snapshot_date": "2026-10-21",
     "hospitality": {
       "raw_count": 68451,
       "unique_count": 4860,
@@ -84,7 +84,7 @@
       "status": "current"
     }
   },
-  "oic_snapshot_date": "2026-08-27",
+  "oic_snapshot_date": "2026-10-21",
   "last_attempt": "2026-10-21",
   "refresh_warnings": [],
   "oic": {
