@@ -19,9 +19,9 @@ access dates. Effective/appointment dates remain separate from access dates.
 for each source. Empty/failed scrapes and declines of more than 50% retain the last
 good CSV and produce warnings. Failed appointment profile requests retain prior
 profile details when possible; the manifest lists affected URLs. Unavailable dates
-remain unknown. The initial designated-role CSVs were migrated from the August 27,
-2026 snapshot; the first successful Action fills the appointment CSV and refreshes
-available sources. Rejected upstream requests do not silently erase good data.
+remain unknown. The initial migration included designated-role snapshots from August 27, 2026
+and an October 21, 2026 appointment collection. The Action refreshes all eight
+sources, including TBS definition lists and audit committee tables. Rejected upstream requests do not silently erase good data.
 
 Travel/hospitality combinations and Orders in Council are compressed JSON snapshots
 from August 27, 2026; the authority refresh does not update these. The browser

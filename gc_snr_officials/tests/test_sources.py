@@ -40,6 +40,14 @@ class Parsers(unittest.TestCase):
         self.assertEqual(rows[1]['owner_org_title'], 'Agency')
         self.assertEqual(rows[1]['start_date'], '2022-01-01')
 
+    def test_definition_lists_exclude_date_footer(self):
+        source = json.loads((ROOT / 'sources.json').read_text())[0]
+        html = '<main><dl><dt>Agency</dt><dd>Alice Able<br/>Director</dd><dt>Other</dt><dd>Vacant</dd></dl><dl><dt>Date modified:</dt><dd>2026-10-21</dd></dl></main>'
+        rows = r.parse_roles(html, source, '2026-10-21')
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(rows[0]['name'], 'Alice Able')
+        self.assertEqual(rows[0]['owner_org_title'], 'Agency')
+
     def test_csv_roundtrip(self):
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp) / 'test.csv'

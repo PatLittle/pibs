@@ -110,6 +110,22 @@ def parse_roles(html, source, accessed):
                             source='designated:' + source['id'], start_date=start, end_date=end,
                             source_date=accessed, date_type='effective_range' if start or end else 'accessed',
                             source_url=source['url']))
+    # Six TBS lists publish institution/name pairs as definition lists.
+    # Scope to main content so the WET Date modified footer is never a person.
+    main = soup.find('main') or soup
+    if source['id'] != 'audit-committee':
+        for dl in main.find_all('dl'):
+            for term in dl.find_all('dt', recursive=False):
+                org = text(term)
+                definition = term.find_next_sibling(['dt', 'dd'])
+                if not definition or definition.name != 'dd' or org.lower().startswith('date modified'):
+                    continue
+                lines = [line.strip() for line in definition.get_text('\n', strip=True).splitlines() if line.strip()]
+                name = lines[0] if lines else ''
+                if org and valid_person(name):
+                    out.append(dict(name=name, title_en=source['role'], owner_org_title=org,
+                                    source='designated:' + source['id'], start_date='', end_date='',
+                                    source_date=accessed, date_type='accessed', source_url=source['url']))
     return unique(out)
 
 
