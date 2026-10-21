@@ -40,7 +40,10 @@ made with `GITHUB_TOKEN` do not trigger another push workflow.
 All Pages writers share the existing `pages-branch-deploy` concurrency group.
 The main site's `clean-exclude` list preserves `gc_snr_officials/**`. This app's
 workflow neither builds nor validates the other PIBS sections and publishes only
-its target directory. The Pages source remains the existing `pages` branch.
+its target directory. The Pages source remains the existing `pages` branch. Scheduled/manual runs and
+collector/configuration changes refresh upstream sources; UI-only pushes reuse
+committed data. Queued jobs check out current main so they do not republish stale
+CSVs after another job refreshes them.
 
 ## Local checks
 
