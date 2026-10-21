@@ -75,4 +75,6 @@ jobs:
             my_info/**
             my_info_v2/**
             my_info_compare/**
+            gc_snr_officials/**
           force: false
+

@@ -1,0 +1,72 @@
+name: GC senior officials - refresh CSVs and deploy
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'gc_snr_officials/**'
+      - '.github/workflows/gc-snr-officials.yml'
+  schedule:
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Serialize all writers to the shared Pages branch, matching the other deployers.
+concurrency:
+  group: pages-branch-deploy
+  queue: max
+  cancel-in-progress: false
+
+jobs:
+  refresh-and-deploy:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: gc_snr_officials/requirements.txt
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install standalone collector dependencies
+        run: python -m pip install -r gc_snr_officials/requirements.txt
+      - name: Test parsers and standalone app
+        run: |
+          python -m unittest discover -s gc_snr_officials/tests -p 'test_*.py'
+          node --test gc_snr_officials/tests/app.test.mjs
+      - name: Refresh all eight authority CSVs
+        run: python gc_snr_officials/scripts/refresh_sources.py
+      - name: Validate published data and paths
+        run: python gc_snr_officials/scripts/validate.py --require-appointments
+      - name: Commit CSV snapshots and collection status
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add gc_snr_officials/data/*.csv gc_snr_officials/data/manifest.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh senior officials authority CSVs'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Prepare only the standalone explorer
+        run: |
+          mkdir -p _gc_snr_payload
+          cp gc_snr_officials/index.html gc_snr_officials/app.js gc_snr_officials/styles.css gc_snr_officials/sources.json _gc_snr_payload/
+          cp -r gc_snr_officials/data _gc_snr_payload/data
+          touch _gc_snr_payload/.nojekyll
+      - name: Publish only gc_snr_officials
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: pages
+          folder: _gc_snr_payload
+          target-folder: gc_snr_officials
+          clean: true
+          force: false

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "sdomm",
+    "file": "senior_designated_officials.csv",
+    "role": "Senior designated official",
+    "url": "https://www.tbs-sct.canada.ca/ap/list-liste/sdomm-csdgm-eng.asp"
+  },
+  {
+    "id": "audit-committee",
+    "file": "audit_committee_members.csv",
+    "role": "Departmental audit committee member",
+    "url": "https://www.canada.ca/en/treasury-board-secretariat/services/audit-evaluation/departmental-audit-committees/appointed-members.html"
+  },
+  {
+    "id": "cae",
+    "file": "chief_audit_executives.csv",
+    "role": "Chief audit executive",
+    "url": "https://www.tbs-sct.canada.ca/ap/list-liste/cae-dpv-eng.asp"
+  },
+  {
+    "id": "cfo",
+    "file": "chief_financial_officers.csv",
+    "role": "Chief financial officer",
+    "url": "https://www.tbs-sct.canada.ca/ap/list-liste/cfo-dpf-eng.asp"
+  },
+  {
+    "id": "cio",
+    "file": "chief_information_officers.csv",
+    "role": "Chief information officer",
+    "url": "https://www.tbs-sct.canada.ca/ap/list-liste/cio-dpi-eng.asp"
+  },
+  {
+    "id": "results",
+    "file": "results_officials.csv",
+    "role": "Senior designated official for results",
+    "url": "https://www.tbs-sct.canada.ca/ap/list-liste/sdorp-csdbi-eng.asp"
+  },
+  {
+    "id": "project-management",
+    "file": "project_programme_management_officials.csv",
+    "role": "Senior Designated Official for Project and Programme Management",
+    "url": "https://www.tbs-sct.canada.ca/ap/list-liste/sdoppm-csdgpp-eng.asp"
+  }
+]
