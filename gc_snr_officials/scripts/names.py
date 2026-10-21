@@ -5,7 +5,7 @@ import unicodedata
 VERSION = 1
 NAME_FIELDS = ['name_original', 'name_normalized', 'name_prefix', 'name_suffix',
                'name_normalization_method', 'name_normalization_review']
-PREFIX = re.compile(r'^\s*(\(?(?:Mr\.?|Mrs\.?|Ms\.?|Dr\.?|Hon\.?|The Honourable|The Honorable|Right Honourable|Rt\.? Hon\.?|Senator|Judge|Justice|Mme\.?|MGen|Maj[- ]?Gen|Major[- ]General|LGen|Lt[- ]?Gen|Lieutenant[- ]General|BGen|Brigadier[- ]General|General|Colonel|Col\.?|Lieutenant[- ]Colonel|Lt[- ]?Col|LCol|Lieutenant[- ]Commander|LCdr|Commander|Cdr|Captain|Capt\.?|Major|Maj\.?|Admiral|Vice[- ]Admiral|VAdm|Rear[- ]Admiral|RAdm|Commodore|Cmdre|Commissioner)\)?)(?:\s+|$)', re.I)
+PREFIX = re.compile(r"^\s*(\(?(?:Mr\.?|Mrs\.?|Ms\.?|Dr\.?|Hon\.?|The Honourable|The Honorable|Honourable|Honorable|l['’]honorable|The Right Honourable|Right Honourable|Rt\.? Hon\.?|AADM|ADM|DM|retired|retraité|retraitée|Senator|Judge|Justice|Mme\.?|Lgén|Mgén|Bgén|Lieutenant[- ]général(?:e)?|Major[- ]général(?:e)?|Brigadier[- ]général(?:e)?|Général(?:e)?|Contre[- ]amiral(?:e)?|Vice[- ]amiral(?:e)?|Amiral(?:e)?|MGen|Maj[- ]?Gen|Major[- ]General|LGen|Lt[- ]?Gen|Lieutenant[- ]General|BGen|Brigadier[- ]General|General|Colonel|Col\.?|Lieutenant[- ]Colonel|Lt[- ]?Col|LCol|Lieutenant[- ]Commander|LCdr|Commander|Cdr|Captain|Capt\.?|Major|Maj\.?|Admiral|Vice[- ]Admiral|VAdm|Rear[- ]Admiral|RAdm|Commodore|Cmdre|Commissioner)\)?)(?:\s+|$)", re.I)
 SUFFIX = re.compile(r'^(?:Jr\.?|Sr\.?|II|III|IV|Ph\.?D\.?|KC|QC)$', re.I)
 
 
@@ -13,8 +13,20 @@ def normalize_name(value):
     original = '' if value is None else str(value)
     clean = ' '.join(unicodedata.normalize('NFC', original).split())
     prefixes, suffixes = [], []
+    if re.search(r"minister['’]s office|bureau du ministre", clean, re.I) or clean.casefold() in {'n/a', 'na', 'vacant', 'various', 'redacted', '[redacted]', '-', '~'}:
+        return dict(name='', name_original=original, name_normalized='', name_prefix='', name_suffix='', name_normalization_method='non_person_placeholder', name_normalization_review='true')
     def strip_prefix(part):
         while True:
+            separator = re.match(r'^([;/\\|~\-]+)\s*', part)
+            if separator:
+                prefixes.append(separator[1])
+                part = part[separator.end():].strip()
+                continue
+            trailing = re.search(r'\s+(\([^()]+\))$', part)
+            if trailing and PREFIX.fullmatch(trailing[1]):
+                prefixes.append(trailing[1])
+                part = part[:trailing.start()].strip()
+                continue
             match = PREFIX.match(part)
             if not match:
                 return part.strip()

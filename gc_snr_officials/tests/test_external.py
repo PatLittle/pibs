@@ -23,6 +23,14 @@ class Names(unittest.TestCase):
             'Smith, John, Jr.': 'John Smith',
             'Smith Jr., John A.': 'John A. Smith',
             'Major, David': 'David Major',
+            'Lieutenant-General / Lieutenant-général A. Pelletier': 'A. Pelletier',
+            'LGen | Lgén M.N. Rouleau': 'M.N. Rouleau',
+            'General (retired) Walt Natynczyk': 'Walt Natynczyk',
+            'Kurtz, M.T.J. (RAdm)': 'M.T.J. Kurtz',
+            'Beach-Vaive, - Sophie': 'Sophie Beach-Vaive',
+            ';Michael Bailey': 'Michael Bailey',
+            'Honourable Helena Jaczek': 'Helena Jaczek',
+            'AADM Marie Doyle': 'Marie Doyle',
             'M. Jean Smith': 'M. Jean Smith',
             'Émilie McDonald': 'Émilie McDonald',
         }
@@ -36,6 +44,7 @@ class Names(unittest.TestCase):
         self.assertEqual(normalize_name('Smith, John, Jr.')['name_suffix'], 'Jr.')
         self.assertEqual(normalize_name('Smith, John, Jane')['name_normalization_review'], 'true')
         self.assertEqual(normalize_name(None)['name'], '')
+        self.assertEqual(normalize_name("Minister's Office / Bureau du ministre, ~")['name_normalization_method'], 'non_person_placeholder')
         self.assertEqual(person_key('Jane Smith-Jones'), 'jane|smith-jones')
 
 

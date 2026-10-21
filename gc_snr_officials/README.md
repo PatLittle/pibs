@@ -67,7 +67,8 @@ Spelling, accents, capitalization, hyphens and initials are preserved. Ambiguous
 multi-comma or single-token inputs are retained and flagged; the scripts do not
 invent missing names or guess comma-free family-first order. All originals remain
 available in the person dialog and search. Normalization occurs in the Action's
-retrieval scripts, not as a browser display transform. Matching confidence is
+retrieval scripts, not as a browser display transform. Known office/redaction placeholders retain their original text but have an empty
+presentation name and do not form person candidates. Matching confidence is
 separate from presentation normalization. `names.py` owns the shared rules.
 
 ## Refresh and publish
