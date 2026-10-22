@@ -4,63 +4,63 @@
       "file": "senior_designated_officials.csv",
       "url": "https://www.tbs-sct.canada.ca/ap/list-liste/sdomm-csdgm-eng.asp",
       "row_count": 93,
-      "last_success": "2026-10-21",
+      "last_success": "2026-10-22",
       "status": "current"
     },
     "audit-committee": {
       "file": "audit_committee_members.csv",
       "url": "https://www.canada.ca/en/treasury-board-secretariat/services/audit-evaluation/departmental-audit-committees/appointed-members.html",
       "row_count": 144,
-      "last_success": "2026-10-21",
+      "last_success": "2026-10-22",
       "status": "current"
     },
     "cae": {
       "file": "chief_audit_executives.csv",
       "url": "https://www.tbs-sct.canada.ca/ap/list-liste/cae-dpv-eng.asp",
       "row_count": 51,
-      "last_success": "2026-10-21",
+      "last_success": "2026-10-22",
       "status": "current"
     },
     "cfo": {
       "file": "chief_financial_officers.csv",
       "url": "https://www.tbs-sct.canada.ca/ap/list-liste/cfo-dpf-eng.asp",
       "row_count": 107,
-      "last_success": "2026-10-21",
+      "last_success": "2026-10-22",
       "status": "current"
     },
     "cio": {
       "file": "chief_information_officers.csv",
       "url": "https://www.tbs-sct.canada.ca/ap/list-liste/cio-dpi-eng.asp",
       "row_count": 85,
-      "last_success": "2026-10-21",
+      "last_success": "2026-10-22",
       "status": "current"
     },
     "results": {
       "file": "results_officials.csv",
       "url": "https://www.tbs-sct.canada.ca/ap/list-liste/sdorp-csdbi-eng.asp",
       "row_count": 27,
-      "last_success": "2026-10-21",
+      "last_success": "2026-10-22",
       "status": "current"
     },
     "project-management": {
       "file": "project_programme_management_officials.csv",
       "url": "https://www.tbs-sct.canada.ca/ap/list-liste/sdoppm-csdgpp-eng.asp",
       "row_count": 90,
-      "last_success": "2026-10-21",
+      "last_success": "2026-10-22",
       "status": "current"
     },
     "appointments": {
       "file": "appointments.csv",
       "url": "https://federal-organizations.canada.ca/gindex.php?lang=en&t=1",
       "row_count": 1419,
-      "last_success": "2026-10-21",
+      "last_success": "2026-10-22",
       "status": "current",
       "profile_count": 193,
       "profile_failures": []
     }
   },
   "disclosures": {
-    "snapshot_date": "2026-10-21",
+    "snapshot_date": "2026-10-22",
     "hospitality": {
       "raw_count": 68451,
       "unique_count": 4860,
@@ -69,7 +69,7 @@
       "bytes": 32436362,
       "date_anomaly_count": 3,
       "latest_observed_date": "2026-10-08",
-      "last_success": "2026-10-21",
+      "last_success": "2026-10-22",
       "status": "current"
     },
     "travel": {
@@ -80,27 +80,39 @@
       "bytes": 83013059,
       "date_anomaly_count": 9,
       "latest_observed_date": "2026-09-28",
-      "last_success": "2026-10-21",
+      "last_success": "2026-10-22",
       "status": "current"
     }
   },
-  "oic_snapshot_date": "2026-10-21",
-  "last_attempt": "2026-10-21",
+  "oic_snapshot_date": "2026-10-22",
+  "last_attempt": "2026-10-22",
   "refresh_warnings": [],
   "oic": {
-    "last_success": "2026-10-21",
-    "source_url": "https://raw.githubusercontent.com/PatLittle/oic-data/83f270489152fefbfb098218a2d8d1d11345fe52/processed-csvs/orders.csv",
-    "sha256": "cc16cb2b8460a97d05046799b5a00c35c4b06d1dd4e8ade731735aa489b38195",
-    "bytes": 23963009,
-    "order_count": 67518,
-    "matched_order_count": 6182,
+    "last_success": "2026-10-22",
+    "source_url": "https://raw.githubusercontent.com/PatLittle/oic-data/d533315b37558017a85139aeeb95a6bc5e5ee999/processed-csvs/orders.csv",
+    "sha256": "ed9fa968626b7af2d922a69515bfbfc080584156c224ba75a3e04a27b1cf33e1",
+    "bytes": 23968241,
+    "order_count": 67530,
+    "matched_order_count": 6185,
     "person_key_count": 2430,
-    "latest_order_date": "2026-10-14",
-    "source_commit": "83f270489152fefbfb098218a2d8d1d11345fe52",
+    "latest_order_date": "2026-10-15",
+    "source_commit": "d533315b37558017a85139aeeb95a6bc5e5ee999",
     "status": "current",
     "match_method": "complete observed normalized name in order precis"
   },
-  "external_last_attempt": "2026-10-21",
+  "external_last_attempt": "2026-10-22",
   "external_refresh_warnings": [],
-  "name_normalization_version": 2
+  "name_normalization_version": 3,
+  "nicknames": {
+    "status": "current",
+    "last_success": "2026-10-22",
+    "url": "https://raw.githubusercontent.com/carltonnorthern/nicknames/master/names.csv",
+    "sha256": "e6a4e5a55ca5b47a4146dbc118f26c71c63053d4b79ca9659de8e74efb65847e",
+    "relationship_rows": 2827
+  },
+  "identity_matching": {
+    "version": 1,
+    "pairs": 198,
+    "method": "Pairwise nickname candidates with institution, role, middle-name and event-window evidence; no automatic merges"
+  }
 }
