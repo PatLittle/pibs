@@ -28,7 +28,7 @@ def validate(require_appointments=False):
         if require_appointments or source['id'] != 'appointments':
             assert rows, source['file']
         for row in rows:
-            assert row['name'] == row['name_normalized']
+            assert row['name'] == re.sub(r'[,\.\s]', '', row['name_normalized'])
             assert normalize_name(row['name_original'])['name_normalized'] == row['name_normalized']
             assert row['name'] and row['owner_org_title'] != 'Date modified:'
             json.loads(row.get('appointment_details') or '[]')
@@ -37,13 +37,16 @@ def validate(require_appointments=False):
         meta = manifest['disclosures'][kind]
         assert len(records) == meta['unique_count']
         assert sum(r['record_count'] for r in records) == meta['raw_count']
-        assert all(set(NAME_FIELDS) <= set(r) and r['name'] == r['name_normalized'] for r in records)
+        assert all(set(NAME_FIELDS) <= set(r) and r['name'] == re.sub(r'[,\.\s]', '', r['name_normalized']) for r in records)
         assert all(normalize_name(r['name_original'])['name_normalized'] == r['name_normalized'] for r in records)
     index = json.loads(gzip.decompress((ROOT / 'data/oic.json.gz').read_bytes()))
     assert index
     if manifest.get('oic', {}).get('status') == 'current':
         assert all(row.get('matched_names') for rows in index.values() for row in rows)
         assert all(set(NAME_FIELDS) <= set(n) for rows in index.values() for row in rows for n in row['matched_names'])
+    matches = json.loads(gzip.decompress((ROOT / 'data/matches.json.gz').read_bytes()))
+    assert len(matches['links']) == manifest['identity_matching']['pairs']
+    assert all(0 <= l['score'] <= 95 and l['a'] != l['b'] and l['reasons'] and len(l['evidence']) == 2 for l in matches['links'])
     html = (ROOT / 'index.html').read_text()
     js = (ROOT / 'app.js').read_text()
     assert 'href="./styles.css"' in html and re.search(r'src="\./app\.js(?:\?[^"]*)?"', html)

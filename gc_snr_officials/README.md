@@ -107,3 +107,10 @@ The tests run offline, covering source schemas, appointment dates, row spans,
 failed-source retention, CSV quoting, all sort directions, data totals, local asset
 paths, and dialog/OIC behaviour. The collector is the only command requiring live
 source access. A first publication requires a nonempty appointments CSV.
+
+
+Names and identity candidates
+-----------------------------
+`name` removes commas, periods and Unicode whitespace from the human-readable `name_normalized`; `name_original` retains the exact source. Normalization is done by the collectors and `scripts/build_matches.py`, including last-good datasets. Run the latter after the collectors (or offline to rebuild from committed data).
+
+The daily Action refreshes the Apache-2.0 carltonnorthern/nicknames lookup, retains its last-good version on errors, records its SHA-256 and builds `data/matches.json.gz`. `data/nickname-supplements.csv` explicitly records the user-provided Alexandre/Alex relation. Direct nickname pairs or shared canonical names within a family-name-token block receive explainable scores from institution, role, middle-name and event-window evidence. See About for weights and limitations. These links are pairwise review candidates; no transitive identity merging or observation-count duplication occurs. The original consistency score remains separate from identity likelihood.

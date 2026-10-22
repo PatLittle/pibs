@@ -2,7 +2,7 @@
 import re
 import unicodedata
 
-VERSION = 2
+VERSION = 3
 NAME_FIELDS = ['name_original', 'name_normalized', 'name_prefix', 'name_suffix',
                'name_normalization_method', 'name_normalization_review']
 PREFIX = re.compile(r"^\s*(\(?(?:Mr\.?|Mrs\.?|Ms\.?|Dr\.?|Hon\.?|The Honourable|The Honorable|Honourable|Honorable|l['’]honorable|The Right Honourable|Right Honourable|Rt\.? Hon\.?|AADM|ADM|DM|retired|retraité|retraitée|Senator|Judge|Justice|Mme\.?|Lgén|Mgén|Bgén|Lieutenant[- ]général(?:e)?|Major[- ]général(?:e)?|Brigadier[- ]général(?:e)?|Général(?:e)?|Contre[- ]amiral(?:e)?|Vice[- ]amiral(?:e)?|Amiral(?:e)?|MGen|Maj[- ]?Gen|Major[- ]General|LGen|Lt[- ]?Gen|Lieutenant[- ]General|BGen|Brigadier[- ]General|General|Colonel|Col\.?|Lieutenant[- ]Colonel|Lt[- ]?Col|LCol|Lieutenant[- ]Commander|LCdr|Commander|Cdr|Captain|Capt\.?|Major|Maj\.?|Admiral|Vice[- ]Admiral|VAdm|Rear[- ]Admiral|RAdm|Commodore|Cmdre|Commissioner)\)?)(?:\s+|$)", re.I)
@@ -60,7 +60,7 @@ def normalize_name(value):
         method = 'empty'
     elif len(normalized.split()) < 2:
         review = True
-    return dict(name=normalized, name_original=original, name_normalized=normalized,
+    return dict(name=re.sub(r"[,\.\s]", "", normalized), name_original=original, name_normalized=normalized,
                 name_prefix='; '.join(prefixes), name_suffix='; '.join(suffixes),
                 name_normalization_method=method, name_normalization_review='true' if review else 'false')
 

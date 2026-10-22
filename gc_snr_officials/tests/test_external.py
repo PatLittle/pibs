@@ -63,7 +63,7 @@ class Disclosure(unittest.TestCase):
             self.assertEqual(meta['unique_count'], 3)
             self.assertEqual(meta['date_anomaly_count'], 2)
             original = next(r for r in rows if r['name_original'] == 'Smith, Jane A.')
-            self.assertEqual(original['name'], 'Jane A. Smith')
+            self.assertEqual(original['name'], 'JaneASmith')
             self.assertEqual(original['record_count'], 2)
             self.assertEqual(original['observed_to'], '2020-01-03')
             path.write_text(json.dumps(dict(fields=[dict(id=f) for f in fields], records=[dict(zip(fields, records[0]))])))

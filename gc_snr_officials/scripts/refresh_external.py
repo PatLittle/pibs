@@ -118,10 +118,10 @@ def names_from_data(root):
     for path in (root / 'data').glob('*.csv'):
         with path.open(encoding='utf-8-sig', newline='') as f:
             for row in csv.DictReader(f):
-                names.add(row.get('name_normalized') or normalize_name(row.get('name', ''))['name'])
+                names.add(row.get('name_normalized') or normalize_name(row.get('name', ''))['name_normalized'])
     for kind in DUMPS:
         records = json.loads(gzip.decompress((root / 'data' / (kind + '.json.gz')).read_bytes()))
-        names.update(r.get('name_normalized') or normalize_name(r.get('name', ''))['name'] for r in records)
+        names.update(r.get('name_normalized') or normalize_name(r.get('name', ''))['name_normalized'] for r in records)
     return sorted(n for n in names if len(match_text(n).split()) >= 2)
 
 
