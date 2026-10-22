@@ -32,6 +32,35 @@ class Parsers(unittest.TestCase):
         self.assertEqual(row['expiry_date'], '2029-01-01')
         self.assertEqual(r.iso('2026-02-30'), '')
 
+    def test_sst_unclosed_captions_repeat_role_without_other_appointees(self):
+        html = (ROOT / 'tests/fixtures/sst-appointments.html').read_text()
+        rows = r.parse_profile(html)
+        self.assertEqual(len(rows), 59)
+        people = {row['name']: row for row in rows}
+        self.assertEqual(len(people), len(rows))
+        role = 'Part-time Member (General Division - Employment Insurance Section) (GCQ-2)'
+        self.assertEqual(people['Picotte, Adam Thomas'], dict(
+            name='Picotte, Adam Thomas', title=role, appointment_date='2026-02-01',
+            original_date='2026-02-01', expiry_date='2028-01-31'))
+        self.assertEqual(people['Dhaliwal, Ranjit Singh']['title'], role)
+        self.assertEqual(people['Dhaliwal, Ranjit Singh']['original_date'], '2023-05-15')
+        self.assertEqual(people['Netten, Shirley Lynn']['title'], 'Chairperson and Member (GCQ-7)')
+        self.assertEqual(people['Nawaz, Neil Parvaiz']['original_date'], '2016-04-01')
+        self.assertEqual(people['Nawaz, Neil Parvaiz']['appointment_date'], '2021-12-17')
+        for row in rows:
+            self.assertNotIn('YYYY-MM-DD', row['title'])
+            self.assertNotIn('Appointment', row['title'])
+            self.assertFalse(any(name in row['title'] for name in people))
+
+    def test_unclosed_caption_without_thead_and_separate_tables(self):
+        html = '''<table><caption>Member (<span><a>GCQ-2</a>)
+        <tr><th>Name</th><th>Current appointment date</th></tr>
+        <tr><td>Able, Alice</td><td>2020-01-01</td></tr>
+        <tr><td>Baker, Bob</td><td>2021-02-02</td></tr></table>''' + PROFILE
+        rows = r.parse_profile(html)
+        self.assertEqual([row['title'] for row in rows], ['Member (GCQ-2)', 'Member (GCQ-2)', 'Chair'])
+        self.assertEqual([row['appointment_date'] for row in rows], ['2020-01-01', '2021-02-02', '2026-01-01'])
+
     def test_roles_and_audit_rowspans(self):
         sources = json.loads((ROOT / 'sources.json').read_text())
         self.assertEqual(r.parse_roles(ROLE, sources[0], '2026-10-21')[0]['name'], 'Alice Able')

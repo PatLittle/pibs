@@ -151,12 +151,31 @@ def parse_index(html, accessed):
     return unique(out)
 
 
+def profile_caption(table):
+    """Read only the role label, even when the source omits </span></caption>.
+
+    html.parser can put the whole table inside an unclosed caption. Stop at
+    the first row/container rather than attributing every appointee to a role.
+    Inline remuneration links remain part of the caption.
+    """
+    caption = table.find('caption')
+    if not caption or caption.find_parent('table') is not table:
+        return ''
+    fragments = []
+    for node in caption.descendants:
+        if node.name in {'thead', 'tbody', 'tfoot', 'tr', 'th', 'td', 'table', 'caption'}:
+            break
+        if isinstance(node, str):
+            fragments.append(node)
+    return ' '.join(''.join(fragments).split())
+
+
 def parse_profile(html):
     soup = BeautifulSoup(html, 'html.parser')
     out = []
     for table in soup.find_all('table'):
         heading = table.find_previous(['h2', 'h3', 'h4', 'h5', 'h6'])
-        title = text(table.find('caption')) or text(heading) or 'Governor in Council appointee'
+        title = profile_caption(table) or text(heading) or 'Governor in Council appointee'
         headers = []
         for values in grid(table):
             if 'Name' in values:
