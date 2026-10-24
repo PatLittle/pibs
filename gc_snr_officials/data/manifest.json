@@ -4,113 +4,108 @@
       "file": "senior_designated_officials.csv",
       "url": "https://www.tbs-sct.canada.ca/ap/list-liste/sdomm-csdgm-eng.asp",
       "row_count": 93,
-      "last_success": "2026-10-23",
+      "last_success": "2026-10-24",
       "status": "current"
     },
     "audit-committee": {
       "file": "audit_committee_members.csv",
       "url": "https://www.canada.ca/en/treasury-board-secretariat/services/audit-evaluation/departmental-audit-committees/appointed-members.html",
       "row_count": 144,
-      "last_success": "2026-10-23",
+      "last_success": "2026-10-24",
       "status": "current"
     },
     "cae": {
       "file": "chief_audit_executives.csv",
       "url": "https://www.tbs-sct.canada.ca/ap/list-liste/cae-dpv-eng.asp",
-      "row_count": 52,
-      "last_success": "2026-10-23",
+      "row_count": 53,
+      "last_success": "2026-10-24",
       "status": "current"
     },
     "cfo": {
       "file": "chief_financial_officers.csv",
       "url": "https://www.tbs-sct.canada.ca/ap/list-liste/cfo-dpf-eng.asp",
       "row_count": 107,
-      "last_success": "2026-10-23",
+      "last_success": "2026-10-24",
       "status": "current"
     },
     "cio": {
       "file": "chief_information_officers.csv",
       "url": "https://www.tbs-sct.canada.ca/ap/list-liste/cio-dpi-eng.asp",
       "row_count": 85,
-      "last_success": "2026-10-23",
+      "last_success": "2026-10-24",
       "status": "current"
     },
     "results": {
       "file": "results_officials.csv",
       "url": "https://www.tbs-sct.canada.ca/ap/list-liste/sdorp-csdbi-eng.asp",
       "row_count": 27,
-      "last_success": "2026-10-23",
+      "last_success": "2026-10-24",
       "status": "current"
     },
     "project-management": {
       "file": "project_programme_management_officials.csv",
       "url": "https://www.tbs-sct.canada.ca/ap/list-liste/sdoppm-csdgpp-eng.asp",
       "row_count": 90,
-      "last_success": "2026-10-23",
+      "last_success": "2026-10-24",
       "status": "current"
     },
     "appointments": {
       "file": "appointments.csv",
       "url": "https://federal-organizations.canada.ca/gindex.php?lang=en&t=1",
       "row_count": 1424,
-      "last_success": "2026-10-23",
+      "last_success": "2026-10-24",
       "status": "current",
-      "profile_count": 193,
+      "profile_count": 194,
       "profile_failures": []
     }
   },
   "disclosures": {
-    "snapshot_date": "2026-10-22",
+    "snapshot_date": "2026-10-24",
     "hospitality": {
-      "raw_count": 68451,
-      "unique_count": 4860,
+      "raw_count": 68477,
+      "unique_count": 4864,
       "source_url": "https://open.canada.ca/data/en/datastore/dump/7b301f1a-2a7a-48bd-9ea9-e0ac4a5313ed?format=json",
-      "sha256": "ec9732ddc41df52d0405d1f05efa535d512bac76f5bfe72529cc28b884344a32",
-      "bytes": 32436362,
+      "sha256": "b7c8f4ed198759c0b96773691a83e81d7cb5e0b8c8981c5be19c53b260752e56",
+      "bytes": 32448996,
       "date_anomaly_count": 3,
-      "latest_observed_date": "2026-10-08",
-      "last_success": "2026-10-22",
-      "status": "retained_after_error",
-      "error": "HTTPSConnectionPool(host='open.canada.ca', port=443): Max retries exceeded with url: /data/en/datastore/dump/7b301f1a-2a7a-48bd-9ea9-e0ac4a5313ed?format=json (Caused by ResponseError('too many 504 error responses'))"
+      "latest_observed_date": "2026-10-22",
+      "last_success": "2026-10-24",
+      "status": "current"
     },
     "travel": {
-      "raw_count": 156029,
-      "unique_count": 15477,
+      "raw_count": 156165,
+      "unique_count": 15489,
       "source_url": "https://open.canada.ca/data/en/datastore/dump/8282db2a-878f-475c-af10-ad56aa8fa72c?format=json",
-      "sha256": "bd5bd86175b1c7dff8ad2fd59573e65232eb8a0e6279aceadf754b7f067c1191",
-      "bytes": 83013059,
+      "sha256": "427b3b4af986fad86e7288b6d504bce9d5093370df990db99a4bc61fa3ac1c64",
+      "bytes": 83079369,
       "date_anomaly_count": 9,
-      "latest_observed_date": "2026-09-28",
-      "last_success": "2026-10-22",
-      "status": "retained_after_error",
-      "error": "HTTPSConnectionPool(host='open.canada.ca', port=443): Max retries exceeded with url: /data/en/datastore/dump/8282db2a-878f-475c-af10-ad56aa8fa72c?format=json (Caused by ResponseError('too many 504 error responses'))"
+      "latest_observed_date": "2026-09-30",
+      "last_success": "2026-10-24",
+      "status": "current"
     }
   },
-  "oic_snapshot_date": "2026-10-23",
-  "last_attempt": "2026-10-23",
+  "oic_snapshot_date": "2026-10-24",
+  "last_attempt": "2026-10-24",
   "refresh_warnings": [],
   "oic": {
-    "last_success": "2026-10-23",
-    "source_url": "https://raw.githubusercontent.com/PatLittle/oic-data/5f245dce7c95ed3cf78a3f703fd67913e04dde6b/processed-csvs/orders.csv",
+    "last_success": "2026-10-24",
+    "source_url": "https://raw.githubusercontent.com/PatLittle/oic-data/d2caf1674a7709bee5135f41bf62e0f1e09ebb93/processed-csvs/orders.csv",
     "sha256": "ed9fa968626b7af2d922a69515bfbfc080584156c224ba75a3e04a27b1cf33e1",
     "bytes": 23968241,
     "order_count": 67530,
-    "matched_order_count": 6191,
-    "person_key_count": 2435,
+    "matched_order_count": 6188,
+    "person_key_count": 2434,
     "latest_order_date": "2026-10-15",
-    "source_commit": "5f245dce7c95ed3cf78a3f703fd67913e04dde6b",
+    "source_commit": "d2caf1674a7709bee5135f41bf62e0f1e09ebb93",
     "status": "current",
     "match_method": "complete observed normalized name in order precis"
   },
-  "external_last_attempt": "2026-10-23",
-  "external_refresh_warnings": [
-    "travel: HTTPSConnectionPool(host='open.canada.ca', port=443): Max retries exceeded with url: /data/en/datastore/dump/8282db2a-878f-475c-af10-ad56aa8fa72c?format=json (Caused by ResponseError('too many 504 error responses'))",
-    "hospitality: HTTPSConnectionPool(host='open.canada.ca', port=443): Max retries exceeded with url: /data/en/datastore/dump/7b301f1a-2a7a-48bd-9ea9-e0ac4a5313ed?format=json (Caused by ResponseError('too many 504 error responses'))"
-  ],
+  "external_last_attempt": "2026-10-24",
+  "external_refresh_warnings": [],
   "name_normalization_version": 3,
   "nicknames": {
     "status": "current",
-    "last_success": "2026-10-23",
+    "last_success": "2026-10-24",
     "url": "https://raw.githubusercontent.com/carltonnorthern/nicknames/master/names.csv",
     "sha256": "e6a4e5a55ca5b47a4146dbc118f26c71c63053d4b79ca9659de8e74efb65847e",
     "relationship_rows": 2827
