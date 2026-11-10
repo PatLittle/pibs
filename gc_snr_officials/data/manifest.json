@@ -4,63 +4,63 @@
       "file": "senior_designated_officials.csv",
       "url": "https://www.tbs-sct.canada.ca/ap/list-liste/sdomm-csdgm-eng.asp",
       "row_count": 93,
-      "last_success": "2026-11-09",
+      "last_success": "2026-11-10",
       "status": "current"
     },
     "audit-committee": {
       "file": "audit_committee_members.csv",
       "url": "https://www.canada.ca/en/treasury-board-secretariat/services/audit-evaluation/departmental-audit-committees/appointed-members.html",
       "row_count": 145,
-      "last_success": "2026-11-09",
+      "last_success": "2026-11-10",
       "status": "current"
     },
     "cae": {
       "file": "chief_audit_executives.csv",
       "url": "https://www.tbs-sct.canada.ca/ap/list-liste/cae-dpv-eng.asp",
       "row_count": 52,
-      "last_success": "2026-11-09",
+      "last_success": "2026-11-10",
       "status": "current"
     },
     "cfo": {
       "file": "chief_financial_officers.csv",
       "url": "https://www.tbs-sct.canada.ca/ap/list-liste/cfo-dpf-eng.asp",
       "row_count": 107,
-      "last_success": "2026-11-09",
+      "last_success": "2026-11-10",
       "status": "current"
     },
     "cio": {
       "file": "chief_information_officers.csv",
       "url": "https://www.tbs-sct.canada.ca/ap/list-liste/cio-dpi-eng.asp",
       "row_count": 85,
-      "last_success": "2026-11-09",
+      "last_success": "2026-11-10",
       "status": "current"
     },
     "results": {
       "file": "results_officials.csv",
       "url": "https://www.tbs-sct.canada.ca/ap/list-liste/sdorp-csdbi-eng.asp",
       "row_count": 27,
-      "last_success": "2026-11-09",
+      "last_success": "2026-11-10",
       "status": "current"
     },
     "project-management": {
       "file": "project_programme_management_officials.csv",
       "url": "https://www.tbs-sct.canada.ca/ap/list-liste/sdoppm-csdgpp-eng.asp",
       "row_count": 90,
-      "last_success": "2026-11-09",
+      "last_success": "2026-11-10",
       "status": "current"
     },
     "appointments": {
       "file": "appointments.csv",
       "url": "https://federal-organizations.canada.ca/gindex.php?lang=en&t=1",
       "row_count": 1439,
-      "last_success": "2026-11-09",
+      "last_success": "2026-11-10",
       "status": "current",
       "profile_count": 195,
       "profile_failures": []
     }
   },
   "disclosures": {
-    "snapshot_date": "2026-11-09",
+    "snapshot_date": "2026-11-10",
     "hospitality": {
       "raw_count": 68688,
       "unique_count": 4887,
@@ -69,23 +69,23 @@
       "bytes": 32552282,
       "date_anomaly_count": 3,
       "latest_observed_date": "2026-11-05",
-      "last_success": "2026-11-09",
+      "last_success": "2026-11-10",
       "status": "current"
     },
     "travel": {
-      "raw_count": 157119,
-      "unique_count": 15587,
+      "raw_count": 157127,
+      "unique_count": 15588,
       "source_url": "https://open.canada.ca/data/en/datastore/dump/8282db2a-878f-475c-af10-ad56aa8fa72c?format=json",
-      "sha256": "6e945cae765d315942fe88a0b4af877258adb3c29286662163a23194788c4f02",
-      "bytes": 83630439,
+      "sha256": "7c818a82efc0931d186686adb9021a7e722bb7b26825bc32e13a7bf5ce910b36",
+      "bytes": 83634244,
       "date_anomaly_count": 13,
       "latest_observed_date": "2026-10-22",
-      "last_success": "2026-11-09",
+      "last_success": "2026-11-10",
       "status": "current"
     }
   },
   "oic_snapshot_date": "2026-11-09",
-  "last_attempt": "2026-11-09",
+  "last_attempt": "2026-11-10",
   "refresh_warnings": [],
   "oic": {
     "last_success": "2026-11-09",
@@ -97,15 +97,18 @@
     "person_key_count": 2459,
     "latest_order_date": "2026-10-30",
     "source_commit": "6e65c143bed0f04d68019a220a2cf7e9d872e679",
-    "status": "current",
-    "match_method": "complete observed normalized name in order precis"
+    "status": "retained_after_error",
+    "match_method": "complete observed normalized name in order precis",
+    "error": "422 Client Error: Unprocessable Entity for url: https://api.github.com/repos/PatLittle/oic-data/commits/main"
   },
-  "external_last_attempt": "2026-11-09",
-  "external_refresh_warnings": [],
+  "external_last_attempt": "2026-11-10",
+  "external_refresh_warnings": [
+    "oic: 422 Client Error: Unprocessable Entity for url: https://api.github.com/repos/PatLittle/oic-data/commits/main"
+  ],
   "name_normalization_version": 3,
   "nicknames": {
     "status": "current",
-    "last_success": "2026-11-09",
+    "last_success": "2026-11-10",
     "url": "https://raw.githubusercontent.com/carltonnorthern/nicknames/master/names.csv",
     "sha256": "e6a4e5a55ca5b47a4146dbc118f26c71c63053d4b79ca9659de8e74efb65847e",
     "relationship_rows": 2827
