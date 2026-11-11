@@ -1,0 +1,555 @@
+* [Passer au contenu principal](#wb-cont)
+* [Passer à Au sujet du gouvernement](#wb-info)
+
+## Sélection de la langue
+
+* [Englishen](/atip-aiprp/infosource-fra.php)
+
+[![Gouvernement du Canada](/theme-wet10/GCWeb/assets/sig-blk-en.svg) / Government of Canada](https://www.canada.ca/fr.html)
+
+## Recherche
+
+Recherche sur le site de CANAFE
+
+Recherche
+
+## Menu
+
+Menu principal
+
+* [Emplois et milieu de travail](https://www.canada.ca/fr/services/emplois.html)
+* [Immigration et citoyenneté](https://www.canada.ca/fr/services/immigration-citoyennete.html)
+* [Voyage et tourisme](https://voyage.gc.ca/)
+* [Entreprises et industrie](https://www.canada.ca/fr/services/entreprises.html)
+* [Prestations](https://www.canada.ca/fr/services/prestations.html)
+* [Santé](https://www.canada.ca/fr/services/sante.html)
+* [Impôts](https://www.canada.ca/fr/services/impots.html)
+* [Environnement et ressources naturelles](https://www.canada.ca/fr/services/environnement.html)
+* [Sécurité nationale et défense](https://www.canada.ca/fr/services/defense.html)
+* [Culture, histoire et sport](https://www.canada.ca/fr/services/culture.html)
+* [Services de police, justice et urgences](https://www.canada.ca/fr/services/police.html)
+* [Transport et infrastructure](https://www.canada.ca/fr/services/transport.html)
+* [Canada et le monde](https://international.gc.ca/world-monde/index.aspx?lang=fra)
+* [Argent et finances](https://www.canada.ca/fr/services/finance.html)
+* [Science et innovation](https://www.canada.ca/fr/services/science.html)
+
+## Vous êtes ici :
+
+1. [Canada.ca](https://www.canada.ca/fr.html)
+2. [CANAFE](/intro-fra)
+3. [Transparence](/transp/transp-fra)
+4. [Accès à l'information et protection des renseignements personnels](/atip-aiprp/privacy-privee-fra)
+
+# Info Source
+
+## Sur cette page
+
+* [Présentation d'Info Source](#s1)
+* [Contexte](#s2)
+* [Responsabilités](#s3)
+* [Fonctions, programmes et activités de l'institution](#s4)
+* [Services internes](#s5)
+* [Catégories de renseignements personnels](#s6)
+* [Renseignements supplémentaires](#s7)
+* [Salle de lecture](#s8)
+
+## Présentation d'Info Source
+
+Info Source : Source de renseignements du gouvernement fédéral et sur les fonctionnaires fédéraux qui fournit de l'information au sujet des fonctions, des programmes, des activités et des fonds de renseignements connexes des institutions fédérales visées par la [Loi sur l'accès à l'information](http://laws-lois.justice.gc.ca/fra/lois/A-1/) et la [Loi sur la protection des renseignements personnels](http://lois-laws.justice.gc.ca/fra/lois/P-21/). Cet outil permet aux personnes et aux employés du gouvernement (actuels et anciens) d'obtenir des renseignements pertinents pour qu'ils puissent avoir accès aux renseignements personnels les concernant qui sont détenus par les institutions fédérales visées par la Loi sur la protection des renseignements personnels et exercer leurs droits en vertu de la Loi sur la protection des renseignements personnels.
+
+Un accès central permet de consulter l'[avant-propos](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements.html) et la [liste des institutions](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/sources-renseignements-gouvernement-federal-fonctionnaires-federaux.html) assujetties à la Loi sur l'accès à l'information et à la Loi sur la protection des renseignements personnels.
+
+La Loi sur l'accès à l'information et la Loi sur la protection des renseignements personnels confèrent au président du Conseil du Trésor (à titre de ministre responsable) les responsabilités générales pour ce qui est de l'administration pangouvernementale de ces deux lois.
+
+## Contexte
+
+Le Centre d’analyse des opérations et déclarations financières du Canada (CANAFE) est l’unité du renseignement financier et l’organisme de surveillance en matière de lutte contre le blanchiment d’argent et le financement des activités terroristes du Canada. Il a été créé afin de faciliter la détection, la prévention et la dissuasion du blanchiment d’argent et du financement des activités terroristes, du contournement des sanctions et des menaces à la sécurité du Canada, tout en assurant la protection des renseignements personnels qu’il détient. Par l’entremise de ses programmes du renseignement financier et de surveillance, CANAFE s’efforce d’empêcher les criminels et les groupes terroristes d’abuser du système financier du Canada, et de rendre le crime moins rentable. CANAFE est un organisme autonome qui dirige ses activités indépendamment des organismes d’application de la loi et d’autres entités auxquels il est autorisé à communiquer des renseignements financier. Il relève du ministre des Finances, qui doit de son côté rendre des comptes au Parlement sus ses activités. CANAFE a été établi et mène ses activités en vertu de la Loi sur le recyclage des produits de la criminalité et le financement des activités terroristes (la Loi) et des règlements connexes.
+
+## Responsabilités
+
+CANAFE facilite la détection, la prévention et la dissuasion en matière de blanchiment d’argent, de financement des activités terroristes, du contournement des sanctions et des menaces à la sécurité du Canada. Pour ce faire, il effectue les activités suivantes :
+
+* recueillir les déclarations d'opérations financières et les renseignements transmis volontairement, conformément à la législation et aux règlements;
+* protéger les renseignements personnels qu'il détient;
+* s'assurer que les entités déclarantes se conforment à la Loi et aux règlements connexes;
+* tenir un registre des entreprises de services monétaires au Canada;
+* produire des renseignements financiers utiles aux enquêtes sur le blanchiment d’argent, le financement des activités terroristes, du contournement des sanctions et les menaces pour la sécurité du Canada;
+* chercher des données dans diverses sources d'information et les analyser afin de mettre en lumière les tendances et les modes opératoires en matière de blanchiment d'argent et de financement des activités terroristes;
+* accroître le degré de sensibilisation et de compréhension du public à l'égard du blanchiment d'argent et du financement des activités terroristes.
+
+## Fonctions, programmes et activités de l'institution
+
+### Responsabilité essentielle : Production et communication de renseignements financiers
+
+#### Renseignement financier
+
+Le programme de renseignements financiers de CANAFE cherche à atténuer le risque que représentent les criminels et les groupes terroristes qui cherchent à abuser du système financier canadien. Le programme produit du renseignement financier pour soutenir les enquêtes ou les poursuites associées au blanchiment d’argent, au financement des activités terroristes, au contournement des sanctions et aux menaces à la sécurité du Canada en analysant les opérations financières déclarées au Centre et d’autres renseignements qu’il est autorisé à recueillir en vertu de la Loi sur le recyclage des produits de la criminalité et le financement des activités terroristes. Le renseignement stratégique de CANAFE et ses relations internationales renforcent la capacité du Canada à prévenir, à détecter, à décourager et à perturber les stratagèmes recourant à des méthodes et à des techniques pour blanchir de l’argent et financer des activités terroristes.
+
+#### Renseignements financiers tactiques
+
+**Description :** Les documents produits dans le cadre de ce programme contiennent des renseignements tactiques provenant de l'analyse des déclarations d'opérations reçues des entités déclarantes et des renseignements tirés des déclarations reçues de l'Agence des services frontaliers du Canada, en vertu des parties 1 et 2 de la Loi; des renseignements transmis volontairement par la police, les organismes d'application de la loi, les organismes chargés de la sécurité, les unités du renseignement financier étrangères, les bureaux de confiscation civile des biens, les ministères du gouvernement et le public; des renseignements provenant des bases de données commerciales et de sources publiques, ou encore des renseignements conservés dans des bases de données gérées par le gouvernement fédéral, un gouvernement provincial, le gouvernement d'un État étranger ou une organisation internationale aux fins de renseignement en vue d'assurer l'application de la loi et la sécurité nationale. Les documents comprennent aussi des présentations de sensibilisation, de la formation sur la valeur des renseignements financiers pour les destinataires nationaux de communications de renseignements de CANAFE, du soutien technique pour des homologues étrangers et des directives sur l'utilisation des renseignements financiers tactiques de CANAFE. Les documents comprennent aussi des renseignements sur le travail qu'accomplit CANAFE en collaboration avec le Groupe Egmont des unités du renseignement financier, le Groupe d'action financière, les organismes régionaux de type du Groupe d'action financière et d'autres organisations multilatérales; des renseignements sur le soutien technique, notamment sur la formation sur la production de renseignements tactiques offerte à d'autres unités du renseignement financier, soit directement par CANAFE, soit par l'entremise du Groupe de travail sur la formation du Groupe Egmont, soit grâce à une collaboration avec d'autres organisations multilatérales.
+
+**Types de documents :** Des politiques, stratégies, procédures, cadres; des protocoles d'entente visant l'échange de renseignements (gabarits, versions signées, guides de référence, y compris sur les demandes d'information); des guides de formation et des documents de référence; des déclarations d'opérations financières; des fichiers de travail portant sur les analyses; des fichiers sur les communications de renseignements; des documents de commentaires sur les communications de renseignements provenant des destinataires de ces dernières; des avis portant sur de l'information au sujet de cas soupçonnés de non-conformité; des avis reçus par d'autres secteurs sur une évaluation de renseignements analysés ayant une potentielle valeur tactique; des cadres de protection; des profils de pays; des évaluations; des documents de formation; des présentations; des rapports statistiques; des ordres du jour et des énoncés de besoin et des propositions, des matériaux de projet, des procès-verbaux.
+
+**Numéro du dossier :** CANAFE RFT 010
+
+* **Analyse financière et communication de renseignements**
+
+  **Description :** Ce fichier de renseignements personnels contient des renseignements figurant dans les déclarations transmises par les diverses entités déclarantes (p. ex. banques, sociétés de fiducie, comptables, casinos et entreprises de services monétaires). Les déclarations portent sur les catégories d'opérations financières suivantes : opérations importantes en espèces de 10 000 $ ou plus (à l'exception des retraits); opérations importantes en monnaie virtuelle de 10 000 $ ou plus; déboursements de casinos de 10 000 $ ou plus; télévirements de 10 000 $ ou plus demandés au Canada et destinés à un pays étranger, ou vice versa. Le fichier contient également des déclarations concernant des opérations douteuses et des tentatives d'opérations douteuses, ainsi que des déclarations qui traitent de biens appartenant à des groupes terroristes. Il comprend en outre des déclarations transmises par l'Agence des services frontaliers du Canada concernant l'importation ou l'exportation d'espèces ou d'effets de 10 000 $ ou plus ou la saisie d'espèces ou d'effets.
+
+  De plus, le fichier renferme des renseignements transmis volontairement à CANAFE par des organismes d'application de la loi fédéraux, provinciaux, territoriaux et municipaux, des institutions ou organismes gouvernementaux et par tout organisme d'un autre pays qui exerce des pouvoirs et des fonctions semblables à ceux de CANAFE. Il contient aussi des renseignements fournis par les particuliers concernant des soupçons de blanchiment d'argent et/ou de financement des activités terroristes, des informations accessibles au public et des données liées au blanchiment d'argent ou au financement des activités terroristes tirées des bases de données gérées par le gouvernement fédéral, un gouvernement provincial, ou le gouvernement d'un État étranger ou une organisation internationale à des fins d'application de la loi et de sécurité nationale.
+
+  Les renseignements personnels peuvent comprendre le nom (y compris les alias), les coordonnées, la date de naissance, le statut de citoyenneté, les renseignements biographiques, les antécédents criminels (y compris tout renseignement relatif à une enquête licite), les numéros d'identification (p. ex. numéro de client, numéro de permis de conduire et numéro de l'opération), le lieu de naissance, des renseignements financiers, des renseignements sur le crédit et d'autres détails liés aux opérations financières, comme les renseignements sur l'objet, l'heure, le lieu, les adresses et les informations sur le bénéficiaire d'une opération. Les renseignements personnels peuvent aussi comprendre le nom et les coordonnées des représentants des entités déclarantes.
+
+  **Nota :** Le fichier de renseignements personnels a été modifié en 2022. Les produits d'analyse des renseignements de niveau macro ne contiennent pas de renseignements personnels permettant d'identifier une personne.
+
+  **Catégorie de personnes :** Le grand public et les représentants des entités déclarantes.
+
+  **But :** Les renseignements personnels sont reçus et recueillis, conformément aux paragraphes 54a) et 54b) de la Loi respectivement, et sont évalués et analysés afin d'y déceler des indicateurs, des tendances et des changements relatifs à des activités présumées de blanchiment d'argent et/ou de financement du terrorisme et/ou des menaces pour la sécurité du Canada en vertu de la Loi. Le but de l'analyse peut être de nature tactique, qui vise à remplir les conditions légales minimales permettant la communication de renseignements financiers concernant des cas particuliers liés à l'application de la loi (voir usages compatibles), ou de nature stratégique, qui vise à développer des produits du renseignement de niveau macro pour une distribution de plus grande envergure (p. ex. organismes d'application de la loi, entités déclarantes et membres du public).
+
+  **Usages compatibles :** Conformément à la Loi, lorsque CANAFE a des motifs raisonnables de soupçonner que des renseignements correspondant à la définition de « renseignements désignés » seraient utiles à une enquête ou à une poursuite liée à une infraction de blanchiment d'argent ou de financement des activités terroristes, il doit communiquer ces renseignements aux services de police canadiens compétents (fédéral, provincial ou municipal). Ces mêmes renseignements doivent également être communiqués à l'Agence des services frontaliers du Canada (ASFC), à l'Agence du revenu du Canada, au Centre de la sécurité des télécommunications, à une commission provinciale des valeurs mobilières, à Revenu Québec et au Bureau de la concurrence. Ils peuvent en outre être communiqués à une unité du renseignement financier étrangère avec qui un protocole d'entente a été conclu lorsque dans le cadre de son analyse, CANAFE a des motifs raisonnables de soupçonner qu'ils seraient utiles à une enquête ou à une poursuite liée à une infraction de blanchiment d'argent ou de financement des activités terroristes ou à une infraction de même nature. Les renseignements désignés doivent être communiqués au Service canadien du renseignement de sécurité si CANAFE a des motifs raisonnables de soupçonner que leur communication se rattacherait à des menaces envers la sécurité du Canada. Lorsque d'autres seuils relatifs à la sécurité du Canada sont atteints, CANAFE doit communiquer ces mêmes renseignements aux services de police, à l'ASFC, au ministère de la Défense nationale et aux Forces armées canadiennes.
+
+  Des renseignements désignés sont transmis aux fichiers de renseignements personnels propres aux programmes suivants :
+
+  ASFC PPU 033 – Système de suivi sécuritaire
+  ASFC PPU 028 – Programme canadien sur les crimes de guerre
+  ASFC PPU 1106 – Zones de contrôle des douanes (ZCD)
+  ASFC PPU 030 – Banque de données sur le crime organisé (BDCO)
+  ARC PPU 095 – Détection et enquêtes
+  ARC PPU 200 – Déclaration de renseignements T3010 de la Direction des organismes de bienfaisance
+  CSTC PPU 040 – Fichiers concernant le renseignement étranger
+  CSTC PPU 045 – Dossiers d'enquête du Service canadien du renseignement de sécurité
+  GRC PPU 005 – Dossiers opérationnels
+  GRC PPU 015 – Dossiers opérationnels de renseignements sur la criminalité
+  GRC PPU 025 – Dossiers des enquêtes relatives à la sécurité nationale
+  MDN PPU 060 – Dossiers sur le renseignement de sécurité
+
+  Les renseignements communiqués au Bureau de la concurrence sont transmis à la Direction générale des cartels et des pratiques commerciales trompeuses, tandis que les renseignements communiqués à Revenu Québec sont transmis à la Division des enquêtes criminelles.
+
+  Des renseignements sur les représentants des entités déclarantes sont également transmis au fichier de renseignements personnels : CANAFE PPU 028 – Conformité des entités déclarantes.
+
+  Les renseignements peuvent également être utilisés à des fins d'évaluation.
+
+  **Normes de conservation et de destruction :** Les renseignements contenus dans toutes les déclarations que les entités déclarantes transmettent à CANAFE doivent être conservés pendant dix ans à compter de la date de réception de la déclaration. Quinze ans après la date de réception de la déclaration, tous les renseignements permettant d'identifier une personne et compris dans une déclaration doivent être supprimés, si cette déclaration n'a pas été communiquée en vertu des paragraphes 55(3), 55,1(1) et de l'article 56 de la Loi.
+
+  CANAFE doit supprimer, à l'intérieur d'un délai raisonnable, tout renseignement contenu dans un document présumé être une déclaration présentée en application des articles 7, 7.1, 9 ou 12 de la Loi, s'il détermine que les renseignements sont liés à une opération financière ou à des circonstances qu'il n'est pas nécessaire de déclarer. De plus, CANAFE doit aussi supprimer, à l'intérieur d'un délai raisonnable, tout renseignement transmis volontairement par le public qu'il reçoit, s'il détermine, dans le cadre normal de ses activités, que les renseignements ne sont pas liés à des soupçons de blanchiment d'argent ou de financement des activités terroristes.
+
+  De plus, les renseignements transmis volontairement à CANAFE en vertu de l'alinéa 54a) et l'information recueillie par CANAFE, en vertu de l'alinéa 54b), qui est accessible au public ou qui est stockée dans des bases de données gérées par le gouvernement fédéral, un gouvernement provincial, ou le gouvernement d'un État étranger ou par une organisation internationale à des fins d'application de la loi ou de sécurité nationale et pour laquelle une entente a été conclue, doivent être conservés pendant dix ans à compter de la date de réception ou de la collecte de l'information.
+
+  **No ADD :** 2010/010
+
+  **Renvoi au document no :** CANAFE RFT 010, CANAFE RFS 020
+
+  **Enregistrement (SCT) :** 006293
+
+  **Numéro de fichier :** CANAFE PPU 020
+
+#### Renseignement stratégique et recherche
+
+##### Analyse de renseignements financiers stratégiques
+
+**Description :** Les documents produits dans le cadre de ce programme consistent en des documents sur les renseignements stratégiques provenant de la macro-analyse de données regroupées tirées des communications de renseignements financiers de CANAFE, de déclarations et de renseignements reçus et recueillis en vertu de la Loi sur le recyclage des produits de la criminalité et le financement des activités terroristes. Ces documents comprennent également des renseignements tirés de recherches et d'analyses effectuées dans un vaste éventail de sources d'informations qui servent à éclairer les responsables de l'élaboration de politiques, les membres de l'industrie et les décideurs quant aux questions relatives au blanchiment d'argent et au financement des activités terroristes. Ces documents peuvent comprendre des indicateurs de nouvelles tendances et typologies, l'évaluation de produits, de technologies et d'autres facteurs liés à l'industrie se rapportant à la vulnérabilité au blanchiment d'argent et au financement des activités terroristes ainsi que des conseils sur les approches axées sur les risques. Les documents comprennent aussi des renseignements sur le travail qu'accomplit CANAFE en collaboration avec le Groupe Egmont des unités du renseignement financier, le Groupe d'action financière, les organismes régionaux de type Groupe d'action financière et d'autres organisations multilatérales, notamment des documents et des présentations liés à l'assistance technique et à la formation offertes à des unités du renseignement financier étrangères, soit directement par CANAFE, soit par l'entremise du Groupe de travail sur la formation du Groupe Egmont, soit grâce à une collaboration avec d'autres organisations multilatérales.
+
+**Types de documents :** Des produits de renseignement stratégique (des rapports de renseignement financier, des documents sur les renseignements stratégiques, des perspectives de renseignements financiers, des analyses environnementales, des rapports de recherche, des alertes opérationnelles et des rapports opérationnels), des évaluations du renseignement, des rapports sur le renseignement, des rapports sur les typologies et les tendances, des fiches documentaires/évaluations des facteurs de vulnérabilité, des notes analytiques, des notes de service sur le renseignement, des examens d'articles médiatiques, des études accessibles au public, du matériel de formation, des notes d'information et des présentations, des matériaux de projet, des procès-verbaux.
+
+**Numéro du dossier :** CANAFE RFS 020
+
+* **Analyse financière et communication de renseignements financiers**
+
+  **Description :** Ce fichier de renseignements personnels contient des renseignements figurant dans les déclarations transmises par les diverses entités déclarantes (p. ex. banques, sociétés de fiducie, comptables, casinos et entreprises de services monétaires). Les déclarations portent sur les catégories d'opérations financières suivantes : opérations importantes en espèces de 10 000 $ ou plus (à l'exception des retraits); opérations importantes en monnaie virtuelle de 10 000 $ ou plus; déboursements de casinos de 10 000 $ ou plus; télévirements de 10 000 $ ou plus demandés au Canada et destinés à un pays étranger, ou vice versa. Le fichier contient également des déclarations concernant des opérations douteuses et des tentatives d'opérations douteuses, ainsi que des déclarations qui traitent de biens appartenant à des groupes terroristes. Il comprend en outre des déclarations transmises par l'Agence des services frontaliers du Canada concernant l'importation ou l'exportation d'espèces ou d'effets de 10 000 $ ou plus ou la saisie d'espèces ou d'effets.
+
+  De plus, le fichier renferme des renseignements transmis volontairement à CANAFE par des organismes d'application de la loi fédéraux, provinciaux, territoriaux et municipaux, des institutions ou organismes gouvernementaux et par tout organisme d'un autre pays qui exerce des pouvoirs et des fonctions semblables à ceux de CANAFE. Il contient aussi des renseignements fournis par les particuliers concernant des soupçons de blanchiment d'argent et/ou de financement des activités terroristes, des informations accessibles au public et des données liées au blanchiment d'argent ou au financement des activités terroristes tirées des bases de données gérées par le gouvernement fédéral, un gouvernement provincial, ou le gouvernement d'un État étranger ou une organisation internationale à des fins d'application de la loi et de sécurité nationale.
+
+  Les renseignements personnels peuvent comprendre le nom (y compris les alias), les coordonnées, la date de naissance, le statut de citoyenneté, les renseignements biographiques, les antécédents criminels (y compris tout renseignement relatif à une enquête licite), les numéros d'identification (p. ex. numéro de client, numéro de permis de conduire et numéro de l'opération), le lieu de naissance, des renseignements financiers, des renseignements sur le crédit et d'autres détails liés aux opérations financières, comme les renseignements sur l'objet, l'heure, le lieu, les adresses et les informations sur le bénéficiaire d'une opération. Les renseignements personnels peuvent aussi comprendre le nom et les coordonnées des représentants des entités déclarantes.
+
+  **Nota :** Le fichier de renseignements personnels a été modifié en 2022. Les produits d'analyse des renseignements de niveau macro ne contiennent pas de renseignements personnels permettant d'identifier une personne.
+
+  **Catégorie de personnes :** Le grand public et les représentants des entités déclarantes.
+
+  **But :** Les renseignements personnels sont reçus et recueillis, conformément aux paragraphes 54a) et 54b) de la Loi respectivement, et sont évalués et analysés afin d'y déceler des indicateurs, des tendances et des changements relatifs à des activités présumées de blanchiment d'argent et/ou de financement du terrorisme et/ou des menaces pour la sécurité du Canada en vertu de la Loi. Le but de l'analyse peut être de nature tactique, qui vise à remplir les conditions légales minimales permettant la communication de renseignements financiers concernant des cas particuliers liés à l'application de la loi (voir usages compatibles), ou de nature stratégique, qui vise à développer des produits du renseignement de niveau macro pour une distribution de plus grande envergure (p. ex. organismes d'application de la loi, entités déclarantes et membres du public).
+
+  **Usages compatibles :** Conformément à la Loi, lorsque CANAFE a des motifs raisonnables de soupçonner que les renseignements correspondant à la définition de « renseignements désignés » seraient utiles à une enquête ou à une poursuite liée à une infraction de blanchiment d'argent ou de financement des activités terroristes, il doit communiquer ces renseignements aux services de police canadiens compétents (fédéral, provincial ou municipal). Ces mêmes renseignements doivent également être communiqués à l'Agence des services frontaliers du Canada (ASFC), à l'Agence du revenu du Canada, au Centre de la sécurité des télécommunications, à une commission provinciale des valeurs mobilières, à Revenu Québec et au Bureau de la concurrence. Ils peuvent en outre être communiqués à une unité du renseignement financier étrangère avec qui un protocole d'entente a été conclu lorsque dans le cadre de son analyse, CANAFE a des motifs raisonnables de soupçonner qu'ils seraient utiles à une enquête ou à une poursuite liée à une infraction de blanchiment d'argent ou de financement des activités terroristes ou à une infraction de même nature. Les renseignements désignés doivent être communiqués au Service canadien du renseignement de sécurité si CANAFE a des motifs raisonnables de soupçonner que leur communication se rattacherait à des menaces envers la sécurité du Canada. Lorsque d'autres seuils relatifs à la sécurité du Canada sont atteints, CANAFE doit communiquer ces mêmes renseignements aux services de police, à l'ASFC, au ministère de la Défense nationale et aux Forces armées canadiennes.
+
+  Des renseignements désignés sont transmis aux fichiers de renseignements personnels propres aux programmes suivants :
+
+  ASFC PPU 033 – Système de suivi sécuritaire
+  ASFC PPU 028 – Programme canadien sur les crimes de guerre
+  ASFC PPU 1106 – Zones de contrôle des douanes (ZCD)
+  ASFC PPU 030 – Banque de données sur le crime organisé (BDCO)
+  ARC PPU 095 – Détection et enquêtes
+  ARC PPU 200 – Déclaration de renseignements T3010 de la Direction des organismes de bienfaisance
+  CSTC PPU 040 – Fichiers concernant le renseignement étranger
+  CSTC PPU 045 – Dossiers d'enquête du Service canadien du renseignement de sécurité
+  GRC PPU 005 – Dossiers opérationnels
+  GRC PPU 015 – Dossiers opérationnels de renseignements sur la criminalité
+  GRC PPU 025 – Dossiers des enquêtes relatives à la sécurité nationale
+  MDN PPU 060 – Dossiers sur le renseignement de sécurité
+
+  Les renseignements communiqués au Bureau de la concurrence sont transmis à la Direction générale des cartels et des pratiques commerciales trompeuses, tandis que les renseignements communiqués à Revenu Québec sont transmis à la Division des enquêtes criminelles.
+
+  Des renseignements sur les représentants des entités déclarantes sont également transmis au fichier de renseignements personnels : CANAFE PPU 028 – Conformité des entités déclarantes.
+
+  Les renseignements peuvent également être utilisés à des fins d'évaluation.
+
+  **Normes de conservation et de destruction :** Les renseignements contenus dans toutes les déclarations que les entités déclarantes transmettent à CANAFE doivent être conservés pendant dix ans à compter de la date de réception de la déclaration. Quinze ans après la date de réception de la déclaration, tous les renseignements permettant d'identifier une personne et compris dans une déclaration doivent être supprimés, si cette déclaration n'a pas été communiquée en vertu des paragraphes 55(3), 55,1(1) et de l'article 56 de la Loi.
+
+  CANAFE doit supprimer, à l'intérieur d'un délai raisonnable, tout renseignement contenu dans un document présumé être une déclaration présentée en application des articles 7, 7.1, 9 ou 12 de la Loi, s'il détermine que les renseignements sont liés à une opération financière ou à des circonstances qu'il n'est pas nécessaire de déclarer. De plus, CANAFE doit aussi supprimer, à l'intérieur d'un délai raisonnable, tout renseignement transmis volontairement par le public qu'il reçoit, s'il détermine, dans le cadre normal de ses activités, que les renseignements ne sont pas liés à des soupçons de blanchiment d'argent ou de financement des activités terroristes.
+
+  De plus, les renseignements transmis volontairement à CANAFE en vertu de l'alinéa 54a) et l'information recueillie par CANAFE, en vertu de l'alinéa 54b), qui est accessible au public ou qui est stockée dans des bases de données gérées par le gouvernement fédéral, un gouvernement provincial, ou le gouvernement d'un État étranger ou par une organisation internationale à des fins d'application de la loi ou de sécurité nationale et pour laquelle une entente a été conclue, doivent être conservés pendant dix ans à compter de la date de réception ou de la collecte de l'information.
+
+  **No ADD :** 2010/010
+
+  **Renvoi au document no :** CANAFE RFT 010, CANAFE RFS 020
+
+  **Enregistrement (SCT) :** 006293
+
+  **Numéro de fichier :** CANAFE PPU 020
+
+### Responsabilité essentielle : Assurer la conformité à la législation et à la réglementation de lutte contre le blanchiment d'argent et le financement des activités terroristes
+
+#### Surveillance
+
+CANAFE vise à assurer le respect de la partie 1 et de la partie 1.1 de la Loi sur le recyclage des produits de la criminalité et le financement des activités terroristes (la Loi) et des règlements connexes. Le programme de surveillance, qui repose sur des politiques stratégiques, du renseignement stratégique, de la recherche et des analyses, utilise une approche fondée sur les risques pour réaliser des activités de suivi, d’application de la loi et de mobilisation qui aident à assurer le respect des obligations législatives et réglementaires applicables aux personnes et aux entités qui exercent leurs activités au sein du système financier canadien et qui sont visés par la Loi. Grâce à ce programme, CANAFE sensibilise le public et accroît la connaisse sur les enjeux liés au blanchiment d’argent, au financement des activités terroristes et au contournement des sanctions.
+
+#### Surveillance
+
+**Description :** Les documents produits dans le cadre de ce programme consistent en des documents liés aux évaluations de la Conformité effectuées par CANAFE pour évaluer la conformité, aux ententes conclues avec divers organismes de réglementation nationaux et étrangers et des unités du renseignement financier étrangères; aux évaluations sur la qualité, l'opportunité et la quantité relativement aux déclarations transmises par les entités déclarantes. Il s'agit aussi de dossiers d'examen de la conformité des entités déclarantes, notamment sur les opérations financières, les documents du programme de conformité et les renseignements personnels de tiers qui sont passés en revue au cours d'un examen; d'analyses et d'évaluations statistiques; de rapports statistiques sur la conformité; de renseignements tirés des auto-déclarations volontaires de non-conformité; de documents sur l'interprétation de la législation et de la réglementation, ainsi que des directives; de documents sur des mesures d'application de la loi prises à l'égard d'entités ayant violé la réglementation, comme des communications des cas de non-conformité transmises aux organismes d'application de la loi à des fins d'enquêtes et de poursuites; de documents sur le programme de pénalités administratives pécuniaires; d'examens administratifs; et des documents d'appel. Les documents comprennent aussi des renseignements sur le travail qu'accomplit CANAFE en collaboration avec le Groupe Egmont des unités du renseignement financier, le Groupe d'action financière, les organismes régionaux de type Groupe d'action financière et d'autres organisations multilatérales, notamment des documents liés à l'assistance technique et à la formation, ainsi que des présentations offertes à des unités du renseignement financier étrangères, soit directement par CANAFE en collaboration avec le Groupe de travail sur la formation du Groupe Egmont ou avec d'autres organisations multilatérales.
+
+**Types de documents :** Des politiques, des procédures normales d'exploitation, des guides, des documents de correspondance, des notes de service, des notes d'information, des propositions de budget, des documents d'information parlementaire, des propositions législatives, des instructions de rédaction, des énoncés d'analyse des répercussions normales, des projets de règlement, des notes de réunion, des résumés, des ordres du jour, des présentations au Conseil du Trésor, des présentations, des dossiers d'activités de surveillance, des rapports statistiques, des stratégies et plans opérationnels, des résultats d'évaluation, des analyses des répercussions, des études de marché, des documents budgétaires et de gestion financière, des déclarations de non-conformité, des interprétations de politiques, des directives, des évaluations des risques, des communications de cas de non-conformité, des avis de violation, des observations des entités déclarantes, des arguments de droit des entités déclarantes, des états financiers d'entités déclarantes, des outils d'analyse de la capacité à payer, des documents organisationnels des entités déclarantes, des dossiers de clients (tous les genres), des déclarations d'opérations, des avis décision, des comptes rendus de décisions, des cahiers numériques, des listes de vérification, des documents de cour (p. ex. affidavits, documents juridiques, avis, ordonnances, décisions), des protocoles d'entente, des notes de réunions et du matériel de formation.
+
+**Numéro du dossier :** CANAFE ORC 030
+
+* **Conformité des entités déclarantes**
+
+  **Description :** Ce fichier de renseignements personnels contient des renseignements reçus à des fins de conformité à la partie 1 ou à la partie 1.1 de la Loi des entités déclarantes (p. ex. banques, sociétés de fiducie, comptables et compagnies d'assurances), des organismes de réglementation en matière financière et d'institutions gouvernementales, avec lesquels CANAFE a conclu un protocole d'entente, et d'autres sources. Les renseignements se rapportent à la conformité des entités déclarantes et/ou aux examens de conformité effectués par des organismes de réglementation; aux activités de sensibilisation, d'inscription, d'assurance de la qualité et à la fonction d'examen. Les renseignements personnels peuvent comprendre le nom, les coordonnées, les renseignements biographiques, des renseignements financiers, la date de naissance et la signature. CANAFE peut aussi recevoir des renseignements transmis volontairement par n'importe quelle source au sujet du respect par des personnes ou des entités des obligations établies dans la Loi. Dans son évaluation et sa révision des violations, CANAFE peut recevoir des observations qui démontrent le niveau de connaissances d'une entité déclarante en matière de conformité, ainsi que des déclarations et de l'information sur le niveau de conformité d'une entité déclarante. Les renseignements personnels ainsi reçus peuvent comprendre : les notes reçues pour un cours et les certifications; de l'information tirée du dossier de santé et du casier judiciaire; de la correspondance, dont le contenu est implicitement ou explicitement confidentiel ou de nature privée.
+
+  **Nota :** Le fichier de renseignements personnels a été modifié en 2020.
+
+  **Catégorie de personnes :** Entités déclarantes qui sont des propriétaires d'entreprise ou des représentants d'entreprises, de banques, d'organismes de réglementation en matière financière ou d'autres entités financières.
+
+  **But :** L'information est recueillie en vertu des articles 62, 63 et 63.1 de la Loi afin de s'assurer que les entités déclarantes respectent leurs obligations en matière de déclaration, telles qu'elles sont décrites à la partie 1 ou à la partie 1.1 de la Loi. Les observations ayant trait à une violation présumée commise par une entité déclarante sont reçues en vertu de l'article 73.15 de la Loi.
+
+  **Usages compatibles :** L'information peut servir à établir les comptes des utilisateurs et à vérifier l'authenticité et la validité des déclarations. Les coordonnées sont aussi consignées afin de répondre à des questions et à des commentaires et d'en faire le suivi. Dans le cadre du processus d'obtention d'un consentement à entrer dans une maison d'habitation pour mener un examen de conformité, la date de naissance peut être utilisée pour confirmer l'identité de l'individu et réaliser une vérification de ses antécédents criminels afin d'assurer la sécurité de l'agent de conformité.
+
+  CANAFE peut aussi imposer des pénalités administratives pécuniaires lorsqu'il a des motifs raisonnables de croire qu'une personne ou une entité a enfreint ses obligations en vertu de la Loi et des règlements connexes. Aux fins de la perception des paiements de ces pénalités, des renseignements peuvent être communiqués à d'autres institutions fédérales, à un organisme d'un gouvernement provincial ou à toute autre entité au Canada conformément à des contrats, des protocoles d'entente ou d'autres types d'ententes en vigueur. À cette fin, CANAFE peut transmettre de l'information au fichier de renseignements personnels ARC PPU 047 – Traitements des déclarations et paiement des entreprises.
+
+  Les renseignements peuvent faire l'objet d'appels auprès de la Cour fédérale dans le cadre de la défense de CANAFE. Les renseignements personnels peuvent donc être transmis au fichier de renseignements personnels JUS PPU 010 – Procédures civiles et services juridiques. Les renseignements portant sur la nature de la violation, le nom de la personne ou de l'entité qui l'a commise et le montant de la pénalité imposée peuvent également être rendus publics par CANAFE, une fois toutes les procédures judiciaires terminées.
+
+  CANAFE peut communiquer aux organismes d'application de la loi compétents tout renseignement dont il prend connaissance dans l'exercice de ses fonctions relatives à la conformité et lorsqu'il a des motifs raisonnables de soupçonner que ces renseignements seraient pertinents dans le cadre d'une enquête ou d'une poursuite relative à une infraction à la Loi découlant d'une violation de la partie 1 ou de la partie 1.1. Toute communication de ces renseignements à la GRC doit être faite aux fichiers de renseignements personnels GRC PPU 005 – Dossiers opérationnels; GRC PPU 015 – Dossiers opérationnels de renseignements sur la criminalité; GRC PPU 025 – Dossiers des enquêtes relatives à la sécurité nationale.
+
+  CANAFE peut échanger avec tout organisme ou organe régissant ou supervisant des personnes ou des entités auxquelles la partie 1 et la partie 1.1 s'appliquent des renseignements sur la conformité de ces personnes ou entités à la partie concernée. Toute information ainsi communiquée par CANAFE ne peut être utilisée par le destinataire qu'aux fins de la conformité à la partie 1 ou à la partie 1.1.
+
+  CANAFE peut communiquer des renseignements sur la conformité à une unité étrangère du renseignement financier qui dispose de pouvoirs et de fonctions en matière de conformité semblables à ceux de CANAFE et avec laquelle un protocole d'entente concernant le respect, par des personnes et des entités, de leurs obligations en matière de déclaration et l'évaluation du risque lié à leur observation a été conclu.
+
+  CANAFE peut également communiquer des renseignements à l'Agence du revenu du Canada ayant trait à la conformité de personnes ou d'entités assujetties à la partie 1 ou à la partie 1.1 de la Loi afin de lui permettre de veiller à ce que les personnes ou les entités concernées respectent leurs obligations en matière de déclaration des télévirements en vertu de la Loi sur l'impôt sur le revenu. Conformément au paragraphe 65.02 (3) de la Loi, les renseignements de cette nature communiqués par CANAFE ne peuvent permettre d'identifier, directement ou indirectement, un client d'une entité déclarante. Les renseignements de conformité communiqués à l'Agence du revenu du Canada sont principalement des renseignements sur les activités et la communication de tout renseignement personnel proprement dit doit être faite aux fichiers de renseignements personnels ARC PPU 411 — Observation fiscale à l'étranger. L'Agence du revenu du Canada peut aussi communiquer des renseignements à CANAFE ayant trait à la conformité d'entités déclarantes à leurs obligations en matière de déclaration des télévirements en vertu de la Loi sur l'impôt sur le revenu, dans le cas où ces renseignements se rapportent au respect par les entités déclarantes de leurs obligations tel que prévu dans la Loi.
+
+  Les renseignements peuvent également servir à des fins d'évaluation.
+
+  **Normes de conservation et de destruction :** Les renseignements sont conservés pendant cinq ans à compter de la date de la dernière mesure administrative, sauf si ces renseignements ont été utilisés ou obtenus dans le cadre d'une mesure liée à la non-conformité. Les renseignements relatifs à une pénalité administrative pécuniaire ou à la communication d'un avis de non-conformité sont conservés 25 ans.
+
+  **No ADD :** 2010/10
+
+  **Renvoi au document no :** CANAFE ORC 030
+
+  **Enregistrement (SCT) :** 20 091 261
+
+  **Numéro de fichier :** CANAFE PPU 028
+
+#### Registre des entreprises de services monétaires
+
+**Description :** Les documents produits dans le cadre de ce programme consistent en des documents liés à l'inscription et à l'identité des entreprises de services monétaires, y compris les points de service. Il s'agit également de documents se rapportant aux demandes d'inscription des entreprises de services monétaires en attente, à l'identification de déclarants potentiels, aux avis (confirmations d'inscriptions, refus d'inscriptions et demandes de précisions, cessations d'entreprises de services monétaires en attente, etc.), aux mises à jour à l'égard des inscriptions, aux renouvellements d'inscription en attente ainsi qu'aux renseignements concernant les appels.
+
+**Types de documents :** Des politiques et procédures, de la correspondance, des notes de service, des notes d'information, des instructions sur l'inscription et les demandes d'inscription (formulaires de préinscription, de modification, de renouvellement et de cessation), les documents attestant de l'approbation, les listes des entreprises de services monétaires, les avis, les guides, les avis d'interprétation, les demandes de révision, les lettres de confirmation, les lettres d'inadmissibilité aux examens, les lettres d'instructions, les listes de vérification, les avis de décisions, les comptes rendus de décisions, les cahiers numériques, les recommandations et les foires aux questions.
+
+**Numéro du dossier :** CANAFE REG 040
+
+* **Inscription des entreprises de services monétaires**
+
+  **Description :** Le présent fichier de renseignements personnels contient de l'information recueillie pendant la demande d'inscription, l'examen d'un refus d'inscription ou l'examen de la révocation de l'inscription d'une entreprise de services monétaires canadienne ou étrangère (p. ex. les courtiers de change, les personnes qui émettent ou rachètent des mandats-poste, les systèmes parallèles de remise de fonds tels que les Hawala) par CANAFE. Les renseignements personnels peuvent comprendre le nom, les coordonnées, la langue de préférence, un mot de passe, le lieu et la date de naissance, le lieu de résidence, des renseignements financiers, des numéros d'identité et de l'information tirée du casier judiciaire.
+
+  **Nota :** Le fichier de renseignements personnels a été modifié en 2020.
+
+  **Catégorie de personnes :** Propriétaires, administrateurs, directeurs généraux, présidents, représentants, employés et mandataires (p. ex. par procuration) d'entreprises de services monétaires.
+
+  **But :** Les renseignements sont recueillis aux fins de l'inscription, de l'examen et de l'approbation d'entreprises de services monétaires par CANAFE, en vertu des articles 11.1 à 11.3 de la Loi. Les renseignements sont aussi utilisés pour assurer la conformité à la Loi, et peuvent servir à des fins d'analyse.
+
+  **Usages compatibles :** En ce qui a trait à une entreprise qui interjette appel d'une décision de refuser sa demande ou de révoquer son inscription, les renseignements personnels peuvent être communiqués à la Cour fédérale dans le cadre de la défense de CANAFE. Les renseignements personnels peuvent donc être transmis au fichier JUS PPU 010 – Procédures civiles et services juridiques.
+
+  Les renseignements personnels peuvent être utilisés à des fins d'analyse. Par la suite, si CANAFE a des motifs raisonnables de soupçonner que les renseignements correspondant à la définition de « renseignements désignés » seraient utiles à une enquête ou à une poursuite liée à une infraction de blanchiment d'argent ou à une infraction de financement des activités terroristes, il doit communiquer ces renseignements au service de police compétent (fédéral, provincial ou municipal) conformément à la Loi. Les mêmes renseignements doivent être communiqués à l'Agence des services frontaliers du Canada (ASFC), à l'Agence du revenu du Canada, au Centre de la sécurité des télécommunications, à une commission des valeurs mobilières provinciale, à Revenu Québec et au Bureau de la concurrence lorsque d'autres seuils prévus dans la Loi sont atteints. Les mêmes renseignements peuvent être communiqués à une unité du renseignement financier étrangère avec qui un protocole d'entente a été conclu si, à partir de son analyse, CANAFE a des motifs raisonnables de soupçonner que les renseignements définis comme des renseignements désignés seraient utiles à une enquête ou à une poursuite liée à une infraction de blanchiment d'argent ou de financement d'activités terroristes ou à une infraction de même nature. Les renseignements désignés doivent également être communiqués au Service canadien du renseignement de sécurité si CANAFE a des motifs raisonnables de soupçonner que cette communication se rattacherait à des menaces envers la sécurité du Canada. Lorsque d'autres seuils relatifs à la sécurité du Canada sont atteints, CANAFE doit communiquer ces mêmes renseignements aux services de police, à l'ASFC, au ministère de la Défense nationale et aux Forces armées canadiennes.
+
+  Des renseignements désignés sont transmis aux fichiers de renseignements personnels propres au programme suivants :
+
+  ASFC PPU 033 – Système de suivi sécuritaire
+  ASFC PPU 028 – Programme canadien sur les crimes de guerre
+  ASFC PPU 1106 – Zones de contrôle des douanes (ZCD)
+  ASFC PPU 030 – Banque de données sur le crime organisé (BDCO)
+  ARC PPU 095 – Détection et enquêtes
+  ARC PPU 200 – Déclaration de renseignements T3010 de la Direction des organismes de bienfaisance
+  CSTC PPU 040 – Fichiers concernant le renseignement étranger
+  CSTC PPU 045 – Dossiers d'enquête du Service canadien du renseignement de sécurité
+  GRC PPU 005 – Dossiers opérationnels
+  GRC PPU 015 – Dossiers opérationnels de renseignements sur la criminalité
+  GRC PPU 025 – Dossiers des enquêtes relatives à la sécurité nationale
+  DND PPU 060 – Dossiers de renseignement de sécurité
+
+  Les renseignements communiqués au Bureau de la concurrence sont transmis à la Direction générale des cartels et des pratiques commerciales trompeuses, tandis que les renseignements communiqués à Revenu Québec sont transmis à la Division des enquêtes criminelles.
+
+  Les renseignements peuvent également être utilisés à des fins de conformité, dont l'imposition de pénalités administratives pécuniaires et, dans ce contexte, ils peuvent être communiqués à des entités avec lesquelles CANAFE a conclu une entente à des fins de perception des paiements de ces pénalités administratives pécuniaires.
+
+  Les renseignements personnels peuvent également être utilisés à des fins d'évaluation.
+
+  **Normes de conservation et de destruction :** CANAFE conserve les renseignements sur l'inscription des ESM tant que le statut de ces dernières est actif. Ces renseignements sont détruits dix ans après le refus, la révocation ou l'expiration de l'inscription, ou lorsque l'ESM cesse ses activités.
+
+  **No ADD :** 2010/10
+
+  **Renvoi au document no :** CANAFE REG 040
+
+  **Enregistrement (SCT)** **:** 20 091 262
+
+  **Numéro de fichier :** CANAFE PPU 027
+
+## Services internes
+
+Les services internes constituent des groupes d'activités et de ressources connexes qui sont gérés de façon à répondre aux besoins des programmes et des autres obligations générales d'une organisation. Ces groupes sont les suivants : services de gestion et de surveillance, services des communications, services juridiques, services de gestion des ressources humaines, services de gestion des finances, services de gestion de l'information, services des technologies de l'information, services de gestion des biens, services de gestion du matériel, services de gestion des acquisitions et services de gestion des voyages et autres services administratifs. Les services internes comprennent uniquement les activités et les ressources destinées à l'ensemble d'une organisation et non celles fournies à un programme particulier.
+
+### Services d'acquisitions
+
+Activités mises en œuvre afin de veiller à ce que les communications du gouvernement du Canada soient gérées efficacement, bien coordonnées et répondent aux divers besoins d'information du public. La fonction de gestion des communications assure la diffusion de renseignements gouvernementaux au public interne et externe ainsi que la prise en considération de ses préoccupations et intérêts dans la planification, la gestion et l'évaluation de politiques, de programmes, de services et d'initiatives.
+
+* [Catégorie de document en matière d'approvisionnement et marchés](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp912)
+  + [Fichier de renseignements personnels sur les marchés de services professionnels](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou912)
+
+### Services de communications
+
+Activités mises en œuvre afin de veiller à ce que les communications du gouvernement du Canada soient gérées efficacement, bien coordonnées et répondent aux divers besoins d'information du public. La fonction de gestion des communications assure la diffusion de renseignements gouvernementaux au public interne et externe ainsi que la prise en considération de ses préoccupations et intérêts dans la planification, la gestion et l'évaluation de politiques, de programmes, de services et d'initiatives.
+
+* [Catégorie de document en matière des communications](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp939)
+  + [Fichier de renseignements personnels sur les communications internes](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou915)
+  + [Fichier de renseignements personnels sur les communications publiques](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou914)
+
+### Services de gestion financière
+
+Activités visant à assurer l'utilisation responsable des ressources publiques comme la planification, la gestion budgétaire, la comptabilité, la production de rapports, le contrôle et la surveillance, l'analyse, les conseils et le soutien au processus décisionnel, ainsi que les systèmes financiers.
+
+* [Catégorie de document en matière de gestion financière](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp914)
+  + [Fichier de renseignements personnels sur les cartes d'achat](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou940)
+  + [Fichier de renseignements personnels sur les comptes créditeurs](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou931)
+  + [Fichier de renseignements personnels sur les comptes débiteurs](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou932)
+
+### Services de gestion des ressources humaines
+
+Activités de détermination de l'orientation stratégique, d'affectation des ressources entre les services et les processus et activités liées à l'analyse des risques et à la détermination des mesures d'atténuation à prendre. Elles permettent de veiller à ce que les services et les programmes du gouvernement fédéral respectent les lois, les règlements, les politiques et les plans applicables.
+
+* [Catégorie de document en matière d'accueil](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp933)
+  + [Fichier de renseignements personnels d'accueil](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou908)
+* [Catégorie de document en matière de classification des postes](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp919)
+  + [Fichier de renseignements personnels sur la dotation](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe9021)
+* [Catégorie de document en matière d'équité en matière d'emploi et diversité](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp942)
+  + [Fichier de renseignements personnels sur l'équité en matière d'emploi et diversité](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe918)
+* [Catégorie de document en matière d'examen lié à la gestion du rendement](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp946)
+  + [Fichier de renseignements personnels sur les mesures disciplinaires](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe911)
+  + [Fichier de renseignements personnels sur le programme de gestion du rendement des employés](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe912)
+* [Catégorie de document en matière de formation et perfectionnement](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp927)
+  + [Fichier de renseignements personnels sur la formation et perfectionnement](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe905)
+* [Catégorie de document en matière des langues officielles](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp923)
+  + [Fichier de renseignements personnels sur les langues officielles](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe906)
+* [Catégorie de document en matière de planification des ressources humaines](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp949)
+  + [Fichier de renseignements personnels sur la planification des ressources humaines](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou935)
+* [Catégorie de document en matière des prix (Fierté et reconnaissance)](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp940)
+  + [Fichier de renseignements personnels sur le programme de reconnaissance](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe920)
+* [Catégorie de document en matière de recrutement et dotation](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp920)
+  + [Fichier de renseignements personnels sur le code de valeurs et d'éthique du secteur public et les codes de conduite organisationnels](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe915)
+  + [Fichier de renseignements personnels sur le contrôle de sécurité du personnel](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou917)
+  + [Fichier de renseignements personnels sur les demandes d'emploi](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou911)
+  + [Fichier de renseignements personnels sur le dossier personnel de l'employé](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe901)
+  + [Fichier de renseignements personnels sur la dotation](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe9021)
+* [Catégorie de document en matière des relations de travail](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp926)
+  + [Fichier de renseignements personnels sur le code de valeurs et d'éthique du secteur public et les codes de conduite organisationnels](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe915)
+  + [Fichier de renseignements personnels sur la divulgation d'information sur les actes fautifs commis en milieu de travail](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou906)
+  + [Fichier de renseignements personnels sur les griefs](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe910)
+  + [Fichier de renseignements personnels sur le harcèlement](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe919)
+  + [Fichier de renseignements personnels sur les mesures disciplinaires](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe911)
+* [Catégorie de document en matière de réinstallation](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp936)
+  + [Fichier de renseignements personnels sur la réinstallation](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou910)
+* [Catégorie de document en matière de rémunération et avantages sociaux](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp924)
+  + [Fichier de renseignements personnels sur les présences et congés](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe903)
+  + [Fichier de renseignements personnels sur la rémunération et avantages](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe904)
+* [Catégorie de document en matière de santé et sécurité au travail](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp922)
+  + [Fichier de renseignements personnels sur les accidents d'automobile, de bateau, d'embarcation et d'avion](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe908)
+  + [Fichier de renseignements personnels sur l'aide aux employés](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe916)
+  + [Fichier de renseignements personnels sur le harcèlement](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe919)
+  + [Fichier de renseignements personnels sur la santé et sécurité au travail](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe907)
+
+### Services de gestion de l'information
+
+Activités visant à assurer une gestion efficiente et efficace de l'information à l'appui de la prestation de programmes et de services, à faciliter la prise de décisions éclairées, à faciliter la reddition des comptes, la transparence et la collaboration, ainsi qu'à conserver l'information et les documents pour le bénéfice de la présente génération et des générations futures en veillant à ce qu'ils demeurent accessibles.
+
+* [Catégorie de document en matière d'accès à l'information et la protection des renseignements personnels](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp930)
+  + [Fichier de renseignements personnels sur les demandes en vertu de la Loi sur l'accès à l'information et de la Loi sur la protection des renseignements personnels](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou901)
+* [Catégorie de document en matière de gestion de l'information](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp944)
+
+### Services de technologie de l'information
+
+Activités dont le but est d'assurer l'utilisation efficiente et efficace de la technologie de l'information, à l'appui des priorités gouvernementales et de la mise en œuvre des programmes afin d'accroître la productivité et d'améliorer les services offerts au public.
+
+* [Catégorie de document en matière de technologie de l'information](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp932)
+  + [Fichier de renseignements personnels sur les journaux de contrôle des réseaux électroniques](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou905)
+
+### Services juridiques
+
+Activités permettant aux ministères et organismes de réaliser les priorités et d'atteindre les objectifs associés à leurs politiques, programmes et services dans un cadre juridique approprié.
+
+* [Catégorie de document en matière des services juridiques](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp902)
+
+### Services de gestion et de surveillance
+
+Activités de détermination de l'orientation stratégique, d'affectation des ressources entre les services et les processus et activités liées à l'analyse des risques et à la détermination des mesures d'atténuation à prendre. Elles permettent de veiller à ce que les services et les programmes du gouvernement fédéral respectent les lois, les règlements, les politiques et les plans qui s'appliquent.
+
+* [Catégorie de document en matière de coopération et liaison](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp904)
+  + [Fichier de renseignements personnels sur les activités de sensibilisation](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou938)
+* [Catégorie de document en matière de planification et d'établissement de rapports](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp947)
+* [Catégorie de document en matière des services à la haute direction](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp943)
+  + [Fichier de renseignements personnels sur le système de gestion de la correspondance de la direction](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe902)
+* [Catégorie de document en matière de vérification interne et évaluation](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp916)
+  + [Fichier de renseignements personnels sur l'évaluation](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou942)
+  + [Fichier de renseignements personnels sur la vérification interne](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou941)
+
+### Services du matériel
+
+Activités visant à assurer, de la part des ministères, une gestion du matériel durable et responsable sur le plan financier afin d'appuyer l'exécution rentable et efficace des programmes gouvernementaux.
+
+* [Catégorie de document en matière de gestion du matériel](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp945)
+  + [Fichier de renseignements personnels sur les accidents d'automobile, de bateau, d'embarcation et d'avion](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe908)
+
+### Services des biens immobiliers
+
+Activités ayant pour objet d'assurer une gestion des biens immobiliers durable et responsable sur le plan financier, tout au long de leur cycle de vie, afin de soutenir l'exécution rentable et efficace des programmes gouvernementaux.
+
+* [Catégorie de document en matière de gestion des biens immobiliers](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp948)
+
+### Services de voyage et autres services administratifs
+
+Ces services comprennent les services de voyages du gouvernement du Canada, ainsi que les autres services internes qui ne correspondent à aucune autre catégorie de services internes.
+
+* [Catégorie de document en matière des conseils d'administration, comités et conseils](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp938)
+  + [Fichier de renseignements personnels sur les membres de conseils d'administration, de comités et de conseils](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou919)
+  + [Fichier de renseignements personnels sur les nominations par le gouverneur en conseil](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou918)
+* [Catégorie de document en matière de divulgation proactive](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp935)
+  + [Fichier de renseignements personnels sur l'accueil](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou908)
+  + [Fichier de renseignements personnels sur les voyages](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou909)
+* [Catégorie de document en matière de planification de la continuité des activités](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp928)
+  + [Fichier de renseignements personnels sur la planification de la continuité des activités](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou903)
+* [Catégorie de document en matière de sécurité](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp931)
+  + [Fichier de renseignements personnels sur le contrôle d'accès physique](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe907)
+  + [Fichier de renseignements personnels sur le contrôle de sécurité du personnel](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou917)
+  + [Fichier de renseignements personnels sur la divulgation d'information sur les actes fautifs commis en milieu de travail](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou906)
+  + [Fichier de renseignements personnels sur les incidents de sécurité et atteintes à la vie privée](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou939)
+* [Catégorie de document en matière des services administratifs](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp901)
+  + [Fichier de renseignements personnels sur le stationnement](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#poe914)
+* [Catégorie de document en matière de voyages](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/categories-documents-ordinaires.html#ndp934)
+  + [Fichier de renseignements personnels sur les voyages](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/renseignements-programmes-fonds-renseignements/fichiers-renseignements-personnels-ordinaires.html#pou909)
+
+## Catégories de renseignements personnels
+
+Dans le cadre de ses activités de conformité, CANAFE reçoit et recueille divers renseignements personnels qui sont utilisés uniquement pour documenter, évaluer et examiner le programme de conformité de l'entité déclarante, ses antécédents liés aux déclarations et ses obligations en matière de déclarations, de tenue de documents et de vérification de l'identité des clients. La réception des renseignements personnels, y compris les renseignements financiers, comme les numéros de compte et les détails sur les opérations liées à des personnes, est permise en vertu de la Loi. CANAFE n'utilise pas ces renseignements pour prendre des décisions administratives sur les personnes auxquelles se rapportent les renseignements.
+
+Les renseignements personnels sont enregistrés comme faisant partie du dossier d'examen de la conformité (ou le dossier utilisé pour les révisions internes et les appels devant les tribunaux), lorsqu'il est impossible d'avoir accès aux dossiers au moyen du nom de la personne ou de tout autre identifiant personnel. Les périodes de conservation pour ces catégories de renseignements personnels sont fonction de la période de conservation des dossiers des sujets dans lesquels ils sont conservés.
+
+### Manuels
+
+* Administration des demandes d'accès à l'information et de protection des renseignements personnels
+* Aide aux entités déclarantes
+* Auto-déclaration volontaire de non-conformité
+* Billet d'inscription d'entreprise de services monétaires
+* Cadre de conformité de CANAFE
+* Cadre de surveillance
+* Contrôle des déclarations — qualité, opportunité et quantité
+* Déclarations sur support papier
+* Formulaire de présentation d'observations
+* Guide des procédures des examens de conformité
+* Guide des procédures des examens d'entités financières
+* Guide sur l'évaluation du tort causé découlant de violations menant à une pénalité administrative pécuniaire
+* Inscription des entités déclarantes pour la déclaration électronique
+* Maintien de l'accès électronique pour la soumission de déclarations
+* Manuel d'évaluation de CANAFE
+* Manuel de l'Unité des entreprises de services monétaires pour les agents de conformité de CANAFE
+* Manuel des procédures du programme de pénalités administratives pécuniaires
+* Manuel d'utilisation et procédure relative aux messages de panne ou d'interruption de service des systèmes de déclaration électronique de CANAFE
+* Marche à suivre dans le système de gestion des contacts pour les fusions d'entités déclarantes
+* Méthodologie d'examen du secteur immobilier
+* Outil de conformité sur les entités faisant affaire avec des pays et territoires à risque élevé
+* Politique et méthodologie sur le suivi des institutions financières fédérales
+* Politique sur la capacité à payer
+* Politique sur la révision d'observations concernant les pénalités administratives pécuniaires
+* Politique sur le programme de pénalités administratives pécuniaires
+* Présentations publiques et communications avec les médias
+* Procédures de révision des observations concernant les pénalités administratives pécuniaires
+* Processus de règlement des plaintes
+* Processus de séparation des déclarations
+* Rapports d'évaluation de la conformité
+* Refus de l'inscription des entreprises de services monétaires
+* Révocation de l'inscription des entreprises de services monétaires
+* Traitement de l'information des entités déclarantes
+* Validation des entreprises de services monétaires
+
+## Renseignements supplémentaires
+
+Veuillez consulter la page de [l'Accès à l'information et protection des renseignements personnels](/atip-aiprp/privacy-privee-fra) pour en savoir plus sur la marche à suivre pour présenter une demande en vertu de la Loi sur l'accès à l'information et de la Loi sur la protection des renseignements personnels. Un résumé des [demandes d'accès à l'information complétées](https://ouvert.canada.ca/fr/search/ati?search_api_fulltext=Financial%20Transactions%20and%20Reports%20Analysis%20Centre%20of%20Canada%20) et des instructions concernant la présentation de demandes d'information sont aussi accessibles en ligne. CANAFE peut traiter des demandes d'information informelles, si aucune exception ne s'applique aux documents ou si seulement un examen superficiel des documents est requis.
+
+CANAFE effectue des évaluations des facteurs relatifs à la vie privée pour garantir que toutes les préoccupations concernant la protection de la vie privée ont été cernées, évaluées et réglées avant la mise en œuvre d'une activité ou d'un programme nouveau ou considérablement modifié faisant appel à des renseignements personnels. Vous pouvez également consulter la [Politique de protection des renseignements personnels de CANAFE](/atip-aiprp/2011-pp-fra) pour en savoir davantage sur la façon dont il évalue les facteurs relatifs à la vie privée dans le cadre de ses programmes et services. Des sommaires des évaluations des facteurs relatifs à la vie privée menées à bien sont accessibles [en ligne](https://ouvert.canada.ca/fr/search/ati?search_api_fulltext=Financial%20Transactions%20and%20Reports%20Analysis%20Centre%20of%20Canada%20).
+
+Pour les renseignements généraux, veuillez [communiquer avec nous](/contact-contactez/1-fra).
+
+## Salle de lecture
+
+En vertu de la Loi sur l'accès à l'information et de la Loi sur la protection des renseignements personnels, un espace sera mis à la disposition d'un demandeur, s'il souhaite consulter du matériel sur place. Les demandeurs sont priés de bien vouloir [communiquer avec nous](/contact-contactez/1-fra) pour prendre rendez-vous.
+
+Date de modification :
+:   2026-09-30
+
+﻿
+
+## À propos de ce site
+
+### Centre d’analyse des opérations et déclarations financières du Canada (CANAFE)
+
+* [Communiquer avec CANAFE](/contact-contactez/1-fra)
+* [Nouvelles de CANAFE](/new-neuf/1-fra)
+* [S’abonner à la liste de distribution de CANAFE](/contact-contactez/list-liste-fra)
+
+### Gouvernement du Canada
+
+* [Toutes les coordonnées](https://www.canada.ca/fr/contact.html)
+* [Ministères et organismes](https://www.canada.ca/fr/gouvernement/min.html)
+* [À propos du gouvernement](https://www.canada.ca/fr/gouvernement/systeme.html)
+
+#### Thèmes et sujets
+
+* [Emplois](https://www.canada.ca/fr/services/emplois.html)
+* [Immigration et citoyenneté](https://www.canada.ca/fr/services/immigration-citoyennete.html)
+* [Voyage et tourisme](https://voyage.gc.ca/)
+* [Entreprises](https://www.canada.ca/fr/services/entreprises.html)
+* [Prestations](https://www.canada.ca/fr/services/prestations.html)
+* [Santé](https://www.canada.ca/fr/services/sante.html)
+* [Impôts](https://www.canada.ca/fr/services/impots.html)
+* [Environnement et ressources naturelles](https://www.canada.ca/fr/services/environnement.html)
+* [Sécurité nationale et défense](https://www.canada.ca/fr/services/defense.html)
+* [Culture, histoire et sport](https://www.canada.ca/fr/services/culture.html)
+* [Services de police, justice et urgences](https://www.canada.ca/fr/services/police.html)
+* [Transport et infrastructure](https://www.canada.ca/fr/services/transport.html)
+* [Le Canada et le monde](https://www.international.gc.ca/world-monde/index.aspx?lang=fra)
+* [Argent et finance](https://www.canada.ca/fr/services/finance.html)
+* [Science et innovation](https://www.canada.ca/fr/services/science.html)
+* [Autochtones](https://www.canada.ca/fr/services/autochtones.html)
+* [Vétérans et militaires](https://www.canada.ca/fr/services/veterans-militaire.html)
+* [Jeunesse](https://www.canada.ca/fr/services/jeunesse.html)
+
+### Organisation du gouvernement du Canada
+
+* [Médias sociaux](https://www.canada.ca/fr/sociaux.html)
+* [Applications mobiles](https://www.canada.ca/fr/mobile.html)
+* [À propos de Canada.ca](https://www.canada.ca/fr/gouvernement/a-propos.html)
+* [Avis](https://www.canada.ca/fr/transparence/avis.html)
+* [Confidentialité](https://www.canada.ca/fr/transparence/confidentialite.html)
+
+![Symbole du gouvernement du Canada](/theme-wet10/GCWeb/assets/wmms-blk.svg)

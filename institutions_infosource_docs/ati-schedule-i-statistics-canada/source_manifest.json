@@ -69,20 +69,70 @@
   },
   "extraction": {
     "pibs": {
-      "english": 0,
-      "french": 0,
-      "merged": 0
+      "english": 61,
+      "french": 60,
+      "merged": 61
     },
     "classes_of_records": {
-      "english": 0,
-      "french": 0,
-      "merged": 0
+      "english": 55,
+      "french": 55,
+      "merged": 56
     }
   },
   "parser_versions": {
     "pibs": 5,
     "classes_of_records": 2
   },
-  "extracted_at_utc": "2026-09-04T07:24:24.797251+00:00",
-  "extraction_rebuild_version": 2
+  "extracted_at_utc": "2026-11-11T19:40:28.124692+00:00",
+  "extraction_rebuild_version": 2,
+  "supplemental_sources": [
+    {
+      "source_id": "infosource-2026-11-11-en",
+      "snapshot_date": "2026-11-11",
+      "collected_at_utc": "2026-11-11T19:32:12.075669+00:00",
+      "language": "en",
+      "roles": [
+        "pibs_en",
+        "classes_of_records_en"
+      ],
+      "requested_url": "https://www.statcan.gc.ca/en/about/transparency/publications-information-holdings/info-source/2025",
+      "final_url": "https://www.statcan.gc.ca/en/about/transparency/publications-information-holdings/info-source/2025",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 242877,
+      "sha256": "41743a14601893b62a503b2f5376f50bf9beb59405388cd556510d7800534a23",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-statistics-canada/snapshots/2026-11-11/supplemental/infosource-2026-11-11-en/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-statistics-canada/snapshots/2026-11-11/supplemental/infosource-2026-11-11-en/source.md",
+      "provenance": "Current official bilingual Info Source report found through official institutional navigation and web search; curated URL override verified 2026-11-11.",
+      "replaces_previous": true
+    },
+    {
+      "source_id": "infosource-2026-11-11-fr",
+      "snapshot_date": "2026-11-11",
+      "collected_at_utc": "2026-11-11T19:32:27.332867+00:00",
+      "language": "fr",
+      "roles": [
+        "pibs_fr",
+        "classes_of_records_fr"
+      ],
+      "requested_url": "https://www.statcan.gc.ca/fr/a-propos/transparence/publications-fonds-renseigments/info-source/2025",
+      "final_url": "https://www.statcan.gc.ca/fr/a-propos/transparence/publications-fonds-renseigments/info-source/2025",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 285485,
+      "sha256": "e76e594c1bfbd0646459a812c23367a9740bae761142d83ffd7c220b85a01e99",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-statistics-canada/snapshots/2026-11-11/supplemental/infosource-2026-11-11-fr/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-statistics-canada/snapshots/2026-11-11/supplemental/infosource-2026-11-11-fr/source.md",
+      "provenance": "Current official bilingual Info Source report found through official institutional navigation and web search; curated URL override verified 2026-11-11.",
+      "replaces_previous": true
+    }
+  ]
 }

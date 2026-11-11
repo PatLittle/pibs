@@ -142,6 +142,72 @@ Record Number: C-NLOPB RED 080
 
 
 class PibExtractorTests(unittest.TestCase):
+    def test_numbered_titles_and_abbreviated_bank_labels_stay_separate(self):
+        markdown = """### Institution-specific banks
+**PIB PPU 040: Forestlands program**
+**Description:** Funding for landowners.
+**Consistent Uses:** May refer to CRA PPU 005.
+**Bank Number:** NRCan PPU 040
+
+**PIB PPU 142: Oil to heat pump grant**
+**Description:** Applicant income and fuel bills.
+**Retention and Disposal:** Six years.
+**Bank Number:** PPU 142
+
+**PIB PPU 145: Presence: connectivity monitoring**
+**Description:** Employee network connections.
+**Bank Number:** PPU 145
+"""
+        rows = parse_pib_records(markdown)
+        self.assertEqual([r["bank_number"] for r in rows], ["NRCAN PPU 040", "NRCAN PPU 142", "NRCAN PPU 145"])
+        self.assertEqual(rows[0]["title"], "Forestlands program")
+        self.assertEqual(rows[1]["title"], "Oil to heat pump grant")
+        self.assertEqual(rows[2]["title"], "Presence: connectivity monitoring")
+        self.assertEqual(rows[1]["retention_and_disposal_standards"], "Six years.")
+        self.assertNotIn("Oil to heat", rows[0]["consistent_uses"])
+
+    def test_french_numbered_titles_and_label_variants(self):
+        markdown = """**FRP PPU 055 : Prix d’efficacité énergétique**
+**Description :** Candidatures.
+**Numéros de fichier :** RNCan PPU 055
+
+**FRP PPU 085 : Prêt de technologie**
+**Description :** Équipements prêtés.
+**Numéro d'enregistrement connexe :** RNCan MMS 003
+**Numéro de fichier bancaire :** RNCan PPU 085
+
+**RFP PPU 010 : Commission d’examen**
+**Description :** Demandes de commissions.
+**Finalité :** Évaluer les candidats.
+**Utilisation cohérente :** Rapports.
+**Numéro de fichier :** RNCan PPU 010
+
+**FRP PPU** **145: Présence prescrite au lieu de travail**
+**Description :** Connexions au réseau.
+**Numéro de fichier :** PPU 145
+"""
+        rows = parse_pib_records(markdown)
+        self.assertEqual([r["bank_number"] for r in rows], ["RNCAN PPU 055", "RNCAN PPU 085", "RNCAN PPU 010", "RNCAN PPU 145"])
+        self.assertEqual(rows[0]["title"], "Prix d’efficacité énergétique")
+        self.assertEqual(rows[1]["related_record_number"], "RNCan MMS 003")
+        self.assertEqual(rows[2]["title"], "Commission d’examen")
+        self.assertEqual(rows[2]["purpose"], "Évaluer les candidats.")
+        self.assertEqual(rows[2]["consistent_uses"], "Rapports.")
+        self.assertEqual(rows[3]["title"], "Présence prescrite au lieu de travail")
+
+    def test_abbreviated_bank_labels_require_an_unambiguous_agency(self):
+        markdown = """### First bank
+**Description:** First.
+**Bank Number:** AAA PPU 001
+### Second bank
+**Description:** Second.
+**Bank Number:** BBB PPU 002
+**PIB PPU 003: Abbreviated bank**
+**Description:** Third.
+**Bank Number:** PPU 003
+"""
+        self.assertEqual(len(parse_pib_records(markdown)), 2)
+
     def test_nfb_english_and_french_bank_number_labels_pair(self):
         english = """#### Self-Declaration Questionnaire for Filmmakers and Production Teams Bank
 **Description:** Voluntary information about creative teams.

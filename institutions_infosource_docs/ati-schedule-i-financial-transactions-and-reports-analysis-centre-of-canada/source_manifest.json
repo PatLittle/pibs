@@ -33,20 +33,70 @@
   },
   "extraction": {
     "pibs": {
-      "english": 0,
-      "french": 0,
-      "merged": 0
+      "english": 3,
+      "french": 3,
+      "merged": 3
     },
     "classes_of_records": {
-      "english": 0,
-      "french": 0,
-      "merged": 0
+      "english": 4,
+      "french": 4,
+      "merged": 4
     }
   },
   "parser_versions": {
     "pibs": 5,
     "classes_of_records": 2
   },
-  "extracted_at_utc": "2026-09-04T07:22:18.595379+00:00",
-  "extraction_rebuild_version": 2
+  "extracted_at_utc": "2026-11-11T19:40:07.386485+00:00",
+  "extraction_rebuild_version": 2,
+  "supplemental_sources": [
+    {
+      "source_id": "infosource-2026-11-11-en",
+      "snapshot_date": "2026-11-11",
+      "collected_at_utc": "2026-11-11T19:32:31.271962+00:00",
+      "language": "en",
+      "roles": [
+        "pibs_en",
+        "classes_of_records_en"
+      ],
+      "requested_url": "https://fintrac-canafe.canada.ca/atip-aiprp/infosource-eng.php",
+      "final_url": "https://fintrac-canafe.canada.ca/atip-aiprp/infosource-eng.php",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 87635,
+      "sha256": "e4bb17ccc04da6dd890227769e49c13c29dc7bc3bcd1010dff6807831fed3c00",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-financial-transactions-and-reports-analysis-centre-of-canada/snapshots/2026-11-11/supplemental/infosource-2026-11-11-en/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-financial-transactions-and-reports-analysis-centre-of-canada/snapshots/2026-11-11/supplemental/infosource-2026-11-11-en/source.md",
+      "provenance": "Current official bilingual Info Source report found through official institutional navigation and web search; curated URL override verified 2026-11-11.",
+      "replaces_previous": true
+    },
+    {
+      "source_id": "infosource-2026-11-11-fr",
+      "snapshot_date": "2026-11-11",
+      "collected_at_utc": "2026-11-11T19:32:35.294092+00:00",
+      "language": "fr",
+      "roles": [
+        "pibs_fr",
+        "classes_of_records_fr"
+      ],
+      "requested_url": "https://fintrac-canafe.canada.ca/atip-aiprp/infosource-fra.php",
+      "final_url": "https://fintrac-canafe.canada.ca/atip-aiprp/infosource-fra.php",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 104698,
+      "sha256": "87ac935889fd0b8304c44efd5cb62f7174ab70f356c0305a3fa8703a0bc0dca9",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-financial-transactions-and-reports-analysis-centre-of-canada/snapshots/2026-11-11/supplemental/infosource-2026-11-11-fr/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-financial-transactions-and-reports-analysis-centre-of-canada/snapshots/2026-11-11/supplemental/infosource-2026-11-11-fr/source.md",
+      "provenance": "Current official bilingual Info Source report found through official institutional navigation and web search; curated URL override verified 2026-11-11.",
+      "replaces_previous": true
+    }
+  ]
 }

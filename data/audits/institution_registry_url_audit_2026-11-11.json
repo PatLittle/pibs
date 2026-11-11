@@ -1,0 +1,331 @@
+{
+  "generated_at_utc": "2026-11-11T19:32:15.527481+00:00",
+  "source": "institution_registry.csv",
+  "summary": {
+    "institutions": 4,
+    "unique_seed_urls": 8,
+    "unique_followup_urls": 0,
+    "english_urls": 4,
+    "french_urls": 4,
+    "english_verified_or_document": 3,
+    "french_verified_or_document": 3,
+    "english_split_pib_pages": 0,
+    "french_split_pib_pages": 0
+  },
+  "institutions": [
+    {
+      "institution_id": "ati-schedule-i-department-of-natural-resources",
+      "legal_name_en": "Department of Natural Resources",
+      "en": {
+        "requested_url": "https://natural-resources.canada.ca/corporate/transparency/info-source-sources-federal-government-employee-information",
+        "final_url": "https://natural-resources.canada.ca/corporate/transparency/info-source-sources-federal-government-employee-information",
+        "status_code": 200,
+        "content_type": "text/html",
+        "byte_count": 185117,
+        "sha256": "901de2a1242b1ad2252a80e9c5fcbc5ad1e8487bb45c79e3423428f58d22b5c6",
+        "title": "Info Source: Sources of Federal Government and Employee Information - Natural Resources Canada",
+        "page_language": "en",
+        "validation": "verified_info_source",
+        "error": "",
+        "has_pib_details": true,
+        "has_class_details": true,
+        "alternate_urls": {
+          "en": "https://natural-resources.canada.ca/corporate/transparency/info-source-sources-federal-government-employee-information",
+          "fr": "https://ressources-naturelles.canada.ca/organisation/transparence/info-source-sources-renseignements-gouvernement-federal-fonctionnaires-federaux"
+        },
+        "pib_candidates": [],
+        "class_candidates": []
+      },
+      "fr": {
+        "requested_url": "https://ressources-naturelles.canada.ca/organisation/transparence/info-source-sources-renseignements-gouvernement-federal-fonctionnaires-federaux",
+        "final_url": "https://ressources-naturelles.canada.ca/organisation/transparence/info-source-sources-renseignements-gouvernement-federal-fonctionnaires-federaux",
+        "status_code": 200,
+        "content_type": "text/html",
+        "byte_count": 227282,
+        "sha256": "491f0f203d4f377c3b94880834a6c8bd017a06d83cf3e4e554b41388162aad66",
+        "title": "Info Source : Sources de renseignements du gouvernement fédéral et sur les fonctionnaires fédéraux - Ressources naturelles Canada",
+        "page_language": "fr",
+        "validation": "verified_info_source",
+        "error": "",
+        "has_pib_details": true,
+        "has_class_details": true,
+        "alternate_urls": {
+          "en": "https://natural-resources.canada.ca/corporate/transparency/info-source-sources-federal-government-employee-information",
+          "fr": "https://ressources-naturelles.canada.ca/organisation/transparence/info-source-sources-renseignements-gouvernement-federal-fonctionnaires-federaux"
+        },
+        "pib_candidates": [],
+        "class_candidates": []
+      }
+    },
+    {
+      "institution_id": "ati-schedule-i-financial-consumer-agency-of-canada",
+      "legal_name_en": "Financial Consumer Agency of Canada",
+      "en": {
+        "requested_url": "https://www.canada.ca/en/financial-consumer-agency/corporate/transparency/infosource.html",
+        "final_url": "https://www.canada.ca/en/financial-consumer-agency/corporate/transparency/infosource.html",
+        "status_code": 404,
+        "content_type": "text/html",
+        "byte_count": 14979,
+        "sha256": "84b77899078574d06cb1cf7c1bf2e3cf75bcc7fd563f2919a4fda73aac7a4b5a",
+        "title": "",
+        "page_language": "",
+        "validation": "http_error",
+        "error": "",
+        "has_pib_details": false,
+        "has_class_details": false,
+        "alternate_urls": {},
+        "pib_candidates": [],
+        "class_candidates": []
+      },
+      "fr": {
+        "requested_url": "https://www.canada.ca/fr/agence-consommation-matiere-financiere/organisation/transparence/infosource.html",
+        "final_url": "https://www.canada.ca/fr/agence-consommation-matiere-financiere/organisation/transparence/infosource.html",
+        "status_code": 404,
+        "content_type": "text/html",
+        "byte_count": 15057,
+        "sha256": "4838f4447f773ecd71b6c769c8e0ea153b66c499b9945721857cf8e7d574cd8e",
+        "title": "",
+        "page_language": "",
+        "validation": "http_error",
+        "error": "",
+        "has_pib_details": false,
+        "has_class_details": false,
+        "alternate_urls": {},
+        "pib_candidates": [],
+        "class_candidates": []
+      }
+    },
+    {
+      "institution_id": "ati-schedule-i-financial-transactions-and-reports-analysis-centre-of-canada",
+      "legal_name_en": "Financial Transactions and Reports Analysis Centre of Canada",
+      "en": {
+        "requested_url": "https://fintrac-canafe.canada.ca/atip-aiprp/infosource-eng.php",
+        "final_url": "https://fintrac-canafe.canada.ca/atip-aiprp/infosource-eng.php",
+        "status_code": 200,
+        "content_type": "text/html",
+        "byte_count": 87635,
+        "sha256": "e4bb17ccc04da6dd890227769e49c13c29dc7bc3bcd1010dff6807831fed3c00",
+        "title": "FINTRAC - Info Source",
+        "page_language": "en",
+        "validation": "verified_info_source",
+        "error": "",
+        "has_pib_details": true,
+        "has_class_details": true,
+        "alternate_urls": {},
+        "pib_candidates": [],
+        "class_candidates": []
+      },
+      "fr": {
+        "requested_url": "https://fintrac-canafe.canada.ca/atip-aiprp/infosource-fra.php",
+        "final_url": "https://fintrac-canafe.canada.ca/atip-aiprp/infosource-fra.php",
+        "status_code": 200,
+        "content_type": "text/html",
+        "byte_count": 104698,
+        "sha256": "87ac935889fd0b8304c44efd5cb62f7174ab70f356c0305a3fa8703a0bc0dca9",
+        "title": "CANAFE - Info Source",
+        "page_language": "fr",
+        "validation": "verified_info_source",
+        "error": "",
+        "has_pib_details": true,
+        "has_class_details": true,
+        "alternate_urls": {},
+        "pib_candidates": [],
+        "class_candidates": []
+      }
+    },
+    {
+      "institution_id": "ati-schedule-i-statistics-canada",
+      "legal_name_en": "Statistics Canada",
+      "en": {
+        "requested_url": "https://www.statcan.gc.ca/en/about/transparency/publications-information-holdings/info-source/2025",
+        "final_url": "https://www.statcan.gc.ca/en/about/transparency/publications-information-holdings/info-source/2025",
+        "status_code": 200,
+        "content_type": "text/html",
+        "byte_count": 242877,
+        "sha256": "41743a14601893b62a503b2f5376f50bf9beb59405388cd556510d7800534a23",
+        "title": "Info Source 2025",
+        "page_language": "en",
+        "validation": "verified_info_source",
+        "error": "",
+        "has_pib_details": true,
+        "has_class_details": true,
+        "alternate_urls": {
+          "en": "https://www.statcan.gc.ca/en/about/transparency/publications-information-holdings/info-source/2025",
+          "fr": "https://www.statcan.gc.ca/fr/a-propos/transparence/publications-fonds-renseigments/info-source/2025"
+        },
+        "pib_candidates": [],
+        "class_candidates": []
+      },
+      "fr": {
+        "requested_url": "https://www.statcan.gc.ca/fr/a-propos/transparence/publications-fonds-renseigments/info-source/2025",
+        "final_url": "https://www.statcan.gc.ca/fr/a-propos/transparence/publications-fonds-renseigments/info-source/2025",
+        "status_code": 200,
+        "content_type": "text/html",
+        "byte_count": 285485,
+        "sha256": "e76e594c1bfbd0646459a812c23367a9740bae761142d83ffd7c220b85a01e99",
+        "title": "Info Source 2025",
+        "page_language": "fr",
+        "validation": "verified_info_source",
+        "error": "",
+        "has_pib_details": true,
+        "has_class_details": true,
+        "alternate_urls": {
+          "en": "https://www.statcan.gc.ca/en/about/transparency/publications-information-holdings/info-source/2025",
+          "fr": "https://www.statcan.gc.ca/fr/a-propos/transparence/publications-fonds-renseigments/info-source/2025"
+        },
+        "pib_candidates": [],
+        "class_candidates": []
+      }
+    }
+  ],
+  "fetched_urls": {
+    "https://fintrac-canafe.canada.ca/atip-aiprp/infosource-eng.php": {
+      "requested_url": "https://fintrac-canafe.canada.ca/atip-aiprp/infosource-eng.php",
+      "final_url": "https://fintrac-canafe.canada.ca/atip-aiprp/infosource-eng.php",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 87635,
+      "sha256": "e4bb17ccc04da6dd890227769e49c13c29dc7bc3bcd1010dff6807831fed3c00",
+      "title": "FINTRAC - Info Source",
+      "page_language": "en",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": true,
+      "has_class_details": true,
+      "alternate_urls": {},
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://fintrac-canafe.canada.ca/atip-aiprp/infosource-fra.php": {
+      "requested_url": "https://fintrac-canafe.canada.ca/atip-aiprp/infosource-fra.php",
+      "final_url": "https://fintrac-canafe.canada.ca/atip-aiprp/infosource-fra.php",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 104698,
+      "sha256": "87ac935889fd0b8304c44efd5cb62f7174ab70f356c0305a3fa8703a0bc0dca9",
+      "title": "CANAFE - Info Source",
+      "page_language": "fr",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": true,
+      "has_class_details": true,
+      "alternate_urls": {},
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://natural-resources.canada.ca/corporate/transparency/info-source-sources-federal-government-employee-information": {
+      "requested_url": "https://natural-resources.canada.ca/corporate/transparency/info-source-sources-federal-government-employee-information",
+      "final_url": "https://natural-resources.canada.ca/corporate/transparency/info-source-sources-federal-government-employee-information",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 185117,
+      "sha256": "901de2a1242b1ad2252a80e9c5fcbc5ad1e8487bb45c79e3423428f58d22b5c6",
+      "title": "Info Source: Sources of Federal Government and Employee Information - Natural Resources Canada",
+      "page_language": "en",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": true,
+      "has_class_details": true,
+      "alternate_urls": {
+        "en": "https://natural-resources.canada.ca/corporate/transparency/info-source-sources-federal-government-employee-information",
+        "fr": "https://ressources-naturelles.canada.ca/organisation/transparence/info-source-sources-renseignements-gouvernement-federal-fonctionnaires-federaux"
+      },
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://ressources-naturelles.canada.ca/organisation/transparence/info-source-sources-renseignements-gouvernement-federal-fonctionnaires-federaux": {
+      "requested_url": "https://ressources-naturelles.canada.ca/organisation/transparence/info-source-sources-renseignements-gouvernement-federal-fonctionnaires-federaux",
+      "final_url": "https://ressources-naturelles.canada.ca/organisation/transparence/info-source-sources-renseignements-gouvernement-federal-fonctionnaires-federaux",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 227282,
+      "sha256": "491f0f203d4f377c3b94880834a6c8bd017a06d83cf3e4e554b41388162aad66",
+      "title": "Info Source : Sources de renseignements du gouvernement fédéral et sur les fonctionnaires fédéraux - Ressources naturelles Canada",
+      "page_language": "fr",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": true,
+      "has_class_details": true,
+      "alternate_urls": {
+        "en": "https://natural-resources.canada.ca/corporate/transparency/info-source-sources-federal-government-employee-information",
+        "fr": "https://ressources-naturelles.canada.ca/organisation/transparence/info-source-sources-renseignements-gouvernement-federal-fonctionnaires-federaux"
+      },
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://www.canada.ca/en/financial-consumer-agency/corporate/transparency/infosource.html": {
+      "requested_url": "https://www.canada.ca/en/financial-consumer-agency/corporate/transparency/infosource.html",
+      "final_url": "https://www.canada.ca/en/financial-consumer-agency/corporate/transparency/infosource.html",
+      "status_code": 404,
+      "content_type": "text/html",
+      "byte_count": 14979,
+      "sha256": "84b77899078574d06cb1cf7c1bf2e3cf75bcc7fd563f2919a4fda73aac7a4b5a",
+      "title": "",
+      "page_language": "",
+      "validation": "http_error",
+      "error": "",
+      "has_pib_details": false,
+      "has_class_details": false,
+      "alternate_urls": {},
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://www.canada.ca/fr/agence-consommation-matiere-financiere/organisation/transparence/infosource.html": {
+      "requested_url": "https://www.canada.ca/fr/agence-consommation-matiere-financiere/organisation/transparence/infosource.html",
+      "final_url": "https://www.canada.ca/fr/agence-consommation-matiere-financiere/organisation/transparence/infosource.html",
+      "status_code": 404,
+      "content_type": "text/html",
+      "byte_count": 15057,
+      "sha256": "4838f4447f773ecd71b6c769c8e0ea153b66c499b9945721857cf8e7d574cd8e",
+      "title": "",
+      "page_language": "",
+      "validation": "http_error",
+      "error": "",
+      "has_pib_details": false,
+      "has_class_details": false,
+      "alternate_urls": {},
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://www.statcan.gc.ca/en/about/transparency/publications-information-holdings/info-source/2025": {
+      "requested_url": "https://www.statcan.gc.ca/en/about/transparency/publications-information-holdings/info-source/2025",
+      "final_url": "https://www.statcan.gc.ca/en/about/transparency/publications-information-holdings/info-source/2025",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 242877,
+      "sha256": "41743a14601893b62a503b2f5376f50bf9beb59405388cd556510d7800534a23",
+      "title": "Info Source 2025",
+      "page_language": "en",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": true,
+      "has_class_details": true,
+      "alternate_urls": {
+        "en": "https://www.statcan.gc.ca/en/about/transparency/publications-information-holdings/info-source/2025",
+        "fr": "https://www.statcan.gc.ca/fr/a-propos/transparence/publications-fonds-renseigments/info-source/2025"
+      },
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://www.statcan.gc.ca/fr/a-propos/transparence/publications-fonds-renseigments/info-source/2025": {
+      "requested_url": "https://www.statcan.gc.ca/fr/a-propos/transparence/publications-fonds-renseigments/info-source/2025",
+      "final_url": "https://www.statcan.gc.ca/fr/a-propos/transparence/publications-fonds-renseigments/info-source/2025",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 285485,
+      "sha256": "e76e594c1bfbd0646459a812c23367a9740bae761142d83ffd7c220b85a01e99",
+      "title": "Info Source 2025",
+      "page_language": "fr",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": true,
+      "has_class_details": true,
+      "alternate_urls": {
+        "en": "https://www.statcan.gc.ca/en/about/transparency/publications-information-holdings/info-source/2025",
+        "fr": "https://www.statcan.gc.ca/fr/a-propos/transparence/publications-fonds-renseigments/info-source/2025"
+      },
+      "pib_candidates": [],
+      "class_candidates": []
+    }
+  }
+}

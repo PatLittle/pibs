@@ -15,7 +15,7 @@ ati-schedule-i-department-of-indigenous-services,2243,Department of Indigenous S
 ati-schedule-i-department-of-industry,2231,Department of Industry,Ministère de l’Industrie,true,true,collected,collected,collected,collected,0,22,0,22,0,0,0
 ati-schedule-i-department-of-justice,2232,Department of Justice,Ministère de la Justice,true,true,collected,collected,collected,collected,0,13,13,13,32,31,32
 ati-schedule-i-department-of-national-defence,2233,Department of National Defence,Ministère de la Défense nationale,true,true,collected,collected,collected,collected,0,93,86,94,145,146,148
-ati-schedule-i-department-of-natural-resources,2234,Department of Natural Resources,Ministère des Ressources naturelles,true,true,collected,collected,collected,collected,0,0,0,0,0,0,0
+ati-schedule-i-department-of-natural-resources,2234,Department of Natural Resources,Ministère des Ressources naturelles,true,true,collected,collected,collected,collected,0,19,19,19,23,24,24
 ati-schedule-i-department-of-public-safety-and-emergency-preparedness,2235,Department of Public Safety and Emergency Preparedness,Ministère de la Sécurité publique et de la Protection civile,true,true,collected,collected,collected,collected,0,8,10,10,49,50,51
 ati-schedule-i-department-of-public-works-and-government-services,2236,Department of Public Works and Government Services,Ministère des Travaux publics et des Services gouvernementaux,true,true,collected,collected,collected,collected,0,24,24,24,66,66,67
 ati-schedule-i-department-of-transport,2238,Department of Transport,Ministère des Transports,true,true,collected,collected,collected,collected,0,27,25,27,110,112,113
@@ -68,7 +68,7 @@ ati-schedule-i-federal-economic-development-agency-for-northern-ontario,2299,Fed
 ati-schedule-i-federal-economic-development-agency-for-southern-ontario,2258,Federal Economic Development Agency for Southern Ontario,Agence fédérale de développement économique pour le Sud de l’Ontario,true,true,error,error,error,error,4,0,0,0,0,0,0
 ati-schedule-i-federal-public-service-health-care-plan-administration-authority,,Federal Public Service Health Care Plan Administration Authority,Administration du Régime de soins de santé de la fonction publiquefédérale,true,true,collected,collected,collected,collected,0,0,0,0,0,0,0
 ati-schedule-i-financial-consumer-agency-of-canada,2259,Financial Consumer Agency of Canada,Agence de la consommation en matière financière du Canada,true,true,error,error,error,error,4,0,0,0,0,0,0
-ati-schedule-i-financial-transactions-and-reports-analysis-centre-of-canada,2260,Financial Transactions and Reports Analysis Centre of Canada,Centre d’analyse des opérations et déclarations financières du Canada,true,true,error,error,error,error,4,0,0,0,0,0,0
+ati-schedule-i-financial-transactions-and-reports-analysis-centre-of-canada,2260,Financial Transactions and Reports Analysis Centre of Canada,Centre d’analyse des opérations et déclarations financières du Canada,true,true,collected,collected,collected,collected,0,3,3,3,4,4,4
 ati-schedule-i-first-nations-financial-management-board,3524,First Nations Financial Management Board,Conseil de gestion financière des premières nations,true,true,error,error,error,error,4,0,0,0,0,0,0
 ati-schedule-i-first-nations-infrastructure-institute,,First Nations Infrastructure Institute,Institut des infrastructures des premières nations,false,false,not_applicable,not_applicable,not_applicable,not_applicable,0,,,0,,,0
 ati-schedule-i-first-nations-tax-commission,3525,First Nations Tax Commission,Commission de la fiscalité des premières nations,true,true,error,error,error,error,4,0,0,0,0,0,0
@@ -135,7 +135,7 @@ ati-schedule-i-secretariat-of-the-national-security-and-intelligence-committee-o
 ati-schedule-i-sept-iles-port-authority,3497,Sept-Îles Port Authority,Administration portuaire de Sept-Îles,true,true,collected,collected,collected,collected,0,0,3,3,18,19,19
 ati-schedule-i-shared-services-canada,2292,Shared Services Canada,Services partagés Canada,true,true,collected,collected,collected,collected,0,5,5,5,26,26,26
 ati-schedule-i-social-sciences-and-humanities-research-council,2316,Social Sciences and Humanities Research Council,Conseil de recherches en sciences humaines,true,true,error,error,error,error,4,0,0,0,0,0,0
-ati-schedule-i-statistics-canada,2293,Statistics Canada,Statistique Canada,true,true,collected,collected,collected,collected,0,0,0,0,0,0,0
+ati-schedule-i-statistics-canada,2293,Statistics Canada,Statistique Canada,true,true,collected,collected,collected,collected,0,61,60,61,55,55,56
 ati-schedule-i-statute-revision-commission,,Statute Revision Commission,Commission de révision des lois,false,false,not_applicable,not_applicable,not_applicable,not_applicable,0,,,0,,,0
 ati-schedule-i-st-john-s-port-authority,3500,St. John’s Port Authority,Administration portuaire de St. John’s,true,true,collected,collected,collected,collected,0,9,0,9,10,0,10
 ati-schedule-i-thunder-bay-port-authority,3504,Thunder Bay Port Authority,Administration portuaire de Thunder Bay,true,true,collected,collected,collected,collected,0,1,1,1,6,6,6

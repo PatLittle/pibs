@@ -220,7 +220,7 @@ def split_multi_label_lines(text):
     return "\n".join(out)
 
 
-def extract_label_value(line):
+def extract_label_value(line, aliases=ALIAS):
     value = line.strip().replace("\xa0", " ")
 
     match = re.match(r"^\*\*(.+?)\*\*\s*(.*)$", value)
@@ -231,21 +231,21 @@ def extract_label_value(line):
 
         if ":" in inside:
             prefix, rest = inside.split(":", 1)
-            field = ALIAS.get(normalize_label(prefix))
+            field = aliases.get(normalize_label(prefix))
             if field:
                 return field, clean_value((rest.strip() + " " + tail).strip())
         elif tail.startswith(":"):
-            field = ALIAS.get(normalized_inside)
+            field = aliases.get(normalized_inside)
             if field:
                 return field, clean_value(tail[1:].strip())
         else:
-            field = ALIAS.get(normalized_inside)
+            field = aliases.get(normalized_inside)
             if field:
                 return field, clean_value(tail) if tail else ""
 
     if ":" in value:
         prefix, rest = value.split(":", 1)
-        field = ALIAS.get(normalize_label(prefix))
+        field = aliases.get(normalize_label(prefix))
         if field:
             return field, clean_value(rest)
 
@@ -253,7 +253,7 @@ def extract_label_value(line):
     # the label on one plain line and the value on the following ``:`` line.
     # Recognize only an exact known label here so ordinary prose is not
     # promoted to a field.
-    field = ALIAS.get(normalize_label(value))
+    field = aliases.get(normalize_label(value))
     if field:
         return field, ""
 
@@ -294,12 +294,35 @@ def parse_bank_number(value):
     return f"{match.group(1)} {match.group(2)} {match.group(3)}"
 
 
+def numbered_bank_title(line):
+    """Read a PIB/FRP-prefixed title without treating that label as an agency."""
+    value = normalize_spaces(line.replace("*", "").lstrip("# "))
+    match = re.fullmatch(r"(?:PIB|FRP|RFP)\s+([A-Z]{3})\s+\d{3}\s*:\s*(.+)", value)
+    return match.group(2) if match and match.group(1) in PIB_SERIES else None
+
+
 def parse_records(markdown):
     lines = split_multi_label_lines(markdown).splitlines()
+    numbered_layout = any(numbered_bank_title(line) for line in lines)
+    aliases = ALIAS
+    if numbered_layout:
+        aliases = {
+            **ALIAS,
+            "remarques": "note",
+            "finalite": "purpose",
+            "utilisation coherente": "consistent_uses",
+            "retention and disposal": "retention_and_disposal_standards",
+            "numero d enregistrement connexe": "related_record_number",
+            "numeros de fichier": "bank_number",
+            "numero de fichier bancaire": "bank_number",
+        }
+
+    def label_value(line):
+        return extract_label_value(line, aliases)
 
     bank_points = []
     for idx, line in enumerate(lines):
-        field, value = extract_label_value(line)
+        field, value = label_value(line)
         if field != "bank_number":
             continue
 
@@ -315,8 +338,21 @@ def parse_records(markdown):
                 break
 
         bank = parse_bank_number(bank_value)
-        if bank:
+        if bank and (not numbered_layout or bank.split()[0] not in {"PIB", "FRP", "RFP"}):
             bank_points.append((idx, bank))
+
+    # A few reports omit the agency from selected *labelled* bank numbers.
+    # Inherit it only when every fully qualified bank label agrees; references
+    # in descriptions/uses do not establish the report's owning agency.
+    organizations = {bank.split()[0] for _, bank in bank_points}
+    if numbered_layout and len(organizations) == 1:
+        organization = next(iter(organizations))
+        for idx, line in enumerate(lines):
+            field, value = label_value(line)
+            abbreviated = re.fullmatch(r"([A-Z]{3})\s+(\d{3})", value or "")
+            if field == "bank_number" and abbreviated and abbreviated.group(1) in PIB_SERIES:
+                bank_points.append((idx, f"{organization} {abbreviated.group(1)} {abbreviated.group(2)}"))
+        bank_points.sort()
 
     records = []
     for idx, (bank_idx, bank_number) in enumerate(bank_points):
@@ -329,14 +365,19 @@ def parse_records(markdown):
         # rather than Markdown headings, while higher-level program headings
         # occur farther back and are not bank names.
         for scan in range(bank_idx - 1, prev_bank_idx, -1):
-            field, _ = extract_label_value(lines[scan])
+            field, _ = label_value(lines[scan])
             if field != "description":
                 continue
             candidate_index = scan - 1
             while candidate_index > prev_bank_idx and not clean_value(lines[candidate_index]):
                 candidate_index -= 1
             candidate = clean_value(lines[candidate_index].lstrip("#").strip("* "))
-            candidate_field, _ = extract_label_value(lines[candidate_index])
+            candidate_field, _ = label_value(lines[candidate_index])
+            numbered_title = numbered_bank_title(lines[candidate_index])
+            if numbered_title:
+                title_index = candidate_index
+                title = numbered_title
+                break
             if (
                 candidate
                 and not candidate_field
@@ -387,7 +428,7 @@ def parse_records(markdown):
             while scan > prev_bank_idx and not clean_value(lines[scan]):
                 scan -= 1
             candidate = clean_value(lines[scan].lstrip("#").strip("* "))
-            candidate_field, _ = extract_label_value(lines[scan])
+            candidate_field, _ = label_value(lines[scan])
             if (
                 candidate
                 and not candidate_field
@@ -410,7 +451,7 @@ def parse_records(markdown):
 
         block_idx = 0
         while block_idx < len(block):
-            field, immediate = extract_label_value(block[block_idx])
+            field, immediate = label_value(block[block_idx])
             if not field:
                 block_idx += 1
                 continue
@@ -426,8 +467,8 @@ def parse_records(markdown):
                     scan += 1
                     continue
 
-                next_field, _ = extract_label_value(block[scan])
-                if next_field or re.match(r"^#{1,6}\s+", nxt):
+                next_field, _ = label_value(block[scan])
+                if next_field or re.match(r"^#{1,6}\s+", nxt) or numbered_bank_title(nxt):
                     break
 
                 values.append(nxt[1:].strip() if nxt.startswith(":") else nxt)

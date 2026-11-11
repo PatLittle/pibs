@@ -79,20 +79,70 @@
   },
   "extraction": {
     "pibs": {
-      "english": 0,
-      "french": 0,
-      "merged": 0
+      "english": 19,
+      "french": 19,
+      "merged": 19
     },
     "classes_of_records": {
-      "english": 0,
-      "french": 0,
-      "merged": 0
+      "english": 23,
+      "french": 24,
+      "merged": 24
     }
   },
   "parser_versions": {
     "pibs": 5,
     "classes_of_records": 2
   },
-  "extracted_at_utc": "2026-09-04T07:19:55.355189+00:00",
-  "extraction_rebuild_version": 2
+  "extracted_at_utc": "2026-11-11T19:39:35.418219+00:00",
+  "extraction_rebuild_version": 2,
+  "supplemental_sources": [
+    {
+      "source_id": "infosource-2026-11-11-en",
+      "snapshot_date": "2026-11-11",
+      "collected_at_utc": "2026-11-11T19:31:50.490970+00:00",
+      "language": "en",
+      "roles": [
+        "pibs_en",
+        "classes_of_records_en"
+      ],
+      "requested_url": "https://natural-resources.canada.ca/corporate/transparency/info-source-sources-federal-government-employee-information",
+      "final_url": "https://natural-resources.canada.ca/corporate/transparency/info-source-sources-federal-government-employee-information",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 185117,
+      "sha256": "901de2a1242b1ad2252a80e9c5fcbc5ad1e8487bb45c79e3423428f58d22b5c6",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-natural-resources/snapshots/2026-11-11/supplemental/infosource-2026-11-11-en/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-natural-resources/snapshots/2026-11-11/supplemental/infosource-2026-11-11-en/source.md",
+      "provenance": "Current official bilingual Info Source report found through official institutional navigation and web search; curated URL override verified 2026-11-11.",
+      "replaces_previous": true
+    },
+    {
+      "source_id": "infosource-2026-11-11-fr",
+      "snapshot_date": "2026-11-11",
+      "collected_at_utc": "2026-11-11T19:31:58.966654+00:00",
+      "language": "fr",
+      "roles": [
+        "pibs_fr",
+        "classes_of_records_fr"
+      ],
+      "requested_url": "https://ressources-naturelles.canada.ca/organisation/transparence/info-source-sources-renseignements-gouvernement-federal-fonctionnaires-federaux",
+      "final_url": "https://ressources-naturelles.canada.ca/organisation/transparence/info-source-sources-renseignements-gouvernement-federal-fonctionnaires-federaux",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 227282,
+      "sha256": "491f0f203d4f377c3b94880834a6c8bd017a06d83cf3e4e554b41388162aad66",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-department-of-natural-resources/snapshots/2026-11-11/supplemental/infosource-2026-11-11-fr/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-department-of-natural-resources/snapshots/2026-11-11/supplemental/infosource-2026-11-11-fr/source.md",
+      "provenance": "Current official bilingual Info Source report found through official institutional navigation and web search; curated URL override verified 2026-11-11.",
+      "replaces_previous": true
+    }
+  ]
 }
