@@ -102,7 +102,7 @@ class AgentToolEngineTests(unittest.TestCase):
         self.assertEqual(4, len(manifest["tools"]))
         self.assertEqual(22, manifest["question_count"])
         self.assertEqual(22, manifest["adaptive_route_count"])
-        self.assertEqual(1040, manifest["pib_count"])
+        self.assertEqual(1145, manifest["pib_count"])
         start = self.engine.advance()
         self.assertFalse(start["complete"])
         self.assertEqual("q_common_start", start["next_step"]["question_code"])

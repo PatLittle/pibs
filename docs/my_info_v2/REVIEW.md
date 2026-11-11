@@ -16,11 +16,11 @@ Find which federal organizations may have records about you, what those records 
 
 There are 56 activity statements in 8 expandable groups, not 56 mandatory questions. Search/group navigation reduces the visible list; this still needs user testing for scanning effort.
 
-The reviewed guided routes reach 53 of 1040 inventory rows (5.1%). The directory exposes all 1040 rows; 987 need program/role review there. **Directory access is not 100% automatic matching coverage.** V1's 597 direct-labelled rows include broad classifier/selector matches that have not had the same source review.
+The reviewed guided routes reach 53 of 1145 inventory rows (4.6%). The directory exposes all 1145 rows; 1092 need program/role review there. **Directory access is not 100% automatic matching coverage.** V1's 597 direct-labelled rows include broad classifier/selector matches that have not had the same source review.
 
-There are 972 distinct bank-number keys: publishing the same key under multiple institutions explains part of the 1040-row total. V2 selectors use full institution-scoped record IDs.
+There are 1077 distinct bank-number keys: publishing the same key under multiple institutions explains part of the 1145-row total. V2 selectors use full institution-scoped record IDs.
 
-Info Source mandate/program context was extracted for 67 institutions in English and 64 in French. Missing context is explicit; extracted text assists navigation and never supplies a personal match.
+Info Source mandate/program context was extracted for 73 institutions in English and 70 in French. Missing context is explicit; extracted text assists navigation and never supplies a personal match.
 
 Only 6 source-checked single-event retention rules are executable in this prototype. Other published rules remain visible and uncertain. This intentionally exposes the remaining curation work.
 
@@ -1398,6 +1398,40 @@ FR — `institutions_infosource_docs/ati-schedule-i-department-of-canadian-herit
 
 Plus précisément, le ministère du Patrimoine canadien est responsable de formuler et de mettre en œuvre des politiques culturelles liées au droit d'auteur, aux investissements étrangers et à la radiodiffusion, ainsi que des politiques relatives aux arts, au patrimoine, aux langues officielles, au sport, au cérémonial d'État et au protocole, et aux symboles canadiens. Les principales activités du Ministère visent à financer des organismes communautaires et d'autres organismes externes afin de promouvoir les avantages de la culture, de l'identité et du sport auprès de la population canadienne.
 
+### Canadian Institutes of Health Research
+
+EN — `institutions_infosource_docs/ati-schedule-i-canadian-institutes-of-health-research/classes_of_records_en.md:62` — Background
+
+CIHR was created in 2000 under the authority of the *[Canadian Institutes of Health Research Act](http://laws-lois.justice.gc.ca/eng/acts/C-18.1/index.html)*. It is an independent agency and is accountable to Parliament through the Minister of Health.
+
+Our mission is to create new scientific knowledge and to enable its translation into improved health, more effective health services and products, and a strengthened Canadian health care system.
+
+CIHR is the largest funder of health research in Canada. Composed of [13 "virtual" Institutes](7155.html) and three business portfolios, CIHR provides leadership and support to over 13,000 world-class researchers from all pillars of health research and from all regions of Canada.
+
+EN — `institutions_infosource_docs/ati-schedule-i-canadian-institutes-of-health-research/classes_of_records_en.md:74` — Responsibilities
+
+CIHR's institutes bring together all partners in the research process – the people who fund research, those who carry it out and those who use its results – to share ideas and focus on what Canadians need: good health and the means to prevent disease and fight it when it happens. Each institute supports a broad spectrum of research in its topic areas and, in consultation with its stakeholders, sets priorities for research in those areas.
+
+Each of CIHR's 13 Institutes is led by a [Scientific Director](2890.html), supported by an [Institute Advisory Board](18156.html).
+
+CIHR is led by a President and a Governing Council comprised of up to 18 members appointed by Order-in-Council. The Governing Council sets the overall strategic direction, goals and policies. It establishes Health Research Institutes and determines the mandate of each. As outlined in the legislation, the Governing Council is responsible for developing its strategic direction, goals and policies; evaluating its performance, approving its budget; establishing a peer review process for research proposals submitted to CIHR; approving funding for research; approving other expenditures to carry out its objective; establishing policies that encourage consultation and collaboration with persons and organizations that have an interest in health research; and dealing with any other matter that the Governing Council considers related to the affairs of CIHR.
+
+FR — `institutions_infosource_docs/ati-schedule-i-canadian-institutes-of-health-research/classes_of_records_fr.md:62` — Historique
+
+Les Instituts de recherche en santé du Canada (IRSC) ont été créés en 2000 en vertu de la *[Loi sur les Instituts de recherche en santé du Canada](https://laws-lois.justice.gc.ca/fra/lois/C-18.1/index.html)*. Il s'agit d'un organisme indépendant qui rend compte au Parlement par l'entremise de la ministre de la Santé.
+
+Leur objectif des IRSC est de créer de nouvelles connaissances scientifiques et d'en favoriser l'application en vue d'améliorer la santé, d'offrir de meilleurs produits et services de santé, et de renforcer le système de soins de santé au Canada.
+
+Les IRSC sont le plus important bailleur de fonds de la recherche en santé au pays. Composés de [13 instituts « virtuels »](7155.html) et de trois portefeuilles d'activités, les IRSC offrent leadership et soutien à plus de 13 000 chercheurs de premier ordre dans tous les domaines de recherche en santé et provenant de toutes les régions du Canada.
+
+FR — `institutions_infosource_docs/ati-schedule-i-canadian-institutes-of-health-research/classes_of_records_fr.md:74` — Responsabilités
+
+Les instituts des IRSC rassemblent tous les partenaires dans le processus de recherche – à savoir ceux qui subventionnent la recherche, ceux qui la réalisent et ceux qui en utilisent les résultats – pour échanger des idées et se concentrer sur les besoins des Canadiens : une bonne santé et les moyens de prévenir et de combattre les maladies. Chaque institut appuie un large éventail de recherches dans des domaines qui lui sont propres et, en consultation avec ses intervenants, établit les priorités de recherche dans ces domaines.
+
+Chacun des treize instituts des IRSC est dirigé par un [directeur scientifique](2890.html) qui est appuyé par le [conseil consultatif](18156.html) de l'institut en question.
+
+Les IRSC sont dirigés par un président et un conseil d'administration composé d'au plus 18 membres nommés par le gouverneur en conseil. Le conseil d'administration définit l'orientation stratégique, les politiques et les objectifs globaux. Il se charge également de la création des instituts de recherche en santé, ainsi que de la définition de leur mandat. Conformément à la *Loi sur les IRSC*, le conseil d'administration doit notamment assumer les fonctions suivantes : établir l'orientation stratégique, les objectifs et les politiques des IRSC; évaluer leur efficacité et approuver leur budget; instaurer un processus d'évaluation par les pairs pour les projets de recherche proposés aux IRSC; approuver le financement des projets de recherche; autoriser les dépenses supplémentaires pour réaliser la mission de l'organisation; établir des politiques qui favorisent la consultation des personnes et des organismes qui s'intéressent à la recherche en santé de même que la collaboration avec ces personnes et ces organismes; régler toute autre question qu'il estime liée aux activités des IRSC.
+
 ### Canadian Museum for Human Rights
 
 EN — `institutions_infosource_docs/ati-schedule-i-canadian-museum-for-human-rights/classes_of_records_en.md:135` — Background
@@ -1423,6 +1457,29 @@ Le Musée joue un rôle essentiel pour : préserver et faire connaître le patr
 FR — `institutions_infosource_docs/ati-schedule-i-canadian-museum-for-human-rights/classes_of_records_fr.md:143` — Responsabilités
 
 Le mandat du Musée et d'étudier le thème pour les droits de la personne en mettant un accent particulier, mais non exclusif, sur le Canada, dans le but d'accroître la compréhension qu'a le public pour les droits de la personne, de promouvoir le respect des autres et de favoriser la réflexion et le dialogue.
+
+### Canadian Nuclear Safety Commission
+
+EN — `institutions_infosource_docs/ati-schedule-i-canadian-nuclear-safety-commission/classes_of_records_en.md:78` — Background
+
+To better understand the Canadian Nuclear Safety Commission (CNSC), read about its
+[history](/eng/about-us/), including its legislative foundation and how it reports to Parliament.
+
+EN — `institutions_infosource_docs/ati-schedule-i-canadian-nuclear-safety-commission/classes_of_records_en.md:83` — Responsibilities
+
+Read about the CNSC's [mandate,](/eng/the-commission/) the
+[institution's program responsibilities](/eng/resources/), and the institution's major policies.
+
+FR — `institutions_infosource_docs/ati-schedule-i-canadian-nuclear-safety-commission/classes_of_records_fr.md:84` — Contexte
+
+Pour mieux comprendre la Commission canadienne de sûreté nucléaire (CCSN), consultez son
+[historique](/fra/about-us/), y compris son fondement juridique et la façon dont elle rend compte
+au Parlement.
+
+FR — `institutions_infosource_docs/ati-schedule-i-canadian-nuclear-safety-commission/classes_of_records_fr.md:90` — Responsabilités
+
+Apprenez-en plus sur le [mandat](/fra/the-commission/) de la CCSN, sur ses
+[responsabilités en matière de programme](/fra/resources/) et ses principales politiques.
 
 ### Canadian Radio-television and Telecommunications Commission
 
@@ -1684,6 +1741,24 @@ FR — `institutions_infosource_docs/ati-schedule-i-federal-public-service-healt
 L’Administration est chargée d’administrer le RSSFP. Elle a pour mandat de veiller à ce que les prestations et les services aux membres du Régime et à leurs personnes à charge assurées, selon les définitions figurant dans les documents du RSSFP, soient offerts de façon à assurer l’administration efficace et efficiente du RSSFP.
 
 Informez-vous sur les responsabilités de l’Administration [ici](https://www.rssfp.ca/a-propos-du-rssfp/au-sujet-de-ladministration/).
+
+### Financial Transactions and Reports Analysis Centre of Canada
+
+EN — `institutions_infosource_docs/ati-schedule-i-financial-transactions-and-reports-analysis-centre-of-canada/classes_of_records_en.md:64` — Background
+
+The Financial Transactions and Reports Analysis Centre of Canada (FINTRAC), is Canada's financial intelligence unit and anti-money laundering and terrorist financing supervisor. The Centre exists to assist in the detection, prevention and deterrence of money laundering, the financing of terrorist activities, sanctions evasions and threats to the security of Canada, while ensuring the protection of personal information under its control. FINTRAC’s financial intelligence and supervision programs strive to disrupt the ability of criminals and terrorist groups that seek to abuse Canada’s financial system and to reduce the profit incentive of crime. FINTRAC is an independent agency that operates at arm’s length from law enforcement agencies and other entities to which it is authorized to disclose financial intelligence. It reports to the Minister of Finance who, is in turn accountable to Parliament for the activities of the Centre. FINTRAC was established by, and operates within, the ambit of the Proceeds of Crime (Money Laundering) and Terrorist Financing Act (PCMLTFA) and its Regulations.
+
+EN — `institutions_infosource_docs/ati-schedule-i-financial-transactions-and-reports-analysis-centre-of-canada/classes_of_records_en.md:68` — Responsibilities
+
+FINTRAC assists in the detection, prevention and deterrence of money laundering, the financing of terrorist activities, sanctions evasions and threats to the security of Canada. Its major policy and program responsibilities are:
+
+FR — `institutions_infosource_docs/ati-schedule-i-financial-transactions-and-reports-analysis-centre-of-canada/classes_of_records_fr.md:64` — Contexte
+
+Le Centre d’analyse des opérations et déclarations financières du Canada (CANAFE) est l’unité du renseignement financier et l’organisme de surveillance en matière de lutte contre le blanchiment d’argent et le financement des activités terroristes du Canada. Il a été créé afin de faciliter la détection, la prévention et la dissuasion du blanchiment d’argent et du financement des activités terroristes, du contournement des sanctions et des menaces à la sécurité du Canada, tout en assurant la protection des renseignements personnels qu’il détient. Par l’entremise de ses programmes du renseignement financier et de surveillance, CANAFE s’efforce d’empêcher les criminels et les groupes terroristes d’abuser du système financier du Canada, et de rendre le crime moins rentable. CANAFE est un organisme autonome qui dirige ses activités indépendamment des organismes d’application de la loi et d’autres entités auxquels il est autorisé à communiquer des renseignements financier. Il relève du ministre des Finances, qui doit de son côté rendre des comptes au Parlement sus ses activités. CANAFE a été établi et mène ses activités en vertu de la Loi sur le recyclage des produits de la criminalité et le financement des activités terroristes (la Loi) et des règlements connexes.
+
+FR — `institutions_infosource_docs/ati-schedule-i-financial-transactions-and-reports-analysis-centre-of-canada/classes_of_records_fr.md:68` — Responsabilités
+
+CANAFE facilite la détection, la prévention et la dissuasion en matière de blanchiment d’argent, de financement des activités terroristes, du contournement des sanctions et des menaces à la sécurité du Canada. Pour ce faire, il effectue les activités suivantes :
 
 ### Fisheries and Oceans Canada
 
@@ -2072,6 +2147,34 @@ Le Conseil national de recherches Canada (CNRC) est un organisme fédéral cré�
 FR — `institutions_infosource_docs/ati-schedule-i-national-research-council-of-canada/classes_of_records_fr.md:284` — Responsabilités
 
 La Loi du CNRC stipule que cet organisme fédéral a le rôle suivant : entreprendre, aider ou promouvoir des recherches scientifiques et industrielles, en particulier dans les domaines d'importance pour le Canada; mettre sur pied une bibliothèque scientifique nationale et en assurer le fonctionnement selon son évaluation des besoins; vendre ou diffuser par tout autre moyen de l'information scientifique et technique; mener des recherches sur les unités et les techniques de mesure; normaliser et homologuer des appareils et instruments scientifiques et techniques, et les matériaux à l'usage de l'industrie canadienne; assurer le fonctionnement et la gestion des observatoires astronomiques mis sur pied ou exploités par le gouvernement du Canada; administrer ses activités de recherche et de développement, y compris les contributions soutenant diverses activités internationales; et dispenser des services scientifiques et technologiques essentiels à la collectivité scientifique et industrielle.
+
+### Natural Resources Canada
+
+EN — `institutions_infosource_docs/ati-schedule-i-department-of-natural-resources/classes_of_records_en.md:83` — Background
+
+The Department of Natural Resources was created by the  [Department of Natural Resources Act](http://laws-lois.justice.gc.ca/eng/acts/N-20.8/) on January 12, 1995. It combined the former departments of Energy, Mines and Resources, and Forestry. Some groups in the department, such as the Geological Survey of Canada (GSC), have been in existence for more than a century (184 years). Natural Resources Canada (NRCan) reports to Parliament through the Minister of Energy and Natural Resources.
+
+EN — `institutions_infosource_docs/ati-schedule-i-department-of-natural-resources/classes_of_records_en.md:89` — Responsibilities
+
+Under the Minister of Energy and Natural Resources, the department plays a pivotal role in helping shape the important contribution of the natural resources sectors to the Canadian economy, society and environment. These sectors, which comprise our forests, energy, minerals and metals, as well as related industries, including those dealing with earth sciences, are a cornerstone of Canadian prosperity and are helping build a 21st century economy.
+
+Through partnership and innovation, Natural Resources Canada (NRCan) works with Canadians to make wise use of our resources, strengthening the social foundation of Canadian life. NRCan conducts innovative scientific research to generate and transfer ideas, knowledge and technologies. It continues to promote Canada's international interests to meet our global commitments related to natural resources and ensure Canada's place in the world. The department is organized into five science-based sectors, a Corporate Management and Services Sector, Public Affairs and Portfolio Management Sector, Strategic Policy and Results Sector, Major Projects Management Office and one corporate branch: Audit.
+
+Read more about [NRCan’s mandate](https://natural-resources.canada.ca/corporate) and [NRCan’s strategic outcomes](https://natural-resources.canada.ca/corporate/planning-reporting/departmental-plan).
+
+FR — `institutions_infosource_docs/ati-schedule-i-department-of-natural-resources/classes_of_records_fr.md:83` — Historique
+
+Le ministère des Ressources naturelles a été créé le 12 janvier 1995 en vertu de la [Loi sur le ministère des Ressources naturelles](http://laws-lois.justice.gc.ca/fra/lois/N-20.8/). Il regroupe l’ancien ministère de l’Énergie, des Mines et des Ressources, et celui des Forêts. Certains de ses groupes, comme la Commission géologique du Canada (CGC), existent depuis plus d’un siècle (184 ans). Ressources naturelles Canada (RNCan) rend compte au Parlement par l’entremise du ministre des Ressources naturelles.
+
+En savoir plus sur [l’histoire de RNCan](https://ressources-naturelles.canada.ca/organisation/notre-histoire).
+
+FR — `institutions_infosource_docs/ati-schedule-i-department-of-natural-resources/classes_of_records_fr.md:89` — Responsabilités
+
+Sous la direction du ministre des Ressources naturelles, le Ministère joue un rôle primordial dans la définition des contributions importantes des secteurs des ressources naturelles à l’économie, à la société et à l’environnement du Canada. Ces secteurs, notamment les secteurs des forêts, de l’énergie, des minéraux et des métaux, ainsi que les industries connexes, dont celles dans le domaine des sciences de la Terre, constituent une pierre angulaire de la prospérité du Canada et aident à bâtir une économie du XXIe siècle.
+
+Par la création de partenariats et l’innovation, Ressources naturelles Canada (RNCan) travaille de concert avec les Canadiens pour utiliser judicieusement nos ressources, renforçant ainsi les bases sociales de la vie au Canada. RNCan réalise des travaux de recherche scientifique innovatrice pour créer et transmettre des idées, des connaissances et des technologies. Il continue de promouvoir les intérêts internationaux du Canada afin de pouvoir respecter nos engagements internationaux dans le domaine des ressources naturelles et de garantir au Canada une place qui lui est propre sur la scène mondiale. Le Ministère compte cinq secteurs scientifiques, le Secteur de la gestion et des services intégrés, le Secteur de la gestion des affaires publiques et du portefeuille, le Secteur de la politique stratégique et des résultats, le Bureau de gestion des grands projets et une direction ministérielle, soit la Direction de l’audit.
+
+En savoir plus sur [le mandat de RNCan](https://ressources-naturelles.canada.ca/propos-nous) et [ses résultats stratégiques](https://ressources-naturelles.canada.ca/organisation/planification-rapports/plan-ministeriel/plan-ministeriel-rncan-2024-2025-coup-oeil).
 
 ### Nunavut Water Board
 
@@ -2531,6 +2634,42 @@ FR — `institutions_infosource_docs/ati-schedule-i-shared-services-canada/class
 SPC est chargé de faciliter la prestation des programmes et services gouvernementaux sur le plan numérique. Ce ministère permet à la fonction publique de livrer efficacement des services aux Canadiens en fournissant des réseaux et de la sécurité des réseaux, des centres de données et des services infonuagiques, des communications numériques et des outils informatiques.
 
 SPC a le [mandat](https://www.canada.ca/fr/services-partages/organisation/mandat1.html) de fournir les services de courriel, de centres de données et de télécommunications aux organismes du gouvernement fédéral. Le Ministère offre également des services liés à la cyber sécurité et à la sécurité de la TI, à l’achat d’appareils technologiques en milieu de travail, ainsi que d’autres services facultatifs aux organismes du gouvernement fédéral selon le principe du recouvrement des coûts.
+
+### Social Sciences and Humanities Research Council of Canada
+
+EN — `institutions_infosource_docs/ati-schedule-i-social-sciences-and-humanities-research-council/classes_of_records_en.md:73` — Background
+
+See [Our mandate](/en/about-sshrc/mandate.aspx) for information about the Social Sciences and Humanities Research Council (SSHRC)'s history, legislative foundation and how SSHRC reports to Parliament.
+
+FR — `institutions_infosource_docs/ati-schedule-i-social-sciences-and-humanities-research-council/classes_of_records_fr.md:73` — Contexte
+
+Consultez la page [Notre mandat](/fr/sujet-crsh/mandat.aspx) pour connaître l’histoire du Conseil de recherches en sciences humaines (CRSH), ses fondements législatifs et la manière dont il rend compte au Parlement.
+
+### Statistics Canada
+
+EN — `institutions_infosource_docs/ati-schedule-i-statistics-canada/classes_of_records_en.md:79` — Background
+
+The origins of Statistics Canada date from 1918 with the creation of the Dominion Bureau of Statistics. With the passing of a new *Statistics Act* in 1971, it became Statistics Canada, the name by which it is still known. Therefore it has been over 90 years that the department has served as the national statistical bureau of the country.
+
+Statistics Canada reports to a Minister designated by the Governor in Council as the Minister responsible for Statistics Canada. For most of the years since its establishment, the Agency has reported to a minister with a broad economic mandate. Statistics Canada reports to Parliament through the Minister of Innovation, Science, and Economic Development.
+
+Under the direction of the Minister of Innovation, Science, and Economic Development, the Chief Statistician is charged with the administration of the *Statistics Act* and the *Corporations Returns Act*, the provision of advice on statistical matters within the federal government, and the general management of Statistics Canada. The Chief Statistician must report to the Minister on Statistics Canada's activities and that report is to be included in the Minister's annual report to Parliament.
+
+EN — `institutions_infosource_docs/ati-schedule-i-statistics-canada/classes_of_records_en.md:89` — Responsibilities
+
+Statistics Canada's [mandate](https://www.statcan.gc.ca/en/about/mandate) derives primarily from the *Statistics Act*. The Act requires the agency to collect, compile, analyse and publish statistical information on the economic, social and general activities and conditions of Canada and its people; to collaborate with departments of government in the collection and publication of statistical information; to take the census of population of Canada and the census of agriculture of Canada every five years; to promote the avoidance of duplication in the information collected by departments of government; to promote and develop integrated statistics pertaining to the whole of Canada and to each of the provinces thereof; and to protect the confidentiality of the information with which it is entrusted.
+
+FR — `institutions_infosource_docs/ati-schedule-i-statistics-canada/classes_of_records_fr.md:79` — Historique
+
+Les origines de Statistique Canada remontent à 1918, au moment de la création du Bureau fédéral de la statistique. Par suite de l'adoption d'une nouvelle *Loi sur la statistique*, en 1971, il est devenu Statistique Canada, et ce nom est toujours utilisé. C'est donc dire que le bureau national de la statistique est au service du pays depuis plus de 90 ans.
+
+Statistique Canada relève d'un ministre désigné par le gouverneur en conseil. Depuis sa création, Statistique Canada a presque toujours été placé sous la houlette d'un ministre ayant des responsabilités élargies en matière économique. Statistique Canada rend compte au Parlement par l'intermédiaire du ministre de l'Innovation, des Sciences et du Développement économique.
+
+Le statisticien en chef doit, sous la direction du ministre de l'Innovation, des Sciences et du Développement économique, voir à l'application de la *Loi sur la statistique*, donner des avis sur des sujets concernant des programmes statistiques du gouvernement fédéral et superviser l'administration générale de Statistique Canada. Le statisticien en chef doit présenter au ministre un rapport sur les activités de Statistique Canada; ce rapport est inclus dans le rapport annuel du ministre au Parlement.
+
+FR — `institutions_infosource_docs/ati-schedule-i-statistics-canada/classes_of_records_fr.md:89` — Responsabilités
+
+Le [mandat](https://www.statcan.gc.ca/fr/a-propos/mandat) de Statistique Canada découle principalement de la *Loi sur la statistique*. En vertu de cette loi, l'organisme doit recueillir, compiler, analyser et publier des renseignements statistiques sur les conditions économiques, sociales et générales du pays et de sa population; collaborer avec les ministères à la collecte et à la publication de renseignements statistiques; recenser la population du Canada et faire le recensement agricole du Canada tous les cinq ans; veiller à prévenir le double emploi dans la collecte des renseignements par les ministères; favoriser et mettre au point des statistiques intégrées concernant l'ensemble du Canada et chacune des provinces; et protéger la confidentialité de l'information qui lui est confiée.
 
 ### The National Battlefields Commission
 

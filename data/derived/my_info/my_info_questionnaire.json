@@ -1419,12 +1419,12 @@
       "prompt_fr": "Quel service fédéral nommé lié à un événement de vie s'applique? Sélectionnez toutes les réponses pertinentes."
     }
   ],
-  "content_version": "2026-09-28.6",
+  "content_version": "2026-11-11.6",
   "data_snapshot": {
-    "generated_date": "2026-09-28",
+    "generated_date": "2026-11-11",
     "source_files": {
       "institutions_infosource_docs/pib_table_en_fr_all.csv": {
-        "sha256": "902fc49aed9c2bd44f7f8f2661a20070c5bbe29df5b1bd9137dddd3b55852762"
+        "sha256": "6fe982d204c95a05c723bcde2b149b090097f80e600d1c7cbe3f09e95d536e96"
       },
       "spib_en_fr.csv": {
         "sha256": "bbda3c9de3ba8fdbdd55122db38d3fcc5f40c37c71f8d6295624e2ad89b4eabf"

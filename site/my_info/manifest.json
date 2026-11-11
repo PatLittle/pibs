@@ -2,27 +2,27 @@
   "adaptive_route_count": 22,
   "built_hashes": {
     "browser_engine_sha256": "5a7f54cf1bdc0b7ef89430587f0bcbe647dc7ecf4bee8361f0fe7b7f79d41f78",
-    "personas_sha256": "84ea30252a75f7d321681f6a3827112ce39c40ab1e8ba2d47307426389e4f16e",
-    "runtime_sha256": "706c4b6a23ae9c7a340b9edced467dfbd66a7480fa521834bbdfc892588c37c2"
+    "personas_sha256": "d1b608185a82680c974ded292b49debf1383bdbf1363938e1a547ecad2e0f467",
+    "runtime_sha256": "2b0f4d643d12bc583378bc9e04af8d2ff2602d963ef682517226b57d7b70aac0"
   },
   "contract_schema_version": "1.2",
-  "contract_version": "2026-09-28.6",
+  "contract_version": "2026-11-11.6",
   "persona_count": 4,
-  "pib_count": 1040,
+  "pib_count": 1145,
   "product": "My Info survey",
   "question_count": 22,
   "release_stage": "beta",
   "source_hashes": {
     "canonical_engine_sha256": "41b60dfc48e22ed83d43d1d7d0a9af88f747b0aec652013b480713ff1bf8bbcc",
-    "feature_csv_sha256": "42c9534cd279a62d8289eed6d41517d77149063f7220dfd0a0f1a117ca2007a2",
-    "persona_fixtures_sha256": "6aab22e69b33dcac3d9644c40d21534edc2cc0a73a136a29746f0c53c2172c24",
+    "feature_csv_sha256": "ccaaa61699864d58fffdee0be69e1873f2bcd7462574588c8474ba6c43f94f16",
+    "persona_fixtures_sha256": "2d89ffaaae8f86c7668696191ed568c2782ba52acfa81027b5e091aad0eff1a9",
     "persona_portrait_sha256": {
       "aisha_rahman": "73038c3697b027abe0d78e76f42bc3b444db7684da4d774d0f1bad03f39d7892",
       "dominic_vale": "ade8780d0abdc1b4173d5eac1b0cc1ebf033a52d1a66f2d0988bb81d85bee623",
       "peter_deloitte": "f15c4f4eba765a63bb835650be4efb4e4b0ff19a1e065d23253fd1807d0afbf4",
       "sophie_tremblay": "3220abc50da99b320fe7b4a67e20dd81516b51f59a81e45e43944a4bbd5d4a10"
     },
-    "questionnaire_sha256": "63558f1d81d9e35b4d995cac1c389af7eed5596ac3b05b3572fe46701c666b95"
+    "questionnaire_sha256": "0eb18017995ae9f5afdae14064f0eeaac4dd4d6042b77bc6e9fa1dd360188e2c"
   },
   "tool_api_version": "0.4.0"
 }

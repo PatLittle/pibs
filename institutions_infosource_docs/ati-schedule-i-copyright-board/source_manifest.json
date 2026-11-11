@@ -83,6 +83,56 @@
     "pibs": 5,
     "classes_of_records": 2
   },
-  "extracted_at_utc": "2026-09-04T07:22:08.871209+00:00",
-  "extraction_rebuild_version": 2
+  "extracted_at_utc": "2026-11-11T19:57:21.881503+00:00",
+  "extraction_rebuild_version": 2,
+  "supplemental_sources": [
+    {
+      "source_id": "infosource-2026-11-11-en",
+      "snapshot_date": "2026-11-11",
+      "collected_at_utc": "2026-11-11T19:56:34.583356+00:00",
+      "language": "en",
+      "roles": [
+        "pibs_en",
+        "classes_of_records_en"
+      ],
+      "requested_url": "https://cb-cda.gc.ca/en/transparency/info-source-copyright-board-of-canada",
+      "final_url": "https://cb-cda.gc.ca/en/transparency/info-source-copyright-board-of-canada",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 114042,
+      "sha256": "9bd7481c3cdda630e5bb22f557caa704219d53e0d0690af3464c1cde7d263db6",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-copyright-board/snapshots/2026-11-11/supplemental/infosource-2026-11-11-en/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-copyright-board/snapshots/2026-11-11/supplemental/infosource-2026-11-11-en/source.md",
+      "provenance": "Full bilingual Info Source linked from the official access-request page, verified 2026-11-11; replaces the access-request landing page.",
+      "replaces_previous": true
+    },
+    {
+      "source_id": "infosource-2026-11-11-fr",
+      "snapshot_date": "2026-11-11",
+      "collected_at_utc": "2026-11-11T19:56:37.556668+00:00",
+      "language": "fr",
+      "roles": [
+        "pibs_fr",
+        "classes_of_records_fr"
+      ],
+      "requested_url": "https://cb-cda.gc.ca/fr/transparence/info-source-commission-du-droit-dauteur-du-canada",
+      "final_url": "https://cb-cda.gc.ca/fr/transparence/info-source-commission-du-droit-dauteur-du-canada",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 84773,
+      "sha256": "62cb265b0ab8774e63bb3b09d200d13981e9892d787359bcc2b3761123151deb",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-copyright-board/snapshots/2026-11-11/supplemental/infosource-2026-11-11-fr/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-copyright-board/snapshots/2026-11-11/supplemental/infosource-2026-11-11-fr/source.md",
+      "provenance": "Full bilingual Info Source linked from the official access-request page, verified 2026-11-11; replaces the access-request landing page.",
+      "replaces_previous": true
+    }
+  ]
 }

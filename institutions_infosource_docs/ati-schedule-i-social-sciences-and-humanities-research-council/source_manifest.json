@@ -33,20 +33,70 @@
   },
   "extraction": {
     "pibs": {
-      "english": 0,
-      "french": 0,
-      "merged": 0
+      "english": 3,
+      "french": 3,
+      "merged": 3
     },
     "classes_of_records": {
-      "english": 0,
-      "french": 0,
-      "merged": 0
+      "english": 19,
+      "french": 23,
+      "merged": 29
     }
   },
   "parser_versions": {
     "pibs": 5,
     "classes_of_records": 2
   },
-  "extracted_at_utc": "2026-09-04T07:24:23.974140+00:00",
-  "extraction_rebuild_version": 2
+  "extracted_at_utc": "2026-11-11T19:57:22.861477+00:00",
+  "extraction_rebuild_version": 2,
+  "supplemental_sources": [
+    {
+      "source_id": "infosource-2026-11-11-en",
+      "snapshot_date": "2026-11-11",
+      "collected_at_utc": "2026-11-11T19:56:57.277669+00:00",
+      "language": "en",
+      "roles": [
+        "pibs_en",
+        "classes_of_records_en"
+      ],
+      "requested_url": "https://sshrc-crsh.canada.ca/en/about-sshrc/transparency/info-source.aspx",
+      "final_url": "https://sshrc-crsh.canada.ca/en/about-sshrc/transparency/info-source.aspx",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 166107,
+      "sha256": "fac83cc6ad7557fb10a5a409c79fae8eda10b6515b3af46b79e9cefdc8ffec46",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-social-sciences-and-humanities-research-council/snapshots/2026-11-11/supplemental/infosource-2026-11-11-en/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-social-sciences-and-humanities-research-council/snapshots/2026-11-11/supplemental/infosource-2026-11-11-en/source.md",
+      "provenance": "Current bilingual Info Source on the new official SSHRC domain, verified 2026-11-11; legacy domain resets connections.",
+      "replaces_previous": true
+    },
+    {
+      "source_id": "infosource-2026-11-11-fr",
+      "snapshot_date": "2026-11-11",
+      "collected_at_utc": "2026-11-11T19:57:01.002606+00:00",
+      "language": "fr",
+      "roles": [
+        "pibs_fr",
+        "classes_of_records_fr"
+      ],
+      "requested_url": "https://sshrc-crsh.canada.ca/fr/sujet-crsh/transparence/info-source.aspx",
+      "final_url": "https://sshrc-crsh.canada.ca/fr/sujet-crsh/transparence/info-source.aspx",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 208494,
+      "sha256": "e288d24385ec35f2a145ac94d0f03fa75f3441f6bb16c4fa0282b1d389799dce",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-social-sciences-and-humanities-research-council/snapshots/2026-11-11/supplemental/infosource-2026-11-11-fr/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-social-sciences-and-humanities-research-council/snapshots/2026-11-11/supplemental/infosource-2026-11-11-fr/source.md",
+      "provenance": "Current bilingual Info Source on the new official SSHRC domain, verified 2026-11-11; legacy domain resets connections.",
+      "replaces_previous": true
+    }
+  ]
 }

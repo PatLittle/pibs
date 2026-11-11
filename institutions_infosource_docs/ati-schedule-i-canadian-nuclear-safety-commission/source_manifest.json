@@ -33,20 +33,70 @@
   },
   "extraction": {
     "pibs": {
-      "english": 0,
-      "french": 0,
-      "merged": 0
+      "english": 11,
+      "french": 10,
+      "merged": 11
     },
     "classes_of_records": {
-      "english": 0,
-      "french": 0,
-      "merged": 0
+      "english": 18,
+      "french": 18,
+      "merged": 18
     }
   },
   "parser_versions": {
     "pibs": 5,
     "classes_of_records": 2
   },
-  "extracted_at_utc": "2026-09-04T07:21:54.861271+00:00",
-  "extraction_rebuild_version": 2
+  "extracted_at_utc": "2026-11-11T19:57:19.559783+00:00",
+  "extraction_rebuild_version": 2,
+  "supplemental_sources": [
+    {
+      "source_id": "infosource-2026-11-11-en",
+      "snapshot_date": "2026-11-11",
+      "collected_at_utc": "2026-11-11T19:56:40.765428+00:00",
+      "language": "en",
+      "roles": [
+        "pibs_en",
+        "classes_of_records_en"
+      ],
+      "requested_url": "https://www.cnsc-ccsn.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/info-source/",
+      "final_url": "https://www.cnsc-ccsn.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/info-source/",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "text/html",
+      "encoding": "ISO-8859-1",
+      "byte_count": 174110,
+      "sha256": "bc5605686a3bf7304b0c8b20783cf40ffd8728a7e89de9ec88e0e2044accab84",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-nuclear-safety-commission/snapshots/2026-11-11/supplemental/infosource-2026-11-11-en/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-nuclear-safety-commission/snapshots/2026-11-11/supplemental/infosource-2026-11-11-en/source.md",
+      "provenance": "Current bilingual Info Source at the canonical CNSC domain, reached through official-directory redirects and verified 2026-11-11.",
+      "replaces_previous": true
+    },
+    {
+      "source_id": "infosource-2026-11-11-fr",
+      "snapshot_date": "2026-11-11",
+      "collected_at_utc": "2026-11-11T19:56:43.863623+00:00",
+      "language": "fr",
+      "roles": [
+        "pibs_fr",
+        "classes_of_records_fr"
+      ],
+      "requested_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/info-source/",
+      "final_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/info-source/",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "text/html",
+      "encoding": "ISO-8859-1",
+      "byte_count": 230383,
+      "sha256": "9bcbea234d410a18ff91328d9e778e3c6dda68322581b1ffeeca3537eac2fcaa",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-nuclear-safety-commission/snapshots/2026-11-11/supplemental/infosource-2026-11-11-fr/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-nuclear-safety-commission/snapshots/2026-11-11/supplemental/infosource-2026-11-11-fr/source.md",
+      "provenance": "Current bilingual Info Source at the canonical CNSC domain, reached through official-directory redirects and verified 2026-11-11.",
+      "replaces_previous": true
+    }
+  ]
 }

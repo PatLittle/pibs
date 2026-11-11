@@ -1,10 +1,10 @@
 {
-  "inventory_rows": 1040,
-  "distinct_bank_keys": 972,
+  "inventory_rows": 1145,
+  "distinct_bank_keys": 1077,
   "guided_record_count": 53,
-  "guided_percent": 5.1,
-  "directory_record_count": 1040,
-  "directory_only_count": 987,
+  "guided_percent": 4.6,
+  "directory_record_count": 1145,
+  "directory_only_count": 1092,
   "activities": 56,
   "groups": 8,
   "scope_activities": 9,
@@ -16,8 +16,8 @@
     "other_complaint"
   ],
   "reviewed_retention_rules": 6,
-  "institutions_with_context_en": 67,
-  "institutions_with_context_fr": 64,
+  "institutions_with_context_en": 73,
+  "institutions_with_context_fr": 70,
   "source_quality_flags": {
     "population_missing": 7,
     "purpose_missing": 13,
