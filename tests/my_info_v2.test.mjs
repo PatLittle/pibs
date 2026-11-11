@@ -19,8 +19,8 @@ test("all guided selectors resolve exactly and carry source population evidence"
       assert.ok(a.source_evidence.some(e => e.record_id === id && e.field.startsWith("class_of_individuals")), id);
     }
   }
-  assert.equal(runtime.records.length, 1145);
-  assert.equal(new Set(runtime.records.map(r=>r.record_id)).size, 1145);
+  assert.equal(runtime.records.length, 1151);
+  assert.equal(new Set(runtime.records.map(r=>r.record_id)).size, 1151);
 });
 
 test("veterans programs infer VAC and never infer Agent Orange from another benefit", () => {
@@ -123,7 +123,7 @@ test("retention boundaries stay uncertain and no closure means no elapsed-from-c
 });
 
 test("search alone produces no personal matches; all inventory rows can be explicitly reviewed", () => {
-  assert.equal(engine.searchRecords().length,1145);
+  assert.equal(engine.searchRecords().length,1151);
   assert.ok(engine.searchRecords("automated document").some(r=>r.bank_number_key==="PSU 904"));
   assert.deepEqual(engine.evaluate(engine.createState()).results,[]);
   const chosen=choose([],{reviewed_records:["standard:PSU 904"]});

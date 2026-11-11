@@ -184,8 +184,6 @@ Date de modification :
 
 ### [Contactez-nous](/fra/cct/index.html)
 
-### [Archives](/fra/arc/index.html)
-
 ### [Rétroaction et Plaintes](/fra/pln-cmp/index.html)
 
 ## Pied de page du gouvernement du Canada

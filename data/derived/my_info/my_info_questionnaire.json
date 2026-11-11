@@ -1424,7 +1424,7 @@
     "generated_date": "2026-11-11",
     "source_files": {
       "institutions_infosource_docs/pib_table_en_fr_all.csv": {
-        "sha256": "6fe982d204c95a05c723bcde2b149b090097f80e600d1c7cbe3f09e95d536e96"
+        "sha256": "509a061f4dda334786cb56b734f2bdff3e05c22161a6200e755eca1514ac4d3e"
       },
       "spib_en_fr.csv": {
         "sha256": "bbda3c9de3ba8fdbdd55122db38d3fcc5f40c37c71f8d6295624e2ad89b4eabf"

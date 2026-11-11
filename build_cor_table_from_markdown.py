@@ -79,7 +79,15 @@ def extract_label_value(line: str) -> tuple[str | None, str]:
         match = re.match(pattern, value)
         if not match:
             continue
-        label = normalize_label(match.group(1).rstrip(":"))
+        raw_label = match.group(1)
+        # A report may end bold markup partway through a record number,
+        # for example ``**Record Number: SNSICOP** 001``.
+        if ":" in raw_label:
+            prefix, inside_value = raw_label.split(":", 1)
+            field = LABELS.get(normalize_label(prefix))
+            if field:
+                return field, clean_value(inside_value + " " + match.group(2))
+        label = normalize_label(raw_label.rstrip(":"))
         field = LABELS.get(label)
         if field:
             return field, clean_value(match.group(2))

@@ -83,6 +83,56 @@
     "pibs": 5,
     "classes_of_records": 2
   },
-  "extracted_at_utc": "2026-09-04T07:23:26.669892+00:00",
-  "extraction_rebuild_version": 2
+  "extracted_at_utc": "2026-11-11T20:19:41.991875+00:00",
+  "extraction_rebuild_version": 2,
+  "supplemental_sources": [
+    {
+      "source_id": "infosource-2026-11-11-round3-en",
+      "snapshot_date": "2026-11-11",
+      "collected_at_utc": "2026-11-11T20:18:07.987858+00:00",
+      "language": "en",
+      "roles": [
+        "pibs_en",
+        "classes_of_records_en"
+      ],
+      "requested_url": "https://www.canada.ca/content/dam/oic-bcr/info-source/2025%20-%20Info%20Source%20-%20Sources%20of%20Federal%20Government%20and%20Employee%20Information.pdf",
+      "final_url": "https://www.canada.ca/content/dam/oic-bcr/info-source/2025%20-%20Info%20Source%20-%20Sources%20of%20Federal%20Government%20and%20Employee%20Information.pdf",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "application/pdf",
+      "encoding": "",
+      "byte_count": 184279,
+      "sha256": "e96f15063647d240a65536b313d8f8a79733bce380826e50d18ed9d30ffc1535",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-intelligence-commissioner/snapshots/2026-11-11/supplemental/infosource-2026-11-11-round3-en/source.pdf",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-intelligence-commissioner/snapshots/2026-11-11/supplemental/infosource-2026-11-11-round3-en/source.md",
+      "provenance": "Round 3: full official Info Source report or linked holdings appendix, selected through the institution publication and official navigation on 2026-11-11.",
+      "replaces_previous": true
+    },
+    {
+      "source_id": "infosource-2026-11-11-round3-fr",
+      "snapshot_date": "2026-11-11",
+      "collected_at_utc": "2026-11-11T20:18:21.555386+00:00",
+      "language": "fr",
+      "roles": [
+        "pibs_fr",
+        "classes_of_records_fr"
+      ],
+      "requested_url": "https://www.canada.ca/content/dam/oic-bcr/info-source/2025%20-%20Info%20Source%20-%20Sources%20de%20renseignements%20du%20gouvernement%20f%C3%A9d%C3%A9ral%20et%20sur%20les%20fonctionnaires%20f%C3%A9d%C3%A9raux.pdf",
+      "final_url": "https://www.canada.ca/content/dam/oic-bcr/info-source/2025%20-%20Info%20Source%20-%20Sources%20de%20renseignements%20du%20gouvernement%20f%C3%A9d%C3%A9ral%20et%20sur%20les%20fonctionnaires%20f%C3%A9d%C3%A9raux.pdf",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "application/pdf",
+      "encoding": "",
+      "byte_count": 227634,
+      "sha256": "71c312151f5c815e0066516d561bca92d6483236622733d253958f87a9142899",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-intelligence-commissioner/snapshots/2026-11-11/supplemental/infosource-2026-11-11-round3-fr/source.pdf",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-intelligence-commissioner/snapshots/2026-11-11/supplemental/infosource-2026-11-11-round3-fr/source.md",
+      "provenance": "Round 3: full official Info Source report or linked holdings appendix, selected through the institution publication and official navigation on 2026-11-11.",
+      "replaces_previous": true
+    }
+  ]
 }

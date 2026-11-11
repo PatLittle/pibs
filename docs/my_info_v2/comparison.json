@@ -3,12 +3,12 @@
   "v1_branch": "codex/my-info-v1-review",
   "v2_branch": "codex/my-info-v2",
   "coverage": {
-    "inventory_rows": 1145,
-    "distinct_bank_keys": 1077,
+    "inventory_rows": 1151,
+    "distinct_bank_keys": 1083,
     "guided_record_count": 53,
     "guided_percent": 4.6,
-    "directory_record_count": 1145,
-    "directory_only_count": 1092,
+    "directory_record_count": 1151,
+    "directory_only_count": 1098,
     "activities": 56,
     "groups": 8,
     "scope_activities": 9,
@@ -20,12 +20,12 @@
       "other_complaint"
     ],
     "reviewed_retention_rules": 6,
-    "institutions_with_context_en": 73,
-    "institutions_with_context_fr": 70,
+    "institutions_with_context_en": 74,
+    "institutions_with_context_fr": 71,
     "source_quality_flags": {
       "population_missing": 7,
       "purpose_missing": 13,
-      "title_needs_review": 33
+      "title_needs_review": 31
     }
   },
   "scenarios": [

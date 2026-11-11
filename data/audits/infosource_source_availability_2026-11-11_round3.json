@@ -1,0 +1,170 @@
+[
+  {
+    "institution_id": "ati-schedule-i-national-security-and-intelligence-review-agency-secretariat",
+    "language": "en",
+    "requested_url": "https://nsira-ossnr.gc.ca/en/secretariat/access-to-information-and-privacy/info-source/",
+    "http_status": 200,
+    "final_url": "https://nsira-ossnr.gc.ca/en/secretariat/access-to-information-and-privacy/info-source/",
+    "content_type": "text/html; charset=UTF-8",
+    "byte_count": 109862,
+    "rejected": false,
+    "title": "Info Source - National Security and Intelligence Review Agency",
+    "links": []
+  },
+  {
+    "institution_id": "ati-schedule-i-national-security-and-intelligence-review-agency-secretariat",
+    "language": "fr",
+    "requested_url": "https://nsira-ossnr.gc.ca/fr/secretariat/acces-a-l-information-et-a-la-protection-des-renseignements-personnels/info-source/",
+    "http_status": 200,
+    "final_url": "https://nsira-ossnr.gc.ca/fr/secretariat/acces-a-l-information-et-a-la-protection-des-renseignements-personnels/info-source/",
+    "content_type": "text/html; charset=UTF-8",
+    "byte_count": 117692,
+    "rejected": false,
+    "title": "Info Source - L'Office de surveillance des activités en matière de sécurité nationale et de renseignement",
+    "links": []
+  },
+  {
+    "institution_id": "ati-schedule-i-office-of-the-commissioner-of-lobbying",
+    "language": "en",
+    "requested_url": "https://lobbycanada.gc.ca/en/info-source/",
+    "http_status": 403,
+    "final_url": "https://lobbycanada.gc.ca/en/info-source/",
+    "content_type": "text/html; charset=UTF-8",
+    "byte_count": 21968,
+    "rejected": false,
+    "title": "Vérification de sécurité / Security Check",
+    "links": [],
+    "followup": {
+      "browser_http_status": 403,
+      "browser_title": "Just a moment...",
+      "result": "A normal headless browser was also blocked on the English page; no live report captured."
+    }
+  },
+  {
+    "institution_id": "ati-schedule-i-office-of-the-commissioner-of-lobbying",
+    "language": "fr",
+    "requested_url": "https://lobbycanada.gc.ca/fr/info-source/",
+    "http_status": 403,
+    "final_url": "https://lobbycanada.gc.ca/fr/info-source/",
+    "content_type": "text/html; charset=UTF-8",
+    "byte_count": 21968,
+    "rejected": false,
+    "title": "Vérification de sécurité / Security Check",
+    "links": []
+  },
+  {
+    "institution_id": "ati-schedule-i-office-of-the-commissioner-of-official-languages",
+    "language": "en",
+    "requested_url": "https://www.clo-ocol.gc.ca/en/publications/other/2021/info-source-2021",
+    "error": "HTTPSConnectionPool(host='www.clo-ocol.gc.ca', port=443): Max retries exceeded with url: /en/publications/other/2021/info-source-2021 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))",
+    "followup": {
+      "http_status": 404,
+      "tls_verified": false,
+      "final_url": "https://www.clo-ocol.gc.ca/en/publications/other/2021/info-source-2021",
+      "title": "Non trouvé / Not Found (404)",
+      "result": "Stopped after this official 404; no replacement search performed."
+    }
+  },
+  {
+    "institution_id": "ati-schedule-i-office-of-the-commissioner-of-official-languages",
+    "language": "fr",
+    "requested_url": "https://www.clo-ocol.gc.ca/fr/publications/autres/2021/info-source-2021",
+    "error": "HTTPSConnectionPool(host='www.clo-ocol.gc.ca', port=443): Max retries exceeded with url: /fr/publications/autres/2021/info-source-2021 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))",
+    "followup": {
+      "http_status": 404,
+      "tls_verified": false,
+      "final_url": "https://www.clo-ocol.gc.ca/fr/publications/etudes-autres-rapports/2021/info-source-2021-sources-renseignements-du-gouvernement",
+      "title": "Non trouvé / Not Found (404)",
+      "result": "Stopped after this official 404; no replacement search performed."
+    }
+  },
+  {
+    "institution_id": "ati-schedule-i-office-of-the-director-of-public-prosecutions",
+    "language": "en",
+    "requested_url": "http://www.ppsc-sppc.gc.ca/eng/tra/is/index.html",
+    "error": "HTTPConnectionPool(host='www.ppsc-sppc.gc.ca', port=80): Read timed out. (read timeout=40)"
+  },
+  {
+    "institution_id": "ati-schedule-i-office-of-the-director-of-public-prosecutions",
+    "language": "fr",
+    "requested_url": "https://www.ppsc-sppc.gc.ca/fra/tra/is/index.html",
+    "http_status": 200,
+    "final_url": "https://www.ppsc-sppc.gc.ca/fra/tra/is/index.html",
+    "content_type": "text/html; charset=utf-8",
+    "byte_count": 65596,
+    "rejected": false,
+    "title": "Info Source - Sources de renseignements du gouvernement fédéral et sur les fonctionnaires fédéraux - SPPC",
+    "links": [
+      {
+        "text": "Introduction à Info Source",
+        "url": "#section1"
+      },
+      {
+        "text": "Annexe A – Catégories de documents spécifiques au SPPC",
+        "url": "cds-cor.html"
+      },
+      {
+        "text": "Annexe B – Fichiers de renseignements personnels spécifiques au SPPC",
+        "url": "frp-pib.html"
+      }
+    ]
+  },
+  {
+    "institution_id": "ati-schedule-i-office-of-the-intelligence-commissioner",
+    "language": "en",
+    "requested_url": "https://www.canada.ca/content/dam/oic-bcr/info-source/2025%20-%20Info%20Source%20-%20Sources%20of%20Federal%20Government%20and%20Employee%20Information.pdf",
+    "http_status": 200,
+    "final_url": "https://www.canada.ca/content/dam/oic-bcr/info-source/2025%20-%20Info%20Source%20-%20Sources%20of%20Federal%20Government%20and%20Employee%20Information.pdf",
+    "content_type": "application/pdf",
+    "byte_count": 184279,
+    "rejected": false
+  },
+  {
+    "institution_id": "ati-schedule-i-office-of-the-intelligence-commissioner",
+    "language": "fr",
+    "requested_url": "https://www.canada.ca/content/dam/oic-bcr/info-source/2025%20-%20Info%20Source%20-%20Sources%20de%20renseignements%20du%20gouvernement%20f%C3%A9d%C3%A9ral%20et%20sur%20les%20fonctionnaires%20f%C3%A9d%C3%A9raux.pdf",
+    "http_status": 200,
+    "final_url": "https://www.canada.ca/content/dam/oic-bcr/info-source/2025%20-%20Info%20Source%20-%20Sources%20de%20renseignements%20du%20gouvernement%20f%C3%A9d%C3%A9ral%20et%20sur%20les%20fonctionnaires%20f%C3%A9d%C3%A9raux.pdf",
+    "content_type": "application/pdf",
+    "byte_count": 227634,
+    "rejected": false
+  },
+  {
+    "institution_id": "ati-schedule-i-secretariat-of-the-national-security-and-intelligence-committee-of-parliamentarians",
+    "language": "en",
+    "requested_url": "https://www.canada.ca/en/secretariat-national-security-intelligence-committee-parliamentarians/corporate/transparency/info-source/2025.html",
+    "http_status": 200,
+    "final_url": "https://www.canada.ca/en/secretariat-national-security-intelligence-committee-parliamentarians/corporate/transparency/info-source/2025.html",
+    "content_type": "text/html;charset=utf-8",
+    "byte_count": 52720,
+    "rejected": false,
+    "title": "Info Source: Secretariat of the National Security and Intelligence Committee of Parliamentarians - Canada.ca",
+    "links": [
+      {
+        "text": "Introduction to Info Source",
+        "url": "#2"
+      },
+      {
+        "text": "Standard personal information banks",
+        "url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-personal-information-banks.html"
+      }
+    ]
+  },
+  {
+    "institution_id": "ati-schedule-i-secretariat-of-the-national-security-and-intelligence-committee-of-parliamentarians",
+    "language": "fr",
+    "requested_url": "https://www.canada.ca/fr/secretariat-comite-parlementaires-securite-nationale-renseignement/organisation/transparence/info-source/2025.html",
+    "http_status": 200,
+    "final_url": "https://www.canada.ca/fr/secretariat-comite-parlementaires-securite-nationale-renseignement/organisation/transparence/info-source/2025.html",
+    "content_type": "text/html;charset=utf-8",
+    "byte_count": 71887,
+    "rejected": false,
+    "title": "Source de renseignements : Secrétariat du Comité des parlementaires sur la sécurité nationale et le renseignement - Canada.ca",
+    "links": [
+      {
+        "text": "Introduction à Info Source",
+        "url": "#2"
+      }
+    ]
+  }
+]

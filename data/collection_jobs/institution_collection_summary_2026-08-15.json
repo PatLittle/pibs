@@ -4,28 +4,27 @@
   "collectable_institutions": 131,
   "not_collectable_no_source_urls": 17,
   "collection_completed": 131,
-  "institutions_with_all_four_sources_collected": 100,
+  "institutions_with_all_four_sources_collected": 101,
   "institutions_with_any_source_collected": 107,
   "institutions_with_no_source_collected": 24,
   "role_status_counts": {
-    "collected": 414,
-    "error": 102,
+    "collected": 416,
+    "error": 100,
     "missing_url": 8,
     "not_applicable": 68
   },
   "source_error_classes": {
-    "connection": 1,
     "dns": 4,
     "http_400": 4,
     "http_403": 26,
     "http_404": 50,
-    "timeout": 3,
+    "timeout": 2,
     "tls_certificate": 14
   },
-  "unique_failing_requested_urls": 50,
-  "institutions_with_pibs": 78,
-  "institutions_with_classes_of_records": 93,
-  "pib_rows": 1190,
-  "classes_of_records_rows": 2688,
+  "unique_failing_requested_urls": 49,
+  "institutions_with_pibs": 79,
+  "institutions_with_classes_of_records": 94,
+  "pib_rows": 1196,
+  "classes_of_records_rows": 2690,
   "status_csv": "data/collection_jobs/institution_collection_status_2026-08-15.csv"
 }

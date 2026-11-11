@@ -1,0 +1,447 @@
+{
+  "generated_at_utc": "2026-11-11T20:18:25.623263+00:00",
+  "source": "institution_registry.csv",
+  "summary": {
+    "institutions": 4,
+    "unique_seed_urls": 8,
+    "unique_followup_urls": 4,
+    "english_urls": 4,
+    "french_urls": 4,
+    "english_verified_or_document": 4,
+    "french_verified_or_document": 4,
+    "english_split_pib_pages": 1,
+    "french_split_pib_pages": 1
+  },
+  "institutions": [
+    {
+      "institution_id": "ati-schedule-i-national-security-and-intelligence-review-agency-secretariat",
+      "legal_name_en": "National Security and Intelligence Review Agency Secretariat",
+      "en": {
+        "requested_url": "https://nsira-ossnr.gc.ca/en/secretariat/access-to-information-and-privacy/info-source/sources-of-federal-government-and-employee-information/",
+        "final_url": "https://nsira-ossnr.gc.ca/en/secretariat/access-to-information-and-privacy/info-source/sources-of-federal-government-and-employee-information/",
+        "status_code": 200,
+        "content_type": "text/html",
+        "byte_count": 159768,
+        "sha256": "1a2bc18d3b79ff963d66c2d93365f1c07b8f5687ae04b404014f7a7a9112c0c2",
+        "title": "Sources of Federal Government and Employee Information - National Security and Intelligence Review Agency",
+        "page_language": "en",
+        "validation": "verified_info_source",
+        "error": "",
+        "has_pib_details": true,
+        "has_class_details": true,
+        "alternate_urls": {
+          "en": "https://nsira-ossnr.gc.ca/en/secretariat/access-to-information-and-privacy/info-source/sources-of-federal-government-and-employee-information/",
+          "fr": "https://nsira-ossnr.gc.ca/fr/secretariat/acces-a-l-information-et-a-la-protection-des-renseignements-personnels/info-source/sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux/"
+        },
+        "pib_candidates": [],
+        "class_candidates": []
+      },
+      "fr": {
+        "requested_url": "https://nsira-ossnr.gc.ca/fr/secretariat/acces-a-l-information-et-a-la-protection-des-renseignements-personnels/info-source/sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux/",
+        "final_url": "https://nsira-ossnr.gc.ca/fr/secretariat/acces-a-l-information-et-a-la-protection-des-renseignements-personnels/info-source/sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux/",
+        "status_code": 200,
+        "content_type": "text/html",
+        "byte_count": 177269,
+        "sha256": "726f70f8eac73ffb65a2aa3f434a5bec5572dcd2d7656d8cd9c794f6bf2af610",
+        "title": "Sources de renseignements du gouvernement fédéral et sur les fonctionnaires fédéraux - Sources de renseignements du gouvernement fédéral et sur les fonctionnaires fédéraux",
+        "page_language": "fr",
+        "validation": "verified_info_source",
+        "error": "",
+        "has_pib_details": true,
+        "has_class_details": true,
+        "alternate_urls": {
+          "en": "https://nsira-ossnr.gc.ca/en/secretariat/access-to-information-and-privacy/info-source/sources-of-federal-government-and-employee-information/",
+          "fr": "https://nsira-ossnr.gc.ca/fr/secretariat/acces-a-l-information-et-a-la-protection-des-renseignements-personnels/info-source/sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux/"
+        },
+        "pib_candidates": [],
+        "class_candidates": []
+      }
+    },
+    {
+      "institution_id": "ati-schedule-i-office-of-the-director-of-public-prosecutions",
+      "legal_name_en": "Office of the Director of Public Prosecutions",
+      "en": {
+        "requested_url": "https://www.ppsc-sppc.gc.ca/eng/tra/is/index.html",
+        "final_url": "https://www.ppsc-sppc.gc.ca/eng/tra/is/index.html",
+        "status_code": 200,
+        "content_type": "text/html",
+        "byte_count": 55536,
+        "sha256": "25be4cff97e203d816b480bc3af5441f17135f1d68b6853fbd1e18bd53849481",
+        "title": "Info Source - Sources of Federal Government and Employee Information - PPSC",
+        "page_language": "en",
+        "validation": "verified_info_source",
+        "error": "",
+        "has_pib_details": false,
+        "has_class_details": false,
+        "alternate_urls": {},
+        "pib_candidates": [
+          {
+            "url": "https://www.ppsc-sppc.gc.ca/eng/tra/is/pib-frp.html",
+            "text": "Appendix B – PPSC -Specific Personal Information Banks",
+            "score": 6
+          }
+        ],
+        "class_candidates": [
+          {
+            "url": "https://www.ppsc-sppc.gc.ca/eng/tra/is/cor-cds.html",
+            "text": "Appendix A – PPSC -Specific Classes of Records",
+            "score": 6
+          }
+        ]
+      },
+      "fr": {
+        "requested_url": "https://www.ppsc-sppc.gc.ca/fra/tra/is/index.html",
+        "final_url": "https://www.ppsc-sppc.gc.ca/fra/tra/is/index.html",
+        "status_code": 200,
+        "content_type": "text/html",
+        "byte_count": 65596,
+        "sha256": "1a591088a1929e975c480670e02e059a645ed7f880cfaa9a4841ea507d9bb4f2",
+        "title": "Info Source - Sources de renseignements du gouvernement fédéral et sur les fonctionnaires fédéraux - SPPC",
+        "page_language": "fr",
+        "validation": "verified_info_source",
+        "error": "",
+        "has_pib_details": false,
+        "has_class_details": false,
+        "alternate_urls": {},
+        "pib_candidates": [
+          {
+            "url": "https://www.ppsc-sppc.gc.ca/fra/tra/is/frp-pib.html",
+            "text": "Annexe B – Fichiers de renseignements personnels spécifiques au SPPC",
+            "score": 10
+          }
+        ],
+        "class_candidates": [
+          {
+            "url": "https://www.ppsc-sppc.gc.ca/fra/tra/is/cds-cor.html",
+            "text": "Annexe A – Catégories de documents spécifiques au SPPC",
+            "score": 10
+          }
+        ]
+      }
+    },
+    {
+      "institution_id": "ati-schedule-i-office-of-the-intelligence-commissioner",
+      "legal_name_en": "Office of the Intelligence Commissioner",
+      "en": {
+        "requested_url": "https://www.canada.ca/content/dam/oic-bcr/info-source/2025%20-%20Info%20Source%20-%20Sources%20of%20Federal%20Government%20and%20Employee%20Information.pdf",
+        "final_url": "https://www.canada.ca/content/dam/oic-bcr/info-source/2025%20-%20Info%20Source%20-%20Sources%20of%20Federal%20Government%20and%20Employee%20Information.pdf",
+        "status_code": 200,
+        "content_type": "application/pdf",
+        "byte_count": 184279,
+        "sha256": "e96f15063647d240a65536b313d8f8a79733bce380826e50d18ed9d30ffc1535",
+        "title": "",
+        "page_language": "",
+        "validation": "reachable_pdf",
+        "error": "",
+        "has_pib_details": true,
+        "has_class_details": true,
+        "alternate_urls": {},
+        "pib_candidates": [],
+        "class_candidates": []
+      },
+      "fr": {
+        "requested_url": "https://www.canada.ca/content/dam/oic-bcr/info-source/2025%20-%20Info%20Source%20-%20Sources%20de%20renseignements%20du%20gouvernement%20f%C3%A9d%C3%A9ral%20et%20sur%20les%20fonctionnaires%20f%C3%A9d%C3%A9raux.pdf",
+        "final_url": "https://www.canada.ca/content/dam/oic-bcr/info-source/2025%20-%20Info%20Source%20-%20Sources%20de%20renseignements%20du%20gouvernement%20f%C3%A9d%C3%A9ral%20et%20sur%20les%20fonctionnaires%20f%C3%A9d%C3%A9raux.pdf",
+        "status_code": 200,
+        "content_type": "application/pdf",
+        "byte_count": 227634,
+        "sha256": "71c312151f5c815e0066516d561bca92d6483236622733d253958f87a9142899",
+        "title": "",
+        "page_language": "",
+        "validation": "reachable_pdf",
+        "error": "",
+        "has_pib_details": true,
+        "has_class_details": true,
+        "alternate_urls": {},
+        "pib_candidates": [],
+        "class_candidates": []
+      }
+    },
+    {
+      "institution_id": "ati-schedule-i-secretariat-of-the-national-security-and-intelligence-committee-of-parliamentarians",
+      "legal_name_en": "Secretariat of the National Security and Intelligence Committee of Parliamentarians",
+      "en": {
+        "requested_url": "https://www.canada.ca/en/secretariat-national-security-intelligence-committee-parliamentarians/corporate/transparency/info-source/2025.html",
+        "final_url": "https://www.canada.ca/en/secretariat-national-security-intelligence-committee-parliamentarians/corporate/transparency/info-source/2025.html",
+        "status_code": 200,
+        "content_type": "text/html",
+        "byte_count": 52720,
+        "sha256": "aaed321b64293ee3ec1ccea72e674dea57affdb21255db1381d976edb0f97e51",
+        "title": "Info Source: Secretariat of the National Security and Intelligence Committee of Parliamentarians - Canada.ca",
+        "page_language": "en",
+        "validation": "verified_info_source",
+        "error": "",
+        "has_pib_details": false,
+        "has_class_details": true,
+        "alternate_urls": {
+          "en": "https://www.canada.ca/en/secretariat-national-security-intelligence-committee-parliamentarians/corporate/transparency/info-source/2025.html",
+          "fr": "https://www.canada.ca/fr/secretariat-comite-parlementaires-securite-nationale-renseignement/organisation/transparence/info-source/2025.html"
+        },
+        "pib_candidates": [],
+        "class_candidates": []
+      },
+      "fr": {
+        "requested_url": "https://www.canada.ca/fr/secretariat-comite-parlementaires-securite-nationale-renseignement/organisation/transparence/info-source/2025.html",
+        "final_url": "https://www.canada.ca/fr/secretariat-comite-parlementaires-securite-nationale-renseignement/organisation/transparence/info-source/2025.html",
+        "status_code": 200,
+        "content_type": "text/html",
+        "byte_count": 71887,
+        "sha256": "e57ce311473509f74863b09c6be3efd462a18d22e7383afaec42df5edc3aaa0f",
+        "title": "Source de renseignements : Secrétariat du Comité des parlementaires sur la sécurité nationale et le renseignement - Canada.ca",
+        "page_language": "fr",
+        "validation": "verified_info_source",
+        "error": "",
+        "has_pib_details": false,
+        "has_class_details": true,
+        "alternate_urls": {
+          "fr": "https://www.canada.ca/fr/secretariat-comite-parlementaires-securite-nationale-renseignement/organisation/transparence/info-source/2025.html",
+          "en": "https://www.canada.ca/en/secretariat-national-security-intelligence-committee-parliamentarians/corporate/transparency/info-source/2025.html"
+        },
+        "pib_candidates": [],
+        "class_candidates": []
+      }
+    }
+  ],
+  "fetched_urls": {
+    "https://nsira-ossnr.gc.ca/en/secretariat/access-to-information-and-privacy/info-source/sources-of-federal-government-and-employee-information/": {
+      "requested_url": "https://nsira-ossnr.gc.ca/en/secretariat/access-to-information-and-privacy/info-source/sources-of-federal-government-and-employee-information/",
+      "final_url": "https://nsira-ossnr.gc.ca/en/secretariat/access-to-information-and-privacy/info-source/sources-of-federal-government-and-employee-information/",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 159768,
+      "sha256": "1a2bc18d3b79ff963d66c2d93365f1c07b8f5687ae04b404014f7a7a9112c0c2",
+      "title": "Sources of Federal Government and Employee Information - National Security and Intelligence Review Agency",
+      "page_language": "en",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": true,
+      "has_class_details": true,
+      "alternate_urls": {
+        "en": "https://nsira-ossnr.gc.ca/en/secretariat/access-to-information-and-privacy/info-source/sources-of-federal-government-and-employee-information/",
+        "fr": "https://nsira-ossnr.gc.ca/fr/secretariat/acces-a-l-information-et-a-la-protection-des-renseignements-personnels/info-source/sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux/"
+      },
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://nsira-ossnr.gc.ca/fr/secretariat/acces-a-l-information-et-a-la-protection-des-renseignements-personnels/info-source/sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux/": {
+      "requested_url": "https://nsira-ossnr.gc.ca/fr/secretariat/acces-a-l-information-et-a-la-protection-des-renseignements-personnels/info-source/sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux/",
+      "final_url": "https://nsira-ossnr.gc.ca/fr/secretariat/acces-a-l-information-et-a-la-protection-des-renseignements-personnels/info-source/sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux/",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 177269,
+      "sha256": "726f70f8eac73ffb65a2aa3f434a5bec5572dcd2d7656d8cd9c794f6bf2af610",
+      "title": "Sources de renseignements du gouvernement fédéral et sur les fonctionnaires fédéraux - Sources de renseignements du gouvernement fédéral et sur les fonctionnaires fédéraux",
+      "page_language": "fr",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": true,
+      "has_class_details": true,
+      "alternate_urls": {
+        "en": "https://nsira-ossnr.gc.ca/en/secretariat/access-to-information-and-privacy/info-source/sources-of-federal-government-and-employee-information/",
+        "fr": "https://nsira-ossnr.gc.ca/fr/secretariat/acces-a-l-information-et-a-la-protection-des-renseignements-personnels/info-source/sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux/"
+      },
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://www.canada.ca/content/dam/oic-bcr/info-source/2025%20-%20Info%20Source%20-%20Sources%20de%20renseignements%20du%20gouvernement%20f%C3%A9d%C3%A9ral%20et%20sur%20les%20fonctionnaires%20f%C3%A9d%C3%A9raux.pdf": {
+      "requested_url": "https://www.canada.ca/content/dam/oic-bcr/info-source/2025%20-%20Info%20Source%20-%20Sources%20de%20renseignements%20du%20gouvernement%20f%C3%A9d%C3%A9ral%20et%20sur%20les%20fonctionnaires%20f%C3%A9d%C3%A9raux.pdf",
+      "final_url": "https://www.canada.ca/content/dam/oic-bcr/info-source/2025%20-%20Info%20Source%20-%20Sources%20de%20renseignements%20du%20gouvernement%20f%C3%A9d%C3%A9ral%20et%20sur%20les%20fonctionnaires%20f%C3%A9d%C3%A9raux.pdf",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "byte_count": 227634,
+      "sha256": "71c312151f5c815e0066516d561bca92d6483236622733d253958f87a9142899",
+      "title": "",
+      "page_language": "",
+      "validation": "reachable_pdf",
+      "error": "",
+      "has_pib_details": true,
+      "has_class_details": true,
+      "alternate_urls": {},
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://www.canada.ca/content/dam/oic-bcr/info-source/2025%20-%20Info%20Source%20-%20Sources%20of%20Federal%20Government%20and%20Employee%20Information.pdf": {
+      "requested_url": "https://www.canada.ca/content/dam/oic-bcr/info-source/2025%20-%20Info%20Source%20-%20Sources%20of%20Federal%20Government%20and%20Employee%20Information.pdf",
+      "final_url": "https://www.canada.ca/content/dam/oic-bcr/info-source/2025%20-%20Info%20Source%20-%20Sources%20of%20Federal%20Government%20and%20Employee%20Information.pdf",
+      "status_code": 200,
+      "content_type": "application/pdf",
+      "byte_count": 184279,
+      "sha256": "e96f15063647d240a65536b313d8f8a79733bce380826e50d18ed9d30ffc1535",
+      "title": "",
+      "page_language": "",
+      "validation": "reachable_pdf",
+      "error": "",
+      "has_pib_details": true,
+      "has_class_details": true,
+      "alternate_urls": {},
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://www.canada.ca/en/secretariat-national-security-intelligence-committee-parliamentarians/corporate/transparency/info-source/2025.html": {
+      "requested_url": "https://www.canada.ca/en/secretariat-national-security-intelligence-committee-parliamentarians/corporate/transparency/info-source/2025.html",
+      "final_url": "https://www.canada.ca/en/secretariat-national-security-intelligence-committee-parliamentarians/corporate/transparency/info-source/2025.html",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 52720,
+      "sha256": "aaed321b64293ee3ec1ccea72e674dea57affdb21255db1381d976edb0f97e51",
+      "title": "Info Source: Secretariat of the National Security and Intelligence Committee of Parliamentarians - Canada.ca",
+      "page_language": "en",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": false,
+      "has_class_details": true,
+      "alternate_urls": {
+        "en": "https://www.canada.ca/en/secretariat-national-security-intelligence-committee-parliamentarians/corporate/transparency/info-source/2025.html",
+        "fr": "https://www.canada.ca/fr/secretariat-comite-parlementaires-securite-nationale-renseignement/organisation/transparence/info-source/2025.html"
+      },
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://www.canada.ca/fr/secretariat-comite-parlementaires-securite-nationale-renseignement/organisation/transparence/info-source/2025.html": {
+      "requested_url": "https://www.canada.ca/fr/secretariat-comite-parlementaires-securite-nationale-renseignement/organisation/transparence/info-source/2025.html",
+      "final_url": "https://www.canada.ca/fr/secretariat-comite-parlementaires-securite-nationale-renseignement/organisation/transparence/info-source/2025.html",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 71887,
+      "sha256": "e57ce311473509f74863b09c6be3efd462a18d22e7383afaec42df5edc3aaa0f",
+      "title": "Source de renseignements : Secrétariat du Comité des parlementaires sur la sécurité nationale et le renseignement - Canada.ca",
+      "page_language": "fr",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": false,
+      "has_class_details": true,
+      "alternate_urls": {
+        "fr": "https://www.canada.ca/fr/secretariat-comite-parlementaires-securite-nationale-renseignement/organisation/transparence/info-source/2025.html",
+        "en": "https://www.canada.ca/en/secretariat-national-security-intelligence-committee-parliamentarians/corporate/transparency/info-source/2025.html"
+      },
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://www.ppsc-sppc.gc.ca/eng/tra/is/cor-cds.html": {
+      "requested_url": "https://www.ppsc-sppc.gc.ca/eng/tra/is/cor-cds.html",
+      "final_url": "https://www.ppsc-sppc.gc.ca/eng/tra/is/cor-cds.html",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 30735,
+      "sha256": "577999a00f3e0451de4e222f52b4adb7e6620c79d5cca657cdaffa32b1ed7c73",
+      "title": "PPSC - Appendix A - PPSC-Specific Classes of Records",
+      "page_language": "en",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": false,
+      "has_class_details": true,
+      "alternate_urls": {},
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://www.ppsc-sppc.gc.ca/eng/tra/is/index.html": {
+      "requested_url": "https://www.ppsc-sppc.gc.ca/eng/tra/is/index.html",
+      "final_url": "https://www.ppsc-sppc.gc.ca/eng/tra/is/index.html",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 55536,
+      "sha256": "25be4cff97e203d816b480bc3af5441f17135f1d68b6853fbd1e18bd53849481",
+      "title": "Info Source - Sources of Federal Government and Employee Information - PPSC",
+      "page_language": "en",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": false,
+      "has_class_details": false,
+      "alternate_urls": {},
+      "pib_candidates": [
+        {
+          "url": "https://www.ppsc-sppc.gc.ca/eng/tra/is/pib-frp.html",
+          "text": "Appendix B – PPSC -Specific Personal Information Banks",
+          "score": 6
+        }
+      ],
+      "class_candidates": [
+        {
+          "url": "https://www.ppsc-sppc.gc.ca/eng/tra/is/cor-cds.html",
+          "text": "Appendix A – PPSC -Specific Classes of Records",
+          "score": 6
+        }
+      ]
+    },
+    "https://www.ppsc-sppc.gc.ca/eng/tra/is/pib-frp.html": {
+      "requested_url": "https://www.ppsc-sppc.gc.ca/eng/tra/is/pib-frp.html",
+      "final_url": "https://www.ppsc-sppc.gc.ca/eng/tra/is/pib-frp.html",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 25226,
+      "sha256": "1d6d8ed6e5a6c23a4aef26684361e2660ccae8b84e6bd10e8b18704f77a48f4d",
+      "title": "PPSC - Appendix B - PPSC-Specific Personal Information Banks",
+      "page_language": "en",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": true,
+      "has_class_details": true,
+      "alternate_urls": {},
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://www.ppsc-sppc.gc.ca/fra/tra/is/cds-cor.html": {
+      "requested_url": "https://www.ppsc-sppc.gc.ca/fra/tra/is/cds-cor.html",
+      "final_url": "https://www.ppsc-sppc.gc.ca/fra/tra/is/cds-cor.html",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 35640,
+      "sha256": "72ec45bb93b0c4cb2bcaab84f8cf4a183473085b4f590678aad906f4395e1bf7",
+      "title": "SPPC - Annexe A - Catégories de documents spécifiques au SPPC",
+      "page_language": "fr",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": false,
+      "has_class_details": true,
+      "alternate_urls": {},
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://www.ppsc-sppc.gc.ca/fra/tra/is/frp-pib.html": {
+      "requested_url": "https://www.ppsc-sppc.gc.ca/fra/tra/is/frp-pib.html",
+      "final_url": "https://www.ppsc-sppc.gc.ca/fra/tra/is/frp-pib.html",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 28858,
+      "sha256": "a07f979a777fa910af031e61555fc4c88b201bd4eba50e4de96a8bf068fb37fb",
+      "title": "SPPC - Annexe B - Fichiers de renseignements personnels spécifiques au SPPC",
+      "page_language": "fr",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": true,
+      "has_class_details": false,
+      "alternate_urls": {},
+      "pib_candidates": [],
+      "class_candidates": []
+    },
+    "https://www.ppsc-sppc.gc.ca/fra/tra/is/index.html": {
+      "requested_url": "https://www.ppsc-sppc.gc.ca/fra/tra/is/index.html",
+      "final_url": "https://www.ppsc-sppc.gc.ca/fra/tra/is/index.html",
+      "status_code": 200,
+      "content_type": "text/html",
+      "byte_count": 65596,
+      "sha256": "1a591088a1929e975c480670e02e059a645ed7f880cfaa9a4841ea507d9bb4f2",
+      "title": "Info Source - Sources de renseignements du gouvernement fédéral et sur les fonctionnaires fédéraux - SPPC",
+      "page_language": "fr",
+      "validation": "verified_info_source",
+      "error": "",
+      "has_pib_details": false,
+      "has_class_details": false,
+      "alternate_urls": {},
+      "pib_candidates": [
+        {
+          "url": "https://www.ppsc-sppc.gc.ca/fra/tra/is/frp-pib.html",
+          "text": "Annexe B – Fichiers de renseignements personnels spécifiques au SPPC",
+          "score": 10
+        }
+      ],
+      "class_candidates": [
+        {
+          "url": "https://www.ppsc-sppc.gc.ca/fra/tra/is/cds-cor.html",
+          "text": "Annexe A – Catégories de documents spécifiques au SPPC",
+          "score": 10
+        }
+      ]
+    }
+  }
+}

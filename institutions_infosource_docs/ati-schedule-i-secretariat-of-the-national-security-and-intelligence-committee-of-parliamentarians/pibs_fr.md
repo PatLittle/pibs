@@ -66,7 +66,7 @@ Sources d’information du gouvernement fédéral et des employés
 
 Info Source décrit les programmes et les activités, ainsi que les fonds de renseignements liés aux programmes et activités, des institutions gouvernementales assujetties à la [*Loi sur l’accès à l’information*](https://laws-lois.justice.gc.ca/fra/lois/a-1/), afin de faciliter l’exercice du droit d’accès. Elle fournit également aux particuliers, y compris aux employés actuels et anciens du gouvernement du Canada, des renseignements pertinents pour accéder aux renseignements personnels les concernant, détenus par des institutions gouvernementales assujetties à la [*Loi sur la protection des renseignements personnels*](https://laws-lois.justice.gc.ca/fra/lois/p-21/index.html), et pour exercer leurs droits en vertu de cette loi.
 
-Un [index des institutions](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/info-source/liste-organisations.html) assujetties à la *Loi sur l’accès à l’information* et à la *Loi sur la protection des renseignements personnels* est disponible de façon centralisée.
+Un [index des institutions](/fr/secretariat-conseil-tresor/services/acces-information-protection-renseignements-personnels/acces-information/info-source/liste-organisations.html) assujetties à la *Loi sur l’accès à l’information* et à la *Loi sur la protection des renseignements personnels* est disponible de façon centralisée.
 
 La *Loi sur l’accès à l’information* et la *Loi sur la protection des renseignements personnels* confient au président du Conseil du Trésor (en tant que ministre désigné) la responsabilité générale de l’administration de ces lois à l’échelle du gouvernement.
 
@@ -244,7 +244,7 @@ Ces services comprennent les services de voyages du gouvernement du Canada, ains
 
 ## Renseignements supplémentaires
 
-Pour obtenir des renseignements généraux sur la façon de formuler une demande en matière d’accès à l’information ou de renseignements personnels, veuillez consulter la rubrique : [Présenter une demande d’accès à l’information ou à vos renseignements personnels](https://www.canada.ca/fr/secretariat-conseil-tresor/services/acces-information-protection-reseignements-personnels/acces-information/presenter-demande.html).
+Pour obtenir des renseignements généraux sur la façon de formuler une demande en matière d’accès à l’information ou de renseignements personnels, veuillez consulter la rubrique : [Présenter une demande d’accès à l’information ou à vos renseignements personnels](/fr/secretariat-conseil-tresor/services/acces-information-protection-renseignements-personnels/acces-information/presenter-demande.html).
 
 Pour faire une demande de renseignements en ligne, veuillez accéder au [Service de demandes d’accès à l’information et de renseignements personnels en ligne](https://atip-aiprp.tbs-sct.gc.ca/fr/Bienvenue/Confidentialite).
 

@@ -69,20 +69,70 @@
   },
   "extraction": {
     "pibs": {
-      "english": 0,
-      "french": 0,
-      "merged": 0
+      "english": 2,
+      "french": 1,
+      "merged": 2
     },
     "classes_of_records": {
-      "english": 0,
-      "french": 0,
-      "merged": 0
+      "english": 2,
+      "french": 2,
+      "merged": 2
     }
   },
   "parser_versions": {
     "pibs": 5,
     "classes_of_records": 2
   },
-  "extracted_at_utc": "2026-09-04T07:23:01.900081+00:00",
-  "extraction_rebuild_version": 2
+  "extracted_at_utc": "2026-11-11T20:19:08.355128+00:00",
+  "extraction_rebuild_version": 2,
+  "supplemental_sources": [
+    {
+      "source_id": "infosource-2026-11-11-round3-en",
+      "snapshot_date": "2026-11-11",
+      "collected_at_utc": "2026-11-11T20:17:37.971313+00:00",
+      "language": "en",
+      "roles": [
+        "pibs_en",
+        "classes_of_records_en"
+      ],
+      "requested_url": "https://nsira-ossnr.gc.ca/en/secretariat/access-to-information-and-privacy/info-source/sources-of-federal-government-and-employee-information/",
+      "final_url": "https://nsira-ossnr.gc.ca/en/secretariat/access-to-information-and-privacy/info-source/sources-of-federal-government-and-employee-information/",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 159768,
+      "sha256": "fccc563aa6dda3829ead5c4476501c504ce3ab6513ed384654d5e58ea851aa08",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-national-security-and-intelligence-review-agency-secretariat/snapshots/2026-11-11/supplemental/infosource-2026-11-11-round3-en/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-national-security-and-intelligence-review-agency-secretariat/snapshots/2026-11-11/supplemental/infosource-2026-11-11-round3-en/source.md",
+      "provenance": "Round 3: full official Info Source report or linked holdings appendix, selected through the institution publication and official navigation on 2026-11-11.",
+      "replaces_previous": true
+    },
+    {
+      "source_id": "infosource-2026-11-11-round3-fr",
+      "snapshot_date": "2026-11-11",
+      "collected_at_utc": "2026-11-11T20:17:43.022482+00:00",
+      "language": "fr",
+      "roles": [
+        "pibs_fr",
+        "classes_of_records_fr"
+      ],
+      "requested_url": "https://nsira-ossnr.gc.ca/fr/secretariat/acces-a-l-information-et-a-la-protection-des-renseignements-personnels/info-source/sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux/",
+      "final_url": "https://nsira-ossnr.gc.ca/fr/secretariat/acces-a-l-information-et-a-la-protection-des-renseignements-personnels/info-source/sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux/",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "text/html; charset=UTF-8",
+      "encoding": "UTF-8",
+      "byte_count": 177269,
+      "sha256": "c21ea27c3a9a4b328f3b77e1d082c3952466b907c6b5bbf62f57725ed0faad63",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-national-security-and-intelligence-review-agency-secretariat/snapshots/2026-11-11/supplemental/infosource-2026-11-11-round3-fr/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-national-security-and-intelligence-review-agency-secretariat/snapshots/2026-11-11/supplemental/infosource-2026-11-11-round3-fr/source.md",
+      "provenance": "Round 3: full official Info Source report or linked holdings appendix, selected through the institution publication and official navigation on 2026-11-11.",
+      "replaces_previous": true
+    }
+  ]
 }

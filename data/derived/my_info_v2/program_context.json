@@ -2037,10 +2037,40 @@
     "id": "ati-schedule-i-national-security-and-intelligence-review-agency-secretariat",
     "name_en": "National Security and Intelligence Review Agency Secretariat",
     "name_fr": "Secrétariat de l’Office de surveillance des activités en matière de sécurité nationale et de renseignement",
-    "source_url_en": "https://nsira-ossnr.gc.ca/en/secretariat/access-to-information-and-privacy/info-source/",
-    "source_url_fr": "https://nsira-ossnr.gc.ca/fr/secretariat/acces-a-l-information-et-a-la-protection-des-renseignements-personnels/info-source/",
-    "context_en": [],
-    "context_fr": []
+    "source_url_en": "https://nsira-ossnr.gc.ca/en/secretariat/access-to-information-and-privacy/info-source/sources-of-federal-government-and-employee-information/",
+    "source_url_fr": "https://nsira-ossnr.gc.ca/fr/secretariat/acces-a-l-information-et-a-la-protection-des-renseignements-personnels/info-source/sources-de-renseignements-du-gouvernement-federal-et-sur-les-fonctionnaires-federaux/",
+    "context_en": [
+      {
+        "source_path": "institutions_infosource_docs/ati-schedule-i-national-security-and-intelligence-review-agency-secretariat/classes_of_records_en.md",
+        "source_line": 119,
+        "heading": "Background\n",
+        "excerpt": "The National Security and Intelligence Review Agency Secretariat (Secretariat), established in 2019, supports the National Security and Intelligence Review Agency (NSIRA), an independent agency responsible for reviewing and investigating national security and intelligence activities in Canada. NSIRA ensures that operations by agencies like the Canadian Security Intelligence Service (CSIS) and the Communications Security Establishment (CSE) are lawful, reasonable, and necessary, issuing non-binding recommendations and investigating national security-related complaints. The Secretariat plays a vital role in facilitating NSIRA’s operations by providing administrative and logistical support, ensuring the efficiency and effectiveness of the review and investigation processes.\n\nThe Secretariat’s responsibilities and powers are outlined in the [*National Security and Intelligence Review Agency Act*](https://laws-lois.justice.gc.ca/eng/acts/n-16.62/page-1.html)(NSIRA Act), as are NSIRA’s mandate and authorities.\n\nThe NSIRA Secretariat is the “government institution” for the purposes of the *Access to Information* and *Privacy Acts.*",
+        "sha256": "0eceb5b63e9b9bd3aef6598539e7fb2e1dd7e5ca73923d3d74090d4dd04a5ea1"
+      },
+      {
+        "source_path": "institutions_infosource_docs/ati-schedule-i-national-security-and-intelligence-review-agency-secretariat/classes_of_records_en.md",
+        "source_line": 127,
+        "heading": "Responsibilities\n",
+        "excerpt": "The NSIRA Secretariat is led by an Executive Director, appointed by the Governor in Council, and plays a vital role in supporting NSIRA in its mandate to review and investigate the Government of Canada’s national security and intelligence activities. The Secretariat facilitates independent reviews to ensure these activities are lawful, reasonable, and necessary, while also supporting NSIRA in investigating national security-related complaints with consistency, fairness, and timeliness. This includes addressing complaints concerning CSIS, CSE, denial or revocation of security clearances, and referrals from the Civilian Review and Complaints Commission, the Canadian Human Rights Commission, or under the *Citizenship Act*.\n\nThe NSIRA Secretariat is a separate agency listed in Schedule V to the *Financial Administration Act*, and its Executive Director is the employer for Secretariat personnel.",
+        "sha256": "0eceb5b63e9b9bd3aef6598539e7fb2e1dd7e5ca73923d3d74090d4dd04a5ea1"
+      }
+    ],
+    "context_fr": [
+      {
+        "source_path": "institutions_infosource_docs/ati-schedule-i-national-security-and-intelligence-review-agency-secretariat/classes_of_records_fr.md",
+        "source_line": 118,
+        "heading": "Contexte\n",
+        "excerpt": "Créé en 2019, le Secrétariat de l’Office de surveillance des activités en matière de sécurité nationale et de renseignement (le Secrétariat de l’OSSNR ou le Secrétariat) appuie l’Office de surveillance des activités en matière de sécurité nationale et de renseignement (OSSNR), un organisme indépendant responsable de mener des examens et des enquêtes sur les activités en matière de sécurité nationale et de renseignement au Canada. L’OSSNR s’assure que les activités réalisées par des organismes tels que le Service canadien du renseignement de sécurité (SCRS) et le Centre de la sécurité des télécommunications (CST) sont légales, raisonnables et nécessaires, en émettant des recommandations non contraignantes et en enquêtant sur les plaintes liées à la sécurité nationale. Le Secrétariat joue un rôle essentiel dans la facilitation des activités de l’OSSNR, en fournissant un soutien administratif et logistique pour assurer l’efficacité et l’efficience des processus d’examen et d’enquête.\n\nLes responsabilités et les pouvoirs du Secrétariat, ainsi que le mandat et les pouvoirs de l’OSSNR, sont énoncés dans la [Loi sur l’Office de surveillance des activités en matière de sécurité nationale et de renseignement](https://laws-lois.justice.gc.ca/fra/lois/n-16.62/page-1.html) (la Loi sur l’OSSNR).\n\nAux fins de la *Loi sur l’accès à l’information et de la Loi sur la protection des renseignements personnels*, le Secrétariat de l’OSSNR est l’« institution gouvernementale ».",
+        "sha256": "4e73f23b82401e10d5eb8cb7104061de0eb26ff2d958203b0840d9a085843535"
+      },
+      {
+        "source_path": "institutions_infosource_docs/ati-schedule-i-national-security-and-intelligence-review-agency-secretariat/classes_of_records_fr.md",
+        "source_line": 126,
+        "heading": "Responsabilités\n",
+        "excerpt": "Le Secrétariat de l’OSSNR, dont le directeur général est nommé par le gouverneur en conseil, joue un rôle déterminant en soutenant l’OSSNR dans l’exécution de son mandat d’examen et d’enquête sur les activités du gouvernement du Canada en matière de sécurité nationale et de renseignement. Le Secrétariat facilite la réalisation d’examens indépendants pour confirmer que ces activités sont légales, raisonnables et nécessaires, tout en aidant l’OSSNR à mener avec uniformité, équité et rapidité des enquêtes sur les plaintes liées à la sécurité nationale. Il s’agit notamment d’enquêter sur les plaintes liées aux activités du SCRS ou du CST et au refus ou à la révocation d’une habilitation de sécurité, ainsi que sur les renvois de la Commission civile d’examen et de traitement des plaintes (CCETP) ou de la Commission canadienne sur les droits de la personne (CCDP), ou en application de la Loi sur la citoyenneté. *Loi sur la citoyenneté*.\n\nLe Secrétariat de l’OSSNR est un organisme distinct qui figure à l’annexe V de la Loi sur la gestion des finances publiques, et son directeur général est l’employeur de son personnel.",
+        "sha256": "4e73f23b82401e10d5eb8cb7104061de0eb26ff2d958203b0840d9a085843535"
+      }
+    ]
   },
   {
     "id": "ati-schedule-i-department-of-natural-resources",
@@ -2631,7 +2661,7 @@
     "id": "ati-schedule-i-office-of-the-director-of-public-prosecutions",
     "name_en": "Public Prosecution Service of Canada",
     "name_fr": "Service des poursuites pénales du Canada",
-    "source_url_en": "http://www.ppsc-sppc.gc.ca/eng/tra/is/index.html",
+    "source_url_en": "https://www.ppsc-sppc.gc.ca/eng/tra/is/index.html",
     "source_url_fr": "https://www.ppsc-sppc.gc.ca/fra/tra/is/index.html",
     "context_en": [],
     "context_fr": []
@@ -2853,14 +2883,14 @@
         "source_line": 73,
         "heading": "Background\n",
         "excerpt": "The Secretariat assists the National Security and Intelligence Committee of Parliamentarians in fulfilling its mandate, which is to review:",
-        "sha256": "71e3f0103fed1738276a95290421537989aa6cb92c4d1546394224d56175d793"
+        "sha256": "db102bc2caaacacb75e9b3bc7a2697ba82d4eb612dff3dfe6eb78eddfdbbe5e0"
       },
       {
         "source_path": "institutions_infosource_docs/ati-schedule-i-secretariat-of-the-national-security-and-intelligence-committee-of-parliamentarians/classes_of_records_en.md",
         "source_line": 81,
         "heading": "Responsibilities\n",
         "excerpt": "The Secretariat assists the National Security and Intelligence Committee of Parliamentarians in fulfilling its mandate. It ensures the Committee receives timely access to relevant, classified information and strategic and expert advice in the exercise of Committee reviews. It assists in the development of Committee reports and provides support to ensure compliance with security requirements.",
-        "sha256": "71e3f0103fed1738276a95290421537989aa6cb92c4d1546394224d56175d793"
+        "sha256": "db102bc2caaacacb75e9b3bc7a2697ba82d4eb612dff3dfe6eb78eddfdbbe5e0"
       }
     ],
     "context_fr": [
@@ -2869,14 +2899,14 @@
         "source_line": 73,
         "heading": "Contexte\n",
         "excerpt": "Le Secrétariat aide le Comité des parlementaires sur la sécurité nationale et le renseignement à s’acquitter de son mandat, qui consiste à examiner :",
-        "sha256": "f57a063de67d50e8dc4271faf863e3deb989997e135c776ec2361210dade066d"
+        "sha256": "d6598533e766e06dcb5e21d7c121adad54794504a7a846d1e091bc6ad287a594"
       },
       {
         "source_path": "institutions_infosource_docs/ati-schedule-i-secretariat-of-the-national-security-and-intelligence-committee-of-parliamentarians/classes_of_records_fr.md",
         "source_line": 81,
         "heading": "Responsabilités\n",
         "excerpt": "Le Secrétariat aide le Comité des parlementaires sur la sécurité nationale et le renseignement à remplir son mandat. Il veille à ce que le Comité ait rapidement accès à l’information classifiée pertinente, ainsi qu’à des conseils stratégiques et d’experts dans le cadre de ses examens. Il contribue à l’élaboration des rapports du Comité et fournit un soutien pour assurer le respect des exigences de sécurité.",
-        "sha256": "f57a063de67d50e8dc4271faf863e3deb989997e135c776ec2361210dade066d"
+        "sha256": "d6598533e766e06dcb5e21d7c121adad54794504a7a846d1e091bc6ad287a594"
       }
     ]
   },

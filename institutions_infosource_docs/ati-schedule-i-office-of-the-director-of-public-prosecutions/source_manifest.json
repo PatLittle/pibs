@@ -51,12 +51,12 @@
   },
   "extraction": {
     "pibs": {
-      "english": 0,
-      "french": 2,
-      "merged": 2
+      "english": 6,
+      "french": 6,
+      "merged": 6
     },
     "classes_of_records": {
-      "english": 0,
+      "english": 13,
       "french": 13,
       "merged": 13
     }
@@ -65,6 +65,100 @@
     "pibs": 5,
     "classes_of_records": 2
   },
-  "extracted_at_utc": "2026-09-04T07:23:10.978048+00:00",
-  "extraction_rebuild_version": 2
+  "extracted_at_utc": "2026-11-11T20:19:09.398920+00:00",
+  "extraction_rebuild_version": 2,
+  "supplemental_sources": [
+    {
+      "source_id": "infosource-2026-11-11-round3-pibs-en",
+      "snapshot_date": "2026-11-11",
+      "collected_at_utc": "2026-11-11T20:17:46.164603+00:00",
+      "language": "en",
+      "roles": [
+        "pibs_en"
+      ],
+      "requested_url": "https://www.ppsc-sppc.gc.ca/eng/tra/is/pib-frp.html",
+      "final_url": "https://www.ppsc-sppc.gc.ca/eng/tra/is/pib-frp.html",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 25226,
+      "sha256": "1d6d8ed6e5a6c23a4aef26684361e2660ccae8b84e6bd10e8b18704f77a48f4d",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-director-of-public-prosecutions/snapshots/2026-11-11/supplemental/infosource-2026-11-11-round3-pibs-en/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-director-of-public-prosecutions/snapshots/2026-11-11/supplemental/infosource-2026-11-11-round3-pibs-en/source.md",
+      "provenance": "Round 3: full official Info Source report or linked holdings appendix, selected through the institution publication and official navigation on 2026-11-11.",
+      "replaces_previous": true
+    },
+    {
+      "source_id": "infosource-2026-11-11-round3-classes-en",
+      "snapshot_date": "2026-11-11",
+      "collected_at_utc": "2026-11-11T20:17:49.390819+00:00",
+      "language": "en",
+      "roles": [
+        "classes_of_records_en"
+      ],
+      "requested_url": "https://www.ppsc-sppc.gc.ca/eng/tra/is/cor-cds.html",
+      "final_url": "https://www.ppsc-sppc.gc.ca/eng/tra/is/cor-cds.html",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 30735,
+      "sha256": "577999a00f3e0451de4e222f52b4adb7e6620c79d5cca657cdaffa32b1ed7c73",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-director-of-public-prosecutions/snapshots/2026-11-11/supplemental/infosource-2026-11-11-round3-classes-en/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-director-of-public-prosecutions/snapshots/2026-11-11/supplemental/infosource-2026-11-11-round3-classes-en/source.md",
+      "provenance": "Round 3: full official Info Source report or linked holdings appendix, selected through the institution publication and official navigation on 2026-11-11.",
+      "replaces_previous": true
+    },
+    {
+      "source_id": "infosource-2026-11-11-round3-pibs-fr",
+      "snapshot_date": "2026-11-11",
+      "collected_at_utc": "2026-11-11T20:17:52.676124+00:00",
+      "language": "fr",
+      "roles": [
+        "pibs_fr"
+      ],
+      "requested_url": "https://www.ppsc-sppc.gc.ca/fra/tra/is/frp-pib.html",
+      "final_url": "https://www.ppsc-sppc.gc.ca/fra/tra/is/frp-pib.html",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 28858,
+      "sha256": "a07f979a777fa910af031e61555fc4c88b201bd4eba50e4de96a8bf068fb37fb",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-director-of-public-prosecutions/snapshots/2026-11-11/supplemental/infosource-2026-11-11-round3-pibs-fr/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-director-of-public-prosecutions/snapshots/2026-11-11/supplemental/infosource-2026-11-11-round3-pibs-fr/source.md",
+      "provenance": "Round 3: full official Info Source report or linked holdings appendix, selected through the institution publication and official navigation on 2026-11-11.",
+      "replaces_previous": true
+    },
+    {
+      "source_id": "infosource-2026-11-11-round3-classes-fr",
+      "snapshot_date": "2026-11-11",
+      "collected_at_utc": "2026-11-11T20:17:56.155071+00:00",
+      "language": "fr",
+      "roles": [
+        "classes_of_records_fr"
+      ],
+      "requested_url": "https://www.ppsc-sppc.gc.ca/fra/tra/is/cds-cor.html",
+      "final_url": "https://www.ppsc-sppc.gc.ca/fra/tra/is/cds-cor.html",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 35640,
+      "sha256": "72ec45bb93b0c4cb2bcaab84f8cf4a183473085b4f590678aad906f4395e1bf7",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-director-of-public-prosecutions/snapshots/2026-11-11/supplemental/infosource-2026-11-11-round3-classes-fr/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-office-of-the-director-of-public-prosecutions/snapshots/2026-11-11/supplemental/infosource-2026-11-11-round3-classes-fr/source.md",
+      "provenance": "Round 3: full official Info Source report or linked holdings appendix, selected through the institution publication and official navigation on 2026-11-11.",
+      "replaces_previous": true
+    }
+  ]
 }

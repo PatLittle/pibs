@@ -74,7 +74,7 @@
       "merged": 0
     },
     "classes_of_records": {
-      "english": 0,
+      "english": 1,
       "french": 1,
       "merged": 1
     }
@@ -83,6 +83,56 @@
     "pibs": 5,
     "classes_of_records": 2
   },
-  "extracted_at_utc": "2026-09-04T07:24:19.193390+00:00",
-  "extraction_rebuild_version": 2
+  "extracted_at_utc": "2026-11-11T20:24:06.325038+00:00",
+  "extraction_rebuild_version": 2,
+  "supplemental_sources": [
+    {
+      "source_id": "infosource-2026-11-11-round3-en",
+      "snapshot_date": "2026-11-11",
+      "collected_at_utc": "2026-11-11T20:18:28.157713+00:00",
+      "language": "en",
+      "roles": [
+        "pibs_en",
+        "classes_of_records_en"
+      ],
+      "requested_url": "https://www.canada.ca/en/secretariat-national-security-intelligence-committee-parliamentarians/corporate/transparency/info-source/2025.html",
+      "final_url": "https://www.canada.ca/en/secretariat-national-security-intelligence-committee-parliamentarians/corporate/transparency/info-source/2025.html",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 52720,
+      "sha256": "d4f65f4adbc44b1463abfe61118c87855ea04f2c8f64ccc92936730356c4f0bc",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-secretariat-of-the-national-security-and-intelligence-committee-of-parliamentarians/snapshots/2026-11-11/supplemental/infosource-2026-11-11-round3-en/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-secretariat-of-the-national-security-and-intelligence-committee-of-parliamentarians/snapshots/2026-11-11/supplemental/infosource-2026-11-11-round3-en/source.md",
+      "provenance": "Round 3: full official Info Source report or linked holdings appendix, selected through the institution publication and official navigation on 2026-11-11.",
+      "replaces_previous": true
+    },
+    {
+      "source_id": "infosource-2026-11-11-round3-fr",
+      "snapshot_date": "2026-11-11",
+      "collected_at_utc": "2026-11-11T20:18:34.014069+00:00",
+      "language": "fr",
+      "roles": [
+        "pibs_fr",
+        "classes_of_records_fr"
+      ],
+      "requested_url": "https://www.canada.ca/fr/secretariat-comite-parlementaires-securite-nationale-renseignement/organisation/transparence/info-source/2025.html",
+      "final_url": "https://www.canada.ca/fr/secretariat-comite-parlementaires-securite-nationale-renseignement/organisation/transparence/info-source/2025.html",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 71886,
+      "sha256": "5e2e5e41a13dd519c56c1688de6e41f0cec5682a73c65b66550b0d699ec11b5b",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-secretariat-of-the-national-security-and-intelligence-committee-of-parliamentarians/snapshots/2026-11-11/supplemental/infosource-2026-11-11-round3-fr/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-secretariat-of-the-national-security-and-intelligence-committee-of-parliamentarians/snapshots/2026-11-11/supplemental/infosource-2026-11-11-round3-fr/source.md",
+      "provenance": "Round 3: full official Info Source report or linked holdings appendix, selected through the institution publication and official navigation on 2026-11-11.",
+      "replaces_previous": true
+    }
+  ]
 }

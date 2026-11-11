@@ -18,6 +18,17 @@ from rebuild_institution_extractions import rebuild_markdown_from_raw
 
 
 class ClassOfRecordsExtractorTests(unittest.TestCase):
+    def test_record_number_partly_inside_bold_label(self):
+        markdown = """### Reviews
+Document Types: Administrative and security records.
+**Record Number: SNSICOP** 001
+"""
+        rows = parse_cor_records(markdown)
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(rows[0]["record_number"], "SNSICOP 001")
+        self.assertEqual(rows[0]["name"], "Reviews")
+        self.assertEqual(rows[0]["document_types"], "Administrative and security records.")
+
     def test_numbered_activities_under_one_heading_remain_distinct_classes(self):
         english = """##### Advancement of reconciliation within WAGE
 **Description:** Reconciliation work.
