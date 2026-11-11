@@ -2,32 +2,32 @@
   "snapshot_date": "2026-08-15",
   "headline": {
     "institutions": 148,
-    "institution_pibs": 991,
-    "institution_classes": 2371,
-    "pib_cor_links": 1915
+    "institution_pibs": 1074,
+    "institution_classes": 2455,
+    "pib_cor_links": 2084
   },
   "quality": {
-    "pibs_bilingual": 860,
-    "pibs_bilingual_percent": 86.8,
-    "classes_bilingual": 2127,
-    "classes_bilingual_percent": 89.7,
-    "links_resolved": 1631,
-    "links_resolved_percent": 85.2
+    "pibs_bilingual": 942,
+    "pibs_bilingual_percent": 87.7,
+    "classes_bilingual": 2208,
+    "classes_bilingual_percent": 89.9,
+    "links_resolved": 1771,
+    "links_resolved_percent": 85.0
   },
   "collection": {
     "collectable_institutions": 131,
     "collection_completed": 131,
-    "all_four_sources": 96,
-    "any_source": 103,
+    "all_four_sources": 97,
+    "any_source": 104,
     "no_source_urls": 17,
-    "no_successful_source": 28,
-    "unique_failing_urls": 58
+    "no_successful_source": 27,
+    "unique_failing_urls": 56
   },
   "datasets": {
     "institutions": 148,
-    "pibs": 991,
-    "classes": 2371,
-    "links": 1915,
+    "pibs": 1074,
+    "classes": 2455,
+    "links": 2084,
     "standard_pibs": 49,
     "standard_classes": 33,
     "categories": 25,
@@ -36,7 +36,7 @@
   "pib_types": [
     {
       "name": "Public Bank",
-      "count": 830
+      "count": 913
     },
     {
       "name": "Particular Bank",
