@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1250" viewBox="0 0 1400 1250" role="img" aria-labelledby="title desc">
 <title id="title">Close is not close enough when entity resolution matters</title>
-<desc id="desc">A proposal to connect senior public servants' fragmented transparency records through a shared designated public office holder reference in Info Source. Source families include committee appearances, appointment briefing packages, travel, hospitality, lobbying communications, ethics and post-employment disclosures, audit committee remuneration and Orders in Council. Controlled recipients for briefing note titles would distinguish people, roles, institutions and effective dates. Dotted connections represent proposed links, not verified identities or an implemented identifier system.</desc>
+<desc id="desc">A proposal to connect senior public servants' fragmented transparency records through a shared designated public office holder reference in Info Source. Source families include committee appearances, appointment briefing packages, travel, hospitality, lobbying communications, ethics and post-employment disclosures, audit committee remuneration and Orders in Council. Controlled recipients for briefing note titles would distinguish people, roles, institutions and effective dates. Dotted connections represent the proposed linkage through a shared reference.</desc>
 <defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="none" stroke="#52718e" stroke-width="1.5"/></marker></defs>
 <style>text{font-family:Arial,Helvetica,sans-serif;fill:#26374a}.eyebrow{font-size:14px;font-weight:700;letter-spacing:1.8px;fill:#a62a1e}.h{font-size:21px;font-weight:700}.body{font-size:17px;fill:#526170}.small{font-size:14px;fill:#526170}.label{font-size:13px;font-weight:700;letter-spacing:1px;fill:#526170}.source{fill:#fff;stroke:#d9e0e6;stroke-width:1.5}.link{fill:none;stroke:#7890a6;stroke-width:2;stroke-dasharray:5 6}.white{fill:#fff}.pale{fill:#d5e2ec}.alert{fill:#a62a1e}</style>
 <rect width="1400" height="1250" rx="16" fill="#f4f7f9"/><path d="M16 0H1384Q1400 0 1400 16V7H0V16Q0 0 16 0" fill="#a62a1e"/>
@@ -9,7 +9,7 @@
 <text x="52" y="166" font-size="34" fill="#526170">when entity resolution matters.</text>
 <text x="52" y="207" class="body">Similar names are a starting point. Reliable linkage needs the right person, role, institution and dates.</text>
 <rect x="52" y="238" width="1296" height="112" rx="10" fill="#fff" stroke="#d9e0e6"/>
-<text x="76" y="268" class="label">ILLUSTRATIVE NAME VARIANTS — NO IDENTITY ASSERTED</text>
+<text x="76" y="268" class="label">ILLUSTRATIVE NAME VARIANTS</text>
 
 <rect x="76" y="284" width="210" height="43" rx="6" fill="#eaf2f8"/><text x="92" y="312" font-size="20">A. Martin</text>
 <rect x="306" y="284" width="210" height="43" rx="6" fill="#eaf2f8"/><text x="322" y="312" font-size="20">Alex Martin</text>
@@ -66,6 +66,6 @@
 <text x="80" y="1043" font-size="29" font-weight="700" fill="#155b46">A common anchor for a fractured information space.</text>
 <text x="80" y="1082" font-size="20">We may not capture every use. Making DPOH references part of Info Source could help</text>
 <text x="80" y="1112" font-size="20">connect these records while preserving their source, context and identity uncertainty.</text>
-<text x="80" y="1156" font-size="15" fill="#155b46">PROPOSAL FOR A SHARED REFERENCE — NOT A CLAIM THAT THIS IDENTIFIER SYSTEM EXISTS TODAY</text>
+<text x="80" y="1156" font-size="15" fill="#155b46">START WITH SHARED IDENTIFIERS, DATED ROLES AND TRACEABLE SOURCE EVIDENCE.</text>
 <text x="52" y="1225" class="small">GC Senior Officials Transparency · Concept diagram · November 2026</text>
 </svg>
