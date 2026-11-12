@@ -84,4 +84,7 @@ test('connection summaries count observed records, edge resolution and reference
   assert.ok(stats.unresolved > 0);
   assert.ok(stats.types.reference > 0);
   assert.equal(connectedRecords(index, pia, 'references').every(r => r.edges.every(e => e.type === 'references')), true);
+  const filtered = recordStats(index, pia, 'references');
+  assert.equal(filtered.relationships, connections(index, pia, 'references').length);
+  assert.equal(filtered.types.institution, 0, 'Summary chips must follow the active relationship filter');
 });

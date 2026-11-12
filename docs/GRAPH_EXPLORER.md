@@ -26,7 +26,8 @@ neighbourhood are brought into view or become a new graph root when necessary.
 
 Cards, badges, list accents and type chips use the same colour values as the
 diagram, with text labels so colour is not the only distinction. Record cards
-show direct relationship/record counts and clickable neighbour-type counts.
+show direct relationship/record counts and clickable neighbour-type counts,
+following the active relationship filter.
 **Most connected** sorts by observed direct-edge count across the collected
 graph; it is a discovery aid, not a privacy-risk or completeness score. References
 that need resolution remain labelled. **Highlight direct connections** dims

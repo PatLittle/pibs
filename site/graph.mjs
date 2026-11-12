@@ -222,7 +222,7 @@ function inspect() {
   const title = el('h4', label(node, state.lang));
   if (!node['label_' + state.lang]) title.lang = node.label_en ? 'en' : 'fr';
   card.append(el('span', t(node.type) + (node.scope === 'standard' ? ' · ' + t('standard') : ''), 'record-badge'), title, el('p', node.identifier, 'record-identifier'));
-  const stats = recordStats(index, node.id), metrics = el('div', null, 'record-metrics');
+  const stats = recordStats(index, node.id, state.relation), metrics = el('div', null, 'record-metrics');
   for (const [count, name] of [[stats.records, 'directRecords'], [stats.relationships, 'directEdges']]) {
     const metric = el('div', null, 'record-metric'); metric.append(el('strong', count), el('span', t(name))); metrics.append(metric);
   }

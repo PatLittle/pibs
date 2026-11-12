@@ -31,9 +31,9 @@ export function pageRecords(entries, requested = 1, size = 8) {
     end: Math.min(start + pageSize, entries.length), items: entries.slice(start, start + pageSize) };
 }
 
-export function recordStats(index, id) {
-  const edges = connections(index, id);
-  const records = connectedRecords(index, id);
+export function recordStats(index, id, relation = '') {
+  const edges = connections(index, id, relation);
+  const records = connectedRecords(index, id, relation);
   const types = Object.fromEntries(Object.keys(NODE_COLORS).map(type => [type, records.filter(r => r.node.type === type).length]));
   return { records: records.length, relationships: edges.length, types,
     unresolved: edges.filter(e => e.resolution !== 'resolved').length };
