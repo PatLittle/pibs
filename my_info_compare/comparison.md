@@ -59,9 +59,9 @@ V1 dates are answered 'unknown' to expose its mandatory path. V2 dates are defer
 
 ## Coverage, quality and release boundary
 
-V2 currently has 56 reviewed activity statements reaching 53/1145 inventory rows (4.6%). All 1145 records can be discovered through the directory, with 1092 requiring that additional program/population review. V1's 597 direct-labelled rows are a broader theoretical ceiling; these two measures use different evidentiary thresholds.
+V2 currently has 56 reviewed activity statements reaching 53/1254 inventory rows (4.2%). All 1254 records can be discovered through the directory, with 1201 requiring that additional program/population review. V1's 597 direct-labelled rows are a broader theoretical ceiling; these two measures use different evidentiary thresholds.
 
-Institutional context is available from local captures for 73 English and 70 French institutions. There are 33 flagged titles, 7 missing populations and 13 missing purposes in the source inventory. These are exposed, not silently repaired.
+Institutional context is available from local captures for 74 English and 71 French institutions. There are 15 flagged titles, 5 missing populations and 9 missing purposes in the source inventory. These are exposed, not silently repaired.
 
 Only 6 unambiguous rules are executable in V2. Other schedules remain available to read. Expand that ledger and the guided catalogue with source review before claiming production-level coverage.
 
