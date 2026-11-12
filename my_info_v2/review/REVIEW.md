@@ -16,11 +16,11 @@ Find which federal organizations may have records about you, what those records 
 
 There are 56 activity statements in 8 expandable groups, not 56 mandatory questions. Search/group navigation reduces the visible list; this still needs user testing for scanning effort.
 
-The reviewed guided routes reach 53 of 1145 inventory rows (4.6%). The directory exposes all 1145 rows; 1092 need program/role review there. **Directory access is not 100% automatic matching coverage.** V1's 597 direct-labelled rows include broad classifier/selector matches that have not had the same source review.
+The reviewed guided routes reach 53 of 1254 inventory rows (4.2%). The directory exposes all 1254 rows; 1201 need program/role review there. **Directory access is not 100% automatic matching coverage.** V1's 597 direct-labelled rows include broad classifier/selector matches that have not had the same source review.
 
-There are 1077 distinct bank-number keys: publishing the same key under multiple institutions explains part of the 1145-row total. V2 selectors use full institution-scoped record IDs.
+There are 1184 distinct bank-number keys: publishing the same key under multiple institutions explains part of the 1254-row total. V2 selectors use full institution-scoped record IDs.
 
-Info Source mandate/program context was extracted for 73 institutions in English and 70 in French. Missing context is explicit; extracted text assists navigation and never supplies a personal match.
+Info Source mandate/program context was extracted for 74 institutions in English and 71 in French. Missing context is explicit; extracted text assists navigation and never supplies a personal match.
 
 Only 6 source-checked single-event retention rules are executable in this prototype. Other published rules remain visible and uncertain. This intentionally exposes the remaining curation work.
 
@@ -375,7 +375,7 @@ Institution: Veterans Affairs Canada. Scope: inferred. Coverage: reviewed.
 
 
 
-- `institution:ati-schedule-i-department-of-veterans-affairs:VAC PPU 710` — You are here
+- `institution:ati-schedule-i-department-of-veterans-affairs:VAC PPU 710` — Education and Training Benefit (VAC PPU 710)
   - Population: Veterans of the Canadian Forces (Regular and Reserve, including Supplementary Reserve), and/or their representatives.
   - Purpose: The personal information is used to determine eligibility for and administer the Education and Training Benefit. Personal information is collected pursuant to Part 1.1, sections 5.2 to 5.93 and section 78.1 of the *Veterans Well-being Act* formerly known as the *Canadian Forces Members and Veterans Re-establishment and Compensation Act* and its accompanying Regulations.
   - Source: https://www.veterans.gc.ca/en/info-source
@@ -390,7 +390,7 @@ Institution: Veterans Affairs Canada. Scope: inferred. Coverage: reviewed.
 
 
 
-- `institution:ati-schedule-i-department-of-veterans-affairs:VAC PPU 715` — You are here
+- `institution:ati-schedule-i-department-of-veterans-affairs:VAC PPU 715` — Income Replacement Benefit (VAC PPU 715)
   - Population: Former members of the Canadian Armed Forces (CAF), eligible surviving spouse/common-law partner or orphan(s) of a CAF member or Veteran, and/or their representatives.
   - Purpose: The personal information is used to administer benefits, determine eligibility, disburse funds, and provide services under the Income Replacement Benefit program. Personal information is collected pursuant to Part II, subsections 18(1), 22(1), 23(2), 24(1), 25(2), 26(1), 26(2) and Part IV, subsections 76(1), 76 (2), and sections 78.1, 78.2, and 80 of the *Veterans Well-being Act*. The SIN is collected pursuant to section 82 of the *Veterans Well-being Act* and is used for data matching purposes, including income confirmation/verification. In accordance with the *Income Tax Act*, the SIN is also used to issue income reporting slips to individuals, where applicable.
   - Source: https://www.veterans.gc.ca/en/info-source
@@ -405,7 +405,7 @@ Institution: Veterans Affairs Canada. Scope: inferred. Coverage: reviewed.
 
 
 
-- `institution:ati-schedule-i-department-of-veterans-affairs:VAC PPU 040` — You are here
+- `institution:ati-schedule-i-department-of-veterans-affairs:VAC PPU 040` — War Veterans Allowance (VAC PPU 040)
   - Population: Canadian Armed Forces Veterans, Merchant Navy Veterans, Allied Veterans, civilians who served in close support of the Canadian Armed Forces during wartime, surviving spouses, surviving common-law partners, orphans, dependents, and/or representatives.
   - Purpose: The personal information is used to administer the program, determine eligibility, entitlement, disperse funds, and provide services. Personal information is collected under the authority of section 4 of the *War Veterans Allowance Act*, sections 3 and 4 of the *Veterans Allowance Regulations*, and sections 9, 9.1 and 12 of the *Civilian War-Related Benefits Act*. The SIN is collected pursuant to subsection 30(3) of the *War Veterans Allowance Act* and subsection 57(1) of the *Civilian War-Related Benefits Act*, and is used for data matching purposes, including income verification. Subsections 104(1) and 105(1) under Part 6 of the *Economic Action Plan* 2014 *Act* provide authority for one-time payments to compensate for deductions in certain benefits and allowances that are payable under the *War Veterans Allowance Act* and the *Civilian War-related Benefits Act*.
   - Source: https://www.veterans.gc.ca/en/info-source
@@ -420,7 +420,7 @@ Institution: Veterans Affairs Canada. Scope: inferred. Coverage: reviewed.
 
 Historical and narrowly defined program. It is never inferred from receiving another veterans benefit.
 
-- `institution:ati-schedule-i-department-of-veterans-affairs:VAC PPU 200` — You are here
+- `institution:ati-schedule-i-department-of-veterans-affairs:VAC PPU 200` — Agent Orange Ex-gratia Payment (VAC PPU 200)
   - Population: Canadian Forces Members who trained at or were posted to Canadian Forces Base Gagetown (CFB Gagetown), Federal Government employees, civilian contractors or civilians who were posted or were employed at or lived in CFB Gagetown; in 1966 and 1967 and civilians who lived in a community within five kilometres of CFB Gagetown in 1966 and 1967. May also include the applicant’s representative, physician, power of attorney and/or caregiver.
   - Purpose: Information was used to support the decision making process and to administer the Agent Orange ex-gratia payments. Personal information was collected pursuant to *Order in Council* P.C. 2007-1326 September 10, 2007, and *Order in Council* P.C. 2010-1607 December 9, 2010.
   - Source: https://www.veterans.gc.ca/en/info-source
@@ -2148,6 +2148,36 @@ FR — `institutions_infosource_docs/ati-schedule-i-national-research-council-of
 
 La Loi du CNRC stipule que cet organisme fédéral a le rôle suivant : entreprendre, aider ou promouvoir des recherches scientifiques et industrielles, en particulier dans les domaines d'importance pour le Canada; mettre sur pied une bibliothèque scientifique nationale et en assurer le fonctionnement selon son évaluation des besoins; vendre ou diffuser par tout autre moyen de l'information scientifique et technique; mener des recherches sur les unités et les techniques de mesure; normaliser et homologuer des appareils et instruments scientifiques et techniques, et les matériaux à l'usage de l'industrie canadienne; assurer le fonctionnement et la gestion des observatoires astronomiques mis sur pied ou exploités par le gouvernement du Canada; administrer ses activités de recherche et de développement, y compris les contributions soutenant diverses activités internationales; et dispenser des services scientifiques et technologiques essentiels à la collectivité scientifique et industrielle.
 
+### National Security and Intelligence Review Agency Secretariat
+
+EN — `institutions_infosource_docs/ati-schedule-i-national-security-and-intelligence-review-agency-secretariat/classes_of_records_en.md:119` — Background
+
+The National Security and Intelligence Review Agency Secretariat (Secretariat), established in 2019, supports the National Security and Intelligence Review Agency (NSIRA), an independent agency responsible for reviewing and investigating national security and intelligence activities in Canada. NSIRA ensures that operations by agencies like the Canadian Security Intelligence Service (CSIS) and the Communications Security Establishment (CSE) are lawful, reasonable, and necessary, issuing non-binding recommendations and investigating national security-related complaints. The Secretariat plays a vital role in facilitating NSIRA’s operations by providing administrative and logistical support, ensuring the efficiency and effectiveness of the review and investigation processes.
+
+The Secretariat’s responsibilities and powers are outlined in the [*National Security and Intelligence Review Agency Act*](https://laws-lois.justice.gc.ca/eng/acts/n-16.62/page-1.html)(NSIRA Act), as are NSIRA’s mandate and authorities.
+
+The NSIRA Secretariat is the “government institution” for the purposes of the *Access to Information* and *Privacy Acts.*
+
+EN — `institutions_infosource_docs/ati-schedule-i-national-security-and-intelligence-review-agency-secretariat/classes_of_records_en.md:127` — Responsibilities
+
+The NSIRA Secretariat is led by an Executive Director, appointed by the Governor in Council, and plays a vital role in supporting NSIRA in its mandate to review and investigate the Government of Canada’s national security and intelligence activities. The Secretariat facilitates independent reviews to ensure these activities are lawful, reasonable, and necessary, while also supporting NSIRA in investigating national security-related complaints with consistency, fairness, and timeliness. This includes addressing complaints concerning CSIS, CSE, denial or revocation of security clearances, and referrals from the Civilian Review and Complaints Commission, the Canadian Human Rights Commission, or under the *Citizenship Act*.
+
+The NSIRA Secretariat is a separate agency listed in Schedule V to the *Financial Administration Act*, and its Executive Director is the employer for Secretariat personnel.
+
+FR — `institutions_infosource_docs/ati-schedule-i-national-security-and-intelligence-review-agency-secretariat/classes_of_records_fr.md:118` — Contexte
+
+Créé en 2019, le Secrétariat de l’Office de surveillance des activités en matière de sécurité nationale et de renseignement (le Secrétariat de l’OSSNR ou le Secrétariat) appuie l’Office de surveillance des activités en matière de sécurité nationale et de renseignement (OSSNR), un organisme indépendant responsable de mener des examens et des enquêtes sur les activités en matière de sécurité nationale et de renseignement au Canada. L’OSSNR s’assure que les activités réalisées par des organismes tels que le Service canadien du renseignement de sécurité (SCRS) et le Centre de la sécurité des télécommunications (CST) sont légales, raisonnables et nécessaires, en émettant des recommandations non contraignantes et en enquêtant sur les plaintes liées à la sécurité nationale. Le Secrétariat joue un rôle essentiel dans la facilitation des activités de l’OSSNR, en fournissant un soutien administratif et logistique pour assurer l’efficacité et l’efficience des processus d’examen et d’enquête.
+
+Les responsabilités et les pouvoirs du Secrétariat, ainsi que le mandat et les pouvoirs de l’OSSNR, sont énoncés dans la [Loi sur l’Office de surveillance des activités en matière de sécurité nationale et de renseignement](https://laws-lois.justice.gc.ca/fra/lois/n-16.62/page-1.html) (la Loi sur l’OSSNR).
+
+Aux fins de la *Loi sur l’accès à l’information et de la Loi sur la protection des renseignements personnels*, le Secrétariat de l’OSSNR est l’« institution gouvernementale ».
+
+FR — `institutions_infosource_docs/ati-schedule-i-national-security-and-intelligence-review-agency-secretariat/classes_of_records_fr.md:126` — Responsabilités
+
+Le Secrétariat de l’OSSNR, dont le directeur général est nommé par le gouverneur en conseil, joue un rôle déterminant en soutenant l’OSSNR dans l’exécution de son mandat d’examen et d’enquête sur les activités du gouvernement du Canada en matière de sécurité nationale et de renseignement. Le Secrétariat facilite la réalisation d’examens indépendants pour confirmer que ces activités sont légales, raisonnables et nécessaires, tout en aidant l’OSSNR à mener avec uniformité, équité et rapidité des enquêtes sur les plaintes liées à la sécurité nationale. Il s’agit notamment d’enquêter sur les plaintes liées aux activités du SCRS ou du CST et au refus ou à la révocation d’une habilitation de sécurité, ainsi que sur les renvois de la Commission civile d’examen et de traitement des plaintes (CCETP) ou de la Commission canadienne sur les droits de la personne (CCDP), ou en application de la Loi sur la citoyenneté. *Loi sur la citoyenneté*.
+
+Le Secrétariat de l’OSSNR est un organisme distinct qui figure à l’annexe V de la Loi sur la gestion des finances publiques, et son directeur général est l’employeur de son personnel.
+
 ### Natural Resources Canada
 
 EN — `institutions_infosource_docs/ati-schedule-i-department-of-natural-resources/classes_of_records_en.md:83` — Background
@@ -2773,7 +2803,7 @@ Le rôle officiel du président consiste à présider le Conseil du Trésor. Il 
 
 ### Veterans Affairs Canada
 
-EN — `institutions_infosource_docs/ati-schedule-i-department-of-veterans-affairs/classes_of_records_en.md:901` — 2.1.1 Benefits, Services, and Support
+EN — `institutions_infosource_docs/ati-schedule-i-department-of-veterans-affairs/classes_of_records_en.md:417` — 2.1.1 Benefits, Services, and Support
 
 Support the care and well-being of Veterans and their dependents or survivors through a range of benefits, services, research, partnerships and advocacy.
 
