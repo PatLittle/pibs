@@ -12,6 +12,7 @@ from pathlib import Path
 
 from scripts.build_pia_site import build as build_pia_assets
 from PIAs.reference_extraction import enrich_collections
+from scripts.build_graph import write as build_graph_assets
 
 
 SITE_DATA = Path("site/data")
@@ -29,6 +30,7 @@ def percent(numerator: int, denominator: int) -> float:
 def main() -> None:
     enrich_collections()
     build_pia_assets()
+    build_graph_assets()
     SITE_DATA.mkdir(parents=True, exist_ok=True)
     copies = {
         Path("standard_classes_of_records_en_fr.csv"): SITE_DATA / "standard_classes_of_records_en_fr.csv",

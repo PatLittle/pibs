@@ -23,6 +23,11 @@ on:
       - "PIAs/**"
       - "scripts/build_pia_site.py"
       - "scripts/validate_pia_site.py"
+      - "scripts/build_graph.py"
+      - "scripts/validate_graph.py"
+      - "tests/test_build_graph.py"
+      - "tests/graph.test.mjs"
+      - "tests/graph.browser.cjs"
       - "tests/test_build_pia_site.py"
       - "tests/privacy_assessments.test.mjs"
       - "tests/privacy_assessments.browser.cjs"
@@ -78,6 +83,9 @@ jobs:
           node --test tests/privacy_assessments.test.mjs
           node --check site/privacy-assessments.js
           node --check site/privacy-assessment.js
+          python -m unittest tests.test_build_graph
+          node --test tests/graph.test.mjs
+          node --check site/graph.mjs
 
       - name: Prepare independent main-site payload
         run: |

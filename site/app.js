@@ -408,6 +408,10 @@
 
   function relatedActions(row) {
     const actions = [];
+    const graphKind = { pibs: "pib", "standard-pibs": "pib", classes: "class", "standard-classes": "class" }[state.datasetId];
+    const graphId = state.datasetId === "institutions" ? "institution:" + row.institution_id :
+      graphKind ? graphKind + ":" + (row.institution_id || "standard") + ":" + (row.bank_number_key || row.record_number) : "";
+    if (graphId) actions.push('<a class="button-link button-link--small" href="graph.html?node=' + encodeURIComponent(graphId) + '">Explore network</a>');
     const institutionFilter = row.institution_id ? { institution_id: row.institution_id } : null;
     if (state.datasetId === "institutions") {
       actions.push(actionLink("Institution PIBs", "pibs", institutionFilter));

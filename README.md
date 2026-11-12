@@ -1,5 +1,10 @@
 # pibs
 
+The [PIB / PIA network explorer](https://patlittle.github.io/pibs/graph.html)
+connects the collected inventories through source-evidenced relationships.
+See the [graph methodology and rebuild guide](docs/GRAPH_EXPLORER.md) for identity,
+provenance, unresolved references, bilingual navigation and validation.
+
 ## End-to-end data pipeline
 
 The legal registry, source captures, extracted holdings, derived survey logic, and

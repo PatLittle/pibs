@@ -9,6 +9,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 from bs4 import BeautifulSoup
+from scripts.validate_graph import validate as validate_graph
 
 from scripts.validate_pia_site import validate as validate_pia_assets
 
@@ -38,6 +39,7 @@ def row_count(path: Path) -> int:
 
 
 def main() -> None:
+    validate_graph()
     errors: list[str] = []
     summary_path = SITE / "data/site_summary.json"
     summary = json.loads(summary_path.read_text(encoding="utf-8"))
