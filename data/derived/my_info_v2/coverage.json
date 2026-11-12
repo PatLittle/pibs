@@ -1,10 +1,10 @@
 {
-  "inventory_rows": 1151,
-  "distinct_bank_keys": 1083,
+  "inventory_rows": 1254,
+  "distinct_bank_keys": 1184,
   "guided_record_count": 53,
-  "guided_percent": 4.6,
-  "directory_record_count": 1151,
-  "directory_only_count": 1098,
+  "guided_percent": 4.2,
+  "directory_record_count": 1254,
+  "directory_only_count": 1201,
   "activities": 56,
   "groups": 8,
   "scope_activities": 9,
@@ -19,8 +19,8 @@
   "institutions_with_context_en": 74,
   "institutions_with_context_fr": 71,
   "source_quality_flags": {
-    "population_missing": 7,
-    "purpose_missing": 13,
-    "title_needs_review": 31
+    "population_missing": 5,
+    "purpose_missing": 9,
+    "title_needs_review": 15
   }
 }

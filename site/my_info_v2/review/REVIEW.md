@@ -16,9 +16,9 @@ Find which federal organizations may have records about you, what those records 
 
 There are 56 activity statements in 8 expandable groups, not 56 mandatory questions. Search/group navigation reduces the visible list; this still needs user testing for scanning effort.
 
-The reviewed guided routes reach 53 of 1151 inventory rows (4.6%). The directory exposes all 1151 rows; 1098 need program/role review there. **Directory access is not 100% automatic matching coverage.** V1's 597 direct-labelled rows include broad classifier/selector matches that have not had the same source review.
+The reviewed guided routes reach 53 of 1254 inventory rows (4.2%). The directory exposes all 1254 rows; 1201 need program/role review there. **Directory access is not 100% automatic matching coverage.** V1's 597 direct-labelled rows include broad classifier/selector matches that have not had the same source review.
 
-There are 1083 distinct bank-number keys: publishing the same key under multiple institutions explains part of the 1151-row total. V2 selectors use full institution-scoped record IDs.
+There are 1184 distinct bank-number keys: publishing the same key under multiple institutions explains part of the 1254-row total. V2 selectors use full institution-scoped record IDs.
 
 Info Source mandate/program context was extracted for 74 institutions in English and 71 in French. Missing context is explicit; extracted text assists navigation and never supplies a personal match.
 
@@ -375,7 +375,7 @@ Institution: Veterans Affairs Canada. Scope: inferred. Coverage: reviewed.
 
 
 
-- `institution:ati-schedule-i-department-of-veterans-affairs:VAC PPU 710` — You are here
+- `institution:ati-schedule-i-department-of-veterans-affairs:VAC PPU 710` — Education and Training Benefit (VAC PPU 710)
   - Population: Veterans of the Canadian Forces (Regular and Reserve, including Supplementary Reserve), and/or their representatives.
   - Purpose: The personal information is used to determine eligibility for and administer the Education and Training Benefit. Personal information is collected pursuant to Part 1.1, sections 5.2 to 5.93 and section 78.1 of the *Veterans Well-being Act* formerly known as the *Canadian Forces Members and Veterans Re-establishment and Compensation Act* and its accompanying Regulations.
   - Source: https://www.veterans.gc.ca/en/info-source
@@ -390,7 +390,7 @@ Institution: Veterans Affairs Canada. Scope: inferred. Coverage: reviewed.
 
 
 
-- `institution:ati-schedule-i-department-of-veterans-affairs:VAC PPU 715` — You are here
+- `institution:ati-schedule-i-department-of-veterans-affairs:VAC PPU 715` — Income Replacement Benefit (VAC PPU 715)
   - Population: Former members of the Canadian Armed Forces (CAF), eligible surviving spouse/common-law partner or orphan(s) of a CAF member or Veteran, and/or their representatives.
   - Purpose: The personal information is used to administer benefits, determine eligibility, disburse funds, and provide services under the Income Replacement Benefit program. Personal information is collected pursuant to Part II, subsections 18(1), 22(1), 23(2), 24(1), 25(2), 26(1), 26(2) and Part IV, subsections 76(1), 76 (2), and sections 78.1, 78.2, and 80 of the *Veterans Well-being Act*. The SIN is collected pursuant to section 82 of the *Veterans Well-being Act* and is used for data matching purposes, including income confirmation/verification. In accordance with the *Income Tax Act*, the SIN is also used to issue income reporting slips to individuals, where applicable.
   - Source: https://www.veterans.gc.ca/en/info-source
@@ -405,7 +405,7 @@ Institution: Veterans Affairs Canada. Scope: inferred. Coverage: reviewed.
 
 
 
-- `institution:ati-schedule-i-department-of-veterans-affairs:VAC PPU 040` — You are here
+- `institution:ati-schedule-i-department-of-veterans-affairs:VAC PPU 040` — War Veterans Allowance (VAC PPU 040)
   - Population: Canadian Armed Forces Veterans, Merchant Navy Veterans, Allied Veterans, civilians who served in close support of the Canadian Armed Forces during wartime, surviving spouses, surviving common-law partners, orphans, dependents, and/or representatives.
   - Purpose: The personal information is used to administer the program, determine eligibility, entitlement, disperse funds, and provide services. Personal information is collected under the authority of section 4 of the *War Veterans Allowance Act*, sections 3 and 4 of the *Veterans Allowance Regulations*, and sections 9, 9.1 and 12 of the *Civilian War-Related Benefits Act*. The SIN is collected pursuant to subsection 30(3) of the *War Veterans Allowance Act* and subsection 57(1) of the *Civilian War-Related Benefits Act*, and is used for data matching purposes, including income verification. Subsections 104(1) and 105(1) under Part 6 of the *Economic Action Plan* 2014 *Act* provide authority for one-time payments to compensate for deductions in certain benefits and allowances that are payable under the *War Veterans Allowance Act* and the *Civilian War-related Benefits Act*.
   - Source: https://www.veterans.gc.ca/en/info-source
@@ -420,7 +420,7 @@ Institution: Veterans Affairs Canada. Scope: inferred. Coverage: reviewed.
 
 Historical and narrowly defined program. It is never inferred from receiving another veterans benefit.
 
-- `institution:ati-schedule-i-department-of-veterans-affairs:VAC PPU 200` — You are here
+- `institution:ati-schedule-i-department-of-veterans-affairs:VAC PPU 200` — Agent Orange Ex-gratia Payment (VAC PPU 200)
   - Population: Canadian Forces Members who trained at or were posted to Canadian Forces Base Gagetown (CFB Gagetown), Federal Government employees, civilian contractors or civilians who were posted or were employed at or lived in CFB Gagetown; in 1966 and 1967 and civilians who lived in a community within five kilometres of CFB Gagetown in 1966 and 1967. May also include the applicant’s representative, physician, power of attorney and/or caregiver.
   - Purpose: Information was used to support the decision making process and to administer the Agent Orange ex-gratia payments. Personal information was collected pursuant to *Order in Council* P.C. 2007-1326 September 10, 2007, and *Order in Council* P.C. 2010-1607 December 9, 2010.
   - Source: https://www.veterans.gc.ca/en/info-source
@@ -2803,7 +2803,7 @@ Le rôle officiel du président consiste à présider le Conseil du Trésor. Il 
 
 ### Veterans Affairs Canada
 
-EN — `institutions_infosource_docs/ati-schedule-i-department-of-veterans-affairs/classes_of_records_en.md:901` — 2.1.1 Benefits, Services, and Support
+EN — `institutions_infosource_docs/ati-schedule-i-department-of-veterans-affairs/classes_of_records_en.md:417` — 2.1.1 Benefits, Services, and Support
 
 Support the care and well-being of Veterans and their dependents or survivors through a range of benefits, services, research, partnerships and advocacy.
 

@@ -222,7 +222,7 @@
               "VAC PPU 200",
               "VAC PPU 710",
               "VAC PPU 715",
-              "ACC PPU 350",
+              "VAC PPU 350",
               "ESDC PPU 701"
             ]
           }
@@ -407,7 +407,7 @@
               "VAC PPU 200",
               "VAC PPU 710",
               "VAC PPU 715",
-              "ACC PPU 350",
+              "VAC PPU 350",
               "ESDC PPU 701"
             ]
           }
@@ -1419,12 +1419,12 @@
       "prompt_fr": "Quel service fédéral nommé lié à un événement de vie s'applique? Sélectionnez toutes les réponses pertinentes."
     }
   ],
-  "content_version": "2026-11-11.6",
+  "content_version": "2026-11-12.6",
   "data_snapshot": {
-    "generated_date": "2026-11-11",
+    "generated_date": "2026-11-12",
     "source_files": {
       "institutions_infosource_docs/pib_table_en_fr_all.csv": {
-        "sha256": "509a061f4dda334786cb56b734f2bdff3e05c22161a6200e755eca1514ac4d3e"
+        "sha256": "56c44b6bc01ef7787a6e589a1461a139edf5caead41b7494ca94c459a9ca0577"
       },
       "spib_en_fr.csv": {
         "sha256": "bbda3c9de3ba8fdbdd55122db38d3fcc5f40c37c71f8d6295624e2ad89b4eabf"

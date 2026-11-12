@@ -18,11 +18,11 @@ class MyInfoPersonaEvaluatorTests(unittest.TestCase):
     def setUpClass(cls) -> None:
         cls.engine = SurveyToolEngine()
 
-    @staticmethod
-    def fixture() -> dict[str, object]:
+    @classmethod
+    def fixture(cls) -> dict[str, object]:
         return {
             "schema_version": "1.0",
-            "contract_version": "2026-11-11.6",
+            "contract_version": cls.engine.contract["content_version"],
             "assessment_year": 2026,
             "include_possible": False,
             "personas": [{

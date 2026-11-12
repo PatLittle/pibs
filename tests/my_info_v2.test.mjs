@@ -4,6 +4,7 @@ import fs from "node:fs";
 import { SurveyV2 } from "../my_info_v2/engine.mjs";
 
 const runtime = JSON.parse(fs.readFileSync(new URL("../site/my_info_v2/runtime.json", import.meta.url), "utf8"));
+const inventoryCount = JSON.parse(fs.readFileSync(new URL("../data/derived/my_info/my_info_summary.json", import.meta.url), "utf8")).record_count;
 const engine = new SurveyV2(runtime);
 const choose = (activities, other = {}) => engine.select(engine.createState(), {activities, ...other});
 const banks = (state) => engine.evaluate(state, 2026).results.map(r => r.bank_number_key);
@@ -19,8 +20,8 @@ test("all guided selectors resolve exactly and carry source population evidence"
       assert.ok(a.source_evidence.some(e => e.record_id === id && e.field.startsWith("class_of_individuals")), id);
     }
   }
-  assert.equal(runtime.records.length, 1151);
-  assert.equal(new Set(runtime.records.map(r=>r.record_id)).size, 1151);
+  assert.equal(runtime.records.length, inventoryCount);
+  assert.equal(new Set(runtime.records.map(r=>r.record_id)).size, inventoryCount);
 });
 
 test("veterans programs infer VAC and never infer Agent Orange from another benefit", () => {
@@ -123,7 +124,7 @@ test("retention boundaries stay uncertain and no closure means no elapsed-from-c
 });
 
 test("search alone produces no personal matches; all inventory rows can be explicitly reviewed", () => {
-  assert.equal(engine.searchRecords().length,1151);
+  assert.equal(engine.searchRecords().length,inventoryCount);
   assert.ok(engine.searchRecords("automated document").some(r=>r.bank_number_key==="PSU 904"));
   assert.deepEqual(engine.evaluate(engine.createState()).results,[]);
   const chosen=choose([],{reviewed_records:["standard:PSU 904"]});

@@ -17,6 +17,12 @@ on:
       - "docs/MY_INFO_SURVEY_COMPARISON.md"
       - "data/derived/my_info/**"
       - "my_info/model.py"
+      - "my_info/adaptive.py"
+      - "my_info/categories.py"
+      - "my_info/interactions.py"
+      - "my_info/retention.py"
+      - "build_my_info_features.py"
+      - "validate_my_info_features.py"
       - "my_info/agent_tools.py"
       - "site/my_info/runtime.json"
       - "site/my_info/engine.mjs"
@@ -49,6 +55,8 @@ jobs:
           node-version: "22"
       - name: Build independent V2 and comparison documents
         run: |
+          python build_my_info_features.py
+          python validate_my_info_features.py
           python scripts/export_my_info_v1_review.py
           python scripts/build_my_info_v2.py
           node scripts/compare_my_info_surveys.mjs

@@ -483,6 +483,16 @@
         "record_id": "institution:ati-schedule-i-department-of-foreign-affairs-trade-and-development:GAC PPU 010",
         "field": "purpose_en",
         "quote": "The information contained in this bank is used to provide consular assistance to Canadian citizens abroad. It may be used, where necessary, to contact, advocate on behalf of, protect, rescue or evacuate Canadians and their family members."
+      },
+      {
+        "record_id": "institution:ati-schedule-i-department-of-foreign-affairs-trade-and-development:GAC PPU 010",
+        "field": "class_of_individuals_fr",
+        "quote": "Les Canadiens qui résident à l’étranger et qui se sont inscrits à la mission canadienne la plus proche, les Canadiens qui ont demandé ou obtenu l’aide d’une mission du Canada, et les Canadiens arrêtés ou détenus à l’étranger."
+      },
+      {
+        "record_id": "institution:ati-schedule-i-department-of-foreign-affairs-trade-and-development:GAC PPU 010",
+        "field": "purpose_fr",
+        "quote": "Ces renseignements servent à fournir de l’aide consulaire aux citoyens canadiens à l’étranger. Ils peuvent être utilisés, au besoin, pour contacter, défendre, protéger, secourir ou évacuer des Canadiens ainsi que les membres de leur famille."
       }
     ]
   },
@@ -840,6 +850,16 @@
         "record_id": "institution:ati-schedule-i-department-of-veterans-affairs:VAC PPU 710",
         "field": "purpose_en",
         "quote": "The personal information is used to determine eligibility for and administer the Education and Training Benefit. Personal information is collected pursuant to Part 1.1, sections 5.2 to 5.93 and section 78.1 of the *Veterans Well-being Act* formerly known as the *Canadian Forces Members and Veterans Re-establishment and Compensation Act* and its accompanying Regulations."
+      },
+      {
+        "record_id": "institution:ati-schedule-i-department-of-veterans-affairs:VAC PPU 710",
+        "field": "class_of_individuals_fr",
+        "quote": "les vétérans des Forces armées canadiennes (Force régulière et Force de réserve, y compris la Réserve supplémentaire), et/ou leurs représentants."
+      },
+      {
+        "record_id": "institution:ati-schedule-i-department-of-veterans-affairs:VAC PPU 710",
+        "field": "purpose_fr",
+        "quote": "Les renseignements personnels sont utilisés pour déterminer l’admissibilité à l’Allocation pour études et formation et gérer cette allocation. Ils sont recueillis en vertu de la partie 1.1, articles 5.2 à 5.93 et 78.1 de la *Loi sur le bien-être des vétérans*, anciennement la *Loi sur les mesures de réinsertion et d’indemnisation des militaires et vétérans des Forces canadiennes*, et son Règlement."
       }
     ]
   },
@@ -870,6 +890,16 @@
         "record_id": "institution:ati-schedule-i-department-of-veterans-affairs:VAC PPU 715",
         "field": "purpose_en",
         "quote": "The personal information is used to administer benefits, determine eligibility, disburse funds, and provide services under the Income Replacement Benefit program. Personal information is collected pursuant to Part II, subsections 18(1), 22(1), 23(2), 24(1), 25(2), 26(1), 26(2) and Part IV, subsections 76(1), 76 (2), and sections 78.1, 78.2, and 80 of the *Veterans Well-being Act*. The SIN is collected pursuant to section 82 of the *Veterans Well-being Act* and is used for data matching purposes, including income confirmation/verification. In accordance with the *Income Tax Act*, the SIN is also used to issue income reporting slips to individuals, where applicable."
+      },
+      {
+        "record_id": "institution:ati-schedule-i-department-of-veterans-affairs:VAC PPU 715",
+        "field": "class_of_individuals_fr",
+        "quote": "Les anciens membres des FAC, le conjoint ou conjoint de fait survivant admissible ou les orphelins d’un militaire ou d’un vétéran des FAC, et/ou leurs représentants."
+      },
+      {
+        "record_id": "institution:ati-schedule-i-department-of-veterans-affairs:VAC PPU 715",
+        "field": "purpose_fr",
+        "quote": "Les renseignements personnels sont utilisés pour administrer les prestations, déterminer l’admissibilité, attribuer les fonds et fournir les services dans le cadre du programme Prestation de remplacement du revenu. Ils sont recueillis en vertu de la partie II, paragraphes 18(1), 22(1), 23(2), 24(1), 25(2), 26(1) et 26(2), ainsi que de la partie IV, paragraphes 76(1) et 76 (2) et articles 78.1, 78.2 et 80 de la *Loi sur le bien-être des vétérans*. Le NAS est recueilli en vertu de l’article 82 de la *Loi sur le bien-être des vétérans* et sert au couplage des données, y compris la confirmation/vérification du revenu. Conformément à la *Loi de l’impôt sur le revenu*, le NAS est également utilisé pour émettre des feuillets de déclaration de revenu aux particuliers, le cas échéant."
       }
     ]
   },
@@ -900,6 +930,16 @@
         "record_id": "institution:ati-schedule-i-department-of-veterans-affairs:VAC PPU 040",
         "field": "purpose_en",
         "quote": "The personal information is used to administer the program, determine eligibility, entitlement, disperse funds, and provide services. Personal information is collected under the authority of section 4 of the *War Veterans Allowance Act*, sections 3 and 4 of the *Veterans Allowance Regulations*, and sections 9, 9.1 and 12 of the *Civilian War-Related Benefits Act*. The SIN is collected pursuant to subsection 30(3) of the *War Veterans Allowance Act* and subsection 57(1) of the *Civilian War-Related Benefits Act*, and is used for data matching purposes, including income verification. Subsections 104(1) and 105(1) under Part 6 of the *Economic Action Plan* 2014 *Act* provide authority for one-time payments to compensate for deductions in certain benefits and allowances that are payable under the *War Veterans Allowance Act* and the *Civilian War-related Benefits Act*."
+      },
+      {
+        "record_id": "institution:ati-schedule-i-department-of-veterans-affairs:VAC PPU 040",
+        "field": "class_of_individuals_fr",
+        "quote": "Les vétérans des Forces armées canadiennes (FAC), les vétérans de la marine marchande, les vétérans alliés et les civils qui ont servi en étroite collaboration avec les FAC en temps de guerre, les conjoints survivants, les conjoints de fait survivants, les orphelins, les personnes à charge, et/ou leurs représentants."
+      },
+      {
+        "record_id": "institution:ati-schedule-i-department-of-veterans-affairs:VAC PPU 040",
+        "field": "purpose_fr",
+        "quote": "Les renseignements personnels servant à administrer le programme, à déterminer l’admissibilité et les droits, à attribuer les fonds et à fournir des services. Ils sont recueillis en vertu de l’article 4 de la *Loi sur les allocations aux anciens combattants*, des articles 3 et 4 du *Règlement sur les allocations aux anciens combattants* et des articles 9, 9.1 et 12 de la *Loi sur les prestations de guerre pour les civils*. Le NAS est recueilli en vertu du paragraphe 30(3) de la *Loi sur les allocations aux anciens combattants* et du paragraphe 57(1) de la *Loi sur les prestations de guerre pour les civils*; il est utilisé à des fins de couplage de données, dont la vérification du revenu. Les paragraphes 104(1) et 105(1) de la partie 6 de la *Loi sur le plan d’action économique de 2014* autorisent des versements uniques en vue de compenser les déductions de certaines prestations et allocations qui sont payables en vertu de la *Loi sur les allocations aux anciens combattants* et de la *Loi sur les prestations de guerre pour les civils*."
       }
     ]
   },
@@ -930,6 +970,16 @@
         "record_id": "institution:ati-schedule-i-department-of-veterans-affairs:VAC PPU 200",
         "field": "purpose_en",
         "quote": "Information was used to support the decision making process and to administer the Agent Orange ex-gratia payments. Personal information was collected pursuant to *Order in Council* P.C. 2007-1326 September 10, 2007, and *Order in Council* P.C. 2010-1607 December 9, 2010."
+      },
+      {
+        "record_id": "institution:ati-schedule-i-department-of-veterans-affairs:VAC PPU 200",
+        "field": "class_of_individuals_fr",
+        "quote": "Les membres des Forces canadiennes qui se sont entraînés ou ont été stationnés à la base des Forces canadiennes Gagetown (BFC Gagetown), les employés de la fonction publique fédérale, les entrepreneurs civils ou les civils qui étaient stationnés ou qui travaillaient à la BFC Gagetown où y vivaient en 1966 et en 1967, et les civils qui vivaient dans une collectivité à tout au plus cinq kilomètres de la BFC Gagetown en 1966 et en 1967. Le fichier peut également contenir des renseignements sur le représentant, le médecin, la personne ayant procuration ou le dispensateur de soins du demandeur."
+      },
+      {
+        "record_id": "institution:ati-schedule-i-department-of-veterans-affairs:VAC PPU 200",
+        "field": "purpose_fr",
+        "quote": "Les renseignements ont été utilisés pour appuyer le processus de prise de décision et pour verser les paiements à titre gracieux relatifs à l'agent Orange. Les renseignements personnels ont été recueillis conformément au *décret en conseil C.P. 2007-1326* du 10 septembre 2007 et au *décret en conseil C.P. 2010-1607* du 9 décembre 2010."
       }
     ]
   },
@@ -1753,7 +1803,12 @@
       {
         "record_id": "institution:ati-schedule-i-royal-canadian-mounted-police-external-review-committee:ERC PPU 802",
         "field": "class_of_individuals_fr",
-        "quote": "Membres de la GRC dont le grief a été renvoyé au Comité externe d'examen de la GRC aux termes de l'ancienne *Loi sur la Gendarmerie royale du Canada*, ainsi que toute personne mentionnée dans les instances ayant mené à la décision. **But de la collecte** : Ces renseignements sont utilisés par le Comité externe d'examen de la GRC dans l'examen des griefs qui lui sont soumis en vertu de l'ancienne *Loi sur la Gendarmerie royale du Canada*."
+        "quote": "Membres de la GRC dont le grief a été renvoyé au Comité externe d'examen de la GRC aux termes de l'ancienne *Loi sur la Gendarmerie royale du Canada*, ainsi que toute personne mentionnée dans les instances ayant mené à la décision."
+      },
+      {
+        "record_id": "institution:ati-schedule-i-royal-canadian-mounted-police-external-review-committee:ERC PPU 802",
+        "field": "purpose_fr",
+        "quote": "Ces renseignements sont utilisés par le Comité externe d'examen de la GRC dans l'examen des griefs qui lui sont soumis en vertu de l'ancienne *Loi sur la Gendarmerie royale du Canada*."
       }
     ]
   },
@@ -1950,6 +2005,16 @@
         "record_id": "institution:ati-schedule-i-canadian-space-agency:CSA PPU 020",
         "field": "purpose_en",
         "quote": "The personal information is used to obtain the necessary authorizations from the National Aeronautics and Space Administration (NASA), US, to allow guests to attend the launch of space mission. All the information requested in the application form is transmitted to NASA. They will then be kept and handled at NASA's discretion. A notice to this effect is available in the terms and conditions section of the form."
+      },
+      {
+        "record_id": "institution:ati-schedule-i-canadian-space-agency:CSA PPU 020",
+        "field": "class_of_individuals_fr",
+        "quote": "Invités aux lancements de missions spatiales"
+      },
+      {
+        "record_id": "institution:ati-schedule-i-canadian-space-agency:CSA PPU 020",
+        "field": "purpose_fr",
+        "quote": "Les renseignements personnels sont recueillis pour obtenir les autorisations nécessaires auprès de la NASA (États‑Unis) afin que les invités puissent assister aux lancements des missions spatiales. Tous les renseignements fournis dans le formulaire de demande seront transmis à la NASA. La conservation et le traitement des renseignements sont laissés à la discrétion de la NASA. Un avis à cet effet figure dans la section sur les conditions d'inscription du formulaire."
       }
     ]
   },

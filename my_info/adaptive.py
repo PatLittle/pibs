@@ -126,7 +126,7 @@ _ROUTES: tuple[dict[str, Any], ...] = (
                 "Une prestation ou un paiement pour vétérans",
                 "Veterans Affairs Canada, sometimes delivered with Service Canada",
                 "Anciens Combattants Canada, parfois avec Service Canada",
-                bank_numbers=("VAC PPU 040", "VAC PPU 200", "VAC PPU 710", "VAC PPU 715", "ACC PPU 350", "ESDC PPU 701"),
+                bank_numbers=("VAC PPU 040", "VAC PPU 200", "VAC PPU 710", "VAC PPU 715", "VAC PPU 350", "ESDC PPU 701"),
             ),
             _option(
                 "other_payment_program",
@@ -230,7 +230,7 @@ _ROUTES: tuple[dict[str, Any], ...] = (
                 "Demandé ou utilisé un programme pour vétérans",
                 "Veterans Affairs Canada, sometimes delivered with Service Canada",
                 "Anciens Combattants Canada, parfois avec Service Canada",
-                bank_numbers=("VAC PPU 040", "VAC PPU 200", "VAC PPU 710", "VAC PPU 715", "ACC PPU 350", "ESDC PPU 701"),
+                bank_numbers=("VAC PPU 040", "VAC PPU 200", "VAC PPU 710", "VAC PPU 715", "VAC PPU 350", "ESDC PPU 701"),
             ),
             _option(
                 "other_military_veterans",
