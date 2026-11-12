@@ -40,6 +40,11 @@ function renderLanguage(lang, updateHistory = false) {
   $('download-markdown').hidden = !rendered;
   if (rendered) $('download-markdown').href = source.markdown_url;
   $('original-source').textContent = selected === 'fr' ? 'Source originale' : 'Original source';
+  const graphUrl = new URL('graph.html', location.href);
+  graphUrl.searchParams.set('node', 'pia:' + assessment.institution_id + '/' + assessment.pia_id);
+  graphUrl.searchParams.set('lang', selected);
+  $('explore-network').href = graphUrl.href;
+  $('explore-network').textContent = selected === 'fr' ? 'Explorer les liens' : 'Explore network';
   $('download-markdown').textContent = selected === 'fr' ? 'Télécharger le Markdown' : 'Download Markdown';
   $('document-provenance').textContent = source ? `Collected ${dateLabel(source.checked_at_utc)} · HTTP ${source.http_status ?? 'no response'}${source.kind === 'inline' ? ' · Summary extracted from the source page' : ''}` : 'No collected source for this language.';
   const notice = $('language-availability-notice');

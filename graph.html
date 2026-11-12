@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore source-evidenced relationships between PIBs, privacy assessments, institutions and Classes of Records.">
+  <title>Network explorer - Info Source Data Explorer</title>
+  <link rel="stylesheet" href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.40.0/dist/gcds/gcds.css">
+  <script type="module" src="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.40.0/dist/gcds/gcds.esm.js"></script>
+  <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="prototype-label.css"><link rel="stylesheet" href="graph.css">
+  <script defer src="vendor/cytoscape-3.33.1.min.js"></script><script type="module" src="graph.mjs"></script>
+</head>
+<body>
+<a class="skip-link" href="#main-content" data-i18n="skip">Skip to main content</a>
+    <gcds-header lang-href="#" skip-to-href="#main-content">
+      <div class="prototype-signature" slot="signature"><span class="prototype-label-text" style="display:none">Prototype - For Discussion</span><gcds-signature></gcds-signature></div>
+      <gcds-breadcrumbs slot="breadcrumb"><gcds-breadcrumbs-item href="index.html">Info Source Data Explorer</gcds-breadcrumbs-item></gcds-breadcrumbs>
+      <gcds-top-nav id="dataset-nav" slot="menu" label="Info Source data explorer navigation">
+        <gcds-nav-link href="index.html" slot="home">Overview</gcds-nav-link>
+        <gcds-nav-group menu-label="Institution data submenu" open-trigger="Institution data" close-trigger="Close institution data">
+          <gcds-nav-link data-dataset-nav="institutions" href="table.html?dataset=institutions">Institutions</gcds-nav-link>
+          <gcds-nav-link data-dataset-nav="pibs" href="table.html?dataset=pibs">PIBs</gcds-nav-link>
+          <gcds-nav-link data-dataset-nav="classes" href="table.html?dataset=classes">Classes of Records</gcds-nav-link>
+          <gcds-nav-link data-dataset-nav="links" href="table.html?dataset=links">PIB-to-class linkages</gcds-nav-link>
+        </gcds-nav-group>
+        <gcds-nav-group menu-label="Reference data submenu" open-trigger="Reference data" close-trigger="Close reference data">
+          <gcds-nav-link data-dataset-nav="standard-pibs" href="table.html?dataset=standard-pibs">Standard PIBs</gcds-nav-link>
+          <gcds-nav-link data-dataset-nav="standard-classes" href="table.html?dataset=standard-classes">Standard classes</gcds-nav-link>
+          <gcds-nav-link data-dataset-nav="categories" href="table.html?dataset=categories">Categories</gcds-nav-link>
+          <gcds-nav-link data-dataset-nav="pib-types" href="table.html?dataset=pib-types">PIB types</gcds-nav-link>
+        </gcds-nav-group>
+        <gcds-nav-link href="privacy-assessments.html" data-i18n="navPia">Privacy Assessments</gcds-nav-link>
+        <gcds-nav-link current href="graph.html" data-i18n="navGraph">Network explorer</gcds-nav-link>
+      </gcds-top-nav>
+    </gcds-header>
+
+<main id="main-content" class="page-container graph-page">
+  <section class="page-intro">
+    <div class="graph-heading"><p class="section-eyebrow" data-i18n="eyebrow">Follow the evidence</p><button id="language" type="button" lang="fr">Français</button></div>
+    <h1 data-i18n="title">PIB / PIA network explorer</h1>
+    <p data-i18n="intro">Start with a bank or an assessment. Select a node to reveal its connections; select a line to inspect the source evidence.</p>
+    <p class="notice" data-i18n="notice">A reference is a citation, not proof that an assessment covers the entire bank. Missing links reflect collected evidence, not the absence of an assessment. Dashed lines lead to unresolved references.</p>
+    <p id="data-summary" class="muted"></p>
+  </section>
+  <details id="search-panel" class="graph-search" open>
+    <summary id="search-heading" data-i18n="find">Find a starting point</summary>
+    <div class="graph-search-controls">
+      <div><label for="search" data-i18n="search">Name or identifier (English or French)</label><input id="search" type="search" autocomplete="off"></div>
+      <div><label for="node-type" data-i18n="recordType">Record type</label><select id="node-type"><option value="" data-i18n="allTypes">All types</option><option value="pib" data-i18n="pib">PIB</option><option value="pia" data-i18n="pia">Privacy assessment</option><option value="institution" data-i18n="institution">Institution</option><option value="class" data-i18n="class">Class of Records</option><option value="reference" data-i18n="reference">Unresolved reference</option></select></div>
+      <div><label for="institution" data-i18n="institution">Institution</label><select id="institution"><option value="" data-i18n="allInstitutions">All institutions</option></select></div>
+    </div>
+    <p id="search-status" role="status"></p><ul id="results" class="graph-results"></ul><button id="more-results" type="button" hidden data-i18n="moreResults">More results</button>
+  </details>
+  <section aria-labelledby="network-heading">
+    <h2 id="network-heading" data-i18n="network">Explore connections</h2>
+    <div class="graph-toolbar">
+      <div><label for="relation" data-i18n="relationship">Relationship</label><select id="relation"><option value="" data-i18n="allRelations">All relationships</option><option value="references" data-i18n="references">References</option><option value="related_class" data-i18n="related_class">Related class</option><option value="listed_by" data-i18n="listed_by">Listed under institution</option></select></div>
+      <button id="fit" type="button" data-i18n="fit">Fit graph</button><button id="reset" type="button" data-i18n="reset">Reset to selected node</button><button id="share" type="button" data-i18n="share">Copy view link</button>
+    </div>
+    <p id="view-status" role="status" aria-live="polite" data-i18n="loading">Loading graph data…</p>
+    <p id="share-status" role="status"></p><input id="share-link" readonly hidden aria-label="View URL">
+    <div class="graph-workspace">
+      <div class="graph-stage"><div id="cy" role="img" aria-label="Record network; use the connection list for keyboard navigation."></div><p id="empty-view" data-i18n="empty">Choose a search result to start exploring.</p>
+      <ul class="graph-legend" aria-label="Legend"><li class="pib" data-i18n="pib">PIB</li><li class="pia" data-i18n="pia">Privacy assessment</li><li class="institution" data-i18n="institution">Institution</li><li class="class" data-i18n="class">Class of Records</li><li class="reference" data-i18n="reference">Unresolved reference</li></ul></div>
+      <aside id="inspector" aria-labelledby="inspector-heading"><h3 id="inspector-heading" data-i18n="details">Record and evidence</h3><div id="detail"></div></aside>
+    </div>
+    <section class="graph-connections" aria-labelledby="connections-heading"><h3 id="connections-heading" data-i18n="connections">Connections of the selected node</h3><p id="connections-status" role="status"></p><ul id="connections"></ul><button id="expand" type="button" hidden data-i18n="expand">Show more connections</button></section>
+  </section>
+  <noscript>This explorer requires JavaScript. / Cet explorateur nécessite JavaScript. <a href="table.html?dataset=pibs">PIBs / FRP</a> · <a href="privacy-assessments.html">Privacy assessments / Évaluations</a></noscript>
+</main>
+<footer class="site-footer"><div class="site-footer__inner"><div><strong>Info Source Data Explorer</strong><p>Wrangle then try to Untangle.</p></div><nav aria-label="Footer navigation"><a href="index.html" data-i18n="overview">Overview</a><a href="privacy-assessments.html" data-i18n="navPia">Privacy Assessments</a><a href="data/graph.json" download data-i18n="download">Download graph JSON</a><a href="https://github.com/PatLittle/pibs/blob/main/docs/GRAPH_EXPLORER.md" data-i18n="methodology">Graph methodology</a></nav></div></footer>
+</body></html>
