@@ -82,6 +82,54 @@
       "latest_observed_date": "2026-10-22",
       "last_success": "2026-11-11",
       "status": "current"
+    },
+    "dpoh": {
+      "status": "current",
+      "last_attempt": "2026-11-12",
+      "source_url": "https://lobbycanada.gc.ca/media/mqbbmaqk/communications_ocl_cal.zip",
+      "sha256": "9232d457b8e298a087c940e93a219399c8c0c242c55d28b476142759d8fb1d21",
+      "bytes": 25005073,
+      "capture_method": "local_archive",
+      "processed_at_utc": "2026-11-12T11:13:36.277059+00:00",
+      "primary_raw_count": 388558,
+      "primary_unique_count": 388558,
+      "dpoh_raw_count": 595194,
+      "joined_row_count": 595194,
+      "raw_count": 594644,
+      "duplicate_report_person_rows": 550,
+      "primary_duplicate_count": 0,
+      "orphan_row_count": 0,
+      "date_anomaly_count": 0,
+      "missing_or_invalid_date_count": 0,
+      "unique_count": 62608,
+      "earliest_observed_date": "2008-07-02",
+      "latest_observed_date": "2026-11-06",
+      "members": [
+        {
+          "file": "Communication_PrimaryExport.csv",
+          "bytes": 56747100,
+          "sha256": "619f4ad646ef813ad5dc0cc2c4e3d41dc8bb7aa02030273da3ae018284370cef",
+          "encoding": "windows-1252"
+        },
+        {
+          "file": "Communication_DpohExport.csv",
+          "bytes": 62947193,
+          "sha256": "b4f36f141d36365f6d848603a6c9901a684ccb5953bb88e629bb5e36b5970bb2",
+          "encoding": "windows-1252"
+        }
+      ],
+      "join_key": "COMLOG_ID",
+      "grouping_fields": [
+        "DPOH_LAST_NM_TCPD",
+        "DPOH_FIRST_NM_PRENOM_TCPD",
+        "INSTITUTION"
+      ],
+      "count_definition": "Distinct COMLOG_ID per exact source first name + last name + institution; role variants do not multiply counts",
+      "revision_policy": "All distinct COMLOG_ID values retained; primary export used only for COMM_DATE; no inferred revision-chain collapse",
+      "last_success": "2026-11-12",
+      "detail_bucket_count": 256,
+      "detail_record_count": 62608,
+      "detail_layout": "SHA-256 exact last/first/institution prefix buckets; full joined first/last communication evidence"
     }
   },
   "oic_snapshot_date": "2026-11-11",
@@ -112,7 +160,8 @@
   },
   "identity_matching": {
     "version": 1,
-    "pairs": 199,
+    "pairs": 1806,
     "method": "Pairwise nickname candidates with institution, role, middle-name and event-window evidence; no automatic merges"
-  }
+  },
+  "dpoh_refresh_warnings": []
 }

@@ -35,6 +35,61 @@ forms remain separate combinations. Blank-name rows remain in source totals but
 cannot form person entities. Bad dates (non-ISO, before 1900 or more than 366 days
 beyond retrieval) are flagged and excluded from windows, never from row counts.
 
+Designated public office holder (DPOH) monthly communication reports use the official [OCL communications ZIP](https://lobbycanada.gc.ca/media/mqbbmaqk/communications_ocl_cal.zip).
+`refresh_dpoh.py` streams the Windows-1252 CSVs from the archive and joins
+`Communication_DpohExport.csv` to **only `COMLOG_ID` and `COMM_DATE`** from
+`Communication_PrimaryExport.csv`. Client, registrant, submission, publication and
+other primary-export columns are not retained. `COMLOG_ID` is validated as the
+primary export's unique report key; one report can have multiple DPOH participants.
+Conflicting primary dates or unmatched DPOH rows reject the refresh and retain the
+last good snapshot.
+
+Each exact original **DPOH first name + last name + institution** becomes one
+aggregated observation. It retains all observed position, branch/unit and other-
+institution labels; changes in those labels do not multiply a report's count.
+The count is **distinct `COMLOG_ID` values per DPOH/institution**, with duplicate
+participant rows removed. Counts on individual role variants can overlap and are never added to the group count. Different source spellings and institution labels stay
+separate; these are observed combinations, not verified unique people. Distinct
+report IDs remain distinct; the collector does not infer revisions from other
+primary-export fields.
+
+Earliest/latest observations use **`COMM_DATE`**, not filing/publication/access
+dates. Invalid dates remain counted but are excluded from the date range and
+flagged. Ties are resolved by numeric report ID. The earliest/latest report IDs,
+dates and corresponding original DPOH rows are retained. These windows describe
+reported communications, not tenure or current DPOH status.
+
+`data/dpoh.json.gz` is the searchable rollup (names, institutions, all role titles,
+counts and date boundaries). Full DPOH role/branch labels and boundary evidence
+are in `data/dpoh_details/<bucket>.json.gz`, keyed by a stable hash of the exact
+original grouping fields. The person dialog loads these details on demand;
+client/registrant information is absent from both outputs. The DPOH source filter,
+coverage card, freshness and About status are integrated with the existing app.
+Name/nickname candidate matching includes these observations without automatic
+identity merging. The next full OIC refresh also includes their observed names.
+
+```mermaid
+flowchart LR
+    Z[Official OCL communications ZIP] --> D[DPOH CSV: names, roles, institution]
+    Z --> P[Primary CSV: COMLOG_ID and COMM_DATE only]
+    P --> J[Validate unique key and join on COMLOG_ID]
+    D --> J
+    J --> G[Exact DPOH name + institution groups]
+    G --> C[Distinct report count and earliest/latest communication dates]
+    C --> I[Searchable compressed index]
+    C --> E[DPOH details and boundary evidence on demand]
+    I --> W[Senior officials explorer]
+    E --> W
+```
+
+The initial 2026-11-12 snapshot contains **388,558 primary reports**, **595,194
+DPOH source rows**, **594,644 distinct report/person observations**, and **62,608
+exact DPOH/institution groups**. It removes **550 repeated report/person rows**;
+there are **zero unmatched DPOH rows** and **zero invalid communication dates**.
+Observed communications span **2008-07-02 to 2026-11-06**. Current counts, hashes
+for the ZIP and both input members, encoding, join/group definitions and freshness
+are always recorded in `data/manifest.json`; these counts are a dated snapshot.
+
 OIC evidence uses `processed-csvs/orders.csv` from `PatLittle/oic-data`, pinned to
 the upstream main commit at collection time. The Action matches complete observed
 normalized names in order précis text and retains the matched original/normalized
@@ -76,7 +131,7 @@ separate from presentation normalization. `names.py` owns the shared rules.
 `.github/workflows/gc-snr-officials.yml` runs daily at **08:00 UTC**, on changes to
 this directory/its workflow, and via **Run workflow**. It tests the standalone code,
 collects authority sources with at most six concurrent profile requests, commits
-changed CSVs, compressed disclosure/OIC indexes and the manifest to `main`, and deploys only this app to
+changed CSVs, compressed disclosure/DPOH/OIC indexes and the manifest to `main`, and deploys only this app to
 `pages/gc_snr_officials`. Publishing occurs in the same workflow because commits
 made with `GITHUB_TOKEN` do not trigger another push workflow.
 
@@ -86,7 +141,7 @@ workflow neither builds nor validates the other PIBS sections and publishes only
 its target directory. The Pages source remains the existing `pages` branch. Scheduled/manual runs and
 collector/configuration changes refresh affected upstream sources; changes to
 the external collector alone reuse committed authority CSVs; UI-only pushes reuse
-committed data. Queued jobs check out current main so they do not republish stale
+committed data. DPOH refreshes run before the external OIC scan on scheduled/manual runs; changes to its collector refresh that source. Failed downloads, schema/key errors and declines over 50% retain the last good DPOH data and expose the error in About. Queued jobs check out current main so they do not republish stale
 CSVs after another job refreshes them.
 
 ## Local checks
@@ -99,6 +154,7 @@ python -m unittest discover -s gc_snr_officials/tests -p 'test_*.py'
 node --test gc_snr_officials/tests/app.test.mjs
 python gc_snr_officials/scripts/validate.py
 python gc_snr_officials/scripts/refresh_sources.py
+python gc_snr_officials/scripts/refresh_dpoh.py
 python gc_snr_officials/scripts/refresh_external.py
 python gc_snr_officials/scripts/validate.py --require-appointments
 ```

@@ -160,8 +160,10 @@ def run(root=ROOT, refresh=False):
             writer = csv.DictWriter(f, fieldnames=fields)
             writer.writeheader()
             writer.writerows(authority)
-    for kind in ['travel', 'hospitality']:
+    for kind in ['travel', 'hospitality', 'dpoh']:
         path = data / (kind + '.json.gz')
+        if kind == 'dpoh' and not path.exists():
+            continue
         observations = [normalize_record(r) for r in json.loads(gzip.decompress(path.read_bytes()))]
         write_gzip(path, observations)
         records += observations

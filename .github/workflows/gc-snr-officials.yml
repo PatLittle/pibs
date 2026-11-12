@@ -53,9 +53,11 @@ jobs:
         run: |
           authority=false
           external=false
+          dpoh=false
           if [ "$EVENT_NAME" != "push" ] || [ -z "$BEFORE_SHA" ] || [[ "$BEFORE_SHA" =~ ^0+$ ]]; then
             authority=true
             external=true
+            dpoh=true
           else
             if ! git diff --quiet "$BEFORE_SHA" "$GITHUB_SHA" -- gc_snr_officials/scripts/refresh_sources.py gc_snr_officials/scripts/names.py gc_snr_officials/sources.json gc_snr_officials/requirements.txt; then
               authority=true
@@ -64,11 +66,18 @@ jobs:
               external=true
             fi
           fi
+          if [ "$external" = "true" ] || ! git diff --quiet "$BEFORE_SHA" "$GITHUB_SHA" -- gc_snr_officials/scripts/refresh_dpoh.py; then
+            dpoh=true
+          fi
+          echo "dpoh=$dpoh" >> "$GITHUB_OUTPUT"
           echo "authority=$authority" >> "$GITHUB_OUTPUT"
           echo "external=$external" >> "$GITHUB_OUTPUT"
       - name: Refresh all eight authority CSVs
         if: steps.refresh.outputs.authority == 'true'
         run: python gc_snr_officials/scripts/refresh_sources.py
+      - name: Refresh DPOH monthly communication reports
+        if: steps.refresh.outputs.dpoh == 'true'
+        run: python gc_snr_officials/scripts/refresh_dpoh.py
       - name: Refresh travel, hospitality and OIC evidence
         if: steps.refresh.outputs.external == 'true'
         run: python gc_snr_officials/scripts/refresh_external.py
@@ -81,6 +90,7 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add gc_snr_officials/data/*.csv gc_snr_officials/data/*.json.gz gc_snr_officials/data/manifest.json
+          git add -A gc_snr_officials/data/dpoh_details
           if ! git diff --cached --quiet; then
             git commit -m 'Refresh senior officials datasets and normalized names'
             git pull --rebase origin main
