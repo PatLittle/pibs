@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "collector_version": 2,
-  "collected_at_utc": "2026-11-12T05:50:15.287351+00:00",
+  "collected_at_utc": "2026-11-12T09:41:47.810642+00:00",
   "institution_id": "ati-schedule-i-patented-medicine-prices-review-board",
   "gc_orgID": "2283.0",
   "open_canada_org_id": "13A37B05-6384-45FF-A2AE-2DE2CD380B59",
@@ -9,7 +9,7 @@
   "name_en": "Patented Medicine Prices Review Board",
   "name_fr": "Conseil d’examen du prix des médicaments brevetés",
   "registry_membership": "current_registry",
-  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
+  "source_index_sha256": "c9fe96f0729e10f9578ff679d24fa59da5bdf4448dfd5c56b56ca0cb685bec3f",
   "list_pages": {
     "en": {
       "indexed_url": "http://www.pmprb-cepmb.gc.ca/view.asp?ccid=1019&lang=en",

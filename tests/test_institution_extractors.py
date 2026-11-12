@@ -18,6 +18,44 @@ from rebuild_institution_extractions import rebuild_markdown_from_raw
 
 
 class ClassOfRecordsExtractorTests(unittest.TestCase):
+    def test_vac_notes_do_not_replace_headings_and_variant_class_labels(self):
+        english = """##### Caregiver Recognition Benefit Class of Record
+Note: Revised April 1, 2018. Class of Record MVA VAC 892 formerly applied.
+Description: Information about caregivers.
+Document Types: Applications.
+Record Number: VAC MVA 892
+
+##### Veterans Emergency Fund Class of Record
+Description: Emergency grants.
+Document Types: Decisions.
+Class of Record Number: VAC MVA 896
+"""
+        french = """##### Catégorie de document en matière d’Allocation de reconnaissance pour aidant
+Nota : Révisé le 1er avril 2018.
+Description : Information relative aux aidants.
+Types de documents : Demandes.
+Numéro de catégorie de document : ACC MVA 892
+"""
+        rows = parse_cor_records(english)
+        self.assertEqual([row["record_number"] for row in rows], ["VAC MVA 892", "VAC MVA 896"])
+        self.assertEqual(rows[0]["name"], "Caregiver Recognition Benefit Class of Record")
+        self.assertEqual(parse_cor_records(french)[0]["record_number"], "ACC MVA 892")
+
+
+    def test_pco_abbreviated_dossier_label_excludes_bank_and_related_reference(self):
+        markdown = """### Conseils
+* **Types de documents :** Notes et correspondance.
+* **No du dossier :** BCP 002
+
+### Renseignements personnels
+* **No du dossier :** BCP PPU 040
+* **Renvoi au document no :** BCP 999
+"""
+        rows = parse_cor_records(markdown)
+        self.assertEqual([row["record_number"] for row in rows], ["BCP 002"])
+        self.assertEqual(rows[0]["document_types"], "Notes et correspondance.")
+
+
     def test_record_number_partly_inside_bold_label(self):
         markdown = """### Reviews
 Document Types: Administrative and security records.
@@ -153,6 +191,60 @@ Record Number: C-NLOPB RED 080
 
 
 class PibExtractorTests(unittest.TestCase):
+    def test_vac_leaf_page_h1_title_takes_precedence_over_breadcrumbs(self):
+        markdown = """## You are here
+1. [Home](/en)
+# Additional Pain and Suffering Compensation (VAC PPU 716)
+[Previous](/previous)[Next](/next)
+Description: Support for Veterans.
+Purpose: Eligibility assessment.
+Bank Number: VAC PPU 716
+
+## You are here
+1. [Home](/en)
+# Administration of Benefits (VAC PPU 350)
+[Previous](/previous)[Next](/next)
+Description: Benefits administration.
+Bank Number: VAC PPU 350
+"""
+        rows = parse_pib_records(markdown)
+        self.assertEqual(rows[0]["title"], "Additional Pain and Suffering Compensation (VAC PPU 716)")
+        self.assertEqual(rows[0]["description"], "Support for Veterans.")
+        self.assertEqual(rows[1]["title"], "Administration of Benefits (VAC PPU 350)")
+
+
+    def test_official_csa_and_pco_labels_preserve_ids_and_exclude_classes(self):
+        markdown = """### Science records
+**Types de documents :** Rapports.
+**Numéro de dossier:** ASC SCD 105
+
+### Comptes de l’environnement
+**Types de documents :** Questionnaires et rapports statistiques.
+**Numéro du dossier :** StatCan PSE 291
+
+### Sensibilisation
+**Description:** Demandes de subventions.
+**Numéro de dossier:** ASC\xa0PPU\xa0040
+
+### Nominations
+**Description:** Candidatures.
+* **No du FRP : BCP PPU 042**
+
+### Employment interviews
+**Description:** Applicants.
+* **Personal information bank number: PCO PPU 041**
+
+### Sécurité
+**Description:** Enquêtes de sécurité.
+* **No de fichier**: BCP PPU 801
+"""
+        rows = parse_pib_records(markdown)
+        self.assertEqual([row["bank_number"] for row in rows],
+                         ["ASC PPU 040", "BCP PPU 042", "PCO PPU 041", "BCP PPU 801"])
+        self.assertEqual(rows[0]["title"], "Sensibilisation")
+        self.assertEqual(rows[1]["description"], "Candidatures.")
+
+
     def test_numbered_titles_and_abbreviated_bank_labels_stay_separate(self):
         markdown = """### Institution-specific banks
 **PIB PPU 040: Forestlands program**

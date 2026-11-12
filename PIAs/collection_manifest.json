@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "collector_version": 2,
-  "generated_at_utc": "2026-11-12T05:50:22.348941+00:00",
-  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
-  "collector_sha256": "20a084484777ad312355fb86ce9343a18e7db2cdc5b1af99ec1ba72cb873f8b8",
+  "generated_at_utc": "2026-11-12T09:41:53.098137+00:00",
+  "source_index_sha256": "c9fe96f0729e10f9578ff679d24fa59da5bdf4448dfd5c56b56ca0cb685bec3f",
+  "collector_sha256": "84a55e0879ffd801b688f891b3611083436fb42e1bd6a0cde5840cae8f2f995c",
   "organization_count": 149,
-  "organizations_with_pias": 33,
-  "pia_count": 766,
-  "paired_count": 755,
+  "organizations_with_pias": 36,
+  "pia_count": 819,
+  "paired_count": 808,
   "source_status_counts": {
-    "exported": 1505,
+    "exported": 1611,
     "not_pia_content": 2,
     "insufficient_content": 2,
     "soft_error_page": 2,
@@ -145,9 +145,11 @@
       }
     },
     "ati-schedule-i-department-of-veterans-affairs": {
-      "pia_count": 0,
-      "paired_count": 0,
-      "source_status_counts": {}
+      "pia_count": 44,
+      "paired_count": 44,
+      "source_status_counts": {
+        "exported": 88
+      }
     },
     "ati-schedule-i-department-of-western-economic-diversification": {
       "pia_count": 0,
@@ -325,9 +327,11 @@
       "source_status_counts": {}
     },
     "ati-schedule-i-canadian-space-agency": {
-      "pia_count": 0,
-      "paired_count": 0,
-      "source_status_counts": {}
+      "pia_count": 3,
+      "paired_count": 3,
+      "source_status_counts": {
+        "exported": 6
+      }
     },
     "ati-schedule-i-canadian-transportation-accident-investigation-and-safety-board": {
       "pia_count": 0,
@@ -682,9 +686,11 @@
       "source_status_counts": {}
     },
     "ati-schedule-i-privy-council-office": {
-      "pia_count": 0,
-      "paired_count": 0,
-      "source_status_counts": {}
+      "pia_count": 6,
+      "paired_count": 6,
+      "source_status_counts": {
+        "exported": 12
+      }
     },
     "ati-schedule-i-public-health-agency-of-canada": {
       "pia_count": 22,

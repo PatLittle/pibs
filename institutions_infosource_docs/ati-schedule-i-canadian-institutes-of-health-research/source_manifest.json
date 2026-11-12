@@ -44,10 +44,10 @@
     }
   },
   "parser_versions": {
-    "pibs": 5,
-    "classes_of_records": 2
+    "pibs": 7,
+    "classes_of_records": 4
   },
-  "extracted_at_utc": "2026-11-11T19:57:18.331884+00:00",
+  "extracted_at_utc": "2026-11-12T09:40:48.978680+00:00",
   "extraction_rebuild_version": 2,
   "supplemental_sources": [
     {

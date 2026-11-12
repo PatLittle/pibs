@@ -6,7 +6,7 @@
 * [Français
   fr](/fra/transparence/aiprp/info-source.asp)
 
-[![Government of Canada](/dist/gcweb/v19.2.0/gcweb/assets/sig-blk-en.svg)
+[![Government of Canada](/dist/gcweb/v19.6.0/gcweb/assets/sig-blk-en.svg)
  /
 Gouvernement du Canada](https://www.canada.ca/en.html)
 
@@ -18,9 +18,9 @@ Search
 
 ---
 
-## Menu Canada.ca
+## Menu
 
-Main Menu Canada.ca
+Main Menu
 
 * [Jobs and the workplace](https://www.canada.ca/en/services/jobs.html)
 * [Immigration and citizenship](https://www.canada.ca/en/services/immigration-citizenship.html)
@@ -870,4 +870,4 @@ Date modified:
 * [Terms and conditions](https://www.canada.ca/en/transparency/terms.html)
 * [Privacy](https://www.canada.ca/en/transparency/privacy.html)
 
-![Symbol of the Government of Canada](https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg)
+![Symbol of the Government of Canada](/dist/gcweb/v19.6.0/GCWeb/assets/wmms-blk.svg)

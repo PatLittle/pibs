@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "collector_version": 2,
-  "collected_at_utc": "2026-11-12T05:49:50.641291+00:00",
+  "collected_at_utc": "2026-11-12T09:41:10.090331+00:00",
   "institution_id": "ati-schedule-i-department-of-finance",
   "gc_orgID": "2225.0",
   "open_canada_org_id": "05D03DCB-5906-4555-A5A1-84D86E9E94DD",
@@ -9,7 +9,7 @@
   "name_en": "Department of Finance",
   "name_fr": "Ministère des Finances",
   "registry_membership": "current_registry",
-  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
+  "source_index_sha256": "c9fe96f0729e10f9578ff679d24fa59da5bdf4448dfd5c56b56ca0cb685bec3f",
   "list_pages": {
     "en": {
       "indexed_url": "https://www.canada.ca/en/department-finance/corporate/transparency/access-information-privacy/reports.html",
@@ -192,7 +192,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -326,7 +326,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },

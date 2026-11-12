@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "collector_version": 2,
-  "collected_at_utc": "2026-11-12T05:50:13.589088+00:00",
+  "collected_at_utc": "2026-11-12T09:41:45.805513+00:00",
   "institution_id": "ati-schedule-i-canadian-space-agency",
   "gc_orgID": "2251.0",
   "open_canada_org_id": "95F65CF9-ED6A-4630-9C1A-8339FDB15CF0",
@@ -9,31 +9,796 @@
   "name_en": "Canadian Space Agency",
   "name_fr": "Agence spatiale canadienne",
   "registry_membership": "current_registry",
-  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
+  "source_index_sha256": "c9fe96f0729e10f9578ff679d24fa59da5bdf4448dfd5c56b56ca0cb685bec3f",
   "list_pages": {
     "en": {
-      "indexed_url": null,
-      "index_resolution": "no_link_found",
+      "indexed_url": "https://www.asc-csa.gc.ca/eng/transparency/aipa/privacy-impact-assessments.asp",
+      "index_resolution": "list_detected",
       "pia_link_in_infosource": "N",
       "review_note": null,
-      "status": "no_indexed_url",
-      "captures": [],
-      "discovered_count": 0
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.asc-csa.gc.ca/eng/transparency/aipa/privacy-impact-assessments.asp",
+          "final_url": "https://www.asc-csa.gc.ca/eng/transparency/aipa/privacy-impact-assessments.asp",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T09:25:17.668358+00:00",
+          "redirects": [],
+          "content_type": "text/html;charset=UTF-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": null,
+          "etag": null,
+          "byte_count": 21837,
+          "sha256": "a4868a77d550f61408491a2e36734e1a85e13e13a7e98d05860dadc770caee0e",
+          "raw_path": "raw/0556f54936c7a5fd7b12.html"
+        }
+      ],
+      "discovered_count": 3,
+      "scopes": [
+        "Privacy impact assessments"
+      ],
+      "warnings": []
     },
     "fr": {
-      "indexed_url": null,
-      "index_resolution": "no_link_found",
+      "indexed_url": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/evaluations-facteurs-relatifs-vie-privee.asp",
+      "index_resolution": "list_detected",
       "pia_link_in_infosource": "N",
       "review_note": null,
-      "status": "no_indexed_url",
-      "captures": [],
-      "discovered_count": 0
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/evaluations-facteurs-relatifs-vie-privee.asp",
+          "final_url": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/evaluations-facteurs-relatifs-vie-privee.asp",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T09:25:20.489308+00:00",
+          "redirects": [],
+          "content_type": "text/html;charset=UTF-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": null,
+          "etag": null,
+          "byte_count": 23413,
+          "sha256": "c438a7c0c68cba6296cd286edbeed6cf337df4dd8083a271b4e2a1421d46c5c6",
+          "raw_path": "raw/4ba3ff4277aab63062f2.html"
+        }
+      ],
+      "discovered_count": 3,
+      "scopes": [
+        "Évaluations des facteurs relatifs à la vie privée"
+      ],
+      "warnings": []
     }
   },
-  "pias": [],
+  "pias": [
+    {
+      "pia_id": "pia-59340b57b6ba",
+      "title_en": "Summary of the Privacy Impact Assessment on Mission Advisory Groups",
+      "title_fr": "Résumé de l'évaluation des facteurs relatifs à la vie privée sur les groupes consultatifs de mission",
+      "url_en": "https://www.asc-csa.gc.ca/eng/transparency/aipa/summary-privacy-impact-assessment-mission-advisory-groups.asp",
+      "url_fr": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/resume-evaluation-facteurs-relatif-vie-privee-groupes-consultatif-mission.asp",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.asc-csa.gc.ca/eng/transparency/aipa/summary-privacy-impact-assessment-mission-advisory-groups.asp",
+        "alternate_url": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/resume-evaluation-facteurs-relatif-vie-privee-groupes-consultatif-mission.asp"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.asc-csa.gc.ca/eng/transparency/aipa/summary-privacy-impact-assessment-mission-advisory-groups.asp",
+          "title_from_list": "Mission Advisory Groups",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.asc-csa.gc.ca/eng/transparency/aipa/privacy-impact-assessments.asp",
+          "discovered_under": "Privacy impact assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.asc-csa.gc.ca/eng/transparency/aipa/summary-privacy-impact-assessment-mission-advisory-groups.asp",
+              "title": "Mission Advisory Groups",
+              "list_url": "https://www.asc-csa.gc.ca/eng/transparency/aipa/privacy-impact-assessments.asp",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.asc-csa.gc.ca/eng/transparency/aipa/summary-privacy-impact-assessment-mission-advisory-groups.asp"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.asc-csa.gc.ca/eng/transparency/aipa/summary-privacy-impact-assessment-mission-advisory-groups.asp",
+            "final_url": "https://www.asc-csa.gc.ca/eng/transparency/aipa/summary-privacy-impact-assessment-mission-advisory-groups.asp",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T09:37:01.176869+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 22185,
+            "sha256": "5ee57a308dd0204e97e7442204a3c815a580dc7a9ec348dab8df8c8f2089d4b6"
+          },
+          "raw_path": "raw/59340b57b6baa1bf7b93.html",
+          "markdown_path": "pia-59340b57b6ba_en.md",
+          "markdown_sha256": "39df61143557c987e5a05a763485921a3ebcba76cb2c42199b8007a6e646e63c",
+          "status": "exported",
+          "page_title": "Summary of the Privacy Impact Assessment on Mission Advisory Groups",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.asc-csa.gc.ca/eng/transparency/aipa/summary-privacy-impact-assessment-mission-advisory-groups.asp",
+            "fr": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/resume-evaluation-facteurs-relatif-vie-privee-groupes-consultatif-mission.asp"
+          },
+          "date_modified": "2026-07-02",
+          "date_published": "2026-07-02",
+          "has_pia_text": true,
+          "title": "Summary of the Privacy Impact Assessment on Mission Advisory Groups",
+          "conversion": "markdownify",
+          "text_sha256": "8a967e8a46573e1cecbb2ea289305b923819c407309c364e7fd214a23526fef5",
+          "word_count": 269,
+          "pib_ids": [
+            "CSA PPU 010",
+            "PSU 919"
+          ],
+          "cor_ids": []
+        },
+        "fr": {
+          "url": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/resume-evaluation-facteurs-relatif-vie-privee-groupes-consultatif-mission.asp",
+          "title_from_list": "Groupes consultatifs de mission",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/evaluations-facteurs-relatifs-vie-privee.asp",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/resume-evaluation-facteurs-relatif-vie-privee-groupes-consultatif-mission.asp",
+              "title": "Groupes consultatifs de mission",
+              "list_url": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/evaluations-facteurs-relatifs-vie-privee.asp",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.asc-csa.gc.ca/fra/transparence/aiprp/resume-evaluation-facteurs-relatif-vie-privee-groupes-consultatif-mission.asp"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/resume-evaluation-facteurs-relatif-vie-privee-groupes-consultatif-mission.asp",
+            "final_url": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/resume-evaluation-facteurs-relatif-vie-privee-groupes-consultatif-mission.asp",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T09:37:01.177525+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 23933,
+            "sha256": "03fc67592c8d3a369561cb2f7d1f884ca7eb23355ff8698a60725dddc5f52f9c"
+          },
+          "raw_path": "raw/0e663a9e782ecda32d6d.html",
+          "markdown_path": "pia-59340b57b6ba_fr.md",
+          "markdown_sha256": "d96f9d1917bf737737fc34a71b31edfe8c895a1fafc6944c4aae83910e36ebf4",
+          "status": "exported",
+          "page_title": "Résumé de l'évaluation des facteurs relatifs à la vie privée sur les groupes consultatifs de mission",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.asc-csa.gc.ca/eng/transparency/aipa/summary-privacy-impact-assessment-mission-advisory-groups.asp",
+            "fr": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/resume-evaluation-facteurs-relatif-vie-privee-groupes-consultatif-mission.asp"
+          },
+          "date_modified": "2026-07-02",
+          "date_published": "2026-07-02",
+          "has_pia_text": true,
+          "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée sur les groupes consultatifs de mission",
+          "conversion": "markdownify",
+          "text_sha256": "683a81836325d360cb743b0093f939395b00ada02a4c87e83f8889cfce111c1f",
+          "word_count": 349,
+          "pib_ids": [
+            "CSA PPU 010",
+            "PSU 919"
+          ],
+          "cor_ids": []
+        }
+      },
+      "references": {
+        "extraction_version": 2,
+        "pibs": [
+          {
+            "id": "CSA PPU 010",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-canadian-space-agency",
+                "record_id": "CSA PPU 010"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-canadian-space-agency/pia-59340b57b6ba_en.md",
+                "line": 32,
+                "mention": "PPU 010",
+                "method": "explicit_pib_id",
+                "excerpt": "The CSA will be de-registering an institution-specific PIB, Space Science (PPU 010) and relying on the standard PIB Members of Boards, Committees and Councils (PSU 919) for this collection of personal information."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-canadian-space-agency/pia-59340b57b6ba_fr.md",
+                "line": 32,
+                "mention": "PPU 010",
+                "method": "explicit_pib_id",
+                "excerpt": "L'ASC procédera à la radiation du FRP propre à l'institution, Sciences de l'espace (PPU 010), et s'appuiera sur le FRP ordinaire Membres des conseils, comités et conseils consultatifs (POU 919) pour cette collecte de renseignements personnels."
+              }
+            ]
+          },
+          {
+            "id": "PSU 919",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 919"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-canadian-space-agency/pia-59340b57b6ba_en.md",
+                "line": 32,
+                "mention": "PSU 919",
+                "method": "explicit_pib_id",
+                "excerpt": "The CSA will be de-registering an institution-specific PIB, Space Science (PPU 010) and relying on the standard PIB Members of Boards, Committees and Councils (PSU 919) for this collection of personal information."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-canadian-space-agency/pia-59340b57b6ba_fr.md",
+                "line": 32,
+                "mention": "POU 919",
+                "method": "explicit_pib_id",
+                "excerpt": "L'ASC procédera à la radiation du FRP propre à l'institution, Sciences de l'espace (PPU 010), et s'appuiera sur le FRP ordinaire Membres des conseils, comités et conseils consultatifs (POU 919) pour cette collecte de renseignements personnels."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "CSA PPU 010",
+        "PSU 919"
+      ],
+      "pib_count": 2,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 269,
+      "word_count_fr": 349,
+      "word_count_language": "en",
+      "word_count": 269
+    },
+    {
+      "pia_id": "pia-6cac04093378",
+      "title_en": "Executive Summary of the Astronaut Recruitment Campaign 2016",
+      "title_fr": "Résumé exécutif Campagne de recrutement des astronautes 2016",
+      "url_en": "https://www.asc-csa.gc.ca/eng/transparency/aipa/esarc.asp",
+      "url_fr": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/recra.asp",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.asc-csa.gc.ca/eng/transparency/aipa/esarc.asp",
+        "alternate_url": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/recra.asp"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.asc-csa.gc.ca/eng/transparency/aipa/esarc.asp",
+          "title_from_list": "Astronaut Recruitment Campaign 2016",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.asc-csa.gc.ca/eng/transparency/aipa/privacy-impact-assessments.asp",
+          "discovered_under": "Privacy impact assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.asc-csa.gc.ca/eng/transparency/aipa/esarc.asp",
+              "title": "Astronaut Recruitment Campaign 2016",
+              "list_url": "https://www.asc-csa.gc.ca/eng/transparency/aipa/privacy-impact-assessments.asp",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.asc-csa.gc.ca/eng/transparency/aipa/esarc.asp"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.asc-csa.gc.ca/eng/transparency/aipa/esarc.asp",
+            "final_url": "https://www.asc-csa.gc.ca/eng/transparency/aipa/esarc.asp",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T09:37:01.175734+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 28853,
+            "sha256": "7c4274857c6cf55b8d864cb8f1eb706de5089a68acea4cf587a709a77e1945e0"
+          },
+          "raw_path": "raw/6cac04093378a4074165.html",
+          "markdown_path": "pia-6cac04093378_en.md",
+          "markdown_sha256": "3d64cb3fd15249b8f1aa7bdb83f6cf29435a7d66144a34da4eb4e0d55afdf314",
+          "status": "exported",
+          "page_title": "Executive Summary of the Astronaut Recruitment Campaign 2016",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.asc-csa.gc.ca/eng/transparency/aipa/esarc.asp",
+            "fr": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/recra.asp"
+          },
+          "date_modified": "2018-03-31",
+          "date_published": "2009-10-21",
+          "has_pia_text": true,
+          "title": "Executive Summary of the Astronaut Recruitment Campaign 2016",
+          "conversion": "markdownify",
+          "text_sha256": "102914404fe3f51b4bd3a02bbbca64bd9821c89bc9ec0e595d9595d73c962e89",
+          "word_count": 977,
+          "pib_ids": [
+            "CSA PPU 040",
+            "DND PPE 810",
+            "DND PPE 811",
+            "PSC PCU 025"
+          ],
+          "cor_ids": [
+            "CSA SEC 025",
+            "CSA SEC 030"
+          ]
+        },
+        "fr": {
+          "url": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/recra.asp",
+          "title_from_list": "Campagne de recrutement des astronautes 2016",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/evaluations-facteurs-relatifs-vie-privee.asp",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/recra.asp",
+              "title": "Campagne de recrutement des astronautes 2016",
+              "list_url": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/evaluations-facteurs-relatifs-vie-privee.asp",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.asc-csa.gc.ca/fra/transparence/aiprp/recra.asp"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/recra.asp",
+            "final_url": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/recra.asp",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T09:37:01.178338+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 31806,
+            "sha256": "98db2b14d131e5da0316da5bf324c6261b0b37bda25a42171eae07fa4327b95f"
+          },
+          "raw_path": "raw/ea6043586255162ddb0a.html",
+          "markdown_path": "pia-6cac04093378_fr.md",
+          "markdown_sha256": "0cf3683371380be216209442a7bf31c533d5762b5eeeec35aba174da343c0750",
+          "status": "exported",
+          "page_title": "Résumé exécutif Campagne de recrutement des astronautes 2016",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.asc-csa.gc.ca/eng/transparency/aipa/esarc.asp",
+            "fr": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/recra.asp"
+          },
+          "date_modified": "2018-03-31",
+          "date_published": "2009-10-21",
+          "has_pia_text": true,
+          "title": "Résumé exécutif Campagne de recrutement des astronautes 2016",
+          "conversion": "markdownify",
+          "text_sha256": "b8df52436c101292ca425d99aef2ff54908b8d948f6dbb5e61261d733c14cd29",
+          "word_count": 1213,
+          "pib_ids": [
+            "CSA PPU 040",
+            "DND PPE 810",
+            "DND PPE 811",
+            "PSC PCU 025"
+          ],
+          "cor_ids": [
+            "CSA SEC 025",
+            "CSA SEC 030"
+          ]
+        }
+      },
+      "references": {
+        "extraction_version": 2,
+        "pibs": [
+          {
+            "id": "CSA PPU 040",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-canadian-space-agency",
+                "record_id": "CSA PPU 040"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-canadian-space-agency/pia-6cac04093378_en.md",
+                "line": 77,
+                "mention": "ASC PPU 040",
+                "method": "explicit_pib_id",
+                "excerpt": "Bank Number: ASC PPU 040"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-canadian-space-agency/pia-6cac04093378_fr.md",
+                "line": 77,
+                "mention": "ASC PPU 040",
+                "method": "explicit_pib_id",
+                "excerpt": "Numéro de fichier : ASC PPU 040"
+              }
+            ]
+          },
+          {
+            "id": "DND PPE 810",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND PPE 810"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-canadian-space-agency/pia-6cac04093378_en.md",
+                "line": 72,
+                "mention": "DND PPE 810",
+                "method": "explicit_pib_id",
+                "excerpt": "Consistent Uses: Information may be used or disclosed for safety, communication and Canadian astronaut selection purposes. Personal information may also be shared with the Department of National Defence (DND PPE 810 and DND PPE 811) and the Public Service Commission (CFP PCU 025)."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-canadian-space-agency/pia-6cac04093378_fr.md",
+                "line": 72,
+                "mention": "DND PPE 810",
+                "method": "explicit_pib_id",
+                "excerpt": "Usages compatibles : Les renseignements peuvent être utilisés ou divulgués à des fins de sélection des astronautes canadiens, de sécurité ou de communication. Les renseignements personnels peuvent aussi être partagés avec le ministère de la Défense nationale (DND PPE 810 et DND PPE 811) puis la Commission de la fonction publique (CFP PCU 025)."
+              }
+            ]
+          },
+          {
+            "id": "DND PPE 811",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND PPE 811"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-canadian-space-agency/pia-6cac04093378_en.md",
+                "line": 72,
+                "mention": "DND PPE 811",
+                "method": "explicit_pib_id",
+                "excerpt": "Consistent Uses: Information may be used or disclosed for safety, communication and Canadian astronaut selection purposes. Personal information may also be shared with the Department of National Defence (DND PPE 810 and DND PPE 811) and the Public Service Commission (CFP PCU 025)."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-canadian-space-agency/pia-6cac04093378_fr.md",
+                "line": 72,
+                "mention": "DND PPE 811",
+                "method": "explicit_pib_id",
+                "excerpt": "Usages compatibles : Les renseignements peuvent être utilisés ou divulgués à des fins de sélection des astronautes canadiens, de sécurité ou de communication. Les renseignements personnels peuvent aussi être partagés avec le ministère de la Défense nationale (DND PPE 810 et DND PPE 811) puis la Commission de la fonction publique (CFP PCU 025)."
+              }
+            ]
+          },
+          {
+            "id": "PSC PCU 025",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-public-service-commission",
+                "record_id": "PSC PCU 025"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-canadian-space-agency/pia-6cac04093378_en.md",
+                "line": 72,
+                "mention": "CFP PCU 025",
+                "method": "explicit_pib_id",
+                "excerpt": "Consistent Uses: Information may be used or disclosed for safety, communication and Canadian astronaut selection purposes. Personal information may also be shared with the Department of National Defence (DND PPE 810 and DND PPE 811) and the Public Service Commission (CFP PCU 025)."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-canadian-space-agency/pia-6cac04093378_fr.md",
+                "line": 72,
+                "mention": "CFP PCU 025",
+                "method": "explicit_pib_id",
+                "excerpt": "Usages compatibles : Les renseignements peuvent être utilisés ou divulgués à des fins de sélection des astronautes canadiens, de sécurité ou de communication. Les renseignements personnels peuvent aussi être partagés avec le ministère de la Défense nationale (DND PPE 810 et DND PPE 811) puis la Commission de la fonction publique (CFP PCU 025)."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "CSA SEC 025",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-canadian-space-agency",
+                "record_id": "CSA SEC 025"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-canadian-space-agency/pia-6cac04093378_en.md",
+                "line": 75,
+                "mention": "ASC SEC 025",
+                "method": "known_cor_id",
+                "excerpt": "Related Record Number: ASC SEC 030, ASC SEC 025"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-canadian-space-agency/pia-6cac04093378_fr.md",
+                "line": 75,
+                "mention": "ASC SEC 025",
+                "method": "known_cor_id",
+                "excerpt": "Renvoi au document no. : ASC SEC 030, ASC SEC 025"
+              }
+            ]
+          },
+          {
+            "id": "CSA SEC 030",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-canadian-space-agency",
+                "record_id": "CSA SEC 030"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-canadian-space-agency/pia-6cac04093378_en.md",
+                "line": 75,
+                "mention": "ASC SEC 030",
+                "method": "known_cor_id",
+                "excerpt": "Related Record Number: ASC SEC 030, ASC SEC 025"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-canadian-space-agency/pia-6cac04093378_fr.md",
+                "line": 75,
+                "mention": "ASC SEC 030",
+                "method": "known_cor_id",
+                "excerpt": "Renvoi au document no. : ASC SEC 030, ASC SEC 025"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "CSA PPU 040",
+        "DND PPE 810",
+        "DND PPE 811",
+        "PSC PCU 025"
+      ],
+      "pib_count": 4,
+      "cor_ids": [
+        "CSA SEC 025",
+        "CSA SEC 030"
+      ],
+      "cor_count": 2,
+      "word_count_en": 977,
+      "word_count_fr": 1213,
+      "word_count_language": "en",
+      "word_count": 977
+    },
+    {
+      "pia_id": "pia-0bd194bccfb3",
+      "title_en": "Recruitment and Staffing Activities using Virtual Staffing Tools",
+      "title_fr": "Activités de recrutement et de dotation à l'aide d'outils de dotation virtuels",
+      "url_en": "https://www.asc-csa.gc.ca/eng/transparency/aipa/recruitment-activities-virtual-staffing-tools.asp",
+      "url_fr": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/activites-recrutement-outils-dotation-virtuels.asp",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.asc-csa.gc.ca/eng/transparency/aipa/recruitment-activities-virtual-staffing-tools.asp",
+        "alternate_url": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/activites-recrutement-outils-dotation-virtuels.asp"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.asc-csa.gc.ca/eng/transparency/aipa/recruitment-activities-virtual-staffing-tools.asp",
+          "title_from_list": "Recruitment and Staffing Activities using Virtual Staffing Tools 2022",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.asc-csa.gc.ca/eng/transparency/aipa/privacy-impact-assessments.asp",
+          "discovered_under": "Privacy impact assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.asc-csa.gc.ca/eng/transparency/aipa/recruitment-activities-virtual-staffing-tools.asp",
+              "title": "Recruitment and Staffing Activities using Virtual Staffing Tools 2022",
+              "list_url": "https://www.asc-csa.gc.ca/eng/transparency/aipa/privacy-impact-assessments.asp",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.asc-csa.gc.ca/eng/transparency/aipa/recruitment-activities-virtual-staffing-tools.asp"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.asc-csa.gc.ca/eng/transparency/aipa/recruitment-activities-virtual-staffing-tools.asp",
+            "final_url": "https://www.asc-csa.gc.ca/eng/transparency/aipa/recruitment-activities-virtual-staffing-tools.asp",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T09:37:01.173530+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 29532,
+            "sha256": "fde2b220b6eeda1d497a2c20d011f10c76812fc44e12842e98c70a6249d8f53c"
+          },
+          "raw_path": "raw/0bd194bccfb3293ecfd6.html",
+          "markdown_path": "pia-0bd194bccfb3_en.md",
+          "markdown_sha256": "1c596ace27e33bcde7cdb0dad471b6b1cfa3df8c16724ab33197b2c6837d378f",
+          "status": "exported",
+          "page_title": "Recruitment and Staffing Activities using Virtual Staffing Tools",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.asc-csa.gc.ca/eng/transparency/aipa/recruitment-activities-virtual-staffing-tools.asp",
+            "fr": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/activites-recrutement-outils-dotation-virtuels.asp"
+          },
+          "date_modified": "2022-07-13",
+          "date_published": "2022-07-13",
+          "has_pia_text": true,
+          "title": "Recruitment and Staffing Activities using Virtual Staffing Tools",
+          "conversion": "markdownify",
+          "text_sha256": "bf44277d6ff2fc225623909bd6fd9873f3553d6cedc353d52a3b16851427d358",
+          "word_count": 1113,
+          "pib_ids": [
+            "CSA PIB 015"
+          ],
+          "cor_ids": [
+            "CSA HR 010"
+          ]
+        },
+        "fr": {
+          "url": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/activites-recrutement-outils-dotation-virtuels.asp",
+          "title_from_list": "Activités de recrutement et de dotation à l'aide d'outils de dotation virtuels 2022",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/evaluations-facteurs-relatifs-vie-privee.asp",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/activites-recrutement-outils-dotation-virtuels.asp",
+              "title": "Activités de recrutement et de dotation à l'aide d'outils de dotation virtuels 2022",
+              "list_url": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/evaluations-facteurs-relatifs-vie-privee.asp",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.asc-csa.gc.ca/fra/transparence/aiprp/activites-recrutement-outils-dotation-virtuels.asp"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/activites-recrutement-outils-dotation-virtuels.asp",
+            "final_url": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/activites-recrutement-outils-dotation-virtuels.asp",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T09:37:01.175161+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 32983,
+            "sha256": "86be81d1c8bb082533b0c35080a60be5fb01e0a252f38688e5ffb1efa49592a1"
+          },
+          "raw_path": "raw/0a5c001bbfa63ee3bc53.html",
+          "markdown_path": "pia-0bd194bccfb3_fr.md",
+          "markdown_sha256": "0d3ed6252d043658647ae87ba672baf705259565ef03427298b9b5dfcd9e9088",
+          "status": "exported",
+          "page_title": "Activités de recrutement et de dotation à l'aide d'outils de dotation virtuels",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.asc-csa.gc.ca/eng/transparency/aipa/recruitment-activities-virtual-staffing-tools.asp",
+            "fr": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/activites-recrutement-outils-dotation-virtuels.asp"
+          },
+          "date_modified": "2022-07-13",
+          "date_published": "2022-07-13",
+          "has_pia_text": true,
+          "title": "Activités de recrutement et de dotation à l'aide d'outils de dotation virtuels",
+          "conversion": "markdownify",
+          "text_sha256": "e80d38596ea75d01b89eff28b0124e840af5fbb79be0076117b8a0f25c5f8f34",
+          "word_count": 1368,
+          "pib_ids": [
+            "CSA PIB 015"
+          ],
+          "cor_ids": []
+        }
+      },
+      "references": {
+        "extraction_version": 2,
+        "pibs": [
+          {
+            "id": "CSA PIB 015",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-canadian-space-agency",
+                "record_id": "CSA PIB 015"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-canadian-space-agency/pia-0bd194bccfb3_en.md",
+                "line": 44,
+                "mention": "CSA PIB 015",
+                "method": "explicit_pib_id",
+                "excerpt": "Recruitment and Staffing Activities using Virtual Staffing Tools (CSA PIB 015)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-canadian-space-agency/pia-0bd194bccfb3_fr.md",
+                "line": 44,
+                "mention": "ASC FRP 015",
+                "method": "explicit_pib_id",
+                "excerpt": "Activités de recrutement et de dotation à l'aide d'outils de dotation virtuels (ASC FRP 015)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "CSA HR 010",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-canadian-space-agency",
+                "record_id": "CSA HR 010"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-canadian-space-agency/pia-0bd194bccfb3_en.md",
+                "line": 42,
+                "mention": "CSA HR 010",
+                "method": "known_cor_id",
+                "excerpt": "Recruitment and Staffing (CSA HR 010)"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "CSA PIB 015"
+      ],
+      "pib_count": 1,
+      "cor_ids": [
+        "CSA HR 010"
+      ],
+      "cor_count": 1,
+      "word_count_en": 1113,
+      "word_count_fr": 1368,
+      "word_count_language": "en",
+      "word_count": 1113
+    }
+  ],
   "summary": {
-    "pia_count": 0,
-    "paired_count": 0,
-    "source_status_counts": {}
+    "pia_count": 3,
+    "paired_count": 3,
+    "source_status_counts": {
+      "exported": 6
+    }
   }
 }

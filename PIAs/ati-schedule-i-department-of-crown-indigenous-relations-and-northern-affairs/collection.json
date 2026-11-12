@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "collector_version": 2,
-  "collected_at_utc": "2026-11-12T05:49:50.601715+00:00",
+  "collected_at_utc": "2026-11-12T09:41:10.041787+00:00",
   "institution_id": "ati-schedule-i-department-of-crown-indigenous-relations-and-northern-affairs",
   "gc_orgID": "2230.0",
   "open_canada_org_id": "d54c8e31-8f3e-46c5-bdc5-d22bc553cbc2",
@@ -9,7 +9,7 @@
   "name_en": "Department of Crown-Indigenous Relations and Northern Affairs",
   "name_fr": "Ministère des Relations Couronne-Autochtones et des Affaires du Nord",
   "registry_membership": "current_registry",
-  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
+  "source_index_sha256": "c9fe96f0729e10f9578ff679d24fa59da5bdf4448dfd5c56b56ca0cb685bec3f",
   "list_pages": {
     "en": {
       "indexed_url": null,

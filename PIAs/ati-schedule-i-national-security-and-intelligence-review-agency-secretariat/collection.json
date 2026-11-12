@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "collector_version": 2,
-  "collected_at_utc": "2026-11-12T05:50:14.232909+00:00",
+  "collected_at_utc": "2026-11-12T09:41:46.700366+00:00",
   "institution_id": "ati-schedule-i-national-security-and-intelligence-review-agency-secretariat",
   "gc_orgID": "2291.0",
   "open_canada_org_id": "eec19c60-1de5-4431-ad53-552957343bec",
@@ -9,7 +9,7 @@
   "name_en": "National Security and Intelligence Review Agency Secretariat",
   "name_fr": "Secrétariat de l’Office de surveillance des activités en matière de sécurité nationale et de renseignement",
   "registry_membership": "current_registry",
-  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
+  "source_index_sha256": "c9fe96f0729e10f9578ff679d24fa59da5bdf4448dfd5c56b56ca0cb685bec3f",
   "list_pages": {
     "en": {
       "indexed_url": null,

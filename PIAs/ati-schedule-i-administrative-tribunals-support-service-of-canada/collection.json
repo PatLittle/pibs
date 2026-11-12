@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "collector_version": 2,
-  "collected_at_utc": "2026-11-12T05:49:58.099583+00:00",
+  "collected_at_utc": "2026-11-12T09:41:21.541791+00:00",
   "institution_id": "ati-schedule-i-administrative-tribunals-support-service-of-canada",
   "gc_orgID": "2297.0",
   "open_canada_org_id": "89a7ab6c-c736-11e4-aef9-08002710fcd5",
@@ -9,7 +9,7 @@
   "name_en": "Administrative Tribunals Support Service of Canada",
   "name_fr": "Service canadien d’appui aux tribunaux administratifs",
   "registry_membership": "current_registry",
-  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
+  "source_index_sha256": "c9fe96f0729e10f9578ff679d24fa59da5bdf4448dfd5c56b56ca0cb685bec3f",
   "list_pages": {
     "en": {
       "indexed_url": "https://www.canada.ca/en/administrative-tribunals-support-service/transparency/privacy-impact-assessments.html",
@@ -198,7 +198,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [
           {
             "id": "PSU 905",

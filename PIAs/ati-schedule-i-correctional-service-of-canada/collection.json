@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "collector_version": 2,
-  "collected_at_utc": "2026-11-12T05:50:13.593517+00:00",
+  "collected_at_utc": "2026-11-12T09:41:45.983194+00:00",
   "institution_id": "ati-schedule-i-correctional-service-of-canada",
   "gc_orgID": "2255.0",
   "open_canada_org_id": "3EEE5483-9B34-492D-AE39-3C378F3C2354",
@@ -9,7 +9,7 @@
   "name_en": "Correctional Service of Canada",
   "name_fr": "Service correctionnel du Canada",
   "registry_membership": "current_registry",
-  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
+  "source_index_sha256": "c9fe96f0729e10f9578ff679d24fa59da5bdf4448dfd5c56b56ca0cb685bec3f",
   "list_pages": {
     "en": {
       "indexed_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
@@ -198,7 +198,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [
           {
             "id": "CSC PPU 042",
@@ -410,7 +410,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [
           {
             "id": "CSC PPU 065",
@@ -588,7 +588,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -722,7 +722,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -856,7 +856,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -990,7 +990,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -1124,7 +1124,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -1258,7 +1258,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -1392,7 +1392,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -1526,7 +1526,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -1660,7 +1660,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -1794,7 +1794,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -1928,7 +1928,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -2062,7 +2062,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -2196,7 +2196,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -2330,7 +2330,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -2464,7 +2464,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -2603,7 +2603,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -2737,7 +2737,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },

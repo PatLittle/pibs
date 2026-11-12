@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "collector_version": 2,
-  "collected_at_utc": "2026-11-12T05:50:12.476008+00:00",
+  "collected_at_utc": "2026-11-12T09:41:44.890340+00:00",
   "institution_id": "ati-schedule-i-canadian-high-arctic-research-station",
   "gc_orgID": "2318.0",
   "open_canada_org_id": "1B0F90FF-3458-47A6-99FD-28AF6E006D75",
@@ -9,7 +9,7 @@
   "name_en": "Canadian High Arctic Research Station",
   "name_fr": "Station canadienne de recherche dans l’Extrême-Arctique",
   "registry_membership": "current_registry",
-  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
+  "source_index_sha256": "c9fe96f0729e10f9578ff679d24fa59da5bdf4448dfd5c56b56ca0cb685bec3f",
   "list_pages": {
     "en": {
       "indexed_url": null,

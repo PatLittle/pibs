@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "collector_version": 2,
-  "collected_at_utc": "2026-11-12T05:49:58.099016+00:00",
+  "collected_at_utc": "2026-11-12T09:41:21.540033+00:00",
   "institution_id": "ati-schedule-i-department-of-western-economic-diversification",
   "gc_orgID": "2240.0",
   "open_canada_org_id": "f73d09a8-a55a-4a7b-b78a-8b9e9f7cd3d2",
@@ -9,7 +9,7 @@
   "name_en": "Department of Western Economic Diversification",
   "name_fr": "Ministère de la Diversification de l’économie de l’Ouest canadien",
   "registry_membership": "current_registry",
-  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
+  "source_index_sha256": "c9fe96f0729e10f9578ff679d24fa59da5bdf4448dfd5c56b56ca0cb685bec3f",
   "list_pages": {
     "en": {
       "indexed_url": null,

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "collector_version": 2,
-  "collected_at_utc": "2026-11-12T05:49:52.546133+00:00",
+  "collected_at_utc": "2026-11-12T09:41:12.059888+00:00",
   "institution_id": "ati-schedule-i-department-of-health",
   "gc_orgID": "2228.0",
   "open_canada_org_id": "BD26DB5E-82D2-42C1-99BB-08FCF6068FEE",
@@ -9,7 +9,7 @@
   "name_en": "Department of Health",
   "name_fr": "Ministère de la Santé",
   "registry_membership": "current_registry",
-  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
+  "source_index_sha256": "c9fe96f0729e10f9578ff679d24fa59da5bdf4448dfd5c56b56ca0cb685bec3f",
   "list_pages": {
     "en": {
       "indexed_url": "https://www.canada.ca/en/health-canada/corporate/about-health-canada/activities-responsibilities/access-information-privacy/privacy.html",
@@ -196,7 +196,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [
           {
             "id": "HC PPU 440",
@@ -365,7 +365,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [
           {
             "id": "PSE 915",
@@ -534,7 +534,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [
           {
             "id": "HC PPU 450",
@@ -699,7 +699,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -833,7 +833,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -967,7 +967,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -1105,7 +1105,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [
           {
             "id": "HC PPU 440",
@@ -1270,7 +1270,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -1404,7 +1404,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -1542,7 +1542,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [
           {
             "id": "HC PPU 440",
@@ -1707,7 +1707,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -1841,7 +1841,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -1979,7 +1979,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [
           {
             "id": "HC PPU 440",
@@ -2148,7 +2148,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [
           {
             "id": "HC PPU 440",
@@ -2317,7 +2317,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [
           {
             "id": "HC PPU 440",
@@ -2482,7 +2482,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -2616,7 +2616,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -2750,7 +2750,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -2884,7 +2884,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -3018,7 +3018,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -3152,7 +3152,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -3286,7 +3286,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -3420,7 +3420,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -3554,7 +3554,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -3688,7 +3688,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -3822,7 +3822,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -3960,7 +3960,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [
           {
             "id": "HC PPU 080",
@@ -4125,7 +4125,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -4259,7 +4259,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -4393,7 +4393,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -4527,7 +4527,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -4661,7 +4661,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },

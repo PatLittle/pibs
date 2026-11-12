@@ -407,3 +407,23 @@ assessments. Explanatory directives and site navigation are excluded based on
 more specific labels, while the CRA’s broader EN/FR assessment-summary headings
 are recognized. ESDC’s annual pages need separate month/assessment boundary
 handling and remain documented research rather than incorrectly grouped exports.
+
+## Veterans Affairs, CSA and PCO refresh (2026-11-12)
+
+The three reviewed official list pages and their explicit French counterparts are registered in `verified_sources.csv`. The collection preserves raw responses, HTTP status, retrieval time, hashes, bilingual titles and pairing evidence, Markdown exports, word counts, and explicit PIB/CoR references in each organization’s `collection.json`.
+
+| Institution | PIA summaries | Bilingual pairs | Markdown exports | PIBs EN / FR | CoRs EN / FR |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Veterans Affairs Canada | 44 | 44 | 88 | 45 / 45 | 36 / 36 |
+| Canadian Space Agency | 3 | 3 | 6 | 8 / 8 | 25 / 25 |
+| Privy Council Office | 6 | 6 | 12 | 6 / 6 | 42 / 42 |
+
+PCO publishes six inline assessments in expandable sections. Each is exported separately with a text-fragment source link; reviewed bilingual title matches are in `pairing_overrides.csv`. Supporting program links inside those assessments are not separate PIAs.
+
+VAC’s French list contains an obsolete Priority Hiring link returning 404. The working French translation is linked by the English assessment. `source_aliases.csv` records this reviewed equivalence; the export retains the original discovery URL and failed HTTP observation without counting a second assessment.
+
+Missing Info Source holdings were recovered by following the official VAC table of contents to Appendix A’s individual bank pages and Chapter 2, and by capturing the current CSA and PCO bilingual Info Source pages. Dated supplements under `institutions_infosource_docs/*/snapshots/2026-11-12/` preserve these sources and navigation provenance. Original captures remain intact. The parsers now recognize the published French/English field labels and VAC’s individual-page titles; reference extraction also recognizes CSA’s generic `PIB 015` / `FRP 015` identifier and resolves it to the collected bank while retaining the original mentions; all saved institution sources were reparsed before compilation.
+
+PCO’s security bank is published as **PCO PPE 801** in English and **BCP PPU 801** in French. Both observed identifiers are retained as separate unmatched rows; no source code was silently corrected. Consequently PCO has six banks per language but seven merged rows.
+
+The refreshed repository contains **819 assessment records**, **808 bilingual pairs**, and **1,611 readable language exports**. The site metrics and assessment references are rebuilt against **1,205 institution PIB rows** and **2,545 institution CoR rows**. Progress compares institutions and explicit references to collected PIB holdings; it does not estimate the total number of PIAs government should publish.

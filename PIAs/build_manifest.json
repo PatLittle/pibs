@@ -1,26 +1,26 @@
 {
-  "generated_at_utc": "2026-11-12T05:55:50.428457+00:00",
+  "generated_at_utc": "2026-11-12T09:40:30.736303+00:00",
   "registry_sha256": "6d6417e87cdafaa92818de27ea1fec3a050b0c3f3aa75f3cbd2643d96aad4ea5",
   "script_sha256": "ec636a9862f2c54f6db4ef82425c259e9e7866436ea4c46b96408d9ddca0ea89",
   "organization_count": 149,
   "summary": {
     "en": {
       "http_error": 5,
-      "list_detected": 33,
+      "list_detected": 36,
       "needs_review": 2,
       "no_artifact": 17,
-      "no_link_found": 92
+      "no_link_found": 89
     },
     "fr": {
       "http_error": 5,
-      "list_detected": 31,
+      "list_detected": 34,
       "needs_review": 4,
       "no_artifact": 17,
-      "no_link_found": 92
+      "no_link_found": 89
     }
   },
   "outputs_sha256": {
-    "index.csv": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
-    "evidence.jsonl": "3d528477845da64024d7ac404e08fe8ece55c6ad58f497fe271de509770c34e8"
+    "index.csv": "c9fe96f0729e10f9578ff679d24fa59da5bdf4448dfd5c56b56ca0cb685bec3f",
+    "evidence.jsonl": "18c15d640f0e3fc4b993b7426d058da9ba5efd6287a947331ad255f69ad2fc91"
   }
 }

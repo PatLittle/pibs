@@ -69,20 +69,70 @@
   },
   "extraction": {
     "pibs": {
-      "english": 5,
-      "french": 0,
-      "merged": 5
+      "english": 6,
+      "french": 6,
+      "merged": 7
     },
     "classes_of_records": {
       "english": 42,
-      "french": 0,
+      "french": 42,
       "merged": 42
     }
   },
   "parser_versions": {
-    "pibs": 5,
-    "classes_of_records": 2
+    "pibs": 7,
+    "classes_of_records": 4
   },
-  "extracted_at_utc": "2026-09-04T07:23:43.673707+00:00",
-  "extraction_rebuild_version": 2
+  "extracted_at_utc": "2026-11-12T09:40:53.163788+00:00",
+  "extraction_rebuild_version": 2,
+  "supplemental_sources": [
+    {
+      "source_id": "current-infosource-en-68f52e9072",
+      "snapshot_date": "2026-11-12",
+      "collected_at_utc": "2026-11-12T09:36:36.045292+00:00",
+      "language": "en",
+      "roles": [
+        "pibs_en",
+        "classes_of_records_en"
+      ],
+      "requested_url": "https://www.canada.ca/en/privy-council/services/publications/info-source-federal-government-employee-information.html",
+      "final_url": "https://www.canada.ca/en/privy-council/services/publications/info-source-federal-government-employee-information.html",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 94736,
+      "sha256": "40e13a3a9ba429002ef4ee6bb4db02b8e1e13f7cb9c9185c46771c108978c8bc",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-privy-council-office/snapshots/2026-11-12/supplemental/current-infosource-en-68f52e9072/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-privy-council-office/snapshots/2026-11-12/supplemental/current-infosource-en-68f52e9072/source.md",
+      "provenance": "Current official bilingual Info Source publication.",
+      "replaces_previous": true
+    },
+    {
+      "source_id": "current-infosource-fr-3a7a5917a4",
+      "snapshot_date": "2026-11-12",
+      "collected_at_utc": "2026-11-12T09:36:36.926903+00:00",
+      "language": "fr",
+      "roles": [
+        "pibs_fr",
+        "classes_of_records_fr"
+      ],
+      "requested_url": "https://www.canada.ca/fr/conseil-prive/services/publications/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+      "final_url": "https://www.canada.ca/fr/conseil-prive/services/publications/info-source-renseignements-gouvernement-federal-fonctionnaires-federaux.html",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "byte_count": 110125,
+      "sha256": "1326dbe71e522e59850790a129ba1658129bacd59c870516904653d4c230d6a8",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-privy-council-office/snapshots/2026-11-12/supplemental/current-infosource-fr-3a7a5917a4/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-privy-council-office/snapshots/2026-11-12/supplemental/current-infosource-fr-3a7a5917a4/source.md",
+      "provenance": "Current official bilingual Info Source publication.",
+      "replaces_previous": true
+    }
+  ]
 }

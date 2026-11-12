@@ -25,8 +25,12 @@ LABELS = {
     "types de documents": "document_types",
     "record number": "record_number",
     "records number": "record_number",
+    "class of record number": "record_number",
+    "numero de categorie de document": "record_number",
     "numero de dossier": "record_number",
     "numero du dossier": "record_number",
+    "no de dossier": "record_number",
+    "no du dossier": "record_number",
     "numero de document": "record_number",
     "numero du document": "record_number",
     "numero de la categorie de documents": "record_number",
@@ -175,7 +179,8 @@ def parse_records(markdown: str) -> list[dict[str, str]]:
             while candidate_index > previous_point and not clean_value(lines[candidate_index]):
                 candidate_index -= 1
             candidate = clean_value(lines[candidate_index])
-            if candidate and normalize_label(candidate) not in BAD_TITLES:
+            if (candidate and normalize_label(candidate) not in BAD_TITLES
+                    and not re.match(r"^(?:note|nota|remarque)\s*:", candidate, re.I)):
                 description_title_index = candidate_index
                 description_title = candidate
                 break

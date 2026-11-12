@@ -207,18 +207,13 @@ records, evidence, documentation, and static output.
 | --- | ---: | --- |
 | Registry foundation | 8 raw responses | 1 Justice XML, 4 TBS HTML pages, 3 Open Canada API JSON responses; one dated snapshot |
 | Schedule I registry / jobs | 148 institutions / 131 collectable | 17 lacked collection URLs in the dated job plan; Canadian Forces is consolidated under National Defence |
-| Institution Info Source captures | 534 preserved raw copies | 512 HTML and 22 PDF validated for the 131 collectable Schedule I jobs: 380 baseline role files, 102 discovered linked pages and 52 later supplemental captures; repeated PIB/class roles may duplicate one publication |
-| Distinct institution source locations | 313 URLs | Distinct final URLs among those 534 captured copies; 336 distinct SHA-256 payloads, because different captures at one URL can differ |
-| Locally supplied supplemental captures | 2 | Included in the 52 supplements and marked as provided files, not successful live fetches |
+| Institution Info Source captures | 654 preserved raw copies | 630 HTML and 24 PDF for the 131 collectable jobs: 380 baseline role files, 102 discovered linked pages and 172 later supplements; repeated roles may duplicate a publication |
+| Distinct institution source locations | 417 URLs | Distinct final URLs among these captures; 454 distinct SHA-256 payloads |
+| Locally supplied supplemental captures | 2 | Included in the 172 supplements; marked as provided files, not successful live fetches |
 | Separate TBS standard references | 4 live EN/FR pages | 2 standard-PIB/category pages and 2 standard-Class-of-Records pages; scraped outputs contain 49 standard PIBs, 33 standard classes and 25 categories |
-| Current compiled holdings | 991 institution PIBs, 2,371 institution classes, 1,915 PIB-to-class links | Rows in the three comprehensive CSVs; with 49 standard PIBs, My Info's current feature table has 1,040 PIB rows |
+| Current compiled holdings | 1,205 institution PIBs, 2,545 institution classes, 2,512 PIB-to-class links | Current comprehensive CSV rows; My Info feature products have a separate build lifecycle |
 
-The dated collection summary currently records 398 collected roles, 118 errors,
-eight missing URLs and 68 not-applicable roles across 148 jobs; 103 of 131
-collectable institutions had at least one source. This is a **snapshot of
-collection**, not a claim that every publication was valid or that its older
-row totals equal the latest compiled tables. Re-run the summarizer after a
-source refresh before treating its percentages as current.
+The collection summary, refreshed after the 2026-11-12 supplements, records 416 collected roles, 100 errors, 8 missing URLs and 68 not-applicable roles across 148 jobs; 107 of 131 collectable institutions have at least one source. Summary totals include consolidated institutions; the comprehensive holdings tables exclude duplicate consolidated rows. See the [PIA refresh notes](PIAs/README.md#veterans-affairs-csa-and-pco-refresh-2026-11-12) for bilingual VAC, CSA and PCO collection and source discrepancies.
 
 **Token and effort estimates are not usage logs.** The current preserved
 institution HTML has about 71.2 million Unicode characters (roughly 17.8

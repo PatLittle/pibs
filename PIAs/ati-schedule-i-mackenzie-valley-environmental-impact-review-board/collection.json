@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "collector_version": 2,
-  "collected_at_utc": "2026-11-12T05:50:14.225873+00:00",
+  "collected_at_utc": "2026-11-12T09:41:46.693099+00:00",
   "institution_id": "ati-schedule-i-mackenzie-valley-environmental-impact-review-board",
   "gc_orgID": "",
   "open_canada_org_id": "6048d791-7971-4f05-b549-5dec1d7e7742",
@@ -9,7 +9,7 @@
   "name_en": "Mackenzie Valley Environmental Impact Review Board",
   "name_fr": "Office d’examen des répercussions environnementales de la vallée du Mackenzie",
   "registry_membership": "current_registry",
-  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
+  "source_index_sha256": "c9fe96f0729e10f9578ff679d24fa59da5bdf4448dfd5c56b56ca0cb685bec3f",
   "list_pages": {
     "en": {
       "indexed_url": null,

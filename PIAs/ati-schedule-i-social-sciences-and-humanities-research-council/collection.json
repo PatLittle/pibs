@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "collector_version": 2,
-  "collected_at_utc": "2026-11-12T05:50:16.494565+00:00",
+  "collected_at_utc": "2026-11-12T09:41:49.152834+00:00",
   "institution_id": "ati-schedule-i-social-sciences-and-humanities-research-council",
   "gc_orgID": "2316.0",
   "open_canada_org_id": "DF295E03-841D-49BE-AAE6-32BB6AC093FB",
@@ -9,7 +9,7 @@
   "name_en": "Social Sciences and Humanities Research Council",
   "name_fr": "Conseil de recherches en sciences humaines",
   "registry_membership": "current_registry",
-  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
+  "source_index_sha256": "c9fe96f0729e10f9578ff679d24fa59da5bdf4448dfd5c56b56ca0cb685bec3f",
   "list_pages": {
     "en": {
       "indexed_url": "http://www.sshrc-crsh.gc.ca/en/about-sshrc/transparency/privacy-impact-assessments.aspx",
@@ -242,7 +242,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [
           {
             "id": "SSHRC PPU 055",
@@ -815,7 +815,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [
           {
             "id": "SSHRC PPU 016",
@@ -1096,7 +1096,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },

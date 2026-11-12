@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "collector_version": 2,
-  "collected_at_utc": "2026-11-12T05:50:14.213431+00:00",
+  "collected_at_utc": "2026-11-12T09:41:46.680676+00:00",
   "institution_id": "ati-schedule-i-energy-supplies-allocation-board",
   "gc_orgID": "3424.0",
   "open_canada_org_id": "83d10e21-5c8f-4274-be3b-5208cd754c44",
@@ -9,7 +9,7 @@
   "name_en": "Energy Supplies Allocation Board",
   "name_fr": "Office de répartition des approvisionnements d’énergie",
   "registry_membership": "current_registry",
-  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
+  "source_index_sha256": "c9fe96f0729e10f9578ff679d24fa59da5bdf4448dfd5c56b56ca0cb685bec3f",
   "list_pages": {
     "en": {
       "indexed_url": null,

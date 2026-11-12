@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "collector_version": 2,
-  "collected_at_utc": "2026-11-12T05:49:58.427541+00:00",
+  "collected_at_utc": "2026-11-12T09:41:22.268120+00:00",
   "institution_id": "ati-schedule-i-belledune-port-authority",
   "gc_orgID": "3439.0",
   "open_canada_org_id": "e0dbdcf1-cb74-56e3-8930-fae44afe5bac",
@@ -9,7 +9,7 @@
   "name_en": "Belledune Port Authority",
   "name_fr": "Administration portuaire de Belledune",
   "registry_membership": "current_registry",
-  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
+  "source_index_sha256": "c9fe96f0729e10f9578ff679d24fa59da5bdf4448dfd5c56b56ca0cb685bec3f",
   "list_pages": {
     "en": {
       "indexed_url": null,

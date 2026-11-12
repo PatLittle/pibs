@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "collector_version": 2,
-  "collected_at_utc": "2026-11-12T05:50:00.162546+00:00",
+  "collected_at_utc": "2026-11-12T09:41:25.194531+00:00",
   "institution_id": "ati-schedule-i-canada-newfoundland-and-labrador-offshore-energy-regulator",
   "gc_orgID": "3448.0",
   "open_canada_org_id": "bb5fdf62-75d4-501f-a00b-e09c5eff6eb4",
@@ -9,7 +9,7 @@
   "name_en": "Canada–Newfoundland and Labrador Offshore Energy Regulator",
   "name_fr": "Régie Canada — Terre-Neuve-et-Labrador de l’énergie extracôtière",
   "registry_membership": "current_registry",
-  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
+  "source_index_sha256": "c9fe96f0729e10f9578ff679d24fa59da5bdf4448dfd5c56b56ca0cb685bec3f",
   "list_pages": {
     "en": {
       "indexed_url": null,

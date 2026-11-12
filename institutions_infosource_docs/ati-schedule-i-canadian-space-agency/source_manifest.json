@@ -70,7 +70,7 @@
   "extraction": {
     "pibs": {
       "english": 8,
-      "french": 0,
+      "french": 8,
       "merged": 8
     },
     "classes_of_records": {
@@ -80,9 +80,59 @@
     }
   },
   "parser_versions": {
-    "pibs": 5,
-    "classes_of_records": 2
+    "pibs": 7,
+    "classes_of_records": 4
   },
-  "extracted_at_utc": "2026-09-04T07:22:02.535057+00:00",
-  "extraction_rebuild_version": 2
+  "extracted_at_utc": "2026-11-12T09:40:49.828756+00:00",
+  "extraction_rebuild_version": 2,
+  "supplemental_sources": [
+    {
+      "source_id": "current-infosource-en-72feae71d6",
+      "snapshot_date": "2026-11-12",
+      "collected_at_utc": "2026-11-12T09:36:34.271243+00:00",
+      "language": "en",
+      "roles": [
+        "pibs_en",
+        "classes_of_records_en"
+      ],
+      "requested_url": "https://www.asc-csa.gc.ca/eng/transparency/aipa/info-source.asp",
+      "final_url": "https://www.asc-csa.gc.ca/eng/transparency/aipa/info-source.asp",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "text/html;charset=UTF-8",
+      "encoding": "utf-8",
+      "byte_count": 132930,
+      "sha256": "c26f32ab26fc8f87b3596c592873bb7370c45278e850697480394262c8859edc",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-space-agency/snapshots/2026-11-12/supplemental/current-infosource-en-72feae71d6/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-space-agency/snapshots/2026-11-12/supplemental/current-infosource-en-72feae71d6/source.md",
+      "provenance": "Current official bilingual Info Source publication.",
+      "replaces_previous": true
+    },
+    {
+      "source_id": "current-infosource-fr-d500401437",
+      "snapshot_date": "2026-11-12",
+      "collected_at_utc": "2026-11-12T09:36:35.429032+00:00",
+      "language": "fr",
+      "roles": [
+        "pibs_fr",
+        "classes_of_records_fr"
+      ],
+      "requested_url": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/info-source.asp",
+      "final_url": "https://www.asc-csa.gc.ca/fra/transparence/aiprp/info-source.asp",
+      "http_status": 200,
+      "capture_method": "http_get",
+      "tls_verified": true,
+      "provided_file_name": null,
+      "content_type": "text/html;charset=UTF-8",
+      "encoding": "utf-8",
+      "byte_count": 156755,
+      "sha256": "b622e20cbaaf776e1755c91ea8977e7102fd8c45fb74ad15fc753f1821ae6288",
+      "raw_path": "institutions_infosource_docs/ati-schedule-i-canadian-space-agency/snapshots/2026-11-12/supplemental/current-infosource-fr-d500401437/source.html",
+      "markdown_path": "institutions_infosource_docs/ati-schedule-i-canadian-space-agency/snapshots/2026-11-12/supplemental/current-infosource-fr-d500401437/source.md",
+      "provenance": "Current official bilingual Info Source publication.",
+      "replaces_previous": true
+    }
+  ]
 }

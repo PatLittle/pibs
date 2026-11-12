@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "collector_version": 2,
-  "collected_at_utc": "2026-11-12T05:49:46.986118+00:00",
+  "collected_at_utc": "2026-11-12T09:41:06.857773+00:00",
   "institution_id": "ati-schedule-i-department-of-agriculture-and-agri-food",
   "gc_orgID": "2222.0",
   "open_canada_org_id": "2ABCCA59-6C57-4886-99E7-85EC6C719218",
@@ -9,7 +9,7 @@
   "name_en": "Department of Agriculture and Agri-Food",
   "name_fr": "Ministère de l’Agriculture et de l’Agroalimentaire",
   "registry_membership": "current_registry",
-  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
+  "source_index_sha256": "c9fe96f0729e10f9578ff679d24fa59da5bdf4448dfd5c56b56ca0cb685bec3f",
   "list_pages": {
     "en": {
       "indexed_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
@@ -196,7 +196,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [
           {
             "id": "AAFC PPE 254",
@@ -365,7 +365,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [
           {
             "id": "PSU 917",
@@ -534,7 +534,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [
           {
             "id": "AAFC PPU 247",
@@ -703,7 +703,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [
           {
             "id": "PSU 939",
@@ -872,7 +872,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [
           {
             "id": "AAFC PPU 222",
@@ -1038,7 +1038,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -1176,7 +1176,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [
           {
             "id": "PSE 902",
@@ -1347,11 +1347,17 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [
           {
             "id": "CRA PPU 120",
-            "matched_records": [],
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-canada-revenue-agency",
+                "record_id": "CRA PPU 120"
+              }
+            ],
             "evidence": [
               {
                 "language": "en",
@@ -1529,7 +1535,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -1669,11 +1675,17 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [
           {
             "id": "CRA PPU 120",
-            "matched_records": [],
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-canada-revenue-agency",
+                "record_id": "CRA PPU 120"
+              }
+            ],
             "evidence": [
               {
                 "language": "en",
@@ -1851,7 +1863,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -1985,7 +1997,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -2123,7 +2135,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [
           {
             "id": "AAFC PPU 633",
@@ -2292,7 +2304,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [
           {
             "id": "AAFC PPU 165",
@@ -2461,7 +2473,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [
           {
             "id": "AAFC PPU 935",
@@ -2637,7 +2649,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [
           {
             "id": "PSU 932",
@@ -2806,7 +2818,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [
           {
             "id": "AAFC PPU 624",
@@ -2965,7 +2977,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [],
         "classes_of_records": []
       },
@@ -3129,7 +3141,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [
           {
             "id": "PSE 901",
@@ -3675,7 +3687,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [
           {
             "id": "AAFC PPU 624",

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "collector_version": 2,
-  "collected_at_utc": "2026-11-12T05:50:13.589829+00:00",
+  "collected_at_utc": "2026-11-12T09:41:45.980358+00:00",
   "institution_id": "ati-schedule-i-canadian-transportation-agency",
   "gc_orgID": "2252.0",
   "open_canada_org_id": "18CECF2C-DE86-43E2-8B4D-5B1E4C9EDD84",
@@ -9,7 +9,7 @@
   "name_en": "Canadian Transportation Agency",
   "name_fr": "Office des transports du Canada",
   "registry_membership": "current_registry",
-  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
+  "source_index_sha256": "c9fe96f0729e10f9578ff679d24fa59da5bdf4448dfd5c56b56ca0cb685bec3f",
   "list_pages": {
     "en": {
       "indexed_url": null,

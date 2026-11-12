@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "collector_version": 2,
-  "collected_at_utc": "2026-11-12T05:50:14.227515+00:00",
+  "collected_at_utc": "2026-11-12T09:41:46.695166+00:00",
   "institution_id": "ati-schedule-i-military-police-complaints-commission",
   "gc_orgID": "2264.0",
   "open_canada_org_id": "88E53539-2A56-4169-B682-C11DF3CB405F",
@@ -9,7 +9,7 @@
   "name_en": "Military Police Complaints Commission",
   "name_fr": "Commission d’examen des plaintes concernant la police militaire",
   "registry_membership": "current_registry",
-  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
+  "source_index_sha256": "c9fe96f0729e10f9578ff679d24fa59da5bdf4448dfd5c56b56ca0cb685bec3f",
   "list_pages": {
     "en": {
       "indexed_url": null,

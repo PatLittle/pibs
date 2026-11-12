@@ -2,17 +2,17 @@
   "snapshot_date": "2026-08-15",
   "headline": {
     "institutions": 148,
-    "institution_pibs": 1102,
-    "institution_classes": 2542,
-    "pib_cor_links": 2351
+    "institution_pibs": 1205,
+    "institution_classes": 2545,
+    "pib_cor_links": 2512
   },
   "quality": {
-    "pibs_bilingual": 970,
-    "pibs_bilingual_percent": 88.0,
-    "classes_bilingual": 2293,
-    "classes_bilingual_percent": 90.2,
-    "links_resolved": 2026,
-    "links_resolved_percent": 86.2
+    "pibs_bilingual": 1113,
+    "pibs_bilingual_percent": 92.4,
+    "classes_bilingual": 2382,
+    "classes_bilingual_percent": 93.6,
+    "links_resolved": 2180,
+    "links_resolved_percent": 86.8
   },
   "collection": {
     "collectable_institutions": 131,
@@ -25,9 +25,9 @@
   },
   "datasets": {
     "institutions": 148,
-    "pibs": 1102,
-    "classes": 2542,
-    "links": 2351,
+    "pibs": 1205,
+    "classes": 2545,
+    "links": 2512,
     "standard_pibs": 49,
     "standard_classes": 33,
     "categories": 25,
@@ -36,11 +36,11 @@
   "pib_types": [
     {
       "name": "Public Bank",
-      "count": 940
+      "count": 1042
     },
     {
       "name": "Particular Bank",
-      "count": 88
+      "count": 89
     },
     {
       "name": "Central Bank",
@@ -78,19 +78,19 @@
     },
     {
       "institution_id": "ati-schedule-i-canada-employment-insurance-commission",
-      "pibs": 66,
+      "pibs": 68,
       "classes": 86,
       "name_en": "Canada Employment Insurance Commission",
       "name_fr": "Commission de l’assurance-emploi du Canada",
-      "total": 152
+      "total": 154
     },
     {
       "institution_id": "ati-schedule-i-department-of-employment-and-social-development",
-      "pibs": 66,
+      "pibs": 68,
       "classes": 86,
       "name_en": "Department of Employment and Social Development",
       "name_fr": "Ministère de l’Emploi et du Développement social",
-      "total": 152
+      "total": 154
     },
     {
       "institution_id": "ati-schedule-i-department-of-transport",

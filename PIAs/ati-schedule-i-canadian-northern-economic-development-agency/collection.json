@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "collector_version": 2,
-  "collected_at_utc": "2026-11-12T05:50:12.479137+00:00",
+  "collected_at_utc": "2026-11-12T09:41:44.893164+00:00",
   "institution_id": "ati-schedule-i-canadian-northern-economic-development-agency",
   "gc_orgID": "2249.0",
   "open_canada_org_id": "63CFF5A6-FB76-4938-91EB-010D3C0673DE",
@@ -9,7 +9,7 @@
   "name_en": "Canadian Northern Economic Development Agency",
   "name_fr": "Agence canadienne de développement économique du Nord",
   "registry_membership": "current_registry",
-  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
+  "source_index_sha256": "c9fe96f0729e10f9578ff679d24fa59da5bdf4448dfd5c56b56ca0cb685bec3f",
   "list_pages": {
     "en": {
       "indexed_url": null,

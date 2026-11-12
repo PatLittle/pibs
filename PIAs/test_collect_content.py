@@ -47,6 +47,15 @@ class CollectTests(unittest.TestCase):
         self.assertEqual(records[0]['url'], 'https://example.ca/list#pay')
         self.assertEqual(records[0]['anchor_type'], 'native_id')
 
+    def test_disclosure_summary_keeps_body_and_ignores_program_navigation(self):
+        prose = '<p>' + ('This assessment describes collection and safeguards for personal information. ' * 12) + '</p>'
+        html = '<main><h1>Privacy impact assessment summaries</h1><details><summary>Appointments</summary>' + prose + '<ul><li><a href="/appointments">Appointments program</a></li></ul></details><details><summary>Youth consultations</summary>' + prose + '</details></main>'
+        records, _ = c.discover(*response('https://example.ca/list', html), 'en')
+        self.assertEqual(len(records), 2)
+        self.assertTrue(all(record['kind'] == 'inline' for record in records))
+        self.assertTrue(all('safeguards' in record['html'] for record in records))
+        self.assertNotIn('Youth consultations', records[0]['html'])
+
     def test_bilingual_pairs_use_urls_instead_of_position(self):
         en = 'https://example.ca/pay-eng.html'
         fr = 'https://example.ca/pay-fra.html'
@@ -56,6 +65,20 @@ class CollectTests(unittest.TestCase):
         pair = next(group for group, _, _ in groups if 'en' in group)
         self.assertEqual(pair['fr']['url'], fr)
         self.assertEqual(len(groups), 2)
+
+    def test_reviewed_failed_alias_keeps_http_provenance_without_duplicate(self):
+        old, new = 'https://example.ca/old', 'https://example.ca/new'
+        with tempfile.TemporaryDirectory() as folder:
+            Path(folder, 'source_aliases.csv').write_text('institution_id,language,source_url,replacement_url,evidence_url,reason\norg,fr,' + old + ',' + new + ',https://example.ca/en,Reviewed translation link\n')
+            records = [dict(institution_id='org', language='fr', url=url, title='Same assessment', kind='page') for url in (old, new)]
+            results = {old: response(old, 'Missing', 404), new: response(new, '<main>Assessment</main>')}
+            with patch.object(c, 'OUT', Path(folder)):
+                groups = c.pair_records(records, results)
+            self.assertEqual(len(groups), 1)
+            chosen = groups[0][0]['fr']
+            self.assertEqual(chosen['url'], new)
+            self.assertIn(old, chosen['aliases'])
+            self.assertEqual(len(chosen['discovery_references']), 2)
 
     def test_reverse_language_switch_can_pair_a_document(self):
         en, fr = 'https://example.ca/pay', 'https://example.ca/paie'

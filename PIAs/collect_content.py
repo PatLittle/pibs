@@ -121,6 +121,8 @@ def language_links(soup, base):
 
 def section(heading):
     """Select a DOM range without copying wrappers across its end boundary."""
+    if heading.name == 'summary' and heading.parent and heading.parent.name == 'details':
+        return [heading, *[node for node in heading.parent.children if isinstance(node, Tag) and node is not heading]]
     level = int(heading.name[1]) if re.fullmatch('h[1-6]', heading.name) else 6
     boundary = heading.find_next(lambda tag: tag.name in HEADINGS and
                                  ((tag.name == 'summary' and heading.name == 'summary') or
@@ -193,6 +195,14 @@ def discover(metadata, data, lang):
             if policy(label) or tapi(label) or re.search(r'corporate services|services generaux|statistical programs|programmes statistiques', norm(label)): continue
             if re.search(r'^(?:contact us|contactez-nous|accessibility|accessibilite|haut de la page|top of page|page details|details de la page|abonnez-vous|stay tuned|suivez-nous|follow us|twitter|facebook|linkedin|canada\.ca|sommaire des demandes|access to information and privacy|acces a l.information et protection des renseignements personnels)$', re.sub(r'\s*\([^)]*\)', '', norm(label)).strip()): continue
             if urllib.parse.urlsplit(href).netloc in ('laws-lois.justice.gc.ca', 'www.tbs-sct.canada.ca', 'www.tbs-sct.gc.ca', 'open.canada.ca', 'ouvert.canada.ca'): continue
+            # Narrative links inside a complete inline assessment are supporting
+            # program references, not additional assessment documents. Year
+            # disclosure lists still contain independent assessment links.
+            details_parent = a.find_parent('details')
+            summary = details_parent.find('summary') if details_parent else None
+            if summary and not is_year(clean(summary.get_text(' ', strip=True))):
+                prose = sum(len(p.get_text(' ', strip=True)) for p in details_parent.find_all('p'))
+                if prose >= 300: continue
             # Require either a list item, table row, or explicitly named PIA link.
             if not (a.find_parent(['li', 'td', 'p', 'h2', 'h3', 'h4']) or pia(label)): continue
             # Introductory cross-references and generic PIA landing links are not documents.
@@ -337,12 +347,19 @@ def pair_records(records, results):
     """Pair with language-switch URLs or a bilingual source section key."""
     # Deduplicate aliases that redirect to the same document in the same language.
     unique, aliases = {}, {}
+    reviewed_aliases = {}
+    alias_path = OUT / 'source_aliases.csv'
+    if alias_path.exists():
+        for row in csv.DictReader(io.StringIO(alias_path.read_text())):
+            reviewed_aliases[(row['institution_id'], row['language'], source_key(row['source_url']))] = row
     for record in records:
         record.setdefault('discovery_references', []).append({k: record.get(k) for k in ('url', 'title', 'list_url', 'discovery_method')})
         m, d = results[urllib.parse.urldefrag(record['url'])[0]]
         fragment = urllib.parse.urlsplit(record['url']).fragment
         final = m['final_url'] + ('#' + fragment if fragment else '')
-        key = (record['language'], source_key(final))
+        review = reviewed_aliases.get((record.get('institution_id'), record['language'], source_key(record['url'])))
+        identity = review['replacement_url'] if review else final
+        key = (record['language'], source_key(identity))
         if key in unique:
             previous = unique[key]
             previous_meta = results[urllib.parse.urldefrag(previous['url'])[0]][0]

@@ -14,17 +14,17 @@ from functools import lru_cache
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = 1
-PIB_TOKEN = re.compile(r'(?<![A-Z0-9])(PPU|PPE|PCE|PCU|PSE|PSU|POE|POU)[\s._:\-]*(\d{2,6})(?!\d)', re.I)
+VERSION = 2
+PIB_TOKEN = re.compile(r'(?<![A-Z0-9])(PPU|PPE|PCE|PCU|PSE|PSU|POE|POU|PIB|FRP)[\s._:\-]*(\d{2,6})(?!\d)', re.I)
 STANDARD_COR = re.compile(r'(?<![A-Z0-9])(PRN|NDP)[\s\[\]():._\-]*(\d{3})(?!\d)', re.I)
 COR_CONTEXT = re.compile(r'class(?:es)? of records?|\bcor\b|related record|record number|categorie[s]? de documents|catégorie[s]? de documents|numéro de (?:dossier|document)|numéro.*(?:catégorie|categorie)|document connexe|dossier connexe', re.I)
 GENERIC_ID = re.compile(r'\b[A-Z][A-Z&./-]{1,14}(?:\s+[A-Z][A-Z0-9&./-]{0,14}){0,2}[\s:-]+\d{1,6}(?:[.-]\d{1,4})*\b')
-TYPE_ALIAS = {'POE':'PSE', 'POU':'PSU'}
+TYPE_ALIAS = {'POE':'PSE', 'POU':'PSU', 'FRP':'PIB'}
 
 
 def key(value):
     value = re.sub(r'[^A-Z0-9]', '', value.upper())
-    return re.sub(r'(PPU|PPE|PCE|PCU|PSE|PSU|POE|POU)(\d{2,3})$', lambda m:m[1]+m[2].zfill(3), value)
+    return re.sub(r'(PPU|PPE|PCE|PCU|PSE|PSU|POE|POU|PIB|FRP)(\d{2,3})$', lambda m:m[1]+m[2].zfill(3), value)
 def rows(path): return list(csv.DictReader(io.StringIO(path.read_text())))
 def normalized(value): return re.sub(r'\s+', ' ', value.replace('\xa0', ' ')).strip()
 
@@ -68,7 +68,7 @@ def holdings():
     # Historical department names refer to the same legal institution.
     data['prefix_aliases'].update({'PWGSC':'PSPC','TPSGC':'PSPC'})
     for ident, matches in list(data['pibs'].items()):
-        match = re.fullmatch(r'([A-Z]+)(PPU|PPE|PCE|PCU|PSE|PSU|POE|POU)(\d+)', ident)
+        match = re.fullmatch(r'([A-Z]+)(PPU|PPE|PCE|PCU|PSE|PSU|POE|POU|PIB|FRP)(\d+)', ident)
         if match:
             alias = data['prefix_aliases'].get(match[1],match[1]) + TYPE_ALIAS.get(match[2],match[2]) + match[3]
             data['pibs'][alias].extend(matches)
@@ -113,10 +113,12 @@ def resolve(kind, observed, institution_id):
     lookup = re.sub(r'\b(?:POE|POU)\b', lambda m:TYPE_ALIAS[m[0]], observed) if kind == 'pibs' else observed
     matches = registry.get(key(lookup), [])
     if kind == 'pibs':
-        prefix = re.match(r'^([A-Z]+)\s+(P[A-Z]{2}\s+\d+)$', lookup)
+        prefix = re.match(r'^([A-Z]+)\s+((?:P[A-Z]{2}|FRP)\s+\d+)$', lookup)
         if prefix:
             lookup = holdings()['prefix_aliases'].get(prefix[1],prefix[1]) + ' ' + prefix[2]
             if not matches: matches = registry.get(key(lookup), [])
+            if not matches and ' FRP ' in lookup:
+                matches = registry.get(key(lookup.replace(' FRP ', ' PIB ')), [])
     if not matches:
         token = PIB_TOKEN.fullmatch(observed)
         if (kind == 'pibs' and token and token[1].upper() not in ('PSE', 'PSU', 'POE', 'POU')) or kind == 'classes_of_records':
@@ -144,11 +146,12 @@ def extract(markdown, institution_id, language, source_path):
         item['evidence'].append({'language':language, 'source_path':source_path, 'line':line_number, 'mention':observed, 'method':method, 'excerpt':text[:600]})
     lines = list(visible_lines(markdown))
     for line_index, (number, line) in enumerate(lines):
-        if re.search(r'\b(?:PPU|PPE|PCE|PCU|PSE|PSU|POE|POU|PRN|NDP)$', line, re.I) and line_index + 1 < len(lines):
+        if re.search(r'\b(?:PPU|PPE|PCE|PCU|PSE|PSU|POE|POU|PIB|FRP|PRN|NDP)$', line, re.I) and line_index + 1 < len(lines):
             continuation = re.match(r'^(\d{2,6})\b', lines[line_index + 1][1])
             if continuation: line += ' ' + continuation[1]
         for token in PIB_TOKEN.finditer(line):
             typ, digits = token[1].upper(), token[2]
+            if typ in ('PIB', 'FRP') and len(digits) != 3: continue
             observed = typ + ' ' + digits
             if typ not in ('PSE', 'PSU', 'POE', 'POU'):
                 prefix = re.search(r'([A-Z][A-Z&./-]{1,14})\s+(?:(?:PIB|FRP)\s+)?$', line[:token.start()])

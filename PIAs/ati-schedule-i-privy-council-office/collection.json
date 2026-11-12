@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "collector_version": 2,
-  "collected_at_utc": "2026-11-12T05:50:15.290330+00:00",
+  "collected_at_utc": "2026-11-12T09:41:47.814535+00:00",
   "institution_id": "ati-schedule-i-privy-council-office",
   "gc_orgID": "2284.0",
   "open_canada_org_id": "26DF0856-0FA2-404C-87E9-21443F333990",
@@ -9,31 +9,988 @@
   "name_en": "Privy Council Office",
   "name_fr": "Bureau du Conseil privé",
   "registry_membership": "current_registry",
-  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
+  "source_index_sha256": "c9fe96f0729e10f9578ff679d24fa59da5bdf4448dfd5c56b56ca0cb685bec3f",
   "list_pages": {
     "en": {
-      "indexed_url": null,
-      "index_resolution": "no_link_found",
+      "indexed_url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+      "index_resolution": "list_detected",
       "pia_link_in_infosource": "N",
       "review_note": null,
-      "status": "no_indexed_url",
-      "captures": [],
-      "discovered_count": 0
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+          "final_url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T09:24:03.632021+00:00",
+          "redirects": [],
+          "content_type": "text/html;charset=utf-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Thu, 12 Nov 2026 06:02:10 GMT",
+          "etag": null,
+          "byte_count": 31542,
+          "sha256": "baa5002befcda46e818dc460e159463ef3da43557a62019975b1cdf507afabcb",
+          "raw_path": "raw/a9623b8110a27a872e93.html"
+        }
+      ],
+      "discovered_count": 6,
+      "scopes": [
+        "Privacy Impact Assessment Summaries"
+      ],
+      "warnings": [
+        {
+          "title": "MyDemocracy.ca Data – Transfer Survey from VoxPop to PCO",
+          "reason": "no_native_anchor_used_browser_text_fragment"
+        },
+        {
+          "title": "Consultation on the Leaders’ Debates Commissioner",
+          "reason": "no_native_anchor_used_browser_text_fragment"
+        },
+        {
+          "title": "Youth Online Consultations",
+          "reason": "no_native_anchor_used_browser_text_fragment"
+        },
+        {
+          "title": "Innovative Staffing and Resource Management Strategy",
+          "reason": "no_native_anchor_used_browser_text_fragment"
+        },
+        {
+          "title": "Youth Advisory Council",
+          "reason": "no_native_anchor_used_browser_text_fragment"
+        },
+        {
+          "title": "GIC Appointments",
+          "reason": "no_native_anchor_used_browser_text_fragment"
+        }
+      ]
     },
     "fr": {
-      "indexed_url": null,
-      "index_resolution": "no_link_found",
+      "indexed_url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+      "index_resolution": "list_detected",
       "pia_link_in_infosource": "N",
       "review_note": null,
-      "status": "no_indexed_url",
-      "captures": [],
-      "discovered_count": 0
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+          "final_url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T09:25:19.636386+00:00",
+          "redirects": [],
+          "content_type": "text/html;charset=utf-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Thu, 12 Nov 2026 09:25:20 GMT",
+          "etag": null,
+          "byte_count": 34891,
+          "sha256": "19c54fcf212413320e808fe35d6924e9d8a5d9fb0ad3c27489193177458187b5",
+          "raw_path": "raw/f9af5fdc1719a580d943.html"
+        }
+      ],
+      "discovered_count": 6,
+      "scopes": [
+        "Évaluations des facteurs relatifs à la vie privée"
+      ],
+      "warnings": [
+        {
+          "title": "Données de MaDémocratie.ca – Sondage sur le transfert de VoxPop au BCP",
+          "reason": "no_native_anchor_used_browser_text_fragment"
+        },
+        {
+          "title": "Consultation sur le commissaire aux débats des chefs",
+          "reason": "no_native_anchor_used_browser_text_fragment"
+        },
+        {
+          "title": "Consultation en ligne auprès des jeunes",
+          "reason": "no_native_anchor_used_browser_text_fragment"
+        },
+        {
+          "title": "Stratégie novatrice en matière de gestion de la dotation",
+          "reason": "no_native_anchor_used_browser_text_fragment"
+        },
+        {
+          "title": "Conseil consultatif jeunesse",
+          "reason": "no_native_anchor_used_browser_text_fragment"
+        },
+        {
+          "title": "Nominations par le gouverneur en conseil",
+          "reason": "no_native_anchor_used_browser_text_fragment"
+        }
+      ]
     }
   },
-  "pias": [],
+  "pias": [
+    {
+      "pia_id": "pia-b6e933b75122",
+      "title_en": "MyDemocracy.ca Data – Transfer Survey from VoxPop to PCO",
+      "title_fr": "Données de MaDémocratie.ca – Sondage sur le transfert de VoxPop au BCP",
+      "url_en": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html#:~:text=MyDemocracy.ca%20Data%20%E2%80%93%20Transfer%20Survey%20from%20VoxPop%20to%20PCO",
+      "url_fr": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html#:~:text=Donn%C3%A9es%20de%20MaD%C3%A9mocratie.ca%20%E2%80%93%20Sondage%20sur%20le%20transfert%20de%20VoxPop%20au%20BCP",
+      "pairing_status": "paired",
+      "pairing_method": "reviewed_bilingual_list_titles",
+      "pairing_evidence": {
+        "institution_id": "ati-schedule-i-privy-council-office",
+        "url_en": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html#:~:text=MyDemocracy.ca%20Data%20%E2%80%93%20Transfer%20Survey%20from%20VoxPop%20to%20PCO",
+        "url_fr": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html#:~:text=Donn%C3%A9es%20de%20MaD%C3%A9mocratie.ca%20%E2%80%93%20Sondage%20sur%20le%20transfert%20de%20VoxPop%20au%20BCP",
+        "title_en": "MyDemocracy.ca Data – Transfer Survey from VoxPop to PCO",
+        "title_fr": "Données de MaDémocratie.ca – Sondage sur le transfert de VoxPop au BCP",
+        "rationale": "Reviewed matching program titles on explicitly linked PCO English/French pages. Each inline section is an assessment; the source has no native IDs, so the URLs use exact-title browser text fragments."
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html#:~:text=MyDemocracy.ca%20Data%20%E2%80%93%20Transfer%20Survey%20from%20VoxPop%20to%20PCO",
+          "title_from_list": "MyDemocracy.ca Data – Transfer Survey from VoxPop to PCO",
+          "kind": "inline",
+          "discovery_method": "inline_heading",
+          "list_url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+          "discovered_under": "Privacy Impact Assessment Summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html#:~:text=MyDemocracy.ca%20Data%20%E2%80%93%20Transfer%20Survey%20from%20VoxPop%20to%20PCO",
+              "title": "MyDemocracy.ca Data – Transfer Survey from VoxPop to PCO",
+              "list_url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+              "discovery_method": "inline_heading"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html#:~:text=MyDemocracy.ca%20Data%20%E2%80%93%20Transfer%20Survey%20from%20VoxPop%20to%20PCO"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+            "final_url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T09:24:03.632021+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 06:02:10 GMT",
+            "etag": null,
+            "byte_count": 31542,
+            "sha256": "baa5002befcda46e818dc460e159463ef3da43557a62019975b1cdf507afabcb"
+          },
+          "raw_path": "raw/a9623b8110a27a872e93.html",
+          "markdown_path": "pia-b6e933b75122_en.md",
+          "markdown_sha256": "48442ed2e6d7c483bc9254d43919c6d51238a0902fe834ed02f6f52d910824b1",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summaries",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+            "fr": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html"
+          },
+          "date_modified": "2022-05-05",
+          "date_published": "2022-04-21",
+          "has_pia_text": true,
+          "anchor": ":~:text=MyDemocracy.ca%20Data%20%E2%80%93%20Transfer%20Survey%20from%20VoxPop%20to%20PCO",
+          "anchor_type": "text_fragment",
+          "source_heading": "MyDemocracy.ca Data – Transfer Survey from VoxPop to PCO",
+          "title": "MyDemocracy.ca Data – Transfer Survey from VoxPop to PCO",
+          "conversion": "markdownify",
+          "text_sha256": "98880b65b5cc42692746156784387327d9558cfad51b092acd260365b8202a9a",
+          "word_count": 124,
+          "pib_ids": [],
+          "cor_ids": []
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html#:~:text=Donn%C3%A9es%20de%20MaD%C3%A9mocratie.ca%20%E2%80%93%20Sondage%20sur%20le%20transfert%20de%20VoxPop%20au%20BCP",
+          "title_from_list": "Données de MaDémocratie.ca – Sondage sur le transfert de VoxPop au BCP",
+          "kind": "inline",
+          "discovery_method": "inline_heading",
+          "list_url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html#:~:text=Donn%C3%A9es%20de%20MaD%C3%A9mocratie.ca%20%E2%80%93%20Sondage%20sur%20le%20transfert%20de%20VoxPop%20au%20BCP",
+              "title": "Données de MaDémocratie.ca – Sondage sur le transfert de VoxPop au BCP",
+              "list_url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+              "discovery_method": "inline_heading"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html#:~:text=Donn%C3%A9es%20de%20MaD%C3%A9mocratie.ca%20%E2%80%93%20Sondage%20sur%20le%20transfert%20de%20VoxPop%20au%20BCP"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+            "final_url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T09:25:19.636386+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 09:25:20 GMT",
+            "etag": null,
+            "byte_count": 34891,
+            "sha256": "19c54fcf212413320e808fe35d6924e9d8a5d9fb0ad3c27489193177458187b5"
+          },
+          "raw_path": "raw/f9af5fdc1719a580d943.html",
+          "markdown_path": "pia-b6e933b75122_fr.md",
+          "markdown_sha256": "ebdfa6df077b8fd4b12644761ef3aeadec25b6c781a2847375c9094c5dc84651",
+          "status": "exported",
+          "page_title": "Évaluations des facteurs relatifs à la vie privée",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+            "en": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html"
+          },
+          "date_modified": "2022-05-05",
+          "date_published": "2022-04-21",
+          "has_pia_text": true,
+          "anchor": ":~:text=Donn%C3%A9es%20de%20MaD%C3%A9mocratie.ca%20%E2%80%93%20Sondage%20sur%20le%20transfert%20de%20VoxPop%20au%20BCP",
+          "anchor_type": "text_fragment",
+          "source_heading": "Données de MaDémocratie.ca – Sondage sur le transfert de VoxPop au BCP",
+          "title": "Données de MaDémocratie.ca – Sondage sur le transfert de VoxPop au BCP",
+          "conversion": "markdownify",
+          "text_sha256": "19db2fc27cd17b3c20b699d2a4d4b3cbb11fd322d084e83a9dc95ad93cc6aa44",
+          "word_count": 151,
+          "pib_ids": [],
+          "cor_ids": []
+        }
+      },
+      "references": {
+        "extraction_version": 2,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 124,
+      "word_count_fr": 151,
+      "word_count_language": "en",
+      "word_count": 124
+    },
+    {
+      "pia_id": "pia-b155d9261998",
+      "title_en": "Consultation on the Leaders’ Debates Commissioner",
+      "title_fr": "Consultation sur le commissaire aux débats des chefs",
+      "url_en": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html#:~:text=Consultation%20on%20the%20Leaders%E2%80%99%20Debates%20Commissioner",
+      "url_fr": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html#:~:text=Consultation%20sur%20le%20commissaire%20aux%20d%C3%A9bats%20des%20chefs",
+      "pairing_status": "paired",
+      "pairing_method": "reviewed_bilingual_list_titles",
+      "pairing_evidence": {
+        "institution_id": "ati-schedule-i-privy-council-office",
+        "url_en": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html#:~:text=Consultation%20on%20the%20Leaders%E2%80%99%20Debates%20Commissioner",
+        "url_fr": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html#:~:text=Consultation%20sur%20le%20commissaire%20aux%20d%C3%A9bats%20des%20chefs",
+        "title_en": "Consultation on the Leaders’ Debates Commissioner",
+        "title_fr": "Consultation sur le commissaire aux débats des chefs",
+        "rationale": "Reviewed matching program titles on explicitly linked PCO English/French pages. Each inline section is an assessment; the source has no native IDs, so the URLs use exact-title browser text fragments."
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html#:~:text=Consultation%20on%20the%20Leaders%E2%80%99%20Debates%20Commissioner",
+          "title_from_list": "Consultation on the Leaders’ Debates Commissioner",
+          "kind": "inline",
+          "discovery_method": "inline_heading",
+          "list_url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+          "discovered_under": "Privacy Impact Assessment Summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html#:~:text=Consultation%20on%20the%20Leaders%E2%80%99%20Debates%20Commissioner",
+              "title": "Consultation on the Leaders’ Debates Commissioner",
+              "list_url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+              "discovery_method": "inline_heading"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html#:~:text=Consultation%20on%20the%20Leaders%E2%80%99%20Debates%20Commissioner"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+            "final_url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T09:24:03.632021+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 06:02:10 GMT",
+            "etag": null,
+            "byte_count": 31542,
+            "sha256": "baa5002befcda46e818dc460e159463ef3da43557a62019975b1cdf507afabcb"
+          },
+          "raw_path": "raw/a9623b8110a27a872e93.html",
+          "markdown_path": "pia-b155d9261998_en.md",
+          "markdown_sha256": "c351b2954aabcc08787ceef475c81bdfa9822047558190a904816c4ae1570cfe",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summaries",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+            "fr": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html"
+          },
+          "date_modified": "2022-05-05",
+          "date_published": "2022-04-21",
+          "has_pia_text": true,
+          "anchor": ":~:text=Consultation%20on%20the%20Leaders%E2%80%99%20Debates%20Commissioner",
+          "anchor_type": "text_fragment",
+          "source_heading": "Consultation on the Leaders’ Debates Commissioner",
+          "title": "Consultation on the Leaders’ Debates Commissioner",
+          "conversion": "markdownify",
+          "text_sha256": "d04f63fe1b12f7d8da89ea411d5eb10f6149405bc8392de25c968b6e05db7e60",
+          "word_count": 171,
+          "pib_ids": [],
+          "cor_ids": []
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html#:~:text=Consultation%20sur%20le%20commissaire%20aux%20d%C3%A9bats%20des%20chefs",
+          "title_from_list": "Consultation sur le commissaire aux débats des chefs",
+          "kind": "inline",
+          "discovery_method": "inline_heading",
+          "list_url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html#:~:text=Consultation%20sur%20le%20commissaire%20aux%20d%C3%A9bats%20des%20chefs",
+              "title": "Consultation sur le commissaire aux débats des chefs",
+              "list_url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+              "discovery_method": "inline_heading"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html#:~:text=Consultation%20sur%20le%20commissaire%20aux%20d%C3%A9bats%20des%20chefs"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+            "final_url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T09:25:19.636386+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 09:25:20 GMT",
+            "etag": null,
+            "byte_count": 34891,
+            "sha256": "19c54fcf212413320e808fe35d6924e9d8a5d9fb0ad3c27489193177458187b5"
+          },
+          "raw_path": "raw/f9af5fdc1719a580d943.html",
+          "markdown_path": "pia-b155d9261998_fr.md",
+          "markdown_sha256": "0095efe4f36c79fa7bd500eb1b7ea4040c8aa2efc1f3cad49b56a193b80838e8",
+          "status": "exported",
+          "page_title": "Évaluations des facteurs relatifs à la vie privée",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+            "en": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html"
+          },
+          "date_modified": "2022-05-05",
+          "date_published": "2022-04-21",
+          "has_pia_text": true,
+          "anchor": ":~:text=Consultation%20sur%20le%20commissaire%20aux%20d%C3%A9bats%20des%20chefs",
+          "anchor_type": "text_fragment",
+          "source_heading": "Consultation sur le commissaire aux débats des chefs",
+          "title": "Consultation sur le commissaire aux débats des chefs",
+          "conversion": "markdownify",
+          "text_sha256": "e120b71a8477ad9e3d6d8cd77396350258f01eb2e78eb261339b17cd9481e014",
+          "word_count": 210,
+          "pib_ids": [],
+          "cor_ids": []
+        }
+      },
+      "references": {
+        "extraction_version": 2,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 171,
+      "word_count_fr": 210,
+      "word_count_language": "en",
+      "word_count": 171
+    },
+    {
+      "pia_id": "pia-3397c9f5283f",
+      "title_en": "Youth Online Consultations",
+      "title_fr": "Consultation en ligne auprès des jeunes",
+      "url_en": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html#:~:text=Youth%20Online%20Consultations",
+      "url_fr": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html#:~:text=Consultation%20en%20ligne%20aupr%C3%A8s%20des%20jeunes",
+      "pairing_status": "paired",
+      "pairing_method": "reviewed_bilingual_list_titles",
+      "pairing_evidence": {
+        "institution_id": "ati-schedule-i-privy-council-office",
+        "url_en": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html#:~:text=Youth%20Online%20Consultations",
+        "url_fr": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html#:~:text=Consultation%20en%20ligne%20aupr%C3%A8s%20des%20jeunes",
+        "title_en": "Youth Online Consultations",
+        "title_fr": "Consultation en ligne auprès des jeunes",
+        "rationale": "Reviewed matching program titles on explicitly linked PCO English/French pages. Each inline section is an assessment; the source has no native IDs, so the URLs use exact-title browser text fragments."
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html#:~:text=Youth%20Online%20Consultations",
+          "title_from_list": "Youth Online Consultations",
+          "kind": "inline",
+          "discovery_method": "inline_heading",
+          "list_url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+          "discovered_under": "Privacy Impact Assessment Summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html#:~:text=Youth%20Online%20Consultations",
+              "title": "Youth Online Consultations",
+              "list_url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+              "discovery_method": "inline_heading"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html#:~:text=Youth%20Online%20Consultations"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+            "final_url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T09:24:03.632021+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 06:02:10 GMT",
+            "etag": null,
+            "byte_count": 31542,
+            "sha256": "baa5002befcda46e818dc460e159463ef3da43557a62019975b1cdf507afabcb"
+          },
+          "raw_path": "raw/a9623b8110a27a872e93.html",
+          "markdown_path": "pia-3397c9f5283f_en.md",
+          "markdown_sha256": "dccfa300675aecb1f762aa7727882a8edd92988f9187133dfb7b432fd9e26741",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summaries",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+            "fr": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html"
+          },
+          "date_modified": "2022-05-05",
+          "date_published": "2022-04-21",
+          "has_pia_text": true,
+          "anchor": ":~:text=Youth%20Online%20Consultations",
+          "anchor_type": "text_fragment",
+          "source_heading": "Youth Online Consultations",
+          "title": "Youth Online Consultations",
+          "conversion": "markdownify",
+          "text_sha256": "439a557bfffe4a87c0c2d7f045a946867832348da4e2ab067093a6b0c4848345",
+          "word_count": 286,
+          "pib_ids": [],
+          "cor_ids": []
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html#:~:text=Consultation%20en%20ligne%20aupr%C3%A8s%20des%20jeunes",
+          "title_from_list": "Consultation en ligne auprès des jeunes",
+          "kind": "inline",
+          "discovery_method": "inline_heading",
+          "list_url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html#:~:text=Consultation%20en%20ligne%20aupr%C3%A8s%20des%20jeunes",
+              "title": "Consultation en ligne auprès des jeunes",
+              "list_url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+              "discovery_method": "inline_heading"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html#:~:text=Consultation%20en%20ligne%20aupr%C3%A8s%20des%20jeunes"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+            "final_url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T09:25:19.636386+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 09:25:20 GMT",
+            "etag": null,
+            "byte_count": 34891,
+            "sha256": "19c54fcf212413320e808fe35d6924e9d8a5d9fb0ad3c27489193177458187b5"
+          },
+          "raw_path": "raw/f9af5fdc1719a580d943.html",
+          "markdown_path": "pia-3397c9f5283f_fr.md",
+          "markdown_sha256": "c8e202b8b3528f1a576458d106d8655e83cf9af63620a0446e11ae03fe5e580f",
+          "status": "exported",
+          "page_title": "Évaluations des facteurs relatifs à la vie privée",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+            "en": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html"
+          },
+          "date_modified": "2022-05-05",
+          "date_published": "2022-04-21",
+          "has_pia_text": true,
+          "anchor": ":~:text=Consultation%20en%20ligne%20aupr%C3%A8s%20des%20jeunes",
+          "anchor_type": "text_fragment",
+          "source_heading": "Consultation en ligne auprès des jeunes",
+          "title": "Consultation en ligne auprès des jeunes",
+          "conversion": "markdownify",
+          "text_sha256": "8e81765e3e97f57ec56d07df2ae09fdb3421ee90335853fd582fb8bd386522e1",
+          "word_count": 348,
+          "pib_ids": [],
+          "cor_ids": []
+        }
+      },
+      "references": {
+        "extraction_version": 2,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 286,
+      "word_count_fr": 348,
+      "word_count_language": "en",
+      "word_count": 286
+    },
+    {
+      "pia_id": "pia-3dce11c63a3a",
+      "title_en": "Innovative Staffing and Resource Management Strategy",
+      "title_fr": "Stratégie novatrice en matière de gestion de la dotation",
+      "url_en": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html#:~:text=Innovative%20Staffing%20and%20Resource%20Management%20Strategy",
+      "url_fr": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html#:~:text=Strat%C3%A9gie%20novatrice%20en%20mati%C3%A8re%20de%20gestion%20de%20la%20dotation",
+      "pairing_status": "paired",
+      "pairing_method": "reviewed_bilingual_list_titles",
+      "pairing_evidence": {
+        "institution_id": "ati-schedule-i-privy-council-office",
+        "url_en": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html#:~:text=Innovative%20Staffing%20and%20Resource%20Management%20Strategy",
+        "url_fr": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html#:~:text=Strat%C3%A9gie%20novatrice%20en%20mati%C3%A8re%20de%20gestion%20de%20la%20dotation",
+        "title_en": "Innovative Staffing and Resource Management Strategy",
+        "title_fr": "Stratégie novatrice en matière de gestion de la dotation",
+        "rationale": "Reviewed matching program titles on explicitly linked PCO English/French pages. Each inline section is an assessment; the source has no native IDs, so the URLs use exact-title browser text fragments."
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html#:~:text=Innovative%20Staffing%20and%20Resource%20Management%20Strategy",
+          "title_from_list": "Innovative Staffing and Resource Management Strategy",
+          "kind": "inline",
+          "discovery_method": "inline_heading",
+          "list_url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+          "discovered_under": "Privacy Impact Assessment Summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html#:~:text=Innovative%20Staffing%20and%20Resource%20Management%20Strategy",
+              "title": "Innovative Staffing and Resource Management Strategy",
+              "list_url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+              "discovery_method": "inline_heading"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html#:~:text=Innovative%20Staffing%20and%20Resource%20Management%20Strategy"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+            "final_url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T09:24:03.632021+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 06:02:10 GMT",
+            "etag": null,
+            "byte_count": 31542,
+            "sha256": "baa5002befcda46e818dc460e159463ef3da43557a62019975b1cdf507afabcb"
+          },
+          "raw_path": "raw/a9623b8110a27a872e93.html",
+          "markdown_path": "pia-3dce11c63a3a_en.md",
+          "markdown_sha256": "e6d85e859ca85653298b018a3e42a02e7cecab7f6ff60350877e0e729690e20a",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summaries",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+            "fr": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html"
+          },
+          "date_modified": "2022-05-05",
+          "date_published": "2022-04-21",
+          "has_pia_text": true,
+          "anchor": ":~:text=Innovative%20Staffing%20and%20Resource%20Management%20Strategy",
+          "anchor_type": "text_fragment",
+          "source_heading": "Innovative Staffing and Resource Management Strategy",
+          "title": "Innovative Staffing and Resource Management Strategy",
+          "conversion": "markdownify",
+          "text_sha256": "baaba3f8ccdaeaf19b36492cc1597b5e914bcba2cdb12f74878ca217bc0c81da",
+          "word_count": 224,
+          "pib_ids": [],
+          "cor_ids": []
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html#:~:text=Strat%C3%A9gie%20novatrice%20en%20mati%C3%A8re%20de%20gestion%20de%20la%20dotation",
+          "title_from_list": "Stratégie novatrice en matière de gestion de la dotation",
+          "kind": "inline",
+          "discovery_method": "inline_heading",
+          "list_url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html#:~:text=Strat%C3%A9gie%20novatrice%20en%20mati%C3%A8re%20de%20gestion%20de%20la%20dotation",
+              "title": "Stratégie novatrice en matière de gestion de la dotation",
+              "list_url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+              "discovery_method": "inline_heading"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html#:~:text=Strat%C3%A9gie%20novatrice%20en%20mati%C3%A8re%20de%20gestion%20de%20la%20dotation"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+            "final_url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T09:25:19.636386+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 09:25:20 GMT",
+            "etag": null,
+            "byte_count": 34891,
+            "sha256": "19c54fcf212413320e808fe35d6924e9d8a5d9fb0ad3c27489193177458187b5"
+          },
+          "raw_path": "raw/f9af5fdc1719a580d943.html",
+          "markdown_path": "pia-3dce11c63a3a_fr.md",
+          "markdown_sha256": "7e931d59396e503625a88dc1102893778f76e21b93751d67578ce4291270baa8",
+          "status": "exported",
+          "page_title": "Évaluations des facteurs relatifs à la vie privée",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+            "en": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html"
+          },
+          "date_modified": "2022-05-05",
+          "date_published": "2022-04-21",
+          "has_pia_text": true,
+          "anchor": ":~:text=Strat%C3%A9gie%20novatrice%20en%20mati%C3%A8re%20de%20gestion%20de%20la%20dotation",
+          "anchor_type": "text_fragment",
+          "source_heading": "Stratégie novatrice en matière de gestion de la dotation",
+          "title": "Stratégie novatrice en matière de gestion de la dotation",
+          "conversion": "markdownify",
+          "text_sha256": "1bd7f8bb480b23fe4b1d2c4f08f7f217e3fb44b4be40c61003ed01873bda7632",
+          "word_count": 289,
+          "pib_ids": [],
+          "cor_ids": []
+        }
+      },
+      "references": {
+        "extraction_version": 2,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 224,
+      "word_count_fr": 289,
+      "word_count_language": "en",
+      "word_count": 224
+    },
+    {
+      "pia_id": "pia-de0142c050f1",
+      "title_en": "Youth Advisory Council",
+      "title_fr": "Conseil consultatif jeunesse",
+      "url_en": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html#:~:text=Youth%20Advisory%20Council",
+      "url_fr": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html#:~:text=Conseil%20consultatif%20jeunesse",
+      "pairing_status": "paired",
+      "pairing_method": "reviewed_bilingual_list_titles",
+      "pairing_evidence": {
+        "institution_id": "ati-schedule-i-privy-council-office",
+        "url_en": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html#:~:text=Youth%20Advisory%20Council",
+        "url_fr": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html#:~:text=Conseil%20consultatif%20jeunesse",
+        "title_en": "Youth Advisory Council",
+        "title_fr": "Conseil consultatif jeunesse",
+        "rationale": "Reviewed matching program titles on explicitly linked PCO English/French pages. Each inline section is an assessment; the source has no native IDs, so the URLs use exact-title browser text fragments."
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html#:~:text=Youth%20Advisory%20Council",
+          "title_from_list": "Youth Advisory Council",
+          "kind": "inline",
+          "discovery_method": "inline_heading",
+          "list_url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+          "discovered_under": "Privacy Impact Assessment Summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html#:~:text=Youth%20Advisory%20Council",
+              "title": "Youth Advisory Council",
+              "list_url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+              "discovery_method": "inline_heading"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html#:~:text=Youth%20Advisory%20Council"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+            "final_url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T09:24:03.632021+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 06:02:10 GMT",
+            "etag": null,
+            "byte_count": 31542,
+            "sha256": "baa5002befcda46e818dc460e159463ef3da43557a62019975b1cdf507afabcb"
+          },
+          "raw_path": "raw/a9623b8110a27a872e93.html",
+          "markdown_path": "pia-de0142c050f1_en.md",
+          "markdown_sha256": "78e34ee7c25a62aa7155f72daafd462bd00b9f47e3bc476128378b2dcae6963b",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summaries",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+            "fr": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html"
+          },
+          "date_modified": "2022-05-05",
+          "date_published": "2022-04-21",
+          "has_pia_text": true,
+          "anchor": ":~:text=Youth%20Advisory%20Council",
+          "anchor_type": "text_fragment",
+          "source_heading": "Youth Advisory Council",
+          "title": "Youth Advisory Council",
+          "conversion": "markdownify",
+          "text_sha256": "3f86c18a94bf80bd90c84981af2f351436f7504a3416f79aec0afb8570895e59",
+          "word_count": 232,
+          "pib_ids": [],
+          "cor_ids": []
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html#:~:text=Conseil%20consultatif%20jeunesse",
+          "title_from_list": "Conseil consultatif jeunesse",
+          "kind": "inline",
+          "discovery_method": "inline_heading",
+          "list_url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html#:~:text=Conseil%20consultatif%20jeunesse",
+              "title": "Conseil consultatif jeunesse",
+              "list_url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+              "discovery_method": "inline_heading"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html#:~:text=Conseil%20consultatif%20jeunesse"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+            "final_url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T09:25:19.636386+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 09:25:20 GMT",
+            "etag": null,
+            "byte_count": 34891,
+            "sha256": "19c54fcf212413320e808fe35d6924e9d8a5d9fb0ad3c27489193177458187b5"
+          },
+          "raw_path": "raw/f9af5fdc1719a580d943.html",
+          "markdown_path": "pia-de0142c050f1_fr.md",
+          "markdown_sha256": "b88d82e96b4a115df9b8283bd3ccc50d31bebb75a0f3e7433d32d618f657771e",
+          "status": "exported",
+          "page_title": "Évaluations des facteurs relatifs à la vie privée",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+            "en": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html"
+          },
+          "date_modified": "2022-05-05",
+          "date_published": "2022-04-21",
+          "has_pia_text": true,
+          "anchor": ":~:text=Conseil%20consultatif%20jeunesse",
+          "anchor_type": "text_fragment",
+          "source_heading": "Conseil consultatif jeunesse",
+          "title": "Conseil consultatif jeunesse",
+          "conversion": "markdownify",
+          "text_sha256": "62ddcb7ff4c89f1ed21b81389320dd5e019adf85386e546754569ccb3c26c503",
+          "word_count": 271,
+          "pib_ids": [],
+          "cor_ids": []
+        }
+      },
+      "references": {
+        "extraction_version": 2,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 232,
+      "word_count_fr": 271,
+      "word_count_language": "en",
+      "word_count": 232
+    },
+    {
+      "pia_id": "pia-e2f6e13de11e",
+      "title_en": "GIC Appointments",
+      "title_fr": "Nominations par le gouverneur en conseil",
+      "url_en": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html#:~:text=GIC%20Appointments",
+      "url_fr": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html#:~:text=Nominations%20par%20le%20gouverneur%20en%20conseil",
+      "pairing_status": "paired",
+      "pairing_method": "reviewed_bilingual_list_titles",
+      "pairing_evidence": {
+        "institution_id": "ati-schedule-i-privy-council-office",
+        "url_en": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html#:~:text=GIC%20Appointments",
+        "url_fr": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html#:~:text=Nominations%20par%20le%20gouverneur%20en%20conseil",
+        "title_en": "GIC Appointments",
+        "title_fr": "Nominations par le gouverneur en conseil",
+        "rationale": "Reviewed matching program titles on explicitly linked PCO English/French pages. Each inline section is an assessment; the source has no native IDs, so the URLs use exact-title browser text fragments."
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html#:~:text=GIC%20Appointments",
+          "title_from_list": "GIC Appointments",
+          "kind": "inline",
+          "discovery_method": "inline_heading",
+          "list_url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+          "discovered_under": "Privacy Impact Assessment Summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html#:~:text=GIC%20Appointments",
+              "title": "GIC Appointments",
+              "list_url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+              "discovery_method": "inline_heading"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html#:~:text=GIC%20Appointments"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+            "final_url": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T09:24:03.632021+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 06:02:10 GMT",
+            "etag": null,
+            "byte_count": 31542,
+            "sha256": "baa5002befcda46e818dc460e159463ef3da43557a62019975b1cdf507afabcb"
+          },
+          "raw_path": "raw/a9623b8110a27a872e93.html",
+          "markdown_path": "pia-e2f6e13de11e_en.md",
+          "markdown_sha256": "8bf7b4468361ed0080a81393c810a7d293a077a65b517e381abfcb56baf68da6",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summaries",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html",
+            "fr": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html"
+          },
+          "date_modified": "2022-05-05",
+          "date_published": "2022-04-21",
+          "has_pia_text": true,
+          "anchor": ":~:text=GIC%20Appointments",
+          "anchor_type": "text_fragment",
+          "source_heading": "GIC Appointments",
+          "title": "GIC Appointments",
+          "conversion": "markdownify",
+          "text_sha256": "ffa17e5994671561e58459887b064447883f28e0255f7e49593378fc824388c5",
+          "word_count": 143,
+          "pib_ids": [],
+          "cor_ids": []
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html#:~:text=Nominations%20par%20le%20gouverneur%20en%20conseil",
+          "title_from_list": "Nominations par le gouverneur en conseil",
+          "kind": "inline",
+          "discovery_method": "inline_heading",
+          "list_url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html#:~:text=Nominations%20par%20le%20gouverneur%20en%20conseil",
+              "title": "Nominations par le gouverneur en conseil",
+              "list_url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+              "discovery_method": "inline_heading"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html#:~:text=Nominations%20par%20le%20gouverneur%20en%20conseil"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+            "final_url": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T09:25:19.636386+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 09:25:20 GMT",
+            "etag": null,
+            "byte_count": 34891,
+            "sha256": "19c54fcf212413320e808fe35d6924e9d8a5d9fb0ad3c27489193177458187b5"
+          },
+          "raw_path": "raw/f9af5fdc1719a580d943.html",
+          "markdown_path": "pia-e2f6e13de11e_fr.md",
+          "markdown_sha256": "4b3bd02c78791d803e8d1cce8896f384f0662c9777b9cc0ab22dedfe2ca4edcf",
+          "status": "exported",
+          "page_title": "Évaluations des facteurs relatifs à la vie privée",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/conseil-prive/organisation/transparence/acces-information-protection-renseignements-personnels/evaluations-facteurs-relatifs-vie-privee.html",
+            "en": "https://www.canada.ca/en/privy-council/corporate/transparency/access-information-privacy/privacy-impact-assessment-summaries.html"
+          },
+          "date_modified": "2022-05-05",
+          "date_published": "2022-04-21",
+          "has_pia_text": true,
+          "anchor": ":~:text=Nominations%20par%20le%20gouverneur%20en%20conseil",
+          "anchor_type": "text_fragment",
+          "source_heading": "Nominations par le gouverneur en conseil",
+          "title": "Nominations par le gouverneur en conseil",
+          "conversion": "markdownify",
+          "text_sha256": "063b2bd8ffcffcb5c65c19fe454b51f74726cecc22b2d218b4e2ba1d95156b4e",
+          "word_count": 185,
+          "pib_ids": [],
+          "cor_ids": []
+        }
+      },
+      "references": {
+        "extraction_version": 2,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 143,
+      "word_count_fr": 185,
+      "word_count_language": "en",
+      "word_count": 143
+    }
+  ],
   "summary": {
-    "pia_count": 0,
-    "paired_count": 0,
-    "source_status_counts": {}
+    "pia_count": 6,
+    "paired_count": 6,
+    "source_status_counts": {
+      "exported": 12
+    }
   }
 }

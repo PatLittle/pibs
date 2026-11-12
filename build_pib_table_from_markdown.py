@@ -80,6 +80,11 @@ add_alias(
     "bank_number",
     "bank number",
     "pib bank number",
+    "personal information bank number",
+    "no de fichier",
+    "no du fichier",
+    "no de frp",
+    "no du frp",
     "numero de fichier",
     "numero du fichier",
     "numero du fichier de renseignements personnels",
@@ -90,6 +95,8 @@ add_alias(
 
 BAD_TITLES = {
     "description",
+    "you are here",
+    "vous etes ici",
     "document types",
     "types de documents",
     "class of individuals",
@@ -222,6 +229,7 @@ def split_multi_label_lines(text):
 
 def extract_label_value(line, aliases=ALIAS):
     value = line.strip().replace("\xa0", " ")
+    value = re.sub(r"^[*+\-]\s+", "", value)
 
     match = re.match(r"^\*\*(.+?)\*\*\s*(.*)$", value)
     if match:
@@ -261,7 +269,7 @@ def extract_label_value(line, aliases=ALIAS):
 
 
 def heading_title(line):
-    match = re.match(r"^#{2,6}\s+(.+)$", line.strip())
+    match = re.match(r"^#{1,6}\s+(.+)$", line.strip())
     if not match:
         return None
     title = clean_value(match.group(1)).strip("* ").strip()
@@ -304,10 +312,12 @@ def numbered_bank_title(line):
 def parse_records(markdown):
     lines = split_multi_label_lines(markdown).splitlines()
     numbered_layout = any(numbered_bank_title(line) for line in lines)
-    aliases = ALIAS
+    # CSA uses the same dossier label for banks and classes of records.
+    # Keep it a candidate until the value passes the PIB-series guard below.
+    aliases = {**ALIAS, "numero de dossier": "candidate_bank_number"}
     if numbered_layout:
         aliases = {
-            **ALIAS,
+            **aliases,
             "remarques": "note",
             "finalite": "purpose",
             "utilisation coherente": "consistent_uses",
@@ -318,7 +328,12 @@ def parse_records(markdown):
         }
 
     def label_value(line):
-        return extract_label_value(line, aliases)
+        field, value = extract_label_value(line, aliases)
+        if field == "candidate_bank_number":
+            if not value or parse_bank_number(value):
+                return "bank_number", value
+            return None, None
+        return field, value
 
     bank_points = []
     for idx, line in enumerate(lines):
@@ -394,7 +409,8 @@ def parse_records(markdown):
         # the associated heading is just before the previous bank marker. This
         # also tolerates a source typo where the opening and closing bank labels
         # disagree while the intervening record is otherwise unambiguous.
-        if title_index is None and prev_bank_idx >= 0:
+        if (title_index is None and prev_bank_idx >= 0
+                and not any(heading_title(line) for line in lines[prev_bank_idx + 1:bank_idx])):
             earlier_bank_idx = bank_points[idx - 2][0] if idx > 1 else -1
             for scan in range(prev_bank_idx - 1, earlier_bank_idx, -1):
                 candidate = heading_title(lines[scan])

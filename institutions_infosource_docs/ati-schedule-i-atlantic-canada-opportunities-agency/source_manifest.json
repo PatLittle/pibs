@@ -80,7 +80,7 @@
   "extraction": {
     "pibs": {
       "english": 6,
-      "french": 0,
+      "french": 6,
       "merged": 6
     },
     "classes_of_records": {
@@ -90,9 +90,9 @@
     }
   },
   "parser_versions": {
-    "pibs": 5,
-    "classes_of_records": 2
+    "pibs": 7,
+    "classes_of_records": 4
   },
-  "extracted_at_utc": "2026-09-04T07:20:44.212108+00:00",
+  "extracted_at_utc": "2026-11-12T09:40:43.642110+00:00",
   "extraction_rebuild_version": 2
 }

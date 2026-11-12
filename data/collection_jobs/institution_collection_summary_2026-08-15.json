@@ -24,7 +24,7 @@
   "unique_failing_requested_urls": 49,
   "institutions_with_pibs": 79,
   "institutions_with_classes_of_records": 94,
-  "pib_rows": 1196,
-  "classes_of_records_rows": 2690,
+  "pib_rows": 1299,
+  "classes_of_records_rows": 2693,
   "status_csv": "data/collection_jobs/institution_collection_status_2026-08-15.csv"
 }

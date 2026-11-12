@@ -6,7 +6,7 @@
 * [English
   en](/eng/transparency/aipa/info-source.asp)
 
-[![Gouvernement du Canada](/dist/gcweb/v19.2.0/gcweb/assets/sig-blk-fr.svg)
+[![Gouvernement du Canada](/dist/gcweb/v19.6.0/gcweb/assets/sig-blk-fr.svg)
  /
 Government of Canada](https://www.canada.ca/fr.html)
 
@@ -18,9 +18,9 @@ Recherche
 
 ---
 
-## Menu Canada.ca
+## Menu
 
-Menu principal Canada.ca
+Menu principal
 
 * [Emplois et milieu de travail](https://www.canada.ca/en/services/jobs.html)
 * [Immigration et citoyenneté](https://www.canada.ca/en/services/immigration-citizenship.html)
@@ -868,4 +868,4 @@ Date de modification :
 * [Avis](https://www.canada.ca/fr/transparence/avis.html)
 * [Confidentialité](https://www.canada.ca/fr/transparence/confidentialite.html)
 
-![Symbole du gouvernement du Canada](https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg)
+![Symbole du gouvernement du Canada](/dist/gcweb/v19.6.0/GCWeb/assets/wmms-blk.svg)

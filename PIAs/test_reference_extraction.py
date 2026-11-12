@@ -15,6 +15,16 @@ class ReferenceTests(unittest.TestCase):
         self.assertEqual(set(refs), {'PRN 946'})
         self.assertEqual(refs['PRN 946']['evidence'][1]['mention'], 'NDP 946')
 
+    def test_published_csa_generic_bank_series_resolves_both_languages(self):
+        org = 'ati-schedule-i-canadian-space-agency'
+        for language, mention in [('en', 'CSA PIB 015'), ('fr', 'ASC FRP 015')]:
+            refs = extract(mention, org, language, 'fixture.md')['pibs']
+            self.assertEqual([r['id'] for r in refs], ['CSA PIB 015'])
+            self.assertEqual(refs[0]['matched_records'][0]['record_id'], 'CSA PIB 015')
+
+    def test_generic_bank_series_does_not_treat_year_as_identifier(self):
+        self.assertEqual(self.ids('PIB 2024 and FRP 2025'), {})
+
     def test_ids_in_urls_and_frontmatter_do_not_inflate_mentions(self):
         text = '---\nsource_url: https://example.gc.ca/#PPU901\n---\n[DFO PPU 460](https://example.gc.ca/#:~:text=DFO%20PPU%20065)'
         refs = self.ids(text)

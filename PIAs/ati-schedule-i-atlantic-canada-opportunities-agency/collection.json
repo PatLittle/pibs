@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "collector_version": 2,
-  "collected_at_utc": "2026-11-12T05:49:58.124714+00:00",
+  "collected_at_utc": "2026-11-12T09:41:21.584862+00:00",
   "institution_id": "ati-schedule-i-atlantic-canada-opportunities-agency",
   "gc_orgID": "2244.0",
   "open_canada_org_id": "C3DDAD27-EFA9-41AB-9D12-12856482C0A8",
@@ -9,7 +9,7 @@
   "name_en": "Atlantic Canada Opportunities Agency",
   "name_fr": "Agence de promotion économique du Canada atlantique",
   "registry_membership": "current_registry",
-  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
+  "source_index_sha256": "c9fe96f0729e10f9578ff679d24fa59da5bdf4448dfd5c56b56ca0cb685bec3f",
   "list_pages": {
     "en": {
       "indexed_url": "https://www.canada.ca/en/atlantic-canada-opportunities/corporate/transparency.html",
@@ -180,7 +180,7 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [
           {
             "id": "ACOA PPU 112",
@@ -313,9 +313,9 @@
           "text_sha256": "4ff9c1f36b15b567068b70ff8eed0d7fb8065ccc2dc1fae2cec934a6296e4717",
           "word_count": 5709,
           "pib_ids": [
-            "ACOA PPU 005",
             "ACOA PPU 111",
             "CRA PPU 150",
+            "ECBC PPU 005",
             "PSE 901",
             "PSE 902",
             "PSE 903",
@@ -416,9 +416,9 @@
           "text_sha256": "2be57a2c5241451fb2bed319b782564139d8649ba3c3bb614251f768ea4f5b18",
           "word_count": 6691,
           "pib_ids": [
-            "ACOA PPU 005",
             "ACOA PPU 111",
             "CRA PPU 150",
+            "ECBC PPU 005",
             "PSE 901",
             "PSE 902",
             "PSE 903",
@@ -470,30 +470,8 @@
         }
       },
       "references": {
-        "extraction_version": 1,
+        "extraction_version": 2,
         "pibs": [
-          {
-            "id": "ACOA PPU 005",
-            "matched_records": [],
-            "evidence": [
-              {
-                "language": "en",
-                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
-                "line": 143,
-                "mention": "ACOA PPU 005",
-                "method": "explicit_pib_id",
-                "excerpt": "| - Grants and Contributions | ACOA PPU 005 | 007070 |"
-              },
-              {
-                "language": "fr",
-                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
-                "line": 143,
-                "mention": "APECA PPU 005",
-                "method": "explicit_pib_id",
-                "excerpt": "| - Subventions et contributions | APECA PPU 005 | 007070 |"
-              }
-            ]
-          },
           {
             "id": "ACOA PPU 111",
             "matched_records": [
@@ -541,6 +519,34 @@
                 "mention": "ARC PPU 150",
                 "method": "explicit_pib_id",
                 "excerpt": "Usages compatibles: Une liste des pairs examinateurs est tenue à jour aux fins de rappel. Les renseignements peuvent être communiqués à l’Agence du revenu du Canada (ARC); voir la Banque de données des déclarations de renseignements (Infodec) ARC PPU 150. Les renseignements peuvent également être utilisés aux fins d’évaluation ou de présentation de rapports à l’intention de la haute direction."
+              }
+            ]
+          },
+          {
+            "id": "ECBC PPU 005",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-atlantic-canada-opportunities-agency",
+                "record_id": "ECBC PPU 005"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 143,
+                "mention": "ACOA PPU 005",
+                "method": "explicit_pib_id",
+                "excerpt": "| - Grants and Contributions | ACOA PPU 005 | 007070 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 143,
+                "mention": "APECA PPU 005",
+                "method": "explicit_pib_id",
+                "excerpt": "| - Subventions et contributions | APECA PPU 005 | 007070 |"
               }
             ]
           },
@@ -1846,9 +1852,9 @@
         "classes_of_records": []
       },
       "pib_ids": [
-        "ACOA PPU 005",
         "ACOA PPU 111",
         "CRA PPU 150",
+        "ECBC PPU 005",
         "PSE 901",
         "PSE 902",
         "PSE 903",
