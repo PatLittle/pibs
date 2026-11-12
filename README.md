@@ -17,6 +17,8 @@ flowchart LR
     D[TBS standard PIBs, classes<br/>and category vocabulary] --> X[Normalize and join<br/>bilingual holdings]
     I --> S[Raw snapshots, converted Markdown<br/>and source manifests]
     S --> X
+    S --> P[PIA list discovery<br/>from intermediate artifacts]
+    P --> PL[Bilingual PIA index<br/>and HTTP/evidence checks]
     X --> H[Compiled PIB, class<br/>and PIB-to-class tables]
     H --> W[Static PIBS explorer<br/>GitHub Pages]
     H --> F[My Info features, evidence,<br/>questionnaire and retention rules]
@@ -56,6 +58,10 @@ flowchart LR
    `institutions_infosource_docs/` and copies them to `site/data/`. Separate
    TBS EN/FR scrapers produce the standard PIBs, standard classes, and 25-row
    personal-information category vocabulary.
+   The parallel [PIA list discovery stage](PIAs/README.md) parses these same
+   intermediate Markdown/HTML artifacts, joins organization IDs, and checks
+   bilingual summary-list URLs. `PIAs/index.csv` preserves source-link presence,
+   HTTP codes, and unresolved cases; individual assessments are a later stage.
 4. **Derive products and publish.** `build_my_info_features.py` combines
    institution and standard PIBs into one-row-per-PIB features, category
    assignments, record-level evidence, the bilingual questionnaire, and a

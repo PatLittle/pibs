@@ -1,0 +1,26 @@
+{
+  "generated_at_utc": "2026-11-12T00:33:15.025712+00:00",
+  "registry_sha256": "6d6417e87cdafaa92818de27ea1fec3a050b0c3f3aa75f3cbd2643d96aad4ea5",
+  "script_sha256": "36f536143b76b9a3165be0432686a4a58fb3f6bc0e4f5304ce6b13394329360e",
+  "organization_count": 149,
+  "summary": {
+    "en": {
+      "http_error": 6,
+      "list_detected": 27,
+      "needs_review": 2,
+      "no_artifact": 17,
+      "no_link_found": 97
+    },
+    "fr": {
+      "http_error": 6,
+      "list_detected": 26,
+      "needs_review": 4,
+      "no_artifact": 17,
+      "no_link_found": 96
+    }
+  },
+  "outputs_sha256": {
+    "index.csv": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+    "evidence.jsonl": "1e55e5a864e0a9a148f16e301102c5efb547b8c01f5fffb4fb66605d9965006f"
+  }
+}
