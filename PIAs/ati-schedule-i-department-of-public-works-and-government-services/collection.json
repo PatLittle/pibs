@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "collector_version": 1,
-  "collected_at_utc": "2026-11-12T01:50:35.800927+00:00",
+  "collector_version": 2,
+  "collected_at_utc": "2026-11-12T05:49:56.314404+00:00",
   "institution_id": "ati-schedule-i-department-of-public-works-and-government-services",
   "gc_orgID": "2236.0",
   "open_canada_org_id": "39C93B4D-4F69-4F43-A5B6-FFF89E8B0DF2",
@@ -9,7 +9,7 @@
   "name_en": "Department of Public Works and Government Services",
   "name_fr": "Ministère des Travaux publics et des Services gouvernementaux",
   "registry_membership": "current_registry",
-  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
   "list_pages": {
     "en": {
       "indexed_url": "https://www.canada.ca/en/public-services-procurement/corporate/transparency/access-information-privacy/consulting-privacy-impact-assessments.html",
@@ -133,7 +133,17 @@
           "title": "Human Resources and Pay Transformation Initiative – Dayforce, Definition Phase: Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "187de55a3e69fe5f199d6a749f77b4fec44be7dd7755efd8aa7dd667e6ba4af0",
-          "word_count": 404
+          "word_count": 404,
+          "pib_ids": [
+            "PSE 901",
+            "PSPC PPU 010",
+            "PWGSC PCE 705"
+          ],
+          "cor_ids": [
+            "PRN 920",
+            "PSPC HCM 460",
+            "PWGSC ABC 090"
+          ]
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/consulter-evaluations-facteurs-relatifs-vie-privee/2025-2026/transformation-ressources-humaines-paye-dayforce-phase-definition.html",
@@ -184,9 +194,211 @@
           "title": "Initiative de transformation des ressources humaines et de la paye – Dayforce, phase de définition : Sommaire de l’évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "3596c21c5b93af675d6f9d876c6da630363a50933b8f41f978836166818b869d",
-          "word_count": 549
+          "word_count": 549,
+          "pib_ids": [
+            "PSE 901",
+            "PSPC PPU 010",
+            "PWGSC PCE 705"
+          ],
+          "cor_ids": [
+            "PRN 920",
+            "PWGSC ABC 090",
+            "SPAC DGGCH 460"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSE 901",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 901"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1cdc907d4302_en.md",
+                "line": 46,
+                "mention": "PSE 901",
+                "method": "explicit_pib_id",
+                "excerpt": "Standard personal information bank: Employee personnel record, PSE 901"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1cdc907d4302_fr.md",
+                "line": 46,
+                "mention": "POE 901",
+                "method": "explicit_pib_id",
+                "excerpt": "Fichier de renseignements personnels ordinaires : Dossier personnel d’un employé, POE 901"
+              }
+            ]
+          },
+          {
+            "id": "PSPC PPU 010",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1cdc907d4302_en.md",
+                "line": 43,
+                "mention": "PSPC PPU 010",
+                "method": "explicit_pib_id",
+                "excerpt": "Personal information bank: Human resources and pay transformation, PSPC PPU 010"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1cdc907d4302_fr.md",
+                "line": 43,
+                "mention": "SPAC PPU 010",
+                "method": "explicit_pib_id",
+                "excerpt": "Fichier de renseignements personnels : Transformation des ressources humaines et de la paye, SPAC PPU 010"
+              }
+            ]
+          },
+          {
+            "id": "PWGSC PCE 705",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-public-works-and-government-services",
+                "record_id": "PWGSC PCE 705"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1cdc907d4302_en.md",
+                "line": 49,
+                "mention": "PWGSC PCE 705",
+                "method": "explicit_pib_id",
+                "excerpt": "Central personal information bank: Public service pay program, PWGSC PCE 705"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1cdc907d4302_fr.md",
+                "line": 49,
+                "mention": "TPSGC PCE 705",
+                "method": "explicit_pib_id",
+                "excerpt": "Fichier central de renseignements personnels : Programme de rémunération de la fonction publique – TPSGC PCE 705"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "PRN 920",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "920"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1cdc907d4302_en.md",
+                "line": 45,
+                "mention": "PRN 920",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "Standard class of records: Recruitment and staffing, PRN 920"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1cdc907d4302_fr.md",
+                "line": 45,
+                "mention": "NDP 920",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "Catégorie de documents ordinaires : Recrutement et dotation, NDP 920"
+              }
+            ]
+          },
+          {
+            "id": "PSPC HCM 460",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-public-works-and-government-services",
+                "record_id": "PSPC HCM 460"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1cdc907d4302_en.md",
+                "line": 42,
+                "mention": "PSPC HCM 460",
+                "method": "known_cor_id",
+                "excerpt": "Class of records: Human resources and pay transformation, PSPC HCM 460"
+              }
+            ]
+          },
+          {
+            "id": "PWGSC ABC 090",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-public-works-and-government-services",
+                "record_id": "PWGSC ABC 090"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1cdc907d4302_en.md",
+                "line": 48,
+                "mention": "PWGSC ABC 090",
+                "method": "known_cor_id",
+                "excerpt": "Class of records: Pay administration, PWGSC ABC 090"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1cdc907d4302_fr.md",
+                "line": 48,
+                "mention": "TPSGC CGBR 090",
+                "method": "known_cor_id",
+                "excerpt": "Catégorie de documents : Administration de la paye, TPSGC CGBR 090"
+              }
+            ]
+          },
+          {
+            "id": "SPAC DGGCH 460",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1cdc907d4302_fr.md",
+                "line": 42,
+                "mention": "SPAC DGGCH 460",
+                "method": "explicit_cor_context",
+                "excerpt": "Catégorie de documents : Transformation des ressources humaines et de la paye, SPAC DGGCH 460"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "PSE 901",
+        "PSPC PPU 010",
+        "PWGSC PCE 705"
+      ],
+      "pib_count": 3,
+      "cor_ids": [
+        "PRN 920",
+        "PSPC HCM 460",
+        "PWGSC ABC 090",
+        "SPAC DGGCH 460"
+      ],
+      "cor_count": 4,
+      "word_count_en": 404,
+      "word_count_fr": 549,
+      "word_count_language": "en",
+      "word_count": 404
     },
     {
       "pia_id": "pia-735d40b9fcbc",
@@ -250,7 +462,17 @@
           "title": "Human Capital Management Branch Curriculum Vitae Database Initiative: Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "8d3013befe33fd6f5c31613e6caf0dd6ac18928238ff28edb29cc5437c3ab120",
-          "word_count": 362
+          "word_count": 362,
+          "pib_ids": [
+            "PSE 902",
+            "PSU 911",
+            "PSU 915"
+          ],
+          "cor_ids": [
+            "PRN 919",
+            "PRN 920",
+            "PRN 941"
+          ]
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/consulter-evaluations-facteurs-relatifs-vie-privee/2025-2026/initiative-base-donnees-curriculum-vitae-gestion-capital-humain.html",
@@ -301,9 +523,226 @@
           "title": "Initiative de la base de données des curriculum vitæ de la Direction générale de la gestion du capital humain : Sommaire de l’évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "717c524bf6ad5a967055f3d4698feb0301cd9d153a33c24299ee69a3e08f342a",
-          "word_count": 542
+          "word_count": 542,
+          "pib_ids": [
+            "PSE 902",
+            "PSU 911",
+            "PSU 915"
+          ],
+          "cor_ids": [
+            "PRN 919",
+            "PRN 920",
+            "PRN 941"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSE 902",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 902"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-735d40b9fcbc_en.md",
+                "line": 46,
+                "mention": "PSE 902",
+                "method": "explicit_pib_id",
+                "excerpt": "Standard personal information bank: Staffing, PSE 902"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-735d40b9fcbc_fr.md",
+                "line": 46,
+                "mention": "POE 902",
+                "method": "explicit_pib_id",
+                "excerpt": "Fichier de renseignements personnels ordinaires : Dotation, POE 902"
+              }
+            ]
+          },
+          {
+            "id": "PSU 911",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 911"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-735d40b9fcbc_en.md",
+                "line": 43,
+                "mention": "PSU 911",
+                "method": "explicit_pib_id",
+                "excerpt": "Standard personal information bank: Application for employment, PSU 911"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-735d40b9fcbc_fr.md",
+                "line": 43,
+                "mention": "POU 911",
+                "method": "explicit_pib_id",
+                "excerpt": "Fichier de renseignements personnels ordinaires : Demande d’emploi, POU 911"
+              }
+            ]
+          },
+          {
+            "id": "PSU 915",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 915"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-735d40b9fcbc_en.md",
+                "line": 49,
+                "mention": "PSU 915",
+                "method": "explicit_pib_id",
+                "excerpt": "Standard personal information bank: Internal communications, PSU 915"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-735d40b9fcbc_fr.md",
+                "line": 49,
+                "mention": "POU 915",
+                "method": "explicit_pib_id",
+                "excerpt": "Fichier de renseignements personnels ordinaires : Communications internes, POU 915"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "PRN 919",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "919"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-735d40b9fcbc_en.md",
+                "line": 45,
+                "mention": "PRN 919",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "Standard classes of records: Classification of positions, PRN 919; and Recruitment and staffing, PRN 920"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-735d40b9fcbc_fr.md",
+                "line": 45,
+                "mention": "NDP 919",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "Catégories de documents ordinaires : Classification des postes, NDP 919; Recrutement et dotation, NDP 920"
+              }
+            ]
+          },
+          {
+            "id": "PRN 920",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "920"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-735d40b9fcbc_en.md",
+                "line": 42,
+                "mention": "PRN 920",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "Standard class of records: Recruitment and staffing, PRN 920"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-735d40b9fcbc_en.md",
+                "line": 45,
+                "mention": "PRN 920",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "Standard classes of records: Classification of positions, PRN 919; and Recruitment and staffing, PRN 920"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-735d40b9fcbc_fr.md",
+                "line": 42,
+                "mention": "NDP 920",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "Catégorie de documents ordinaires : Recrutement et dotation, NDP 920"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-735d40b9fcbc_fr.md",
+                "line": 45,
+                "mention": "NDP 920",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "Catégories de documents ordinaires : Classification des postes, NDP 919; Recrutement et dotation, NDP 920"
+              }
+            ]
+          },
+          {
+            "id": "PRN 941",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "941"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-735d40b9fcbc_en.md",
+                "line": 48,
+                "mention": "PRN 941",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "Standard class of records: Communications, PRN 941"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-735d40b9fcbc_fr.md",
+                "line": 48,
+                "mention": "NDP 941",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "Catégorie de documents ordinaires : Communications, NDP 941"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "PSE 902",
+        "PSU 911",
+        "PSU 915"
+      ],
+      "pib_count": 3,
+      "cor_ids": [
+        "PRN 919",
+        "PRN 920",
+        "PRN 941"
+      ],
+      "cor_count": 3,
+      "word_count_en": 362,
+      "word_count_fr": 542,
+      "word_count_language": "en",
+      "word_count": 362
     },
     {
       "pia_id": "pia-039f9255a924",
@@ -367,7 +806,11 @@
           "title": "GCSurplus: Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "082531dbcb419ea3e37e00d488e9e25465db33f43b560936cac2b7bfaa991a0a",
-          "word_count": 1296
+          "word_count": 1296,
+          "pib_ids": [
+            "PWGSC PPU 026"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/consulter-evaluations-facteurs-relatifs-vie-privee/2024-2025/gcsurplus-sommaire-evaluation-facteurs-privee.html",
@@ -418,9 +861,57 @@
           "title": "GCSurplus : Sommaire de l’évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "c06011cbf7750b70d9f5c7b2152f54f407ed4a9fd6f9a9f125e3188cfcd22b4d",
-          "word_count": 1613
+          "word_count": 1613,
+          "pib_ids": [
+            "PWGSC PPU 026"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PWGSC PPU 026",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-public-works-and-government-services",
+                "record_id": "PWGSC PPU 026"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-039f9255a924_en.md",
+                "line": 60,
+                "mention": "PWGSC PPU 026",
+                "method": "explicit_pib_id",
+                "excerpt": "Institution-specific Personal Information Bank PWGSC PPU 026 Buyer Information: Crown Assets"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-039f9255a924_fr.md",
+                "line": 60,
+                "mention": "TPSGC PPU 026",
+                "method": "explicit_pib_id",
+                "excerpt": "Fichier de renseignement personnel spécifique à l'institution TPSGC PPU 026 Renseignements sur les acheteurs – Biens de la Couronne"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "PWGSC PPU 026"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1296,
+      "word_count_fr": 1613,
+      "word_count_language": "en",
+      "word_count": 1296
     },
     {
       "pia_id": "pia-e8417a18f325",
@@ -484,7 +975,11 @@
           "title": "ALTO Learning Management System: Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "262d5697938ded39e63e61c4f9ea93fdf20e9421926476722faab62d7c0ad7bc",
-          "word_count": 1597
+          "word_count": 1597,
+          "pib_ids": [
+            "PSE 905"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/consulter-evaluations-facteurs-relatifs-vie-privee/2023-2024/sommaire-evaluation-facteurs-relatifs-vie-privee.html",
@@ -535,9 +1030,57 @@
           "title": "Solution de gestion de l'apprentissage ALTO : Sommaire de l’évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "7c8ee17c18af694c08178308ef8423a3ffaa9905a73c5e1701077691a7ea6971",
-          "word_count": 1870
+          "word_count": 1870,
+          "pib_ids": [
+            "PSE 905"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSE 905",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 905"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-e8417a18f325_en.md",
+                "line": 58,
+                "mention": "PSE 905",
+                "method": "explicit_pib_id",
+                "excerpt": "Standard personal information bank PSE 905 Training and Development"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-e8417a18f325_fr.md",
+                "line": 58,
+                "mention": "POE 905",
+                "method": "explicit_pib_id",
+                "excerpt": "Fichier de renseignements personnels ordinaire POE 905 Formation et perfectionnement"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "PSE 905"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1597,
+      "word_count_fr": 1870,
+      "word_count_language": "en",
+      "word_count": 1597
     },
     {
       "pia_id": "pia-d9900c11832f",
@@ -601,7 +1144,12 @@
           "title": "Electronic procurement solutions: Privacy impact assessment summary (Amended in fiscal year 2021 to 2022)",
           "conversion": "markdownify",
           "text_sha256": "4fed4172fdadfd42ab8a9f4426119ed2288ff313375964850d0e9bec4b1fd206",
-          "word_count": 1501
+          "word_count": 1501,
+          "pib_ids": [
+            "PSU 912",
+            "PWGSC PPU 071"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/consulter-evaluations-facteurs-relatifs-vie-privee/2020-2021/sommaire-solutions-achats-electroniques-modifiee-2021-2022.html",
@@ -652,9 +1200,87 @@
           "title": "Solutions d’achats électroniques : Sommaire de l’évaluation des facteurs relatifs à la vie privée (Modifiée durant l’année financière 2021 à 2022)",
           "conversion": "markdownify",
           "text_sha256": "3031dba65b0465c3a813a00101f5ed9bf475b87c52b1c3c882d6004b331bb8f7",
-          "word_count": 1855
+          "word_count": 1855,
+          "pib_ids": [
+            "PSU 912",
+            "PWGSC PPU 071"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSU 912",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 912"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-d9900c11832f_en.md",
+                "line": 64,
+                "mention": "PSU 912",
+                "method": "explicit_pib_id",
+                "excerpt": "- Professional Services Contracts—PSU 912"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-d9900c11832f_fr.md",
+                "line": 64,
+                "mention": "POU 912",
+                "method": "explicit_pib_id",
+                "excerpt": "- Marchés de services professionnels – POU 912"
+              }
+            ]
+          },
+          {
+            "id": "PWGSC PPU 071",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-public-works-and-government-services",
+                "record_id": "PWGSC PPU 071"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-d9900c11832f_en.md",
+                "line": 65,
+                "mention": "PPU 071",
+                "method": "explicit_pib_id",
+                "excerpt": "- Procurement Services—Public Works and Government Services Canada PPU 071"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-d9900c11832f_fr.md",
+                "line": 65,
+                "mention": "PPU 071",
+                "method": "explicit_pib_id",
+                "excerpt": "- Services d’approvisionnement – Travaux publics et Services gouvernementaux Canada PPU 071"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "PSU 912",
+        "PWGSC PPU 071"
+      ],
+      "pib_count": 2,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1501,
+      "word_count_fr": 1855,
+      "word_count_language": "en",
+      "word_count": 1501
     },
     {
       "pia_id": "pia-1768db283a0a",
@@ -718,7 +1344,27 @@
           "title": "My Government of Canada Human Resources: Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "3e55a3da94376879169ae979bf879d153c2b39a7eb204a23d19a72f47da3b57d",
-          "word_count": 3114
+          "word_count": 3114,
+          "pib_ids": [
+            "PSE 901",
+            "PSE 903",
+            "PSE 904",
+            "PSE 906",
+            "PSE 918",
+            "PSU 911",
+            "PWGSC PCU 702"
+          ],
+          "cor_ids": [
+            "PRN 919",
+            "PRN 920",
+            "PRN 941",
+            "PRN 942",
+            "PRN 949",
+            "PWGSC ABC 075",
+            "PWGSC ABC 140",
+            "PWGSC ABC 271",
+            "PWGSC ISB 110"
+          ]
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/consulter-evaluations-facteurs-relatifs-vie-privee/2018-2019/sommaire-mes-ressources-humaines-gouvernement-canada.html",
@@ -769,9 +1415,510 @@
           "title": "Mes Ressources humaines du gouvernement du Canada : Sommaire de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "5076777bdf6c5975357560888ab2b2681720bd79edbc07bcb75bd77841a412b0",
-          "word_count": 3933
+          "word_count": 3933,
+          "pib_ids": [
+            "PSE 901",
+            "PSE 903",
+            "PSE 904",
+            "PSE 906",
+            "PSE 918",
+            "PSU 911",
+            "PWGSC PCU 702"
+          ],
+          "cor_ids": [
+            "PRN 919",
+            "PRN 920",
+            "PRN 941",
+            "PRN 942",
+            "PRN 949",
+            "PWGSC ABC 075",
+            "PWGSC ABC 140",
+            "PWGSC ABC 271",
+            "PWGSC ISB 110"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSE 901",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 901"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1768db283a0a_en.md",
+                "line": 76,
+                "mention": "PSE 901",
+                "method": "explicit_pib_id",
+                "excerpt": "- Employee personnel record (PSE 901)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1768db283a0a_fr.md",
+                "line": 76,
+                "mention": "POE 901",
+                "method": "explicit_pib_id",
+                "excerpt": "- Dossier personnel d'un employé (POE 901)"
+              }
+            ]
+          },
+          {
+            "id": "PSE 903",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 903"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1768db283a0a_en.md",
+                "line": 80,
+                "mention": "PSE 903",
+                "method": "explicit_pib_id",
+                "excerpt": "- Attendance and leave (PSE 903)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1768db283a0a_fr.md",
+                "line": 80,
+                "mention": "POE 903",
+                "method": "explicit_pib_id",
+                "excerpt": "- Présences et congés (POE 903)"
+              }
+            ]
+          },
+          {
+            "id": "PSE 904",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 904"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1768db283a0a_en.md",
+                "line": 78,
+                "mention": "PSE 904",
+                "method": "explicit_pib_id",
+                "excerpt": "- Pay and benefits (PSE 904)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1768db283a0a_fr.md",
+                "line": 78,
+                "mention": "POE 904",
+                "method": "explicit_pib_id",
+                "excerpt": "- Rémunération et avantages (POE 904)"
+              }
+            ]
+          },
+          {
+            "id": "PSE 906",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 906"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1768db283a0a_en.md",
+                "line": 81,
+                "mention": "PSE 906",
+                "method": "explicit_pib_id",
+                "excerpt": "- Official languages (PSE 906)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1768db283a0a_fr.md",
+                "line": 81,
+                "mention": "POE 906",
+                "method": "explicit_pib_id",
+                "excerpt": "- Langues officielles (POE 906)"
+              }
+            ]
+          },
+          {
+            "id": "PSE 918",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 918"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1768db283a0a_en.md",
+                "line": 79,
+                "mention": "PSE 918",
+                "method": "explicit_pib_id",
+                "excerpt": "- Employment equity and diversity (PSE 918)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1768db283a0a_fr.md",
+                "line": 79,
+                "mention": "POE 918",
+                "method": "explicit_pib_id",
+                "excerpt": "- Équité en emploi et diversité (POE 918)"
+              }
+            ]
+          },
+          {
+            "id": "PSU 911",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 911"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1768db283a0a_en.md",
+                "line": 77,
+                "mention": "PSU 911",
+                "method": "explicit_pib_id",
+                "excerpt": "- Applications for employment (PSU 911)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1768db283a0a_fr.md",
+                "line": 77,
+                "mention": "POU 911",
+                "method": "explicit_pib_id",
+                "excerpt": "- Demandes d'emploi (POU 911)"
+              }
+            ]
+          },
+          {
+            "id": "PWGSC PCU 702",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-public-works-and-government-services",
+                "record_id": "PWGSC PCU 702"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1768db283a0a_en.md",
+                "line": 87,
+                "mention": "PWGSC PCU 702",
+                "method": "explicit_pib_id",
+                "excerpt": "- Pension administration (PWGSC PCU 702)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1768db283a0a_fr.md",
+                "line": 87,
+                "mention": "TPSGC PCU 702",
+                "method": "explicit_pib_id",
+                "excerpt": "- Administration des pensions (TPSGC PCU 702)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "PRN 919",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "919"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1768db283a0a_en.md",
+                "line": 55,
+                "mention": "PRN] 919",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "- Classification of Positions (program record number [PRN] 919)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1768db283a0a_fr.md",
+                "line": 55,
+                "mention": "NDP] 919",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "- Classification des postes (numéro de programme [NDP] 919)"
+              }
+            ]
+          },
+          {
+            "id": "PRN 920",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "920"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1768db283a0a_en.md",
+                "line": 56,
+                "mention": "PRN 920",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "- Recruitment and Staffing (PRN 920)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1768db283a0a_fr.md",
+                "line": 56,
+                "mention": "NDP 920",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "- Recrutement et dotation (NDP 920)"
+              }
+            ]
+          },
+          {
+            "id": "PRN 941",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "941"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1768db283a0a_en.md",
+                "line": 58,
+                "mention": "PRN 941",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "- Compensation and Benefits (PRN 941)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1768db283a0a_fr.md",
+                "line": 58,
+                "mention": "NDP 941",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "- Rémunération et avantages sociaux (NDP 941)"
+              }
+            ]
+          },
+          {
+            "id": "PRN 942",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "942"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1768db283a0a_en.md",
+                "line": 59,
+                "mention": "PRN 942",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "- Employment Equity and Diversity (PRN 942)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1768db283a0a_fr.md",
+                "line": 59,
+                "mention": "NDP 942",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "- Équité en matière d'emploi et diversité (NDP 942)"
+              }
+            ]
+          },
+          {
+            "id": "PRN 949",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "949"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1768db283a0a_en.md",
+                "line": 57,
+                "mention": "PRN 949",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "- Human Resources Planning (PRN 949)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1768db283a0a_fr.md",
+                "line": 57,
+                "mention": "NDP 949",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "- Planification des ressources humaines (NDP 949)"
+              }
+            ]
+          },
+          {
+            "id": "PWGSC ABC 075",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-public-works-and-government-services",
+                "record_id": "PWGSC ABC 075"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1768db283a0a_en.md",
+                "line": 62,
+                "mention": "PWGSC ABC 075",
+                "method": "known_cor_id",
+                "excerpt": "- Pension Administration (PWGSC ABC 075)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1768db283a0a_fr.md",
+                "line": 62,
+                "mention": "TPSGC CGBR 075",
+                "method": "known_cor_id",
+                "excerpt": "- Administration des pensions fédérales (TPSGC CGBR 075)"
+              }
+            ]
+          },
+          {
+            "id": "PWGSC ABC 140",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-public-works-and-government-services",
+                "record_id": "PWGSC ABC 140"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1768db283a0a_en.md",
+                "line": 61,
+                "mention": "PWGSC ABC 140",
+                "method": "known_cor_id",
+                "excerpt": "- Public Money and Banking (PWGSC ABC 140)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1768db283a0a_fr.md",
+                "line": 61,
+                "mention": "TPSGC CGBR 140",
+                "method": "known_cor_id",
+                "excerpt": "- Fonds publics et gestion bancaire (TPSGC CGBR 140)"
+              }
+            ]
+          },
+          {
+            "id": "PWGSC ABC 271",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-public-works-and-government-services",
+                "record_id": "PWGSC ABC 271"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1768db283a0a_en.md",
+                "line": 88,
+                "mention": "PWGSC ABC 271",
+                "method": "known_cor_id",
+                "excerpt": "- Central index (PWGSC ABC 271)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1768db283a0a_fr.md",
+                "line": 88,
+                "mention": "TPSGC CGBR 271",
+                "method": "known_cor_id",
+                "excerpt": "- Fichier central (TPSGC CGBR 271)"
+              }
+            ]
+          },
+          {
+            "id": "PWGSC ISB 110",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-public-works-and-government-services",
+                "record_id": "PWGSC ISB 110"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1768db283a0a_en.md",
+                "line": 64,
+                "mention": "PWGSC ISB 110",
+                "method": "known_cor_id",
+                "excerpt": "- Shared services integration (PWGSC ISB 110)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-1768db283a0a_fr.md",
+                "line": 64,
+                "mention": "TPSGC DGSI 110",
+                "method": "known_cor_id",
+                "excerpt": "- Intégration des services partagés (TPSGC DGSI 110)"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "PSE 901",
+        "PSE 903",
+        "PSE 904",
+        "PSE 906",
+        "PSE 918",
+        "PSU 911",
+        "PWGSC PCU 702"
+      ],
+      "pib_count": 7,
+      "cor_ids": [
+        "PRN 919",
+        "PRN 920",
+        "PRN 941",
+        "PRN 942",
+        "PRN 949",
+        "PWGSC ABC 075",
+        "PWGSC ABC 140",
+        "PWGSC ABC 271",
+        "PWGSC ISB 110"
+      ],
+      "cor_count": 9,
+      "word_count_en": 3114,
+      "word_count_fr": 3933,
+      "word_count_language": "en",
+      "word_count": 3114
     },
     {
       "pia_id": "pia-4b8e1a911b5e",
@@ -835,7 +1982,16 @@
           "title": "Pay and benefits: Phoenix pay system privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "05c770ef7026de8a787861f140bdbb7b466bc18bdf42e59d89dc663d29d0aa98",
-          "word_count": 4504
+          "word_count": 4504,
+          "pib_ids": [
+            "PSE 901",
+            "PSE 904",
+            "PSPC PCU 705",
+            "PSPC PCU 715"
+          ],
+          "cor_ids": [
+            "PSPC ABC 090"
+          ]
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/consulter-evaluations-facteurs-relatifs-vie-privee/2017-2018/sommaire-paye-avantage-sociaux-systeme-paye-phenix.html",
@@ -886,9 +2042,181 @@
           "title": "Paye et avantages sociaux : Système de paye Phénix – Sommaire de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "a6e0e1f30fafeca04113300add8a9b4c030cb79ee0e94b27484a7e87b0f1e793",
-          "word_count": 5776
+          "word_count": 5776,
+          "pib_ids": [
+            "PSE 901",
+            "PSE 904",
+            "PSPC PCU 705",
+            "PSPC PCU 715"
+          ],
+          "cor_ids": [
+            "PWGSC ABC 090"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSE 901",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 901"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-4b8e1a911b5e_en.md",
+                "line": 134,
+                "mention": "PSE 901",
+                "method": "explicit_pib_id",
+                "excerpt": "| Employee Personnel Record PSE 901 | (applies) |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-4b8e1a911b5e_fr.md",
+                "line": 134,
+                "mention": "POE 901",
+                "method": "explicit_pib_id",
+                "excerpt": "| Dossier personnel d'un employé POE 901 | (s'applique) |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 904",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 904"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-4b8e1a911b5e_en.md",
+                "line": 133,
+                "mention": "PSE 904",
+                "method": "explicit_pib_id",
+                "excerpt": "| Pay and Benefits PSE 904 | (applies) |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-4b8e1a911b5e_fr.md",
+                "line": 133,
+                "mention": "POE 904",
+                "method": "explicit_pib_id",
+                "excerpt": "| Rémunération et avantages POE 904 | (s'applique) |"
+              }
+            ]
+          },
+          {
+            "id": "PSPC PCU 705",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-4b8e1a911b5e_en.md",
+                "line": 128,
+                "mention": "PWGSC PCU 705",
+                "method": "explicit_pib_id",
+                "excerpt": "| Public service compensation systems (PWGSC PCU 705, # 001375) | (applies) |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-4b8e1a911b5e_fr.md",
+                "line": 128,
+                "mention": "TPSGC PCU 705",
+                "method": "explicit_pib_id",
+                "excerpt": "| Systèmes de rémunération de la fonction publique (TPSGC PCU 705, no 001375) | (s'applique) |"
+              }
+            ]
+          },
+          {
+            "id": "PSPC PCU 715",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-public-works-and-government-services",
+                "record_id": "PSPC PCU 715"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-4b8e1a911b5e_en.md",
+                "line": 129,
+                "mention": "PWGSC PCU 715",
+                "method": "explicit_pib_id",
+                "excerpt": "| Central Index (PWGSC PCU 715) | (applies) |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-4b8e1a911b5e_fr.md",
+                "line": 129,
+                "mention": "TPSGC PCU 715",
+                "method": "explicit_pib_id",
+                "excerpt": "| Fichier central (TPSGC PCU 715) | (s'applique) |"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "PSPC ABC 090",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-4b8e1a911b5e_en.md",
+                "line": 109,
+                "mention": "PSPC ABC 090",
+                "method": "explicit_cor_context",
+                "excerpt": "#### Pay administration (Class of record #: PSPC ABC 090)"
+              }
+            ]
+          },
+          {
+            "id": "PWGSC ABC 090",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-public-works-and-government-services",
+                "record_id": "PWGSC ABC 090"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-4b8e1a911b5e_fr.md",
+                "line": 109,
+                "mention": "TPSGC CGBR 090",
+                "method": "known_cor_id",
+                "excerpt": "#### Produits de l'administration de la paye (catégories de documents no : TPSGC CGBR 090)"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "PSE 901",
+        "PSE 904",
+        "PSPC PCU 705",
+        "PSPC PCU 715"
+      ],
+      "pib_count": 4,
+      "cor_ids": [
+        "PSPC ABC 090",
+        "PWGSC ABC 090"
+      ],
+      "cor_count": 2,
+      "word_count_en": 4504,
+      "word_count_fr": 5776,
+      "word_count_language": "en",
+      "word_count": 4504
     },
     {
       "pia_id": "pia-b60329ebbfc5",
@@ -952,7 +2280,14 @@
           "title": "Certification program for the federal government procurement and materiel management communities: Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "ee21c04a44ce2d132c07debf366731ddf094e8ee54bc440a7d5d1abf6159ce72",
-          "word_count": 2602
+          "word_count": 2602,
+          "pib_ids": [
+            "PWGSC PCU 195",
+            "TBS PCE 755"
+          ],
+          "cor_ids": [
+            "TBS PM 243"
+          ]
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/consulter-evaluations-facteurs-relatifs-vie-privee/2015-2016/resume-programme-certification-collectivites-acquisitions-gestion-materiel-gouvernement-federal.html",
@@ -1003,9 +2338,136 @@
           "title": "Programme de certification des collectivités des acquisitions et de la gestion du matériel du gouvernement fédéral : Résumé de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "a214e1401b17ee32a5677987d2173091c176aef2de5cd7a3f4e7026e8c032f92",
-          "word_count": 3300
+          "word_count": 3300,
+          "pib_ids": [
+            "PWGSC PCU 195",
+            "TBS PCE 755"
+          ],
+          "cor_ids": [
+            "TBS PM 243"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PWGSC PCU 195",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-public-works-and-government-services",
+                "record_id": "PWGSC PCU 195"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-b60329ebbfc5_en.md",
+                "line": 140,
+                "mention": "PWGSC PCU 195",
+                "method": "explicit_pib_id",
+                "excerpt": "The information may be used for candidate evaluation, establishing and maintaining an inventory of certified federal specialists, reporting progress and results to senior management and/or for statistical purposes. Personal information is shared with Public Works and Government Services Canada as the certifying body for the federal government certification program for procurement and materiel management communities (refer to personal information bank PWGSC PCU 195—Certification program for federal government procurement and materiel management). Candidates' personal information is also shared "
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-b60329ebbfc5_fr.md",
+                "line": 140,
+                "mention": "TPSGC PCU 195",
+                "method": "explicit_pib_id",
+                "excerpt": "L'information peut être utilisée à des fins d'évaluation des candidats, pour établir et tenir à jour un répertoire de spécialistes fédéraux certifiés, communiquer les progrès et les résultats à la haute direction et/ou aux fins de statistiques. Les renseignements personnels sont communiqués à Travaux publics et Services gouvernementaux Canada à titre d'organisme de certification pour le Programme de certification des collectivités des acquisitions et de la gestion du matériel (voir TPSGC PCU 195 – Fichier de renseignements pour le Programme de certification des collectivités des acquisitions e"
+              }
+            ]
+          },
+          {
+            "id": "TBS PCE 755",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-treasury-board-secretariat",
+                "record_id": "TBS PCE 755"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-b60329ebbfc5_en.md",
+                "line": 148,
+                "mention": "TBS PCE 755",
+                "method": "explicit_pib_id",
+                "excerpt": "- Bank number: TBS PCE 755"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-b60329ebbfc5_fr.md",
+                "line": 148,
+                "mention": "SCT PCE 755",
+                "method": "explicit_pib_id",
+                "excerpt": "- Numéro du fichier : SCT PCE 755"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "TBS PM 243",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-treasury-board-secretariat",
+                "record_id": "TBS PM 243"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-b60329ebbfc5_en.md",
+                "line": 108,
+                "mention": "TBS PM 243",
+                "method": "known_cor_id",
+                "excerpt": "TBS PM 243"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-b60329ebbfc5_en.md",
+                "line": 147,
+                "mention": "TBS PM 243",
+                "method": "known_cor_id",
+                "excerpt": "- Related record number: TBS PM 243"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-b60329ebbfc5_fr.md",
+                "line": 108,
+                "mention": "SCT RH 243",
+                "method": "known_cor_id",
+                "excerpt": "SCT RH 243"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-b60329ebbfc5_fr.md",
+                "line": 147,
+                "mention": "SCT RH 243",
+                "method": "known_cor_id",
+                "excerpt": "- Lien à un numéro de programme : SCT RH 243"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "PWGSC PCU 195",
+        "TBS PCE 755"
+      ],
+      "pib_count": 2,
+      "cor_ids": [
+        "TBS PM 243"
+      ],
+      "cor_count": 1,
+      "word_count_en": 2602,
+      "word_count_fr": 3300,
+      "word_count_language": "en",
+      "word_count": 2602
     },
     {
       "pia_id": "pia-d00866c68c8a",
@@ -1069,7 +2531,9 @@
           "title": "Integrity database services: Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "83e2e9bfa343cbf0e37e615d4625170544b9bdf823e9e5a4282516d561a29a4b",
-          "word_count": 3667
+          "word_count": 3667,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/consulter-evaluations-facteurs-relatifs-vie-privee/2015-2016/resume-programmes-services-integrite.html",
@@ -1120,9 +2584,24 @@
           "title": "Programmes et services d'intégrité : Résumé de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "a21620b4360b3f2e16ef04e7e7ea2fb46a137af4c916a4a7e33fddf5076cace7",
-          "word_count": 4413
+          "word_count": 4413,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 3667,
+      "word_count_fr": 4413,
+      "word_count_language": "en",
+      "word_count": 3667
     },
     {
       "pia_id": "pia-107ed8088e48",
@@ -1186,7 +2665,16 @@
           "title": "Controlled Goods Program's Enhanced security strategy: Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "f3cf50669a532e0dd680549b2b4658999f9a7800bdf7a31636772fa6f87eefba",
-          "word_count": 4771
+          "word_count": 4771,
+          "pib_ids": [
+            "CBSA PPU 016",
+            "DND PPE 835",
+            "PWGSC PPU 045",
+            "RCMP PPU 005"
+          ],
+          "cor_ids": [
+            "PWGSC CISSB 455"
+          ]
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/consulter-evaluations-facteurs-relatifs-vie-privee/2012-2013/resume-strategie-renforcement-securite-direction-marchandises-controlees.html",
@@ -1237,9 +2725,204 @@
           "title": "Stratégie de renforcement de la sécurité de la Direction des marchandises contrôlées : Résumé de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "88e13f358741ec9f4bb58e03d8fe679b727b5eb7d65da586285a2ef5d1382102",
-          "word_count": 5788
+          "word_count": 5788,
+          "pib_ids": [
+            "DND PPE 835",
+            "PPU 016",
+            "PWGSC PPU 045",
+            "RCMP PPU 005"
+          ],
+          "cor_ids": [
+            "TPSGC DGCISP 455"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "CBSA PPU 016",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-canada-border-services-agency",
+                "record_id": "CBSA PPU 016"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-107ed8088e48_en.md",
+                "line": 82,
+                "mention": "CBSA PPU 016",
+                "method": "explicit_pib_id",
+                "excerpt": "For the purpose of validating and assessing the risk of illegal transfers of importers and exporters and to validate the risk of illegal transfer of controlled goods by foreign visitors and temporary workers, data may be exchanged with Canada Border Services Agency (CBSA) PIB CBSA PPU 016, Security Intelligence Analysis Division (SIAD) Reports are shared with the Canadian Security Intelligence Services in PIB Canadian Security Intelligence Service (CSIS) PPU 016."
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-107ed8088e48_en.md",
+                "line": 82,
+                "mention": "PPU 016",
+                "method": "explicit_pib_id",
+                "excerpt": "For the purpose of validating and assessing the risk of illegal transfers of importers and exporters and to validate the risk of illegal transfer of controlled goods by foreign visitors and temporary workers, data may be exchanged with Canada Border Services Agency (CBSA) PIB CBSA PPU 016, Security Intelligence Analysis Division (SIAD) Reports are shared with the Canadian Security Intelligence Services in PIB Canadian Security Intelligence Service (CSIS) PPU 016."
+              }
+            ]
+          },
+          {
+            "id": "DND PPE 835",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND PPE 835"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-107ed8088e48_en.md",
+                "line": 86,
+                "mention": "DND PPE 835",
+                "method": "explicit_pib_id",
+                "excerpt": "For the purpose of conducting investigations under the DPA, or any other offences against a Canadian law that requires this information, CGP may share with the RCMP PPU 005 or National Defence, DND PPE 835."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-107ed8088e48_fr.md",
+                "line": 86,
+                "mention": "MDN PPE 835",
+                "method": "explicit_pib_id",
+                "excerpt": "Pour les fins des enquêtes en vertu de la Loi sur la production de défense ou en cas d'infractions à une loi canadienne qui prévoit la communication de ces renseignements, le Programme des marchandises contrôlées peut échanger des renseignements avec les FRP GRC PPU 005 de la GRC ou MDN PPE 835 du MDN."
+              }
+            ]
+          },
+          {
+            "id": "PPU 016",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-107ed8088e48_fr.md",
+                "line": 82,
+                "mention": "PPU 016",
+                "method": "explicit_pib_id",
+                "excerpt": "Afin de valider et d'évaluer le risque de transferts illégaux par des importateurs et des exportateurs et de valider le risque de transfert illégal de marchandises contrôlées par des visiteurs étrangers et des travailleurs temporaires, des données peuvent être échangées avec la FRP Agence des services frontaliers du Canada (ASFC) PPU 016 de l'ASFC. Des rapports sont communiqués à la Division de l'analyse du renseignement de sécurité, dans la FRP Service canadien du renseignement de sécurité (SCRS) PPU 016 du SCRS."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-107ed8088e48_fr.md",
+                "line": 82,
+                "mention": "PPU 016",
+                "method": "explicit_pib_id",
+                "excerpt": "Afin de valider et d'évaluer le risque de transferts illégaux par des importateurs et des exportateurs et de valider le risque de transfert illégal de marchandises contrôlées par des visiteurs étrangers et des travailleurs temporaires, des données peuvent être échangées avec la FRP Agence des services frontaliers du Canada (ASFC) PPU 016 de l'ASFC. Des rapports sont communiqués à la Division de l'analyse du renseignement de sécurité, dans la FRP Service canadien du renseignement de sécurité (SCRS) PPU 016 du SCRS."
+              }
+            ]
+          },
+          {
+            "id": "PWGSC PPU 045",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-public-works-and-government-services",
+                "record_id": "PWGSC PPU 045"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-107ed8088e48_en.md",
+                "line": 96,
+                "mention": "PWGSC PPU 045",
+                "method": "explicit_pib_id",
+                "excerpt": "Bank Number: PWGSC PPU 045"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-107ed8088e48_fr.md",
+                "line": 96,
+                "mention": "TPSGC PPU 045",
+                "method": "explicit_pib_id",
+                "excerpt": "Numéro de fichier : TPSGC PPU 045"
+              }
+            ]
+          },
+          {
+            "id": "RCMP PPU 005",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-royal-canadian-mounted-police",
+                "record_id": "RCMP PPU 005"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-107ed8088e48_en.md",
+                "line": 86,
+                "mention": "RCMP PPU 005",
+                "method": "explicit_pib_id",
+                "excerpt": "For the purpose of conducting investigations under the DPA, or any other offences against a Canadian law that requires this information, CGP may share with the RCMP PPU 005 or National Defence, DND PPE 835."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-107ed8088e48_fr.md",
+                "line": 86,
+                "mention": "GRC PPU 005",
+                "method": "explicit_pib_id",
+                "excerpt": "Pour les fins des enquêtes en vertu de la Loi sur la production de défense ou en cas d'infractions à une loi canadienne qui prévoit la communication de ces renseignements, le Programme des marchandises contrôlées peut échanger des renseignements avec les FRP GRC PPU 005 de la GRC ou MDN PPE 835 du MDN."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "PWGSC CISSB 455",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-107ed8088e48_en.md",
+                "line": 55,
+                "mention": "PWGSC CISSB 455",
+                "method": "explicit_cor_context",
+                "excerpt": "Note: A new class of record is pending review and approval (PWGSC CISSB 455)."
+              }
+            ]
+          },
+          {
+            "id": "TPSGC DGCISP 455",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-107ed8088e48_fr.md",
+                "line": 55,
+                "mention": "TPSGC DGCISP 455",
+                "method": "explicit_cor_context",
+                "excerpt": "Nota : Une nouvelle catégorie de documents est en instance d'examen et d'approbation (TPSGC DGCISP 455)."
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "CBSA PPU 016",
+        "DND PPE 835",
+        "PPU 016",
+        "PWGSC PPU 045",
+        "RCMP PPU 005"
+      ],
+      "pib_count": 5,
+      "cor_ids": [
+        "PWGSC CISSB 455",
+        "TPSGC DGCISP 455"
+      ],
+      "cor_count": 2,
+      "word_count_en": 4771,
+      "word_count_fr": 5788,
+      "word_count_language": "en",
+      "word_count": 4771
     },
     {
       "pia_id": "pia-d82108dc2f57",
@@ -1302,7 +2985,9 @@
           "title": "Privacy impact assessment summary for the use of the Social Insurance Number as a file identifier for the Public Service, Canadian Forces and Royal Canadian Mounted Police pension plans . : BT43-26/2012E-PDF",
           "conversion": "markdownify",
           "text_sha256": "7791fc999715aeb7adeb12be539bd588278fc9d362e7e54866305219700643ee",
-          "word_count": 348
+          "word_count": 348,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://publications.gc.ca/site/fra/9.853222/publication.html",
@@ -1352,9 +3037,24 @@
           "title": "Privacy impact assessment summary for the use of the Social Insurance Number as a file identifier for the Public Service, Canadian Forces and Royal Canadian Mounted Police pension plans . : BT43-26/2012E-PDF",
           "conversion": "markdownify",
           "text_sha256": "a639f1280d55f363dcdf9f8d1f72c52722905f3e6555731b2c47ddc614aa4713",
-          "word_count": 358
+          "word_count": 358,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 348,
+      "word_count_fr": 358,
+      "word_count_language": "en",
+      "word_count": 348
     },
     {
       "pia_id": "pia-9b7292b2d526",
@@ -1418,7 +3118,9 @@
           "title": "Government of Canada Pension Modernization Project, release 1.5—Enhanced case management and imaging: Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "defec1a07b1a5d45e85500a2d4e26619e508658f69e8dced7f0c7d691b6234b8",
-          "word_count": 1644
+          "word_count": 1644,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/consulter-evaluations-facteurs-relatifs-vie-privee/2010-2011/resume-projet-modernisation-services-systemes-pension-gestion-cas-amelioree-imagerie.html",
@@ -1469,9 +3171,24 @@
           "title": "Projet de modernisation des services et des systèmes de pensions, version 1.5 – Gestion des cas améliorée et imagerie : Résumé de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "5159a683e296ebb46f8f7817cff3167934a3a9045c1d1371b5b373eff3d2c00c",
-          "word_count": 2178
+          "word_count": 2178,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1644,
+      "word_count_fr": 2178,
+      "word_count_language": "en",
+      "word_count": 1644
     },
     {
       "pia_id": "pia-d3d17bf1c6b6",
@@ -1535,7 +3252,9 @@
           "title": "Review of procurement practices and supplier complaints: Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "bbc77d5c6870fa7d181d73da216abfbf230e2872c4e78c66ed884f9dc603c7ed",
-          "word_count": 2956
+          "word_count": 2956,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/consulter-evaluations-facteurs-relatifs-vie-privee/2010-2011/resume-examen-pratiques-approvisionnement-plaintes-fournisseurs.html",
@@ -1586,9 +3305,24 @@
           "title": "Examen des pratiques d'approvisionnement et plaintes du fournisseur : Résumé de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "73cec2969d10289722df49c14f5f3a5a0a5f533ee2bdec70e80b2e37a062334e",
-          "word_count": 3522
+          "word_count": 3522,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 2956,
+      "word_count_fr": 3522,
+      "word_count_language": "en",
+      "word_count": 2956
     },
     {
       "pia_id": "pia-b1447ebc6313",
@@ -1652,7 +3386,15 @@
           "title": "Industrial Security Program—Release of personal security screening information: Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "d645ce41e8844598402d45572ea5bb2763f80c6a266f9a4870ab9cf31e2fb7b8",
-          "word_count": 2771
+          "word_count": 2771,
+          "pib_ids": [
+            "DND PPU 834",
+            "PSPC PCU 015",
+            "PSPC PCU 045",
+            "PSU 917",
+            "RCMP PCU 065"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/consulter-evaluations-facteurs-relatifs-vie-privee/2009-2010/resume-programme-securite-industrielle-transmission-information-enquetes-securite-personnel.html",
@@ -1703,9 +3445,198 @@
           "title": "Programme de la sécurité industrielle – Transmission d'information sur les enquêtes de sécurité du personnel : Résumé de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "31bb7db6c44b5e68a23adad3769ec141a8b0898a69398312b3183a2d3eb69b99",
-          "word_count": 3411
+          "word_count": 3411,
+          "pib_ids": [
+            "DND PPU 834",
+            "PSPC PCU 015",
+            "PSPC PCU 045",
+            "RCMP PCU 065"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DND PPU 834",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND PPU 834"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-b1447ebc6313_en.md",
+                "line": 51,
+                "mention": "DND PPU 834",
+                "method": "explicit_pib_id",
+                "excerpt": "- DND PIB PPU 834, Personnel Security Investigation File"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-b1447ebc6313_fr.md",
+                "line": 51,
+                "mention": "MDN PPU 834",
+                "method": "explicit_pib_id",
+                "excerpt": "- MDN FRP PPU 834, Dossier d'enquête sur la sécurité et vérification relative à la fiabilité;"
+              }
+            ]
+          },
+          {
+            "id": "PSPC PCU 015",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-b1447ebc6313_en.md",
+                "line": 39,
+                "mention": "PWGSC PCU 015",
+                "method": "explicit_pib_id",
+                "excerpt": "In October 2008, the directorate implemented a short-term solution that required consent forms from individuals, as well as attestation forms from authorized security officials (stating they would not misuse the information). While addressing this short-term solution, PWGSC PIB PCU 015 was identified as falling far short of what is required of a personal information bank."
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-b1447ebc6313_en.md",
+                "line": 49,
+                "mention": "PWGSC PCU 015",
+                "method": "explicit_pib_id",
+                "excerpt": "- PWGSC PIB PCU 015, Industry Personnel Clearance and Reliability Records"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-b1447ebc6313_en.md",
+                "line": 25,
+                "mention": "PCU 015",
+                "method": "explicit_pib_id",
+                "excerpt": "This Privacy impact assessment is in relation to a proposal to substantially modify personal information bank (PIB) Public Works and Government Services Canada (PWGSC) PCU 015. Among the changes to the personal information bank is a thorough description of the consistent uses of personal information collected by the Industrial Security Program of the Canadian Industrial Security Directorate. In addition to sharing personal information with the Royal Canadian Mounted Police (RCMP), Canadian Security Intelligence Service (CSIS) and credit bureaus in furtherance of determining a person's eligibil"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-b1447ebc6313_en.md",
+                "line": 41,
+                "mention": "PCU 015",
+                "method": "explicit_pib_id",
+                "excerpt": "In addition to better explaining the personal information collected and its consistent uses, the scope of this project is to eliminate the need for consent forms, while also revising PIB PCU 015 (referenced on all security forms) so that it succinctly and precisely spells out the personal information collected and how and why the directorate uses it."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-b1447ebc6313_fr.md",
+                "line": 49,
+                "mention": "TPSGC PCU 015",
+                "method": "explicit_pib_id",
+                "excerpt": "- TPSGC FRP PCU 015, Autorisations de sécurité et dossiers de fiabilité pour le personnel de l'industrie privée;"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-b1447ebc6313_fr.md",
+                "line": 25,
+                "mention": "PCU 015",
+                "method": "explicit_pib_id",
+                "excerpt": "La présente évaluation des facteurs relatifs à la vie privée découle d'une proposition visant à modifier considérablement le fichier de renseignements personnels (FRP) Travaux publics et Services gouvernementaux Canada (TPSGC) PCU 015. On désire entre autres ajouter au fichier de renseignements personnels la description complète des usages compatibles des renseignements personnels recueillis dans le cadre du Programme de la sécurité industrielle de la Direction de la sécurité industrielle canadienne. En plus de la transmission de renseignements personnels à la Gendarmerie royale du Canada (GRC"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-b1447ebc6313_fr.md",
+                "line": 39,
+                "mention": "PCU 015",
+                "method": "explicit_pib_id",
+                "excerpt": "En octobre 2008, la Direction de la sécurité industrielle canadienne a mis en œuvre une solution à court terme. Selon cette solution, les responsables de la sécurité doivent, pour avoir accès à de l'information sur un tiers, présenter des formulaires d'attestation (stipulant qu'ils utiliseront l'information à bon escient) ainsi que des formulaires de consentement signés par les tiers. Pendant l'examen de cette solution à court terme, on a établi que le FRP PCU 015 de Travaux publics et Services gouvernementaux Canada ne satisfait pas aux normes relatives aux fichiers de renseignements personne"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-b1447ebc6313_fr.md",
+                "line": 41,
+                "mention": "PCU 015",
+                "method": "explicit_pib_id",
+                "excerpt": "En plus de mieux expliquer les renseignements personnels recueillis et leurs usages compatibles, ce projet vise à éliminer la nécessité des formulaires de consentement et à modifier le FRP PCU 015 (mentionné dans tous les formulaires relatifs à la sécurité) afin qu'il indique de façon claire et concise les renseignements personnels recueillis ainsi que comment et pourquoi la direction les utilise."
+              }
+            ]
+          },
+          {
+            "id": "PSPC PCU 045",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-b1447ebc6313_en.md",
+                "line": 29,
+                "mention": "PWGSC PCU 045",
+                "method": "explicit_pib_id",
+                "excerpt": "Moreover, the revised personal information bank includes a reference to the sharing of personal information with the department's Controlled Goods Program, which is also referenced in their personal information bank, PWGSC PIB PCU 045."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-b1447ebc6313_fr.md",
+                "line": 29,
+                "mention": "TPSGC PCU 045",
+                "method": "explicit_pib_id",
+                "excerpt": "En outre, le fichier de renseignements personnels modifié comprend une référence à la transmission de renseignements personnels aux responsables du Programme des marchandises contrôlées. Le fichier de renseignements personnels du Programme des marchandises contrôlées, TPSGC PCU 045, contient la même référence."
+              }
+            ]
+          },
+          {
+            "id": "PSU 917",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 917"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-b1447ebc6313_en.md",
+                "line": 50,
+                "mention": "PSU 917",
+                "method": "explicit_pib_id",
+                "excerpt": "- TBS PIB PSU 917, Personnel Security Screening"
+              }
+            ]
+          },
+          {
+            "id": "RCMP PCU 065",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-b1447ebc6313_en.md",
+                "line": 52,
+                "mention": "RCMP PCU 065",
+                "method": "explicit_pib_id",
+                "excerpt": "- RCMP PIB PCU 065, Security/Reliability Screening Records"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-works-and-government-services/pia-b1447ebc6313_fr.md",
+                "line": 52,
+                "mention": "GRC PCU 065",
+                "method": "explicit_pib_id",
+                "excerpt": "- GRC FRP PCU 065, Dossiers de l'habilitation sécuritaire et relative à la fiabilité."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "DND PPU 834",
+        "PSPC PCU 015",
+        "PSPC PCU 045",
+        "PSU 917",
+        "RCMP PCU 065"
+      ],
+      "pib_count": 5,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 2771,
+      "word_count_fr": 3411,
+      "word_count_language": "en",
+      "word_count": 2771
     },
     {
       "pia_id": "pia-fc43a98dec6f",
@@ -1769,7 +3700,9 @@
           "title": "Receiver General Buy Button upgrade: Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "df0db4ac644d80ce09bd332bba20d0f8f6e80f7407e3fefc6386dfb4e3b128e4",
-          "word_count": 1070
+          "word_count": 1070,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/consulter-evaluations-facteurs-relatifs-vie-privee/2009-2010/resume-mise-a-niveau-bouton-achat-receveur-general.html",
@@ -1820,9 +3753,24 @@
           "title": "Mise à niveau du bouton d'achat du receveur général : Résumé de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "302abb90ca97df2ced85ec7383442f2afa9383a0bec42b28bde67bf47964cac7",
-          "word_count": 1387
+          "word_count": 1387,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1070,
+      "word_count_fr": 1387,
+      "word_count_language": "en",
+      "word_count": 1070
     },
     {
       "pia_id": "pia-ce8286162383",
@@ -1886,7 +3834,9 @@
           "title": "Government of Canada Pension Modernization Project, release 1.0: Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "b8d5a4d3f9e2270727670ca0ed4abf12f34406619a02cd89aa4c23125b3db031",
-          "word_count": 1575
+          "word_count": 1575,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/consulter-evaluations-facteurs-relatifs-vie-privee/2008-2009/resume-projet-modernisation-services-systemes-pension.html",
@@ -1937,9 +3887,24 @@
           "title": "Projet de modernisation des services et des systèmes de pensions, version 1.0 : Résumé de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "6175544369ba727178ef20c6af3e267f40deda3329bed43fc952de64823051f0",
-          "word_count": 2109
+          "word_count": 2109,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1575,
+      "word_count_fr": 2109,
+      "word_count_language": "en",
+      "word_count": 1575
     },
     {
       "pia_id": "pia-8a910de3451a",
@@ -2003,7 +3968,9 @@
           "title": "Publications web application: Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "3ff79b2386165a5fbdd7bad15944608af0bf11d334ce509b8a2bf84805cabfb1",
-          "word_count": 1977
+          "word_count": 1977,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/consulter-evaluations-facteurs-relatifs-vie-privee/2008-2009/resume-application-web-publications.html",
@@ -2054,9 +4021,24 @@
           "title": "Application Web des publications : Résumé de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "038e432db7e1072086a3212ca40ab02d69e117d6e7c0ddb25d524d9abe1fa17b",
-          "word_count": 2524
+          "word_count": 2524,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1977,
+      "word_count_fr": 2524,
+      "word_count_language": "en",
+      "word_count": 1977
     },
     {
       "pia_id": "pia-0acfedf3d196",
@@ -2120,7 +4102,9 @@
           "title": "Minister's and Deputy Minister's correspondence process: Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "f5346cddfa4c0d648291597a9f1b94a4d2caad1249ab7ee716420cb11f5fffb4",
-          "word_count": 2301
+          "word_count": 2301,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/consulter-evaluations-facteurs-relatifs-vie-privee/2007-2008/resume-processus-correspondance-ministerielle-sous-ministerielle.html",
@@ -2171,9 +4155,24 @@
           "title": "Processus de la correspondance ministérielle et sous-ministérielle : Résumé de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "24ef7ea00cdebe633ae8cf3b09b157916aaf47b31adec01c0cf857de6236c36f",
-          "word_count": 2794
+          "word_count": 2794,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 2301,
+      "word_count_fr": 2794,
+      "word_count_language": "en",
+      "word_count": 2301
     },
     {
       "pia_id": "pia-c59a1e64685f",
@@ -2237,7 +4236,9 @@
           "title": "Compensation Web Applications: Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "7a8b69cefb4ebdb90cd99978574daadc3a7cae247559ef59db3a54ed4738f8b6",
-          "word_count": 1367
+          "word_count": 1367,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/consulter-evaluations-facteurs-relatifs-vie-privee/2005-2006/resume-applications-web-renumeration.html",
@@ -2288,9 +4289,24 @@
           "title": "Applications Web de la rémunération : Résumé de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "7ebdd584f8242763e144de9354f8818884ecea91448e666f6be4649a193023e9",
-          "word_count": 1913
+          "word_count": 1913,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1367,
+      "word_count_fr": 1913,
+      "word_count_language": "en",
+      "word_count": 1367
     },
     {
       "pia_id": "pia-51487b7a0b2a",
@@ -2354,7 +4370,9 @@
           "title": "Foreign Banking Services: Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "d29ff07b88226a52b231e1335551a99a1e64fa8c89eaf5eacdf3e1c40296590e",
-          "word_count": 1330
+          "word_count": 1330,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/consulter-evaluations-facteurs-relatifs-vie-privee/2005-2006/resume-service-bancaire-etranger.html",
@@ -2405,9 +4423,24 @@
           "title": "Service bancaire à l'étranger : Résumé de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "d516485df79b69ce4be0e12edcce06eab6fa349aaf1fb7fb849e1bf6b503353c",
-          "word_count": 1578
+          "word_count": 1578,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1330,
+      "word_count_fr": 1578,
+      "word_count_language": "en",
+      "word_count": 1330
     },
     {
       "pia_id": "pia-bbe1c38b63ad",
@@ -2471,7 +4504,9 @@
           "title": "Integrated Information System: Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "510381d8a3ee6a5edcf52c0365cf10c4ecb4569d72a0a416221f1f174f9f3c0f",
-          "word_count": 1749
+          "word_count": 1749,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/consulter-evaluations-facteurs-relatifs-vie-privee/2005-2006/resume-systeme-information-integre.html",
@@ -2522,9 +4557,24 @@
           "title": "Système d'information intégré : Résumé de l'évaluation des facteurs reliés à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "b08dee5998405ca41554594e9969189b999b4f348a5606104f9c0f1cf3e9a291",
-          "word_count": 2203
+          "word_count": 2203,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1749,
+      "word_count_fr": 2203,
+      "word_count_language": "en",
+      "word_count": 1749
     },
     {
       "pia_id": "pia-ba4c171fc39b",
@@ -2588,7 +4638,9 @@
           "title": "Receiver General Buy Button: Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "de5c0e2da5b0a5e96daf48a1ae836e3c628666d0a12e10df379c845b86f5f30a",
-          "word_count": 2327
+          "word_count": 2327,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-publics-approvisionnement/organisation/transparence/acces-information-protection-renseignements-personnels/consulter-evaluations-facteurs-relatifs-vie-privee/2005-2006/resume-bouton-achat-receveur-general.html",
@@ -2639,9 +4691,24 @@
           "title": "Bouton d'achat du receveur général : Résumé de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "407046db1599f011b503a01f4dd631b83fc3d438d874124d046d4edddce8a751",
-          "word_count": 2977
+          "word_count": 2977,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 2327,
+      "word_count_fr": 2977,
+      "word_count_language": "en",
+      "word_count": 2327
     },
     {
       "pia_id": "pia-d08f99477e3e",
@@ -2704,7 +4771,9 @@
           "title": "Privacy impact assessment summary for the use of the Social Insurance Number as a file identifier for the Public Service, Canadian Forces and Royal Canadian Mounted Police pension plans . : BT43-26/2012E-PDF",
           "conversion": "markdownify",
           "text_sha256": "a639f1280d55f363dcdf9f8d1f72c52722905f3e6555731b2c47ddc614aa4713",
-          "word_count": 358
+          "word_count": 358,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "en": {
           "url": "https://publications.gc.ca/site/eng/9.853222/publication.html",
@@ -2754,9 +4823,24 @@
           "title": "Privacy impact assessment summary for the use of the Social Insurance Number as a file identifier for the Public Service, Canadian Forces and Royal Canadian Mounted Police pension plans . : BT43-26/2012E-PDF",
           "conversion": "markdownify",
           "text_sha256": "7791fc999715aeb7adeb12be539bd588278fc9d362e7e54866305219700643ee",
-          "word_count": 348
+          "word_count": 348,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 348,
+      "word_count_fr": 358,
+      "word_count_language": "en",
+      "word_count": 348
     }
   ],
   "summary": {

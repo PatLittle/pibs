@@ -1,0 +1,269 @@
+---
+title: "Programmes fiscaux des recouvrements - Sommaire d'évaluation des facteurs relatifs à la vie privée"
+institution_id: "ati-schedule-i-canada-revenue-agency"
+language: "fr"
+source_url: "https://www.canada.ca/fr/agence-revenu/services/a-propos-agence-revenu-canada-arc/protection-vos-renseignements-personnels/evaluation-facteurs-relatifs-a-vie-privee/programmes-fiscaux-des-recouvrements.html"
+retrieved_at_utc: "2026-11-12T05:49:12.368211+00:00"
+http_status: 200
+source_sha256: "b215dc4883b1b232759f2ea1f51cd7639d9aeb9e6a3d6d078035e3eb05d33cda"
+content_kind: "page"
+---
+
+# Programmes fiscaux des recouvrements - Sommaire d'évaluation des facteurs relatifs à la vie privée
+
+## Direction générale des recouvrements et de la vérification Direction des recouvrements
+
+## Aperçu et amorce d’une ÉFVP
+
+#### **Institution fédérale**
+
+Agence du revenu du Canada
+
+#### **Fonctionnaire responsable de l’ÉFVP**
+
+Michael Snaauw  
+Sous-commissaire, Direction générale des recouvrements et de la vérification
+
+#### **Responsable de l’institution fédérale ou délégué aux fins de l’article 10 de la Loi sur la protection des renseignements personnels**
+
+Marie-Claude Juneau  
+Coordonnatrice de l’AIPRP
+
+#### **Nom du programme ou de l’activité de l’institution fédérale**
+
+Recouvrements
+
+#### **Description de la catégorie de document et du fichier de renseignements personnels**
+
+Catégories de documents spécifiques à l’institution ou ordinaire :  
+Mesures de recouvrement  
+Numéro de document : ARC DGRV 190
+
+Description des FRP spécifiques à l’institution ou ordinaire :  
+Recouvrements  
+Numéro du fichier de renseignements personnels AR: ARC PPU 050
+
+#### **Autorisation légale pour le programme ou l’activité**
+
+L’article 2 de la [Loi sur l’Agence du revenu du Canada](http://laws-lois.justice.gc.ca/fra/lois/C-10.11/index.html "Loi sur l’Agence du revenu du Canada") (Loi sur l’ARC) définit la législation fiscale comme étant Tout ou partie d’une autre loi fédérale ou de ses textes d’application, dont le ministre, l’Agence, le commissaire ou un employé de l’Agence est autorisé par le Parlement ou le gouverneur en conseil à assurer ou contrôler l’application. Cette disposition nomme explicitement la [Loi sur le droit pour la sécurité des passagers du transport aérien](https://www.canlii.org/fr/ca/legis/lois/lc-2002-c-9-art-5/derniere/lc-2002-c-9-art-5.html "Loi sur le droit pour la sécurité des passagers du transport aérien") (LDSPTA), la [Loi sur les douanes](https://www.canlii.org/fr/ca/legis/lois/lrc-1985-c-1-2e-suppl/derniere/lrc-1985-c-1-2e-suppl.html "Loi sur les douanes") (LD), la [Loi sur l’accise](https://www.canlii.org/fr/ca/legis/lois/lrc-1985-c-e-14/derniere/lrc-1985-c-e-14.html "Loi sur l’accise") (LA), la [Loi de 2001 sur l’accise](https://www.canlii.org/fr/ca/legis/lois/lc-2002-c-22/derniere/lc-2002-c-22.html "Loi de 2001 sur l’accise") (LA, 2001), la [Loi sur la taxe d’accise](https://www.canlii.org/fr/ca/legis/lois/lrc-1985-c-e-15/derniere/lrc-1985-c-e-15.html "Loi sur la taxe d’accise") (LTA), la [Loi de l’impôt sur le revenu](https://www.canlii.org/fr/ca/legis/lois/lrc-1985-c-1-5e-suppl/derniere "Loi de l’impôt sur le revenu") (LIR), et la [Loi sur le droit à l’exportation de produits de bois d’œuvre de 2006](https://www.canlii.org/fr/ca/legis/lois/lc-2006-c-13/derniere/lc-2006-c-13.html "Loi sur le droit à l’exportation de produits de bois d’œuvre de 2006") (LDEPBO) faisant en sorte que ces lois deviennent une législation fiscale.
+
+Le [Régime de pensions du Canada](http://laws-lois.justice.gc.ca/fra/lois/c-8/index.html "Régime de pensions du Canada") (RPC) et la [Loi sur l’assurance-emploi](http://laws-lois.justice.gc.ca/fra/lois/E-5.6/ "Loi sur l’assurance-emploi") (LAE) ne sont pas cités dans l’article 2 de la Loi sur l’ARC; toutefois, le paragraphe 92(2) du RPC et le paragraphe 97(1) de la LAE rendent le ministre du Revenu national responsable de l’administration et de l’application de certaines parties de ces lois. En conséquence, le RPC et la LAE sont aussi inclus dans la législation fiscale.
+
+L’article 241 de la LIR interdit la divulgation de renseignements personnels, à moins que des circonstances particulières déterminées dans la loi n’autorisent la divulgation des renseignements. À l’exception de la LDSPTA, toutes les lois de la législation fiscale comprennent des dispositions similaires à celles de l’article 241 de la LIR.
+
+### Résumé du projet, de l’initiative ou des modifications
+
+#### Aperçu du programme ou de l’activité
+
+Les programmes fiscaux des recouvrements de l’Agence du revenu du Canada (l’ARC) sont responsables du recouvrement des dettes en souffrance pour le compte du gouvernement du Canada (GC), de toutes les provinces, à l’exception du Québec et des Territoires. Les types de dettes que l’Agence recouvre comprennent : l’impôt des particuliers et celui des sociétés, les impôts dus par des personnes décédées, les successions et fiducies, les paiements en trop des prestations et des crédits d’impôt individuels, les retenues sur la paye, la retenue d’impôt de non-résident prévu à la partie XIII, les droits pour la sécurité des passagers du transport aérien, les droits d’exportation de produits de bois d’œuvre, la taxe sur les produits et services et la taxe de vente harmonisée (TPS/TVH), les droits et taxes prélevés sur les produits fabriqués ou les services utilisés au Canada, ainsi que les frais, d’autres charges, les pénalités et les intérêts. En ce qui concerne les recettes de la TPS imposée dans la province de Québec, ces dettes sont recouvrées pour le compte du GC par Revenu Québec.
+
+La présente évaluation des facteurs relatifs à la vie privée (ÉFVP) cible et évalue les risques associés à la confidentialité des renseignements personnels liés à l’administration des activités des programmes fiscaux des recouvrements de l’Agence. Par conséquent, lors de la préparation de l’ÉFVP, on a tenu compte de ce qui suit :
+
+- les politiques et procédures;
+- la formation;
+- le rôle de la technologie, y compris les stratégies de recouvrement automatisées, l’utilisation de macros, les systèmes informatiques, y compris le développement, les améliorations et leur utilisation dans la gestion de la charge de travail;
+- la budgétisation et l’affectation des ressources;
+- l’évaluation des programmes fiscaux des recouvrements et l’établissement de rapports les concernant;
+- les activités de recouvrement, comme le repérage, les communications avec les clients, les actions en justice et l’exercice du pouvoir discrétionnaire par l’intermédiaire de la délégation des pouvoirs ministériels.
+
+On a également tenu compte des sources auprès desquelles les responsables des programmes fiscaux des recouvrements recueillent des renseignements, y compris des données sur les systèmes internes de l’ARC recueillies par d’autres secteurs de programme de l’ARC, des clients, des tiers, des médias sociaux, ainsi que des organisations des secteurs public et privé qui sont externes à l’Agence du revenu du Canada.
+
+Les aspects qui n’ont pas été pris en compte lors de la préparation de cette ÉFVP comprennent, par exemple, les processus de vérification, le maintien des systèmes, les avis de cotisation émis pour l’établissement des montants de la dette, le processus de règlement des différends, l’allègement pour les contribuables, et les fonctions comptables puisque ces éléments relèvent de la responsabilité d’autres programmes de l’Agence. Les répercussions sur la vie privée qui concernent le recouvrement des dettes liées aux recouvrements – Programmes gouvernementaux et aux programmes de recouvrement des comptes de douanes ne sont pas abordées dans la présente ÉFVP.
+
+#### Quoi de neuf
+
+Le gouvernement fédéral met actuellement en place des mesures de prélèvement des taxes sur le cannabis et d’une taxe sur le carbone. Si ces nouvelles recettes sont adoptées, les programmes fiscaux des recouvrements recouvreront les arriérés qui peuvent découler de ces mesures si elles sont adoptées. La présente évaluation des facteurs relatifs à la vie privée des programmes fiscaux des recouvrements sera examinée et mise à jour si ces initiatives étaient mises en œuvre.
+
+Les agents techniques de Centre des appels de la gestion des créances écoutent actuellement les appels en direct entre les agents des recouvrements et les clients en utilisant la technologie d’écoute de qualité à distance. Ces appels permettent aux agents techniques de fournir une rétroaction immédiate à l’agent des recouvrements et d’aider les agents des recouvrements à répondre à leurs besoins en matière de formation et d’apprentissage. Bien que les appels ne soient pas enregistrés pour le moment, on s’attend à ce qu’ils soient enregistrés dans un avenir rapproché une fois que la technologie, les politiques et les procédures seront élaborées. La technologie d’écoute de qualité à distance est hors de la portée de la présente évaluation des facteurs relatifs à la vie privée des programmes fiscaux de recouvrement. Il convient de noter que ce sujet est abordé dans l’évaluation des facteurs relatifs à la vie privée intitulée Opérations du centre de contact (IC-096893).
+
+Le système de gestion de la charge de travail de recouvrement et de le vérification (SGCTRV), qui fait actuellement l’objet d’une planification et d’un développement, est conçu pour être un système entièrement intégré qui remplacera un certain nombre de technologies existantes actuellement utilisées par la Direction générale des recouvrements et de la vérification pour gérer les charges de travail. Ce système devrait comporter une vue d’ensemble des clients avec des fonctionnalités améliorées et constituer un système de gestion de la charge de travail plus efficace. La première charge de travail à migrer vers ce nouveau système sera constituée des références reçues par les partenaires de conventions fiscales. Cela devrait commencer à l’automne 2019, mais le système n’aura initialement que des fonctionnalités limitées.
+
+Le système Atrium est en cours d’élaboration en tant que solution de TI autonome qui permettra aux programmes fiscaux des recouvrements de partager des renseignements personnels avec les programmes gouvernementaux. Le système Atrium sera utilisé pour stocker les renseignements sur les programmes fiscaux des recouvrements et pour initier des mesures de recouvrement sur les comptes des programmes gouvernementaux. Le système Atrium est adopté en réponse aux modifications législatives apportées au sous-alinéa 241(4)d)(xviii) de la LIR. Cette solution garantira que les renseignements personnels, une fois communiqués aux programmes gouvernementaux, seront seulement disponibles et utilisés dans le but visé de faciliter le recouvrement des dettes des programmes gouvernementaux, comme l’exige la loi.
+
+Les programmes fiscaux des recouvrements élaborent des technologies et un processus qui permettront aux banques d’envoyer des documents par voie électronique à l’Agence par des moyens sécurisés lorsqu’ils répondent aux demandes péremptoires de renseignements. Les banques ne seront pas obligées d’utiliser ce processus et peuvent choisir de participer ou non. La Banque TD et l’Agence ont conclu une entente concernant cette méthode de transmission de documents et un projet pilote avec la banque devrait être mis en œuvre en temps voulu.
+
+Les programmes fiscaux des recouvrements ont mis en œuvre des politiques et des procédures relatives à l’utilisation des médias sociaux pour recueillir des renseignements qui concernent les clients qui font l’objet d’un examen par les programmes fiscaux des recouvrements. Les politiques et procédures relatives à ces activités figurent dans les produits de communication interne. Lorsque les agents des programmes fiscaux des recouvrements collectent des renseignements provenant d’Internet et des sites de médias sociaux, de journaux, de rapports médiatiques, etc., ils doivent s’assurer que ces renseignements sont exacts avant de les saisir dans les systèmes électroniques des programmes fiscaux des recouvrements.
+
+Afin d’éviter tout risque pour les renseignements personnels, les programmes fiscaux des recouvrements ont également mis en place de nouvelles procédures lorsque des renseignements sont échangés entre l’Agence du revenu du Canada et Revenu Québec. En raison des incompatibilités existantes entre les systèmes de courriel de l’Agence et de Revenu Québec, la Direction de la sécurité et des affaires internes et la Direction générale de la stratégie et de l’intégration ont approuvé l’utilisation de WinZip pour envoyer et recevoir des renseignements par courriel sécurisé.
+
+La Direction des recouvrements a élaboré un énoncé de confidentialité à utiliser avec les lettres électroniques. À l’heure actuelle, toutes les lettres dans le Système de composition électronique de lettres (SCEL) utilisées par la Direction des recouvrements font l’objet d’un examen. Dans le cadre de cet examen, nous examinerons les lettres qui devraient comprendre l’énoncé de confidentialité. Cet examen peut prendre jusqu’à un an. En plus de ce qui précède, la Direction des recouvrements examinera si un énoncé verbal de confidentialité devrait être élaboré et mis en œuvre.
+
+La Section des risques et analyse du programme (SRAP), en collaboration avec la Division des renseignements d’entreprise, de la recherche et des analyses (DRERA) élabore une solution libre-service des renseignements d’entreprise afin de permettre au programme des recouvrements d’effectuer plus d’analyses des tendances, en utilisant des données historiques et d’autres variables, extraites directement de l’Entrepôt de données de l’Agence. À l’heure actuelle, la Section des risques et analyse du programme envoie de multiples demandes de renseignements à la DRERA, qui récupère ensuite les données et les achemine à la Section des risques et analyse du programme. Les demandes de renseignements doivent souvent être modifiées en raison de la complexité des activités analysées ou du type de recherche effectuée. En utilisant un logiciel d’analyse basé sur Cognos, les données peuvent être obtenues directement à partir d’une liste d’éléments prédéterminée, ce qui permet une utilisation plus rapide et plus économique des ressources pour les équipes de la Section des risques et analyse du programme et de la DRERA. Les données seront stockées de la même façon qu’elles sont maintenant sur les lecteurs partagés protégés, avec un accès limité aux employés. Les données sont nécessaires pour analyser et expliquer l’état actuel du rendement du programme de recouvrement, prévoir les comportements des clients, mesurer les résultats découlant de la mise en œuvre des recommandations antérieures et formuler de nouvelles recommandations pour les modifications aux systèmes ou les changements apportés aux stratégies de recouvrement, aux flux de travail, ou les changements liés aux procédures. On s’attend à ce que ce nouvel outil soit disponible d’ici le premier trimestre de 2019 ou plus tôt.
+
+#### Portée de l’évaluation des facteurs relatifs à la vie privée
+
+La présente évaluation des facteurs relatifs à la vie privée (ÉFVP) cible et évalue les risques associés à la confidentialité des renseignements personnels liés à l’administration des activités des programmes fiscaux des recouvrements de l’Agence. Entre autres choses, la présente ÉFVP examine les sources auprès desquelles les programmes fiscaux des recouvrements recueillent des renseignements, notamment des clients, des tiers, des médias sociaux ainsi que des organismes des secteurs public et privé externes à l’Agence.
+
+Les politiques, les procédures, la formation, les systèmes, les plans et les stratégies des programmes fiscaux des recouvrements pour la prestation du programme, ainsi que l’évaluation et l’établissement de rapports concernant l’exécution de programme, ont été examinés lors de la réalisation de la présente ÉFVP.
+
+La présente évaluation n’inclut pas les processus de vérification, le maintien des systèmes, l’établissement des montants de la dette, le processus de règlement des différends, l’allègement pour les contribuables, ou les fonctions comptables puisque ces éléments relèvent de la responsabilité d’autres programmes de l’Agence. Les répercussions sur la vie privée liées aux recouvrements des dettes des programmes gouvernementaux sont abordées dans une ÉFVP distincte. Les dettes du programme de recouvrement des comptes de douanes seront examinées dans une ÉFVP distincte.
+
+##### Détermination et classement du risque
+
+#### **A) Type de programme ou d’activité**
+
+Conformité/Enquêtes réglementaires et exécution de la réglementation
+
+**Niveau de risque pour la vie privée :** 3
+
+**Détails :** Les renseignements personnels recueillis par les programmes fiscaux des recouvrements sont utilisés pour entreprendre et réaliser des activités de recouvrement, comme les  recherches pour repérer les clients, la détermination de la capacité de payer, la négociation d’ententes de paiement et la recherche de sources de recouvrement (p. ex. les employeurs, les sources de revenus, les biens, etc.). Les renseignements aident également à prendre des décisions en vue d’engager des poursuites judiciaires, comme la saisie-arrêt ou la certification de dettes auprès de la Cour fédérale du Canada lorsque les clients n’ont pas coopéré ou payé volontairement les montants dus. En plus de recouvrer les arriérés établis, les programmes fiscaux des recouvrements peuvent poursuivre certaines activités d’observation limitées, comme demander des déclarations de revenus en retard ou assurer le suivi des versements manquants des comptes de retenues à la source des employeurs ou des comptes de taxe sur les produits et services  (TPS) et de taxe de vente harmonisée (TVH). Ces activités sont requises afin d’administrer et d’appliquer la loi sur les programmes fiscaux des recouvrements.
+
+Les renseignements personnels sont utilisés pour :
+
+- cerner les dangers potentiels de perte au début du processus de recouvrement en attribuant des cotes de risque automatisées aux comptes;
+- élaborer de nouvelles stratégies de recouvrement ou améliorer celles qui existent en utilisant le renseignement d’entreprise;
+- attribuer des comptes à faible risque à des stratégies de recouvrement particulières qui ont la meilleure probabilité que les comptes soient réglés sans intervention humaine;
+- attribuer les comptes à risque élevé aux centres des appels de la gestion des créances, aux centres nationaux de vérification et de recouvrement, ou au bureau des services fiscaux, ce qui nécessite une intervention humaine et entraînera une attention plus immédiate.
+
+Les centres des appels de la gestion des créances, les centres nationaux de vérification et de recouvrement, ou les bureaux des services fiscaux ne communiquent avec les clients que par téléphone.
+
+#### **B) Type de renseignements personnels en jeu et contexte**
+
+Données personnelles fournies par l'individu avec le consentement d'utiliser des données détenues par une autre source pour autant que les données ne soient pas de nature délicate après la collecte.
+
+**Niveau de risque pour la vie privée :** 3
+
+**Détails :** Les renseignements personnels comprennent de nombreux éléments de données différents. Les exemples comprennent les noms, les dates de naissance, les numéros d’assurance sociale (NAS), les coordonnées, l’état civil et les renseignements financiers. Les renseignements sont utilisés pour vérifier l’identité des clients et pour déterminer la capacité de payer des clients. Les agents des recouvrements peuvent demander aux clients de fournir des renseignements sur leur emploi actuel et antérieur, ainsi que sur les revenus, les dépenses, les actifs et les passifs des familles. Dans certains cas, d’autres renseignements personnels pertinents peuvent être recueillis afin de vérifier leurs circonstances particulières. Par exemple, des renseignements médicaux peuvent être demandés pour justifier des dépenses extraordinaires afin de justifier la capacité limitée des clients de payer des dettes ou de déterminer si des actions en justice sont appropriées, telles que la saisie et la vente de résidences principales lorsque les clients, les conjoints ou leurs personnes à charge sont handicapés et y résident. Ces renseignements peuvent également appuyer les demandes d’allègement pour les contribuables en raison de difficultés financières. Dans de tels cas, les clients sont invités à envoyer leurs demandes d’allègement à la Direction générale des appels en raison de difficultés financières. Les données peuvent également être utilisées pour évaluer les progrès accomplis dans l’exécution de programme, le rendement des employés, le respect des politiques et des procédures, ainsi qu’à d’autres fins opérationnelles ou de rapport. Ces éléments de données peuvent être obtenus ou recueillis à partir des systèmes internes de l’Agence du revenu du Canada (l’ARC), des clients directement ou de sources externes à l’extérieur de l’Agence.
+
+#### C) Partenaires de programme ou d’activité et participation du secteur privé
+
+Avec des gouvernements étrangers, des organisations internationales et/ou des organisations du secteur privé.
+
+**Niveau de risque pour la vie privée :** 4
+
+**Détails :** Les programmes fiscaux des recouvrements recueillent des renseignements personnels tout en effectuant des activités de recouvrement et d’observation limitées. En plus des renseignements recueillis à partir des systèmes de l’Agence ou directement auprès des clients, les renseignements peuvent également être obtenus auprès d’autres organisations fédérales, provinciales ou municipales, ainsi que des fournisseurs de services du secteur privé. Des exemples de sources de renseignements comprennent des ministères provinciaux des Transports, des registres publics, et des recherches auprès d’agences d’évaluation du crédit. Les renseignements obtenus sont utiles pour repérer les clients, chercher des sources de revenus qui pourraient être saisies ou déterminer les biens qui pourraient être saisis pour recouvrer les montants dus dans l’éventualité où les clients ne paieraient pas volontairement les montants qu’ils doivent.
+
+Les programmes fiscaux des recouvrements ont le statut d’organisme d’enquête pour les besoins de la Loi sur la protection des renseignements personnels. Cela permet aux programmes fiscaux des recouvrements d’obtenir des renseignements auprès de certains organismes fédéraux auxquels ils ne seraient pas en mesure d’avoir accès autrement.
+
+Les programmes fiscaux des recouvrements échangent des renseignements personnels avec d’autres secteurs de programme de l’Agence, comme la Direction générale des appels pour appuyer l’établissement des cotisations, ou la Direction générale du secteur international, des grandes entreprises et des enquêtes pour l’aider dans ses mesures d’observation. Les programmes fiscaux des recouvrements échangent également des renseignements personnels avec des parties externes, ce qui n’est fait que dans des circonstances spécifiques et quand il existe une autorité légale qui autorise la divulgation des renseignements. Dans le cas des partenaires ayant conclu une convention fiscale, lorsque les programmes fiscaux des recouvrements initient ou reçoivent les demandes d’aide en vertu des accords d’assistance en matière de recouvrement, ou des demandes de renseignements personnels selon les articles relatifs à l’échange de renseignements, les demandes sont coordonnées par la Division des services de l’autorité compétente de la Direction générale du secteur international, des grandes entreprises et des enquêtes. Les politiques, les procédures et les lois sont en place pour garantir que les renseignements partagés sont utilisés uniquement aux fins pour lesquels ils ont été divulgués.
+
+#### D) Durée du programme ou de l’activité :
+
+Pogramme à long terme.
+
+**Niveau de risque pour la vie privée :** 3
+
+**Détails :** Les programmes fiscaux des recouvrements constituent un programme à long terme qui restera en place indéfiniment, car il s’agit d’une fonction clé qui permet de faire des recouvrements et de protéger l’assiette fiscale du Canada.
+
+#### E) Population du programme
+
+Le programme touche certains particuliers à des fins administratives externes.
+
+**Niveau de risque pour la vie privée :** 3
+
+**Détails :** Les programmes fiscaux des recouvrements touchent les particuliers qui ont des dettes en souffrance. Dans certains cas, les tiers peuvent aussi être touchés par le programme fiscal des recouvrements en faisant l’objet de poursuites ou en étant tenues solidairement responsables des dettes des clients. Exemples de tiers :
+
+- les bénéficiaires non conformes à l’égard des demandes de renseignements;
+- les cessionnaires avec lien de dépendance qui reçoivent les actifs auprès des clients endettés pour la prise en compte des montants inférieurs à la juste valeur marchande;
+- les administrateurs de sociétés lorsque les sociétés n’ont pas respecté toutes les exigences en matière de déclaration et de versement;
+- les représentants légaux qui ont disposé de biens de clients sans avoir obtenu un certificat de décharge;
+- les bénéficiaires qui ne se sont pas conformés aux saisies-arrêts de l’Agence qui concernent des clients endettés.
+
+#### F) Technologie et vie privée
+
+##### L’activité ou le programme (nouveau ou modifié) comporte-t-il la mise en œuvre d'un nouveau système électronique, d'un logiciel ou d'un programme d'application, y compris un collecticiel (ou logiciel de groupe) qui est utilisé pour soutenir le programme ou l'activité eu égard à la création, la collecte ou la manipulation de renseignements personnels?
+
+**Risque pour la vie privée :** Oui
+
+**Détails** : Il y a quatre éléments soulignés. Le premier élément concerne la législation adoptée pour promulguer le sous-alinéa 241(4)d)(xviii) de la Loi de l’impôt sur le revenu (LIR), qui autorise la communication de renseignements personnels pour faciliter le recouvrement de la plupart des dettes des programmes gouvernementaux. Atrium, actuellement utilisé par le ministère de la Justice, est en cours de personnalisation / mise au point par la Direction des recouvrements et devrait être la solution électronique pour mettre en œuvre les récentes modifications législatives. La modification autorise la communication de renseignements personnels lorsqu’elle contribue au recouvrement des dettes des programmes gouvernementaux, et cette disposition s’appliquera à la plupart des dettes des programmes gouvernementaux. Atrium, qui sera un système autonome, sera utilisé pour partager et entreposer les renseignements sur les programmes fiscaux des recouvrements.
+
+Le deuxième élément concerne le nouveau système de gestion de la charge de travail de vérification des recouvrements qui est en cours d’élaboration. Ce système a pour but de remplacer un certain nombre de technologies existantes des programmes fiscaux des recouvrements qui sont actuellement utilisées pour gérer la charge de travail des programmes fiscaux des recouvrements.
+
+Le troisième élément est une solution électronique qui permet aux banques de répondre par voie électronique aux demandes péremptoires de renseignements des programmes fiscaux des recouvrements.
+
+Le dernier élément est une solution libre-service de la TI en cours d’élaboration qui permettra à la Section des risques et analyse (SRAP) du programme d’extraire des données directement de l’entrepôt de données de l’Agence. À l’heure actuelle, la Division des renseignements d’entreprise, de la recherche et des analyses (DRERA) extrait les données et les envoie à la Section des risques et analyse du programme. La Section des risques et analyse du programme analyse les renseignements pour déterminer les tendances et expliquer l’état actuel du rendement du programme de recouvrement, prévoir les comportements des clients, mesurer les résultats découlant de la mise en œuvre des recommandations antérieures et formuler de nouvelles recommandations pour les modifications aux systèmes ou les changements apportés aux stratégies de recouvrement, aux flux de travail, ou les changements liés aux procédures.
+
+Les politiques et les procédures appropriées seront élaborées et mises en œuvre au fur et à mesure que ces initiatives sont lancées.
+
+##### Le programme, nouveau ou modifié, ou l’activité est-il une modification des anciens systèmes et services de la TI?
+
+**Risque pour la vie privée :** Oui
+
+**Détails** : Le Système de gestion de la charge de travail des recouvrements et de la vérification vise à remplacer un certain nombre de technologies existantes de la Direction générale des recouvrements et de la vérification qui sont actuellement utilisées pour gérer la charge de travail des programmes fiscaux des recouvrements.
+
+Le programme, nouveau ou modifié, ou l’activité comprend la mise en œuvre d’une ou de plusieurs des technologies suivantes :
+
+##### Méthode d’identification améliorée
+
+Cela comprend la technologie biométrique (c.-à-d. la reconnaissance de visage, l’analyse de la démarche, la lecture de l’iris, l’analyse des empreintes digitales, l’empreinte vocale, l’identification par radiofréquence (IRF), etc.) ainsi que la technologie « E-ZPass », les nouvelles cartes d’identité, y compris les cartes à bande magnétique, les « cartes intelligentes » (c.-à-d. des cartes d’identité dans lesquelles on a intégré une antenne ou une plage de contact qui est reliée à un microprocesseur et à une puce de mémoire ou une seulement à une puce de mémoire dotée d’une logique non programmable).
+
+**Risque pour la vie privée :** Non
+
+**Précisions :** S.O.
+
+##### Utilisation de la surveillance
+
+Cela comprend les technologies de surveillance telles que les dispositifs d’enregistrement audio ou vidéo, l’imagerie thermique, les dispositifs de reconnaissance, l’IRF, la surveillance clandestine et l’interception, la surveillance assistée par ordinateur, y compris les pistes de vérification, la surveillance par satellite, entre autres.
+
+**Risque pour la vie privée :** Oui
+
+**Précisions :**À l’occasion, ce programme pourra comprendre l’utilisation de la surveillance clandestine des clients qui font l’objet de mesures de recouvrement. Par exemple, dans certaines circonstances, les agents des bureaux locaux peuvent suivre les clients qui ont des antécédents de recevoir des paiements en espèces afin de déterminer les sources de revenus aux fins de saisie-arrêt.
+
+##### Utilisation de l’analyse automatisée des renseignements personnels, du rapprochement des renseignements personnels et des techniques de découverte des connaissances
+
+Pour l’application de la Directive sur l’ÉFVP, les institutions fédérales doivent déterminer les activités qui consistent à utiliser une technologie automatisée pour analyser, créer, comparer, déterminer ou extraire des éléments des renseignements personnels. De telles activités comprendraient le rapprochement de renseignements personnels, le couplage de dossiers, l’exploration et la comparaison de renseignements personnels, la découverte de connaissances, de même que le filtrage ou l’analyse de renseignements personnels. Ce genre d’activités consiste à recourir à une certaine forme d’intelligence artificielle et/ou d’apprentissage automatique pour découvrir des connaissances (renseignements), des tendances ou des modèles ou pour prédire des comportements.
+
+**Risque pour la vie privée :** Oui
+
+**Détails :** À l’instar d’autres administrations fiscales, l’Agence recueille, analyse et stocke une grande quantité de données. Les nouvelles technologies et le traitement plus rapide permettent à l’Agence d’accéder aux données, de les intégrer et de les analyser de façon plus efficace. Cela permet à la Direction des recouvrements de tirer profit de meilleurs renseignements d’entreprise, dans le but de prévoir les comportements des clients et de créer des occasions permettant à l’Agence d’influencer positivement les clients afin qu’ils respectent les exigences temporelles en matière de déclaration et les exigences de paiement. En retour, cela permet de sélectionner et de gérer les comptes en utilisant diverses stratégies pour recouvrer les dettes de la manière la plus efficace possible. Les stratégies automatisées peuvent comprendre l’envoi de lettres de rappel, les appels téléphoniques en temps opportun, l’attribution de comptes aux agents des recouvrements pour la prise de mesures de recouvrement.
+
+Une fois que les stratégies automatisées ont été appliquées et que les comptes sont attribués à un centre des appels de la gestion des créances, les renseignements personnels des clients sont utilisés pour programmer la composition automatique. À son tour, la composition automatique sélectionne le prochain compte le plus approprié, compose le numéro du client, puis dirige l’appel à un agent des recouvrements disponible. Les données sont également utiles pour :
+
+- concevoir des programmes et attribuer des ressources;
+- surveiller les progrès et les résultats des programmes fiscaux des recouvrements tout au long de la période du programme;
+- adapter les priorités, au besoin;
+- déterminer le moment où les modifications ou les nouvelles politiques et procédures sont nécessaires;
+- cerner les lacunes en matière de formation.
+
+Les programmes fiscaux des recouvrements utilisent les processus automatisés de la technologie de l’information (TI). Ceux-ci comprennent :
+
+- le renseignement d’entreprise (RE) pour élaborer de nouvelles stratégies de recouvrement ou des flux de travail ou pour améliorer ceux qui existent déjà;
+- la modélisation prévisionnelle qui explore et analyse les données afin de prédire le comportement des clients et de déterminer la probabilité des mesures ou des interventions qui devraient vraisemblablement régler des comptes en particulier;
+- le moteur des règles administratives pour orienter les comptes vers les stratégies de recouvrement ou les circuits de travail appropriés.
+
+Bien que les programmes fiscaux des recouvrements utilisent les renseignements d’entreprise, ils ne font pas partie de la portée de la présente évaluation des facteurs relatifs à la vie privée. Le renseignement d’entreprise est abordé dans l’ÉFVP sur les renseignements d’entreprise de la Direction générale des recouvrements et de la vérification (IC-076952).
+
+Les processus automatisés sont des facteurs de changement aux stratégies de recouvrement, aux flux de travail, aux systèmes ou aux procédures pour attribuer la charge de travail et faire le meilleur usage des ressources des programmes fiscaux des recouvrements. Les possibilités d’utilisation des outils de la TI sont constamment explorées. Par exemple, la Section des charges de travail spécialisées collabore actuellement avec la Direction de la technologie et des renseignements d’entreprise pour utiliser le RE pour automatiser la détermination et l’attribution des comptes qui sont établis en raison d’initiatives relatives à l’économie clandestine (EC) et à la révision des inscriptions des sociétés (RIS). À l’heure actuelle, ces comptes sont identifiés, attribués et suivis manuellement. Cette utilisation des renseignements d’entreprise permettra aux programmes fiscaux des recouvrements de réaffecter les ressources de façon plus efficace aux tâches de programme plutôt que de les utiliser à des fins de soutien administratif.
+
+L’un des résultats actuels concernant l’utilisation du RE a abouti à l’élaboration et à la mise en œuvre du moteur des règles administratives, qui effectue ce qui suit :
+
+- recueillir et analyser les renseignements provenant des systèmes internes de l’Agence afin de prévoir les comportements et les comptes des clients qui sont susceptibles de « se régler d’eux-mêmes »;
+- élaborer et mettre en œuvre des stratégies pour recouvrer les dettes de la manière la plus efficace possible;
+- utiliser une approche « d’incitation », pour les comptes à faible risque, l’envoi de lettres de rappel ou l’utilisation de la composition automatique du centre des appels de la gestion des créances afin de laisser des messages automatisés pour informer et éduquer les clients sur leurs obligations et les avantages de produire et de payer à temps;
+- cibler les comptes présentant le risque le plus élevé et attribuer les cotes de risque aux comptes, ce qui permet aux programmes fiscaux des recouvrements de concentrer leurs ressources et leurs efforts sur les dettes qui représentent le risque le plus élevé pour l’État;
+- recueillir et analyser les données afin de rapporter de manière cohérente les renseignements au fil du temps afin d’identifier les tendances et d’apporter des modifications aux politiques, aux procédures, ou de revoir l’ordre des priorités, le cas échéant.
+
+Les agents des programmes fiscaux des recouvrements peuvent également utiliser les tables des recettes consolidées (TRC) et les applications macro de l’ordinateur central, qui automatisent la collecte de renseignements personnels à partir de systèmes de l’Agence déterminés comme le Système automatisé pour les recouvrements et les retenues à la source (SARRS) et le Système d’information pour les bureaux de district (RAPID). Ces outils facilitent la détermination des renseignements pertinents nécessaires pour remplir des formulaires ou préparer des recommandations et contribuer au recouvrement des comptes. Ces renseignements sont également utiles pour analyser les comptes et les inventaires, pour déterminer les progrès et les résultats du programme, et pour rajuster les priorités de la charge de travail, le cas échéant. De plus, les macros fournissent des outils aux agents des programmes fiscaux pour les recouvrements, comme la visualisation, la création, la modification, la révision, le stockage, l’organisation et l’impression des données de compte ou d’inventaire.
+
+#### G) Transmission des renseignements personnels
+
+Les renseignements personnels sont transmis à l’aide de technologies sans fil.
+
+**Niveau de risque pour la vie privée :** 4
+
+**Détails :**
+
+##### Renseignements obtenus au moyen de la macro
+
+Les programmes fiscaux des recouvrements utilisent des macros qui sont des processus automatisés d’information axés sur la technologie, qui récupèrent et analysent les données personnelles des applications de l’ordinateur central de l’Agence. Les agents des recouvrements qui ont besoin de ces renseignements pour s’acquitter de leurs tâches peuvent exécuter de nombreuses macros eux-mêmes.
+
+##### Transmission de renseignements personnels n’ayant pas été obtenus au moyen de la macro
+
+Dans certains cas, les renseignements personnels peuvent être transmis par voie électronique grâce à un accès à distance protégé et à l’aide de la technologie sans fil. Les agents des programmes fiscaux des recouvrements qui ont une entente de télétravail et les gestionnaires qui utilisent des appareils BlackBerry en sont des exemples.
+
+##### Utilisation de la technologie sans fil
+
+Seuls les renseignements protégés A et B sont transmis à l’aide de technologies sans fil. Les renseignements protégés C ne sont pas transmis à des appareils situés à distance.
+
+#### H) Risque possible pour le particulier ou l’employé
+
+**Détails :**
+
+Les conséquences d’une violation de la vie privée, comme la divulgation par inadvertance de renseignements personnels à des personnes non autorisées ou la perte des renseignements personnels d’une personne, peuvent être importantes. Si les renseignements personnels sont compromis, la préoccupation initiale est le mauvais usage des renseignements personnels qui pourrait faire des particuliers des victimes de vol d’identité ou de fraude financière. Les renseignements peuvent être utilisés sans leur connaissance ou leur consentement d’une façon qui pourrait entraîner des dommages à leur réputation ou entraîner des pertes financières (p. ex., des dettes engagées en leur nom à partir de prêts frauduleux ou de cartes de crédit). L’Agence a mis en place des mesures de protection visant à protéger les renseignements personnels. Voici quelques exemples :
+
+- le numéro d’assurance sociale (NAS) masqué sur la plupart de la correspondance sortante;
+- les renseignements confidentiels du client envoyés par courrier électronique crypté;
+- les profils conçus pour répondre aux besoins de chaque poste d’emploi du programme fiscal des recouvrements afin d’accéder aux renseignements nécessaires pour exercer les fonctions;
+- l’ID utilisateur et le mot de passe unique attribué à chaque employé. Les accès aux systèmes font l’objet d’un suivi et sont surveillés à l’aide du système national de pistes de vérification afin de s’assurer que les renseignements ont été consultés uniquement lorsqu’ils étaient nécessaires pour effectuer le travail;
+- les profils des employés ont été examinés deux fois par année et les accès ont été modifiés au besoin afin de s’assurer que la capacité des employés à consulter les renseignements par voie électronique à partir des systèmes de l’Agence continue de correspondre aux exigences de leur poste;
+- la permission accordée pour autoriser l’accès aux lecteurs partagés (remarque : dans certains cas, le logiciel requis est installé sur les ordinateurs des employés pour accéder aux renseignements).

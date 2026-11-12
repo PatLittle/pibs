@@ -67,7 +67,9 @@ flowchart LR
    individual summaries, preserving failures and translation-pairing evidence.
    The [Privacy Assessments section](https://patlittle.github.io/pibs/privacy-assessments.html)
    publishes a filterable bilingual catalogue, holdings metrics, and Markdown
-   readers with source and language-availability details.
+   readers with source and language-availability details. Explicit PIB/CoR IDs
+   in those documents populate reference lists and counts, link back to the
+   explorer tables, and support project coverage metrics against PIB holdings.
 4. **Derive products and publish.** `build_my_info_features.py` combines
    institution and standard PIBs into one-row-per-PIB features, category
    assignments, record-level evidence, the bilingual questionnaire, and a

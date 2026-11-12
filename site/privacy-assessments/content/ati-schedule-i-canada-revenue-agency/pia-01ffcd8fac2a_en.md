@@ -1,0 +1,233 @@
+---
+title: "Canada Dental Benefit V2.0"
+institution_id: "ati-schedule-i-canada-revenue-agency"
+language: "en"
+source_url: "https://www.canada.ca/en/revenue-agency/services/about-canada-revenue-agency-cra/protecting-your-privacy/privacy-impact-assessment/canada-dental-benefit-v2.html"
+retrieved_at_utc: "2026-11-12T05:49:03.179226+00:00"
+http_status: 200
+source_sha256: "52fd1563bcc26b368ac9fed2e34334b4d457ed530ae93ad9ce94801e82b52e75"
+content_kind: "page"
+---
+
+# Canada Dental Benefit V2.0
+
+## Benefit Programs Directorate Assessment, Benefit, and Service Branch
+
+### On this page
+
+- [Overview & Privacy Impact Assessment Initiation (PIA)](https://www.canada.ca/en/revenue-agency/services/about-canada-revenue-agency-cra/protecting-your-privacy/privacy-impact-assessment/canada-dental-benefit-v2.html#Overview)
+- [Summary of the project, initiative or change](https://www.canada.ca/en/revenue-agency/services/about-canada-revenue-agency-cra/protecting-your-privacy/privacy-impact-assessment/canada-dental-benefit-v2.html#Summary)
+- [Risk identification and categorization](https://www.canada.ca/en/revenue-agency/services/about-canada-revenue-agency-cra/protecting-your-privacy/privacy-impact-assessment/canada-dental-benefit-v2.html#Risk)
+
+## Overview & Privacy Impact Assessment Initiation (PIA)
+
+### Government institution
+
+Canada Revenue Agency
+
+#### Government official responsible for the PIA
+
+Gillian Pranke  
+Assistant Commissioner  
+Assessment, Benefit, and Service Branch
+
+#### Head of the government institution or Delegate for section 10 of the Privacy Act
+
+Steven Morgan  
+Director General  
+Access to Information and Privacy Directorate
+
+#### Name of program or activity of the government institution
+
+Benefits
+
+#### Standard or institution specific class of record:
+
+Benefit Programs - Canada Dental Benefit  
+Record number: CRA ABSB 645
+
+#### Standard or institution specific personal information bank:
+
+Canada Dental Benefit  
+CRA PPU 644  
+TBS Registration Number: 20220112
+
+#### **Legal authority for program or activity**
+
+The Canada Dental Benefit Program is authorized under the Dental Benefit Act.
+
+Section 61 of the Canada Revenue Agency Act (CRAA) authorizes the Canada Revenue Agency (CRA) to enter contracts, agreements or other arrangements with governments, public or private organizations and agencies or any person in the name of His Majesty in right of Canada or in its own name.
+
+**Note**: This gives the Minister of National Revenue authority to enter into agreements to administer programs for other government organizations to the extent that administering those programs falls within its mandate.
+
+The CRA has entered into a Memorandum of Understanding with Health Canada.
+
+The CRA is authorized, under section 11 of the Dental Benefit Act to provide services and carry out activities to support the Minister of Health in the administration and enforcement of the dental legislation.
+
+The CRA will be collecting and using the data for the purposes of administering the Dental Benefit Act as part of the services the CRA will deliver on behalf of the Minister of Health. CRA will maintain control of the information within the agencies’ possession.
+
+For the administration of the program, CRA officials may disclose taxpayer information to other CRA officials as authorized pursuant to clause 241(4)(d)(xx)(a) of the Income Tax Act. CRA officials in receipt of taxpayer information may use it for the purpose for which it was disclosed.
+
+In addition, clause 241(4)(d)(xx)(b) of the Income Tax Act allows for the disclosure of taxpayer information to the Department of Health for the formulation or evaluation of policy relating to the Canada Dental Benefit Act.
+
+## Summary of the project, initiative or change
+
+### Overview of the Program or Activity
+
+The Canada Revenue Agency (CRA) is responsible through section 11 of the Dental Benefit Act  for providing the services and activities required to administer the Canada dental benefit until a long-term solution is in place. It is estimated that by 2025, almost 8.9 million Canadians with family income under $90,000 will not have dental-care coverage. Budget 2022 provides funding of $5.3 billion over five years, starting in 2022–23. The Canada dental benefit is an application-based upfront payment to eligible Canadians with an adjusted family net income of less than $90,000. The measure will begin with children under 12 years old in 2022 and 2023.
+
+Individuals will apply for the Canada dental benefit through the CRA’s My Account secure web portal service or by phone and will do all of the following:
+
+- agree to spend the funds on dental care services for their children.
+- confirm that they do not have access to private dental insurance.
+- provide the name, address and phone number of their employer(s) and their spouse’s or common-law partner’s employer(s).
+- provide their dentist’s name and contact information and date of dental appointment.
+- agree to have their (and if applicable, their spouse’s or common-law partner’s) income and other information verified. Applicants will be asked to keep their dental receipts, in case the CRA needs them to review eligibility.
+
+Approved applicants with an adjusted family net income under $70,000 will receive a direct payment of $650; with a stepped co-pay to Canadians with household income between $70,000 and $79,999 receiving $390 per individual (60% of the full benefit amount); and those earning between $80,000 and $89,999 receiving $260 per individual (40% of the full benefit amount). In cases of shared custody, each applicant will receive 50% of the amount, but each applicant receiving Canada child benefit payments must apply separately. Canada dental benefit payments will be issued by direct deposit or cheque to the address the CRA has on file.
+
+Existing authentication procedures and up-front validations to confirm the identity of an applicant will be used to make sure that only those entitled will have access to information over the phone and through the online My Account portal. Eligibility evaluators on the Canada.ca site will help potential applicants in determining eligibility before sending an application. No personal information will be collected or kept in the online evaluator.
+
+The CRA’s My Account portal will be used to streamline the application process for applicants and the CRA by reducing the number of questions and depth of details requested on the application. Those who cannot apply online (for example, due to limited or no Internet access, accessibility needs, or requiring clarification) will be able to apply through a CRA agent by calling a toll-free number.
+
+The CRA is well positioned to deliver benefit programs such as the Canada Dental Benefit Program because of the Agency’s extensive administrative, communications, and system frameworks.
+
+**Applications in year one** will be open from December 1, 2022, to June 30, 2023. The year-one payment will be for dental services received anytime between October 1, 2022 (or tabling of legislation), to June 30, 2023. Individuals will be able to apply online through MyAccount and over the phone. The intended audience in year one will be children under 12 years:
+
+- Children in year one will be defined as those under 12 (0-11) years old whose family unit receives the Canada child benefit.
+
+To be eligible for the Canada dental benefit in year one, an applicant must have a child under 12 on December 1, 2022, eligible for the Canada child benefit, and who is not covered by private dental care insurance. Also, the applicant must have a year 2021, adjusted, family net income under $90,000.
+
+**Applications in year two** will be open from July 1, 2023, to June 30, 2024, with year two payments covering dental services received during that period. The intended audience in year two will be children under 12 years:
+
+- Children in year two will be defined as those under 12 (0-11) years old whose family unit receives the Canada child benefit.
+
+Year two eligibility will be based on the Canada child benefit eligibility as of July 1, 2023, a year 2022, adjusted, family net income under $90,000, and the qualifying age of the child as of July 1, 2023.
+
+If dental-care expenses surpass $650 in any year, the eligible parent can apply for a second payment beginning in July 2023 of up to $650 for that dental-care expense. No more than $1,300 can be paid for a child’s dental expenses over the course of the two years. The risk of duplicate claims for payments for the overlap period will be managed through communications and compliance activities.
+
+Applicants will not have to wait until after a dental appointment has occurred to apply. As soon as a qualifying dental appointment has been booked, and the time frame to accept applications has opened, the applicant may apply for the Canada dental benefit to receive the payment in advance of the dental appointment.
+
+Income thresholds will be validated by the CRA using the tax data filed in the previous year. So, it is a requirement to file an income tax and benefit return in the most recent year to be eligible. However, a non-filer will have an opportunity before the end of the application period to file a return to establish eligibility. For all years, applicants need to reapply each year.
+
+In cases where there are duplicate applications for the same eligible dependant (for example, individuals under 12), individuals will only qualify for one annual payment. Only one annual payment will be issued per eligible child per applicant.
+
+The benefit will be limited to those without private insurance, but it will also be open to those with federal/provincial/territorial coverage. Though federal/provincial/territorial program beneficiaries may already have some coverage for care under other government programs, these applicants will not be excluded from the full benefit of the federal dental-care commitment.
+
+#### What’s New
+
+The Canada Dental Benefit Act is a new initiative of the Government of Canada. This Privacy Impact Assessment has been updated to reflect program changes in how the Canada Revenue Agency is authorized to administer the services and activities required to issue the Canada dental benefit payments.
+
+#### Scope of the Privacy Impact Assessment
+
+This privacy impact assessment covers the services and activities the Canada Revenue Agency conducts to administer the Canada dental benefit Program.
+
+Audits, criminal investigations, and other compliance activities are not included within the scope of this privacy impact assessment, nor are calculations, enforcement, and administration for the Canada child benefit and the federal/provincial/territorial income tax and benefit returns. These elements are governed by existing processes and infrastructure and already have privacy impact assessments. The Canada Child Benefit Program is covered under the Canada Child Benefits PIA IC-106098, income tax and benefit returns are covered under the Individual Returns Assessment Program PIA IC-129649, and criminal investigations are covered under the Criminal Investigations Program PIA IC-094794.
+
+Programs and initiatives that focus on economic benefits and credits constantly evolve. Therefore, when a new initiative or a change is identified, this privacy impact assessment will be reviewed and updated accordingly.
+
+## Risk identification and categorization
+
+### A) Type of program or activity
+
+Compliance / Regulatory investigations and enforcement
+
+#### Level of risk to privacy: 3
+
+#### Details:
+
+The personal information is used for identification, determination, validation and payment related to the interim Canada Dental Benefit Program.
+
+Information is also used to determine whether an individual knowingly participated in or made a false statement or omission. The consequences can include verification reviews, which may result in termination and/or recoup of benefit payments, and possibly levying civil penalties under section 23 of the Canada Dental Benefit Act.
+
+In limited cases, information obtained during the course of an audit may be referred to the Criminal Investigations Division of the CRA for further investigation against an individual. This may result in the laying of charges under section 27 of the Canada Dental Benefit Act.
+
+#### B) Type of personal information involved and context
+
+Social insurance number, medical, financial or other sensitive personal information and/or the context surrounding the personal information is sensitive. This involves the personal information of minors or incompetent individuals or involving a representative acting for an individual.
+
+#### Level of risk to privacy: 3
+
+#### Details:
+
+Personal information collected includes details such as name, contact information, financial information, age, information on the dental service provider and date of appointment, private dental insurance status, employer(s), social insurance number, marital status and residency. The personal information of minors is collected to administer this program.
+
+#### C) Program or activity partners and private sector involvement
+
+Private-sector organizations or international organizations or foreign governments
+
+#### Level of risk to privacy: 4
+
+#### Details:
+
+The program includes the services and activities required for the CRA’s administration and enforcement of the Canada dental benefit payments. Information (aggregated) is disclosed by the CRA to Health Canada for the purpose of program evaluation. Personal information is disclosed to Public Services and Procurement Canada for the issuing of payments.
+
+The information is also used internally within the CRA to collect outstanding balances, as well as for verification, appeals, statistical gathering, and responses to call centre enquiries.
+
+The program is designed to be paperless. However, if paper documents containing personal information are created, they will be stored by a third party in the private sector. The third-party request for proposal and contract were reviewed to clearly identify and address privacy-related requirements.
+
+#### D) Duration of the program or activity
+
+Short-term program
+
+#### Level of risk to privacy: 2
+
+#### Details:
+
+The Canada Dental Benefit Program only provides two years of benefit payments.
+
+The sunset date for the interim Canada Dental Benefit Program is five years from the date the Act receives royal assent.
+
+#### E) Program population
+
+The program affects certain individuals for external administrative purposes.
+
+#### Level of risk to privacy: 3
+
+#### Details:
+
+The program affects any individual who applies for the Canada dental benefit, their spouse or common-law partner and their children under 12 years of age.
+
+#### F) Technology & privacy
+
+1. Does the new or modified program or activity involve the implementation of a new electronic system, software or application program including collaborative software (or groupware) that is implemented to support the program or activity in terms of the creation, collection or handling of personal information?  
+
+   #### Risk to privacy: No
+2. Does the new or modified program or activity require any modifications to IT legacy systems and/or services?  
+
+   #### Risk to privacy: Yes
+3. Does the new or modified program or activity involve the implementation of one or more of the following technologies?
+
+**Enhanced identification methods** - this includes biometric technology (i.e. facial recognition, gait analysis, iris scan, fingerprint analysis, voice print, radio frequency identification (RFID), etc.) as well as easy pass technology, new identification cards including magnetic stripe cards, "smart cards" (i.e. identification cards that are embedded with either an antenna or a contact pad that is connected to a microprocessor and a memory chip or only a memory chip with non-programmable logic).
+
+#### Risk to privacy: No
+
+Use of Surveillance - this includes surveillance technologies such as audio/video recording devices, thermal imaging, recognition devices, RFID, surreptitious surveillance/interception, computer aided monitoring including audit trails, satellite surveillance etc.
+
+#### Risk to privacy: No
+
+Use of automated personal information analysis, personal information matching and knowledge discovery techniques - for the purposes of the Directive on PIA, government institutions are to identify those activities that involve the use of automated technology to analyze, create, compare, identify or extract personal information elements. Such activities would include personal information matching, record linkage, personal information mining, personal information comparison, knowledge discovery, information filtering or analysis. Such activities involve some form of artificial intelligence and/or machine learning to uncover knowledge (intelligence), trends/patterns or to predict behavior.
+
+#### Risk to privacy: Yes
+
+#### G) Personal information transmission
+
+The personal information is transmitted using wireless technologies.
+
+#### Level of risk to privacy: 4
+
+#### Details:
+
+Individuals submit their personal information in their Canada dental benefit application to the CRA electronically using a secure online portal with HTTP/S, My Account, via their personal wireless or non-wireless technology. Alternatively, they may send their personal information to the CRA through a call centre service using a land-based telephone line or a cellular phone. This protected information is then stored in various CRA systems and databases, which have access to other systems.
+
+#### Data transfers and exchanges
+
+All electronic transactions are securely transferred using encryption software ensuring that only the intended recipient can decrypt the file. In addition, all Internet-based web applications require the use of a unique user ID and password and multifactor authentication. In limited exceptional circumstances, personal information can be transferred to a departmentally-approved and secure portable device with a higher level of encryption.
+
+#### H) Potential risk that in the event of a privacy breach, there will be an impact on the individual or employee
+
+#### Details:
+
+If the personal information is compromised, it has the potential to cause financial harm and embarrassment to the affected individual, their spouse and the minor dependant(s). The affected individual(s) may also become a victim of identity theft, and their information may be used without their knowledge or consent.
+
+As a safeguard, the CRA continues to monitor for suspicious activities resulting from credential stuffing attacks. The CRA has also put measures in place to identify high-risk accounts in order to intercept potentially suspicious applications.

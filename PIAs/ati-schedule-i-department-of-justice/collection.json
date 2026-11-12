@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "collector_version": 1,
-  "collected_at_utc": "2026-11-12T01:50:33.560936+00:00",
+  "collector_version": 2,
+  "collected_at_utc": "2026-11-12T05:49:54.100909+00:00",
   "institution_id": "ati-schedule-i-department-of-justice",
   "gc_orgID": "2232.0",
   "open_canada_org_id": "5f70b0df-d227-47ef-81fe-eb3a47c4ff0a",
@@ -9,16 +9,36 @@
   "name_en": "Department of Justice",
   "name_fr": "Ministère de la Justice",
   "registry_membership": "current_registry",
-  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
   "list_pages": {
     "en": {
-      "indexed_url": null,
-      "index_resolution": "no_link_found",
+      "indexed_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/pia-efp.html",
+      "index_resolution": "list_detected",
       "pia_link_in_infosource": "N",
       "review_note": null,
-      "status": "no_indexed_url",
-      "captures": [],
-      "discovered_count": 0
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/pia-efp.html",
+          "final_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/pia-efp.html",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T05:40:03.592555+00:00",
+          "redirects": [],
+          "content_type": "text/html",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": null,
+          "etag": null,
+          "byte_count": 16701,
+          "sha256": "30c153e2e3becc08992ce2dab3a4933723c55edb32a7df66c66813eb3bd58845",
+          "raw_path": "raw/2658237aadd372ee13e2.html"
+        }
+      ],
+      "discovered_count": 9,
+      "scopes": [
+        "Privacy Impact Assessments"
+      ],
+      "warnings": []
     },
     "fr": {
       "indexed_url": null,
@@ -30,10 +50,1748 @@
       "discovered_count": 0
     }
   },
-  "pias": [],
+  "pias": [
+    {
+      "pia_id": "pia-2b7561193ca2",
+      "title_en": "Summary of the Social Media Monitoring with Agility Privacy Impact Assessment",
+      "title_fr": null,
+      "url_en": "https://www.justice.gc.ca/eng/trans/atip-aiprp/ssmma-ssmsa.html",
+      "url_fr": null,
+      "pairing_status": "missing_counterpart",
+      "pairing_method": "unpaired",
+      "pairing_evidence": null,
+      "sources": {
+        "en": {
+          "url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/ssmma-ssmsa.html",
+          "title_from_list": "Privacy Impact Assessment (PIA) summary for Social Media Monitoring with Agility",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/pia-efp.html",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/ssmma-ssmsa.html",
+              "title": "Privacy Impact Assessment (PIA) summary for Social Media Monitoring with Agility",
+              "list_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/pia-efp.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.justice.gc.ca/eng/trans/atip-aiprp/ssmma-ssmsa.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/ssmma-ssmsa.html",
+            "final_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/ssmma-ssmsa.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T05:49:22.927111+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 19412,
+            "sha256": "64add972a60194da66a4783699d6f183458882a08ed6a5a454bc91272c6fd883"
+          },
+          "raw_path": "raw/2b7561193ca22385a3c7.html",
+          "markdown_path": "pia-2b7561193ca2_en.md",
+          "markdown_sha256": "74a7b56741fb8210bb1c05a34c8145dc5508e087dfb32d0127e2e4422bda96ac",
+          "status": "exported",
+          "page_title": "Summary of the Social Media Monitoring with Agility Privacy Impact Assessment",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.justice.gc.ca/eng/includes/changelanguage.aspx"
+          },
+          "date_modified": "2026-02-13",
+          "date_published": "2026-02-06",
+          "has_pia_text": true,
+          "title": "Summary of the Social Media Monitoring with Agility Privacy Impact Assessment",
+          "conversion": "markdownify",
+          "text_sha256": "01abdd206a0dcdb5dbc6f1e638d7ff9887436e69e80dd8906547be742ee180bb",
+          "word_count": 804,
+          "pib_ids": [
+            "PSU 914"
+          ],
+          "cor_ids": []
+        }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSU 914",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 914"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-2b7561193ca2_en.md",
+                "line": 38,
+                "mention": "PSU 914",
+                "method": "explicit_pib_id",
+                "excerpt": "- Public Communications – PSU 914"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "PSU 914"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 804,
+      "word_count_fr": null,
+      "word_count_language": "en",
+      "word_count": 804
+    },
+    {
+      "pia_id": "pia-79322a4a254c",
+      "title_en": "Summary of the Financial Assistance for Canadians Victimized Abroad in Emergency Situations of Undue Hardship and Exceptional Circumstances Privacy Impact Assessment",
+      "title_fr": null,
+      "url_en": "https://www.justice.gc.ca/eng/trans/atip-aiprp/sfacvaesuhecpia-sefrpcafcvacesupdece.html",
+      "url_fr": null,
+      "pairing_status": "missing_counterpart",
+      "pairing_method": "unpaired",
+      "pairing_evidence": null,
+      "sources": {
+        "en": {
+          "url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/sfacvaesuhecpia-sefrpcafcvacesupdece.html",
+          "title_from_list": "Privacy Impact Assessment (PIA) summary for Financial Assistance for Canadians Victimized Abroad in Emergency Situations of Undue Hardship and Exceptional Circumstances",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/pia-efp.html",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/sfacvaesuhecpia-sefrpcafcvacesupdece.html",
+              "title": "Privacy Impact Assessment (PIA) summary for Financial Assistance for Canadians Victimized Abroad in Emergency Situations of Undue Hardship and Exceptional Circumstances",
+              "list_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/pia-efp.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.justice.gc.ca/eng/trans/atip-aiprp/sfacvaesuhecpia-sefrpcafcvacesupdece.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/sfacvaesuhecpia-sefrpcafcvacesupdece.html",
+            "final_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/sfacvaesuhecpia-sefrpcafcvacesupdece.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T05:49:22.879329+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 17590,
+            "sha256": "59fd623d3d96fb58d471dc57c4045d61187df0b01b45a48d09455317e681c7a2"
+          },
+          "raw_path": "raw/79322a4a254c176b7d4c.html",
+          "markdown_path": "pia-79322a4a254c_en.md",
+          "markdown_sha256": "ddea3705fc160519600d268dae4f366c3eca82948017ffc4ed8e157e660ac30a",
+          "status": "exported",
+          "page_title": "Summary of the Financial Assistance for Canadians Victimized Abroad in Emergency Situations of Undue Hardship and Exceptional Circumstances Privacy Impact Assessment",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.justice.gc.ca/eng/includes/changelanguage.aspx"
+          },
+          "date_modified": "2026-02-13",
+          "date_published": "2026-02-06",
+          "has_pia_text": true,
+          "title": "Summary of the Financial Assistance for Canadians Victimized Abroad in Emergency Situations of Undue Hardship and Exceptional Circumstances Privacy Impact Assessment",
+          "conversion": "markdownify",
+          "text_sha256": "464a6eef6b5e96cc982ebbd3a79fd7439f1f103336ab0ab1eafb938c04d6b430",
+          "word_count": 428,
+          "pib_ids": [
+            "JUS PPU 035"
+          ],
+          "cor_ids": [
+            "JUS JSS 114",
+            "PRN 914"
+          ]
+        }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "JUS PPU 035",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-justice",
+                "record_id": "JUS PPU 035"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-79322a4a254c_en.md",
+                "line": 42,
+                "mention": "JUS PPU 035",
+                "method": "explicit_pib_id",
+                "excerpt": "- JUS PPU 035 (not yet registered with Treasury Board Secretariat)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "JUS JSS 114",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-justice",
+                "record_id": "JUS JSS 114"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-79322a4a254c_en.md",
+                "line": 46,
+                "mention": "JUS JSS 114",
+                "method": "known_cor_id",
+                "excerpt": "- Federal Victims Strategy (JUS JSS 114)"
+              }
+            ]
+          },
+          {
+            "id": "PRN 914",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "914"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-79322a4a254c_en.md",
+                "line": 47,
+                "mention": "PRN 914",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "- Financial Management (PRN 914)"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "JUS PPU 035"
+      ],
+      "pib_count": 1,
+      "cor_ids": [
+        "JUS JSS 114",
+        "PRN 914"
+      ],
+      "cor_count": 2,
+      "word_count_en": 428,
+      "word_count_fr": null,
+      "word_count_language": "en",
+      "word_count": 428
+    },
+    {
+      "pia_id": "pia-6efae1f0be0b",
+      "title_en": "Summary of the Victims Fund Financial Assistance to Attend a Parole Board of Canada Hearing Privacy Impact Assessment",
+      "title_fr": null,
+      "url_en": "https://www.justice.gc.ca/eng/trans/atip-aiprp/svffaapbchpia-sefrpcaffavapaclcc.html",
+      "url_fr": null,
+      "pairing_status": "missing_counterpart",
+      "pairing_method": "unpaired",
+      "pairing_evidence": null,
+      "sources": {
+        "en": {
+          "url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/svffaapbchpia-sefrpcaffavapaclcc.html",
+          "title_from_list": "Privacy Impact Assessment (PIA) summary for Victims Fund Financial Assistance to Attend a Parole Board of Canada Hearing",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/pia-efp.html",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/svffaapbchpia-sefrpcaffavapaclcc.html",
+              "title": "Privacy Impact Assessment (PIA) summary for Victims Fund Financial Assistance to Attend a Parole Board of Canada Hearing",
+              "list_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/pia-efp.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.justice.gc.ca/eng/trans/atip-aiprp/svffaapbchpia-sefrpcaffavapaclcc.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/svffaapbchpia-sefrpcaffavapaclcc.html",
+            "final_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/svffaapbchpia-sefrpcaffavapaclcc.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T05:49:23.067757+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 18045,
+            "sha256": "6481eb4a56d638893b702e0f9c4b688ba40f0e62721afd6246c1e8f3c3386d77"
+          },
+          "raw_path": "raw/6efae1f0be0b1b16b267.html",
+          "markdown_path": "pia-6efae1f0be0b_en.md",
+          "markdown_sha256": "6dfb792650e8a5129c828ead79636414129eb25662a65907403509991e6d57ce",
+          "status": "exported",
+          "page_title": "Summary of the Victims Fund Financial Assistance to Attend a Parole Board of Canada Hearing Privacy Impact Assessment",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.justice.gc.ca/eng/includes/changelanguage.aspx"
+          },
+          "date_modified": "2026-02-13",
+          "date_published": "2026-02-06",
+          "has_pia_text": true,
+          "title": "Summary of the Victims Fund Financial Assistance to Attend a Parole Board of Canada Hearing Privacy Impact Assessment",
+          "conversion": "markdownify",
+          "text_sha256": "a4a6718c93be37154c9bdc2cde669144502740db318888b66726c3846394909f",
+          "word_count": 540,
+          "pib_ids": [
+            "JUS PPU 035"
+          ],
+          "cor_ids": [
+            "JUS JSS 114",
+            "PRN 914"
+          ]
+        }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "JUS PPU 035",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-justice",
+                "record_id": "JUS PPU 035"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-6efae1f0be0b_en.md",
+                "line": 42,
+                "mention": "JUS PPU 035",
+                "method": "explicit_pib_id",
+                "excerpt": "- JUS PPU 035 (not yet registered with Treasury Board Secretariat)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "JUS JSS 114",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-justice",
+                "record_id": "JUS JSS 114"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-6efae1f0be0b_en.md",
+                "line": 46,
+                "mention": "JUS JSS 114",
+                "method": "known_cor_id",
+                "excerpt": "- Federal Victims Strategy (JUS JSS 114)"
+              }
+            ]
+          },
+          {
+            "id": "PRN 914",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "914"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-6efae1f0be0b_en.md",
+                "line": 47,
+                "mention": "PRN 914",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "- Financial Management (PRN 914)"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "JUS PPU 035"
+      ],
+      "pib_count": 1,
+      "cor_ids": [
+        "JUS JSS 114",
+        "PRN 914"
+      ],
+      "cor_count": 2,
+      "word_count_en": 540,
+      "word_count_fr": null,
+      "word_count_language": "en",
+      "word_count": 540
+    },
+    {
+      "pia_id": "pia-0dc696df938f",
+      "title_en": "Privacy Impact Assessment ( PIA ) Summary for Staffing with VidCruiter",
+      "title_fr": null,
+      "url_en": "https://www.justice.gc.ca/eng/trans/atip-aiprp/ssvc-sdpvc.html",
+      "url_fr": null,
+      "pairing_status": "missing_counterpart",
+      "pairing_method": "unpaired",
+      "pairing_evidence": null,
+      "sources": {
+        "en": {
+          "url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/ssvc-sdpvc.html",
+          "title_from_list": "Privacy Impact Assessment (PIA) Summary for Staffing with VidCruiter",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/pia-efp.html",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/ssvc-sdpvc.html",
+              "title": "Privacy Impact Assessment (PIA) Summary for Staffing with VidCruiter",
+              "list_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/pia-efp.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.justice.gc.ca/eng/trans/atip-aiprp/ssvc-sdpvc.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/ssvc-sdpvc.html",
+            "final_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/ssvc-sdpvc.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T05:49:22.974228+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 18887,
+            "sha256": "ee7d9eebe57406c3d829fb1d559f251661e7dedf2a41a64ddae983460f6479e4"
+          },
+          "raw_path": "raw/0dc696df938feae66d1b.html",
+          "markdown_path": "pia-0dc696df938f_en.md",
+          "markdown_sha256": "f1d29f91dfcfcdd809b1c5221b37cfff089b0d59e4d7c978d41420a9b318915c",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment ( PIA ) Summary for Staffing with VidCruiter",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.justice.gc.ca/eng/includes/changelanguage.aspx"
+          },
+          "date_modified": "2026-02-05",
+          "date_published": "2025-04-03",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment ( PIA ) Summary for Staffing with VidCruiter",
+          "conversion": "markdownify",
+          "text_sha256": "814b8eb868c4da930b907687591dd2f734461aa1a58adb6812c772723b615446",
+          "word_count": 480,
+          "pib_ids": [
+            "JUS PPU 020",
+            "PSE 902",
+            "PSU 901",
+            "PSU 911"
+          ],
+          "cor_ids": [
+            "JUS IS 100"
+          ]
+        }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "JUS PPU 020",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-justice",
+                "record_id": "JUS PPU 020"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-0dc696df938f_en.md",
+                "line": 33,
+                "mention": "JUS PPU 020",
+                "method": "explicit_pib_id",
+                "excerpt": "Recruitment and Staffing Activities Using Virtual Staffing Tools (JUS PPU 020)"
+              }
+            ]
+          },
+          {
+            "id": "PSE 902",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 902"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-0dc696df938f_en.md",
+                "line": 31,
+                "mention": "PSE 902",
+                "method": "explicit_pib_id",
+                "excerpt": "Staffing (PSE 902)"
+              }
+            ]
+          },
+          {
+            "id": "PSU 901",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 901"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-0dc696df938f_en.md",
+                "line": 30,
+                "mention": "PSU 901",
+                "method": "explicit_pib_id",
+                "excerpt": "Employee Personnel Record (PSU 901)"
+              }
+            ]
+          },
+          {
+            "id": "PSU 911",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 911"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-0dc696df938f_en.md",
+                "line": 32,
+                "mention": "PSU 911",
+                "method": "explicit_pib_id",
+                "excerpt": "Application for Employment (PSU 911)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "JUS IS 100",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-justice",
+                "record_id": "JUS IS 100"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-0dc696df938f_en.md",
+                "line": 28,
+                "mention": "JUS IS 100",
+                "method": "known_cor_id",
+                "excerpt": "Justice Recruitment and Staffing (JUS IS 100)"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "JUS PPU 020",
+        "PSE 902",
+        "PSU 901",
+        "PSU 911"
+      ],
+      "pib_count": 4,
+      "cor_ids": [
+        "JUS IS 100"
+      ],
+      "cor_count": 1,
+      "word_count_en": 480,
+      "word_count_fr": null,
+      "word_count_language": "en",
+      "word_count": 480
+    },
+    {
+      "pia_id": "pia-e23c797b0ed6",
+      "title_en": "Privacy Impact Assessment (PIA) Summary for Legal Case Management Solution (LEX) for Legal Services",
+      "title_fr": null,
+      "url_en": "https://www.justice.gc.ca/eng/trans/atip-aiprp/pialex-efvplex.html",
+      "url_fr": null,
+      "pairing_status": "missing_counterpart",
+      "pairing_method": "unpaired",
+      "pairing_evidence": null,
+      "sources": {
+        "en": {
+          "url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/pialex-efvplex.html",
+          "title_from_list": "Privacy Impact Assessment (PIA) Summary for Legal Case Management Solution (LEX) for Legal Services",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/pia-efp.html",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/pialex-efvplex.html",
+              "title": "Privacy Impact Assessment (PIA) Summary for Legal Case Management Solution (LEX) for Legal Services",
+              "list_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/pia-efp.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.justice.gc.ca/eng/trans/atip-aiprp/pialex-efvplex.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/pialex-efvplex.html",
+            "final_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/pialex-efvplex.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T05:49:22.787634+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 18593,
+            "sha256": "c31b8e7d3b1c6b750b19bac1b29fdc3d31550648e60ac0a567fb9f1baa24e803"
+          },
+          "raw_path": "raw/e23c797b0ed60cfb8110.html",
+          "markdown_path": "pia-e23c797b0ed6_en.md",
+          "markdown_sha256": "fc5a18b41faf65b90981b0f7ce5cd53cf9d29641ca69c1e691f5b4590af67118",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment (PIA) Summary for Legal Case Management Solution (LEX) for Legal Services",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.justice.gc.ca/eng/includes/changelanguage.aspx"
+          },
+          "date_modified": "2025-01-23",
+          "date_published": "2024-11-27",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment (PIA) Summary for Legal Case Management Solution (LEX) for Legal Services",
+          "conversion": "markdownify",
+          "text_sha256": "629e4f76445d24e0bf43e8f00c363dd272bb04541e2f67c9fc0355f0c37a4c40",
+          "word_count": 619,
+          "pib_ids": [
+            "JUS PPU 010"
+          ],
+          "cor_ids": []
+        }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "JUS PPU 010",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-justice",
+                "record_id": "JUS PPU 010"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-e23c797b0ed6_en.md",
+                "line": 33,
+                "mention": "JUS PPU 010",
+                "method": "explicit_pib_id",
+                "excerpt": "Legal Proceedings and Services – JUS PPU 010"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "JUS PPU 010"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 619,
+      "word_count_fr": null,
+      "word_count_language": "en",
+      "word_count": 619
+    },
+    {
+      "pia_id": "pia-b3d17546f995",
+      "title_en": "Privacy Impact Assessment ( PIA ) Addendum Summary for the Central Registry of Divorce Proceedings ( CRDP )",
+      "title_fr": null,
+      "url_en": "https://www.justice.gc.ca/eng/trans/atip-aiprp/piacrdp-efvpbead.html",
+      "url_fr": null,
+      "pairing_status": "missing_counterpart",
+      "pairing_method": "unpaired",
+      "pairing_evidence": null,
+      "sources": {
+        "en": {
+          "url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/piacrdp-efvpbead.html",
+          "title_from_list": "Privacy Impact Assessment (PIA) Addendum Summary for the Central Registry of Divorce Proceedings (CRDP)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/pia-efp.html",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/piacrdp-efvpbead.html",
+              "title": "Privacy Impact Assessment (PIA) Addendum Summary for the Central Registry of Divorce Proceedings (CRDP)",
+              "list_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/pia-efp.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.justice.gc.ca/eng/trans/atip-aiprp/piacrdp-efvpbead.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/piacrdp-efvpbead.html",
+            "final_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/piacrdp-efvpbead.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T05:49:22.784594+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 20321,
+            "sha256": "80a09c5ffa056f9b98301b57df5e182fd2c5e5408819de34a9c5d5c0b525d62a"
+          },
+          "raw_path": "raw/b3d17546f995229565ba.html",
+          "markdown_path": "pia-b3d17546f995_en.md",
+          "markdown_sha256": "30a97202583787cb96e01158052d8ca35cc91f41f47327a33ec00c170fa77961",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment ( PIA ) Addendum Summary for the Central Registry of Divorce Proceedings ( CRDP )",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.justice.gc.ca/eng/includes/changelanguage.aspx"
+          },
+          "date_modified": "2021-08-06",
+          "date_published": "2021-02-01",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment ( PIA ) Addendum Summary for the Central Registry of Divorce Proceedings ( CRDP )",
+          "conversion": "markdownify",
+          "text_sha256": "90f818737d9ab0192178724389f1238e2d81469b6f28caa479011d8eabde3cc0",
+          "word_count": 654,
+          "pib_ids": [
+            "JUS PPU 005"
+          ],
+          "cor_ids": []
+        }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "JUS PPU 005",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-justice",
+                "record_id": "JUS PPU 005"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-b3d17546f995_en.md",
+                "line": 41,
+                "mention": "JUS PPU 005",
+                "method": "explicit_pib_id",
+                "excerpt": "Central Registry of Divorce Proceedings (JUS PPU 005)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "JUS PPU 005"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 654,
+      "word_count_fr": null,
+      "word_count_language": "en",
+      "word_count": 654
+    },
+    {
+      "pia_id": "pia-b7a062e252bf",
+      "title_en": "Privacy Impact Assessment (PIA) Summary for the Family Orders and Agreements Enforcement Assistance Act – Exchange with Employment and Social Development Canada",
+      "title_fr": null,
+      "url_en": "https://www.justice.gc.ca/eng/trans/atip-aiprp/summary-resume.html",
+      "url_fr": null,
+      "pairing_status": "missing_counterpart",
+      "pairing_method": "unpaired",
+      "pairing_evidence": null,
+      "sources": {
+        "en": {
+          "url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/summary-resume.html",
+          "title_from_list": "Privacy Impact Assessment (PIA) Summary for the Family Orders and Agreements Enforcement Assistance Act – Exchange with Employment and Social Development Canada",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/pia-efp.html",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/summary-resume.html",
+              "title": "Privacy Impact Assessment (PIA) Summary for the Family Orders and Agreements Enforcement Assistance Act – Exchange with Employment and Social Development Canada",
+              "list_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/pia-efp.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.justice.gc.ca/eng/trans/atip-aiprp/summary-resume.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/summary-resume.html",
+            "final_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/summary-resume.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T05:49:23.019994+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 18559,
+            "sha256": "938b7ccd45e539455c8302acaaffd00001b834f13d68f5a6488ab1f93eedd5c0"
+          },
+          "raw_path": "raw/b7a062e252bf373a222e.html",
+          "markdown_path": "pia-b7a062e252bf_en.md",
+          "markdown_sha256": "ee1c473eaec4e6a0f5b4fc39b873576bdfa7cade9bebbc1bd64d064513c7379e",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment (PIA) Summary for the Family Orders and Agreements Enforcement Assistance Act – Exchange with Employment and Social Development Canada",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.justice.gc.ca/eng/includes/changelanguage.aspx"
+          },
+          "date_modified": "2021-08-06",
+          "date_published": "2019-09-20",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment (PIA) Summary for the Family Orders and Agreements Enforcement Assistance Act – Exchange with Employment and Social Development Canada",
+          "conversion": "markdownify",
+          "text_sha256": "70f1afff4690090d404452997d07c7c4cdd7be2f5c274dee549ca060bddce30a",
+          "word_count": 629,
+          "pib_ids": [
+            "ESDC PPU 171",
+            "JUS PPU 125"
+          ],
+          "cor_ids": []
+        }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "ESDC PPU 171",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-employment-and-social-development",
+                "record_id": "ESDC PPU 171"
+              },
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-canada-employment-insurance-commission",
+                "record_id": "ESDC PPU 171"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-b7a062e252bf_en.md",
+                "line": 60,
+                "mention": "ESDC PPU 171",
+                "method": "explicit_pib_id",
+                "excerpt": "- Designate additional information banks that can be searched to locate a support debtor: the Employment Insurance Program Investigation (ESDC PPU 171), containing information from the Automated Earnings Reporting System (AERS) and the Report on Hiring’s (ROH) datasets consisting of information submitted by employers to ESDC on newly hired persons (“new hires”)."
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-b7a062e252bf_en.md",
+                "line": 61,
+                "mention": "ESDC PPU 171",
+                "method": "explicit_pib_id",
+                "excerpt": "- Authorize new exchange activity between ESDC and Justice Canada pursuant to the disclosure of information from the Employment Insurance Program Investigation (ESDC PPU 171) that will entail a monthly exchange of personal information between ESDC and Justice Canada; and"
+              }
+            ]
+          },
+          {
+            "id": "JUS PPU 125",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-justice",
+                "record_id": "JUS PPU 125"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-b7a062e252bf_en.md",
+                "line": 46,
+                "mention": "JUS PPU 125",
+                "method": "explicit_pib_id",
+                "excerpt": "Family Orders and Agreement Enforcement Assistance (JUS PPU 125)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "ESDC PPU 171",
+        "JUS PPU 125"
+      ],
+      "pib_count": 2,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 629,
+      "word_count_fr": null,
+      "word_count_language": "en",
+      "word_count": 629
+    },
+    {
+      "pia_id": "pia-995d74b3715c",
+      "title_en": "Privacy Impact Assessment (PIA) Summary for the Central Registry of Divorce Proceedings (CRDP)",
+      "title_fr": null,
+      "url_en": "https://www.justice.gc.ca/eng/trans/atip-aiprp/pia_crdp-efp_bead.html",
+      "url_fr": null,
+      "pairing_status": "missing_counterpart",
+      "pairing_method": "unpaired",
+      "pairing_evidence": null,
+      "sources": {
+        "en": {
+          "url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/pia_crdp-efp_bead.html",
+          "title_from_list": "Central Registry of Divorce Proceedings (CRDP)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/pia-efp.html",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/pia_crdp-efp_bead.html",
+              "title": "Central Registry of Divorce Proceedings (CRDP)",
+              "list_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/pia-efp.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.justice.gc.ca/eng/trans/atip-aiprp/pia_crdp-efp_bead.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/pia_crdp-efp_bead.html",
+            "final_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/pia_crdp-efp_bead.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T05:41:49.624436+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 21745,
+            "sha256": "dcfcc0a7cd52ccdb6946c212154fc9576457f4eec881f11d67c1266a591ebd43"
+          },
+          "raw_path": "raw/995d74b3715cc57ca15f.html",
+          "markdown_path": "pia-995d74b3715c_en.md",
+          "markdown_sha256": "7a52ba708ae52f6de14810857ee7741957e5797382790740c2ef16697a8b30ef",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment (PIA) Summary for the Central Registry of Divorce Proceedings (CRDP)",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.justice.gc.ca/eng/includes/changelanguage.aspx"
+          },
+          "date_modified": "2021-08-06",
+          "date_published": "2001-08-02",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment (PIA) Summary for the Central Registry of Divorce Proceedings (CRDP)",
+          "conversion": "markdownify",
+          "text_sha256": "b204da94bc8cfdc25ebacb87a80950ca7442131b6228ac5396f1f162590e6bc1",
+          "word_count": 918,
+          "pib_ids": [
+            "JUS PPU 005"
+          ],
+          "cor_ids": []
+        }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "JUS PPU 005",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-justice",
+                "record_id": "JUS PPU 005"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-995d74b3715c_en.md",
+                "line": 40,
+                "mention": "JUS PPU 005",
+                "method": "explicit_pib_id",
+                "excerpt": "Central Registry of Divorce Proceedings (JUS PPU 005)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "JUS PPU 005"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 918,
+      "word_count_fr": null,
+      "word_count_language": "en",
+      "word_count": 918
+    },
+    {
+      "pia_id": "pia-43fa67912f78",
+      "title_en": "Privacy Impact Assessment (PIA) Summary of PeopleSoft Version 8.9 and Security Module",
+      "title_fr": null,
+      "url_en": "https://www.justice.gc.ca/eng/trans/atip-aiprp/piaps-efvpps.html",
+      "url_fr": null,
+      "pairing_status": "missing_counterpart",
+      "pairing_method": "unpaired",
+      "pairing_evidence": null,
+      "sources": {
+        "en": {
+          "url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/piaps-efvpps.html",
+          "title_from_list": "Privacy Impact Assessment (PIA) Summary of PeopleSoft Version 8.9 and Security Module",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/pia-efp.html",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/piaps-efvpps.html",
+              "title": "Privacy Impact Assessment (PIA) Summary of PeopleSoft Version 8.9 and Security Module",
+              "list_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/pia-efp.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.justice.gc.ca/eng/trans/atip-aiprp/piaps-efvpps.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/piaps-efvpps.html",
+            "final_url": "https://www.justice.gc.ca/eng/trans/atip-aiprp/piaps-efvpps.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T05:49:22.833579+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 42001,
+            "sha256": "16591a702c5c090b4098afcfa9f3391e885847f4a55a49d80f64cbd8e17b7584"
+          },
+          "raw_path": "raw/43fa67912f783bd67289.html",
+          "markdown_path": "pia-43fa67912f78_en.md",
+          "markdown_sha256": "3970229764c7f54a73db12959467252aad96bade3aa56d6d7e337d72d93efccd",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment (PIA) Summary of PeopleSoft Version 8.9 and Security Module",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.justice.gc.ca/eng/includes/changelanguage.aspx"
+          },
+          "date_modified": "2026-02-05",
+          "date_published": "2025-07-29",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment (PIA) Summary of PeopleSoft Version 8.9 and Security Module",
+          "conversion": "markdownify",
+          "text_sha256": "8855c899a7930a4fe4bfdfd191b9e1486136775abd38b710a5e14e5263cc3d47",
+          "word_count": 2873,
+          "pib_ids": [
+            "PSE 901",
+            "PSE 902",
+            "PSE 903",
+            "PSE 904",
+            "PSE 905",
+            "PSE 906",
+            "PSE 907",
+            "PSE 910",
+            "PSE 911",
+            "PSE 912",
+            "PSE 915",
+            "PSE 918",
+            "PSE 919",
+            "PSE 920",
+            "PSU 917",
+            "RCMP PPU 065",
+            "SIS PPE 815"
+          ],
+          "cor_ids": [
+            "PRN 919",
+            "PRN 920",
+            "PRN 923",
+            "PRN 927",
+            "PRN 931",
+            "PRN 936",
+            "PRN 940",
+            "PRN 941",
+            "PRN 942",
+            "PRN 944",
+            "PRN 946"
+          ]
+        }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSE 901",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 901"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-43fa67912f78_en.md",
+                "line": 63,
+                "mention": "PSE 901",
+                "method": "explicit_pib_id",
+                "excerpt": "- Employee Personnel Records (PSE 901)"
+              }
+            ]
+          },
+          {
+            "id": "PSE 902",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 902"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-43fa67912f78_en.md",
+                "line": 61,
+                "mention": "PSE 902",
+                "method": "explicit_pib_id",
+                "excerpt": "- Staffing (PSE 902)"
+              }
+            ]
+          },
+          {
+            "id": "PSE 903",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 903"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-43fa67912f78_en.md",
+                "line": 60,
+                "mention": "PSE 903",
+                "method": "explicit_pib_id",
+                "excerpt": "- Attendance and Leave (PSE 903)"
+              }
+            ]
+          },
+          {
+            "id": "PSE 904",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 904"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-43fa67912f78_en.md",
+                "line": 69,
+                "mention": "PSE 904",
+                "method": "explicit_pib_id",
+                "excerpt": "- Pay and Benefits (PSE 904)"
+              }
+            ]
+          },
+          {
+            "id": "PSE 905",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 905"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-43fa67912f78_en.md",
+                "line": 72,
+                "mention": "PSE 905",
+                "method": "explicit_pib_id",
+                "excerpt": "- Training and Development (PSE 905)"
+              }
+            ]
+          },
+          {
+            "id": "PSE 906",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 906"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-43fa67912f78_en.md",
+                "line": 68,
+                "mention": "PSE 906",
+                "method": "explicit_pib_id",
+                "excerpt": "- Official Languages (PSE 906)"
+              }
+            ]
+          },
+          {
+            "id": "PSE 907",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 907"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-43fa67912f78_en.md",
+                "line": 67,
+                "mention": "PSE 907",
+                "method": "explicit_pib_id",
+                "excerpt": "- Occupational Safety and Health (PSE 907)"
+              }
+            ]
+          },
+          {
+            "id": "PSE 910",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 910"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-43fa67912f78_en.md",
+                "line": 65,
+                "mention": "PSE 910",
+                "method": "explicit_pib_id",
+                "excerpt": "- Grievances (PSE 910)"
+              }
+            ]
+          },
+          {
+            "id": "PSE 911",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 911"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-43fa67912f78_en.md",
+                "line": 62,
+                "mention": "PSE 911",
+                "method": "explicit_pib_id",
+                "excerpt": "- Discipline (PSE 911)"
+              }
+            ]
+          },
+          {
+            "id": "PSE 912",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 912"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-43fa67912f78_en.md",
+                "line": 70,
+                "mention": "PSE 912",
+                "method": "explicit_pib_id",
+                "excerpt": "- Employee Performance Management Program (PSE 912)"
+              }
+            ]
+          },
+          {
+            "id": "PSE 915",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 915"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-43fa67912f78_en.md",
+                "line": 73,
+                "mention": "PSE 915",
+                "method": "explicit_pib_id",
+                "excerpt": "- Values and Ethics Codes for the Public Sector and Organizational Code(s) of Conduct (PSE 915)"
+              }
+            ]
+          },
+          {
+            "id": "PSE 918",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 918"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-43fa67912f78_en.md",
+                "line": 64,
+                "mention": "PSE 918",
+                "method": "explicit_pib_id",
+                "excerpt": "- Employee Equity and Diversity (PSE 918)"
+              }
+            ]
+          },
+          {
+            "id": "PSE 919",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 919"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-43fa67912f78_en.md",
+                "line": 66,
+                "mention": "PSE 919",
+                "method": "explicit_pib_id",
+                "excerpt": "- Harassment (PSE 919)"
+              }
+            ]
+          },
+          {
+            "id": "PSE 920",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 920"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-43fa67912f78_en.md",
+                "line": 71,
+                "mention": "PSE 920",
+                "method": "explicit_pib_id",
+                "excerpt": "- Recognition Program (PSE 920)"
+              }
+            ]
+          },
+          {
+            "id": "PSU 917",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 917"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-43fa67912f78_en.md",
+                "line": 74,
+                "mention": "PSU 917",
+                "method": "explicit_pib_id",
+                "excerpt": "- Personnel Security Screening (PSU 917)"
+              }
+            ]
+          },
+          {
+            "id": "RCMP PPU 065",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-royal-canadian-mounted-police",
+                "record_id": "RCMP PPU 065"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-43fa67912f78_en.md",
+                "line": 75,
+                "mention": "CMP PPU 065",
+                "method": "explicit_pib_id",
+                "excerpt": "- RCMP – Security/Reliability Screening Records (CMP PPU 065)"
+              }
+            ]
+          },
+          {
+            "id": "SIS PPE 815",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-canadian-security-intelligence-service",
+                "record_id": "SIS PPE 815"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-43fa67912f78_en.md",
+                "line": 76,
+                "mention": "SIS PPE 815",
+                "method": "explicit_pib_id",
+                "excerpt": "- CSIS Employee Security (SIS PPE 815)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "PRN 919",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "919"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-43fa67912f78_en.md",
+                "line": 46,
+                "mention": "PRN 919",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "- Classification of Positions (PRN 919)"
+              }
+            ]
+          },
+          {
+            "id": "PRN 920",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "920"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-43fa67912f78_en.md",
+                "line": 52,
+                "mention": "PRN 920",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "- Recruitment and Staffing (PRN 920)"
+              }
+            ]
+          },
+          {
+            "id": "PRN 923",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "923"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-43fa67912f78_en.md",
+                "line": 50,
+                "mention": "PRN 923",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "- Official Languages (PRN 923)"
+              }
+            ]
+          },
+          {
+            "id": "PRN 927",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "927"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-43fa67912f78_en.md",
+                "line": 55,
+                "mention": "PRN 927",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "- Training and Development (PRN 927)"
+              }
+            ]
+          },
+          {
+            "id": "PRN 931",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "931"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-43fa67912f78_en.md",
+                "line": 54,
+                "mention": "PRN 931",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "- Security (PRN 931)"
+              }
+            ]
+          },
+          {
+            "id": "PRN 936",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "936"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-43fa67912f78_en.md",
+                "line": 53,
+                "mention": "PRN 936",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "- Relocation (PRN 936)"
+              }
+            ]
+          },
+          {
+            "id": "PRN 940",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "940"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-43fa67912f78_en.md",
+                "line": 45,
+                "mention": "PRN 940",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "- Awards Pride and Recognition (PRN 940)"
+              }
+            ]
+          },
+          {
+            "id": "PRN 941",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "941"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-43fa67912f78_en.md",
+                "line": 47,
+                "mention": "PRN 941",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "- Compensation and Benefits (PRN 941)"
+              }
+            ]
+          },
+          {
+            "id": "PRN 942",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "942"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-43fa67912f78_en.md",
+                "line": 48,
+                "mention": "PRN 942",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "- Employment Equity and Diversity (PRN 942)"
+              }
+            ]
+          },
+          {
+            "id": "PRN 944",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "944"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-43fa67912f78_en.md",
+                "line": 49,
+                "mention": "PRN 944",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "- Information Management (PRN 944)"
+              }
+            ]
+          },
+          {
+            "id": "PRN 946",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "946"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-justice/pia-43fa67912f78_en.md",
+                "line": 51,
+                "mention": "PRN 946",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "- Performance Management Reviews (PRN 946)"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "PSE 901",
+        "PSE 902",
+        "PSE 903",
+        "PSE 904",
+        "PSE 905",
+        "PSE 906",
+        "PSE 907",
+        "PSE 910",
+        "PSE 911",
+        "PSE 912",
+        "PSE 915",
+        "PSE 918",
+        "PSE 919",
+        "PSE 920",
+        "PSU 917",
+        "RCMP PPU 065",
+        "SIS PPE 815"
+      ],
+      "pib_count": 17,
+      "cor_ids": [
+        "PRN 919",
+        "PRN 920",
+        "PRN 923",
+        "PRN 927",
+        "PRN 931",
+        "PRN 936",
+        "PRN 940",
+        "PRN 941",
+        "PRN 942",
+        "PRN 944",
+        "PRN 946"
+      ],
+      "cor_count": 11,
+      "word_count_en": 2873,
+      "word_count_fr": null,
+      "word_count_language": "en",
+      "word_count": 2873
+    }
+  ],
   "summary": {
-    "pia_count": 0,
+    "pia_count": 9,
     "paired_count": 0,
-    "source_status_counts": {}
+    "source_status_counts": {
+      "exported": 9
+    }
   }
 }

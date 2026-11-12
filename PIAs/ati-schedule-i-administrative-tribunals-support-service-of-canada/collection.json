@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "collector_version": 1,
-  "collected_at_utc": "2026-11-12T01:50:37.699288+00:00",
+  "collector_version": 2,
+  "collected_at_utc": "2026-11-12T05:49:58.099583+00:00",
   "institution_id": "ati-schedule-i-administrative-tribunals-support-service-of-canada",
   "gc_orgID": "2297.0",
   "open_canada_org_id": "89a7ab6c-c736-11e4-aef9-08002710fcd5",
@@ -9,31 +9,274 @@
   "name_en": "Administrative Tribunals Support Service of Canada",
   "name_fr": "Service canadien d’appui aux tribunaux administratifs",
   "registry_membership": "current_registry",
-  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
   "list_pages": {
     "en": {
-      "indexed_url": null,
-      "index_resolution": "no_link_found",
+      "indexed_url": "https://www.canada.ca/en/administrative-tribunals-support-service/transparency/privacy-impact-assessments.html",
+      "index_resolution": "list_detected",
       "pia_link_in_infosource": "N",
       "review_note": null,
-      "status": "no_indexed_url",
-      "captures": [],
-      "discovered_count": 0
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.canada.ca/en/administrative-tribunals-support-service/transparency/privacy-impact-assessments.html",
+          "final_url": "https://www.canada.ca/en/administrative-tribunals-support-service/transparency/privacy-impact-assessments.html",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T05:40:08.856578+00:00",
+          "redirects": [],
+          "content_type": "text/html;charset=utf-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Thu, 12 Nov 2026 04:20:10 GMT",
+          "etag": null,
+          "byte_count": 21217,
+          "sha256": "540ea57e81b0444ab5470fa74c48496953eb64f112645dc8db529dbf09aa5af0",
+          "raw_path": "raw/d80e435044fe3eb6a49d.html"
+        }
+      ],
+      "discovered_count": 1,
+      "scopes": [
+        "Privacy Impact Assessment Summaries"
+      ],
+      "warnings": []
     },
     "fr": {
-      "indexed_url": null,
-      "index_resolution": "no_link_found",
+      "indexed_url": "https://www.canada.ca/fr/service-canadien-appui-tribunaux-administratifs/transparence/sommaires-evaluation-des-facteurs-relatifs-a-la-vie-privee.html",
+      "index_resolution": "list_detected",
       "pia_link_in_infosource": "N",
       "review_note": null,
-      "status": "no_indexed_url",
-      "captures": [],
-      "discovered_count": 0
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.canada.ca/fr/service-canadien-appui-tribunaux-administratifs/transparence/sommaires-evaluation-des-facteurs-relatifs-a-la-vie-privee.html",
+          "final_url": "https://www.canada.ca/fr/service-canadien-appui-tribunaux-administratifs/transparence/sommaires-evaluation-des-facteurs-relatifs-a-la-vie-privee.html",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T05:40:28.368480+00:00",
+          "redirects": [],
+          "content_type": "text/html;charset=utf-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Thu, 12 Nov 2026 05:40:28 GMT",
+          "etag": null,
+          "byte_count": 21930,
+          "sha256": "34e9458fd091fa4b3bfa5d5867a4f47461fef3d2abc6471b0f680852ba0cd241",
+          "raw_path": "raw/675a378c34055a45e0c9.html"
+        }
+      ],
+      "discovered_count": 1,
+      "scopes": [
+        "Sommaires d’évaluation des facteurs relatifs à la vie privée"
+      ],
+      "warnings": []
     }
   },
-  "pias": [],
+  "pias": [
+    {
+      "pia_id": "pia-95a42118fc3d",
+      "title_en": "Privacy Impact Assessment of the Security Screening Portal tool",
+      "title_fr": "Évaluation des facteurs relatifs à la vie privée du Portail de filtrage de sécurité",
+      "url_en": "https://www.canada.ca/en/administrative-tribunals-support-service/transparency/privacy-impact-assessments/privacy-impact-assessment-of-the-security-screening-portal-tool.html",
+      "url_fr": "https://www.canada.ca/fr/service-canadien-appui-tribunaux-administratifs/transparence/sommaires-evaluation-des-facteurs-relatifs-a-la-vie-privee/evaluation-des-facteurs-relatifs-a-la-vie-privee-du-portail-de-filtrage-de-securite.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/administrative-tribunals-support-service/transparency/privacy-impact-assessments/privacy-impact-assessment-of-the-security-screening-portal-tool.html",
+        "alternate_url": "https://www.canada.ca/fr/service-canadien-appui-tribunaux-administratifs/transparence/sommaires-evaluation-des-facteurs-relatifs-a-la-vie-privee/evaluation-des-facteurs-relatifs-a-la-vie-privee-du-portail-de-filtrage-de-securite.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/administrative-tribunals-support-service/transparency/privacy-impact-assessments/privacy-impact-assessment-of-the-security-screening-portal-tool.html",
+          "title_from_list": "Privacy Impact Assessment of the Security Screening Portal tool",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/administrative-tribunals-support-service/transparency/privacy-impact-assessments.html",
+          "discovered_under": "Privacy Impact Assessment Summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/administrative-tribunals-support-service/transparency/privacy-impact-assessments/privacy-impact-assessment-of-the-security-screening-portal-tool.html",
+              "title": "Privacy Impact Assessment of the Security Screening Portal tool",
+              "list_url": "https://www.canada.ca/en/administrative-tribunals-support-service/transparency/privacy-impact-assessments.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/administrative-tribunals-support-service/transparency/privacy-impact-assessments/privacy-impact-assessment-of-the-security-screening-portal-tool.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/administrative-tribunals-support-service/transparency/privacy-impact-assessments/privacy-impact-assessment-of-the-security-screening-portal-tool.html",
+            "final_url": "https://www.canada.ca/en/administrative-tribunals-support-service/transparency/privacy-impact-assessments/privacy-impact-assessment-of-the-security-screening-portal-tool.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T05:48:59.391823+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 05:48:59 GMT",
+            "etag": null,
+            "byte_count": 23990,
+            "sha256": "76c9a7bcbed5336cdfdd0682e358e8052d1a18d028e991d220bc67d0c972e5d0"
+          },
+          "raw_path": "raw/95a42118fc3db9e4acc9.html",
+          "markdown_path": "pia-95a42118fc3d_en.md",
+          "markdown_sha256": "a7aa4b7ce500eccafcfa348c01ac827e9592c867c5572048f6ca0b0ec7850288",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment of the Security Screening Portal tool",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/administrative-tribunals-support-service/transparency/privacy-impact-assessments/privacy-impact-assessment-of-the-security-screening-portal-tool.html",
+            "fr": "https://www.canada.ca/fr/service-canadien-appui-tribunaux-administratifs/transparence/sommaires-evaluation-des-facteurs-relatifs-a-la-vie-privee/evaluation-des-facteurs-relatifs-a-la-vie-privee-du-portail-de-filtrage-de-securite.html"
+          },
+          "date_modified": "2026-05-28",
+          "date_published": "2026-05-28",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment of the Security Screening Portal tool",
+          "conversion": "markdownify",
+          "text_sha256": "5bcee694a2893986816c53c098fa7adbe3907ef6c9f4f1f9f882f1f635a52000",
+          "word_count": 328,
+          "pib_ids": [
+            "PSU 905",
+            "PSU 917"
+          ],
+          "cor_ids": []
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/service-canadien-appui-tribunaux-administratifs/transparence/sommaires-evaluation-des-facteurs-relatifs-a-la-vie-privee/evaluation-des-facteurs-relatifs-a-la-vie-privee-du-portail-de-filtrage-de-securite.html",
+          "title_from_list": "Évaluation des facteurs relatifs à la vie privée du Portail de filtrage de sécurité",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/service-canadien-appui-tribunaux-administratifs/transparence/sommaires-evaluation-des-facteurs-relatifs-a-la-vie-privee.html",
+          "discovered_under": "Sommaires d’évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/service-canadien-appui-tribunaux-administratifs/transparence/sommaires-evaluation-des-facteurs-relatifs-a-la-vie-privee/evaluation-des-facteurs-relatifs-a-la-vie-privee-du-portail-de-filtrage-de-securite.html",
+              "title": "Évaluation des facteurs relatifs à la vie privée du Portail de filtrage de sécurité",
+              "list_url": "https://www.canada.ca/fr/service-canadien-appui-tribunaux-administratifs/transparence/sommaires-evaluation-des-facteurs-relatifs-a-la-vie-privee.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/service-canadien-appui-tribunaux-administratifs/transparence/sommaires-evaluation-des-facteurs-relatifs-a-la-vie-privee/evaluation-des-facteurs-relatifs-a-la-vie-privee-du-portail-de-filtrage-de-securite.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/service-canadien-appui-tribunaux-administratifs/transparence/sommaires-evaluation-des-facteurs-relatifs-a-la-vie-privee/evaluation-des-facteurs-relatifs-a-la-vie-privee-du-portail-de-filtrage-de-securite.html",
+            "final_url": "https://www.canada.ca/fr/service-canadien-appui-tribunaux-administratifs/transparence/sommaires-evaluation-des-facteurs-relatifs-a-la-vie-privee/evaluation-des-facteurs-relatifs-a-la-vie-privee-du-portail-de-filtrage-de-securite.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T05:49:17.637506+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 05:49:17 GMT",
+            "etag": null,
+            "byte_count": 25228,
+            "sha256": "10616305837ad5fb4fc02b863e8673651ba04a257e077b8a0bb84973ed4df616"
+          },
+          "raw_path": "raw/674cd31cded393d13a20.html",
+          "markdown_path": "pia-95a42118fc3d_fr.md",
+          "markdown_sha256": "f758eefe1f612178f5dd02db1e4c4f2dc1f75b183dffc4a95cfef31c799613c5",
+          "status": "exported",
+          "page_title": "Évaluation des facteurs relatifs à la vie privée du Portail de filtrage de sécurité",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/service-canadien-appui-tribunaux-administratifs/transparence/sommaires-evaluation-des-facteurs-relatifs-a-la-vie-privee/evaluation-des-facteurs-relatifs-a-la-vie-privee-du-portail-de-filtrage-de-securite.html",
+            "en": "https://www.canada.ca/en/administrative-tribunals-support-service/transparency/privacy-impact-assessments/privacy-impact-assessment-of-the-security-screening-portal-tool.html"
+          },
+          "date_modified": "2026-05-28",
+          "date_published": "2026-05-28",
+          "has_pia_text": true,
+          "title": "Évaluation des facteurs relatifs à la vie privée du Portail de filtrage de sécurité",
+          "conversion": "markdownify",
+          "text_sha256": "211f5db1f3f296b94f2d8f73bf92d9ea6774c180c977111bf14266b4674f19b2",
+          "word_count": 432,
+          "pib_ids": [
+            "PSU 905",
+            "PSU 917"
+          ],
+          "cor_ids": []
+        }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSU 905",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 905"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-administrative-tribunals-support-service-of-canada/pia-95a42118fc3d_en.md",
+                "line": 47,
+                "mention": "PSU 905",
+                "method": "explicit_pib_id",
+                "excerpt": "- Electronic Network Monitoring Logs (PSU 905)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-administrative-tribunals-support-service-of-canada/pia-95a42118fc3d_fr.md",
+                "line": 47,
+                "mention": "POU 905",
+                "method": "explicit_pib_id",
+                "excerpt": "- Journaux de contrôle des réseaux électroniques (POU 905)."
+              }
+            ]
+          },
+          {
+            "id": "PSU 917",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 917"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-administrative-tribunals-support-service-of-canada/pia-95a42118fc3d_en.md",
+                "line": 46,
+                "mention": "PSU 917",
+                "method": "explicit_pib_id",
+                "excerpt": "- Personnel Security Screening (PSU 917)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-administrative-tribunals-support-service-of-canada/pia-95a42118fc3d_fr.md",
+                "line": 46,
+                "mention": "POU 917",
+                "method": "explicit_pib_id",
+                "excerpt": "- Filtrage de sécurité du personnel (POU 917);"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "PSU 905",
+        "PSU 917"
+      ],
+      "pib_count": 2,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 328,
+      "word_count_fr": 432,
+      "word_count_language": "en",
+      "word_count": 328
+    }
+  ],
   "summary": {
-    "pia_count": 0,
-    "paired_count": 0,
-    "source_status_counts": {}
+    "pia_count": 1,
+    "paired_count": 1,
+    "source_status_counts": {
+      "exported": 2
+    }
   }
 }

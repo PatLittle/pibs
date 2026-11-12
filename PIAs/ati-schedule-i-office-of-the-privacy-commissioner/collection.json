@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "collector_version": 1,
-  "collected_at_utc": "2026-11-12T01:50:42.121126+00:00",
+  "collector_version": 2,
+  "collected_at_utc": "2026-11-12T05:50:14.242300+00:00",
   "institution_id": "ati-schedule-i-office-of-the-privacy-commissioner",
   "gc_orgID": "2282.0",
   "open_canada_org_id": "1E85EDF7-8D3C-4E68-8B47-D17B5A69BD42",
@@ -9,7 +9,7 @@
   "name_en": "Office of the Privacy Commissioner",
   "name_fr": "Commissariat à la protection de la vie privée",
   "registry_membership": "current_registry",
-  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
   "list_pages": {
     "en": {
       "indexed_url": "https://www.priv.gc.ca/en/privacy-topics/federal-government-privacy/privacy-impact-assessments/",
@@ -162,7 +162,12 @@
           "title": "Privacy impact assessment summary for the Office of the Privacy Commissioner of Canada Youth Council",
           "conversion": "markdownify",
           "text_sha256": "ce1e389f1697f5475ad17312680e3f9fa1c1a038e4aeeb4fe955cfae5c2e78dc",
-          "word_count": 416
+          "word_count": 416,
+          "pib_ids": [
+            "PSU 919",
+            "PSU 938"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_cj/",
@@ -212,9 +217,87 @@
           "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée du Conseil jeunesse du Commissariat à la protection de la vie privée du Canada",
           "conversion": "markdownify",
           "text_sha256": "9371df38549f006b4e3c1f54bccfc72a4c81d5307494c22e5ec68e604e671a8f",
-          "word_count": 581
+          "word_count": 581,
+          "pib_ids": [
+            "PSU 919",
+            "PSU 938"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSU 919",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 919"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-2092b8840af2_en.md",
+                "line": 69,
+                "mention": "PSU 919",
+                "method": "explicit_pib_id",
+                "excerpt": "Standard PIB (PSU 919) Members of Boards, Committees and Councils to cover the application and appointment process."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-2092b8840af2_fr.md",
+                "line": 69,
+                "mention": "POU 919",
+                "method": "explicit_pib_id",
+                "excerpt": "Fichier de renseignements personnels (FRP) ordinaire (POU 919)"
+              }
+            ]
+          },
+          {
+            "id": "PSU 938",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 938"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-2092b8840af2_en.md",
+                "line": 71,
+                "mention": "PSU 938",
+                "method": "explicit_pib_id",
+                "excerpt": "Standard PIB (PSU 938)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-2092b8840af2_fr.md",
+                "line": 72,
+                "mention": "POU 938",
+                "method": "explicit_pib_id",
+                "excerpt": "FRP ordinaire (POU 938)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "PSU 919",
+        "PSU 938"
+      ],
+      "pib_count": 2,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 416,
+      "word_count_fr": 581,
+      "word_count_language": "en",
+      "word_count": 416
     },
     {
       "pia_id": "pia-01c195371b0b",
@@ -277,7 +360,62 @@
           "title": "Privacy impact assessment summary for Microsoft Office 365 cloud project",
           "conversion": "markdownify",
           "text_sha256": "e48c7269963224714dab844a5080b50b9a7f5f6ecebd6e9c00f3c7ffd845c95e",
-          "word_count": 2158
+          "word_count": 2158,
+          "pib_ids": [
+            "OPC PPU 001",
+            "OPC PPU 003",
+            "OPC PPU 004",
+            "OPC PPU 005",
+            "OPC PPU 006",
+            "OPC PPU 008",
+            "PSE 901",
+            "PSE 902",
+            "PSE 903",
+            "PSE 904",
+            "PSE 905",
+            "PSE 906",
+            "PSE 907",
+            "PSE 908",
+            "PSE 910",
+            "PSE 911",
+            "PSE 912",
+            "PSE 914",
+            "PSE 915",
+            "PSE 916",
+            "PSE 917",
+            "PSE 918",
+            "PSE 919",
+            "PSE 920",
+            "PSU 901",
+            "PSU 902",
+            "PSU 903",
+            "PSU 905",
+            "PSU 906",
+            "PSU 907",
+            "PSU 908",
+            "PSU 909",
+            "PSU 910",
+            "PSU 911",
+            "PSU 912",
+            "PSU 914",
+            "PSU 915",
+            "PSU 917",
+            "PSU 918",
+            "PSU 919",
+            "PSU 923",
+            "PSU 931",
+            "PSU 932",
+            "PSU 933",
+            "PSU 934",
+            "PSU 935",
+            "PSU 936",
+            "PSU 938",
+            "PSU 939",
+            "PSU 940",
+            "PSU 941",
+            "PSU 942"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_infonuagique/",
@@ -327,9 +465,1639 @@
           "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée du projet infonuagique Microsoft Office 365",
           "conversion": "markdownify",
           "text_sha256": "c1cd053a018a09d1e1d678d21959cbc5d1e26b995f6ed8b0001d367412c5ba2b",
-          "word_count": 2671
+          "word_count": 2671,
+          "pib_ids": [
+            "OPC PPU 001",
+            "OPC PPU 003",
+            "OPC PPU 004",
+            "OPC PPU 005",
+            "OPC PPU 006",
+            "OPC PPU 008",
+            "PSE 901",
+            "PSE 902",
+            "PSE 903",
+            "PSE 904",
+            "PSE 905",
+            "PSE 906",
+            "PSE 907",
+            "PSE 908",
+            "PSE 910",
+            "PSE 911",
+            "PSE 912",
+            "PSE 914",
+            "PSE 915",
+            "PSE 916",
+            "PSE 917",
+            "PSE 918",
+            "PSE 919",
+            "PSE 920",
+            "PSU 901",
+            "PSU 902",
+            "PSU 903",
+            "PSU 905",
+            "PSU 906",
+            "PSU 907",
+            "PSU 908",
+            "PSU 909",
+            "PSU 910",
+            "PSU 911",
+            "PSU 912",
+            "PSU 914",
+            "PSU 915",
+            "PSU 917",
+            "PSU 918",
+            "PSU 919",
+            "PSU 923",
+            "PSU 931",
+            "PSU 932",
+            "PSU 933",
+            "PSU 934",
+            "PSU 935",
+            "PSU 936",
+            "PSU 938",
+            "PSU 939",
+            "PSU 940",
+            "PSU 941",
+            "PSU 942"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "OPC PPU 001",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-office-of-the-privacy-commissioner",
+                "record_id": "OPC PPU 001"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 111,
+                "mention": "OPC PPU 001",
+                "method": "explicit_pib_id",
+                "excerpt": "| OPC PPU 001 | Privacy-related enquiries |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 111,
+                "mention": "CPVP PPU 001",
+                "method": "explicit_pib_id",
+                "excerpt": "| CPVP PPU 001 | Demandes de renseignements concernant la vie privée |"
+              }
+            ]
+          },
+          {
+            "id": "OPC PPU 003",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-office-of-the-privacy-commissioner",
+                "record_id": "OPC PPU 003"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 115,
+                "mention": "OPC PPU 003",
+                "method": "explicit_pib_id",
+                "excerpt": "| Research and Policy Development | OPC PPU 003 | Publication Requests |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 115,
+                "mention": "CPVP PPU 003",
+                "method": "explicit_pib_id",
+                "excerpt": "| Recherche et élaboration des politiques | CPVP PPU 003 | Demandes de publications |"
+              }
+            ]
+          },
+          {
+            "id": "OPC PPU 004",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-office-of-the-privacy-commissioner",
+                "record_id": "OPC PPU 004"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 113,
+                "mention": "OPC PPU 004",
+                "method": "explicit_pib_id",
+                "excerpt": "| OPC PPU 004 | Notifications to OPC - Public Interest Disclosure |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 113,
+                "mention": "CPVP PPU 004",
+                "method": "explicit_pib_id",
+                "excerpt": "| CPVP PPU 004 | Avis au CPVP – Communications de renseignements dans l’intérêt public |"
+              }
+            ]
+          },
+          {
+            "id": "OPC PPU 005",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-office-of-the-privacy-commissioner",
+                "record_id": "OPC PPU 005"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 110,
+                "mention": "OPC PPU 005",
+                "method": "explicit_pib_id",
+                "excerpt": "| Compliance Activities | OPC PPU 005 | Privacy Complaints and Investigations |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 110,
+                "mention": "CPVP PPU 005",
+                "method": "explicit_pib_id",
+                "excerpt": "| Activités relatives à la conformité | CPVP PPU 005 | Plaintes et enquêtes concernant la vie privée |"
+              }
+            ]
+          },
+          {
+            "id": "OPC PPU 006",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-office-of-the-privacy-commissioner",
+                "record_id": "OPC PPU 006"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 114,
+                "mention": "OPC PPU 006",
+                "method": "explicit_pib_id",
+                "excerpt": "| OPC PPU 006 | Notification to OPC Under PIPEDA Where Access to Personal Information Is Not Given |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 114,
+                "mention": "CPVP PPU 006",
+                "method": "explicit_pib_id",
+                "excerpt": "| CPVP PPU 006 | Avis au Commissariat en vertu de la LPRPDE lorsque l’accès aux renseignements personnels est refusé |"
+              }
+            ]
+          },
+          {
+            "id": "OPC PPU 008",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-office-of-the-privacy-commissioner",
+                "record_id": "OPC PPU 008"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 112,
+                "mention": "OPC PPU 008",
+                "method": "explicit_pib_id",
+                "excerpt": "| OPC PPU 008 | Privacy Commissioner Ad Hoc - Complaints and Investigations |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 112,
+                "mention": "CPVP PPU 008",
+                "method": "explicit_pib_id",
+                "excerpt": "| CPVP PPU 008 | Commissaire spécial à la protection de la vie privée – plaintes et enquêtes |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 901",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 901"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 80,
+                "mention": "PSE 901",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSE 901 | Employee Personnel Record |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 80,
+                "mention": "POE 901",
+                "method": "explicit_pib_id",
+                "excerpt": "| POE 901 | Dossier personnel d’un employé |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 902",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 902"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 62,
+                "mention": "PSE 902",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSE 902 | Staffing |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 62,
+                "mention": "POE 902",
+                "method": "explicit_pib_id",
+                "excerpt": "| POE 902 | Dotation |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 903",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 903"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 63,
+                "mention": "PSE 903",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSE 903 | Attendance and Leave |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 63,
+                "mention": "POE 903",
+                "method": "explicit_pib_id",
+                "excerpt": "| POE 903 | Présences et congés |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 904",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 904"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 64,
+                "mention": "PSE 904",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSE 904 | Pay and Benefits |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 64,
+                "mention": "POE 904",
+                "method": "explicit_pib_id",
+                "excerpt": "| POE 904 | Rémunération et avantages sociaux |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 905",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 905"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 84,
+                "mention": "PSE 905",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSE 905 | Training and Development |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 84,
+                "mention": "POE 905",
+                "method": "explicit_pib_id",
+                "excerpt": "| POE 905 | Formation et perfectionnement |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 906",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 906"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 77,
+                "mention": "PSE 906",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSE 906 | Official Languages |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 77,
+                "mention": "POE 906",
+                "method": "explicit_pib_id",
+                "excerpt": "| POE 906 | Langues officielles |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 907",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 907"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 72,
+                "mention": "PSE 907",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSE 907 | Occupational Health and Safety |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 72,
+                "mention": "POE 907",
+                "method": "explicit_pib_id",
+                "excerpt": "| POE 907 | Santé et de sécurité au travail |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 908",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 908"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 76,
+                "mention": "PSE 908",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSE 908 | Vehicle, Ship, Boat and Aircraft Accidents |"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 92,
+                "mention": "PSE 908",
+                "method": "explicit_pib_id",
+                "excerpt": "| Materiel Services | PSE 908 | Vehicle, Ship, Boat and Aircraft Accidents |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 76,
+                "mention": "POE 908",
+                "method": "explicit_pib_id",
+                "excerpt": "| POE 908 | Accidents d’automobile, de bateau, d’embarcation et d’avion |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 92,
+                "mention": "POE 908",
+                "method": "explicit_pib_id",
+                "excerpt": "| Services du matériel | POE 908 | Accidents d’automobile, de bateau, d’embarcation et d’avion |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 910",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 910"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 70,
+                "mention": "PSE 910",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSE 910 | Grievances |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 70,
+                "mention": "POE 910",
+                "method": "explicit_pib_id",
+                "excerpt": "| POE 910 | Griefs |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 911",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 911"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 69,
+                "mention": "PSE 911",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSE 911 | Discipline |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 69,
+                "mention": "POE 911",
+                "method": "explicit_pib_id",
+                "excerpt": "| POE 911 | Mesures disciplinaires |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 912",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 912"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 78,
+                "mention": "PSE 912",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSE 912 | Employee Performance Management Program |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 78,
+                "mention": "POE 912",
+                "method": "explicit_pib_id",
+                "excerpt": "| POE 912 | Programme de gestion du rendement des employés |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 914",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 914"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 93,
+                "mention": "PSE 914",
+                "method": "explicit_pib_id",
+                "excerpt": "| Travel and Other Administrative Services | PSE 914 | Parking |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 93,
+                "mention": "POE 914",
+                "method": "explicit_pib_id",
+                "excerpt": "| Services de voyage et autres services administratifs | POE 914 | Stationnement |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 915",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 915"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 74,
+                "mention": "PSE 915",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSE 915 | Values and Ethics Code for the Public Sector/Organizational Codes of Conduct |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 74,
+                "mention": "POE 915",
+                "method": "explicit_pib_id",
+                "excerpt": "| POE 915 | Codes de valeurs et d’éthique du secteur public et Code(s) de conduite organisationnel(s) |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 916",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 916"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 75,
+                "mention": "PSE 916",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSE 916 | Employee Assistance |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 75,
+                "mention": "POE 916",
+                "method": "explicit_pib_id",
+                "excerpt": "| POE 916 | Aide aux employés |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 917",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 100,
+                "mention": "PSE 917",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSE 917 | Identification Cards and Access Badges |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 100,
+                "mention": "POE 917",
+                "method": "explicit_pib_id",
+                "excerpt": "| POE 917 | Cartes d’identification et laissez-passer |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 918",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 918"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 65,
+                "mention": "PSE 918",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSE 918 | Employment Equity and Diversity |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 65,
+                "mention": "POE 918",
+                "method": "explicit_pib_id",
+                "excerpt": "| POE 918 | Équité en emploi et diversité |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 919",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 919"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 71,
+                "mention": "PSE 919",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSE 919 | Harassment |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 71,
+                "mention": "POE 919",
+                "method": "explicit_pib_id",
+                "excerpt": "| POE 919 | Harcèlement |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 920",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 920"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 61,
+                "mention": "PSE 920",
+                "method": "explicit_pib_id",
+                "excerpt": "| Human Resources Management Services | PSE 920 | Recognition Program |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 61,
+                "mention": "POE 920",
+                "method": "explicit_pib_id",
+                "excerpt": "| Services de gestion des ressources humaines | POE 920 | Programme de reconnaissance |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 901",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 901"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 85,
+                "mention": "PSU 901",
+                "method": "explicit_pib_id",
+                "excerpt": "| Information Management Services | PSU 901 | Access to Information Act and Privacy Act Requests |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 85,
+                "mention": "POU 901",
+                "method": "explicit_pib_id",
+                "excerpt": "| Services de gestion de l’information | POU 901 | Demandes en vertu de la Loi sur l’accès à l’information et de la Loi sur la protection des renseignements personnels |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 902",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 902"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 89,
+                "mention": "PSU 902",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSU 902 | Executive Correspondence |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 89,
+                "mention": "POU 902",
+                "method": "explicit_pib_id",
+                "excerpt": "| POU 902 | Correspondance à la direction |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 903",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 903"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 96,
+                "mention": "PSU 903",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSU 903 | Business Continuity Planning |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 96,
+                "mention": "POU 903",
+                "method": "explicit_pib_id",
+                "excerpt": "| POU 903 | Planification de la continuité des activités |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 905",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 905"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 87,
+                "mention": "PSU 905",
+                "method": "explicit_pib_id",
+                "excerpt": "| Information Technology Services | PSU 905 | Electronic Network Monitoring |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 87,
+                "mention": "POU 905",
+                "method": "explicit_pib_id",
+                "excerpt": "| Services de technologie de l’information | POU 905 | Journaux de contrôle des réseaux électroniques |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 906",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 906"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 73,
+                "mention": "PSU 906",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSU 906 | Disclosure of Wrongdoing in the Workplace |"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 101,
+                "mention": "PSU 906",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSU 906 | Disclosure of Wrongdoing in the Workplace |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 73,
+                "mention": "POU 906",
+                "method": "explicit_pib_id",
+                "excerpt": "| POU 906 | Divulgation d’information sur les actes fautifs commis en milieu de travail |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 101,
+                "mention": "POU 906",
+                "method": "explicit_pib_id",
+                "excerpt": "| POU 906 | Divulgation d’information sur les actes fautifs commis en milieu de travail |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 907",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 907"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 104,
+                "mention": "PSU 907",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSU 907 | Security Video Surveillance and Temporary Visitor Access Controls Logs and Building Passes |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 104,
+                "mention": "POU 907",
+                "method": "explicit_pib_id",
+                "excerpt": "| POU 907 | Surveillance vidéo, registres de contrôle d’accès des visiteurs et laissez-passer |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 908",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 908"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 66,
+                "mention": "PSU 908",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSU 908 | Hospitality |"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 98,
+                "mention": "PSU 908",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSU 908 | Hospitality |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 66,
+                "mention": "POU 908",
+                "method": "explicit_pib_id",
+                "excerpt": "| POU 908 | Accueil |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 98,
+                "mention": "POU 908",
+                "method": "explicit_pib_id",
+                "excerpt": "| POU 908 | Accueil |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 909",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 909"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 99,
+                "mention": "PSU 909",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSU 909 | Travel |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 99,
+                "mention": "POU 909",
+                "method": "explicit_pib_id",
+                "excerpt": "| POU 909 | Voyages |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 910",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 910"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 83,
+                "mention": "PSU 910",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSU 910 | Relocation |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 83,
+                "mention": "POU 910",
+                "method": "explicit_pib_id",
+                "excerpt": "| POU 910 | Réinstallation |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 911",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 911"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 79,
+                "mention": "PSU 911",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSU 911 | Applications for Employment |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 79,
+                "mention": "POU 911",
+                "method": "explicit_pib_id",
+                "excerpt": "| POU 911 | Demandes d’emploi |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 912",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 912"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 55,
+                "mention": "PSU 912",
+                "method": "explicit_pib_id",
+                "excerpt": "| Acquisition Services | PSU 912 | Professional Services Contracts |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 55,
+                "mention": "POU 912",
+                "method": "explicit_pib_id",
+                "excerpt": "| Services d’acquisitions | POU 912 | Marchés de services professionnels |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 914",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 914"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 57,
+                "mention": "PSU 914",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSU 914 | Public Communications |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 57,
+                "mention": "POU 914",
+                "method": "explicit_pib_id",
+                "excerpt": "| POU 914 | Communications publiques |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 915",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 915"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 56,
+                "mention": "PSU 915",
+                "method": "explicit_pib_id",
+                "excerpt": "| Communications Services | PSU 915 | Internal Communications |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 56,
+                "mention": "POU 915",
+                "method": "explicit_pib_id",
+                "excerpt": "| Services de communications | POU 915 | Communications internes |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 917",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 917"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 82,
+                "mention": "PSU 917",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSU 917 | Personnel Security Screening |"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 102,
+                "mention": "PSU 917",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSU 917 | Personnel Security Screening |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 82,
+                "mention": "POU 917",
+                "method": "explicit_pib_id",
+                "excerpt": "| POU 917 | Filtrage de sécurité du personnel |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 102,
+                "mention": "POU 917",
+                "method": "explicit_pib_id",
+                "excerpt": "| POU 917 | Filtrage de sécurité du personnel |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 918",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 918"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 94,
+                "mention": "PSU 918",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSU 918 | Governor in Council Appointments |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 94,
+                "mention": "POU 918",
+                "method": "explicit_pib_id",
+                "excerpt": "| POU 918 | Nominations par le gouverneur en conseil |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 919",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 919"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 95,
+                "mention": "PSU 919",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSU 919 | Members of Boards, Committees and Councils |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 95,
+                "mention": "POU 919",
+                "method": "explicit_pib_id",
+                "excerpt": "| POU 919 | Membres de conseils d’administration, de comités et de conseils |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 923",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 97,
+                "mention": "PSU 923",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSU 923 | Disclosure to Investigative Bodies |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 97,
+                "mention": "POU 923",
+                "method": "explicit_pib_id",
+                "excerpt": "| POU 923 | Divulgation aux organismes d’enquête |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 931",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 931"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 58,
+                "mention": "PSU 931",
+                "method": "explicit_pib_id",
+                "excerpt": "| Financial Management Services | PSU 931 | Accounts Payable |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 58,
+                "mention": "POU 931",
+                "method": "explicit_pib_id",
+                "excerpt": "| Services de gestion financière | POU 931 | Comptes créditeurs |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 932",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 932"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 59,
+                "mention": "PSU 932",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSU 932 | Accounts Receivable |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 59,
+                "mention": "POU 932",
+                "method": "explicit_pib_id",
+                "excerpt": "| POU 932 | Comptes débiteurs |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 933",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 933"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 68,
+                "mention": "PSU 933",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSU 933 | Canadian Human Rights Act – Complaints |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 68,
+                "mention": "POU 933",
+                "method": "explicit_pib_id",
+                "excerpt": "| POU 933 | Plaintes déposées en vertu de la Loi canadienne sur les droits de la personne |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 934",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 934"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 81,
+                "mention": "PSU 934",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSU 934 | EX Talent Management |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 81,
+                "mention": "POU 934",
+                "method": "explicit_pib_id",
+                "excerpt": "| POU 934 | Gestion des talents des cadres supérieurs |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 935",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 935"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 67,
+                "mention": "PSU 935",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSU 935 | Human Resources Planning |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 67,
+                "mention": "POU 935",
+                "method": "explicit_pib_id",
+                "excerpt": "| POU 935 | Planification des ressources humaines |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 936",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 936"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 86,
+                "mention": "PSU 936",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSU 936 | Library Services |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 86,
+                "mention": "POU 936",
+                "method": "explicit_pib_id",
+                "excerpt": "| POU 936 | Services de bibliothèque |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 938",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 938"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 88,
+                "mention": "PSU 938",
+                "method": "explicit_pib_id",
+                "excerpt": "| Management and Oversight Services | PSU 938 | Outreach Activities |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 88,
+                "mention": "POU 938",
+                "method": "explicit_pib_id",
+                "excerpt": "| Services de gestion et de surveillance | POU 938 | Activités de sensibilisation |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 939",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 939"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 103,
+                "mention": "PSU 939",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSU 939 | Security Incidents and Privacy Breaches |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 103,
+                "mention": "POU 939",
+                "method": "explicit_pib_id",
+                "excerpt": "| POU 939 | Incidents de sécurité et atteintes à la vie privée |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 940",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 940"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 60,
+                "mention": "PSU 940",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSU 940 | Acquisition Card |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 60,
+                "mention": "POU 940",
+                "method": "explicit_pib_id",
+                "excerpt": "| POU 940 | Cartes d’achat |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 941",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 941"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 91,
+                "mention": "PSU 941",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSU 941 | Internal Audit |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 91,
+                "mention": "POU 941",
+                "method": "explicit_pib_id",
+                "excerpt": "| POU 941 | Vérification interne |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 942",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 942"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_en.md",
+                "line": 90,
+                "mention": "PSU 942",
+                "method": "explicit_pib_id",
+                "excerpt": "| PSU 942 | Evaluation |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-office-of-the-privacy-commissioner/pia-01c195371b0b_fr.md",
+                "line": 90,
+                "mention": "POU 942",
+                "method": "explicit_pib_id",
+                "excerpt": "| POU 942 | Évaluation |"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "OPC PPU 001",
+        "OPC PPU 003",
+        "OPC PPU 004",
+        "OPC PPU 005",
+        "OPC PPU 006",
+        "OPC PPU 008",
+        "PSE 901",
+        "PSE 902",
+        "PSE 903",
+        "PSE 904",
+        "PSE 905",
+        "PSE 906",
+        "PSE 907",
+        "PSE 908",
+        "PSE 910",
+        "PSE 911",
+        "PSE 912",
+        "PSE 914",
+        "PSE 915",
+        "PSE 916",
+        "PSE 917",
+        "PSE 918",
+        "PSE 919",
+        "PSE 920",
+        "PSU 901",
+        "PSU 902",
+        "PSU 903",
+        "PSU 905",
+        "PSU 906",
+        "PSU 907",
+        "PSU 908",
+        "PSU 909",
+        "PSU 910",
+        "PSU 911",
+        "PSU 912",
+        "PSU 914",
+        "PSU 915",
+        "PSU 917",
+        "PSU 918",
+        "PSU 919",
+        "PSU 923",
+        "PSU 931",
+        "PSU 932",
+        "PSU 933",
+        "PSU 934",
+        "PSU 935",
+        "PSU 936",
+        "PSU 938",
+        "PSU 939",
+        "PSU 940",
+        "PSU 941",
+        "PSU 942"
+      ],
+      "pib_count": 52,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 2158,
+      "word_count_fr": 2671,
+      "word_count_language": "en",
+      "word_count": 2158
     },
     {
       "pia_id": "pia-ba385efc9abd",
@@ -392,7 +2160,9 @@
           "title": "Privacy Impact Assessment Summary on the Online Complaint Form",
           "conversion": "markdownify",
           "text_sha256": "683318309ec75a514130de4a1a8eaa3667175fc69efffd6931cc194a71120625",
-          "word_count": 1602
+          "word_count": 1602,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_ocf/",
@@ -442,9 +2212,24 @@
           "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée concernant le formulaire de plainte en ligne",
           "conversion": "markdownify",
           "text_sha256": "3eaec48b54909dab28508f84d70c83316cad6bcabbc4fdf2d770a60d8e6ec818",
-          "word_count": 2000
+          "word_count": 2000,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1602,
+      "word_count_fr": 2000,
+      "word_count_language": "en",
+      "word_count": 1602
     },
     {
       "pia_id": "pia-1300c0dd8865",
@@ -507,7 +2292,9 @@
           "title": "The Collection and Retention of Information for the Expression of Interest",
           "conversion": "markdownify",
           "text_sha256": "5340db6611498745f33853b898d7967e308cb540f6b39803fcdbc3de12fd6439",
-          "word_count": 1637
+          "word_count": 1637,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_eoi/",
@@ -557,9 +2344,24 @@
           "title": "La collecte et la conservation de renseignements pour la déclaration d'intérêt",
           "conversion": "markdownify",
           "text_sha256": "9f471a85cc9abb235abbfb37e9a325d8444a9aad85642f34a936d84ab4674c5d",
-          "word_count": 2006
+          "word_count": 2006,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1637,
+      "word_count_fr": 2006,
+      "word_count_language": "en",
+      "word_count": 1637
     },
     {
       "pia_id": "pia-0ac443733ea6",
@@ -622,7 +2424,9 @@
           "title": "Archived - Multi–Institutional Privacy Impact Assessment Summary on the 30 Victoria Multi-Tenants Camera and Security System",
           "conversion": "markdownify",
           "text_sha256": "294880034aeb3da6fabaccb75861b468375b2dd7d6ad5f7076285129fe1b3a5d",
-          "word_count": 1718
+          "word_count": 1718,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/mtcss/",
@@ -672,9 +2476,24 @@
           "title": "Archivée - Résumé de l'évaluation pluriorganisationnelle des facteurs relatifs à la vie privée concernant le Système de sécurité et de caméras de surveillance pour l'édifice à locataires multiples du 30, rue Victoria",
           "conversion": "markdownify",
           "text_sha256": "d29bf879c21dbf29f46f3bdf3e37cee5db87d40289a961f991dbc43c0cd4df1e",
-          "word_count": 2113
+          "word_count": 2113,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1718,
+      "word_count_fr": 2113,
+      "word_count_language": "en",
+      "word_count": 1718
     },
     {
       "pia_id": "pia-28355305b355",
@@ -737,7 +2556,9 @@
           "title": "Privacy Impact Assessment Summary on the Online Request Form",
           "conversion": "markdownify",
           "text_sha256": "ec115dd36ff6e2325cb753fe5d73e6b2f811e4899ab0095a07f32be50532a155",
-          "word_count": 1424
+          "word_count": 1424,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/orf/",
@@ -787,9 +2608,24 @@
           "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le formulaire de demande en ligne",
           "conversion": "markdownify",
           "text_sha256": "ef6da63aaa3d35b53d272e08b364bdfa4a0d0b203b60fe36dcddbf0a59694703",
-          "word_count": 1699
+          "word_count": 1699,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1424,
+      "word_count_fr": 1699,
+      "word_count_language": "en",
+      "word_count": 1424
     },
     {
       "pia_id": "pia-74f07efba391",
@@ -852,7 +2688,9 @@
           "title": "Privacy Impact Assessment Summary on the “Snappy” Tool",
           "conversion": "markdownify",
           "text_sha256": "a3863fc84c4a7afde5cf8327c99234b5b63333742d6d52a69c097a69ff693a8d",
-          "word_count": 1413
+          "word_count": 1413,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/st/",
@@ -902,9 +2740,24 @@
           "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée de l’Outil « Snappy»",
           "conversion": "markdownify",
           "text_sha256": "8307326e064bb7703cb476c710c4b8ce88e034680506363c7530a0faa2c08342",
-          "word_count": 1716
+          "word_count": 1716,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1413,
+      "word_count_fr": 1716,
+      "word_count_language": "en",
+      "word_count": 1413
     },
     {
       "pia_id": "pia-0575a1f98e22",
@@ -967,7 +2820,9 @@
           "title": "Privacy Impact Assessment Summary on Canada's anti-spam legislation",
           "conversion": "markdownify",
           "text_sha256": "22668f77265a6bcd6bd5473b40fd515eb13063d42b2f6b27323ec97612d5c881",
-          "word_count": 3570
+          "word_count": 3570,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/casl-lcap/",
@@ -1017,9 +2872,24 @@
           "title": "Sommaire de l’évaluation des facteurs relatifs à la vie privée sur la Loi canadienne anti-pourriel",
           "conversion": "markdownify",
           "text_sha256": "46b39ed9f55cefe369edc33e9d5df42bc1e3809462e30888a466a54562f300d5",
-          "word_count": 4536
+          "word_count": 4536,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 3570,
+      "word_count_fr": 4536,
+      "word_count_language": "en",
+      "word_count": 3570
     }
   ],
   "summary": {

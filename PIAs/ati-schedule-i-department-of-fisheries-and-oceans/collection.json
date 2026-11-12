@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "collector_version": 1,
-  "collected_at_utc": "2026-11-12T01:50:31.442661+00:00",
+  "collector_version": 2,
+  "collected_at_utc": "2026-11-12T05:49:50.694832+00:00",
   "institution_id": "ati-schedule-i-department-of-fisheries-and-oceans",
   "gc_orgID": "2226.0",
   "open_canada_org_id": "E56460A0-2055-4BF4-A693-EA238E0746E7",
@@ -9,7 +9,7 @@
   "name_en": "Department of Fisheries and Oceans",
   "name_fr": "Ministère des Pêches et des Océans",
   "registry_membership": "current_registry",
-  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
   "list_pages": {
     "en": {
       "indexed_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
@@ -133,7 +133,11 @@
           "title": "Summary of the Privacy Impact Assessment for Oyster Licence Retirement Grant Program",
           "conversion": "markdownify",
           "text_sha256": "8792c50bda64b890a4048586d727b94c1bd3391998b89141fd9fa4381dc99be2",
-          "word_count": 577
+          "word_count": 577,
+          "pib_ids": [
+            "DFO PPU 800"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/oyster-licence-retirement-retrait-permis-peche-huitres-fra.html",
@@ -183,9 +187,51 @@
           "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée du Programme de subventions pour le retrait de permis de pêche aux huîtres",
           "conversion": "markdownify",
           "text_sha256": "6103b39e94d898c0ff5018e116e7d2de3198569cb63f07aa2ebf61b81446ea38",
-          "word_count": 752
+          "word_count": 752,
+          "pib_ids": [
+            "DFO PPU 800"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DFO PPU 800",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-a05be857e72b_en.md",
+                "line": 68,
+                "mention": "DFO PPU 800",
+                "method": "explicit_pib_id",
+                "excerpt": "- Oyster Licence Retirement Grant Program (DFO PPU 800)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-a05be857e72b_fr.md",
+                "line": 68,
+                "mention": "MPO PPU 800",
+                "method": "explicit_pib_id",
+                "excerpt": "- Programme de subventions pour le retrait de permis de pêche aux huîtres (MPO PPU 800)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "DFO PPU 800"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 577,
+      "word_count_fr": 752,
+      "word_count_language": "en",
+      "word_count": 577
     },
     {
       "pia_id": "pia-cdd3d5570126",
@@ -249,7 +295,12 @@
           "title": "Summary of the Privacy Impact Assessment for the Occupational Health and Safety Information System – Workplace Compensation Claims Process",
           "conversion": "markdownify",
           "text_sha256": "b492dc62da3793a3d7a1470a605e323c319964f570e9bf661f24dda85aa8d4c3",
-          "word_count": 517
+          "word_count": 517,
+          "pib_ids": [
+            "PSE 904",
+            "PSE 907"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/occupational-health-safety-fra.html",
@@ -299,9 +350,87 @@
           "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée du Système d’information sur la santé et la sécurité au travail – Processus de demandes d’indemnisation en milieu de travail",
           "conversion": "markdownify",
           "text_sha256": "3768ee9a56c159bbca1a241afdb2d72cc93eb9b61a58dc8a0a606956afc02635",
-          "word_count": 726
+          "word_count": 726,
+          "pib_ids": [
+            "PSE 904",
+            "PSE 907"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSE 904",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 904"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-cdd3d5570126_en.md",
+                "line": 53,
+                "mention": "PSE 904",
+                "method": "explicit_pib_id",
+                "excerpt": "- Pay and Benefits (PSE 904)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-cdd3d5570126_fr.md",
+                "line": 53,
+                "mention": "POE 904",
+                "method": "explicit_pib_id",
+                "excerpt": "- Rémunération et avantages (POE 904)"
+              }
+            ]
+          },
+          {
+            "id": "PSE 907",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 907"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-cdd3d5570126_en.md",
+                "line": 52,
+                "mention": "PSE 907",
+                "method": "explicit_pib_id",
+                "excerpt": "- Occupational Health and Safety (PSE 907)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-cdd3d5570126_fr.md",
+                "line": 52,
+                "mention": "POE 907",
+                "method": "explicit_pib_id",
+                "excerpt": "- Santé et sécurité au travail (POE 907)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "PSE 904",
+        "PSE 907"
+      ],
+      "pib_count": 2,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 517,
+      "word_count_fr": 726,
+      "word_count_language": "en",
+      "word_count": 517
     },
     {
       "pia_id": "pia-d34013fba266",
@@ -365,7 +494,14 @@
           "title": "Summary of the Privacy Impact Assessment for the Possession and Export of Elver Licence",
           "conversion": "markdownify",
           "text_sha256": "1edc417369562100a300fd90a5d2cbfc6d9d005e2465cd8319ae8ec858ac2023",
-          "word_count": 662
+          "word_count": 662,
+          "pib_ids": [
+            "DFO PPU 140",
+            "DFO PPU 410",
+            "DFO PPU 411",
+            "DFO PPU 460"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/elver-licence-permis-civelles-fra.html",
@@ -415,9 +551,147 @@
           "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le permis de possession et d’exportation de civelles",
           "conversion": "markdownify",
           "text_sha256": "f6bb60180efa480ed0c9acf0e92a8e4a69bb90cdd6022a7d1a626e93fe0f060d",
-          "word_count": 881
+          "word_count": 881,
+          "pib_ids": [
+            "DFO PPU 140",
+            "DFO PPU 410",
+            "DFO PPU 411",
+            "DFO PPU 460"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DFO PPU 140",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-fisheries-and-oceans",
+                "record_id": "DFO PPU 140"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-d34013fba266_en.md",
+                "line": 82,
+                "mention": "DFO PPU 140",
+                "method": "explicit_pib_id",
+                "excerpt": "- National Fisheries Intelligence Service - DFO PPU 140"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-d34013fba266_fr.md",
+                "line": 82,
+                "mention": "MPO PPU 140",
+                "method": "explicit_pib_id",
+                "excerpt": "- Service national de renseignements sur les pêches - MPO PPU 140"
+              }
+            ]
+          },
+          {
+            "id": "DFO PPU 410",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-fisheries-and-oceans",
+                "record_id": "DFO PPU 410"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-d34013fba266_en.md",
+                "line": 83,
+                "mention": "DFO PPU 410",
+                "method": "explicit_pib_id",
+                "excerpt": "- Commercial Fishing Registration Cards, Certificates, Permits and Licence Information - DFO PPU 410"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-d34013fba266_fr.md",
+                "line": 83,
+                "mention": "MPO PPU 410",
+                "method": "explicit_pib_id",
+                "excerpt": "- Renseignements sur les cartes d’enregistrement, certificats, permis et licences de pêche commerciale - MPO PPU 410"
+              }
+            ]
+          },
+          {
+            "id": "DFO PPU 411",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-fisheries-and-oceans",
+                "record_id": "DFO PPU 411"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-d34013fba266_en.md",
+                "line": 84,
+                "mention": "DFO PPU 411",
+                "method": "explicit_pib_id",
+                "excerpt": "- Possession and Export of Elver Licence Information - DFO PPU 411"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-d34013fba266_fr.md",
+                "line": 84,
+                "mention": "MPO PPU 411",
+                "method": "explicit_pib_id",
+                "excerpt": "- Information sur le permis de possession et d’exportation de civelles - MPO PPU 411"
+              }
+            ]
+          },
+          {
+            "id": "DFO PPU 460",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-fisheries-and-oceans",
+                "record_id": "DFO PPU 460"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-d34013fba266_en.md",
+                "line": 85,
+                "mention": "DFO PPU 460",
+                "method": "explicit_pib_id",
+                "excerpt": "- Violations under Canadian Fisheries and Fish Habitat Legislation - DFO PPU 460"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-d34013fba266_fr.md",
+                "line": 85,
+                "mention": "MPO PPU 460",
+                "method": "explicit_pib_id",
+                "excerpt": "- Infractions aux lois canadiennes sur les pêches et l’habitat du poisson - MPO PPU 460"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "DFO PPU 140",
+        "DFO PPU 410",
+        "DFO PPU 411",
+        "DFO PPU 460"
+      ],
+      "pib_count": 4,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 662,
+      "word_count_fr": 881,
+      "word_count_language": "en",
+      "word_count": 662
     },
     {
       "pia_id": "pia-1a66712cbc52",
@@ -481,7 +755,12 @@
           "title": "Open Source Information Collection (OSIC) Initiative",
           "conversion": "markdownify",
           "text_sha256": "fd93eca58980186c3d2a1a7a11f0fa100cf1e903c232f6402666e46e04c966fe",
-          "word_count": 753
+          "word_count": 753,
+          "pib_ids": [
+            "DFO PPU 140",
+            "DFO PPU 460"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/information-collection-collecte-renseignements-fra.html",
@@ -531,9 +810,87 @@
           "title": "Initiative de collecte de renseignements de source ouverte",
           "conversion": "markdownify",
           "text_sha256": "bc703f2ed31005dc600dc259837c396698b8701a050c20a23b5bddea1705baa6",
-          "word_count": 1047
+          "word_count": 1047,
+          "pib_ids": [
+            "DFO PPU 140",
+            "DFO PPU 460"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DFO PPU 140",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-fisheries-and-oceans",
+                "record_id": "DFO PPU 140"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-1a66712cbc52_en.md",
+                "line": 43,
+                "mention": "DFO PPU 140",
+                "method": "explicit_pib_id",
+                "excerpt": "- National Fisheries Intelligence Service (DFO PPU 140)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-1a66712cbc52_fr.md",
+                "line": 43,
+                "mention": "MPO PPU 140",
+                "method": "explicit_pib_id",
+                "excerpt": "- Service national de renseignement sur les pêches – MPO PPU 140"
+              }
+            ]
+          },
+          {
+            "id": "DFO PPU 460",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-fisheries-and-oceans",
+                "record_id": "DFO PPU 460"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-1a66712cbc52_en.md",
+                "line": 42,
+                "mention": "DFO PPU 460",
+                "method": "explicit_pib_id",
+                "excerpt": "- Violations under Canadian Fisheries and Fish Habitat Legislation (DFO PPU 460) and"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-1a66712cbc52_fr.md",
+                "line": 42,
+                "mention": "MPO PPU 460",
+                "method": "explicit_pib_id",
+                "excerpt": "- Infractions aux lois canadiennes sur les pêches et l’habitat du poisson – MPO PPU 460"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "DFO PPU 140",
+        "DFO PPU 460"
+      ],
+      "pib_count": 2,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 753,
+      "word_count_fr": 1047,
+      "word_count_language": "en",
+      "word_count": 753
     },
     {
       "pia_id": "pia-0d75e126b3a3",
@@ -597,7 +954,11 @@
           "title": "FishingBC App and National Recreational Licensing System (NRLS) Integration Initiative",
           "conversion": "markdownify",
           "text_sha256": "6eb82aa4e9d81947c8c6e8eb8e5ffb5e7bb4725e5181f6c88b179f0d46836087",
-          "word_count": 701
+          "word_count": 701,
+          "pib_ids": [
+            "DFO PPU 415"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/fishingbc-app-nrls-snepr-fra.html",
@@ -647,9 +1008,57 @@
           "title": "Initiative de l’intégration de l’application FishingBC au Système national d’émission de permis de pêche récréative (SNEPR)",
           "conversion": "markdownify",
           "text_sha256": "a2919d7d6bc42c2a96cfa18a4b966ab5827c36672b5ad2af7f88a29e3b26c528",
-          "word_count": 928
+          "word_count": 928,
+          "pib_ids": [
+            "DFO PPU 415"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DFO PPU 415",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-fisheries-and-oceans",
+                "record_id": "DFO PPU 415"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-0d75e126b3a3_en.md",
+                "line": 41,
+                "mention": "DFO PPU 415",
+                "method": "explicit_pib_id",
+                "excerpt": "Nationally Regulated Recreational, Domestic, and Sport Fishing (DFO PPU 415)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-0d75e126b3a3_fr.md",
+                "line": 41,
+                "mention": "MPO PPU 415",
+                "method": "explicit_pib_id",
+                "excerpt": "[Pêche récréatives, sportives et en eaux canadiennes réglementées à l’échelle nationale (MPO PPU 415)]( )"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "DFO PPU 415"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 701,
+      "word_count_fr": 928,
+      "word_count_language": "en",
+      "word_count": 701
     },
     {
       "pia_id": "pia-e2534a29ac38",
@@ -713,7 +1122,12 @@
           "title": "Pacific Salmon Strategy Initiative, Initiative 15.2",
           "conversion": "markdownify",
           "text_sha256": "c245af653e514ea80de4c69404455fdeaa836b0413d2e89dab24eacaaa155f37",
-          "word_count": 428
+          "word_count": 428,
+          "pib_ids": [
+            "DFO PPU 410",
+            "PSU 931"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-2-fra.html",
@@ -763,9 +1177,87 @@
           "title": "Stratégie relative au saumon du Pacifique, initiative 15.2",
           "conversion": "markdownify",
           "text_sha256": "954a47503d44345b1bf526a1d8d62a325026d6d79a59c92a87835406e1b17b13",
-          "word_count": 574
+          "word_count": 574,
+          "pib_ids": [
+            "DFO PPU 410",
+            "PSU 931"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DFO PPU 410",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-fisheries-and-oceans",
+                "record_id": "DFO PPU 410"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-e2534a29ac38_en.md",
+                "line": 42,
+                "mention": "DFO PPU 410",
+                "method": "explicit_pib_id",
+                "excerpt": "- Commercial Fishing Registration Cards, Certificates, Permits and Licence Information (DFO PPU 410)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-e2534a29ac38_fr.md",
+                "line": 42,
+                "mention": "DFO PPU 410",
+                "method": "explicit_pib_id",
+                "excerpt": "- Renseignements sur les cartes d’enregistrement, certificats, permis et licences de pêche commerciale (DFO PPU 410)"
+              }
+            ]
+          },
+          {
+            "id": "PSU 931",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 931"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-e2534a29ac38_en.md",
+                "line": 43,
+                "mention": "PSU 931",
+                "method": "explicit_pib_id",
+                "excerpt": "- Accounts Payable (PSU 931)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-e2534a29ac38_fr.md",
+                "line": 43,
+                "mention": "POU 931",
+                "method": "explicit_pib_id",
+                "excerpt": "- Comptes créditeurs (POU 931)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "DFO PPU 410",
+        "PSU 931"
+      ],
+      "pib_count": 2,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 428,
+      "word_count_fr": 574,
+      "word_count_language": "en",
+      "word_count": 428
     },
     {
       "pia_id": "pia-9d5fcae13a0a",
@@ -829,7 +1321,11 @@
           "title": "Pacific Salmon Strategy Initiative, Initiative 15.3",
           "conversion": "markdownify",
           "text_sha256": "344e532e0c17a34f6487e24e2dfcc2770b07abd89924334d15654aa6d8398d8f",
-          "word_count": 671
+          "word_count": 671,
+          "pib_ids": [
+            "DFO PPU 047"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-3-fra.html",
@@ -879,9 +1375,57 @@
           "title": "Stratégie relative au saumon du Pacifique, initiative 15.3",
           "conversion": "markdownify",
           "text_sha256": "9155627ec9080a88a8eaebaaad0ed7ed94abfe1ca51ed147cd8fc64d4a791417",
-          "word_count": 866
+          "word_count": 866,
+          "pib_ids": [
+            "DFO PPU 047"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DFO PPU 047",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-fisheries-and-oceans",
+                "record_id": "DFO PPU 047"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-9d5fcae13a0a_en.md",
+                "line": 41,
+                "mention": "DFO PPU 047",
+                "method": "explicit_pib_id",
+                "excerpt": "Grants and contributions initiatives (DFO PPU 047)."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-9d5fcae13a0a_fr.md",
+                "line": 41,
+                "mention": "MPO PPU 047",
+                "method": "explicit_pib_id",
+                "excerpt": "Initiatives de subventions et de contributions (MPO PPU 047)."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "DFO PPU 047"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 671,
+      "word_count_fr": 866,
+      "word_count_language": "en",
+      "word_count": 671
     },
     {
       "pia_id": "pia-c3a3d9ff955d",
@@ -945,7 +1489,12 @@
           "title": "Pacific Salmon Strategy Initiative, Initiative 15.4",
           "conversion": "markdownify",
           "text_sha256": "8bc845dfe1d090eaff5bc12cb9e40c507a37e0b25c8acffcb391853fac96d629",
-          "word_count": 420
+          "word_count": 420,
+          "pib_ids": [
+            "DFO PPU 410",
+            "PSU 931"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-4-fra.html",
@@ -995,9 +1544,87 @@
           "title": "Stratégie relative au saumon du Pacifique, initiative 15,4",
           "conversion": "markdownify",
           "text_sha256": "aaadff372fe4391ad9fd77cce297b6475f859d2abc86cc61cc03112ab9523311",
-          "word_count": 561
+          "word_count": 561,
+          "pib_ids": [
+            "DFO PPU 410",
+            "PSU 931"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DFO PPU 410",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-fisheries-and-oceans",
+                "record_id": "DFO PPU 410"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-c3a3d9ff955d_en.md",
+                "line": 42,
+                "mention": "DFO PPU 410",
+                "method": "explicit_pib_id",
+                "excerpt": "This program falls within the parameters of two PIBs: (i) DFO’s Commercial Fishing Registration Cards, Certificates, Permits and Licence Information (DFO PPU 410); and (ii) Accounts Payable (PSU 931)."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-c3a3d9ff955d_fr.md",
+                "line": 42,
+                "mention": "MPO PPU 410",
+                "method": "explicit_pib_id",
+                "excerpt": "Ce programme s'inscrit dans les paramètres de deux fichiers de renseignements personnels : i) Renseignements sur les cartes d'enregistrement, certificats, permis et licences de pêche commerciale du MPO (MPO PPU 410) et ii) Comptes créditeurs (PSU 931)."
+              }
+            ]
+          },
+          {
+            "id": "PSU 931",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 931"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-c3a3d9ff955d_en.md",
+                "line": 42,
+                "mention": "PSU 931",
+                "method": "explicit_pib_id",
+                "excerpt": "This program falls within the parameters of two PIBs: (i) DFO’s Commercial Fishing Registration Cards, Certificates, Permits and Licence Information (DFO PPU 410); and (ii) Accounts Payable (PSU 931)."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-c3a3d9ff955d_fr.md",
+                "line": 42,
+                "mention": "PSU 931",
+                "method": "explicit_pib_id",
+                "excerpt": "Ce programme s'inscrit dans les paramètres de deux fichiers de renseignements personnels : i) Renseignements sur les cartes d'enregistrement, certificats, permis et licences de pêche commerciale du MPO (MPO PPU 410) et ii) Comptes créditeurs (PSU 931)."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "DFO PPU 410",
+        "PSU 931"
+      ],
+      "pib_count": 2,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 420,
+      "word_count_fr": 561,
+      "word_count_language": "en",
+      "word_count": 420
     },
     {
       "pia_id": "pia-ed441fb60596",
@@ -1061,7 +1688,11 @@
           "title": "Fishery Officer Body Worn Camera (“BWC”) Pilot Project",
           "conversion": "markdownify",
           "text_sha256": "a6c6d048083ac9b98879c74dc5297414827f7cbccc0662caf8a77c02881ec119",
-          "word_count": 607
+          "word_count": 607,
+          "pib_ids": [
+            "DFO PPU 460"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pilot-project-projet-pilote-fra.html",
@@ -1111,9 +1742,57 @@
           "title": "Projet pilote sur le port de caméras d’intervention par les agents des pêches",
           "conversion": "markdownify",
           "text_sha256": "bba7a4ecdb7d840b828e39a68066646b2a1a56521db5ccbe4c9834efc0f11a73",
-          "word_count": 809
+          "word_count": 809,
+          "pib_ids": [
+            "DFO PPU 460"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DFO PPU 460",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-fisheries-and-oceans",
+                "record_id": "DFO PPU 460"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-ed441fb60596_en.md",
+                "line": 40,
+                "mention": "DFO PPU 460",
+                "method": "explicit_pib_id",
+                "excerpt": "The BWC Pilot Project’s proposed handling of personal information falls within the parameters of an existing PIB: Violations under Canadian Fisheries and Fish Habitat Legislation (DFO PPU 460). This PIB governs information related to the investigation and enforcement of Canadian fisheries and fish habitat legislation."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-ed441fb60596_fr.md",
+                "line": 40,
+                "mention": "MPO PPU 460",
+                "method": "explicit_pib_id",
+                "excerpt": "Le traitement des renseignements personnels proposé par le projet pilote sur le port de caméras d’intervention est conforme aux paramètres d’un fichier de renseignements personnels existant : Infractions aux lois canadiennes sur les pêches et l’habitat du poisson (MPO PPU 460). Ce fichier de renseignements personnels régit les renseignements sur les enquêtes et sur la mise en application des lois canadiennes sur les pêches et l’habitat du poisson."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "DFO PPU 460"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 607,
+      "word_count_fr": 809,
+      "word_count_language": "en",
+      "word_count": 607
     },
     {
       "pia_id": "pia-9e46f4c37c1c",
@@ -1177,7 +1856,9 @@
           "title": "Aquatic Invasive Species Program",
           "conversion": "markdownify",
           "text_sha256": "a29a343734b8a8dabfcf75ecad2d3f4f6e606e481d92f96d3403e87bba0d5c78",
-          "word_count": 1118
+          "word_count": 1118,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/invasive-envahissante-fra.html",
@@ -1227,9 +1908,24 @@
           "title": "Le programme d'espèces aquatiques envahissantes",
           "conversion": "markdownify",
           "text_sha256": "98041bfbb4175b685eacbafd8cef659834823b953ab1470a2f85dc39842dd9ba",
-          "word_count": 1468
+          "word_count": 1468,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1118,
+      "word_count_fr": 1468,
+      "word_count_language": "en",
+      "word_count": 1118
     },
     {
       "pia_id": "pia-aa48cf5f7929",
@@ -1293,7 +1989,9 @@
           "title": "Atlantic Fisheries Fund",
           "conversion": "markdownify",
           "text_sha256": "c1deb2f4a8bce740fec3189d09c871ddca40d58a4ade4bfc2ac681ed9100900b",
-          "word_count": 1183
+          "word_count": 1183,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/atlantic-atlantique-fra.html",
@@ -1343,9 +2041,24 @@
           "title": "Fonds des pêches de l'Atlantique",
           "conversion": "markdownify",
           "text_sha256": "33f8038c154824efb83617c0fb4e48d7a9713f643a0401131fc1164a0d24b059",
-          "word_count": 1575
+          "word_count": 1575,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1183,
+      "word_count_fr": 1575,
+      "word_count_language": "en",
+      "word_count": 1183
     },
     {
       "pia_id": "pia-d6989dc6f968",
@@ -1409,7 +2122,11 @@
           "title": "Fisheries and Aquaculture Clean Technology Adoption Program",
           "conversion": "markdownify",
           "text_sha256": "03496ab458d46f322cc569f45e651e478f85a635dadaaa69a732548cbaefbee6",
-          "word_count": 1061
+          "word_count": 1061,
+          "pib_ids": [
+            "DFO PPU 047"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/adoption-program-programme-adoption-fra.html",
@@ -1459,9 +2176,57 @@
           "title": "Le Programme d'adoption de technologies propres pour les pêches et l'aquaculture",
           "conversion": "markdownify",
           "text_sha256": "ab0d56ae97d57f5d85d1fd2ecdfaeb5ae364202a8b2f723c9f5b2a7923002b79",
-          "word_count": 1386
+          "word_count": 1386,
+          "pib_ids": [
+            "DFO PPU 047"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DFO PPU 047",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-fisheries-and-oceans",
+                "record_id": "DFO PPU 047"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-d6989dc6f968_en.md",
+                "line": 48,
+                "mention": "DFO PPU 047",
+                "method": "explicit_pib_id",
+                "excerpt": "This initiative is covered by the PIB Grant and Contribution Initiatives - DFO PPU 047"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-d6989dc6f968_fr.md",
+                "line": 48,
+                "mention": "MPO PPU 047",
+                "method": "explicit_pib_id",
+                "excerpt": "Cette initiative est couverte par le fichier de renseignements personnels (FRP) Initiatives de subvention et contribution – MPO PPU 047"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "DFO PPU 047"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1061,
+      "word_count_fr": 1386,
+      "word_count_language": "en",
+      "word_count": 1061
     },
     {
       "pia_id": "pia-8236ff2f8883",
@@ -1525,7 +2290,9 @@
           "title": "Ice Assistance Emergency Program",
           "conversion": "markdownify",
           "text_sha256": "8e368bef6a069e64c123f787cf4f389f1726591b04d30ca5a29b6ef77f0a6db9",
-          "word_count": 1333
+          "word_count": 1333,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/programme-urgence-emergency-program-fra.html",
@@ -1575,9 +2342,24 @@
           "title": "Programme d'urgence d'aide liée aux conditions des glaces",
           "conversion": "markdownify",
           "text_sha256": "cd3b6c3fa5e435ed962efd5fb64d8d779aac4f1c4def5dbdbe4366c07ce43a8c",
-          "word_count": 1791
+          "word_count": 1791,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1333,
+      "word_count_fr": 1791,
+      "word_count_language": "en",
+      "word_count": 1333
     },
     {
       "pia_id": "pia-721ad845e4b0",
@@ -1641,7 +2423,9 @@
           "title": "National Fisheries Intelligence Service",
           "conversion": "markdownify",
           "text_sha256": "2a4462e01a04c9c181d027a8bc676b9231f63351a82781e59ec43910420b124a",
-          "word_count": 1104
+          "word_count": 1104,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/intelligence-service-renseignements-fra.html",
@@ -1691,9 +2475,24 @@
           "title": "Service national de renseignements sur les pêches",
           "conversion": "markdownify",
           "text_sha256": "6c643305701f62cee575354440fbc8781dd1c103951da87055ac6bf8d530aa99",
-          "word_count": 1546
+          "word_count": 1546,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1104,
+      "word_count_fr": 1546,
+      "word_count_language": "en",
+      "word_count": 1104
     },
     {
       "pia_id": "pia-6f5510aa8093",
@@ -1757,7 +2556,11 @@
           "title": "National Introductions and Transfers Program",
           "conversion": "markdownify",
           "text_sha256": "f1569e4fb366fb3c1e8bd16ca974dba06d9c974cd51360949b0d9221be27e154",
-          "word_count": 907
+          "word_count": 907,
+          "pib_ids": [
+            "DFO PPU 095"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/introductions-transfers-introductions-transfert-fra.html",
@@ -1807,9 +2610,57 @@
           "title": "Programme national d’introductions et de transferts",
           "conversion": "markdownify",
           "text_sha256": "05b132e4cabf210e904b874ccb61b7050e7872f8f326da4fedf39be3e47b2886",
-          "word_count": 1204
+          "word_count": 1204,
+          "pib_ids": [
+            "DFO PPU 095"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DFO PPU 095",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-fisheries-and-oceans",
+                "record_id": "DFO PPU 095"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-6f5510aa8093_en.md",
+                "line": 40,
+                "mention": "DFO PPU 095",
+                "method": "explicit_pib_id",
+                "excerpt": "Introductions and Transfers of Live Aquatic Organisms - DFO PPU 095"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-6f5510aa8093_fr.md",
+                "line": 40,
+                "mention": "MPO PPU 095",
+                "method": "explicit_pib_id",
+                "excerpt": "Introductions et transferts d’organismes aquatiques vivants - MPO PPU 095"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "DFO PPU 095"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 907,
+      "word_count_fr": 1204,
+      "word_count_language": "en",
+      "word_count": 907
     },
     {
       "pia_id": "pia-e6fe3fab33fa",
@@ -1873,7 +2724,13 @@
           "title": "Student Bridging Portal using VidCruiter's Applicant Tracking System (VidTracking)",
           "conversion": "markdownify",
           "text_sha256": "2fe6531df0531760bb356056058672c161dae87eac2cdc40048121588d5be385",
-          "word_count": 834
+          "word_count": 834,
+          "pib_ids": [
+            "PSE 902",
+            "PSU 901",
+            "PSU 911"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/student-bridging-portail-integration-fra.html",
@@ -1923,9 +2780,130 @@
           "title": "Portail d'intégration des étudiants conçu à l'aide du système de suivi des candidatures de VidCruiter (VidTracking)",
           "conversion": "markdownify",
           "text_sha256": "28f577d1fdeb9f19ae05cf9530b65f126feacd4a549d323297099a1b9e16c2ae",
-          "word_count": 1084
+          "word_count": 1084,
+          "pib_ids": [
+            "PSE 901",
+            "PSE 902",
+            "PSU 911"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSE 901",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 901"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-e6fe3fab33fa_fr.md",
+                "line": 40,
+                "mention": "POE 901",
+                "method": "explicit_pib_id",
+                "excerpt": "Dossier personnel d'un employé (POE 901)"
+              }
+            ]
+          },
+          {
+            "id": "PSE 902",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 902"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-e6fe3fab33fa_en.md",
+                "line": 41,
+                "mention": "PSE 902",
+                "method": "explicit_pib_id",
+                "excerpt": "Standard PIB for Staffing (PSE 902)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-e6fe3fab33fa_fr.md",
+                "line": 41,
+                "mention": "POE 902",
+                "method": "explicit_pib_id",
+                "excerpt": "FRP ordinaire de la dotation (POE 902)"
+              }
+            ]
+          },
+          {
+            "id": "PSU 901",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 901"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-e6fe3fab33fa_en.md",
+                "line": 40,
+                "mention": "PSU 901",
+                "method": "explicit_pib_id",
+                "excerpt": "Employee Personnel Record (PSU 901)"
+              }
+            ]
+          },
+          {
+            "id": "PSU 911",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 911"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-e6fe3fab33fa_en.md",
+                "line": 42,
+                "mention": "PSU 911",
+                "method": "explicit_pib_id",
+                "excerpt": "Applications for Employment (PSU 911)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-fisheries-and-oceans/pia-e6fe3fab33fa_fr.md",
+                "line": 42,
+                "mention": "POU 911",
+                "method": "explicit_pib_id",
+                "excerpt": "Demandes d'emploi (POU 911)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "PSE 901",
+        "PSE 902",
+        "PSU 901",
+        "PSU 911"
+      ],
+      "pib_count": 4,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 834,
+      "word_count_fr": 1084,
+      "word_count_language": "en",
+      "word_count": 834
     },
     {
       "pia_id": "pia-5e5d895ac87e",
@@ -1989,7 +2967,9 @@
           "title": "SAP S/4HANA - Government of Canada Finance and Materiel Management Solution",
           "conversion": "markdownify",
           "text_sha256": "c9cbde21d97324c33dd72f9a707b6ea4986053b8c2c9b4f283b2b15c8e20c0cc",
-          "word_count": 580
+          "word_count": 580,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/materiel-solution-fra.html",
@@ -2039,9 +3019,24 @@
           "title": "SAP S/4HANA – Solution de gestion des finances et du matériel du gouvernement du Canada",
           "conversion": "markdownify",
           "text_sha256": "5fd10bad85ef3a6d82fbe6923586865b1346c5d88d5ff656aea38f9e040453b2",
-          "word_count": 790
+          "word_count": 790,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 580,
+      "word_count_fr": 790,
+      "word_count_language": "en",
+      "word_count": 580
     }
   ],
   "summary": {

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "collector_version": 1,
-  "collected_at_utc": "2026-11-12T01:50:31.355574+00:00",
+  "collector_version": 2,
+  "collected_at_utc": "2026-11-12T05:49:50.603447+00:00",
   "institution_id": "ati-schedule-i-department-of-the-environment",
   "gc_orgID": "2237.0",
   "open_canada_org_id": "49E2ADF4-AD7A-43EB-85C8-6433D37ED62C",
@@ -9,7 +9,7 @@
   "name_en": "Department of the Environment",
   "name_fr": "Ministère de l’Environnement",
   "registry_membership": "current_registry",
-  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
   "list_pages": {
     "en": {
       "indexed_url": "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy.html",
@@ -133,7 +133,11 @@
           "title": "Migratory Birds Program Privacy Impact Assessment",
           "conversion": "markdownify",
           "text_sha256": "17de6159846f68d020942b13d714d42b866216f7fcd8d6ae92889f8ce685b6ab",
-          "word_count": 242
+          "word_count": 242,
+          "pib_ids": [
+            "EC PPU 006"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels/programme-oiseaux-migrateurs.html",
@@ -184,9 +188,57 @@
           "title": "Évaluation des facteurs relatifs à la vie privée du programme des oiseaux migrateurs",
           "conversion": "markdownify",
           "text_sha256": "3a7f0af8c1fb098d6f750143b20ee2002715203edcd8943812a7dba61745ae4a",
-          "word_count": 355
+          "word_count": 355,
+          "pib_ids": [
+            "EC PPU 006"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "EC PPU 006",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-the-environment",
+                "record_id": "EC PPU 006"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-the-environment/pia-5505011f5975_en.md",
+                "line": 30,
+                "mention": "EC PPU 006",
+                "method": "explicit_pib_id",
+                "excerpt": "EC PPU 006"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-the-environment/pia-5505011f5975_fr.md",
+                "line": 32,
+                "mention": "EC PPU 006",
+                "method": "explicit_pib_id",
+                "excerpt": "EC PPU 006"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "EC PPU 006"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 242,
+      "word_count_fr": 355,
+      "word_count_language": "en",
+      "word_count": 242
     },
     {
       "pia_id": "pia-21018a56f19b",
@@ -250,7 +302,9 @@
           "title": "Science Horizons Youth Internship Program",
           "conversion": "markdownify",
           "text_sha256": "86cf289dbee800c700e0028e6e69994b38cc421c4623adf20343792a3de9ebf8",
-          "word_count": 186
+          "word_count": 186,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels/programme-stages-horizons-science-jeunes.html",
@@ -301,9 +355,24 @@
           "title": "Programme de stages Horizons Sciences pour les jeunes",
           "conversion": "markdownify",
           "text_sha256": "69ad1fd3290d5b84ebe34f61e9063a953eec87eb28a8d3c8fb597574200c4295",
-          "word_count": 249
+          "word_count": 249,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 186,
+      "word_count_fr": 249,
+      "word_count_language": "en",
+      "word_count": 186
     }
   ],
   "summary": {

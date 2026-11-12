@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "collector_version": 1,
-  "collected_at_utc": "2026-11-12T01:50:41.403607+00:00",
+  "collector_version": 2,
+  "collected_at_utc": "2026-11-12T05:50:13.593517+00:00",
   "institution_id": "ati-schedule-i-correctional-service-of-canada",
   "gc_orgID": "2255.0",
   "open_canada_org_id": "3EEE5483-9B34-492D-AE39-3C378F3C2354",
@@ -9,7 +9,7 @@
   "name_en": "Correctional Service of Canada",
   "name_fr": "Service correctionnel du Canada",
   "registry_membership": "current_registry",
-  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
   "list_pages": {
     "en": {
       "indexed_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
@@ -133,7 +133,12 @@
           "title": "Electronic Statement of Observation Report",
           "conversion": "markdownify",
           "text_sha256": "ad4d09a386d0b6074c838de150fcb042383e3967af466681d97993674f8b2d37",
-          "word_count": 738
+          "word_count": 738,
+          "pib_ids": [
+            "CSC PPU 042",
+            "CSC PPU 065"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/rapports-observation-declaration.html",
@@ -184,9 +189,101 @@
           "title": "Rapport d’observation ou déclaration électronique",
           "conversion": "markdownify",
           "text_sha256": "6e19707ed68fc0f2e1ffe5f6c0401ed5f74a30352a7cc3669a0f3ea77fe2c595",
-          "word_count": 909
+          "word_count": 909,
+          "pib_ids": [
+            "SSC PPU 042",
+            "SSC PPU 065"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "CSC PPU 042",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-correctional-service-of-canada",
+                "record_id": "CSC PPU 042"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-correctional-service-of-canada/pia-c09d1129a710_en.md",
+                "line": 56,
+                "mention": "CSC PPU 042",
+                "method": "explicit_pib_id",
+                "excerpt": "- Case Management - CSC PPU 042"
+              }
+            ]
+          },
+          {
+            "id": "CSC PPU 065",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-correctional-service-of-canada",
+                "record_id": "CSC PPU 065"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-correctional-service-of-canada/pia-c09d1129a710_en.md",
+                "line": 55,
+                "mention": "CSC PPU 065",
+                "method": "explicit_pib_id",
+                "excerpt": "- Preventive Security - CSC PPU 065"
+              }
+            ]
+          },
+          {
+            "id": "SSC PPU 042",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-correctional-service-of-canada/pia-c09d1129a710_fr.md",
+                "line": 56,
+                "mention": "SSC PPU 042",
+                "method": "explicit_pib_id",
+                "excerpt": "- Gestion des cas - SSC PPU 042"
+              }
+            ]
+          },
+          {
+            "id": "SSC PPU 065",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-correctional-service-of-canada/pia-c09d1129a710_fr.md",
+                "line": 55,
+                "mention": "SSC PPU 065",
+                "method": "explicit_pib_id",
+                "excerpt": "- Sécurité préventive - SSC PPU 065"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "CSC PPU 042",
+        "CSC PPU 065",
+        "SSC PPU 042",
+        "SSC PPU 065"
+      ],
+      "pib_count": 4,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 738,
+      "word_count_fr": 909,
+      "word_count_language": "en",
+      "word_count": 738
     },
     {
       "pia_id": "pia-d3792b414525",
@@ -250,7 +347,11 @@
           "title": "National Intercept Centre",
           "conversion": "markdownify",
           "text_sha256": "b372fe31509b8f4df0eb298fd3b9968f5a3d18d51f134ce39509f03c3c4b7880",
-          "word_count": 1025
+          "word_count": 1025,
+          "pib_ids": [
+            "CSC PPU 065"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/centre-national-interception.html",
@@ -301,9 +402,70 @@
           "title": "Centre national d'interception",
           "conversion": "markdownify",
           "text_sha256": "08efe47e71abb371ea374a1517f88ee3fc7a29b69154ab98b4846b3256b00680",
-          "word_count": 1125
+          "word_count": 1125,
+          "pib_ids": [
+            "CSC PPU 115"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "CSC PPU 065",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-correctional-service-of-canada",
+                "record_id": "CSC PPU 065"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-correctional-service-of-canada/pia-d3792b414525_en.md",
+                "line": 38,
+                "mention": "CSC PPU 065",
+                "method": "explicit_pib_id",
+                "excerpt": "- Preventive Security Bank – CSC PPU 065"
+              }
+            ]
+          },
+          {
+            "id": "CSC PPU 115",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-correctional-service-of-canada",
+                "record_id": "CSC PPU 115"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-correctional-service-of-canada/pia-d3792b414525_fr.md",
+                "line": 38,
+                "mention": "SCC PPU 115",
+                "method": "explicit_pib_id",
+                "excerpt": "- Fichier de sécurité préventive : SCC PPU 115"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "CSC PPU 065",
+        "CSC PPU 115"
+      ],
+      "pib_count": 2,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1025,
+      "word_count_fr": 1125,
+      "word_count_language": "en",
+      "word_count": 1025
     },
     {
       "pia_id": "pia-a9f0540f0911",
@@ -367,7 +529,9 @@
           "title": "Digital Education Project",
           "conversion": "markdownify",
           "text_sha256": "9651b4585e62af6d0a82efaffe5bf741e4e298ca3ac1ef6ddb07dfd474409eb3",
-          "word_count": 548
+          "word_count": 548,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/projet-education-numerique.html",
@@ -418,9 +582,24 @@
           "title": "Le Projet d'éducation numérique",
           "conversion": "markdownify",
           "text_sha256": "f9e6f03425adae692ace0e62a92a90dd58c05a2586d96ad0a56eb1daf3b150ea",
-          "word_count": 636
+          "word_count": 636,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 548,
+      "word_count_fr": 636,
+      "word_count_language": "en",
+      "word_count": 548
     },
     {
       "pia_id": "pia-4b0bc656e357",
@@ -484,7 +663,9 @@
           "title": "Video visitation",
           "conversion": "markdownify",
           "text_sha256": "c55db820934ff94e8b16825dcc38eb36e56e3805f2b69335b01d8ab4b7c1d61d",
-          "word_count": 873
+          "word_count": 873,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/visites-par-videoconference.html",
@@ -535,9 +716,24 @@
           "title": "Les visites par vidéoconférence",
           "conversion": "markdownify",
           "text_sha256": "dc3507e9a18b92caa7237c3abb9afd0d7f5d823a7748d87774886e43e7031b40",
-          "word_count": 1048
+          "word_count": 1048,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 873,
+      "word_count_fr": 1048,
+      "word_count_language": "en",
+      "word_count": 873
     },
     {
       "pia_id": "pia-57c8ec2bb455",
@@ -601,7 +797,9 @@
           "title": "Electronic Monitoring Pilot II (EM-PII)",
           "conversion": "markdownify",
           "text_sha256": "e5ef8cdb71b33dfe5ec8def8274b9a7532400dc14633d4d5b97f03a2a744fad8",
-          "word_count": 828
+          "word_count": 828,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/pilote-de-surveillance-electronique.html",
@@ -652,9 +850,24 @@
           "title": "Projet pilote de surveillance électronique II (SE-PPII)",
           "conversion": "markdownify",
           "text_sha256": "4053c6923b727c21affa143c5760af45e1bfd4763892dbc91f1589ceb26a303d",
-          "word_count": 1072
+          "word_count": 1072,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 828,
+      "word_count_fr": 1072,
+      "word_count_language": "en",
+      "word_count": 828
     },
     {
       "pia_id": "pia-b7c549ca6c1c",
@@ -718,7 +931,9 @@
           "title": "Disclosure for health research",
           "conversion": "markdownify",
           "text_sha256": "fdccd9a45f72f6a4b32e4ab0fcbc1d19b60ae36a2515479e0a554dc655bf062e",
-          "word_count": 1111
+          "word_count": 1111,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/divulgation-recherche-sante.html",
@@ -769,9 +984,24 @@
           "title": "Divulgation pour la recherche sur la santé",
           "conversion": "markdownify",
           "text_sha256": "c0d1c65e89a11fccba6640b29ed1ea288e6799af55d547b5c6b645eb6a0b929b",
-          "word_count": 1329
+          "word_count": 1329,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1111,
+      "word_count_fr": 1329,
+      "word_count_language": "en",
+      "word_count": 1111
     },
     {
       "pia_id": "pia-089f326661ee",
@@ -835,7 +1065,9 @@
           "title": "MOU: Use and Disclosure of Information with Respect to Periods of Incarceration for the Administration of the Old Age Security Act",
           "conversion": "markdownify",
           "text_sha256": "6c92c6db9159932b3cbcddfdd3905be6bc200028d370b05d42573e492bd9324c",
-          "word_count": 376
+          "word_count": 376,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/pe-divulgation-loi-sur-la-securite-de-la-vieillesse.html",
@@ -886,9 +1118,24 @@
           "title": "PE : l'utilisation et la divulgation des renseignements concernant les périodes d'incarcération pour l'application de la Loi sur la sécurité de la vieillesse",
           "conversion": "markdownify",
           "text_sha256": "0725b8ac11fc5115f4961e843f059eb672be92ec34b5265104cccde5d13eee19",
-          "word_count": 470
+          "word_count": 470,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 376,
+      "word_count_fr": 470,
+      "word_count_language": "en",
+      "word_count": 376
     },
     {
       "pia_id": "pia-f6f0e98a6d5b",
@@ -952,7 +1199,9 @@
           "title": "Uniform program",
           "conversion": "markdownify",
           "text_sha256": "3bd471a622ac6e14946eced2efed505edc882e2ec445aa65856213396b75d2e9",
-          "word_count": 331
+          "word_count": 331,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/programme-uniformes.html",
@@ -1003,9 +1252,24 @@
           "title": "Programme d'uniformes",
           "conversion": "markdownify",
           "text_sha256": "0af4937683cb58d2254274cd8323dfaef19ab63f1026872ab030930f3626df83",
-          "word_count": 399
+          "word_count": 399,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 331,
+      "word_count_fr": 399,
+      "word_count_language": "en",
+      "word_count": 331
     },
     {
       "pia_id": "pia-439b0f386734",
@@ -1069,7 +1333,9 @@
           "title": "Human Resources Management System",
           "conversion": "markdownify",
           "text_sha256": "15d53a35c8735b41bc5f6cfd09424c6f6d1f2d00fd6c3e8ce7d0954133025ac4",
-          "word_count": 267
+          "word_count": 267,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/systeme-des-ressources-humaines.html",
@@ -1120,9 +1386,24 @@
           "title": "Système de gestion des ressources humaines",
           "conversion": "markdownify",
           "text_sha256": "00e797f8077043a1c267384ec2deb5c97319201ecdf34f1e489ab17b12a5b173",
-          "word_count": 357
+          "word_count": 357,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 267,
+      "word_count_fr": 357,
+      "word_count_language": "en",
+      "word_count": 267
     },
     {
       "pia_id": "pia-0214b704b6d1",
@@ -1186,7 +1467,9 @@
           "title": "Computerized Mental Health Intake Screening System",
           "conversion": "markdownify",
           "text_sha256": "7c443e21b0b9774af64bef02823ab89e20ebcba3763ee0a43b3b764b5290bba7",
-          "word_count": 639
+          "word_count": 639,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/systeme-informatise-troubles-mentaux.html",
@@ -1237,9 +1520,24 @@
           "title": "Système informatisé de dépistage des troubles mentaux à l'évaluation initiale",
           "conversion": "markdownify",
           "text_sha256": "d796301bb72c7a4e503e45bdfa3d6a362fa1d6924313eab62b68205aeda06f4d",
-          "word_count": 830
+          "word_count": 830,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 639,
+      "word_count_fr": 830,
+      "word_count_language": "en",
+      "word_count": 639
     },
     {
       "pia_id": "pia-0919edb109dd",
@@ -1303,7 +1601,9 @@
           "title": "Express Lane Staffing (ELS)",
           "conversion": "markdownify",
           "text_sha256": "7d492cac0561d547cf0ea572472a49b35247d9edb0f61a05f1b4048aa629729f",
-          "word_count": 121
+          "word_count": 121,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/dotation-par-voie-express.html",
@@ -1354,9 +1654,24 @@
           "title": "Dotation par voie express (DVE)",
           "conversion": "markdownify",
           "text_sha256": "a27064ddfa578b35973dcc604afc6349d9b5547ae002a40c712ef208d010f111",
-          "word_count": 165
+          "word_count": 165,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 121,
+      "word_count_fr": 165,
+      "word_count_language": "en",
+      "word_count": 121
     },
     {
       "pia_id": "pia-e6eb8b54499f",
@@ -1420,7 +1735,9 @@
           "title": "Electronic Monitoring Program Pilot",
           "conversion": "markdownify",
           "text_sha256": "6abb91479d167d2855ee485e9ff647a82bca3cfa7d15f7efea8ed48c2ce37816",
-          "word_count": 570
+          "word_count": 570,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/programme-pilote-de-surveillance.html",
@@ -1471,9 +1788,24 @@
           "title": "Programme pilote de surveillance électronique",
           "conversion": "markdownify",
           "text_sha256": "c765bcc280659aa08721c4081a60ddef808f6a43f6175128ca6f07e6960806dd",
-          "word_count": 606
+          "word_count": 606,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 570,
+      "word_count_fr": 606,
+      "word_count_language": "en",
+      "word_count": 570
     },
     {
       "pia_id": "pia-2feb5568a37b",
@@ -1537,7 +1869,9 @@
           "title": "Telework at the ATIP Office of Correctional Service Canada",
           "conversion": "markdownify",
           "text_sha256": "973fa4ea9d2297c6ff227c4f12fb20b61aee5c4ad8e3f48582c196ac185d6030",
-          "word_count": 534
+          "word_count": 534,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/regime-de-teletravail-au-bureau-de-aiprp.html",
@@ -1588,9 +1922,24 @@
           "title": "Régime de télétravail au bureau de l'AIPRP du Service correctionnel du Canada",
           "conversion": "markdownify",
           "text_sha256": "6f1e989c2a04755aa040bcf8ababca2d877dc0b331b6534cfd67a997b59785f4",
-          "word_count": 725
+          "word_count": 725,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 534,
+      "word_count_fr": 725,
+      "word_count_language": "en",
+      "word_count": 534
     },
     {
       "pia_id": "pia-1b091a0dc393",
@@ -1654,7 +2003,9 @@
           "title": "Exchange of personal information between Correctional Service Canada and Passport Canada",
           "conversion": "markdownify",
           "text_sha256": "f4d3df828af8cb176b25007dce81c0f34c280fb8ff3c54aa5568566902ce6ba4",
-          "word_count": 281
+          "word_count": 281,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/echange-de-renseignements-personnels.html",
@@ -1705,9 +2056,24 @@
           "title": "Échange de renseignements personnels entre le Service correctionnel du Canada et Passeport Canada",
           "conversion": "markdownify",
           "text_sha256": "2fc8988312e5882f543bd1db4d0a0d05ad35739cb71a7d0695d497fcd4e2c248",
-          "word_count": 428
+          "word_count": 428,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 281,
+      "word_count_fr": 428,
+      "word_count_language": "en",
+      "word_count": 281
     },
     {
       "pia_id": "pia-0b00606224d4",
@@ -1771,7 +2137,9 @@
           "title": "Electronic sharing of offender information with provincial governments",
           "conversion": "markdownify",
           "text_sha256": "6b86f1fe21721f7cb0f73a484879cf493dfd2f1a33782adcd96757075c7159ca",
-          "word_count": 630
+          "word_count": 630,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/communication-electronique-gouvernements-provinciaux.html",
@@ -1822,9 +2190,24 @@
           "title": "Communication électronique de renseignements sur les délinquants avec les gouvernements provinciaux",
           "conversion": "markdownify",
           "text_sha256": "f2f662e071c5f6ff917fc6b2ca5083aba24e96466cc84c647a4aa910122a8c1d",
-          "word_count": 712
+          "word_count": 712,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 630,
+      "word_count_fr": 712,
+      "word_count_language": "en",
+      "word_count": 630
     },
     {
       "pia_id": "pia-7e831fbf5ba0",
@@ -1888,7 +2271,9 @@
           "title": "Electronic sharing of offender information via InfoPol with police forces",
           "conversion": "markdownify",
           "text_sha256": "841df0c44b6818b75658bd872c28d26bf5aacd26f8c1a555669a96527f480851",
-          "word_count": 383
+          "word_count": 383,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/communication-electronique-infopol.html",
@@ -1939,9 +2324,24 @@
           "title": "Communication électronique de renseignements sur les délinquants avec les services de police par l'entremise d'InfoPol",
           "conversion": "markdownify",
           "text_sha256": "c08e5bc3f3d9b8ae830e78fca868fb8fd32eca0ba4c13900cfd8437bcd6051a0",
-          "word_count": 447
+          "word_count": 447,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 383,
+      "word_count_fr": 447,
+      "word_count_language": "en",
+      "word_count": 383
     },
     {
       "pia_id": "pia-f6d9774ba916",
@@ -2005,7 +2405,9 @@
           "title": "Ontario Sex Offender Registry",
           "conversion": "markdownify",
           "text_sha256": "dbd65c2946af9e9dac18a379efac550b6b4bb10a73a969d6288ac37afcd539ad",
-          "word_count": 497
+          "word_count": 497,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/registre-delinquants-sexuels-ontario.html",
@@ -2056,9 +2458,24 @@
           "title": "Registre des délinquants sexuels de l'Ontario",
           "conversion": "markdownify",
           "text_sha256": "281156c07700203382bb55aa46754a05af02849c924fee3118ac6e836c3dd6ab",
-          "word_count": 569
+          "word_count": 569,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 497,
+      "word_count_fr": 569,
+      "word_count_language": "en",
+      "word_count": 497
     },
     {
       "pia_id": "pia-dd69fd6370e8",
@@ -2125,7 +2542,9 @@
           "date_modified": "2025-08-08",
           "date_published": "2015-10-13",
           "has_pia_text": false,
-          "title": "Not Found"
+          "title": "Not Found",
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/aiprp/007006-0013-fr.shtml",
@@ -2178,9 +2597,24 @@
           },
           "date_modified": "2025-08-08",
           "date_published": "2015-10-13",
-          "has_pia_text": false
+          "has_pia_text": false,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": null,
+      "word_count_fr": null,
+      "word_count_language": null,
+      "word_count": null
     },
     {
       "pia_id": "pia-d276a9fa69cf",
@@ -2244,7 +2678,9 @@
           "title": "Salary Management System",
           "conversion": "markdownify",
           "text_sha256": "b5edec9f4a0f932b01faf5d4ed64e4a257b1703da92a74e90861f8bf5c742ae0",
-          "word_count": 269
+          "word_count": 269,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/systeme-gestion-salaires.html",
@@ -2295,9 +2731,24 @@
           "title": "Système de gestion des salaires",
           "conversion": "markdownify",
           "text_sha256": "966b0df79ac5b9651147ba7528943da890c39ae8eaed952d17d4b710a6aa72c1",
-          "word_count": 381
+          "word_count": 381,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 269,
+      "word_count_fr": 381,
+      "word_count_language": "en",
+      "word_count": 269
     }
   ],
   "summary": {

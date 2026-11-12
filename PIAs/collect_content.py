@@ -26,7 +26,7 @@ from build_index import generic_pia_label
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'PIAs'
 CACHE = ROOT / 'work/pia_content_cache'
-VERSION = 1
+VERSION = 2
 HEADINGS = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'summary']
 LOCKS = {}
 LOCK = threading.Lock()
@@ -44,8 +44,8 @@ def pia(text): return bool(re.search(r'privacy impact|\bpias?\b|facteurs relatif
 def tapi(text): return bool(re.search(r'technology assessment|\btapi\b|evaluation.{0,35}technolog', norm(text)))
 def policy(text):
     n = norm(text)
-    if re.search(r'\b(?:directive|policy|policies|politique|norme|standard)\b|info source|infosource', n): return True
-    return not pia(text) and bool(re.search(r'privacy commissioner|commissariat a la protection|commissaire a la protection|request form|formulaire|^(?:privacy act|access to information act|loi sur la protection des renseignements personnels|loi sur l.acces a l.information)$', n))
+    if re.search(r'^directive\b|directive on privacy|directive sur l.evaluation|policy on privacy|politique sur la protection|norme sur|standard on privacy|^privacy policy$|^politique de confidentialite$|^info source$|^infosource$', n): return True
+    return not pia(text) and bool(re.search(r'privacy commissioner|commissariat a la protection|commissaire a la protection|^(?:request forms?|formulaires? de demande)$|^(?:privacy act|access to information act|loi sur la protection des renseignements personnels|loi sur l.acces a l.information)$', n))
 
 
 
@@ -163,11 +163,11 @@ def list_scope(main):
     candidates = []
     for h in headings:
         title = clean(h.get_text(' ', strip=True))
-        if pia(title) and not policy(title) and not tapi(title): candidates.append(h)
+        if (pia(title) or re.search(r'privacy assessment summar|sommaires d.evaluations de la protection de la vie privee',norm(title))) and not policy(title) and not tapi(title): candidates.append(h)
         elif dedicated and norm(title) in ('summaries', 'resumes', 'sommaires'): candidates.append(h)
     # Use the whole dedicated page only if it has no more focused list heading.
     candidates = [h for h in candidates if not re.search(r'what is|qu.est.ce|process|processus|guide|submit|soumettre|presenter|presentation|overview|apercu|survol|speeches|discours|directive|why |pourquoi|raison|motifs', norm(h.get_text(' ', strip=True)))]
-    focused = [h for h in candidates if h.name != 'h1' and generic_pia_label(clean(h.get_text(' ', strip=True)).replace('privées', 'privée'))]
+    focused = [h for h in candidates if h.name != 'h1' and (generic_pia_label(clean(h.get_text(' ', strip=True)).replace('privées', 'privée')) or re.search(r'privacy assessment summar|sommaires d.evaluations de la protection de la vie privee',norm(h.get_text(' ',strip=True))))]
     summary_scopes = [h for h in candidates if norm(clean(h.get_text(' ', strip=True))) in ('summaries', 'resumes', 'sommaires') or (h in focused and re.search(r'summar|resum|sommair', norm(h.get_text(' ', strip=True))))]
     return summary_scopes or focused or ([h1] if dedicated else candidates)
 
@@ -191,7 +191,7 @@ def discover(metadata, data, lang):
             if bare == urllib.parse.urldefrag(base)[0]: continue
             if re.search(r'^(?:guide|submit|presenter|speeches|discours)|overview|survol', norm(label)): continue
             if policy(label) or tapi(label) or re.search(r'corporate services|services generaux|statistical programs|programmes statistiques', norm(label)): continue
-            if re.search(r'contact|accessibil|haut de|top of|page details|details de la page|abonne|stay tuned|suivez|follow us|twitter|facebook|linkedin|canada.ca|sommaire des demandes|access to information|acces a l.information', norm(label)): continue
+            if re.search(r'^(?:contact us|contactez-nous|accessibility|accessibilite|haut de la page|top of page|page details|details de la page|abonnez-vous|stay tuned|suivez-nous|follow us|twitter|facebook|linkedin|canada\.ca|sommaire des demandes|access to information and privacy|acces a l.information et protection des renseignements personnels)$', re.sub(r'\s*\([^)]*\)', '', norm(label)).strip()): continue
             if urllib.parse.urlsplit(href).netloc in ('laws-lois.justice.gc.ca', 'www.tbs-sct.canada.ca', 'www.tbs-sct.gc.ca', 'open.canada.ca', 'ouvert.canada.ca'): continue
             # Require either a list item, table row, or explicitly named PIA link.
             if not (a.find_parent(['li', 'td', 'p', 'h2', 'h3', 'h4']) or pia(label)): continue
@@ -564,6 +564,8 @@ def collect(rows, discovery, results, refresh=False):
                 'pia_count': sum(v['pia_count'] for v in organization_counts.values()), 'paired_count': sum(v['paired_count'] for v in organization_counts.values()),
                 'source_status_counts': dict(totals), 'organizations': organization_counts}
     (OUT / 'collection_manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')
+    from reference_extraction import enrich_collections
+    enrich_collections()
     print('Collection complete:', {k:v for k,v in manifest.items() if k != 'organizations'})
 
 

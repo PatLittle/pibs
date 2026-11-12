@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "collector_version": 1,
-  "collected_at_utc": "2026-11-12T01:50:37.700805+00:00",
+  "collector_version": 2,
+  "collected_at_utc": "2026-11-12T05:49:58.124714+00:00",
   "institution_id": "ati-schedule-i-atlantic-canada-opportunities-agency",
   "gc_orgID": "2244.0",
   "open_canada_org_id": "C3DDAD27-EFA9-41AB-9D12-12856482C0A8",
@@ -9,7 +9,7 @@
   "name_en": "Atlantic Canada Opportunities Agency",
   "name_fr": "Agence de promotion économique du Canada atlantique",
   "registry_membership": "current_registry",
-  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
   "list_pages": {
     "en": {
       "indexed_url": "https://www.canada.ca/en/atlantic-canada-opportunities/corporate/transparency.html",
@@ -113,7 +113,13 @@
           "title": "Summary of privacy impact assessment for staffing and e-recruitment",
           "conversion": "markdownify",
           "text_sha256": "4fb56203335bbf1cd0e4293de38a7b16c4ac86b907d38e21cc62309eba83b8de",
-          "word_count": 2304
+          "word_count": 2304,
+          "pib_ids": [
+            "ACOA PPU 112"
+          ],
+          "cor_ids": [
+            "PRN 920"
+          ]
         },
         "fr": {
           "url": "https://www.canada.ca/fr/promotion-economique-canada-atlantique/organisation/transparence/evaluation-des-facteurs-relatifs-a-la-vie-privee-pour-recrutement-en-ligne.html",
@@ -164,9 +170,84 @@
           "title": "L'Évaluation des facteurs relatifs à la vie privée pour la dotation et le recrutement en ligne",
           "conversion": "markdownify",
           "text_sha256": "c14122415e8fc8d92ff02c8a6680d9cba4ec7897f58f39b26b2dae2ba8b47b66",
-          "word_count": 2934
+          "word_count": 2934,
+          "pib_ids": [
+            "ACOA PPU 112"
+          ],
+          "cor_ids": [
+            "PRN 920"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "ACOA PPU 112",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-98bd78130e6c_en.md",
+                "line": 58,
+                "mention": "ACOA PPU 112",
+                "method": "explicit_pib_id",
+                "excerpt": "PIB Bank Number: ACOA PPU 112"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-98bd78130e6c_fr.md",
+                "line": 58,
+                "mention": "ACOA PPU 112",
+                "method": "explicit_pib_id",
+                "excerpt": "Numéro de banque de fichiers de renseignements personnels ordinaires : ACOA PPU 112"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "PRN 920",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "920"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-98bd78130e6c_en.md",
+                "line": 52,
+                "mention": "PRN 920",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "ACOA CoR Number: PRN 920"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-98bd78130e6c_fr.md",
+                "line": 52,
+                "mention": "PRN 920",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "Numéro de la catégorie de documents connexes : PRN 920"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "ACOA PPU 112"
+      ],
+      "pib_count": 1,
+      "cor_ids": [
+        "PRN 920"
+      ],
+      "cor_count": 1,
+      "word_count_en": 2304,
+      "word_count_fr": 2934,
+      "word_count_language": "en",
+      "word_count": 2304
     },
     {
       "pia_id": "pia-a65f060c76d6",
@@ -230,7 +311,59 @@
           "title": "Summary of Privacy Impact Assessment for Microsoft Office 365",
           "conversion": "markdownify",
           "text_sha256": "4ff9c1f36b15b567068b70ff8eed0d7fb8065ccc2dc1fae2cec934a6296e4717",
-          "word_count": 5709
+          "word_count": 5709,
+          "pib_ids": [
+            "ACOA PPU 005",
+            "ACOA PPU 111",
+            "CRA PPU 150",
+            "PSE 901",
+            "PSE 902",
+            "PSE 903",
+            "PSE 904",
+            "PSE 905",
+            "PSE 906",
+            "PSE 907",
+            "PSE 908",
+            "PSE 910",
+            "PSE 911",
+            "PSE 912",
+            "PSE 915",
+            "PSE 916",
+            "PSE 918",
+            "PSE 919",
+            "PSE 920",
+            "PSE 935",
+            "PSU 901",
+            "PSU 902",
+            "PSU 903",
+            "PSU 905",
+            "PSU 906",
+            "PSU 907",
+            "PSU 908",
+            "PSU 909",
+            "PSU 910",
+            "PSU 911",
+            "PSU 912",
+            "PSU 913",
+            "PSU 914",
+            "PSU 915",
+            "PSU 917",
+            "PSU 918",
+            "PSU 919",
+            "PSU 931",
+            "PSU 932",
+            "PSU 933",
+            "PSU 934",
+            "PSU 936",
+            "PSU 937",
+            "PSU 938",
+            "PSU 939",
+            "PSU 940",
+            "PSU 941",
+            "PSU 942",
+            "PSU 948"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/promotion-economique-canada-atlantique/organisation/transparence/evaluation-des-facteurs-relatifs-a-la-vie-privee-pour-m365.html",
@@ -281,9 +414,1495 @@
           "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée pour Microsoft Office 365",
           "conversion": "markdownify",
           "text_sha256": "2be57a2c5241451fb2bed319b782564139d8649ba3c3bb614251f768ea4f5b18",
-          "word_count": 6691
+          "word_count": 6691,
+          "pib_ids": [
+            "ACOA PPU 005",
+            "ACOA PPU 111",
+            "CRA PPU 150",
+            "PSE 901",
+            "PSE 902",
+            "PSE 903",
+            "PSE 904",
+            "PSE 905",
+            "PSE 906",
+            "PSE 907",
+            "PSE 908",
+            "PSE 910",
+            "PSE 911",
+            "PSE 912",
+            "PSE 915",
+            "PSE 916",
+            "PSE 918",
+            "PSE 919",
+            "PSE 920",
+            "PSE 935",
+            "PSU 901",
+            "PSU 902",
+            "PSU 903",
+            "PSU 905",
+            "PSU 906",
+            "PSU 907",
+            "PSU 908",
+            "PSU 909",
+            "PSU 910",
+            "PSU 911",
+            "PSU 912",
+            "PSU 913",
+            "PSU 914",
+            "PSU 915",
+            "PSU 917",
+            "PSU 918",
+            "PSU 919",
+            "PSU 931",
+            "PSU 932",
+            "PSU 933",
+            "PSU 934",
+            "PSU 936",
+            "PSU 937",
+            "PSU 938",
+            "PSU 939",
+            "PSU 940",
+            "PSU 941",
+            "PSU 942",
+            "PSU 948"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "ACOA PPU 005",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 143,
+                "mention": "ACOA PPU 005",
+                "method": "explicit_pib_id",
+                "excerpt": "| - Grants and Contributions | ACOA PPU 005 | 007070 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 143,
+                "mention": "APECA PPU 005",
+                "method": "explicit_pib_id",
+                "excerpt": "| - Subventions et contributions | APECA PPU 005 | 007070 |"
+              }
+            ]
+          },
+          {
+            "id": "ACOA PPU 111",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-atlantic-canada-opportunities-agency",
+                "record_id": "ACOA PPU 111"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 155,
+                "mention": "ACOA PPU 111",
+                "method": "explicit_pib_id",
+                "excerpt": "| - Peer Reviewers | ACOA PPU 111 | 20090345 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 155,
+                "mention": "APECA PPU 111",
+                "method": "explicit_pib_id",
+                "excerpt": "| - Pairs examinateurs | APECA PPU 111 | 20090345 |"
+              }
+            ]
+          },
+          {
+            "id": "CRA PPU 150",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 163,
+                "mention": "CRA PPU 150",
+                "method": "explicit_pib_id",
+                "excerpt": "Consistent Uses: A list of peer reviewers is maintained for call-back purposes. Information may be shared with the Canada Revenue Agency (CRA); refer to CRA PPU 150 ‑ Information Returns (Infodec) Databank. Information may also be used for evaluation and reporting to senior management."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 163,
+                "mention": "ARC PPU 150",
+                "method": "explicit_pib_id",
+                "excerpt": "Usages compatibles: Une liste des pairs examinateurs est tenue à jour aux fins de rappel. Les renseignements peuvent être communiqués à l’Agence du revenu du Canada (ARC); voir la Banque de données des déclarations de renseignements (Infodec) ARC PPU 150. Les renseignements peuvent également être utilisés aux fins d’évaluation ou de présentation de rapports à l’intention de la haute direction."
+              }
+            ]
+          },
+          {
+            "id": "PSE 901",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 901"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 107,
+                "mention": "PSE 901",
+                "method": "explicit_pib_id",
+                "excerpt": "| Employee Personnel Record | PSE 901 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 107,
+                "mention": "PSE 901",
+                "method": "explicit_pib_id",
+                "excerpt": "| Dossier personnel d’un employé | PSE 901 |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 902",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 902"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 135,
+                "mention": "PSE 902",
+                "method": "explicit_pib_id",
+                "excerpt": "| Staffing | PSE 902 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 135,
+                "mention": "PSE 902",
+                "method": "explicit_pib_id",
+                "excerpt": "| Dotation | PSE 902 |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 903",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 903"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 98,
+                "mention": "PSE 903",
+                "method": "explicit_pib_id",
+                "excerpt": "| Attendance and Leave | PSE 903 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 98,
+                "mention": "PSE 903",
+                "method": "explicit_pib_id",
+                "excerpt": "| Présence et congés | PSE 903 |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 904",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 904"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 126,
+                "mention": "PSE 904",
+                "method": "explicit_pib_id",
+                "excerpt": "| Pay and Benefits | PSE 904 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 126,
+                "mention": "PSE 904",
+                "method": "explicit_pib_id",
+                "excerpt": "| Rémunération et avantages sociaux | PSE 904 |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 905",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 905"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 136,
+                "mention": "PSE 905",
+                "method": "explicit_pib_id",
+                "excerpt": "| Training and Development | PSE 905 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 136,
+                "mention": "PSE 905",
+                "method": "explicit_pib_id",
+                "excerpt": "| Formation et perfectionnement | PSE 905 |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 906",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 906"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 124,
+                "mention": "PSE 906",
+                "method": "explicit_pib_id",
+                "excerpt": "| Official Languages | PSE 906 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 124,
+                "mention": "PSE 906",
+                "method": "explicit_pib_id",
+                "excerpt": "| Langues officielles | PSE 906 |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 907",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 907"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 123,
+                "mention": "PSE 907",
+                "method": "explicit_pib_id",
+                "excerpt": "| Occupational Health and Safety | PSE 907 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 123,
+                "mention": "PSE 907",
+                "method": "explicit_pib_id",
+                "excerpt": "| Santé et sécurité au travail | PSE 907 |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 908",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 908"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 139,
+                "mention": "PSE 908",
+                "method": "explicit_pib_id",
+                "excerpt": "| Vehicle, Ship, Boat and Aircraft Accidents | PSE 908 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 139,
+                "mention": "PSE 908",
+                "method": "explicit_pib_id",
+                "excerpt": "| Accidents d’automobile, de bateau, d’embarcation et d’avion | PSE 908 |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 910",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 910"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 113,
+                "mention": "PSE 910",
+                "method": "explicit_pib_id",
+                "excerpt": "| Grievances | PSE 910 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 113,
+                "mention": "PSE 910",
+                "method": "explicit_pib_id",
+                "excerpt": "| Griefs | PSE 910 |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 911",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 911"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 101,
+                "mention": "PSE 911",
+                "method": "explicit_pib_id",
+                "excerpt": "| Discipline | PSE 911 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 101,
+                "mention": "PSE 911",
+                "method": "explicit_pib_id",
+                "excerpt": "| Mesures disciplinaires | PSE 911 |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 912",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 912"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 106,
+                "mention": "PSE 912",
+                "method": "explicit_pib_id",
+                "excerpt": "| Employee Performance Management Program | PSE 912 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 106,
+                "mention": "PSE 912",
+                "method": "explicit_pib_id",
+                "excerpt": "| Programme de gestion du rendement des employés | PSE 912 |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 915",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 915"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 138,
+                "mention": "PSE 915",
+                "method": "explicit_pib_id",
+                "excerpt": "| Values and Ethics Codes for the Public Sector and Organizational Code(s) of Conduct | PSE 915 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 138,
+                "mention": "PSE 915",
+                "method": "explicit_pib_id",
+                "excerpt": "| Codes de valeurs et d’éthique du secteur public et codes de conduite organisationnels | PSE 915 |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 916",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 916"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 105,
+                "mention": "PSE 916",
+                "method": "explicit_pib_id",
+                "excerpt": "| Employee Assistance | PSE 916 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 105,
+                "mention": "PSE 916",
+                "method": "explicit_pib_id",
+                "excerpt": "| Aide aux employés | PSE 916 |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 918",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 918"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 108,
+                "mention": "PSE 918",
+                "method": "explicit_pib_id",
+                "excerpt": "| Employment Equity and Diversity | PSE 918 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 108,
+                "mention": "PSE 918",
+                "method": "explicit_pib_id",
+                "excerpt": "| Équité en matière d’emploi et diversité | PSE 918 |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 919",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 919"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 114,
+                "mention": "PSE 919",
+                "method": "explicit_pib_id",
+                "excerpt": "| Harassment | PSE 919 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 114,
+                "mention": "PSE 919",
+                "method": "explicit_pib_id",
+                "excerpt": "| Harcèlement | PSE 919 |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 920",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 920"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 131,
+                "mention": "PSE 920",
+                "method": "explicit_pib_id",
+                "excerpt": "| Recognition Program | PSE 920 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 131,
+                "mention": "PSE 920",
+                "method": "explicit_pib_id",
+                "excerpt": "| Programme de reconnaissance | PSE 920 |"
+              }
+            ]
+          },
+          {
+            "id": "PSE 935",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 116,
+                "mention": "PSE 935",
+                "method": "explicit_pib_id",
+                "excerpt": "| Human Resources Planning | PSE 935 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 116,
+                "mention": "PSE 935",
+                "method": "explicit_pib_id",
+                "excerpt": "| Planification des ressources humaines | PSE 935 |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 901",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 901"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 93,
+                "mention": "PSU 901",
+                "method": "explicit_pib_id",
+                "excerpt": "| Access to Information and Privacy | PSU 901 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 93,
+                "mention": "PSU 901",
+                "method": "explicit_pib_id",
+                "excerpt": "| Accès à l’information et protection des renseignements personnels | PSU 901 |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 902",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 902"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 109,
+                "mention": "PSU 902",
+                "method": "explicit_pib_id",
+                "excerpt": "| Executive Correspondence | PSU 902 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 109,
+                "mention": "PSU 902",
+                "method": "explicit_pib_id",
+                "excerpt": "| Correspondance de la direction | PSU 902 |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 903",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 903"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 99,
+                "mention": "PSU 903",
+                "method": "explicit_pib_id",
+                "excerpt": "| Business Continuity Planning | PSU 903 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 99,
+                "mention": "PSU 903",
+                "method": "explicit_pib_id",
+                "excerpt": "| Planification de la continuité des activités | PSU 903 |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 905",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 905"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 104,
+                "mention": "PSU 905",
+                "method": "explicit_pib_id",
+                "excerpt": "| Electronic Network Monitoring Logs | PSU 905 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 104,
+                "mention": "PSU 905",
+                "method": "explicit_pib_id",
+                "excerpt": "| Registres de surveillance des réseaux électroniques | PSU 905 |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 906",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 906"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 102,
+                "mention": "PSU 906",
+                "method": "explicit_pib_id",
+                "excerpt": "| Disclosure of Wrongdoing in the Workplace | PSU 906 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 102,
+                "mention": "PSU 906",
+                "method": "explicit_pib_id",
+                "excerpt": "| Divulgation d’actes fautifs commis en milieu de travail | PSU 906 |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 907",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 907"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 134,
+                "mention": "PSU 907",
+                "method": "explicit_pib_id",
+                "excerpt": "| Security Video Surveillance and Temporary Visitor Access Control Logs and Access Badges | PSU 907 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 134,
+                "mention": "PSU 907",
+                "method": "explicit_pib_id",
+                "excerpt": "| Surveillance vidéo, registres de contrôle d’accès des visiteurs et laissez-passer | PSU 907 |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 908",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 908"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 115,
+                "mention": "PSU 908",
+                "method": "explicit_pib_id",
+                "excerpt": "| Hospitality | PSU 908 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 115,
+                "mention": "PSU 908",
+                "method": "explicit_pib_id",
+                "excerpt": "| Accueil | PSU 908 |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 909",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 909"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 137,
+                "mention": "PSU 909",
+                "method": "explicit_pib_id",
+                "excerpt": "| Travel | PSU 909 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 137,
+                "mention": "PSU 909",
+                "method": "explicit_pib_id",
+                "excerpt": "| Voyages | PSU 909 |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 910",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 910"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 132,
+                "mention": "PSU 910",
+                "method": "explicit_pib_id",
+                "excerpt": "| Relocation | PSU 910 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 132,
+                "mention": "PSU 910",
+                "method": "explicit_pib_id",
+                "excerpt": "| Réinstallation | PSU 910 |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 911",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 911"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 97,
+                "mention": "PSU 911",
+                "method": "explicit_pib_id",
+                "excerpt": "| Applications for Employment | PSU 911 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 97,
+                "mention": "PSU 911",
+                "method": "explicit_pib_id",
+                "excerpt": "| Demandes d’emploi | PSU 911 |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 912",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 912"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 128,
+                "mention": "PSU 912",
+                "method": "explicit_pib_id",
+                "excerpt": "| Professional Services Contracts | PSU 912 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 128,
+                "mention": "PSU 912",
+                "method": "explicit_pib_id",
+                "excerpt": "| Contrats de services professionnels | PSU 912 |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 913",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 913"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 103,
+                "mention": "PSU 913",
+                "method": "explicit_pib_id",
+                "excerpt": "| Disclosure to Investigative Bodies | PSU 913 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 103,
+                "mention": "PSU 913",
+                "method": "explicit_pib_id",
+                "excerpt": "| Divulgation aux organismes d’enquête | PSU 913 |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 914",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 914"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 129,
+                "mention": "PSU 914",
+                "method": "explicit_pib_id",
+                "excerpt": "| Public Communications | PSU 914 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 129,
+                "mention": "PSU 914",
+                "method": "explicit_pib_id",
+                "excerpt": "| Communications publiques | PSU 914 |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 915",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 915"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 119,
+                "mention": "PSU 915",
+                "method": "explicit_pib_id",
+                "excerpt": "| Internal Communications | PSU 915 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 119,
+                "mention": "PSU 915",
+                "method": "explicit_pib_id",
+                "excerpt": "| Communications internes | PSU 915 |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 917",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 917"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 117,
+                "mention": "PSU 917",
+                "method": "explicit_pib_id",
+                "excerpt": "| Identification Cards and Access Badges | PSU 917 |"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 127,
+                "mention": "PSU 917",
+                "method": "explicit_pib_id",
+                "excerpt": "| Personnel Security Screening | PSU 917 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 117,
+                "mention": "PSU 917",
+                "method": "explicit_pib_id",
+                "excerpt": "| Cartes d’identité et laissez-passer | PSU 917 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 127,
+                "mention": "PSU 917",
+                "method": "explicit_pib_id",
+                "excerpt": "| Filtrage de sécurité du personnel | PSU 917 |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 918",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 918"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 112,
+                "mention": "PSU 918",
+                "method": "explicit_pib_id",
+                "excerpt": "| Governor In Council Appointments | PSU 918 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 112,
+                "mention": "PSU 918",
+                "method": "explicit_pib_id",
+                "excerpt": "| Nominations par le gouverneur en conseil | PSU 918 |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 919",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 919"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 122,
+                "mention": "PSU 919",
+                "method": "explicit_pib_id",
+                "excerpt": "| Members of Boards, Committees and Councils | PSU 919 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 122,
+                "mention": "PSU 919",
+                "method": "explicit_pib_id",
+                "excerpt": "| Membres de conseils d’administration, de comités et de conseils | PSU 919 |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 931",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 931"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 94,
+                "mention": "PSU 931",
+                "method": "explicit_pib_id",
+                "excerpt": "| Accounts Payable | PSU 931 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 94,
+                "mention": "PSU 931",
+                "method": "explicit_pib_id",
+                "excerpt": "| Comptes créditeurs | PSU 931 |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 932",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 932"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 95,
+                "mention": "PSU 932",
+                "method": "explicit_pib_id",
+                "excerpt": "| Accounts Receivable | PSU 932 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 95,
+                "mention": "PSU 932",
+                "method": "explicit_pib_id",
+                "excerpt": "| Comptes débiteurs | PSU 932 |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 933",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 933"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 100,
+                "mention": "PSU 933",
+                "method": "explicit_pib_id",
+                "excerpt": "| Canadian Human Rights Act - Complaints | PSU 933 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 100,
+                "mention": "PSU 933",
+                "method": "explicit_pib_id",
+                "excerpt": "| Loi canadienne sur les droits de la personne – plaintes | PSU 933 |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 934",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 934"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 111,
+                "mention": "PSU 934",
+                "method": "explicit_pib_id",
+                "excerpt": "| EX Talent Management | PSU 934 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 111,
+                "mention": "PSU 934",
+                "method": "explicit_pib_id",
+                "excerpt": "| Gestion des talents des cadres supérieurs | PSU 934 |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 936",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 936"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 120,
+                "mention": "PSU 936",
+                "method": "explicit_pib_id",
+                "excerpt": "| Library Services | PSU 936 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 120,
+                "mention": "PSU 936",
+                "method": "explicit_pib_id",
+                "excerpt": "| Services de bibliothèque | PSU 936 |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 937",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 937"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 121,
+                "mention": "PSU 937",
+                "method": "explicit_pib_id",
+                "excerpt": "| Lobbying Act Requirements | PSU 937 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 121,
+                "mention": "PSU 937",
+                "method": "explicit_pib_id",
+                "excerpt": "| Exigences de la Loi sur le lobbying | PSU 937 |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 938",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 938"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 125,
+                "mention": "PSU 938",
+                "method": "explicit_pib_id",
+                "excerpt": "| Outreach Activities | PSU 938 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 125,
+                "mention": "PSU 938",
+                "method": "explicit_pib_id",
+                "excerpt": "| Activités de sensibilisation | PSU 938 |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 939",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 939"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 133,
+                "mention": "PSU 939",
+                "method": "explicit_pib_id",
+                "excerpt": "| Security Incidents and Privacy Breaches | PSU 939 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 133,
+                "mention": "PSU 939",
+                "method": "explicit_pib_id",
+                "excerpt": "| Incidents de sécurité et atteintes à la vie privée | PSU 939 |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 940",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 940"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 96,
+                "mention": "PSU 940",
+                "method": "explicit_pib_id",
+                "excerpt": "| Acquisition Cards | PSU 940 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 96,
+                "mention": "PSU 940",
+                "method": "explicit_pib_id",
+                "excerpt": "| Cartes d’achat | PSU 940 |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 941",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 941"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 118,
+                "mention": "PSU 941",
+                "method": "explicit_pib_id",
+                "excerpt": "| Internal Audit | PSU 941 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 118,
+                "mention": "PSU 941",
+                "method": "explicit_pib_id",
+                "excerpt": "| Vérification interne | PSU 941 |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 942",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 942"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 110,
+                "mention": "PSU 942",
+                "method": "explicit_pib_id",
+                "excerpt": "| Evaluation | PSU 942 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 110,
+                "mention": "PSU 942",
+                "method": "explicit_pib_id",
+                "excerpt": "| Évaluation | PSU 942 |"
+              }
+            ]
+          },
+          {
+            "id": "PSU 948",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 948"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_en.md",
+                "line": 130,
+                "mention": "PSU 948",
+                "method": "explicit_pib_id",
+                "excerpt": "| Real Property Management | PSU 948 |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-atlantic-canada-opportunities-agency/pia-a65f060c76d6_fr.md",
+                "line": 130,
+                "mention": "PSU 948",
+                "method": "explicit_pib_id",
+                "excerpt": "| Gestion des biens immobiliers | PSU 948 |"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "ACOA PPU 005",
+        "ACOA PPU 111",
+        "CRA PPU 150",
+        "PSE 901",
+        "PSE 902",
+        "PSE 903",
+        "PSE 904",
+        "PSE 905",
+        "PSE 906",
+        "PSE 907",
+        "PSE 908",
+        "PSE 910",
+        "PSE 911",
+        "PSE 912",
+        "PSE 915",
+        "PSE 916",
+        "PSE 918",
+        "PSE 919",
+        "PSE 920",
+        "PSE 935",
+        "PSU 901",
+        "PSU 902",
+        "PSU 903",
+        "PSU 905",
+        "PSU 906",
+        "PSU 907",
+        "PSU 908",
+        "PSU 909",
+        "PSU 910",
+        "PSU 911",
+        "PSU 912",
+        "PSU 913",
+        "PSU 914",
+        "PSU 915",
+        "PSU 917",
+        "PSU 918",
+        "PSU 919",
+        "PSU 931",
+        "PSU 932",
+        "PSU 933",
+        "PSU 934",
+        "PSU 936",
+        "PSU 937",
+        "PSU 938",
+        "PSU 939",
+        "PSU 940",
+        "PSU 941",
+        "PSU 942",
+        "PSU 948"
+      ],
+      "pib_count": 49,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 5709,
+      "word_count_fr": 6691,
+      "word_count_language": "en",
+      "word_count": 5709
     }
   ],
   "summary": {

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "collector_version": 1,
-  "collected_at_utc": "2026-11-12T01:50:30.751398+00:00",
+  "collector_version": 2,
+  "collected_at_utc": "2026-11-12T05:49:46.986118+00:00",
   "institution_id": "ati-schedule-i-department-of-agriculture-and-agri-food",
   "gc_orgID": "2222.0",
   "open_canada_org_id": "2ABCCA59-6C57-4886-99E7-85EC6C719218",
@@ -9,7 +9,7 @@
   "name_en": "Department of Agriculture and Agri-Food",
   "name_fr": "Ministère de l’Agriculture et de l’Agroalimentaire",
   "registry_membership": "current_registry",
-  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
   "list_pages": {
     "en": {
       "indexed_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
@@ -34,7 +34,7 @@
           "raw_path": "raw/473a1036cfaf767ed546.html"
         }
       ],
-      "discovered_count": 19,
+      "discovered_count": 20,
       "scopes": [
         "Privacy impact assessment summaries"
       ],
@@ -133,7 +133,11 @@
           "title": "Prescribed Presence in the Workplace Monitoring Program Privacy Impact Assessment",
           "conversion": "markdownify",
           "text_sha256": "da27ebfccd308f879bfa2353a2e6b38ea292aadbdca1a4735b19de7e6b1f357a",
-          "word_count": 752
+          "word_count": 752,
+          "pib_ids": [
+            "AAFC PPE 254"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/programme-surveillance-presence-prescrite-au-lieu-travail-evaluation-facteurs-relatifs-vie-privee",
@@ -184,9 +188,57 @@
           "title": "Programme de surveillance de la présence prescrite au lieu de travail - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "556f6ca7ce8070d33093b5c7aa767cebbca7d0aad45f157e7e27fcaa328baa56",
-          "word_count": 969
+          "word_count": 969,
+          "pib_ids": [
+            "AAFC PPE 254"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "AAFC PPE 254",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-agriculture-and-agri-food",
+                "record_id": "AAFC PPE 254"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-08460b35bfb4_en.md",
+                "line": 44,
+                "mention": "AAFC PPE 254",
+                "method": "explicit_pib_id",
+                "excerpt": "The institution specific personal information bank, Prescribed Presence in the Workplace Monitoring Program (AAFC PPE 254), was created during the writing of this PIA. AAFC has published the PIB on its Info Source webpage while it is being reviewed, approved, and registered by TBS."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-08460b35bfb4_fr.md",
+                "line": 44,
+                "mention": "AAFC PPE 254",
+                "method": "explicit_pib_id",
+                "excerpt": "Le fichier de renseignements personnels propre à l'institution (Programme de surveillance de la présence prescrite au lieu de travail — AAFC PPE 254) a été créé au moment de la rédaction de la présente EFVP. AAC l'a publié en ligne sur sa page Info Source, et le FRP est en attente d'approbation et d'enregistrement par le SCT."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "AAFC PPE 254"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 752,
+      "word_count_fr": 969,
+      "word_count_language": "en",
+      "word_count": 752
     },
     {
       "pia_id": "pia-add9e7d320e2",
@@ -250,7 +302,11 @@
           "title": "Personnel Security Screening Program",
           "conversion": "markdownify",
           "text_sha256": "bf1f30496aa549ef97d31b2ab88a33aa4fe88ca265093ce67389ed50b436229d",
-          "word_count": 542
+          "word_count": 542,
+          "pib_ids": [
+            "PSU 917"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/programme-filtrage-securite-du-personnel-evaluation-facteurs-relatifs-vie-privee",
@@ -301,9 +357,57 @@
           "title": "Programme de filtrage de sécurité du personnel — évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "d4d0d5aa28ab9ed62b419f22b6f76847b205f2a02388545ab2facc21923d8131",
-          "word_count": 722
+          "word_count": 722,
+          "pib_ids": [
+            "PSU 917"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSU 917",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 917"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-add9e7d320e2_en.md",
+                "line": 34,
+                "mention": "PSU 917",
+                "method": "explicit_pib_id",
+                "excerpt": "Personnel Security Screening (Standard PIB PSU 917)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-add9e7d320e2_fr.md",
+                "line": 34,
+                "mention": "POU 917",
+                "method": "explicit_pib_id",
+                "excerpt": "Filtrage de sécurité du personnel (fichiers ordinaires des employés POU 917)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "PSU 917"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 542,
+      "word_count_fr": 722,
+      "word_count_language": "en",
+      "word_count": 542
     },
     {
       "pia_id": "pia-49df22872dfd",
@@ -367,7 +471,11 @@
           "title": "Canada Brand Privacy Impact Assessment",
           "conversion": "markdownify",
           "text_sha256": "a07afc8279bc0c1d8aa77cafcf8c96451a8dbc864caa8b933a5abda871d934dc",
-          "word_count": 364
+          "word_count": 364,
+          "pib_ids": [
+            "AAFC PPU 247"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/evaluation-facteurs-relatifs-vie-privee-marque-canada",
@@ -418,9 +526,57 @@
           "title": "Évaluation des facteurs relatifs à la vie privée de la marque Canada",
           "conversion": "markdownify",
           "text_sha256": "b6646e48b07cd98a30b27887f061d6aa36bfc1589971d92051ebfaa2c2327bee",
-          "word_count": 475
+          "word_count": 475,
+          "pib_ids": [
+            "AAFC PPU 247"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "AAFC PPU 247",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-agriculture-and-agri-food",
+                "record_id": "AAFC PPU 247"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-49df22872dfd_en.md",
+                "line": 48,
+                "mention": "AAFC PPU 247",
+                "method": "explicit_pib_id",
+                "excerpt": "AAFC PPU 247 Canada Brand"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-49df22872dfd_fr.md",
+                "line": 48,
+                "mention": "AAC PPU 247",
+                "method": "explicit_pib_id",
+                "excerpt": "Marque Canada, AAC PPU 247"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "AAFC PPU 247"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 364,
+      "word_count_fr": 475,
+      "word_count_language": "en",
+      "word_count": 364
     },
     {
       "pia_id": "pia-b95d654d60f6",
@@ -484,7 +640,11 @@
           "title": "Security Incident Management Program Privacy Impact Assessment",
           "conversion": "markdownify",
           "text_sha256": "a5a5b3ddbf9e2733fa640478e839698d5721c9c0e606a95b93fcd8aa872a8901",
-          "word_count": 493
+          "word_count": 493,
+          "pib_ids": [
+            "PSU 939"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/evaluation-facteurs-relatifs-vie-privee-programme-gestion-incidents-securite",
@@ -535,9 +695,57 @@
           "title": "Évaluation des facteurs relatifs à la vie privée pour le Programme de gestion des incidents de sécurité",
           "conversion": "markdownify",
           "text_sha256": "5fc6b26e0e767270deaf7b38e5597f1e42d3d88f709bef0628766a8fac5d33a7",
-          "word_count": 699
+          "word_count": 699,
+          "pib_ids": [
+            "PSU 939"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSU 939",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 939"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-b95d654d60f6_en.md",
+                "line": 62,
+                "mention": "PSU 939",
+                "method": "explicit_pib_id",
+                "excerpt": "Standard PIB PSU 939 Security Incidents and Privacy Breaches"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-b95d654d60f6_fr.md",
+                "line": 62,
+                "mention": "POU 939",
+                "method": "explicit_pib_id",
+                "excerpt": "FRP ordinaire POU 939 Incidents de sécurité et atteintes à la vie privée"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "PSU 939"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 493,
+      "word_count_fr": 699,
+      "word_count_language": "en",
+      "word_count": 493
     },
     {
       "pia_id": "pia-fbd0c05b0cb9",
@@ -601,7 +809,11 @@
           "title": "Generic Grant and Contribution Programming Privacy Impact Assessment",
           "conversion": "markdownify",
           "text_sha256": "5fde1f586b19e7dbecf2d50c82257cbe54cae510c6ccfa26789dc58dae2f541e",
-          "word_count": 815
+          "word_count": 815,
+          "pib_ids": [
+            "AAFC PPU 222"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/programmes-generiques-de-subventions-et-de-contributions-evaluation-facteurs-relatifs-vie-privee",
@@ -652,9 +864,58 @@
           "title": "Programmes génériques de subventions et de contributions – Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "79fdef233c8da870f8cc5f240d76ee5b6c25bc9e3252a9958bf1c2d3e5b4598d",
-          "word_count": 1021
+          "word_count": 1021,
+          "pib_ids": [
+            "PPU 222"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "AAFC PPU 222",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-fbd0c05b0cb9_en.md",
+                "line": 79,
+                "mention": "AAFC PPU 222",
+                "method": "explicit_pib_id",
+                "excerpt": "- AAFC PPU 222 Grants and Contributions Programming"
+              }
+            ]
+          },
+          {
+            "id": "PPU 222",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-fbd0c05b0cb9_fr.md",
+                "line": 81,
+                "mention": "PPU 222",
+                "method": "explicit_pib_id",
+                "excerpt": "- PPU 222 d'AAC, Programmes de subventions et de contributions"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "AAFC PPU 222",
+        "PPU 222"
+      ],
+      "pib_count": 2,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 815,
+      "word_count_fr": 1021,
+      "word_count_language": "en",
+      "word_count": 815
     },
     {
       "pia_id": "pia-9fa43bd8ab3d",
@@ -718,7 +979,9 @@
           "title": "National fleet management Privacy Impact Assessment",
           "conversion": "markdownify",
           "text_sha256": "3f1e1797d00b90a2801b622d42341b057c978fe09b3a94cfb6b6cc62f409a385",
-          "word_count": 586
+          "word_count": 586,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/gestion-du-parc-automobile-national-evaluation-facteurs-relatifs-vie-privee",
@@ -769,9 +1032,24 @@
           "title": "Gestion du parc automobile national — Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "67450e5e674a3262ba4071bb63caf33dc00745b4730e9eee8b90aa5e4ab79de0",
-          "word_count": 762
+          "word_count": 762,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 586,
+      "word_count_fr": 762,
+      "word_count_language": "en",
+      "word_count": 586
     },
     {
       "pia_id": "pia-62bb6147a6df",
@@ -835,7 +1113,11 @@
           "title": "VidCruiter Privacy Impact Assessment",
           "conversion": "markdownify",
           "text_sha256": "80ab93c4f8ddd4b7a7bed84985e3e2e2aa5e2bfb4ef196fae3f16d7af0187e68",
-          "word_count": 364
+          "word_count": 364,
+          "pib_ids": [
+            "PSE 902"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/vidcruiter",
@@ -886,9 +1168,57 @@
           "title": "VidCruiter — Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "ea2d8decdf166b9601bd931b2f1c1363f5adfef1a1346bb9e51d4e0ba63c8700",
-          "word_count": 477
+          "word_count": 477,
+          "pib_ids": [
+            "PSE 902"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSE 902",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 902"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-62bb6147a6df_en.md",
+                "line": 24,
+                "mention": "PSE 902",
+                "method": "explicit_pib_id",
+                "excerpt": "The VidCruiter suite of applications records and stores personal information to assess candidates via virtual staffing tools. With this remote tool, AAFC staffing advisors can conduct interviews with individuals and complete reference checks, all of which are part of the current staffing process. However, the application has a built-in video recording feature allowing staffing advisors to review and assess individual responses against the merit criteria, which represents a new collection of personal information, currently not addressed by the existing Standard Personal Information Bank (S-PIB)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-62bb6147a6df_fr.md",
+                "line": 24,
+                "mention": "POE 902",
+                "method": "explicit_pib_id",
+                "excerpt": "La suite d’applications de VidCruiter permet d’enregistrer et de stocker des renseignements personnels pour l’évaluation de candidats au moyen d’outils de dotation virtuels. Grâce à cet outil, les conseillers en dotation d’AAC peuvent effectuer à distance des entrevues et des vérifications des références, des éléments qui font partie du processus de dotation actuel. Toutefois, l’application a une fonction d’enregistrement vidéo intégrée qui permet aux conseillers en dotation d’examiner et d’évaluer les réponses individuelles en fonction des critères de mérite, ce qui représente une nouvelle fo"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "PSE 902"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 364,
+      "word_count_fr": 477,
+      "word_count_language": "en",
+      "word_count": 364
     },
     {
       "pia_id": "pia-32b8922f1fac",
@@ -952,7 +1282,12 @@
           "title": "Emergency On-Farm Support Fund Privacy Impact Assessment",
           "conversion": "markdownify",
           "text_sha256": "83f6ab21a6b8476dcf02e64d2818f90e1700ac0437e6fa512063b38402254594",
-          "word_count": 453
+          "word_count": 453,
+          "pib_ids": [
+            "CRA PPU 120",
+            "CRA PPU 125"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/fonds-urgence-mesures-soutien-ferme",
@@ -1003,9 +1338,75 @@
           "title": "Fonds d’urgence pour les mesures de soutien à la ferme — Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "092e54cbd6962cb08d11a7cf3fec73950da91805b2e73b979fd8b07ecd25ef80",
-          "word_count": 614
+          "word_count": 614,
+          "pib_ids": [
+            "CRA PPU 120",
+            "CRA PPU 125"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "CRA PPU 120",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-32b8922f1fac_en.md",
+                "line": 36,
+                "mention": "CRA PPU 120",
+                "method": "explicit_pib_id",
+                "excerpt": "Personal information may be disclosed to the CRA for the purpose of reporting a taxable benefit (Employer Compliance Program; CRA PPU 120) and for program administration purposes (Review and Control; CRA PPU 125). Personal Information may be disclosed to participating provinces/territories and third parties for program administration purposes. The information may also be used internally for research and statistical purposes, for program policy and evaluation, and for internal audit."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-32b8922f1fac_fr.md",
+                "line": 36,
+                "mention": "ARC PPU 120",
+                "method": "explicit_pib_id",
+                "excerpt": "Les renseignements personnels peuvent être divulgués à l’Agence du revenu du Canada (ARC) dans le but de déclarer un avantage imposable (Programme de vérification de l’observation par les employeurs; ARC PPU 120) et à des fins d’administration du programme (Examen et contrôle; ARC PPU 125). Les renseignements personnels peuvent être divulgués aux provinces et territoires participants et à des tiers à des fins d’administration du programme. Les renseignements peuvent également être utilisés à"
+              }
+            ]
+          },
+          {
+            "id": "CRA PPU 125",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-32b8922f1fac_en.md",
+                "line": 36,
+                "mention": "CRA PPU 125",
+                "method": "explicit_pib_id",
+                "excerpt": "Personal information may be disclosed to the CRA for the purpose of reporting a taxable benefit (Employer Compliance Program; CRA PPU 120) and for program administration purposes (Review and Control; CRA PPU 125). Personal Information may be disclosed to participating provinces/territories and third parties for program administration purposes. The information may also be used internally for research and statistical purposes, for program policy and evaluation, and for internal audit."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-32b8922f1fac_fr.md",
+                "line": 36,
+                "mention": "ARC PPU 125",
+                "method": "explicit_pib_id",
+                "excerpt": "Les renseignements personnels peuvent être divulgués à l’Agence du revenu du Canada (ARC) dans le but de déclarer un avantage imposable (Programme de vérification de l’observation par les employeurs; ARC PPU 120) et à des fins d’administration du programme (Examen et contrôle; ARC PPU 125). Les renseignements personnels peuvent être divulgués aux provinces et territoires participants et à des tiers à des fins d’administration du programme. Les renseignements peuvent également être utilisés à"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "CRA PPU 120",
+        "CRA PPU 125"
+      ],
+      "pib_count": 2,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 453,
+      "word_count_fr": 614,
+      "word_count_language": "en",
+      "word_count": 453
     },
     {
       "pia_id": "pia-2010ff1cebeb",
@@ -1069,7 +1470,9 @@
           "title": "Direct Dairy Payment Program - Privacy impact assessments",
           "conversion": "markdownify",
           "text_sha256": "ecd9784a86901a48b67887b777dec264a363cf952dd89206fd9d27229ec4fa54",
-          "word_count": 396
+          "word_count": 396,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/programme-paiements-directs-producteurs-laitiers",
@@ -1120,9 +1523,24 @@
           "title": "Programme de paiements directs pour les producteurs laitiers - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "ea7e3dd438042a02fbebf8a075602b64438cf1089bf0eedfb81481f93aa6ccc8",
-          "word_count": 478
+          "word_count": 478,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 396,
+      "word_count_fr": 478,
+      "word_count_language": "en",
+      "word_count": 396
     },
     {
       "pia_id": "pia-f1fbdff4b419",
@@ -1186,7 +1604,12 @@
           "title": "Mandatory Isolation Support for Temporary Foreign Workers Program - Privacy impact assessments",
           "conversion": "markdownify",
           "text_sha256": "e6e2731a4b708305f82377d6fa667a18631002502580aed40f2301175e84b196",
-          "word_count": 399
+          "word_count": 399,
+          "pib_ids": [
+            "CRA PPU 120",
+            "CRA PPU 125"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/aide-lisolement-obligatoire-travailleurs",
@@ -1237,9 +1660,75 @@
           "title": "Programme d’aide pour l’isolement obligatoire des travailleurs étrangers temporaires - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "8c91805bddaf1678a8c3512291813a0b77ae9e02d8816ec0d938c86e634e474b",
-          "word_count": 556
+          "word_count": 556,
+          "pib_ids": [
+            "CRA PPU 120",
+            "CRA PPU 125"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "CRA PPU 120",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-f1fbdff4b419_en.md",
+                "line": 34,
+                "mention": "CRA PPU 120",
+                "method": "explicit_pib_id",
+                "excerpt": "Personal information may be disclosed to the CRA for the purpose of reporting a taxable benefit (Employer Compliance Program; CRA PPU 120) and for program administration purposes (Review and Control; CRA PPU 125). The information may also be used internally for research and statistical purposes, for program policy and evaluation, and for internal audit."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-f1fbdff4b419_fr.md",
+                "line": 34,
+                "mention": "ARC PPU 120",
+                "method": "explicit_pib_id",
+                "excerpt": "Les renseignements personnels peuvent être divulgués à l'ARC aux fins de la déclaration d'un avantage imposable (Programme d'observation des employeurs; ARC PPU 120) et à des fins d'administration du programme (examen et contrôle; ARC PPU 125). Les informations peuvent également être utilisées à l’interne à des fins de recherche et de statistiques, pour la politique et l'évaluation du programme et pour l'audit interne."
+              }
+            ]
+          },
+          {
+            "id": "CRA PPU 125",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-f1fbdff4b419_en.md",
+                "line": 34,
+                "mention": "CRA PPU 125",
+                "method": "explicit_pib_id",
+                "excerpt": "Personal information may be disclosed to the CRA for the purpose of reporting a taxable benefit (Employer Compliance Program; CRA PPU 120) and for program administration purposes (Review and Control; CRA PPU 125). The information may also be used internally for research and statistical purposes, for program policy and evaluation, and for internal audit."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-f1fbdff4b419_fr.md",
+                "line": 34,
+                "mention": "ARC PPU 125",
+                "method": "explicit_pib_id",
+                "excerpt": "Les renseignements personnels peuvent être divulgués à l'ARC aux fins de la déclaration d'un avantage imposable (Programme d'observation des employeurs; ARC PPU 120) et à des fins d'administration du programme (examen et contrôle; ARC PPU 125). Les informations peuvent également être utilisées à l’interne à des fins de recherche et de statistiques, pour la politique et l'évaluation du programme et pour l'audit interne."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "CRA PPU 120",
+        "CRA PPU 125"
+      ],
+      "pib_count": 2,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 399,
+      "word_count_fr": 556,
+      "word_count_language": "en",
+      "word_count": 399
     },
     {
       "pia_id": "pia-d3e1e04fc5be",
@@ -1303,7 +1792,9 @@
           "title": "AgriStability Privacy Impact Assessment",
           "conversion": "markdownify",
           "text_sha256": "c3f014e03b01fbc83420c4e1428d3321ba8a20914a46305952dbe8413a21b308",
-          "word_count": 329
+          "word_count": 329,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/agri-stabilite",
@@ -1354,9 +1845,24 @@
           "title": "Programme Agri-stabilité — évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "eae9911c14bf9cfd8e3344a5e2812cd628dced63e57a3213f2edf5e584e348ac",
-          "word_count": 425
+          "word_count": 425,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 329,
+      "word_count_fr": 425,
+      "word_count_language": "en",
+      "word_count": 329
     },
     {
       "pia_id": "pia-2488915e71bd",
@@ -1420,7 +1926,9 @@
           "title": "AgriInvest Privacy Impact Assessment",
           "conversion": "markdownify",
           "text_sha256": "d669700fdf48265f20de90ce825ed739bcc52197b91ad61dc56d4c0b67b751a9",
-          "word_count": 461
+          "word_count": 461,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/agri-investissement",
@@ -1471,9 +1979,24 @@
           "title": "Agri-investissement — évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "bed2bda183c6b406ec151b7f6e283b078533f17c0c388ef35df6bbe0ca681d4f",
-          "word_count": 581
+          "word_count": 581,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 461,
+      "word_count_fr": 581,
+      "word_count_language": "en",
+      "word_count": 461
     },
     {
       "pia_id": "pia-38afe8d849b6",
@@ -1537,7 +2060,11 @@
           "title": "Enterprise Secure Access Service",
           "conversion": "markdownify",
           "text_sha256": "0f2673977b138cb461e2b629a2189bff7e9c3f5c3d71a5079012369f79e530a6",
-          "word_count": 362
+          "word_count": 362,
+          "pib_ids": [
+            "AAFC PPU 633"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/service-acces-securise-entreprise",
@@ -1588,9 +2115,57 @@
           "title": "Service d’accès sécurisé d’entreprise",
           "conversion": "markdownify",
           "text_sha256": "477b881a65a65a1a1a82020f85f756c8cce02e589265d822de6a85135b3f4358",
-          "word_count": 440
+          "word_count": 440,
+          "pib_ids": [
+            "AAFC PPU 633"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "AAFC PPU 633",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-agriculture-and-agri-food",
+                "record_id": "AAFC PPU 633"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-38afe8d849b6_en.md",
+                "line": 30,
+                "mention": "AAFC PPU 633",
+                "method": "explicit_pib_id",
+                "excerpt": "Personal Information Bank (PIB) AAFC PPU 633 - Internal and External Credential Management Services provides details regarding the information collected in support of this service, including the use, retention and disposal standards."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-38afe8d849b6_fr.md",
+                "line": 30,
+                "mention": "PPU 633",
+                "method": "explicit_pib_id",
+                "excerpt": "Le fichier de renseignements personnels (FRP) PPU 633 - Services de gestion des justificatifs internes et externes d' AAC renferme des détails concernant les renseignements recueillis dans le cadre de ce service, notamment sur les normes d'utilisation, de conservation et d'élimination."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "AAFC PPU 633"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 362,
+      "word_count_fr": 440,
+      "word_count_language": "en",
+      "word_count": 362
     },
     {
       "pia_id": "pia-600cb0f6e670",
@@ -1654,7 +2229,11 @@
           "title": "Canadian Agricultural Loans Act Program",
           "conversion": "markdownify",
           "text_sha256": "452eb189ae75a2b43ad2554984ea6e06114415e1d202fbcc34ec74792420a8b6",
-          "word_count": 315
+          "word_count": 315,
+          "pib_ids": [
+            "AAFC PPU 165"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/loi-canadienne-prets-agricoles",
@@ -1705,9 +2284,57 @@
           "title": "Programme de la Loi canadienne sur les prêts agricoles",
           "conversion": "markdownify",
           "text_sha256": "1007512dad72dd68940c32f7310d6c24e1ccc66a87faaed998de7a7bf0d763ac",
-          "word_count": 418
+          "word_count": 418,
+          "pib_ids": [
+            "AAFC PPU 165"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "AAFC PPU 165",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-agriculture-and-agri-food",
+                "record_id": "AAFC PPU 165"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-600cb0f6e670_en.md",
+                "line": 30,
+                "mention": "AAFC PPU 165",
+                "method": "explicit_pib_id",
+                "excerpt": "Personal Information Bank (PIB) AAFC PPU 165 outlines the details regarding the personal information collected under the program, including the purpose, use, retention and disposal standards."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-600cb0f6e670_fr.md",
+                "line": 30,
+                "mention": "AAC PPU 165",
+                "method": "explicit_pib_id",
+                "excerpt": "Le Fichier de renseignements personnels AAC PPU 165 renferme les détails en ce qui a trait aux renseignements personnels recueillis dans le cadre du programme, y compris les normes régissant l'objet, l'utilisation, la conservation et l'élimination."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "AAFC PPU 165"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 315,
+      "word_count_fr": 418,
+      "word_count_language": "en",
+      "word_count": 315
     },
     {
       "pia_id": "pia-78bb1170222d",
@@ -1771,7 +2398,11 @@
           "title": "Integrated Financial and Material System, Salary Forecasting Tool",
           "conversion": "markdownify",
           "text_sha256": "38bbb2374b12416f60d5682d60e414495989c1f0acf48750bc776503c2173a28",
-          "word_count": 272
+          "word_count": 272,
+          "pib_ids": [
+            "PSU 935"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/outil-previsions-salariales",
@@ -1822,9 +2453,64 @@
           "title": "Système intégré des finances et du matériel, Outil de prévisions salariales",
           "conversion": "markdownify",
           "text_sha256": "bbeaacb8e5e39bea438b7f849b3c1c14d609db4160a1dde1de1d97e41f3aa098",
-          "word_count": 340
+          "word_count": 340,
+          "pib_ids": [
+            "AAFC PPU 935"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "AAFC PPU 935",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-78bb1170222d_fr.md",
+                "line": 26,
+                "mention": "AAC PPU 935",
+                "method": "explicit_pib_id",
+                "excerpt": "Le Fichier de renseignement personnel numéro AAC PPU 935 décrit en détail les renseignements personnels amassés pour l' OPS , ainsi que le but, et les normes d'utilisation, de conservation et de disposition des renseignements."
+              }
+            ]
+          },
+          {
+            "id": "PSU 935",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 935"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-78bb1170222d_en.md",
+                "line": 26,
+                "mention": "PSU 935",
+                "method": "explicit_pib_id",
+                "excerpt": "Personal Information Bank (PIB) AAFC PSU 935 outlines the details regarding the personal information collected under the SFT , including the purpose, use, retention and disposal standards."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "AAFC PPU 935",
+        "PSU 935"
+      ],
+      "pib_count": 2,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 272,
+      "word_count_fr": 340,
+      "word_count_language": "en",
+      "word_count": 272
     },
     {
       "pia_id": "pia-2fc21dd63d54",
@@ -1888,7 +2574,11 @@
           "title": "Tax Information Slips and Tax Information Slip System",
           "conversion": "markdownify",
           "text_sha256": "c04d2b6a79703197fd84a91f7f817aa679c81086da5a1b923e37b3c5b1c88135",
-          "word_count": 331
+          "word_count": 331,
+          "pib_ids": [
+            "PSU 932"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/feuillets-renseignements-fiscaux",
@@ -1939,9 +2629,220 @@
           "title": "Les feuillets de renseignements fiscaux et le système de feuillets de renseignements fiscaux",
           "conversion": "markdownify",
           "text_sha256": "270e2956f590ec04e23243774699118420401976ef9954baddf19bb32d9a484f",
-          "word_count": 407
+          "word_count": 407,
+          "pib_ids": [
+            "PSU 932"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSU 932",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 932"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-2fc21dd63d54_en.md",
+                "line": 30,
+                "mention": "PSU 932",
+                "method": "explicit_pib_id",
+                "excerpt": "The Personal Information Bank (PIB) PSU 932, outlines the details regarding the personal information collected under the ARRM programming, including the purpose, use, retention and disposal standards."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-2fc21dd63d54_fr.md",
+                "line": 30,
+                "mention": "PSU 932",
+                "method": "explicit_pib_id",
+                "excerpt": "Le fichier de renseignements personnels (FRP) PSU 932 expose les détails quant aux renseignements recueillis dans le cadre des programmes de la SGRCD, y compris les normes en ce qui concerne les objectifs, l'utilisation, la conservation et l'élimination des données."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "PSU 932"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 331,
+      "word_count_fr": 407,
+      "word_count_language": "en",
+      "word_count": 331
+    },
+    {
+      "pia_id": "pia-24ae5911f8f5",
+      "title_en": "Environment Programs",
+      "title_fr": "Programmes environnementaux",
+      "url_en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/environment",
+      "url_fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/environnement",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/environment",
+        "alternate_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/environnement"
+      },
+      "sources": {
+        "en": {
+          "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/environment",
+          "title_from_list": "Agricultural Policy Framework: Environment Programs",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/environment",
+              "title": "Agricultural Policy Framework: Environment Programs",
+              "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/environment"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/environment",
+            "final_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/environment",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:43:08.596474+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 07:04:01 GMT",
+            "etag": "W/\"1794380641-gzip\"",
+            "byte_count": 28862,
+            "sha256": "e9f1defc5b2f1b4cc3f498d34e408eb28a08aa2c043c6a436ffbfe45d44b58b1"
+          },
+          "raw_path": "raw/24ae5911f8f518c57b0b.html",
+          "markdown_path": "pia-24ae5911f8f5_en.md",
+          "markdown_sha256": "897810dff2d3922b55464e9a48beb45be4213e86aa5557f893d45192aa0fadac",
+          "status": "exported",
+          "page_title": "Environment Programs",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "http://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/environment",
+            "fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/environnement"
+          },
+          "date_modified": "2009-11-06",
+          "date_published": "2009-11-06",
+          "has_pia_text": true,
+          "title": "Environment Programs",
+          "conversion": "markdownify",
+          "text_sha256": "630c62e20305fa21ca79010013601dd0ec9337624219654a56a0f603447e6d31",
+          "word_count": 517,
+          "pib_ids": [
+            "AAFC PPU 624"
+          ],
+          "cor_ids": []
+        },
+        "fr": {
+          "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/environnement",
+          "title_from_list": "Cadre stratégique pour l'agriculture : Programmes environnementaux",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/environnement",
+              "title": "Cadre stratégique pour l'agriculture : Programmes environnementaux",
+              "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/environnement"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/environnement",
+            "final_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/environnement",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:57.657771+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 07:08:01 GMT",
+            "etag": "W/\"1794380881-gzip\"",
+            "byte_count": 30554,
+            "sha256": "7bff046dc1451cf08b973dfb3b6ae9d25eea804f4d6596163bc46d701566a149"
+          },
+          "raw_path": "raw/0d92d37fa906feb34f69.html",
+          "markdown_path": "pia-24ae5911f8f5_fr.md",
+          "markdown_sha256": "4cf74db5d0522baf0731fd093f40acb3151499963da34b278e510d1d7e97d5d3",
+          "status": "exported",
+          "page_title": "Programmes environnementaux",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/environment",
+            "fr": "http://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/environnement"
+          },
+          "date_modified": "2009-11-06",
+          "date_published": "2009-11-06",
+          "has_pia_text": true,
+          "title": "Programmes environnementaux",
+          "conversion": "markdownify",
+          "text_sha256": "8fc7e38f6f6d8ef236ade7a40fd3db8899bdc5058bcedf0d6b88595cdc4870db",
+          "word_count": 653,
+          "pib_ids": [
+            "AAFC PPU 624"
+          ],
+          "cor_ids": []
+        }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "AAFC PPU 624",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-24ae5911f8f5_en.md",
+                "line": 37,
+                "mention": "AAFC PPU 624",
+                "method": "explicit_pib_id",
+                "excerpt": "The Personal Information Bank (PIB), Environment Programming (Agri-Environment Services Branch/Prairie Farm Rehabilitation Administration) AAFC PPU 624, outlines the details regarding the personal information collected under the Environment Programming, including the purpose, use, retention and disposal standards. This PIB will cover all past and future programming administered by AESB / PFRA ."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-24ae5911f8f5_fr.md",
+                "line": 37,
+                "mention": "AAC PPU 624",
+                "method": "explicit_pib_id",
+                "excerpt": "Le Fichier de renseignements personnels (FRP), Programmes environnementaux (Direction générale des services agroenvironnementaux/Administration du rétablissement agricole des Prairies) AAC PPU 624, décrit en détails les renseignements personnels recueillis dans le cadre de ces programmes, y compris le but, l'utilisation et les normes de conservation et de destruction. Le FRP traitera de tous les programmes, anciens et nouveaux, gérés par la DGSA et l' ARAP ."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "AAFC PPU 624"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 517,
+      "word_count_fr": 653,
+      "word_count_language": "en",
+      "word_count": 517
     },
     {
       "pia_id": "pia-ccbc021cacd8",
@@ -2005,7 +2906,9 @@
           "title": "Business Risk Management Suite Delivery Modules",
           "conversion": "markdownify",
           "text_sha256": "af70df1c362b71020ad9cc5ef3b93d8f4442faed6ae9d3a344a72b955b3f95d8",
-          "word_count": 369
+          "word_count": 369,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/gestion-risques-entreprise",
@@ -2056,9 +2959,24 @@
           "title": "Modules de prestation des programmes de gestion des risques de l'entreprise",
           "conversion": "markdownify",
           "text_sha256": "c4385ede829c6285c5d379b6365913ebf410e2c286d81acc13b9ede740a5aebc",
-          "word_count": 453
+          "word_count": 453,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 369,
+      "word_count_fr": 453,
+      "word_count_language": "en",
+      "word_count": 369
     },
     {
       "pia_id": "pia-b57bfd66b124",
@@ -2122,7 +3040,24 @@
           "title": "Government of Canada Human Resource Management System (Oracle PeopleSoft Enterprise application), version 8.9",
           "conversion": "markdownify",
           "text_sha256": "27d87dc2d852892c56cf499b64139b95466bc86d98542f717bffa65ccc0a20b5",
-          "word_count": 553
+          "word_count": 553,
+          "pib_ids": [
+            "PSE 901",
+            "PSE 902",
+            "PSE 903",
+            "PSE 904",
+            "PSE 905",
+            "PSE 906",
+            "PSE 907",
+            "PSE 910",
+            "PSE 911",
+            "PSE 912",
+            "PSE 915",
+            "PSE 918",
+            "PSE 919",
+            "PSE 920"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/systeme-gestion-ressources-humaines",
@@ -2173,9 +3108,447 @@
           "title": "La version 8.9 du système de gestion des ressources humaines (SGRH) du Gouvernement du Canada (application d'Oracle PeopleSoft Enterprise)",
           "conversion": "markdownify",
           "text_sha256": "b5d6a8b87ca91dc7ffd396376afe9b426454c9756291e0383326993dfc98fbda",
-          "word_count": 691
+          "word_count": 691,
+          "pib_ids": [
+            "PSE 901",
+            "PSE 902",
+            "PSE 903",
+            "PSE 904",
+            "PSE 905",
+            "PSE 906",
+            "PSE 907",
+            "PSE 910",
+            "PSE 911",
+            "PSE 912",
+            "PSE 915",
+            "PSE 918",
+            "PSE 919",
+            "PSE 920"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSE 901",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 901"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-b57bfd66b124_en.md",
+                "line": 38,
+                "mention": "PSE 901",
+                "method": "explicit_pib_id",
+                "excerpt": "- PSE 901: Employee Personnel Records"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-b57bfd66b124_fr.md",
+                "line": 38,
+                "mention": "POE 901",
+                "method": "explicit_pib_id",
+                "excerpt": "- POE 901 : Dossier personnel d'un employé"
+              }
+            ]
+          },
+          {
+            "id": "PSE 902",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 902"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-b57bfd66b124_en.md",
+                "line": 36,
+                "mention": "PSE 902",
+                "method": "explicit_pib_id",
+                "excerpt": "- PSE 902: Staffing"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-b57bfd66b124_fr.md",
+                "line": 36,
+                "mention": "POE 902",
+                "method": "explicit_pib_id",
+                "excerpt": "- POE 902 : Dotation"
+              }
+            ]
+          },
+          {
+            "id": "PSE 903",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 903"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-b57bfd66b124_en.md",
+                "line": 35,
+                "mention": "PSE 903",
+                "method": "explicit_pib_id",
+                "excerpt": "- PSE 903: Attendance and Leave"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-b57bfd66b124_fr.md",
+                "line": 35,
+                "mention": "POE 903",
+                "method": "explicit_pib_id",
+                "excerpt": "- POE 903 : Présences et congés"
+              }
+            ]
+          },
+          {
+            "id": "PSE 904",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 904"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-b57bfd66b124_en.md",
+                "line": 44,
+                "mention": "PSE 904",
+                "method": "explicit_pib_id",
+                "excerpt": "- PSE 904: Pay and Benefits"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-b57bfd66b124_fr.md",
+                "line": 44,
+                "mention": "POE 904",
+                "method": "explicit_pib_id",
+                "excerpt": "- POE 904 : Rémunération et avantages"
+              }
+            ]
+          },
+          {
+            "id": "PSE 905",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 905"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-b57bfd66b124_en.md",
+                "line": 47,
+                "mention": "PSE 905",
+                "method": "explicit_pib_id",
+                "excerpt": "- PSE 905: Training and Development"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-b57bfd66b124_fr.md",
+                "line": 47,
+                "mention": "POE 905",
+                "method": "explicit_pib_id",
+                "excerpt": "- POE 905 : Formation et perfectionnement"
+              }
+            ]
+          },
+          {
+            "id": "PSE 906",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 906"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-b57bfd66b124_en.md",
+                "line": 43,
+                "mention": "PSE 906",
+                "method": "explicit_pib_id",
+                "excerpt": "- PSE 906: Official Languages"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-b57bfd66b124_fr.md",
+                "line": 43,
+                "mention": "POE 906",
+                "method": "explicit_pib_id",
+                "excerpt": "- POE 906 : Langues officielles"
+              }
+            ]
+          },
+          {
+            "id": "PSE 907",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 907"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-b57bfd66b124_en.md",
+                "line": 42,
+                "mention": "PSE 907",
+                "method": "explicit_pib_id",
+                "excerpt": "- PSE 907: Occupational Safety and Health"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-b57bfd66b124_fr.md",
+                "line": 42,
+                "mention": "POE 907",
+                "method": "explicit_pib_id",
+                "excerpt": "- POE 907 : Sécurité et santé au travail"
+              }
+            ]
+          },
+          {
+            "id": "PSE 910",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 910"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-b57bfd66b124_en.md",
+                "line": 40,
+                "mention": "PSE 910",
+                "method": "explicit_pib_id",
+                "excerpt": "- PSE 910: Grievances"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-b57bfd66b124_fr.md",
+                "line": 40,
+                "mention": "POE 910",
+                "method": "explicit_pib_id",
+                "excerpt": "- POE 910 : Griefs"
+              }
+            ]
+          },
+          {
+            "id": "PSE 911",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 911"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-b57bfd66b124_en.md",
+                "line": 37,
+                "mention": "PSE 911",
+                "method": "explicit_pib_id",
+                "excerpt": "- PSE 911: Discipline"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-b57bfd66b124_fr.md",
+                "line": 37,
+                "mention": "POE 911",
+                "method": "explicit_pib_id",
+                "excerpt": "- POE 911 : Mesures disciplinaires"
+              }
+            ]
+          },
+          {
+            "id": "PSE 912",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 912"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-b57bfd66b124_en.md",
+                "line": 45,
+                "mention": "PSE 912",
+                "method": "explicit_pib_id",
+                "excerpt": "- PSE 912: Performance Review and Employee Appraisals"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-b57bfd66b124_fr.md",
+                "line": 45,
+                "mention": "POE 912",
+                "method": "explicit_pib_id",
+                "excerpt": "- POE 912 : Évaluation de la gestion du rendement"
+              }
+            ]
+          },
+          {
+            "id": "PSE 915",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 915"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-b57bfd66b124_en.md",
+                "line": 48,
+                "mention": "PSE 915",
+                "method": "explicit_pib_id",
+                "excerpt": "- PSE 915: Value and Ethics Code for the Public Service"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-b57bfd66b124_fr.md",
+                "line": 48,
+                "mention": "POE 915",
+                "method": "explicit_pib_id",
+                "excerpt": "- POE 915 : Code de valeurs et d’éthique de la fonction publique"
+              }
+            ]
+          },
+          {
+            "id": "PSE 918",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 918"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-b57bfd66b124_en.md",
+                "line": 39,
+                "mention": "PSE 918",
+                "method": "explicit_pib_id",
+                "excerpt": "- PSE 918: Employee Equity Program"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-b57bfd66b124_fr.md",
+                "line": 39,
+                "mention": "POE 918",
+                "method": "explicit_pib_id",
+                "excerpt": "- POE 918 : Programme d'équité en matière d'emploi"
+              }
+            ]
+          },
+          {
+            "id": "PSE 919",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 919"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-b57bfd66b124_en.md",
+                "line": 41,
+                "mention": "PSE 919",
+                "method": "explicit_pib_id",
+                "excerpt": "- PSE 919: Harassment"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-b57bfd66b124_fr.md",
+                "line": 41,
+                "mention": "POE 919",
+                "method": "explicit_pib_id",
+                "excerpt": "- POE 919 : Harcèlement"
+              }
+            ]
+          },
+          {
+            "id": "PSE 920",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 920"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-b57bfd66b124_en.md",
+                "line": 46,
+                "mention": "PSE 920",
+                "method": "explicit_pib_id",
+                "excerpt": "- PSE 920: Recognition Policy"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-b57bfd66b124_fr.md",
+                "line": 46,
+                "mention": "POE 920",
+                "method": "explicit_pib_id",
+                "excerpt": "- POE 920 : Politique de reconnaissance"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "PSE 901",
+        "PSE 902",
+        "PSE 903",
+        "PSE 904",
+        "PSE 905",
+        "PSE 906",
+        "PSE 907",
+        "PSE 910",
+        "PSE 911",
+        "PSE 912",
+        "PSE 915",
+        "PSE 918",
+        "PSE 919",
+        "PSE 920"
+      ],
+      "pib_count": 14,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 553,
+      "word_count_fr": 691,
+      "word_count_language": "en",
+      "word_count": 553
     },
     {
       "pia_id": "pia-cedc170f76b6",
@@ -2239,7 +3612,11 @@
           "title": "Land-Based System",
           "conversion": "markdownify",
           "text_sha256": "857b6da85a2c902cb54ccbbf1f7c150f57f447c2ec8816f14a2d4fef5fb84c53",
-          "word_count": 328
+          "word_count": 328,
+          "pib_ids": [
+            "AAFC PPU 624"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/systeme-terrestre",
@@ -2290,126 +3667,51 @@
           "title": "Système terrestre",
           "conversion": "markdownify",
           "text_sha256": "84f00c63d479ee8669b07de27a60ce4580c6353d69d10b3b8ebab284daec20dc",
-          "word_count": 450
+          "word_count": 450,
+          "pib_ids": [
+            "AAFC PPU 624"
+          ],
+          "cor_ids": []
         }
-      }
-    },
-    {
-      "pia_id": "pia-24ae5911f8f5",
-      "title_en": "Environment Programs",
-      "title_fr": "Programmes environnementaux",
-      "url_en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/environment",
-      "url_fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/environnement",
-      "pairing_status": "paired",
-      "pairing_method": "explicit_language_link",
-      "pairing_evidence": {
-        "from_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/environnement",
-        "alternate_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/environment"
       },
-      "sources": {
-        "fr": {
-          "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/environnement",
-          "title_from_list": "Cadre stratégique pour l'agriculture : Programmes environnementaux",
-          "kind": "page",
-          "discovery_method": "pia_section_link",
-          "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
-          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
-          "discovery_references": [
-            {
-              "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/environnement",
-              "title": "Cadre stratégique pour l'agriculture : Programmes environnementaux",
-              "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
-              "discovery_method": "pia_section_link"
-            }
-          ],
-          "aliases": [
-            "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/environnement"
-          ],
-          "alternative_http_observations": [],
-          "http": {
-            "requested_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/environnement",
-            "final_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/environnement",
-            "http_status": 200,
-            "checked_at_utc": "2026-11-12T01:41:57.657771+00:00",
-            "redirects": [],
-            "content_type": "text/html; charset=UTF-8",
-            "encoding": "utf-8",
-            "error": null,
-            "last_modified": "Wed, 11 Nov 2026 07:08:01 GMT",
-            "etag": "W/\"1794380881-gzip\"",
-            "byte_count": 30554,
-            "sha256": "7bff046dc1451cf08b973dfb3b6ae9d25eea804f4d6596163bc46d701566a149"
-          },
-          "raw_path": "raw/0d92d37fa906feb34f69.html",
-          "markdown_path": "pia-24ae5911f8f5_fr.md",
-          "markdown_sha256": "4cf74db5d0522baf0731fd093f40acb3151499963da34b278e510d1d7e97d5d3",
-          "status": "exported",
-          "page_title": "Programmes environnementaux",
-          "html_language": "fr",
-          "language_alternates": {
-            "en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/environment",
-            "fr": "http://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/environnement"
-          },
-          "date_modified": "2009-11-06",
-          "date_published": "2009-11-06",
-          "has_pia_text": true,
-          "title": "Programmes environnementaux",
-          "conversion": "markdownify",
-          "text_sha256": "8fc7e38f6f6d8ef236ade7a40fd3db8899bdc5058bcedf0d6b88595cdc4870db",
-          "word_count": 653
-        },
-        "en": {
-          "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/environment",
-          "title_from_list": "Environment Programs",
-          "kind": "page",
-          "discovery_method": "document_language_link",
-          "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
-          "discovered_under": null,
-          "discovery_references": [
-            {
-              "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/environment",
-              "title": "Environment Programs",
-              "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
-              "discovery_method": "document_language_link"
-            }
-          ],
-          "aliases": [
-            "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/environment"
-          ],
-          "alternative_http_observations": [],
-          "http": {
-            "requested_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/environment",
-            "final_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/environment",
-            "http_status": 200,
-            "checked_at_utc": "2026-11-12T01:43:08.596474+00:00",
-            "redirects": [],
-            "content_type": "text/html; charset=UTF-8",
-            "encoding": "utf-8",
-            "error": null,
-            "last_modified": "Wed, 11 Nov 2026 07:04:01 GMT",
-            "etag": "W/\"1794380641-gzip\"",
-            "byte_count": 28862,
-            "sha256": "e9f1defc5b2f1b4cc3f498d34e408eb28a08aa2c043c6a436ffbfe45d44b58b1"
-          },
-          "raw_path": "raw/24ae5911f8f518c57b0b.html",
-          "markdown_path": "pia-24ae5911f8f5_en.md",
-          "markdown_sha256": "897810dff2d3922b55464e9a48beb45be4213e86aa5557f893d45192aa0fadac",
-          "status": "exported",
-          "page_title": "Environment Programs",
-          "html_language": "en",
-          "language_alternates": {
-            "en": "http://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/environment",
-            "fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/environnement"
-          },
-          "date_modified": "2009-11-06",
-          "date_published": "2009-11-06",
-          "has_pia_text": true,
-          "title": "Environment Programs",
-          "conversion": "markdownify",
-          "text_sha256": "630c62e20305fa21ca79010013601dd0ec9337624219654a56a0f603447e6d31",
-          "word_count": 517
-        }
-      }
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "AAFC PPU 624",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-cedc170f76b6_en.md",
+                "line": 35,
+                "mention": "AAFC PPU 624",
+                "method": "explicit_pib_id",
+                "excerpt": "Personal Information Bank AAFC PPU 624 outlines the details regarding the personal information collected under the LBS , including the purpose, use, retention and disposal standards."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-agriculture-and-agri-food/pia-cedc170f76b6_fr.md",
+                "line": 35,
+                "mention": "AAC PPU 624",
+                "method": "explicit_pib_id",
+                "excerpt": "Le Fichier de renseignement personnel numéro AAC PPU 624 décrit en détail la façon de recueillir des renseignements personnels pour le Système terrestre ainsi que le but, et les normes d'utilisation, de conservation et de disposition des renseignements."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "AAFC PPU 624"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 328,
+      "word_count_fr": 450,
+      "word_count_language": "en",
+      "word_count": 328
     }
   ],
   "summary": {

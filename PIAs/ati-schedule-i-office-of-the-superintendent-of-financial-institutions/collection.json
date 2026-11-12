@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "collector_version": 1,
-  "collected_at_utc": "2026-11-12T01:50:42.820045+00:00",
+  "collector_version": 2,
+  "collected_at_utc": "2026-11-12T05:50:14.954621+00:00",
   "institution_id": "ati-schedule-i-office-of-the-superintendent-of-financial-institutions",
   "gc_orgID": "2280.0",
   "open_canada_org_id": "4F01090B-C049-4CAF-9C6C-D00312B23DCB",
@@ -9,7 +9,7 @@
   "name_en": "Office of the Superintendent of Financial Institutions",
   "name_fr": "Bureau du surintendant des institutions financières",
   "registry_membership": "current_registry",
-  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
   "list_pages": {
     "en": {
       "indexed_url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments",
@@ -171,7 +171,9 @@
           "title": "Employee Monitoring PIA",
           "conversion": "markdownify",
           "text_sha256": "f9ef2c9e79c371b4442e18d2a72699cfa2fcbbbe09d3dbed3b8a7066bb135073",
-          "word_count": 405
+          "word_count": 405,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee#:~:text=%C3%89valuation%20des%20facteurs%20relatifs%20%C3%A0%20la%20vie%20priv%C3%A9e%20sur%20le%20suivi%20de%20la%20pr%C3%A9sence%20des%20employ%C3%A9s",
@@ -225,9 +227,24 @@
           "title": "Évaluation des facteurs relatifs à la vie privée sur le suivi de la présence des employés",
           "conversion": "markdownify",
           "text_sha256": "3e08079f9650b6b560c56406a1b30df11798a143e99e5a642834aeb299320841",
-          "word_count": 549
+          "word_count": 549,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 405,
+      "word_count_fr": 549,
+      "word_count_language": "en",
+      "word_count": 405
     },
     {
       "pia_id": "pia-a2f4f0d7d321",
@@ -299,7 +316,9 @@
           "title": "VidCruiter",
           "conversion": "markdownify",
           "text_sha256": "0df6cb0012442dce3ca041f38aa626e4749e1e9575d6d41245e4dc03f08e2baa",
-          "word_count": 398
+          "word_count": 398,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee#:~:text=VidCruiter",
@@ -353,9 +372,24 @@
           "title": "VidCruiter",
           "conversion": "markdownify",
           "text_sha256": "c311961eae93a58a00bd83f157c9dafbcb8d28223d67583d2479d928929fd39b",
-          "word_count": 531
+          "word_count": 531,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 398,
+      "word_count_fr": 531,
+      "word_count_language": "en",
+      "word_count": 398
     },
     {
       "pia_id": "pia-e349ac94d4b0",
@@ -427,7 +461,9 @@
           "title": "Transformation Office Data Analytics Initiative",
           "conversion": "markdownify",
           "text_sha256": "7c1f18e5c3a713c9fab70a910655903d3910ae2f3e99e3807281203e86e69b1d",
-          "word_count": 569
+          "word_count": 569,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee#:~:text=Initiative%20d%27analytique%20des%20donn%C3%A9es%20du%20Bureau%20de%20la%20transformation",
@@ -481,9 +517,24 @@
           "title": "Initiative d'analytique des données du Bureau de la transformation",
           "conversion": "markdownify",
           "text_sha256": "4f6b49efe2e1e44d35c6a28f2e43a9002eb4508b34897387f87c696c0604f548",
-          "word_count": 706
+          "word_count": 706,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 569,
+      "word_count_fr": 706,
+      "word_count_language": "en",
+      "word_count": 569
     },
     {
       "pia_id": "pia-e68086afb555",
@@ -555,7 +606,9 @@
           "title": "Annual Confidential Reporting Process",
           "conversion": "markdownify",
           "text_sha256": "108910ed2a586246e4e64964a99c12973ba576d8f2c5649a20829c86efe8288a",
-          "word_count": 402
+          "word_count": 402,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee#:~:text=Processus%20de%20production%20des%20rapports%20confidentiels%20annuels",
@@ -609,9 +662,24 @@
           "title": "Processus de production des rapports confidentiels annuels",
           "conversion": "markdownify",
           "text_sha256": "11444e86263c8e0c501ed1e69df0fb8b1918988841cd80ebe40e4fd6fd7881e4",
-          "word_count": 523
+          "word_count": 523,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 402,
+      "word_count_fr": 523,
+      "word_count_language": "en",
+      "word_count": 402
     },
     {
       "pia_id": "pia-ab11ce4e4feb",
@@ -683,7 +751,9 @@
           "title": "Mandatory Cyber Security Awareness via Terranova",
           "conversion": "markdownify",
           "text_sha256": "e4cf74261fbbef5859a3af6793ba08a0066e0199b184a7dc1609e5718daf7a74",
-          "word_count": 372
+          "word_count": 372,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee#:~:text=Formation%20obligatoire%20de%20sensibilisation%20%C3%A0%20la%20cybers%C3%A9curit%C3%A9%20au%20moyen%20de%20Terranova",
@@ -737,9 +807,24 @@
           "title": "Formation obligatoire de sensibilisation à la cybersécurité au moyen de Terranova",
           "conversion": "markdownify",
           "text_sha256": "6cf4eaa9aa4cf90372762cd446049b6abbb383d31ae021e9c5876e89493175f4",
-          "word_count": 460
+          "word_count": 460,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 372,
+      "word_count_fr": 460,
+      "word_count_language": "en",
+      "word_count": 372
     }
   ],
   "summary": {

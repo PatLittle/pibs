@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "collector_version": 1,
-  "collected_at_utc": "2026-11-12T01:50:43.141203+00:00",
+  "collector_version": 2,
+  "collected_at_utc": "2026-11-12T05:50:15.290330+00:00",
   "institution_id": "ati-schedule-i-privy-council-office",
   "gc_orgID": "2284.0",
   "open_canada_org_id": "26DF0856-0FA2-404C-87E9-21443F333990",
@@ -9,7 +9,7 @@
   "name_en": "Privy Council Office",
   "name_fr": "Bureau du Conseil privé",
   "registry_membership": "current_registry",
-  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
   "list_pages": {
     "en": {
       "indexed_url": null,

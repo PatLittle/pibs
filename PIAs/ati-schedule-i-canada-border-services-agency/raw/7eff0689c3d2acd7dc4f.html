@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+<!--[if lt IE 9]><html class="no-js lt-ie9" lang="en"><![endif]--><!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]--><head>
+<meta charset="utf-8"> <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+<title>Executive Summary: CANPASS Program Umbrella Privacy Impact Assessment</title>
+<meta content="width=device-width,initial-scale=1" name="viewport">
+<!-- Meta data -->
+
+<link rel="canonical" href="https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/canpass-eng.html" />
+<link rel="alternate" hreflang="fr" href="canpass-fra.html">
+<meta name="description" content="Executive Summary: CANPASS Program Umbrella Privacy Impact Assessment">
+<meta name="dcterms.title" content="Executive Summary: CANPASS Program Umbrella Privacy Impact Assessment">
+<meta name="dcterms.creator" content="Government of Canada, Canada Border Services Agency">
+<meta name="dcterms.issued" title="W3CDTF" content="2019-12-16">
+<meta name="dcterms.modified" title="W3CDTF" content="2019-12-16">
+<meta name="dcterms.subject" title="scheme" content="(none)">
+<meta name="dcterms.language" title="ISO639-2" content="eng">
+
+<!-- Meta data-->
+<!-- GA Start -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-65459512-1', 'auto');
+	ga("set", "anonymizeIp", true);	
+  ga('send', 'pageview');
+</script>
+<!-- GA End --><!-- GA4 Start -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QTGHKKHBHH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-QTGHKKHBHH');
+</script><!-- GA4 End -->
+<!--[if gte IE 9 | !IE ]><!-->
+<link href="/_wb/4.0.26/theme-gcwu-fegc/assets/favicon.ico" rel="icon" type="image/x-icon">
+<link rel="stylesheet" href="/_wb/4.0.26/theme-gcwu-fegc/css/theme.min.css">
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<link href="/_wb/4.0.26/theme-gcwu-fegc/assets/favicon.ico" rel="shortcut icon" />
+<link rel="stylesheet" href="/_wb/4.0.26/theme-gcwu-fegc/css/ie8-theme.min.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/_wb/4.0.26/theme-gcwu-fegc/js/ie8-wet-boew.min.js"></script>
+<![endif]-->
+<noscript><link rel="stylesheet" href="/_wb/4.0.26/theme-gcwu-fegc/css/noscript.min.css" /></noscript>
+
+<!-- CustomCSSStart -->
+<!-- CustomCSSEnd -->
+
+</head>
+<body vocab="http://schema.org/" typeof="WebPage">
+<ul id="wb-tphp">
+<li class="wb-slc">
+<a class="wb-sl" href="#wb-cont">Skip to main content</a>
+</li>
+<li class="wb-slc visible-sm visible-md visible-lg">
+<a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
+</li>
+</ul>
+<header role="banner">
+<div id="wb-bnr">
+<div id="wb-bar">
+<div class="container">
+<div class="row">
+<object id="gcwu-sig" type="image/svg+xml" tabindex="-1" role="img" data="/_wb/4.0.26/theme-gcwu-fegc/assets/sig-en.svg" aria-label="Government of Canada"></object>
+<ul id="gc-bar" class="list-inline">
+<li><a href="https://www.canada.ca/en.html" rel="external">Canada.ca</a></li>
+<li><a href="https://www.canada.ca/en/services.html" rel="external">Services</a></li>
+<li><a href="https://www.canada.ca/en/government/dept.html" rel="external">Departments</a></li>
+<li id="wb-lng"><h2>Language selection</h2>
+<ul class="list-inline">
+<li><a lang="fr" hreflang="fr" href="canpass-fra.html">Français</a></li>
+</ul>
+</li>
+</ul>
+<section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
+<h2>Search and menus</h2>
+<ul class="pnl-btn list-inline text-right">
+<li><a href="#mb-pnl" title="Search and menus" aria-controls="mb-pnl" class="overlay-lnk btn btn-sm btn-default" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Search and menus</span></span></span></a></li>
+</ul>
+<div id="mb-pnl"></div>
+</section>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div id="wb-sttl" class="col-md-5">
+<a href="/menu-eng.html">
+<span>Canada Border Services Agency</span>
+</a>
+</div>
+<object id="wmms" type="image/svg+xml" tabindex="-1" role="img" data="/_wb/4.0.26/theme-gcwu-fegc/assets/wmms.svg" aria-label="Symbol of the Government of Canada"></object>
+<section id="wb-srch" class="visible-md visible-lg">
+<h2>Search</h2>
+<form action="https://www.canada.ca/en/border-services-agency/search.html" method="get" role="search" class="form-inline">
+<div class="form-group">
+<label for="wb-srch-q">Search website</label>
+<input id="wb-srch-q" class="form-control" name="q" type="search" value="" size="27" maxlength="150"/>
+</div>
+<button type="submit" id="wb-srch-sub" class="btn btn-default">Search</button>
+</form>
+</section>
+</div>
+</div>
+</div>
+<nav role="navigation" id="wb-sm" data-ajax-replace="/inc/v2/sitemenu-en.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
+<div class="container nvbar">
+<h2>Topics menu</h2>
+<div class="row">
+<ul class="list-inline menu">
+<li><a href="/travel-voyage/menu-eng.html">Travellers</a></li>
+<li><a href="/comm-eng.html">Import and Export</a></li>
+<li><a href="/security-securite/safety-surete-eng.html">Securing the Border</a></li>
+<li><a href="/publications/menu-eng.html">Publications</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<nav role="navigation" id="wb-bc" property="breadcrumb">
+<h2>You are here:</h2>
+<div class="container">
+<div class="row">
+<ol class="breadcrumb">
+
+<li><a href="/menu-eng.html">Home</a></li>
+
+<li><a href="/agency-agence/menu-eng.html">About the CBSA</a></li>
+<li><a href="/agency-agence/reports-rapports/menu-eng.html">Corporate Documents</a></li>
+<li><a href="/agency-agence/reports-rapports/pia-efvp/atip-aiprp/pias-sefp-eng.html">Privacy Impact Assessments</a></li>
+
+
+</ol>
+</div>
+</div>
+</nav>
+</header>  <!--<div class="module-alert span-8">-->
+  
+<main role="main" property="mainContentOfPage" class="container">
+
+<!-- MainContentStart -->
+<header>
+<h1 id="wb-cont"><small>Executive Summary</small><br>
+CANPASS Program Umbrella Privacy Impact Assessment</h1>
+</header>
+
+<p>This Umbrella Privacy Impact Assessment (<abbr>PIA</abbr>) includes all activities relating to the collection, storage and use of personal information by the Canada Border Services Agency (CBSA) as it relates to the CANPASS suite of programs (CANPASS Corporate Air, CANPASS Private Air, CANPASS Air and CANPASS Private Boats ), the Commercial Driver Registration Program (<abbr>CDRP</abbr>) and the Pilot Project for Travellers in Remote Areas – Québec (<abbr>PPTRA-Q</abbr>). These Trusted Traveller Programs (<abbr>TTP</abbr>s) store personal information in similar databases whereby CANPASS Corporate Air, Private Air, Private Boats and <abbr>CDRP</abbr> all use the Canadian Processing Centre System (<abbr>CPCS</abbr>) and <abbr>PPTRA-Q</abbr> and CANPASS Air use the Global Enrolment Component (<abbr>GEC</abbr>).</p>
+
+<p>The CANPASS suite of programs is a suite of voluntary <abbr>TTP</abbr>s in the air and marine modes offered by the CBSA to expedite the border clearance process for frequent, <span class="nowrap">pre-approved</span>, low risk travellers arriving in Canada. A separate application form is required for each applicant and CANPASS program. The existing CANPASS Corporate Air and CANPASS Private Air programs are open to Canadian and United States (<abbr>US</abbr>) citizens and permanent residents who meet the program eligibility criteria.</p>
+
+<nav role="navigation" class="col-md-10 mrgn-tp-lg">
+ <div class="panel panel-default">
+ <header class="panel-heading">
+ <h2 class="panel-title">On this page</h2>
+ </header>
+ <div class="panel-body"> 
+ <ul class="lst-spcd h4">
+	 <li><a href="#01">CANPASS Corporate Air</a></li>
+	 <li><a href="#02">CANPASS Private Air</a></li>
+	 <li><a href="#03">CANPASS Air</a></li>
+	 <li><a href="#04">CANPASS Private Boat</a></li> 
+	 <li><a href="#05">The Commercial Driver Registration Program (<abbr>CDRP</abbr>)</a></li>	
+	 <li><a href="#06">Pilot Project for Travellers in Remote Areas – Québec (<abbr>PPTRA-Q</abbr>)</a></li>
+	 <li><a href="#07">Protecting your personal information</a></li>	
+	 <li><a href="#08">Right of access</a></li>	
+	 <li><a href="#09">Accountability</a></li>	
+ </ul> 
+ </div>
+ </div>
+</nav>
+<div class="clearfix"></div>
+
+<h2 id="01">CANPASS Corporate Air</h2>
+
+<p>This CANPASS program is for eligible companies owning or operating a corporate aircraft that frequently flies directly to Canada from the <abbr>US</abbr> and is carrying no more than 15&nbsp;<span class="nowrap">pre-approved</span>, <span class="nowrap">low-risk</span> passengers and crew. They report their estimated time of arrival to the Telephone Reporting Centre (<abbr>TRC</abbr>) of the CBSA. Corporations may also temporarily authorize up to four business associates (<span class="nowrap">non-program</span> members) when travelling on business matters if they are travelling with a CANPASS Corporate Air member and meet the eligibility criteria.</p>
+
+<h2 id="02">CANPASS Private Air</h2>
+
+<p>Eligible private aircraft operators that fly directly to Canada from the <abbr>US</abbr> and are carrying no more than 15&nbsp;<span class="nowrap">pre-approved</span>, <span class="nowrap">low-risk</span> passengers and crew on board their aircraft can obtain expedited clearance by reporting their estimated time of arrival to the <abbr>TRC</abbr> of the CBSA.</p>
+
+<p>To become a member of either the CANPASS Corporate Air or Private Air program, an applicant voluntarily submits an application to a <abbr>CPC</abbr> along with any photocopied documents in support of the application. The personal information received and stored by the CBSA is used to confirm an applicant’s identity and to determine their eligibility as well as their continued eligibility in the program.</p>
+
+<h2 id="03">CANPASS Air</h2>
+
+<p>This program provides a secure and more efficient entry into Canada for <span class="nowrap">low-risk</span>, <span class="nowrap">pre-screened</span> travellers. Members avoid <span class="nowrap">line-ups</span> at the primary inspection line and meet their border <span class="nowrap">clearance/declaration</span> obligations by using the Special Services Counter at the following international airports: Vancouver, Calgary, Edmonton, Winnipeg, Ottawa, Toronto (Pearson International Airport and Billy Bishop Toronto City Airport), Montréal, and Halifax. There should be no further CANPASS Air members shortly after <time datetime="2019-04-04">April 4, 2019</time><sup id="fn1-1-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">Footnote </span>1</a></sup>.</p>
+
+<h2 id="04">CANPASS Private Boat</h2>
+
+<p>This program provides expedited border clearance for <span class="nowrap">low-risk</span>, <span class="nowrap">pre-screened</span> travellers entering Canada by private pleasure boat. Members are entitled to use telephone reporting marine sites not available to other boaters. Members meet their border <span class="nowrap">clearance/declaration</span> obligations through verbal reporting to the <abbr>TRC</abbr>. By <time datetime="2023-04-04">April 4, 2023</time>, all memberships should be expired<sup id="fn1-2-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">Footnote </span>1</a></sup>.</p>
+
+<h2 id="05">The Commercial Driver Registration Program (<abbr>CDRP</abbr>)</h2>
+
+<p>Since <time>2002</time>, the <abbr>CDRP</abbr> offers expedited clearance processes for eligible goods to <span class="nowrap">pre-authorized</span> importers, carriers and commercial drivers. The program is open to citizens and permanent residents of Canada and the <abbr>US</abbr> who meet the program eligibility criteria.</p>
+
+<p><span class="nowrap">CDRP-registered</span> drivers can carry goods for carriers who participate in the <abbr>CSA</abbr> program. The <span class="nowrap">CDRP</span> is one of three components required for membership in the Customs <span class="nowrap">Self-Assessment</span> program (<abbr>CSA</abbr>), which include importer, carrier and commercial driver applications.</p>
+
+<p>There are no electronic applications, an individual must complete the application form online then print a copy, sign it and submit the form to a <abbr>CPC</abbr> along with any supporting documents. A risk assessment to verify criminal and compliance history is a part of each application and renewal.</p>
+
+<h2 id="06">Pilot Project for Travellers in Remote Areas – Québec (<abbr>PPTRA-Q</abbr>)</h2>
+
+<p>The <abbr>PPTRA-Q</abbr> was launched on <time datetime="2014-07-14">July 14, 2014</time>, to pilot the provision of border services during specified hours of operation when there is no officer on site to provide access to 5&nbsp;<span class="nowrap">Canada/US</span> ports of entry (<abbr>POE</abbr>s) in the Beauce, Kamouraska and Témiscouata Regions of Québec. The CBSA is in the process of including the <abbr>PPTRA-Q</abbr> into the Presentation of Persons (<time>2003</time>) Regulations and to specify the eligibility requirements as well as the application and enrolment processes.</p>
+
+<p><abbr>PPTRA-Q</abbr> membership is not required to cross through one of these <abbr>POE</abbr>s during regular hours of operation when there are officers on site. This program is intended for leisure travellers (with no commercial goods) and commercial drivers who are only carrying logs and wood shavings as described in tariff items 44.01&nbsp;and 44.03&nbsp;of the Schedule to the Customs Tariff in the cargo of a registered commercial vehicle.</p>
+
+<h2 id="07">Protecting your personal information</h2>
+
+<p>The following personal information elements will be managed by the <abbr>TTP</abbr>s:</p>
+
+<ul class="lst-spcd">
+	<li>preferred language</li>
+	<li>full name(s)</li>
+	<li>gender</li>
+	<li>date of birth</li>
+	<li>place of birth</li>
+	<li>administrative information (new <span class="nowrap">application/renewal</span>, border crossing most frequently used and participation in other CBSA <abbr>TTP</abbr>’s)</li>
+	<li>residence</li>
+	<li>proof of <span class="nowrap">citizenship/immigration</span> status</li>
+	<li>address history for the last five years, mailing address, phone number, email address</li>
+	<li>employment history for the last five years and employer name and address</li>
+	<li>driver’s license number and issuing province or state (<abbr>CDRP</abbr> only)</li>
+	<li>purpose of travel to Canada for foreign citizens and <span class="nowrap">non-Canadian</span> permanent residents of other countries</li>
+	<li>questions to determine eligibility</li>
+	<li>customs programs (company information)</li>
+	<li>fee payment</li>
+	<li>privacy and consent statements and certification</li>
+	<li>signature</li>
+</ul>
+
+<p>Personal information is not disclosed to other federal departments during the risk assessment process unless prescribed by the Regulations. The collection of information for the <abbr>TTP</abbr>’s is used to determine an applicant’s eligibility for inclusion in the program, as well as their ongoing eligibility. The CBSA uses the personal information to query various enforcement and information databases to which the CBSA has access, including the following:</p>
+
+<ul class="lst-spcd">
+	<li><b>Canadian Police Information Centre</b> (<abbr>CPIC</abbr>) – Royal Canadian Mounted Police (<abbr>RCMP</abbr>) – contains criminal records</li>
+	<li><b>National Crime Information Center</b> (<abbr>NCIC</abbr>) – contains <abbr>US</abbr> national intelligence information – <span class="nowrap">wants/warrants</span> and criminal records. This is only checked when an applicant <span class="nowrap">self-discloses</span> a <abbr>US</abbr> conviction on their application or when there are precipitating circumstances indicating that the applicant has engaged in some form of criminal activity</li>
+</ul>
+
+<p>The CBSA systems that are used include the following:</p>
+
+<ul class="lst-spcd">
+	<li><b>Integrated Customs Enforcement System</b> (<abbr>ICES</abbr>) – CBSA database that contains customs seizures for a period of 6&nbsp;years plus the current year, and current data. The <abbr>ICES</abbr> also contains customs and immigration lookouts and Wants and Warrants</li>
+	<li><b>Interdiction and Border Alert System</b> (<abbr>IBAS</abbr>) – CBSA database that accumulates data to allow <span class="nowrap">high-speed/high-volume</span> querying by other applications against multiple sources including the following:<br>
+	<ul class="lst-spcd">
+		<li>Global Case Management System (<abbr>GCMS</abbr>) – Immigration, Refugees and Citizenship Canada (<abbr>IRCC</abbr>) – information related to Criminal Removals;</li>
+		<li>Lost, Stolen, Fraudulent documents (<abbr>LSFD</abbr>s); and</li>
+		<li>Criminal Records in Canada and the <abbr>US</abbr></li>
+	</ul></li>
+</ul>
+
+<p>When an applicant pays by credit card, the credit card numbers and expiry date are captured in <abbr>CPCS</abbr>. For <abbr>TTP</abbr>’s using <abbr>GEC</abbr>, this data is sent to <abbr>CPCS</abbr> where a client record is created. This information is kept for two years after the redress period for refused applications or two years after the termination or expiration of the membership, as the case may be.</p>
+
+<h2 id="08">Right of access</h2>
+
+<p>A separate Privacy Statement and Consent Statement appears on each program’s application form which describes the purpose, use, disclosure and retention of personal information collected or created.</p>
+
+<p>You may formally request access to your personal information, or access to corporate records related to or created by the CANPASS suite of programs, the <abbr>CDRP</abbr> or <abbr>PPTRA-Q</abbr> by contacting the Access to Information and Privacy Division. More information about this can be found on the <a href="/agency-agence/reports-rapports/pia-efvp/atip-aiprp/menu-eng.html">Access to Information and Privacy section</a>.</p>
+
+<h2 id="09">Accountability</h2>
+
+<p>If a traveller has concerns about the collection, use, disclosure or retention of their personal information, they may issue a complaint to the Office of the Privacy Commissioner of Canada who is mandated to investigate. Complaints should be made in writing, and include the traveller’s name, contact information and a brief description of their concerns. Details of the complaint process can be found on the <a href="https://www.priv.gc.ca/en/report-a-concern/">Privacy Commissioner’s website</a>.</p>
+
+<p>If a traveller is denied membership in one of the <abbr>TTP</abbr>’s or their membership is cancelled or suspended from any program, they may write to the Recourse Directorate at Headquarters or submit an <span class="nowrap">E-appeal</span> <span class="nowrap">on-line</span> to request a review of the decision. The request for review must be submitted within 90&nbsp;days from the date the rejection, suspension or cancellation of the membership becomes effective. It becomes effective either immediately when notified in person or 15&nbsp;days after the notice is mailed to you. Further information on these processes may be found on the <a href="/recourse-recours/howto-commentfaire-eng.html">Recourse: Appeals/Reviews section</a>.
+
+<aside class="wb-fnote" role="note">
+	<h2 id="fn">Footnotes</h2>
+	<dl>
+		<dt>Footnote 1</dt>
+		<dd id="fn1">
+			<p>Effective <time datetime="2018-04-04">April 4, 2018</time>, the CANPASS Air and CANPASS Private Boats programs were discontinued. As part of the discontinuation process a letter was sent in <time datetime="2018-03">March 2018</time> to each member individually advising them that their program(s) would be discontinued and that they would be able to maintain their privileges until their membership expires (1&nbsp;year for CANPASS Air and 5&nbsp;years for CANPASS Private Boats).</p>
+			<p class="fn-rtn"><a href="#fn1-1-rf"><span class="wb-inv">Return to <span>first</span> footnote </span>1<span class="wb-inv"> referrer</span></a></p>
+		</dd>
+	</dl>
+</aside>
+
+
+<dl id="wb-dtmd">
+<dt>Date modified:&#32;</dt>
+<dd><time property="dateModified">2019-12-16</time></dd>
+</dl>
+</main>
+
+<footer role="contentinfo" id="wb-info" class="visible-sm visible-md visible-lg wb-navcurr">
+<div class="container">
+<nav role="navigation">
+<h2>About this site</h2>
+<ul id="gc-tctr" class="list-inline">
+<li><a rel="license" href="/help-aide/in-ai-eng.html">Terms and conditions</a></li>
+<li><a href="/transparency-transparence/menu-eng.html">Transparency</a></li>
+</ul>
+<div class="row">
+<section class="col-sm-3">
+<h3><a href="/agency-agence/menu-eng.html">About us</a></h3>
+<ul class="list-unstyled">
+<li><a href="/agency-agence/actreg-loireg-eng.html">Acts and regulations</a></li>
+<li><a href="/job-emploi/menu-eng.html">Job opportunities</a></li>
+</ul>
+</section>
+<section class="col-sm-3">
+<h3><a href="/contact/menu-eng.html">Contact us</a></h3>
+<ul class="list-unstyled">
+<li><a href="https://do-rb.cbsa-asfc.cloud-nuage.canada.ca/?lang=en_CA">Directory of <abbr>CBSA</abbr> Offices and Services</a></li>
+<li><a href="/contact/com-eng.html">Feedback</a></li>
+<li><a href="/recourse-recours/menu-eng.html">Appeals/Reviews</a></li>
+</ul>
+</section>
+<section class="col-sm-3">
+<h3><a href="/media/menu-eng.html">News</a></h3>
+<ul class="list-unstyled">
+<li><a href="/media/menu-eng.html">News releases</a></li>
+<li><a href="/new-neuf/menu-eng.html">What's New</a></li>
+<li><a href="/media/video-eng.html">Videos</a></li>
+</ul>
+</section>
+<!--<section class="col-sm-3">
+<h3><a href="/help-aide/sm-ms-eng.html">Stay connected</a></h3>
+<ul class="list-unstyled">
+<li><a href="https://www.twitter.com/canborder">Twitter</a></li>
+<li><a href="https://www.facebook.com/canborder">Facebook</a></li>
+<li><a href="https://www.instagram.com/canborder">Instagram</a></li> 
+<li><a href="https://www.linkedin.com/company/cbsa-asfc">LinkedIn</a></li> 
+<li><a href="https://www.youtube.com/canborder">YouTube</a></li>
+<li><a href="/new-neuf/app-eng.html">CanBorder app</a></li>
+<li><a href="/new-neuf/rss-eng.html">Web feeds</a></li>
+<li><a href="/alert-avis/menu-eng.html">Email alert service</a></li>
+</ul>
+</section>-->
+</div>
+</nav>
+</div>
+<div id="gc-info">
+<div class="container">
+<nav role="navigation">
+<h2>Government of Canada footer</h2>
+<ul class="list-inline">
+<li><a href="https://www.canada.ca/en/services/health.html"><span>Health</span></a></li>
+<li><a href="https://travel.gc.ca/"><span>Travel</span></a></li>
+<li><a href="https://www.canada.ca/en/employment-social-development/corporate/portfolio/service-canada.html"><span>Service Canada</span></a></li>
+<li><a href="https://www.jobbank.gc.ca/home"><span>Jobs</span></a></li>
+<!-- <li><a href="https://www.budget.gc.ca/2019/home-accueil-en.html"><span>Economy</span></a></li> -->
+<li id="canada-ca"><a href="https://www.canada.ca/en.html">Canada.ca</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</footer>
+
+<!-- ScriptsStart -->
+<!--[if gte IE 9 | !IE ]><!-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+<script src="/_wb/4.0.26/theme-gcwu-fegc/js/wet-boew.min.js"></script>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<script src="/_wb/4.0.26/theme-gcwu-fegc/js/ie8-wet-boew2.min.js"></script>
+<![endif]-->
+<script src="/_wb/4.0.26/theme-gcwu-fegc/js/theme.min.js"></script>
+<!-- ScriptsEnd -->
+<!--External link tracking begin-->
+
+<script>
+var trackOutboundLink = function(url) {
+  ga('send', 'event', 'outbound', 'click', url, {
+    'transport': 'beacon',
+    'hitCallback': function(){
+      document.location = url;
+    }
+  });
+}
+$(function(){
+  if ((typeof ga === "function")&&(ga.loaded)) {
+    $(".trackme").on('click',function(e){
+      e.preventDefault();
+      trackOutboundLink(this.href);
+    });
+  }
+});
+</script>
+
+<!--External link tracking end-->
+
+
+
+<!-- CustomScriptsStart -->
+<!-- CustomScriptsEnd -->
+</body>
+</html>

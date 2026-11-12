@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "collector_version": 1,
-  "collected_at_utc": "2026-11-12T01:50:37.367801+00:00",
+  "collector_version": 2,
+  "collected_at_utc": "2026-11-12T05:49:57.810746+00:00",
   "institution_id": "ati-schedule-i-department-of-transport",
   "gc_orgID": "2238.0",
   "open_canada_org_id": "AEAE485F-42DE-4D33-AFA3-F8A3A76FC663",
@@ -9,7 +9,7 @@
   "name_en": "Department of Transport",
   "name_fr": "Ministère des Transports",
   "registry_membership": "current_registry",
-  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
   "list_pages": {
     "en": {
       "indexed_url": "https://tc.canada.ca/en/privacy-impact-assessments",
@@ -133,7 +133,14 @@
           "title": "Privacy Impact Assessment Summary for the Civil Aviation Licensing Operations Program",
           "conversion": "markdownify",
           "text_sha256": "1e9dee9f203223fc1fb59838aaea3727ee7a61ff4bae06c862a30c15f2c1cc57",
-          "word_count": 711
+          "word_count": 711,
+          "pib_ids": [
+            "TC PPU 005",
+            "TC PPU 011",
+            "TC PPU 020",
+            "TC PPU 031"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-programme-operations-delivrance-licences-aviation-civile",
@@ -184,9 +191,227 @@
           "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le programme des opérations de délivrance des licences de l’Aviation civile",
           "conversion": "markdownify",
           "text_sha256": "cfdfff2c5cd58fa9ab514877906592f7caae1135f338a61bc366db330a01db2b",
-          "word_count": 875
+          "word_count": 875,
+          "pib_ids": [
+            "TC PPU 005",
+            "TC PPU 011",
+            "TC PPU 020",
+            "TC PPU 031"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "TC PPU 005",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-transport",
+                "record_id": "TC PPU 005"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-transport/pia-53183a61e6ef_en.md",
+                "line": 18,
+                "mention": "TC PPU 005",
+                "method": "explicit_pib_id",
+                "excerpt": "1. Civil Aviation Personnel Licensing – Bank No. TC PPU 005: information related to the issuance, validation, monitoring, and control of all Canadian Aviation Documents (i.e. licences and permits) to persons who pilot or control aircraft (aircraft flight crew members, air traffic controllers, and those applying for such licences and permits). The licensing of pilots and air traffic controllers requires the collection of application forms, medical examination information (from TC PPU 020), written examination, and flight test information to determine if a particular licence will be issued. Once"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-transport/pia-53183a61e6ef_en.md",
+                "line": 37,
+                "mention": "TC PPU 005",
+                "method": "explicit_pib_id",
+                "excerpt": "- Civil Aviation Personnel Licensing (TC PPU 005)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-transport/pia-53183a61e6ef_fr.md",
+                "line": 18,
+                "mention": "TC PPU 005",
+                "method": "explicit_pib_id",
+                "excerpt": "1. Délivrance des licences pour le personnel en aviation – Numéro de fichier TC PPU 005 : renseignements relatifs à la délivrance, à la validation, à la surveillance et au contrôle de tous les documents d’aviation canadiens (c.-à-d. les licences et les permis) aux personnes qui pilotent ou contrôlent un aéronef (membres d’équipage de conduite, contrôleurs aérien et personnes qui demandent de telles licences et de tels permis). La délivrance de licences aux pilotes et aux contrôleurs de la circulation aérienne nécessite la collecte de formulaires de demande, de renseignements sur les examens mé"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-transport/pia-53183a61e6ef_fr.md",
+                "line": 37,
+                "mention": "TC PPU 005",
+                "method": "explicit_pib_id",
+                "excerpt": "- Délivrance des licences du personnel de l’Aviation civile (TC PPU 005)"
+              }
+            ]
+          },
+          {
+            "id": "TC PPU 011",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-transport",
+                "record_id": "TC PPU 011"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-transport/pia-53183a61e6ef_en.md",
+                "line": 19,
+                "mention": "TC PPU 011",
+                "method": "explicit_pib_id",
+                "excerpt": "2. Aircraft Maintenance Engineer (AME) Licensing – Bank No. TC PPU 011: information related to the issuance of an AME licence, which follows a similar application process to pilots and air traffic controllers, but does not require a medical examination. AMEs are individuals who perform mechanical and technical repairs and maintenance on aircraft. AMEs are not issued an ADB; instead, they are issued a licence card (similar to a driver’s licence) which details the types of aircraft they are authorized to certify as airworthy. The AME licence is critical to the Canadian transportation industry be"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-transport/pia-53183a61e6ef_en.md",
+                "line": 38,
+                "mention": "TC PPU 011",
+                "method": "explicit_pib_id",
+                "excerpt": "- Aircraft Maintenance Engineer Licensing (TC PPU 011)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-transport/pia-53183a61e6ef_fr.md",
+                "line": 19,
+                "mention": "TC PPU 011",
+                "method": "explicit_pib_id",
+                "excerpt": "2. Délivrance de licences de technicien d’entretien d’aéronefs (TEA) – Numéro de fichier TC PPU 011 : information relative à la délivrance d’une licence de TEA, qui suit un processus de demande similaire à celui des pilotes et des contrôleurs aériens, mais qui n’exige pas d’examen médical. Les TEA sont des personnes qui effectuent des réparations et l’entretien mécaniques et techniques des aéronefs. Les TEA ne reçoivent pas de CDA ; Ils reçoivent plutôt une carte de licence (semblable à un permis de conduire) qui précise les types d’aéronefs qu’ils sont autorisés à certifier en état de navigab"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-transport/pia-53183a61e6ef_fr.md",
+                "line": 38,
+                "mention": "TC PPU 011",
+                "method": "explicit_pib_id",
+                "excerpt": "- Délivrance des licences de techniciens d’entretien d’aéronefs (TC PPU 011)"
+              }
+            ]
+          },
+          {
+            "id": "TC PPU 020",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-transport",
+                "record_id": "TC PPU 020"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-transport/pia-53183a61e6ef_en.md",
+                "line": 18,
+                "mention": "TC PPU 020",
+                "method": "explicit_pib_id",
+                "excerpt": "1. Civil Aviation Personnel Licensing – Bank No. TC PPU 005: information related to the issuance, validation, monitoring, and control of all Canadian Aviation Documents (i.e. licences and permits) to persons who pilot or control aircraft (aircraft flight crew members, air traffic controllers, and those applying for such licences and permits). The licensing of pilots and air traffic controllers requires the collection of application forms, medical examination information (from TC PPU 020), written examination, and flight test information to determine if a particular licence will be issued. Once"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-transport/pia-53183a61e6ef_en.md",
+                "line": 20,
+                "mention": "TC PPU 020",
+                "method": "explicit_pib_id",
+                "excerpt": "3. Medical Assessments – Bank No. TC PPU 020: this bank and program activity is specific to the medical examinations performed by Certified Aviation Medical Examiners (CAMEs). A CAME is contacted by a pilot, student pilot, or air traffic controller seeking a medical certificate confirming they are medically fit to hold the licence, permit, and rating to which they are seeking from Transport Canada. CAMEs must assess the individual’s medical fitness based on factors laid out in the Canadian Aviation Regulations (CAR)."
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-transport/pia-53183a61e6ef_en.md",
+                "line": 39,
+                "mention": "TC PPU 020",
+                "method": "explicit_pib_id",
+                "excerpt": "- Medical Assessments (TC PPU 020)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-transport/pia-53183a61e6ef_fr.md",
+                "line": 18,
+                "mention": "TC PPU 020",
+                "method": "explicit_pib_id",
+                "excerpt": "1. Délivrance des licences pour le personnel en aviation – Numéro de fichier TC PPU 005 : renseignements relatifs à la délivrance, à la validation, à la surveillance et au contrôle de tous les documents d’aviation canadiens (c.-à-d. les licences et les permis) aux personnes qui pilotent ou contrôlent un aéronef (membres d’équipage de conduite, contrôleurs aérien et personnes qui demandent de telles licences et de tels permis). La délivrance de licences aux pilotes et aux contrôleurs de la circulation aérienne nécessite la collecte de formulaires de demande, de renseignements sur les examens mé"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-transport/pia-53183a61e6ef_fr.md",
+                "line": 20,
+                "mention": "TC PPU 020",
+                "method": "explicit_pib_id",
+                "excerpt": "3. Évaluations médicaux – Numéro de fichier TC PPU 020 : cette activité de fichier et de programme est propre aux examens médicaux effectués par les médecins examinateurs certifiés de l’aviation (MEAC). Un MEAC est contacté par un pilote, un élève-pilote ou un contrôleur aérien pour obtenir un certificat médical confirmant qu’il est médicalement apte à détenir la licence, le permis et la qualification qu’il demande à Transports Canada. Les MEAC doivent évaluer l’aptitude physique et mentale de la personne en fonction des facteurs énoncés dans le Règlement de l’aviation canadien (RAC)."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-transport/pia-53183a61e6ef_fr.md",
+                "line": 39,
+                "mention": "TC PPU 020",
+                "method": "explicit_pib_id",
+                "excerpt": "- Examens médicaux (TC PPU 020)"
+              }
+            ]
+          },
+          {
+            "id": "TC PPU 031",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-transport",
+                "record_id": "TC PPU 031"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-transport/pia-53183a61e6ef_en.md",
+                "line": 21,
+                "mention": "TC PPU 031",
+                "method": "explicit_pib_id",
+                "excerpt": "4. Civil Aviation Medical Examiners (CAME) – Bank No. TC PPU 031: this bank and program activity are limited to the collection of information on licenced physicians who are delegated by the Minister of Transport for a term of four years to conduct medical examinations of pilots and air traffic controllers. At any given time, there are approximately 500 CAMEs. Over time, a CAME may be renewed or terminated from the program; they can remove themselves or TC may terminate their role based on performance."
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-transport/pia-53183a61e6ef_en.md",
+                "line": 40,
+                "mention": "TC PPU 031",
+                "method": "explicit_pib_id",
+                "excerpt": "- Civil Aviation Medical Examiners (CAME) (TC PPU 031)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-transport/pia-53183a61e6ef_fr.md",
+                "line": 21,
+                "mention": "TC PPU 031",
+                "method": "explicit_pib_id",
+                "excerpt": "4. Médecins examinateurs de l’aviation civile (MEAC) – Numéro de fichier TC PPU 031 : Ce fichier et les activités du programme se limitent à la collecte de renseignements sur les MEAC qui sont délégués par le ministre des Transports pour une période de quatre ans pour effectuer des examens médicaux des pilotes et des contrôleurs aériens. À tout moment, il y a environ 500 MEAC. Au fil du temps, un MEAC peut être renouvelé ou retiré du programme ; ils peuvent se retirer eux-mêmes ou TC peut mettre fin à leur mandat en fonction de leur rendement."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-transport/pia-53183a61e6ef_fr.md",
+                "line": 40,
+                "mention": "TC PPU 031",
+                "method": "explicit_pib_id",
+                "excerpt": "- Médecins examinateurs de l’Aviation civile (MEAC) (TC PPU 031)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "TC PPU 005",
+        "TC PPU 011",
+        "TC PPU 020",
+        "TC PPU 031"
+      ],
+      "pib_count": 4,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 711,
+      "word_count_fr": 875,
+      "word_count_language": "en",
+      "word_count": 711
     },
     {
       "pia_id": "pia-53b7587598dd",
@@ -250,7 +475,11 @@
           "title": "Privacy Impact Assessment Summary for the Transportation Security Clearance Programs",
           "conversion": "markdownify",
           "text_sha256": "88457131de3cbb44ada254933056a3782778d6ebf3d144a8a69afd6f5113696c",
-          "word_count": 369
+          "word_count": 369,
+          "pib_ids": [
+            "TC PPU 093"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-programme-habilitation-securite-matiere-transport",
@@ -301,9 +530,57 @@
           "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le programme d’habilitation de sécurité en matière de transport",
           "conversion": "markdownify",
           "text_sha256": "1553344b79913628c32bab1165463cf2e2f7e0cb083971a5af2975572754cdac",
-          "word_count": 539
+          "word_count": 539,
+          "pib_ids": [
+            "TC PPU 093"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "TC PPU 093",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-transport",
+                "record_id": "TC PPU 093"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-transport/pia-53b7587598dd_en.md",
+                "line": 26,
+                "mention": "TC PPU 093",
+                "method": "explicit_pib_id",
+                "excerpt": "Related personal information bank: TC PPU 093"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-transport/pia-53b7587598dd_fr.md",
+                "line": 26,
+                "mention": "TC PPU 093",
+                "method": "explicit_pib_id",
+                "excerpt": "Fichiers de renseignements personnels connexes: TC PPU 093"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "TC PPU 093"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 369,
+      "word_count_fr": 539,
+      "word_count_language": "en",
+      "word_count": 369
     },
     {
       "pia_id": "pia-c65bc98d0c25",
@@ -367,7 +644,11 @@
           "title": "Privacy Impact Assessment Summary for the Pre-load Air Cargo Targeting Program",
           "conversion": "markdownify",
           "text_sha256": "4c8f92d792fa2df756345fda5d70f6a3e2f7a67171b8704b67daf1caa922440a",
-          "word_count": 854
+          "word_count": 854,
+          "pib_ids": [
+            "TC PPU 064"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-lies-programme-ciblage-fret-aerien-prealable-chargement-cfapc",
@@ -418,9 +699,57 @@
           "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée liés au programme de ciblage du fret aérien préalable au chargement (CFAPC)",
           "conversion": "markdownify",
           "text_sha256": "bf343809e182ba49af21fc11776cda6c13c301af2d82cc5a76d31c7c839c091e",
-          "word_count": 1121
+          "word_count": 1121,
+          "pib_ids": [
+            "TC PPU 064"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "TC PPU 064",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-transport",
+                "record_id": "TC PPU 064"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-transport/pia-c65bc98d0c25_en.md",
+                "line": 63,
+                "mention": "TC PPU 064",
+                "method": "explicit_pib_id",
+                "excerpt": "Related personal information bank: TC PPU 064"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-transport/pia-c65bc98d0c25_fr.md",
+                "line": 63,
+                "mention": "TC PPU 064",
+                "method": "explicit_pib_id",
+                "excerpt": "Fichiers de renseignements personnels connexes: TC PPU 064"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "TC PPU 064"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 854,
+      "word_count_fr": 1121,
+      "word_count_language": "en",
+      "word_count": 854
     },
     {
       "pia_id": "pia-fb0f90ff9c3e",
@@ -484,7 +813,11 @@
           "title": "Privacy Impact Assessment Summary for the Drone Management Portal",
           "conversion": "markdownify",
           "text_sha256": "03ae7fd447984d1f859e18b7fb3288ea99c15192b36429830a24c9b6c7693284",
-          "word_count": 507
+          "word_count": 507,
+          "pib_ids": [
+            "TC PPU 007"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-portail-gestion-drones",
@@ -535,9 +868,57 @@
           "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée pour le portail de gestion des drones",
           "conversion": "markdownify",
           "text_sha256": "236bce672e5d94ecee1cb22d37e2a2fbd1d3122304ba71246016a4cca76672e7",
-          "word_count": 659
+          "word_count": 659,
+          "pib_ids": [
+            "TC PPU 007"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "TC PPU 007",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-transport",
+                "record_id": "TC PPU 007"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-transport/pia-fb0f90ff9c3e_en.md",
+                "line": 47,
+                "mention": "TC PPU 007",
+                "method": "explicit_pib_id",
+                "excerpt": "Related personal information bank: TC PPU 007"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-transport/pia-fb0f90ff9c3e_fr.md",
+                "line": 45,
+                "mention": "TC PPU 007",
+                "method": "explicit_pib_id",
+                "excerpt": "Fichiers de renseignements personnels connexes: TC PPU 007"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "TC PPU 007"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 507,
+      "word_count_fr": 659,
+      "word_count_language": "en",
+      "word_count": 507
     },
     {
       "pia_id": "pia-20452d0c5c38",
@@ -601,7 +982,13 @@
           "title": "Incentives for Zero-Emission Vehicles (iZEV) Program",
           "conversion": "markdownify",
           "text_sha256": "ccad73991680d8ab7c106cd910f442b8ffb0387a12f7fe3a7eeba27597e4077c",
-          "word_count": 956
+          "word_count": 956,
+          "pib_ids": [
+            "TC PPU 052"
+          ],
+          "cor_ids": [
+            "TC IZEV 001"
+          ]
         },
         "fr": {
           "url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/programme-incitatifs-vehicules-zero-emission-ivze",
@@ -652,9 +1039,90 @@
           "title": "Programme d’incitatifs pour les véhicules zéro émission (iVZE)",
           "conversion": "markdownify",
           "text_sha256": "55bbf6508fbb079fbffe622dc2df1e79112ae7bcb84c8f682fb4e6eb9d4678df",
-          "word_count": 1200
+          "word_count": 1200,
+          "pib_ids": [
+            "TC PPU 052"
+          ],
+          "cor_ids": [
+            "TC IZEV 001"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "TC PPU 052",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-transport",
+                "record_id": "TC PPU 052"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-transport/pia-20452d0c5c38_en.md",
+                "line": 33,
+                "mention": "TC PPU 052",
+                "method": "explicit_pib_id",
+                "excerpt": "Incentives for Zero-Emission Vehicles Program, TC PPU 052"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-transport/pia-20452d0c5c38_fr.md",
+                "line": 33,
+                "mention": "TC PPU 052",
+                "method": "explicit_pib_id",
+                "excerpt": "Programme d’incitatifs pour les véhicules zéro émission, TC PPU 052"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "TC IZEV 001",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-transport",
+                "record_id": "TC IZEV 001"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-transport/pia-20452d0c5c38_en.md",
+                "line": 30,
+                "mention": "TC IZEV 001",
+                "method": "known_cor_id",
+                "excerpt": "Incentives for Zero-Emission Vehicles Program, TC IZEV 001"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-transport/pia-20452d0c5c38_fr.md",
+                "line": 30,
+                "mention": "TC IZEV 001",
+                "method": "known_cor_id",
+                "excerpt": "Programme d’incitatifs pour les véhicules zéro émission, TC IZEV 001"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "TC PPU 052"
+      ],
+      "pib_count": 1,
+      "cor_ids": [
+        "TC IZEV 001"
+      ],
+      "cor_count": 1,
+      "word_count_en": 956,
+      "word_count_fr": 1200,
+      "word_count_language": "en",
+      "word_count": 956
     },
     {
       "pia_id": "pia-d33714b3ca94",
@@ -718,7 +1186,13 @@
           "title": "National Interest Exemption Program (NIEP)",
           "conversion": "markdownify",
           "text_sha256": "dd1057882beb42ce1df24211548eb299b00294652872c6841f5368f14cb76cdd",
-          "word_count": 1163
+          "word_count": 1163,
+          "pib_ids": [
+            "TC PPU 056"
+          ],
+          "cor_ids": [
+            "TC NIE 001"
+          ]
         },
         "fr": {
           "url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/programme-exemption-titre-interet-national-pein",
@@ -769,9 +1243,97 @@
           "title": "Programme d’exemption au titre de l’intérêt national (PEIN)",
           "conversion": "markdownify",
           "text_sha256": "f0017ec87c1ee9e5beb122218976d7cec62016e2bb4a235a48dba1f58392a08b",
-          "word_count": 1462
+          "word_count": 1462,
+          "pib_ids": [
+            "TC PPU 056"
+          ],
+          "cor_ids": [
+            "TC EIN 001"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "TC PPU 056",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-transport",
+                "record_id": "TC PPU 056"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-transport/pia-d33714b3ca94_en.md",
+                "line": 32,
+                "mention": "TC PPU 056",
+                "method": "explicit_pib_id",
+                "excerpt": "National Interest Exemption Program, TC PPU 056"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-transport/pia-d33714b3ca94_fr.md",
+                "line": 32,
+                "mention": "TC PPU 056",
+                "method": "explicit_pib_id",
+                "excerpt": "Programme d’exemption au titre de l’intérêt national, TC PPU 056"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "TC EIN 001",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-transport/pia-d33714b3ca94_fr.md",
+                "line": 29,
+                "mention": "TC EIN 001",
+                "method": "explicit_cor_context",
+                "excerpt": "Programme d’exemption au titre de l’intérêt national, TC EIN 001"
+              }
+            ]
+          },
+          {
+            "id": "TC NIE 001",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-transport",
+                "record_id": "TC NIE 001"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-transport/pia-d33714b3ca94_en.md",
+                "line": 29,
+                "mention": "TC NIE 001",
+                "method": "known_cor_id",
+                "excerpt": "National Interest Exemption Program, TC NIE 001"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "TC PPU 056"
+      ],
+      "pib_count": 1,
+      "cor_ids": [
+        "TC EIN 001",
+        "TC NIE 001"
+      ],
+      "cor_count": 2,
+      "word_count_en": 1163,
+      "word_count_fr": 1462,
+      "word_count_language": "en",
+      "word_count": 1163
     }
   ],
   "summary": {

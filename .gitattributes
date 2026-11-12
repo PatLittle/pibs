@@ -4,3 +4,11 @@ institutions_infosource_docs/**/snapshots/**/supplemental/*/source.html -diff
 
 # Published Markdown copies preserve source hard breaks and checksums.
 site/privacy-assessments/content/**/*.md -whitespace
+
+# Collected assessments preserve original Markdown hard breaks and response bytes.
+PIAs/*/pia-*_??.md -whitespace
+PIAs/*/raw/* -diff
+
+# CSV writers use standard CRLF record separators.
+PIAs/*.csv whitespace=cr-at-eol
+site/data/privacy_assessment_index.csv whitespace=cr-at-eol

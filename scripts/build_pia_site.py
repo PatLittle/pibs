@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import hashlib
+import csv
 import json
 import re
 from collections import Counter
@@ -52,11 +53,27 @@ def sanitized_html(text: str) -> str:
 
 def record_type(pia: dict) -> str:
     titles = ' '.join(pia.get('title_' + lang) or '' for lang in ('en', 'fr')).casefold()
+    if 'privacy protocol' in titles or 'protocole de protection' in titles: return 'Privacy protocol assessment'
     if 'privacy compliance evaluation' in titles or 'évaluation de la conformité en matière de protection' in titles:
         return 'Privacy compliance evaluation'
     if any(s['status'] == 'not_pia_content' for s in pia['sources'].values()):
         return 'Source requires review'
     return 'Privacy assessment'
+
+
+def pib_progress(records):
+    with (ROOT / 'institutions_infosource_docs/pib_table_en_fr_all.csv').open() as handle:
+        banks = list(csv.DictReader(handle))
+    known = {(r['institution_id'],r['bank_number_key']) for r in banks}
+    departments = {org for org, _ in known}
+    with_pias = {r['institution_id'] for r in records if r['available_languages']} & departments
+    cited = {(m['institution_id'],m['record_id']) for r in records for ref in r['references']['pibs'] for m in ref['matched_records'] if m['dataset'] == 'pibs'} & known
+    return {'institutions_with_pibs':len(departments), 'institutions_with_pibs_and_readable_pias':len(with_pias),
+            'institution_coverage_percent':round(100*len(with_pias)/len(departments),1) if departments else 0,
+            'pib_records':len(known), 'pib_records_cited':len(cited),
+            'pib_reference_coverage_percent':round(100*len(cited)/len(known),1) if known else 0,
+            'assessments_with_pib_ids':sum(bool(r['pib_count']) for r in records),
+            'assessments_with_cor_ids':sum(bool(r['cor_count']) for r in records)}
 
 
 def build() -> dict:
@@ -72,6 +89,11 @@ def build() -> dict:
             uid = org['institution_id'] + '/' + pia['pia_id']
             row = {**department, 'id': uid, 'pia_id': pia['pia_id'], 'title_en': pia['title_en'], 'title_fr': pia['title_fr'],
                    'type': record_type(pia), 'available_languages': [], 'sources': {}}
+            for field in ('pib_ids','pib_count','cor_ids','cor_count','word_count','word_count_en','word_count_fr','word_count_language'):
+                if field not in pia: raise ValueError('Run PIAs/reference_extraction.py before building the assessment site')
+                row[field] = pia[field]
+            # Keep the catalogue compact: detailed line evidence remains in organization JSON.
+            row['references'] = {kind:[{'id':item['id'],'matched_records':item['matched_records']} for item in pia['references'][kind]] for kind in ('pibs','classes_of_records')}
             # Failed pages can have an error-page title. Show the intended title from the institution's list instead.
             for lang in ('en', 'fr'):
                 source = pia['sources'].get(lang, {})
@@ -80,7 +102,7 @@ def build() -> dict:
             for lang, source in pia['sources'].items():
                 row['sources'][lang] = {'status': source['status'], 'http_status': source['http']['http_status'], 'url': source['url'], 'checked_at_utc': source['http']['checked_at_utc']}
                 language = {**row['sources'][lang], 'title': row['title_' + lang], 'kind': source['kind'], 'html': None, 'markdown_url': None,
-                            'date_modified': source.get('date_modified'), 'date_published': source.get('date_published'), 'anchor_type': source.get('anchor_type')}
+                            'word_count': source.get('word_count'), 'date_modified': source.get('date_modified'), 'date_published': source.get('date_published'), 'anchor_type': source.get('anchor_type')}
                 if source['status'] == 'exported':
                     raw = (path.parent / source['markdown_path']).read_bytes()
                     if digest(raw) != source['markdown_sha256']: raise ValueError(f'Markdown checksum mismatch: {uid} {lang}')
@@ -106,10 +128,12 @@ def build() -> dict:
     counts = Counter(r['institution_id'] for r in records)
     summary = {'records': len(records), 'departments': len(departments), 'markdown_exports': sum(len(r['available_languages']) for r in records),
                'readable_records': sum(bool(r['available_languages']) for r in records), 'availability': dict(availability),
-               'document_types': dict(Counter(r['type'] for r in records)),
+               'document_types': dict(Counter(r['type'] for r in records)), 'progress':pib_progress(records),
                'top_departments': [{**d, 'count': counts[d['institution_id']]} for d in sorted(departments, key=lambda d: (-counts[d['institution_id']], d['name_en']))[:6]]}
     payload = {'schema_version': 1, 'collection_generated_at_utc': source_manifest['generated_at_utc'], 'summary': summary, 'departments': departments, 'records': records}
     DATA.parent.mkdir(exist_ok=True)
+    import shutil
+    shutil.copyfile(ROOT / 'PIAs/assessment_index.csv', ROOT / 'site/data/privacy_assessment_index.csv')
     DATA.write_text(json.dumps(payload, ensure_ascii=False, separators=(',', ':')) + '\n')
     print(f"Built PIA site: {summary['records']} records, {summary['markdown_exports']} Markdown exports, {summary['departments']} departments")
     return payload

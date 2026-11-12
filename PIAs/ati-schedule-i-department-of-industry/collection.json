@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "collector_version": 1,
-  "collected_at_utc": "2026-11-12T01:50:32.768971+00:00",
+  "collector_version": 2,
+  "collected_at_utc": "2026-11-12T05:49:53.310930+00:00",
   "institution_id": "ati-schedule-i-department-of-industry",
   "gc_orgID": "2231.0",
   "open_canada_org_id": "06CC519C-E56E-4FC8-8B9C-BE0A461E3CD9",
@@ -9,7 +9,7 @@
   "name_en": "Department of Industry",
   "name_fr": "Ministère de l’Industrie",
   "registry_membership": "current_registry",
-  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
   "list_pages": {
     "en": {
       "indexed_url": "https://ised-isde.canada.ca/site/atip-services/en/references",
@@ -145,7 +145,11 @@
           "title": "Talent Mobility Tool for Workforce Adjustment Staffing",
           "conversion": "markdownify",
           "text_sha256": "43148925e1d3e957f0452ea60f957886d1ae7e98667ff07eb63459812cb48c1c",
-          "word_count": 151
+          "word_count": 151,
+          "pib_ids": [
+            "PSE 902"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/outil-mobilite-talents-pour-soutenir-dotation-dans-contexte-reamenagement-effectifs",
@@ -196,9 +200,57 @@
           "title": "Outil de mobilité des talents pour soutenir la dotation dans le contexte du réaménagement des effectifs",
           "conversion": "markdownify",
           "text_sha256": "49e6e8972e3de4bf4c85826aaedb707960423881ebc776e71a528ad91029a240",
-          "word_count": 204
+          "word_count": 204,
+          "pib_ids": [
+            "PSE 902"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSE 902",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 902"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-industry/pia-3d44919f898f_en.md",
+                "line": 28,
+                "mention": "PSE 902",
+                "method": "explicit_pib_id",
+                "excerpt": "Standard Personal Information Bank No. PSE 902 (Staffing)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-industry/pia-3d44919f898f_fr.md",
+                "line": 28,
+                "mention": "POE 902",
+                "method": "explicit_pib_id",
+                "excerpt": "Fichier de renseignement personnel ordinaire no. POE 902 (Dotation)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "PSE 902"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 151,
+      "word_count_fr": 204,
+      "word_count_language": "en",
+      "word_count": 151
     },
     {
       "pia_id": "pia-ef2d6233118d",
@@ -262,7 +314,11 @@
           "title": "Competition Bureau – Digital Forensic Activity (Electronic Evidence Unit)",
           "conversion": "markdownify",
           "text_sha256": "18c8b87f554d6b4754ed6d201dfdd57f903eb917b2cd28b17eed5509e7a9ee61",
-          "word_count": 806
+          "word_count": 806,
+          "pib_ids": [
+            "ISED PPU 033"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/bureau-concurrence-activite-juricomptabilite-informatique-unite-elements-preuve-electroniques",
@@ -313,9 +369,57 @@
           "title": "Bureau de la concurrence – Activité de juricomptabilité informatique (Unité des éléments de preuve électroniques)",
           "conversion": "markdownify",
           "text_sha256": "38e7feeb82a580d54e2c16588af99938138eb2bd81c38922b16fad2cf5668288",
-          "word_count": 1085
+          "word_count": 1085,
+          "pib_ids": [
+            "ISED PPU 033"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "ISED PPU 033",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-industry",
+                "record_id": "ISED PPU 033"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-industry/pia-ef2d6233118d_en.md",
+                "line": 44,
+                "mention": "ISED PPU 033",
+                "method": "explicit_pib_id",
+                "excerpt": "ISED PPU 033 Competition Bureau – Digital Forensic Activity (Electronic Evidence Unit)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-industry/pia-ef2d6233118d_fr.md",
+                "line": 44,
+                "mention": "ISED PPU 033",
+                "method": "explicit_pib_id",
+                "excerpt": "ISED PPU 033 : L'Activité de juricomptabilité informatique (Unité des éléments de preuve électroniques) du Bureau de la concurrence"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "ISED PPU 033"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 806,
+      "word_count_fr": 1085,
+      "word_count_language": "en",
+      "word_count": 806
     },
     {
       "pia_id": "pia-41bffda1528e",
@@ -422,7 +526,11 @@
           "title": "Transparency of Beneficial Ownership of Federally Incorporated Companies – Evergreen Update to Support Discrepancy Reporting Requirements",
           "conversion": "markdownify",
           "text_sha256": "b23e5c311e05faecbc74e4181f90d432c6f3ccf3e1256ade1ff570f0b27816f4",
-          "word_count": 852
+          "word_count": 852,
+          "pib_ids": [
+            "ISED PPU 051"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/transparence-matiere-propriete-effective-societes-regime-federal-mise-jour-evolutive-lappui",
@@ -480,9 +588,57 @@
           "title": "Transparence en matière de propriété effective des sociétés de régime fédéral – mise à jour évolutive à l’appui des exigences de déclaration des écarts",
           "conversion": "markdownify",
           "text_sha256": "85f935e27d678c13041c9fc5f6499264e608bfad9b97a23021e82d1d1bfdcb12",
-          "word_count": 1069
+          "word_count": 1069,
+          "pib_ids": [
+            "ISED PPU 051"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "ISED PPU 051",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-industry",
+                "record_id": "ISED PPU 051"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-industry/pia-41bffda1528e_en.md",
+                "line": 50,
+                "mention": "ISED PPU 051",
+                "method": "explicit_pib_id",
+                "excerpt": "ISED PPU 051 – Corporations Canada (Beneficial Ownership Transparency)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-industry/pia-41bffda1528e_fr.md",
+                "line": 50,
+                "mention": "ISDE PPU 051",
+                "method": "explicit_pib_id",
+                "excerpt": "ISDE PPU 051 – Corporations Canada (Transparence en matière de propriété effective)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "ISED PPU 051"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 852,
+      "word_count_fr": 1069,
+      "word_count_language": "en",
+      "word_count": 852
     },
     {
       "pia_id": "pia-51376bcd5338",
@@ -589,7 +745,12 @@
           "title": "Privacy Impact Assessment – Canada Digital Adoption Program: Evergreen Update – May 2024",
           "conversion": "markdownify",
           "text_sha256": "7d5f3cd4e9716c896aa6dd6122016493a77c40e992161b70ae6ce7f42952056d",
-          "word_count": 2929
+          "word_count": 2929,
+          "pib_ids": [
+            "ISED PPU 201",
+            "ISED PPU 501"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-programme-canadien-dadoption-numerique-mise-jour-evolutive",
@@ -647,9 +808,103 @@
           "title": "Évaluation des facteurs relatifs à la vie privée - Programme canadien d'adoption du numérique : Mise à jour évolutive – Mai 2024",
           "conversion": "markdownify",
           "text_sha256": "88051c1b6d63eeab9cf8bf2d45596eccefc4424264181d4b0ccfde6878e2ba3a",
-          "word_count": 3550
+          "word_count": 3550,
+          "pib_ids": [
+            "ISED PPU 201",
+            "ISED PPU 501"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "ISED PPU 201",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-industry",
+                "record_id": "ISED PPU 201"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-industry/pia-51376bcd5338_en.md",
+                "line": 25,
+                "mention": "ISED PPU 201",
+                "method": "explicit_pib_id",
+                "excerpt": "| Personal Information Bank (PIB) relating to this program | ISED PPU 201 (CDAP Clients and Digital Advisors PIB) ISED PPU 501 (Identity and Credential Management) |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-industry/pia-51376bcd5338_fr.md",
+                "line": 25,
+                "mention": "ISED PPU 201",
+                "method": "explicit_pib_id",
+                "excerpt": "| Fichier de renseignements personnels (FRP) relatif à ce programme | ISED PPU 201 (FRP sur les clients et les conseillers numériques du PCAN) ISED PPU 501 – (Gestion de l'identité et des justificatifs) |"
+              }
+            ]
+          },
+          {
+            "id": "ISED PPU 501",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-industry",
+                "record_id": "ISED PPU 501"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-industry/pia-51376bcd5338_en.md",
+                "line": 25,
+                "mention": "ISED PPU 501",
+                "method": "explicit_pib_id",
+                "excerpt": "| Personal Information Bank (PIB) relating to this program | ISED PPU 201 (CDAP Clients and Digital Advisors PIB) ISED PPU 501 (Identity and Credential Management) |"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-industry/pia-51376bcd5338_en.md",
+                "line": 132,
+                "mention": "ISED PPU 501",
+                "method": "explicit_pib_id",
+                "excerpt": "| Considerations: At the time of the CDAP's Core PIA, there were plans to enter new methods of identity validation into production; however, all identity management solutions used for CDAP delivery purposes have since been covered under ISED's January 2023 PIA for Identity and Credential Management Solutions, and detailed under Personal Information Bank No. ISED PPU 501 – Identity and Credential Management. | |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-industry/pia-51376bcd5338_fr.md",
+                "line": 25,
+                "mention": "ISED PPU 501",
+                "method": "explicit_pib_id",
+                "excerpt": "| Fichier de renseignements personnels (FRP) relatif à ce programme | ISED PPU 201 (FRP sur les clients et les conseillers numériques du PCAN) ISED PPU 501 – (Gestion de l'identité et des justificatifs) |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-industry/pia-51376bcd5338_fr.md",
+                "line": 132,
+                "mention": "ISED PPU 501",
+                "method": "explicit_pib_id",
+                "excerpt": "| Points à examiner : Au moment de l'EFVP de base du PCAN, des plans avaient été élaborés pour mettre en œuvre de nouvelles méthodes de validation de l'identité; toutefois, toutes les solutions de gestion de l'identité utilisées pour la prestation du PCAN ont depuis fait l'objet de l'EFVP de janvier 2023 d'ISDE visant la Gestion de l'identité et des justificatifs, détaillée dans le fichier de renseignements personnels n° ISED PPU 501 – Gestion de l'identité et des justificatifs. | |"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "ISED PPU 201",
+        "ISED PPU 501"
+      ],
+      "pib_count": 2,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 2929,
+      "word_count_fr": 3550,
+      "word_count_language": "en",
+      "word_count": 2929
     },
     {
       "pia_id": "pia-91073d87af2f",
@@ -756,7 +1011,11 @@
           "title": "Privacy Impact Assessment – Corporations Canada – Beneficial Ownership Transparency",
           "conversion": "markdownify",
           "text_sha256": "df0599f56418bf49e308aa0468b97a726ff763a061c93dc29795e6c3dbacbad8",
-          "word_count": 2685
+          "word_count": 2685,
+          "pib_ids": [
+            "ISED PPU 051"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-corporations-canada-transparence-matiere-propriete-effective",
@@ -814,9 +1073,57 @@
           "title": "Évaluation des facteurs relatifs à la vie privée - Corporations Canada - Transparence en matière de propriété effective",
           "conversion": "markdownify",
           "text_sha256": "ed2623bc95ab7272fd53571b021b9221451a721ada28ce6c0025b0d3309a6976",
-          "word_count": 3213
+          "word_count": 3213,
+          "pib_ids": [
+            "ISED PPU 051"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "ISED PPU 051",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-industry",
+                "record_id": "ISED PPU 051"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-industry/pia-91073d87af2f_en.md",
+                "line": 25,
+                "mention": "ISED PPU 051",
+                "method": "explicit_pib_id",
+                "excerpt": "| Personal Information Bank (PIB) relating to this program | A new PIB is being proposed in respect of this activity, as follows: - ISED PPU 051 Corporations Canada – Beneficial Ownership Transparency The newly proposed PIB is detailed at Section VII (Supplementary Documents and Information) of this PIA. |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-industry/pia-91073d87af2f_fr.md",
+                "line": 25,
+                "mention": "ISED PPU 051",
+                "method": "explicit_pib_id",
+                "excerpt": "| Fichier de renseignements personnels (FRP) relatif à ce programme | Un nouveau FRP est proposé relativement à cette activité, comme suit : - ISED PPU 051 Corporations Canada – Transparence en matière de propriété effective Le nouveau FRP proposé est détaillé à la Section VII (Documents et renseignements supplémentaires) de la présente EFVP. |"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "ISED PPU 051"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 2685,
+      "word_count_fr": 3213,
+      "word_count_language": "en",
+      "word_count": 2685
     },
     {
       "pia_id": "pia-9f87707a13e0",
@@ -923,7 +1230,12 @@
           "title": "Privacy Impact Assessment – Investment Canada Act Reviews",
           "conversion": "markdownify",
           "text_sha256": "a0afc66f68e581fa2fbc2d55c776c97dcf6b54bfc6692ad7354933eefe092a68",
-          "word_count": 2145
+          "word_count": 2145,
+          "pib_ids": [
+            "ISED PPU 301",
+            "PS PPU 026"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-examen-loi-investissement-canada",
@@ -981,9 +1293,87 @@
           "title": "Évaluation des facteurs relatifs à la vie privée - Examen de la Loi sur Investissement Canada",
           "conversion": "markdownify",
           "text_sha256": "705ca49f9e156450c63fb772d6db3141a7b3d5caf0918b475105989108bed143",
-          "word_count": 2479
+          "word_count": 2479,
+          "pib_ids": [
+            "ISED PPU 301",
+            "PS PPU 026"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "ISED PPU 301",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-industry",
+                "record_id": "ISED PPU 301"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-industry/pia-9f87707a13e0_en.md",
+                "line": 25,
+                "mention": "ISED PPU 301",
+                "method": "explicit_pib_id",
+                "excerpt": "| Personal Information Bank (PIB) relating to this program | A new PIB is being proposed for this initiative, as follows: - ISED PPU 301 (Investment Canada Act reviews) The request to approve and register this new PIB is being sent to the TBS for approval and registration, in conjunction with this PIA |"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-industry/pia-9f87707a13e0_fr.md",
+                "line": 25,
+                "mention": "ISED PPU 301",
+                "method": "explicit_pib_id",
+                "excerpt": "| Fichier de renseignements personnels (FRP) relatif à ce programme | Un nouveau FRP est proposé pour cette initiative : - ISED PPU 301 (Examen de la Loi sur Investissement Canada) La demande d'approbation et d'enregistrement de ce nouveau FRP est envoyée au Secrétariat du Conseil du Trésor (SCT) pour approbation et enregistrement, en même temps que la présente EFVP. |"
+              }
+            ]
+          },
+          {
+            "id": "PS PPU 026",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-public-safety-and-emergency-preparedness",
+                "record_id": "PS PPU 026"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-industry/pia-9f87707a13e0_en.md",
+                "line": 88,
+                "mention": "PS PPU 026",
+                "method": "explicit_pib_id",
+                "excerpt": "| Considerations: ISED shares completed forms with Public Safety Canada. Public Safety Canada further-shares that information with other Prescribed Investigative Bodies and Classes of Investigative Bodies (pursuant to paragraph 7 of the National Security Review of Investments Regulations) [see section VII of this PIA – Supplementary Documents and Information – for the full list of bodies] for the purpose of conducting National Security Reviews. The sharing of this information is permitted by Public Safety Canada's Personal Information Bank No. PS PPU 026 (National Security Records). ISED also "
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-industry/pia-9f87707a13e0_fr.md",
+                "line": 91,
+                "mention": "PS PPU 026",
+                "method": "explicit_pib_id",
+                "excerpt": "| Considérations : ISDE partage les formulaires remplis avec Sécurité publique Canada. Sécurité publique Canada partage ensuite ces renseignements avec d'autres organismes d'enquête et catégories d'organismes d'enquête prescrits (conformément à l'article 7 du Règlement sur les investissements susceptibles de porter atteinte à la sécurité nationale) [voir la section VII de la présente EFVP – Documents et renseignements complémentaires – pour la liste complète des organismes] en vue de procéder à des examens relatifs à la sécurité nationale. Le partage de ces renseignements est autorisé par le f"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "ISED PPU 301",
+        "PS PPU 026"
+      ],
+      "pib_count": 2,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 2145,
+      "word_count_fr": 2479,
+      "word_count_language": "en",
+      "word_count": 2145
     },
     {
       "pia_id": "pia-c576a1268081",
@@ -1090,7 +1480,11 @@
           "title": "Privacy Impact Assessment – Identity and Credential Management Solutions at ISED",
           "conversion": "markdownify",
           "text_sha256": "4651924e760555a4a5f7e89f475f367a2518ecf931fab1b8d3333d25ac4c6478",
-          "word_count": 2617
+          "word_count": 2617,
+          "pib_ids": [
+            "ISED PPU 501"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-solutions-gestion-lidentite-justificatifs-isde",
@@ -1148,9 +1542,57 @@
           "title": "Évaluation des facteurs relatifs à la vie privée – Les solutions de gestion de l’identité et des justificatifs à ISDE",
           "conversion": "markdownify",
           "text_sha256": "3716317075b779d089a317bfa0a76bf8599c710682cc219b0b193120f19d8371",
-          "word_count": 3069
+          "word_count": 3069,
+          "pib_ids": [
+            "ISED PPU 501"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "ISED PPU 501",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-industry",
+                "record_id": "ISED PPU 501"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-industry/pia-c576a1268081_en.md",
+                "line": 78,
+                "mention": "ISED PPU 501",
+                "method": "explicit_pib_id",
+                "excerpt": "- ISED PPU 501 – Identity and Credential Management"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-industry/pia-c576a1268081_fr.md",
+                "line": 78,
+                "mention": "ISED PPU 501",
+                "method": "explicit_pib_id",
+                "excerpt": "- ISED PPU 501 – Gestion de l’identité et des justificatifs"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "ISED PPU 501"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 2617,
+      "word_count_fr": 3069,
+      "word_count_language": "en",
+      "word_count": 2617
     },
     {
       "pia_id": "pia-a9b2e19bf5eb",
@@ -1257,7 +1699,12 @@
           "title": "Privacy Impact Assessment – ATIP Services at ISED",
           "conversion": "markdownify",
           "text_sha256": "4349fa4d12f94ae9c22b8d24998025152cd930b3c0a3867e023adf24d95f39d8",
-          "word_count": 4324
+          "word_count": 4324,
+          "pib_ids": [
+            "PSU 901",
+            "PSU 924"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-services-daiprp-lisde",
@@ -1315,9 +1762,81 @@
           "title": "Évaluation des facteurs relatifs à la vie privée – Services d'AIPRP à l'ISDE",
           "conversion": "markdownify",
           "text_sha256": "e4e7f22511930efabe64e3f41929bd08050416ae2849dd926a0ff2197eccdefe",
-          "word_count": 5036
+          "word_count": 5036,
+          "pib_ids": [
+            "PSU 901",
+            "PSU 924"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSU 901",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 901"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-industry/pia-a9b2e19bf5eb_en.md",
+                "line": 62,
+                "mention": "PSU 901",
+                "method": "explicit_pib_id",
+                "excerpt": "PSU 901 – Access to Information Act and Privacy Act Requests; and"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-industry/pia-a9b2e19bf5eb_fr.md",
+                "line": 59,
+                "mention": "PSU 901",
+                "method": "explicit_pib_id",
+                "excerpt": "PSU 901 – Demandes en vertu de la Loi sur l'accès à l'information et de la Loi sur la protection des renseignements personnels"
+              }
+            ]
+          },
+          {
+            "id": "PSU 924",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-industry/pia-a9b2e19bf5eb_en.md",
+                "line": 63,
+                "mention": "PSU 924",
+                "method": "explicit_pib_id",
+                "excerpt": "PSU 924 – Public Communications."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-industry/pia-a9b2e19bf5eb_fr.md",
+                "line": 60,
+                "mention": "PSU 924",
+                "method": "explicit_pib_id",
+                "excerpt": "PSU 924 – Communications publiques"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "PSU 901",
+        "PSU 924"
+      ],
+      "pib_count": 2,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 4324,
+      "word_count_fr": 5036,
+      "word_count_language": "en",
+      "word_count": 4324
     },
     {
       "pia_id": "pia-fb71a7d2e436",
@@ -1424,7 +1943,9 @@
           "title": "Staffing with VidCruiter",
           "conversion": "markdownify",
           "text_sha256": "f53dce5e9036c373d02afdaa2940dc24c71c40b9034e1f13553f1dce5f2010aa",
-          "word_count": 157
+          "word_count": 157,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/dotation-vidcruiter",
@@ -1482,9 +2003,24 @@
           "title": "La Dotation avec VidCruiter",
           "conversion": "markdownify",
           "text_sha256": "e922d1626370272b0eb56ebdcd03b6a06c0129baebec2a6dcaf489ad165b058d",
-          "word_count": 191
+          "word_count": 191,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 157,
+      "word_count_fr": 191,
+      "word_count_language": "en",
+      "word_count": 157
     },
     {
       "pia_id": "pia-f466e7cd10e7",
@@ -1591,7 +2127,9 @@
           "title": "Privacy Impact Assessment – OSB License Administration Application",
           "conversion": "markdownify",
           "text_sha256": "e3e3379554922697f33c5b7242dea998e42d5eea06d7f2c767c591e1b42b2c76",
-          "word_count": 888
+          "word_count": 888,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-application-pour-ladministration-licenses-bsf",
@@ -1649,9 +2187,24 @@
           "title": "Évaluation des facteurs relatifs à la vie privée – Application pour l’administration des licenses du BSF",
           "conversion": "markdownify",
           "text_sha256": "370c8e0ef604095c19eaa0a1b69153ec317a1e106c68ebbc02c365c3bac544e9",
-          "word_count": 1170
+          "word_count": 1170,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 888,
+      "word_count_fr": 1170,
+      "word_count_language": "en",
+      "word_count": 888
     },
     {
       "pia_id": "pia-52e89c3cc6e2",
@@ -1713,7 +2266,9 @@
           "date_published": "",
           "has_pia_text": false,
           "title": "Canada's anti-spam legislation",
-          "review_note": "The list links to a general anti-spam program homepage, not a PIA summary."
+          "review_note": "The list links to a general anti-spam program homepage, not a PIA summary.",
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/loi-canadienne-anti-pourriel/fr",
@@ -1762,9 +2317,24 @@
           "date_published": "",
           "has_pia_text": false,
           "title": "La Loi canadienne anti-pourriel",
-          "review_note": "The list links to a general anti-spam program homepage, not a PIA summary."
+          "review_note": "The list links to a general anti-spam program homepage, not a PIA summary.",
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": null,
+      "word_count_fr": null,
+      "word_count_language": null,
+      "word_count": null
     },
     {
       "pia_id": "pia-346dda190ed5",
@@ -1871,7 +2441,9 @@
           "title": "Privacy Impact Assessment Summary – Canada’s Anti-Spam legislation",
           "conversion": "markdownify",
           "text_sha256": "c1ff9f9ac6e7e57196f70809537001c6be34cebb90372c519e72222129b09dc5",
-          "word_count": 423
+          "word_count": 423,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/resume-levaluation-facteurs-relatifs-vie-privee-loi-canadienne-anti-pourriel",
@@ -1929,9 +2501,24 @@
           "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée – Loi canadienne anti-pourriel",
           "conversion": "markdownify",
           "text_sha256": "88419d13a02ca814e974f8f670be356139e0aa16bd69a484129e189ea25bb67a",
-          "word_count": 481
+          "word_count": 481,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 423,
+      "word_count_fr": 481,
+      "word_count_language": "en",
+      "word_count": 423
     },
     {
       "pia_id": "pia-409ee5e332cb",
@@ -2038,7 +2625,9 @@
           "title": "Privacy Impact Assessment – I-Talent System",
           "conversion": "markdownify",
           "text_sha256": "9b3088604003bf85518e6697a0ee839bebbad04a2c1527afa76ad191b7e383ff",
-          "word_count": 435
+          "word_count": 435,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-systeme-i-talent",
@@ -2096,9 +2685,24 @@
           "title": "Évaluation des facteurs relatifs à la vie privée – Système I-Talent",
           "conversion": "markdownify",
           "text_sha256": "0eb7f258689b18a2c77ae968fb124ed4d2ea37caf4797f13f49f3b0fe2866c43",
-          "word_count": 489
+          "word_count": 489,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 435,
+      "word_count_fr": 489,
+      "word_count_language": "en",
+      "word_count": 435
     }
   ],
   "summary": {

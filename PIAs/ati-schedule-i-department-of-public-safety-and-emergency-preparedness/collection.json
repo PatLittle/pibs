@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "collector_version": 1,
-  "collected_at_utc": "2026-11-12T01:50:35.062413+00:00",
+  "collector_version": 2,
+  "collected_at_utc": "2026-11-12T05:49:55.646057+00:00",
   "institution_id": "ati-schedule-i-department-of-public-safety-and-emergency-preparedness",
   "gc_orgID": "2235.0",
   "open_canada_org_id": "7C0AF243-753A-465F-8D46-C4FF7397D9B6",
@@ -9,7 +9,7 @@
   "name_en": "Department of Public Safety and Emergency Preparedness",
   "name_fr": "Ministère de la Sécurité publique et de la Protection civile",
   "registry_membership": "current_registry",
-  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
   "list_pages": {
     "en": {
       "indexed_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-en.aspx",
@@ -132,7 +132,12 @@
           "title": "Passenger Protect Program: Centralized Screening",
           "conversion": "markdownify",
           "text_sha256": "9eb47ee9b69aaafc11f40e9403d3fa836f6b954bb0a4878f5d3113e3b59299cc",
-          "word_count": 1865
+          "word_count": 1865,
+          "pib_ids": [],
+          "cor_ids": [
+            "PS NCSB 05",
+            "TC ASE 007"
+          ]
         },
         "fr": {
           "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ppcs-ppcc-fr.aspx",
@@ -182,9 +187,100 @@
           "title": "Programme de protection des passagers : contrôle centralisé",
           "conversion": "markdownify",
           "text_sha256": "93b6140b4a3277eb38b552ed484a8c232527732b170e5d3ce882910da21276d9",
-          "word_count": 2366
+          "word_count": 2366,
+          "pib_ids": [],
+          "cor_ids": [
+            "PS NCSB 05",
+            "TC ASA 007"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": [
+          {
+            "id": "PS NCSB 05",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-public-safety-and-emergency-preparedness",
+                "record_id": "PS NCSB 05"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-7d092f6a1a18_en.md",
+                "line": 44,
+                "mention": "PS NCSB 05",
+                "method": "known_cor_id",
+                "excerpt": "#### Record Number: PS NCSB 05"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-7d092f6a1a18_fr.md",
+                "line": 44,
+                "mention": "SP SSCN 05",
+                "method": "known_cor_id",
+                "excerpt": "#### Numéro du dossier : SP SSCN 05"
+              }
+            ]
+          },
+          {
+            "id": "TC ASA 007",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-transport",
+                "record_id": "TC ASA 007"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-7d092f6a1a18_fr.md",
+                "line": 48,
+                "mention": "TC ASA 007",
+                "method": "known_cor_id",
+                "excerpt": "#### Numéro de dossier : TC ASA 007"
+              }
+            ]
+          },
+          {
+            "id": "TC ASE 007",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-transport",
+                "record_id": "TC ASE 007"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-7d092f6a1a18_en.md",
+                "line": 48,
+                "mention": "TC ASE 007",
+                "method": "known_cor_id",
+                "excerpt": "#### Record Number: TC ASE 007"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [
+        "PS NCSB 05",
+        "TC ASA 007",
+        "TC ASE 007"
+      ],
+      "cor_count": 3,
+      "word_count_en": 1865,
+      "word_count_fr": 2366,
+      "word_count_language": "en",
+      "word_count": 1865
     },
     {
       "pia_id": "pia-e2c9c1c99607",
@@ -247,7 +343,11 @@
           "title": "Canadian Travel Number",
           "conversion": "markdownify",
           "text_sha256": "93db6cc593bf454d1db8c88965e40c0e0ca3409f7fa5dfb33e814ddd6e31700a",
-          "word_count": 2122
+          "word_count": 2122,
+          "pib_ids": [],
+          "cor_ids": [
+            "PS NCSB 05"
+          ]
         },
         "fr": {
           "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-trvl-nmbr-fr.aspx",
@@ -297,9 +397,57 @@
           "title": "Numéro canadien de voyages",
           "conversion": "markdownify",
           "text_sha256": "1157dddf96d0cec66b11d521455ddd1508117999262deb7be47894342302a8eb",
-          "word_count": 2519
+          "word_count": 2519,
+          "pib_ids": [],
+          "cor_ids": [
+            "PS NCSB 05"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": [
+          {
+            "id": "PS NCSB 05",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-public-safety-and-emergency-preparedness",
+                "record_id": "PS NCSB 05"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-e2c9c1c99607_en.md",
+                "line": 46,
+                "mention": "PS NCSB 05",
+                "method": "known_cor_id",
+                "excerpt": "Record Number: PS NCSB 05"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-e2c9c1c99607_fr.md",
+                "line": 46,
+                "mention": "PS NCSB 05",
+                "method": "known_cor_id",
+                "excerpt": "Numéro du dossier : PS NCSB 05"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [
+        "PS NCSB 05"
+      ],
+      "cor_count": 1,
+      "word_count_en": 2122,
+      "word_count_fr": 2519,
+      "word_count_language": "en",
+      "word_count": 2122
     },
     {
       "pia_id": "pia-d9d9ca65cad4",
@@ -362,7 +510,11 @@
           "title": "Passenger Protect Program",
           "conversion": "markdownify",
           "text_sha256": "ee059ee6e4c63757e50b96cdf963f3bfb8a78864eb09ffca21c5667648ff21ae",
-          "word_count": 1919
+          "word_count": 1919,
+          "pib_ids": [],
+          "cor_ids": [
+            "PS NCSB 05"
+          ]
         },
         "fr": {
           "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/pssngr-prtct-fr.aspx",
@@ -412,9 +564,57 @@
           "title": "Le Programme de protection des passagers",
           "conversion": "markdownify",
           "text_sha256": "1736fcc188af90126372256d4f03e660265a8c91b3cec4d252a4803319e715e0",
-          "word_count": 2277
+          "word_count": 2277,
+          "pib_ids": [],
+          "cor_ids": [
+            "PS NCSB 05"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": [
+          {
+            "id": "PS NCSB 05",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-public-safety-and-emergency-preparedness",
+                "record_id": "PS NCSB 05"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-d9d9ca65cad4_en.md",
+                "line": 48,
+                "mention": "PS NCSB 05",
+                "method": "known_cor_id",
+                "excerpt": "Record Number: PS NCSB 05"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-d9d9ca65cad4_fr.md",
+                "line": 48,
+                "mention": "SP SSCN 05",
+                "method": "known_cor_id",
+                "excerpt": "Numéro du dossier : SP SSCN 05"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [
+        "PS NCSB 05"
+      ],
+      "cor_count": 1,
+      "word_count_en": 1919,
+      "word_count_fr": 2277,
+      "word_count_language": "en",
+      "word_count": 1919
     },
     {
       "pia_id": "pia-161583d65cb1",
@@ -477,7 +677,9 @@
           "title": "Memorial Grant Program for First Responders",
           "conversion": "markdownify",
           "text_sha256": "00a49abf50610628c0317ab708c1566d2146d3afca759681bb2452ec8b25b1ce",
-          "word_count": 896
+          "word_count": 896,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mmrl-grnt-prgrm-frst-rspndrs-fr.aspx",
@@ -527,9 +729,24 @@
           "title": "Programme de subvention commémoratif pour les premiers répondants",
           "conversion": "markdownify",
           "text_sha256": "47d46e9fe146915f59424e21a8567a7d9c263eccdf975727498f1d8635df03fe",
-          "word_count": 1098
+          "word_count": 1098,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 896,
+      "word_count_fr": 1098,
+      "word_count_language": "en",
+      "word_count": 896
     },
     {
       "pia_id": "pia-cd9260b3b46d",
@@ -592,7 +809,15 @@
           "title": "Governor in Council Appointments",
           "conversion": "markdownify",
           "text_sha256": "5951f7dfda14d129188620e184c7c7dd4a6c55902f0868f35f5057469d715326",
-          "word_count": 1337
+          "word_count": 1337,
+          "pib_ids": [
+            "CRA PPU 005",
+            "PCO PPU 020",
+            "PSU 918"
+          ],
+          "cor_ids": [
+            "PRN 938"
+          ]
         },
         "fr": {
           "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnr-cncl-ppntmnts-fr.aspx",
@@ -642,9 +867,184 @@
           "title": "Nominations par le gouverneur en conseil",
           "conversion": "markdownify",
           "text_sha256": "4b2b445cfe597bf2ac43c86be7484a7fd8f64f5d7e94b079497e351d675281b1",
-          "word_count": 1731
+          "word_count": 1731,
+          "pib_ids": [
+            "CRA PPU 005",
+            "PCO PPU 020",
+            "PSU 918"
+          ],
+          "cor_ids": [
+            "PRN 938"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "CRA PPU 005",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-cd9260b3b46d_en.md",
+                "line": 34,
+                "mention": "CRA PPU 005",
+                "method": "explicit_pib_id",
+                "excerpt": "Consistent Uses: Personal information about the appointee is contained in the Order in Council document which includes full name, contact information, the position to which s/he is being appointed, the length and tenure of the appointment, and the terms and conditions of the appointment (e.g., remuneration, benefits, vacation leave, etc.). This information is provided by the Privy Council Office to the institution (refer to Governor in Council Personnel Records - PCO PPU 020. Governor in Council Personnel Records - PCO PPU 020). Additionally, this information may be used in the preparation of "
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-cd9260b3b46d_fr.md",
+                "line": 36,
+                "mention": "ARC PPU 005",
+                "method": "explicit_pib_id",
+                "excerpt": "Utilisations compatibles : Le décret renferme des renseignements personnels sur la personne nommée, soit son nom au long, ses coordonnées, le poste auquel elle est nommée, la durée et la nature de la nomination et les conditions d’emploi (p. ex., rémunération, avantages sociaux, vacances, etc.). Ces renseignements sont communiqués par le Bureau du Conseil privé à l’institution (voir Dossiers personnels du gouverneur en conseil – BCP PPU 020. De plus, ces renseignements peuvent être utilisés pour la rédaction de rapports à la haute direction ou à un lectorat plus vaste (p. ex., rapports annuels"
+              }
+            ]
+          },
+          {
+            "id": "PCO PPU 020",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-privy-council-office",
+                "record_id": "PCO PPU 020"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-cd9260b3b46d_en.md",
+                "line": 34,
+                "mention": "PCO PPU 020",
+                "method": "explicit_pib_id",
+                "excerpt": "Consistent Uses: Personal information about the appointee is contained in the Order in Council document which includes full name, contact information, the position to which s/he is being appointed, the length and tenure of the appointment, and the terms and conditions of the appointment (e.g., remuneration, benefits, vacation leave, etc.). This information is provided by the Privy Council Office to the institution (refer to Governor in Council Personnel Records - PCO PPU 020. Governor in Council Personnel Records - PCO PPU 020). Additionally, this information may be used in the preparation of "
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-cd9260b3b46d_en.md",
+                "line": 34,
+                "mention": "PCO PPU 020",
+                "method": "explicit_pib_id",
+                "excerpt": "Consistent Uses: Personal information about the appointee is contained in the Order in Council document which includes full name, contact information, the position to which s/he is being appointed, the length and tenure of the appointment, and the terms and conditions of the appointment (e.g., remuneration, benefits, vacation leave, etc.). This information is provided by the Privy Council Office to the institution (refer to Governor in Council Personnel Records - PCO PPU 020. Governor in Council Personnel Records - PCO PPU 020). Additionally, this information may be used in the preparation of "
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-cd9260b3b46d_en.md",
+                "line": 34,
+                "mention": "PCO PPU 020",
+                "method": "explicit_pib_id",
+                "excerpt": "Consistent Uses: Personal information about the appointee is contained in the Order in Council document which includes full name, contact information, the position to which s/he is being appointed, the length and tenure of the appointment, and the terms and conditions of the appointment (e.g., remuneration, benefits, vacation leave, etc.). This information is provided by the Privy Council Office to the institution (refer to Governor in Council Personnel Records - PCO PPU 020. Governor in Council Personnel Records - PCO PPU 020). Additionally, this information may be used in the preparation of "
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-cd9260b3b46d_fr.md",
+                "line": 36,
+                "mention": "BCP PPU 020",
+                "method": "explicit_pib_id",
+                "excerpt": "Utilisations compatibles : Le décret renferme des renseignements personnels sur la personne nommée, soit son nom au long, ses coordonnées, le poste auquel elle est nommée, la durée et la nature de la nomination et les conditions d’emploi (p. ex., rémunération, avantages sociaux, vacances, etc.). Ces renseignements sont communiqués par le Bureau du Conseil privé à l’institution (voir Dossiers personnels du gouverneur en conseil – BCP PPU 020. De plus, ces renseignements peuvent être utilisés pour la rédaction de rapports à la haute direction ou à un lectorat plus vaste (p. ex., rapports annuels"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-cd9260b3b46d_fr.md",
+                "line": 36,
+                "mention": "BCP PPU 020",
+                "method": "explicit_pib_id",
+                "excerpt": "Utilisations compatibles : Le décret renferme des renseignements personnels sur la personne nommée, soit son nom au long, ses coordonnées, le poste auquel elle est nommée, la durée et la nature de la nomination et les conditions d’emploi (p. ex., rémunération, avantages sociaux, vacances, etc.). Ces renseignements sont communiqués par le Bureau du Conseil privé à l’institution (voir Dossiers personnels du gouverneur en conseil – BCP PPU 020. De plus, ces renseignements peuvent être utilisés pour la rédaction de rapports à la haute direction ou à un lectorat plus vaste (p. ex., rapports annuels"
+              }
+            ]
+          },
+          {
+            "id": "PSU 918",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 918"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-cd9260b3b46d_en.md",
+                "line": 41,
+                "mention": "PSU 918",
+                "method": "explicit_pib_id",
+                "excerpt": "Bank Number: PSU 918"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-cd9260b3b46d_fr.md",
+                "line": 44,
+                "mention": "POU 918",
+                "method": "explicit_pib_id",
+                "excerpt": "Numéro du fichier : POU 918"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "PRN 938",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "938"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-cd9260b3b46d_en.md",
+                "line": 24,
+                "mention": "PRN 938",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "Record Number: PRN 938"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-cd9260b3b46d_en.md",
+                "line": 40,
+                "mention": "PRN 938",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "Related Record Number: PRN 938"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-cd9260b3b46d_fr.md",
+                "line": 27,
+                "mention": "NDP 938",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "Numéro du document : NDP 938"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-cd9260b3b46d_fr.md",
+                "line": 42,
+                "mention": "NDP 938",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "Numéro de renvoi au document : NDP 938"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "CRA PPU 005",
+        "PCO PPU 020",
+        "PSU 918"
+      ],
+      "pib_count": 3,
+      "cor_ids": [
+        "PRN 938"
+      ],
+      "cor_count": 1,
+      "word_count_en": 1337,
+      "word_count_fr": 1731,
+      "word_count_language": "en",
+      "word_count": 1337
     },
     {
       "pia_id": "pia-1475d9c703d2",
@@ -707,7 +1107,13 @@
           "title": "Emergency Management Exemplary Service Award",
           "conversion": "markdownify",
           "text_sha256": "2e2026205a769c5a4b24e890dbb3c33a54a87c5a96d37fd3c2e5a0661fc3edf2",
-          "word_count": 1060
+          "word_count": 1060,
+          "pib_ids": [
+            "PS PPU 08"
+          ],
+          "cor_ids": [
+            "PS EMRO 01"
+          ]
         },
         "fr": {
           "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mrgnc-mngmnt-xmplry-srvc-wrd-fr.aspx",
@@ -757,9 +1163,76 @@
           "title": "Prix pour service exemplaire en gestion des urgences",
           "conversion": "markdownify",
           "text_sha256": "02f3069b7030fccf1659041f84df453a33057cd7006c6c5a3604abdd57449498",
-          "word_count": 1428
+          "word_count": 1428,
+          "pib_ids": [
+            "PS PPU 08"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PS PPU 08",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-1475d9c703d2_en.md",
+                "line": 34,
+                "mention": "PS PPU 08",
+                "method": "explicit_pib_id",
+                "excerpt": "Title: Nominations for the Emergency Management Exemplary Service Award Description: Personal information contained in this bank consists of name of nominee, their language preference (E/F) and optional information as follows: preferred salutation (Title, Mr., Mrs., Ms., etc.), home address, daytime telephone number, alternate telephone number, e-mail address, narrative assessments and summary of achievement for the Award. Class of Individuals: Canadian Emergency Management practitioners who are nominated for the Emergency Management Exemplary Services Award. Purpose: Public Safety and provinc"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-1475d9c703d2_fr.md",
+                "line": 47,
+                "mention": "PS PPU 08",
+                "method": "explicit_pib_id",
+                "excerpt": "Numéro de fichier : PS PPU 08"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "PS EMRO 01",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-1475d9c703d2_en.md",
+                "line": 31,
+                "mention": "PS EMRO 01",
+                "method": "explicit_cor_context",
+                "excerpt": "Title: Emergency Management Exemplary Service Award Description: Records pertaining to the establishment of an Emergency Management Exemplary Service Award, as announced by Federal/Provincial/Territorial Ministers Responsible for Emergency Management in May 2012. Note: Program expected to begin accepting nominations in 2014. Document Types: Briefing notes, presentations, contact lists, nomination forms, procedures, recommendations, selection criteria, terms of reference. Record Number: PS EMRO 01"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-1475d9c703d2_en.md",
+                "line": 34,
+                "mention": "EMRO 01",
+                "method": "explicit_cor_context",
+                "excerpt": "Title: Nominations for the Emergency Management Exemplary Service Award Description: Personal information contained in this bank consists of name of nominee, their language preference (E/F) and optional information as follows: preferred salutation (Title, Mr., Mrs., Ms., etc.), home address, daytime telephone number, alternate telephone number, e-mail address, narrative assessments and summary of achievement for the Award. Class of Individuals: Canadian Emergency Management practitioners who are nominated for the Emergency Management Exemplary Services Award. Purpose: Public Safety and provinc"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "PS PPU 08"
+      ],
+      "pib_count": 1,
+      "cor_ids": [
+        "PS EMRO 01"
+      ],
+      "cor_count": 1,
+      "word_count_en": 1060,
+      "word_count_fr": 1428,
+      "word_count_language": "en",
+      "word_count": 1060
     },
     {
       "pia_id": "pia-41a13d655c2a",
@@ -822,7 +1295,11 @@
           "title": "Mentoring Program",
           "conversion": "markdownify",
           "text_sha256": "8a946c75ef8ddac633ae7621971e346605c1b152f156015860af34dd6072c077",
-          "word_count": 1693
+          "word_count": 1693,
+          "pib_ids": [],
+          "cor_ids": [
+            "PRN 927"
+          ]
         },
         "fr": {
           "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mntrng-prgrm-fr.aspx",
@@ -872,9 +1349,57 @@
           "title": "Programme de mentorat",
           "conversion": "markdownify",
           "text_sha256": "b07763105f29415634bab54fe68ca10534e1da52d8f0724132d65a6acb638181",
-          "word_count": 2110
+          "word_count": 2110,
+          "pib_ids": [],
+          "cor_ids": [
+            "PRN 927"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": [
+          {
+            "id": "PRN 927",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "927"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-41a13d655c2a_en.md",
+                "line": 25,
+                "mention": "PRN 927",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "Record Number: PRN 927"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-41a13d655c2a_fr.md",
+                "line": 25,
+                "mention": "NDP 927",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "Numéro du dossier : NDP 927"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [
+        "PRN 927"
+      ],
+      "cor_count": 1,
+      "word_count_en": 1693,
+      "word_count_fr": 2110,
+      "word_count_language": "en",
+      "word_count": 1693
     },
     {
       "pia_id": "pia-e1debcb4fdab",
@@ -937,7 +1462,13 @@
           "title": "Air India Ex-Gratia Payments",
           "conversion": "markdownify",
           "text_sha256": "de1d7ac27eed8b1ef5b9909d01ddfb3d2cf74f7fd6261c4359b41b49f78311a8",
-          "word_count": 888
+          "word_count": 888,
+          "pib_ids": [
+            "PS PPU 050"
+          ],
+          "cor_ids": [
+            "PS SPB 111"
+          ]
         },
         "fr": {
           "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ai-xgrt-pymnts-fr.aspx",
@@ -987,9 +1518,74 @@
           "title": "Paiements à titre gracieux d'Air India",
           "conversion": "markdownify",
           "text_sha256": "2e7eefc465578938602b299854853c0d118a0eb82a03a28685066f22bcc80963",
-          "word_count": 1189
+          "word_count": 1189,
+          "pib_ids": [
+            "PS PPU 050"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PS PPU 050",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-public-safety-and-emergency-preparedness",
+                "record_id": "PS PPU 050"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-e1debcb4fdab_en.md",
+                "line": 35,
+                "mention": "PS PPU 050",
+                "method": "explicit_pib_id",
+                "excerpt": "- Bank Number: PS PPU 050"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-e1debcb4fdab_fr.md",
+                "line": 32,
+                "mention": "PS PPU 050",
+                "method": "explicit_pib_id",
+                "excerpt": "- Numéro de fichier: PS PPU 050"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "PS SPB 111",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-e1debcb4fdab_en.md",
+                "line": 29,
+                "mention": "PS SPB 111",
+                "method": "explicit_cor_context",
+                "excerpt": "Class of Records Number: PS SPB 111"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "PS PPU 050"
+      ],
+      "pib_count": 1,
+      "cor_ids": [
+        "PS SPB 111"
+      ],
+      "cor_count": 1,
+      "word_count_en": 888,
+      "word_count_fr": 1189,
+      "word_count_language": "en",
+      "word_count": 888
     },
     {
       "pia_id": "pia-7ac2594c8c93",
@@ -1052,7 +1648,12 @@
           "title": "The Canadian Cyber Incident Response Center's (CCIRC) Collection of Digital Information",
           "conversion": "markdownify",
           "text_sha256": "267d1483c357db58da87e5a99511e89daa87274ba96e23858d090ca88410f66d",
-          "word_count": 1838
+          "word_count": 1838,
+          "pib_ids": [],
+          "cor_ids": [
+            "PS EMNS 050",
+            "PS EMNS 066"
+          ]
         },
         "fr": {
           "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-cbr-ncdnt-fr.aspx",
@@ -1102,9 +1703,56 @@
           "title": "La collecte des renseignements numérique par le Centre canadien de réponse aux incidents cybernétiques (CCRIC)",
           "conversion": "markdownify",
           "text_sha256": "5414f535b6f232770c630a9a38cefe3b89705c30f5d20e40ca328aa262692f9f",
-          "word_count": 2385
+          "word_count": 2385,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": [
+          {
+            "id": "PS EMNS 050",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-7ac2594c8c93_en.md",
+                "line": 41,
+                "mention": "PS EMNS 050",
+                "method": "explicit_cor_context",
+                "excerpt": "Record Number: PS EMNS 050"
+              }
+            ]
+          },
+          {
+            "id": "PS EMNS 066",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-7ac2594c8c93_en.md",
+                "line": 49,
+                "mention": "PS EMNS 066",
+                "method": "explicit_cor_context",
+                "excerpt": "Record Number: PS EMNS 066"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [
+        "PS EMNS 050",
+        "PS EMNS 066"
+      ],
+      "cor_count": 2,
+      "word_count_en": 1838,
+      "word_count_fr": 2385,
+      "word_count_language": "en",
+      "word_count": 1838
     },
     {
       "pia_id": "pia-2ffbbd0688f4",
@@ -1167,7 +1815,11 @@
           "title": "Government Operations Centre",
           "conversion": "markdownify",
           "text_sha256": "baf06f8b7e0fe1346486223005bc93e1dc7fe0a61f56a1e3ba712959dad7a263",
-          "word_count": 1808
+          "word_count": 1808,
+          "pib_ids": [],
+          "cor_ids": [
+            "PS EMNS 050"
+          ]
         },
         "fr": {
           "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnmnt-prtns-cntr-fr.aspx",
@@ -1217,9 +1869,41 @@
           "title": "Centre des opérations du gouvernement",
           "conversion": "markdownify",
           "text_sha256": "6f65033af11676125419796e5897fa822c0d60d7aa6c54a5320527da653a640c",
-          "word_count": 2416
+          "word_count": 2416,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": [
+          {
+            "id": "PS EMNS 050",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-2ffbbd0688f4_en.md",
+                "line": 39,
+                "mention": "PS EMNS 050",
+                "method": "explicit_cor_context",
+                "excerpt": "Record Number: PS EMNS 050"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [
+        "PS EMNS 050"
+      ],
+      "cor_count": 1,
+      "word_count_en": 1808,
+      "word_count_fr": 2416,
+      "word_count_language": "en",
+      "word_count": 1808
     },
     {
       "pia_id": "pia-b04e343ef6af",
@@ -1282,7 +1966,11 @@
           "title": "Prevalence of Sexual Coercion and Violence (SCV) in Federal Custody",
           "conversion": "markdownify",
           "text_sha256": "3f02e00f889ba78246e2c2aa0732d35953e051eb3da6765b872b058ac69a6905",
-          "word_count": 786
+          "word_count": 786,
+          "pib_ids": [
+            "PSU 938"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/scv-fdrl-cstd-fr.aspx",
@@ -1332,9 +2020,57 @@
           "title": "Prévalence de la coercition et de la violence sexuelles (CVS) en détention fédérale",
           "conversion": "markdownify",
           "text_sha256": "b3554c6f2a1f0b402b587cdad87f901e882504fcd581c7902c6232e2f968c01f",
-          "word_count": 979
+          "word_count": 979,
+          "pib_ids": [
+            "PSU 938"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSU 938",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 938"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-b04e343ef6af_en.md",
+                "line": 43,
+                "mention": "PSU 938",
+                "method": "explicit_pib_id",
+                "excerpt": "Outreach Activities (PSU 938)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-b04e343ef6af_fr.md",
+                "line": 43,
+                "mention": "POU 938",
+                "method": "explicit_pib_id",
+                "excerpt": "Activités de sensibilisation (POU 938)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "PSU 938"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 786,
+      "word_count_fr": 979,
+      "word_count_language": "en",
+      "word_count": 786
     },
     {
       "pia_id": "pia-b7597e895afa",
@@ -1397,7 +2133,17 @@
           "title": "Assault-Style Firearms Compensation Program - Businesses",
           "conversion": "markdownify",
           "text_sha256": "a62ce54db572b0408097f3f900cbfe74a143a6a919080a18bc6f68d0d7fccd22",
-          "word_count": 1549
+          "word_count": 1549,
+          "pib_ids": [
+            "ESDC PPU 729",
+            "PS PPU 051",
+            "PSU 942",
+            "RCMP PPU 037",
+            "RCMP PPU 100"
+          ],
+          "cor_ids": [
+            "ESDC CCS 007"
+          ]
         },
         "fr": {
           "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-p1-bus-fr.aspx",
@@ -1447,9 +2193,364 @@
           "title": "Programme d'indemnisation pour les armes à feu de style arme d’assaut - entreprises",
           "conversion": "markdownify",
           "text_sha256": "4e8f7c9b298c24b9e944e9b7454ad306da24e49d9d814c19908cd9c4e8389c78",
-          "word_count": 2000
+          "word_count": 2000,
+          "pib_ids": [
+            "ESDC PPU 729",
+            "PS PPU 051",
+            "PSU 942",
+            "RCMP PPU 037",
+            "RCMP PPU 100"
+          ],
+          "cor_ids": [
+            "ESDC CCS 007"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "ESDC PPU 729",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-employment-and-social-development",
+                "record_id": "ESDC PPU 729"
+              },
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-canada-employment-insurance-commission",
+                "record_id": "ESDC PPU 729"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-b7597e895afa_en.md",
+                "line": 74,
+                "mention": "ESDC PPU 729",
+                "method": "explicit_pib_id",
+                "excerpt": "Bank Number: ESDC PPU 729"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-b7597e895afa_en.md",
+                "line": 138,
+                "mention": "ESDC PPU 729",
+                "method": "explicit_pib_id",
+                "excerpt": "- ESDC PPU 729 (Call Centre Operations)"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-b7597e895afa_en.md",
+                "line": 176,
+                "mention": "ESDC PPU 729",
+                "method": "explicit_pib_id",
+                "excerpt": "- ESDC PPU 729 (Call Centre Operations)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-b7597e895afa_fr.md",
+                "line": 76,
+                "mention": "EDSC PPU 729",
+                "method": "explicit_pib_id",
+                "excerpt": "Numéro du fichier: EDSC PPU 729"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-b7597e895afa_fr.md",
+                "line": 140,
+                "mention": "EDSC PPU 729",
+                "method": "explicit_pib_id",
+                "excerpt": "- EDSC PPU 729 (Opérations des centres d'appels)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-b7597e895afa_fr.md",
+                "line": 178,
+                "mention": "EDSC PPU 729",
+                "method": "explicit_pib_id",
+                "excerpt": "- EDSC PPU 729 (Opérations des centres d'appels)"
+              }
+            ]
+          },
+          {
+            "id": "PS PPU 051",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-public-safety-and-emergency-preparedness",
+                "record_id": "PS PPU 051"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-b7597e895afa_en.md",
+                "line": 68,
+                "mention": "PS PPU 051",
+                "method": "explicit_pib_id",
+                "excerpt": "Bank Number: PS PPU 051"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-b7597e895afa_en.md",
+                "line": 136,
+                "mention": "PS PPU 051",
+                "method": "explicit_pib_id",
+                "excerpt": "- PS PPU 051 (Assault Style Firearm Compensation Program),"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-b7597e895afa_en.md",
+                "line": 174,
+                "mention": "PS PPU 051",
+                "method": "explicit_pib_id",
+                "excerpt": "- PS PPU 051 (Assault Style Firearm Compensation Program),"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-b7597e895afa_fr.md",
+                "line": 70,
+                "mention": "SP PPU 051",
+                "method": "explicit_pib_id",
+                "excerpt": "Numéro du fichier: SP PPU 051"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-b7597e895afa_fr.md",
+                "line": 138,
+                "mention": "SP PPU 051",
+                "method": "explicit_pib_id",
+                "excerpt": "- SP PPU 051 (Programme d'indemnisation pour les armes à feu de style arme d'assaut)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-b7597e895afa_fr.md",
+                "line": 176,
+                "mention": "SP PPU 051",
+                "method": "explicit_pib_id",
+                "excerpt": "- SP PPU 051 (Programme d'indemnisation pour les armes à feu de style arme d'assaut)"
+              }
+            ]
+          },
+          {
+            "id": "PSU 942",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 942"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-b7597e895afa_en.md",
+                "line": 137,
+                "mention": "PSU 942",
+                "method": "explicit_pib_id",
+                "excerpt": "- PSU 942 (Evaluation)"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-b7597e895afa_en.md",
+                "line": 175,
+                "mention": "PSU 942",
+                "method": "explicit_pib_id",
+                "excerpt": "- PSU 942 (Evaluation)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-b7597e895afa_fr.md",
+                "line": 139,
+                "mention": "POU 942",
+                "method": "explicit_pib_id",
+                "excerpt": "- POU 942 (Évaluation) et"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-b7597e895afa_fr.md",
+                "line": 177,
+                "mention": "POU 942",
+                "method": "explicit_pib_id",
+                "excerpt": "- POU 942 (Évaluation) et"
+              }
+            ]
+          },
+          {
+            "id": "RCMP PPU 037",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-royal-canadian-mounted-police",
+                "record_id": "RCMP PPU 037"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-b7597e895afa_en.md",
+                "line": 82,
+                "mention": "RCMP PPU 037",
+                "method": "explicit_pib_id",
+                "excerpt": "Bank Number: RCMP PPU 037"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-b7597e895afa_en.md",
+                "line": 134,
+                "mention": "RCMP PPU 037",
+                "method": "explicit_pib_id",
+                "excerpt": "- RCMP PPU 037 (Canadian Firearms Information System - CFIS)"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-b7597e895afa_en.md",
+                "line": 172,
+                "mention": "RCMP PPU 037",
+                "method": "explicit_pib_id",
+                "excerpt": "- RCMP PPU 037 (Canadian Firearms Information System - CFIS)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-b7597e895afa_fr.md",
+                "line": 84,
+                "mention": "GRC PPU 037",
+                "method": "explicit_pib_id",
+                "excerpt": "Numéro du fichier: GRC PPU 037"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-b7597e895afa_fr.md",
+                "line": 136,
+                "mention": "GRC PPU 037",
+                "method": "explicit_pib_id",
+                "excerpt": "- GRC PPU 037 (Système canadien d'information relativement aux armes à feu - SCIRAF)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-b7597e895afa_fr.md",
+                "line": 174,
+                "mention": "GRC PPU 037",
+                "method": "explicit_pib_id",
+                "excerpt": "- GRC PPU 037 (Système canadien d'information relativement aux armes à feu - SCIRAF)"
+              }
+            ]
+          },
+          {
+            "id": "RCMP PPU 100",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-royal-canadian-mounted-police",
+                "record_id": "RCMP PPU 100"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-b7597e895afa_en.md",
+                "line": 88,
+                "mention": "RCMP PPU 100",
+                "method": "explicit_pib_id",
+                "excerpt": "Bank Number: RCMP PPU 100"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-b7597e895afa_en.md",
+                "line": 135,
+                "mention": "RCMP PPU 100",
+                "method": "explicit_pib_id",
+                "excerpt": "- RCMP PPU 100 (Canadian Firearms Program)"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-b7597e895afa_en.md",
+                "line": 173,
+                "mention": "RCMP PPU 100",
+                "method": "explicit_pib_id",
+                "excerpt": "- RCMP PPU 100 (Canadian Firearms Program)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-b7597e895afa_fr.md",
+                "line": 90,
+                "mention": "GRC PPU 100",
+                "method": "explicit_pib_id",
+                "excerpt": "Numéro du fichier: GRC PPU 100"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-b7597e895afa_fr.md",
+                "line": 137,
+                "mention": "GRC PPU 100",
+                "method": "explicit_pib_id",
+                "excerpt": "- GRC PPU 100 (Programme canadien des armes à feu)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-b7597e895afa_fr.md",
+                "line": 175,
+                "mention": "GRC PPU 100",
+                "method": "explicit_pib_id",
+                "excerpt": "- GRC PPU 100 (Programme canadien des armes à feu)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "ESDC CCS 007",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-employment-and-social-development",
+                "record_id": "ESDC CCS 007"
+              },
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-canada-employment-insurance-commission",
+                "record_id": "ESDC CCS 007"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-b7597e895afa_en.md",
+                "line": 58,
+                "mention": "ESDC CCS 007",
+                "method": "known_cor_id",
+                "excerpt": "Record number: ESDC CCS 007"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-b7597e895afa_fr.md",
+                "line": 60,
+                "mention": "EDSC SAC 007",
+                "method": "known_cor_id",
+                "excerpt": "Numéro de dossier: EDSC SAC 007"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "ESDC PPU 729",
+        "PS PPU 051",
+        "PSU 942",
+        "RCMP PPU 037",
+        "RCMP PPU 100"
+      ],
+      "pib_count": 5,
+      "cor_ids": [
+        "ESDC CCS 007"
+      ],
+      "cor_count": 1,
+      "word_count_en": 1549,
+      "word_count_fr": 2000,
+      "word_count_language": "en",
+      "word_count": 1549
     },
     {
       "pia_id": "pia-a27bc6428214",
@@ -1512,7 +2613,17 @@
           "title": "Assault-Style Firearms Compensation Program – Individuals",
           "conversion": "markdownify",
           "text_sha256": "47f33899b3c300d750032e3789bb6d3028ae5a4beaac2effe0b3c4c783f8df9e",
-          "word_count": 1189
+          "word_count": 1189,
+          "pib_ids": [
+            "ESDC PPU 702",
+            "ESDC PPU 729",
+            "PS PPU 051",
+            "PSU 942",
+            "RCMP PPU 007",
+            "RCMP PPU 037",
+            "RCMP PPU 100"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-ndvdls-fr.aspx",
@@ -1562,9 +2673,439 @@
           "title": "Programme d'indemnisation pour les armes à feu de style arme d'assaut – particuliers",
           "conversion": "markdownify",
           "text_sha256": "0ef420d21410342b78a1494b0d188bfe3dd49fe1239d4209c5cd15b4df40c087",
-          "word_count": 1553
+          "word_count": 1553,
+          "pib_ids": [
+            "ESDC PPU 702",
+            "ESDC PPU 729",
+            "PS PPU 051",
+            "PSU 942",
+            "RCMP PPU 007",
+            "RCMP PPU 037",
+            "RCMP PPU 100"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "ESDC PPU 702",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-employment-and-social-development",
+                "record_id": "ESDC PPU 702"
+              },
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-canada-employment-insurance-commission",
+                "record_id": "ESDC PPU 702"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_en.md",
+                "line": 55,
+                "mention": "ESDC PPU 702",
+                "method": "explicit_pib_id",
+                "excerpt": "- ESDC PPU 702 - Processing and Payment Services: This bank describes information collected and used to support payment processing to eligible individuals who participate in Phase 2 of the ASFCP."
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_en.md",
+                "line": 106,
+                "mention": "ESDC PPU 702",
+                "method": "explicit_pib_id",
+                "excerpt": "- ESDC PPU 702 (Processing and Payment Services)"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_en.md",
+                "line": 145,
+                "mention": "ESDC PPU 702",
+                "method": "explicit_pib_id",
+                "excerpt": "- ESDC PPU 702 (Processing and Payment Services)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_fr.md",
+                "line": 55,
+                "mention": "EDSC PPU 702",
+                "method": "explicit_pib_id",
+                "excerpt": "- EDSC PPU 702 – Services de traitement et de paiement : Ce fichier décrit les renseignements collectés et utilisés pour faciliter le traitement des paiements aux personnes éligibles qui participent à la phase 2 du PIAFSAA"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_fr.md",
+                "line": 106,
+                "mention": "EDSC PPU 702",
+                "method": "explicit_pib_id",
+                "excerpt": "- EDSC PPU 702 (Services de traitement et de paiement"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_fr.md",
+                "line": 145,
+                "mention": "EDSC PPU 702",
+                "method": "explicit_pib_id",
+                "excerpt": "- EDSC PPU 702 (Services de traitement et de paiement"
+              }
+            ]
+          },
+          {
+            "id": "ESDC PPU 729",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-employment-and-social-development",
+                "record_id": "ESDC PPU 729"
+              },
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-canada-employment-insurance-commission",
+                "record_id": "ESDC PPU 729"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_en.md",
+                "line": 54,
+                "mention": "ESDC PPU 729",
+                "method": "explicit_pib_id",
+                "excerpt": "- ESDC PPU 729 – Call Centre Operations: This bank describes information collected and used to support clients and reply to general enquiries. The information collected is limited to contact and name information in most cases, unless enquiries are of a threatening nature or require escalation. Personal information is stored on ESDC/Service Canada's customer support delivery tool. No personal information will be phone-recorded."
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_en.md",
+                "line": 105,
+                "mention": "ESDC PPU 729",
+                "method": "explicit_pib_id",
+                "excerpt": "- ESDC PPU 729 (Call Centre Operations)"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_en.md",
+                "line": 144,
+                "mention": "ESDC PPU 729",
+                "method": "explicit_pib_id",
+                "excerpt": "- ESDC PPU 729 (Call Centre Operations)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_fr.md",
+                "line": 54,
+                "mention": "EDSC PPU 729",
+                "method": "explicit_pib_id",
+                "excerpt": "- EDSC PPU 729 – Opérations des centres d'appels : Ce fichier décrit les renseignements recueillis et utilisés pour aider les clients et répondre aux demandes de renseignements généraux. Dans la plupart des cas, les renseignements recueillis se limitent aux coordonnées et au nom, sauf si les demandes de renseignements sont de nature menaçante ou nécessitent une escalade. Les renseignements personnels sont stockés dans l'outil de prestation du service à la clientèle d'EDSC/Service Canada. Aucun renseignement personnel ne sera enregistré par téléphone."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_fr.md",
+                "line": 105,
+                "mention": "EDSC PPU 729",
+                "method": "explicit_pib_id",
+                "excerpt": "- EDSC PPU 729 (Opérations des centres d'appels)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_fr.md",
+                "line": 144,
+                "mention": "EDSC PPU 729",
+                "method": "explicit_pib_id",
+                "excerpt": "- EDSC PPU 729 (Opérations des centres d'appels)"
+              }
+            ]
+          },
+          {
+            "id": "PS PPU 051",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-public-safety-and-emergency-preparedness",
+                "record_id": "PS PPU 051"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_en.md",
+                "line": 51,
+                "mention": "PS PPU 051",
+                "method": "explicit_pib_id",
+                "excerpt": "- PS PPU 051 – Assault Style Firearm Compensation Program: This bank describes information related to the administration of the ASFCP and supports the activities within the program."
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_en.md",
+                "line": 104,
+                "mention": "PS PPU 051",
+                "method": "explicit_pib_id",
+                "excerpt": "- PS PPU 051 (Assault Style Firearm Compensation Program)"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_en.md",
+                "line": 143,
+                "mention": "PS PPU 051",
+                "method": "explicit_pib_id",
+                "excerpt": "- PS PPU 051 (Assault Style Firearm Compensation Program)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_fr.md",
+                "line": 51,
+                "mention": "SP PPU 051",
+                "method": "explicit_pib_id",
+                "excerpt": "- SP PPU 051 – Programme d'indemnisation pour les armes à feu de style arme d'assaut : Ce fichier décrit la collecte de renseignements personnels liés à l'administration du PIAFSAA."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_fr.md",
+                "line": 104,
+                "mention": "SP PPU 051",
+                "method": "explicit_pib_id",
+                "excerpt": "- SP PPU 051 (Programme d'indemnisation pour les armes à feu de style arme d'assaut)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_fr.md",
+                "line": 143,
+                "mention": "SP PPU 051",
+                "method": "explicit_pib_id",
+                "excerpt": "- SP PPU 051 (Programme d'indemnisation pour les armes à feu de style arme d'assaut)"
+              }
+            ]
+          },
+          {
+            "id": "PSU 942",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 942"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_en.md",
+                "line": 56,
+                "mention": "PSU 942",
+                "method": "explicit_pib_id",
+                "excerpt": "- PSU 942 - Evaluation: Personal information is used in data collection and analysis when undertaking evaluations."
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_en.md",
+                "line": 107,
+                "mention": "PSU 942",
+                "method": "explicit_pib_id",
+                "excerpt": "- PSU 942 (Evaluation)"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_en.md",
+                "line": 146,
+                "mention": "PSU 942",
+                "method": "explicit_pib_id",
+                "excerpt": "- PSU 942 (Evaluation)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_fr.md",
+                "line": 56,
+                "mention": "POU 942",
+                "method": "explicit_pib_id",
+                "excerpt": "- POU 942 - Évaluation : Personal information is used in data collection and analysis when undertaking evaluations."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_fr.md",
+                "line": 107,
+                "mention": "POU 942",
+                "method": "explicit_pib_id",
+                "excerpt": "- POU 942 (Évaluation)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_fr.md",
+                "line": 146,
+                "mention": "POU 942",
+                "method": "explicit_pib_id",
+                "excerpt": "- POU 942 (Évaluation)"
+              }
+            ]
+          },
+          {
+            "id": "RCMP PPU 007",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-royal-canadian-mounted-police",
+                "record_id": "RCMP PPU 007"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_en.md",
+                "line": 60,
+                "mention": "RCMP PPU 007",
+                "method": "explicit_pib_id",
+                "excerpt": "- RCMP PPU 007 - Inquiries by Firearms Owners, Licence Applicants and the general Public: This bank describes information used in the preparation of responses to registration and licence applicants about the interpretation of a section, subsection, etc., of the Firearms Act."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_fr.md",
+                "line": 60,
+                "mention": "GRC PPU 007",
+                "method": "explicit_pib_id",
+                "excerpt": "- GRC PPU 007 – Demandes de renseignements faites par des propriétaires d'armes à feu, des demandeurs de permis et le grand public : Ce fichier contient des renseignements utilisés pour répondre aux questions des personnes ayant établi une demande d'enregistrement et de permis sur l'interprétation d'un article, d'un paragraphe, etc. de la Loi sur les armes à feu."
+              }
+            ]
+          },
+          {
+            "id": "RCMP PPU 037",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-royal-canadian-mounted-police",
+                "record_id": "RCMP PPU 037"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_en.md",
+                "line": 52,
+                "mention": "RCMP PPU 037",
+                "method": "explicit_pib_id",
+                "excerpt": "- RCMP PPU 037 - Canadian Firearms Information System: This bank describes the collection of personal information held in the CFIS."
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_en.md",
+                "line": 102,
+                "mention": "RCMP PPU 037",
+                "method": "explicit_pib_id",
+                "excerpt": "- RCMP PPU 037 (Canadian Firearms Information System - CFIS)"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_en.md",
+                "line": 141,
+                "mention": "RCMP PPU 037",
+                "method": "explicit_pib_id",
+                "excerpt": "- RCMP PPU 037 (Canadian Firearms Information System - CFIS)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_fr.md",
+                "line": 52,
+                "mention": "GRC PPU 037",
+                "method": "explicit_pib_id",
+                "excerpt": "- GRC PPU 037 – Système canadien d'information relativement aux armes à feu (SCIRAF) : Ce fichier décrit la collecte de renseignements personnels dans le SCIRAF."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_fr.md",
+                "line": 102,
+                "mention": "GRC PPU 037",
+                "method": "explicit_pib_id",
+                "excerpt": "- GRC PPU 037 (Système canadien d'information relativement aux armes à feu - SCIRAF)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_fr.md",
+                "line": 141,
+                "mention": "GRC PPU 037",
+                "method": "explicit_pib_id",
+                "excerpt": "- GRC PPU 037 (Système canadien d'information relativement aux armes à feu - SCIRAF)"
+              }
+            ]
+          },
+          {
+            "id": "RCMP PPU 100",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-royal-canadian-mounted-police",
+                "record_id": "RCMP PPU 100"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_en.md",
+                "line": 53,
+                "mention": "RCMP PPU 100",
+                "method": "explicit_pib_id",
+                "excerpt": "- RCMP PPU 100 - Canadian Firearms Program: This bank describes the collection of personal information related to the activities under the CFP, mainly via collection instruments (applications) for firearm licensing of businesses, for registration of restricted and prohibited firearms, etc."
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_en.md",
+                "line": 103,
+                "mention": "RCMP PPU 100",
+                "method": "explicit_pib_id",
+                "excerpt": "- RCMP PPU 100 (Canadian Firearms Program)"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_en.md",
+                "line": 142,
+                "mention": "RCMP PPU 100",
+                "method": "explicit_pib_id",
+                "excerpt": "- RCMP PPU 100 (Canadian Firearms Program)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_fr.md",
+                "line": 53,
+                "mention": "GRC PPU 100",
+                "method": "explicit_pib_id",
+                "excerpt": "- GRC PPU 100 – Programme canadien des armes à feu : Ce fichier décrit la collecte de renseignements personnels liés aux activités menées dans le cadre du PCAF, principalement par le biais d'instruments de collecte (demandes) pour l'octroi de licences d'armes à feu aux entreprises, pour l'enregistrement d'armes à feu à autorisation restreinte et d'armes à feu prohibées, etc."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_fr.md",
+                "line": 103,
+                "mention": "GRC PPU 100",
+                "method": "explicit_pib_id",
+                "excerpt": "- GRC PPU 100 (Programme canadien des armes à feu)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a27bc6428214_fr.md",
+                "line": 142,
+                "mention": "GRC PPU 100",
+                "method": "explicit_pib_id",
+                "excerpt": "- GRC PPU 100 (Programme canadien des armes à feu)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "ESDC PPU 702",
+        "ESDC PPU 729",
+        "PS PPU 051",
+        "PSU 942",
+        "RCMP PPU 007",
+        "RCMP PPU 037",
+        "RCMP PPU 100"
+      ],
+      "pib_count": 7,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1189,
+      "word_count_fr": 1553,
+      "word_count_language": "en",
+      "word_count": 1189
     },
     {
       "pia_id": "pia-a02356c7ba80",
@@ -1627,7 +3168,11 @@
           "title": "Office of the Foreign Influence Commissioner of Canada (OFICC)",
           "conversion": "markdownify",
           "text_sha256": "9d552312e08a4104333cbd21de6681f234835206b2e6b0f2626ad8e05ce772f6",
-          "word_count": 464
+          "word_count": 464,
+          "pib_ids": [
+            "PS PPU 053"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/frgn-nflnc-cmmsnr-fr.aspx",
@@ -1677,9 +3222,51 @@
           "title": "Commissariat à l’influence étrangère du Canada (CIEC)",
           "conversion": "markdownify",
           "text_sha256": "003d411b5058aa1de56731b0d59d1e3535ce801dc89b9eefe9a3881f12473fce",
-          "word_count": 607
+          "word_count": 607,
+          "pib_ids": [
+            "PS PPU 053"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PS PPU 053",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a02356c7ba80_en.md",
+                "line": 42,
+                "mention": "PS PPU 053",
+                "method": "explicit_pib_id",
+                "excerpt": "PS PPU 053 (Pending TBS Approval) - Office of the Foreign Influence Commissioner of Canada (OFICC): This bank describes information that’s collected for the administration of the Foreign Influence Transparency and Accountability Act by OFICC."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-public-safety-and-emergency-preparedness/pia-a02356c7ba80_fr.md",
+                "line": 40,
+                "mention": "SP PPU 053",
+                "method": "explicit_pib_id",
+                "excerpt": "SP PPU 053 (En attente de l'approbation du SCT) – Commissariat à l’influence étrangère du Canada (CIEC) : Ce fichier décrit les renseignements que le CIEC recueille pour l’application de la Loi sur la transparence et la responsabilité en matière d’influence étrangère."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "PS PPU 053"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 464,
+      "word_count_fr": 607,
+      "word_count_language": "en",
+      "word_count": 464
     }
   ],
   "summary": {

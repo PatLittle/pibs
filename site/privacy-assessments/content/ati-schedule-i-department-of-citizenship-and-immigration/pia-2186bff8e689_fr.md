@@ -1,0 +1,27 @@
+---
+title: "Sommaire de l’évaluation des facteurs relatifs à la vie privée : Collecte des renseignements biométriques des personnes qui présentent une demande de réinstallation depuis l’étranger"
+institution_id: "ati-schedule-i-department-of-citizenship-and-immigration"
+language: "fr"
+source_url: "https://www.canada.ca/fr/immigration-refugies-citoyennete/organisation/transparence/acces-information-protection/evaluation-facteurs-relatifs-vie-privee/renseignements-biometriques-personnes-presentent-demande-reinstallation-etranger.html"
+retrieved_at_utc: "2026-11-12T05:49:16.389090+00:00"
+http_status: 200
+source_sha256: "92f45a9ff737d6f76123b01db722cd51fae8ccfdf9369a1bb8021316643a46ed"
+content_kind: "page"
+---
+
+# Sommaire de l’évaluation des facteurs relatifs à la vie privée : Collecte des renseignements biométriques des personnes qui présentent une demande de réinstallation depuis l’étranger
+
+Le présent rapport constitue un addenda à l’évaluation des facteurs relatifs à la vie privée (ÉFVP) pour le Projet de biométrie pour les résidents temporaires (PBRT), un projet conjoint entre Immigration, Réfugiés et Citoyenneté Canada (IRCC), l’Agence des services frontaliers du Canada (ASFC) et la Gendarmerie royale du Canada (GRC). Les objectifs du rapport sont les suivants : déterminer les principaux aspects pour lesquels la collecte de renseignements biométriques des personnes qui présentent une demande de réinstallation depuis l’étranger diffère de celle effectuée auprès des résidents temporaires afin d’établir s’il existe des risques d’atteinte à la vie privée relativement à ces aspects, et formuler des recommandations sur les mesures visant à atténuer ou à éliminer les risques cernés.
+
+Dans le cadre de ce projet, la collecte des renseignements biométriques auprès des personnes qui présentent une demande de réinstallation depuis l’étranger a commencé en novembre 2014 et implique la communication de données biométriques à la GRC afin qu’elles soient comparées à celles se trouvant dans les bases de données d’empreintes digitales de l’immigration et  d’anciens criminels du Canada. Les résultats de la vérification sont transmis au Système mondial de gestion des cas d’IRCC et appuient le processus de prise de décision à l’égard des demandes de réinstallation de réfugiés présentées depuis l’étranger.
+
+La collecte de renseignements biométriques auprès des personnes qui présentent une demande de réinstallation depuis l’étranger diffère de celle effectuée auprès des résidents temporaires de quatre manières :
+
+- Les renseignements biométriques des personnes qui présentent une demande de réinstallation depuis l’étranger ne sont pas recueillis dans les centres de réception des demandes de visa, mais plutôt par des agents d’IRCC ou des employés recrutés sur place d’un bureau d’IRCC à l’étranger, ou dans un camp de réfugiés, à l’aide de dispositifs de collecte mobiles.
+- La période de conservation des renseignements biométriques recueillis auprès des personnes qui présentent une demande de réinstallation depuis l’étranger est plus longue que celle visant les demandeurs de résidence temporaire. Les renseignements biométriques des personnes qui présentent une demande de réinstallation depuis l’étranger seront conservées jusqu’à ce que ceux-ci obtiennent la citoyenneté canadienne ou qu’ils atteignent l’âge de 100 ans.
+- Les pouvoirs régissant la collecte de renseignements biométriques auprès des personnes qui présentent une demande de réinstallation depuis l’étranger diffèrent de ceux régissant la collecte effectuée auprès des résidents temporaires.
+- Dans le futur, la collecte de renseignements biométriques pourraient avoir lieu à un port d’entrée, notamment dans les cas où il est impossible, à l’étranger, de recueillir les renseignements biométriques auprès des personnes qui présentent une demande de réinstallation depuis l’étranger, ou lorsqu’on le juge nécessaire.
+
+L’objectif de la collecte des renseignements biométriques est d’améliorer la qualité des informations fournies aux agents d’IRCC et de l’ASFC pour leur permettre de prendre des décisions plus éclairées relativement à l’admissibilité des demandeurs. Lorsque les renseignements biometriques sont recueillis, l’identité biométrique d’une personne qui présente une demande de réinstallation depuis l’étranger sera établie au moment où elle présente sa demande, authentifiée par des vérifications dans les bases de données sur l’immigration et d’anciens criminels du Canada, puis vérifiée par des agents des services frontaliers de l’ASFC lorsqu’elle se présentera à un port d’entrée. Ainsi, grâce à cette mesure, le gouvernement sera plus à même de garantir la sécurité des Canadiens et d’empêcher que quiconque utilise à mauvais escient le système d’immigration, tout en facilitant l’admission des personnes qui ont besoin de protection.
+
+Ce rapport a identifié des risques d’atteinte à la vie privée et leurs mécanismes d’atténuation respectifs. Il convient de noter qu’aucun risque de haut niveau n’a été identifié en ce qui a trait au respect de la vie privée et à la sécurité des renseignements personnels. Des mesures pour atténuer les risques liés à la sécurité informatique, et pour aviser les personnes que leurs renseignements biométriques seront recueillis ont déjà été mises en œuvre. Les mesures d’atténuation des risques liés à la mise à jour des fichiers de renseignements personnels et la documentation des rôles et des responsabilités d’IRCC, de l’ASFC et de la GRC devraient être appliquées sous peu.

@@ -21,3 +21,10 @@ test('availability labels reflect actual exports',()=>{
  assert.equal(readableLabel(records[1]),'No readable copy');
  assert.equal(readableLabel(records[2]),'Français only');
 });
+test('PIB and CoR IDs are searchable and reference filters compose',()=>{
+ const referenced=[{...records[0],pib_ids:['ABC PPU 001'],pib_count:1,cor_ids:['ABC DOC 100'],cor_count:1}, {...records[1],pib_ids:[],pib_count:0,cor_ids:[],cor_count:0}];
+ assert.equal(filterRecords(referenced,{q:'abc ppu 001'}).length,1);
+ assert.equal(filterRecords(referenced,{q:'ABC DOC 100',references:'cors'}).length,1);
+ assert.equal(filterRecords(referenced,{references:'pibs',availability:'none'}).length,0);
+ assert.deepEqual(sortRecords([{id:'a',pib_count:2},{id:'b',pib_count:10}], 'pib_count').map(r=>r.id),['a','b']);
+});

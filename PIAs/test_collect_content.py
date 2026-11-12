@@ -78,3 +78,20 @@ class CollectTests(unittest.TestCase):
 
 
 if __name__ == '__main__': unittest.main()
+
+class ReviewedListLayoutTests(unittest.TestCase):
+    def test_summary_section_preferred_and_program_titles_not_filtered_as_navigation(self):
+        html = '''<main><h1>Privacy assessments</h1><h2>Privacy impact assessment</h2><p>General explanation.</p>
+        <h2>Privacy assessment summaries</h2><ul>
+        <li><a href="/assessments/contact">Contact Centre Program</a></li>
+        <li><a href="/assessments/passport">Passport Guarantor Policy and Directive on Loss of Citizenship</a></li>
+        <li><a href="/directive">Directive on PIAs</a></li></ul></main>'''
+        records,_=c.discover(*response('https://example.canada.ca/list',html),'en')
+        self.assertEqual([r['url'] for r in records],['https://example.canada.ca/assessments/contact','https://example.canada.ca/assessments/passport'])
+
+    def test_french_cra_summary_heading(self):
+        html='''<main><h1>Sommaires d’évaluations des facteurs relatifs à la vie privée</h1><h2>Évaluation des facteurs relatifs à la vie privée</h2><p>Introduction.</p>
+        <h2>Sommaires d’évaluations de la protection de la vie privée</h2><ul><li><a href="/evaluation/prestations">Prestations</a></li></ul></main>'''
+        records,_=c.discover(*response('https://example.canada.ca/liste',html),'fr')
+        self.assertEqual(len(records),1)
+        self.assertEqual(records[0]['title'],'Prestations')

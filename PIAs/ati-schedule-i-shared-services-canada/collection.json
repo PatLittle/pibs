@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "collector_version": 1,
-  "collected_at_utc": "2026-11-12T01:50:43.834460+00:00",
+  "collector_version": 2,
+  "collected_at_utc": "2026-11-12T05:50:15.964724+00:00",
   "institution_id": "ati-schedule-i-shared-services-canada",
   "gc_orgID": "2292.0",
   "open_canada_org_id": "a793f17d-6bcd-47dd-97fe-f00835fb4a0d",
@@ -9,7 +9,7 @@
   "name_en": "Shared Services Canada",
   "name_fr": "Services partagés Canada",
   "registry_membership": "current_registry",
-  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
   "list_pages": {
     "en": {
       "indexed_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
@@ -45,7 +45,7 @@
           "raw_path": "raw/00e51fd532a46a743be3.html"
         }
       ],
-      "discovered_count": 15,
+      "discovered_count": 17,
       "scopes": [
         "Privacy Impact Assessment summaries"
       ],
@@ -74,7 +74,7 @@
           "raw_path": "raw/dda6067916d46845a1fb.html"
         }
       ],
-      "discovered_count": 15,
+      "discovered_count": 17,
       "scopes": [
         "Résumés d'évaluations des facteurs relatifs à la vie privée"
       ],
@@ -144,7 +144,11 @@
           "title": "Privacy Impact Assessment for the Conflict of Interest and Declaration System",
           "conversion": "markdownify",
           "text_sha256": "ddff274ac7cfd49138988b83bd1befb543aa02e2a338034d12d3a8d79b043843",
-          "word_count": 591
+          "word_count": 591,
+          "pib_ids": [
+            "PSE 915"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-evaluation-facteurs-sdci.html",
@@ -195,9 +199,65 @@
           "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée du Système de divulgation des conflits d’intérêts",
           "conversion": "markdownify",
           "text_sha256": "5b2d56b82c5e65c6914e6089bea97d859ce69cfa2fb5c9a6e00516f096e64e99",
-          "word_count": 770
+          "word_count": 770,
+          "pib_ids": [
+            "PSE 915"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSE 915",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 915"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-shared-services-canada/pia-52bb442e087a_en.md",
+                "line": 30,
+                "mention": "PSE 915",
+                "method": "explicit_pib_id",
+                "excerpt": "To enhance the protection of personal information, a design decision was made to include the Date of Birth (DOB) in the verification process as a way to reduce the possibility of a security or privacy breach. With respect to the Personal Information Bank (PIB) at issue, Treasury Board Secretariat has confirmed that no changes are required to the Standard Personal Information Bank PSE 915 “Values and Ethics Codes for the Public Sector and Organizational code(s) of Conduct”, because PSE 915 includes a reference to “biographical information”."
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-shared-services-canada/pia-52bb442e087a_en.md",
+                "line": 30,
+                "mention": "PSE 915",
+                "method": "explicit_pib_id",
+                "excerpt": "To enhance the protection of personal information, a design decision was made to include the Date of Birth (DOB) in the verification process as a way to reduce the possibility of a security or privacy breach. With respect to the Personal Information Bank (PIB) at issue, Treasury Board Secretariat has confirmed that no changes are required to the Standard Personal Information Bank PSE 915 “Values and Ethics Codes for the Public Sector and Organizational code(s) of Conduct”, because PSE 915 includes a reference to “biographical information”."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-shared-services-canada/pia-52bb442e087a_fr.md",
+                "line": 30,
+                "mention": "POE 915",
+                "method": "explicit_pib_id",
+                "excerpt": "Afin d’améliorer la protection des renseignements personnels, une décision en matière de conception a été prise, à savoir d’inclure la date de naissance dans le processus de vérification à titre de façon de réduire la possibilité d’atteinte à la vie privée ou à la sécurité. Pour ce qui est du fichier de renseignements personnels (FRP) en question, le Secrétariat du Conseil du Trésor a confirmé que le fichier de renseignements personnels ordinaire (FRPO) POE 915 « Code de valeurs et d’éthique du secteur public et Code(s) de conduite organisationnel(s) » ne nécessite aucun changement, car il ren"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "PSE 915"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 591,
+      "word_count_fr": 770,
+      "word_count_language": "en",
+      "word_count": 591
     },
     {
       "pia_id": "pia-8fe884ae6b0e",
@@ -261,7 +321,12 @@
           "title": "Departmental security – ID card section",
           "conversion": "markdownify",
           "text_sha256": "73960349db134be60f3e7f50d4b402faca26a65b433c8f5308240d169a805ca0",
-          "word_count": 384
+          "word_count": 384,
+          "pib_ids": [
+            "PSU 907",
+            "PSU 917"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/securite-ministerielle-section-sur-les-cartes-identite.html",
@@ -312,9 +377,87 @@
           "title": "Sécurité ministérielle – section sur les cartes d’identité",
           "conversion": "markdownify",
           "text_sha256": "f6c37043f7c281c992c028ff685e1faee000e653b5cfd7cf238a4ab0902796f4",
-          "word_count": 530
+          "word_count": 530,
+          "pib_ids": [
+            "PSU 907",
+            "PSU 917"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSU 907",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 907"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-shared-services-canada/pia-8fe884ae6b0e_en.md",
+                "line": 38,
+                "mention": "PSU 907",
+                "method": "explicit_pib_id",
+                "excerpt": "- Physical Access Controls personal information bank (PSU 907)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-shared-services-canada/pia-8fe884ae6b0e_fr.md",
+                "line": 38,
+                "mention": "POU 907",
+                "method": "explicit_pib_id",
+                "excerpt": "- Fichier de renseignements personnels sur les contrôles d’accès physique (POU 907)"
+              }
+            ]
+          },
+          {
+            "id": "PSU 917",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 917"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-shared-services-canada/pia-8fe884ae6b0e_en.md",
+                "line": 39,
+                "mention": "PSU 917",
+                "method": "explicit_pib_id",
+                "excerpt": "- Personnel Security Screening personal information bank (PSU 917)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-shared-services-canada/pia-8fe884ae6b0e_fr.md",
+                "line": 39,
+                "mention": "POU 917",
+                "method": "explicit_pib_id",
+                "excerpt": "- Fichier de renseignements personnels sur le filtrage de sécurité du personnel (POU 917)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "PSU 907",
+        "PSU 917"
+      ],
+      "pib_count": 2,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 384,
+      "word_count_fr": 530,
+      "word_count_language": "en",
+      "word_count": 384
     },
     {
       "pia_id": "pia-428c53657eaa",
@@ -378,7 +521,9 @@
           "title": "Privacy Impact Assessment Summary of the Digital Communications and Collaboration (DCC) Service",
           "conversion": "markdownify",
           "text_sha256": "3b04301888f76c5042dded6b32fde98d3709350a331546f1bdb7a513a9f6df64",
-          "word_count": 395
+          "word_count": 395,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-service-cnn.html",
@@ -429,9 +574,24 @@
           "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée (EFVP) du service de communication et de collaboration numériques (CNN)",
           "conversion": "markdownify",
           "text_sha256": "6567fccfc803414270ff57634348925cc6663fe63633bfb23b4959a2b69e3bcf",
-          "word_count": 574
+          "word_count": 574,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 395,
+      "word_count_fr": 574,
+      "word_count_language": "en",
+      "word_count": 395
     },
     {
       "pia_id": "pia-72d7ea38910e",
@@ -495,7 +655,9 @@
           "title": "Privacy Impact Assessment Summary for the Electronic Procurement and Payment System (EPP)",
           "conversion": "markdownify",
           "text_sha256": "30a10e53f818d08365c983e117790594e42e121bc12c94ef34f8dc5e8c4d1375",
-          "word_count": 510
+          "word_count": 510,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-evaluation-facteurs-relatifs-systeme-apl.html",
@@ -546,9 +708,228 @@
           "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée du Système d’approvisionnement et de paiement en ligne (APL)",
           "conversion": "markdownify",
           "text_sha256": "55991c0c67fc833b2c74cde7531b5e8b757d540625c90196167839bf14e07493",
-          "word_count": 645
+          "word_count": 645,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 510,
+      "word_count_fr": 645,
+      "word_count_language": "en",
+      "word_count": 510
+    },
+    {
+      "pia_id": "pia-7e04e7d8fdae",
+      "title_en": "Enterprise Contact Centre Service - Rogers (ECCS-R)",
+      "title_fr": "Services des centres de contact d’entreprise - Rogers (SCCE-R)",
+      "url_en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/enterprise-contact-centre-service-rogers.html",
+      "url_fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/services-centres-contact-d-entreprise-rogers.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/enterprise-contact-centre-service-rogers.html",
+        "alternate_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/services-centres-contact-d-entreprise-rogers.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/enterprise-contact-centre-service-rogers.html",
+          "title_from_list": "Enterprise Contact Centre Service - Rogers (ECCS-R)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/enterprise-contact-centre-service-rogers.html",
+              "title": "Enterprise Contact Centre Service - Rogers (ECCS-R)",
+              "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/enterprise-contact-centre-service-rogers.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/enterprise-contact-centre-service-rogers.html",
+            "final_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/enterprise-contact-centre-service-rogers.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T05:49:08.353841+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 05:49:08 GMT",
+            "etag": null,
+            "byte_count": 20614,
+            "sha256": "47c8077c85f7d5de3d87669105f0e5d1c6cc95f2a8151675a45792e01f4ad900"
+          },
+          "raw_path": "raw/7e04e7d8fdae14f87ff1.html",
+          "markdown_path": "pia-7e04e7d8fdae_en.md",
+          "markdown_sha256": "48ee55d571a20118e221e58d6d0872a5feab72e78921f3fada10b471f8c4611e",
+          "status": "exported",
+          "page_title": "Enterprise Contact Centre Service - Rogers (ECCS-R)",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/enterprise-contact-centre-service-rogers.html",
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/services-centres-contact-d-entreprise-rogers.html"
+          },
+          "date_modified": "2025-11-27",
+          "date_published": "2025-08-07",
+          "has_pia_text": true,
+          "title": "Enterprise Contact Centre Service - Rogers (ECCS-R)",
+          "conversion": "markdownify",
+          "text_sha256": "f3f4a1db8771c5b2c04e71004db34a724e38a49e4dda69381fa2a7fc2d3984c7",
+          "word_count": 209,
+          "pib_ids": [
+            "SSC PCU 050"
+          ],
+          "cor_ids": [
+            "SSC TS 403"
+          ]
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/services-centres-contact-d-entreprise-rogers.html",
+          "title_from_list": "Services des centres de contact d’entreprise - Rogers (SCCE-R)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+          "discovered_under": "Résumés d'évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/services-centres-contact-d-entreprise-rogers.html",
+              "title": "Services des centres de contact d’entreprise - Rogers (SCCE-R)",
+              "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/services-centres-contact-d-entreprise-rogers.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/services-centres-contact-d-entreprise-rogers.html",
+            "final_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/services-centres-contact-d-entreprise-rogers.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T05:49:17.707151+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 05:49:18 GMT",
+            "etag": null,
+            "byte_count": 21758,
+            "sha256": "565eb3ac83cfe7dca2a5856f8efc3dab93ceafc81f5b1032690f62066d16293d"
+          },
+          "raw_path": "raw/376fe5d8f06dc611a37d.html",
+          "markdown_path": "pia-7e04e7d8fdae_fr.md",
+          "markdown_sha256": "219c58bf61b1576291af65cce1e736939ea0bcdbfc8eb613f04d001a5ed75ff4",
+          "status": "exported",
+          "page_title": "Services des centres de contact d’entreprise - Rogers (SCCE-R)",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/services-centres-contact-d-entreprise-rogers.html",
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/enterprise-contact-centre-service-rogers.html"
+          },
+          "date_modified": "2025-11-27",
+          "date_published": "2025-08-07",
+          "has_pia_text": true,
+          "title": "Services des centres de contact d’entreprise - Rogers (SCCE-R)",
+          "conversion": "markdownify",
+          "text_sha256": "f624b5829237ca6792637cf6f2947814870ca765f9bb07994687e6fd64ae1e54",
+          "word_count": 291,
+          "pib_ids": [
+            "SSC PCU 050"
+          ],
+          "cor_ids": [
+            "SSC TS 403"
+          ]
+        }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "SSC PCU 050",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-shared-services-canada",
+                "record_id": "SSC PCU 050"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-shared-services-canada/pia-7e04e7d8fdae_en.md",
+                "line": 36,
+                "mention": "SSC PCU 050",
+                "method": "explicit_pib_id",
+                "excerpt": "Contact Centre Information Personal Information Bank SSC PCU 050"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-shared-services-canada/pia-7e04e7d8fdae_fr.md",
+                "line": 36,
+                "mention": "SPC PCU 050",
+                "method": "explicit_pib_id",
+                "excerpt": "Fichier de renseignements personnels du Centre de contact SPC PCU 050"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "SSC TS 403",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-shared-services-canada",
+                "record_id": "SSC TS 403"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-shared-services-canada/pia-7e04e7d8fdae_en.md",
+                "line": 34,
+                "mention": "SSC TS 403",
+                "method": "known_cor_id",
+                "excerpt": "Toll Free Voice Services Class of Record SSC TS 403"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-shared-services-canada/pia-7e04e7d8fdae_fr.md",
+                "line": 34,
+                "mention": "SPC TS 403",
+                "method": "known_cor_id",
+                "excerpt": "Catégorie de documents Services de téléphonie sans frais SPC TS 403"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "SSC PCU 050"
+      ],
+      "pib_count": 1,
+      "cor_ids": [
+        "SSC TS 403"
+      ],
+      "cor_count": 1,
+      "word_count_en": 209,
+      "word_count_fr": 291,
+      "word_count_language": "en",
+      "word_count": 209
     },
     {
       "pia_id": "pia-2150f3d787a9",
@@ -612,7 +993,11 @@
           "title": "Privacy Impact Assessment Summary for the Enterprise Mobile Device Management (EMDM) service",
           "conversion": "markdownify",
           "text_sha256": "d586a943413a02902cba22f4900b218bd93cc4dda2a5d48403dbf4dd158f85a9",
-          "word_count": 338
+          "word_count": 338,
+          "pib_ids": [
+            "SSC PCU 606"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-evaluation-facteurs-vie-privee-gestion-appareils-mobiles-entreprise-destine-public.html",
@@ -663,9 +1048,57 @@
           "title": "Évaluation des facteurs relatifs à la vie privée du service de gestion des appareils mobiles d’entreprise",
           "conversion": "markdownify",
           "text_sha256": "3a438100bd86d584ba9dc44cb4288d1dc02067d4db34691bf9f884ffd0068d99",
-          "word_count": 482
+          "word_count": 482,
+          "pib_ids": [
+            "SSC PCU 606"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "SSC PCU 606",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-shared-services-canada",
+                "record_id": "SSC PCU 606"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-shared-services-canada/pia-2150f3d787a9_en.md",
+                "line": 29,
+                "mention": "SSC PCU 606",
+                "method": "explicit_pib_id",
+                "excerpt": "EMDM collects name and business contact information. This includes user name and password for email services. It may also include the Government of Canada (GC) PKI credentials (PIB SSC PCU 606 - Internal Credential Management Services)."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-shared-services-canada/pia-2150f3d787a9_fr.md",
+                "line": 29,
+                "mention": "SPC PCU 606",
+                "method": "explicit_pib_id",
+                "excerpt": "Le service de GAME recueille le nom et les coordonnées professionnelles des utilisateurs. Ces renseignements comprennent le nom d’utilisateur et le mot de passe utilisés pour accéder aux services de courriel. Ils peuvent aussi comprendre les justificatifs d’identité ICP du gouvernement du Canada (FRP SPC PCU 606 – Services de gestion des justificatifs d’identité internes)."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "SSC PCU 606"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 338,
+      "word_count_fr": 482,
+      "word_count_language": "en",
+      "word_count": 338
     },
     {
       "pia_id": "pia-a00590aaa09c",
@@ -729,7 +1162,13 @@
           "title": "Enterprise Mobile Device Management Evolution solution",
           "conversion": "markdownify",
           "text_sha256": "6a8da85f6d5cb6a66429eee983e1cb24777c572667a716ecb66f365e2cdcc6a6",
-          "word_count": 422
+          "word_count": 422,
+          "pib_ids": [
+            "SSC PCU 612"
+          ],
+          "cor_ids": [
+            "SSC TS 400"
+          ]
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/solution-pour-evolution-service-de-gestion-des-appareils-mobiles-d-entreprise.html",
@@ -780,9 +1219,84 @@
           "title": "Solution pour l’évolution du service de gestion des appareils mobiles d’entreprise",
           "conversion": "markdownify",
           "text_sha256": "fe9dc7d76b34c0ad3a4ed74e7a442afc000366883fe00fa1e9fa3800aabfc93f",
-          "word_count": 584
+          "word_count": 584,
+          "pib_ids": [
+            "SSC PCU 612"
+          ],
+          "cor_ids": [
+            "SSC TS 400"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "SSC PCU 612",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-shared-services-canada/pia-a00590aaa09c_en.md",
+                "line": 40,
+                "mention": "SSC PCU 612",
+                "method": "explicit_pib_id",
+                "excerpt": "Enterprise Mobile Device Management (EMDM) Service Personal Information Bank SSC PCU 612"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-shared-services-canada/pia-a00590aaa09c_fr.md",
+                "line": 40,
+                "mention": "SPC PCU 612",
+                "method": "explicit_pib_id",
+                "excerpt": "Fichier de renseignements personnels sur le service de gestion des appareils mobiles d’entreprise (GAME) SPC PCU 612"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "SSC TS 400",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-shared-services-canada",
+                "record_id": "SSC TS 400"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-shared-services-canada/pia-a00590aaa09c_en.md",
+                "line": 38,
+                "mention": "SSC TS 400",
+                "method": "known_cor_id",
+                "excerpt": "Telephony Services, telephones, mobile devices and faxes Class of Record SSC TS 400"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-shared-services-canada/pia-a00590aaa09c_fr.md",
+                "line": 38,
+                "mention": "SPC TS 400",
+                "method": "known_cor_id",
+                "excerpt": "Catégorie de documents Services de téléphonie, téléphones, appareils mobiles et télécopieurs SPC TS 400"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "SSC PCU 612"
+      ],
+      "pib_count": 1,
+      "cor_ids": [
+        "SSC TS 400"
+      ],
+      "cor_count": 1,
+      "word_count_en": 422,
+      "word_count_fr": 584,
+      "word_count_language": "en",
+      "word_count": 422
     },
     {
       "pia_id": "pia-8a7bda5e4b5d",
@@ -846,7 +1360,13 @@
           "title": "Enterprise Security Service Edge",
           "conversion": "markdownify",
           "text_sha256": "d9c4e5608bf05bc748e6662f5fbd4ea88046d90a43e470f2c0ef98a5aa7641be",
-          "word_count": 300
+          "word_count": 300,
+          "pib_ids": [
+            "PSU 905"
+          ],
+          "cor_ids": [
+            "PRN 932"
+          ]
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/service-de-securite-entreprise-edge.html",
@@ -897,9 +1417,90 @@
           "title": "Service de sécurité d’entreprise EDGE",
           "conversion": "markdownify",
           "text_sha256": "6063baf4fce6e9062d1ad273f092af092e4bb2a05378e1a8a3c8ca6979780618",
-          "word_count": 420
+          "word_count": 420,
+          "pib_ids": [
+            "PSU 905"
+          ],
+          "cor_ids": [
+            "PRN 932"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSU 905",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 905"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-shared-services-canada/pia-8a7bda5e4b5d_en.md",
+                "line": 39,
+                "mention": "PSU 905",
+                "method": "explicit_pib_id",
+                "excerpt": "- Electronic Network Monitoring Personal Information Bank (PSU 905)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-shared-services-canada/pia-8a7bda5e4b5d_fr.md",
+                "line": 39,
+                "mention": "POU 905",
+                "method": "explicit_pib_id",
+                "excerpt": "- Fichier de renseignements personnels sur les journaux de contrôle des réseaux électroniques (POU 905)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "PRN 932",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "932"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-shared-services-canada/pia-8a7bda5e4b5d_en.md",
+                "line": 38,
+                "mention": "PRN 932",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "- Information Technology Class of Record (PRN 932)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-shared-services-canada/pia-8a7bda5e4b5d_fr.md",
+                "line": 38,
+                "mention": "NDP 932",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "- Catégorie de document en matière de technologie de l’information (NDP 932)"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "PSU 905"
+      ],
+      "pib_count": 1,
+      "cor_ids": [
+        "PRN 932"
+      ],
+      "cor_count": 1,
+      "word_count_en": 300,
+      "word_count_fr": 420,
+      "word_count_language": "en",
+      "word_count": 300
     },
     {
       "pia_id": "pia-a8e7f951b52f",
@@ -963,7 +1564,11 @@
           "title": "GCKey - Government of Canada Branded Credential Service",
           "conversion": "markdownify",
           "text_sha256": "0a319ade8479ab95f8a3d072a66a98d0063bb334b382ff25b4c1fedfb401c2fc",
-          "word_count": 544
+          "word_count": 544,
+          "pib_ids": [
+            "SSC PCU 607"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/clegc-service-justificatifs-identite-portant-marque-gouvernement-canada.html",
@@ -1014,9 +1619,57 @@
           "title": "CléGC – Service de justificatifs d’identité portant la marque du gouvernement du Canada",
           "conversion": "markdownify",
           "text_sha256": "c0a75422e06c8fcdecd0b2d4afb811f91f2e5088aad9e74da312a8fb7fbc94af",
-          "word_count": 971
+          "word_count": 971,
+          "pib_ids": [
+            "SSC PCU 607"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "SSC PCU 607",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-shared-services-canada",
+                "record_id": "SSC PCU 607"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-shared-services-canada/pia-a8e7f951b52f_en.md",
+                "line": 24,
+                "mention": "PCU 607",
+                "method": "explicit_pib_id",
+                "excerpt": "The personal information that is collected and used for registering and managing GCKey will be described in the Personal Information Bank PCU 607 External Credential Management. The personal information may include username, password, password recovery questions and responses, Persistent Anonymous Identifier or Meaningless But Unique Number and Internet Protocol address. The GCKey is an anonymous external credential management service, where individuals will not be directly identifiable by the resulting credential."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-shared-services-canada/pia-a8e7f951b52f_fr.md",
+                "line": 22,
+                "mention": "PCU 607",
+                "method": "explicit_pib_id",
+                "excerpt": "Les renseignements personnels qui sont recueillis et utilisés pour l'enregistrement et la gestion d'une CléGC seront décrits dans la fiche de renseignements personnels PCU 607 – Gestion des justificatifs externes. Les renseignements personnels peuvent comprendre le nom d'utilisateur, le mot de passe, les questions et réponses relatives à la récupération du mot de passe, un identificateur anonyme persistant ou un numéro unique, mais non significatif, et une adresse de protocole Internet. La CléGC est un service anonyme de gestion des justificatifs externes où le justificatif résultant ne permet"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "SSC PCU 607"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 544,
+      "word_count_fr": 971,
+      "word_count_language": "en",
+      "word_count": 544
     },
     {
       "pia_id": "pia-6866c527bee6",
@@ -1080,7 +1733,9 @@
           "title": "Government Electronic Directory Services 2.0",
           "conversion": "markdownify",
           "text_sha256": "7ab3624448996754e2543b7d7cfb3a4f3596bc553c5348c786ec53bb8a545d5e",
-          "word_count": 172
+          "word_count": 172,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/evaluations-facteurs-relatifs-vie-privee-services-annuaires-gouvernementaux-electroniques.html",
@@ -1131,9 +1786,158 @@
           "title": "Services d’annuaires gouvernementaux électroniques 2.0",
           "conversion": "markdownify",
           "text_sha256": "ed2f13950f959d04a861bdcfdf6b53878183e5e10f291917389beedf3960600d",
-          "word_count": 211
+          "word_count": 211,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 172,
+      "word_count_fr": 211,
+      "word_count_language": "en",
+      "word_count": 172
+    },
+    {
+      "pia_id": "pia-3a4d62de79bd",
+      "title_en": "Privacy Impact Assessment for the Hosted Contact Centre Service",
+      "title_fr": "Évaluation des facteurs relatifs à la vie privée pour les services de centre de contact hébergé",
+      "url_en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessment-hosted-contact-centreservice.html",
+      "url_fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/evaluation-facteurs-relatifs-vie-privee-services-centre-contact-heberge.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessment-hosted-contact-centreservice.html",
+        "alternate_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/evaluation-facteurs-relatifs-vie-privee-services-centre-contact-heberge.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessment-hosted-contact-centreservice.html",
+          "title_from_list": "Privacy Impact Assessment for the Hosted Contact Centre Service",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessment-hosted-contact-centreservice.html",
+              "title": "Privacy Impact Assessment for the Hosted Contact Centre Service",
+              "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessment-hosted-contact-centreservice.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessment-hosted-contact-centreservice.html",
+            "final_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessment-hosted-contact-centreservice.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T05:49:08.370979+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 05:49:08 GMT",
+            "etag": null,
+            "byte_count": 24982,
+            "sha256": "9bbcec667cd4af9393de0be78798670d4bbb89e8996a71285924e6f34ef4d082"
+          },
+          "raw_path": "raw/3a4d62de79bdff265a02.html",
+          "markdown_path": "pia-3a4d62de79bd_en.md",
+          "markdown_sha256": "77820b46dd06f55cdfa8dd98982d1ee391c321ec2030afd2a0af792736e25f54",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment for the Hosted Contact Centre Service",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessment-hosted-contact-centreservice.html",
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/evaluation-facteurs-relatifs-vie-privee-services-centre-contact-heberge.html"
+          },
+          "date_modified": "2026-01-20",
+          "date_published": "2025-08-07",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment for the Hosted Contact Centre Service",
+          "conversion": "markdownify",
+          "text_sha256": "8b9e6799e24063d1d966582e2707acd9475f9be36afe8c8282950a7d8386a83d",
+          "word_count": 739,
+          "pib_ids": [],
+          "cor_ids": []
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/evaluation-facteurs-relatifs-vie-privee-services-centre-contact-heberge.html",
+          "title_from_list": "Évaluation des facteurs relatifs à la vie privée pour les services de centre de contact hébergé",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+          "discovered_under": "Résumés d'évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/evaluation-facteurs-relatifs-vie-privee-services-centre-contact-heberge.html",
+              "title": "Évaluation des facteurs relatifs à la vie privée pour les services de centre de contact hébergé",
+              "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/evaluation-facteurs-relatifs-vie-privee-services-centre-contact-heberge.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/evaluation-facteurs-relatifs-vie-privee-services-centre-contact-heberge.html",
+            "final_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/evaluation-facteurs-relatifs-vie-privee-services-centre-contact-heberge.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T05:49:17.663108+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 05:49:17 GMT",
+            "etag": null,
+            "byte_count": 27464,
+            "sha256": "1614867dc20c0ea5e4367da53366582fa6c7a3177ec1fef68fb48f6115e0348d"
+          },
+          "raw_path": "raw/168e0e4082c809d42f27.html",
+          "markdown_path": "pia-3a4d62de79bd_fr.md",
+          "markdown_sha256": "f4f33062375da85364ab6c67a269fb8d600ca47faa792b36df4b88d1db13b0c0",
+          "status": "exported",
+          "page_title": "Évaluation des facteurs relatifs à la vie privée pour les services de centre de contact hébergé",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/evaluation-facteurs-relatifs-vie-privee-services-centre-contact-heberge.html",
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessment-hosted-contact-centreservice.html"
+          },
+          "date_modified": "2026-01-20",
+          "date_published": "2025-08-07",
+          "has_pia_text": true,
+          "title": "Évaluation des facteurs relatifs à la vie privée pour les services de centre de contact hébergé",
+          "conversion": "markdownify",
+          "text_sha256": "753607094de1fa7f8477fc35f669baef99e333078f708dbd20ecc20dbbd58137",
+          "word_count": 1000,
+          "pib_ids": [],
+          "cor_ids": []
+        }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 739,
+      "word_count_fr": 1000,
+      "word_count_language": "en",
+      "word_count": 739
     },
     {
       "pia_id": "pia-66e882595811",
@@ -1197,7 +2001,9 @@
           "title": "Privacy Impact Assessment Summary for the IT Service Management Tool",
           "conversion": "markdownify",
           "text_sha256": "c5d25a71be2b01457398a9911d2dfa8f777445dec23d8bcc7c774c20b79f30cf",
-          "word_count": 442
+          "word_count": 442,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-gsti.html",
@@ -1248,9 +2054,24 @@
           "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée du projet d’outil de GSTI",
           "conversion": "markdownify",
           "text_sha256": "1bbcb2f90d059c33968e691455179e00143d11adb241d1523d9c1871748273ea",
-          "word_count": 585
+          "word_count": 585,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 442,
+      "word_count_fr": 585,
+      "word_count_language": "en",
+      "word_count": 442
     },
     {
       "pia_id": "pia-1620930dd910",
@@ -1314,7 +2135,11 @@
           "title": "Network Monitoring using Secure Cloud Enablement and Defense (SCED) – Enterprise Security Service Edge (ESSE)",
           "conversion": "markdownify",
           "text_sha256": "c986c077d18d3cb317f658f05189cd6ecf6c980dd96b4d65dbbfba374cb6e956",
-          "word_count": 453
+          "word_count": 453,
+          "pib_ids": [
+            "PSU 905"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/surveillance-reseau-aide-adns-sspe.html",
@@ -1365,9 +2190,57 @@
           "title": "Surveillance du réseau à l’aide de l’Activation et défense du nuage sécurisé (ADNS) – Service de sécurité du périmètre de l’entreprise (SSPE)",
           "conversion": "markdownify",
           "text_sha256": "19dd081ec51675508b633787b147c7c5fce26d43fef3d25dfd20e02ff3caeff8",
-          "word_count": 717
+          "word_count": 717,
+          "pib_ids": [
+            "PSU 905"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSU 905",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 905"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-shared-services-canada/pia-1620930dd910_en.md",
+                "line": 58,
+                "mention": "PSU 905",
+                "method": "explicit_pib_id",
+                "excerpt": "- Standard Personal Information Bank: PSU 905 – Electronic Network Monitoring"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-shared-services-canada/pia-1620930dd910_fr.md",
+                "line": 58,
+                "mention": "POU 905",
+                "method": "explicit_pib_id",
+                "excerpt": "- Fichiers de renseignements personnels ordinaires : POU 905 – contrôle des réseaux électroniques"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "PSU 905"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 453,
+      "word_count_fr": 717,
+      "word_count_language": "en",
+      "word_count": 453
     },
     {
       "pia_id": "pia-3b70d7c516cb",
@@ -1431,7 +2304,9 @@
           "title": "Privacy Impact Assessment Summary for the Next Generation HR and Pay Pilot",
           "conversion": "markdownify",
           "text_sha256": "9efb7021ae2c4109c7106952e5dfd695a151ceae3ba7bc03cfef7f9b7e29f70f",
-          "word_count": 378
+          "word_count": 378,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-systeme-prochaine-gen-rh-paye.html",
@@ -1482,9 +2357,24 @@
           "title": "Sommaire de l’évaluation des facteurs relatifs à la vie privée du projet pilote du système de la prochaine génération des RH et de la paye",
           "conversion": "markdownify",
           "text_sha256": "1912e3a757154990174fd86eb757c5392ae72b8f42caa027cee6372fcdaf5711",
-          "word_count": 515
+          "word_count": 515,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 378,
+      "word_count_fr": 515,
+      "word_count_language": "en",
+      "word_count": 378
     },
     {
       "pia_id": "pia-56b9dab43350",
@@ -1548,7 +2438,9 @@
           "title": "SecureKey Concierge – Credential Broker Service",
           "conversion": "markdownify",
           "text_sha256": "2b3e0cc9fd9022fe94161c40c5e247dd6419f1e087af1e4e461bb8a66c1dd1e3",
-          "word_count": 559
+          "word_count": 559,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/securekey-service-concierge-service-courtier-justificatifs-didentite.html",
@@ -1599,9 +2491,24 @@
           "title": "SecureKey Service de concierge – Service de courtier de justificatifs d'identité",
           "conversion": "markdownify",
           "text_sha256": "80837a9b9ea9e4cb66b343c8a1de5fc2d558c94eb86fef43305f5d374e1aae32",
-          "word_count": 714
+          "word_count": 714,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 559,
+      "word_count_fr": 714,
+      "word_count_language": "en",
+      "word_count": 559
     },
     {
       "pia_id": "pia-4f8858a3b69c",
@@ -1665,7 +2572,9 @@
           "title": "Privacy Impact Assessment Summary for the SSC Enterprise Perimeter Security Service",
           "conversion": "markdownify",
           "text_sha256": "f09d705c6e2ea7b2d4ea41a1a921f807652c8e7bb6bf5d0da5358d46a0812705",
-          "word_count": 480
+          "word_count": 480,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-service-spe.html",
@@ -1716,9 +2625,24 @@
           "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le service de sécurité du périmètre d’entreprise de SPC",
           "conversion": "markdownify",
           "text_sha256": "17ba5ac72b520ca8c313f150d259c79b1fa024849d9e811ef5349b4f126641a3",
-          "word_count": 590
+          "word_count": 590,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 480,
+      "word_count_fr": 590,
+      "word_count_language": "en",
+      "word_count": 480
     },
     {
       "pia_id": "pia-7496bbe2cb11",
@@ -1782,7 +2706,9 @@
           "title": "Privacy Impact Assessment Summary for the Workplace Communication Services",
           "conversion": "markdownify",
           "text_sha256": "89d4c96eab094276c751b60d1cd72999ef33efe08810c2d1c485d943ca23f8ee",
-          "word_count": 345
+          "word_count": 345,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-scmt.html",
@@ -1833,16 +2759,31 @@
           "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée des Services de communication en milieu de travail",
           "conversion": "markdownify",
           "text_sha256": "678616d6f76e16626a9d9aaf237bdf0e8d3356065564f2f2cb8f940a53ea3b80",
-          "word_count": 511
+          "word_count": 511,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 345,
+      "word_count_fr": 511,
+      "word_count_language": "en",
+      "word_count": 345
     }
   ],
   "summary": {
-    "pia_count": 15,
-    "paired_count": 15,
+    "pia_count": 17,
+    "paired_count": 17,
     "source_status_counts": {
-      "exported": 30
+      "exported": 34
     }
   }
 }

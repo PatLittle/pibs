@@ -74,6 +74,7 @@ jobs:
           python -m pip install --disable-pip-version-check beautifulsoup4
           python validate_site.py
           python -m unittest tests.test_build_pia_site
+          python -m unittest discover -s PIAs -p "test_reference_*.py"
           node --test tests/privacy_assessments.test.mjs
           node --check site/privacy-assessments.js
           node --check site/privacy-assessment.js

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+<!--[if lt IE 9]><html class="no-js lt-ie9" lang="en"><![endif]--><!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]--><head>
+<meta charset="utf-8"> <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+<title>Mobile Border Privacy Impact Assessment</title>
+<meta content="width=device-width,initial-scale=1" name="viewport">
+<!-- Meta data -->
+
+<link rel="canonical" href="https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/mobile-eng.html" />
+<link rel="alternate" hreflang="fr" href="mobile-fra.html">
+<meta name="description" content="Mobile Border Privacy Impact Assessment">
+<meta name="dcterms.title" content="Mobile Border Privacy Impact Assessment">
+<meta name="dcterms.creator" content="Government of Canada, Canada Border Services Agency">
+<meta name="dcterms.issued" title="W3CDTF" content="2021-02-11">
+<meta name="dcterms.modified" title="W3CDTF" content="2021-02-11">
+<meta name="dcterms.subject" title="scheme" content="(none)">
+<meta name="dcterms.language" title="ISO639-2" content="eng">
+
+<!-- Meta data-->
+<!-- GA Start -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-65459512-1', 'auto');
+	ga("set", "anonymizeIp", true);	
+  ga('send', 'pageview');
+</script>
+<!-- GA End --><!-- GA4 Start -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QTGHKKHBHH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-QTGHKKHBHH');
+</script><!-- GA4 End -->
+<!--[if gte IE 9 | !IE ]><!-->
+<link href="/_wb/4.0.26/theme-gcwu-fegc/assets/favicon.ico" rel="icon" type="image/x-icon">
+<link rel="stylesheet" href="/_wb/4.0.26/theme-gcwu-fegc/css/theme.min.css">
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<link href="/_wb/4.0.26/theme-gcwu-fegc/assets/favicon.ico" rel="shortcut icon" />
+<link rel="stylesheet" href="/_wb/4.0.26/theme-gcwu-fegc/css/ie8-theme.min.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/_wb/4.0.26/theme-gcwu-fegc/js/ie8-wet-boew.min.js"></script>
+<![endif]-->
+<noscript><link rel="stylesheet" href="/_wb/4.0.26/theme-gcwu-fegc/css/noscript.min.css" /></noscript>
+
+<!-- CustomCSSStart -->
+<!-- CustomCSSEnd -->
+
+</head>
+<body vocab="http://schema.org/" typeof="WebPage">
+<ul id="wb-tphp">
+<li class="wb-slc">
+<a class="wb-sl" href="#wb-cont">Skip to main content</a>
+</li>
+<li class="wb-slc visible-sm visible-md visible-lg">
+<a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
+</li>
+</ul>
+<header role="banner">
+<div id="wb-bnr">
+<div id="wb-bar">
+<div class="container">
+<div class="row">
+<object id="gcwu-sig" type="image/svg+xml" tabindex="-1" role="img" data="/_wb/4.0.26/theme-gcwu-fegc/assets/sig-en.svg" aria-label="Government of Canada"></object>
+<ul id="gc-bar" class="list-inline">
+<li><a href="https://www.canada.ca/en.html" rel="external">Canada.ca</a></li>
+<li><a href="https://www.canada.ca/en/services.html" rel="external">Services</a></li>
+<li><a href="https://www.canada.ca/en/government/dept.html" rel="external">Departments</a></li>
+<li id="wb-lng"><h2>Language selection</h2>
+<ul class="list-inline">
+<li><a lang="fr" hreflang="fr" href="mobile-fra.html">Français</a></li>
+</ul>
+</li>
+</ul>
+<section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
+<h2>Search and menus</h2>
+<ul class="pnl-btn list-inline text-right">
+<li><a href="#mb-pnl" title="Search and menus" aria-controls="mb-pnl" class="overlay-lnk btn btn-sm btn-default" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Search and menus</span></span></span></a></li>
+</ul>
+<div id="mb-pnl"></div>
+</section>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div id="wb-sttl" class="col-md-5">
+<a href="/menu-eng.html">
+<span>Canada Border Services Agency</span>
+</a>
+</div>
+<object id="wmms" type="image/svg+xml" tabindex="-1" role="img" data="/_wb/4.0.26/theme-gcwu-fegc/assets/wmms.svg" aria-label="Symbol of the Government of Canada"></object>
+<section id="wb-srch" class="visible-md visible-lg">
+<h2>Search</h2>
+<form action="https://www.canada.ca/en/border-services-agency/search.html" method="get" role="search" class="form-inline">
+<div class="form-group">
+<label for="wb-srch-q">Search website</label>
+<input id="wb-srch-q" class="form-control" name="q" type="search" value="" size="27" maxlength="150"/>
+</div>
+<button type="submit" id="wb-srch-sub" class="btn btn-default">Search</button>
+</form>
+</section>
+</div>
+</div>
+</div>
+<nav role="navigation" id="wb-sm" data-ajax-replace="/inc/v2/sitemenu-en.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
+<div class="container nvbar">
+<h2>Topics menu</h2>
+<div class="row">
+<ul class="list-inline menu">
+<li><a href="/travel-voyage/menu-eng.html">Travellers</a></li>
+<li><a href="/comm-eng.html">Import and Export</a></li>
+<li><a href="/security-securite/safety-surete-eng.html">Securing the Border</a></li>
+<li><a href="/publications/menu-eng.html">Publications</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<nav role="navigation" id="wb-bc" property="breadcrumb">
+<h2>You are here:</h2>
+<div class="container">
+<div class="row">
+<ol class="breadcrumb">
+
+<li><a href="/menu-eng.html">Home</a></li>
+
+<li><a href="/agency-agence/menu-eng.html">About the CBSA</a></li>
+<li><a href="/agency-agence/reports-rapports/menu-eng.html">Corporate Documents</a></li>
+<li><a href="/agency-agence/reports-rapports/pia-efvp/atip-aiprp/pias-sefp-eng.html">Privacy Impact Assessments</a></li>
+
+
+</ol>
+</div>
+</div>
+</nav>
+</header>  <!--<div class="module-alert span-8">-->
+  
+<main role="main" property="mainContentOfPage" class="container">
+
+<!-- MainContentStart -->
+<header>
+	<h1 id="wb-cont">
+		<small>Executive summary</small><br>
+		Mobile Border Privacy Impact Assessment
+	</h1>
+</header>
+
+<p>As part of the Canada Border Service Agency's (<abbr>CBSA</abbr>) modernization initiative, a new service channel is being introduced to provide the ability for travellers to present, report goods and appear for an examination using a mobile application to communicate remotely with a border services officer (<abbr>BSO</abbr>). The introduction of mobile technology will help the <abbr>CBSA</abbr> address increasing difficulties in maintaining the required infrastructure and <abbr>BSO</abbr>s in regions with geographical challenges and low staffing levels. Mobile Border will be deployed in a phased approach starting with a soft launch to be tested as a voluntary, alternative option at existing telephone reporting sites in regions that have limited <abbr>CBSA</abbr> resources.</p>
+
+<p>It is expected that by providing a more convenient and accessible reporting tool, travellers who do not currently fulfill their obligations when entering Canada will make an effort to be compliant. Mobile Border has the potential to reduce processing times and simplify <abbr>CBSA</abbr> procedures by automating routine activities that are currently done manually by <abbr>BSO</abbr>s at the <abbr>TRC</abbr> (e.g. verbal collection and manual entry of traveller information). Furthermore, it will enable the <abbr>CBSA</abbr> to achieve the required identity assurance level for remote primary processing in accordance with the Treasury Board Secretariat's (<abbr>TBS</abbr>) <a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=16577">Directive on Identity Management</a>.</p>
+
+<p>Following the soft launch the agency will evaluate the results to determine a strategy for future implementation of a mobile application as a nation-wide program and expansion to additional <abbr>CBSA</abbr> locations with larger volumes and varying operational models (e.g. airports, buses and cruise ships).</p>
+
+<h2>Protecting Personal Information</h2>
+
+<p>The following personal information will be collected from travellers using the mobile application and managed by Mobile Border.</p>
+
+<h3>Traveller Profile</h3>
+
+<ul>
+	<li>Full name</li>
+	<li>Gender</li>
+	<li>Date of birth</li>
+	<li>Citizenship country</li>
+	<li>Country, province and postal code of residence</li>
+	<li>Identification/travel document (type, number, expiry date, photo and issuing authority)</li>
+	<li>Photo of travel document (if traveller does not have a <span class="nowrap">chip-enabled</span> document)</li>
+	<li>Trusted Traveller membership information (if applicable)</li>
+</ul>
+
+<h3>Entry Declaration</h3>
+
+<ul>
+	<li>Method of entry (e.g. air, land, marine,&nbsp;etc.)</li>
+	<li>Location of Entry</li>
+	<li>Conveyance information</li>
+	<li>Facial photo (new <span class="nowrap">real-time</span> photo submitted with each entry declaration)</li>
+	<li>Geolocation data from mobile device (captured only when traveller confirms arrival in Canada)</li>
+	<li>Cell phone number and/or email address</li>
+	<li>Customs declaration</li>
+</ul>
+
+<p>Individuals using the mobile application will be required to create a traveller profile with their identity, citizenship, residency and document information in order to submit an entry declaration to the <abbr>CBSA</abbr>. Electronic capture of this data will improve the accuracy of information currently keyed manually by a <abbr>BSO</abbr> and reduce the time required to verify and record it in <abbr>CBSA</abbr> databases. Information stored in the traveller's profile will be managed and stored by the user on their personal mobile device to be used to simplify and expedite future entry declarations.</p>
+
+<p>When a traveller submits an entry declaration their information will be encrypted and transmitted securely over a cellular or <span class="nowrap">Wi-Fi</span> network to a Protected&nbsp;B certified cloud. The cloud will host a <span class="nowrap">web-based</span> interface that will enable <abbr>BSO</abbr>s to manage traveller information and interact with travellers virtually. Information in the cloud will be encrypted and transmitted to <abbr>CBSA</abbr> systems over dedicated lines with <span class="nowrap">built-in</span> safeguards and will be automatically risk assessed against data that is held within <abbr>CBSA</abbr> enforcement databases.</p>
+
+<p>While Mobile Border introduces a new means of capturing information from travellers, the majority of data is already collected by the <abbr>CBSA</abbr> in accordance with <span class="nowrap">subsection 11(1)</span> of the <cite>Customs&nbsp;Act</cite>. Travellers using the mobile application will be required to provide some additional information elements to facilitate remote primary processing by a <abbr>BSO</abbr> including a <span class="nowrap">real-time</span> facial photograph, geolocation, and cellular phone number and email address. These data elements will be used only during processing and will be deleted immediately once complete.</p>
+
+<h2>Right of Access</h2>
+
+<p>The personal information collected through the mobile application is considered &quot;customs information,&quot; as defined under section&nbsp;107 of the <cite>Customs&nbsp;Act</cite>. The majority of this information will be retained for the purpose of establishing travel history information in compliance with the <cite>Privacy&nbsp;Act</cite>, Sections&nbsp;4, 7 and <span class="nowrap">subsection 8(2)</span>.</p>
+
+<p>Travellers using the mobile application will be required to provide their consent for the collection, use, retention and disposition of their personal information by accepting the Terms and Conditions of Use. A Privacy Statement will be presented each time the application is opened to inform travellers what personal information the application will collect and why, where it will be stored, who it will be shared with and why, how long it will be retained, and any other issues that may affect user privacy. New data elements to be captured by the mobile application (photograph, geolocation and contact information) will not be retained in the cloud or <abbr>CBSA</abbr> databases. This information will be treated as administrative data, and used only to verify traveller identities and locations and to communicate with them in the event that connectivity does not support the video chat or notification features.</p>
+
+<p>Individuals using Mobile Border may formally request access to their personal information, or access to <abbr>CBSA</abbr> records related to or created by the mobile application by contacting the <a href="/agency-agence/reports-rapports/pia-efvp/atip-aiprp/menu-eng.html">Access to Information and Privacy (<abbr>ATIP</abbr>) Division</a>.</p>
+
+<h2>Accountability</h2>
+
+<p>Individuals with concerns about the collection, use, disclosure or retention of their personal information may submit a complaint to the <abbr>CBSA</abbr> <abbr>ATIP</abbr> Division. Complaints should be made in writing, and include the individuals name, contact information, and a brief description of their concerns.</p>
+
+
+<dl id="wb-dtmd">
+<dt>Date modified:&#32;</dt>
+<dd><time property="dateModified">2021-02-11</time></dd>
+</dl>
+</main>
+
+<footer role="contentinfo" id="wb-info" class="visible-sm visible-md visible-lg wb-navcurr">
+<div class="container">
+<nav role="navigation">
+<h2>About this site</h2>
+<ul id="gc-tctr" class="list-inline">
+<li><a rel="license" href="/help-aide/in-ai-eng.html">Terms and conditions</a></li>
+<li><a href="/transparency-transparence/menu-eng.html">Transparency</a></li>
+</ul>
+<div class="row">
+<section class="col-sm-3">
+<h3><a href="/agency-agence/menu-eng.html">About us</a></h3>
+<ul class="list-unstyled">
+<li><a href="/agency-agence/actreg-loireg-eng.html">Acts and regulations</a></li>
+<li><a href="/job-emploi/menu-eng.html">Job opportunities</a></li>
+</ul>
+</section>
+<section class="col-sm-3">
+<h3><a href="/contact/menu-eng.html">Contact us</a></h3>
+<ul class="list-unstyled">
+<li><a href="https://do-rb.cbsa-asfc.cloud-nuage.canada.ca/?lang=en_CA">Directory of <abbr>CBSA</abbr> Offices and Services</a></li>
+<li><a href="/contact/com-eng.html">Feedback</a></li>
+<li><a href="/recourse-recours/menu-eng.html">Appeals/Reviews</a></li>
+</ul>
+</section>
+<section class="col-sm-3">
+<h3><a href="/media/menu-eng.html">News</a></h3>
+<ul class="list-unstyled">
+<li><a href="/media/menu-eng.html">News releases</a></li>
+<li><a href="/new-neuf/menu-eng.html">What's New</a></li>
+<li><a href="/media/video-eng.html">Videos</a></li>
+</ul>
+</section>
+<!--<section class="col-sm-3">
+<h3><a href="/help-aide/sm-ms-eng.html">Stay connected</a></h3>
+<ul class="list-unstyled">
+<li><a href="https://www.twitter.com/canborder">Twitter</a></li>
+<li><a href="https://www.facebook.com/canborder">Facebook</a></li>
+<li><a href="https://www.instagram.com/canborder">Instagram</a></li> 
+<li><a href="https://www.linkedin.com/company/cbsa-asfc">LinkedIn</a></li> 
+<li><a href="https://www.youtube.com/canborder">YouTube</a></li>
+<li><a href="/new-neuf/app-eng.html">CanBorder app</a></li>
+<li><a href="/new-neuf/rss-eng.html">Web feeds</a></li>
+<li><a href="/alert-avis/menu-eng.html">Email alert service</a></li>
+</ul>
+</section>-->
+</div>
+</nav>
+</div>
+<div id="gc-info">
+<div class="container">
+<nav role="navigation">
+<h2>Government of Canada footer</h2>
+<ul class="list-inline">
+<li><a href="https://www.canada.ca/en/services/health.html"><span>Health</span></a></li>
+<li><a href="https://travel.gc.ca/"><span>Travel</span></a></li>
+<li><a href="https://www.canada.ca/en/employment-social-development/corporate/portfolio/service-canada.html"><span>Service Canada</span></a></li>
+<li><a href="https://www.jobbank.gc.ca/home"><span>Jobs</span></a></li>
+<!-- <li><a href="https://www.budget.gc.ca/2019/home-accueil-en.html"><span>Economy</span></a></li> -->
+<li id="canada-ca"><a href="https://www.canada.ca/en.html">Canada.ca</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</footer>
+
+<!-- ScriptsStart -->
+<!--[if gte IE 9 | !IE ]><!-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+<script src="/_wb/4.0.26/theme-gcwu-fegc/js/wet-boew.min.js"></script>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<script src="/_wb/4.0.26/theme-gcwu-fegc/js/ie8-wet-boew2.min.js"></script>
+<![endif]-->
+<script src="/_wb/4.0.26/theme-gcwu-fegc/js/theme.min.js"></script>
+<!-- ScriptsEnd -->
+<!--External link tracking begin-->
+
+<script>
+var trackOutboundLink = function(url) {
+  ga('send', 'event', 'outbound', 'click', url, {
+    'transport': 'beacon',
+    'hitCallback': function(){
+      document.location = url;
+    }
+  });
+}
+$(function(){
+  if ((typeof ga === "function")&&(ga.loaded)) {
+    $(".trackme").on('click',function(e){
+      e.preventDefault();
+      trackOutboundLink(this.href);
+    });
+  }
+});
+</script>
+
+<!--External link tracking end-->
+
+
+
+<!-- CustomScriptsStart -->
+<!-- CustomScriptsEnd -->
+</body>
+</html>

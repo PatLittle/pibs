@@ -1,0 +1,239 @@
+---
+title: "One-time top-up to the Canada Housing Benefit"
+institution_id: "ati-schedule-i-canada-revenue-agency"
+language: "en"
+source_url: "https://www.canada.ca/en/revenue-agency/services/about-canada-revenue-agency-cra/protecting-your-privacy/privacy-impact-assessment/one-time-top-up-canada-housing-benefit.html"
+retrieved_at_utc: "2026-11-12T05:49:06.386970+00:00"
+http_status: 200
+source_sha256: "e8cb4024caa5a69c600234edcc6d0fb525ec406fa08b36704a22cd081e4dccc7"
+content_kind: "page"
+---
+
+# One-time top-up to the Canada Housing Benefit
+
+## Benefit Programs Directorate Assessment, Benefit, and Service Branch
+
+### On this page
+
+- [Overview & Privacy Impact Assessment Initiation (PIA)](https://www.canada.ca/en/revenue-agency/services/about-canada-revenue-agency-cra/protecting-your-privacy/privacy-impact-assessment/one-time-top-up-canada-housing-benefit.html#overview)
+- [Summary of the project, initiative or change](https://www.canada.ca/en/revenue-agency/services/about-canada-revenue-agency-cra/protecting-your-privacy/privacy-impact-assessment/one-time-top-up-canada-housing-benefit.html#Summary)
+- [Risk identification and categorization](https://www.canada.ca/en/revenue-agency/services/about-canada-revenue-agency-cra/protecting-your-privacy/privacy-impact-assessment/one-time-top-up-canada-housing-benefit.html#Risk)
+
+## Overview & Privacy Impact Assessment Initiation (PIA)
+
+### Government institution
+
+Canada Revenue Agency
+
+#### Government official responsible for the PIA
+
+Gillian Pranke  
+Assistant Commissioner  
+Assessment, Benefit, and Service Branch
+
+#### Head of the government institution or Delegate for section 10 of the Privacy Act
+
+Steven Morgan  
+Director General  
+Access to Information and Privacy Directorate
+
+#### Name of program or activity of the government institution
+
+Benefits
+
+#### Standard or institution specific class of record:
+
+Benefit Programs – One-time top-up to the Canada Housing Benefit  
+CRA ABSB 626
+
+#### Standard or institution specific personal information bank:
+
+One-time top-up to the Canada Housing Benefit  
+CRA PPU 621  
+TBS Registration Number 20230027
+
+#### Legal authority for program or activity
+
+The one-time top-up to the Canada Housing Benefit is authorized under the **Rental Housing Benefit Act**.
+
+To administer the program, the Canada Revenue Agency (CRA) will use taxpayer information authorized under subparagraph 241(4)(d)(xxi) of the **Income Tax Act**.
+
+Section 61 of the **Canada Revenue Agency Act** authorizes the CRA to enter into contracts, agreements or other arrangements with governments, public or private organizations and agencies, or any person in the name of His Majesty in right of Canada or in its own name.
+
+**Note**: This gives the Minister of National Revenue authority to enter into agreements to administer programs on behalf of other government or private sector organizations.
+
+In keeping with section 10 of the Canada Revenue Agency Act, the CRA can accept a delegation of authority to administer the Rental Housing Benefit Act for the Canada Mortgage and Housing Corporation.
+
+As well, section 8 of the Rental Housing Benefit Act allows the Canada Mortgage and Housing Canada to authorize the CRA minister to administer the one-time top-up to the Canada Housing Benefit.
+
+## Summary of the project, initiative or change
+
+### Overview of the Program or Activity
+
+For many Canadians, it is becoming increasingly challenging to find a safe and affordable place to call home. The high cost of living is making housing even less attainable for the most vulnerable Canadians.
+
+Almost 1.8 million low-income renters, including students, who are struggling with the cost of housing would be eligible for this new support. The proposed funding totals $1.2 billion. The Government of Canada committed $475 million of that amount in Budget 2022.
+
+The one-time top-up to the Canada Housing Benefit is a tax-free payment of $500 to directly support low-income renters who are experiencing housing affordability challenges. It will be available to renters with adjusted net incomes in 2021 equal to or less than $35,000 for families and equal to or less than $20,000 for individuals.
+
+### How renters can apply
+
+Starting in December 2022, eligible renters can apply for the payment through:
+
+- My Account, the CRA’s secure web portal
+- MyAccount Lite (a limited access version of MyAccount)
+- by telephone through a CRA contact centre, or
+- on a webform on Canada.ca (outside of the portal)
+
+The CRA will accept applications for 120 days.
+
+In all four methods of applying, the applicant will have to attest that the information they provided on the application form is true. As well, they will have to agree to allow the CRA to verify their income, rent, and any other information from the application. All methods will also include a privacy statement on the collection of information.
+
+### Eligibility
+
+To be eligible, applicants will need to:
+
+- have filed their 2021 tax return\*
+- have paid at least 30% of their 2021 adjusted family net income on rent for their primary residence in Canada in 2022
+- be at least 15 years old on December 1, 2022
+- reside in Canada
+
+\*If an individual was not a resident of Canada for tax purposes in 2021, the CRA will use the statement of world income from their Canada child benefit and the goods and services tax / harmonized sales tax credit account. If an individual has not applied for the Canada child benefit or the goods and services tax / harmonized sales tax credit benefit programs they are directed to call CRA.
+
+To determine eligibility, the CRA will verify up front the applicant’s income, age and residency for tax purposes.
+
+For this benefit payment, a family is defined as an individual who meets one of the following three conditions:
+
+- has a cohabiting spouse or common-law partner
+- lives with a child for whom they are receiving the Canada child benefit, or
+- lives with an eligible dependant
+
+Each family unit will get only one payment. If both spouses or common-law partners apply, the person who first applied will receive the payment.
+
+### Application process
+
+The CRA’s existing My Account portal will streamline the application process since the CRA can prepopulate the application with the tax information it already has to protect the privacy of individuals, the CRA will not prepopulate information on applications submitted through My Account Lite or on a webform.
+
+Individuals applying need to provide the:
+
+- total amount of rent they paid for their principal residence in 2022
+- name and contact information of their landlord(s)
+- address of their rental residence, and
+- number of months they lived at that address
+
+The CRA will ask applicants to keep records of rent they paid in case the CRA needs to verify that information later.
+
+Standard compliance and verification activities will apply.
+
+The legislation granting the Minister of Housing and Diversity and Inclusion and the Minister of National Revenue the authority to implement, process and deliver the one-time top-up to the Canada Housing Benefit received royal assent on November 17, 2022.
+
+### What’s New
+
+The Rental Housing Benefit Act is new legislation from the Government of Canada.
+
+### Scope of the Privacy Impact Assessment
+
+This privacy impact assessment covers the administration of the one-time top-up to the Canada Housing Benefit.
+
+Other undertakings, such as certain compliance activities, are separate programs. Therefore, they are not included within the scope of this PIA. Neither is the calculation, enforcement, and administration of Canada child benefits and the federal or provincial income tax and benefit returns. These elements are governed by existing processes and infrastructure and already have their own existing PIAs. The Canada Child Benefits PIA IC-106098 covers the Canada child benefits program, and the Individual Returns Assessment Program PIA IC-129649 covers income tax and benefit returns.
+
+## Risk identification and categorization
+
+### A) Type of program or activity
+
+Compliance / Regulatory investigations and enforcement
+
+**Level of risk to privacy: 3**
+
+**Details:**
+
+The CRA uses the personal information to identify, determine, validate and pay the one-time top‑up to the Canada Housing Benefit. It also uses the information to determine whether an individual knowingly participated in making or made a false statement or an omission. The consequences for those actions can include verification reviews that may result in ending or recouping the payments and charging penalties under section 21 of the Rental Housing Benefit Act.
+
+In limited cases, the CRA may refer the information it obtains during an audit to its Criminal Investigations Division for further investigation. This may result in the laying of charges under section 25 of the Rental Housing Benefit Act.
+
+### B) Type of personal information involved and context
+
+Social insurance number, medical, financial or other sensitive personal information and/or the context surrounding the personal information is sensitive. Personal information of minors or incompetent individuals or involving a representative acting on behalf of the individual.
+
+**Level of risk to privacy: 3**
+
+**Details:**
+
+The personal information the CRA collects includes details such as the individual’s name, contact information, financial information, and age. It can also include the total amount of rent they paid and their social insurance number, marital status, residency, and landlord’s contact information. In addition, the CRA collects the personal information of dependants to administer this program.
+
+### C) Program or activity partners and private sector involvement
+
+This program involves private sector organizations or international organizations or foreign governments.
+
+**Level of risk to privacy: 4**
+
+**Details:**
+
+The program administers payments for the Canada Mortgage and Housing Corporation (CMHC). The CRA discloses information (aggregated) to the CMHC so that the department can evaluate the program. As well, the CRA discloses personal information to Public Services and Procurement Canada so Public Services and Procurement Canada can issue payments.
+
+The CRA uses the information internally for the collection of outstanding balances, verification, reviews, statistical gathering, and contact centre enquiry responses.
+
+The program is designed to be paperless; however, if the program creates paper documents containing personal information, a third party in the private sector will store them. The CRA reviewed the third-party’s request for proposal and contract to clearly identify and address privacy-related requirements.
+
+### D) Duration of the program or activity
+
+Short–term program
+
+**Level of risk to privacy: 2**
+
+**Details:**
+
+The one-time top-up to the Canada Housing Benefit is a short-term program and provides one payment only. Applicants will have only 120 days from the start of the eligibility period to apply.
+
+The sunset date for this program is five years from the date the Rental Housing Benefit Act received royal assent.
+
+### E) Program population
+
+The program affects certain individuals for external administrative purposes.
+
+**Level of risk to privacy: 3**
+
+**Details:**
+
+The program affects any individual who applies for the one-time top-up to the Canada Housing Benefit payment as well as their spouse or common-law partner and dependant(s).
+
+### F) Technology & privacy
+
+1. Does the new or modified program or activity involve the implementation of a new electronic system, software or application program including collaborative software (or groupware) that is implemented to support the program or activity in terms of the creation, collection or handling of personal information?  
+   **Risk to privacy: Yes**
+2. Does the new or modified program or activity require any modifications to IT legacy systems and/or services?  
+   **Risk to privacy: Yes**
+3. Does the new or modified program or activity involve the implementation of one or more of the following technologies?
+
+**Enhanced identification methods** - this includes biometric technology (i.e. facial recognition, gait analysis, iris scan, fingerprint analysis, voice print, radio frequency identification (RFID), etc.) as well as easy pass technology, new identification cards including magnetic stripe cards, "smart cards" (i.e. identification cards that are embedded with either an antenna or a contact pad that is connected to a microprocessor and a memory chip or only a memory chip with non-programmable logic).
+
+**Risk to privacy: No**
+
+**Use of Surveillance** - this includes surveillance technologies such as audio/video recording devices, thermal imaging, recognition devices, RFID, surreptitious surveillance/interception, computer aided monitoring including audit trails, satellite surveillance etc.
+
+**Risk to privacy: Yes**
+
+**Use of automated personal information analysis, personal information matching and knowledge discovery techniques** - for the purposes of the Directive on PIA, government institutions are to identify those activities that involve the use of automated technology to analyze, create, compare, identify or extract personal information elements. Such activities would include personal information matching, record linkage, personal information mining, personal information comparison, knowledge discovery, information filtering or analysis. Such activities involve some form of artificial intelligence and/or machine learning to uncover knowledge (intelligence), trends/patterns or to predict behavior.
+
+**Risk to privacy: Yes**
+
+### G) Personal information transmission
+
+The personal information is transmitted using wireless technologies.
+
+**Level of risk to privacy: 4**
+
+**Details:**
+
+Individuals can submit their applications to the CRA electronically using My Account, a secure online portal, or a webform, hosted on Canada.ca via their personal wireless or non-wireless technology. Or, they can submit applications by calling a CRA contact centre using a land-based telephone a cellphone. The CRA then stores the protected information from the application in various CRA systems and databases that have access to other systems.
+
+Data transfers and exchanges:  
+All electronic transactions are securely transferred using encryption software ensuring that only the intended recipient can decrypt the file. In addition, all Internet-based portal applications require the use of a unique user ID and password. In limited and exceptional circumstances, the CRA may transfer personal information to a departmentally-approved and secure portable device with a higher level of encryption.
+
+### H) Potential risk that in the event of a privacy breach, there will be an impact on the individual or employee
+
+**Details:**
+
+If the personal information is compromised, it has the potential to cause financial harm and embarrassment to the affected individual, their spouse and their dependant or dependants. The affected individuals may also become a victim of identity theft and have their information used without their knowledge or consent.
+
+As a safeguard, the CRA continues to monitor for suspicious activities resulting from cyber attacks. The CRA has also put measures in place to identify high-risk accounts so it can intercept potentially suspicious applications.

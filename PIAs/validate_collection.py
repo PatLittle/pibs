@@ -31,6 +31,16 @@ def validate():
                 if capture['raw_path']:
                     assert digest(folder / capture['raw_path']) == capture['sha256']
         for pia in data['pias']:
+            assert pia['pib_count'] == len(set(pia['pib_ids']))
+            assert pia['cor_count'] == len(set(pia['cor_ids']))
+            assert set(pia['pib_ids']) == {r['id'] for r in pia['references']['pibs']}
+            assert set(pia['cor_ids']) == {r['id'] for r in pia['references']['classes_of_records']}
+            for lang in ('en','fr'):
+                source = pia['sources'].get(lang,{})
+                expected_words = source.get('word_count') if source.get('status') == 'exported' else None
+                assert pia['word_count_' + lang] == expected_words
+            primary = pia['word_count_en'] if pia['word_count_en'] is not None else pia['word_count_fr']
+            assert pia['word_count'] == primary
             assert pia['pairing_status'] == ('paired' if len(pia['sources']) == 2 else 'missing_counterpart')
             for lang, source in pia['sources'].items():
                 assert lang in ('en', 'fr')
@@ -61,6 +71,9 @@ def validate():
         paired += summary['paired_count']
         populated += bool(summary['pia_count'])
         totals.update(statuses)
+    assessment_index = list(csv.DictReader((ROOT / 'assessment_index.csv').open()))
+    assert len(assessment_index) == count
+    assert len({(r['institution_id'],r['pia_id']) for r in assessment_index}) == count
     assert manifest['organization_count'] == len(index)
     assert manifest['pia_count'] == count and manifest['paired_count'] == paired
     assert manifest['organizations_with_pias'] == populated

@@ -1,0 +1,402 @@
+﻿<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+<head>
+
+<!-- Web02 - JUS - Eng -->
+
+<script src="//assets.adobedtm.com/be5dfd287373/bb72b7edd313/launch-e34f760eaec8.min.js"></script> 
+<script src="https://hcaptcha.com/1/api.js" async defer></script>
+<meta charset="utf-8">
+<meta property="dcterms:accessRights" content="2"/>
+<meta property="dcterms:service" content="JUS-Internet"/>
+<meta content="width=device-width,initial-scale=1" name="viewport">
+<meta name="dcterms.creator" content="Government of Canada, Department of Justice, Electronic Communications">
+<meta name="dcterms.subject" content="justice, law, judicial system, legal system, legislation, statute, act, regulation, legislative process, amendment, canadian government" title="scheme">
+<meta name="dcterms.language" title="ISO639-2" content="eng">
+<link href="/GCWeb/assets/favicon.ico" rel="icon" type="image/x-icon">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="/themes-dist/GCWeb/css/theme.min.css">
+<link rel="stylesheet" type="text/css" href="/eng/css/site.css">	
+<link rel="stylesheet" type="text/css" href="/eng/css/laws-lois.css">
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.css?v=8">
+<link rel="stylesheet" type="text/css" href="/css/custom.css?v=7">
+
+<title>Privacy Impact Assessment (PIA) Summary of PeopleSoft Version 8.9 and Security Module</title>
+<meta name="dcterms.title" content="Privacy Impact Assessment (PIA) Summary of PeopleSoft Version 8.9 and Security Module" />
+<meta name="dcterms.issued" content="2025-07-29" title="W3CDTF" />
+<meta name="dcterms.modified" content='2026-02-05' title="W3CDTF">
+<meta name="description" content="Privacy Impact Assessment (PIA) Summary of PeopleSoft Version 8.9 and Security Module" />
+<!-- ScrollMagic plugin --> 
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script> 
+<script>
+	// init controller
+	var controller = new ScrollMagic.Controller();
+</script> 
+	
+<!-- Lazyload plugin --> 
+<script src="/js/jquery.min.js"></script> 
+<!-- End Lazyload plugin -->	
+
+<!-- Fading plugin --> 
+<script src="/js/jquery.indymasonry.js"></script> 
+<script src="/js/jquery.indyfadebox.js"></script> 
+<!-- End Fading plugin -->	
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body vocab="http://schema.org/" typeof="webPage">
+
+<nav>
+	<ul id="wb-tphp" class="wb-init wb-disable-inited">
+		<li class="wb-slc"><a class="wb-sl" href="#main-content">Skip to main content</a></li>
+		<li class="wb-slc"><a class="wb-sl" href="#wb-info">Skip to "About government"</a></li>
+		<li class="wb-slc"><a class="wb-sl" rel="alternate" href="?wbdisable=true">Switch to basic HTML version</a></li>
+	</ul>
+</nav>
+
+<header> 
+	<div id="wb-bnr" class="container">
+		<section id="wb-lng" class="text-right">
+			<h2 class="wb-inv">Language selection</h2>
+			<ul class="list-inline margin-bottom-none">
+				<li><a href="/eng/includes/changelanguage.aspx" lang="fr">Fran&ccedil;ais</a></li>
+			</ul>
+		</section>
+		<div class="row">
+			<div class="brand col-xs-5 col-md-4">
+				<a href="https://www.canada.ca/en.html" rel="external"><img src="/themes-dist/GCWeb/assets/sig-blk-en.svg" alt="Government of Canada" property="logo"></a>
+			</div>
+			<section id="wb-srch" class="col-lg-8 text-right">
+				<h2>Search</h2>
+				<form action="https://www.canada.ca/en/sr/srb.html" method="get" name="cse-search-box" role="search" class="form-inline ng-pristine ng-valid">
+					<div class="form-group">
+						<label for="wb-srch-q" class="wb-inv">Search Canada.ca</label>
+						<input name="cdn" value="canada" type="hidden">
+						<input name="st" value="s" type="hidden">
+						<input name="num" value="10" type="hidden">
+						<input name="langs" value="en" type="hidden">
+						<input name="st1rt" value="1" type="hidden">
+						<input name="s5bm3ts21rch" value="x" type="hidden">
+						<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="Search Canada.ca">
+						<input type="hidden" name="_charset_" value="UTF-8">
+						<datalist id="wb-srch-q-ac"> </datalist>
+					</div>
+					<div class="form-group submit">
+						<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
+					</div>
+				</form>
+			</section>
+		</div>
+	</div>
+<nav id="wb-cont-menu" class="gcweb-v2 gcweb-menu" typeof="SiteNavigationElement">
+	<div class="container">
+		<h2 class="wb-inv">Menu</h2>
+		<button type="button" aria-haspopup="true" aria-expanded="false"><span class="wb-inv">Main </span>Menu <span class="expicon glyphicon glyphicon-chevron-down"></span></button>
+		<ul role="menu" aria-orientation="vertical" data-ajax-replace="https://www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-en.html">
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/jobs.html">Jobs and the workplace</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="https://travel.gc.ca/">Travel and tourism</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/business.html">Business and industry</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/health.html">Health</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/defence.html">National security and defence</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="http://international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/finance.html">Money and finances</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.canada.ca/en/services/science.html">Science and innovation</a></li>
+		</ul>
+	</div>
+</nav>
+
+<div class="well well-sm brdr-rds-0 hght-inhrt">
+	<section class="alert alert-warning mrgn-bttm-0 mrgn-tp-sm mrgn-lft-xl mrgn-rght-sm">
+		<h3>Phone Scam Warning</h3>
+		<p><a href="/eng/contact/fraud.html">Fraudsters are pretending to be from the Department of Justice</a></p>
+	</section>
+</div>
+<nav id="wb-bc" property="breadcrumb">
+	<h2>Breadcrumb trail</h2>
+	<div class="container">
+		<div class="row">
+			<ol class="breadcrumb">
+				<li><a href="/eng/index.html">Home</a></li>
+				<li><a href="/eng/trans/index.html">Transparency</a></li>
+				<li><a href="/eng/trans/atip-aiprp/index.html">Access to Information and Privacy Office</a></li>
+			</ol>
+		</div>
+	</div>
+</nav>
+</header>
+<main property="mainContentOfPage" typeof="WebPageElement" class="container" id="main-content">
+	<div class="main-content">
+
+<h1 id="wb-cont" property="name">Privacy Impact Assessment (PIA) Summary of PeopleSoft Version 8.9 and Security Module</h1>
+
+<h2>Section I – <abbr title="Privacy Impact Assessment">PIA</abbr> Overview</h2>
+<ol>
+	<li>
+		<p><strong>Name of program or activity</strong>:</p>
+		<p>PeopleSoft Version 8.9 and Security Module</p>
+	</li>
+	<li>
+		<p><strong>Institution responsible for maintaining the application</strong>:</p>
+		<p>Department of Justice Canada</p>
+	</li>
+	<li>
+		<p><strong>Government official responsible for the privacy impact assessment</strong>:</p>
+		<p>Director General, Human Resources Branch</p>
+	</li>
+	<li>
+		<p><strong>Head of institution/delegate</strong>:</p>
+		<p>Assistant Deputy Minister, Management Sector and Chief Financial Officer (CFO)</p>
+	</li>
+	<li>
+		<p><strong>Description of program or activity</strong>:</p>
+		<p>PeopleSoft is a shared-systems initiative begun by Treasury Board in 1994. The Department of Justice (hereinafter referred to as the Department) was one of the original six departments to adhere to PeopleSoft as its Human Resources Management System (HRMS) back in 1996.</p>
+		<p>PeopleSoft records and provides information that assists in managing, developing, implementing, and advising on a wide variety of human resources (HR) management programs and policies including those in the areas of staffing, classification, labour relations, compensation, employment equity, <abbr title="Human Resources">HR</abbr> Planning and official languages. In addition, the application also provides self-service functionalities to users such a leave administration, training and security screening.</p>
+		<p>This program activity supports both of the Department's strategic outcomes. The high-quality services and support provided by internal services allow the Department to minimize corporate risks and support Government priorities.</p>
+		<p>To support internal services, of which <abbr title="Human Resources">HR</abbr> Management is a sub-sub program in the Department&rsquo;s Program Activity Architecture, PeopleSoft is utilized to support multiple <abbr title="Human Resources">HR</abbr> functions across the Department as well as the Public Prosecution Service of Canada.</p>
+		<p>Unique to the Department of Justice and a few other departments is the use of a security screening module within the application which assists in processing security screening applications of the Department of Justice employees.</p>
+		<p>Information collected in PeopleSoft includes sensitive information such as compensation information, name, date of birth and home address. Processing and assessing security screening applications of employees include self-admissions of criminal convictions, results from the Royal Canadian Mounted Police and the Canadian Security Intelligence Service, credit report results or other sensitive information which is contextually sensitive.</p>
+	</li>
+	<li>
+		<p><strong>Description of the class of record(s) associated with the program or activity</strong>:</p>
+		<p>There are multiple Standard Class of Records related to PeopleSoft, which are as follows:</p>
+		<ul class="mb-5">
+			<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-classes-records.html#prn940">Awards Pride and Recognition (PRN 940)</a></li>
+			<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-classes-records.html#prn919">Classification of Positions (PRN 919)</a></li>
+			<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-classes-records.html#prn941">Compensation and Benefits (PRN 941)</a></li>
+			<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-classes-records.html#prn942">Employment Equity and Diversity (PRN 942)</a></li>
+			<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-classes-records.html#prn944">Information Management (PRN 944)</a></li>
+			<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-classes-records.html#prn923">Official Languages (PRN 923)</a></li>
+			<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-classes-records.html#prn946">Performance Management Reviews (PRN 946)</a></li>
+			<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-classes-records.html#prn920">Recruitment and Staffing (PRN 920)</a></li>
+			<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-classes-records.html#prn936">Relocation (PRN 936)</a></li>
+			<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-classes-records.html#prn931">Security (PRN 931)</a></li>
+			<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-classes-records.html#prn927">Training and Development (PRN 927)</a></li>
+		</ul>
+	</li>
+	<li>
+		<p><strong>Personal information bank(s)</strong>:</p>
+		<p>There are multiple Personal Information Banks related to PeopleSoft, which are as follows:</p>
+		<ul class="mb-5">
+			<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-personal-information-banks.html#pse903">Attendance and Leave (PSE 903)</a></li>
+			<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-personal-information-banks.html#pse902">Staffing (PSE 902)</a></li>
+			<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-personal-information-banks.html#pse911">Discipline (PSE 911)</a></li>
+			<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-personal-information-banks.html#pse901">Employee Personnel Records (PSE 901)</a></li>
+			<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-personal-information-banks.html#pse918">Employee Equity and Diversity (PSE 918)</a></li>
+			<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-personal-information-banks.html#pse910">Grievances (PSE 910)</a></li>
+			<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-personal-information-banks.html#pse919">Harassment (PSE 919)</a></li>
+			<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-personal-information-banks.html#pse907">Occupational Safety and Health (PSE 907)</a></li>
+			<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-personal-information-banks.html#pse906">Official Languages (PSE 906)</a></li>
+			<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-personal-information-banks.html#pse904">Pay and Benefits (PSE 904)</a></li>
+			<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-personal-information-banks.html#pse912">Employee Performance Management Program (PSE 912)</a></li>
+			<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-personal-information-banks.html#pse920">Recognition Program (PSE 920)</a></li>
+			<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-personal-information-banks.html#pse905">Training and Development (PSE 905)</a></li>
+			<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-personal-information-banks.html#pse915">Values and Ethics Codes for the Public Sector and Organizational Code(s) of Conduct (PSE 915)</a></li>
+			<li><a href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-personal-information-banks.html#psu917">Personnel Security Screening (PSU 917)</a></li>
+			<li><a href="https://www.rcmp-grc.gc.ca/en/personal-information-banks-0#ppu065"><abbr title="Royal Canadian Mounted Police">RCMP</abbr> – Security/Reliability Screening Records (CMP PPU 065)</a></li>
+			<li><a href="https://www.canada.ca/en/security-intelligence-service/corporate/transparency/access-to-information-and-privacy/info-source.html#:~:text=CSIS%20DDS%20052-,Employee%20Security,-Description%3A%20The"><abbr title="Canadian Security Intelligence Service">CSIS</abbr> Employee Security (SIS PPE 815)</a></li>
+		</ul>
+	</li>
+	<li>
+		<p><strong>Legal authority for the program or activity</strong>:</p>
+		<p>The authority over <abbr title="Human Resources">HR</abbr> matters in government is divided between the Treasury Board Secretariat (TBS) and the Public Service Commission. The Public Service Commission has responsibility under section 11 of the <a href="http://laws-lois.justice.gc.ca/eng/acts/P-33.01/"><cite>Public Service Employment Act</cite></a> (PSEA) for staffing management, including staffing delegation, priority administration and workforce adjustment, political activities, employment equity and the conduct of audits and investigations.</p>
+		<p><abbr title="Treasury Board Secretariat">TBS</abbr> is responsible for <abbr title="Human Resources">HR</abbr> management for public servants in the federal public administration under sections 7, 11, 11.1, 12, 12.1 and 12.2 of the <a href="http://laws-lois.justice.gc.ca/eng/acts/f-11/"><cite>Financial Administration Act</cite></a> (FAA). The Department is part of the core federal administration. There is provision under subsection 15(1) of the <abbr title="Public Service Employment Act">PSEA</abbr> and subsection 12(1) of the FAA for delegation of certain authority to deputy ministers of departments and under subsection 12.2 of the FAA for sub-delegation from the deputy minister to other officials.</p>
+	</li>
+	<li>
+		<p><strong>Summary of the project/initiative/change</strong>:</p>
+		<p>The PeopleSoft Government of Canada (GC) <abbr title="Human Resources Management System">HRMS</abbr> is the <abbr title="Human Resources">HR</abbr> Management System endorsed by the Government of Canada. The <abbr title="Human Resources Management System">HRMS</abbr>-PeopleSoft application tracks all Human Resources Management activity as well as all workforce data. It is used to monitor policy applications, departmental progress vis-à-vis the Management Accountability Framework as well as responding to mandatory central agency reporting and departmental reporting requirements (i.e. demographic data for <abbr title="Human Resources">HR</abbr> planning purposes), to maintain key human resources information both current and historical on all departmental employees. The <abbr title="Human Resources Management System">HRMS</abbr>-PeopleSoft application is necessary for the effective management of the human resources of the Department. It is also used by specific corporate units for particular workflows, such as the Personnel Security Service Unit for the application and completion of security screening applications, the Finance Division for delegation tracking, and others.</p>
+		<p>A <abbr title="Privacy Impact Assessment">PIA</abbr> has never been authored on the Department&rsquo;s use of PeopleSoft, which has been utilized by the department since 1996; prior to <abbr title="Privacy Impact Assessment">PIA</abbr> requirements in the Privacy Impact Assessment Policy.</p>
+		<p>In February 2013, PeopleSoft implemented significant new functionality to the Security module which supports the security screening processes for employees and employee applicants.</p>
+		<p>The Personnel Security module began collecting and storing almost all information related to both the security screening process and employees. While this cluster of personal information has always been collected by <abbr title="The Department of Justice Canada">JUS</abbr> in the past, it had never been maintained in an information system nor was a self-service function available to employees.</p>
+		<p>The current <abbr title="Privacy Impact Assessment">PIA</abbr> addresses the overall functionality of PeopleSoft at the Department as well as detailed description of the security module and how it supports manual processes by security screening officers.</p>
+	</li>
+</ol>
+
+<h2>Section II – <abbr title="Privacy Impact Assessment">PIA</abbr> Risk Area Identification and Categorization</h2>
+<p>The following section summarizes risks that were identified in the <abbr title="Privacy Impact Assessment">PIA</abbr> regarding the changes made to PeopleSoft.</p>
+<p>A risk scale has been included for each section. The numerical risk scale is presented in ascending order, the first level (1) representing the lowest level of potential risk for the risk area and the fourth level (4) representing the highest level of potential risk. Please refer to Appendix C of the <a href="http://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=18308&section=text"><cite><abbr title="Treasury Board Secretariat">TBS</abbr> Directive on Privacy Impact Assessments</cite></a> to learn more about the risk scale.</p>
+<ol type="A">
+	<li>
+		<p><strong>Administration of Programs, Activity and Services</strong></p>
+		<p>Personal information is used to make decisions that directly affect the individual (i.e. determining eligibility for programs including authentication for accessing programs/services, administering program payments, overpayments, or support to clients, issuing or denial of permits/licenses, processing appeals, etc.)</p>
+		<p>Personal information stored in PeopleSoft are used to facilitate decisions about staffing positions, pay, security screening and other facets of <abbr title="Human Resources">HR</abbr>. Therefore, a level 2 risk was identified.</p>
+	</li>
+	<li>
+		<p><strong>Type of personal information involved</strong></p>
+		<p>Social Insurance Number, medical, financial or other sensitive personal information and/or the context surrounding the personal information is sensitive. Personal information of minors or incompetent individuals or involving a representative acting on behalf of the individual.</p>
+		<p>Information collected in PeopleSoft includes sensitive information such as compensation information, name, date of birth and address which are sensitive in the area of identity theft. For these reasons a level 3 risk applies. Additionally, the Department uses PeopleSoft for processing and assessing security screening applications of its employees which may include self-admissions of criminal convictions, results from the Royal Canadian Mounted Police (RCMP) and Canadian Security Intelligence Service (CSIS), credit report results, or other sensitive information which is contextually sensitive. Although data stored in PeopleSoft regarding <abbr title="Royal Canadian Mounted Police">RCMP</abbr>, <abbr title="Canadian Security Intelligence Service">CSIS</abbr>, and credit report results is limited to a positive or negative response data element (list of values), such a response identifies highly sensitive information. Therefore, a level 4 risk has also been assessed.</p>
+	</li>
+	<li>
+		<p><strong>Program or Activity Partners and Private Sector Involvement</strong></p>
+		<p>Within the institution (amongst one or more programs within the same institution) and with other federal institutions.</p>
+		<p>PeopleSoft is used by various units within the Department to process pay, track awards, submit/approve training and leave, process security screening activities, and other human resources functions. For these reasons, a level 1 risk has been assessed.</p>
+	</li>
+	<li>
+		<p><strong>Duration of the Program or Activity</strong></p>
+		<p>Long-term program – existing program that has been modified or is established with no clear &ldquo;sunset&rdquo;.</p>
+		<p>The Department&rsquo;s use of PeopleSoft is a long-term solution, therefore, a level 3 risk has been assessed.</p>
+	</li>
+	<li>
+		<p><strong>Program Population</strong></p>
+		<p>The program affects all employees for internal administrative purposes. Please note that the personal information of other individuals, references and emergency contacts, is also collected, but only insofar that they relate to the employee. Therefore, the administrative purpose remains internal.</p>
+		<p>The use of PeopleSoft at the Department affects all employees for various internal purposes, including, but not limited to pay, leave, staffing, training, and security screening. For this reason, a level 2 risk has been assessed.</p>
+	</li>
+	<li>
+		<p><strong>Technology and Privacy</strong></p>
+		<p>The program requires modifications to information technology (IT) legacy systems and/or services.</p>
+		<p>The program will use automated personal information analysis, personal information matching and knowledge discovery techniques. Such activities would include personal information matching, record linkage, personal information mining, personal information comparison, knowledge discovery, information filtering or analysis, and may involve some form of artificial intelligence and/or machine learning to uncover knowledge (intelligence), trends/patterns or to predict behaviour.</p>
+	</li>
+	<li>
+		<p><strong>Personal Information Transmission</strong></p>
+		<p>The personal information is used in a system that has connections to at least one other system. The program or activity involves one or more connections to the Internet, Intranet or any other system. Circulation of hardcopy documents is not controlled. The personal information may be transferred to a portable device or printed. USB key, diskette, laptop computer, any transfer of the personal information to a different medium.</p>
+		<p>PeopleSoft has connections to several government information systems that are related to the compensation and employment equity of the federal workforce. All connections to other systems utilize appropriate security measures to facilitate the data transfer.</p>
+	</li>
+	<li>
+		<p><strong>Potential risk that in the event of a privacy breach, there will be an impact on the individual or employee</strong></p>
+		<p>If a privacy breach were to occur on personal information stored in PeopleSoft it could have reputational and financial harm to the individual. The data stored in PeopleSoft contains sensitive financial information and personal details that could be used to support identity theft. Moreover, limited information is stored in PeopleSoft regarding information required for the processing of security screening, such as the applicant&rsquo;s self-admission of criminal convictions (if any), and response statuses from the <abbr title="Royal Canadian Mounted Police">RCMP</abbr>, <abbr title="Canadian Security Intelligence Service">CSIS</abbr> and credit bureau. Such information could moderately to severely damage an individual&rsquo;s reputation and livelihood. There may be a need to evaluate the possibility of putting in place a tracking system of individuals accessing the personal information in order to prevent moles.</p>
+	</li>
+	<li>
+		<p><strong>Potential risk that in the event of a privacy breach, there will be an impact on the institution</strong></p>
+		<p>A privacy breach of employee information could have serious reputational harm on the Department. Depending on the scope and severity of the privacy breach, the Department is a department grounded in professionalism and confidentiality. Having a widespread or severe privacy breach would have significant harm to the Department. There may be a need to evaluate the possibility of putting in place a tracking system of individuals accessing the personal information in order to prevent moles.</p>
+	</li>
+</ol>
+
+<h2>Section III – Conclusion</h2>
+<p>The following represents the summary of privacy risks, analyses, and recommendations for a post <abbr title="Privacy Impact Assessment">PIA</abbr> action plan. This section incorporates risks that were identified in the Threat Risk Assessment (TRA) of PeopleSoft (2012) and the internal audit of PeopleSoft (2011). The issues are enumerated based on the assessed risk (high, medium, and low).</p>
+<ol>
+	<li>
+		<p><strong>Safeguards/Use of Personal Information</strong>: The Department currently maintains a process whereby terminated or separated employees&rsquo; access to PeopleSoft results in an immediate notification to the PeopleSoft Team, which inactivates the user ID within one business day. However, a similar notification is not made for the beginning/end of acting assignments, promotions, or demotions. This results in employees having inappropriate user rights. In some instances, the delay is several weeks, therefore, this is considered a medium risk. The PeopleSoft Team is currently developing a solution that will result in an immediate notification of all such staff actions so that user rights can be reviewed and modified as needed and in a timely fashion (one business day). The new solution is expected to be completed by March 2014.</p>
+	</li>
+	<li>
+		<p><strong>Safeguards</strong>: The PeopleSoft application stores and processes Protected B information; however, the application&rsquo;s Certification and Accreditation (C&amp;A) expired in December, 2008. Considering the expanded functionality of the security module was implemented in 2013, the lack of a <abbr title="Certification and Accreditation">C&amp;A</abbr> for the application is a medium risk.</p>
+	</li>
+	<li>
+		<p><strong>Safeguards</strong>: There is a risk that the Department staff will not afford the appropriate security safeguards to PeopleSoft data due to a lack of an up-to-date security policy and robust security awareness deliverables. First, in the Department’s internal audit of PeopleSoft in March 2011, compensation and financial data was misclassified in the Department&rsquo;s Information Assurance Guide as being Protected A and not Protected B.</p>
+		<p>Second, the internal audit states that more than 100 reports are available in PeopleSoft, which utilize a header stating &ldquo;PROTECTED&rdquo; but does not specify whether the data is Protected A or Protected B. As a next step, Human Ressoures Branch (HRB) will review their Reports Library to identify the level of protection for each individual report.</p>
+		<p>Third, since at least 2011, security awareness deliverables have not been provided to staff regarding <abbr title="Human Resources">HR</abbr> data or PeopleSoft in general. In fact, general security awareness to new employees (during orientation training sessions) is also inadequate.</p>
+		<p>And fourth, existing security policies within the Department need to be updated so that they are properly aligned with the <cite>Policy on Government Security</cite> and the <abbr title="Treasury Board Secretariat">TBS</abbr> policy suite renewal of 2009.</p>
+		<p>This risk is exacerbated by the fact that the Security module now collects and stores additional sensitive data on employees, such as self-reported criminal convictions, criminal records check result from the <abbr title="Royal Canadian Mounted Police">RCMP</abbr>, security assessment results from <abbr title="Canadian Security Intelligence Service">CSIS</abbr>, and credit report results. Therefore, based on these multiple factors, the lack of a properly aligned security policy and security awareness program is considered a medium risk.</p>
+	</li>
+	<li>
+		<p><strong>Safeguards</strong>: As of November 2013, the privacy breach procedures for the Department were in draft form. It is important that these procedures are approved and communicated with staff. In conjunction with the security policy and awareness risks (see #3 above) and recent privacy breaches this risk is considered medium.</p>
+	</li>
+	<li>
+		<p><strong>Use of Personal Information/Safeguards</strong>: There is a risk that non-Department of Justice employees&rsquo; access to Department of Justice employee data will result in a privacy breach. Currently, the Department of Justice lawyers co-locate across most departments in Legal Services Units (LSUs) and are provided support staff by client departments. Some of these support staff are granted access to the Department&rsquo;s PeopleSoft application. Currently, there is a lack of guidelines, policies, and procedures which would limit the access of these non-Department of Justice support staff. The <abbr title="Threat Risk Assessment">TRA</abbr> for PeopleSoft (March 2012) identified a risk in that strict guidelines are not in place for the granting of access privileges to these non-Department of Justice staff. The Department is aware of this risk and has been formulating a guideline to address it. It is expected to be completed by March 2014. This risk is considered low.</p>
+	</li>
+	<li>
+		<p><strong>Use of Personal Information</strong>: PeopleSoft data is used for non-administrative purposes (e.g. research, statistics, audit, evaluation), but a Privacy Protocol for Non-Administrative Purposes does not exist, as required by section 6.2.15 of the Policy on Privacy Protection. The protocol document will be drafted by the departmental Access to Information and Privacy (ATIP) Office and is expected to be finalized and communicated by them. In the interim, managers are directed by the <abbr title="Access to Information and Privacy">ATIP</abbr> office to general <abbr title="Treasury Board Secretariat">TBS</abbr> policies and directives as well as to the information provided to them in <abbr title="Access to Information and Privacy">ATIP</abbr> awareness sessions when establishing their own practices. This risk is considered low.</p>
+	</li>
+	<li>
+		<p><strong>Retention and Disposal</strong>: The Department has not formally documented retention and disposal procedures for data stored in PeopleSoft. This results in information being maintained by the <abbr title="Department of Justice Canada">JUS</abbr> with no definitive plan in place to destroy data past established time limits of an Records Disposition Authority (RDA). However, due to the technical difficulties related to archiving and deleting data considered to be part of the base product, even if procedures were in place the Department would be unable to follow them as the <abbr title="Government of Canada">GC</abbr> <abbr title="Human Resources Management System">HRMS</abbr> Program Centre has not yet established archival and destruction business requirements for the base product.</p>
+		<p>The only procedures that could be developed by the Department are those related to modules that are not considered part of the base product. For the Department, this is restricted to the following modules: FastTrack <abbr title="Human Resources">HR</abbr>, Performance Pay, and Security. However, it is possible that FastTrack and Performance Pay would present difficulties based on how they interact with the base product.</p>
+		<p>The Department will initiate a project to determine if a schedule can be developed for all three modules and, if feasible, establish procedures for the destruction of related information. This risk is considered low.</p>
+	</li>
+</ol>
+
+</div>
+<div class="clearfix"></div>
+<dl id="wb-dtmd" class="no-print mb-5 mt-3">
+	<dt>Date modified:&#32;</dt>
+	<dd>
+		<time property="dateModified">
+2026-02-05
+		</time>
+	</dd>
+</dl>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+<script src="/themes-dist/wet-boew/js/wet-boew.min.js"></script>
+<script src="/themes-dist/GCWeb/js/theme.min.js"></script>
+</main>
+<footer id="wb-info">
+	<div class="gc-contextual">
+		<div class="container">
+			<nav class="wb-navcurr pb-4 pt-4">
+				<h3 class="mt-4">Department of Justice Canada</h3>
+				<ul class="list-unstyled colcount-sm-2 colcount-md-3">
+					<li><a href="/eng/fl-df/index.html">Family Law</a></li>
+					<li><a href="/eng/cj-jp/index.html">Criminal Justice</a></li>
+					<li><a href="/eng/fund-fina/index.html">Funding</a></li>
+					<li><a href="/eng/csj-sjc/index.html">Canada's System of Justice</a></li>
+					<li><a href="https://laws-lois.justice.gc.ca/eng/" rel="external">Laws</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+
+	<div class="landscape">
+		<div class="container">
+			<nav class="wb-navcurr pb-3 pt-4">
+				<h3 class="mt-3">Government of Canada</h3>
+				<ul class="list-unstyled colcount-sm-2 colcount-md-3">
+					<li><a href="https://www.canada.ca/en/contact.html" rel="external">All contacts</a></li>
+					<li><a href="https://www.canada.ca/en/government/dept.html" rel="external">Departments and agencies</a></li>
+					<li><a href="https://www.canada.ca/en/government/system.html" rel="external">About government</a></li>
+				</ul>
+				
+				<h4><span class="wb-inv">Themes and topics</span></h4>
+				<ul class="list-unstyled colcount-sm-2 colcount-md-3">
+					<li><a href="https://www.canada.ca/en/services/jobs.html" rel="external">Jobs</a></li>
+					<li><a href="https://www.canada.ca/en/services/immigration-citizenship.html" rel="external">Immigration and citizenship</a></li>
+					<li><a href="https://travel.gc.ca/" rel="external">Travel and tourism</a></li>
+					<li><a href="https://www.canada.ca/en/services/business.html" rel="external">Business</a></li>
+					<li><a href="https://www.canada.ca/en/services/benefits.html" rel="external">Benefits</a></li>
+					<li><a href="https://www.canada.ca/en/services/health.html" rel="external">Health</a></li>
+					<li><a href="https://www.canada.ca/en/services/taxes.html" rel="external">Taxes</a></li>
+					<li><a href="https://www.canada.ca/en/services/environment.html" rel="external">Environment and natural resources</a></li>
+					<li><a href="https://www.canada.ca/en/services/defence.html" rel="external">National security and defence</a></li>
+					<li><a href="https://www.canada.ca/en/services/culture.html" rel="external">Culture, history and sport</a></li>
+					<li><a href="https://www.canada.ca/en/services/policing.html" rel="external">Policing, justice and emergencies</a></li>
+					<li><a href="https://www.canada.ca/en/services/transport.html" rel="external">Transport and infrastructure</a></li>
+					<li><a href="https://international.gc.ca/world-monde/index.aspx?lang=eng" rel="external">Canada and the world</a></li>
+					<li><a href="https://www.canada.ca/en/services/finance.html" rel="external">Money and finance</a></li>
+					<li><a href="https://www.canada.ca/en/services/science.html" rel="external">Science and innovation</a></li>
+					<li><a href="https://www.canada.ca/en/services/indigenous-peoples.html" rel="external">Indigenous peoples</a></li>
+					<li><a href="https://www.canada.ca/en/services/veterans.html" rel="external">Veterans and military</a></li>
+					<li><a href="https://www.canada.ca/en/services/youth.html" rel="external">Youth</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div class="brand">
+		<div class="container">
+			<div class="row">
+				<nav class="col-md-9 col-lg-10 ftr-urlt-lnk pb-0">
+					<ul>
+						<li><a href="https://www.canada.ca/en/social.html" rel="external">Social media</a></li>
+						<li><a href="https://www.canada.ca/en/mobile.html" rel="external">Mobile applications</a></li>
+						<li><a href="https://www.canada.ca/en/government/about.html" rel="external">About Canada.ca</a></li>
+						<li><a href="https://www.canada.ca/en/transparency/terms.html" rel="external">Terms and conditions</a></li>
+						<li><a href="https://www.canada.ca/en/transparency/privacy.html" rel="external">Privacy</a></li>
+					</ul>
+				</nav>
+				<div class="col-xs-6 visible-sm visible-xs tofpg">
+					<a href="#main-content">Top of Page <span class="glyphicon glyphicon-chevron-up"></span></a>
+				</div>
+				<div class="col-xs-6 col-md-3 col-lg-2 text-right">
+					<img src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg" alt="Symbol of the Government of Canada">
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- Do not remove - this Adobe Analytics tag - STARTS --> 	
+<script>_satellite.pageBottom();</script>
+<!-- Do not remove - this Adobe Analytics tag - STARTS -->
+<script>
+	document.addEventListener("DOMContentLoaded", function(){
+		var hash = window.location.hash;
+		if(hash == "#thank-you-message") {
+			$( "#thank-you-message1" ).addClass( "hide" );
+			$( "#thank-you-message2" ).removeClass( "hide" );
+		}
+	});
+</script>
+</body>
+</html>

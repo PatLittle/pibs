@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "collector_version": 1,
-  "collected_at_utc": "2026-11-12T01:50:43.099474+00:00",
+  "collector_version": 2,
+  "collected_at_utc": "2026-11-12T05:50:15.249404+00:00",
   "institution_id": "ati-schedule-i-parole-board-of-canada",
   "gc_orgID": "2267.0",
   "open_canada_org_id": "6AF7EAE0-2351-43BB-AD44-262BDDD45E08",
@@ -9,7 +9,7 @@
   "name_en": "Parole Board of Canada",
   "name_fr": "Commission des libérations conditionnelles du Canada",
   "registry_membership": "current_registry",
-  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
   "list_pages": {
     "en": {
       "indexed_url": "https://www.canada.ca/en/parole-board/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessments.html",
@@ -133,7 +133,9 @@
           "title": "PIA Summary for the Documentum Interim E-file Project",
           "conversion": "markdownify",
           "text_sha256": "9219d6bd63d82099657ac93e0ca236556e2e577b943f15a52450230d0a24ce5e",
-          "word_count": 212
+          "word_count": 212,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/commission-liberations-conditionnelles/organisation/transparence/access-a-information-et-protection-des-renseignements-personnels/evaluations-des-facteurs-relatifs-a-la-vie-privee/resume-de-projet-transitoire-du-dossier-electronique.html",
@@ -184,9 +186,24 @@
           "title": "Résumé de l'EFRVP pour le projet transitoire du dossier électronique dans Documentum",
           "conversion": "markdownify",
           "text_sha256": "9d12ecb0b9a974472e56f04d7d92ed6e6686f3ee999c1ed33070aa0f55ee6e5e",
-          "word_count": 326
+          "word_count": 326,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 212,
+      "word_count_fr": 326,
+      "word_count_language": "en",
+      "word_count": 212
     },
     {
       "pia_id": "pia-f76eaea8a957",
@@ -250,7 +267,9 @@
           "title": "PIA Summary for the Integrated Decision System (IDS)",
           "conversion": "markdownify",
           "text_sha256": "5abce14e2fea799470ff719cdaa5d3cd7abe5067aeb6e01b02b77970105253cd",
-          "word_count": 217
+          "word_count": 217,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/commission-liberations-conditionnelles/organisation/transparence/access-a-information-et-protection-des-renseignements-personnels/evaluations-des-facteurs-relatifs-a-la-vie-privee/resume-efrvp.html",
@@ -301,9 +320,24 @@
           "title": "Résumé de l'EFRVP pour le système intégré des décisions (SID)",
           "conversion": "markdownify",
           "text_sha256": "aa41cee26f650f65927acb1ebce23c0372c4c1bddec097630ffbb99c2a6f4d1f",
-          "word_count": 316
+          "word_count": 316,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 217,
+      "word_count_fr": 316,
+      "word_count_language": "en",
+      "word_count": 217
     }
   ],
   "summary": {

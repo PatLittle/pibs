@@ -11,6 +11,7 @@ from datetime import date
 from pathlib import Path
 
 from scripts.build_pia_site import build as build_pia_assets
+from PIAs.reference_extraction import enrich_collections
 
 
 SITE_DATA = Path("site/data")
@@ -26,6 +27,7 @@ def percent(numerator: int, denominator: int) -> float:
 
 
 def main() -> None:
+    enrich_collections()
     build_pia_assets()
     SITE_DATA.mkdir(parents=True, exist_ok=True)
     copies = {

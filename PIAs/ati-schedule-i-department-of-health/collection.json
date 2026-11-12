@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "collector_version": 1,
-  "collected_at_utc": "2026-11-12T01:50:32.009275+00:00",
+  "collector_version": 2,
+  "collected_at_utc": "2026-11-12T05:49:52.546133+00:00",
   "institution_id": "ati-schedule-i-department-of-health",
   "gc_orgID": "2228.0",
   "open_canada_org_id": "BD26DB5E-82D2-42C1-99BB-08FCF6068FEE",
@@ -9,7 +9,7 @@
   "name_en": "Department of Health",
   "name_fr": "Ministère de la Santé",
   "registry_membership": "current_registry",
-  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
   "list_pages": {
     "en": {
       "indexed_url": "https://www.canada.ca/en/health-canada/corporate/about-health-canada/activities-responsibilities/access-information-privacy/privacy.html",
@@ -133,7 +133,11 @@
           "title": "Canadian Dental Care Plan (CDCP) Phase 3 PIA (Updated October 2025)",
           "conversion": "markdownify",
           "text_sha256": "82d44324699b1af80d34677c368a52461777b67a0f351b2cc14c0be527cef004",
-          "word_count": 243
+          "word_count": 243,
+          "pib_ids": [
+            "HC PPU 440"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/protection-renseignements-personnels/phase-3-regime-canadien-soins-dentaires-mise-jour-octobre-2025.html",
@@ -184,9 +188,57 @@
           "title": "Phase 3 de l’EFVP du Régime canadien de soins dentaires (RCSD) (mise à jour en octobre 2025)",
           "conversion": "markdownify",
           "text_sha256": "f4726c0224b2a8d94edea54d00e528767e351bbc23bc8702f840e8c540388bfc",
-          "word_count": 330
+          "word_count": 330,
+          "pib_ids": [
+            "HC PPU 440"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "HC PPU 440",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-health",
+                "record_id": "HC PPU 440"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-health/pia-e84dc72be333_en.md",
+                "line": 32,
+                "mention": "HC PPU 440",
+                "method": "explicit_pib_id",
+                "excerpt": "Info Source describes how HC manages your personal information. Refer to the personal information bank: HC PPU 440 - Canadian Dental Care Plan."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-health/pia-e84dc72be333_fr.md",
+                "line": 32,
+                "mention": "SC PPU 440",
+                "method": "explicit_pib_id",
+                "excerpt": "Info Source décrit comment SC gère vos renseignements personnels. Consultez le Fichier de renseignements personnels : SC PPU 440 - Régime canadien de soins dentaires."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "HC PPU 440"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 243,
+      "word_count_fr": 330,
+      "word_count_language": "en",
+      "word_count": 243
     },
     {
       "pia_id": "pia-567726e01fde",
@@ -250,7 +302,11 @@
           "title": "The Conflict of Interest Program",
           "conversion": "markdownify",
           "text_sha256": "1ed5fb11eaebedc35d12dcb28d2a5728bc0b83ec9247cab343e819ba2106d325",
-          "word_count": 459
+          "word_count": 459,
+          "pib_ids": [
+            "PSE 915"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/protection-renseignements-personnels/programme-conflits-interets.html",
@@ -301,9 +357,57 @@
           "title": "Programme sur les conflits d’intérêts",
           "conversion": "markdownify",
           "text_sha256": "9aff9aba1877cd2f05283bb236f0f726df81b3fd159221de6744cbd72833c56d",
-          "word_count": 592
+          "word_count": 592,
+          "pib_ids": [
+            "PSE 915"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSE 915",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 915"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-health/pia-567726e01fde_en.md",
+                "line": 41,
+                "mention": "PSE 915",
+                "method": "explicit_pib_id",
+                "excerpt": "Info Source describes how HC manages your personal information. Refer to the personal information bank PSE 915 - Values and Ethics Codes for the Public Sector and Organizational code(s) of Conduct."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-health/pia-567726e01fde_fr.md",
+                "line": 41,
+                "mention": "POE 915",
+                "method": "explicit_pib_id",
+                "excerpt": "Info Source décrit comment SC gère vos renseignements personnels. Consultez le fichier de renseignements personnels POE 915 - Codes de valeurs et d'éthique du secteur publique et Code(s) de conduite organisationnel(s)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "PSE 915"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 459,
+      "word_count_fr": 592,
+      "word_count_language": "en",
+      "word_count": 459
     },
     {
       "pia_id": "pia-04e30812c778",
@@ -367,7 +471,11 @@
           "title": "Biocides Compliance and Enforcement (C&E) Program",
           "conversion": "markdownify",
           "text_sha256": "e3895f42890808bd3208ceba3041fcba3f0407628a62b71caf7ff70b794f8539",
-          "word_count": 659
+          "word_count": 659,
+          "pib_ids": [
+            "HC PPU 450"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/protection-renseignements-personnels/programme-conformite-et-application-lois-biocides.html",
@@ -418,9 +526,57 @@
           "title": "Programme de conformité et d’application des lois (C et A) relatives aux biocides",
           "conversion": "markdownify",
           "text_sha256": "13fc9f2bdf87e53705d3499e919f5b23f61a70d12b145f05a5445258b4b7e5c6",
-          "word_count": 917
+          "word_count": 917,
+          "pib_ids": [
+            "HC PPU 450"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "HC PPU 450",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-health",
+                "record_id": "HC PPU 450"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-health/pia-04e30812c778_en.md",
+                "line": 50,
+                "mention": "HC PPU 450",
+                "method": "explicit_pib_id",
+                "excerpt": "Info Source describes how HC manages your personal information. Refer to the personal information bank: HC PPU 450 - Biocides Complaints and Enforcement Service for Canada"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-health/pia-04e30812c778_fr.md",
+                "line": 50,
+                "mention": "SC PPU 450",
+                "method": "explicit_pib_id",
+                "excerpt": "Info Source décrit comment SC gère vos renseignements personnels. Consultez le fichier de renseignements personnels SC PPU 450 - Conformité et application des lois relatives aux biocides"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "HC PPU 450"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 659,
+      "word_count_fr": 917,
+      "word_count_language": "en",
+      "word_count": 659
     },
     {
       "pia_id": "pia-1f8963fd089e",
@@ -484,7 +640,9 @@
           "title": "Licences and Registration of Controlled Substances and Precursor Chemicals under the Controlled Drugs and Substances Act",
           "conversion": "markdownify",
           "text_sha256": "e240492d490e6fec9c82e9d76b35116b988711c19d4f04e1db548da18f9c00e2",
-          "word_count": 677
+          "word_count": 677,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/protection-renseignements-personnels/licences-enregistrement-controlees-precurseurs-chimiques-loi-reglementant-drogues-substances.html",
@@ -535,9 +693,24 @@
           "title": "Licences et enregistrement des substances contrôlées et des précurseurs chimiques en vertu de la Loi règlementant certaines drogues et autres substances",
           "conversion": "markdownify",
           "text_sha256": "f9cdf40d551702ac55fae64905808791dab948bd6524666b0f2b74268e392aa1",
-          "word_count": 844
+          "word_count": 844,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 677,
+      "word_count_fr": 844,
+      "word_count_language": "en",
+      "word_count": 677
     },
     {
       "pia_id": "pia-d0cefd0ba983",
@@ -601,7 +774,9 @@
           "title": "Reporting of Suspicious Transactions for Controlled Substances and Precursor Chemicals",
           "conversion": "markdownify",
           "text_sha256": "5baff4a48ca9639a6abb94e80d465ec99bd4582a73f49d6fcb8b15072b06c4f7",
-          "word_count": 473
+          "word_count": 473,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/protection-renseignements-personnels/declaration-operations-douteuses-concernant-substances-controlees-precurseurs-chimiques.html",
@@ -652,9 +827,24 @@
           "title": "Déclaration des opérations douteuses concernant les substances contrôlées et les précurseurs chimiques",
           "conversion": "markdownify",
           "text_sha256": "70308556e67b6a71e5694a762eab3d1f864c5e7a88ec63e2c62c8e278048c8ab",
-          "word_count": 627
+          "word_count": 627,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 473,
+      "word_count_fr": 627,
+      "word_count_language": "en",
+      "word_count": 473
     },
     {
       "pia_id": "pia-51c6a1047dae",
@@ -718,7 +908,9 @@
           "title": "Subsection 56(1) Exemptions under the Controlled Drugs and Substances Act",
           "conversion": "markdownify",
           "text_sha256": "4184c9f9de8daaea6de778999d1cdfb602bdbb2bedaa9267d74031a0aa269f89",
-          "word_count": 485
+          "word_count": 485,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/protection-renseignements-personnels/paragraphe-56-1-exemptions-prevues-loi-reglementant-certaines-drogues-autres-substances.html",
@@ -769,9 +961,24 @@
           "title": "Paragraphe 56(1) Exemptions prévues par la Loi réglementant certaines drogues et autres substances",
           "conversion": "markdownify",
           "text_sha256": "d5fd56f8d062a81114dcea7f2caa719b1f63955d2be283dccbd039072c046222",
-          "word_count": 640
+          "word_count": 640,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 485,
+      "word_count_fr": 640,
+      "word_count_language": "en",
+      "word_count": 485
     },
     {
       "pia_id": "pia-56144cdc64c8",
@@ -835,7 +1042,11 @@
           "title": "Privacy impact assessment: CDCP Member eligibility review",
           "conversion": "markdownify",
           "text_sha256": "c759586523584be5dc2de92600b2072516ee353ef049120290edfd7264f301f6",
-          "word_count": 309
+          "word_count": 309,
+          "pib_ids": [
+            "HC PPU 440"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/protection-renseignements-personnels/examen-admissibilite-membres-regime-canadien-soins-dentaires.html",
@@ -886,9 +1097,57 @@
           "title": "Évaluation des facteurs relatifs à la vie privées : L'examen de l'admissibilité des membres du RCSD",
           "conversion": "markdownify",
           "text_sha256": "e279c48b608058c4341448bfdfa1c9ecb7f44dc4eec0c34f2e06d200e402776a",
-          "word_count": 419
+          "word_count": 419,
+          "pib_ids": [
+            "HC PPU 440"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "HC PPU 440",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-health",
+                "record_id": "HC PPU 440"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-health/pia-56144cdc64c8_en.md",
+                "line": 30,
+                "mention": "HC PPU 440",
+                "method": "explicit_pib_id",
+                "excerpt": "The relevant PIB for this activity is the CDCP PIB – HC PPU 440."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-health/pia-56144cdc64c8_fr.md",
+                "line": 30,
+                "mention": "SC PPU 440",
+                "method": "explicit_pib_id",
+                "excerpt": "Le FRP pour cette activité est Régime canadien de soins dentaires – SC PPU 440"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "HC PPU 440"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 309,
+      "word_count_fr": 419,
+      "word_count_language": "en",
+      "word_count": 309
     },
     {
       "pia_id": "pia-fdf45e43d4c9",
@@ -952,7 +1211,9 @@
           "title": "Canadian Dental Care Plan (CDCP): Phase 2",
           "conversion": "markdownify",
           "text_sha256": "fb91a3c4a16a868d137907dcb4ce26379e82d38e9ed65b5ad2f8c564b8725cdb",
-          "word_count": 323
+          "word_count": 323,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/protection-renseignements-personnels/regime-canadien-soins-dentaires-phase-2.html",
@@ -1003,9 +1264,24 @@
           "title": "Régime canadien de soins dentaires (RCSD): Phase 2",
           "conversion": "markdownify",
           "text_sha256": "4108e2981f4d71794f049e223bd508743ad01ab8b8dfc4aefcfea3882acef2ee",
-          "word_count": 416
+          "word_count": 416,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 323,
+      "word_count_fr": 416,
+      "word_count_language": "en",
+      "word_count": 323
     },
     {
       "pia_id": "pia-b7054b5587cb",
@@ -1069,7 +1345,9 @@
           "title": "Canadian Dental Care Plan (CDCP): Phase 3 (2024-25)",
           "conversion": "markdownify",
           "text_sha256": "f57749f37becb56a08939c97c600ab03a740cc575e68b993bcbab43acd18799f",
-          "word_count": 170
+          "word_count": 170,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/protection-renseignements-personnels/regime-canadien-soins-dentaires-phase-3.html",
@@ -1120,9 +1398,24 @@
           "title": "Régime canadien de soins dentaires (RCSD) : Phase 3 (2024-25)",
           "conversion": "markdownify",
           "text_sha256": "ab34ab29e57111851653d07909e0e055f441e43663f213a6a7e742612c00a9b1",
-          "word_count": 249
+          "word_count": 249,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 170,
+      "word_count_fr": 249,
+      "word_count_language": "en",
+      "word_count": 170
     },
     {
       "pia_id": "pia-5df5dd26cb46",
@@ -1186,7 +1479,11 @@
           "title": "Canadian Dental Care Plan (CDCP): Claims Verification Program",
           "conversion": "markdownify",
           "text_sha256": "8a0f786ca85694f7c0cb29eb2c5e8dfd6c9c27f4bd571bdf3880f19f1cf8f131",
-          "word_count": 266
+          "word_count": 266,
+          "pib_ids": [
+            "HC PPU 440"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/protection-renseignements-personnels/regime-canadien-soins-dentaires-programme-verification-reclamations.html",
@@ -1237,9 +1534,57 @@
           "title": "Régime canadien de soins dentaires (RCSD) : Programme de vérification des réclamations",
           "conversion": "markdownify",
           "text_sha256": "a4ce6627867968c743a8c5d18f58ad59fcb1bc2513b59763fdd5ff7dc7d61cc5",
-          "word_count": 369
+          "word_count": 369,
+          "pib_ids": [
+            "HC PPU 440"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "HC PPU 440",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-health",
+                "record_id": "HC PPU 440"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-health/pia-5df5dd26cb46_en.md",
+                "line": 30,
+                "mention": "HC PPU 440",
+                "method": "explicit_pib_id",
+                "excerpt": "The relevant PIB is Canadian Dental Care Plan – HC PPU 440"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-health/pia-5df5dd26cb46_fr.md",
+                "line": 30,
+                "mention": "SC PPU 440",
+                "method": "explicit_pib_id",
+                "excerpt": "La FRP pertinente pour cette activité est Régime canadien de soins dentaires – SC PPU 440"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "HC PPU 440"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 266,
+      "word_count_fr": 369,
+      "word_count_language": "en",
+      "word_count": 266
     },
     {
       "pia_id": "pia-90686179591c",
@@ -1303,7 +1648,9 @@
           "title": "The receipt and triage of cannabis complaints and questions pursuant to the Cannabis Act and the Cannabis Regulations",
           "conversion": "markdownify",
           "text_sha256": "f704ed06d4bc264a301a7840aa64c7aa63defcfbb4d9eb229344d0d607af1524",
-          "word_count": 569
+          "word_count": 569,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/protection-renseignements-personnels/reception-tri-plaintes-questions-relatives-cannabis-conformement-loi-reglement.html",
@@ -1354,9 +1701,24 @@
           "title": "Réception et tri des plaintes et questions relatives au cannabis conformément à la Loi sur le cannabis et au Règlement sur le cannabis",
           "conversion": "markdownify",
           "text_sha256": "245e59eecd0f896be04b851d24805337d67c6eba9aad33e70fa8aff2239269ec",
-          "word_count": 771
+          "word_count": 771,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 569,
+      "word_count_fr": 771,
+      "word_count_language": "en",
+      "word_count": 569
     },
     {
       "pia_id": "pia-e61807b61a86",
@@ -1420,7 +1782,9 @@
           "title": "Supervised Consumption Sites Privacy Impact Assessment 2024",
           "conversion": "markdownify",
           "text_sha256": "4376b207ec59d74228dda2e41a88ff5e175379e817bb8489b18d19b4969581a9",
-          "word_count": 384
+          "word_count": 384,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/protection-renseignements-personnels-evaluation-effets-vie-privee-sites-consommation-supervisee-2024.html",
@@ -1471,9 +1835,24 @@
           "title": "Évaluation des effets sur la vie privée des sites de consommation supervisée 2024",
           "conversion": "markdownify",
           "text_sha256": "3dcc7cf43164df16b713dba7764eec763291697455b31a37450fce0bec113615",
-          "word_count": 504
+          "word_count": 504,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 384,
+      "word_count_fr": 504,
+      "word_count_language": "en",
+      "word_count": 384
     },
     {
       "pia_id": "pia-0a18b8f46cd0",
@@ -1537,7 +1916,11 @@
           "title": "Canadian Dental Care Plan (CDCP): Member Portal Services",
           "conversion": "markdownify",
           "text_sha256": "e1f559ae0bc2045237ebaf7eaa8729715f5b5600ba5041d76f6698877dd0a898",
-          "word_count": 337
+          "word_count": 337,
+          "pib_ids": [
+            "HC PPU 440"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/protection-renseignements-personnels/regime-canadien-soins-dentaires-services-portail-membres.html",
@@ -1588,9 +1971,57 @@
           "title": "Régime canadien de soins dentaires (RCSD): Services du portail des membres",
           "conversion": "markdownify",
           "text_sha256": "6301b8383eec7a690dcaa7899946f4dac73aaf712093c82975412f2e0cea57ab",
-          "word_count": 483
+          "word_count": 483,
+          "pib_ids": [
+            "HC PPU 440"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "HC PPU 440",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-health",
+                "record_id": "HC PPU 440"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-health/pia-0a18b8f46cd0_en.md",
+                "line": 30,
+                "mention": "HC PPU 440",
+                "method": "explicit_pib_id",
+                "excerpt": "The relevant PIB for this activity is the CDCP PIB – HC PPU 440."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-health/pia-0a18b8f46cd0_fr.md",
+                "line": 30,
+                "mention": "SC PPU 440",
+                "method": "explicit_pib_id",
+                "excerpt": "La FRP pertinente pour cette activité est la FRP du RSCD – SC PPU 440."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "HC PPU 440"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 337,
+      "word_count_fr": 483,
+      "word_count_language": "en",
+      "word_count": 337
     },
     {
       "pia_id": "pia-c1a5b481bb55",
@@ -1654,7 +2085,11 @@
           "title": "Canadian Dental Care Plan (CDCP): Paper Claims, Preauthorizations, Post-determinations and Reconsiderations",
           "conversion": "markdownify",
           "text_sha256": "b3eeccdcfe4e2a1af453ffcfc3955ea645f867c8188b35b533057d94264e9bf8",
-          "word_count": 304
+          "word_count": 304,
+          "pib_ids": [
+            "HC PPU 440"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/protection-renseignements-personnels/regime-canadien-soins-dentaires-demandes-remboursements-papier-autorisations-prealable-decisions-definitives-reexamens.html",
@@ -1705,9 +2140,57 @@
           "title": "Régime canadien de soins dentaires (RCSD): Demandes de remboursement sur papier, autorisations préalables, décisions définitives et demandes de réexamen",
           "conversion": "markdownify",
           "text_sha256": "3092374d609bb95d814a35df0c4c9a4be1361e86bfb3bd8251ac830c8c1ba82e",
-          "word_count": 416
+          "word_count": 416,
+          "pib_ids": [
+            "HC PPU 440"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "HC PPU 440",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-health",
+                "record_id": "HC PPU 440"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-health/pia-c1a5b481bb55_en.md",
+                "line": 28,
+                "mention": "HC PPU 440",
+                "method": "explicit_pib_id",
+                "excerpt": "The relevant PIB for this activity is the CDCP PIB – HC PPU 440."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-health/pia-c1a5b481bb55_fr.md",
+                "line": 28,
+                "mention": "SC PPU 440",
+                "method": "explicit_pib_id",
+                "excerpt": "La FRP pertinente pour cette activité est la FRP du RSCD – SC PPU 440."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "HC PPU 440"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 304,
+      "word_count_fr": 416,
+      "word_count_language": "en",
+      "word_count": 304
     },
     {
       "pia_id": "pia-445027606e80",
@@ -1771,7 +2254,11 @@
           "title": "Canadian Dental Care Plan (CDCP): Exceptions and Exceptions Reconsiderations",
           "conversion": "markdownify",
           "text_sha256": "ae256f4e48c86fbb7a253068bcd3b6174ec2fb8c04a6339cca39e6cda14a7ede",
-          "word_count": 282
+          "word_count": 282,
+          "pib_ids": [
+            "HC PPU 440"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/protection-renseignements-personnels/regime-canadien-soins-dentaires-exceptions-reexamens.html",
@@ -1822,9 +2309,57 @@
           "title": "Régime canadien de soins dentaires (RCSD): Exceptions et réexamens d'exceptions",
           "conversion": "markdownify",
           "text_sha256": "f6580b4642b7ee0e975f8211d7dbcbc5aedbf0e93e199d3a5f17490d797da465",
-          "word_count": 390
+          "word_count": 390,
+          "pib_ids": [
+            "HC PPU 440"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "HC PPU 440",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-health",
+                "record_id": "HC PPU 440"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-health/pia-445027606e80_en.md",
+                "line": 28,
+                "mention": "HC PPU 440",
+                "method": "explicit_pib_id",
+                "excerpt": "The relevant PIB for this activity is the CDCP PIB – HC PPU 440."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-health/pia-445027606e80_fr.md",
+                "line": 28,
+                "mention": "SC PPU 440",
+                "method": "explicit_pib_id",
+                "excerpt": "La FRP pertinente pour cette activité est la FRP du RCSD – SC PPU 440."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "HC PPU 440"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 282,
+      "word_count_fr": 390,
+      "word_count_language": "en",
+      "word_count": 282
     },
     {
       "pia_id": "pia-893031f6af58",
@@ -1888,7 +2423,9 @@
           "title": "Online Staffing Expansion: VidTracking, VidTesting and VidReferencing - VidCruiter (2023)",
           "conversion": "markdownify",
           "text_sha256": "33260b1bf9de1b69e4870afcaae48331869edc7d19a712ec0910a52a8a487151",
-          "word_count": 207
+          "word_count": 207,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/protection-renseignements-personnels/vidcruiter-affichage.html",
@@ -1939,9 +2476,24 @@
           "title": "Expansion de la dotation en ligne : Modules VidTracking, VidTesting et VidReferencing – VidCruiter (2023)",
           "conversion": "markdownify",
           "text_sha256": "08c6f436a79b8f8b1aad28b71ed61e08211498d45076548540ea5c45fa59609c",
-          "word_count": 285
+          "word_count": 285,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 207,
+      "word_count_fr": 285,
+      "word_count_language": "en",
+      "word_count": 207
     },
     {
       "pia_id": "pia-b45c2624a34c",
@@ -2005,7 +2557,9 @@
           "title": "Name of Program PIA (2023-08-31) Canadian Dental Care Plan – Phase #1",
           "conversion": "markdownify",
           "text_sha256": "990d803c1ebbe96f96488395dea960d34881f0b7f3ba20e58add9ce468476f36",
-          "word_count": 358
+          "word_count": 358,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/protection-renseignements-personnels/regime-canadien-soins-dentaires.html",
@@ -2056,9 +2610,24 @@
           "title": "Nom du programme de l'EFVP (2023-08-31) Régime canadien de soins dentaires – Phase #1",
           "conversion": "markdownify",
           "text_sha256": "672c3a573ad72b640a8c5ff268b6bd4247674deb36c4e2d78e789be0098e5475",
-          "word_count": 439
+          "word_count": 439,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 358,
+      "word_count_fr": 439,
+      "word_count_language": "en",
+      "word_count": 358
     },
     {
       "pia_id": "pia-d317220c81a8",
@@ -2122,7 +2691,9 @@
           "title": "Monitoring of Medical Assistance in Dying (MAID) Program PIA Update (June 2023)",
           "conversion": "markdownify",
           "text_sha256": "62c4914434051d218b109afeb5b0af21c0881dd9f3c2d2b12c5d600f53cd05c1",
-          "word_count": 324
+          "word_count": 324,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/protection-renseignements-personnels/surveillance-aide-medicale-mourir-evaluation-facteurs-relatifs-vie-privee-juin-2023.html",
@@ -2173,9 +2744,24 @@
           "title": "Mise à jour de l'EFVP sur le Programme de surveillance de l'aide médicale à mourir (AMM) (juin 2023)",
           "conversion": "markdownify",
           "text_sha256": "6e534c208384c94a777576b8d326d495add1c32b76002ca5b9afe4ffdf471722",
-          "word_count": 437
+          "word_count": 437,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 324,
+      "word_count_fr": 437,
+      "word_count_language": "en",
+      "word_count": 324
     },
     {
       "pia_id": "pia-c82182b2ca47",
@@ -2239,7 +2825,9 @@
           "title": "Equitable Access to Language Training Program",
           "conversion": "markdownify",
           "text_sha256": "a27b129bc41cbc02e07d8e5270bcb41fa406e03782b28265c7317915191640f3",
-          "word_count": 193
+          "word_count": 193,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/protection-renseignements-personnels/programme-acces-equitable-a-la-formation-linguistique.html",
@@ -2290,9 +2878,24 @@
           "title": "Programme d’accès équitable à la formation linguistique",
           "conversion": "markdownify",
           "text_sha256": "a87727249df27551481fb0e96372535b22a86f3237a579a7f8bab73a4f777c5f",
-          "word_count": 255
+          "word_count": 255,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 193,
+      "word_count_fr": 255,
+      "word_count_language": "en",
+      "word_count": 193
     },
     {
       "pia_id": "pia-33da115e5ea9",
@@ -2356,7 +2959,9 @@
           "title": "Workplace Wellness Service Centre",
           "conversion": "markdownify",
           "text_sha256": "93db01d563b532806e1d5cd0ece1a192d7f40a796f8894de9e42a4448e287559",
-          "word_count": 205
+          "word_count": 205,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/protection-renseignements-personnels/centre-services-mieux-etre-milieu-travail.html",
@@ -2407,9 +3012,24 @@
           "title": "Centre des services de mieux-être en milieu de travail",
           "conversion": "markdownify",
           "text_sha256": "9cc4b11aedb6861049e29bfabc6454cc4d51d8f30e899d65f89840c8497b0587",
-          "word_count": 293
+          "word_count": 293,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 205,
+      "word_count_fr": 293,
+      "word_count_language": "en",
+      "word_count": 205
     },
     {
       "pia_id": "pia-cc75c172799f",
@@ -2473,7 +3093,9 @@
           "title": "Asynchronous video interviews for staffing (VidCruiter): Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "5a0276f7cedff3dd9686f60b2d4bd0639814018992cc0c9e31b12545417ee233",
-          "word_count": 142
+          "word_count": 142,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/protection-renseignements-personnels/vidcruiter-evaluation-facteurs-relatifs-vie-privee.html",
@@ -2524,9 +3146,24 @@
           "title": "Entrevues vidéo asynchrones pour la dotation (VidCruiter) : Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "b11ae7dd976ab06297bcbb1327691c257b5ac504452d5b013effcbaab38ad8eb",
-          "word_count": 212
+          "word_count": 212,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 142,
+      "word_count_fr": 212,
+      "word_count_language": "en",
+      "word_count": 142
     },
     {
       "pia_id": "pia-57cec3e71fb8",
@@ -2590,7 +3227,9 @@
           "title": "Public Service Occupational Health Program - Privacy Impact Assessment",
           "conversion": "markdownify",
           "text_sha256": "a53bc6351081bd30e2dc4f9442b6de1a416e1cedc7da619c4a3af5927d05fc4a",
-          "word_count": 319
+          "word_count": 319,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/protection-renseignements-personnels/programme-sante-professionnelle-fonctionnaires-federaux.html",
@@ -2641,9 +3280,24 @@
           "title": "Programme de santé au travail de la fonction publique - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "2449dbb8bafc3adb36341ef7970af5f6a10c382ab0ee14955ae95c121db25f9d",
-          "word_count": 421
+          "word_count": 421,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 319,
+      "word_count_fr": 421,
+      "word_count_language": "en",
+      "word_count": 319
     },
     {
       "pia_id": "pia-b6002d76453f",
@@ -2707,7 +3361,9 @@
           "title": "Peer Support Program",
           "conversion": "markdownify",
           "text_sha256": "050abf53802d9c8fe3bcffe903bbd9655b0e2731790885b5e8ab3466f4893e1f",
-          "word_count": 283
+          "word_count": 283,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/protection-renseignements-personnels/programme-soutien-pairs.html",
@@ -2758,9 +3414,24 @@
           "title": "Programme de soutien par les pairs",
           "conversion": "markdownify",
           "text_sha256": "d50bacd35afc60d40984d037f3a9a43c1a3a087c6464e298c4e0d44dcbb5a828",
-          "word_count": 379
+          "word_count": 379,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 283,
+      "word_count_fr": 379,
+      "word_count_language": "en",
+      "word_count": 283
     },
     {
       "pia_id": "pia-9095811143d1",
@@ -2824,7 +3495,9 @@
           "title": "Monitoring of Medical Assistance in Dying (MAID) Privacy Impact Assessment",
           "conversion": "markdownify",
           "text_sha256": "2aa85e6614412b66c9c8b64e080ab9ec381fbaeafcc081664202e0f32f7a8c31",
-          "word_count": 443
+          "word_count": 443,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/protection-renseignements-personnels/surveillance-aide-medicale-mourir-evaluation-facteurs-relatifs-vie-privee.html",
@@ -2875,9 +3548,24 @@
           "title": "Surveillance de l’aide médicale à mourir – Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "f3d25e08ae3f7c012c1034a42defe5881181d8ceb11b30266c96fa8d20ee7090",
-          "word_count": 620
+          "word_count": 620,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 443,
+      "word_count_fr": 620,
+      "word_count_language": "en",
+      "word_count": 443
     },
     {
       "pia_id": "pia-135e2bd922ea",
@@ -2941,7 +3629,9 @@
           "title": "Disclosure of Confidential Business Information under the Food and Drugs Act",
           "conversion": "markdownify",
           "text_sha256": "031f5f1ff36c916b3295f448d8551f6f87ac4929946929d57f4b819603da062c",
-          "word_count": 180
+          "word_count": 180,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/communication-renseignements-commerciaux-confidentiels-termes-loi-aliments-drogues.html",
@@ -2992,9 +3682,24 @@
           "title": "Communication de renseignements commerciaux confidentiels aux termes de la Loi sur les aliments et drogues",
           "conversion": "markdownify",
           "text_sha256": "4f8d7e7abee5b987a785a635fe285d3f5eb59812c03d49db2c6a5af0a52b68db",
-          "word_count": 223
+          "word_count": 223,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 180,
+      "word_count_fr": 223,
+      "word_count_language": "en",
+      "word_count": 180
     },
     {
       "pia_id": "pia-4ede6cdd2e86",
@@ -3058,7 +3763,9 @@
           "title": "Thalidomide Survivors Contribution Program (February 2016)",
           "conversion": "markdownify",
           "text_sha256": "c19a87f94ee26af608edc080b357844442dc9b3e0463d8da4f5449ccf91b8519",
-          "word_count": 163
+          "word_count": 163,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/programme-contributions-survivants-thalidomide-fevrier-2016.html",
@@ -3109,9 +3816,24 @@
           "title": "Programme de contributions aux survivants de la thalidomide (février 2016)",
           "conversion": "markdownify",
           "text_sha256": "504eea38a25aeee8505408553c6f35e2d269fce6a4defd5875829f44ca076d19",
-          "word_count": 218
+          "word_count": 218,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 163,
+      "word_count_fr": 218,
+      "word_count_language": "en",
+      "word_count": 163
     },
     {
       "pia_id": "pia-9634100edb23",
@@ -3175,7 +3897,11 @@
           "title": "Privacy Impact Assessment Summary - National Dose Registry (April 2013)",
           "conversion": "markdownify",
           "text_sha256": "85a4bc9eb5af72a1a1b56a22d7f647662f7aeae35e6c54af6c0a440d3f27c4e5",
-          "word_count": 683
+          "word_count": 683,
+          "pib_ids": [
+            "HC PPU 080"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/sommaire-evaluation-facteurs-relatifs-vie-privee-fichier-dosimetrique-national-avril-2013.html",
@@ -3226,9 +3952,57 @@
           "title": "Sommaire de l'évaluation des facteurs relatifs à la vie privée (EFVP) - Fichier dosimétrique national (avril 2013)",
           "conversion": "markdownify",
           "text_sha256": "909d3e759b9795e9e870f9ec93ee9b0f00fa13f4798a48fe9672c5186ae32ddc",
-          "word_count": 845
+          "word_count": 845,
+          "pib_ids": [
+            "HC PPU 080"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "HC PPU 080",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-health",
+                "record_id": "HC PPU 080"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-health/pia-9634100edb23_en.md",
+                "line": 36,
+                "mention": "HC PPU 080",
+                "method": "explicit_pib_id",
+                "excerpt": "The collection and use of personal information with the National Dose Registry is described in the Personal Information Bank (PIB) - National Dose Registry - HC PPU 080 however; as part of the PIA recommendations, the particular PIB will be updated to meet TBS requirements and to accurately reflect what information is being collected and the disclosures to Regulatory Authorities and employers and to provide individuals, employers and Worker Compensation Board with a dose history summary upon their request."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-health/pia-9634100edb23_fr.md",
+                "line": 36,
+                "mention": "HC PPU 080",
+                "method": "explicit_pib_id",
+                "excerpt": "La collecte et l'utilisation de renseignements personnels aux fins du FDN sont décrites dans le Fichier de renseignements personnels (FRP) - Fichier dosimétrique national -HC PPU 080. Toutefois, selon les recommandations sur les FRP, le fichier en question sera modifié dans le but de le faire concorder avec les exigences du SCT ainsi qu'avec le type de renseignements recueillis ou divulgués aux organismes de réglementation et aux employeurs, et pour fournir aux participants, aux employeurs et la commission d'indemnisation des travailleurs, sur demande, un sommaire de l'historique d'exposition "
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "HC PPU 080"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 683,
+      "word_count_fr": 845,
+      "word_count_language": "en",
+      "word_count": 683
     },
     {
       "pia_id": "pia-515a80d1a94d",
@@ -3292,7 +4066,9 @@
           "title": "Privacy Impact Assessment Summaries for 2011-2012",
           "conversion": "markdownify",
           "text_sha256": "64c3a3e8152cc85c2377f9c235ea263d9351b145c5ec8e36dc958787a2ec2c42",
-          "word_count": 215
+          "word_count": 215,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privees-2011-2012.html",
@@ -3343,9 +4119,24 @@
           "title": "Sommaires des évaluations des facteurs relatifs à la vie privées pour 2011-2012",
           "conversion": "markdownify",
           "text_sha256": "84286dc71f342e9ca786708facca72edc16f8b92311e05aa2a99bbad5d266673",
-          "word_count": 284
+          "word_count": 284,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 215,
+      "word_count_fr": 284,
+      "word_count_language": "en",
+      "word_count": 215
     },
     {
       "pia_id": "pia-ef1dbd029131",
@@ -3409,7 +4200,9 @@
           "title": "Drug Exception Centre (DEC) Privacy Impact Assessment (PIA) Summary",
           "conversion": "markdownify",
           "text_sha256": "fd0749b989c1cb10a6ab645c3809f07b99c299b1e6257f352fb9980c59a39a88",
-          "word_count": 496
+          "word_count": 496,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/sommaire-evaluation-facteurs-relatifs-vie-privee-centre-exceptions-medicaments.html",
@@ -3460,9 +4253,24 @@
           "title": "Sommaire de l'évaluation des facteurs relatifs à la vie privée (EFVP) du Centre des exceptions pour médicaments (CEM)",
           "conversion": "markdownify",
           "text_sha256": "5f64fa1c10ee861e8d4e25f8605b52798743f00ce670bb05f5a22cdde4b60166",
-          "word_count": 699
+          "word_count": 699,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 496,
+      "word_count_fr": 699,
+      "word_count_language": "en",
+      "word_count": 496
     },
     {
       "pia_id": "pia-b1497b216da9",
@@ -3526,7 +4334,9 @@
           "title": "Canada Vigilance Program (formerly called Canadian Adverse Drug Reaction Monitoring Program)",
           "conversion": "markdownify",
           "text_sha256": "1f1ade74d083bab2996b0344f424cdcf3463d15b5b9d88452927e09d5a0d9d94",
-          "word_count": 320
+          "word_count": 320,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/programme-canadien-surveillance-effets-indesirables-medicaments.html",
@@ -3577,9 +4387,24 @@
           "title": "Programme Canada Vigilance (anciennement connu sous le nom de Programme canadien de surveillance des effets indésirables des médicaments)",
           "conversion": "markdownify",
           "text_sha256": "245c7d925d1019444652b8edd0360180757db0806195620737ff9df932bd2433",
-          "word_count": 469
+          "word_count": 469,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 320,
+      "word_count_fr": 469,
+      "word_count_language": "en",
+      "word_count": 320
     },
     {
       "pia_id": "pia-a4ee499c3cae",
@@ -3643,7 +4468,9 @@
           "title": "Online Staffing Expansion Project (VidCruiter) (March 2022)",
           "conversion": "markdownify",
           "text_sha256": "a46d9188de2c7e3a7e910591184c9010fe6fe3ef379acf64eda6b166bac70e15",
-          "word_count": 253
+          "word_count": 253,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-canada/organisation/a-propos-sante-canada/activites-responsabilites/acces-information-protection-renseignements-personnels/protection-renseignements-personnels/projet-expansion-ligne-dotation-personnel-vidcruiter-mars-2022.html",
@@ -3694,9 +4521,24 @@
           "title": "Projet d'expansion en ligne de la dotation en personnel (VidCruiter) (mars 2022)",
           "conversion": "markdownify",
           "text_sha256": "a5dca7dc68ac2b27f2d4fed5cb1d7cd085ef0f40eb2ccc3a74238b7bf89b41ee",
-          "word_count": 356
+          "word_count": 356,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 253,
+      "word_count_fr": 356,
+      "word_count_language": "en",
+      "word_count": 253
     },
     {
       "pia_id": "pia-f46cab58d170",
@@ -3760,7 +4602,9 @@
           "title": "Inventaire des retraités admissibles de la Direction générale des services de gestion (DGSG) et des anciens retraités de la DGSG : Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "363bd63a3e1703d6d51312b9366e5fded69197ba149b5f79e2ca53583cf5befc",
-          "word_count": 250
+          "word_count": 250,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "en": {
           "url": "https://www.canada.ca/en/health-canada/corporate/about-health-canada/activities-responsibilities/access-information-privacy/privacy/corporate-services-branch-eligible-retiree-csb-retiree-alumni-inventory.html",
@@ -3811,9 +4655,24 @@
           "title": "Corporate Services Branch (CSB) Eligible Retiree and CSB Retiree Alumni Inventory: Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "613d7830dccd8ce389688f6b889064ef11ae9cf6fe772bfa87e15a1e2bfc8b5f",
-          "word_count": 176
+          "word_count": 176,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 176,
+      "word_count_fr": 250,
+      "word_count_language": "en",
+      "word_count": 176
     }
   ],
   "summary": {

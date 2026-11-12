@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "collector_version": 1,
-  "collected_at_utc": "2026-11-12T01:50:33.561761+00:00",
+  "collector_version": 2,
+  "collected_at_utc": "2026-11-12T05:49:54.247606+00:00",
   "institution_id": "ati-schedule-i-department-of-national-defence",
   "gc_orgID": "2233.0",
   "open_canada_org_id": "4CAEC647-C069-4C25-B1CD-17F648E5DBC0",
@@ -9,7 +9,7 @@
   "name_en": "Department of National Defence",
   "name_fr": "Ministère de la Défense nationale",
   "registry_membership": "current_registry",
-  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
   "list_pages": {
     "en": {
       "indexed_url": "https://www.canada.ca/en/department-national-defence/corporate/transparency/access-information-privacy/privacy-impact-assessment.html",
@@ -133,7 +133,14 @@
           "title": "On-Site Monitoring and Reporting",
           "conversion": "markdownify",
           "text_sha256": "16224e2961a9dbd5905aa83459100a9d0a31d5bcbdcad26b34147084af2fc52f",
-          "word_count": 470
+          "word_count": 470,
+          "pib_ids": [
+            "DND PPE 921",
+            "PSE 901",
+            "PSE 903",
+            "PSU 905"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/suivi-de-la-presence-sur-place-et-rapports-connexes.html",
@@ -184,9 +191,141 @@
           "title": "Suivi de la présence sur place et rapports connexes",
           "conversion": "markdownify",
           "text_sha256": "ac4a9ea97835b4fdb0c62c6f947ac33502f9c61021d69fc6936466d42beed157",
-          "word_count": 694
+          "word_count": 694,
+          "pib_ids": [
+            "DND PPE 921",
+            "PSE 901",
+            "PSE 903",
+            "PSU 905"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DND PPE 921",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-23686c777de5_en.md",
+                "line": 32,
+                "mention": "DND PPE 921",
+                "method": "explicit_pib_id",
+                "excerpt": "DND CIV 100 On-Site Monitoring and Reporting Records; DND PPE 921 Onsite Monitoring and Reporting. Employee Personnel Record (PSE 901), Attendance and Leave (PSE 903), Electronic Network Monitoring Logs (PSU 905),"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-23686c777de5_fr.md",
+                "line": 32,
+                "mention": "MDN PPE 921",
+                "method": "explicit_pib_id",
+                "excerpt": "MDN CIV 100 Documents de suivi des présences sur place et de production de rapports connexes; MDN PPE 921 Suivi des présences sur place et production de rapports connexes. Dossier personnel d’un employé (POE 901); Présences et congés (POE 903); Journaux de contrôle des réseaux électroniques (POU 905)."
+              }
+            ]
+          },
+          {
+            "id": "PSE 901",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 901"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-23686c777de5_en.md",
+                "line": 32,
+                "mention": "PSE 901",
+                "method": "explicit_pib_id",
+                "excerpt": "DND CIV 100 On-Site Monitoring and Reporting Records; DND PPE 921 Onsite Monitoring and Reporting. Employee Personnel Record (PSE 901), Attendance and Leave (PSE 903), Electronic Network Monitoring Logs (PSU 905),"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-23686c777de5_fr.md",
+                "line": 32,
+                "mention": "POE 901",
+                "method": "explicit_pib_id",
+                "excerpt": "MDN CIV 100 Documents de suivi des présences sur place et de production de rapports connexes; MDN PPE 921 Suivi des présences sur place et production de rapports connexes. Dossier personnel d’un employé (POE 901); Présences et congés (POE 903); Journaux de contrôle des réseaux électroniques (POU 905)."
+              }
+            ]
+          },
+          {
+            "id": "PSE 903",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 903"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-23686c777de5_en.md",
+                "line": 32,
+                "mention": "PSE 903",
+                "method": "explicit_pib_id",
+                "excerpt": "DND CIV 100 On-Site Monitoring and Reporting Records; DND PPE 921 Onsite Monitoring and Reporting. Employee Personnel Record (PSE 901), Attendance and Leave (PSE 903), Electronic Network Monitoring Logs (PSU 905),"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-23686c777de5_fr.md",
+                "line": 32,
+                "mention": "POE 903",
+                "method": "explicit_pib_id",
+                "excerpt": "MDN CIV 100 Documents de suivi des présences sur place et de production de rapports connexes; MDN PPE 921 Suivi des présences sur place et production de rapports connexes. Dossier personnel d’un employé (POE 901); Présences et congés (POE 903); Journaux de contrôle des réseaux électroniques (POU 905)."
+              }
+            ]
+          },
+          {
+            "id": "PSU 905",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 905"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-23686c777de5_en.md",
+                "line": 32,
+                "mention": "PSU 905",
+                "method": "explicit_pib_id",
+                "excerpt": "DND CIV 100 On-Site Monitoring and Reporting Records; DND PPE 921 Onsite Monitoring and Reporting. Employee Personnel Record (PSE 901), Attendance and Leave (PSE 903), Electronic Network Monitoring Logs (PSU 905),"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-23686c777de5_fr.md",
+                "line": 32,
+                "mention": "POU 905",
+                "method": "explicit_pib_id",
+                "excerpt": "MDN CIV 100 Documents de suivi des présences sur place et de production de rapports connexes; MDN PPE 921 Suivi des présences sur place et production de rapports connexes. Dossier personnel d’un employé (POE 901); Présences et congés (POE 903); Journaux de contrôle des réseaux électroniques (POU 905)."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "DND PPE 921",
+        "PSE 901",
+        "PSE 903",
+        "PSU 905"
+      ],
+      "pib_count": 4,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 470,
+      "word_count_fr": 694,
+      "word_count_language": "en",
+      "word_count": 470
     },
     {
       "pia_id": "pia-5e823c5f8b85",
@@ -250,7 +389,11 @@
           "title": "Counter Intelligence Program",
           "conversion": "markdownify",
           "text_sha256": "56c2b7d1d688edd7ba44291da37ff91efc500fc2f3ffabace0e391fccead5163",
-          "word_count": 426
+          "word_count": 426,
+          "pib_ids": [
+            "DND PPU 060"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/programme-contre-ingerence.html",
@@ -301,9 +444,57 @@
           "title": "Programme de contre-ingérence",
           "conversion": "markdownify",
           "text_sha256": "6b673c883c5db3b72fe77d6260c249751dc97c8b711d853a6467bd621598d95f",
-          "word_count": 582
+          "word_count": 582,
+          "pib_ids": [
+            "DND PPU 060"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DND PPU 060",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND PPU 060"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-5e823c5f8b85_en.md",
+                "line": 34,
+                "mention": "DND PPU 060",
+                "method": "explicit_pib_id",
+                "excerpt": "DND PIB PPU 060 (Counter-Intelligence"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-5e823c5f8b85_fr.md",
+                "line": 34,
+                "mention": "MDN PPU 060",
+                "method": "explicit_pib_id",
+                "excerpt": "MDN FRP PPU 060 (Contre-ingérence"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "DND PPU 060"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 426,
+      "word_count_fr": 582,
+      "word_count_language": "en",
+      "word_count": 426
     },
     {
       "pia_id": "pia-31d4b7f36e3d",
@@ -367,7 +558,11 @@
           "title": "Cadet and Junior Canadian Ranger Program",
           "conversion": "markdownify",
           "text_sha256": "ff64d55b286ad81e711949783eecfa9d5e3f9bcb4393f2e13437c94b8f103c74",
-          "word_count": 788
+          "word_count": 788,
+          "pib_ids": [
+            "DND PPU 839"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/programme-cadets-rangers-juniors-canadiens.html",
@@ -418,9 +613,57 @@
           "title": "Programme des cadets et Rangers juniors canadiens",
           "conversion": "markdownify",
           "text_sha256": "6cacf663c2ac97320483753d5fcec405a53f55a8c176c8b9c40f117c1e779d41",
-          "word_count": 975
+          "word_count": 975,
+          "pib_ids": [
+            "DND PPU 839"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DND PPU 839",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND PPU 839"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-31d4b7f36e3d_en.md",
+                "line": 48,
+                "mention": "DND PPU 839",
+                "method": "explicit_pib_id",
+                "excerpt": "Information on Cadets and Junior Canadian Rangers (DND PPU 839)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-31d4b7f36e3d_fr.md",
+                "line": 48,
+                "mention": "MDN PPU 839",
+                "method": "explicit_pib_id",
+                "excerpt": "Information sur les cadets et les Rangers juniors canadiens (MDN PPU 839)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "DND PPU 839"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 788,
+      "word_count_fr": 975,
+      "word_count_language": "en",
+      "word_count": 788
     },
     {
       "pia_id": "pia-a8fb58a75629",
@@ -484,7 +727,13 @@
           "title": "RMC Saint-Jean Sexual Misconduct Reporting and Support Services",
           "conversion": "markdownify",
           "text_sha256": "61d03e536646818878bcc5f80dcff889eaba747f0f73a50be369477566fe2703",
-          "word_count": 384
+          "word_count": 384,
+          "pib_ids": [
+            "DND PPE 886"
+          ],
+          "cor_ids": [
+            "DND RMC 100"
+          ]
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/signalement-des-inconduites-sexuelles-et-services-de-soutien.html",
@@ -535,9 +784,90 @@
           "title": "CMR Saint-Jean – Signalement des inconduites sexuelles et services de soutien",
           "conversion": "markdownify",
           "text_sha256": "63a34f15e1673abfd39c6ef5bfb148fceca21e96f039ef6f57fe12d0413cbe14",
-          "word_count": 512
+          "word_count": 512,
+          "pib_ids": [
+            "DND PPE 886"
+          ],
+          "cor_ids": [
+            "DND RMC 100"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DND PPE 886",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND PPE 886"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-a8fb58a75629_en.md",
+                "line": 34,
+                "mention": "DND PPE 886",
+                "method": "explicit_pib_id",
+                "excerpt": "PIB: RMC Saint-Jean Sexual Misconduct Reporting and Support Services (DND PPE 886)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-a8fb58a75629_fr.md",
+                "line": 32,
+                "mention": "MDN PPE 886",
+                "method": "explicit_pib_id",
+                "excerpt": "Fichier de renseignements personnels : CMR Saint-Jean – Signalement des inconduites sexuelles et services de soutien (MDN PPE 886)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "DND RMC 100",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND RMC 100"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-a8fb58a75629_en.md",
+                "line": 36,
+                "mention": "DND RMC 100",
+                "method": "known_cor_id",
+                "excerpt": "COR: RMC Saint-Jean Sexual Misconduct Reporting and Support Services Records (DND RMC 100)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-a8fb58a75629_fr.md",
+                "line": 34,
+                "mention": "MDN CMR 100",
+                "method": "known_cor_id",
+                "excerpt": "Catégorie de documents : CMR Saint-Jean – Dossiers de signalement des inconduites sexuelles et des services de soutien (MDN CMR 100)"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "DND PPE 886"
+      ],
+      "pib_count": 1,
+      "cor_ids": [
+        "DND RMC 100"
+      ],
+      "cor_count": 1,
+      "word_count_en": 384,
+      "word_count_fr": 512,
+      "word_count_language": "en",
+      "word_count": 384
     },
     {
       "pia_id": "pia-4e29d64714a0",
@@ -601,7 +931,11 @@
           "title": "Canadian Forces Service Prison and Detention Barracks",
           "conversion": "markdownify",
           "text_sha256": "c3a77069db4e2f90e4bfcec3050c501bcb34f4cb813d5e3baf0dc4b9dfe493d2",
-          "word_count": 573
+          "word_count": 573,
+          "pib_ids": [
+            "DND PPE 863"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/caserne-detention-prison-militaire-forces-canadiennes.html",
@@ -652,9 +986,73 @@
           "title": "Caserne de détention et prison militaire des Forces canadiennes",
           "conversion": "markdownify",
           "text_sha256": "1e37aed22e6ce465f7bdb900a68fe1d2ba0a46650d7366472accefd26a4a85af",
-          "word_count": 733
+          "word_count": 733,
+          "pib_ids": [
+            "DND PPE 863"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DND PPE 863",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND PPE 863"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-4e29d64714a0_en.md",
+                "line": 36,
+                "mention": "DND PPE 863",
+                "method": "explicit_pib_id",
+                "excerpt": "Lastly, the PIB (DND PPE 863) requires significant updates to reflect proper transparency regarding program activities. Through this PIA, a request to modify the PIB has been submitted to the Treasury Board for approval."
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-4e29d64714a0_en.md",
+                "line": 42,
+                "mention": "DND PPE 863",
+                "method": "explicit_pib_id",
+                "excerpt": "Service Prison and Detention Barrack Records (DND PPE 863)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-4e29d64714a0_fr.md",
+                "line": 36,
+                "mention": "MDN PPE 863",
+                "method": "explicit_pib_id",
+                "excerpt": "Finalement, afin d’assurer une transparence adéquate des activités du programme, d’importantes mises à jour doivent être apportées au fichier de renseignements personnels (FRP) MDN PPE 863. Une demande de modification du FRP a été soumise à l’approbation du Conseil du Trésor dans le cadre de cette EFVP."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-4e29d64714a0_fr.md",
+                "line": 42,
+                "mention": "MDN PPE 863",
+                "method": "explicit_pib_id",
+                "excerpt": "Désignation des prisons militaires et des casernes de détention (MDN PPE 863)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "DND PPE 863"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 573,
+      "word_count_fr": 733,
+      "word_count_language": "en",
+      "word_count": 573
     },
     {
       "pia_id": "pia-5874bbdf1221",
@@ -718,7 +1116,11 @@
           "title": "Canadian Armed Forces Relocation Program",
           "conversion": "markdownify",
           "text_sha256": "ba0b9e937a95d796b35916c6f73d2646d3f3af5a90c8ec4de510a794b7418667",
-          "word_count": 652
+          "word_count": 652,
+          "pib_ids": [
+            "DND PPE 860"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/programme-reinstallation-forces-armees-canadiennes.html",
@@ -769,9 +1171,57 @@
           "title": "Programme de réinstallation des Forces armées canadiennes",
           "conversion": "markdownify",
           "text_sha256": "124347327971f13e9337679f88b9cbf79b22964efd664bc5c98e70ad0682a49b",
-          "word_count": 870
+          "word_count": 870,
+          "pib_ids": [
+            "DND PPE 860"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DND PPE 860",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND PPE 860"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-5874bbdf1221_en.md",
+                "line": 40,
+                "mention": "DND PPE 860",
+                "method": "explicit_pib_id",
+                "excerpt": "CAF Relocation (DND PPE 860)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-5874bbdf1221_fr.md",
+                "line": 40,
+                "mention": "MDN PPE 860",
+                "method": "explicit_pib_id",
+                "excerpt": "Réinstallation des FAC (MDN PPE 860)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "DND PPE 860"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 652,
+      "word_count_fr": 870,
+      "word_count_language": "en",
+      "word_count": 652
     },
     {
       "pia_id": "pia-cebbd5a55a02",
@@ -835,7 +1285,11 @@
           "title": "Peer Support Program",
           "conversion": "markdownify",
           "text_sha256": "184adcf64d5980190df8df86d1d70037eed698ad15ef7c61123d9a6d67958f15",
-          "word_count": 667
+          "word_count": 667,
+          "pib_ids": [
+            "DND PPU 884"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/programme-soutien-pairs.html",
@@ -886,9 +1340,57 @@
           "title": "Programme de soutien par les pairs",
           "conversion": "markdownify",
           "text_sha256": "b9a4553a64b40d864df2e494e34feeaedaf2c50eec52e3641bbc276216f8b14d",
-          "word_count": 855
+          "word_count": 855,
+          "pib_ids": [
+            "DND PPU 884"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DND PPU 884",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND PPU 884"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-cebbd5a55a02_en.md",
+                "line": 48,
+                "mention": "DND PPU 884",
+                "method": "explicit_pib_id",
+                "excerpt": "DND PIB PPU 884 (Peer Support Program) New PIB pending TBS approval"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-cebbd5a55a02_fr.md",
+                "line": 48,
+                "mention": "MDN PPU 884",
+                "method": "explicit_pib_id",
+                "excerpt": "MDN FRP PPU 884 (Programme de soutien par les pairs) – Nouveau FRP en attente de l’approbation du SCT"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "DND PPU 884"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 667,
+      "word_count_fr": 855,
+      "word_count_language": "en",
+      "word_count": 667
     },
     {
       "pia_id": "pia-3b26f0d7d2b0",
@@ -952,7 +1454,13 @@
           "title": "Public Service Staffing Program",
           "conversion": "markdownify",
           "text_sha256": "b86b3f559f3a4435b07d1ff405f3c0d6cd80ebbf79f34b0fc9e0dad98231191c",
-          "word_count": 557
+          "word_count": 557,
+          "pib_ids": [
+            "DND PPE 805",
+            "PSE 902",
+            "PSU 911"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/programme-de-dotation-de-la-fonction-publique.html",
@@ -1003,9 +1511,124 @@
           "title": "Programme de dotation de la fonction publique",
           "conversion": "markdownify",
           "text_sha256": "80d796d531238da32a5e75699a9f8e2512255a26d2c4e54cde7cae928d183d85",
-          "word_count": 750
+          "word_count": 750,
+          "pib_ids": [
+            "MND PPE 805",
+            "PSE 902",
+            "PSU 911"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DND PPE 805",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND PPE 805"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-3b26f0d7d2b0_en.md",
+                "line": 38,
+                "mention": "DND PPE 805",
+                "method": "explicit_pib_id",
+                "excerpt": "DND PIB PPE 805 (Human Resources Management System)"
+              }
+            ]
+          },
+          {
+            "id": "MND PPE 805",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-3b26f0d7d2b0_fr.md",
+                "line": 38,
+                "mention": "MND PPE 805",
+                "method": "explicit_pib_id",
+                "excerpt": "FRP MND PPE 805 (Système de gestion des ressources humaines)"
+              }
+            ]
+          },
+          {
+            "id": "PSE 902",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 902"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-3b26f0d7d2b0_en.md",
+                "line": 34,
+                "mention": "PSE 902",
+                "method": "explicit_pib_id",
+                "excerpt": "Standard PIB PSE 902 (Staffing)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-3b26f0d7d2b0_fr.md",
+                "line": 34,
+                "mention": "POE 902",
+                "method": "explicit_pib_id",
+                "excerpt": "FRP ordinaire POE 902 (Dotation)"
+              }
+            ]
+          },
+          {
+            "id": "PSU 911",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 911"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-3b26f0d7d2b0_en.md",
+                "line": 36,
+                "mention": "PSU 911",
+                "method": "explicit_pib_id",
+                "excerpt": "Standard PIB PSU 911 (Applications for Employment)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-3b26f0d7d2b0_fr.md",
+                "line": 36,
+                "mention": "POU 911",
+                "method": "explicit_pib_id",
+                "excerpt": "FRP ordinaire POU 911 (Demandes d’emploi)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "DND PPE 805",
+        "MND PPE 805",
+        "PSE 902",
+        "PSU 911"
+      ],
+      "pib_count": 4,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 557,
+      "word_count_fr": 750,
+      "word_count_language": "en",
+      "word_count": 557
     },
     {
       "pia_id": "pia-0839ef2e83bd",
@@ -1069,7 +1692,9 @@
           "title": "Summary Hearings",
           "conversion": "markdownify",
           "text_sha256": "a1b2a68cdb7bcf448106ba9f5209500ba057b3d9d76c87342a383f4a3351adca",
-          "word_count": 313
+          "word_count": 313,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/audiences-sommaires.html",
@@ -1120,9 +1745,24 @@
           "title": "Audiences sommaires",
           "conversion": "markdownify",
           "text_sha256": "d28ce8d8fb5ae22d8de24357e57b5c2b8ac630873ce13da9863cec4f844572ae",
-          "word_count": 388
+          "word_count": 388,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 313,
+      "word_count_fr": 388,
+      "word_count_language": "en",
+      "word_count": 313
     },
     {
       "pia_id": "pia-f900146f051b",
@@ -1186,7 +1826,13 @@
           "title": "Evidence-Based Character Assessments for Leadership Selections and Promotions",
           "conversion": "markdownify",
           "text_sha256": "3661db9f7dc66f23f2635ecd2cfa0b99e1528b41830829d95e6317deec2f87c6",
-          "word_count": 764
+          "word_count": 764,
+          "pib_ids": [
+            "DND PPE 820"
+          ],
+          "cor_ids": [
+            "DND CSA 520"
+          ]
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/evaluations-personnalite-fondees-donnees-probantes-selection-promotion-dirigeants.html",
@@ -1237,9 +1883,90 @@
           "title": "Évaluations de la personnalité fondées sur des données probantes pour la sélection et la promotion des dirigeants",
           "conversion": "markdownify",
           "text_sha256": "67a910e88ef3d9375f21ff436d2f15ff1e246e9b0fffcb02cd794917f8abac0b",
-          "word_count": 956
+          "word_count": 956,
+          "pib_ids": [
+            "DND PPE 820"
+          ],
+          "cor_ids": [
+            "DND CSA 520"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DND PPE 820",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND PPE 820"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-f900146f051b_en.md",
+                "line": 35,
+                "mention": "DND PPE 820",
+                "method": "explicit_pib_id",
+                "excerpt": "DND PPE 820"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-f900146f051b_fr.md",
+                "line": 35,
+                "mention": "DND PPE 820",
+                "method": "explicit_pib_id",
+                "excerpt": "DND PPE 820"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "DND CSA 520",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND CSA 520"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-f900146f051b_en.md",
+                "line": 30,
+                "mention": "DND CSA 520",
+                "method": "known_cor_id",
+                "excerpt": "DND CSA 520"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-f900146f051b_fr.md",
+                "line": 30,
+                "mention": "DND CSA 520",
+                "method": "known_cor_id",
+                "excerpt": "DND CSA 520"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "DND PPE 820"
+      ],
+      "pib_count": 1,
+      "cor_ids": [
+        "DND CSA 520"
+      ],
+      "cor_count": 1,
+      "word_count_en": 764,
+      "word_count_fr": 956,
+      "word_count_language": "en",
+      "word_count": 764
     },
     {
       "pia_id": "pia-c9809b554a09",
@@ -1303,7 +2030,12 @@
           "title": "Facilitating the Recruitment of Permanent Residents in the Canadian Armed Forces (CAF)",
           "conversion": "markdownify",
           "text_sha256": "43089a8e018cb1d613c82026e034ee3f52ee485e0a3315325d424f9b2aa7cd99",
-          "word_count": 155
+          "word_count": 155,
+          "pib_ids": [
+            "DND PPU 025",
+            "PSU 917"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/faciliter-recrutement-residents-permanents-forces-armees-canadiennes.html",
@@ -1354,9 +2086,87 @@
           "title": "Faciliter le recrutement de résidents permanents dans les Forces armées canadiennes (FAC)",
           "conversion": "markdownify",
           "text_sha256": "1a19829eee67fc0f8355b0f37b3f9419366ad4e83488563e23c353453ebdfc44",
-          "word_count": 188
+          "word_count": 188,
+          "pib_ids": [
+            "DND PPU 025",
+            "PSU 917"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DND PPU 025",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND PPU 025"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-c9809b554a09_en.md",
+                "line": 24,
+                "mention": "DND PPU 025",
+                "method": "explicit_pib_id",
+                "excerpt": "DND PIB PPU 025 (Enrolment)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-c9809b554a09_fr.md",
+                "line": 24,
+                "mention": "MDN PPU 025",
+                "method": "explicit_pib_id",
+                "excerpt": "MDN FRP PPU 025 (Enrôlement)"
+              }
+            ]
+          },
+          {
+            "id": "PSU 917",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 917"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-c9809b554a09_en.md",
+                "line": 26,
+                "mention": "PSU 917",
+                "method": "explicit_pib_id",
+                "excerpt": "GOC PIB PSU 917 (Personnel Security Screening)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-c9809b554a09_fr.md",
+                "line": 26,
+                "mention": "POU 917",
+                "method": "explicit_pib_id",
+                "excerpt": "GC FRP POU 917 (Filtrage de sécurité du personnel)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "DND PPU 025",
+        "PSU 917"
+      ],
+      "pib_count": 2,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 155,
+      "word_count_fr": 188,
+      "word_count_language": "en",
+      "word_count": 155
     },
     {
       "pia_id": "pia-15bc54a76418",
@@ -1420,7 +2230,13 @@
           "title": "Biometric Collection within the Defence Intelligence Enterprise (DIE) Program",
           "conversion": "markdownify",
           "text_sha256": "6307036743b82d1921250cb33c541272a4e331859a63da5a2153f6266d666774",
-          "word_count": 863
+          "word_count": 863,
+          "pib_ids": [
+            "DND PPU 061"
+          ],
+          "cor_ids": [
+            "DND MIS 085"
+          ]
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/collecte-donnees-biometriques-programme-erd.html",
@@ -1471,9 +2287,90 @@
           "title": "Collecte de données biométriques dans le cadre du programme de l’entreprise du renseignement de défense (ERD)",
           "conversion": "markdownify",
           "text_sha256": "9fb1b6d53e4d05227eec796b19f85af65344da2d1c92a91980c922075afe1adb",
-          "word_count": 1076
+          "word_count": 1076,
+          "pib_ids": [
+            "DND PPU 061"
+          ],
+          "cor_ids": [
+            "DND MIS 085"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DND PPU 061",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND PPU 061"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-15bc54a76418_en.md",
+                "line": 39,
+                "mention": "DND PPU 061",
+                "method": "explicit_pib_id",
+                "excerpt": "DND PPU 061 (Defence Intelligence Records)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-15bc54a76418_fr.md",
+                "line": 39,
+                "mention": "MDN PPU 061",
+                "method": "explicit_pib_id",
+                "excerpt": "MDN PPU 061 Dossiers du renseignement de défense"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "DND MIS 085",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND MIS 085"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-15bc54a76418_en.md",
+                "line": 35,
+                "mention": "DND MIS 085",
+                "method": "known_cor_id",
+                "excerpt": "DND MIS 085 (CAF Security and Investigations)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-15bc54a76418_fr.md",
+                "line": 35,
+                "mention": "MDN RMS 085",
+                "method": "known_cor_id",
+                "excerpt": "MDN RMS 085 (Enquêtes et sécurité des FAC)"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "DND PPU 061"
+      ],
+      "pib_count": 1,
+      "cor_ids": [
+        "DND MIS 085"
+      ],
+      "cor_count": 1,
+      "word_count_en": 863,
+      "word_count_fr": 1076,
+      "word_count_language": "en",
+      "word_count": 863
     },
     {
       "pia_id": "pia-2b7670f5bdbd",
@@ -1537,7 +2434,11 @@
           "title": "CAF Anthropometric Program for Soldier System Acquisition",
           "conversion": "markdownify",
           "text_sha256": "fae2a94734d18401e5a05a0e15820fe25e0cab23baf640da81a49ed9a76f4c3a",
-          "word_count": 1324
+          "word_count": 1324,
+          "pib_ids": [],
+          "cor_ids": [
+            "DND WEE 665"
+          ]
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/programme-anthropometrique-pour-acquisitions-systeme-soldat-fac.html",
@@ -1588,9 +2489,57 @@
           "title": "Programme anthropométrique pour les acquisitions du système du soldat des FAC",
           "conversion": "markdownify",
           "text_sha256": "f777adee689648d2aa98e4ea760fe4a530186ad3d8a412f6402b34fae0bdbad1",
-          "word_count": 1627
+          "word_count": 1627,
+          "pib_ids": [],
+          "cor_ids": [
+            "DND WEE 665"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": [
+          {
+            "id": "DND WEE 665",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND WEE 665"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-2b7670f5bdbd_en.md",
+                "line": 26,
+                "mention": "DND WEE 665",
+                "method": "known_cor_id",
+                "excerpt": "DND WEE 665"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-2b7670f5bdbd_fr.md",
+                "line": 22,
+                "mention": "MDN BSA 665",
+                "method": "known_cor_id",
+                "excerpt": "Catégories de documents ordinaires ou de documents propres à l’institution :MDN BSA 665"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [
+        "DND WEE 665"
+      ],
+      "cor_count": 1,
+      "word_count_en": 1324,
+      "word_count_fr": 1627,
+      "word_count_language": "en",
+      "word_count": 1324
     },
     {
       "pia_id": "pia-28190d1dc554",
@@ -1654,7 +2603,13 @@
           "title": "Declaration of Victims Rights (DVR) Complaint Review Mechanism",
           "conversion": "markdownify",
           "text_sha256": "7a09a5e69d6e9bd95ba2fa26bfa880b7b8246c1591e3520bad5d230fa4200cd4",
-          "word_count": 1168
+          "word_count": 1168,
+          "pib_ids": [
+            "DND PPU 874"
+          ],
+          "cor_ids": [
+            "DND CSA 520"
+          ]
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/mecanisme-examen-plaintes-relatives-declaration-droits-victimes.html",
@@ -1705,9 +2660,97 @@
           "title": "Mécanisme d’examen des plaintes relatives à la Déclaration des droits des victimes (DDV)",
           "conversion": "markdownify",
           "text_sha256": "638a1bb150912efbf31049e89590b91c4623b9e3e30f19812639dcc397434ed6",
-          "word_count": 1481
+          "word_count": 1481,
+          "pib_ids": [
+            "DND PPU 874"
+          ],
+          "cor_ids": [
+            "MDN CSA 520"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DND PPU 874",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND PPU 874"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-28190d1dc554_en.md",
+                "line": 30,
+                "mention": "DND PPU 874",
+                "method": "explicit_pib_id",
+                "excerpt": "DND PPU 874"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-28190d1dc554_fr.md",
+                "line": 30,
+                "mention": "MDN PPU 874",
+                "method": "explicit_pib_id",
+                "excerpt": "MDN PPU 874"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "DND CSA 520",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND CSA 520"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-28190d1dc554_en.md",
+                "line": 26,
+                "mention": "DND CSA 520",
+                "method": "known_cor_id",
+                "excerpt": "DND CSA 520"
+              }
+            ]
+          },
+          {
+            "id": "MDN CSA 520",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-28190d1dc554_fr.md",
+                "line": 26,
+                "mention": "MDN CSA 520",
+                "method": "explicit_cor_context",
+                "excerpt": "MDN CSA 520"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "DND PPU 874"
+      ],
+      "pib_count": 1,
+      "cor_ids": [
+        "DND CSA 520",
+        "MDN CSA 520"
+      ],
+      "cor_count": 2,
+      "word_count_en": 1168,
+      "word_count_fr": 1481,
+      "word_count_language": "en",
+      "word_count": 1168
     },
     {
       "pia_id": "pia-40ef1ffa6696",
@@ -1771,7 +2814,13 @@
           "title": "Federal Health Claims Processing Service (FHCPS)",
           "conversion": "markdownify",
           "text_sha256": "5ef95551413678f68830c808f05fd9cac90e9c0f085795b4ecf1f565038c9c88",
-          "word_count": 1456
+          "word_count": 1456,
+          "pib_ids": [
+            "DND PPU 819"
+          ],
+          "cor_ids": [
+            "DND SGB 496"
+          ]
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/service-federal-traitement-demandes-soins-sante.html",
@@ -1822,9 +2871,90 @@
           "title": "Service fédéral de traitement des demandes de soins de santé (SFTDSS)",
           "conversion": "markdownify",
           "text_sha256": "e13288f097165a5f5287eadd763de927ab5dd00d4e602557c4eca6a924c9dad8",
-          "word_count": 1790
+          "word_count": 1790,
+          "pib_ids": [
+            "DND PPU 819"
+          ],
+          "cor_ids": [
+            "DND SGB 496"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DND PPU 819",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND PPU 819"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-40ef1ffa6696_en.md",
+                "line": 30,
+                "mention": "DND PPU 819",
+                "method": "explicit_pib_id",
+                "excerpt": "DND PPU 819"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-40ef1ffa6696_fr.md",
+                "line": 30,
+                "mention": "MDN PPU 819",
+                "method": "explicit_pib_id",
+                "excerpt": "MDN PPU 819"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "DND SGB 496",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND SGB 496"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-40ef1ffa6696_en.md",
+                "line": 26,
+                "mention": "DND SGB 496",
+                "method": "known_cor_id",
+                "excerpt": "DND SGB 496"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-40ef1ffa6696_fr.md",
+                "line": 26,
+                "mention": "MDN BSS 496",
+                "method": "known_cor_id",
+                "excerpt": "MDN BSS 496"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "DND PPU 819"
+      ],
+      "pib_count": 1,
+      "cor_ids": [
+        "DND SGB 496"
+      ],
+      "cor_count": 1,
+      "word_count_en": 1456,
+      "word_count_fr": 1790,
+      "word_count_language": "en",
+      "word_count": 1456
     },
     {
       "pia_id": "pia-f4e5358f3814",
@@ -1888,7 +3018,13 @@
           "title": "Independent Legal Assistance Program",
           "conversion": "markdownify",
           "text_sha256": "52f1a4e676908dec37132a956815254e1d096f4dbb3d283cbfbfdde418f1b1cf",
-          "word_count": 1365
+          "word_count": 1365,
+          "pib_ids": [
+            "DND PPU 883"
+          ],
+          "cor_ids": [
+            "DND SMR 102"
+          ]
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/programme-assistance-juridique-independante.html",
@@ -1939,9 +3075,90 @@
           "title": "Programme d’assistance juridique indépendante",
           "conversion": "markdownify",
           "text_sha256": "71a0c8e17b4fccfa28d13c259937384d4a2c62ea17bca02c8fde530dade16718",
-          "word_count": 1626
+          "word_count": 1626,
+          "pib_ids": [
+            "DND PPU 883"
+          ],
+          "cor_ids": [
+            "DND SMR 102"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DND PPU 883",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND PPU 883"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-f4e5358f3814_en.md",
+                "line": 40,
+                "mention": "DND PPU 883",
+                "method": "explicit_pib_id",
+                "excerpt": "DND PPU 883 (Independent Legal Assistance Program) – Pending TBS Approval"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-f4e5358f3814_fr.md",
+                "line": 40,
+                "mention": "DND PPU 883",
+                "method": "explicit_pib_id",
+                "excerpt": "DND PPU 883 (programme d’assistance juridique indépendante) – en attente de l’approbation du SCT"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "DND SMR 102",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND SMR 102"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-f4e5358f3814_en.md",
+                "line": 36,
+                "mention": "DND SMR 102",
+                "method": "known_cor_id",
+                "excerpt": "DND SMR 102 (Independent Legal Assistance Records) – Pending TBS Approval"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-f4e5358f3814_fr.md",
+                "line": 36,
+                "mention": "DND SMR 102",
+                "method": "known_cor_id",
+                "excerpt": "DND SMR 102 (documents d’assistance juridique indépendante) – en attente de l’approbation du SCT"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "DND PPU 883"
+      ],
+      "pib_count": 1,
+      "cor_ids": [
+        "DND SMR 102"
+      ],
+      "cor_count": 1,
+      "word_count_en": 1365,
+      "word_count_fr": 1626,
+      "word_count_language": "en",
+      "word_count": 1365
     },
     {
       "pia_id": "pia-4ef2f5bc381a",
@@ -2005,7 +3222,13 @@
           "title": "Litigation Claims Processing Program",
           "conversion": "markdownify",
           "text_sha256": "c21cb0e3df5d1dd2496a2c60e0c5a8bd34182435a26a4eefb2c071253e249efe",
-          "word_count": 1298
+          "word_count": 1298,
+          "pib_ids": [
+            "DND PPU 873"
+          ],
+          "cor_ids": [
+            "DND DLO 101"
+          ]
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/reclamations-litiges.html",
@@ -2056,9 +3279,103 @@
           "title": "Programme de traitement des réclamations liées à des litiges",
           "conversion": "markdownify",
           "text_sha256": "0440a47f53587ff41f2f6a68330e00ce70c8a7da9cbb623fcc7ce06262465bf4",
-          "word_count": 1713
+          "word_count": 1713,
+          "pib_ids": [
+            "DND PPU 873"
+          ],
+          "cor_ids": [
+            "MDN SML 101"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DND PPU 873",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND PPU 873"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-4ef2f5bc381a_en.md",
+                "line": 35,
+                "mention": "DND PPU 873",
+                "method": "explicit_pib_id",
+                "excerpt": "DND PPU 873"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-4ef2f5bc381a_fr.md",
+                "line": 35,
+                "mention": "MDN PPU 873",
+                "method": "explicit_pib_id",
+                "excerpt": "MDN PPU 873"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "DND DLO 101",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND DLO 101"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-4ef2f5bc381a_en.md",
+                "line": 30,
+                "mention": "DND DLO 101",
+                "method": "known_cor_id",
+                "excerpt": "DND DLO 101"
+              }
+            ]
+          },
+          {
+            "id": "MDN SML 101",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "MDN SML 101"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-4ef2f5bc381a_fr.md",
+                "line": 30,
+                "mention": "MDN SML 101",
+                "method": "known_cor_id",
+                "excerpt": "MDN SML 101"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "DND PPU 873"
+      ],
+      "pib_count": 1,
+      "cor_ids": [
+        "DND DLO 101",
+        "MDN SML 101"
+      ],
+      "cor_count": 2,
+      "word_count_en": 1298,
+      "word_count_fr": 1713,
+      "word_count_language": "en",
+      "word_count": 1298
     },
     {
       "pia_id": "pia-c53f9207e3ee",
@@ -2122,7 +3439,13 @@
           "title": "Restorative Engagement Program",
           "conversion": "markdownify",
           "text_sha256": "74d85e9d6bacda5813db8110446928828bf2e7138c0fb6fd4d46f6540d1e4701",
-          "word_count": 1183
+          "word_count": 1183,
+          "pib_ids": [
+            "DND PPU 882"
+          ],
+          "cor_ids": [
+            "DND SMR 101"
+          ]
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/programme-de-demarches-reparatrices.html",
@@ -2173,9 +3496,90 @@
           "title": "Programme de démarches réparatrices",
           "conversion": "markdownify",
           "text_sha256": "bb7558871fee105aaeb1063a94ba2d67e9faa8a09198066aa69b14a786366b95",
-          "word_count": 1474
+          "word_count": 1474,
+          "pib_ids": [
+            "DND PPU 882"
+          ],
+          "cor_ids": [
+            "DND SMR 101"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DND PPU 882",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND PPU 882"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-c53f9207e3ee_en.md",
+                "line": 41,
+                "mention": "DND PPU 882",
+                "method": "explicit_pib_id",
+                "excerpt": "DND PPU 882 (Restorative Engagement Program) – Pending TBS Approval"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-c53f9207e3ee_fr.md",
+                "line": 41,
+                "mention": "DND PPU 882",
+                "method": "explicit_pib_id",
+                "excerpt": "DND PPU 882 (Programme de démarches réparatrices) – en attente de l’approbation du SCT"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "DND SMR 101",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND SMR 101"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-c53f9207e3ee_en.md",
+                "line": 37,
+                "mention": "DND SMR 101",
+                "method": "known_cor_id",
+                "excerpt": "DND SMR 101 (Restorative Engagement Records) – Pending TBS Approval"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-c53f9207e3ee_fr.md",
+                "line": 37,
+                "mention": "DND SMR 101",
+                "method": "known_cor_id",
+                "excerpt": "DND SMR 101 (Documents de démarches réparatrices) – en attente de l’approbation du SCT"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "DND PPU 882"
+      ],
+      "pib_count": 1,
+      "cor_ids": [
+        "DND SMR 101"
+      ],
+      "cor_count": 1,
+      "word_count_en": 1183,
+      "word_count_fr": 1474,
+      "word_count_language": "en",
+      "word_count": 1183
     },
     {
       "pia_id": "pia-dd6287ed0131",
@@ -2239,7 +3643,13 @@
           "title": "Summary Investigations/Board of Inquiries",
           "conversion": "markdownify",
           "text_sha256": "30b28984c69b093bd9eee3799906a07fbee10d2c142da4aac5d94726ab0abf7e",
-          "word_count": 1235
+          "word_count": 1235,
+          "pib_ids": [
+            "DND PPE 832"
+          ],
+          "cor_ids": [
+            "DND CSA 520"
+          ]
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/enquetes-sommaires-commissions-enquete.html",
@@ -2290,9 +3700,90 @@
           "title": "Enquêtes sommaires et commissions d’enquête",
           "conversion": "markdownify",
           "text_sha256": "9709cebae89d16bb25fab24db9a53f27f35d0090a6ac5c4142c261a4bb6f34b9",
-          "word_count": 1518
+          "word_count": 1518,
+          "pib_ids": [
+            "DND PPE 832"
+          ],
+          "cor_ids": [
+            "DND CSA 520"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DND PPE 832",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND PPE 832"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-dd6287ed0131_en.md",
+                "line": 41,
+                "mention": "DND PPE 832",
+                "method": "explicit_pib_id",
+                "excerpt": "DND PPE 832"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-dd6287ed0131_fr.md",
+                "line": 41,
+                "mention": "MDN PPE 832",
+                "method": "explicit_pib_id",
+                "excerpt": "MDN PPE 832"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "DND CSA 520",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND CSA 520"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-dd6287ed0131_en.md",
+                "line": 36,
+                "mention": "DND CSA 520",
+                "method": "known_cor_id",
+                "excerpt": "DND CSA 520"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-dd6287ed0131_fr.md",
+                "line": 36,
+                "mention": "MDN CNS 520",
+                "method": "known_cor_id",
+                "excerpt": "MDN CNS 520"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "DND PPE 832"
+      ],
+      "pib_count": 1,
+      "cor_ids": [
+        "DND CSA 520"
+      ],
+      "cor_count": 1,
+      "word_count_en": 1235,
+      "word_count_fr": 1518,
+      "word_count_language": "en",
+      "word_count": 1235
     },
     {
       "pia_id": "pia-5087c1d864ac",
@@ -2356,7 +3847,9 @@
           "title": "Canadian Armed Forces Transition Group (CAF TG)",
           "conversion": "markdownify",
           "text_sha256": "89e863f42e8283ce3e7a32bdff2e018bce67f8a452aabc89731f2ae6947b8f27",
-          "word_count": 1275
+          "word_count": 1275,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/groupe-transition-forces-armees-canadiennes.html",
@@ -2407,9 +3900,24 @@
           "title": "Groupe de transition des Forces armées canadiennes (GT FAC)",
           "conversion": "markdownify",
           "text_sha256": "3c3e5edfc8c3bc911e4c0a9af8671601799aa8f79e78f5ee59cc3aca405bd7c6",
-          "word_count": 1688
+          "word_count": 1688,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1275,
+      "word_count_fr": 1688,
+      "word_count_language": "en",
+      "word_count": 1275
     },
     {
       "pia_id": "pia-04eb4a826bca",
@@ -2473,7 +3981,9 @@
           "title": "Casualty Identification Program (CasID)",
           "conversion": "markdownify",
           "text_sha256": "848fc4d4ced856c72932a884af5280cfd62f141403c38f41ebc980ba58152dcd",
-          "word_count": 1339
+          "word_count": 1339,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/programme-identification-pertes-militaires.html",
@@ -2524,9 +4034,24 @@
           "title": "Programme d’identification des pertes militaires (CasID)",
           "conversion": "markdownify",
           "text_sha256": "6020b7f91fee93be2d1b75f2aa93dbd02bc7c5b6fde455893d9e67e123f493e5",
-          "word_count": 1653
+          "word_count": 1653,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1339,
+      "word_count_fr": 1653,
+      "word_count_language": "en",
+      "word_count": 1339
     },
     {
       "pia_id": "pia-c62821a7f4ed",
@@ -2590,7 +4115,9 @@
           "title": "Cellular Airborne Sensor for Search and Rescue (CASSAR)",
           "conversion": "markdownify",
           "text_sha256": "33087c280a76912a392ae1ba96bd6aefae9cc4c7b045e9873db1b3deac2a8076",
-          "word_count": 1398
+          "word_count": 1398,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/cellulaire-aeroportes-pour-recherche-sauvetage.html",
@@ -2641,9 +4168,24 @@
           "title": "Le système de détecteurs de cellulaire aéroportés pour la recherche et le sauvetage (CASSAR)",
           "conversion": "markdownify",
           "text_sha256": "4754e60507df78c96f0b354cb7a46e191d036e0768a001bf380c1dd31a7deccc",
-          "word_count": 1717
+          "word_count": 1717,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1398,
+      "word_count_fr": 1717,
+      "word_count_language": "en",
+      "word_count": 1398
     },
     {
       "pia_id": "pia-9a4142246984",
@@ -2707,7 +4249,14 @@
           "title": "Polygraph Examination",
           "conversion": "markdownify",
           "text_sha256": "4fd9ec548f80722d5df1ca49257e5a91d761c74b70907a080f1eb0bb2c528737",
-          "word_count": 1002
+          "word_count": 1002,
+          "pib_ids": [
+            "DND PPU 834"
+          ],
+          "cor_ids": [
+            "DND CSA 520",
+            "DND MIS 085"
+          ]
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/examen-polygraphique.html",
@@ -2758,9 +4307,134 @@
           "title": "Examen polygraphique",
           "conversion": "markdownify",
           "text_sha256": "6b16ada1a00c51600326a2bdfd18c815ec2fc875b432c2bc3c72e808f838a8db",
-          "word_count": 1211
+          "word_count": 1211,
+          "pib_ids": [
+            "DND PPU 834"
+          ],
+          "cor_ids": [
+            "DND/RMS 085",
+            "MDN/DDC 520"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DND PPU 834",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND PPU 834"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-9a4142246984_en.md",
+                "line": 41,
+                "mention": "DND PPU 834",
+                "method": "explicit_pib_id",
+                "excerpt": "DND PPU 834 (Personnel Security Investigation File)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-9a4142246984_fr.md",
+                "line": 41,
+                "mention": "PPU 834",
+                "method": "explicit_pib_id",
+                "excerpt": "MDN/PPU 834 (Dossier d’enquête sur la sécurité et vérification relative à la fiabilité)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "DND CSA 520",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND CSA 520"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-9a4142246984_en.md",
+                "line": 36,
+                "mention": "DND CSA 520",
+                "method": "known_cor_id",
+                "excerpt": "DND CSA 520 (Careers)"
+              }
+            ]
+          },
+          {
+            "id": "DND MIS 085",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND MIS 085"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-9a4142246984_en.md",
+                "line": 37,
+                "mention": "DND MIS 085",
+                "method": "known_cor_id",
+                "excerpt": "DND MIS 085 (CAF Security and Investigations)"
+              }
+            ]
+          },
+          {
+            "id": "DND/RMS 085",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-9a4142246984_fr.md",
+                "line": 37,
+                "mention": "DND/RMS 085",
+                "method": "explicit_cor_context",
+                "excerpt": "DND/RMS 085 (Enquêtes et sécurité des FAC)"
+              }
+            ]
+          },
+          {
+            "id": "MDN/DDC 520",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-9a4142246984_fr.md",
+                "line": 36,
+                "mention": "MDN/DDC 520",
+                "method": "explicit_cor_context",
+                "excerpt": "MDN/DDC 520 (Carrières)"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "DND PPU 834"
+      ],
+      "pib_count": 1,
+      "cor_ids": [
+        "DND CSA 520",
+        "DND MIS 085",
+        "DND/RMS 085",
+        "MDN/DDC 520"
+      ],
+      "cor_count": 4,
+      "word_count_en": 1002,
+      "word_count_fr": 1211,
+      "word_count_language": "en",
+      "word_count": 1002
     },
     {
       "pia_id": "pia-30f9796080ad",
@@ -2824,7 +4498,9 @@
           "title": "1974 Valcartier Grenade Incident Program (VGIP)",
           "conversion": "markdownify",
           "text_sha256": "5d1c3bd875bc7b5764a3f1371661549947d2b844985b0c94bddd0b570b984042",
-          "word_count": 1275
+          "word_count": 1275,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/programme-relatif-a-lexplosion-dune-grenade-a-valcartier-en-1974.html",
@@ -2875,9 +4551,24 @@
           "title": "Programme relatif à l’explosion d’une grenade à Valcartier en 1974",
           "conversion": "markdownify",
           "text_sha256": "b73c5c9b39d47d0709d0170aa90f79d2de103fb8bc0d5d7796a6ba7b44ac7f6c",
-          "word_count": 1679
+          "word_count": 1679,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1275,
+      "word_count_fr": 1679,
+      "word_count_language": "en",
+      "word_count": 1275
     },
     {
       "pia_id": "pia-f43bc39d8492",
@@ -2941,7 +4632,9 @@
           "title": "Digital Recruitment Platform",
           "conversion": "markdownify",
           "text_sha256": "407539fb1309d3aef08faa60ad27d0796eb8ecd3daf70484a7f95e7cfff042c8",
-          "word_count": 1125
+          "word_count": 1125,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/plateforme-numerique-de-recrutement.html",
@@ -2992,9 +4685,24 @@
           "title": "Plateforme numérique de recrutement",
           "conversion": "markdownify",
           "text_sha256": "d9610813a5f5b8cde94d16119b2acc1b7ec2ab3be4c4909c913b630d04c5e436",
-          "word_count": 1403
+          "word_count": 1403,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1125,
+      "word_count_fr": 1403,
+      "word_count_language": "en",
+      "word_count": 1125
     },
     {
       "pia_id": "pia-e57ca35a4b88",
@@ -3058,7 +4766,9 @@
           "title": "Justice Administration and Information Management System",
           "conversion": "markdownify",
           "text_sha256": "2df4da60a3ca81392aa39379234a163afb4e1765b4565461713c406e139f62b6",
-          "word_count": 1598
+          "word_count": 1598,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/jaims-pia.html",
@@ -3109,9 +4819,24 @@
           "title": "Système de gestion de l'information et de l'administration de la justice",
           "conversion": "markdownify",
           "text_sha256": "e1d142dba5e12998edbdb644c2538d88da6011d5b97d56d32d16b1decf3dab95",
-          "word_count": 1922
+          "word_count": 1922,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1598,
+      "word_count_fr": 1922,
+      "word_count_language": "en",
+      "word_count": 1598
     },
     {
       "pia_id": "pia-5e1eef1437e1",
@@ -3175,7 +4900,9 @@
           "title": "Operational and Non-Operational Clothing and Footwear Program",
           "conversion": "markdownify",
           "text_sha256": "e906b67869af25b29dcef814b982fd7eff33c0931818a52bbe664ec43e602803",
-          "word_count": 1109
+          "word_count": 1109,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/programme-vetements-chaussures.html",
@@ -3226,9 +4953,24 @@
           "title": "Programme de vêtements et de chaussures opérationnels et non opérationnels",
           "conversion": "markdownify",
           "text_sha256": "0e2f4d65250a86a35fc10c8c03d706b7c7e40ca309898527be2c8f5ac0f0869c",
-          "word_count": 1399
+          "word_count": 1399,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1109,
+      "word_count_fr": 1399,
+      "word_count_language": "en",
+      "word_count": 1109
     },
     {
       "pia_id": "pia-786111f4d27f",
@@ -3292,7 +5034,13 @@
           "title": "Response and Support Coordination (RSC); a sub-program of the Sexual Misconduct Response Centre (SMRC)",
           "conversion": "markdownify",
           "text_sha256": "413e42bf559819b25995ee4c35cc31196b89ab54a9883231e483475aca27b46f",
-          "word_count": 1200
+          "word_count": 1200,
+          "pib_ids": [
+            "DND PPU 880"
+          ],
+          "cor_ids": [
+            "DND SMR 100"
+          ]
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/coordination-intervention-soutien.html",
@@ -3343,9 +5091,90 @@
           "title": "Coordination de l’intervention et du soutien (CIS); Sous-programme du centre d’intervention sur l’inconduite sexuelle (CIIS)",
           "conversion": "markdownify",
           "text_sha256": "50a5c8516c99be6a16daaebb4f124f43c8a616575d938cc4befa9792c8fe4f59",
-          "word_count": 1538
+          "word_count": 1538,
+          "pib_ids": [
+            "DND PPU 880"
+          ],
+          "cor_ids": [
+            "DND SMR 100"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DND PPU 880",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND PPU 880"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-786111f4d27f_en.md",
+                "line": 37,
+                "mention": "DND PPU 880",
+                "method": "explicit_pib_id",
+                "excerpt": "Sexual Misconduct Response Centre, DND PPU 880"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-786111f4d27f_fr.md",
+                "line": 37,
+                "mention": "MDN PPU 880",
+                "method": "explicit_pib_id",
+                "excerpt": "Centre d’intervention sur l’inconduite sexuelle, MDN PPU 880"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "DND SMR 100",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND SMR 100"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-786111f4d27f_en.md",
+                "line": 33,
+                "mention": "DND SMR 100",
+                "method": "known_cor_id",
+                "excerpt": "Sexual Misconduct: DND SMR 100"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-786111f4d27f_fr.md",
+                "line": 33,
+                "mention": "MDN IIS 100",
+                "method": "known_cor_id",
+                "excerpt": "Inconduite sexuelle : MDN IIS 100"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "DND PPU 880"
+      ],
+      "pib_count": 1,
+      "cor_ids": [
+        "DND SMR 100"
+      ],
+      "cor_count": 1,
+      "word_count_en": 1200,
+      "word_count_fr": 1538,
+      "word_count_language": "en",
+      "word_count": 1200
     },
     {
       "pia_id": "pia-0df85e8c0aee",
@@ -3409,7 +5238,9 @@
           "title": "Litigation Claims Processing Program",
           "conversion": "markdownify",
           "text_sha256": "567032a4535beb60620a14ad0791c7833a933bcb1ad0e18315fa65e794a288ac",
-          "word_count": 1103
+          "word_count": 1103,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/programme-traitement-reclamations-litiges.html",
@@ -3460,9 +5291,24 @@
           "title": "Programme de traitement des réclamations liées à des litiges",
           "conversion": "markdownify",
           "text_sha256": "a9d2bf678b668ae8ccd690d58e619f50f832a968746ef778a4a7440eea9e35e4",
-          "word_count": 1405
+          "word_count": 1405,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1103,
+      "word_count_fr": 1405,
+      "word_count_language": "en",
+      "word_count": 1103
     },
     {
       "pia_id": "pia-085542b94922",
@@ -3526,7 +5372,17 @@
           "title": "Operation Honour Tracking and Analysis",
           "conversion": "markdownify",
           "text_sha256": "5822bf0544079a271908b3af1c754ce2995fed899bba5af1deb2ed32634952ae",
-          "word_count": 1133
+          "word_count": 1133,
+          "pib_ids": [
+            "DND PPU 875",
+            "PSE 919",
+            "PSU 939"
+          ],
+          "cor_ids": [
+            "PRN 922",
+            "PRN 926",
+            "PRN 931"
+          ]
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/suivi-analyse-operation-honour.html",
@@ -3577,9 +5433,201 @@
           "title": "Suivi et analyse de l’opération honour",
           "conversion": "markdownify",
           "text_sha256": "65f90f1f382849475846a8da89138f0f1430557e73e731d8606f78d8363458df",
-          "word_count": 1386
+          "word_count": 1386,
+          "pib_ids": [
+            "PSE 919",
+            "PSU 939"
+          ],
+          "cor_ids": [
+            "PRN 922",
+            "PRN 926",
+            "PRN 931"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DND PPU 875",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND PPU 875"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-085542b94922_en.md",
+                "line": 40,
+                "mention": "DND PPU 875",
+                "method": "explicit_pib_id",
+                "excerpt": "- CAF Harassment (DND PPU 875)"
+              }
+            ]
+          },
+          {
+            "id": "PSE 919",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 919"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-085542b94922_en.md",
+                "line": 38,
+                "mention": "PSE 919",
+                "method": "explicit_pib_id",
+                "excerpt": "- Harassment (PSE 919)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-085542b94922_fr.md",
+                "line": 38,
+                "mention": "POE 919",
+                "method": "explicit_pib_id",
+                "excerpt": "- Harcèlement (POE 919)"
+              }
+            ]
+          },
+          {
+            "id": "PSU 939",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 939"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-085542b94922_en.md",
+                "line": 39,
+                "mention": "PSU 939",
+                "method": "explicit_pib_id",
+                "excerpt": "- Security Incident and Privacy Breaches (PSU 939)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-085542b94922_fr.md",
+                "line": 39,
+                "mention": "POU 939",
+                "method": "explicit_pib_id",
+                "excerpt": "- Incidents de sécurité et atteinte à la vie privée (POU 939)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "PRN 922",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "922"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-085542b94922_en.md",
+                "line": 32,
+                "mention": "PRN 922",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "- Occupational Health and Safety (PRN 922)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-085542b94922_fr.md",
+                "line": 32,
+                "mention": "NDP 922",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "- Santé et sécurité au travail (NDP 922)"
+              }
+            ]
+          },
+          {
+            "id": "PRN 926",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "926"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-085542b94922_en.md",
+                "line": 33,
+                "mention": "PRN 926",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "- Labour Relations (PRN 926)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-085542b94922_fr.md",
+                "line": 33,
+                "mention": "NDP 926",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "- Relations de travail (NDP 926)"
+              }
+            ]
+          },
+          {
+            "id": "PRN 931",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "931"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-085542b94922_en.md",
+                "line": 34,
+                "mention": "PRN 931",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "- Security (PRN 931)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-085542b94922_fr.md",
+                "line": 34,
+                "mention": "NDP 931",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "- Sécurité (NDP 931)"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "DND PPU 875",
+        "PSE 919",
+        "PSU 939"
+      ],
+      "pib_count": 3,
+      "cor_ids": [
+        "PRN 922",
+        "PRN 926",
+        "PRN 931"
+      ],
+      "cor_count": 3,
+      "word_count_en": 1133,
+      "word_count_fr": 1386,
+      "word_count_language": "en",
+      "word_count": 1133
     },
     {
       "pia_id": "pia-cd319686edab",
@@ -3643,7 +5691,9 @@
           "title": "Privacy Impact Assessment - Online Employment Application",
           "conversion": "markdownify",
           "text_sha256": "e2fc4a2c59d416b120c03d93705b9e4a924df305ee07f152bbafa60a5b542cfa",
-          "word_count": 1070
+          "word_count": 1070,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/groupe-recrutement.html",
@@ -3694,9 +5744,24 @@
           "title": "Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "a103150c785973ab2f939e46711cc66ea65c8506a69d7b3282f7fb018d3c2a04",
-          "word_count": 1386
+          "word_count": 1386,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1070,
+      "word_count_fr": 1386,
+      "word_count_language": "en",
+      "word_count": 1070
     },
     {
       "pia_id": "pia-2181af6a438a",
@@ -3760,7 +5825,11 @@
           "title": "Preliminary Privacy Impact Assessment for the Canadian Forces Health Information System Full Capability",
           "conversion": "markdownify",
           "text_sha256": "af3a939990b26ba931698d4a65cbda405101f316a7b42cb0997b50b7a0fe7596",
-          "word_count": 2153
+          "word_count": 2153,
+          "pib_ids": [
+            "DND PPE 810"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/systeme-information-sante-capacite-totale-preliminaire.html",
@@ -3811,9 +5880,73 @@
           "title": "Évaluation préliminaire des facteurs relatifs à la vie privée de la Système d'information de santé des Forces canadiennes (Capacité totale)",
           "conversion": "markdownify",
           "text_sha256": "17b8c6d1b6378f1292c139a0538354117567e259346f96ca2f31cdca651b798b",
-          "word_count": 2750
+          "word_count": 2750,
+          "pib_ids": [
+            "DND PPE 810"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DND PPE 810",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND PPE 810"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-2181af6a438a_en.md",
+                "line": 38,
+                "mention": "PPE 810",
+                "method": "explicit_pib_id",
+                "excerpt": "- Revise the current PIB Number PPE 810 for the medical record to reflect both hard copy records (i.e., CF 2034) and all other media (i.e., electronic) and to align it with recently approved MSIs related to Privacy and Information Management/ Records Management."
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-2181af6a438a_en.md",
+                "line": 56,
+                "mention": "PPE 810",
+                "method": "explicit_pib_id",
+                "excerpt": "The CFHIS project is currently documenting business processes, which will assist with identifying information uses. Once completed, the primary and secondary uses of data will be better understood and can be incorporated into the model (see Principle 2 - Identifying Purpose) for defining purposes and uses of personal health information. It is anticipated that the primary purposes of information will be substantially similar to those presently described in PIB Number PPE 810."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-2181af6a438a_fr.md",
+                "line": 38,
+                "mention": "PPE 810",
+                "method": "explicit_pib_id",
+                "excerpt": "- Réviser le FRP PPE 810 pour veiller à ce que le dossier médical corresponde aux dossiers papier (p. ex., les CF 2034) et aux dossiers sur autres supports (p. ex., électroniques) et pour les adapter aux ISS récemment approuvées en matière de protection des renseignements personnels et de gestion de l'information/des dossiers."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-2181af6a438a_fr.md",
+                "line": 56,
+                "mention": "PPE 810",
+                "method": "explicit_pib_id",
+                "excerpt": "Les chargés du projet du SISFC sont en train de documenter les procédés administratifs, ce qui contribuera à déterminer les fins auxquelles les renseignements sont utilisés. Lorsqu'ils auront terminé, les utilisations principales et secondaires des renseignements seront plus faciles à comprendre et pourront être versées au modèle (voir le deuxième principe - Détermination des fins de la collecte des renseignements) en vue de définir les fins et les utilisations des renseignements personnels en matière de santé. On s'attend à ce que les principales fins auxquelles servent les renseignements soi"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "DND PPE 810"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 2153,
+      "word_count_fr": 2750,
+      "word_count_language": "en",
+      "word_count": 2153
     },
     {
       "pia_id": "pia-026cd2eab593",
@@ -3877,7 +6010,11 @@
           "title": "Privacy Impact Assessment for the Canadian Forces Health Information System - Limited Capability",
           "conversion": "markdownify",
           "text_sha256": "a51bb5fd74aa02d36fb2aed9a83affc9325df6f3386fc4b5836c4367cc662859",
-          "word_count": 921
+          "word_count": 921,
+          "pib_ids": [
+            "DND PPE 810"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/systeme-information-sante-capacite-limitee.html",
@@ -3928,9 +6065,89 @@
           "title": "Évaluation des facteurs relatifs à la vie privée de la Système d'information de santé des Forces canadiennes (Capacité limitée)",
           "conversion": "markdownify",
           "text_sha256": "cdc6666eecf94db5a1db18c53ca971390f390bfdb22ba520edfdd5fbea4670a8",
-          "word_count": 1214
+          "word_count": 1214,
+          "pib_ids": [
+            "DND PPE 810"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DND PPE 810",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND PPE 810"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-026cd2eab593_en.md",
+                "line": 34,
+                "mention": "DND PPE 810",
+                "method": "explicit_pib_id",
+                "excerpt": "CF H Svcs Gp is obligated to develop, maintain, and submit Personal Information Bank (PIB) descriptions to Treasury Board. These PIBs are as critical to internal CF H Svcs Gp operations, as are Medical Service Instructions (MSIs). PIBs include descriptive statements about Purpose, Consistent Uses, Retention and Disposal. The purpose of the CFHIS LC data (i.e., the electronic medical record) is in keeping with the purpose of PIB description (DND PPE 810)."
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-026cd2eab593_en.md",
+                "line": 38,
+                "mention": "DND PPE 810",
+                "method": "explicit_pib_id",
+                "excerpt": "The Privacy Act requires the use of consents when collected personal information is not directly related to an operating program or is inconsistent with its purpose. CFHIS LC primarily uses information that is collected and consented by applicants (e.g., pre-enrolment medical examination) for purposes that are directly related to CF H Svcs Gp's mandate and is consistent with its purpose, as described in PIB (DND PPE 810)."
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-026cd2eab593_en.md",
+                "line": 48,
+                "mention": "DND PPE 810",
+                "method": "explicit_pib_id",
+                "excerpt": "The primary and secondary uses of CFHIS LC data have been determined, and are consistent with those described in PIB (DND PPE 810)."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-026cd2eab593_fr.md",
+                "line": 34,
+                "mention": "DND PPE 810",
+                "method": "explicit_pib_id",
+                "excerpt": "Le GSSFC doit établir, tenir à jour et soumettre au Conseil du Trésor des descriptions tirées d'une base de données sur les renseignements personnels (BDRP). Ces descriptions s'avèrent essentielles au bon fonctionnement des activités internes du GSSFC, au même titre que les instructions sur les services de santé (ISS). La BDRP contiendra des énoncés descriptifs touchant l'utilisation prévue, les usages compatibles ainsi que les méthodes de conservation et d'élimination. Les données du SISFC CL (soit le registre médical électronique) servent à des fins qui coïncident avec la description dans le"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-026cd2eab593_fr.md",
+                "line": 38,
+                "mention": "DND PPE 810",
+                "method": "explicit_pib_id",
+                "excerpt": "La Loi sur la protection des renseignements personnels exige le consentement du sujet lorsque les renseignements personnels recueillis n'ont pas trait directement à un programme d'exploitation ou ne concordent pas avec ses objectifs. Le SISFC CL renferme des informations recueillies, avec le consentement des intéressés (ex. : résultats des examens médicaux préalables à l'enrôlement) à des fins qui correspondent directement au mandat du GSSFC et qui sont conformes à sa mission, selon la définition dans le document sur la BDRP (DND PPE 810)."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-026cd2eab593_fr.md",
+                "line": 48,
+                "mention": "DND PPE 810",
+                "method": "explicit_pib_id",
+                "excerpt": "On a déterminé les usages premiers et secondaires des données du SISFC CL, qui concordent avec ceux exposés dans le document sur la BDRP (DND PPE 810)."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "DND PPE 810"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 921,
+      "word_count_fr": 1214,
+      "word_count_language": "en",
+      "word_count": 921
     },
     {
       "pia_id": "pia-36d6382edb88",
@@ -3994,7 +6211,9 @@
           "title": "Privacy Impact Assessment - Pre-Employment Screening Project",
           "conversion": "markdownify",
           "text_sha256": "2dbc448c7dfa038e0c6df67ab12ba60b1e8509eefc6700b38521a4d801a3cc60",
-          "word_count": 1730
+          "word_count": 1730,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/verification-prealable-emploi.html",
@@ -4045,9 +6264,24 @@
           "title": "Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "2a0177e59d8aca4563e041b6b621d3d032407bcdf18a48deaf8db00a1794a262",
-          "word_count": 2090
+          "word_count": 2090,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1730,
+      "word_count_fr": 2090,
+      "word_count_language": "en",
+      "word_count": 1730
     },
     {
       "pia_id": "pia-1f8f486ecd47",
@@ -4111,7 +6345,13 @@
           "title": "Sexual Assault Review Program",
           "conversion": "markdownify",
           "text_sha256": "772b2ba75dccb5edb04f6481c2aaf9e8e65028b1b967375828269f386a53c5a1",
-          "word_count": 767
+          "word_count": 767,
+          "pib_ids": [
+            "DND PPE 835"
+          ],
+          "cor_ids": [
+            "DND MIS 085"
+          ]
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/programme-examen-agressions-sexuelles.html",
@@ -4162,9 +6402,90 @@
           "title": "Programme d’examen des agressions sexuelles",
           "conversion": "markdownify",
           "text_sha256": "b175471b26247c446523fd8d6e0d342f5ae4acfabc31d5177556e9c8cc00f518",
-          "word_count": 952
+          "word_count": 952,
+          "pib_ids": [
+            "DND PPE 835"
+          ],
+          "cor_ids": [
+            "DND MIS 085"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "DND PPE 835",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND PPE 835"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-1f8f486ecd47_en.md",
+                "line": 28,
+                "mention": "DND PPE 835",
+                "method": "explicit_pib_id",
+                "excerpt": "Institution specific personal information bank:Military Police Investigation Files: DND PPE 835"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-1f8f486ecd47_fr.md",
+                "line": 28,
+                "mention": "MDN PPE 835",
+                "method": "explicit_pib_id",
+                "excerpt": "Fichiers de renseignements personnels propres à l’institutionDossiers d’enquête de la police militaire : MDN PPE 835"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "DND MIS 085",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-department-of-national-defence",
+                "record_id": "DND MIS 085"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-1f8f486ecd47_en.md",
+                "line": 26,
+                "mention": "DND MIS 085",
+                "method": "known_cor_id",
+                "excerpt": "Institution specific class of record:CAF Security and Investigations: DND MIS 085"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-department-of-national-defence/pia-1f8f486ecd47_fr.md",
+                "line": 26,
+                "mention": "MDN RMS 085",
+                "method": "known_cor_id",
+                "excerpt": "Catégorie de documents propre aux institutionsEnquêtes et sécurité des FAC : MDN RMS 085"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "DND PPE 835"
+      ],
+      "pib_count": 1,
+      "cor_ids": [
+        "DND MIS 085"
+      ],
+      "cor_count": 1,
+      "word_count_en": 767,
+      "word_count_fr": 952,
+      "word_count_language": "en",
+      "word_count": 767
     },
     {
       "pia_id": "pia-0bcb4d37f9e2",
@@ -4228,7 +6549,9 @@
           "title": "Sexual Misconduct Response Centre",
           "conversion": "markdownify",
           "text_sha256": "22f8f8824429c36d2123c30cb1713031e2423103f229d83ced95860bad617658",
-          "word_count": 1096
+          "word_count": 1096,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/transparence/acces-information-protection-renseignements-personnels/evaluation-des-facteurs-relatifs-a-la-vie-privee/centre-intervention-inconduite-sexuelle.html",
@@ -4279,9 +6602,24 @@
           "title": "Centre d’intervention sur l’inconduite sexuelle",
           "conversion": "markdownify",
           "text_sha256": "a0e1a9d4eac33e822780b352c8cb1b15400e207e6bc7ab04a0a0290dc6760e3e",
-          "word_count": 1308
+          "word_count": 1308,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1096,
+      "word_count_fr": 1308,
+      "word_count_language": "en",
+      "word_count": 1096
     }
   ],
   "summary": {

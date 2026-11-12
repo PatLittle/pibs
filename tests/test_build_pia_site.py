@@ -34,3 +34,20 @@ class PiaSiteTests(unittest.TestCase):
 
 
 if __name__ == '__main__': unittest.main()
+
+class PiaProgressTests(unittest.TestCase):
+    def test_coverage_counts_distinct_pibs_instead_of_assessment_count(self):
+        import tempfile
+        from pathlib import Path
+        from unittest.mock import patch
+        from scripts.build_pia_site import pib_progress
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp)
+            (root/'institutions_infosource_docs').mkdir()
+            (root/'institutions_infosource_docs/pib_table_en_fr_all.csv').write_text('institution_id,bank_number_key\na,A PPU 001\nb,B PPU 002\n')
+            row={'institution_id':'a','available_languages':['en'],'pib_count':1,'cor_count':0,'references':{'pibs':[{'matched_records':[{'dataset':'pibs','institution_id':'a','record_id':'A PPU 001'}]}]}}
+            with patch('scripts.build_pia_site.ROOT',root): progress=pib_progress([row,row])
+            self.assertEqual(progress['institutions_with_pibs'],2)
+            self.assertEqual(progress['institutions_with_pibs_and_readable_pias'],1)
+            self.assertEqual(progress['pib_records_cited'],1)
+            self.assertEqual(progress['pib_reference_coverage_percent'],50.0)

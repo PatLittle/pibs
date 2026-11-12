@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "collector_version": 1,
-  "collected_at_utc": "2026-11-12T01:50:31.398494+00:00",
+  "collector_version": 2,
+  "collected_at_utc": "2026-11-12T05:49:50.641291+00:00",
   "institution_id": "ati-schedule-i-department-of-finance",
   "gc_orgID": "2225.0",
   "open_canada_org_id": "05D03DCB-5906-4555-A5A1-84D86E9E94DD",
@@ -9,7 +9,7 @@
   "name_en": "Department of Finance",
   "name_fr": "Ministère des Finances",
   "registry_membership": "current_registry",
-  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
   "list_pages": {
     "en": {
       "indexed_url": "https://www.canada.ca/en/department-finance/corporate/transparency/access-information-privacy/reports.html",
@@ -133,7 +133,9 @@
           "title": "Retail Payment Activities Act",
           "conversion": "markdownify",
           "text_sha256": "620c57e817bf7391d5b5fb3974104f5c40115199c0028c04e9bf66e7f4164e58",
-          "word_count": 717
+          "word_count": 717,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-finances/organisation/transparence/acces-information-protection-renseignements-personnels/rapports/rpaa-laapd.html",
@@ -184,9 +186,24 @@
           "title": "Loi sur les activités associées aux paiements de détail",
           "conversion": "markdownify",
           "text_sha256": "aef3589983789ec8ad0ea9009814eb31ed22b4a5cd9b9053658d816e61903943",
-          "word_count": 907
+          "word_count": 907,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 717,
+      "word_count_fr": 907,
+      "word_count_language": "en",
+      "word_count": 717
     },
     {
       "pia_id": "pia-16b075107af2",
@@ -250,7 +267,9 @@
           "title": "Information Sharing Authority for National Security and Financial Integrity",
           "conversion": "markdownify",
           "text_sha256": "bde6eefc0837038f1434a74f1449fd10572d871ddf8749a315787344b196e16e",
-          "word_count": 342
+          "word_count": 342,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/ministere-finances/organisation/transparence/acces-information-protection-renseignements-personnels/rapports/pouvoir-dechange-renseignements-fins-securite-nationale-et-dintegrite-financiere.html",
@@ -301,9 +320,24 @@
           "title": "Pouvoir d'échange de renseignements aux fins de sécurité nationale et d'intégrité financière",
           "conversion": "markdownify",
           "text_sha256": "2e254478df7af703b5d9793157afc11629e7505e00451a45ba3ab3aeeffd0e5c",
-          "word_count": 441
+          "word_count": 441,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 342,
+      "word_count_fr": 441,
+      "word_count_language": "en",
+      "word_count": 342
     }
   ],
   "summary": {

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "collector_version": 1,
-  "collected_at_utc": "2026-11-12T01:50:43.697025+00:00",
+  "collector_version": 2,
+  "collected_at_utc": "2026-11-12T05:50:15.794153+00:00",
   "institution_id": "ati-schedule-i-public-service-commission",
   "gc_orgID": "2286.0",
   "open_canada_org_id": "2FFBA23B-83C0-425B-8846-952A407F3D6E",
@@ -9,7 +9,7 @@
   "name_en": "Public Service Commission",
   "name_fr": "Commission de la fonction publique",
   "registry_membership": "current_registry",
-  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
   "list_pages": {
     "en": {
       "indexed_url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessment-summaries.html",
@@ -133,7 +133,9 @@
           "title": "Privacy Impact Assessment Summary – Personnel Psychology Centre",
           "conversion": "markdownify",
           "text_sha256": "ef4a4b2e77cb7b91ed9d0785430e734da8a986dcaf4cab36a7e4a910e5db446e",
-          "word_count": 762
+          "word_count": 762,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/sefrvp-centre-de-psychologie-du-personnel.html",
@@ -184,9 +186,24 @@
           "title": "Sommaire d'évaluation des facteurs relatifs à la vie privée – Centre de psychologie du personnel",
           "conversion": "markdownify",
           "text_sha256": "cad91723cdc821f1674ce4bd5221e8a87e6c6226a21dd154b0ddfe2c5698a78a",
-          "word_count": 954
+          "word_count": 954,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 762,
+      "word_count_fr": 954,
+      "word_count_language": "en",
+      "word_count": 762
     },
     {
       "pia_id": "pia-eb303efacf7d",
@@ -250,7 +267,9 @@
           "title": "Privacy Impact Assessment Summary - Investigations Directorate (ID)",
           "conversion": "markdownify",
           "text_sha256": "c661e4c8cb23279d60a50188afcc79c24447c4aed9f2b56d09d376da956aaf29",
-          "word_count": 598
+          "word_count": 598,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/resume-efrvp-direction-enquetes.html",
@@ -301,9 +320,24 @@
           "title": "Résumé d'évaluation des facteurs relatifs à la vie privée - Direction des enquêtes (DE)",
           "conversion": "markdownify",
           "text_sha256": "5b856330deeb4df996d9fb6faf9f631ce0bb2914028a814d9f9ad38b2f555f2c",
-          "word_count": 717
+          "word_count": 717,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 598,
+      "word_count_fr": 717,
+      "word_count_language": "en",
+      "word_count": 598
     },
     {
       "pia_id": "pia-fd61b8b624fb",
@@ -352,7 +386,9 @@
           "raw_path": null,
           "markdown_path": null,
           "markdown_sha256": null,
-          "status": "http_error"
+          "status": "http_error",
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/resume-publier-evaluation-facteurs-relatifs-vie-privee-environnement-analytique-commission-fonction-publique/systeme-ressourcement-fonction-publique-addendum-evaluation-facteurs-relatifs-vie-privee.html",
@@ -403,9 +439,93 @@
           "title": "Système de ressourcement de la fonction publique, addendum sur l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "604ae377833eb85e9df1e3f558ebf04c36880c892d970ce19ef908cab5a1171e",
-          "word_count": 3489
+          "word_count": 3489,
+          "pib_ids": [
+            "PSC PCE 761",
+            "PSC PCE 801",
+            "PSC PPU 015"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSC PCE 761",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-public-service-commission",
+                "record_id": "PSC PCE 761"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-public-service-commission/pia-fd61b8b624fb_fr.md",
+                "line": 107,
+                "mention": "CFP PCE 761",
+                "method": "explicit_pib_id",
+                "excerpt": "Les partenaires internes comprennent les suivants : la Direction générale de la vérification et services de données, qui utilise les renseignements pour réaliser des analyses statistiques de candidatures (voir le FRP pour l’environnement analytique de la CFP : CFP PCE 761); la Direction générale des enquêtes, qui utilise les renseignements pour mener des enquêtes en vertu des articles 66, 68 et 69 de la LEFP; et le Centre de psychologie du personnel, qui effectue des analyses, des études et des sondages dans le SRFP."
+              }
+            ]
+          },
+          {
+            "id": "PSC PCE 801",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-public-service-commission",
+                "record_id": "PSC PCE 801"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-public-service-commission/pia-fd61b8b624fb_fr.md",
+                "line": 65,
+                "mention": "CFP PCE 801",
+                "method": "explicit_pib_id",
+                "excerpt": "Les renseignements personnels recueillis dans le cadre du programme de l’administration des priorités sont compris dans le FRP suivant : CFP PCE 801. Des travaux sont en cours pour élaborer une EFVP relative au SGIP."
+              }
+            ]
+          },
+          {
+            "id": "PSC PPU 015",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-public-service-commission",
+                "record_id": "PSC PPU 015"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-public-service-commission/pia-fd61b8b624fb_fr.md",
+                "line": 63,
+                "mention": "CFP PPU 015",
+                "method": "explicit_pib_id",
+                "excerpt": "Le SRFP est lié à un FRP existant (CFP PPU 015). La proposition nécessite que des modifications soient apportées à ce FRP puisqu’il vise à cibler des candidats aux fins de présentation de candidatures et de nomination à des postes de la fonction publique. La description du FRP contenue dans Info Source sera mise à jour durant le prochain cycle annuel, prévu pour le début de l’automne 2015, de façon à ce qu’il y soit indiqué que les renseignements sont destinés aux processus de dotation tant internes qu’externes."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "PSC PCE 761",
+        "PSC PCE 801",
+        "PSC PPU 015"
+      ],
+      "pib_count": 3,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": null,
+      "word_count_fr": 3489,
+      "word_count_language": "fr",
+      "word_count": 3489
     },
     {
       "pia_id": "pia-75e42a1e7eae",
@@ -454,7 +574,9 @@
           "raw_path": null,
           "markdown_path": null,
           "markdown_sha256": null,
-          "status": "http_error"
+          "status": "http_error",
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/resume-publier-evaluation-facteurs-relatifs-vie-privee-environnement-analytique-commission-fonction-publique.html",
@@ -505,9 +627,49 @@
           "title": "Résumé à publier - Évaluation des facteurs relatifs à la vie privée de l’Environnement analytique de la Commission de la fonction publique",
           "conversion": "markdownify",
           "text_sha256": "30caa2e0b0cc13c2328f307e8dba47f95f198e0dee021b261249a55b2b5e9ceb",
-          "word_count": 1125
+          "word_count": 1125,
+          "pib_ids": [
+            "PSC PCE 761"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSC PCE 761",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-public-service-commission",
+                "record_id": "PSC PCE 761"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-public-service-commission/pia-75e42a1e7eae_fr.md",
+                "line": 48,
+                "mention": "CFP PCE 761",
+                "method": "explicit_pib_id",
+                "excerpt": "La CFP est responsable de mener une évaluation des facteurs relatifs à la vie privée dans l’environnement analytique, conformément au Cadre de gestion sur la protection des renseignements personnels de la CFP et à la Directive du Conseil du Trésor sur l'évaluation des facteurs relatifs à la vie privée. Il ne s’agit pas d’une évaluation pluri-institutionnelle. Pour appuyer le mandat de la Commission et de la CFP, la DSDA à la DGVSD mène diverses activités dans l’environnement analytique de la CFP afin d’améliorer et de moderniser la production de renseignements statistiques, des analyses quanti"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "PSC PCE 761"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": null,
+      "word_count_fr": 1125,
+      "word_count_language": "fr",
+      "word_count": 1125
     }
   ],
   "summary": {

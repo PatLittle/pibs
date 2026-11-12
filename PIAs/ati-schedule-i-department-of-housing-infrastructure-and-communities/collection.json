@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "collector_version": 1,
-  "collected_at_utc": "2026-11-12T01:50:32.767461+00:00",
+  "collector_version": 2,
+  "collected_at_utc": "2026-11-12T05:49:53.309403+00:00",
   "institution_id": "ati-schedule-i-department-of-housing-infrastructure-and-communities",
   "gc_orgID": "2269.0",
   "open_canada_org_id": "AC76B01B-0569-4067-A427-D1F6183A8746",
@@ -9,7 +9,7 @@
   "name_en": "Department of Housing, Infrastructure and Communities",
   "name_fr": "Ministère du Logement, de l’Infrastructure et des Collectivités",
   "registry_membership": "current_registry",
-  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
   "list_pages": {
     "en": {
       "indexed_url": "https://www.infrastructure.gc.ca/atip-aiprp/summaries-sommaires-eng.html",

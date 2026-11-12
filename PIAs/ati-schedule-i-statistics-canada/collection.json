@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "collector_version": 1,
-  "collected_at_utc": "2026-11-12T01:50:44.304549+00:00",
+  "collector_version": 2,
+  "collected_at_utc": "2026-11-12T05:50:16.682105+00:00",
   "institution_id": "ati-schedule-i-statistics-canada",
   "gc_orgID": "2293.0",
   "open_canada_org_id": "A0F0FCFC-BC3B-4696-8B6D-E7E411D55BAC",
@@ -9,7 +9,7 @@
   "name_en": "Statistics Canada",
   "name_fr": "Statistique Canada",
   "registry_membership": "current_registry",
-  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
   "list_pages": {
     "en": {
       "indexed_url": "https://www.statcan.gc.ca/en/about/transparency/privacy-impact-assessments",
@@ -34,7 +34,7 @@
           "raw_path": "raw/63d86889d085dc15ec9b.html"
         }
       ],
-      "discovered_count": 89,
+      "discovered_count": 91,
       "scopes": [
         "Privacy impact assessments"
       ],
@@ -63,7 +63,7 @@
           "raw_path": "raw/1ca40a0c18453c788118.html"
         }
       ],
-      "discovered_count": 88,
+      "discovered_count": 91,
       "scopes": [
         "Évaluation des facteurs relatifs à la vie privée"
       ],
@@ -133,7 +133,9 @@
           "title": "Generic Privacy Impact Assessment for Statistics Canada's Statistical Programs",
           "conversion": "markdownify",
           "text_sha256": "3dc88cab8f52a0a689005cd7690288ddb313b27181e6a20f740068856646423d",
-          "word_count": 686
+          "word_count": 686,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/a-propos/transparence/evaluations-facteurs-vie-privee/generique",
@@ -184,9 +186,24 @@
           "title": "Évaluation générique des facteurs relatifs à la vie privée pour les programmes statistiques de Statistique Canada",
           "conversion": "markdownify",
           "text_sha256": "9f2c51807b3260667c684f337d184c7464a0755aa257d2911efb11c90d0afc49",
-          "word_count": 978
+          "word_count": 978,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 686,
+      "word_count_fr": 978,
+      "word_count_language": "en",
+      "word_count": 686
     },
     {
       "pia_id": "pia-5e18917e567b",
@@ -250,7 +267,9 @@
           "title": "Canadian COVID-19 Antibody and Health Survey (CCAHS) - Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "aa64f781fc0c3154ab4ad04b6394210264ac1e64f128d1e4db198f651abdb812",
-          "word_count": 652
+          "word_count": 652,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/anticorps",
@@ -301,9 +320,24 @@
           "title": "Enquête canadienne sur la santé et les anticorps contre la COVID-19 - Sommaire de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "f308b0d362b8b6af0b4681deed897f71a5214fc29ef2730c32f891b50b1e213a",
-          "word_count": 816
+          "word_count": 816,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 652,
+      "word_count_fr": 816,
+      "word_count_language": "en",
+      "word_count": 652
     },
     {
       "pia_id": "pia-496f9a16b4fd",
@@ -367,7 +401,11 @@
           "title": "Supplement to Privacy Impact Assessment for the Canadian COVID-19 Antibody and Health Survey for Cycle 2",
           "conversion": "markdownify",
           "text_sha256": "4dd03ba5cb6f3f0c0eb302ecdb50b8e1e28ecee04f6ff54a83cbfe2d0bd71a74",
-          "word_count": 5969
+          "word_count": 5969,
+          "pib_ids": [
+            "STATCAN PPU 806"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/anticorps-cycle-2",
@@ -418,9 +456,57 @@
           "title": "Supplément à l'évaluation des facteurs relatifs à la vie privée pour l'Enquête canadienne sur les anticorps et la santé liés à la COVID-19 pour le cycle 2",
           "conversion": "markdownify",
           "text_sha256": "2c6b325c397f7826916af6310a021178c49b0f3310076afd30e3157668206827",
-          "word_count": 7394
+          "word_count": 7394,
+          "pib_ids": [
+            "STATCAN PPU 806"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "STATCAN PPU 806",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-statistics-canada",
+                "record_id": "STATCAN PPU 806"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-496f9a16b4fd_en.md",
+                "line": 21,
+                "mention": "PPU 806",
+                "method": "explicit_pib_id",
+                "excerpt": "Personal information collected through the voluntary Canadian COVID-19 Antibody and Health Survey (CCAHS) is described in Statistics Canada's \"Health Surveys\" PIB, (Bank number: StatCan PPU 806) which is published on the Statistics Canada website for Information about programs and Information Holdings. The PIB refers to information collected on a voluntary basis through Statistics Canada's health surveys under the authority of the Statistics Act. The CCAHS collects a variety of personal information such as: name, contact information, gender, pregnancy, sexual orientation, disability status, ed"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-496f9a16b4fd_fr.md",
+                "line": 21,
+                "mention": "PPU 806",
+                "method": "explicit_pib_id",
+                "excerpt": "Les renseignements personnels recueillis dans le cadre de l'Enquête canadienne sur la santé et les anticorps contre la COVID-19 (ECSAC), à participation volontaire, sont décrits dans le fichier de renseignements personnels (FRP) « Enquêtes sur la santé » de Statistique Canada (numéro de fichier : StatCan PPU 806), publié sur le site Web de Statistique Canada, dans Renseignements sur les programmes et les fonds de renseignements. Le FRP porte sur les renseignements recueillis sur une base volontaire dans le cadre d'enquêtes sur la santé de Statistique Canada en vertu de la Loi sur la statistiqu"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "STATCAN PPU 806"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 5969,
+      "word_count_fr": 7394,
+      "word_count_language": "en",
+      "word_count": 5969
     },
     {
       "pia_id": "pia-574fb0234239",
@@ -484,7 +570,11 @@
           "title": "Canadian COVID-19 Antibody and Health Survey – Follow-up Questionnaire, 2023",
           "conversion": "markdownify",
           "text_sha256": "cc1e6d289f9da85050d44602c78e52827071a4c70dd7d1aea13cffccc90448f2",
-          "word_count": 2383
+          "word_count": 2383,
+          "pib_ids": [
+            "STATCAN PPU 806"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/covid19",
@@ -535,9 +625,57 @@
           "title": "Enquête canadienne sur la santé et les anticorps contre la COVID-19 – Questionnaire de suivi, 2023",
           "conversion": "markdownify",
           "text_sha256": "5ea6aa274db39e4c876023b1011de076df5d1328281858932445466216d5a355",
-          "word_count": 3217
+          "word_count": 3217,
+          "pib_ids": [
+            "STATCAN PPU 806"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "STATCAN PPU 806",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-statistics-canada",
+                "record_id": "STATCAN PPU 806"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-574fb0234239_en.md",
+                "line": 24,
+                "mention": "PPU 806",
+                "method": "explicit_pib_id",
+                "excerpt": "Personal information collected through the voluntary Canadian COVID-19 Antibody and Health Survey – Follow-up Questionnaire, 2023 is described in Statistics Canada's \"Health Surveys\" PIB, (Bank number: StatCan PPU 806) which is published on the Statistics Canada website for Information about Programs and Information Holdings."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-574fb0234239_fr.md",
+                "line": 26,
+                "mention": "PPU 806",
+                "method": "explicit_pib_id",
+                "excerpt": "Les renseignements personnels recueillis dans le cadre du questionnaire de suivi de 2023 de l’Enquête canadienne sur la santé et les anticorps contre la COVID-19, à participation volontaire, sont décrits dans le fichier de renseignements personnels (FRP) « Enquêtes sur la santé » de Statistique Canada (numéro de fichier : StatCan PPU 806), publié sur le site Web de Statistique Canada, dans Renseignements sur les programmes et les fonds de renseignements."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "STATCAN PPU 806"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 2383,
+      "word_count_fr": 3217,
+      "word_count_language": "en",
+      "word_count": 2383
     },
     {
       "pia_id": "pia-dae695700f63",
@@ -601,7 +739,9 @@
           "title": "Privacy Impact Assessment Summary – Public Service Employee Survey (PSES)",
           "conversion": "markdownify",
           "text_sha256": "a46d4819762be16a103930690ec40a88e289ae8e2713b9a84bb0cb6021cc11df",
-          "word_count": 697
+          "word_count": 697,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/saff",
@@ -652,9 +792,24 @@
           "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée – Sondage auprès des fonctionnaires fédéraux",
           "conversion": "markdownify",
           "text_sha256": "3015a6fab63b60f13785641b16f3a90ed6347c6f52198c3ffe965d5db09902fd",
-          "word_count": 888
+          "word_count": 888,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 697,
+      "word_count_fr": 888,
+      "word_count_language": "en",
+      "word_count": 697
     },
     {
       "pia_id": "pia-5d6d2fd24062",
@@ -718,7 +873,9 @@
           "title": "Addendum to the Public Service Employee Survey Privacy Impact Assessment - Summary",
           "conversion": "markdownify",
           "text_sha256": "c511cea0a057d956b2d7b3bdf8c56baa95af782d553a262ed7f513192ed5e4de",
-          "word_count": 258
+          "word_count": 258,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/saff-addenda",
@@ -769,9 +926,24 @@
           "title": "Addenda à l'évaluation des facteurs relatifs à la vie privée du Sondage auprès des fonctionnaires fédéraux - Sommaire",
           "conversion": "markdownify",
           "text_sha256": "c3d8a4d9ee0128d06c2db566ab5470f4c69e37fb7ec5e7baa618620ea98bb362",
-          "word_count": 324
+          "word_count": 324,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 258,
+      "word_count_fr": 324,
+      "word_count_language": "en",
+      "word_count": 258
     },
     {
       "pia_id": "pia-b47265c2e4e2",
@@ -835,7 +1007,9 @@
           "title": "Canadian Health Measures Survey, Cycle 5, 2016-2017 - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "603913cb0a573adb19ccc3c3a583774531a6f6bb7ff2a8b93eac50a845a7764f",
-          "word_count": 803
+          "word_count": 803,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/ecmsc5",
@@ -886,9 +1060,24 @@
           "title": "Enquête canadienne sur les mesures de la santé, Cycle 5, 2016-2017 - Sommaire de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "bb7fa8738dbb67212be1b7a56ee2c65e35cae327f97703e600d9dd290114699e",
-          "word_count": 1026
+          "word_count": 1026,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 803,
+      "word_count_fr": 1026,
+      "word_count_language": "en",
+      "word_count": 803
     },
     {
       "pia_id": "pia-ddf24730325f",
@@ -952,7 +1141,9 @@
           "title": "Social Data Linkage Environment - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "3b55d1ed6f7232d021b75948b9d5f3e9f3251387ceac9eba31b7b9261a153817",
-          "word_count": 1153
+          "word_count": 1153,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/ecds",
@@ -1003,9 +1194,24 @@
           "title": "Environnement de couplage de données sociales - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "fc23086053f2f43c44eec135f70c09ff4fc74c9ed7daa20070c4d029063273b7",
-          "word_count": 1436
+          "word_count": 1436,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1153,
+      "word_count_fr": 1436,
+      "word_count_language": "en",
+      "word_count": 1153
     },
     {
       "pia_id": "pia-8a2609516a12",
@@ -1069,7 +1275,9 @@
           "title": "2014 Ontario Child Health Study - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "9dcbf65cf8658a02da7e8755a59399d30cbe3a01befbfb59e34798028d91b05c",
-          "word_count": 762
+          "word_count": 762,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/sjo",
@@ -1120,9 +1328,24 @@
           "title": "Étude sur la santé des jeunes ontariens, 2014 - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "9d4d82802f32f8da06c2a38004ad309e69ec4a54b08c88bdec826a294578625d",
-          "word_count": 969
+          "word_count": 969,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 762,
+      "word_count_fr": 969,
+      "word_count_language": "en",
+      "word_count": 762
     },
     {
       "pia_id": "pia-2a99a343e7a6",
@@ -1186,7 +1409,9 @@
           "title": "2014 Census Program Test - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "647a8756e9b53731e8a5cfb18560c5566e3d3c8421140c37260e88942575a7a3",
-          "word_count": 813
+          "word_count": 813,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/tpr",
@@ -1237,9 +1462,24 @@
           "title": "Test du Programme du Recensement de 2014 - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "17c046982573cf23cf93dcebcc18f58c5c9bb0de79c829b69443793f4412ead4",
-          "word_count": 1046
+          "word_count": 1046,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 813,
+      "word_count_fr": 1046,
+      "word_count_language": "en",
+      "word_count": 813
     },
     {
       "pia_id": "pia-0fa6bc78c58d",
@@ -1303,7 +1543,9 @@
           "title": "Canadian Health Measures Survey, Cycle 4, 2014-2015 - Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "3fd2ef8f12ddba9dac18a450d5f2c78701c8259323d228d8d1245a841d745c55",
-          "word_count": 661
+          "word_count": 661,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/ecmsc4",
@@ -1354,9 +1596,24 @@
           "title": "Enquête canadienne sur les mesures de la santé, Cycle 4, 2014-2015 - Sommaire de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "c8988926c31a0e5ff816563685429193f409ff497b017b5c0d6e487bfe596daf",
-          "word_count": 867
+          "word_count": 867,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 661,
+      "word_count_fr": 867,
+      "word_count_language": "en",
+      "word_count": 661
     },
     {
       "pia_id": "pia-10e7c6f09224",
@@ -1420,7 +1677,9 @@
           "title": "Community Noise and Health Study - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "9a61d8e17906a6d506db8e8c6a41f41fa2a96197cd44af59f4d510a38bbe64ff",
-          "word_count": 476
+          "word_count": 476,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/ebas",
@@ -1471,9 +1730,24 @@
           "title": "Étude sur le bruit ambiant et la santé - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "46703362103f2259028b72ad12334cd82929b69f336311794fc46e19a7d37a19",
-          "word_count": 616
+          "word_count": 616,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 476,
+      "word_count_fr": 616,
+      "word_count_language": "en",
+      "word_count": 476
     },
     {
       "pia_id": "pia-41db06b4fd0e",
@@ -1537,7 +1811,9 @@
           "title": "Longitudinal Immigration Database - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "86ae0ab3eaa2e3e3f79d841601b94d2e695156e4b98d9ac6a336d699bcfb6f28",
-          "word_count": 271
+          "word_count": 271,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/bdli",
@@ -1588,9 +1864,24 @@
           "title": "Base de données longitudinales sur l'immigration - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "f8921710b6516fa675c2670cc00ac26371aae0b701efb959c9d6cab43042cea2",
-          "word_count": 367
+          "word_count": 367,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 271,
+      "word_count_fr": 367,
+      "word_count_language": "en",
+      "word_count": 271
     },
     {
       "pia_id": "pia-33211ce5617b",
@@ -1654,7 +1945,9 @@
           "title": "2012-2013 Canadian Health Measures Survey, Cycle 3 - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "81543ea41cbb0a156475db913f7c69c4ea3fccdf33513d61d634cd3cbca48c17",
-          "word_count": 843
+          "word_count": 843,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/ecmsc3",
@@ -1705,9 +1998,24 @@
           "title": "Enquête canadienne sur les mesures de la santé 2012-2013, Cycle 3 - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "208dd40de97b272d98fc9af4ef2335633a128734a47efd4ca2fb8380d20a1ec8",
-          "word_count": 1147
+          "word_count": 1147,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 843,
+      "word_count_fr": 1147,
+      "word_count_language": "en",
+      "word_count": 843
     },
     {
       "pia_id": "pia-91a1db8c304f",
@@ -1771,7 +2079,9 @@
           "title": "2011 Census of Agriculture - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "b9656dd61593e0d64f511f80b4046e85494c1ed925417810e74aeda049ec77d5",
-          "word_count": 385
+          "word_count": 385,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/rec-ag2011",
@@ -1822,9 +2132,24 @@
           "title": "Recensement de l’agriculture de 2011 - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "7b09ab7c8fbdbd2b218cc2bd9c5cb4eebad620d4f55f2db3f1fa7faea85849d3",
-          "word_count": 499
+          "word_count": 499,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 385,
+      "word_count_fr": 499,
+      "word_count_language": "en",
+      "word_count": 385
     },
     {
       "pia_id": "pia-2b1d1adcafbc",
@@ -1888,7 +2213,9 @@
           "title": "2011 Census of Population and the National Household Survey - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "77a52d3decdbfa463c414a7c3f58a49d0a3111783d1258ec694b8e50e3fe5b14",
-          "word_count": 505
+          "word_count": 505,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/rec-pop2011",
@@ -1939,9 +2266,24 @@
           "title": "Recensement de la population de 2011 et Enquête nationale auprès des ménages - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "3c16fdbe2904824e83679808ce635617763dec997e2365d4761fc1e2ef37c7d2",
-          "word_count": 646
+          "word_count": 646,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 505,
+      "word_count_fr": 646,
+      "word_count_language": "en",
+      "word_count": 505
     },
     {
       "pia_id": "pia-da41129fcbef",
@@ -2005,7 +2347,9 @@
           "title": "Canadian Health Measures Survey: Cycle 2 - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "f95482f4cb8b02845f731fcb50709ee159ee81a14d6411248d2008f35cbba718",
-          "word_count": 293
+          "word_count": 293,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/ecmsc2",
@@ -2056,9 +2400,24 @@
           "title": "Enquête canadienne sur les mesures de la santé : Cycle 2 - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "215952b950448e3034d46b4dd9886a0340d4c5a4988e2fc73839a1fec3ae160d",
-          "word_count": 361
+          "word_count": 361,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 293,
+      "word_count_fr": 361,
+      "word_count_language": "en",
+      "word_count": 293
     },
     {
       "pia_id": "pia-e9d5c9b040d9",
@@ -2122,7 +2481,9 @@
           "title": "Real Time Remote Access Application for Household Cross Sectional Surveys - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "47ddb21114f58908d342eb2ded30ba3a5702ba6dd9303bd81762a5e06e0fab6b",
-          "word_count": 353
+          "word_count": 353,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/adtr",
@@ -2173,9 +2534,24 @@
           "title": "Application d’accès à distance en temps réel pour les enquêtes transversales auprès des ménages - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "0bfa5f89e5dc3da0722782c6a97d079de35c351feadef89c59e5fb16ffb7e3d6",
-          "word_count": 426
+          "word_count": 426,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 353,
+      "word_count_fr": 426,
+      "word_count_language": "en",
+      "word_count": 353
     },
     {
       "pia_id": "pia-2c4038b73de6",
@@ -2239,7 +2615,9 @@
           "title": "Canadian Cancer Registry - Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "e6fbe022c9f3b5eecb7a5ac2a05f46e78d88abafce49602f670701995a61fb7f",
-          "word_count": 327
+          "word_count": 327,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/rcc",
@@ -2290,9 +2668,24 @@
           "title": "Registre canadien du cancer - Sommaire de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "763dcae4f46f0389e19a3fde2d4341924d9e9cf137cc9ecab833e614cd5a23a9",
-          "word_count": 461
+          "word_count": 461,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 327,
+      "word_count_fr": 461,
+      "word_count_language": "en",
+      "word_count": 327
     },
     {
       "pia_id": "pia-0a4c625aa1c3",
@@ -2356,7 +2749,9 @@
           "title": "Canadian Community Health Survey Pilot on Healthy Aging - Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "811cab52d754544a77942138fc946b81c569216d38dd0f3c70457128cc6ad7dc",
-          "word_count": 204
+          "word_count": 204,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/vieillissement",
@@ -2407,9 +2802,24 @@
           "title": "Enquête sur la santé dans les collectivités canadiennes – Enquête pilote sur le vieillissement en santé - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "cb9c626b4c1e72d17d3365e6cdd4d03495f2e17dd8796114ed90d989fbdfd698",
-          "word_count": 305
+          "word_count": 305,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 204,
+      "word_count_fr": 305,
+      "word_count_language": "en",
+      "word_count": 204
     },
     {
       "pia_id": "pia-955b1427c28a",
@@ -2473,7 +2883,9 @@
           "title": "Canadian Health Measures Survey Pre-test - Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "b655c71a840eb705e457313ce4edd3434f7ab6347673c41178836cae4fd83e7b",
-          "word_count": 331
+          "word_count": 331,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/eecms",
@@ -2524,9 +2936,24 @@
           "title": "Essai de l'Enquête canadienne sur les mesures de la santé - Sommaire de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "b5a4c0adba28de589b744260c7ebd428f8ab4e8fc4db39decc1d026288dc88f0",
-          "word_count": 426
+          "word_count": 426,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 331,
+      "word_count_fr": 426,
+      "word_count_language": "en",
+      "word_count": 331
     },
     {
       "pia_id": "pia-6c1b41e7420a",
@@ -2590,7 +3017,9 @@
           "title": "Canadian Health Measures Survey - Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "99decdd5252a29679368053b70dac212813344fa5200f25c6dce71a9265932a5",
-          "word_count": 505
+          "word_count": 505,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/ecms",
@@ -2641,9 +3070,24 @@
           "title": "Enquête canadienne sur les mesures de la santé - Sommaire de l’évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "2fc385f6c91aaf9ce449aa40e25ece90667bae62a52b80a6668a84b0b4022c13",
-          "word_count": 633
+          "word_count": 633,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 505,
+      "word_count_fr": 633,
+      "word_count_language": "en",
+      "word_count": 505
     },
     {
       "pia_id": "pia-261a051bb3e7",
@@ -2707,7 +3151,9 @@
           "title": "Canadian Vital Statistics Program - Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "c0ef9f1b3765e0f36bdbb7ed4b2a35985637bc47e7423c7a72aa19539bf1abe4",
-          "word_count": 431
+          "word_count": 431,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/psecc",
@@ -2758,9 +3204,24 @@
           "title": "Programme de la statistique de l'état civil du Canada - Sommaire de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "73e9363ee14dfc91cdc04a413f0f9a1254dae0394c548bdef6ed3ae6ebe049c1",
-          "word_count": 578
+          "word_count": 578,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 431,
+      "word_count_fr": 578,
+      "word_count_language": "en",
+      "word_count": 431
     },
     {
       "pia_id": "pia-aeda69abe9e3",
@@ -2824,7 +3285,9 @@
           "title": "Computer-Assisted Personal Interviewing Monitoring Program - Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "4b481675fb3e9d32f5cc4536722413f7e65e6fc92ca64e6a903015ed19b4f53f",
-          "word_count": 461
+          "word_count": 461,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/ipao",
@@ -2875,9 +3338,24 @@
           "title": "Programme de surveillance des interviews sur place assistées par ordinateur - Résumé de l’évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "73c6a984e66115554a42ae98391ef8f0afdbd7befa5fe2832122dcb6e2a62624",
-          "word_count": 573
+          "word_count": 573,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 461,
+      "word_count_fr": 573,
+      "word_count_language": "en",
+      "word_count": 461
     },
     {
       "pia_id": "pia-9186d8440725",
@@ -2941,7 +3419,9 @@
           "title": "e-File Transfer Service",
           "conversion": "markdownify",
           "text_sha256": "910ae0f826c41bc81a8a76a1bac94beb20aeb9b76cbe028bd8db663441a307cc",
-          "word_count": 202
+          "word_count": 202,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/stfe",
@@ -2992,9 +3472,24 @@
           "title": "Service de transfert de fichiers électroniques",
           "conversion": "markdownify",
           "text_sha256": "b8e90f40e4e2ebe7654b6f6116f1fce1811b54a25dc6ed6f74f80e044fb4b56b",
-          "word_count": 262
+          "word_count": 262,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 202,
+      "word_count_fr": 262,
+      "word_count_language": "en",
+      "word_count": 202
     },
     {
       "pia_id": "pia-723f036b632a",
@@ -3058,7 +3553,9 @@
           "title": "Longitudinal Health and Administrative Data Initiative - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "f0fc48260a2725568f89fe49918c1633023cdd77a3dcb8696bd66cfe4450c899",
-          "word_count": 645
+          "word_count": 645,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/dlas",
@@ -3109,9 +3606,24 @@
           "title": "Initiative sur les données longitudinales administratives et sur la santé - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "4d45521a7fe7a5209d27a1de939975dd2d7d6cb286759e271fbc5e1dcc188417",
-          "word_count": 798
+          "word_count": 798,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 645,
+      "word_count_fr": 798,
+      "word_count_language": "en",
+      "word_count": 645
     },
     {
       "pia_id": "pia-35b6e87dc9c2",
@@ -3175,7 +3687,9 @@
           "title": "Long-term Health Outcomes Studies Program - Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "ddc3bbb1f1b0a8c6214699483d59871869b5787edf3b5545754cf62de0923067",
-          "word_count": 402
+          "word_count": 402,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/prog",
@@ -3226,9 +3740,24 @@
           "title": "Programme des études sur les résultats à long terme en matière de santé - Sommaire de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "1a2db8b7e9112486aab9f52defa3f354e450256250a262cd68b3231729238310",
-          "word_count": 611
+          "word_count": 611,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 402,
+      "word_count_fr": 611,
+      "word_count_language": "en",
+      "word_count": 402
     },
     {
       "pia_id": "pia-3db20cb1ee47",
@@ -3292,7 +3821,9 @@
           "title": "2006 Census of Population - Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "48379c1bbf7acf3150b7715b866dfb673f2ba2ac9e6e2c8b4c767bbe69865571",
-          "word_count": 954
+          "word_count": 954,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/rec-pop",
@@ -3343,9 +3874,24 @@
           "title": "Recensement de la population de 2006 - Sommaire de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "c277a8bae766fea5e6418089b4517f85b0cc7187ae7f0b99ac48198f2e9de91e",
-          "word_count": 1218
+          "word_count": 1218,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 954,
+      "word_count_fr": 1218,
+      "word_count_language": "en",
+      "word_count": 954
     },
     {
       "pia_id": "pia-871d188d8a61",
@@ -3409,7 +3955,13 @@
           "title": "Privacy Impact Assessment on the On-site Presence Compliance Monitoring and Reporting Program",
           "conversion": "markdownify",
           "text_sha256": "c1d4b33999f87b8edf207928a60807d43a9f4f9d561b4bed37b909e123c08032",
-          "word_count": 296
+          "word_count": 296,
+          "pib_ids": [
+            "PSE 901",
+            "PSE 903",
+            "PSU 907"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/a-propos/transparence/evaluations-facteurs-vie-privee/programme-suivi-presence-lieux-travail-production-rapports-conformite",
@@ -3460,9 +4012,117 @@
           "title": "Évaluation des facteurs relatifs à la vie privée concernant le Programme de suivi de la présence sur les lieux de travail et de production de rapports sur la conformité",
           "conversion": "markdownify",
           "text_sha256": "113756e7ce9300189edd7192ad2318c6d8671b67e6dff4cfd04ab816d9d0ebd3",
-          "word_count": 382
+          "word_count": 382,
+          "pib_ids": [
+            "PSE 901",
+            "PSE 903",
+            "PSU 907"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSE 901",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 901"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-871d188d8a61_en.md",
+                "line": 34,
+                "mention": "PSE 901",
+                "method": "explicit_pib_id",
+                "excerpt": "The following PIBs relate to the program: PSE 901, PSE 903 and PSU 907. Also, an institution-specific PIB will be registered to account for the use of personal information to monitor employee's compliance with the Direction at the individual level as part of a decision-making process."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-871d188d8a61_fr.md",
+                "line": 34,
+                "mention": "POE 901",
+                "method": "explicit_pib_id",
+                "excerpt": "Les FRP suivants se rapportent au programme : POE 901, POE 903 et POU 907. Un FRP propre à l'institution sera également enregistré pour rendre compte de l'utilisation de renseignements personnels afin de surveiller la conformité individuelle des employés à l'Orientation, dans le cadre d'un processus décisionnel."
+              }
+            ]
+          },
+          {
+            "id": "PSE 903",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 903"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-871d188d8a61_en.md",
+                "line": 34,
+                "mention": "PSE 903",
+                "method": "explicit_pib_id",
+                "excerpt": "The following PIBs relate to the program: PSE 901, PSE 903 and PSU 907. Also, an institution-specific PIB will be registered to account for the use of personal information to monitor employee's compliance with the Direction at the individual level as part of a decision-making process."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-871d188d8a61_fr.md",
+                "line": 34,
+                "mention": "POE 903",
+                "method": "explicit_pib_id",
+                "excerpt": "Les FRP suivants se rapportent au programme : POE 901, POE 903 et POU 907. Un FRP propre à l'institution sera également enregistré pour rendre compte de l'utilisation de renseignements personnels afin de surveiller la conformité individuelle des employés à l'Orientation, dans le cadre d'un processus décisionnel."
+              }
+            ]
+          },
+          {
+            "id": "PSU 907",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 907"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-871d188d8a61_en.md",
+                "line": 34,
+                "mention": "PSU 907",
+                "method": "explicit_pib_id",
+                "excerpt": "The following PIBs relate to the program: PSE 901, PSE 903 and PSU 907. Also, an institution-specific PIB will be registered to account for the use of personal information to monitor employee's compliance with the Direction at the individual level as part of a decision-making process."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-871d188d8a61_fr.md",
+                "line": 34,
+                "mention": "POU 907",
+                "method": "explicit_pib_id",
+                "excerpt": "Les FRP suivants se rapportent au programme : POE 901, POE 903 et POU 907. Un FRP propre à l'institution sera également enregistré pour rendre compte de l'utilisation de renseignements personnels afin de surveiller la conformité individuelle des employés à l'Orientation, dans le cadre d'un processus décisionnel."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "PSE 901",
+        "PSE 903",
+        "PSU 907"
+      ],
+      "pib_count": 3,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 296,
+      "word_count_fr": 382,
+      "word_count_language": "en",
+      "word_count": 296
     },
     {
       "pia_id": "pia-f7004131b287",
@@ -3526,7 +4186,9 @@
           "title": "Privacy impact assessment - Safety and Security for the Centre for Direct Health Measures (CDHM) Mobile Examination Centre (MEC) – Security Camera System",
           "conversion": "markdownify",
           "text_sha256": "884950e74bb78813e00bde7875f46f07346040ac26a61569ac523fa6f2f54964",
-          "word_count": 938
+          "word_count": 938,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/cameras-securite",
@@ -3577,9 +4239,24 @@
           "title": "Évaluation des facteurs relatifs à la vie privée - Sécurité et protection au Centre d’examen mobile (CEM) du Centre des mesures directes de la santé (CMDS) – Système de caméras de sécurité",
           "conversion": "markdownify",
           "text_sha256": "8af7af5533abbf86f6beaf1e32a71d77e4de4b75c5b4efa0ed166f4ffddedd03",
-          "word_count": 1083
+          "word_count": 1083,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 938,
+      "word_count_fr": 1083,
+      "word_count_language": "en",
+      "word_count": 938
     },
     {
       "pia_id": "pia-c4e6c9bed9bc",
@@ -3643,7 +4320,9 @@
           "title": "Privacy impact assessment - StatsCAN app",
           "conversion": "markdownify",
           "text_sha256": "3180bcf3e515b87757072391cddc0adc47ecb91d7e82530b204fe8db04c925be",
-          "word_count": 1772
+          "word_count": 1772,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/app",
@@ -3694,9 +4373,24 @@
           "title": "Évaluation des facteurs relatifs à la vie privée - L’application StatsCAN",
           "conversion": "markdownify",
           "text_sha256": "dc4e9ad1aee79a98e165c6b5035d841e958eaf5657e86fa7870e15dda56e9901",
-          "word_count": 2105
+          "word_count": 2105,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1772,
+      "word_count_fr": 2105,
+      "word_count_language": "en",
+      "word_count": 1772
     },
     {
       "pia_id": "pia-b132dad42061",
@@ -3760,7 +4454,9 @@
           "title": "Privacy impact assessment - Enterprise Service Management Solution (ESMS)",
           "conversion": "markdownify",
           "text_sha256": "564a3e2c89252bd258528d909455243541a6f57ad806e5b3178f3c375039d0a3",
-          "word_count": 751
+          "word_count": 751,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/sgse",
@@ -3811,9 +4507,24 @@
           "title": "Évaluation des facteurs relatifs à la vie privée - Solution de gestion des services d’entreprise (SGSE)",
           "conversion": "markdownify",
           "text_sha256": "c5dccfddfa9359fc0dd5114cf76ab76fefaf31d1b20bff1d3357a26d772cb57c",
-          "word_count": 888
+          "word_count": 888,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 751,
+      "word_count_fr": 888,
+      "word_count_language": "en",
+      "word_count": 751
     },
     {
       "pia_id": "pia-f325c5179bea",
@@ -3877,7 +4588,13 @@
           "title": "Privacy Impact Assessment – Census Chatbot",
           "conversion": "markdownify",
           "text_sha256": "14c2bcb623864936ba1ee3a588bc9982fd8322111947ab679b27a9e4571b3707",
-          "word_count": 6597
+          "word_count": 6597,
+          "pib_ids": [
+            "PSU 914"
+          ],
+          "cor_ids": [
+            "PRN 939"
+          ]
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/rcr",
@@ -3928,9 +4645,78 @@
           "title": "Évaluation des facteurs relatifs à la vie privée – Agent conversationnel du recensement",
           "conversion": "markdownify",
           "text_sha256": "7a97343de9e7ee91f75e71e6d1b27128c064e592d30ba4411f8222c60c2b0ad7",
-          "word_count": 8414
+          "word_count": 8414,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSU 914",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 914"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-f325c5179bea_en.md",
+                "line": 46,
+                "mention": "PSU 914",
+                "method": "explicit_pib_id",
+                "excerpt": "Reference to Personal Information Bank (PIB): Standard PIB – Public Communications, PRN 939, PSU 914"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-f325c5179bea_en.md",
+                "line": 259,
+                "mention": "PSU 914",
+                "method": "explicit_pib_id",
+                "excerpt": "The collection of personal information through the Census communications chatbot is described in the Personal Information Bank (Public Communications – PSU 914), which is published in Statistics Canada's Information about Programs and Information Holdings chapter."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "PRN 939",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "939"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-f325c5179bea_en.md",
+                "line": 46,
+                "mention": "PRN 939",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "Reference to Personal Information Bank (PIB): Standard PIB – Public Communications, PRN 939, PSU 914"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "PSU 914"
+      ],
+      "pib_count": 1,
+      "cor_ids": [
+        "PRN 939"
+      ],
+      "cor_count": 1,
+      "word_count_en": 6597,
+      "word_count_fr": 8414,
+      "word_count_language": "en",
+      "word_count": 6597
     },
     {
       "pia_id": "pia-fae8a7fdbfb9",
@@ -3994,7 +4780,9 @@
           "title": "Privacy Impact Assessment – NetSupport",
           "conversion": "markdownify",
           "text_sha256": "b59008a512863e026197245d938c24f2490637620ed2f9e5083c183401c4df98",
-          "word_count": 1732
+          "word_count": 1732,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/ns",
@@ -4045,9 +4833,24 @@
           "title": "Évaluation des facteurs relatifs à la vie privée – NetSupport",
           "conversion": "markdownify",
           "text_sha256": "266743c501ce7c5f6fb04fb4fcfb94a996b38ccb9bad2c02f3ca04147f8d0974",
-          "word_count": 2101
+          "word_count": 2101,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1732,
+      "word_count_fr": 2101,
+      "word_count_language": "en",
+      "word_count": 1732
     },
     {
       "pia_id": "pia-c239b60f3355",
@@ -4111,7 +4914,9 @@
           "title": "Privacy Impact Assessment – Talent Bank project",
           "conversion": "markdownify",
           "text_sha256": "331d6be02f2eca4dc1688c662c1cc0dc07e33941a8cee608ea514cf51adef41f",
-          "word_count": 679
+          "word_count": 679,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/banque-de-talents",
@@ -4162,9 +4967,24 @@
           "title": "Évaluation des facteurs relatifs à la vie privée - Projet de Banque de talents",
           "conversion": "markdownify",
           "text_sha256": "ebe465158d50aff966a0f6d229f3a736567b6d6de5a5e01475d3776a69a32bf4",
-          "word_count": 809
+          "word_count": 809,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 679,
+      "word_count_fr": 809,
+      "word_count_language": "en",
+      "word_count": 679
     },
     {
       "pia_id": "pia-c30f15e2fbbe",
@@ -4228,7 +5048,9 @@
           "title": "Privacy Impact Assessment Summary – Administrative Data Pre-processing Project (ADP)",
           "conversion": "markdownify",
           "text_sha256": "80bdf67b1db4701858843a029088e7e2e53997ba08b684fad1e86fe0da8f5746",
-          "word_count": 1063
+          "word_count": 1063,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/pda",
@@ -4279,9 +5101,24 @@
           "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée – Projet de prétraitement des données administratives (PDA)",
           "conversion": "markdownify",
           "text_sha256": "5288a9ffa86bc133eaae3718e1dd67e6d9f8e86f7aff417407d23e1039285ba3",
-          "word_count": 1340
+          "word_count": 1340,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1063,
+      "word_count_fr": 1340,
+      "word_count_language": "en",
+      "word_count": 1063
     },
     {
       "pia_id": "pia-470f532e0075",
@@ -4345,7 +5182,9 @@
           "title": "Employee Wellness Surveys - Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "264729697aa96bd591cac48a2b3cd6db790e62eeef7aeb3050e9828b97615ebf",
-          "word_count": 598
+          "word_count": 598,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/sme",
@@ -4396,9 +5235,24 @@
           "title": "Sondages sur le mieux-être des employés - Sommaire d'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "8d2b402afd13fe0f082368587d74bb4601430afcd32f363eb2adc13fc320ca55",
-          "word_count": 786
+          "word_count": 786,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 598,
+      "word_count_fr": 786,
+      "word_count_language": "en",
+      "word_count": 598
     },
     {
       "pia_id": "pia-fa2c27230d12",
@@ -4462,7 +5316,16 @@
           "title": "Amendment to the Employee Wellness Surveys Privacy Impact Assessment (PIA) & Supplement to Statistics Canada's Generic PIA",
           "conversion": "markdownify",
           "text_sha256": "e48b8c2cf8e49ec975abd981d9ac90574eb620a6cd839c2878c5625517fd8da8",
-          "word_count": 1036
+          "word_count": 1036,
+          "pib_ids": [
+            "PSE 901",
+            "PSE 902",
+            "PSE 903",
+            "PSE 904",
+            "PSE 906",
+            "PSE 918"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/edsc",
@@ -4513,9 +5376,223 @@
           "title": "Modification de l’évaluation des facteurs relatifs à la vie privée (EFVP) des Sondages sur le mieux-être des employés et supplément à l’Évaluation générique des facteurs relatifs à la vie privée de Statistique Canada",
           "conversion": "markdownify",
           "text_sha256": "5c43eaee9fafdab1281fd7c7fb6bfd372e0e1021e7dc3770ae98bb295b7ef427",
-          "word_count": 1332
+          "word_count": 1332,
+          "pib_ids": [
+            "PSE 901",
+            "PSE 902",
+            "PSE 903",
+            "PSE 904",
+            "PSE 906",
+            "PSE 918"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSE 901",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 901"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-fa2c27230d12_en.md",
+                "line": 32,
+                "mention": "PSE 901",
+                "method": "explicit_pib_id",
+                "excerpt": "- Employee Personal Record (PSE 901)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-fa2c27230d12_fr.md",
+                "line": 32,
+                "mention": "POE 901",
+                "method": "explicit_pib_id",
+                "excerpt": "- Dossier personnel d'un employé (POE 901)"
+              }
+            ]
+          },
+          {
+            "id": "PSE 902",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 902"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-fa2c27230d12_en.md",
+                "line": 35,
+                "mention": "PSE 902",
+                "method": "explicit_pib_id",
+                "excerpt": "- Staffing (PSE 902)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-fa2c27230d12_fr.md",
+                "line": 35,
+                "mention": "POE 902",
+                "method": "explicit_pib_id",
+                "excerpt": "- Dotation (POE 902)"
+              }
+            ]
+          },
+          {
+            "id": "PSE 903",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 903"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-fa2c27230d12_en.md",
+                "line": 31,
+                "mention": "PSE 903",
+                "method": "explicit_pib_id",
+                "excerpt": "- Attendance and Leave (PSE 903)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-fa2c27230d12_fr.md",
+                "line": 31,
+                "mention": "POE 903",
+                "method": "explicit_pib_id",
+                "excerpt": "- Présences et congés (POE 903)"
+              }
+            ]
+          },
+          {
+            "id": "PSE 904",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 904"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-fa2c27230d12_en.md",
+                "line": 36,
+                "mention": "PSE 904",
+                "method": "explicit_pib_id",
+                "excerpt": "- Pay and Benefits (PSE 904)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-fa2c27230d12_fr.md",
+                "line": 36,
+                "mention": "POE 904",
+                "method": "explicit_pib_id",
+                "excerpt": "- Rémunérations et avantages (POE 904)"
+              }
+            ]
+          },
+          {
+            "id": "PSE 906",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 906"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-fa2c27230d12_en.md",
+                "line": 34,
+                "mention": "PSE 906",
+                "method": "explicit_pib_id",
+                "excerpt": "- Official Languages (PSE 906)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-fa2c27230d12_fr.md",
+                "line": 34,
+                "mention": "POE 906",
+                "method": "explicit_pib_id",
+                "excerpt": "- Langues officielles (POE 906)"
+              }
+            ]
+          },
+          {
+            "id": "PSE 918",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 918"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-fa2c27230d12_en.md",
+                "line": 33,
+                "mention": "PSE 918",
+                "method": "explicit_pib_id",
+                "excerpt": "- Employment Equity and Diversity (PSE 918)"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-fa2c27230d12_en.md",
+                "line": 40,
+                "mention": "PSE 918",
+                "method": "explicit_pib_id",
+                "excerpt": "- Questions under the TBS Personal Information Bank for Employment Equity and Diversity (PSE 918) which include Indigenous Identity, Gender, and Sociodemographic Characteristics."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-fa2c27230d12_fr.md",
+                "line": 33,
+                "mention": "POE 918",
+                "method": "explicit_pib_id",
+                "excerpt": "- Équité en emploi et diversité (POE 918)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-fa2c27230d12_fr.md",
+                "line": 40,
+                "mention": "POE 918",
+                "method": "explicit_pib_id",
+                "excerpt": "- Questions du fichier de renseignements personnels du Secrétariat du Conseil du Trésor pour Équité en emploi et diversité (POE 918) qui comprennent l'identité autochtone, le sexe et les renseignements sociodémographiques."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "PSE 901",
+        "PSE 902",
+        "PSE 903",
+        "PSE 904",
+        "PSE 906",
+        "PSE 918"
+      ],
+      "pib_count": 6,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1036,
+      "word_count_fr": 1332,
+      "word_count_language": "en",
+      "word_count": 1036
     },
     {
       "pia_id": "pia-a71812b3dfac",
@@ -4579,7 +5656,9 @@
           "title": "Amendment to the Employee Wellness Surveys and Pulse Check Surveys PIA - Supplemental Assessment of the Hard-to-Reach Populations Internal Pilot",
           "conversion": "markdownify",
           "text_sha256": "d020a055cf467c802eb81aae2acf5ece6053985b83f4ecb1799cb005ded4da8a",
-          "word_count": 1077
+          "word_count": 1077,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/sme-2",
@@ -4630,9 +5709,24 @@
           "title": "Modification de l’EFVP pour les sondages sur le mieux-être des employés (SME) et les sondages éclair — Évaluation complémentaire du projet pilote interne sur les populations difficiles à joindre",
           "conversion": "markdownify",
           "text_sha256": "960f5024e547655da1f1734a5fc25e0a29f827f461bed0bce37908ef8e2f8855",
-          "word_count": 1326
+          "word_count": 1326,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1077,
+      "word_count_fr": 1326,
+      "word_count_language": "en",
+      "word_count": 1077
     },
     {
       "pia_id": "pia-354ba3eb4c59",
@@ -4696,7 +5790,9 @@
           "title": "Client Relationship Management System (2022 Update) - Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "d6151575a2c4a8f68021bb80afedfbd756eed1ecb26bc4abd8807988b51f55d8",
-          "word_count": 783
+          "word_count": 783,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/grc",
@@ -4747,9 +5843,24 @@
           "title": "Système de gestion des relations avec les clients (Mise à jour de 2022) - Sommaire d'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "c8889c662964270327d8b276d9180de1fcd1c231a9166d61cfedc29ff366d5eb",
-          "word_count": 1024
+          "word_count": 1024,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 783,
+      "word_count_fr": 1024,
+      "word_count_language": "en",
+      "word_count": 783
     },
     {
       "pia_id": "pia-5d55cf157ce5",
@@ -4813,7 +5924,9 @@
           "title": "Engaging DisAbility Innovation Study - Privacy Impact Assessment Summary",
           "conversion": "markdownify",
           "text_sha256": "c2f3ffa8a86cfe11f3f21975a94a71eb04a22b90518a152a8573136a0c96fe2c",
-          "word_count": 1373
+          "word_count": 1373,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/innovation-handicap",
@@ -4864,9 +5977,24 @@
           "title": "Étude « Mobiliser l'innovation culturelle des personnes en situation de handicap » - Sommaire de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "40f83f29647e7e6808abf26810653db8ebbd5ed53d38f7447f204073e6e51d70",
-          "word_count": 1740
+          "word_count": 1740,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1373,
+      "word_count_fr": 1740,
+      "word_count_language": "en",
+      "word_count": 1373
     },
     {
       "pia_id": "pia-87881280c370",
@@ -4930,7 +6058,9 @@
           "title": "Microsoft 365 - Privacy Impact Assessment Summary",
           "conversion": "markdownify",
           "text_sha256": "dafad80106342a128322a041791e9638e0ad8467f8ca622fe35316a581da3536",
-          "word_count": 516
+          "word_count": 516,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/microsoft-365",
@@ -4981,9 +6111,24 @@
           "title": "Microsoft 365 - Sommaire de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "a027504ede2163e57dcca3bc482a791a1fcc57e497ba2d532644fd7e9bd2afda",
-          "word_count": 675
+          "word_count": 675,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 516,
+      "word_count_fr": 675,
+      "word_count_language": "en",
+      "word_count": 516
     },
     {
       "pia_id": "pia-07fb144473a5",
@@ -5047,7 +6192,9 @@
           "title": "Amendment to the Microsoft 365 PIA",
           "conversion": "markdownify",
           "text_sha256": "15ef4640605db7173bd4e25ec12e086f5be95605d32cf6710df959fb77fecfb8",
-          "word_count": 209
+          "word_count": 209,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/microsoft-365-2",
@@ -5098,9 +6245,24 @@
           "title": "Modification de l’EFVP de Microsoft 365",
           "conversion": "markdownify",
           "text_sha256": "3f2545dd9639a79fe75d938a5395e8e916775933224d9aa69e43d4abf5c6372c",
-          "word_count": 295
+          "word_count": 295,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 209,
+      "word_count_fr": 295,
+      "word_count_language": "en",
+      "word_count": 209
     },
     {
       "pia_id": "pia-11774ba08ee6",
@@ -5164,7 +6326,9 @@
           "title": "Vitali-T-Stat Mobile Application - Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "d19376465752657397c729dba0c6dd4bd058c634dad619777860fe61b7ee67e5",
-          "word_count": 1301
+          "word_count": 1301,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/application-mobile-vitali-t-stat",
@@ -5215,9 +6379,24 @@
           "title": "Application mobile Vitali-T-Stat - Sommaire de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "bab93d226d3d132d9b4bbaf49b6e53ff31b7650386891f384f062f90d95f6bad",
-          "word_count": 1496
+          "word_count": 1496,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1301,
+      "word_count_fr": 1496,
+      "word_count_language": "en",
+      "word_count": 1301
     },
     {
       "pia_id": "pia-cae7bba2bb0b",
@@ -5281,7 +6460,9 @@
           "title": "Meltwater: Social Trends Monitoring Tool - Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "a10d663050ca743b4c7fc96642a10a017021aebf8c71c5df11ac17531531737c",
-          "word_count": 1128
+          "word_count": 1128,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/meltwater",
@@ -5332,9 +6513,24 @@
           "title": "Meltwater : Outil de veille des tendances sociales - Sommaire de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "f0014c130c9fcd86e28cc4b148a4a08be1e32660badf66b0f9b77d800f4bf32d",
-          "word_count": 1367
+          "word_count": 1367,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1128,
+      "word_count_fr": 1367,
+      "word_count_language": "en",
+      "word_count": 1128
     },
     {
       "pia_id": "pia-a3e94e1706aa",
@@ -5398,7 +6594,9 @@
           "title": "Data Analytics as a Service Platform - Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "1666a0a6e80e39ecaa8c0efeea0201176a4d8ce09adb89aae815c125a614ddee",
-          "word_count": 813
+          "word_count": 813,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/analyse",
@@ -5449,9 +6647,24 @@
           "title": "Plateforme d'Analyse des données en tant que service - Sommaire de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "1dce16be79872320b5afd6ee4d988b6a295e1cab26e726c25bb2faaeb3aead93",
-          "word_count": 1032
+          "word_count": 1032,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 813,
+      "word_count_fr": 1032,
+      "word_count_language": "en",
+      "word_count": 813
     },
     {
       "pia_id": "pia-7cba895a428e",
@@ -5515,7 +6728,9 @@
           "title": "Cloud Infrastructure Platform - Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "a4610d13ba729081f263fdc6f4ec5192de74cd8ef0192a2a126cf696485b5828",
-          "word_count": 1539
+          "word_count": 1539,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/infonuagique",
@@ -5566,9 +6781,24 @@
           "title": "Plateforme d'infrastructure infonuagique - Sommaire de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "a9ed2384ed41df2acf6053538a6c3f8c161110b75a791d8af19f00e6230c52fa",
-          "word_count": 1991
+          "word_count": 1991,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1539,
+      "word_count_fr": 1991,
+      "word_count_language": "en",
+      "word_count": 1539
     },
     {
       "pia_id": "pia-a7811a74d802",
@@ -5632,7 +6862,9 @@
           "title": "Access to Statistics Canada's Microdata in Authorized Workspaces - Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "f976cfc7128b7e00bdb5eed4e8f65ef75eebbda51ab190ad6b33546e43795fa1",
-          "word_count": 695
+          "word_count": 695,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/microdonnees",
@@ -5683,9 +6915,24 @@
           "title": "Accès aux microdonnées de Statistique Canada dans les lieux de travail autorisés - Sommaire de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "b415c724abade32d3361a64ade5f1c9dcdb90033324e566b1006b6ef1ad1f289",
-          "word_count": 896
+          "word_count": 896,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 695,
+      "word_count_fr": 896,
+      "word_count_language": "en",
+      "word_count": 695
     },
     {
       "pia_id": "pia-bd5f2712bbb5",
@@ -5749,7 +6996,9 @@
           "title": "Office 365 – Interim Instance - Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "0f6b49c1913533e13bde4c555c2a9d63004b377dad72fd63c6f23f0d000c3ccd",
-          "word_count": 741
+          "word_count": 741,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/office-365",
@@ -5800,9 +7049,24 @@
           "title": "Office 365 – Mise en œuvre provisoire - Sommaire de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "0d6e3cce71d95823b3732bcc987c49151b479e924245271a9af1095487a27db8",
-          "word_count": 887
+          "word_count": 887,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 741,
+      "word_count_fr": 887,
+      "word_count_language": "en",
+      "word_count": 741
     },
     {
       "pia_id": "pia-92edaab336fe",
@@ -5866,7 +7130,9 @@
           "title": "StatCan Professionals Network: Challenges and Events (Update) - Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "ae9ee37184155011164fe89c359b9a3d0f12ebf741008be795e0dc9a894ea4ed",
-          "word_count": 523
+          "word_count": 523,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/rps",
@@ -5917,9 +7183,24 @@
           "title": "Réseau des professionnels de StatCan : défis et activités (mise à jour) - Sommaire de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "e0c098e3e185a30bcf14f3a07ccc2e3d15da764dd2308165f509a63ed85d28c5",
-          "word_count": 609
+          "word_count": 609,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 523,
+      "word_count_fr": 609,
+      "word_count_language": "en",
+      "word_count": 523
     },
     {
       "pia_id": "pia-ded87a428751",
@@ -5983,7 +7264,9 @@
           "title": "Statistics Canada’s Microdata Access Portal: Researcher online registration and project application - Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "3e522c46295d4b97bdc9ec4c037a9334ac4dce31b9a1dcd2f19f38a112d3fb7a",
-          "word_count": 577
+          "word_count": 577,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/portail-acces-microdonnees",
@@ -6034,9 +7317,24 @@
           "title": "Portail d’accès aux microdonnées de Statistique Canada : inscription en ligne des chercheurs et demande de projet - Sommaire de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "53f55f178b24e82dcad37773e934dc85d64f2d22789cc8a122e07e788ef95123",
-          "word_count": 682
+          "word_count": 682,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 577,
+      "word_count_fr": 682,
+      "word_count_language": "en",
+      "word_count": 577
     },
     {
       "pia_id": "pia-52afc3357518",
@@ -6100,7 +7398,9 @@
           "title": "Security Video Surveillance in Statistics Canada’s Secure Access Points - Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "701f998f2496529f14a98e96340562c6c52d8a718f8877328769bb5a36e83a58",
-          "word_count": 587
+          "word_count": 587,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/efrvp/surveillance-video-dans",
@@ -6151,9 +7451,24 @@
           "title": "Surveillance vidéo dans les points d’accès sécurisés de Statistique Canada - Sommaire de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "a63197e800fc21a65fa12ebb8c82feea4b8afb21fc8f73c5d3396f93b176d5ac",
-          "word_count": 704
+          "word_count": 704,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 587,
+      "word_count_fr": 704,
+      "word_count_language": "en",
+      "word_count": 587
     },
     {
       "pia_id": "pia-518377f26f18",
@@ -6217,7 +7532,9 @@
           "title": "Authorized Workspace Use in Statistics Canada's Virtual Federal Research Data Centre at Canada Housing and Mortgage Corporation (CMHC): A Virtual Data Laboratory Prototype - Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "7cfcd56ac1ff0bd253a4b3c7e2c0c605f92b03a5e6d867c73b42605f43dd795e",
-          "word_count": 807
+          "word_count": 807,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/schl",
@@ -6268,9 +7585,24 @@
           "title": "Utilisation d'espaces de travail autorisés au Centre fédéral de données de recherche virtuel de Statistique Canada situé à la Société canadienne d'hypothèques et de logement : un prototype de laboratoire de données virtuelles",
           "conversion": "markdownify",
           "text_sha256": "4856e28574760df0040b682b096452ff6f8b314cf85eb5115a61a7cdd675617d",
-          "word_count": 1038
+          "word_count": 1038,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 807,
+      "word_count_fr": 1038,
+      "word_count_language": "en",
+      "word_count": 807
     },
     {
       "pia_id": "pia-c615f731e091",
@@ -6334,7 +7666,9 @@
           "title": "Statistics Canada – Canada School of Public Service Skills Inventory - Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "e8aee74cfcfcb34597227e0b3f9a0f1ce9408ea8a7a4d5a1bcf1a2a2c2429448",
-          "word_count": 561
+          "word_count": 561,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/rc-sc-efpc",
@@ -6385,9 +7719,24 @@
           "title": "Répertoire des compétences proposé par Statistique Canada et l'École de la fonction publique du Canada - Sommaire de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "e6ab1959a3458bb0a4db192e0fc143e37f054ab90f4bc02fd215193b96e30643",
-          "word_count": 710
+          "word_count": 710,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 561,
+      "word_count_fr": 710,
+      "word_count_language": "en",
+      "word_count": 561
     },
     {
       "pia_id": "pia-4a4a35fa2b30",
@@ -6451,7 +7800,9 @@
           "title": "Live chat on Statistics Canada's website - Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "861e9de00ce5c9d2f89204f1bb59d26db166d60346a3552f2b9f103c2bbaa850",
-          "word_count": 415
+          "word_count": 415,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/clavardage",
@@ -6502,9 +7853,24 @@
           "title": "Clavardage en direct sur le site web de Statistique Canada - Sommaire de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "b2eba772157debc5e883682c2416a2c4b80b21762a71be8570bd0f7a6269d21a",
-          "word_count": 581
+          "word_count": 581,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 415,
+      "word_count_fr": 581,
+      "word_count_language": "en",
+      "word_count": 415
     },
     {
       "pia_id": "pia-de2336b7736b",
@@ -6568,7 +7934,9 @@
           "title": "Closed Circuit Television Use in Statistics Canada's Virtual Federal Research Data Centre at Canada Housing and Mortgage Corporation (CMHC): A Virtual Data Laboratory Prototype - Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "fe088090da50e4ff355dd6f75591aecf796c6bba23eed185e53cf91473f6971d",
-          "word_count": 708
+          "word_count": 708,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/ustcf",
@@ -6619,9 +7987,24 @@
           "title": "Utilisation d'un système de télévision en circuit fermé au Centre fédéral de données de recherche virtuel de Statistique Canada situé à la Société canadienne d'hypothèques et de logement : un prototype de laboratoire virtuel de données",
           "conversion": "markdownify",
           "text_sha256": "316bf6e349154348fb203688ef31f7f3162b8fb249cbe3c1dda3ae3328714b5c",
-          "word_count": 855
+          "word_count": 855,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 708,
+      "word_count_fr": 855,
+      "word_count_language": "en",
+      "word_count": 708
     },
     {
       "pia_id": "pia-ebf67e98c5ca",
@@ -6685,7 +8068,9 @@
           "title": "Statistics Canada Young Professionals Network Challenges and Contests - Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "f3141e79c5609fbc4b64aa44db33131f703724de75b63ed9c6c8256bc28078bf",
-          "word_count": 459
+          "word_count": 459,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/dcrjpsc",
@@ -6736,9 +8121,24 @@
           "title": "Défis et concours du réseau des jeunes professionnels de Statistique Canada - Sommaire de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "0d7a81ef09e45c326d2442dad121c79caea278e0a188ccae3b2086a99d7ea26c",
-          "word_count": 551
+          "word_count": 551,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 459,
+      "word_count_fr": 551,
+      "word_count_language": "en",
+      "word_count": 459
     },
     {
       "pia_id": "pia-f3b204ba9a4a",
@@ -6802,7 +8202,9 @@
           "title": "Human Resources Analytics Management Dashboard - Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "a7d78a0b48d27351a589b0b11a0a645c2db8a82ab5325772f55a4f07f8da1dec",
-          "word_count": 502
+          "word_count": 502,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/tbga-rh",
@@ -6853,9 +8255,24 @@
           "title": "Tableau de bord de gestion analytique des ressources humaines - Sommaire de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "56d1c310c1bb3210fdbe9f37408a6e20d117c6e391785e214a17dbd2b01bbbaf",
-          "word_count": 682
+          "word_count": 682,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 502,
+      "word_count_fr": 682,
+      "word_count_language": "en",
+      "word_count": 502
     },
     {
       "pia_id": "pia-b9a1261c1249",
@@ -6919,7 +8336,9 @@
           "title": "Electronic Request Approval (ERA) – Travel - Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "b6e99456f97964760f9ec8fbedc15e2a7cd23859ef1f24195967581541e5ecff",
-          "word_count": 425
+          "word_count": 425,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/aed-voyages",
@@ -6970,9 +8389,24 @@
           "title": "Approbation électronique des demandes (AED) – Voyages - Sommaire de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "68500832d17ee1fa75bf34c6cf19ecfd13647d713d5502ad616b4f7e60da8706",
-          "word_count": 546
+          "word_count": 546,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 425,
+      "word_count_fr": 546,
+      "word_count_language": "en",
+      "word_count": 425
     },
     {
       "pia_id": "pia-e2e0ee8e6a2e",
@@ -7036,7 +8470,9 @@
           "title": "Chief Statistician of Canada Infographics Challenge 2017 - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "629ed96b4ab6427a16b58e45a9e7ce68f538edf33dff4a8b843a9aa379cc8a03",
-          "word_count": 458
+          "word_count": 458,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/discc2017",
@@ -7087,9 +8523,24 @@
           "title": "Défi infographie du statisticien en chef du Canada 2017 - Sommaire de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "f86e02a63883a58805687eab9245d207cacb6c777fa001e7290487891f42bef3",
-          "word_count": 557
+          "word_count": 557,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 458,
+      "word_count_fr": 557,
+      "word_count_language": "en",
+      "word_count": 458
     },
     {
       "pia_id": "pia-30813ec360f3",
@@ -7153,7 +8604,9 @@
           "title": "Automated Access Control System and Closed Circuit Television Monitoring Program - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "c827540e24625df4413a4bbe296beeab890e22eb45f4dd7c4f4bbb3b3d60d6e7",
-          "word_count": 595
+          "word_count": 595,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/sacapstcf",
@@ -7204,9 +8657,24 @@
           "title": "Système automatisé de contrôle d'accès et Programme de surveillance par télévision en circuit fermé - Sommaire de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "4f28e4452ee711fce4b358ce89ac8bc559538726edd6d87cbeee6f894e4a1abb",
-          "word_count": 752
+          "word_count": 752,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 595,
+      "word_count_fr": 752,
+      "word_count_language": "en",
+      "word_count": 595
     },
     {
       "pia_id": "pia-ec029ad60418",
@@ -7270,7 +8738,16 @@
           "title": "Addendum to the Privacy Impact Assessment (PIA) related to the Automated Access Control System (August 2022)",
           "conversion": "markdownify",
           "text_sha256": "d3e7193c42a8416eb59f84c556e54d439a3c5d43c05ac2de97b7f9a525048a64",
-          "word_count": 3646
+          "word_count": 3646,
+          "pib_ids": [
+            "PSE 907",
+            "PSE 917",
+            "PSE 918",
+            "PSU 907",
+            "PSU 9074",
+            "PSU 935"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/ipao-supplement",
@@ -7321,9 +8798,257 @@
           "title": "Addenda à l'évaluation des facteurs relatifs à la vie privée (EFVP) concernant le système automatisé de contrôle d’accès (août 2022)",
           "conversion": "markdownify",
           "text_sha256": "98458db38955ee3619faec153a0588a4b03f94e89effa775fa00cc4529a491c8",
-          "word_count": 4022
+          "word_count": 4022,
+          "pib_ids": [
+            "PSE 907",
+            "PSE 917",
+            "PSE 918",
+            "PSU 907",
+            "PSU 9074",
+            "PSU 917",
+            "PSU 935"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSE 907",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 907"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-ec029ad60418_en.md",
+                "line": 143,
+                "mention": "PSE 907",
+                "method": "explicit_pib_id",
+                "excerpt": "PIB Human Resources Planning – PSU 935 includes the use of limited personal information elements for the management of facilities, but personal information elements related to identification cards and access badges is not covered under this PIB. The PIBs Occupational Health and Safety - PSE 907 as well as Employment Equity and Diversity – PSE-918, were also reviewed and do not include personal information elements related to identification cards and access badges."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-ec029ad60418_fr.md",
+                "line": 138,
+                "mention": "POE 907",
+                "method": "explicit_pib_id",
+                "excerpt": "Le FRP Planification des ressources humaines – POU 935 comprend l'utilisation d'éléments de renseignements personnels limités pour la gestion des installations, mais les éléments de renseignements personnels liés aux cartes d'identification et aux laissez-passer ne sont pas couverts par ce FRP. Les FRP Santé et sécurité au travail – POE 907 et Équité en emploi et diversité – POE 918 ont également été examinés et ne comprennent pas d'éléments de renseignements personnels liés aux cartes d'identité et aux laissez-passer."
+              }
+            ]
+          },
+          {
+            "id": "PSE 917",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-ec029ad60418_en.md",
+                "line": 124,
+                "mention": "PSE 917",
+                "method": "explicit_pib_id",
+                "excerpt": "current pandemic and the return to work to a hybrid environment to ensure the safety of the employees present in the building. The next sub-section will demonstrate how this use is considered to be covered by the use section of the applicable Identification Cards and Access Badges - PSE 917. This purpose will be communicated to all current and new employees via a Privacy Notice Statement (see subsection on openness below)."
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-ec029ad60418_en.md",
+                "line": 134,
+                "mention": "PSE 917",
+                "method": "explicit_pib_id",
+                "excerpt": "The PIA indicates that the personal information collected in FEENICS is described in the Personal Information Bank Identification Cards and Access Badges - PSE 917, whereas personal information related to the issuance of temporary passes is covered by PIB Security Video Surveillance and Temporary Visitor Access Control Logs and Access Badges - PSU 9074. Both are standard TBS PIBs that apply to all federal institutions."
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-ec029ad60418_en.md",
+                "line": 139,
+                "mention": "PSE 917",
+                "method": "explicit_pib_id",
+                "excerpt": "PSE 917 specifies that permitted uses of the personal information (limited to: photographs, signatures, name and card numbers of holders) are to \"maintain information relating to the issuance, use and cancellation of identification cards and access badges, and to assist in ensuring the security of government institution facilities and the safety and security of individuals and assets present in such facilities.\" The allowed consistent uses are limited to: \"use personal information in the event of security- related incidents such as thefts or emergency situations\".Footnote 4"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-ec029ad60418_en.md",
+                "line": 147,
+                "mention": "PSE 917",
+                "method": "explicit_pib_id",
+                "excerpt": "The intended use of personal information related to identification cards and access badges to count the number of employees (including employees using a temporary card) who are accessing the StatCan buildings in the National Capital Region to inform management of the number of individuals present at each work site daily, weekly and to ensure the safety of individuals in the buildings during the return to work to an hybrid environment in the current health context is considered to be covered in the uses section of the PIB PSE 917. More specifically, to maintain information related to the use of"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-ec029ad60418_fr.md",
+                "line": 119,
+                "mention": "POE 917",
+                "method": "explicit_pib_id",
+                "excerpt": "L'EFVP initiale de 2009 couvrait et évaluait une utilisation limitée des renseignements personnels recueillis à l'aide du SACA. L'EFVP a été mise à jour en 2016 pour couvrir et évaluer une utilisation supplémentaire. L'addenda actuel porte sur l'utilisation des renseignements personnels du SACA (nom de l'employé et numéro d'identification de la carte) pour compter le nombre d'employés présents quotidiennement, hebdomadairement aux installations de StatCan de la RCN dans le cadre de la pandémie actuelle et du retour au travail dans un environnement hybride, de manière à assurer la sécurité des "
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-ec029ad60418_fr.md",
+                "line": 129,
+                "mention": "POE 917",
+                "method": "explicit_pib_id",
+                "excerpt": "L'EFVP indique que les renseignements personnels recueillis dans Feenics sont décrits dans le fichier de renseignements personnels Cartes d'identification et laissez-passer – POE 917, alors que les renseignements personnels liés à la délivrance de laissez-passer temporaires sont couverts par le fichier de renseignements personnels Surveillance vidéo, registres de contrôle d'accès des visiteurs et laissez-passer – POU 9074. Les deux sont des FRP standard du SCT qui s'appliquent à toutes les institutions fédérales."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-ec029ad60418_fr.md",
+                "line": 142,
+                "mention": "POE 917",
+                "method": "explicit_pib_id",
+                "excerpt": "L'utilisation prévue des renseignements personnels liés aux cartes d'identification et aux laissez-passer pour compter le nombre d'employés (y compris les employés utilisant une carte temporaire) qui accèdent aux bâtiments de StatCan dans la région de la capitale nationale afin d'informer la direction du nombre de personnes présentes sur chaque site de travail chaque jour, chaque semaine et pour assurer la sécurité des personnes dans les bâtiments lors du retour au travail dans un environnement hybride dans le contexte sanitaire actuel est considérée comme couverte dans la section des utilisat"
+              }
+            ]
+          },
+          {
+            "id": "PSE 918",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 918"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-ec029ad60418_en.md",
+                "line": 143,
+                "mention": "PSE 918",
+                "method": "explicit_pib_id",
+                "excerpt": "PIB Human Resources Planning – PSU 935 includes the use of limited personal information elements for the management of facilities, but personal information elements related to identification cards and access badges is not covered under this PIB. The PIBs Occupational Health and Safety - PSE 907 as well as Employment Equity and Diversity – PSE-918, were also reviewed and do not include personal information elements related to identification cards and access badges."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-ec029ad60418_fr.md",
+                "line": 138,
+                "mention": "POE 918",
+                "method": "explicit_pib_id",
+                "excerpt": "Le FRP Planification des ressources humaines – POU 935 comprend l'utilisation d'éléments de renseignements personnels limités pour la gestion des installations, mais les éléments de renseignements personnels liés aux cartes d'identification et aux laissez-passer ne sont pas couverts par ce FRP. Les FRP Santé et sécurité au travail – POE 907 et Équité en emploi et diversité – POE 918 ont également été examinés et ne comprennent pas d'éléments de renseignements personnels liés aux cartes d'identité et aux laissez-passer."
+              }
+            ]
+          },
+          {
+            "id": "PSU 907",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 907"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-ec029ad60418_en.md",
+                "line": 137,
+                "mention": "PSU 907",
+                "method": "explicit_pib_id",
+                "excerpt": "Based on the above, the PIB PSU 907 does not apply in the context of this activity."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-ec029ad60418_fr.md",
+                "line": 132,
+                "mention": "POU 907",
+                "method": "explicit_pib_id",
+                "excerpt": "Compte tenu de ce qui précède, le FRP POU 907 ne s'applique pas dans le cadre de cette activité."
+              }
+            ]
+          },
+          {
+            "id": "PSU 9074",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-ec029ad60418_en.md",
+                "line": 134,
+                "mention": "PSU 9074",
+                "method": "explicit_pib_id",
+                "excerpt": "The PIA indicates that the personal information collected in FEENICS is described in the Personal Information Bank Identification Cards and Access Badges - PSE 917, whereas personal information related to the issuance of temporary passes is covered by PIB Security Video Surveillance and Temporary Visitor Access Control Logs and Access Badges - PSU 9074. Both are standard TBS PIBs that apply to all federal institutions."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-ec029ad60418_fr.md",
+                "line": 129,
+                "mention": "POU 9074",
+                "method": "explicit_pib_id",
+                "excerpt": "L'EFVP indique que les renseignements personnels recueillis dans Feenics sont décrits dans le fichier de renseignements personnels Cartes d'identification et laissez-passer – POE 917, alors que les renseignements personnels liés à la délivrance de laissez-passer temporaires sont couverts par le fichier de renseignements personnels Surveillance vidéo, registres de contrôle d'accès des visiteurs et laissez-passer – POU 9074. Les deux sont des FRP standard du SCT qui s'appliquent à toutes les institutions fédérales."
+              }
+            ]
+          },
+          {
+            "id": "PSU 917",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 917"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-ec029ad60418_fr.md",
+                "line": 134,
+                "mention": "POU 917",
+                "method": "explicit_pib_id",
+                "excerpt": "Le POU 917 précise que les utilisations autorisées des renseignements personnels (limités aux photographies, aux signatures, aux noms et aux numéros de cartes des détenteurs) sont les suivantes : « rassembler de l'information sur l'émission, l'utilisation et l'annulation de cartes d'identification et de laissez-passer, et de contribuer à assurer la sécurité des installations fédérales ainsi que celle des personnes et des biens qui se trouvent dans de telles installations ». Les utilisations compatibles autorisées sont limitées à « l'utilisation de renseignements personnels dans les cas d'incid"
+              }
+            ]
+          },
+          {
+            "id": "PSU 935",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 935"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-ec029ad60418_en.md",
+                "line": 143,
+                "mention": "PSU 935",
+                "method": "explicit_pib_id",
+                "excerpt": "PIB Human Resources Planning – PSU 935 includes the use of limited personal information elements for the management of facilities, but personal information elements related to identification cards and access badges is not covered under this PIB. The PIBs Occupational Health and Safety - PSE 907 as well as Employment Equity and Diversity – PSE-918, were also reviewed and do not include personal information elements related to identification cards and access badges."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-ec029ad60418_fr.md",
+                "line": 138,
+                "mention": "POU 935",
+                "method": "explicit_pib_id",
+                "excerpt": "Le FRP Planification des ressources humaines – POU 935 comprend l'utilisation d'éléments de renseignements personnels limités pour la gestion des installations, mais les éléments de renseignements personnels liés aux cartes d'identification et aux laissez-passer ne sont pas couverts par ce FRP. Les FRP Santé et sécurité au travail – POE 907 et Équité en emploi et diversité – POE 918 ont également été examinés et ne comprennent pas d'éléments de renseignements personnels liés aux cartes d'identité et aux laissez-passer."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "PSE 907",
+        "PSE 917",
+        "PSE 918",
+        "PSU 907",
+        "PSU 9074",
+        "PSU 917",
+        "PSU 935"
+      ],
+      "pib_count": 7,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 3646,
+      "word_count_fr": 4022,
+      "word_count_language": "en",
+      "word_count": 3646
     },
     {
       "pia_id": "pia-f513050ebc70",
@@ -7387,7 +9112,9 @@
           "title": "New Dissemination Model Online Beta Consultation - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "5d1125e10ce20f957f026c8664e46354bcdca287b747f9c79db64ae992fbf86f",
-          "word_count": 494
+          "word_count": 494,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/nmd",
@@ -7438,9 +9165,24 @@
           "title": "Consultation en ligne bêta sur le Nouveau modèle de diffusion - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "06e10aa0144342bbcc2cc88d7b804115efce883e1cf9943f33d1ee799d2250af",
-          "word_count": 611
+          "word_count": 611,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 494,
+      "word_count_fr": 611,
+      "word_count_language": "en",
+      "word_count": 494
     },
     {
       "pia_id": "pia-256c7190b3c8",
@@ -7504,7 +9246,9 @@
           "title": "My StatCan and Online Discussion Platforms - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "cba327d3c7d7bd7e04ab244ab0c005071f5e631692bb2428158bd4996666d440",
-          "word_count": 542
+          "word_count": 542,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/msc",
@@ -7555,9 +9299,24 @@
           "title": "Mon StatCan et plateformes de discussion en ligne - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "9e628b2b51d17585043b9bc0a2b7ed7d7468e85450ca889e5fa215592e80a226",
-          "word_count": 665
+          "word_count": 665,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 542,
+      "word_count_fr": 665,
+      "word_count_language": "en",
+      "word_count": 542
     },
     {
       "pia_id": "pia-fe62ea73920e",
@@ -7621,7 +9380,9 @@
           "title": "StatCan Blog - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "a1112c763345f2ab2895030b429811387572d719a9334a516f6e2bd7a8272625",
-          "word_count": 201
+          "word_count": 201,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/blogue",
@@ -7672,9 +9433,24 @@
           "title": "Blogue de StatCan - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "c1d026c1386403e64ffc26a5a1838d12b361bde39f22159905c94a87cbf63457",
-          "word_count": 254
+          "word_count": 254,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 201,
+      "word_count_fr": 254,
+      "word_count_language": "en",
+      "word_count": 201
     },
     {
       "pia_id": "pia-9f45af4a0cf5",
@@ -7738,7 +9514,9 @@
           "title": "Innovation Channel - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "4964990558396951867c5efb06efa99a714e411e2cf68b692920f2bef23775ce",
-          "word_count": 223
+          "word_count": 223,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/vi",
@@ -7789,9 +9567,24 @@
           "title": "La voie de l’innovation - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "331fd3839a6a50e7e92fe7e4bcfc2b71c2205cf0945689afbd82d7581a86dc52",
-          "word_count": 306
+          "word_count": 306,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 223,
+      "word_count_fr": 306,
+      "word_count_language": "en",
+      "word_count": 223
     },
     {
       "pia_id": "pia-638c70e4417e",
@@ -7855,7 +9648,9 @@
           "title": "Client Relationship Management System (2013 Update) - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "e54a20674943ec855091766a05f1ff39bf3901f6470d42fa979c7058b3d51324",
-          "word_count": 244
+          "word_count": 244,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/sgrc",
@@ -7906,9 +9701,24 @@
           "title": "Système de gestion des relations avec les clients (Mise à jour de 2013) - Sommaire de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "c9e95bbef3fd7ec7cca74567938e0730234e4d5c3524fbe594a1c2610c61b57b",
-          "word_count": 346
+          "word_count": 346,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 244,
+      "word_count_fr": 346,
+      "word_count_language": "en",
+      "word_count": 244
     },
     {
       "pia_id": "pia-f7f2a7fcddcd",
@@ -7972,7 +9782,9 @@
           "title": "Statistics Canada Video Contest – International Year of Statistics 2013 - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "a75c977c891943d6d15cd4644f5ac3a6fc65bcaaca7d87ed03c5595279071818",
-          "word_count": 257
+          "word_count": 257,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/cvsc",
@@ -8023,9 +9835,24 @@
           "title": "Concours de vidéos de Statistique Canada – Année mondiale de la statistique 2013 - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "6425bedd3567d2739ec94fbd2ea2990726e51a85e96655c91d32bae912455c82",
-          "word_count": 310
+          "word_count": 310,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 257,
+      "word_count_fr": 310,
+      "word_count_language": "en",
+      "word_count": 257
     },
     {
       "pia_id": "pia-66c6b73866c9",
@@ -8089,7 +9916,9 @@
           "title": "Interactive Online Consultation Tool - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "e63e138006769f8f18dba9e4d606dcb6777ead81be136f64f3fc7a8e82c7309c",
-          "word_count": 270
+          "word_count": 270,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/ocil",
@@ -8140,9 +9969,24 @@
           "title": "Outil de consultation interactif en ligne - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "924123fdb5ac9d62a18866abccf6c3f8893d54de637a216eb23c3c201bbfc314",
-          "word_count": 327
+          "word_count": 327,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 270,
+      "word_count_fr": 327,
+      "word_count_language": "en",
+      "word_count": 270
     },
     {
       "pia_id": "pia-6b65e2cb49cc",
@@ -8206,7 +10050,9 @@
           "title": "Time Management System – Web Application - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "98f8021d28668814bceb43b71829da1aa5255dc268dd4953cd63384553318f6e",
-          "word_count": 292
+          "word_count": 292,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/sgt",
@@ -8257,9 +10103,24 @@
           "title": "Système de gestion du temps – Application Web - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "9b8629c39f923650ae2cf25f6b78107b308f22f3000f6a29a41611a116bfd641",
-          "word_count": 400
+          "word_count": 400,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 292,
+      "word_count_fr": 400,
+      "word_count_language": "en",
+      "word_count": 292
     },
     {
       "pia_id": "pia-8cfe391c113e",
@@ -8323,7 +10184,9 @@
           "title": "Conference online registration - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "91b50a1b13fdb07f77dba5afc779de51ad73653c6e62bc56e51260eaa0c8126e",
-          "word_count": 222
+          "word_count": 222,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/ilc",
@@ -8374,9 +10237,24 @@
           "title": "Inscription en ligne aux conférences - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "c2f1643cccbd3eda6bc9ea2bfa68b0793f681fd065b9c6b027a01b24f02ea6ca",
-          "word_count": 279
+          "word_count": 279,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 222,
+      "word_count_fr": 279,
+      "word_count_language": "en",
+      "word_count": 222
     },
     {
       "pia_id": "pia-6ec8eed7b0d3",
@@ -8440,7 +10318,9 @@
           "title": "2011 Census Dissemination Discussion Forum - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "52d8076fbd2740e63a63f0de01a4a35ed8057518b97472c9fe069e9aed11c384",
-          "word_count": 219
+          "word_count": 219,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/discussion2011",
@@ -8491,9 +10371,156 @@
           "title": "Forum de discussion sur la diffusion du Recensement de 2011 - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "39d8f02c33147269debfd940ad6ff0a3cf10e008a020eb836ede840327cd25c2",
-          "word_count": 295
+          "word_count": 295,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 219,
+      "word_count_fr": 295,
+      "word_count_language": "en",
+      "word_count": 219
+    },
+    {
+      "pia_id": "pia-9a4eca761fc8",
+      "title_en": "Contact Us Module on the Statistics Canada Web Site - Privacy impact assessment",
+      "title_fr": "Module Contactez-nous du site Web de Statistique Canada - Évaluation des facteurs relatifs à la vie privée",
+      "url_en": "https://www.statcan.gc.ca/en/about/pia/contact",
+      "url_fr": "https://www.statcan.gc.ca/fr/apercu/efrvp/contact",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.statcan.gc.ca/en/about/pia/contact",
+        "alternate_url": "https://www.statcan.gc.ca/fr/apercu/efrvp/contact"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.statcan.gc.ca/en/about/pia/contact",
+          "title_from_list": "Contact Us Module on the Statistics Canada Web Site",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.statcan.gc.ca/en/about/transparency/privacy-impact-assessments",
+          "discovered_under": "Privacy impact assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.statcan.gc.ca/en/about/pia/contact",
+              "title": "Contact Us Module on the Statistics Canada Web Site",
+              "list_url": "https://www.statcan.gc.ca/en/about/transparency/privacy-impact-assessments",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.statcan.gc.ca/en/about/pia/contact"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.statcan.gc.ca/en/about/pia/contact",
+            "final_url": "https://www.statcan.gc.ca/en/about/pia/contact",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T05:49:23.314392+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 03:32:39 GMT",
+            "etag": "W/\"1794454359\"",
+            "byte_count": 20886,
+            "sha256": "071da2c6abb3a418037368eceb8bb51e51d2e2fd5627b2e76ec552b7ab22cef5"
+          },
+          "raw_path": "raw/9a4eca761fc8e9e98a15.html",
+          "markdown_path": null,
+          "markdown_sha256": null,
+          "status": "insufficient_content",
+          "page_title": "Contact Us Module on the Statistics Canada Web Site - Privacy impact assessment",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.statcan.gc.ca/en/about/pia/contact",
+            "fr": "https://www.statcan.gc.ca/fr/apercu/efrvp/contact"
+          },
+          "date_modified": "2021-03-15",
+          "date_published": "2010-08-11",
+          "has_pia_text": false,
+          "title": "Contact Us Module on the Statistics Canada Web Site - Privacy impact assessment",
+          "conversion": "markdownify",
+          "pib_ids": [],
+          "cor_ids": []
+        },
+        "fr": {
+          "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/contact",
+          "title_from_list": "Module Contactez-nous du site Web de Statistique",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.statcan.gc.ca/fr/a-propos/transparence/evaluations-facteurs-vie-privee",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/contact",
+              "title": "Module Contactez-nous du site Web de Statistique",
+              "list_url": "https://www.statcan.gc.ca/fr/a-propos/transparence/evaluations-facteurs-vie-privee",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.statcan.gc.ca/fr/apercu/efrvp/contact"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.statcan.gc.ca/fr/apercu/efrvp/contact",
+            "final_url": "https://www.statcan.gc.ca/fr/apercu/efrvp/contact",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T05:49:23.470311+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 19:17:02 GMT",
+            "etag": "W/\"1794424622\"",
+            "byte_count": 22220,
+            "sha256": "03b8b9b3c3d41dc37ebbbc2b0a8a9aefbdbac02df769ae51aa634d0299ce1cb8"
+          },
+          "raw_path": "raw/8f9b7d893a271ae21869.html",
+          "markdown_path": "pia-9a4eca761fc8_fr.md",
+          "markdown_sha256": "a11e6dad1396248bf71ad20c054a49890c4366069790f3e13984b87cf15cac2b",
+          "status": "exported",
+          "page_title": "Module Contactez-nous du site Web de Statistique Canada - Évaluation des facteurs relatifs à la vie privée",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.statcan.gc.ca/en/about/pia/contact",
+            "fr": "https://www.statcan.gc.ca/fr/apercu/efrvp/contact"
+          },
+          "date_modified": "2021-03-02",
+          "date_published": "2014-11-28",
+          "has_pia_text": true,
+          "title": "Module Contactez-nous du site Web de Statistique Canada - Évaluation des facteurs relatifs à la vie privée",
+          "conversion": "markdownify",
+          "text_sha256": "8dbe6a8fb1706f3359eb96d702bec82280f4091d304bdb2a4456ec6b6d4e4a2a",
+          "word_count": 310,
+          "pib_ids": [],
+          "cor_ids": []
+        }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": null,
+      "word_count_fr": 310,
+      "word_count_language": "fr",
+      "word_count": 310
     },
     {
       "pia_id": "pia-64fd7325de66",
@@ -8557,21 +10584,23 @@
           "title": "Data Visualization Feedback Form - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "5964684b58f1c8d86d845a9a377e24b2d6f43b60d34d7c98df836c167a5d78b6",
-          "word_count": 241
+          "word_count": 241,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/frvd",
-          "title_from_list": "Formulaire de rétroaction sur la visualisation des données - Évaluation des facteurs relatifs à la vie privée",
+          "title_from_list": "Formulaire de rétroaction sur la visualisation des données",
           "kind": "page",
-          "discovery_method": "document_language_link",
-          "list_url": "https://www.statcan.gc.ca/en/about/transparency/privacy-impact-assessments",
-          "discovered_under": null,
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.statcan.gc.ca/fr/a-propos/transparence/evaluations-facteurs-vie-privee",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
           "discovery_references": [
             {
               "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/frvd",
-              "title": "Formulaire de rétroaction sur la visualisation des données - Évaluation des facteurs relatifs à la vie privée",
-              "list_url": "https://www.statcan.gc.ca/en/about/transparency/privacy-impact-assessments",
-              "discovery_method": "document_language_link"
+              "title": "Formulaire de rétroaction sur la visualisation des données",
+              "list_url": "https://www.statcan.gc.ca/fr/a-propos/transparence/evaluations-facteurs-vie-privee",
+              "discovery_method": "pia_section_link"
             }
           ],
           "aliases": [
@@ -8608,9 +10637,24 @@
           "title": "Formulaire de rétroaction sur la visualisation des données - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "0860aa39a5cce4620e4ad14de9feaa267f6852996b7d9d694ea4fb75255bc924",
-          "word_count": 321
+          "word_count": 321,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 241,
+      "word_count_fr": 321,
+      "word_count_language": "en",
+      "word_count": 241
     },
     {
       "pia_id": "pia-7535b64d1fc3",
@@ -8674,7 +10718,9 @@
           "title": "Employee Clearance Notification - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "7d6c9ae875bacd8c4569a64e75614a5a9e44ac8b27c6c2351104bf4a235da38a",
-          "word_count": 376
+          "word_count": 376,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/depart",
@@ -8725,9 +10771,24 @@
           "title": "Avis de départ d’un employé - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "e5df0b928b1d01c1699abcfd5f942eb39b40929c0df77894f16fadfdc86062e1",
-          "word_count": 322
+          "word_count": 322,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 376,
+      "word_count_fr": 322,
+      "word_count_language": "en",
+      "word_count": 376
     },
     {
       "pia_id": "pia-16556520ba84",
@@ -8791,7 +10852,9 @@
           "title": "Finance Service Request Management - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "c61ab0039727ff60ef1d63c823ee0e35baaf9971d6b1d781047b39581cb21534",
-          "word_count": 283
+          "word_count": 283,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/finance",
@@ -8842,9 +10905,24 @@
           "title": "Gestion des demandes de service aux Finances - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "7d8f28167c4b6d775da9769d206bba126835c9873491c3030c070a6dd5a76f09",
-          "word_count": 394
+          "word_count": 394,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 283,
+      "word_count_fr": 394,
+      "word_count_language": "en",
+      "word_count": 283
     },
     {
       "pia_id": "pia-29243375f27f",
@@ -8908,7 +10986,9 @@
           "title": "Human Resources Self Serve Portal - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "1bf8b3c22828fe75eed538277889eeb89299519fd28b6558d86814e5ab3c6919",
-          "word_count": 268
+          "word_count": 268,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/plrh",
@@ -8959,9 +11039,24 @@
           "title": "Portail libre-service des Ressources humaines - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "381a5c8cd0f0e897a777947f64ca056f3d398926ea92448a45586a1104c9f661",
-          "word_count": 283
+          "word_count": 283,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 268,
+      "word_count_fr": 283,
+      "word_count_language": "en",
+      "word_count": 268
     },
     {
       "pia_id": "pia-c320e3bacf7f",
@@ -9025,7 +11120,9 @@
           "title": "Generic Tracking Service - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "45546a56d5adc6b280758f1c1e8688a93e314c030704f47b84aa9e392d38ba2e",
-          "word_count": 252
+          "word_count": 252,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/service-generique",
@@ -9076,9 +11173,24 @@
           "title": "Service générique de suivi - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "b6f48a7bfcc48ef8a975818cdc954eabb354428ba72f82fefeaf5eb96826d4a5",
-          "word_count": 333
+          "word_count": 333,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 252,
+      "word_count_fr": 333,
+      "word_count_language": "en",
+      "word_count": 252
     },
     {
       "pia_id": "pia-49abea6412ce",
@@ -9142,7 +11254,9 @@
           "title": "Learning Management System - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "8d36f4024756a9790f6f2a69ef11403c26c7b33134c691e57b65c19e2a66fc21",
-          "word_count": 288
+          "word_count": 288,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/sgl",
@@ -9193,9 +11307,24 @@
           "title": "Système de gestion de l’apprentissage - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "f3c146c599943b46f609f8617b1afcf11035e0c8f591f7835c5da4421aafcaab",
-          "word_count": 396
+          "word_count": 396,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 288,
+      "word_count_fr": 396,
+      "word_count_language": "en",
+      "word_count": 288
     },
     {
       "pia_id": "pia-d5ff10a50337",
@@ -9259,7 +11388,9 @@
           "title": "2006 Census On-line Recruitment Application - Preliminary privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "9841d502a2d75621f25eb0b1fe3f9fb345d3a4151c722bff64c2113aa4c59d1d",
-          "word_count": 224
+          "word_count": 224,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/rec-app",
@@ -9310,9 +11441,24 @@
           "title": "Application de recrutement en ligne du Recensement de 2006 - Résumé de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "6792b20fd2fef936e7f1c264dd13ad04c7d7647a6d04f1acabd2354595450cb5",
-          "word_count": 291
+          "word_count": 291,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 224,
+      "word_count_fr": 291,
+      "word_count_language": "en",
+      "word_count": 224
     },
     {
       "pia_id": "pia-e154ebd0f5f1",
@@ -9376,7 +11522,11 @@
           "title": "Automated Access Control System and Closed Circuit Television Monitoring Program - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "875fec219a3a3a72c6fc256fad8a24545430cd9d1aa36d0d9d96965fdfdc7241",
-          "word_count": 413
+          "word_count": 413,
+          "pib_ids": [
+            "PSU 907"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/saca",
@@ -9427,9 +11577,57 @@
           "title": "Système automatisé de contrôle d’accès et Programme de surveillance par télévision en circuit fermé - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "1e66b65b71c332654714884374ac9d15b9b03da751b193c850d3e4b300ad1d40",
-          "word_count": 500
+          "word_count": 500,
+          "pib_ids": [
+            "PSU 907"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSU 907",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 907"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-e154ebd0f5f1_en.md",
+                "line": 32,
+                "mention": "PSU 907",
+                "method": "explicit_pib_id",
+                "excerpt": "The personal information is part of the Personal Information Bank, Security Video Surveillance and Temporary Visitor Access Control Logs and Building Passes (PSU 907). Upon request, Statistics Canada will provide employees and others with access to their personal information related to this PIB."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-statistics-canada/pia-e154ebd0f5f1_fr.md",
+                "line": 32,
+                "mention": "POU 907",
+                "method": "explicit_pib_id",
+                "excerpt": "Les renseignements personnels proviennent du Fichier de renseignements personnels (FRP) « Surveillance vidéo, registres de contrôle d’accès des visiteurs et laissez passer (POU 907) ». Sur demande, Statistique Canada autorisera des employés ou d’autres personnes à accéder à leurs renseignements personnels en rapport avec ce FRP."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "PSU 907"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 413,
+      "word_count_fr": 500,
+      "word_count_language": "en",
+      "word_count": 413
     },
     {
       "pia_id": "pia-534bd4640a51",
@@ -9493,7 +11691,9 @@
           "title": "Client Relationship Management System - Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "dfa099fb02361c00d6beba120c0d269ea7e0811bff494469e04bd73b76723498",
-          "word_count": 307
+          "word_count": 307,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/client",
@@ -9544,9 +11744,24 @@
           "title": "Système de gestion des relations avec les clients - Sommaire d'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "c0c44d85e8f0a014744bc5d5b7e0b89383f34c80805be1bd99285f569b3214ad",
-          "word_count": 368
+          "word_count": 368,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 307,
+      "word_count_fr": 368,
+      "word_count_language": "en",
+      "word_count": 307
     },
     {
       "pia_id": "pia-566fad2d1950",
@@ -9610,7 +11825,9 @@
           "title": "Employment Application Submission Tool - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "478037ebe248e3fc850d119691a86f92fc9641f1cc332e8f8afc15b04f0b23c9",
-          "word_count": 171
+          "word_count": 171,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/opde",
@@ -9661,9 +11878,24 @@
           "title": "Outil de présentation des demandes d’emploi - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "3c53347c0f68eed5406253a33d653e09ae086ab50ddbbe52f60c9eb193b645a3",
-          "word_count": 230
+          "word_count": 230,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 171,
+      "word_count_fr": 230,
+      "word_count_language": "en",
+      "word_count": 171
     },
     {
       "pia_id": "pia-50a1ab86f317",
@@ -9727,7 +11959,9 @@
           "title": "Human Resources Branch Service Request Management - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "225459b8dbd8952bde3e9d680dbef32205fa6b7c123a7877467359e94a2247c8",
-          "word_count": 263
+          "word_count": 263,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/dgrh",
@@ -9778,9 +12012,24 @@
           "title": "Gestion des demandes de service à la Direction générale des ressources humaines - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "5fe65ce36a2e85692828b31a01aa17550d4b58387a3efa45d6d373b66835d49a",
-          "word_count": 388
+          "word_count": 388,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 263,
+      "word_count_fr": 388,
+      "word_count_language": "en",
+      "word_count": 263
     },
     {
       "pia_id": "pia-ac8257ade8a1",
@@ -9844,7 +12093,9 @@
           "title": "Human Resources Branch Service Request Management - Phase 2 - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "007c4c63c7cdf440e0922bd91809252b2829e70bca7362d9866c6a85f0380c3b",
-          "word_count": 283
+          "word_count": 283,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/dgrh2",
@@ -9895,9 +12146,24 @@
           "title": "Gestion des demandes de service à la Direction des ressources humaines – Phase 2 - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "d8d4711d90066ec9994f83b79d621f939450274d755db76f2b9f1cbd892b5119",
-          "word_count": 415
+          "word_count": 415,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 283,
+      "word_count_fr": 415,
+      "word_count_language": "en",
+      "word_count": 283
     },
     {
       "pia_id": "pia-c3d1ee76ddd7",
@@ -9961,7 +12227,9 @@
           "title": "Labour Relations and Grievance System - Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "2ff231b90bf39fc33885aea3e4576a826a0189516d4453b9d7711dce3b5fe99a",
-          "word_count": 289
+          "word_count": 289,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/srtg",
@@ -10012,9 +12280,158 @@
           "title": "Le Système des relations de travail et des griefs - Sommaire de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "ba42d35e02dfef91c82d1777b44381b6315996adbdf5de8c87db1efa904fbc8d",
-          "word_count": 384
+          "word_count": 384,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 289,
+      "word_count_fr": 384,
+      "word_count_language": "en",
+      "word_count": 289
+    },
+    {
+      "pia_id": "pia-49f3f1138e2f",
+      "title_en": "National Contact Centre Telephone Recording Database Program - Privacy impact assessment",
+      "title_fr": "Programme de base de données d’enregistrements téléphoniques du Centre de contact national - Évaluation des facteurs relatifs à la vie privée",
+      "url_en": "https://www.statcan.gc.ca/en/about/pia/national",
+      "url_fr": "https://www.statcan.gc.ca/fr/apercu/efrvp/national",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.statcan.gc.ca/en/about/pia/national",
+        "alternate_url": "https://www.statcan.gc.ca/fr/apercu/efrvp/national"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.statcan.gc.ca/en/about/pia/national",
+          "title_from_list": "National Contact Centre Telephone Recording Database Program",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.statcan.gc.ca/en/about/transparency/privacy-impact-assessments",
+          "discovered_under": "Privacy impact assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.statcan.gc.ca/en/about/pia/national",
+              "title": "National Contact Centre Telephone Recording Database Program",
+              "list_url": "https://www.statcan.gc.ca/en/about/transparency/privacy-impact-assessments",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.statcan.gc.ca/en/about/pia/national"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.statcan.gc.ca/en/about/pia/national",
+            "final_url": "https://www.statcan.gc.ca/en/about/pia/national",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T05:49:23.378259+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 05:46:16 GMT",
+            "etag": "W/\"1794462376\"",
+            "byte_count": 21802,
+            "sha256": "ab6a09596a528c174f53f13de9083e379df8f4c7d8d11fd3d109887b4cbaf0cc"
+          },
+          "raw_path": "raw/49f3f1138e2f00a34156.html",
+          "markdown_path": "pia-49f3f1138e2f_en.md",
+          "markdown_sha256": "ba27384a621fff692cd861bec77f70597bf7542edc4d793544310c0f1a7d3140",
+          "status": "exported",
+          "page_title": "National Contact Centre Telephone Recording Database Program - Privacy impact assessment",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.statcan.gc.ca/en/about/pia/national",
+            "fr": "https://www.statcan.gc.ca/fr/apercu/efrvp/national"
+          },
+          "date_modified": "2021-03-15",
+          "date_published": "2009-12-02",
+          "has_pia_text": true,
+          "title": "National Contact Centre Telephone Recording Database Program - Privacy impact assessment",
+          "conversion": "markdownify",
+          "text_sha256": "3923ff90e20483ff8b749ed67c2829ef2b2488d3a63f9f526118013f25a44b83",
+          "word_count": 326,
+          "pib_ids": [],
+          "cor_ids": []
+        },
+        "fr": {
+          "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/national",
+          "title_from_list": "Programme de base de données d'enregistrements téléphoniques du Centre de contact national",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.statcan.gc.ca/fr/a-propos/transparence/evaluations-facteurs-vie-privee",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/national",
+              "title": "Programme de base de données d'enregistrements téléphoniques du Centre de contact national",
+              "list_url": "https://www.statcan.gc.ca/fr/a-propos/transparence/evaluations-facteurs-vie-privee",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.statcan.gc.ca/fr/apercu/efrvp/national"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.statcan.gc.ca/fr/apercu/efrvp/national",
+            "final_url": "https://www.statcan.gc.ca/fr/apercu/efrvp/national",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T05:49:23.596511+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:06:40 GMT",
+            "etag": "W/\"1794445600\"",
+            "byte_count": 23006,
+            "sha256": "7092f7a0960adf90b65c704ba1e563c1a6a03e66004f8ce86c34648e7e5b8364"
+          },
+          "raw_path": "raw/efddb76a41b393f1fcc6.html",
+          "markdown_path": "pia-49f3f1138e2f_fr.md",
+          "markdown_sha256": "008f08715594b42096bef14a3ccd309b07a766b2fe6256158ae0f6dda2fa2916",
+          "status": "exported",
+          "page_title": "Programme de base de données d’enregistrements téléphoniques du Centre de contact national - Évaluation des facteurs relatifs à la vie privée",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.statcan.gc.ca/en/about/pia/national",
+            "fr": "https://www.statcan.gc.ca/fr/apercu/efrvp/national"
+          },
+          "date_modified": "2021-03-03",
+          "date_published": "2014-11-28",
+          "has_pia_text": true,
+          "title": "Programme de base de données d’enregistrements téléphoniques du Centre de contact national - Évaluation des facteurs relatifs à la vie privée",
+          "conversion": "markdownify",
+          "text_sha256": "974f2d786a4555c0071f14986e461721c9f9005294df7058f8e31f3883fcc1a6",
+          "word_count": 445,
+          "pib_ids": [],
+          "cor_ids": []
+        }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 326,
+      "word_count_fr": 445,
+      "word_count_language": "en",
+      "word_count": 326
     },
     {
       "pia_id": "pia-78bb0d7b547d",
@@ -10078,7 +12495,9 @@
           "title": "National Routing System (NRS) Project - Preliminary privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "7e79d4de17ea4d8992869de65afe7d006bb097f210bad263c2dedbb4c6adfa24",
-          "word_count": 262
+          "word_count": 262,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/sna",
@@ -10129,9 +12548,24 @@
           "title": "Projet du Système national d'acheminement (SNA) - Résumé de l'évaluation préliminaire des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "81c996e937b8e4894c693bd777dc66233bf836957bf6d098034eb1ba7447788c",
-          "word_count": 328
+          "word_count": 328,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 262,
+      "word_count_fr": 328,
+      "word_count_language": "en",
+      "word_count": 262
     },
     {
       "pia_id": "pia-13eb967191c9",
@@ -10195,7 +12629,9 @@
           "title": "Staffing Activity Management System - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "c5add655bc369af01ef4cc550196778eced48de868e490cb328e9adbe77e6d17",
-          "word_count": 167
+          "word_count": 167,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/sgad",
@@ -10246,9 +12682,24 @@
           "title": "Système de gestion des activités de dotation - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "d36d38b596953a5f1f381202e530d3eb645ed89a6384bdc0b0f63c77c9fba982",
-          "word_count": 229
+          "word_count": 229,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 167,
+      "word_count_fr": 229,
+      "word_count_language": "en",
+      "word_count": 167
     },
     {
       "pia_id": "pia-f4d76b46ec6b",
@@ -10312,7 +12763,9 @@
           "title": "Statistical Survey Operations Online Application - Privacy impact assessment summary",
           "conversion": "markdownify",
           "text_sha256": "11685c9e1421d618270c3055e29871edceb8536ccb524f8ca54595c7f656ca3f",
-          "word_count": 244
+          "word_count": 244,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/enq-app",
@@ -10363,9 +12816,24 @@
           "title": "Application en ligne des Opérations des enquêtes statistiques - Résumé de l'évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "2a8eedefaee18244f9d30ed47f5b800f640009b90c1cd619af11676bdb0b9e3f",
-          "word_count": 301
+          "word_count": 301,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 244,
+      "word_count_fr": 301,
+      "word_count_language": "en",
+      "word_count": 244
     },
     {
       "pia_id": "pia-395b0dd2a8df",
@@ -10429,7 +12897,9 @@
           "title": "GCdocs - Privacy impact assessment",
           "conversion": "markdownify",
           "text_sha256": "d48c91ab4f236375c1620626d934d77ebb3f17a51da68bcb035c9e40c94f9742",
-          "word_count": 507
+          "word_count": 507,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.statcan.gc.ca/fr/apercu/efrvp/GCdocs",
@@ -10480,16 +12950,32 @@
           "title": "GCdocs - Évaluation des facteurs relatifs à la vie privée",
           "conversion": "markdownify",
           "text_sha256": "775420af1a2430129731d8b43453c069ee554a9a3ae24ff6494482ea5ccbe3ae",
-          "word_count": 648
+          "word_count": 648,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 507,
+      "word_count_fr": 648,
+      "word_count_language": "en",
+      "word_count": 507
     }
   ],
   "summary": {
-    "pia_count": 89,
-    "paired_count": 89,
+    "pia_count": 91,
+    "paired_count": 91,
     "source_status_counts": {
-      "exported": 178
+      "exported": 181,
+      "insufficient_content": 1
     }
   }
 }

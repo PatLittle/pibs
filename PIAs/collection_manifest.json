@@ -1,19 +1,20 @@
 {
   "schema_version": 1,
-  "collector_version": 1,
-  "generated_at_utc": "2026-11-12T01:50:47.815640+00:00",
-  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
-  "collector_sha256": "938166a4a7187c1a6c0334acecef6e5d0820fd7a1125df00c8d21580c293e6cf",
+  "collector_version": 2,
+  "generated_at_utc": "2026-11-12T05:50:22.348941+00:00",
+  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
+  "collector_sha256": "20a084484777ad312355fb86ce9343a18e7db2cdc5b1af99ec1ba72cb873f8b8",
   "organization_count": 149,
-  "organizations_with_pias": 27,
-  "pia_count": 417,
-  "paired_count": 416,
+  "organizations_with_pias": 33,
+  "pia_count": 766,
+  "paired_count": 755,
   "source_status_counts": {
-    "exported": 820,
+    "exported": 1505,
     "not_pia_content": 2,
+    "insufficient_content": 2,
     "soft_error_page": 2,
     "language_mismatch": 1,
-    "http_error": 8
+    "http_error": 9
   },
   "organizations": {
     "ati-schedule-i-department-for-women-and-gender-equality": {
@@ -34,9 +35,11 @@
       "source_status_counts": {}
     },
     "ati-schedule-i-department-of-citizenship-and-immigration": {
-      "pia_count": 0,
-      "paired_count": 0,
-      "source_status_counts": {}
+      "pia_count": 75,
+      "paired_count": 75,
+      "source_status_counts": {
+        "exported": 150
+      }
     },
     "ati-schedule-i-department-of-crown-indigenous-relations-and-northern-affairs": {
       "pia_count": 0,
@@ -70,9 +73,11 @@
       }
     },
     "ati-schedule-i-department-of-foreign-affairs-trade-and-development": {
-      "pia_count": 0,
-      "paired_count": 0,
-      "source_status_counts": {}
+      "pia_count": 38,
+      "paired_count": 38,
+      "source_status_counts": {
+        "exported": 76
+      }
     },
     "ati-schedule-i-department-of-health": {
       "pia_count": 32,
@@ -100,9 +105,11 @@
       }
     },
     "ati-schedule-i-department-of-justice": {
-      "pia_count": 0,
+      "pia_count": 9,
       "paired_count": 0,
-      "source_status_counts": {}
+      "source_status_counts": {
+        "exported": 9
+      }
     },
     "ati-schedule-i-department-of-national-defence": {
       "pia_count": 36,
@@ -148,9 +155,11 @@
       "source_status_counts": {}
     },
     "ati-schedule-i-administrative-tribunals-support-service-of-canada": {
-      "pia_count": 0,
-      "paired_count": 0,
-      "source_status_counts": {}
+      "pia_count": 1,
+      "paired_count": 1,
+      "source_status_counts": {
+        "exported": 2
+      }
     },
     "ati-schedule-i-asia-pacific-foundation-of-canada": {
       "pia_count": 0,
@@ -175,9 +184,11 @@
       "source_status_counts": {}
     },
     "ati-schedule-i-canada-border-services-agency": {
-      "pia_count": 0,
-      "paired_count": 0,
-      "source_status_counts": {}
+      "pia_count": 50,
+      "paired_count": 50,
+      "source_status_counts": {
+        "exported": 100
+      }
     },
     "ati-schedule-i-canada-emission-reduction-incentives-agency": {
       "pia_count": 0,
@@ -212,9 +223,12 @@
       "source_status_counts": {}
     },
     "ati-schedule-i-canada-revenue-agency": {
-      "pia_count": 0,
-      "paired_count": 0,
-      "source_status_counts": {}
+      "pia_count": 166,
+      "paired_count": 166,
+      "source_status_counts": {
+        "exported": 331,
+        "insufficient_content": 1
+      }
     },
     "ati-schedule-i-canada-school-of-public-service": {
       "pia_count": 15,
@@ -294,10 +308,10 @@
       "source_status_counts": {}
     },
     "ati-schedule-i-canadian-nuclear-safety-commission": {
-      "pia_count": 10,
-      "paired_count": 10,
+      "pia_count": 12,
+      "paired_count": 12,
       "source_status_counts": {
-        "exported": 20
+        "exported": 24
       }
     },
     "ati-schedule-i-canadian-radio-television-and-telecommunications-commission": {
@@ -738,10 +752,10 @@
       "source_status_counts": {}
     },
     "ati-schedule-i-shared-services-canada": {
-      "pia_count": 15,
-      "paired_count": 15,
+      "pia_count": 17,
+      "paired_count": 17,
       "source_status_counts": {
-        "exported": 30
+        "exported": 34
       }
     },
     "ati-schedule-i-social-sciences-and-humanities-research-council": {
@@ -752,10 +766,11 @@
       }
     },
     "ati-schedule-i-statistics-canada": {
-      "pia_count": 89,
-      "paired_count": 89,
+      "pia_count": 91,
+      "paired_count": 91,
       "source_status_counts": {
-        "exported": 178
+        "exported": 181,
+        "insufficient_content": 1
       }
     },
     "ati-schedule-i-statute-revision-commission": {
@@ -779,11 +794,11 @@
       "source_status_counts": {}
     },
     "ati-schedule-i-treasury-board-secretariat": {
-      "pia_count": 16,
-      "paired_count": 16,
+      "pia_count": 20,
+      "paired_count": 19,
       "source_status_counts": {
-        "exported": 26,
-        "http_error": 6
+        "exported": 32,
+        "http_error": 7
       }
     },
     "ati-schedule-i-trois-rivieres-port-authority": {

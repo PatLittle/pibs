@@ -21,6 +21,12 @@ flowchart LR
     J --> K[Separate inline summaries by heading<br/>or retrieve individual HTML/PDF pages]
     K --> L[Match EN/FR sources using evidence]
     L --> M[Organization folders:<br/>collection.json, raw captures,<br/>PIA_en.md and PIA_fr.md]
+    M --> N[Parse explicit PIB and CoR IDs<br/>and normalize known bilingual aliases]
+    N --> O[Assessment index:<br/>reference lists, counts and word counts]
+    A --> T[Collected PIB holdings baseline]
+    O --> U[Privacy Assessments website<br/>record links and collection progress]
+    T --> U
+    V[Reviewed official web discovery] --> H
 ```
 
 ## Outputs
@@ -309,3 +315,95 @@ return-state preservation, EN/FR switching and history, inline and PDF-derived
 summaries, missing/unavailable content, failed catalogue requests, and mobile
 layout. `scripts/validate_pia_site.py` checks every published reader against the
 collection, including Markdown hashes, language availability and count totals.
+
+## PIB and Class of Records references
+
+`reference_extraction.py` parses the preserved PIA Markdown and enriches every
+assessment in each organization’s `collection.json`. It also writes the
+assessment-level `assessment_index.csv`; the original `index.csv` remains the
+organization-level list-page index.
+
+Each assessment contains:
+
+- `pib_ids` / `pib_count` and `cor_ids` / `cor_count`: distinct normalized IDs
+  across the readable EN and FR copies. Repeated mentions and known bilingual
+  aliases count once; unknown IDs remain visible rather than being discarded.
+- `references.pibs` / `references.classes_of_records`: each normalized ID,
+  matching repository records, and evidence including language, Markdown path,
+  line number, observed ID, extraction method and a text excerpt. Each source
+  also has its own language-specific `pib_ids` / `cor_ids`.
+- `word_count_en` / `word_count_fr`: the existing source export word counts,
+  or null when that language has no readable export. `word_count` selects the
+  English count when available, otherwise French, and `word_count_language`
+  states which one. The table shows both counts; it does not add translations
+  together to describe one document’s length.
+
+The parser excludes collector front matter and Markdown link destinations.
+In particular, identifiers embedded incidentally in a URL’s text-highlight
+fragment do not inflate the citation list. PIB codes are recognized directly;
+standard French POE/POU aliases normalize to PSE/PSU. Known bilingual bank IDs
+use the compiled holdings and institution acronym aliases. Standard CoR
+PRN/NDP aliases normalize to PRN. Institution-specific CoR IDs are matched
+against the compiled holdings, including uniquely joined French source titles;
+unknown code-shaped references are retained only in explicit CoR context.
+Telephone numbers, statutes, PIA file numbers, and naked dates are excluded.
+A bare institution-specific bank code is resolved to a holder only if its
+identity is unique within the current institution. This is evidence of an ID
+mention, not proof of a validated relationship or a complete PIA-to-PIB mapping.
+
+The website catalogue and assessment CSV expose these fields. Matched IDs link
+to the existing PIB or Class of Records explorer, including standard holdings.
+Unmatched IDs appear as plain text. Search includes both ID lists, and the table
+can filter assessments mentioning PIBs or CoRs and sort by reference counts or
+primary-language word count. Reader pages show the same reference lists.
+
+### Collection progress against PIB holdings
+
+The landing page compares readable assessment coverage with the institution-
+specific PIB holdings already in the repository:
+
+1. Institutions with at least one readable assessment / institutions with at
+   least one collected PIB.
+2. Unique institution-specific PIB records explicitly cited by collected
+   assessments / all institution-specific PIB records in the compiled table.
+
+Both metrics join on stable institution IDs and normalized record IDs. A PIB
+cited repeatedly, across languages, or by multiple PIAs counts once in the
+second metric. Standard government-wide PIBs remain in reference lists/counts
+but are excluded from this institution-specific denominator. These are project
+collection/reference indicators, not an estimate of the total PIAs that ought
+to exist and not an assumption of one PIA per PIB.
+
+The collector enriches references after collection. `build_site_assets.py`
+refreshes them before building the site so that identifier resolution uses the
+current holdings. Standalone commands are also available:
+
+```sh
+work/pia-venv/bin/python PIAs/reference_extraction.py
+work/pia-venv/bin/python -m unittest discover -s PIAs -p 'test_reference_*.py'
+```
+
+## Supplementary official-source discovery
+
+Two smaller-model research agents searched official `*.canada.ca` / `*.gc.ca`
+sources for missing PIA lists. `discovery_research.json` preserves their findings
+and parser audits, including blocked candidates and annual-report layouts that
+were not ingested as individual assessments. Verified, directly retrievable
+list pages are curated in `verified_sources.csv` and checked by
+`build_index.py`. Their provenance appears in `evidence.jsonl` under
+`official_web_discovery`; the discovery method is
+`verified_official_web_navigation`.
+
+These sources supplement stale/missing Info Source pointers without changing
+`pia_link_in_infosource` from N to Y. The first expansion adds official CRA,
+CBSA, IRCC, Global Affairs, Justice and ATSSC lists. The collector then fetches
+and exports their documents normally; search snippets are not substituted for
+unretrieved documents. Shared assessments explicitly linked by more than one
+institution retain their institutional listing and original source provenance.
+
+The source audit corrected overly broad link-label filters: program titles
+containing “contact”, “accessibility”, “policy”, or “standard” can still be valid
+assessments. Explanatory directives and site navigation are excluded based on
+more specific labels, while the CRA’s broader EN/FR assessment-summary headings
+are recognized. ESDC’s annual pages need separate month/assessment boundary
+handling and remain documented research rather than incorrectly grouped exports.

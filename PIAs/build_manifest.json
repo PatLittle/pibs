@@ -1,26 +1,26 @@
 {
-  "generated_at_utc": "2026-11-12T00:33:15.025712+00:00",
+  "generated_at_utc": "2026-11-12T05:55:50.428457+00:00",
   "registry_sha256": "6d6417e87cdafaa92818de27ea1fec3a050b0c3f3aa75f3cbd2643d96aad4ea5",
-  "script_sha256": "36f536143b76b9a3165be0432686a4a58fb3f6bc0e4f5304ce6b13394329360e",
+  "script_sha256": "ec636a9862f2c54f6db4ef82425c259e9e7866436ea4c46b96408d9ddca0ea89",
   "organization_count": 149,
   "summary": {
     "en": {
-      "http_error": 6,
-      "list_detected": 27,
+      "http_error": 5,
+      "list_detected": 33,
       "needs_review": 2,
       "no_artifact": 17,
-      "no_link_found": 97
+      "no_link_found": 92
     },
     "fr": {
-      "http_error": 6,
-      "list_detected": 26,
+      "http_error": 5,
+      "list_detected": 31,
       "needs_review": 4,
       "no_artifact": 17,
-      "no_link_found": 96
+      "no_link_found": 92
     }
   },
   "outputs_sha256": {
-    "index.csv": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
-    "evidence.jsonl": "1e55e5a864e0a9a148f16e301102c5efb547b8c01f5fffb4fb66605d9965006f"
+    "index.csv": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
+    "evidence.jsonl": "3d528477845da64024d7ac404e08fe8ece55c6ad58f497fe271de509770c34e8"
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "collector_version": 1,
-  "collected_at_utc": "2026-11-12T01:50:43.141712+00:00",
+  "collector_version": 2,
+  "collected_at_utc": "2026-11-12T05:50:15.290856+00:00",
   "institution_id": "ati-schedule-i-public-health-agency-of-canada",
   "gc_orgID": "2285.0",
   "open_canada_org_id": "1C71053B-AA64-4646-956B-41631C396018",
@@ -9,7 +9,7 @@
   "name_en": "Public Health Agency of Canada",
   "name_fr": "Agence de la santé publique du Canada",
   "registry_membership": "current_registry",
-  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
   "list_pages": {
     "en": {
       "indexed_url": "https://www.canada.ca/en/public-health/corporate/mandate/about-agency/access-information-privacy/privacy.html",
@@ -133,7 +133,11 @@
           "title": "Privacy impact assessment: Vaccine Impact Assistance Program (VIAP)",
           "conversion": "markdownify",
           "text_sha256": "101a11a6cace3f8130097f44161851a69fff29bd17aa7bee62fbf020a926d42f",
-          "word_count": 542
+          "word_count": 542,
+          "pib_ids": [
+            "PHAC PPU 318"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-publique/organisation/mandat/a-propos-agence/acces-a-information-protection-renseignements-personnels/protection-renseignements-personnels/programme-assistance-cas-incidents-lies-vaccination.html",
@@ -184,9 +188,51 @@
           "title": "Évaluation des facteurs relatifs à la vie privée : Programme d’assistance en cas d’incidents liés à la vaccination (PAIV)",
           "conversion": "markdownify",
           "text_sha256": "9de534577c33f65867c424b71dab17603d63408ce318938171b3f475cdea316e",
-          "word_count": 720
+          "word_count": 720,
+          "pib_ids": [
+            "PHAC PPU 318"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PHAC PPU 318",
+            "matched_records": [],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-public-health-agency-of-canada/pia-5e04dfc5d281_en.md",
+                "line": 52,
+                "mention": "PHAC PPU 318",
+                "method": "explicit_pib_id",
+                "excerpt": "Info Source describes how PHAC manages your personal information. Refer to the personal information bank, Vaccine Impact Assistance Program - PHAC PPU 318."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-public-health-agency-of-canada/pia-5e04dfc5d281_fr.md",
+                "line": 53,
+                "mention": "ASPC PPU 318",
+                "method": "explicit_pib_id",
+                "excerpt": "Info Source décrit comment l‘ASPC gère vos renseignements personnels. Consultez le fichier de renseignements personnels ASPC PPU 318 – Programme d'assistance en cas d'incidents liés à la vaccination."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "PHAC PPU 318"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 542,
+      "word_count_fr": 720,
+      "word_count_language": "en",
+      "word_count": 542
     },
     {
       "pia_id": "pia-83b1089a4441",
@@ -250,7 +296,11 @@
           "title": "Privacy Impact Assessment addendum for Temporary Border Measures under the Quarantine Act (September 30, 2022, and March 24, 2023) – Roxham Road",
           "conversion": "markdownify",
           "text_sha256": "7a5692f388417862344f7044b84472ada7414a36c68b7630e6b3b48975192515",
-          "word_count": 448
+          "word_count": 448,
+          "pib_ids": [
+            "PHAC PPU 074"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-publique/organisation/mandat/a-propos-agence/acces-a-information-protection-renseignements-personnels/protection-renseignements-personnels/addendum-evaluation-vie-privee-concernant-mesures-frontalieres-temporaires-prises-vertu-loi-quarantaine-roxham-road.html",
@@ -301,9 +351,57 @@
           "title": "Addendum à l'Évaluation des facteurs relatifs à la vie privée concernant les mesures frontalières temporaires prises en vertu de la Loi sur la quarantaine (30 septembre 2022 et 24 mars 2023) – Roxham Road",
           "conversion": "markdownify",
           "text_sha256": "8e162eeebf4f509d80492cd6ccd7789d452ddb1b21b3d5f7c7cae5446c30be92",
-          "word_count": 593
+          "word_count": 593,
+          "pib_ids": [
+            "PHAC PPU 074"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PHAC PPU 074",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-public-health-agency-of-canada",
+                "record_id": "PHAC PPU 074"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-public-health-agency-of-canada/pia-83b1089a4441_en.md",
+                "line": 35,
+                "mention": "PHAC PPU 074",
+                "method": "explicit_pib_id",
+                "excerpt": "Info Source describes how PHAC manages your personal information. Refer to the Personal Information Bank PHAC PPU 074 - Pandemic Border Measures."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-public-health-agency-of-canada/pia-83b1089a4441_fr.md",
+                "line": 35,
+                "mention": "PHAC PPU 074",
+                "method": "explicit_pib_id",
+                "excerpt": "Info Source décrit comment l’ASPC gère vos renseignements personnels. Consultez le fichier de renseignements personnels PHAC PPU 074 - Les mesures frontalières en cas de pandémie."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "PHAC PPU 074"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 448,
+      "word_count_fr": 593,
+      "word_count_language": "en",
+      "word_count": 448
     },
     {
       "pia_id": "pia-2494ed6d2af9",
@@ -367,7 +465,9 @@
           "title": "PHAC Expert Roster and Scientific Performance Measurement Database (December 2023)",
           "conversion": "markdownify",
           "text_sha256": "b94c42217464e07df296cd04832a5dee978840b6c93aea548781cc80c2db6b17",
-          "word_count": 335
+          "word_count": 335,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-publique/organisation/mandat/a-propos-agence/acces-a-information-protection-renseignements-personnels/protection-renseignements-personnels/liste-experts-base-donnees-mesure-rendement-scientifique-decembre-2023.html",
@@ -418,9 +518,24 @@
           "title": "La liste des experts de l’ASPC et la base de données sur la mesure du rendement scientifique (Décembre 2023)",
           "conversion": "markdownify",
           "text_sha256": "c30b1a24a08b7a6b9f31d27e6c6e900bb38685fe996e4346c54e97c2305b75e3",
-          "word_count": 458
+          "word_count": 458,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 335,
+      "word_count_fr": 458,
+      "word_count_language": "en",
+      "word_count": 335
     },
     {
       "pia_id": "pia-f6bc3609e581",
@@ -484,7 +599,9 @@
           "title": "Addendum to pandemic border measures privacy impact assessment – Temporary orders (completed March 2023)",
           "conversion": "markdownify",
           "text_sha256": "d698a77aa62e1223772ad530d08b6518172846303a045a79269b5c73788ac53e",
-          "word_count": 413
+          "word_count": 413,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-publique/organisation/mandat/a-propos-agence/acces-a-information-protection-renseignements-personnels/protection-renseignements-personnels/addendas-mesures-frontalieres-pandemie-arretes-temporaires-mars-2023.html",
@@ -535,9 +652,24 @@
           "title": "Addendas évaluations des facteurs relatifs à la vie privée à initiaux pour les mesures frontalières en cas de pandémie - Arrêtés temporaires (complétée le mars 2023)",
           "conversion": "markdownify",
           "text_sha256": "1e01518d9ba952263df6bfcd0f569d8ef199e90e6a2cbb23ac7b389e2891d218",
-          "word_count": 540
+          "word_count": 540,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 413,
+      "word_count_fr": 540,
+      "word_count_language": "en",
+      "word_count": 413
     },
     {
       "pia_id": "pia-3a6c5f294bd8",
@@ -601,7 +733,9 @@
           "title": "Creutzfeldt-Jakob Disease Surveillance System",
           "conversion": "markdownify",
           "text_sha256": "9a42a5c5a9ac8387cf5312503821001105f0efcbedf3b683f68fdb28c6bb0a5f",
-          "word_count": 179
+          "word_count": 179,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-publique/organisation/mandat/a-propos-agence/acces-a-information-protection-renseignements-personnels/protection-renseignements-personnels/systeme-surveillance-maladie-creutzfeldt-jakob.html",
@@ -652,9 +786,24 @@
           "title": "Système de surveillance de la maladie de Creutzfeldt-Jakob",
           "conversion": "markdownify",
           "text_sha256": "4fb4afa2364c18caf4abad313b47b5fb6abc00e5f130b01cd79e75bbfde7e949",
-          "word_count": 243
+          "word_count": 243,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 179,
+      "word_count_fr": 243,
+      "word_count_language": "en",
+      "word_count": 179
     },
     {
       "pia_id": "pia-3094717778ec",
@@ -718,7 +867,9 @@
           "title": "Centre for Biosecurity: Administration of the Human Pathogens and Toxins Act and Regulations Privacy Impact Assessment (March 2017)",
           "conversion": "markdownify",
           "text_sha256": "1223b5c91c00807f1331219b3c8dcaca01364f6a7087332ff3546a8317e34775",
-          "word_count": 207
+          "word_count": 207,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-publique/organisation/mandat/a-propos-agence/acces-a-information-protection-renseignements-personnels/sommaire-evaluation-facteurs-relatifs-a-vie-privee-administration-de-la-loi-sur-les-agents-pathogenes-humains-et-les-toxines-et-de-son-reglement.html",
@@ -769,9 +920,24 @@
           "title": "Centre de la biosûreté : administration de l’évaluation des facteurs relatifs à la vie privée aux termes de la Loi sur les agents pathogènes humains et les toxines et de son règlement (mars 2017)",
           "conversion": "markdownify",
           "text_sha256": "c6b393ee0398396ec01f03a397ec327f9e3f5d04edc42e61b54679d29861f153",
-          "word_count": 310
+          "word_count": 310,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 207,
+      "word_count_fr": 310,
+      "word_count_language": "en",
+      "word_count": 207
     },
     {
       "pia_id": "pia-9469a398d1d8",
@@ -835,7 +1001,9 @@
           "title": "Quarantine Program (December 2016)",
           "conversion": "markdownify",
           "text_sha256": "9bebf232415a12cef9d335f25940261937ce47d86dba2950b92767fa4818725e",
-          "word_count": 171
+          "word_count": 171,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-publique/organisation/mandat/a-propos-agence/acces-a-information-protection-renseignements-personnels/evaluation-facteurs-relatifs-vie-privee-programme-mise-quarantaine.html",
@@ -886,9 +1054,24 @@
           "title": "Programme de mise en quarantaine (décembre 2016)",
           "conversion": "markdownify",
           "text_sha256": "3b3387ad0a16b86d379a6274ce838f6589efbfe72b08c50a26b95136c900fb9e",
-          "word_count": 226
+          "word_count": 226,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 171,
+      "word_count_fr": 226,
+      "word_count_language": "en",
+      "word_count": 171
     },
     {
       "pia_id": "pia-3fb053c21acd",
@@ -952,7 +1135,9 @@
           "title": "The Tracks Enhanced Surveillance System (August 2016)",
           "conversion": "markdownify",
           "text_sha256": "53647cf6a0802575108673fc8f4b0bf99c1dd5463d52aa0cbabd8b65c98e3491",
-          "word_count": 277
+          "word_count": 277,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-publique/organisation/mandat/a-propos-agence/acces-a-information-protection-renseignements-personnels/systeme-surveillance-accrue-track-aout-2016.html",
@@ -1003,9 +1188,24 @@
           "title": "Système de surveillance accrue Track (août 2016)",
           "conversion": "markdownify",
           "text_sha256": "3e02c9686a86b7270cb35da8e9c264abb48dd63334af826cd12ebcfda5f38dee",
-          "word_count": 381
+          "word_count": 381,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 277,
+      "word_count_fr": 381,
+      "word_count_language": "en",
+      "word_count": 277
     },
     {
       "pia_id": "pia-818a2594a746",
@@ -1069,7 +1269,9 @@
           "title": "National Human Immunodeficiency Virus/Acquired Immunodeficiency Syndrome (HIV/AIDS) Surveillance System (HASS) (April 2016)",
           "conversion": "markdownify",
           "text_sha256": "c2a114a689e080fc5d16d7115e08631d4663faf8b3fd205aa2edc7e1a820daf5",
-          "word_count": 191
+          "word_count": 191,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-publique/organisation/mandat/a-propos-agence/acces-a-information-protection-renseignements-personnels/systeme-national-surveillance-virus-immunodeficience-humaine-syndrome-avril-2016.html",
@@ -1120,9 +1322,24 @@
           "title": "Système national de surveillance du virus de l’immunodéficience humaine (VIH)/syndrome d’immunodéficience acquise (SIDA) (avril 2016)",
           "conversion": "markdownify",
           "text_sha256": "24907c616a7f9e210e3c110cda4295e910424982850375f31f4d9e7ca95c258e",
-          "word_count": 289
+          "word_count": 289,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 191,
+      "word_count_fr": 289,
+      "word_count_language": "en",
+      "word_count": 191
     },
     {
       "pia_id": "pia-f9448a14cd83",
@@ -1186,7 +1403,9 @@
           "title": "Canadian Congenital Anomalies Surveillance System (CCASS) PIA (March 2016)",
           "conversion": "markdownify",
           "text_sha256": "c052bf61e0bfc447e1812e9800044ff298103466ac6f5d1762f48ae5253f6a13",
-          "word_count": 230
+          "word_count": 230,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-publique/organisation/mandat/a-propos-agence/acces-a-information-protection-renseignements-personnels/efvp-systeme-canadien-surveillance-anomalies-congenitales-scsac-mars-2016.html",
@@ -1237,9 +1456,24 @@
           "title": "EFVP sur le Système canadien de surveillance des anomalies congénitales (SCSAC) – mars 2016",
           "conversion": "markdownify",
           "text_sha256": "0134614efe28ae602d56d8ef29521d8db75807f53284ae434e49690107131084",
-          "word_count": 302
+          "word_count": 302,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 230,
+      "word_count_fr": 302,
+      "word_count_language": "en",
+      "word_count": 230
     },
     {
       "pia_id": "pia-e01805c2efcf",
@@ -1303,7 +1537,9 @@
           "title": "International Health Regulations National Focal Point (NFP) Office of Canada Privacy Impact Assessment",
           "conversion": "markdownify",
           "text_sha256": "54cf4115cb140c84d492a8318bda43c13926bc286d12006084dcf2a0eadfe08a",
-          "word_count": 247
+          "word_count": 247,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-publique/organisation/mandat/a-propos-agence/acces-a-information-protection-renseignements-personnels/evaluation-facteurs-relatifs-a-vie-privee-bureau-centre-national-liaison-responsable-reglement-sanitaire-international-novembre-2016.html",
@@ -1354,9 +1590,24 @@
           "title": "Évaluation des facteurs relatifs à la vie privée du Bureau du point focal national responsable du Règlement sanitaire international du Canada (PFN RSI)",
           "conversion": "markdownify",
           "text_sha256": "904fb90f6e820fec5c415835fe74e8ebea21aaf82154f345124b5649f58cf813",
-          "word_count": 315
+          "word_count": 315,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 247,
+      "word_count_fr": 315,
+      "word_count_language": "en",
+      "word_count": 247
     },
     {
       "pia_id": "pia-0b569e816ca4",
@@ -1420,7 +1671,11 @@
           "title": "Archived Privacy Impact Assessment Summary - All Events Response Operations",
           "conversion": "markdownify",
           "text_sha256": "683f0f7ca855a62f9a1bdb438054fc05723a86a961d78abff543901e1dcd4995",
-          "word_count": 637
+          "word_count": 637,
+          "pib_ids": [
+            "PHAC PPU 305"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-publique/organisation/mandat/a-propos-agence/acces-a-information-protection-renseignements-personnels/sommaire-evaluation-facteurs-relatifs-a-vie-privee-operations-intervention-toutes-circonstances.html",
@@ -1471,9 +1726,57 @@
           "title": "Archivée Sommaire de l’évaluation des facteurs relatifs à la vie privée - Opérations d’intervention en toutes circonstances",
           "conversion": "markdownify",
           "text_sha256": "1e6ba10d0511e8d5e29026668c75932bff4e37677acddb3cd3d9917a9b51636c",
-          "word_count": 797
+          "word_count": 797,
+          "pib_ids": [
+            "PHAC PPU 305"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PHAC PPU 305",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-public-health-agency-of-canada",
+                "record_id": "PHAC PPU 305"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-public-health-agency-of-canada/pia-0b569e816ca4_en.md",
+                "line": 26,
+                "mention": "PHAC PPU 305",
+                "method": "explicit_pib_id",
+                "excerpt": "Related Personal Information Bank: All Events Response Operations (AERO) - PHAC PPU 305."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-public-health-agency-of-canada/pia-0b569e816ca4_fr.md",
+                "line": 26,
+                "mention": "ASPC PPU 305",
+                "method": "explicit_pib_id",
+                "excerpt": "Fichier de renseignements personnels connexes : Opérations d’intervention en toutes circonstances (OITC) - ASPC PPU 305."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "PHAC PPU 305"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 637,
+      "word_count_fr": 797,
+      "word_count_language": "en",
+      "word_count": 637
     },
     {
       "pia_id": "pia-f96fc5d133a7",
@@ -1537,7 +1840,9 @@
           "title": "National Autism Spectrum Disorder Surveillance System (NASS)",
           "conversion": "markdownify",
           "text_sha256": "0fb55e1aa91d755d83c9c577b6e7eafc2fcf4322ce69b1eaa8bcdb0ee721c952",
-          "word_count": 209
+          "word_count": 209,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-publique/organisation/mandat/a-propos-agence/acces-a-information-protection-renseignements-personnels/systeme-national-de-surveillance-des-troubles-du-spectre-autistique.html",
@@ -1588,9 +1893,24 @@
           "title": "Système national de surveillance des troubles du spectre autistique (SNSTSA)",
           "conversion": "markdownify",
           "text_sha256": "85df607453ab92cb76511f5ddb1b5b6643b96e1ea2fe2c27ef28946791c84496",
-          "word_count": 286
+          "word_count": 286,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 209,
+      "word_count_fr": 286,
+      "word_count_language": "en",
+      "word_count": 209
     },
     {
       "pia_id": "pia-6e247cd1d594",
@@ -1654,7 +1974,9 @@
           "title": "COVID-19 designated quarantine facilities and privacy: Privacy compliance evaluation (August 2021)",
           "conversion": "markdownify",
           "text_sha256": "af727614af1455a6818120e615d95156c892c34a1f7946990a799de40dbfb324",
-          "word_count": 327
+          "word_count": 327,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-publique/organisation/mandat/a-propos-agence/acces-a-information-protection-renseignements-personnels/rapports-annuel-acces-a-information-protection-renseignements-personnels/covid-19-installations-quarantaine-designees-evaluation-conformite-protection-vie-privee.html",
@@ -1705,9 +2027,24 @@
           "title": "COVID-19 installations de quarantaine désignées et protection de la vie privée : Évaluation de la conformité en matière de protection de la vie privée (août 2021)",
           "conversion": "markdownify",
           "text_sha256": "1386da4768b9bccc019a982378c8590676f99dd678afedc1bf20475b0dccbff2",
-          "word_count": 487
+          "word_count": 487,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 327,
+      "word_count_fr": 487,
+      "word_count_language": "en",
+      "word_count": 327
     },
     {
       "pia_id": "pia-4b30fffc54b7",
@@ -1771,7 +2108,9 @@
           "title": "COVID-19 on-site compliance verification: Privacy compliance evaluation",
           "conversion": "markdownify",
           "text_sha256": "d4ac6bf1c83b87e9d20dd5088ba8d693c5ed46e3c6b32301943f47340d47b4de",
-          "word_count": 313
+          "word_count": 313,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-publique/organisation/mandat/a-propos-agence/acces-a-information-protection-renseignements-personnels/protection-renseignements-personnels/verification-conformite-sur-place-liee-covid-19-evaluation-protection-vie-privee.html",
@@ -1822,9 +2161,24 @@
           "title": "Vérification de conformité sur place liée à la COVID-19 : Évaluation de la conformité en matière de protection de la vie privée",
           "conversion": "markdownify",
           "text_sha256": "c5a898de6b1ac8ee875625b4c0a8bd7e1be717213b68e013888051aedb2c3d5a",
-          "word_count": 494
+          "word_count": 494,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 313,
+      "word_count_fr": 494,
+      "word_count_language": "en",
+      "word_count": 313
     },
     {
       "pia_id": "pia-d115aea699c1",
@@ -1888,7 +2242,9 @@
           "title": "Quarantine Case Management System privacy compliance evaluation (April 2022)",
           "conversion": "markdownify",
           "text_sha256": "c796842f89f219a1c1336d03f3d62650facf61eb5584ea72649ba74746e1df7b",
-          "word_count": 260
+          "word_count": 260,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-publique/organisation/mandat/a-propos-agence/acces-a-information-protection-renseignements-personnels/protection-renseignements-personnels/evaluation-conformite-matiere-protection-vie-privee-systeme-gestion-cas-quarantaine-avril-2022.html",
@@ -1939,9 +2295,24 @@
           "title": "Évaluation de la conformité en matière de protection de la vie privée du Système de gestion des cas de quarantaine (avril 2022)",
           "conversion": "markdownify",
           "text_sha256": "8ba50e492ae13885b60721122479d6d8d8cc716e3ab1cb1b36524256c5f2f73d",
-          "word_count": 358
+          "word_count": 358,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 260,
+      "word_count_fr": 358,
+      "word_count_language": "en",
+      "word_count": 260
     },
     {
       "pia_id": "pia-361fb26ccf21",
@@ -2005,7 +2376,11 @@
           "title": "COVID-19 quarantine compliance and enforcement (Compliance Call Campaign 4.0 and 5.0): Privacy compliance evaluation",
           "conversion": "markdownify",
           "text_sha256": "fbe0c445ca5b815698004f002dc836f013f1cb679a16450e26393244fafcf5dc",
-          "word_count": 407
+          "word_count": 407,
+          "pib_ids": [
+            "PHAC PPU 071"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-publique/organisation/mandat/a-propos-agence/acces-a-information-protection-renseignements-personnels/protection-renseignements-personnels/conformite-application-quarantaine-covid-19-campagne-appel-conformite-4-5-evaluation-protection-vie-privee.html",
@@ -2056,9 +2431,57 @@
           "title": "Conformité et application de la quarantaine de la COVID-19 (Campagne d’appel à la conformité 4.0 et 5.0) : Évaluation de la conformité en matière de protection de la vie privée",
           "conversion": "markdownify",
           "text_sha256": "6ba96203351c8a05d1b808a05cfafa55755c08bd866b23b97534227c8d27b4f1",
-          "word_count": 570
+          "word_count": 570,
+          "pib_ids": [
+            "PHAC PPU 071"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PHAC PPU 071",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-public-health-agency-of-canada",
+                "record_id": "PHAC PPU 071"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-public-health-agency-of-canada/pia-361fb26ccf21_en.md",
+                "line": 38,
+                "mention": "PHAC PPU 071",
+                "method": "explicit_pib_id",
+                "excerpt": "- updating the relevant personal information bank (PIB) [Quarantine Program PIB PHAC PPU 071]"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-public-health-agency-of-canada/pia-361fb26ccf21_fr.md",
+                "line": 38,
+                "mention": "PHAC PPU 071",
+                "method": "explicit_pib_id",
+                "excerpt": "- mise à jour du fichier de renseignements personnels (FRP) pertinent (FRP du programme de quarantaine PHAC PPU 071)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "PHAC PPU 071"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 407,
+      "word_count_fr": 570,
+      "word_count_language": "en",
+      "word_count": 407
     },
     {
       "pia_id": "pia-ad1ead68b2c4",
@@ -2122,7 +2545,11 @@
           "title": "COVID-19 border measures phase 4: Privacy compliance evaluation",
           "conversion": "markdownify",
           "text_sha256": "33479224cbfe56626b768d65703e374b3581011c63809caef64dc6daa31b3f1e",
-          "word_count": 446
+          "word_count": 446,
+          "pib_ids": [
+            "PHAC PPU 071"
+          ],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-publique/organisation/mandat/a-propos-agence/acces-a-information-protection-renseignements-personnels/protection-renseignements-personnels/mesures-frontiere-phase-4-covid-19-evaluation-protection-vie-privee.html",
@@ -2173,9 +2600,57 @@
           "title": "Mesures frontalières liées à la COVID-19 - phase 4 : Évaluation de la conformité en matière de protection des renseignements personnels",
           "conversion": "markdownify",
           "text_sha256": "b1e72b1aad61343ed74321a2f2cd0edb888a8d6e784005fdec233bb4f01aefad",
-          "word_count": 640
+          "word_count": 640,
+          "pib_ids": [
+            "PHAC PPU 071"
+          ],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PHAC PPU 071",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-public-health-agency-of-canada",
+                "record_id": "PHAC PPU 071"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-public-health-agency-of-canada/pia-ad1ead68b2c4_en.md",
+                "line": 48,
+                "mention": "PHAC PPU 071",
+                "method": "explicit_pib_id",
+                "excerpt": "- update the relevant personal information bank (PIB) (Quarantine Program PIB PHAC PPU 071)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-public-health-agency-of-canada/pia-ad1ead68b2c4_fr.md",
+                "line": 48,
+                "mention": "ASPC PPU 071",
+                "method": "explicit_pib_id",
+                "excerpt": "- mettre à jour le fichier de renseignements personnels (FRP) pertinent (Programme de mise en quarantaine FRP ASPC PPU 071)"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": []
+      },
+      "pib_ids": [
+        "PHAC PPU 071"
+      ],
+      "pib_count": 1,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 446,
+      "word_count_fr": 640,
+      "word_count_language": "en",
+      "word_count": 446
     },
     {
       "pia_id": "pia-c0fb97631a11",
@@ -2239,7 +2714,9 @@
           "title": "VaccineConnect's Immunization Program Management Module (May 2021)",
           "conversion": "markdownify",
           "text_sha256": "d5bffa56002ae078488aab9dba32b31af5bd252b7932aadae1aa5e0494e1bf51",
-          "word_count": 279
+          "word_count": 279,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-publique/organisation/mandat/a-propos-agence/acces-a-information-protection-renseignements-personnels/protection-renseignements-personnels/module-gestion-programme-immunisation-connexionvaccin-mai-2021.html",
@@ -2290,9 +2767,24 @@
           "title": "Module Gestion du programme d'immunisation de ConnexionVaccin (mai 2021)",
           "conversion": "markdownify",
           "text_sha256": "175838547ef46677e934b76363a9b4a6435b49a5dea77e000d51a8f5e8f8f799",
-          "word_count": 419
+          "word_count": 419,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 279,
+      "word_count_fr": 419,
+      "word_count_language": "en",
+      "word_count": 279
     },
     {
       "pia_id": "pia-71cf24ef5801",
@@ -2356,7 +2848,9 @@
           "title": "COVID-19: Compassionate Entry for Travellers and Limited Release from Quarantine",
           "conversion": "markdownify",
           "text_sha256": "4a482bd7d960d03b1ecd2c804d70b64b6d479319e278619764a355cbd3404a7c",
-          "word_count": 289
+          "word_count": 289,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-publique/organisation/mandat/a-propos-agence/acces-a-information-protection-renseignements-personnels/protection-renseignements-personnels/sommaire-evaluation-covid-19-entree-voyageurs-raisons-humanitaires-levee-limitee-quarantaine.html",
@@ -2407,9 +2901,24 @@
           "title": "COVID-19 : Entrée de voyageurs pour des raisons humanitaires et levée limitée de la mise en quarantaine",
           "conversion": "markdownify",
           "text_sha256": "3bae494fb809ffe66f0091d4fda840bc2b32ce744568715b4f54d1708218ad25",
-          "word_count": 402
+          "word_count": 402,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 289,
+      "word_count_fr": 402,
+      "word_count_language": "en",
+      "word_count": 289
     },
     {
       "pia_id": "pia-45118883eafa",
@@ -2473,7 +2982,9 @@
           "title": "COVID-19: Application of the Quarantine Act Border Measures (Compliance verification call centre – PHAC 2 and 3) (November 2020)",
           "conversion": "markdownify",
           "text_sha256": "569663c54194b7f2bcb0becd3d11c6df1e0907a4d8dab92013e35a5e16128d3d",
-          "word_count": 585
+          "word_count": 585,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-publique/organisation/mandat/a-propos-agence/acces-a-information-protection-renseignements-personnels/protection-renseignements-personnels/covid-19-application-mesures-frontalieres-loi-quarantaine-conformite-centre-appels-novembre-2020.html",
@@ -2524,9 +3035,24 @@
           "title": "COVID-19 : Application de la Loi sur la mise en quarantaine aux mesures à la frontière (Centre d'appels pour la vérification de la conformité - ASPC 2 et 3) (novembre 2020)",
           "conversion": "markdownify",
           "text_sha256": "1921e4ac5cd2032db3763097f662ec40f0109a2eb616ee54dd98728a9f14df44",
-          "word_count": 807
+          "word_count": 807,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 585,
+      "word_count_fr": 807,
+      "word_count_language": "en",
+      "word_count": 585
     },
     {
       "pia_id": "pia-c35c5efd9484",
@@ -2590,7 +3116,9 @@
           "title": "COVID-19: Application of the Quarantine Act Border Measures (ArriveCAN 2) (July 2020)",
           "conversion": "markdownify",
           "text_sha256": "39ede15d4ee7a79cc1260a943a66b5f2dd61a1ca12edf29bb12b51e0d54773c0",
-          "word_count": 403
+          "word_count": 403,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://www.canada.ca/fr/sante-publique/organisation/mandat/a-propos-agence/acces-a-information-protection-renseignements-personnels/protection-renseignements-personnels/covid-19-application-mesures-frontalieres-loi-quarantaine-arrivecan-juillet-2020.html",
@@ -2641,9 +3169,24 @@
           "title": "COVID-19 : Application des mesures frontalières en vertu de la Loi sur la mise en quarantaine (ArriveCAN 2) (juillet 2020)",
           "conversion": "markdownify",
           "text_sha256": "8fe9dfccd7088462f874a4782df94d5b2d8556688cd39957148999a470eac991",
-          "word_count": 551
+          "word_count": 551,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 403,
+      "word_count_fr": 551,
+      "word_count_language": "en",
+      "word_count": 403
     }
   ],
   "summary": {

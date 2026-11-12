@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+<!--[if lt IE 9]><html class="no-js lt-ie9" lang="en"><![endif]--><!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]--><head>
+<meta charset="utf-8"> <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+<title>Executive Summary: NEXUS Privacy Impact Assessment</title>
+<meta content="width=device-width,initial-scale=1" name="viewport">
+<!-- Meta data -->
+
+<link rel="canonical" href="https://www.cbsa-asfc.gc.ca/agency-agence/reports-rapports/pia-efvp/atip-aiprp/nexus-eng.html" />
+<link rel="alternate" hreflang="fr" href="nexus-fra.html">
+<meta name="description" content="Executive Summary: NEXUS Privacy Impact Assessment">
+<meta name="dcterms.title" content="Executive Summary: NEXUS Privacy Impact Assessment">
+<meta name="dcterms.creator" content="Government of Canada, Canada Border Services Agency">
+<meta name="dcterms.issued" title="W3CDTF" content="2020-01-10">
+<meta name="dcterms.modified" title="W3CDTF" content="2020-01-14">
+<meta name="dcterms.subject" title="scheme" content="(none)">
+<meta name="dcterms.language" title="ISO639-2" content="eng">
+
+<!-- Meta data-->
+<!-- GA Start -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-65459512-1', 'auto');
+	ga("set", "anonymizeIp", true);	
+  ga('send', 'pageview');
+</script>
+<!-- GA End --><!-- GA4 Start -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QTGHKKHBHH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-QTGHKKHBHH');
+</script><!-- GA4 End -->
+<!--[if gte IE 9 | !IE ]><!-->
+<link href="/_wb/4.0.26/theme-gcwu-fegc/assets/favicon.ico" rel="icon" type="image/x-icon">
+<link rel="stylesheet" href="/_wb/4.0.26/theme-gcwu-fegc/css/theme.min.css">
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<link href="/_wb/4.0.26/theme-gcwu-fegc/assets/favicon.ico" rel="shortcut icon" />
+<link rel="stylesheet" href="/_wb/4.0.26/theme-gcwu-fegc/css/ie8-theme.min.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/_wb/4.0.26/theme-gcwu-fegc/js/ie8-wet-boew.min.js"></script>
+<![endif]-->
+<noscript><link rel="stylesheet" href="/_wb/4.0.26/theme-gcwu-fegc/css/noscript.min.css" /></noscript>
+
+<!-- CustomCSSStart -->
+<!-- CustomCSSEnd -->
+
+</head>
+<body vocab="http://schema.org/" typeof="WebPage">
+<ul id="wb-tphp">
+<li class="wb-slc">
+<a class="wb-sl" href="#wb-cont">Skip to main content</a>
+</li>
+<li class="wb-slc visible-sm visible-md visible-lg">
+<a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
+</li>
+</ul>
+<header role="banner">
+<div id="wb-bnr">
+<div id="wb-bar">
+<div class="container">
+<div class="row">
+<object id="gcwu-sig" type="image/svg+xml" tabindex="-1" role="img" data="/_wb/4.0.26/theme-gcwu-fegc/assets/sig-en.svg" aria-label="Government of Canada"></object>
+<ul id="gc-bar" class="list-inline">
+<li><a href="https://www.canada.ca/en.html" rel="external">Canada.ca</a></li>
+<li><a href="https://www.canada.ca/en/services.html" rel="external">Services</a></li>
+<li><a href="https://www.canada.ca/en/government/dept.html" rel="external">Departments</a></li>
+<li id="wb-lng"><h2>Language selection</h2>
+<ul class="list-inline">
+<li><a lang="fr" hreflang="fr" href="nexus-fra.html">Français</a></li>
+</ul>
+</li>
+</ul>
+<section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
+<h2>Search and menus</h2>
+<ul class="pnl-btn list-inline text-right">
+<li><a href="#mb-pnl" title="Search and menus" aria-controls="mb-pnl" class="overlay-lnk btn btn-sm btn-default" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Search and menus</span></span></span></a></li>
+</ul>
+<div id="mb-pnl"></div>
+</section>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div id="wb-sttl" class="col-md-5">
+<a href="/menu-eng.html">
+<span>Canada Border Services Agency</span>
+</a>
+</div>
+<object id="wmms" type="image/svg+xml" tabindex="-1" role="img" data="/_wb/4.0.26/theme-gcwu-fegc/assets/wmms.svg" aria-label="Symbol of the Government of Canada"></object>
+<section id="wb-srch" class="visible-md visible-lg">
+<h2>Search</h2>
+<form action="https://www.canada.ca/en/border-services-agency/search.html" method="get" role="search" class="form-inline">
+<div class="form-group">
+<label for="wb-srch-q">Search website</label>
+<input id="wb-srch-q" class="form-control" name="q" type="search" value="" size="27" maxlength="150"/>
+</div>
+<button type="submit" id="wb-srch-sub" class="btn btn-default">Search</button>
+</form>
+</section>
+</div>
+</div>
+</div>
+<nav role="navigation" id="wb-sm" data-ajax-replace="/inc/v2/sitemenu-en.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
+<div class="container nvbar">
+<h2>Topics menu</h2>
+<div class="row">
+<ul class="list-inline menu">
+<li><a href="/travel-voyage/menu-eng.html">Travellers</a></li>
+<li><a href="/comm-eng.html">Import and Export</a></li>
+<li><a href="/security-securite/safety-surete-eng.html">Securing the Border</a></li>
+<li><a href="/publications/menu-eng.html">Publications</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<nav role="navigation" id="wb-bc" property="breadcrumb">
+<h2>You are here:</h2>
+<div class="container">
+<div class="row">
+<ol class="breadcrumb">
+
+<li><a href="/menu-eng.html">Home</a></li>
+
+<li><a href="/agency-agence/menu-eng.html">About the CBSA</a></li>
+<li><a href="/agency-agence/reports-rapports/menu-eng.html">Corporate Documents</a></li>
+<li><a href="/agency-agence/reports-rapports/pia-efvp/atip-aiprp/pias-sefp-eng.html">Privacy Impact Assessments</a></li>
+
+
+</ol>
+</div>
+</div>
+</nav>
+</header>  <!--<div class="module-alert span-8">-->
+  
+<main role="main" property="mainContentOfPage" class="container">
+
+<!-- MainContentStart -->
+<header>
+<h1 id="wb-cont"><small>Executive Summary</small><br>
+NEXUS Privacy Impact Assessment</h1>
+</header>
+
+<p>NEXUS is a <span class="nowrap">bi-national</span> <span class="nowrap">Canada-United States</span> (U.S.) program managed by the Canada Border Services Agency (CBSA) and U.S. Customs and Border Protection (U.S. CBP). The Trusted Traveller Programs Unit of the Travellers Programs at the <abbr>CBSA</abbr> is the Office of Primary Interest (OPI) for NEXUS.</p>
+
+<p>NEXUS allows customs and immigration border clearance processes to be streamlined for <span class="nowrap">pre-approved</span>, <span class="nowrap">low-risk</span> travellers, and permits the <abbr>CBSA</abbr> and the U.S. <abbr>CBP</abbr> to allocate their resources more effectively at the border. Membership is five years and provides expedited border clearance into Canada and the U.S. in the land, air and marine travel modes. In 2002, the NEXUS program was delivered in a travel mode specific format, beginning with the NEXUS Highway Program. Subsequently in 2006, the NEXUS suite of programs was harmonized to provide members with expedited travel privileges in all three travel modes (land, air and marine). NEXUS members use dedicated lanes in the highway mode, self-serve kiosks in the air mode and report through the Telephone Reporting Centres (TRC) in the marine mode.</p>
+
+<p>To become a member of the NEXUS program, an applicant submits an electronic application form through the Trusted Traveler Programs (TTP) System (formerly the Global Online Enrollment System (GOES)) which is maintained by the U.S. <abbr>CBP</abbr>. It should be noted that the U.S. <abbr>CBP</abbr> uses the personal information collected from an applicant to perform its own risk assessment and make its own decision whether to <span class="nowrap">pass/fail</span> an applicant based on the information provided, a process that is not within the scope of this Privacy Impact Assessment (PIA). The U.S. <abbr>CBP</abbr> then forwards the personal information electronically through their Global Enrolment System (GES) to the <abbr>CBSA</abbr>’s Global Enrolment Component (GEC) of the Integrated Customs System (ICS) where it is assessed against a variety of enforcement databases to determine program eligibility. The personal information entered by the applicant is used by the <abbr>CBSA</abbr> and the U.S. <abbr>CBP</abbr> to confirm their identity and to determine the eligibility of an applicant and the continued eligibility of a member.</p>
+
+<p><b>Note:</b> In an effort to modernize the application process, effective <time datetime="2019-05-07" class="nowrap">May 7, 2019</time>, the <abbr>CBSA</abbr> eliminated paper application forms. However, the Canadian Processing Centre (CPC) continues to process any NEXUS paper applications received after this date in order to minimize the impact to applicants. Individuals expressing interest in applying to the NEXUS program are being advised to submit their application online through the <a href="https://ttp.cbp.dhs.gov/"><abbr>TTP</abbr> System</a> as this is now the sole application method available.</p>
+
+<p>When an applicant is accepted as a NEXUS member, periodic risking is performed as well as ad hoc risking based on cause. Also, an assessment is performed at each passage to confirm if there have been any infractions that would result in the revocation of the membership or in the inadmissibility of the member into either Canada or the U.S.</p>
+
+<p>On <time datetime="2011-03-10" class="nowrap">March 10, 2011</time>, a <abbr>PIA</abbr> for the NEXUS program was submitted to the Office of the Privacy Commissioner of Canada (OPC). Observations and recommendations made by the <abbr>OPC</abbr> in August&nbsp;2011 were addressed, and communication with the <abbr>OPC</abbr> continued as the NEXUS program evolved.</p> 
+
+<p>Subsequent developments were included in the updated NEXUS <abbr>PIA</abbr> that was submitted to the <abbr>OPC</abbr> in early 2017. In a response letter from the <abbr>OPC</abbr> dated <time datetime="2017-02-27" class="nowrap">February 27, 2017</time>, there were no specific comments or recommendations provided on the <abbr>PIA</abbr>.</p>
+
+
+<p>Existing NEXUS kiosks are now reaching their <span class="nowrap">end-of-life</span>. In response, the <abbr>CBSA</abbr> has developed a new initiative, NEXUS Modernization, which aims to reduce program costs and improve processing by replacing iris biometric with facial biometric verification. This initiative will shift NEXUS processing of travellers to the Primary Inspection Kiosk (PIK) public-private partnership model, using facial biometrics to facilitate traveller processing and enable simplified updating and maintenance of hardware. To facilitate this move, the CBSA will be leveraging the <span class="nowrap">high-quality</span> photograph on the ePassports of existing NEXUS members and new applicants. In more detail, binary encoded characters are extracted from the ePassport that are converted into an image format <span class="nowrap">(JPG/PNG)</span>, stored and communicated to the Airport Authorities (AA) when a NEXUS member is using a NEXUS Kiosk. Iris biometrics will continue to be used until facial biometrics are fully implemented, which is expected to happen in early 2020. The update to the NEXUS <abbr>PIA</abbr> will explain in more detail how this process works and any associated risks.</p>
+
+<!--<nav role="navigation" class="col-md-10 mrgn-tp-lg">
+ <div class="panel panel-default">
+ <header class="panel-heading">
+ <h2 class="panel-title">On this page</h2>
+ </header>
+ <div class="panel-body"> 
+ <ul class="lst-spcd h4">
+	 <li><a href="#01">CANPASS Corporate Air</a></li>
+	 <li><a href="#02">CANPASS Private Air</a></li>
+	 <li><a href="#03">CANPASS Air</a></li>
+	 <li><a href="#04">CANPASS Private Boat</a></li> 
+	 <li><a href="#05">The Commercial Driver Registration Program (<abbr>CDRP</abbr>)</a></li>	
+	 <li><a href="#06">Pilot Project for Travellers in Remote Areas – Québec (<abbr>PPTRA-Q</abbr>)</a></li>
+	 <li><a href="#07">Protecting your personal information</a></li>	
+	 <li><a href="#08">Right of access</a></li>	
+	 <li><a href="#09">Accountability</a></li>	
+ </ul> 
+ </div>
+ </div>
+</nav>
+<div class="clearfix"></div>-->
+
+<h2 id="01">Protecting your Personal Information</h2>
+
+<p>The following personal information elements will be managed by the NEXUS program:</p>
+
+<ul>
+  <li>full name</li>
+  <li>contact information</li>
+  <li>signature</li>
+  <li>biographical information</li>
+  <li>biometric information (for air travel only)</li>
+  <li>citizenship status</li>
+  <li>criminal checks/history</li>
+  <li>date of birth</li>
+  <li>credit card information (if not paying by certified cheque or money order)</li>
+  <li>identification numbers such as those contained on the birth certificate, driver’s license or passport</li>
+</ul>
+
+<p>Personal information collected during the application process is protected by the <cite>Customs Act</cite> and the <cite>Privacy Act</cite> and is only disclosed to other federal departments for the purpose of the operation of the NEXUS program and pursuant to the relevant Canadian laws and regulations governing such disclosure. The <abbr>CBSA</abbr> uses the personal information collected to query various enforcement and information databases to which the <abbr>CBSA</abbr> has access, including the following:</p>
+
+<ul>
+	<li><b>Canadian Police Information Centre (CPIC) – Royal Canadian Mounted Police (RCMP)</b> – contains criminal records</li>  
+	<li><b>National Crime Information Center of the United States (NCIC)</b> – contains U.S. national intelligence information – wants/warrants and criminal records</li> 
+	<li><b>Integrated Customs Enforcement System (ICES) – <abbr>CBSA</abbr></b> – contains customs seizures for a period of six years plus the current year and current data. <abbr>ICES</abbr> also contains customs/immigration lookouts as well as Wants and Warrants and</li>
+	<li><b>Interdiction and Border Alert System (IBAS) – <abbr>CBSA</abbr></b> – accumulates data to allow <span class="nowrap">high-speed/high-volume</span> querying by other applications against multiple sources including the Immigration, Refugees and Citizenship Canada’s (IRCC) Global Case Management System (GCMS), information related to Criminal Removals, Lost, Stolen, Fraudulent documents (LSFDs) and Criminal Records in Canada and the U.S.</li>
+</ul>
+
+<p>The pass or fail result of the risk assessment both at initial enrolment and during periodic risk assessment is shared with the U.S. <abbr>CBP</abbr> as part of the eligibility and continued eligibility determination process. Pursuant to section&nbsp;107 of the <cite>Customs Act</cite>, information regarding admissibility may be disclosed to IRCC and within the CBSA to enforce the <cite>Immigration and Refugee Protection Act</cite> and the <cite>Customs Act</cite> respectively, and information may be shared with accredited domestic law enforcement agencies engaged in the administration or enforcement of the law, and in the detection, prevention, or suppression of a crime. The U.S. <abbr>CBP</abbr> conducts its own risk assessment process against its respective domestic law enforcement, immigration, customs and criminal and intelligence databases to determine the applicant’s eligibility and continued eligibility into the NEXUS program. The U.S. <abbr>CBP</abbr> shares only the pass or fail result with the <abbr>CBSA</abbr>. For both the <abbr>CBSA</abbr> and the U.S. <abbr>CBP</abbr>, the reason for rejection of an application or cancellation of a membership is not shared between the two agencies.</p> 
+
+<p>The collection of information for the NEXUS program is used to determine an applicant’s eligibility for inclusion in the program as well as their ongoing eligibility.</p>
+
+<h2 id="02">Right of Access</h2>
+
+<p>A Privacy Notice statement appears on the paper application form and is also presented on the <abbr>TTP</abbr> System screen when applying <span class="nowrap">on-line</span>. The Privacy Notice statement describes the purpose, use, disclosure and retention of personal information collected or created as part of the NEXUS program.</p>
+
+<p>Pursuant to the <cite>Privacy Act</cite> and its regulations, the <cite>Canada Evidence Act</cite> and the <cite>Customs Act</cite>, the retention periods for NEXUS information are as follows:</p> 
+
+<p>Electronic and paper applications may be destroyed according to the following schedule:</p>
+
+<ul>
+	<li><b>Rejected applications for NEXUS:</b> The application forms and accompanying documents may be destroyed two years after the redress period has expired if there has been no request for redress. This information is kept in order to satisfy <cite>Privacy Act</cite> requirements to keep personal information for two years following the last administrative use and to allow refused applicants the opportunity for redress.</li>
+	<li><b>Successful applicants for NEXUS:</b> The applications may be destroyed six years after the date on which an application is approved. The retention period for the accompanying documents is two years following the last time the personal information was used for an administrative purpose.</li>
+	<li>Where the Canadian Processing Centre (CPC) is scanning and creating electronic records of application forms, the paper applications may be destroyed once electronic copies have been made. The electronic copies should be retained according to the same paper application retention schedule above.</li>
+</ul>
+
+<p>Biometric information may be destroyed according to the following schedule:</p>
+
+<ul>
+	<li><b>Rejected applicants to NEXUS:</b> Failed applicants do not provide any biometric data.</li>
+	<li><b>Successful applicants to NEXUS:</b> Only approved members are required to provide a photograph for their NEXUS card and fingerprints (collected by U.S. <abbr>CBP</abbr> only and not shared with the <abbr>CBSA</abbr>). Iris biometrics are being phased out and replaced with facial biometric matching using the ePassport photo. The retention period for the NEXUS card photograph and the initial iris scan taken at the time of enrolment is at least two years. Iris templates (unique signature of the various points of interest of the iris) and the ePassport photo used to identify a member at time of passage are kept for a period of two years following each passage.</li>
+</ul>
+
+<p>Applicants may formally request access to their personal information or access to corporate records related to or created by the NEXUS program by contacting the Access to Information and Privacy Division. More information about this can be found on the CBSA website:</p>
+<ul>
+	<li><a href="/agency-agence/reports-rapports/pia-efvp/atip-aiprp/menu-eng.html">Access to Information and Privacy</a></li>
+</ul>
+
+<h2 id="03">Accountability</h2>
+
+<p>If the applicant has concerns about the collection, use, disclosure or retention of their personal information, they may issue a complaint to the <abbr>CBSA</abbr> <abbr>ATI</abbr> and Privacy Division. Complaints should be made in writing and include the applicant’s name, contact information and a brief description of their concerns. Contact information for the ATI and Privacy Division at the CBSA can be found on the CBSA website:</p>
+<ul class="mrgn-bttm-lg">
+	<li><a href="/agency-agence/reports-rapports/pia-efvp/atip-aiprp/contact-eng.html">Access to Information and Privacy - Contact us</a></li>
+</ul>
+
+<p>If a membership is revoked from or an applicant is denied membership to the NEXUS program by the U.S. <abbr>CBP</abbr>, the  process for seeking clarification in writing will be provided. An applicant or member may also challenge the decision by contacting the local trusted traveller Enrolment Centre (EC) or by writing to the U.S. <abbr>CBP</abbr> Trusted Traveller Ombudsman. Further information on these processes can be found on the <abbr>CBP</abbr> website:</p>
+<ul class="mrgn-bttm-lg">
+	<li><a href="http://www.cbp.gov/travel/trusted-traveler-programs/program-denials">Trusted Traveler Program Denials</a></li>
+</ul>
+
+<p>If an applicant is denied membership to the NEXUS program or a membership is cancelled or suspended from the program by the <abbr>CBSA</abbr>, you may write to the Recourse Directorate at Headquarters or submit an <span class="nowrap">E-appeal</span> <span class="nowrap">on-line</span> to request a review of the decision. The request for review must be submitted within 90&nbsp;days from the date the rejection, suspension or cancellation of the membership. The 90&nbsp;day period becomes effective either immediately when notified in person or fifteen days after the notice is mailed to the applicant or member. Further information on these processes can be found on the CBSA website:</p>
+<ul>
+	<li><a href="/recourse-recours/howto-commentfaire-eng.html">How to request a review</a></li>
+</ul>
+
+
+<!--<aside class="wb-fnote" role="note">
+	<h2 id="fn">Footnotes</h2>
+	<dl>
+		<dt>Footnote 1</dt>
+		<dd id="fn1">
+			<p>Effective <time datetime="2018-04-04">April 4, 2018</time>, the CANPASS Air and CANPASS Private Boats programs were discontinued. As part of the discontinuation process a letter was sent in <time datetime="2018-03">March 2018</time> to each member individually advising them that their program(s) would be discontinued and that they would be able to maintain their privileges until their membership expires (1&nbsp;year for CANPASS Air and 5&nbsp;years for CANPASS Private Boats).</p>
+			<p class="fn-rtn"><a href="#fn1-1-rf"><span class="wb-inv">Return to <span>first</span> footnote </span>1<span class="wb-inv"> referrer</span></a></p>
+		</dd>
+	</dl>
+</aside>-->
+
+
+<dl id="wb-dtmd">
+<dt>Date modified:&#32;</dt>
+<dd><time property="dateModified">2020-01-14</time></dd>
+</dl>
+</main>
+
+<footer role="contentinfo" id="wb-info" class="visible-sm visible-md visible-lg wb-navcurr">
+<div class="container">
+<nav role="navigation">
+<h2>About this site</h2>
+<ul id="gc-tctr" class="list-inline">
+<li><a rel="license" href="/help-aide/in-ai-eng.html">Terms and conditions</a></li>
+<li><a href="/transparency-transparence/menu-eng.html">Transparency</a></li>
+</ul>
+<div class="row">
+<section class="col-sm-3">
+<h3><a href="/agency-agence/menu-eng.html">About us</a></h3>
+<ul class="list-unstyled">
+<li><a href="/agency-agence/actreg-loireg-eng.html">Acts and regulations</a></li>
+<li><a href="/job-emploi/menu-eng.html">Job opportunities</a></li>
+</ul>
+</section>
+<section class="col-sm-3">
+<h3><a href="/contact/menu-eng.html">Contact us</a></h3>
+<ul class="list-unstyled">
+<li><a href="https://do-rb.cbsa-asfc.cloud-nuage.canada.ca/?lang=en_CA">Directory of <abbr>CBSA</abbr> Offices and Services</a></li>
+<li><a href="/contact/com-eng.html">Feedback</a></li>
+<li><a href="/recourse-recours/menu-eng.html">Appeals/Reviews</a></li>
+</ul>
+</section>
+<section class="col-sm-3">
+<h3><a href="/media/menu-eng.html">News</a></h3>
+<ul class="list-unstyled">
+<li><a href="/media/menu-eng.html">News releases</a></li>
+<li><a href="/new-neuf/menu-eng.html">What's New</a></li>
+<li><a href="/media/video-eng.html">Videos</a></li>
+</ul>
+</section>
+<!--<section class="col-sm-3">
+<h3><a href="/help-aide/sm-ms-eng.html">Stay connected</a></h3>
+<ul class="list-unstyled">
+<li><a href="https://www.twitter.com/canborder">Twitter</a></li>
+<li><a href="https://www.facebook.com/canborder">Facebook</a></li>
+<li><a href="https://www.instagram.com/canborder">Instagram</a></li> 
+<li><a href="https://www.linkedin.com/company/cbsa-asfc">LinkedIn</a></li> 
+<li><a href="https://www.youtube.com/canborder">YouTube</a></li>
+<li><a href="/new-neuf/app-eng.html">CanBorder app</a></li>
+<li><a href="/new-neuf/rss-eng.html">Web feeds</a></li>
+<li><a href="/alert-avis/menu-eng.html">Email alert service</a></li>
+</ul>
+</section>-->
+</div>
+</nav>
+</div>
+<div id="gc-info">
+<div class="container">
+<nav role="navigation">
+<h2>Government of Canada footer</h2>
+<ul class="list-inline">
+<li><a href="https://www.canada.ca/en/services/health.html"><span>Health</span></a></li>
+<li><a href="https://travel.gc.ca/"><span>Travel</span></a></li>
+<li><a href="https://www.canada.ca/en/employment-social-development/corporate/portfolio/service-canada.html"><span>Service Canada</span></a></li>
+<li><a href="https://www.jobbank.gc.ca/home"><span>Jobs</span></a></li>
+<!-- <li><a href="https://www.budget.gc.ca/2019/home-accueil-en.html"><span>Economy</span></a></li> -->
+<li id="canada-ca"><a href="https://www.canada.ca/en.html">Canada.ca</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</footer>
+
+<!-- ScriptsStart -->
+<!--[if gte IE 9 | !IE ]><!-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+<script src="/_wb/4.0.26/theme-gcwu-fegc/js/wet-boew.min.js"></script>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<script src="/_wb/4.0.26/theme-gcwu-fegc/js/ie8-wet-boew2.min.js"></script>
+<![endif]-->
+<script src="/_wb/4.0.26/theme-gcwu-fegc/js/theme.min.js"></script>
+<!-- ScriptsEnd -->
+<!--External link tracking begin-->
+
+<script>
+var trackOutboundLink = function(url) {
+  ga('send', 'event', 'outbound', 'click', url, {
+    'transport': 'beacon',
+    'hitCallback': function(){
+      document.location = url;
+    }
+  });
+}
+$(function(){
+  if ((typeof ga === "function")&&(ga.loaded)) {
+    $(".trackme").on('click',function(e){
+      e.preventDefault();
+      trackOutboundLink(this.href);
+    });
+  }
+});
+</script>
+
+<!--External link tracking end-->
+
+
+
+<!-- CustomScriptsStart -->
+<!-- CustomScriptsEnd -->
+</body>
+</html>

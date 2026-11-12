@@ -284,6 +284,25 @@ def main():
                     row['review_note_' + lang] = 'The source labels this as PIA summaries, but its URL is an access-to-information request search.'
             if row['institution_id'] == 'ati-schedule-i-patented-medicine-prices-review-board':
                 row['review_note_fr'] = 'The French source links to an English URL, which redirects to a general ATIP page.'
+    # Reviewed official navigation can supplement absent or stale artifact
+    # pointers without changing whether Info Source itself contained a link.
+    verified_path = OUT / 'verified_sources.csv'
+    if not args.offline and verified_path.exists():
+        with verified_path.open() as handle: verified = list(csv.DictReader(handle))
+        row_by_id = {r['institution_id']:r for r in rows}
+        evidence_by_key = {(e['institution_id'],e['language']):e for e in evidence}
+        for discovery in verified:
+            row = row_by_id[discovery['institution_id']]
+            lang, url = discovery['language'], discovery['url']
+            host = urllib.parse.urlsplit(url).hostname or ''
+            if not host.endswith(('.canada.ca','.gc.ca')): raise ValueError('Verified source is outside official domain scope: ' + url)
+            if row['resolution_' + lang] == 'list_detected' and row['pia_list_url_' + lang] == url: continue
+            result = fetch(url, args.refresh)
+            row['pia_list_url_' + lang] = url
+            row['discovery_method_' + lang] = 'verified_official_web_navigation'
+            for field in ('http_status','final_url','checked_at_utc'): row[field + '_' + lang] = result[field]
+            row['resolution_' + lang] = 'list_detected' if result['http_status'] == 200 else 'http_error' if result['http_status'] else 'request_error'
+            evidence_by_key[(row['institution_id'],lang)]['official_web_discovery'] = {'source':discovery,'http':{k:v for k,v in result.items() if k != 'text'}}
     OUT.mkdir(exist_ok=True)
     with (OUT / 'index.csv').open('w', newline='') as handle:
         writer = csv.DictWriter(handle, fieldnames=list(rows[0]))

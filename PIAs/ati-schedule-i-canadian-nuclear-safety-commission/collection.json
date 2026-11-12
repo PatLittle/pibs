@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "collector_version": 1,
-  "collected_at_utc": "2026-11-12T01:50:40.521040+00:00",
+  "collector_version": 2,
+  "collected_at_utc": "2026-11-12T05:50:12.479426+00:00",
   "institution_id": "ati-schedule-i-canadian-nuclear-safety-commission",
   "gc_orgID": "2308.0",
   "open_canada_org_id": "261F1DF4-DD3A-4DAD-939B-55B4F2853FBB",
@@ -9,7 +9,7 @@
   "name_en": "Canadian Nuclear Safety Commission",
   "name_fr": "Commission canadienne de sûreté nucléaire",
   "registry_membership": "current_registry",
-  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "source_index_sha256": "b0a93993c9c5005bf2609ab6acece35de384622eaded0617e6c5211c7a07d79e",
   "list_pages": {
     "en": {
       "indexed_url": "http://www.nuclearsafety.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/",
@@ -50,7 +50,7 @@
           "raw_path": "raw/b438836d59a171cd8df3.html"
         }
       ],
-      "discovered_count": 10,
+      "discovered_count": 12,
       "scopes": [
         "Privacy impact assessment (PIA)"
       ],
@@ -79,7 +79,7 @@
           "raw_path": "raw/b40c70e8240741b4a20e.html"
         }
       ],
-      "discovered_count": 10,
+      "discovered_count": 12,
       "scopes": [
         "Évaluation des facteurs relatifs à la vie privée"
       ],
@@ -141,7 +141,12 @@
           "title": "External Reference Checking Process",
           "conversion": "pdftotext -layout",
           "text_sha256": "8110fc89a5fd5e2e7f7545a7b9c4b9c1f084f33889c6ba9d7aa9aa2bc5aeee74",
-          "word_count": 1087
+          "word_count": 1087,
+          "pib_ids": [],
+          "cor_ids": [
+            "PRN 920",
+            "PRN 931"
+          ]
         },
         "fr": {
           "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/June-2017-External-Reference-Checking-Process-fra.pdf/object",
@@ -183,9 +188,119 @@
           "title": "Processus de vérification des références externes",
           "conversion": "pdftotext -layout",
           "text_sha256": "4490f2418fff73999f2648a663327cc95d53df32a79bf2518f733aaa54f9f196",
-          "word_count": 1303
+          "word_count": 1303,
+          "pib_ids": [],
+          "cor_ids": [
+            "PRN 920",
+            "PRN 931"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": [
+          {
+            "id": "PRN 920",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "920"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-a88c68f8d2b8_en.md",
+                "line": 58,
+                "mention": "PRN 920",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "This activity is referenced in standard Classes of Records – Recruitment and Staffing (PRN 920); and Security"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-a88c68f8d2b8_en.md",
+                "line": 63,
+                "mention": "PRN 920",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "This activity is referenced in standard Classes of Records – Recruitment and Staffing (PRN 920); and Security"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-a88c68f8d2b8_fr.md",
+                "line": 61,
+                "mention": "NDP 920",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "(NDP 920); et Sécurité (NDP 931)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-a88c68f8d2b8_fr.md",
+                "line": 66,
+                "mention": "NDP 920",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "(NDP 920); et Sécurité (NDP 931)"
+              }
+            ]
+          },
+          {
+            "id": "PRN 931",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "931"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-a88c68f8d2b8_en.md",
+                "line": 59,
+                "mention": "PRN 931",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "(PRN 931)"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-a88c68f8d2b8_en.md",
+                "line": 64,
+                "mention": "PRN 931",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "(PRN 931)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-a88c68f8d2b8_fr.md",
+                "line": 61,
+                "mention": "NDP 931",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "(NDP 920); et Sécurité (NDP 931)"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-a88c68f8d2b8_fr.md",
+                "line": 66,
+                "mention": "NDP 931",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "(NDP 920); et Sécurité (NDP 931)"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [
+        "PRN 920",
+        "PRN 931"
+      ],
+      "cor_count": 2,
+      "word_count_en": 1087,
+      "word_count_fr": 1303,
+      "word_count_language": "en",
+      "word_count": 1087
     },
     {
       "pia_id": "pia-900f14841cde",
@@ -241,7 +356,9 @@
           "title": "CNSC Financial Guarantees Program",
           "conversion": "pdftotext -layout",
           "text_sha256": "e3a6fbb446328aef2dc8161139c3e92a22b9219c4f394dd0726ed80eba3c8333",
-          "word_count": 1258
+          "word_count": 1258,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/September-2016-Financial-Guarantees-Program-fra.pdf/object",
@@ -283,9 +400,24 @@
           "title": "Programme de garanties financières de la CCSN",
           "conversion": "pdftotext -layout",
           "text_sha256": "41d62a477aa6c8f8a1b501b7f7911ffcd4015ec65ddfe10b550831af16c03dcf",
-          "word_count": 1625
+          "word_count": 1625,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 1258,
+      "word_count_fr": 1625,
+      "word_count_language": "en",
+      "word_count": 1258
     },
     {
       "pia_id": "pia-f5755dde91e0",
@@ -341,7 +473,14 @@
           "title": "CNSC Participant Funding Program",
           "conversion": "pdftotext -layout",
           "text_sha256": "34f2d7bca382ea6d9252c0c85c2ad45aa3266ea4d0c156bc8fbc8dab7d4f4dda",
-          "word_count": 1496
+          "word_count": 1496,
+          "pib_ids": [
+            "CNSC PPU 030",
+            "PWGSC PCU 712"
+          ],
+          "cor_ids": [
+            "CNSC 1.5.4"
+          ]
         },
         "fr": {
           "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/Web-Summary-Participant-Funding-Program-PIA-fra.pdf/object",
@@ -383,9 +522,385 @@
           "title": "Programme de financement des participants de la CCSN",
           "conversion": "pdftotext -layout",
           "text_sha256": "f24a6f0293b8a0602d39fb61bbed54c885ea4a0b997d606386da5c8512af487a",
-          "word_count": 1926
+          "word_count": 1926,
+          "pib_ids": [
+            "CNSC PPU 030",
+            "PWGSC PCU 712"
+          ],
+          "cor_ids": [
+            "CNSC 1.5.4"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "CNSC PPU 030",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-canadian-nuclear-safety-commission",
+                "record_id": "CNSC PPU 030"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-f5755dde91e0_en.md",
+                "line": 125,
+                "mention": "CNSC PPU 030",
+                "method": "explicit_pib_id",
+                "excerpt": "Bank number: CNSC PPU 030"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-f5755dde91e0_fr.md",
+                "line": 142,
+                "mention": "CCSN PPU 030",
+                "method": "explicit_pib_id",
+                "excerpt": "Numéro de fichier : CCSN PPU 030"
+              }
+            ]
+          },
+          {
+            "id": "PWGSC PCU 712",
+            "matched_records": [
+              {
+                "dataset": "pibs",
+                "institution_id": "ati-schedule-i-department-of-public-works-and-government-services",
+                "record_id": "PWGSC PCU 712"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-f5755dde91e0_en.md",
+                "line": 119,
+                "mention": "PWGSC PCU 712",
+                "method": "explicit_pib_id",
+                "excerpt": "PWGSC PCU 712) in order to facilitate payment to successful applicants."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-f5755dde91e0_fr.md",
+                "line": 131,
+                "mention": "TPSGC PCU 712",
+                "method": "explicit_pib_id",
+                "excerpt": "et Approvisionnement Canada (Paiements du receveur général TPSGC PCU 712) afin de"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "CNSC 1.5.4",
+            "matched_records": [
+              {
+                "dataset": "classes",
+                "institution_id": "ati-schedule-i-canadian-nuclear-safety-commission",
+                "record_id": "CNSC 1.5.4"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-f5755dde91e0_en.md",
+                "line": 90,
+                "mention": "CNSC 1.5.4",
+                "method": "known_cor_id",
+                "excerpt": "Record number: CNSC 1.5.4"
+              },
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-f5755dde91e0_en.md",
+                "line": 123,
+                "mention": "CNSC 1.5.4",
+                "method": "known_cor_id",
+                "excerpt": "Related Class of Record number: CNSC 1.5.4"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-f5755dde91e0_fr.md",
+                "line": 101,
+                "mention": "CCSN 1.5.4",
+                "method": "known_cor_id",
+                "excerpt": "Numéro de dossier : CCSN 1.5.4"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-f5755dde91e0_fr.md",
+                "line": 137,
+                "mention": "CCSN 1.5.4",
+                "method": "known_cor_id",
+                "excerpt": "Numéro de catégorie de document connexe : CCSN 1.5.4"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "CNSC PPU 030",
+        "PWGSC PCU 712"
+      ],
+      "pib_count": 2,
+      "cor_ids": [
+        "CNSC 1.5.4"
+      ],
+      "cor_count": 1,
+      "word_count_en": 1496,
+      "word_count_fr": 1926,
+      "word_count_language": "en",
+      "word_count": 1496
+    },
+    {
+      "pia_id": "pia-428f3abc0ba8",
+      "title_en": "CNSC Twitter Account",
+      "title_fr": "Compte Twitter de la CCSN",
+      "url_en": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/July-2015-CNSC-Twitter-Social-Media-Account-eng.pdf/object",
+      "url_fr": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/July-2015-CNSC-Twitter-Social-Media-Account-fra.pdf/object",
+      "pairing_status": "paired",
+      "pairing_method": "matching_language_variant_url",
+      "pairing_evidence": {
+        "normalized_url_key": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/July-2015-CNSC-Twitter-Social-Media-Account-{lang}.pdf/object",
+        "observed_url_en": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/July-2015-CNSC-Twitter-Social-Media-Account-eng.pdf/object",
+        "observed_url_fr": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/July-2015-CNSC-Twitter-Social-Media-Account-fra.pdf/object"
+      },
+      "sources": {
+        "en": {
+          "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/July-2015-CNSC-Twitter-Social-Media-Account-eng.pdf/object",
+          "title_from_list": "CNSC Twitter Account",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "http://www.nuclearsafety.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/",
+          "discovered_under": "Privacy impact assessment (PIA)",
+          "discovery_references": [
+            {
+              "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/July-2015-CNSC-Twitter-Social-Media-Account-eng.pdf/object",
+              "title": "CNSC Twitter Account",
+              "list_url": "http://www.nuclearsafety.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/July-2015-CNSC-Twitter-Social-Media-Account-eng.pdf/object"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/July-2015-CNSC-Twitter-Social-Media-Account-eng.pdf/object",
+            "final_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/July-2015-CNSC-Twitter-Social-Media-Account-eng.pdf/object",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T05:48:52.230715+00:00",
+            "redirects": [],
+            "content_type": "application/pdf",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 31 Oct 2024 16:48:03 GMT",
+            "etag": "\"0x8DCF9CBC9B8BFAB\"",
+            "byte_count": 305057,
+            "sha256": "bfff9e372d6bfb33b510a5830d70ea4d3c1c9eec593e36a141e89d005fbf7374"
+          },
+          "raw_path": "raw/428f3abc0ba82c9a03b0.pdf",
+          "markdown_path": "pia-428f3abc0ba8_en.md",
+          "markdown_sha256": "4f011ee1d3fea8d1dd67fd6e84e72bb33bc643f23f82929680a5e2eff975a17d",
+          "status": "exported",
+          "title": "CNSC Twitter Account",
+          "conversion": "pdftotext -layout",
+          "text_sha256": "6b4c1243455179cd1db277e2eb98bee2f690a99731106cfe8f4be711e911de11",
+          "word_count": 1530,
+          "pib_ids": [
+            "PSU 914",
+            "PSU 938"
+          ],
+          "cor_ids": [
+            "PRN 904",
+            "PRN 939"
+          ]
+        },
+        "fr": {
+          "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/July-2015-CNSC-Twitter-Social-Media-Account-fra.pdf/object",
+          "title_from_list": "Compte Twitter de la CCSN",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/July-2015-CNSC-Twitter-Social-Media-Account-fra.pdf/object",
+              "title": "Compte Twitter de la CCSN",
+              "list_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/July-2015-CNSC-Twitter-Social-Media-Account-fra.pdf/object"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/July-2015-CNSC-Twitter-Social-Media-Account-fra.pdf/object",
+            "final_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/July-2015-CNSC-Twitter-Social-Media-Account-fra.pdf/object",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T05:48:52.233719+00:00",
+            "redirects": [],
+            "content_type": "application/pdf",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 31 Oct 2024 16:48:14 GMT",
+            "etag": "\"0x8DCF9CBD016AEA6\"",
+            "byte_count": 70376,
+            "sha256": "f1262b1d5666e35930c6a169ae2e36973935f07f05f6ea3909dc6b8a8bf3ea3a"
+          },
+          "raw_path": "raw/aac7191c52dba21d3f66.pdf",
+          "markdown_path": "pia-428f3abc0ba8_fr.md",
+          "markdown_sha256": "7e9e3b90d915c8bea3229c23ca4d7fe958bea8d6536ec93b8af24ee4ae2e8a21",
+          "status": "exported",
+          "title": "Compte Twitter de la CCSN",
+          "conversion": "pdftotext -layout",
+          "text_sha256": "a63641cef124a78e3927a12c99344c7344e29e27f4c4ec10e46fc4c0c9884a2b",
+          "word_count": 1730,
+          "pib_ids": [
+            "PSU 914",
+            "PSU 938"
+          ],
+          "cor_ids": [
+            "PRN 904",
+            "PRN 939"
+          ]
+        }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSU 914",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 914"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-428f3abc0ba8_en.md",
+                "line": 74,
+                "mention": "PSU 914",
+                "method": "explicit_pib_id",
+                "excerpt": "PSU 914 Public Communications"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-428f3abc0ba8_fr.md",
+                "line": 87,
+                "mention": "POU 914",
+                "method": "explicit_pib_id",
+                "excerpt": "POU 914 Communications publiques"
+              }
+            ]
+          },
+          {
+            "id": "PSU 938",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSU 938"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-428f3abc0ba8_en.md",
+                "line": 75,
+                "mention": "PSU 938",
+                "method": "explicit_pib_id",
+                "excerpt": "PSU 938 Outreach Activities"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-428f3abc0ba8_fr.md",
+                "line": 88,
+                "mention": "POU 938",
+                "method": "explicit_pib_id",
+                "excerpt": "POU 938 Activités de sensibilisation"
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "PRN 904",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "904"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-428f3abc0ba8_en.md",
+                "line": 65,
+                "mention": "PRN 904",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "PRN 904 Cooperation and Liaison"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-428f3abc0ba8_fr.md",
+                "line": 78,
+                "mention": "NDP 904",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "NDP 904 Coopération et liaison"
+              }
+            ]
+          },
+          {
+            "id": "PRN 939",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "939"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-428f3abc0ba8_en.md",
+                "line": 64,
+                "mention": "PRN 939",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "PRN 939 Communications"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-428f3abc0ba8_fr.md",
+                "line": 77,
+                "mention": "NDP 939",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "NDP 939 Communications"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "PSU 914",
+        "PSU 938"
+      ],
+      "pib_count": 2,
+      "cor_ids": [
+        "PRN 904",
+        "PRN 939"
+      ],
+      "cor_count": 2,
+      "word_count_en": 1530,
+      "word_count_fr": 1730,
+      "word_count_language": "en",
+      "word_count": 1530
     },
     {
       "pia_id": "pia-81131d4b16cb",
@@ -441,7 +956,9 @@
           "title": "Outsourced Reference Checking Process",
           "conversion": "pdftotext -layout",
           "text_sha256": "ca4096bc2d3759568983b39d7a29b962351997e8dda38b5df3d46e824aecbb12",
-          "word_count": 583
+          "word_count": 583,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/February-14-2012-Outsourced-Reference-Checking-Process_f.pdf/object",
@@ -483,9 +1000,141 @@
           "title": "Processus de vérification des références confié à l'extérieur",
           "conversion": "pdftotext -layout",
           "text_sha256": "8cd67fc6f38f1b98d224982dd444342b29d85a2010bb01c2c3ef30ea10663289",
-          "word_count": 786
+          "word_count": 786,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 583,
+      "word_count_fr": 786,
+      "word_count_language": "en",
+      "word_count": 583
+    },
+    {
+      "pia_id": "pia-27ea8ec4d004",
+      "title_en": "Occupational Health Evaluation Standard",
+      "title_fr": "Norme d'évaluation de la santé professionnelle",
+      "url_en": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-OHES_e.pdf/object",
+      "url_fr": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-OHES_f.pdf/object",
+      "pairing_status": "paired",
+      "pairing_method": "matching_language_variant_url",
+      "pairing_evidence": {
+        "normalized_url_key": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-OHES_{lang}.pdf/object",
+        "observed_url_en": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-OHES_e.pdf/object",
+        "observed_url_fr": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-OHES_f.pdf/object"
+      },
+      "sources": {
+        "en": {
+          "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-OHES_e.pdf/object",
+          "title_from_list": "Occupational Health Evaluation Standard",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "http://www.nuclearsafety.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/",
+          "discovered_under": "Privacy impact assessment (PIA)",
+          "discovery_references": [
+            {
+              "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-OHES_e.pdf/object",
+              "title": "Occupational Health Evaluation Standard",
+              "list_url": "http://www.nuclearsafety.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-OHES_e.pdf/object"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-OHES_e.pdf/object",
+            "final_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-OHES_e.pdf/object",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T05:48:52.229459+00:00",
+            "redirects": [],
+            "content_type": "application/pdf",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 31 Oct 2024 16:48:06 GMT",
+            "etag": "\"0x8DCF9CBCB4678D3\"",
+            "byte_count": 183618,
+            "sha256": "f481532ea02e8705568a5d5ce0371a46d4240ab10941ddaa12c849342988f5aa"
+          },
+          "raw_path": "raw/27ea8ec4d0042d0da908.pdf",
+          "markdown_path": "pia-27ea8ec4d004_en.md",
+          "markdown_sha256": "fea282b4237a77f27c26de47e73d84708de1e4556552151ce49b3628a9494e05",
+          "status": "exported",
+          "title": "Occupational Health Evaluation Standard",
+          "conversion": "pdftotext -layout",
+          "text_sha256": "60e89d14300410118b0b335778716d758abdf68dd2af7af21342f1869a3cca8c",
+          "word_count": 580,
+          "pib_ids": [],
+          "cor_ids": []
+        },
+        "fr": {
+          "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-OHES_f.pdf/object",
+          "title_from_list": "Norme d'évaluation de la santé professionnelle",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-OHES_f.pdf/object",
+              "title": "Norme d'évaluation de la santé professionnelle",
+              "list_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-OHES_f.pdf/object"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-OHES_f.pdf/object",
+            "final_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-OHES_f.pdf/object",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T05:48:52.228816+00:00",
+            "redirects": [],
+            "content_type": "application/pdf",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 31 Oct 2024 16:48:12 GMT",
+            "etag": "\"0x8DCF9CBCED9EFE1\"",
+            "byte_count": 201195,
+            "sha256": "96e1e861420ea9beed8df95cfe896c5ea6823da518478c2edb3b0eaa1e03ba44"
+          },
+          "raw_path": "raw/84a8787daf6eb97d4d3e.pdf",
+          "markdown_path": "pia-27ea8ec4d004_fr.md",
+          "markdown_sha256": "8c5fb76bdbfbcbb9171642cbb3b80c9769ba87344213b5c8db75f55b4299939b",
+          "status": "exported",
+          "title": "Norme d'évaluation de la santé professionnelle",
+          "conversion": "pdftotext -layout",
+          "text_sha256": "ff59a52deb794568ff66e3ca675d1b98836eb360a346b773338b8e62f3486af1",
+          "word_count": 761,
+          "pib_ids": [],
+          "cor_ids": []
+        }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 580,
+      "word_count_fr": 761,
+      "word_count_language": "en",
+      "word_count": 580
     },
     {
       "pia_id": "pia-3f169ca4885b",
@@ -541,7 +1190,9 @@
           "title": "CNSC Planning Management and Reporting System",
           "conversion": "pdftotext -layout",
           "text_sha256": "50f736bddcde792071abdb16391898fbdb4e4c1ec6bdf8c89b5a0b93239f26b4",
-          "word_count": 457
+          "word_count": 457,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-CPMRS_f.pdf/object",
@@ -583,9 +1234,24 @@
           "title": "Système de planification, de gestion et de production de rapports de la CCSN",
           "conversion": "pdftotext -layout",
           "text_sha256": "2370faddc717b3061fadde7a7cc7baac275970b4e48c1d301cc4241b383ab763",
-          "word_count": 616
+          "word_count": 616,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 457,
+      "word_count_fr": 616,
+      "word_count_language": "en",
+      "word_count": 457
     },
     {
       "pia_id": "pia-a2efe4aa6e63",
@@ -641,7 +1307,9 @@
           "title": "Human Resources Information System",
           "conversion": "pdftotext -layout",
           "text_sha256": "0f58dbdfa6fca9c765c21894c8e18c996b09e9ee3dba9f6eeb07c1d6b2933f34",
-          "word_count": 426
+          "word_count": 426,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-HRIS_f.pdf/object",
@@ -683,9 +1351,24 @@
           "title": "Système d'information sur les ressources humaines",
           "conversion": "pdftotext -layout",
           "text_sha256": "49011a3a6f4825b047517893e2b5eaff3845ccf6bf4056b8f084ce48b88b089f",
-          "word_count": 582
+          "word_count": 582,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 426,
+      "word_count_fr": 582,
+      "word_count_language": "en",
+      "word_count": 426
     },
     {
       "pia_id": "pia-f9a5c22907a5",
@@ -741,7 +1424,9 @@
           "title": "Annual Compliance Reporting Online",
           "conversion": "pdftotext -layout",
           "text_sha256": "bc4b1611563f5f89dbf88703978faf3cde90bf5d6697395f87d4f0afc3731d31",
-          "word_count": 545
+          "word_count": 545,
+          "pib_ids": [],
+          "cor_ids": []
         },
         "fr": {
           "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-ACR-On-line_f.pdf/object",
@@ -783,9 +1468,24 @@
           "title": "Rapport annuel de la conformité en ligne",
           "conversion": "pdftotext -layout",
           "text_sha256": "f9b656321f765dc50889f0e07fa62c534b7088a5b196c980f1e884e1ba08dc7f",
-          "word_count": 748
+          "word_count": 748,
+          "pib_ids": [],
+          "cor_ids": []
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [],
+        "classes_of_records": []
+      },
+      "pib_ids": [],
+      "pib_count": 0,
+      "cor_ids": [],
+      "cor_count": 0,
+      "word_count_en": 545,
+      "word_count_fr": 748,
+      "word_count_language": "en",
+      "word_count": 545
     },
     {
       "pia_id": "pia-e0277b638b04",
@@ -848,7 +1548,13 @@
           "title": "Privacy impact assessment – Njoyn e-recruiting and applicant tracking system",
           "conversion": "markdownify",
           "text_sha256": "d85fdec7bf54c81b3890f372718e4dcbe059d475bf8dbd80aa26d75a71bab424",
-          "word_count": 739
+          "word_count": 739,
+          "pib_ids": [
+            "PSE 902"
+          ],
+          "cor_ids": [
+            "PRN 920"
+          ]
         },
         "fr": {
           "url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-njoyn-e-recruiting-and-applicant-tracking-system/",
@@ -898,9 +1604,90 @@
           "title": "Évaluation des facteurs relatifs à la vie privée – Le système de recrutement électronique et de suivi des candidatures Njoyn",
           "conversion": "markdownify",
           "text_sha256": "2d812746910ab920616c6c7f7a7d99c185dac96bc20dd6098ecb367e6cf0b67e",
-          "word_count": 1015
+          "word_count": 1015,
+          "pib_ids": [
+            "PSE 902"
+          ],
+          "cor_ids": [
+            "PRN 920"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSE 902",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 902"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-e0277b638b04_en.md",
+                "line": 27,
+                "mention": "PSE 902",
+                "method": "explicit_pib_id",
+                "excerpt": "Staffing PSE 902."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-e0277b638b04_fr.md",
+                "line": 33,
+                "mention": "POE 902",
+                "method": "explicit_pib_id",
+                "excerpt": "POE 902."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "PRN 920",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "920"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-e0277b638b04_en.md",
+                "line": 25,
+                "mention": "PRN 920",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "Recruitment and Staffing PRN 920. Personal"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-e0277b638b04_fr.md",
+                "line": 30,
+                "mention": "NDP 920",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "NDP 920. Les renseignements personnels recueillis dans le contexte de cette initiative sont décrits dans le fichier"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "PSE 902"
+      ],
+      "pib_count": 1,
+      "cor_ids": [
+        "PRN 920"
+      ],
+      "cor_count": 1,
+      "word_count_en": 739,
+      "word_count_fr": 1015,
+      "word_count_language": "en",
+      "word_count": 739
     },
     {
       "pia_id": "pia-5ef30e165725",
@@ -963,7 +1750,13 @@
           "title": "Privacy impact assessment – electronic Individual Learning Plan",
           "conversion": "markdownify",
           "text_sha256": "cc1b27280ee50307c01d8d9f0a3dc4f4035af7d87942019ade66e1344224376d",
-          "word_count": 758
+          "word_count": 758,
+          "pib_ids": [
+            "PSE 901"
+          ],
+          "cor_ids": [
+            "PRN 927"
+          ]
         },
         "fr": {
           "url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-electronic-individual-learning-plan/",
@@ -1013,9 +1806,90 @@
           "title": "Évaluation des facteurs relatifs à la vie privée – le Plan d'apprentissage personnel électronique",
           "conversion": "markdownify",
           "text_sha256": "c4b9d0ea17b35f57b9a42da286ca2f8375094db6d95728101ba24d267f356d5a",
-          "word_count": 1006
+          "word_count": 1006,
+          "pib_ids": [
+            "PSE 901"
+          ],
+          "cor_ids": [
+            "PRN 927"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSE 901",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 901"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-5ef30e165725_en.md",
+                "line": 34,
+                "mention": "PSE 901",
+                "method": "explicit_pib_id",
+                "excerpt": "Employee Personnel Records PSE 901."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-5ef30e165725_fr.md",
+                "line": 40,
+                "mention": "POE 901",
+                "method": "explicit_pib_id",
+                "excerpt": "POE 901."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "PRN 927",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "927"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-5ef30e165725_en.md",
+                "line": 32,
+                "mention": "PRN 927",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "Training and Development PRN 927. Personal information collected in the context of this initiative is described in standard Personal Information"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-5ef30e165725_fr.md",
+                "line": 37,
+                "mention": "NDP 927",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "NDP 927. Les renseignements personnels recueillis dans le contexte de cette initiative sont décrits dans le fichier"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "PSE 901"
+      ],
+      "pib_count": 1,
+      "cor_ids": [
+        "PRN 927"
+      ],
+      "cor_count": 1,
+      "word_count_en": 758,
+      "word_count_fr": 1006,
+      "word_count_language": "en",
+      "word_count": 758
     },
     {
       "pia_id": "pia-f32c64d35406",
@@ -1078,7 +1952,13 @@
           "title": "Privacy impact assessment – Personal Information Profile",
           "conversion": "markdownify",
           "text_sha256": "71f627bc8a2c15ad5d969448044418a68151c77757766890166da54125bc1d92",
-          "word_count": 677
+          "word_count": 677,
+          "pib_ids": [
+            "PSE 901"
+          ],
+          "cor_ids": [
+            "PRN 941"
+          ]
         },
         "fr": {
           "url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-personal-information-profile/",
@@ -1128,16 +2008,97 @@
           "title": "Évaluation des facteurs relatifs à la vie privée – Le Profil d'information personnelle",
           "conversion": "markdownify",
           "text_sha256": "6f9fee6af5adba9c598759f1cbbccc253fb377bf6d95b155a9259800bb9eb3e8",
-          "word_count": 950
+          "word_count": 950,
+          "pib_ids": [
+            "PSE 901"
+          ],
+          "cor_ids": [
+            "PRN 941"
+          ]
         }
-      }
+      },
+      "references": {
+        "extraction_version": 1,
+        "pibs": [
+          {
+            "id": "PSE 901",
+            "matched_records": [
+              {
+                "dataset": "standard-pibs",
+                "institution_id": null,
+                "record_id": "PSE 901"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-f32c64d35406_en.md",
+                "line": 31,
+                "mention": "PSE 901",
+                "method": "explicit_pib_id",
+                "excerpt": "PSE 901."
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-f32c64d35406_fr.md",
+                "line": 36,
+                "mention": "POE 901",
+                "method": "explicit_pib_id",
+                "excerpt": "POE 901."
+              }
+            ]
+          }
+        ],
+        "classes_of_records": [
+          {
+            "id": "PRN 941",
+            "matched_records": [
+              {
+                "dataset": "standard-classes",
+                "institution_id": null,
+                "record_id": "941"
+              }
+            ],
+            "evidence": [
+              {
+                "language": "en",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-f32c64d35406_en.md",
+                "line": 28,
+                "mention": "PRN 941",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "PRN 941. Personal information collected in the context of this initiative is described in standard Personal"
+              },
+              {
+                "language": "fr",
+                "source_path": "PIAs/ati-schedule-i-canadian-nuclear-safety-commission/pia-f32c64d35406_fr.md",
+                "line": 33,
+                "mention": "NDP 941",
+                "method": "explicit_standard_cor_id",
+                "excerpt": "NDP 941. Les renseignements personnels recueillis dans le contexte de cette initiative sont décrits dans le fichier"
+              }
+            ]
+          }
+        ]
+      },
+      "pib_ids": [
+        "PSE 901"
+      ],
+      "pib_count": 1,
+      "cor_ids": [
+        "PRN 941"
+      ],
+      "cor_count": 1,
+      "word_count_en": 677,
+      "word_count_fr": 950,
+      "word_count_language": "en",
+      "word_count": 677
     }
   ],
   "summary": {
-    "pia_count": 10,
-    "paired_count": 10,
+    "pia_count": 12,
+    "paired_count": 12,
     "source_status_counts": {
-      "exported": 20
+      "exported": 24
     }
   }
 }
