@@ -35,7 +35,7 @@ function overview() {
   for (const [id, value] of [['stat-assessments', summary.records], ['stat-departments', summary.departments], ['stat-documents', summary.markdown_exports], ['stat-bilingual', summary.availability.both]]) $(id).textContent = number(value);
   $('collection-date').textContent = 'Collection updated: ' + dateLabel(catalogue.collection_generated_at_utc) + '. Counts include all repository entries, including sources that need review.';
   renderBars('language-bars', [{label: 'Both English and French', count: summary.availability.both || 0}, {label: 'English only', count: summary.availability.en || 0}, {label: 'French only', count: summary.availability.fr || 0}, {label: 'No readable copy', count: summary.availability.none || 0}]);
-  renderBars('department-bars', summary.top_departments.map(dept => ({label: dept.name_en, count: dept.count, href: `privacy-assessments.html?department=${encodeURIComponent(dept.institution_id)}#assessments`}))); 
+  renderBars('department-bars', summary.top_departments.map(dept => ({label: dept.name_en, count: dept.count, href: `privacy-assessments.html?department=${encodeURIComponent(dept.institution_id)}#assessments`})));
 }
 function render() {
   const filtered = sortRecords(filterRecords(catalogue.records, state), state.sort, state.descending);
