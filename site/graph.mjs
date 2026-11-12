@@ -1,5 +1,7 @@
 import { PAGE, MAX_NODES, label, indexGraph, search, connections, neighborhood, parseState, stateURL } from './graph-model.mjs';
 
+import { NODE_COLORS, browseRecords, pageRecords, recordStats } from './graph-records.mjs';
+
 const $ = id => document.getElementById(id);
 const words = {
   en: {
@@ -28,6 +30,15 @@ const words = {
     copyLabel: 'View link', exported: 'Readable copy collected', http_error: 'Source retrieval failed',
     insufficient_content: 'Insufficient collected text', soft_error_page: 'Source returned an error page',
     not_pia_content: 'Source content requires review', language_mismatch: 'Source language requires review',
+    workspace: 'Explore the network', fullscreen: 'Full screen', exitFullscreen: 'Exit full screen', hidePanel: 'Hide records', showPanel: 'Show records', browseControls: 'Find and sort records',
+    highlight: 'Highlight direct connections', recordTab: 'Record', browseTab: 'Browse records', previousRecord: 'Previous record', nextRecord: 'Next record',
+    browseScope: 'Browse', connectedScope: 'Connected records', allScope: 'All collected records', useSelected: 'Connections of selected record',
+    filterRecords: 'Filter these records', sort: 'Sort', sortName: 'Name', sortDegree: 'Most connected', previous: 'Previous', next: 'Next', pageSize: 'Records per page',
+    directRecords: 'Connected records', directEdges: 'Direct relationships', typeBreakdown: 'Explore by record type', sourceDetails: 'Sources and collection details',
+    evidenceAudit: 'Collection details', evidenceNote: 'A citation records a reference; it does not establish assessment coverage.',
+    unresolvedCount: n => `${n} direct relationships need resolution`, degree: n => `${n} direct relationships across the collected graph`,
+    page: (p, n) => `Page ${p} of ${n}`, range: (a, b, n) => `${a}–${b} of ${n} records`, position: (p, n) => p ? `Record ${p} of ${n}` : `${n} records in this list`,
+    anchor: name => `Connected to: ${name}`, expandGraph: 'Add more connections to graph',
     results: (shown, total) => `${shown} of ${total} matching records`,
     view: (n, e) => `${n} visible nodes · ${e} relationships`,
     connectionCount: (n, total) => `${n} of ${total} connections shown for this node`,
@@ -59,13 +70,25 @@ const words = {
     copyLabel: 'Lien de la vue', exported: 'Copie lisible recueillie', http_error: 'Échec de récupération de la source',
     insufficient_content: 'Texte recueilli insuffisant', soft_error_page: 'La source a renvoyé une page d’erreur',
     not_pia_content: 'Contenu source à vérifier', language_mismatch: 'Langue de la source à vérifier',
+    workspace: 'Explorer le réseau', fullscreen: 'Plein écran', exitFullscreen: 'Quitter le plein écran', hidePanel: 'Masquer les documents', showPanel: 'Afficher les documents', browseControls: 'Trouver et trier les documents',
+    highlight: 'Surligner les liens directs', recordTab: 'Document', browseTab: 'Parcourir', previousRecord: 'Document précédent', nextRecord: 'Document suivant',
+    browseScope: 'Parcourir', connectedScope: 'Documents liés', allScope: 'Tous les documents recueillis', useSelected: 'Liens du document sélectionné',
+    filterRecords: 'Filtrer ces documents', sort: 'Trier', sortName: 'Nom', sortDegree: 'Le plus de liens', previous: 'Précédent', next: 'Suivant', pageSize: 'Documents par page',
+    directRecords: 'Documents liés', directEdges: 'Relations directes', typeBreakdown: 'Explorer par type', sourceDetails: 'Sources et collecte',
+    evidenceAudit: 'Détails de la collecte', evidenceNote: 'Une citation indique une référence, sans établir la portée de l’évaluation.',
+    unresolvedCount: n => `${n} relations directes à résoudre`, degree: n => `${n} relations directes dans le graphique recueilli`,
+    page: (p, n) => `Page ${p} sur ${n}`, range: (a, b, n) => `${a}–${b} documents sur ${n}`, position: (p, n) => p ? `Document ${p} sur ${n}` : `${n} documents dans cette liste`,
+    anchor: name => `Liens avec : ${name}`, expandGraph: 'Ajouter des liens au graphique',
     results: (shown, total) => `${shown} résultats affichés sur ${total}`,
     view: (n, e) => `${n} nœuds visibles · ${e} relations`,
     connectionCount: (n, total) => `${n} liens affichés sur ${total} pour ce nœud`,
     summary: s => `${s.nodes.toLocaleString('fr-CA')} nœuds · ${s.node_types.pib.toLocaleString('fr-CA')} FRP · ${s.node_types.pia.toLocaleString('fr-CA')} évaluations · preuves pour chaque relation`,
   }
 };
-let index, data, state, cy, resultLimit = 12, currentView;
+let index, data, state, cy, resultLimit = 12, currentView, lastViewKey = '';
+let recordEntries = [], activeTab = 'detail', expandedMode = false, nativeMode = false, previousFocus;
+const browser = { anchor: '', scope: 'connected', query: '', type: '', sort: 'name', page: 1, size: 8 };
+const inertElements = new Map();
 const evidenceCache = new Map();
 const t = key => words[state?.lang || (new URLSearchParams(location.search).get('lang') === 'fr' ? 'fr' : 'en')][key] || key;
 const el = (tag, text, cls) => { const node = document.createElement(tag); if (text != null) node.textContent = text; if (cls) node.className = cls; return node; };
@@ -82,8 +105,11 @@ function localize() {
   document.documentElement.lang = state.lang;
   document.title = t('title') + ' - Info Source Data Explorer';
   document.querySelectorAll('[data-i18n]').forEach(n => { n.textContent = t(n.dataset.i18n); });
-  $('language').textContent = state.lang === 'en' ? 'Français' : 'English';
-  $('language').lang = state.lang === 'en' ? 'fr' : 'en';
+  for (const id of ['language', 'workspace-language']) {
+    $(id).textContent = state.lang === 'en' ? 'Français' : 'English'; $(id).lang = state.lang === 'en' ? 'fr' : 'en';
+  }
+  $('fullscreen').textContent = t(expandedMode ? 'exitFullscreen' : 'fullscreen');
+  $('toggle-panel').textContent = t($('explorer').classList.contains('panel-hidden') ? 'showPanel' : 'hidePanel');
   $('cy').setAttribute('aria-label', t('canvasLabel'));
   $('share-link').setAttribute('aria-label', t('copyLabel'));
   document.querySelector('.graph-legend').setAttribute('aria-label', t('legend'));
@@ -119,6 +145,7 @@ function renderSearch() {
   for (const node of matches.slice(0, resultLimit)) {
     const li = el('li');
     const b = button(label(node, state.lang), () => selectNode(node.id, true));
+    b.dataset.nodeType = node.type;
     b.append(el('small', `${t(node.type)} · ${node.identifier}`));
     li.append(b); $('results').append(li);
   }
@@ -140,9 +167,11 @@ async function evidenceList(edge, container) {
       if (item.excerpt) { const quote = el('blockquote', item.excerpt); if (item.language) quote.lang = item.language; section.append(quote); }
       if (item.source_url) section.append(link(t('source'), item.source_url), document.createTextNode(' · '));
       section.append(link(t('artifact') + (item.line ? ` · ${t('line')} ${item.line}` : ''), repositoryLink(item.source_path, item.line)));
-      if (item.method) section.append(el('small', t('method') + ': ' + item.method));
-      if (item.checked_at_utc) section.append(el('small', t('observed') + ': ' + item.checked_at_utc));
-      if (item.markdown_sha256) section.append(el('small', 'SHA-256: ' + item.markdown_sha256));
+      const audit = el('details', null, 'evidence-audit'); audit.append(el('summary', t('evidenceAudit')));
+      if (item.method) audit.append(el('small', t('method') + ': ' + item.method));
+      if (item.checked_at_utc) audit.append(el('small', t('observed') + ': ' + item.checked_at_utc));
+      if (item.markdown_sha256) audit.append(el('small', 'SHA-256: ' + item.markdown_sha256));
+      section.append(audit);
       container.append(section);
     }
   } catch {
@@ -150,61 +179,132 @@ async function evidenceList(edge, container) {
     container.textContent = t('evidenceError');
   }
 }
+function setTab(tab, focus = false) {
+  activeTab = tab;
+  $('explorer').classList.remove('panel-hidden'); $('inspector').inert = false;
+  $('toggle-panel').setAttribute('aria-expanded', 'true'); $('toggle-panel').textContent = t('hidePanel');
+  for (const name of ['detail', 'browser']) {
+    const selected = name === tab;
+    $('tab-' + name).setAttribute('aria-selected', String(selected));
+    $('tab-' + name).tabIndex = selected ? 0 : -1;
+    $(name === 'detail' ? 'record-panel' : 'browser-panel').hidden = !selected;
+  }
+  if (focus) $('tab-' + tab).focus({ preventScroll: true });
+  requestAnimationFrame(() => cy?.resize());
+}
+function showConnections(type = '') {
+  browser.anchor = state.selected; browser.scope = 'connected'; browser.type = type; browser.query = ''; browser.page = 1;
+  syncBrowserControls(); renderConnections(); setTab('browser', true);
+}
+function syncBrowserControls() {
+  $('browser-scope').value = browser.scope; $('browser-type').value = browser.type;
+  $('browser-query').value = browser.query; $('browser-sort').value = browser.sort;
+  $('records-per-page').value = String(browser.size);
+}
 function inspect() {
   $('detail').replaceChildren();
   const edge = index.edges.get(state.edge);
   if (edge) {
-    $('detail').append(el('h4', t(edge.type)), el('p', t(edge.resolution)));
-    for (const id of [edge.source, edge.target]) $('detail').append(button(label(index.nodes.get(id), state.lang), () => selectNode(id)));
-    const evidence = el('div'); $('detail').append(evidence); evidenceList(edge, evidence);
+    const card = el('article', null, 'record-card'); card.dataset.nodeType = index.nodes.get(edge.target).type;
+    card.append(el('span', t(edge.resolution), 'record-badge'), el('h4', t(edge.type)), el('p', t('evidenceNote'), 'record-note'));
+    const endpoints = el('div', null, 'edge-endpoints');
+    for (const id of [edge.source, edge.target]) {
+      const node = index.nodes.get(id), b = button(label(node, state.lang), () => selectNode(id));
+      b.dataset.nodeType = node.type; endpoints.append(b);
+    }
+    card.append(endpoints); $('detail').append(card);
+    const evidence = el('div'); card.append(evidence); evidenceList(edge, evidence);
     return;
   }
   const node = index.nodes.get(state.selected);
-  if (!node || !currentView.nodes.some(n => n.id === node.id)) return;
-  $('detail').append(el('p', t(node.type) + (node.scope === 'standard' ? ' · ' + t('standard') : '')),
-    el('h4', label(node, state.lang)), el('p', node.identifier));
-  if (!node['label_' + state.lang] && (node.label_en || node.label_fr)) $('detail').lastElementChild.previousElementSibling.lang = node.label_en ? 'en' : 'fr';
+  if (!node || !currentView.nodes.some(n => n.id === node.id)) { $('detail').append(el('p', t('empty'), 'record-note')); return; }
+  const card = el('article', null, 'record-card'); card.dataset.nodeType = node.type;
+  const title = el('h4', label(node, state.lang));
+  if (!node['label_' + state.lang]) title.lang = node.label_en ? 'en' : 'fr';
+  card.append(el('span', t(node.type) + (node.scope === 'standard' ? ' · ' + t('standard') : ''), 'record-badge'), title, el('p', node.identifier, 'record-identifier'));
+  const stats = recordStats(index, node.id), metrics = el('div', null, 'record-metrics');
+  for (const [count, name] of [[stats.records, 'directRecords'], [stats.relationships, 'directEdges']]) {
+    const metric = el('div', null, 'record-metric'); metric.append(el('strong', count), el('span', t(name))); metrics.append(metric);
+  }
+  card.append(metrics);
+  if (stats.unresolved) card.append(el('p', t('unresolvedCount')(stats.unresolved), 'record-alert'));
+  const chips = el('div', null, 'type-chips'); chips.setAttribute('aria-label', t('typeBreakdown'));
+  for (const [type, count] of Object.entries(stats.types)) if (count) {
+    const chip = button(t(type) + ' · ' + count, () => showConnections(type)); chip.dataset.nodeType = type; chips.append(chip);
+  }
+  card.append(chips);
   const description = node['description_' + state.lang];
-  if (description) $('detail').append(el('p', description));
-  if (node.resolution) $('detail').append(el('p', t(node.resolution)));
-  if (node.candidates?.length) $('detail').append(el('p', t('candidates') + ': ' + node.candidates.join('; ')));
-  if (node.type === 'pia' && !node.available_languages.length) $('detail').append(el('p', t('unavailable')));
-  for (const [lang, status] of Object.entries(node.source_status || {})) $('detail').append(el('p', lang.toUpperCase() + ' · ' + t(status)));
-  if (node.collected_at_utc) $('detail').append(el('p', t('observed') + ': ' + node.collected_at_utc));
-  if (node.record_url) { const url = new URL(node.record_url, location.href); url.searchParams.set('lang', state.lang); $('detail').append(link(t('open'), url.href), el('br')); }
-  for (const [lang, url] of Object.entries(node.sources || {})) if (url) $('detail').append(link(`${t('source')} · ${lang.toUpperCase()}`, url), el('br'));
-  if (node.source_path) $('detail').append(link(t('artifact'), repositoryLink(node.source_path)), el('br'));
-  $('detail').append(button(t('focus'), () => selectNode(node.id, true)));
+  if (description) card.append(el('p', description, 'record-description'));
+  if (node.resolution) card.append(el('p', t(node.resolution), 'record-alert'));
+  if (node.candidates?.length) card.append(el('p', t('candidates') + ': ' + node.candidates.join('; '), 'record-note'));
+  if (node.type === 'pia' && !node.available_languages.length) card.append(el('p', t('unavailable'), 'record-alert'));
+  const actions = el('div', null, 'record-actions');
+  const browse = button(t('connectedScope'), () => showConnections()); browse.className = 'primary-action'; actions.append(browse);
+  actions.append(button(t('focus'), () => selectNode(node.id, true)));
+  if (node.record_url) { const url = new URL(node.record_url, location.href); url.searchParams.set('lang', state.lang); actions.append(link(t('open'), url.href)); }
+  card.append(actions);
+  const sources = el('details', null, 'record-sources'); sources.append(el('summary', t('sourceDetails')));
+  for (const [lang, status] of Object.entries(node.source_status || {})) sources.append(el('p', lang.toUpperCase() + ' · ' + t(status)));
+  if (node.collected_at_utc) sources.append(el('p', t('observed') + ': ' + node.collected_at_utc));
+  for (const [lang, url] of Object.entries(node.sources || {})) if (url) sources.append(link(`${t('source')} · ${lang.toUpperCase()}`, url));
+  if (node.source_path) sources.append(link(t('artifact'), repositoryLink(node.source_path)));
+  card.append(sources); $('detail').append(card);
 }
 function renderConnections() {
-  const id = state.selected;
-  const all = connections(index, id, state.relation);
-  const shown = all.slice(0, state.expanded.get(id) || PAGE);
+  recordEntries = browseRecords(index, { ...browser, relation: state.relation, lang: state.lang });
+  const page = pageRecords(recordEntries, browser.page, browser.size); browser.page = page.page;
   $('connections').replaceChildren();
-  for (const edge of shown) {
-    const other = index.nodes.get(edge.source === id ? edge.target : edge.source);
-    const li = el('li');
-    li.append(el('small', `${t(edge.type)} · ${t(edge.resolution)}`),
-      button(label(other, state.lang), () => selectNode(other.id)), button(t('inspect'), () => selectEdge(edge.id)));
+  for (const { node, edges } of page.items) {
+    const li = el('li'); li.dataset.nodeType = node.type; li.dataset.recordId = node.id; li.dataset.selected = String(node.id === state.selected);
+    const b = button(label(node, state.lang), () => selectNode(node.id, false, true)); b.className = 'record-row-title';
+    li.append(el('span', t(node.type), 'record-badge'), b, el('small', node.identifier), el('small', t('degree')(index.adjacency.get(node.id).length)));
+    for (const edge of edges) {
+      const evidence = button(t('inspect') + ' · ' + t(edge.type), () => selectEdge(edge.id)); evidence.className = 'evidence-button';
+      li.append(el('small', t(edge.resolution)), evidence);
+    }
     $('connections').append(li);
   }
-  $('connections-status').textContent = !index.nodes.has(id) ? t('empty') : all.length ? t('connectionCount')(shown.length, all.length) : t('noConnections');
-  $('expand').hidden = shown.length >= all.length || !index.nodes.has(id);
-  $('expand').disabled = currentView.capped || (state.expanded.get(id) || 0) >= MAX_NODES;
+  $('connections-status').textContent = page.total ? t('range')(page.start, page.end, page.total) : t('noMatch');
+  $('page-status').textContent = t('page')(page.page, page.pages);
+  $('previous-page').disabled = page.page <= 1; $('next-page').disabled = page.page >= page.pages;
+  const anchor = index.nodes.get(browser.anchor);
+  $('browser-anchor').textContent = browser.scope === 'connected' && anchor ? t('anchor')(label(anchor, state.lang)) : t('allScope');
+  $('use-selected').disabled = !index.nodes.has(state.selected);
+  const position = recordEntries.findIndex(r => r.node.id === state.selected);
+  $('record-position').textContent = t('position')(position + 1, recordEntries.length);
+  $('previous-record').disabled = position <= 0;
+  $('next-record').disabled = !recordEntries.length || position === recordEntries.length - 1;
+  const all = connections(index, state.selected, state.relation);
+  $('expand').textContent = t('expandGraph');
+  $('expand').hidden = (state.expanded.get(state.selected) || PAGE) >= all.length || !index.nodes.has(state.selected);
+  $('expand').disabled = currentView.capped || (state.expanded.get(state.selected) || 0) >= MAX_NODES;
+}
+function highlightSelection() {
+  if (!cy) return;
+  cy.elements().removeClass('active dimmed');
+  const edge = cy.getElementById(state.edge), selected = cy.getElementById(state.selected);
+  const focus = edge.length ? edge.union(edge.connectedNodes()) : selected.closedNeighborhood();
+  selected.addClass('active'); edge.addClass('active');
+  if ($('highlight').checked && focus.length) cy.elements().not(focus).addClass('dimmed');
 }
 function draw() {
   if (!cy) return;
-  const selected = state.selected;
-  cy.elements().remove();
-  cy.add(currentView.nodes.map(n => ({ data: { id: n.id, type: n.type,
-    label: label(n, state.lang), color: { pib: '#1f5a94', pia: '#087a82', institution: '#754b94', class: '#b47700', reference: '#d7dee5' }[n.type] } })));
-  cy.add(currentView.edges.map(e => ({ data: { ...e, label: t(e.type) } })));
-  cy.getElementById(selected).addClass('active');
-  if (state.edge) cy.getElementById(state.edge).addClass('active');
-  cy.layout({ name: currentView.nodes.length > 12 ? 'cose' : 'concentric', animate: false, padding: 40,
-    nodeDimensionsIncludeLabels: true, nodeRepulsion: () => 8500, idealEdgeLength: () => 100,
-    minNodeSpacing: 35, spacingFactor: 1.2,
-    concentric: n => n.id() === state.root ? 10 : 1, levelWidth: () => 1 }).run();
+  const key = currentView.nodes.map(n => n.id).sort().join('|') + currentView.edges.map(e => e.id).sort().join('|');
+  if (key !== lastViewKey) {
+    const ids = new Set([...currentView.nodes, ...currentView.edges].map(n => n.id));
+    cy.batch(() => {
+      cy.elements().filter(e => !ids.has(e.id())).remove();
+      for (const n of currentView.nodes) if (!cy.getElementById(n.id).length) cy.add({ data: { id: n.id, type: n.type, label: label(n, state.lang), color: NODE_COLORS[n.type] } });
+      for (const e of currentView.edges) if (!cy.getElementById(e.id).length) cy.add({ data: { ...e, label: t(e.type) } });
+    });
+    cy.layout({ name: currentView.nodes.length > 12 ? 'cose' : 'concentric', animate: false, padding: 40,
+      nodeDimensionsIncludeLabels: true, nodeRepulsion: () => 8500, idealEdgeLength: () => 100,
+      minNodeSpacing: 35, spacingFactor: 1.2,
+      concentric: n => n.id() === state.root ? 10 : 1, levelWidth: () => 1 }).run();
+    lastViewKey = key;
+  }
+  cy.nodes().forEach(n => n.data('label', label(index.nodes.get(n.id()), state.lang)));
+  highlightSelection();
 }
 function render(push = false) {
   currentView = neighborhood(index, state);
@@ -220,21 +320,132 @@ function render(push = false) {
   const url = stateURL(location.href, state);
   if (push) history.pushState(null, '', url);
 }
-function selectNode(id, start = false) {
+function selectNode(id, start = false, keepBrowser = false) {
   if (!index.nodes.has(id)) return;
+  if (keepBrowser && browser.scope === 'connected' && !currentView.nodes.some(n => n.id === id)) {
+    const offset = connections(index, browser.anchor, state.relation).findIndex(e => e.source === id || e.target === id);
+    if (offset >= 0 && offset < MAX_NODES - 1) {
+      state.expanded.set(browser.anchor, Math.max(state.expanded.get(browser.anchor) || PAGE, offset + 1));
+      currentView = neighborhood(index, state);
+    }
+  }
   if (start || !currentView.nodes.some(n => n.id === id)) { state.root = id; state.expanded = new Map(); }
   $('search-panel').open = false;
   state.selected = id; state.edge = '';
+  if (!keepBrowser) { browser.anchor = id; browser.page = 1; browser.query = ''; browser.type = ''; syncBrowserControls(); }
+  setTab('detail');
   if (!state.expanded.has(id)) state.expanded.set(id, PAGE);
   render(true);
   $('inspector-heading').tabIndex = -1;
   $('inspector-heading').focus({ preventScroll: true });
 }
 function selectEdge(id) {
-  state.edge = id; render(true);
+  state.edge = id; setTab('detail'); render(true);
   $('inspector-heading').tabIndex = -1;
   $('inspector-heading').focus({ preventScroll: true });
   $('inspector').scrollIntoView({ block: 'nearest' });
+}
+function applyExpanded(enabled) {
+  const workspace = $('explorer');
+  if (enabled && !expandedMode) {
+    previousFocus = $('fullscreen');
+    document.querySelectorAll('body > gcds-header, body > .skip-link, body > footer, #main-content > :not(#explorer)').forEach(node => {
+      inertElements.set(node, node.inert); node.inert = true;
+    });
+  }
+  expandedMode = enabled;
+  workspace.classList.toggle('is-expanded', enabled);
+  document.body.classList.toggle('graph-expanded', enabled);
+  workspace.setAttribute('role', enabled ? 'dialog' : 'region');
+  if (enabled) workspace.setAttribute('aria-modal', 'true');
+  else {
+    workspace.removeAttribute('aria-modal');
+    for (const [node, inert] of inertElements) node.inert = inert;
+    inertElements.clear();
+  }
+  $('fullscreen').textContent = t(enabled ? 'exitFullscreen' : 'fullscreen');
+  $('fullscreen').setAttribute('aria-pressed', String(enabled));
+  if (enabled) $('fullscreen').focus({ preventScroll: true });
+  else previousFocus?.focus({ preventScroll: true });
+  requestAnimationFrame(() => { cy?.resize(); cy?.fit(undefined, 40); });
+}
+async function toggleFullscreen() {
+  const workspace = $('explorer');
+  $('fullscreen').disabled = true;
+  try {
+    if (expandedMode) {
+      if (document.fullscreenElement === workspace) await document.exitFullscreen();
+      nativeMode = false; applyExpanded(false);
+    } else {
+      applyExpanded(true);
+      try {
+        if (typeof workspace.requestFullscreen === 'function') {
+          await workspace.requestFullscreen(); nativeMode = true;
+        }
+      } catch {
+        // Keep the equally navigable, viewport-filling workspace when native
+        // fullscreen is unavailable (including embedded or mobile browsers).
+        nativeMode = false;
+      }
+    }
+  } finally {
+    $('fullscreen').disabled = false;
+    if (expandedMode) $('fullscreen').focus({ preventScroll: true });
+    else previousFocus?.focus({ preventScroll: true });
+  }
+}
+function initializeWorkspace() {
+  $('browser-filters').open = !matchMedia('(max-width: 700px)').matches;
+  $('fullscreen').addEventListener('click', toggleFullscreen);
+  document.addEventListener('fullscreenchange', () => {
+    if (document.fullscreenElement === $('explorer')) { nativeMode = true; applyExpanded(true); }
+    else if (nativeMode) { nativeMode = false; applyExpanded(false); }
+  });
+  $('explorer').addEventListener('keydown', event => {
+    if (!expandedMode) return;
+    if (event.key === 'Escape') { event.preventDefault(); toggleFullscreen(); }
+    if (event.key === 'Tab') {
+      const elements = [...$('explorer').querySelectorAll('button, input, select, a[href], summary, [tabindex="0"]')]
+        .filter(n => !n.disabled && n.tabIndex >= 0 && n.getClientRects().length);
+      const first = elements[0], last = elements.at(-1);
+      if (event.shiftKey && (document.activeElement === first || document.activeElement === $('inspector-heading'))) { event.preventDefault(); last?.focus(); }
+      else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus(); }
+    }
+  });
+  $('toggle-panel').addEventListener('click', () => {
+    const hidden = $('explorer').classList.toggle('panel-hidden'); $('inspector').inert = hidden;
+    $('toggle-panel').setAttribute('aria-expanded', String(!hidden));
+    $('toggle-panel').textContent = t(hidden ? 'showPanel' : 'hidePanel');
+    requestAnimationFrame(() => cy?.resize());
+  });
+  for (const name of ['detail', 'browser']) {
+    $('tab-' + name).addEventListener('click', () => setTab(name));
+    $('tab-' + name).addEventListener('keydown', event => {
+      if (['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) {
+        event.preventDefault(); setTab(event.key === 'Home' ? 'detail' : event.key === 'End' ? 'browser' : activeTab === 'detail' ? 'browser' : 'detail', true);
+      }
+    });
+  }
+  for (const [id, key] of [['browser-scope', 'scope'], ['browser-query', 'query'], ['browser-type', 'type'], ['browser-sort', 'sort'], ['records-per-page', 'size']]) {
+    $(id).addEventListener(id === 'browser-query' ? 'input' : 'change', () => {
+      browser[key] = $(id).value; browser.page = 1; renderConnections(); $('connections').scrollTop = 0;
+    });
+  }
+  for (const [id, change] of [['previous-page', -1], ['next-page', 1]]) $(id).addEventListener('click', () => {
+    browser.page += change; renderConnections(); $('connections').scrollTop = 0;
+  });
+  for (const [id, change] of [['previous-record', -1], ['next-record', 1]]) $(id).addEventListener('click', () => {
+    const position = recordEntries.findIndex(r => r.node.id === state.selected);
+    const next = Math.max(0, position + change);
+    if (recordEntries[next]) {
+      browser.page = Math.floor(next / Number(browser.size)) + 1;
+      selectNode(recordEntries[next].node.id, false, true); $('record-panel').scrollTop = 0;
+    }
+  });
+  $('use-selected').addEventListener('click', () => showConnections());
+  $('highlight').addEventListener('change', highlightSelection);
+  new ResizeObserver(() => requestAnimationFrame(() => cy?.resize())).observe($('cy'));
+  syncBrowserControls();
 }
 async function init() {
   // Localize the initial failure message even if the dataset is unavailable.
@@ -242,6 +453,7 @@ async function init() {
     const response = await fetch('data/graph.json');
     if (!response.ok) throw new Error('Graph HTTP ' + response.status);
     data = await response.json(); index = indexGraph(data); state = parseState(location.href, index);
+    browser.anchor = state.selected;
     $('search-panel').open = !state.root || !index.nodes.has(state.root);
     if (typeof window.cytoscape === 'function') {
       cy = window.cytoscape({ container: $('cy'), elements: [], minZoom: .1, maxZoom: 3, wheelSensitivity: .2,
@@ -254,7 +466,9 @@ async function init() {
           { selector: 'node[type="reference"]', style: { shape: 'hexagon', 'border-style': 'dashed' } },
           { selector: 'edge', style: { width: 1.5, 'line-color': '#7a8b9b', 'target-arrow-color': '#7a8b9b', 'target-arrow-shape': 'triangle', 'curve-style': 'bezier' } },
           { selector: 'edge[resolution != "resolved"]', style: { 'line-style': 'dashed' } },
-          { selector: '.active', style: { 'border-width': 4, 'border-color': '#ce4a00', 'line-color': '#ce4a00', 'target-arrow-color': '#ce4a00', width: 4 } },
+          { selector: 'edge.active', style: { 'line-color': '#087a82', 'target-arrow-color': '#087a82', width: 4 } },
+          { selector: 'node.active', style: { 'border-width': 4, 'border-color': '#172b42', 'underlay-color': 'data(color)', 'underlay-opacity': .2, 'underlay-padding': 7 } },
+          { selector: '.dimmed', style: { opacity: .15 } },
           { selector: 'node.active', style: { width: 42, height: 42 } }
         ] });
       cy.on('tap', 'node', event => selectNode(event.target.id()));
@@ -266,17 +480,20 @@ async function init() {
     $('relation').addEventListener('change', () => { state.relation = $('relation').value; state.expanded = new Map([[state.root, PAGE]]); state.selected = state.root; state.edge = ''; render(true); });
     $('fit').addEventListener('click', () => cy?.fit(undefined, 40));
     $('reset').addEventListener('click', () => selectNode(state.selected, true));
-    $('language').addEventListener('click', () => { state.lang = state.lang === 'en' ? 'fr' : 'en'; render(true); });
+    for (const id of ['language', 'workspace-language']) $(id).addEventListener('click', () => { state.lang = state.lang === 'en' ? 'fr' : 'en'; render(true); });
+    initializeWorkspace();
+    if (!index.nodes.has(state.selected)) { browser.scope = 'all'; syncBrowserControls(); setTab('browser'); }
     $('share').addEventListener('click', async () => {
       const url = stateURL(location.href, state).href;
       try { await navigator.clipboard.writeText(url); $('share-status').textContent = t('copied'); }
       catch { $('share-link').value = url; $('share-link').hidden = false; $('share-link').select(); $('share-status').textContent = t('copyFallback'); }
     });
-    window.addEventListener('popstate', () => { state = parseState(location.href, index); render(); });
+    window.addEventListener('popstate', () => { state = parseState(location.href, index); browser.anchor = state.selected; browser.page = 1; render(); });
     render();
   } catch (error) {
     $('view-status').textContent = t('loadError'); $('view-status').setAttribute('role', 'alert');
-    for (const id of ['search', 'node-type', 'institution', 'relation', 'fit', 'reset', 'share']) $(id).disabled = true;
+    for (const id of ['search', 'node-type', 'institution']) $(id).disabled = true;
+    $('explorer').querySelectorAll('button, input, select').forEach(node => { node.disabled = true; });
     console.error(error);
   }
 }

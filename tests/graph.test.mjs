@@ -2,6 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { PAGE, MAX_NODES, indexGraph, search, connections, neighborhood, parseState, stateURL } from '../site/graph-model.mjs';
+import { browseRecords, connectedRecords, pageRecords, recordStats } from '../site/graph-records.mjs';
 
 const graph = JSON.parse(readFileSync(new URL('../site/data/graph.json', import.meta.url)));
 const index = indexGraph(graph);
@@ -51,4 +52,36 @@ test('relation filters retain only requested observed relationships', () => {
   assert.ok(view.edges.length > 0);
   assert.ok(view.edges.every(e => e.type === 'references'));
   assert.ok(view.nodes.every(n => n.type !== 'institution'));
+});
+
+test('record pages cover the full connection list without duplicates or graph truncation', () => {
+  const anchor = graph.nodes.filter(n => n.type === 'institution').sort((a, b) => connections(index, b.id).length - connections(index, a.id).length)[0];
+  const entries = browseRecords(index, { anchor: anchor.id });
+  assert.ok(entries.length > MAX_NODES, 'Browsing must include records beyond the drawing limit');
+  const ids = [];
+  for (let p = 1; p <= Math.ceil(entries.length / 8); p++) ids.push(...pageRecords(entries, p).items.map(r => r.node.id));
+  assert.deepEqual(ids, entries.map(r => r.node.id));
+  assert.equal(new Set(ids).size, ids.length);
+  assert.equal(pageRecords(entries, 99999).page, Math.ceil(entries.length / 8));
+  assert.deepEqual(pageRecords([], -1).items, []);
+});
+
+test('global record browsing composes French aliases, types and degree sorting', () => {
+  const matches = browseRecords(index, { scope: 'all', query: 'POU 905', type: 'pib', lang: 'fr' });
+  assert.ok(matches.some(r => r.node.id === 'pib:standard:PSU 905'));
+  const ranked = browseRecords(index, { scope: 'all', type: 'pib', sort: 'degree' });
+  assert.ok(ranked.every(r => r.node.type === 'pib'));
+  assert.ok(ranked.slice(1).every((r, i) => index.adjacency.get(ranked[i].node.id).length >= index.adjacency.get(r.node.id).length));
+  assert.equal(browseRecords(index, { scope: 'all', query: 'zz-no-record-here' }).length, 0);
+});
+
+test('connection summaries count observed records, edge resolution and reference types', () => {
+  const target = graph.edges.find(e => e.resolution === 'ambiguous').source;
+  const stats = recordStats(index, target);
+  assert.equal(stats.relationships, connections(index, target).length);
+  assert.equal(stats.records, connectedRecords(index, target).length);
+  assert.equal(Object.values(stats.types).reduce((n, count) => n + count, 0), stats.records);
+  assert.ok(stats.unresolved > 0);
+  assert.ok(stats.types.reference > 0);
+  assert.equal(connectedRecords(index, pia, 'references').every(r => r.edges.every(e => e.type === 'references')), true);
 });

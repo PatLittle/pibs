@@ -7,6 +7,33 @@ The existing GCDS header, prototype label, colours and navigation are retained.
 
 ## Explore
 
+**Full screen** opens the graph and its record panel together. Browsers that
+cannot grant native fullscreen use a viewport-filling workspace instead. The
+exit button or Escape restores the page and keyboard focus. **Hide records**
+temporarily gives the entire workspace to the graph. The language switch and
+graph controls remain available inside fullscreen, including on mobile.
+
+The record panel has **Record** and **Browse records** tabs. Browse either the
+selected record's connections or the full collected inventory, filter bilingual
+names/aliases and record types, and choose 8, 16 or 24 records per page. List
+pagination is independent of the drawing limit: it can browse all source records
+without adding them all to the map. Selecting a list record opens its details;
+**Previous record** and **Next record** follow that filtered list. The connection
+anchor stays fixed while cycling, so navigation does not silently replace the
+list with each new record's neighbours. **Connections of selected record**
+explicitly starts a new connection list. Records outside the bounded visible
+neighbourhood are brought into view or become a new graph root when necessary.
+
+Cards, badges, list accents and type chips use the same colour values as the
+diagram, with text labels so colour is not the only distinction. Record cards
+show direct relationship/record counts and clickable neighbour-type counts.
+**Most connected** sorts by observed direct-edge count across the collected
+graph; it is a discovery aid, not a privacy-risk or completeness score. References
+that need resolution remain labelled. **Highlight direct connections** dims
+unrelated visible elements without hiding them or altering the graph's counts.
+List paging and evidence inspection preserve the map's positions and viewport;
+new topology triggers a layout. Fullscreen resizing fits the current view.
+
 Search bilingual names, identifiers and recorded aliases; filter search by
 institution or record type. Selecting a result opens its first 25 connections.
 Select another node to retain the path and expand its neighbourhood. Use
@@ -25,6 +52,8 @@ Table dialogs and PIA readers link into the graph; graph details link back to
 those pages. **Copy view link** preserves root, selected node or edge,
 expansion order/counts, relationship filter and language. Browser Back/Forward
 restores these states. Positions, zoom and search-form values are transient.
+Record-list filters, anchor and page are also transient. Fullscreen requires a
+user action and is not automatically entered from a shared link.
 
 Example using an actual assessment:
 
@@ -114,5 +143,8 @@ node tests/graph.browser.cjs
 The browser test defaults to `http://127.0.0.1:8766/`; override `GRAPH_TEST_BASE`,
 `BROWSER_EXECUTABLE` and `GRAPH_TEST_OUTPUT` if needed. It covers real records,
 lazy provenance, bilingual aliases, view URLs/history, expansion, filters,
-mobile overflow, unknown records, missing data and diagram failure.
+mobile overflow, unknown records, missing data and diagram failure. It also
+checks native/fallback fullscreen and exit, focus containment/restoration,
+fixed-map pagination, previous/next record navigation, shared node/card colours,
+type-summary shortcuts, hub sorting and portrait fullscreen layout.
 Screenshots default to `work/`.
