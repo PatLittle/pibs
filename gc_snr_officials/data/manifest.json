@@ -60,7 +60,7 @@
     }
   },
   "disclosures": {
-    "snapshot_date": "2026-11-11",
+    "snapshot_date": "2026-11-12",
     "hospitality": {
       "raw_count": 68691,
       "unique_count": 4887,
@@ -69,7 +69,7 @@
       "bytes": 32553967,
       "date_anomaly_count": 3,
       "latest_observed_date": "2026-11-05",
-      "last_success": "2026-11-11",
+      "last_success": "2026-11-12",
       "status": "current"
     },
     "travel": {
@@ -80,39 +80,91 @@
       "bytes": 83639842,
       "date_anomaly_count": 13,
       "latest_observed_date": "2026-10-22",
-      "last_success": "2026-11-11",
+      "last_success": "2026-11-12",
       "status": "current"
+    },
+    "dpoh": {
+      "status": "retained_after_error",
+      "last_attempt": "2026-11-12",
+      "source_url": "https://lobbycanada.gc.ca/media/mqbbmaqk/communications_ocl_cal.zip",
+      "sha256": "9232d457b8e298a087c940e93a219399c8c0c242c55d28b476142759d8fb1d21",
+      "bytes": 25005073,
+      "capture_method": "local_archive",
+      "processed_at_utc": "2026-11-12T11:13:36.277059+00:00",
+      "primary_raw_count": 388558,
+      "primary_unique_count": 388558,
+      "dpoh_raw_count": 595194,
+      "joined_row_count": 595194,
+      "raw_count": 594644,
+      "duplicate_report_person_rows": 550,
+      "primary_duplicate_count": 0,
+      "orphan_row_count": 0,
+      "date_anomaly_count": 0,
+      "missing_or_invalid_date_count": 0,
+      "unique_count": 62608,
+      "earliest_observed_date": "2008-07-02",
+      "latest_observed_date": "2026-11-06",
+      "members": [
+        {
+          "file": "Communication_PrimaryExport.csv",
+          "bytes": 56747100,
+          "sha256": "619f4ad646ef813ad5dc0cc2c4e3d41dc8bb7aa02030273da3ae018284370cef",
+          "encoding": "windows-1252"
+        },
+        {
+          "file": "Communication_DpohExport.csv",
+          "bytes": 62947193,
+          "sha256": "b4f36f141d36365f6d848603a6c9901a684ccb5953bb88e629bb5e36b5970bb2",
+          "encoding": "windows-1252"
+        }
+      ],
+      "join_key": "COMLOG_ID",
+      "grouping_fields": [
+        "DPOH_LAST_NM_TCPD",
+        "DPOH_FIRST_NM_PRENOM_TCPD",
+        "INSTITUTION"
+      ],
+      "count_definition": "Distinct COMLOG_ID per exact source first name + last name + institution; role variants do not multiply counts",
+      "revision_policy": "All distinct COMLOG_ID values retained; primary export used only for COMM_DATE; no inferred revision-chain collapse",
+      "last_success": "2026-11-12",
+      "detail_bucket_count": 256,
+      "detail_record_count": 62608,
+      "detail_layout": "SHA-256 exact last/first/institution prefix buckets; full joined first/last communication evidence",
+      "error": "403 Client Error: Forbidden for url: https://lobbycanada.gc.ca/media/mqbbmaqk/communications_ocl_cal.zip"
     }
   },
-  "oic_snapshot_date": "2026-11-11",
+  "oic_snapshot_date": "2026-11-12",
   "last_attempt": "2026-11-11",
   "refresh_warnings": [],
   "oic": {
-    "last_success": "2026-11-11",
-    "source_url": "https://raw.githubusercontent.com/PatLittle/oic-data/7c740128d5cba56c17e4792fb911351ce7d9b84c/processed-csvs/orders.csv",
-    "sha256": "f3f6d5f0dbde407a5a2db14e759b417933f4cbcd7e1fc71c47642d153b65e96c",
-    "bytes": 24007175,
-    "order_count": 67607,
-    "matched_order_count": 6239,
-    "person_key_count": 2459,
-    "latest_order_date": "2026-10-30",
-    "source_commit": "7c740128d5cba56c17e4792fb911351ce7d9b84c",
+    "last_success": "2026-11-12",
+    "source_url": "https://raw.githubusercontent.com/PatLittle/oic-data/303c8108466c476f18402e77e41b4413c96d0fe2/processed-csvs/orders.csv",
+    "sha256": "41af63c7e7e80aac0ff940dc00ec412de8c1427ea1a04dde28d7625bd6dd9c55",
+    "bytes": 24013329,
+    "order_count": 67616,
+    "matched_order_count": 7976,
+    "person_key_count": 3448,
+    "latest_order_date": "2026-11-05",
+    "source_commit": "303c8108466c476f18402e77e41b4413c96d0fe2",
     "status": "current",
     "match_method": "complete observed normalized name in order precis"
   },
-  "external_last_attempt": "2026-11-11",
+  "external_last_attempt": "2026-11-12",
   "external_refresh_warnings": [],
   "name_normalization_version": 3,
   "nicknames": {
     "status": "current",
-    "last_success": "2026-11-11",
+    "last_success": "2026-11-12",
     "url": "https://raw.githubusercontent.com/carltonnorthern/nicknames/master/names.csv",
     "sha256": "e6a4e5a55ca5b47a4146dbc118f26c71c63053d4b79ca9659de8e74efb65847e",
     "relationship_rows": 2827
   },
   "identity_matching": {
     "version": 1,
-    "pairs": 199,
+    "pairs": 1806,
     "method": "Pairwise nickname candidates with institution, role, middle-name and event-window evidence; no automatic merges"
-  }
+  },
+  "dpoh_refresh_warnings": [
+    "403 Client Error: Forbidden for url: https://lobbycanada.gc.ca/media/mqbbmaqk/communications_ocl_cal.zip"
+  ]
 }
