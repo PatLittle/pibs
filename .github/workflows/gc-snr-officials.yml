@@ -101,6 +101,7 @@ jobs:
           mkdir -p _gc_snr_payload
           cp gc_snr_officials/index.html gc_snr_officials/app.js gc_snr_officials/styles.css gc_snr_officials/sources.json _gc_snr_payload/
           cp -r gc_snr_officials/data _gc_snr_payload/data
+          cp -r gc_snr_officials/assets _gc_snr_payload/assets
           touch _gc_snr_payload/.nojekyll
       - name: Publish only gc_snr_officials
         uses: JamesIves/github-pages-deploy-action@v4
