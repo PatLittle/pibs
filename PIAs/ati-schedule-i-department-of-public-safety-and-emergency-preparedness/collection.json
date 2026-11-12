@@ -1,0 +1,1692 @@
+{
+  "schema_version": 1,
+  "collector_version": 1,
+  "collected_at_utc": "2026-11-12T01:50:35.062413+00:00",
+  "institution_id": "ati-schedule-i-department-of-public-safety-and-emergency-preparedness",
+  "gc_orgID": "2235.0",
+  "open_canada_org_id": "7C0AF243-753A-465F-8D46-C4FF7397D9B6",
+  "open_canada_org_slug": "ps-sp",
+  "name_en": "Department of Public Safety and Emergency Preparedness",
+  "name_fr": "Ministère de la Sécurité publique et de la Protection civile",
+  "registry_membership": "current_registry",
+  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "list_pages": {
+    "en": {
+      "indexed_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-en.aspx",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-en.aspx",
+          "final_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-en.aspx",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:30.694865+00:00",
+          "redirects": [],
+          "content_type": "text/html; charset=utf-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": null,
+          "etag": null,
+          "byte_count": 27755,
+          "sha256": "df112b2c91f16948ba087e53f4715dd45c41297516421f2dcbff896238241bf8",
+          "raw_path": "raw/5ed38efc3614c089f2f1.html"
+        }
+      ],
+      "discovered_count": 14,
+      "scopes": [
+        "Privacy Impact Assessments"
+      ],
+      "warnings": []
+    },
+    "fr": {
+      "indexed_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-fr.aspx",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-fr.aspx",
+          "final_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-fr.aspx",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:31.189044+00:00",
+          "redirects": [],
+          "content_type": "text/html; charset=utf-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": null,
+          "etag": null,
+          "byte_count": 29195,
+          "sha256": "a0b611118347b952fa80bc2396ecf2587e7dd1c98e9a9ecfe0cb26aa93e056b1",
+          "raw_path": "raw/5e80a60e5cf9198d4ea7.html"
+        }
+      ],
+      "discovered_count": 14,
+      "scopes": [
+        "Évaluations des facteurs relatifs à la vie privée"
+      ],
+      "warnings": []
+    }
+  },
+  "pias": [
+    {
+      "pia_id": "pia-7d092f6a1a18",
+      "title_en": "Passenger Protect Program: Centralized Screening",
+      "title_fr": "Programme de protection des passagers : contrôle centralisé",
+      "url_en": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ppcs-ppcc-en.aspx",
+      "url_fr": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ppcs-ppcc-fr.aspx",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ppcs-ppcc-en.aspx",
+        "alternate_url": "https://securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ppcs-ppcc-fr.aspx"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ppcs-ppcc-en.aspx",
+          "title_from_list": "Passenger Protect Program: Centralized Screening",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-en.aspx",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ppcs-ppcc-en.aspx",
+              "title": "Passenger Protect Program: Centralized Screening",
+              "list_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-en.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ppcs-ppcc-en.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ppcs-ppcc-en.aspx",
+            "final_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ppcs-ppcc-en.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:34.613104+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 39072,
+            "sha256": "42b9100d6f14e7c66d2cf57b7fe1baca5d4cf64cfeebb76bff13a9c8faa354e2"
+          },
+          "raw_path": "raw/7d092f6a1a182ab9f15e.html",
+          "markdown_path": "pia-7d092f6a1a18_en.md",
+          "markdown_sha256": "c9a4816e59411a356cb1669b48181c32261c087d643686ff11097b71e1b81ede",
+          "status": "exported",
+          "page_title": "Passenger Protect Program: Centralized Screening",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ppcs-ppcc-fr.aspx"
+          },
+          "date_modified": "2021-07-16",
+          "date_published": "2021-07-16",
+          "has_pia_text": true,
+          "title": "Passenger Protect Program: Centralized Screening",
+          "conversion": "markdownify",
+          "text_sha256": "9eb47ee9b69aaafc11f40e9403d3fa836f6b954bb0a4878f5d3113e3b59299cc",
+          "word_count": 1865
+        },
+        "fr": {
+          "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ppcs-ppcc-fr.aspx",
+          "title_from_list": "Programme de protection des passagers : contrôle centralisé",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-fr.aspx",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ppcs-ppcc-fr.aspx",
+              "title": "Programme de protection des passagers : contrôle centralisé",
+              "list_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-fr.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ppcs-ppcc-fr.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ppcs-ppcc-fr.aspx",
+            "final_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ppcs-ppcc-fr.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:39.975378+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 44304,
+            "sha256": "fcadec52bb040982eef89aa486e18b6a03b9d2060985f9e0e8ad54da3dc50a0e"
+          },
+          "raw_path": "raw/c30f1ba359df90133658.html",
+          "markdown_path": "pia-7d092f6a1a18_fr.md",
+          "markdown_sha256": "c396b7ee774973b0ca842f8d48e4a02afec9d49db9d19fc035446c8f84edff09",
+          "status": "exported",
+          "page_title": "Programme de protection des passagers : contrôle centralisé",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ppcs-ppcc-en.aspx"
+          },
+          "date_modified": "2021-07-16",
+          "date_published": "2021-07-16",
+          "has_pia_text": true,
+          "title": "Programme de protection des passagers : contrôle centralisé",
+          "conversion": "markdownify",
+          "text_sha256": "93b6140b4a3277eb38b552ed484a8c232527732b170e5d3ce882910da21276d9",
+          "word_count": 2366
+        }
+      }
+    },
+    {
+      "pia_id": "pia-e2c9c1c99607",
+      "title_en": "Canadian Travel Number",
+      "title_fr": "Numéro canadien de voyages",
+      "url_en": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-trvl-nmbr-en.aspx",
+      "url_fr": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-trvl-nmbr-fr.aspx",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-trvl-nmbr-en.aspx",
+        "alternate_url": "https://securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-trvl-nmbr-fr.aspx"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-trvl-nmbr-en.aspx",
+          "title_from_list": "Canadian Travel Number",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-en.aspx",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-trvl-nmbr-en.aspx",
+              "title": "Canadian Travel Number",
+              "list_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-en.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-trvl-nmbr-en.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-trvl-nmbr-en.aspx",
+            "final_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-trvl-nmbr-en.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:33.607450+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 41809,
+            "sha256": "318db09d72ed7c6557662b0106ea3b562482e81f23b1e8e226eef28c133650cc"
+          },
+          "raw_path": "raw/e2c9c1c99607e31a04d6.html",
+          "markdown_path": "pia-e2c9c1c99607_en.md",
+          "markdown_sha256": "8f55c641ffab4968197c1a1c58deda086cee52e0637482e3b1635ebaff722782",
+          "status": "exported",
+          "page_title": "Canadian Travel Number",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-trvl-nmbr-fr.aspx"
+          },
+          "date_modified": "2020-11-18",
+          "date_published": "2020-11-18",
+          "has_pia_text": true,
+          "title": "Canadian Travel Number",
+          "conversion": "markdownify",
+          "text_sha256": "93db6cc593bf454d1db8c88965e40c0e0ca3409f7fa5dfb33e814ddd6e31700a",
+          "word_count": 2122
+        },
+        "fr": {
+          "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-trvl-nmbr-fr.aspx",
+          "title_from_list": "Numéro canadien de voyages",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-fr.aspx",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-trvl-nmbr-fr.aspx",
+              "title": "Numéro canadien de voyages",
+              "list_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-fr.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-trvl-nmbr-fr.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-trvl-nmbr-fr.aspx",
+            "final_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-trvl-nmbr-fr.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:50:13.914080+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 45816,
+            "sha256": "124744d0cda93e963ec0b28629db4afec82e17ab7042d8d5e129f0959b925e26"
+          },
+          "raw_path": "raw/9f2bcad15be04a909c1d.html",
+          "markdown_path": "pia-e2c9c1c99607_fr.md",
+          "markdown_sha256": "c138271feaf929a26dacbb021feae2489689dad0c1eaa1f0abb2d1e1045831d6",
+          "status": "exported",
+          "page_title": "Numéro canadien de voyages",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-trvl-nmbr-en.aspx"
+          },
+          "date_modified": "2020-11-18",
+          "date_published": "2020-11-18",
+          "has_pia_text": true,
+          "title": "Numéro canadien de voyages",
+          "conversion": "markdownify",
+          "text_sha256": "1157dddf96d0cec66b11d521455ddd1508117999262deb7be47894342302a8eb",
+          "word_count": 2519
+        }
+      }
+    },
+    {
+      "pia_id": "pia-d9d9ca65cad4",
+      "title_en": "Passenger Protect Program",
+      "title_fr": "Le Programme de protection des passagers",
+      "url_en": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/pssngr-prtct-en.aspx",
+      "url_fr": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/pssngr-prtct-fr.aspx",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/pssngr-prtct-en.aspx",
+        "alternate_url": "https://securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/pssngr-prtct-fr.aspx"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/pssngr-prtct-en.aspx",
+          "title_from_list": "Passenger Protect Program",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-en.aspx",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/pssngr-prtct-en.aspx",
+              "title": "Passenger Protect Program",
+              "list_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-en.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/pssngr-prtct-en.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/pssngr-prtct-en.aspx",
+            "final_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/pssngr-prtct-en.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:34.615401+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 40544,
+            "sha256": "2e647646f38ccb2f7e51e611be84186328f73da8aac2dc68a1f730c2edbd6e9a"
+          },
+          "raw_path": "raw/d9d9ca65cad46d4307b3.html",
+          "markdown_path": "pia-d9d9ca65cad4_en.md",
+          "markdown_sha256": "7627c6ffd67a794ebb1eca1b8f797614783622f875c2c50f481916afd1519a86",
+          "status": "exported",
+          "page_title": "Passenger Protect Program",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/pssngr-prtct-fr.aspx"
+          },
+          "date_modified": "2019-02-11",
+          "date_published": "2019-03-02",
+          "has_pia_text": true,
+          "title": "Passenger Protect Program",
+          "conversion": "markdownify",
+          "text_sha256": "ee059ee6e4c63757e50b96cdf963f3bfb8a78864eb09ffca21c5667648ff21ae",
+          "word_count": 1919
+        },
+        "fr": {
+          "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/pssngr-prtct-fr.aspx",
+          "title_from_list": "Le Programme de protection des passagers",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-fr.aspx",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/pssngr-prtct-fr.aspx",
+              "title": "Le Programme de protection des passagers",
+              "list_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-fr.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/pssngr-prtct-fr.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/pssngr-prtct-fr.aspx",
+            "final_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/pssngr-prtct-fr.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:39.976893+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 45015,
+            "sha256": "09b8a41c62317bfd50d7df9697ee5e4edfc7445d5e623614d973933fd89e995c"
+          },
+          "raw_path": "raw/01b7093d642138801af1.html",
+          "markdown_path": "pia-d9d9ca65cad4_fr.md",
+          "markdown_sha256": "dc1c6d3b7e01d8cd484d0a13ee95def556fbfb69de856ac8b4c2eccc79ec8a48",
+          "status": "exported",
+          "page_title": "Le Programme de protection des passagers",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/pssngr-prtct-en.aspx"
+          },
+          "date_modified": "2019-02-11",
+          "date_published": "2019-03-02",
+          "has_pia_text": true,
+          "title": "Le Programme de protection des passagers",
+          "conversion": "markdownify",
+          "text_sha256": "1736fcc188af90126372256d4f03e660265a8c91b3cec4d252a4803319e715e0",
+          "word_count": 2277
+        }
+      }
+    },
+    {
+      "pia_id": "pia-161583d65cb1",
+      "title_en": "Memorial Grant Program for First Responders",
+      "title_fr": "Programme de subvention commémoratif pour les premiers répondants",
+      "url_en": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mmrl-grnt-prgrm-frst-rspndrs-en.aspx",
+      "url_fr": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mmrl-grnt-prgrm-frst-rspndrs-fr.aspx",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mmrl-grnt-prgrm-frst-rspndrs-en.aspx",
+        "alternate_url": "https://securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mmrl-grnt-prgrm-frst-rspndrs-fr.aspx"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mmrl-grnt-prgrm-frst-rspndrs-en.aspx",
+          "title_from_list": "Memorial Grant Program for First Responders",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-en.aspx",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mmrl-grnt-prgrm-frst-rspndrs-en.aspx",
+              "title": "Memorial Grant Program for First Responders",
+              "list_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-en.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mmrl-grnt-prgrm-frst-rspndrs-en.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mmrl-grnt-prgrm-frst-rspndrs-en.aspx",
+            "final_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mmrl-grnt-prgrm-frst-rspndrs-en.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:34.089597+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 33965,
+            "sha256": "0d3f2abd81ac04fadda21c13e9651c3b8e4922ef3c949925fcc68abaa9e8d651"
+          },
+          "raw_path": "raw/161583d65cb13f55d221.html",
+          "markdown_path": "pia-161583d65cb1_en.md",
+          "markdown_sha256": "6c3e5ef8923f990dc9cba00a8ff8423e31dc0741744068ebf898a12427191df9",
+          "status": "exported",
+          "page_title": "Memorial Grant Program for First Responders",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mmrl-grnt-prgrm-frst-rspndrs-fr.aspx"
+          },
+          "date_modified": "2018-12-13",
+          "date_published": "2018-12-21",
+          "has_pia_text": true,
+          "title": "Memorial Grant Program for First Responders",
+          "conversion": "markdownify",
+          "text_sha256": "00a49abf50610628c0317ab708c1566d2146d3afca759681bb2452ec8b25b1ce",
+          "word_count": 896
+        },
+        "fr": {
+          "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mmrl-grnt-prgrm-frst-rspndrs-fr.aspx",
+          "title_from_list": "Programme de subvention commémoratif pour les premiers répondants",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-fr.aspx",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mmrl-grnt-prgrm-frst-rspndrs-fr.aspx",
+              "title": "Programme de subvention commémoratif pour les premiers répondants",
+              "list_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-fr.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mmrl-grnt-prgrm-frst-rspndrs-fr.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mmrl-grnt-prgrm-frst-rspndrs-fr.aspx",
+            "final_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mmrl-grnt-prgrm-frst-rspndrs-fr.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:39.973878+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 36783,
+            "sha256": "74e59d3fe5a97bc9183663e81940d8a465b1517016cfbb1c1a1b0290973dddbd"
+          },
+          "raw_path": "raw/8dcba4dbd69eb9db5690.html",
+          "markdown_path": "pia-161583d65cb1_fr.md",
+          "markdown_sha256": "3bc40570e400287a05d6e66ad99cbb4f409e7c96cf70dd2a896e870d43134c7e",
+          "status": "exported",
+          "page_title": "Programme de subvention commémoratif pour les premiers répondants",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mmrl-grnt-prgrm-frst-rspndrs-en.aspx"
+          },
+          "date_modified": "2018-12-13",
+          "date_published": "2018-12-21",
+          "has_pia_text": true,
+          "title": "Programme de subvention commémoratif pour les premiers répondants",
+          "conversion": "markdownify",
+          "text_sha256": "47d46e9fe146915f59424e21a8567a7d9c263eccdf975727498f1d8635df03fe",
+          "word_count": 1098
+        }
+      }
+    },
+    {
+      "pia_id": "pia-cd9260b3b46d",
+      "title_en": "Governor in Council Appointments",
+      "title_fr": "Nominations par le gouverneur en conseil",
+      "url_en": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnr-cncl-ppntmnts-en.aspx",
+      "url_fr": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnr-cncl-ppntmnts-fr.aspx",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnr-cncl-ppntmnts-en.aspx",
+        "alternate_url": "https://securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnr-cncl-ppntmnts-fr.aspx"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnr-cncl-ppntmnts-en.aspx",
+          "title_from_list": "Governor in Council Appointments",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-en.aspx",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnr-cncl-ppntmnts-en.aspx",
+              "title": "Governor in Council Appointments",
+              "list_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-en.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnr-cncl-ppntmnts-en.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnr-cncl-ppntmnts-en.aspx",
+            "final_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnr-cncl-ppntmnts-en.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:33.671510+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 38048,
+            "sha256": "7029a98dcd8580fefc4b36bd2f89c7fa7f546affec3728e791b17f0325cc8893"
+          },
+          "raw_path": "raw/cd9260b3b46d807df9eb.html",
+          "markdown_path": "pia-cd9260b3b46d_en.md",
+          "markdown_sha256": "7be5c779690fd40af40d2c1cf27f4658b1de9a86f178aec3b2f3865c44af8bff",
+          "status": "exported",
+          "page_title": "Governor in Council Appointments",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnr-cncl-ppntmnts-fr.aspx"
+          },
+          "date_modified": "2017-10-18",
+          "date_published": "2018-12-21",
+          "has_pia_text": true,
+          "title": "Governor in Council Appointments",
+          "conversion": "markdownify",
+          "text_sha256": "5951f7dfda14d129188620e184c7c7dd4a6c55902f0868f35f5057469d715326",
+          "word_count": 1337
+        },
+        "fr": {
+          "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnr-cncl-ppntmnts-fr.aspx",
+          "title_from_list": "Nominations par le gouverneur en conseil",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-fr.aspx",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnr-cncl-ppntmnts-fr.aspx",
+              "title": "Nominations par le gouverneur en conseil",
+              "list_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-fr.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnr-cncl-ppntmnts-fr.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnr-cncl-ppntmnts-fr.aspx",
+            "final_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnr-cncl-ppntmnts-fr.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:50:14.175513+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 41819,
+            "sha256": "3fec3c80a1216b128e782ae52bdbad0089f4568dfd984347cb0534f187b85848"
+          },
+          "raw_path": "raw/0726a23ee33800a0ce64.html",
+          "markdown_path": "pia-cd9260b3b46d_fr.md",
+          "markdown_sha256": "4764d8b6971632bb31c97e3dc83dfb142fdb71ad9457987199f72e92f9dc9c20",
+          "status": "exported",
+          "page_title": "Nominations par le gouverneur en conseil",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnr-cncl-ppntmnts-en.aspx"
+          },
+          "date_modified": "2017-10-18",
+          "date_published": "2018-12-21",
+          "has_pia_text": true,
+          "title": "Nominations par le gouverneur en conseil",
+          "conversion": "markdownify",
+          "text_sha256": "4b2b445cfe597bf2ac43c86be7484a7fd8f64f5d7e94b079497e351d675281b1",
+          "word_count": 1731
+        }
+      }
+    },
+    {
+      "pia_id": "pia-1475d9c703d2",
+      "title_en": "Emergency Management Exemplary Service Award",
+      "title_fr": "Prix pour service exemplaire en gestion des urgences",
+      "url_en": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mrgnc-mngmnt-xmplry-srvc-wrd-en.aspx",
+      "url_fr": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mrgnc-mngmnt-xmplry-srvc-wrd-fr.aspx",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mrgnc-mngmnt-xmplry-srvc-wrd-en.aspx",
+        "alternate_url": "https://securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mrgnc-mngmnt-xmplry-srvc-wrd-fr.aspx"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mrgnc-mngmnt-xmplry-srvc-wrd-en.aspx",
+          "title_from_list": "Emergency Management Exemplary Service Award",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-en.aspx",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mrgnc-mngmnt-xmplry-srvc-wrd-en.aspx",
+              "title": "Emergency Management Exemplary Service Award",
+              "list_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-en.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mrgnc-mngmnt-xmplry-srvc-wrd-en.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mrgnc-mngmnt-xmplry-srvc-wrd-en.aspx",
+            "final_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mrgnc-mngmnt-xmplry-srvc-wrd-en.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:34.464761+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 34654,
+            "sha256": "b1790d92783adbfbf619a44e2d7557719c91528bf5676440d6a3e69082cbb5f5"
+          },
+          "raw_path": "raw/1475d9c703d2af12c6eb.html",
+          "markdown_path": "pia-1475d9c703d2_en.md",
+          "markdown_sha256": "ac6b6e87a3b3bec9c06a248c02af70d720967988dbb2a4af149b985036947ff8",
+          "status": "exported",
+          "page_title": "Emergency Management Exemplary Service Award",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mrgnc-mngmnt-xmplry-srvc-wrd-fr.aspx"
+          },
+          "date_modified": "2017-10-24",
+          "date_published": "2018-12-21",
+          "has_pia_text": true,
+          "title": "Emergency Management Exemplary Service Award",
+          "conversion": "markdownify",
+          "text_sha256": "2e2026205a769c5a4b24e890dbb3c33a54a87c5a96d37fd3c2e5a0661fc3edf2",
+          "word_count": 1060
+        },
+        "fr": {
+          "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mrgnc-mngmnt-xmplry-srvc-wrd-fr.aspx",
+          "title_from_list": "Prix pour service exemplaire en gestion des urgences",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-fr.aspx",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mrgnc-mngmnt-xmplry-srvc-wrd-fr.aspx",
+              "title": "Prix pour service exemplaire en gestion des urgences",
+              "list_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-fr.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mrgnc-mngmnt-xmplry-srvc-wrd-fr.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mrgnc-mngmnt-xmplry-srvc-wrd-fr.aspx",
+            "final_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mrgnc-mngmnt-xmplry-srvc-wrd-fr.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:39.974929+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 38012,
+            "sha256": "ad9791c5f7af3ff700839007f69e747d2cadd88f7fc88aa75b9eb6228044a89c"
+          },
+          "raw_path": "raw/2be4fcfad0964efabaf3.html",
+          "markdown_path": "pia-1475d9c703d2_fr.md",
+          "markdown_sha256": "a6fc08e51de64df6693d35f94820cb41d4140355f7428907220ba9bf77b0fa7d",
+          "status": "exported",
+          "page_title": "Prix pour service exemplaire en gestion des urgences",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mrgnc-mngmnt-xmplry-srvc-wrd-en.aspx"
+          },
+          "date_modified": "2017-10-24",
+          "date_published": "2018-12-21",
+          "has_pia_text": true,
+          "title": "Prix pour service exemplaire en gestion des urgences",
+          "conversion": "markdownify",
+          "text_sha256": "02f3069b7030fccf1659041f84df453a33057cd7006c6c5a3604abdd57449498",
+          "word_count": 1428
+        }
+      }
+    },
+    {
+      "pia_id": "pia-41a13d655c2a",
+      "title_en": "Mentoring Program",
+      "title_fr": "Programme de mentorat",
+      "url_en": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mntrng-prgrm-en.aspx",
+      "url_fr": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mntrng-prgrm-fr.aspx",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mntrng-prgrm-en.aspx",
+        "alternate_url": "https://securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mntrng-prgrm-fr.aspx"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mntrng-prgrm-en.aspx",
+          "title_from_list": "Mentoring Program",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-en.aspx",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mntrng-prgrm-en.aspx",
+              "title": "Mentoring Program",
+              "list_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-en.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mntrng-prgrm-en.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mntrng-prgrm-en.aspx",
+            "final_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mntrng-prgrm-en.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:34.463394+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 38991,
+            "sha256": "c55c62f9800f4bcdebc2bf1368dc03ac646edb60cd64fac8cad5b156b5bbabb4"
+          },
+          "raw_path": "raw/41a13d655c2af842b285.html",
+          "markdown_path": "pia-41a13d655c2a_en.md",
+          "markdown_sha256": "8c6c46290dbda03c0efa9737f17b58e99aed820f14bf4b2fb07d5551c7363ff8",
+          "status": "exported",
+          "page_title": "Mentoring Program",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mntrng-prgrm-fr.aspx"
+          },
+          "date_modified": "2017-10-24",
+          "date_published": "2018-12-21",
+          "has_pia_text": true,
+          "title": "Mentoring Program",
+          "conversion": "markdownify",
+          "text_sha256": "8a946c75ef8ddac633ae7621971e346605c1b152f156015860af34dd6072c077",
+          "word_count": 1693
+        },
+        "fr": {
+          "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mntrng-prgrm-fr.aspx",
+          "title_from_list": "Programme de mentorat",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-fr.aspx",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mntrng-prgrm-fr.aspx",
+              "title": "Programme de mentorat",
+              "list_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-fr.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mntrng-prgrm-fr.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mntrng-prgrm-fr.aspx",
+            "final_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mntrng-prgrm-fr.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:39.976076+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 42985,
+            "sha256": "c65f003c9b7913a5526ab086455929c6370be6ae4b6275d9c1145eec161cdf2b"
+          },
+          "raw_path": "raw/97e6ebbea2f7b11f8e5f.html",
+          "markdown_path": "pia-41a13d655c2a_fr.md",
+          "markdown_sha256": "12dcd523d7e8168a31a1d0134715318a6936137387e79651bd38785b93faf4a6",
+          "status": "exported",
+          "page_title": "Programme de mentorat",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/mntrng-prgrm-en.aspx"
+          },
+          "date_modified": "2017-10-24",
+          "date_published": "2018-12-21",
+          "has_pia_text": true,
+          "title": "Programme de mentorat",
+          "conversion": "markdownify",
+          "text_sha256": "b07763105f29415634bab54fe68ca10534e1da52d8f0724132d65a6acb638181",
+          "word_count": 2110
+        }
+      }
+    },
+    {
+      "pia_id": "pia-e1debcb4fdab",
+      "title_en": "Air India Ex-Gratia Payments",
+      "title_fr": "Paiements à titre gracieux d'Air India",
+      "url_en": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ai-xgrt-pymnts-en.aspx",
+      "url_fr": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ai-xgrt-pymnts-fr.aspx",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ai-xgrt-pymnts-en.aspx",
+        "alternate_url": "https://securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ai-xgrt-pymnts-fr.aspx"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ai-xgrt-pymnts-en.aspx",
+          "title_from_list": "Air India Ex-Gratia Payments",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-en.aspx",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ai-xgrt-pymnts-en.aspx",
+              "title": "Air India Ex-Gratia Payments",
+              "list_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-en.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ai-xgrt-pymnts-en.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ai-xgrt-pymnts-en.aspx",
+            "final_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ai-xgrt-pymnts-en.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:33.429538+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 32851,
+            "sha256": "7e0800310f3fa872bb9ac99188b94072d2625053415730265b04d31ac4c354c1"
+          },
+          "raw_path": "raw/e1debcb4fdab5abbf484.html",
+          "markdown_path": "pia-e1debcb4fdab_en.md",
+          "markdown_sha256": "a4006450437d1da289577173c1f3d33250d0146a6932d9bec2678ed6a8cebf74",
+          "status": "exported",
+          "page_title": "Air India Ex-Gratia Payments",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ai-xgrt-pymnts-fr.aspx"
+          },
+          "date_modified": "2017-10-24",
+          "date_published": "2018-12-21",
+          "has_pia_text": true,
+          "title": "Air India Ex-Gratia Payments",
+          "conversion": "markdownify",
+          "text_sha256": "de1d7ac27eed8b1ef5b9909d01ddfb3d2cf74f7fd6261c4359b41b49f78311a8",
+          "word_count": 888
+        },
+        "fr": {
+          "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ai-xgrt-pymnts-fr.aspx",
+          "title_from_list": "Paiements à titre gracieux d'Air India",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-fr.aspx",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ai-xgrt-pymnts-fr.aspx",
+              "title": "Paiements à titre gracieux d'Air India",
+              "list_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-fr.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ai-xgrt-pymnts-fr.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ai-xgrt-pymnts-fr.aspx",
+            "final_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ai-xgrt-pymnts-fr.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:50:12.941906+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 35859,
+            "sha256": "099c796dba63eb41422ab45f83047792a16a439e1e4cbc71ba70bcffb1807aa4"
+          },
+          "raw_path": "raw/ef7e558f55fa50d03389.html",
+          "markdown_path": "pia-e1debcb4fdab_fr.md",
+          "markdown_sha256": "8f899c73f9ff6485b55f155a7c9959a83efa2f65396fdfc66dd41af5ee97dd62",
+          "status": "exported",
+          "page_title": "Paiements à titre gracieux d'Air India",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/ai-xgrt-pymnts-en.aspx"
+          },
+          "date_modified": "2017-10-24",
+          "date_published": "2018-12-21",
+          "has_pia_text": true,
+          "title": "Paiements à titre gracieux d'Air India",
+          "conversion": "markdownify",
+          "text_sha256": "2e7eefc465578938602b299854853c0d118a0eb82a03a28685066f22bcc80963",
+          "word_count": 1189
+        }
+      }
+    },
+    {
+      "pia_id": "pia-7ac2594c8c93",
+      "title_en": "The Canadian Cyber Incident Response Center's (CCIRC) Collection of Digital Information",
+      "title_fr": "La collecte des renseignements numérique par le Centre canadien de réponse aux incidents cybernétiques (CCRIC)",
+      "url_en": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-cbr-ncdnt-en.aspx",
+      "url_fr": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-cbr-ncdnt-fr.aspx",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-cbr-ncdnt-en.aspx",
+        "alternate_url": "https://securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-cbr-ncdnt-fr.aspx"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-cbr-ncdnt-en.aspx",
+          "title_from_list": "The Canadian Cyber Incident Response Center's (CCIRC) Collection of Digital Information",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-en.aspx",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-cbr-ncdnt-en.aspx",
+              "title": "The Canadian Cyber Incident Response Center's (CCIRC) Collection of Digital Information",
+              "list_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-en.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-cbr-ncdnt-en.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-cbr-ncdnt-en.aspx",
+            "final_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-cbr-ncdnt-en.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:33.604425+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 41865,
+            "sha256": "84f9afd31bbdf3661c2062b3ee821367872aa0695a150e1c8a35b4959ac14ebf"
+          },
+          "raw_path": "raw/7ac2594c8c9399362fe7.html",
+          "markdown_path": "pia-7ac2594c8c93_en.md",
+          "markdown_sha256": "4001332a7b0079088c1ca52c83108f08286e414afcec8e2a5df6b5431aec5aa8",
+          "status": "exported",
+          "page_title": "The Canadian Cyber Incident Response Center's (CCIRC) Collection of Digital Information",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-cbr-ncdnt-fr.aspx"
+          },
+          "date_modified": "2015-12-09",
+          "date_published": "2018-12-21",
+          "has_pia_text": true,
+          "title": "The Canadian Cyber Incident Response Center's (CCIRC) Collection of Digital Information",
+          "conversion": "markdownify",
+          "text_sha256": "267d1483c357db58da87e5a99511e89daa87274ba96e23858d090ca88410f66d",
+          "word_count": 1838
+        },
+        "fr": {
+          "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-cbr-ncdnt-fr.aspx",
+          "title_from_list": "La collecte des renseignements numérique par le Centre canadien de réponse aux incidents cybernétiques (CCRIC)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-fr.aspx",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-cbr-ncdnt-fr.aspx",
+              "title": "La collecte des renseignements numérique par le Centre canadien de réponse aux incidents cybernétiques (CCRIC)",
+              "list_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-fr.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-cbr-ncdnt-fr.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-cbr-ncdnt-fr.aspx",
+            "final_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-cbr-ncdnt-fr.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:50:13.860323+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 46554,
+            "sha256": "2bc013949df9afff1d5db048dc4ade0bf712d743ee2791248ed3988217f30483"
+          },
+          "raw_path": "raw/85bbb679ffa5017bdccb.html",
+          "markdown_path": "pia-7ac2594c8c93_fr.md",
+          "markdown_sha256": "1eb04b17987bcf44c7de4c56f53d6e6fa6a2c1fc75375e079a0497221c09df34",
+          "status": "exported",
+          "page_title": "La collecte des renseignements numérique par le Centre canadien de réponse aux incidents cybernétiques (CCRIC)",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/cndn-cbr-ncdnt-en.aspx"
+          },
+          "date_modified": "2015-12-09",
+          "date_published": "2018-12-21",
+          "has_pia_text": true,
+          "title": "La collecte des renseignements numérique par le Centre canadien de réponse aux incidents cybernétiques (CCRIC)",
+          "conversion": "markdownify",
+          "text_sha256": "5414f535b6f232770c630a9a38cefe3b89705c30f5d20e40ca328aa262692f9f",
+          "word_count": 2385
+        }
+      }
+    },
+    {
+      "pia_id": "pia-2ffbbd0688f4",
+      "title_en": "Government Operations Centre",
+      "title_fr": "Centre des opérations du gouvernement",
+      "url_en": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnmnt-prtns-cntr-en.aspx",
+      "url_fr": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnmnt-prtns-cntr-fr.aspx",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnmnt-prtns-cntr-en.aspx",
+        "alternate_url": "https://securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnmnt-prtns-cntr-fr.aspx"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnmnt-prtns-cntr-en.aspx",
+          "title_from_list": "Government Operations Centre",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-en.aspx",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnmnt-prtns-cntr-en.aspx",
+              "title": "Government Operations Centre",
+              "list_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-en.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnmnt-prtns-cntr-en.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnmnt-prtns-cntr-en.aspx",
+            "final_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnmnt-prtns-cntr-en.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:33.668491+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 40801,
+            "sha256": "b6ea31699d8ab8531d11d9f399bc3a81267eb29b94c4adbfaa2f00802268c2be"
+          },
+          "raw_path": "raw/2ffbbd0688f40fb969b3.html",
+          "markdown_path": "pia-2ffbbd0688f4_en.md",
+          "markdown_sha256": "2b41ea8252159faa9965ce8a0046d83964d52fce4668805934376d19007c7dc3",
+          "status": "exported",
+          "page_title": "Government Operations Centre",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnmnt-prtns-cntr-fr.aspx"
+          },
+          "date_modified": "2016-02-04",
+          "date_published": "2018-12-21",
+          "has_pia_text": true,
+          "title": "Government Operations Centre",
+          "conversion": "markdownify",
+          "text_sha256": "baf06f8b7e0fe1346486223005bc93e1dc7fe0a61f56a1e3ba712959dad7a263",
+          "word_count": 1808
+        },
+        "fr": {
+          "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnmnt-prtns-cntr-fr.aspx",
+          "title_from_list": "Centre des opérations du gouvernement",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-fr.aspx",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnmnt-prtns-cntr-fr.aspx",
+              "title": "Centre des opérations du gouvernement",
+              "list_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-fr.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnmnt-prtns-cntr-fr.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnmnt-prtns-cntr-fr.aspx",
+            "final_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnmnt-prtns-cntr-fr.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:50:14.111432+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 45844,
+            "sha256": "2525113785a8dda9abd0c9f888b4ca29a28cd36d0677e2a3437ec9fb719381ba"
+          },
+          "raw_path": "raw/7fc5b76e68ce69a027dd.html",
+          "markdown_path": "pia-2ffbbd0688f4_fr.md",
+          "markdown_sha256": "3c300fb4f6bb870002c319913eb433b02f54969c1c70800fda8068dcf3036320",
+          "status": "exported",
+          "page_title": "Centre des opérations du gouvernement",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/gvrnmnt-prtns-cntr-en.aspx"
+          },
+          "date_modified": "2016-02-04",
+          "date_published": "2018-12-21",
+          "has_pia_text": true,
+          "title": "Centre des opérations du gouvernement",
+          "conversion": "markdownify",
+          "text_sha256": "6f65033af11676125419796e5897fa822c0d60d7aa6c54a5320527da653a640c",
+          "word_count": 2416
+        }
+      }
+    },
+    {
+      "pia_id": "pia-b04e343ef6af",
+      "title_en": "Prevalence of Sexual Coercion and Violence (SCV) in Federal Custody",
+      "title_fr": "Prévalence de la coercition et de la violence sexuelles (CVS) en détention fédérale",
+      "url_en": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/scv-fdrl-cstd-en.aspx",
+      "url_fr": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/scv-fdrl-cstd-fr.aspx",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/scv-fdrl-cstd-en.aspx",
+        "alternate_url": "https://securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/scv-fdrl-cstd-fr.aspx"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/scv-fdrl-cstd-en.aspx",
+          "title_from_list": "Prevalence of Sexual Coercion and Violence (SCV) in Federal Custody",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-en.aspx",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/scv-fdrl-cstd-en.aspx",
+              "title": "Prevalence of Sexual Coercion and Violence (SCV) in Federal Custody",
+              "list_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-en.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/scv-fdrl-cstd-en.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/scv-fdrl-cstd-en.aspx",
+            "final_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/scv-fdrl-cstd-en.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:34.795779+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 32550,
+            "sha256": "db28a12ecb0cf4075803f1227ef9b4e8ba5d7ffa5d0109f7a778be07fc7d04c4"
+          },
+          "raw_path": "raw/b04e343ef6af35a10d3f.html",
+          "markdown_path": "pia-b04e343ef6af_en.md",
+          "markdown_sha256": "a8b22a5597120aad54d3205dee6eea45aa627e1242170b1d3582c44310195ef4",
+          "status": "exported",
+          "page_title": "Prevalence of Sexual Coercion and Violence (SCV) in Federal Custody",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/scv-fdrl-cstd-fr.aspx"
+          },
+          "date_modified": "2025-06-26",
+          "date_published": "2025-06-26",
+          "has_pia_text": true,
+          "title": "Prevalence of Sexual Coercion and Violence (SCV) in Federal Custody",
+          "conversion": "markdownify",
+          "text_sha256": "3f02e00f889ba78246e2c2aa0732d35953e051eb3da6765b872b058ac69a6905",
+          "word_count": 786
+        },
+        "fr": {
+          "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/scv-fdrl-cstd-fr.aspx",
+          "title_from_list": "Prévalence de la coercition et de la violence sexuelles (CVS) en détention fédérale",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-fr.aspx",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/scv-fdrl-cstd-fr.aspx",
+              "title": "Prévalence de la coercition et de la violence sexuelles (CVS) en détention fédérale",
+              "list_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-fr.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/scv-fdrl-cstd-fr.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/scv-fdrl-cstd-fr.aspx",
+            "final_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/scv-fdrl-cstd-fr.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:39.978356+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 34977,
+            "sha256": "f1586a2445c986e7d9d6c2915c56431ce3a486b90a377ec1810cb8cb7390e383"
+          },
+          "raw_path": "raw/77b9cb293d74cf99bed1.html",
+          "markdown_path": "pia-b04e343ef6af_fr.md",
+          "markdown_sha256": "7ac63967fe87116795eb29695f7a2a3ab3dd1d8250d5bcb62d6a5fffafa7d3b6",
+          "status": "exported",
+          "page_title": "Prévalence de la coercition et de la violence sexuelles (CVS) en détention fédérale",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/scv-fdrl-cstd-en.aspx"
+          },
+          "date_modified": "2025-06-26",
+          "date_published": "2025-06-26",
+          "has_pia_text": true,
+          "title": "Prévalence de la coercition et de la violence sexuelles (CVS) en détention fédérale",
+          "conversion": "markdownify",
+          "text_sha256": "b3554c6f2a1f0b402b587cdad87f901e882504fcd581c7902c6232e2f968c01f",
+          "word_count": 979
+        }
+      }
+    },
+    {
+      "pia_id": "pia-b7597e895afa",
+      "title_en": "Assault-Style Firearms Compensation Program - Businesses",
+      "title_fr": "Programme d'indemnisation pour les armes à feu de style arme d’assaut - entreprises",
+      "url_en": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-p1-bus-en.aspx",
+      "url_fr": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-p1-bus-fr.aspx",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-p1-bus-en.aspx",
+        "alternate_url": "https://securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-p1-bus-fr.aspx"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-p1-bus-en.aspx",
+          "title_from_list": "Assault-Style Firearms Compensation Program – Businesses",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-en.aspx",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-p1-bus-en.aspx",
+              "title": "Assault-Style Firearms Compensation Program – Businesses",
+              "list_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-en.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-p1-bus-en.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-p1-bus-en.aspx",
+            "final_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-p1-bus-en.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:33.600637+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 40531,
+            "sha256": "15a0a2a93e262f73d00ffe3236c6bb4ae472fa5b9665b2e7ac2bf3b5fc18d67a"
+          },
+          "raw_path": "raw/b7597e895afad006e3e1.html",
+          "markdown_path": "pia-b7597e895afa_en.md",
+          "markdown_sha256": "cb9806f83621653d62b89d91307501615eb482c8785366240543089cd7837010",
+          "status": "exported",
+          "page_title": "Assault-Style Firearms Compensation Program - Businesses",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-p1-bus-fr.aspx"
+          },
+          "date_modified": "2025-11-18",
+          "date_published": "2025-01-22",
+          "has_pia_text": true,
+          "title": "Assault-Style Firearms Compensation Program - Businesses",
+          "conversion": "markdownify",
+          "text_sha256": "a62ce54db572b0408097f3f900cbfe74a143a6a919080a18bc6f68d0d7fccd22",
+          "word_count": 1549
+        },
+        "fr": {
+          "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-p1-bus-fr.aspx",
+          "title_from_list": "Programme d'indemnisation pour les armes à feu de style type arme d'assaut – entreprises",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-fr.aspx",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-p1-bus-fr.aspx",
+              "title": "Programme d'indemnisation pour les armes à feu de style type arme d'assaut – entreprises",
+              "list_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-fr.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-p1-bus-fr.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-p1-bus-fr.aspx",
+            "final_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-p1-bus-fr.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:50:13.630768+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 44578,
+            "sha256": "672cec8c96a8a69ac0a48de3b60234862fb4c3d01615e75ee0ad030809185fb6"
+          },
+          "raw_path": "raw/257e96f8997e8dd3aef4.html",
+          "markdown_path": "pia-b7597e895afa_fr.md",
+          "markdown_sha256": "cd7628871d22046fef394b5ee62a14eed21eb573aa6af906259301bfe559f685",
+          "status": "exported",
+          "page_title": "Programme d'indemnisation pour les armes à feu de style arme d’assaut - entreprises",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-p1-bus-en.aspx"
+          },
+          "date_modified": "2025-11-18",
+          "date_published": "2025-01-22",
+          "has_pia_text": true,
+          "title": "Programme d'indemnisation pour les armes à feu de style arme d’assaut - entreprises",
+          "conversion": "markdownify",
+          "text_sha256": "4e8f7c9b298c24b9e944e9b7454ad306da24e49d9d814c19908cd9c4e8389c78",
+          "word_count": 2000
+        }
+      }
+    },
+    {
+      "pia_id": "pia-a27bc6428214",
+      "title_en": "Assault-Style Firearms Compensation Program – Individuals",
+      "title_fr": "Programme d'indemnisation pour les armes à feu de style arme d'assaut – particuliers",
+      "url_en": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-ndvdls-en.aspx",
+      "url_fr": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-ndvdls-fr.aspx",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-ndvdls-en.aspx",
+        "alternate_url": "https://securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-ndvdls-fr.aspx"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-ndvdls-en.aspx",
+          "title_from_list": "Assault-Style Firearms Compensation Program – Individuals",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-en.aspx",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-ndvdls-en.aspx",
+              "title": "Assault-Style Firearms Compensation Program – Individuals",
+              "list_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-en.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-ndvdls-en.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-ndvdls-en.aspx",
+            "final_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-ndvdls-en.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:33.533414+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 38494,
+            "sha256": "5a8eae87fc419f5d8144fc4e07d1f8d11fcd1a8a8f5ae72f490a4cb1f28a6d4f"
+          },
+          "raw_path": "raw/a27bc64282144292e2fe.html",
+          "markdown_path": "pia-a27bc6428214_en.md",
+          "markdown_sha256": "6b0d3af1472398c191e7d9c5e97866f7b3d400d03323cafa1751ca2a5d5172ff",
+          "status": "exported",
+          "page_title": "Assault-Style Firearms Compensation Program – Individuals",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-ndvdls-fr.aspx"
+          },
+          "date_modified": "2025-11-18",
+          "date_published": "2025-11-18",
+          "has_pia_text": true,
+          "title": "Assault-Style Firearms Compensation Program – Individuals",
+          "conversion": "markdownify",
+          "text_sha256": "47f33899b3c300d750032e3789bb6d3028ae5a4beaac2effe0b3c4c783f8df9e",
+          "word_count": 1189
+        },
+        "fr": {
+          "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-ndvdls-fr.aspx",
+          "title_from_list": "Programme d’indemnisation pour les armes à feu de style arme d’assaut – particuliers",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-fr.aspx",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-ndvdls-fr.aspx",
+              "title": "Programme d’indemnisation pour les armes à feu de style arme d’assaut – particuliers",
+              "list_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-fr.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-ndvdls-fr.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-ndvdls-fr.aspx",
+            "final_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-ndvdls-fr.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:50:12.942293+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 41769,
+            "sha256": "785a36a36ed75b09d04d96351ea5eb06db6d38a845b7619f33bedfec2bbfd881"
+          },
+          "raw_path": "raw/8e8b2c5e79867176d754.html",
+          "markdown_path": "pia-a27bc6428214_fr.md",
+          "markdown_sha256": "a783d754d251ca0cf30e766ef49f9acc4c6162dbe6040fa8eb28a2a3cbdd9356",
+          "status": "exported",
+          "page_title": "Programme d'indemnisation pour les armes à feu de style arme d'assaut – particuliers",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/asfcp-ndvdls-en.aspx"
+          },
+          "date_modified": "2025-11-18",
+          "date_published": "2025-11-18",
+          "has_pia_text": true,
+          "title": "Programme d'indemnisation pour les armes à feu de style arme d'assaut – particuliers",
+          "conversion": "markdownify",
+          "text_sha256": "0ef420d21410342b78a1494b0d188bfe3dd49fe1239d4209c5cd15b4df40c087",
+          "word_count": 1553
+        }
+      }
+    },
+    {
+      "pia_id": "pia-a02356c7ba80",
+      "title_en": "Office of the Foreign Influence Commissioner of Canada (OFICC)",
+      "title_fr": "Commissariat à l’influence étrangère du Canada (CIEC)",
+      "url_en": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/frgn-nflnc-cmmsnr-en.aspx",
+      "url_fr": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/frgn-nflnc-cmmsnr-fr.aspx",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/frgn-nflnc-cmmsnr-en.aspx",
+        "alternate_url": "https://securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/frgn-nflnc-cmmsnr-fr.aspx"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/frgn-nflnc-cmmsnr-en.aspx",
+          "title_from_list": "Office of the Foreign Influence Commissioner of Canada (OFICC)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-en.aspx",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/frgn-nflnc-cmmsnr-en.aspx",
+              "title": "Office of the Foreign Influence Commissioner of Canada (OFICC)",
+              "list_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-en.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/frgn-nflnc-cmmsnr-en.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/frgn-nflnc-cmmsnr-en.aspx",
+            "final_url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/frgn-nflnc-cmmsnr-en.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:33.667102+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 29378,
+            "sha256": "cfa328a4e94d583f9b7fde93b13f0c6762da4db4366c3999592891cb673dceb0"
+          },
+          "raw_path": "raw/a02356c7ba80807f0f97.html",
+          "markdown_path": "pia-a02356c7ba80_en.md",
+          "markdown_sha256": "609717b2f4281895249288c306dc75a4434188568f7541ad18a643439b400d07",
+          "status": "exported",
+          "page_title": "Office of the Foreign Influence Commissioner of Canada (OFICC)",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/frgn-nflnc-cmmsnr-fr.aspx"
+          },
+          "date_modified": "2026-08-05",
+          "date_published": "2026-08-05",
+          "has_pia_text": true,
+          "title": "Office of the Foreign Influence Commissioner of Canada (OFICC)",
+          "conversion": "markdownify",
+          "text_sha256": "9d552312e08a4104333cbd21de6681f234835206b2e6b0f2626ad8e05ce772f6",
+          "word_count": 464
+        },
+        "fr": {
+          "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/frgn-nflnc-cmmsnr-fr.aspx",
+          "title_from_list": "Commissariat à l’influence étrangère du Canada (CIEC)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-fr.aspx",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/frgn-nflnc-cmmsnr-fr.aspx",
+              "title": "Commissariat à l’influence étrangère du Canada (CIEC)",
+              "list_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/index-fr.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/frgn-nflnc-cmmsnr-fr.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/frgn-nflnc-cmmsnr-fr.aspx",
+            "final_url": "https://www.securitepublique.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/frgn-nflnc-cmmsnr-fr.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:50:13.933543+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 31506,
+            "sha256": "f3e59633f37bd02455e3ff08bb041cf2669a4af5bfde26bb4679ca282bb7ceba"
+          },
+          "raw_path": "raw/e1dfdc919a58b08321ce.html",
+          "markdown_path": "pia-a02356c7ba80_fr.md",
+          "markdown_sha256": "c568b01fb8107a579414aa0e0e4050a9637f8e68203e6186d5b63cdb7dcb22ab",
+          "status": "exported",
+          "page_title": "Commissariat à l’influence étrangère du Canada (CIEC)",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://publicsafety.gc.ca/cnt/trnsprnc/ccss-nfrmtn-prvc/prvc-mpct-ssssmnt/frgn-nflnc-cmmsnr-en.aspx"
+          },
+          "date_modified": "2026-08-05",
+          "date_published": "2026-08-05",
+          "has_pia_text": true,
+          "title": "Commissariat à l’influence étrangère du Canada (CIEC)",
+          "conversion": "markdownify",
+          "text_sha256": "003d411b5058aa1de56731b0d59d1e3535ce801dc89b9eefe9a3881f12473fce",
+          "word_count": 607
+        }
+      }
+    }
+  ],
+  "summary": {
+    "pia_count": 14,
+    "paired_count": 14,
+    "source_status_counts": {
+      "exported": 28
+    }
+  }
+}

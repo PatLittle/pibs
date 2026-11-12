@@ -1,0 +1,784 @@
+{
+  "schema_version": 1,
+  "collector_version": 1,
+  "collected_at_utc": "2026-11-12T01:50:37.367801+00:00",
+  "institution_id": "ati-schedule-i-department-of-transport",
+  "gc_orgID": "2238.0",
+  "open_canada_org_id": "AEAE485F-42DE-4D33-AFA3-F8A3A76FC663",
+  "open_canada_org_slug": "tc",
+  "name_en": "Department of Transport",
+  "name_fr": "Ministère des Transports",
+  "registry_membership": "current_registry",
+  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "list_pages": {
+    "en": {
+      "indexed_url": "https://tc.canada.ca/en/privacy-impact-assessments",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://tc.canada.ca/en/privacy-impact-assessments",
+          "final_url": "https://tc.canada.ca/en/privacy-impact-assessments",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:28.239585+00:00",
+          "redirects": [],
+          "content_type": "text/html; charset=UTF-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Wed, 11 Nov 2026 15:44:02 GMT",
+          "etag": "W/\"1794411842\"",
+          "byte_count": 40058,
+          "sha256": "a6061d081b16c59fd1e5b9cb520e835963fe8cd30b516c71df4f0d5451ce523e",
+          "raw_path": "raw/7fe9993d7f4bc880952f.html"
+        }
+      ],
+      "discovered_count": 6,
+      "scopes": [
+        "Privacy Impact Assessments"
+      ],
+      "warnings": []
+    },
+    "fr": {
+      "indexed_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "N",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee",
+          "final_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:28.331129+00:00",
+          "redirects": [],
+          "content_type": "text/html; charset=UTF-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Wed, 11 Nov 2026 16:48:38 GMT",
+          "etag": "W/\"1794415718\"",
+          "byte_count": 42147,
+          "sha256": "47974acbfcadea48648f643b8afbfe7abcf17ad0240aefd371c1d5d99e2bb114",
+          "raw_path": "raw/c4790daa307c324837dd.html"
+        }
+      ],
+      "discovered_count": 6,
+      "scopes": [
+        "Évaluations des facteurs relatifs à la vie privée"
+      ],
+      "warnings": []
+    }
+  },
+  "pias": [
+    {
+      "pia_id": "pia-53183a61e6ef",
+      "title_en": "Privacy Impact Assessment Summary for the Civil Aviation Licensing Operations Program",
+      "title_fr": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le programme des opérations de délivrance des licences de l’Aviation civile",
+      "url_en": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-civil-aviation-licensing-operations-program",
+      "url_fr": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-programme-operations-delivrance-licences-aviation-civile",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-civil-aviation-licensing-operations-program",
+        "alternate_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-programme-operations-delivrance-licences-aviation-civile"
+      },
+      "sources": {
+        "en": {
+          "url": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-civil-aviation-licensing-operations-program",
+          "title_from_list": "Civil Aviation Licensing Operations Program",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://tc.canada.ca/en/privacy-impact-assessments",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-civil-aviation-licensing-operations-program",
+              "title": "Civil Aviation Licensing Operations Program",
+              "list_url": "https://tc.canada.ca/en/privacy-impact-assessments",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-civil-aviation-licensing-operations-program"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-civil-aviation-licensing-operations-program",
+            "final_url": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-civil-aviation-licensing-operations-program",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:11.200939+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 14:38:58 GMT",
+            "etag": "W/\"1794407938\"",
+            "byte_count": 42437,
+            "sha256": "23c2ad568d1404167be20fff49c12a2a3393b5c1bd872050f190d65ccc56df69"
+          },
+          "raw_path": "raw/53183a61e6ef562a337e.html",
+          "markdown_path": "pia-53183a61e6ef_en.md",
+          "markdown_sha256": "0a100bb8683c187fd099a86d4185088a7ea62818240f7a19119127a7bb6049d5",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summary for the Civil Aviation Licensing Operations Program",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-civil-aviation-licensing-operations-program",
+            "fr": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-programme-operations-delivrance-licences-aviation-civile"
+          },
+          "date_modified": null,
+          "date_published": null,
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment Summary for the Civil Aviation Licensing Operations Program",
+          "conversion": "markdownify",
+          "text_sha256": "1e9dee9f203223fc1fb59838aaea3727ee7a61ff4bae06c862a30c15f2c1cc57",
+          "word_count": 711
+        },
+        "fr": {
+          "url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-programme-operations-delivrance-licences-aviation-civile",
+          "title_from_list": "Programme des opérations de délivrance des licences de l’Aviation civile",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-programme-operations-delivrance-licences-aviation-civile",
+              "title": "Programme des opérations de délivrance des licences de l’Aviation civile",
+              "list_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-programme-operations-delivrance-licences-aviation-civile"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-programme-operations-delivrance-licences-aviation-civile",
+            "final_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-programme-operations-delivrance-licences-aviation-civile",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:11.859414+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 18:49:37 GMT",
+            "etag": "W/\"1794422977\"",
+            "byte_count": 45024,
+            "sha256": "46b0c9b5ddd665ddd5606d8de8b25d998169186aafbc27faaa2b3c0f6e94b97e"
+          },
+          "raw_path": "raw/c1f34d1ad4b09fda1088.html",
+          "markdown_path": "pia-53183a61e6ef_fr.md",
+          "markdown_sha256": "49f1d3aa8a565aa9aace3778e7f3a6da4f721fae23091deeaffbc3b4d8e1cdc3",
+          "status": "exported",
+          "page_title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le programme des opérations de délivrance des licences de l’Aviation civile",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-civil-aviation-licensing-operations-program",
+            "fr": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-programme-operations-delivrance-licences-aviation-civile"
+          },
+          "date_modified": null,
+          "date_published": null,
+          "has_pia_text": true,
+          "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le programme des opérations de délivrance des licences de l’Aviation civile",
+          "conversion": "markdownify",
+          "text_sha256": "cfdfff2c5cd58fa9ab514877906592f7caae1135f338a61bc366db330a01db2b",
+          "word_count": 875
+        }
+      }
+    },
+    {
+      "pia_id": "pia-53b7587598dd",
+      "title_en": "Privacy Impact Assessment Summary for the Transportation Security Clearance Programs",
+      "title_fr": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le programme d’habilitation de sécurité en matière de transport",
+      "url_en": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-transportation-security-clearance-programs",
+      "url_fr": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-programme-habilitation-securite-matiere-transport",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-transportation-security-clearance-programs",
+        "alternate_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-programme-habilitation-securite-matiere-transport"
+      },
+      "sources": {
+        "en": {
+          "url": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-transportation-security-clearance-programs",
+          "title_from_list": "Transportation Security Clearance Programs",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://tc.canada.ca/en/privacy-impact-assessments",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-transportation-security-clearance-programs",
+              "title": "Transportation Security Clearance Programs",
+              "list_url": "https://tc.canada.ca/en/privacy-impact-assessments",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-transportation-security-clearance-programs"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-transportation-security-clearance-programs",
+            "final_url": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-transportation-security-clearance-programs",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:11.401668+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 18:19:22 GMT",
+            "etag": "W/\"1794421162\"",
+            "byte_count": 39458,
+            "sha256": "f4882e60dee2dbac247be8bbc15cc73b2af41f7cca42e2dac1bce9fde6d44f9c"
+          },
+          "raw_path": "raw/53b7587598dd9e63d083.html",
+          "markdown_path": "pia-53b7587598dd_en.md",
+          "markdown_sha256": "7db68fc2a1f596135855dc807666678ce9a33999200d6d5ba48795abf7771500",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summary for the Transportation Security Clearance Programs",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-transportation-security-clearance-programs",
+            "fr": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-programme-habilitation-securite-matiere-transport"
+          },
+          "date_modified": null,
+          "date_published": null,
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment Summary for the Transportation Security Clearance Programs",
+          "conversion": "markdownify",
+          "text_sha256": "88457131de3cbb44ada254933056a3782778d6ebf3d144a8a69afd6f5113696c",
+          "word_count": 369
+        },
+        "fr": {
+          "url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-programme-habilitation-securite-matiere-transport",
+          "title_from_list": "Programmes d’habilitation de sécurité en matière de transport",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-programme-habilitation-securite-matiere-transport",
+              "title": "Programmes d’habilitation de sécurité en matière de transport",
+              "list_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-programme-habilitation-securite-matiere-transport"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-programme-habilitation-securite-matiere-transport",
+            "final_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-programme-habilitation-securite-matiere-transport",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:11.857084+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 18:49:38 GMT",
+            "etag": "W/\"1794422978\"",
+            "byte_count": 41834,
+            "sha256": "99784973e0ee82c4340033390b391b3990893d077f20b3177bd8854c34bb8de8"
+          },
+          "raw_path": "raw/62cdc1486d9c97af9783.html",
+          "markdown_path": "pia-53b7587598dd_fr.md",
+          "markdown_sha256": "045303435ff375a5207645cda7765707a5581420ac71b4f387aa9944331dd18d",
+          "status": "exported",
+          "page_title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le programme d’habilitation de sécurité en matière de transport",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-transportation-security-clearance-programs",
+            "fr": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-programme-habilitation-securite-matiere-transport"
+          },
+          "date_modified": null,
+          "date_published": null,
+          "has_pia_text": true,
+          "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le programme d’habilitation de sécurité en matière de transport",
+          "conversion": "markdownify",
+          "text_sha256": "1553344b79913628c32bab1165463cf2e2f7e0cb083971a5af2975572754cdac",
+          "word_count": 539
+        }
+      }
+    },
+    {
+      "pia_id": "pia-c65bc98d0c25",
+      "title_en": "Privacy Impact Assessment Summary for the Pre-load Air Cargo Targeting Program",
+      "title_fr": "Résumé de l’évaluation des facteurs relatifs à la vie privée liés au programme de ciblage du fret aérien préalable au chargement (CFAPC)",
+      "url_en": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-pre-load-air-cargo-targeting-program",
+      "url_fr": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-lies-programme-ciblage-fret-aerien-prealable-chargement-cfapc",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-pre-load-air-cargo-targeting-program",
+        "alternate_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-lies-programme-ciblage-fret-aerien-prealable-chargement-cfapc"
+      },
+      "sources": {
+        "en": {
+          "url": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-pre-load-air-cargo-targeting-program",
+          "title_from_list": "Pre-load Air Cargo Targeting Program (PACT)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://tc.canada.ca/en/privacy-impact-assessments",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-pre-load-air-cargo-targeting-program",
+              "title": "Pre-load Air Cargo Targeting Program (PACT)",
+              "list_url": "https://tc.canada.ca/en/privacy-impact-assessments",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-pre-load-air-cargo-targeting-program"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-pre-load-air-cargo-targeting-program",
+            "final_url": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-pre-load-air-cargo-targeting-program",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:11.390348+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:11 GMT",
+            "etag": "W/\"1794447731\"",
+            "byte_count": 42272,
+            "sha256": "7f9738e2171e6579c85a89fad4cc2aab7eed8eda750f576bb2a037b459f8c3ce"
+          },
+          "raw_path": "raw/c65bc98d0c25448bd123.html",
+          "markdown_path": "pia-c65bc98d0c25_en.md",
+          "markdown_sha256": "8982af5f966471d2245f6ccc772bb7bc2ebbf1c35c6f00add866b59fe28a7321",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summary for the Pre-load Air Cargo Targeting Program",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-pre-load-air-cargo-targeting-program",
+            "fr": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-lies-programme-ciblage-fret-aerien-prealable-chargement-cfapc"
+          },
+          "date_modified": null,
+          "date_published": null,
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment Summary for the Pre-load Air Cargo Targeting Program",
+          "conversion": "markdownify",
+          "text_sha256": "4c8f92d792fa2df756345fda5d70f6a3e2f7a67171b8704b67daf1caa922440a",
+          "word_count": 854
+        },
+        "fr": {
+          "url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-lies-programme-ciblage-fret-aerien-prealable-chargement-cfapc",
+          "title_from_list": "Programme de ciblage du fret aérien préalable au chargement (CFAPC)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-lies-programme-ciblage-fret-aerien-prealable-chargement-cfapc",
+              "title": "Programme de ciblage du fret aérien préalable au chargement (CFAPC)",
+              "list_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-lies-programme-ciblage-fret-aerien-prealable-chargement-cfapc"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-lies-programme-ciblage-fret-aerien-prealable-chargement-cfapc",
+            "final_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-lies-programme-ciblage-fret-aerien-prealable-chargement-cfapc",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:11.786994+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 09:04:20 GMT",
+            "etag": "W/\"1794387860\"",
+            "byte_count": 45714,
+            "sha256": "a0f2b8320ecbdbfd0e3dd74ded9e964a6d0578077be688157d0ed4a874c4ba67"
+          },
+          "raw_path": "raw/02f9c61f0564c76f1f18.html",
+          "markdown_path": "pia-c65bc98d0c25_fr.md",
+          "markdown_sha256": "685cb74f73ee2aceaf8bf8882df537bb1999fc803dc8a5936e5788b4184f8205",
+          "status": "exported",
+          "page_title": "Résumé de l’évaluation des facteurs relatifs à la vie privée liés au programme de ciblage du fret aérien préalable au chargement (CFAPC)",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-pre-load-air-cargo-targeting-program",
+            "fr": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-lies-programme-ciblage-fret-aerien-prealable-chargement-cfapc"
+          },
+          "date_modified": null,
+          "date_published": null,
+          "has_pia_text": true,
+          "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée liés au programme de ciblage du fret aérien préalable au chargement (CFAPC)",
+          "conversion": "markdownify",
+          "text_sha256": "bf343809e182ba49af21fc11776cda6c13c301af2d82cc5a76d31c7c839c091e",
+          "word_count": 1121
+        }
+      }
+    },
+    {
+      "pia_id": "pia-fb0f90ff9c3e",
+      "title_en": "Privacy Impact Assessment Summary for the Drone Management Portal",
+      "title_fr": "Résumé de l'évaluation des facteurs relatifs à la vie privée pour le portail de gestion des drones",
+      "url_en": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-drone-management-portal",
+      "url_fr": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-portail-gestion-drones",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-drone-management-portal",
+        "alternate_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-portail-gestion-drones"
+      },
+      "sources": {
+        "en": {
+          "url": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-drone-management-portal",
+          "title_from_list": "Drone Management Portal",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://tc.canada.ca/en/privacy-impact-assessments",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-drone-management-portal",
+              "title": "Drone Management Portal",
+              "list_url": "https://tc.canada.ca/en/privacy-impact-assessments",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-drone-management-portal"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-drone-management-portal",
+            "final_url": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-drone-management-portal",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:11.246606+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 15:44:01 GMT",
+            "etag": "W/\"1794411841\"",
+            "byte_count": 40488,
+            "sha256": "0e4f627a5dab22ba631c18eab5e051c330799967c6d3283d75dc856a91cbdc0d"
+          },
+          "raw_path": "raw/fb0f90ff9c3ea657ae27.html",
+          "markdown_path": "pia-fb0f90ff9c3e_en.md",
+          "markdown_sha256": "a8f0541d4a1de408cfa6763f9b804f023cdcddc185d97855232200c486ebd817",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summary for the Drone Management Portal",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-drone-management-portal",
+            "fr": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-portail-gestion-drones"
+          },
+          "date_modified": null,
+          "date_published": null,
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment Summary for the Drone Management Portal",
+          "conversion": "markdownify",
+          "text_sha256": "03ae7fd447984d1f859e18b7fb3288ea99c15192b36429830a24c9b6c7693284",
+          "word_count": 507
+        },
+        "fr": {
+          "url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-portail-gestion-drones",
+          "title_from_list": "Portail de gestion des drones",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-portail-gestion-drones",
+              "title": "Portail de gestion des drones",
+              "list_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-portail-gestion-drones"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-portail-gestion-drones",
+            "final_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-portail-gestion-drones",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:11.791353+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 18:19:19 GMT",
+            "etag": "W/\"1794421159\"",
+            "byte_count": 43075,
+            "sha256": "735ea66b59c294521d9fb64e9c77798dcdda77926e327ba13b73e71198460748"
+          },
+          "raw_path": "raw/5956e2698826ff362381.html",
+          "markdown_path": "pia-fb0f90ff9c3e_fr.md",
+          "markdown_sha256": "bb8948a8bc9ca04e3ed10b3288d127ab13d0b67df520bb8f0312f1bac400d65c",
+          "status": "exported",
+          "page_title": "Résumé de l'évaluation des facteurs relatifs à la vie privée pour le portail de gestion des drones",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://tc.canada.ca/en/privacy-impact-assessments/privacy-impact-assessment-summary-drone-management-portal",
+            "fr": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/resume-evaluation-facteurs-relatifs-vie-privee-portail-gestion-drones"
+          },
+          "date_modified": null,
+          "date_published": null,
+          "has_pia_text": true,
+          "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée pour le portail de gestion des drones",
+          "conversion": "markdownify",
+          "text_sha256": "236bce672e5d94ecee1cb22d37e2a2fbd1d3122304ba71246016a4cca76672e7",
+          "word_count": 659
+        }
+      }
+    },
+    {
+      "pia_id": "pia-20452d0c5c38",
+      "title_en": "Incentives for Zero-Emission Vehicles (iZEV) Program",
+      "title_fr": "Programme d’incitatifs pour les véhicules zéro émission (iVZE)",
+      "url_en": "https://tc.canada.ca/en/privacy-impact-assessments/incentives-zero-emission-vehicles-izev-program",
+      "url_fr": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/programme-incitatifs-vehicules-zero-emission-ivze",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://tc.canada.ca/en/privacy-impact-assessments/incentives-zero-emission-vehicles-izev-program",
+        "alternate_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/programme-incitatifs-vehicules-zero-emission-ivze"
+      },
+      "sources": {
+        "en": {
+          "url": "https://tc.canada.ca/en/privacy-impact-assessments/incentives-zero-emission-vehicles-izev-program",
+          "title_from_list": "Incentives for Zero-Emission Vehicles Program (iZEV)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://tc.canada.ca/en/privacy-impact-assessments",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://tc.canada.ca/en/privacy-impact-assessments/incentives-zero-emission-vehicles-izev-program",
+              "title": "Incentives for Zero-Emission Vehicles Program (iZEV)",
+              "list_url": "https://tc.canada.ca/en/privacy-impact-assessments",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://tc.canada.ca/en/privacy-impact-assessments/incentives-zero-emission-vehicles-izev-program"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://tc.canada.ca/en/privacy-impact-assessments/incentives-zero-emission-vehicles-izev-program",
+            "final_url": "https://tc.canada.ca/en/privacy-impact-assessments/incentives-zero-emission-vehicles-izev-program",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:10.967205+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 10:32:37 GMT",
+            "etag": "W/\"1794393157\"",
+            "byte_count": 44831,
+            "sha256": "397b13d902b8a4fc3e9b2dc93266dfe8fbc4512bfcf82da4e5198aa1e92b6eed"
+          },
+          "raw_path": "raw/20452d0c5c38cdc0474d.html",
+          "markdown_path": "pia-20452d0c5c38_en.md",
+          "markdown_sha256": "08878b8685f6344dea5d7f6ace1fe9935e4f68d6e63b22d50bfcba9fbbc11be6",
+          "status": "exported",
+          "page_title": "Incentives for Zero-Emission Vehicles (iZEV) Program",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://tc.canada.ca/en/privacy-impact-assessments/incentives-zero-emission-vehicles-izev-program",
+            "fr": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/programme-incitatifs-vehicules-zero-emission-ivze"
+          },
+          "date_modified": null,
+          "date_published": null,
+          "has_pia_text": true,
+          "title": "Incentives for Zero-Emission Vehicles (iZEV) Program",
+          "conversion": "markdownify",
+          "text_sha256": "ccad73991680d8ab7c106cd910f442b8ffb0387a12f7fe3a7eeba27597e4077c",
+          "word_count": 956
+        },
+        "fr": {
+          "url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/programme-incitatifs-vehicules-zero-emission-ivze",
+          "title_from_list": "Programme d’incitatifs pour les véhicules zéro émission (iVZE)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/programme-incitatifs-vehicules-zero-emission-ivze",
+              "title": "Programme d’incitatifs pour les véhicules zéro émission (iVZE)",
+              "list_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/programme-incitatifs-vehicules-zero-emission-ivze"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/programme-incitatifs-vehicules-zero-emission-ivze",
+            "final_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/programme-incitatifs-vehicules-zero-emission-ivze",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:11.525580+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 18:22:06 GMT",
+            "etag": "W/\"1794421326\"",
+            "byte_count": 47594,
+            "sha256": "82ef1e4f865e92ad620ebe9d5bead7e6eaa0810fb2b051e8eb81eda171ca8096"
+          },
+          "raw_path": "raw/b690bb4427faa5370dec.html",
+          "markdown_path": "pia-20452d0c5c38_fr.md",
+          "markdown_sha256": "80a2706f55c4bc972585448999e4167b4bc70b6c198c9016b5b28e3d2c83cf4b",
+          "status": "exported",
+          "page_title": "Programme d’incitatifs pour les véhicules zéro émission (iVZE)",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://tc.canada.ca/en/privacy-impact-assessments/incentives-zero-emission-vehicles-izev-program",
+            "fr": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/programme-incitatifs-vehicules-zero-emission-ivze"
+          },
+          "date_modified": null,
+          "date_published": null,
+          "has_pia_text": true,
+          "title": "Programme d’incitatifs pour les véhicules zéro émission (iVZE)",
+          "conversion": "markdownify",
+          "text_sha256": "55bbf6508fbb079fbffe622dc2df1e79112ae7bcb84c8f682fb4e6eb9d4678df",
+          "word_count": 1200
+        }
+      }
+    },
+    {
+      "pia_id": "pia-d33714b3ca94",
+      "title_en": "National Interest Exemption Program (NIEP)",
+      "title_fr": "Programme d’exemption au titre de l’intérêt national (PEIN)",
+      "url_en": "https://tc.canada.ca/en/privacy-impact-assessments/national-interest-exemption-program-niep",
+      "url_fr": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/programme-exemption-titre-interet-national-pein",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://tc.canada.ca/en/privacy-impact-assessments/national-interest-exemption-program-niep",
+        "alternate_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/programme-exemption-titre-interet-national-pein"
+      },
+      "sources": {
+        "en": {
+          "url": "https://tc.canada.ca/en/privacy-impact-assessments/national-interest-exemption-program-niep",
+          "title_from_list": "National Interest Exemption Program (NIEP)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://tc.canada.ca/en/privacy-impact-assessments",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://tc.canada.ca/en/privacy-impact-assessments/national-interest-exemption-program-niep",
+              "title": "National Interest Exemption Program (NIEP)",
+              "list_url": "https://tc.canada.ca/en/privacy-impact-assessments",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://tc.canada.ca/en/privacy-impact-assessments/national-interest-exemption-program-niep"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://tc.canada.ca/en/privacy-impact-assessments/national-interest-exemption-program-niep",
+            "final_url": "https://tc.canada.ca/en/privacy-impact-assessments/national-interest-exemption-program-niep",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:11.058936+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 11:56:01 GMT",
+            "etag": "W/\"1794398161\"",
+            "byte_count": 45518,
+            "sha256": "87371a6de12eb4e4de2ccfd68d8c45de347d67a78229234deb237f7608527b33"
+          },
+          "raw_path": "raw/d33714b3ca94b9ce5a74.html",
+          "markdown_path": "pia-d33714b3ca94_en.md",
+          "markdown_sha256": "ec782ae6e568362b0160c884b1e280f2ddb5fd62f6636e9de3310dff49c997e2",
+          "status": "exported",
+          "page_title": "National Interest Exemption Program (NIEP)",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://tc.canada.ca/en/privacy-impact-assessments/national-interest-exemption-program-niep",
+            "fr": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/programme-exemption-titre-interet-national-pein"
+          },
+          "date_modified": null,
+          "date_published": null,
+          "has_pia_text": true,
+          "title": "National Interest Exemption Program (NIEP)",
+          "conversion": "markdownify",
+          "text_sha256": "dd1057882beb42ce1df24211548eb299b00294652872c6841f5368f14cb76cdd",
+          "word_count": 1163
+        },
+        "fr": {
+          "url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/programme-exemption-titre-interet-national-pein",
+          "title_from_list": "Programme d’exemption au titre de l’intérêt national (PEIN)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/programme-exemption-titre-interet-national-pein",
+              "title": "Programme d’exemption au titre de l’intérêt national (PEIN)",
+              "list_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/programme-exemption-titre-interet-national-pein"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/programme-exemption-titre-interet-national-pein",
+            "final_url": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/programme-exemption-titre-interet-national-pein",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:11.514872+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 18:22:07 GMT",
+            "etag": "W/\"1794421327\"",
+            "byte_count": 49313,
+            "sha256": "e9108068072c723f7e1bab1270b41b2b840a567f67f57c831916d645cfa655dd"
+          },
+          "raw_path": "raw/c7a21b25565d01ca78e2.html",
+          "markdown_path": "pia-d33714b3ca94_fr.md",
+          "markdown_sha256": "b72c8f868adf9396499ac00d6cb802b2fc90d9e0e2d97330de33af9cbc7bb8f5",
+          "status": "exported",
+          "page_title": "Programme d’exemption au titre de l’intérêt national (PEIN)",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://tc.canada.ca/en/privacy-impact-assessments/national-interest-exemption-program-niep",
+            "fr": "https://tc.canada.ca/fr/evaluations-facteurs-relatifs-vie-privee/programme-exemption-titre-interet-national-pein"
+          },
+          "date_modified": null,
+          "date_published": null,
+          "has_pia_text": true,
+          "title": "Programme d’exemption au titre de l’intérêt national (PEIN)",
+          "conversion": "markdownify",
+          "text_sha256": "f0017ec87c1ee9e5beb122218976d7cec62016e2bb4a235a48dba1f58392a08b",
+          "word_count": 1462
+        }
+      }
+    }
+  ],
+  "summary": {
+    "pia_count": 6,
+    "paired_count": 6,
+    "source_status_counts": {
+      "exported": 12
+    }
+  }
+}

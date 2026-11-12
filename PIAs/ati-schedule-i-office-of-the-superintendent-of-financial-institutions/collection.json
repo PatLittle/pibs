@@ -1,0 +1,752 @@
+{
+  "schema_version": 1,
+  "collector_version": 1,
+  "collected_at_utc": "2026-11-12T01:50:42.820045+00:00",
+  "institution_id": "ati-schedule-i-office-of-the-superintendent-of-financial-institutions",
+  "gc_orgID": "2280.0",
+  "open_canada_org_id": "4F01090B-C049-4CAF-9C6C-D00312B23DCB",
+  "open_canada_org_slug": "osfi-bsif",
+  "name_en": "Office of the Superintendent of Financial Institutions",
+  "name_fr": "Bureau du surintendant des institutions financières",
+  "registry_membership": "current_registry",
+  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "list_pages": {
+    "en": {
+      "indexed_url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments",
+          "final_url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:30.453620+00:00",
+          "redirects": [],
+          "content_type": "text/html; charset=UTF-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Thu, 12 Nov 2026 01:34:30 GMT",
+          "etag": "W/\"1794447270\"",
+          "byte_count": 85328,
+          "sha256": "d0ef99ea5fe1833c27b2ae4ab5cd6fb8bc5bcf099289af4d4212030f42913a50",
+          "raw_path": "raw/e756103b5d2563dd5160.html"
+        },
+        {
+          "requested_url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments",
+          "final_url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:36:30.312178+00:00",
+          "redirects": [],
+          "content_type": "text/html; charset=UTF-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Thu, 12 Nov 2026 01:36:30 GMT",
+          "etag": "W/\"1794447390\"",
+          "byte_count": 83741,
+          "sha256": "67c8d9b75e04a702ebfc935f8dc91c05c132bca7e9ae685d37a12990dd19f8fb",
+          "raw_path": "raw/5710246b6e21ea146c81.html"
+        }
+      ],
+      "discovered_count": 5,
+      "scopes": [
+        "Summaries of Privacy Impact Assessments"
+      ],
+      "warnings": []
+    },
+    "fr": {
+      "indexed_url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements",
+          "final_url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:30.490215+00:00",
+          "redirects": [],
+          "content_type": "text/html; charset=UTF-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Thu, 12 Nov 2026 01:34:30 GMT",
+          "etag": "W/\"1794447270\"",
+          "byte_count": 88771,
+          "sha256": "d4f87bce4f15defe83537bd435188e19b57df7c42f91a2249355f6ef084aa5f5",
+          "raw_path": "raw/7f416a3b662dc7f47a94.html"
+        },
+        {
+          "requested_url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee",
+          "final_url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:36:31.261151+00:00",
+          "redirects": [],
+          "content_type": "text/html; charset=UTF-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Thu, 12 Nov 2026 01:36:31 GMT",
+          "etag": "W/\"1794447391\"",
+          "byte_count": 88408,
+          "sha256": "66307f926899f3239179fd5a7acb750add9e0aa27d0ed2109938437c3d34b87d",
+          "raw_path": "raw/14dcbd12fded12e3c91f.html"
+        }
+      ],
+      "discovered_count": 5,
+      "scopes": [
+        "Résumés des évaluations des facteurs relatifs à la vie privée"
+      ],
+      "warnings": []
+    }
+  },
+  "pias": [
+    {
+      "pia_id": "pia-8e08dc9111b8",
+      "title_en": "Employee Monitoring PIA",
+      "title_fr": "Évaluation des facteurs relatifs à la vie privée sur le suivi de la présence des employés",
+      "url_en": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments#:~:text=Employee%20Monitoring%20PIA",
+      "url_fr": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee#:~:text=%C3%89valuation%20des%20facteurs%20relatifs%20%C3%A0%20la%20vie%20priv%C3%A9e%20sur%20le%20suivi%20de%20la%20pr%C3%A9sence%20des%20employ%C3%A9s",
+      "pairing_status": "paired",
+      "pairing_method": "bilingual_inline_section_key",
+      "pairing_evidence": {
+        "section_key": [
+          "numbered_date",
+          "1",
+          "2025",
+          "09"
+        ],
+        "alternate_page_url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments#:~:text=Employee%20Monitoring%20PIA",
+          "title_from_list": "Employee Monitoring PIA",
+          "kind": "inline",
+          "discovery_method": "inline_heading",
+          "list_url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments",
+          "discovered_under": "OSFI – Summaries of Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments#:~:text=Employee%20Monitoring%20PIA",
+              "title": "Employee Monitoring PIA",
+              "list_url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments",
+              "discovery_method": "inline_heading"
+            }
+          ],
+          "aliases": [
+            "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments#:~:text=Employee%20Monitoring%20PIA"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments",
+            "final_url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:36:30.312178+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:36:30 GMT",
+            "etag": "W/\"1794447390\"",
+            "byte_count": 83741,
+            "sha256": "67c8d9b75e04a702ebfc935f8dc91c05c132bca7e9ae685d37a12990dd19f8fb"
+          },
+          "raw_path": "raw/5710246b6e21ea146c81.html",
+          "markdown_path": "pia-8e08dc9111b8_en.md",
+          "markdown_sha256": "38f54b96a671525f31777d3cb826b00187f088d207f969efd3f01ae2a5a82799",
+          "status": "exported",
+          "page_title": "OSFI – Summaries of Privacy Impact Assessments",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments",
+            "fr": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee"
+          },
+          "date_modified": "2025-10-21",
+          "date_published": "2024-08-15",
+          "has_pia_text": true,
+          "anchor": ":~:text=Employee%20Monitoring%20PIA",
+          "anchor_type": "text_fragment",
+          "source_heading": "1. September 2025",
+          "title": "Employee Monitoring PIA",
+          "conversion": "markdownify",
+          "text_sha256": "f9ef2c9e79c371b4442e18d2a72699cfa2fcbbbe09d3dbed3b8a7066bb135073",
+          "word_count": 405
+        },
+        "fr": {
+          "url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee#:~:text=%C3%89valuation%20des%20facteurs%20relatifs%20%C3%A0%20la%20vie%20priv%C3%A9e%20sur%20le%20suivi%20de%20la%20pr%C3%A9sence%20des%20employ%C3%A9s",
+          "title_from_list": "Évaluation des facteurs relatifs à la vie privée sur le suivi de la présence des employés",
+          "kind": "inline",
+          "discovery_method": "inline_heading",
+          "list_url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements",
+          "discovered_under": "BSIF – Résumés des évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee#:~:text=%C3%89valuation%20des%20facteurs%20relatifs%20%C3%A0%20la%20vie%20priv%C3%A9e%20sur%20le%20suivi%20de%20la%20pr%C3%A9sence%20des%20employ%C3%A9s",
+              "title": "Évaluation des facteurs relatifs à la vie privée sur le suivi de la présence des employés",
+              "list_url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements",
+              "discovery_method": "inline_heading"
+            }
+          ],
+          "aliases": [
+            "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee#:~:text=%C3%89valuation%20des%20facteurs%20relatifs%20%C3%A0%20la%20vie%20priv%C3%A9e%20sur%20le%20suivi%20de%20la%20pr%C3%A9sence%20des%20employ%C3%A9s"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee",
+            "final_url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:36:31.261151+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:36:31 GMT",
+            "etag": "W/\"1794447391\"",
+            "byte_count": 88408,
+            "sha256": "66307f926899f3239179fd5a7acb750add9e0aa27d0ed2109938437c3d34b87d"
+          },
+          "raw_path": "raw/14dcbd12fded12e3c91f.html",
+          "markdown_path": "pia-8e08dc9111b8_fr.md",
+          "markdown_sha256": "084d803c611a3e25dc0ee9b8999049eedaf0840e357ae32d499768893c5df5e1",
+          "status": "exported",
+          "page_title": "BSIF – Résumés des évaluations des facteurs relatifs à la vie privée",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments",
+            "fr": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee"
+          },
+          "date_modified": "2025-10-21",
+          "date_published": "2024-08-15",
+          "has_pia_text": true,
+          "anchor": ":~:text=%C3%89valuation%20des%20facteurs%20relatifs%20%C3%A0%20la%20vie%20priv%C3%A9e%20sur%20le%20suivi%20de%20la%20pr%C3%A9sence%20des%20employ%C3%A9s",
+          "anchor_type": "text_fragment",
+          "source_heading": "1. Septembre 2025",
+          "title": "Évaluation des facteurs relatifs à la vie privée sur le suivi de la présence des employés",
+          "conversion": "markdownify",
+          "text_sha256": "3e08079f9650b6b560c56406a1b30df11798a143e99e5a642834aeb299320841",
+          "word_count": 549
+        }
+      }
+    },
+    {
+      "pia_id": "pia-a2f4f0d7d321",
+      "title_en": "VidCruiter",
+      "title_fr": "VidCruiter",
+      "url_en": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments#:~:text=VidCruiter",
+      "url_fr": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee#:~:text=VidCruiter",
+      "pairing_status": "paired",
+      "pairing_method": "bilingual_inline_section_key",
+      "pairing_evidence": {
+        "section_key": [
+          "numbered_date",
+          "2",
+          "2024",
+          "02"
+        ],
+        "alternate_page_url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments#:~:text=VidCruiter",
+          "title_from_list": "VidCruiter",
+          "kind": "inline",
+          "discovery_method": "inline_heading",
+          "list_url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments",
+          "discovered_under": "OSFI – Summaries of Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments#:~:text=VidCruiter",
+              "title": "VidCruiter",
+              "list_url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments",
+              "discovery_method": "inline_heading"
+            }
+          ],
+          "aliases": [
+            "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments#:~:text=VidCruiter"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments",
+            "final_url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:36:30.312178+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:36:30 GMT",
+            "etag": "W/\"1794447390\"",
+            "byte_count": 83741,
+            "sha256": "67c8d9b75e04a702ebfc935f8dc91c05c132bca7e9ae685d37a12990dd19f8fb"
+          },
+          "raw_path": "raw/5710246b6e21ea146c81.html",
+          "markdown_path": "pia-a2f4f0d7d321_en.md",
+          "markdown_sha256": "f320e62a745e0557316e2fb172abffe6e1f0223ab258f802b0523d887e5dc998",
+          "status": "exported",
+          "page_title": "OSFI – Summaries of Privacy Impact Assessments",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments",
+            "fr": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee"
+          },
+          "date_modified": "2025-10-21",
+          "date_published": "2024-08-15",
+          "has_pia_text": true,
+          "anchor": ":~:text=VidCruiter",
+          "anchor_type": "text_fragment",
+          "source_heading": "2. February 2024",
+          "title": "VidCruiter",
+          "conversion": "markdownify",
+          "text_sha256": "0df6cb0012442dce3ca041f38aa626e4749e1e9575d6d41245e4dc03f08e2baa",
+          "word_count": 398
+        },
+        "fr": {
+          "url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee#:~:text=VidCruiter",
+          "title_from_list": "VidCruiter",
+          "kind": "inline",
+          "discovery_method": "inline_heading",
+          "list_url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements",
+          "discovered_under": "BSIF – Résumés des évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee#:~:text=VidCruiter",
+              "title": "VidCruiter",
+              "list_url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements",
+              "discovery_method": "inline_heading"
+            }
+          ],
+          "aliases": [
+            "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee#:~:text=VidCruiter"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee",
+            "final_url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:36:31.261151+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:36:31 GMT",
+            "etag": "W/\"1794447391\"",
+            "byte_count": 88408,
+            "sha256": "66307f926899f3239179fd5a7acb750add9e0aa27d0ed2109938437c3d34b87d"
+          },
+          "raw_path": "raw/14dcbd12fded12e3c91f.html",
+          "markdown_path": "pia-a2f4f0d7d321_fr.md",
+          "markdown_sha256": "b917706d665bcc1f21149f6f16188fbe617749ce720f6f5f4505d51f434c7925",
+          "status": "exported",
+          "page_title": "BSIF – Résumés des évaluations des facteurs relatifs à la vie privée",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments",
+            "fr": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee"
+          },
+          "date_modified": "2025-10-21",
+          "date_published": "2024-08-15",
+          "has_pia_text": true,
+          "anchor": ":~:text=VidCruiter",
+          "anchor_type": "text_fragment",
+          "source_heading": "2. Février 2024",
+          "title": "VidCruiter",
+          "conversion": "markdownify",
+          "text_sha256": "c311961eae93a58a00bd83f157c9dafbcb8d28223d67583d2479d928929fd39b",
+          "word_count": 531
+        }
+      }
+    },
+    {
+      "pia_id": "pia-e349ac94d4b0",
+      "title_en": "Transformation Office Data Analytics Initiative",
+      "title_fr": "Initiative d'analytique des données du Bureau de la transformation",
+      "url_en": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments#:~:text=Transformation%20Office%20Data%20Analytics%20Initiative",
+      "url_fr": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee#:~:text=Initiative%20d%27analytique%20des%20donn%C3%A9es%20du%20Bureau%20de%20la%20transformation",
+      "pairing_status": "paired",
+      "pairing_method": "bilingual_inline_section_key",
+      "pairing_evidence": {
+        "section_key": [
+          "numbered_date",
+          "3",
+          "2023",
+          "06"
+        ],
+        "alternate_page_url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments#:~:text=Transformation%20Office%20Data%20Analytics%20Initiative",
+          "title_from_list": "Transformation Office Data Analytics Initiative",
+          "kind": "inline",
+          "discovery_method": "inline_heading",
+          "list_url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments",
+          "discovered_under": "OSFI – Summaries of Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments#:~:text=Transformation%20Office%20Data%20Analytics%20Initiative",
+              "title": "Transformation Office Data Analytics Initiative",
+              "list_url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments",
+              "discovery_method": "inline_heading"
+            }
+          ],
+          "aliases": [
+            "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments#:~:text=Transformation%20Office%20Data%20Analytics%20Initiative"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments",
+            "final_url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:36:30.312178+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:36:30 GMT",
+            "etag": "W/\"1794447390\"",
+            "byte_count": 83741,
+            "sha256": "67c8d9b75e04a702ebfc935f8dc91c05c132bca7e9ae685d37a12990dd19f8fb"
+          },
+          "raw_path": "raw/5710246b6e21ea146c81.html",
+          "markdown_path": "pia-e349ac94d4b0_en.md",
+          "markdown_sha256": "71dd6fc911a09f645e763883436b1bd167128578846b3096f7b3594107d3bcbf",
+          "status": "exported",
+          "page_title": "OSFI – Summaries of Privacy Impact Assessments",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments",
+            "fr": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee"
+          },
+          "date_modified": "2025-10-21",
+          "date_published": "2024-08-15",
+          "has_pia_text": true,
+          "anchor": ":~:text=Transformation%20Office%20Data%20Analytics%20Initiative",
+          "anchor_type": "text_fragment",
+          "source_heading": "3. June 2023",
+          "title": "Transformation Office Data Analytics Initiative",
+          "conversion": "markdownify",
+          "text_sha256": "7c1f18e5c3a713c9fab70a910655903d3910ae2f3e99e3807281203e86e69b1d",
+          "word_count": 569
+        },
+        "fr": {
+          "url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee#:~:text=Initiative%20d%27analytique%20des%20donn%C3%A9es%20du%20Bureau%20de%20la%20transformation",
+          "title_from_list": "Initiative d'analytique des données du Bureau de la transformation",
+          "kind": "inline",
+          "discovery_method": "inline_heading",
+          "list_url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements",
+          "discovered_under": "BSIF – Résumés des évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee#:~:text=Initiative%20d%27analytique%20des%20donn%C3%A9es%20du%20Bureau%20de%20la%20transformation",
+              "title": "Initiative d'analytique des données du Bureau de la transformation",
+              "list_url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements",
+              "discovery_method": "inline_heading"
+            }
+          ],
+          "aliases": [
+            "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee#:~:text=Initiative%20d%27analytique%20des%20donn%C3%A9es%20du%20Bureau%20de%20la%20transformation"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee",
+            "final_url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:36:31.261151+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:36:31 GMT",
+            "etag": "W/\"1794447391\"",
+            "byte_count": 88408,
+            "sha256": "66307f926899f3239179fd5a7acb750add9e0aa27d0ed2109938437c3d34b87d"
+          },
+          "raw_path": "raw/14dcbd12fded12e3c91f.html",
+          "markdown_path": "pia-e349ac94d4b0_fr.md",
+          "markdown_sha256": "2d9a1087c2d1269b191eb12e8dc4bd9cc2a4a81f0bb809d9423f6af5f22d8f8f",
+          "status": "exported",
+          "page_title": "BSIF – Résumés des évaluations des facteurs relatifs à la vie privée",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments",
+            "fr": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee"
+          },
+          "date_modified": "2025-10-21",
+          "date_published": "2024-08-15",
+          "has_pia_text": true,
+          "anchor": ":~:text=Initiative%20d%27analytique%20des%20donn%C3%A9es%20du%20Bureau%20de%20la%20transformation",
+          "anchor_type": "text_fragment",
+          "source_heading": "3. Juin 2023",
+          "title": "Initiative d'analytique des données du Bureau de la transformation",
+          "conversion": "markdownify",
+          "text_sha256": "4f6b49efe2e1e44d35c6a28f2e43a9002eb4508b34897387f87c696c0604f548",
+          "word_count": 706
+        }
+      }
+    },
+    {
+      "pia_id": "pia-e68086afb555",
+      "title_en": "Annual Confidential Reporting Process",
+      "title_fr": "Processus de production des rapports confidentiels annuels",
+      "url_en": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments#:~:text=Annual%20Confidential%20Reporting%20Process",
+      "url_fr": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee#:~:text=Processus%20de%20production%20des%20rapports%20confidentiels%20annuels",
+      "pairing_status": "paired",
+      "pairing_method": "bilingual_inline_section_key",
+      "pairing_evidence": {
+        "section_key": [
+          "numbered_date",
+          "4",
+          "2022",
+          "02"
+        ],
+        "alternate_page_url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments#:~:text=Annual%20Confidential%20Reporting%20Process",
+          "title_from_list": "Annual Confidential Reporting Process",
+          "kind": "inline",
+          "discovery_method": "inline_heading",
+          "list_url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments",
+          "discovered_under": "OSFI – Summaries of Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments#:~:text=Annual%20Confidential%20Reporting%20Process",
+              "title": "Annual Confidential Reporting Process",
+              "list_url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments",
+              "discovery_method": "inline_heading"
+            }
+          ],
+          "aliases": [
+            "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments#:~:text=Annual%20Confidential%20Reporting%20Process"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments",
+            "final_url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:36:30.312178+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:36:30 GMT",
+            "etag": "W/\"1794447390\"",
+            "byte_count": 83741,
+            "sha256": "67c8d9b75e04a702ebfc935f8dc91c05c132bca7e9ae685d37a12990dd19f8fb"
+          },
+          "raw_path": "raw/5710246b6e21ea146c81.html",
+          "markdown_path": "pia-e68086afb555_en.md",
+          "markdown_sha256": "1789a378b425a599070e327e657b072c1103eb1b56ce387079b6456b88949831",
+          "status": "exported",
+          "page_title": "OSFI – Summaries of Privacy Impact Assessments",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments",
+            "fr": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee"
+          },
+          "date_modified": "2025-10-21",
+          "date_published": "2024-08-15",
+          "has_pia_text": true,
+          "anchor": ":~:text=Annual%20Confidential%20Reporting%20Process",
+          "anchor_type": "text_fragment",
+          "source_heading": "4. February 2022",
+          "title": "Annual Confidential Reporting Process",
+          "conversion": "markdownify",
+          "text_sha256": "108910ed2a586246e4e64964a99c12973ba576d8f2c5649a20829c86efe8288a",
+          "word_count": 402
+        },
+        "fr": {
+          "url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee#:~:text=Processus%20de%20production%20des%20rapports%20confidentiels%20annuels",
+          "title_from_list": "Processus de production des rapports confidentiels annuels",
+          "kind": "inline",
+          "discovery_method": "inline_heading",
+          "list_url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements",
+          "discovered_under": "BSIF – Résumés des évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee#:~:text=Processus%20de%20production%20des%20rapports%20confidentiels%20annuels",
+              "title": "Processus de production des rapports confidentiels annuels",
+              "list_url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements",
+              "discovery_method": "inline_heading"
+            }
+          ],
+          "aliases": [
+            "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee#:~:text=Processus%20de%20production%20des%20rapports%20confidentiels%20annuels"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee",
+            "final_url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:36:31.261151+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:36:31 GMT",
+            "etag": "W/\"1794447391\"",
+            "byte_count": 88408,
+            "sha256": "66307f926899f3239179fd5a7acb750add9e0aa27d0ed2109938437c3d34b87d"
+          },
+          "raw_path": "raw/14dcbd12fded12e3c91f.html",
+          "markdown_path": "pia-e68086afb555_fr.md",
+          "markdown_sha256": "a291b27107722364596753fe372ce8f741b268fe52b675b59727064914cd3224",
+          "status": "exported",
+          "page_title": "BSIF – Résumés des évaluations des facteurs relatifs à la vie privée",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments",
+            "fr": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee"
+          },
+          "date_modified": "2025-10-21",
+          "date_published": "2024-08-15",
+          "has_pia_text": true,
+          "anchor": ":~:text=Processus%20de%20production%20des%20rapports%20confidentiels%20annuels",
+          "anchor_type": "text_fragment",
+          "source_heading": "4. Février 2022",
+          "title": "Processus de production des rapports confidentiels annuels",
+          "conversion": "markdownify",
+          "text_sha256": "11444e86263c8e0c501ed1e69df0fb8b1918988841cd80ebe40e4fd6fd7881e4",
+          "word_count": 523
+        }
+      }
+    },
+    {
+      "pia_id": "pia-ab11ce4e4feb",
+      "title_en": "Mandatory Cyber Security Awareness via Terranova",
+      "title_fr": "Formation obligatoire de sensibilisation à la cybersécurité au moyen de Terranova",
+      "url_en": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments#:~:text=Mandatory%20Cyber%20Security%20Awareness%20via%20Terranova",
+      "url_fr": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee#:~:text=Formation%20obligatoire%20de%20sensibilisation%20%C3%A0%20la%20cybers%C3%A9curit%C3%A9%20au%20moyen%20de%20Terranova",
+      "pairing_status": "paired",
+      "pairing_method": "bilingual_inline_section_key",
+      "pairing_evidence": {
+        "section_key": [
+          "numbered_date",
+          "5",
+          "2021",
+          "05"
+        ],
+        "alternate_page_url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments#:~:text=Mandatory%20Cyber%20Security%20Awareness%20via%20Terranova",
+          "title_from_list": "Mandatory Cyber Security Awareness via Terranova",
+          "kind": "inline",
+          "discovery_method": "inline_heading",
+          "list_url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments",
+          "discovered_under": "OSFI – Summaries of Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments#:~:text=Mandatory%20Cyber%20Security%20Awareness%20via%20Terranova",
+              "title": "Mandatory Cyber Security Awareness via Terranova",
+              "list_url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments",
+              "discovery_method": "inline_heading"
+            }
+          ],
+          "aliases": [
+            "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments#:~:text=Mandatory%20Cyber%20Security%20Awareness%20via%20Terranova"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments",
+            "final_url": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:36:30.312178+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:36:30 GMT",
+            "etag": "W/\"1794447390\"",
+            "byte_count": 83741,
+            "sha256": "67c8d9b75e04a702ebfc935f8dc91c05c132bca7e9ae685d37a12990dd19f8fb"
+          },
+          "raw_path": "raw/5710246b6e21ea146c81.html",
+          "markdown_path": "pia-ab11ce4e4feb_en.md",
+          "markdown_sha256": "ea5b112722f47eef93e8acff57914ca87d4c0ae3080d886ba2bb68f528060a95",
+          "status": "exported",
+          "page_title": "OSFI – Summaries of Privacy Impact Assessments",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments",
+            "fr": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee"
+          },
+          "date_modified": "2025-10-21",
+          "date_published": "2024-08-15",
+          "has_pia_text": true,
+          "anchor": ":~:text=Mandatory%20Cyber%20Security%20Awareness%20via%20Terranova",
+          "anchor_type": "text_fragment",
+          "source_heading": "5. May 2021",
+          "title": "Mandatory Cyber Security Awareness via Terranova",
+          "conversion": "markdownify",
+          "text_sha256": "e4cf74261fbbef5859a3af6793ba08a0066e0199b184a7dc1609e5718daf7a74",
+          "word_count": 372
+        },
+        "fr": {
+          "url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee#:~:text=Formation%20obligatoire%20de%20sensibilisation%20%C3%A0%20la%20cybers%C3%A9curit%C3%A9%20au%20moyen%20de%20Terranova",
+          "title_from_list": "Formation obligatoire de sensibilisation à la cybersécurité au moyen de Terranova",
+          "kind": "inline",
+          "discovery_method": "inline_heading",
+          "list_url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements",
+          "discovered_under": "BSIF – Résumés des évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee#:~:text=Formation%20obligatoire%20de%20sensibilisation%20%C3%A0%20la%20cybers%C3%A9curit%C3%A9%20au%20moyen%20de%20Terranova",
+              "title": "Formation obligatoire de sensibilisation à la cybersécurité au moyen de Terranova",
+              "list_url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements",
+              "discovery_method": "inline_heading"
+            }
+          ],
+          "aliases": [
+            "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee#:~:text=Formation%20obligatoire%20de%20sensibilisation%20%C3%A0%20la%20cybers%C3%A9curit%C3%A9%20au%20moyen%20de%20Terranova"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee",
+            "final_url": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:36:31.261151+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:36:31 GMT",
+            "etag": "W/\"1794447391\"",
+            "byte_count": 88408,
+            "sha256": "66307f926899f3239179fd5a7acb750add9e0aa27d0ed2109938437c3d34b87d"
+          },
+          "raw_path": "raw/14dcbd12fded12e3c91f.html",
+          "markdown_path": "pia-ab11ce4e4feb_fr.md",
+          "markdown_sha256": "9a2a4bcf6720b7846076952c7ad6d645f0da0210db316733ac8266299b32cd4a",
+          "status": "exported",
+          "page_title": "BSIF – Résumés des évaluations des facteurs relatifs à la vie privée",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.osfi-bsif.gc.ca/en/transparency/access-information-privacy/access-information-privacy-annual-reports-assessments/osfi-summaries-privacy-impact-assessments",
+            "fr": "https://www.osfi-bsif.gc.ca/fr/transparence/acces-linformation-protection-renseignements-personnels/rapports-annuels-evaluations-dacces-linformation-protection-renseignements/bsif-resumes-evaluations-facteurs-relatifs-vie-privee"
+          },
+          "date_modified": "2025-10-21",
+          "date_published": "2024-08-15",
+          "has_pia_text": true,
+          "anchor": ":~:text=Formation%20obligatoire%20de%20sensibilisation%20%C3%A0%20la%20cybers%C3%A9curit%C3%A9%20au%20moyen%20de%20Terranova",
+          "anchor_type": "text_fragment",
+          "source_heading": "5. Mai 2021",
+          "title": "Formation obligatoire de sensibilisation à la cybersécurité au moyen de Terranova",
+          "conversion": "markdownify",
+          "text_sha256": "6cf4eaa9aa4cf90372762cd446049b6abbb383d31ae021e9c5876e89493175f4",
+          "word_count": 460
+        }
+      }
+    }
+  ],
+  "summary": {
+    "pia_count": 5,
+    "paired_count": 5,
+    "source_status_counts": {
+      "exported": 10
+    }
+  }
+}

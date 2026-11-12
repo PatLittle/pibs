@@ -1,0 +1,427 @@
+{
+  "schema_version": 1,
+  "collector_version": 1,
+  "collected_at_utc": "2026-11-12T01:50:38.863479+00:00",
+  "institution_id": "ati-schedule-i-canadian-energy-regulator",
+  "gc_orgID": "2312.0",
+  "open_canada_org_id": "A3EE9522-882F-47B0-BA7D-83420DC8577C",
+  "open_canada_org_slug": "cer-rec",
+  "name_en": "Canadian Energy Regulator",
+  "name_fr": "Régie canadienne de l’énergie",
+  "registry_membership": "current_registry",
+  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "list_pages": {
+    "en": {
+      "indexed_url": "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/",
+          "final_url": "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:29.387801+00:00",
+          "redirects": [],
+          "content_type": "text/html",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": null,
+          "etag": null,
+          "byte_count": 34575,
+          "sha256": "22423cfea8c7f31f63fc8979761270cc78557edfae184e2f2bedcb7081e02ad6",
+          "raw_path": "raw/b58c0c817b0c7cc19ce1.html"
+        }
+      ],
+      "discovered_count": 3,
+      "scopes": [
+        "Privacy Impact Assessment Summaries"
+      ],
+      "warnings": []
+    },
+    "fr": {
+      "indexed_url": "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/index.html",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/index.html",
+          "final_url": "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/index.html",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:29.389586+00:00",
+          "redirects": [],
+          "content_type": "text/html",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": null,
+          "etag": null,
+          "byte_count": 36357,
+          "sha256": "a05e524c22e0e2114f7f011a219feeacdf07fc34d74bfcc951647bc182e315d9",
+          "raw_path": "raw/f7a63bf2c736efc2b09f.html"
+        }
+      ],
+      "discovered_count": 3,
+      "scopes": [
+        "Résumés"
+      ],
+      "warnings": []
+    }
+  },
+  "pias": [
+    {
+      "pia_id": "pia-6ced7a9f7de2",
+      "title_en": "Summary of the CER Portal Privacy Impact Assessment",
+      "title_fr": "Résumé de l’évaluation des facteurs relatifs à la vie privée concernant le portail de la Régie",
+      "url_en": "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/privacy-impact-assessment-summary-cer-portal.html",
+      "url_fr": "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/resume-levaluation-facteurs-relatifs-vie-privee-programme-concernant-portail-regie.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/privacy-impact-assessment-summary-cer-portal.html",
+        "alternate_url": "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/resume-levaluation-facteurs-relatifs-vie-privee-programme-concernant-portail-regie.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/privacy-impact-assessment-summary-cer-portal.html",
+          "title_from_list": "Summary of the CER Portal Privacy Impact Assessment",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/",
+          "discovered_under": "Privacy Impact Assessment Summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/privacy-impact-assessment-summary-cer-portal.html",
+              "title": "Summary of the CER Portal Privacy Impact Assessment",
+              "list_url": "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/privacy-impact-assessment-summary-cer-portal.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/privacy-impact-assessment-summary-cer-portal.html",
+            "final_url": "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/privacy-impact-assessment-summary-cer-portal.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:27.153916+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 35046,
+            "sha256": "55bcd1b5c3208b7b8546118a29878573e93cf49a978066b77e90761038275181"
+          },
+          "raw_path": "raw/6ced7a9f7de2b16fb9dc.html",
+          "markdown_path": "pia-6ced7a9f7de2_en.md",
+          "markdown_sha256": "a791ce4e5725ff836233f2cad221829f08351ef5c22a5e68c4d9b418b489a99f",
+          "status": "exported",
+          "page_title": "Summary of the CER Portal Privacy Impact Assessment",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/resume-levaluation-facteurs-relatifs-vie-privee-programme-concernant-portail-regie.html"
+          },
+          "date_modified": "2026-10-14",
+          "date_published": "2026-10-14",
+          "has_pia_text": true,
+          "title": "Summary of the CER Portal Privacy Impact Assessment",
+          "conversion": "markdownify",
+          "text_sha256": "c49bd15f1002c4930679ee0bf80fec8b238710744f0a3f0970b8c19bc9091fdb",
+          "word_count": 327
+        },
+        "fr": {
+          "url": "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/resume-levaluation-facteurs-relatifs-vie-privee-programme-concernant-portail-regie.html",
+          "title_from_list": "Résumé de l’évaluation des facteurs relatifs à la vie privée concernant le portail de la Régie",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/index.html",
+          "discovered_under": "Résumés",
+          "discovery_references": [
+            {
+              "url": "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/resume-levaluation-facteurs-relatifs-vie-privee-programme-concernant-portail-regie.html",
+              "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée concernant le portail de la Régie",
+              "list_url": "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/index.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/resume-levaluation-facteurs-relatifs-vie-privee-programme-concernant-portail-regie.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/resume-levaluation-facteurs-relatifs-vie-privee-programme-concernant-portail-regie.html",
+            "final_url": "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/resume-levaluation-facteurs-relatifs-vie-privee-programme-concernant-portail-regie.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:27.369208+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 37235,
+            "sha256": "90e1712441d02f005e89eae8c437cd45b3079e88b2193fb6e5cff6bd88bfb7da"
+          },
+          "raw_path": "raw/efb798d770f75fad8049.html",
+          "markdown_path": "pia-6ced7a9f7de2_fr.md",
+          "markdown_sha256": "72524af070a5fdd68205955672d75db188fa2aa3b1f7b7e9d64413d57138626b",
+          "status": "exported",
+          "page_title": "Résumé de l’évaluation des facteurs relatifs à la vie privée concernant le portail de la Régie",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/privacy-impact-assessment-summary-cer-portal.html"
+          },
+          "date_modified": "2026-10-14",
+          "date_published": "2026-10-14",
+          "has_pia_text": true,
+          "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée concernant le portail de la Régie",
+          "conversion": "markdownify",
+          "text_sha256": "bbd8d69c99ef3e4ef6ccde09d174d8fb7de8cef789331af5e9fb62d2a5d9f2c5",
+          "word_count": 448
+        }
+      }
+    },
+    {
+      "pia_id": "pia-1b86f3a5dbbc",
+      "title_en": "Privacy Impact Assessment Summary – Online Discussion Forum for the National Engagement Initiative",
+      "title_fr": "Résumé de l’évaluation des facteurs relatifs à la vie privée - Forum de discussion en ligne pour l’Initiative nationale de mobilisation",
+      "url_en": "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/privacy-impact-assessment-summary-online-discussion-forum-national-engagement-initiative.html",
+      "url_fr": "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/resume-levaluation-facteurs-relatifs-vie-privee-forum-discussion-ligne-pour-linitiative-nationale-mobilisation.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/privacy-impact-assessment-summary-online-discussion-forum-national-engagement-initiative.html",
+        "alternate_url": "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/resume-levaluation-facteurs-relatifs-vie-privee-forum-discussion-ligne-pour-linitiative-nationale-mobilisation.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/privacy-impact-assessment-summary-online-discussion-forum-national-engagement-initiative.html",
+          "title_from_list": "Online Discussion Forum for the National Engagement Initiative",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/",
+          "discovered_under": "Privacy Impact Assessment Summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/privacy-impact-assessment-summary-online-discussion-forum-national-engagement-initiative.html",
+              "title": "Online Discussion Forum for the National Engagement Initiative",
+              "list_url": "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/privacy-impact-assessment-summary-online-discussion-forum-national-engagement-initiative.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/privacy-impact-assessment-summary-online-discussion-forum-national-engagement-initiative.html",
+            "final_url": "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/privacy-impact-assessment-summary-online-discussion-forum-national-engagement-initiative.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:27.228098+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 38861,
+            "sha256": "2d096eadbc84f1d0fb17198cee5c68f8d743e1f49700ea7bea4f14b3d8f1b734"
+          },
+          "raw_path": "raw/1b86f3a5dbbc6b158260.html",
+          "markdown_path": "pia-1b86f3a5dbbc_en.md",
+          "markdown_sha256": "78b4a1d4ec78f2f237741f4cea8dc5d5b93da9ab334679b151bd521bbd269bf9",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summary – Online Discussion Forum for the National Engagement Initiative",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/resume-levaluation-facteurs-relatifs-vie-privee-forum-discussion-ligne-pour-linitiative-nationale-mobilisation.html"
+          },
+          "date_modified": "2020-11-08",
+          "date_published": "2020-11-08",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment Summary – Online Discussion Forum for the National Engagement Initiative",
+          "conversion": "markdownify",
+          "text_sha256": "371d0120ebf567c1771024383cd12f5e95668eac33266b3050991a231e2de688",
+          "word_count": 812
+        },
+        "fr": {
+          "url": "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/resume-levaluation-facteurs-relatifs-vie-privee-forum-discussion-ligne-pour-linitiative-nationale-mobilisation.html",
+          "title_from_list": "Forum de discussion en ligne pour l’Initiative nationale de mobilisation",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/index.html",
+          "discovered_under": "Résumés",
+          "discovery_references": [
+            {
+              "url": "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/resume-levaluation-facteurs-relatifs-vie-privee-forum-discussion-ligne-pour-linitiative-nationale-mobilisation.html",
+              "title": "Forum de discussion en ligne pour l’Initiative nationale de mobilisation",
+              "list_url": "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/index.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/resume-levaluation-facteurs-relatifs-vie-privee-forum-discussion-ligne-pour-linitiative-nationale-mobilisation.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/resume-levaluation-facteurs-relatifs-vie-privee-forum-discussion-ligne-pour-linitiative-nationale-mobilisation.html",
+            "final_url": "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/resume-levaluation-facteurs-relatifs-vie-privee-forum-discussion-ligne-pour-linitiative-nationale-mobilisation.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:27.346377+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 41257,
+            "sha256": "d310b2d7e92d24169edaaa15443a42aea7c083c68bfb56a41b4cafa7e5210bce"
+          },
+          "raw_path": "raw/4894bfaeb2dc2bac7192.html",
+          "markdown_path": "pia-1b86f3a5dbbc_fr.md",
+          "markdown_sha256": "453d4267748c9a49e88f35ff7b38ee40c3f4723c586fcca2ce145c0b6c9eecb3",
+          "status": "exported",
+          "page_title": "Résumé de l’évaluation des facteurs relatifs à la vie privée - Forum de discussion en ligne pour l’Initiative nationale de mobilisation",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/privacy-impact-assessment-summary-online-discussion-forum-national-engagement-initiative.html"
+          },
+          "date_modified": "2020-11-08",
+          "date_published": "2020-11-08",
+          "has_pia_text": true,
+          "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée - Forum de discussion en ligne pour l’Initiative nationale de mobilisation",
+          "conversion": "markdownify",
+          "text_sha256": "ca97a6c2f0d46e7db6c44894b66f9876a20cf27b906768e8605bf2537aa6a79e",
+          "word_count": 938
+        }
+      }
+    },
+    {
+      "pia_id": "pia-feec84d2f690",
+      "title_en": "Privacy Impact Assessment Summary – Participant Funding Program",
+      "title_fr": "Résumé de l’évaluation des facteurs relatifs à la vie privée – Programme d’aide financière aux participants",
+      "url_en": "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/privacy-impact-assessment-summary-participant-funding-program.html",
+      "url_fr": "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/resume-levaluation-facteurs-relatifs-vie-privee-programme-daide-financiere-participants.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/privacy-impact-assessment-summary-participant-funding-program.html",
+        "alternate_url": "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/resume-levaluation-facteurs-relatifs-vie-privee-programme-daide-financiere-participants.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/privacy-impact-assessment-summary-participant-funding-program.html",
+          "title_from_list": "Participant Funding Program",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/",
+          "discovered_under": "Privacy Impact Assessment Summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/privacy-impact-assessment-summary-participant-funding-program.html",
+              "title": "Participant Funding Program",
+              "list_url": "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/privacy-impact-assessment-summary-participant-funding-program.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/privacy-impact-assessment-summary-participant-funding-program.html",
+            "final_url": "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/privacy-impact-assessment-summary-participant-funding-program.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:27.283075+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 41072,
+            "sha256": "07251b8fac0d27bb6305a5371d5ceca2654d003a011883e84291082f33e7c03c"
+          },
+          "raw_path": "raw/feec84d2f690be2374b9.html",
+          "markdown_path": "pia-feec84d2f690_en.md",
+          "markdown_sha256": "a1252341b0aa111f4238ba8ec9a7fecb64e9851ce0e596d1138f1f3de03dbec9",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summary – Participant Funding Program",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/resume-levaluation-facteurs-relatifs-vie-privee-programme-daide-financiere-participants.html"
+          },
+          "date_modified": "2024-02-01",
+          "date_published": "2024-02-01",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment Summary – Participant Funding Program",
+          "conversion": "markdownify",
+          "text_sha256": "c79b6e7f4c575698f3aab1975dca12784f5f38c6ec9d19c3144f00a5f5d8755f",
+          "word_count": 1103
+        },
+        "fr": {
+          "url": "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/resume-levaluation-facteurs-relatifs-vie-privee-programme-daide-financiere-participants.html",
+          "title_from_list": "Programme d’aide financière aux participants",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/index.html",
+          "discovered_under": "Résumés",
+          "discovery_references": [
+            {
+              "url": "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/resume-levaluation-facteurs-relatifs-vie-privee-programme-daide-financiere-participants.html",
+              "title": "Programme d’aide financière aux participants",
+              "list_url": "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/index.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/resume-levaluation-facteurs-relatifs-vie-privee-programme-daide-financiere-participants.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/resume-levaluation-facteurs-relatifs-vie-privee-programme-daide-financiere-participants.html",
+            "final_url": "https://www.cer-rec.gc.ca/fr/regie/gouvernement-ouvert/transparence/resumes-evaluations-facteurs-relatifs-vie-privee/resume-levaluation-facteurs-relatifs-vie-privee-programme-daide-financiere-participants.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:27.410866+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 44065,
+            "sha256": "3d30256840cf345804c3bf112a4f4890e1c1daa6b8419b5d94fa3676ad6b946f"
+          },
+          "raw_path": "raw/155f01cb0acd3c4a98d6.html",
+          "markdown_path": "pia-feec84d2f690_fr.md",
+          "markdown_sha256": "c982acbfe4e1092f0e77990311ef4963c0c32cc716bd716bfd033b28271d689a",
+          "status": "exported",
+          "page_title": "Résumé de l’évaluation des facteurs relatifs à la vie privée – Programme d’aide financière aux participants",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.cer-rec.gc.ca/en/about/open-government/transparency/privacy-impact-assessment-summaries/privacy-impact-assessment-summary-participant-funding-program.html"
+          },
+          "date_modified": "2024-02-01",
+          "date_published": "2024-02-01",
+          "has_pia_text": true,
+          "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée – Programme d’aide financière aux participants",
+          "conversion": "markdownify",
+          "text_sha256": "4b6c2f359576e8a27ff4eff8d2b537db1ff16ad40a994f2260e9ae95250e96ec",
+          "word_count": 1284
+        }
+      }
+    }
+  ],
+  "summary": {
+    "pia_count": 3,
+    "paired_count": 3,
+    "source_status_counts": {
+      "exported": 6
+    }
+  }
+}

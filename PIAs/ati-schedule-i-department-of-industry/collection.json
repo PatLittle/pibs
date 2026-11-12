@@ -1,0 +1,2112 @@
+{
+  "schema_version": 1,
+  "collector_version": 1,
+  "collected_at_utc": "2026-11-12T01:50:32.768971+00:00",
+  "institution_id": "ati-schedule-i-department-of-industry",
+  "gc_orgID": "2231.0",
+  "open_canada_org_id": "06CC519C-E56E-4FC8-8B9C-BE0A461E3CD9",
+  "open_canada_org_slug": "ic",
+  "name_en": "Department of Industry",
+  "name_fr": "Ministère de l’Industrie",
+  "registry_membership": "current_registry",
+  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "list_pages": {
+    "en": {
+      "indexed_url": "https://ised-isde.canada.ca/site/atip-services/en/references",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://ised-isde.canada.ca/site/atip-services/en/references",
+          "final_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:26.934272+00:00",
+          "redirects": [
+            {
+              "url": "https://ised-isde.canada.ca/site/atip-services/en/references",
+              "http_status": 301,
+              "location": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references"
+            }
+          ],
+          "content_type": "text/html; charset=UTF-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Thu, 12 Nov 2026 01:34:27 GMT",
+          "etag": "\"1794447267\"",
+          "byte_count": 31288,
+          "sha256": "4a914d079dde9e1460ffb24ffddf373539516f8939c14305cc2016e33f7e39c5",
+          "raw_path": "raw/8066f902b4e3635eacba.html"
+        }
+      ],
+      "discovered_count": 13,
+      "scopes": [
+        "Privacy Impact Assessments"
+      ],
+      "warnings": []
+    },
+    "fr": {
+      "indexed_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+          "final_url": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:27.335196+00:00",
+          "redirects": [
+            {
+              "url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+              "http_status": 301,
+              "location": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references"
+            }
+          ],
+          "content_type": "text/html; charset=UTF-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Thu, 12 Nov 2026 01:34:27 GMT",
+          "etag": "\"1794447267\"",
+          "byte_count": 33104,
+          "sha256": "7737be5c779699fe2f3df1d91cd7a8fad26614d22147e1c8aed6e31e246deeae",
+          "raw_path": "raw/ab6eb4cccb593cde0bfd.html"
+        }
+      ],
+      "discovered_count": 13,
+      "scopes": [
+        "Évaluation des facteurs relatifs à la vie privée"
+      ],
+      "warnings": []
+    }
+  },
+  "pias": [
+    {
+      "pia_id": "pia-3d44919f898f",
+      "title_en": "Talent Mobility Tool for Workforce Adjustment Staffing",
+      "title_fr": "Outil de mobilité des talents pour soutenir la dotation dans le contexte du réaménagement des effectifs",
+      "url_en": "https://ised-isde.canada.ca/site/ised/en/atip-services/talent-mobility-tool-workforce-adjustment-staffing",
+      "url_fr": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/outil-mobilite-talents-pour-soutenir-dotation-dans-contexte-reamenagement-effectifs",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://ised-isde.canada.ca/site/ised/en/atip-services/talent-mobility-tool-workforce-adjustment-staffing",
+        "alternate_url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/outil-mobilite-talents-pour-soutenir-dotation-dans-contexte-reamenagement-effectifs"
+      },
+      "sources": {
+        "en": {
+          "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/talent-mobility-tool-workforce-adjustment-staffing",
+          "title_from_list": "Talent Mobility Tool for Workforce Adjustment Staffing",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://ised-isde.canada.ca/site/atip-services/en/references",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/talent-mobility-tool-workforce-adjustment-staffing",
+              "title": "Talent Mobility Tool for Workforce Adjustment Staffing",
+              "list_url": "https://ised-isde.canada.ca/site/atip-services/en/references",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://ised-isde.canada.ca/site/ised/en/atip-services/talent-mobility-tool-workforce-adjustment-staffing"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://ised-isde.canada.ca/site/ised/en/atip-services/talent-mobility-tool-workforce-adjustment-staffing",
+            "final_url": "https://ised-isde.canada.ca/site/ised/en/atip-services/talent-mobility-tool-workforce-adjustment-staffing",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:09.338515+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:09 GMT",
+            "etag": "\"1794447729\"",
+            "byte_count": 24039,
+            "sha256": "bd11685452a8964eefdf0d4c37b8ac666b7dd459a961b21afa53c54d680ce5db"
+          },
+          "raw_path": "raw/3d44919f898f7e819867.html",
+          "markdown_path": "pia-3d44919f898f_en.md",
+          "markdown_sha256": "730c9c9caebad99a758db09e60acc83ae211d9b92231a401a0230082f40ef119",
+          "status": "exported",
+          "page_title": "Talent Mobility Tool for Workforce Adjustment Staffing",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://ised-isde.canada.ca/site/ised/en/atip-services/talent-mobility-tool-workforce-adjustment-staffing",
+            "fr": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/outil-mobilite-talents-pour-soutenir-dotation-dans-contexte-reamenagement-effectifs"
+          },
+          "date_modified": "2026-04-30",
+          "date_published": "",
+          "has_pia_text": true,
+          "title": "Talent Mobility Tool for Workforce Adjustment Staffing",
+          "conversion": "markdownify",
+          "text_sha256": "43148925e1d3e957f0452ea60f957886d1ae7e98667ff07eb63459812cb48c1c",
+          "word_count": 151
+        },
+        "fr": {
+          "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/outil-mobilite-talents-pour-soutenir-dotation-dans-contexte-reamenagement-effectifs",
+          "title_from_list": "Outil de mobilité des talents pour soutenir la dotation dans le contexte du réaménagement des effectifs",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/outil-mobilite-talents-pour-soutenir-dotation-dans-contexte-reamenagement-effectifs",
+              "title": "Outil de mobilité des talents pour soutenir la dotation dans le contexte du réaménagement des effectifs",
+              "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/outil-mobilite-talents-pour-soutenir-dotation-dans-contexte-reamenagement-effectifs"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/outil-mobilite-talents-pour-soutenir-dotation-dans-contexte-reamenagement-effectifs",
+            "final_url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/outil-mobilite-talents-pour-soutenir-dotation-dans-contexte-reamenagement-effectifs",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:01.921287+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:02 GMT",
+            "etag": "\"1794447722\"",
+            "byte_count": 25001,
+            "sha256": "90ea2412a8144e9b1b1bf6c415abfacba4ff654262f571e808f2ba52133cfca4"
+          },
+          "raw_path": "raw/ed4a143581b00cd555d5.html",
+          "markdown_path": "pia-3d44919f898f_fr.md",
+          "markdown_sha256": "fef41761d112ff98a3508a97ac87d4ad29e7a5bc9ba4b0febb84b32b6499f621",
+          "status": "exported",
+          "page_title": "Outil de mobilité des talents pour soutenir la dotation dans le contexte du réaménagement des effectifs",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://ised-isde.canada.ca/site/ised/en/atip-services/talent-mobility-tool-workforce-adjustment-staffing",
+            "fr": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/outil-mobilite-talents-pour-soutenir-dotation-dans-contexte-reamenagement-effectifs"
+          },
+          "date_modified": "2026-04-30",
+          "date_published": "",
+          "has_pia_text": true,
+          "title": "Outil de mobilité des talents pour soutenir la dotation dans le contexte du réaménagement des effectifs",
+          "conversion": "markdownify",
+          "text_sha256": "49e6e8972e3de4bf4c85826aaedb707960423881ebc776e71a528ad91029a240",
+          "word_count": 204
+        }
+      }
+    },
+    {
+      "pia_id": "pia-ef2d6233118d",
+      "title_en": "Competition Bureau – Digital Forensic Activity (Electronic Evidence Unit)",
+      "title_fr": "Bureau de la concurrence – Activité de juricomptabilité informatique (Unité des éléments de preuve électroniques)",
+      "url_en": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/competition-bureau-digital-forensic-activity-electronic-evidence-unit",
+      "url_fr": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/bureau-concurrence-activite-juricomptabilite-informatique-unite-elements-preuve-electroniques",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/competition-bureau-digital-forensic-activity-electronic-evidence-unit",
+        "alternate_url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/bureau-concurrence-activite-juricomptabilite-informatique-unite-elements-preuve-electroniques"
+      },
+      "sources": {
+        "en": {
+          "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/competition-bureau-digital-forensic-activity-electronic-evidence-unit",
+          "title_from_list": "Competition Bureau – Digital Forensic Activity (Electronic Evidence Unit)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://ised-isde.canada.ca/site/atip-services/en/references",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/competition-bureau-digital-forensic-activity-electronic-evidence-unit",
+              "title": "Competition Bureau – Digital Forensic Activity (Electronic Evidence Unit)",
+              "list_url": "https://ised-isde.canada.ca/site/atip-services/en/references",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://ised-isde.canada.ca/site/ised/en/atip-services/references/competition-bureau-digital-forensic-activity-electronic-evidence-unit"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/competition-bureau-digital-forensic-activity-electronic-evidence-unit",
+            "final_url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/competition-bureau-digital-forensic-activity-electronic-evidence-unit",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:07.406916+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:07 GMT",
+            "etag": "\"1794447727\"",
+            "byte_count": 29188,
+            "sha256": "ad2093072efe882090ed47e106ddb174059270588ef968b28de10f0aa2f326e1"
+          },
+          "raw_path": "raw/ef2d6233118dc27d9c1b.html",
+          "markdown_path": "pia-ef2d6233118d_en.md",
+          "markdown_sha256": "34463049ed67a41139ce71326d14807ad578c975e0a9ff06c374043a4f98f069",
+          "status": "exported",
+          "page_title": "Competition Bureau – Digital Forensic Activity (Electronic Evidence Unit)",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/competition-bureau-digital-forensic-activity-electronic-evidence-unit",
+            "fr": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/bureau-concurrence-activite-juricomptabilite-informatique-unite-elements-preuve-electroniques"
+          },
+          "date_modified": "2026-03-31",
+          "date_published": "",
+          "has_pia_text": true,
+          "title": "Competition Bureau – Digital Forensic Activity (Electronic Evidence Unit)",
+          "conversion": "markdownify",
+          "text_sha256": "18c8b87f554d6b4754ed6d201dfdd57f903eb917b2cd28b17eed5509e7a9ee61",
+          "word_count": 806
+        },
+        "fr": {
+          "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/bureau-concurrence-activite-juricomptabilite-informatique-unite-elements-preuve-electroniques",
+          "title_from_list": "Activité de juricomptabilité informatique (Unité des éléments de preuve électroniques) du Bureau de la concurrence",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/bureau-concurrence-activite-juricomptabilite-informatique-unite-elements-preuve-electroniques",
+              "title": "Activité de juricomptabilité informatique (Unité des éléments de preuve électroniques) du Bureau de la concurrence",
+              "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/bureau-concurrence-activite-juricomptabilite-informatique-unite-elements-preuve-electroniques"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/bureau-concurrence-activite-juricomptabilite-informatique-unite-elements-preuve-electroniques",
+            "final_url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/bureau-concurrence-activite-juricomptabilite-informatique-unite-elements-preuve-electroniques",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:02.017135+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:03 GMT",
+            "etag": "\"1794447723\"",
+            "byte_count": 31675,
+            "sha256": "27815cf2cbddf25dc7f05504f925af017f13f4397601ca7531a7887e2d0c77e5"
+          },
+          "raw_path": "raw/165be1e6278b185fecf8.html",
+          "markdown_path": "pia-ef2d6233118d_fr.md",
+          "markdown_sha256": "53c54767b5e28bb7ae33ef61fd79c17982f035406d2361bb05911ed15edb4a53",
+          "status": "exported",
+          "page_title": "Bureau de la concurrence – Activité de juricomptabilité informatique (Unité des éléments de preuve électroniques)",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/competition-bureau-digital-forensic-activity-electronic-evidence-unit",
+            "fr": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/bureau-concurrence-activite-juricomptabilite-informatique-unite-elements-preuve-electroniques"
+          },
+          "date_modified": "2026-03-31",
+          "date_published": "",
+          "has_pia_text": true,
+          "title": "Bureau de la concurrence – Activité de juricomptabilité informatique (Unité des éléments de preuve électroniques)",
+          "conversion": "markdownify",
+          "text_sha256": "38e7feeb82a580d54e2c16588af99938138eb2bd81c38922b16fad2cf5668288",
+          "word_count": 1085
+        }
+      }
+    },
+    {
+      "pia_id": "pia-41bffda1528e",
+      "title_en": "Transparency of Beneficial Ownership of Federally Incorporated Companies – Evergreen Update to Support Discrepancy Reporting Requirements",
+      "title_fr": "Transparence en matière de propriété effective des sociétés de régime fédéral – mise à jour évolutive à l’appui des exigences de déclaration des écarts",
+      "url_en": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/transparency-beneficial-ownership-federally-incorporated-companies-evergreen-update-support",
+      "url_fr": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/transparence-matiere-propriete-effective-societes-regime-federal-mise-jour-evolutive-lappui",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/transparency-beneficial-ownership-federally-incorporated-companies-evergreen-update-support",
+        "alternate_url": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/transparence-matiere-propriete-effective-societes-regime-federal-mise-jour-evolutive-lappui"
+      },
+      "sources": {
+        "en": {
+          "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/transparency-beneficial-ownership-federally-incorporated-companies-evergreen-update-support",
+          "title_from_list": "Transparency of Beneficial Ownership of Federally Incorporated Companies – Evergreen Update to Support Discrepancy Reporting Requirements",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://ised-isde.canada.ca/site/atip-services/en/references",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/transparency-beneficial-ownership-federally-incorporated-companies-evergreen-update-support",
+              "title": "Transparency of Beneficial Ownership of Federally Incorporated Companies – Evergreen Update to Support Discrepancy Reporting Requirements",
+              "list_url": "https://ised-isde.canada.ca/site/atip-services/en/references",
+              "discovery_method": "pia_section_link"
+            },
+            {
+              "url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/transparency-beneficial-ownership-federally-incorporated-companies-evergreen-update-support",
+              "title": "Transparency of Beneficial Ownership of Federally Incorporated Companies – Evergreen Update to Support Discrepancy Reporting Requirements",
+              "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+              "discovery_method": "document_language_link"
+            }
+          ],
+          "aliases": [
+            "https://ised-isde.canada.ca/site/ised/en/atip-services/references/transparency-beneficial-ownership-federally-incorporated-companies-evergreen-update-support",
+            "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/transparency-beneficial-ownership-federally-incorporated-companies-evergreen-update-support",
+            "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/transparency-beneficial-ownership-federally-incorporated-companies-evergreen-update-support"
+          ],
+          "alternative_http_observations": [
+            {
+              "requested_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/transparency-beneficial-ownership-federally-incorporated-companies-evergreen-update-support",
+              "final_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/transparency-beneficial-ownership-federally-incorporated-companies-evergreen-update-support",
+              "http_status": 200,
+              "checked_at_utc": "2026-11-12T01:50:28.612955+00:00",
+              "redirects": [],
+              "content_type": "text/html; charset=UTF-8",
+              "encoding": "utf-8",
+              "error": null,
+              "last_modified": "Thu, 12 Nov 2026 01:50:29 GMT",
+              "etag": "\"1794448229\"",
+              "byte_count": 29394,
+              "sha256": "3156623a8db27f415d7e216f901ad029fb40843e1304418078bb385afaff8ded"
+            },
+            {
+              "requested_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/transparency-beneficial-ownership-federally-incorporated-companies-evergreen-update-support",
+              "final_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/transparency-beneficial-ownership-federally-incorporated-companies-evergreen-update-support",
+              "http_status": 200,
+              "checked_at_utc": "2026-11-12T01:50:28.612955+00:00",
+              "redirects": [],
+              "content_type": "text/html; charset=UTF-8",
+              "encoding": "utf-8",
+              "error": null,
+              "last_modified": "Thu, 12 Nov 2026 01:50:29 GMT",
+              "etag": "\"1794448229\"",
+              "byte_count": 29394,
+              "sha256": "3156623a8db27f415d7e216f901ad029fb40843e1304418078bb385afaff8ded"
+            }
+          ],
+          "http": {
+            "requested_url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/transparency-beneficial-ownership-federally-incorporated-companies-evergreen-update-support",
+            "final_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/transparency-beneficial-ownership-federally-incorporated-companies-evergreen-update-support",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:09.262383+00:00",
+            "redirects": [
+              {
+                "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/transparency-beneficial-ownership-federally-incorporated-companies-evergreen-update-support",
+                "http_status": 301,
+                "location": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/transparency-beneficial-ownership-federally-incorporated-companies-evergreen-update-support"
+              }
+            ],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:10 GMT",
+            "etag": "\"1794447730\"",
+            "byte_count": 29394,
+            "sha256": "3156623a8db27f415d7e216f901ad029fb40843e1304418078bb385afaff8ded"
+          },
+          "raw_path": "raw/41bffda1528ed002888c.html",
+          "markdown_path": "pia-41bffda1528e_en.md",
+          "markdown_sha256": "09f1511167738d165ef11370545b49492ae1c6dd4dbcbe77f76a5eaded68042f",
+          "status": "exported",
+          "page_title": "Transparency of Beneficial Ownership of Federally Incorporated Companies – Evergreen Update to Support Discrepancy Reporting Requirements",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/transparency-beneficial-ownership-federally-incorporated-companies-evergreen-update-support",
+            "fr": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/transparence-matiere-propriete-effective-societes-regime-federal-mise-jour-evolutive-lappui"
+          },
+          "date_modified": "2026-03-12",
+          "date_published": "",
+          "has_pia_text": true,
+          "title": "Transparency of Beneficial Ownership of Federally Incorporated Companies – Evergreen Update to Support Discrepancy Reporting Requirements",
+          "conversion": "markdownify",
+          "text_sha256": "b23e5c311e05faecbc74e4181f90d432c6f3ccf3e1256ade1ff570f0b27816f4",
+          "word_count": 852
+        },
+        "fr": {
+          "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/transparence-matiere-propriete-effective-societes-regime-federal-mise-jour-evolutive-lappui",
+          "title_from_list": "Transparence en matière de propriété effective des sociétés de régime fédéral – mise à jour évolutive à l’appui des exigences de déclaration des écarts",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/transparence-matiere-propriete-effective-societes-regime-federal-mise-jour-evolutive-lappui",
+              "title": "Transparence en matière de propriété effective des sociétés de régime fédéral – mise à jour évolutive à l’appui des exigences de déclaration des écarts",
+              "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/transparence-matiere-propriete-effective-societes-regime-federal-mise-jour-evolutive-lappui",
+            "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/transparence-matiere-propriete-effective-societes-regime-federal-mise-jour-evolutive-lappui"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/transparence-matiere-propriete-effective-societes-regime-federal-mise-jour-evolutive-lappui",
+            "final_url": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/transparence-matiere-propriete-effective-societes-regime-federal-mise-jour-evolutive-lappui",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:50:11.875992+00:00",
+            "redirects": [
+              {
+                "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/transparence-matiere-propriete-effective-societes-regime-federal-mise-jour-evolutive-lappui",
+                "http_status": 301,
+                "location": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/transparence-matiere-propriete-effective-societes-regime-federal-mise-jour-evolutive-lappui"
+              }
+            ],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:50:14 GMT",
+            "etag": "\"1794448214\"",
+            "byte_count": 31512,
+            "sha256": "53c6b75e6df5addca0736b63d9299be83407e502bf7fbde4a2b18ed6af776d01"
+          },
+          "raw_path": "raw/d2e6fa0f80bbf6e5e1f4.html",
+          "markdown_path": "pia-41bffda1528e_fr.md",
+          "markdown_sha256": "076042236cb022640840d3729f212dca9c75b40c8e6cbf53b42aaba519db5ed2",
+          "status": "exported",
+          "page_title": "Transparence en matière de propriété effective des sociétés de régime fédéral – mise à jour évolutive à l’appui des exigences de déclaration des écarts",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/transparency-beneficial-ownership-federally-incorporated-companies-evergreen-update-support",
+            "fr": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/transparence-matiere-propriete-effective-societes-regime-federal-mise-jour-evolutive-lappui"
+          },
+          "date_modified": "2026-03-12",
+          "date_published": "",
+          "has_pia_text": true,
+          "title": "Transparence en matière de propriété effective des sociétés de régime fédéral – mise à jour évolutive à l’appui des exigences de déclaration des écarts",
+          "conversion": "markdownify",
+          "text_sha256": "85f935e27d678c13041c9fc5f6499264e608bfad9b97a23021e82d1d1bfdcb12",
+          "word_count": 1069
+        }
+      }
+    },
+    {
+      "pia_id": "pia-51376bcd5338",
+      "title_en": "Privacy Impact Assessment – Canada Digital Adoption Program: Evergreen Update – May 2024",
+      "title_fr": "Évaluation des facteurs relatifs à la vie privée - Programme canadien d'adoption du numérique : Mise à jour évolutive – Mai 2024",
+      "url_en": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-canada-digital-adoption-program-evergreen-update-may-2024",
+      "url_fr": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-programme-canadien-dadoption-numerique-mise-jour-evolutive",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-canada-digital-adoption-program-evergreen-update-may-2024",
+        "alternate_url": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-programme-canadien-dadoption-numerique-mise-jour-evolutive"
+      },
+      "sources": {
+        "en": {
+          "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-canada-digital-adoption-program-evergreen-update-may-2024",
+          "title_from_list": "CIPO 2025 Evergreen Update",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://ised-isde.canada.ca/site/atip-services/en/references",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-canada-digital-adoption-program-evergreen-update-may-2024",
+              "title": "CIPO 2025 Evergreen Update",
+              "list_url": "https://ised-isde.canada.ca/site/atip-services/en/references",
+              "discovery_method": "pia_section_link"
+            },
+            {
+              "url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-canada-digital-adoption-program-evergreen-update-may-2024",
+              "title": "Privacy Impact Assessment – Canada Digital Adoption Program: Evergreen Update – May 2024",
+              "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+              "discovery_method": "document_language_link"
+            }
+          ],
+          "aliases": [
+            "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-canada-digital-adoption-program-evergreen-update-may-2024",
+            "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-canada-digital-adoption-program-evergreen-update-may-2024",
+            "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-canada-digital-adoption-program-evergreen-update-may-2024"
+          ],
+          "alternative_http_observations": [
+            {
+              "requested_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-canada-digital-adoption-program-evergreen-update-may-2024",
+              "final_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-canada-digital-adoption-program-evergreen-update-may-2024",
+              "http_status": 200,
+              "checked_at_utc": "2026-11-12T01:50:28.589272+00:00",
+              "redirects": [],
+              "content_type": "text/html; charset=UTF-8",
+              "encoding": "utf-8",
+              "error": null,
+              "last_modified": "Thu, 12 Nov 2026 01:50:28 GMT",
+              "etag": "\"1794448228\"",
+              "byte_count": 47831,
+              "sha256": "d4013438a601c04f4834bb098562b3c4dd5be6228d8e39245b254dd8a1b78b1d"
+            },
+            {
+              "requested_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-canada-digital-adoption-program-evergreen-update-may-2024",
+              "final_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-canada-digital-adoption-program-evergreen-update-may-2024",
+              "http_status": 200,
+              "checked_at_utc": "2026-11-12T01:50:28.589272+00:00",
+              "redirects": [],
+              "content_type": "text/html; charset=UTF-8",
+              "encoding": "utf-8",
+              "error": null,
+              "last_modified": "Thu, 12 Nov 2026 01:50:28 GMT",
+              "etag": "\"1794448228\"",
+              "byte_count": 47831,
+              "sha256": "d4013438a601c04f4834bb098562b3c4dd5be6228d8e39245b254dd8a1b78b1d"
+            }
+          ],
+          "http": {
+            "requested_url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-canada-digital-adoption-program-evergreen-update-may-2024",
+            "final_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-canada-digital-adoption-program-evergreen-update-may-2024",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:07.413454+00:00",
+            "redirects": [
+              {
+                "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-canada-digital-adoption-program-evergreen-update-may-2024",
+                "http_status": 301,
+                "location": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-canada-digital-adoption-program-evergreen-update-may-2024"
+              }
+            ],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:08 GMT",
+            "etag": "\"1794447728\"",
+            "byte_count": 47831,
+            "sha256": "d4013438a601c04f4834bb098562b3c4dd5be6228d8e39245b254dd8a1b78b1d"
+          },
+          "raw_path": "raw/51376bcd5338808b0a7b.html",
+          "markdown_path": "pia-51376bcd5338_en.md",
+          "markdown_sha256": "779078860dc081425a227e5ca670d61ea643155aaeee1f6468aab723b66f1d6b",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment – Canada Digital Adoption Program: Evergreen Update – May 2024",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-canada-digital-adoption-program-evergreen-update-may-2024",
+            "fr": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-programme-canadien-dadoption-numerique-mise-jour-evolutive"
+          },
+          "date_modified": "2026-03-12",
+          "date_published": "",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment – Canada Digital Adoption Program: Evergreen Update – May 2024",
+          "conversion": "markdownify",
+          "text_sha256": "7d5f3cd4e9716c896aa6dd6122016493a77c40e992161b70ae6ce7f42952056d",
+          "word_count": 2929
+        },
+        "fr": {
+          "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-programme-canadien-dadoption-numerique-mise-jour-evolutive",
+          "title_from_list": "OPIC 2025 Mise à jour évolutive",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-programme-canadien-dadoption-numerique-mise-jour-evolutive",
+              "title": "OPIC 2025 Mise à jour évolutive",
+              "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-programme-canadien-dadoption-numerique-mise-jour-evolutive",
+            "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-programme-canadien-dadoption-numerique-mise-jour-evolutive"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-programme-canadien-dadoption-numerique-mise-jour-evolutive",
+            "final_url": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-programme-canadien-dadoption-numerique-mise-jour-evolutive",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:50:11.867101+00:00",
+            "redirects": [
+              {
+                "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-programme-canadien-dadoption-numerique-mise-jour-evolutive",
+                "http_status": 301,
+                "location": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-programme-canadien-dadoption-numerique-mise-jour-evolutive"
+              }
+            ],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:50:16 GMT",
+            "etag": "\"1794448216\"",
+            "byte_count": 51895,
+            "sha256": "28f28690af72f613a9fb5c56353a04d1ac447c273594ae459d090d72a414bd1a"
+          },
+          "raw_path": "raw/798dd78e45bedac4842f.html",
+          "markdown_path": "pia-51376bcd5338_fr.md",
+          "markdown_sha256": "858be802b00ecfb809553ca8b878c8546f4ed767893dce043902ab9bc44d86e8",
+          "status": "exported",
+          "page_title": "Évaluation des facteurs relatifs à la vie privée - Programme canadien d'adoption du numérique : Mise à jour évolutive – Mai 2024",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-canada-digital-adoption-program-evergreen-update-may-2024",
+            "fr": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-programme-canadien-dadoption-numerique-mise-jour-evolutive"
+          },
+          "date_modified": "2026-03-12",
+          "date_published": "",
+          "has_pia_text": true,
+          "title": "Évaluation des facteurs relatifs à la vie privée - Programme canadien d'adoption du numérique : Mise à jour évolutive – Mai 2024",
+          "conversion": "markdownify",
+          "text_sha256": "88051c1b6d63eeab9cf8bf2d45596eccefc4424264181d4b0ccfde6878e2ba3a",
+          "word_count": 3550
+        }
+      }
+    },
+    {
+      "pia_id": "pia-91073d87af2f",
+      "title_en": "Privacy Impact Assessment – Corporations Canada – Beneficial Ownership Transparency",
+      "title_fr": "Évaluation des facteurs relatifs à la vie privée - Corporations Canada - Transparence en matière de propriété effective",
+      "url_en": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-corporations-canada-beneficial-ownership-transparency",
+      "url_fr": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-corporations-canada-transparence-matiere-propriete-effective",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-corporations-canada-beneficial-ownership-transparency",
+        "alternate_url": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-corporations-canada-transparence-matiere-propriete-effective"
+      },
+      "sources": {
+        "en": {
+          "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-corporations-canada-beneficial-ownership-transparency",
+          "title_from_list": "Corporations Canada – Beneficial Ownership Transparency",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://ised-isde.canada.ca/site/atip-services/en/references",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-corporations-canada-beneficial-ownership-transparency",
+              "title": "Corporations Canada – Beneficial Ownership Transparency",
+              "list_url": "https://ised-isde.canada.ca/site/atip-services/en/references",
+              "discovery_method": "pia_section_link"
+            },
+            {
+              "url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-corporations-canada-beneficial-ownership-transparency",
+              "title": "Privacy Impact Assessment – Corporations Canada – Beneficial Ownership Transparency",
+              "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+              "discovery_method": "document_language_link"
+            }
+          ],
+          "aliases": [
+            "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-corporations-canada-beneficial-ownership-transparency",
+            "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-corporations-canada-beneficial-ownership-transparency",
+            "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-corporations-canada-beneficial-ownership-transparency"
+          ],
+          "alternative_http_observations": [
+            {
+              "requested_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-corporations-canada-beneficial-ownership-transparency",
+              "final_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-corporations-canada-beneficial-ownership-transparency",
+              "http_status": 200,
+              "checked_at_utc": "2026-11-12T01:43:09.938336+00:00",
+              "redirects": [],
+              "content_type": "text/html; charset=UTF-8",
+              "encoding": "utf-8",
+              "error": null,
+              "last_modified": "Thu, 12 Nov 2026 01:43:10 GMT",
+              "etag": "\"1794447790\"",
+              "byte_count": 46651,
+              "sha256": "4999079368539267e9d889dc30e8fb20c6a3ad98ad4e69e0c69db252b49183d3"
+            },
+            {
+              "requested_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-corporations-canada-beneficial-ownership-transparency",
+              "final_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-corporations-canada-beneficial-ownership-transparency",
+              "http_status": 200,
+              "checked_at_utc": "2026-11-12T01:43:09.938336+00:00",
+              "redirects": [],
+              "content_type": "text/html; charset=UTF-8",
+              "encoding": "utf-8",
+              "error": null,
+              "last_modified": "Thu, 12 Nov 2026 01:43:10 GMT",
+              "etag": "\"1794447790\"",
+              "byte_count": 46651,
+              "sha256": "4999079368539267e9d889dc30e8fb20c6a3ad98ad4e69e0c69db252b49183d3"
+            }
+          ],
+          "http": {
+            "requested_url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-corporations-canada-beneficial-ownership-transparency",
+            "final_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-corporations-canada-beneficial-ownership-transparency",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:07.408265+00:00",
+            "redirects": [
+              {
+                "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-corporations-canada-beneficial-ownership-transparency",
+                "http_status": 301,
+                "location": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-corporations-canada-beneficial-ownership-transparency"
+              }
+            ],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:08 GMT",
+            "etag": "\"1794447728\"",
+            "byte_count": 46651,
+            "sha256": "4999079368539267e9d889dc30e8fb20c6a3ad98ad4e69e0c69db252b49183d3"
+          },
+          "raw_path": "raw/91073d87af2fe24b7af5.html",
+          "markdown_path": "pia-91073d87af2f_en.md",
+          "markdown_sha256": "0a7873a4a7c6fba53ab44d6def99725aaa70399c01ac9779c6744be31b26540d",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment – Corporations Canada – Beneficial Ownership Transparency",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-corporations-canada-beneficial-ownership-transparency",
+            "fr": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-corporations-canada-transparence-matiere-propriete-effective"
+          },
+          "date_modified": "2026-03-12",
+          "date_published": "",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment – Corporations Canada – Beneficial Ownership Transparency",
+          "conversion": "markdownify",
+          "text_sha256": "df0599f56418bf49e308aa0468b97a726ff763a061c93dc29795e6c3dbacbad8",
+          "word_count": 2685
+        },
+        "fr": {
+          "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-corporations-canada-transparence-matiere-propriete-effective",
+          "title_from_list": "Corporations Canada – Transparence en matière de propriété effective",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-corporations-canada-transparence-matiere-propriete-effective",
+              "title": "Corporations Canada – Transparence en matière de propriété effective",
+              "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-corporations-canada-transparence-matiere-propriete-effective",
+            "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-corporations-canada-transparence-matiere-propriete-effective"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-corporations-canada-transparence-matiere-propriete-effective",
+            "final_url": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-corporations-canada-transparence-matiere-propriete-effective",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:03.083073+00:00",
+            "redirects": [
+              {
+                "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-corporations-canada-transparence-matiere-propriete-effective",
+                "http_status": 301,
+                "location": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-corporations-canada-transparence-matiere-propriete-effective"
+              }
+            ],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:05 GMT",
+            "etag": "\"1794447725\"",
+            "byte_count": 51136,
+            "sha256": "39ffca46a53d2652fa68d4b158e8dd90e31d550cfdc2b0ba9d41e4de3fb0eadb"
+          },
+          "raw_path": "raw/e1992da725482bbb751d.html",
+          "markdown_path": "pia-91073d87af2f_fr.md",
+          "markdown_sha256": "eb5d14b198fa2b2a9ad58fffdbc2f8e3c8d8b61c5d925ad1c5cdbca7f63f8f7a",
+          "status": "exported",
+          "page_title": "Évaluation des facteurs relatifs à la vie privée - Corporations Canada - Transparence en matière de propriété effective",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-corporations-canada-beneficial-ownership-transparency",
+            "fr": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-corporations-canada-transparence-matiere-propriete-effective"
+          },
+          "date_modified": "2026-03-12",
+          "date_published": "",
+          "has_pia_text": true,
+          "title": "Évaluation des facteurs relatifs à la vie privée - Corporations Canada - Transparence en matière de propriété effective",
+          "conversion": "markdownify",
+          "text_sha256": "ed2623bc95ab7272fd53571b021b9221451a721ada28ce6c0025b0d3309a6976",
+          "word_count": 3213
+        }
+      }
+    },
+    {
+      "pia_id": "pia-9f87707a13e0",
+      "title_en": "Privacy Impact Assessment – Investment Canada Act Reviews",
+      "title_fr": "Évaluation des facteurs relatifs à la vie privée - Examen de la Loi sur Investissement Canada",
+      "url_en": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-investment-canada-act-reviews",
+      "url_fr": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-examen-loi-investissement-canada",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-investment-canada-act-reviews",
+        "alternate_url": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-examen-loi-investissement-canada"
+      },
+      "sources": {
+        "en": {
+          "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-investment-canada-act-reviews",
+          "title_from_list": "Investment Canada Act Reviews",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://ised-isde.canada.ca/site/atip-services/en/references",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-investment-canada-act-reviews",
+              "title": "Investment Canada Act Reviews",
+              "list_url": "https://ised-isde.canada.ca/site/atip-services/en/references",
+              "discovery_method": "pia_section_link"
+            },
+            {
+              "url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-investment-canada-act-reviews",
+              "title": "Privacy Impact Assessment – Investment Canada Act Reviews",
+              "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+              "discovery_method": "document_language_link"
+            }
+          ],
+          "aliases": [
+            "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-investment-canada-act-reviews",
+            "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-investment-canada-act-reviews",
+            "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-investment-canada-act-reviews"
+          ],
+          "alternative_http_observations": [
+            {
+              "requested_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-investment-canada-act-reviews",
+              "final_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-investment-canada-act-reviews",
+              "http_status": 200,
+              "checked_at_utc": "2026-11-12T01:43:09.953885+00:00",
+              "redirects": [],
+              "content_type": "text/html; charset=UTF-8",
+              "encoding": "utf-8",
+              "error": null,
+              "last_modified": "Thu, 12 Nov 2026 01:43:10 GMT",
+              "etag": "\"1794447790\"",
+              "byte_count": 42099,
+              "sha256": "355d832c7ad47b8447a1b7fc7cfd95623a6cf261d11f20228462311104153722"
+            },
+            {
+              "requested_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-investment-canada-act-reviews",
+              "final_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-investment-canada-act-reviews",
+              "http_status": 200,
+              "checked_at_utc": "2026-11-12T01:43:09.953885+00:00",
+              "redirects": [],
+              "content_type": "text/html; charset=UTF-8",
+              "encoding": "utf-8",
+              "error": null,
+              "last_modified": "Thu, 12 Nov 2026 01:43:10 GMT",
+              "etag": "\"1794447790\"",
+              "byte_count": 42099,
+              "sha256": "355d832c7ad47b8447a1b7fc7cfd95623a6cf261d11f20228462311104153722"
+            }
+          ],
+          "http": {
+            "requested_url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-investment-canada-act-reviews",
+            "final_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-investment-canada-act-reviews",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:07.440266+00:00",
+            "redirects": [
+              {
+                "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-investment-canada-act-reviews",
+                "http_status": 301,
+                "location": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-investment-canada-act-reviews"
+              }
+            ],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:09 GMT",
+            "etag": "\"1794447729\"",
+            "byte_count": 42099,
+            "sha256": "355d832c7ad47b8447a1b7fc7cfd95623a6cf261d11f20228462311104153722"
+          },
+          "raw_path": "raw/9f87707a13e09a22e4f8.html",
+          "markdown_path": "pia-9f87707a13e0_en.md",
+          "markdown_sha256": "8e96c3564b56b4770a8def5253a34ce28c80f1c7c2f7a8d09d9d97f6b4d32935",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment – Investment Canada Act Reviews",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-investment-canada-act-reviews",
+            "fr": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-examen-loi-investissement-canada"
+          },
+          "date_modified": "2026-03-12",
+          "date_published": "",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment – Investment Canada Act Reviews",
+          "conversion": "markdownify",
+          "text_sha256": "a0afc66f68e581fa2fbc2d55c776c97dcf6b54bfc6692ad7354933eefe092a68",
+          "word_count": 2145
+        },
+        "fr": {
+          "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-examen-loi-investissement-canada",
+          "title_from_list": "Examen de la Loi sur Investissement Canada",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-examen-loi-investissement-canada",
+              "title": "Examen de la Loi sur Investissement Canada",
+              "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-examen-loi-investissement-canada",
+            "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-examen-loi-investissement-canada"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-examen-loi-investissement-canada",
+            "final_url": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-examen-loi-investissement-canada",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:03.153974+00:00",
+            "redirects": [
+              {
+                "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-examen-loi-investissement-canada",
+                "http_status": 301,
+                "location": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-examen-loi-investissement-canada"
+              }
+            ],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:06 GMT",
+            "etag": "\"1794447726\"",
+            "byte_count": 45331,
+            "sha256": "eb83ac63ecb8c04e9124578b2843692bd9f4a84b4418050dd100a13886936c8a"
+          },
+          "raw_path": "raw/1aff04c7839ab3a80825.html",
+          "markdown_path": "pia-9f87707a13e0_fr.md",
+          "markdown_sha256": "9572072b494aadf8c0af8b377b82e0389dbb72cc20502123bfc269e106908199",
+          "status": "exported",
+          "page_title": "Évaluation des facteurs relatifs à la vie privée - Examen de la Loi sur Investissement Canada",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-investment-canada-act-reviews",
+            "fr": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-examen-loi-investissement-canada"
+          },
+          "date_modified": "2026-03-12",
+          "date_published": "",
+          "has_pia_text": true,
+          "title": "Évaluation des facteurs relatifs à la vie privée - Examen de la Loi sur Investissement Canada",
+          "conversion": "markdownify",
+          "text_sha256": "705ca49f9e156450c63fb772d6db3141a7b3d5caf0918b475105989108bed143",
+          "word_count": 2479
+        }
+      }
+    },
+    {
+      "pia_id": "pia-c576a1268081",
+      "title_en": "Privacy Impact Assessment – Identity and Credential Management Solutions at ISED",
+      "title_fr": "Évaluation des facteurs relatifs à la vie privée – Les solutions de gestion de l’identité et des justificatifs à ISDE",
+      "url_en": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-identity-and-credential-management-solutions-ised",
+      "url_fr": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-solutions-gestion-lidentite-justificatifs-isde",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-identity-and-credential-management-solutions-ised",
+        "alternate_url": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-solutions-gestion-lidentite-justificatifs-isde"
+      },
+      "sources": {
+        "en": {
+          "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-identity-and-credential-management-solutions-ised",
+          "title_from_list": "Identity and Credential Management Solutions at ISED",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://ised-isde.canada.ca/site/atip-services/en/references",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-identity-and-credential-management-solutions-ised",
+              "title": "Identity and Credential Management Solutions at ISED",
+              "list_url": "https://ised-isde.canada.ca/site/atip-services/en/references",
+              "discovery_method": "pia_section_link"
+            },
+            {
+              "url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-identity-and-credential-management-solutions-ised",
+              "title": "Privacy Impact Assessment – Identity and Credential Management Solutions at ISED",
+              "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+              "discovery_method": "document_language_link"
+            }
+          ],
+          "aliases": [
+            "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-identity-and-credential-management-solutions-ised",
+            "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-identity-and-credential-management-solutions-ised",
+            "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-identity-and-credential-management-solutions-ised"
+          ],
+          "alternative_http_observations": [
+            {
+              "requested_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-identity-and-credential-management-solutions-ised",
+              "final_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-identity-and-credential-management-solutions-ised",
+              "http_status": 200,
+              "checked_at_utc": "2026-11-12T01:50:28.588280+00:00",
+              "redirects": [],
+              "content_type": "text/html; charset=UTF-8",
+              "encoding": "utf-8",
+              "error": null,
+              "last_modified": "Thu, 12 Nov 2026 01:50:29 GMT",
+              "etag": "\"1794448229\"",
+              "byte_count": 44790,
+              "sha256": "fadef00a229411a46e16692d5f77406097bc1a5e9b8f2314cfa8db07855b4b1e"
+            },
+            {
+              "requested_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-identity-and-credential-management-solutions-ised",
+              "final_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-identity-and-credential-management-solutions-ised",
+              "http_status": 200,
+              "checked_at_utc": "2026-11-12T01:50:28.588280+00:00",
+              "redirects": [],
+              "content_type": "text/html; charset=UTF-8",
+              "encoding": "utf-8",
+              "error": null,
+              "last_modified": "Thu, 12 Nov 2026 01:50:29 GMT",
+              "etag": "\"1794448229\"",
+              "byte_count": 44790,
+              "sha256": "fadef00a229411a46e16692d5f77406097bc1a5e9b8f2314cfa8db07855b4b1e"
+            }
+          ],
+          "http": {
+            "requested_url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-identity-and-credential-management-solutions-ised",
+            "final_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-identity-and-credential-management-solutions-ised",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:07.415611+00:00",
+            "redirects": [
+              {
+                "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-identity-and-credential-management-solutions-ised",
+                "http_status": 301,
+                "location": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-identity-and-credential-management-solutions-ised"
+              }
+            ],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:09 GMT",
+            "etag": "\"1794447729\"",
+            "byte_count": 44790,
+            "sha256": "fadef00a229411a46e16692d5f77406097bc1a5e9b8f2314cfa8db07855b4b1e"
+          },
+          "raw_path": "raw/c576a1268081bc41c072.html",
+          "markdown_path": "pia-c576a1268081_en.md",
+          "markdown_sha256": "10b4755da54f7a4fe77987b297782386c2f76b205aa78cc326905dfd8a4e47b5",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment – Identity and Credential Management Solutions at ISED",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-identity-and-credential-management-solutions-ised",
+            "fr": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-solutions-gestion-lidentite-justificatifs-isde"
+          },
+          "date_modified": "2026-03-12",
+          "date_published": "",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment – Identity and Credential Management Solutions at ISED",
+          "conversion": "markdownify",
+          "text_sha256": "4651924e760555a4a5f7e89f475f367a2518ecf931fab1b8d3333d25ac4c6478",
+          "word_count": 2617
+        },
+        "fr": {
+          "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-solutions-gestion-lidentite-justificatifs-isde",
+          "title_from_list": "Solutions de gestion de l'identité et des justificatifs à ISDE",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-solutions-gestion-lidentite-justificatifs-isde",
+              "title": "Solutions de gestion de l'identité et des justificatifs à ISDE",
+              "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-solutions-gestion-lidentite-justificatifs-isde",
+            "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-solutions-gestion-lidentite-justificatifs-isde"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-solutions-gestion-lidentite-justificatifs-isde",
+            "final_url": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-solutions-gestion-lidentite-justificatifs-isde",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:50:11.871047+00:00",
+            "redirects": [
+              {
+                "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-solutions-gestion-lidentite-justificatifs-isde",
+                "http_status": 301,
+                "location": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-solutions-gestion-lidentite-justificatifs-isde"
+              }
+            ],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:50:15 GMT",
+            "etag": "\"1794448215\"",
+            "byte_count": 48157,
+            "sha256": "227a58322f1c508a3b62dbf31d40ecb24adb9f044245305eb408b4a5b0e7c5c2"
+          },
+          "raw_path": "raw/5c26f706588d08f23618.html",
+          "markdown_path": "pia-c576a1268081_fr.md",
+          "markdown_sha256": "77ac958d7c7416ab2d184c6ea936d24f169d1b41bf3a155f8c177f1ab0253e23",
+          "status": "exported",
+          "page_title": "Évaluation des facteurs relatifs à la vie privée – Les solutions de gestion de l’identité et des justificatifs à ISDE",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-identity-and-credential-management-solutions-ised",
+            "fr": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-solutions-gestion-lidentite-justificatifs-isde"
+          },
+          "date_modified": "2026-03-12",
+          "date_published": "",
+          "has_pia_text": true,
+          "title": "Évaluation des facteurs relatifs à la vie privée – Les solutions de gestion de l’identité et des justificatifs à ISDE",
+          "conversion": "markdownify",
+          "text_sha256": "3716317075b779d089a317bfa0a76bf8599c710682cc219b0b193120f19d8371",
+          "word_count": 3069
+        }
+      }
+    },
+    {
+      "pia_id": "pia-a9b2e19bf5eb",
+      "title_en": "Privacy Impact Assessment – ATIP Services at ISED",
+      "title_fr": "Évaluation des facteurs relatifs à la vie privée – Services d'AIPRP à l'ISDE",
+      "url_en": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-atip-services-ised",
+      "url_fr": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-services-daiprp-lisde",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-atip-services-ised",
+        "alternate_url": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-services-daiprp-lisde"
+      },
+      "sources": {
+        "en": {
+          "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-atip-services-ised",
+          "title_from_list": "ATIP Services at ISED",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://ised-isde.canada.ca/site/atip-services/en/references",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-atip-services-ised",
+              "title": "ATIP Services at ISED",
+              "list_url": "https://ised-isde.canada.ca/site/atip-services/en/references",
+              "discovery_method": "pia_section_link"
+            },
+            {
+              "url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-atip-services-ised",
+              "title": "Privacy Impact Assessment – ATIP Services at ISED",
+              "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+              "discovery_method": "document_language_link"
+            }
+          ],
+          "aliases": [
+            "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-atip-services-ised",
+            "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-atip-services-ised",
+            "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-atip-services-ised"
+          ],
+          "alternative_http_observations": [
+            {
+              "requested_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-atip-services-ised",
+              "final_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-atip-services-ised",
+              "http_status": 200,
+              "checked_at_utc": "2026-11-12T01:50:28.591120+00:00",
+              "redirects": [],
+              "content_type": "text/html; charset=UTF-8",
+              "encoding": "utf-8",
+              "error": null,
+              "last_modified": "Thu, 12 Nov 2026 01:50:29 GMT",
+              "etag": "\"1794448229\"",
+              "byte_count": 57153,
+              "sha256": "7bfe4ab679acc836f72c6f9cf028301816ffea4c905ddacc9334be5997ed6305"
+            },
+            {
+              "requested_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-atip-services-ised",
+              "final_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-atip-services-ised",
+              "http_status": 200,
+              "checked_at_utc": "2026-11-12T01:50:28.591120+00:00",
+              "redirects": [],
+              "content_type": "text/html; charset=UTF-8",
+              "encoding": "utf-8",
+              "error": null,
+              "last_modified": "Thu, 12 Nov 2026 01:50:29 GMT",
+              "etag": "\"1794448229\"",
+              "byte_count": 57153,
+              "sha256": "7bfe4ab679acc836f72c6f9cf028301816ffea4c905ddacc9334be5997ed6305"
+            }
+          ],
+          "http": {
+            "requested_url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-atip-services-ised",
+            "final_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-atip-services-ised",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:07.406380+00:00",
+            "redirects": [
+              {
+                "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-atip-services-ised",
+                "http_status": 301,
+                "location": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-atip-services-ised"
+              }
+            ],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:08 GMT",
+            "etag": "\"1794447728\"",
+            "byte_count": 57153,
+            "sha256": "7bfe4ab679acc836f72c6f9cf028301816ffea4c905ddacc9334be5997ed6305"
+          },
+          "raw_path": "raw/a9b2e19bf5eb026afee7.html",
+          "markdown_path": "pia-a9b2e19bf5eb_en.md",
+          "markdown_sha256": "6817dfe6d876a865bd276f5f033a024f3e4384f4341bbc46dec32cbb04c5f8d9",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment – ATIP Services at ISED",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-atip-services-ised",
+            "fr": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-services-daiprp-lisde"
+          },
+          "date_modified": "2026-03-12",
+          "date_published": "",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment – ATIP Services at ISED",
+          "conversion": "markdownify",
+          "text_sha256": "4349fa4d12f94ae9c22b8d24998025152cd930b3c0a3867e023adf24d95f39d8",
+          "word_count": 4324
+        },
+        "fr": {
+          "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-services-daiprp-lisde",
+          "title_from_list": "Services d'AIPRP à ISDE",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-services-daiprp-lisde",
+              "title": "Services d'AIPRP à ISDE",
+              "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-services-daiprp-lisde",
+            "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-services-daiprp-lisde"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-services-daiprp-lisde",
+            "final_url": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-services-daiprp-lisde",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:50:11.868874+00:00",
+            "redirects": [
+              {
+                "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-services-daiprp-lisde",
+                "http_status": 301,
+                "location": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-services-daiprp-lisde"
+              }
+            ],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:50:15 GMT",
+            "etag": "\"1794448215\"",
+            "byte_count": 62412,
+            "sha256": "a198fd811d216eca5c5de775810fff14d5583652f3755ac5b161afe3539439d6"
+          },
+          "raw_path": "raw/19c7f92158b27da680a9.html",
+          "markdown_path": "pia-a9b2e19bf5eb_fr.md",
+          "markdown_sha256": "b9e8a61497b2045b26870f1b02f09aa9b5037a0b5fadda4a0b5a39e0dd84868b",
+          "status": "exported",
+          "page_title": "Évaluation des facteurs relatifs à la vie privée – Services d'AIPRP à l'ISDE",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-atip-services-ised",
+            "fr": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-services-daiprp-lisde"
+          },
+          "date_modified": "2026-03-12",
+          "date_published": "",
+          "has_pia_text": true,
+          "title": "Évaluation des facteurs relatifs à la vie privée – Services d'AIPRP à l'ISDE",
+          "conversion": "markdownify",
+          "text_sha256": "e4e7f22511930efabe64e3f41929bd08050416ae2849dd926a0ff2197eccdefe",
+          "word_count": 5036
+        }
+      }
+    },
+    {
+      "pia_id": "pia-fb71a7d2e436",
+      "title_en": "Staffing with VidCruiter",
+      "title_fr": "La Dotation avec VidCruiter",
+      "url_en": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/staffing-vidcruiter",
+      "url_fr": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/dotation-vidcruiter",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/staffing-vidcruiter",
+        "alternate_url": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/dotation-vidcruiter"
+      },
+      "sources": {
+        "en": {
+          "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/staffing-vidcruiter",
+          "title_from_list": "Staffing with VidCruiter",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://ised-isde.canada.ca/site/atip-services/en/references",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/staffing-vidcruiter",
+              "title": "Staffing with VidCruiter",
+              "list_url": "https://ised-isde.canada.ca/site/atip-services/en/references",
+              "discovery_method": "pia_section_link"
+            },
+            {
+              "url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/staffing-vidcruiter",
+              "title": "Staffing with VidCruiter",
+              "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+              "discovery_method": "document_language_link"
+            }
+          ],
+          "aliases": [
+            "https://ised-isde.canada.ca/site/ised/en/atip-services/references/staffing-vidcruiter",
+            "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/staffing-vidcruiter",
+            "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/staffing-vidcruiter"
+          ],
+          "alternative_http_observations": [
+            {
+              "requested_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/staffing-vidcruiter",
+              "final_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/staffing-vidcruiter",
+              "http_status": 200,
+              "checked_at_utc": "2026-11-12T01:43:10.335634+00:00",
+              "redirects": [],
+              "content_type": "text/html; charset=UTF-8",
+              "encoding": "utf-8",
+              "error": null,
+              "last_modified": "Thu, 12 Nov 2026 01:43:10 GMT",
+              "etag": "\"1794447790\"",
+              "byte_count": 23861,
+              "sha256": "6e2c01a3882698e6a3f7e963f3cc296a12107b002e9e597d6fd530d4b545ae77"
+            },
+            {
+              "requested_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/staffing-vidcruiter",
+              "final_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/staffing-vidcruiter",
+              "http_status": 200,
+              "checked_at_utc": "2026-11-12T01:43:10.335634+00:00",
+              "redirects": [],
+              "content_type": "text/html; charset=UTF-8",
+              "encoding": "utf-8",
+              "error": null,
+              "last_modified": "Thu, 12 Nov 2026 01:43:10 GMT",
+              "etag": "\"1794447790\"",
+              "byte_count": 23861,
+              "sha256": "6e2c01a3882698e6a3f7e963f3cc296a12107b002e9e597d6fd530d4b545ae77"
+            }
+          ],
+          "http": {
+            "requested_url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/staffing-vidcruiter",
+            "final_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/staffing-vidcruiter",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:09.065273+00:00",
+            "redirects": [
+              {
+                "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/staffing-vidcruiter",
+                "http_status": 301,
+                "location": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/staffing-vidcruiter"
+              }
+            ],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:10 GMT",
+            "etag": "\"1794447730\"",
+            "byte_count": 23861,
+            "sha256": "6e2c01a3882698e6a3f7e963f3cc296a12107b002e9e597d6fd530d4b545ae77"
+          },
+          "raw_path": "raw/fb71a7d2e43634f7b166.html",
+          "markdown_path": "pia-fb71a7d2e436_en.md",
+          "markdown_sha256": "a5b4cd9a07fad93729406dff13dc26442fee33597a0361a434d087103188d5ac",
+          "status": "exported",
+          "page_title": "Staffing with VidCruiter",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/staffing-vidcruiter",
+            "fr": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/dotation-vidcruiter"
+          },
+          "date_modified": "2026-03-12",
+          "date_published": "",
+          "has_pia_text": true,
+          "title": "Staffing with VidCruiter",
+          "conversion": "markdownify",
+          "text_sha256": "f53dce5e9036c373d02afdaa2940dc24c71c40b9034e1f13553f1dce5f2010aa",
+          "word_count": 157
+        },
+        "fr": {
+          "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/dotation-vidcruiter",
+          "title_from_list": "La Dotation avec VidCruiter",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/dotation-vidcruiter",
+              "title": "La Dotation avec VidCruiter",
+              "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/dotation-vidcruiter",
+            "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/dotation-vidcruiter"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/dotation-vidcruiter",
+            "final_url": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/dotation-vidcruiter",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:02.378388+00:00",
+            "redirects": [
+              {
+                "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/dotation-vidcruiter",
+                "http_status": 301,
+                "location": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/dotation-vidcruiter"
+              }
+            ],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:04 GMT",
+            "etag": "\"1794447724\"",
+            "byte_count": 24516,
+            "sha256": "b404200592cb754e2e25723463ccf931b0fa8c30e0e193c5ae4146dd2f36fb58"
+          },
+          "raw_path": "raw/80c2be2242b3a220141b.html",
+          "markdown_path": "pia-fb71a7d2e436_fr.md",
+          "markdown_sha256": "b527dabb964c00e6b1fae0ee17790ba78e8e91e57c656da8d4c51fdbed838919",
+          "status": "exported",
+          "page_title": "La Dotation avec VidCruiter",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/staffing-vidcruiter",
+            "fr": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/dotation-vidcruiter"
+          },
+          "date_modified": "2026-03-12",
+          "date_published": "",
+          "has_pia_text": true,
+          "title": "La Dotation avec VidCruiter",
+          "conversion": "markdownify",
+          "text_sha256": "e922d1626370272b0eb56ebdcd03b6a06c0129baebec2a6dcaf489ad165b058d",
+          "word_count": 191
+        }
+      }
+    },
+    {
+      "pia_id": "pia-f466e7cd10e7",
+      "title_en": "Privacy Impact Assessment – OSB License Administration Application",
+      "title_fr": "Évaluation des facteurs relatifs à la vie privée – Application pour l’administration des licenses du BSF",
+      "url_en": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-osb-license-administration-application",
+      "url_fr": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-application-pour-ladministration-licenses-bsf",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-osb-license-administration-application",
+        "alternate_url": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-application-pour-ladministration-licenses-bsf"
+      },
+      "sources": {
+        "en": {
+          "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-osb-license-administration-application",
+          "title_from_list": "OSB License Administration Application",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://ised-isde.canada.ca/site/atip-services/en/references",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-osb-license-administration-application",
+              "title": "OSB License Administration Application",
+              "list_url": "https://ised-isde.canada.ca/site/atip-services/en/references",
+              "discovery_method": "pia_section_link"
+            },
+            {
+              "url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-osb-license-administration-application",
+              "title": "Privacy Impact Assessment – OSB License Administration Application",
+              "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+              "discovery_method": "document_language_link"
+            }
+          ],
+          "aliases": [
+            "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-osb-license-administration-application",
+            "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-osb-license-administration-application",
+            "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-osb-license-administration-application"
+          ],
+          "alternative_http_observations": [
+            {
+              "requested_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-osb-license-administration-application",
+              "final_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-osb-license-administration-application",
+              "http_status": 200,
+              "checked_at_utc": "2026-11-12T01:43:10.011177+00:00",
+              "redirects": [],
+              "content_type": "text/html; charset=UTF-8",
+              "encoding": "utf-8",
+              "error": null,
+              "last_modified": "Thu, 12 Nov 2026 01:43:10 GMT",
+              "etag": "\"1794447790\"",
+              "byte_count": 29008,
+              "sha256": "82ed6e4b6941c84569460e5c05844e6329624ac3c1903d1ddb72f1c11bb7cd42"
+            },
+            {
+              "requested_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-osb-license-administration-application",
+              "final_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-osb-license-administration-application",
+              "http_status": 200,
+              "checked_at_utc": "2026-11-12T01:43:10.011177+00:00",
+              "redirects": [],
+              "content_type": "text/html; charset=UTF-8",
+              "encoding": "utf-8",
+              "error": null,
+              "last_modified": "Thu, 12 Nov 2026 01:43:10 GMT",
+              "etag": "\"1794447790\"",
+              "byte_count": 29008,
+              "sha256": "82ed6e4b6941c84569460e5c05844e6329624ac3c1903d1ddb72f1c11bb7cd42"
+            }
+          ],
+          "http": {
+            "requested_url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-osb-license-administration-application",
+            "final_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-osb-license-administration-application",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:08.410022+00:00",
+            "redirects": [
+              {
+                "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-osb-license-administration-application",
+                "http_status": 301,
+                "location": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-osb-license-administration-application"
+              }
+            ],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:09 GMT",
+            "etag": "\"1794447729\"",
+            "byte_count": 29008,
+            "sha256": "82ed6e4b6941c84569460e5c05844e6329624ac3c1903d1ddb72f1c11bb7cd42"
+          },
+          "raw_path": "raw/f466e7cd10e7095b6e60.html",
+          "markdown_path": "pia-f466e7cd10e7_en.md",
+          "markdown_sha256": "2e54fc8c6bc6681cf3b7afe424795c134aa7d06e4ed30162c15a85a1a629c733",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment – OSB License Administration Application",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-osb-license-administration-application",
+            "fr": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-application-pour-ladministration-licenses-bsf"
+          },
+          "date_modified": "2026-03-12",
+          "date_published": "",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment – OSB License Administration Application",
+          "conversion": "markdownify",
+          "text_sha256": "e3e3379554922697f33c5b7242dea998e42d5eea06d7f2c767c591e1b42b2c76",
+          "word_count": 888
+        },
+        "fr": {
+          "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-application-pour-ladministration-licenses-bsf",
+          "title_from_list": "Application pour l'administration des licenses du BSF",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-application-pour-ladministration-licenses-bsf",
+              "title": "Application pour l'administration des licenses du BSF",
+              "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-application-pour-ladministration-licenses-bsf",
+            "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-application-pour-ladministration-licenses-bsf"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-application-pour-ladministration-licenses-bsf",
+            "final_url": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-application-pour-ladministration-licenses-bsf",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:02.477765+00:00",
+            "redirects": [
+              {
+                "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-application-pour-ladministration-licenses-bsf",
+                "http_status": 301,
+                "location": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-application-pour-ladministration-licenses-bsf"
+              }
+            ],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:05 GMT",
+            "etag": "\"1794447725\"",
+            "byte_count": 31259,
+            "sha256": "0ad728e8c22cd66bdce3a8ca8366c4938dd3a2bd324901aa7b8e7424a2aa39ad"
+          },
+          "raw_path": "raw/60cba1848fa9bcf44c8b.html",
+          "markdown_path": "pia-f466e7cd10e7_fr.md",
+          "markdown_sha256": "e4a4a206d6587965396fe5033fe0f4810d3cc479a43d900f0d7de51e8c6e4b0d",
+          "status": "exported",
+          "page_title": "Évaluation des facteurs relatifs à la vie privée – Application pour l’administration des licenses du BSF",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-osb-license-administration-application",
+            "fr": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-application-pour-ladministration-licenses-bsf"
+          },
+          "date_modified": "2026-03-12",
+          "date_published": "",
+          "has_pia_text": true,
+          "title": "Évaluation des facteurs relatifs à la vie privée – Application pour l’administration des licenses du BSF",
+          "conversion": "markdownify",
+          "text_sha256": "370c8e0ef604095c19eaa0a1b69153ec317a1e106c68ebbc02c365c3bac544e9",
+          "word_count": 1170
+        }
+      }
+    },
+    {
+      "pia_id": "pia-52e89c3cc6e2",
+      "title_en": "Canada's anti-spam legislation",
+      "title_fr": "La Loi canadienne anti-pourriel",
+      "url_en": "https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/canada-anti-spam-legislation/en",
+      "url_fr": "https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/loi-canadienne-anti-pourriel/fr",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/canada-anti-spam-legislation/en",
+        "alternate_url": "https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/loi-canadienne-anti-pourriel/fr"
+      },
+      "sources": {
+        "en": {
+          "url": "https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/canada-anti-spam-legislation/en",
+          "title_from_list": "Canada's Anti-Spam Legislation",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://ised-isde.canada.ca/site/atip-services/en/references",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/canada-anti-spam-legislation/en",
+              "title": "Canada's Anti-Spam Legislation",
+              "list_url": "https://ised-isde.canada.ca/site/atip-services/en/references",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/canada-anti-spam-legislation/en"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/canada-anti-spam-legislation/en",
+            "final_url": "https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/canada-anti-spam-legislation/en",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:01.699128+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 22 Oct 2026 17:29:35 GMT",
+            "etag": "\"1792690175\"",
+            "byte_count": 31930,
+            "sha256": "927f206d63986a635cb453c43f64a02c1832022f0ca2aa34f45daa63fa53bd29"
+          },
+          "raw_path": "raw/52e89c3cc6e280d5110b.html",
+          "markdown_path": null,
+          "markdown_sha256": null,
+          "status": "not_pia_content",
+          "page_title": "Canada's anti-spam legislation",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/canada-anti-spam-legislation/en/canadas-anti-spam-legislation",
+            "fr": "https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/loi-canadienne-anti-pourriel/fr"
+          },
+          "date_modified": "2024-07-15",
+          "date_published": "",
+          "has_pia_text": false,
+          "title": "Canada's anti-spam legislation",
+          "review_note": "The list links to a general anti-spam program homepage, not a PIA summary."
+        },
+        "fr": {
+          "url": "https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/loi-canadienne-anti-pourriel/fr",
+          "title_from_list": "Loi canadienne anti-pourriel",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/loi-canadienne-anti-pourriel/fr",
+              "title": "Loi canadienne anti-pourriel",
+              "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/loi-canadienne-anti-pourriel/fr"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/loi-canadienne-anti-pourriel/fr",
+            "final_url": "https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/loi-canadienne-anti-pourriel/fr",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:01.870279+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 22 Oct 2026 17:59:34 GMT",
+            "etag": "\"1792691974\"",
+            "byte_count": 34099,
+            "sha256": "5cfa9c1174c270e5017516e7cc7ca7734a1df6050d581b4530639957d31d088e"
+          },
+          "raw_path": "raw/2a46f89064e422c9d225.html",
+          "markdown_path": null,
+          "markdown_sha256": null,
+          "status": "not_pia_content",
+          "page_title": "La Loi canadienne anti-pourriel",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/canada-anti-spam-legislation/en",
+            "fr": "https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/loi-canadienne-anti-pourriel/fr/loi-canadienne-anti-pourriel"
+          },
+          "date_modified": "2024-07-15",
+          "date_published": "",
+          "has_pia_text": false,
+          "title": "La Loi canadienne anti-pourriel",
+          "review_note": "The list links to a general anti-spam program homepage, not a PIA summary."
+        }
+      }
+    },
+    {
+      "pia_id": "pia-346dda190ed5",
+      "title_en": "Privacy Impact Assessment Summary – Canada’s Anti-Spam legislation",
+      "title_fr": "Résumé de l’évaluation des facteurs relatifs à la vie privée – Loi canadienne anti-pourriel",
+      "url_en": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-summary-canadas-anti-spam-legislation",
+      "url_fr": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/resume-levaluation-facteurs-relatifs-vie-privee-loi-canadienne-anti-pourriel",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-summary-canadas-anti-spam-legislation",
+        "alternate_url": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/resume-levaluation-facteurs-relatifs-vie-privee-loi-canadienne-anti-pourriel"
+      },
+      "sources": {
+        "en": {
+          "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-summary-canadas-anti-spam-legislation",
+          "title_from_list": "Canada's Anti-Spam Legislation 2019 PIA Update",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://ised-isde.canada.ca/site/atip-services/en/references",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-summary-canadas-anti-spam-legislation",
+              "title": "Canada's Anti-Spam Legislation 2019 PIA Update",
+              "list_url": "https://ised-isde.canada.ca/site/atip-services/en/references",
+              "discovery_method": "pia_section_link"
+            },
+            {
+              "url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-summary-canadas-anti-spam-legislation",
+              "title": "Privacy Impact Assessment Summary – Canada’s Anti-Spam legislation",
+              "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+              "discovery_method": "document_language_link"
+            }
+          ],
+          "aliases": [
+            "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-summary-canadas-anti-spam-legislation",
+            "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-summary-canadas-anti-spam-legislation",
+            "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-summary-canadas-anti-spam-legislation"
+          ],
+          "alternative_http_observations": [
+            {
+              "requested_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-summary-canadas-anti-spam-legislation",
+              "final_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-summary-canadas-anti-spam-legislation",
+              "http_status": 200,
+              "checked_at_utc": "2026-11-12T01:50:28.609568+00:00",
+              "redirects": [],
+              "content_type": "text/html; charset=UTF-8",
+              "encoding": "utf-8",
+              "error": null,
+              "last_modified": "Thu, 12 Nov 2026 01:50:29 GMT",
+              "etag": "\"1794448229\"",
+              "byte_count": 25514,
+              "sha256": "6b7922092ff7b4a5f45c70b7bb1166c38b7dd6d541c1c0790c226ea9e9a7e838"
+            },
+            {
+              "requested_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-summary-canadas-anti-spam-legislation",
+              "final_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-summary-canadas-anti-spam-legislation",
+              "http_status": 200,
+              "checked_at_utc": "2026-11-12T01:50:28.609568+00:00",
+              "redirects": [],
+              "content_type": "text/html; charset=UTF-8",
+              "encoding": "utf-8",
+              "error": null,
+              "last_modified": "Thu, 12 Nov 2026 01:50:29 GMT",
+              "etag": "\"1794448229\"",
+              "byte_count": 25514,
+              "sha256": "6b7922092ff7b4a5f45c70b7bb1166c38b7dd6d541c1c0790c226ea9e9a7e838"
+            }
+          ],
+          "http": {
+            "requested_url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-summary-canadas-anti-spam-legislation",
+            "final_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-summary-canadas-anti-spam-legislation",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:08.601197+00:00",
+            "redirects": [
+              {
+                "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-summary-canadas-anti-spam-legislation",
+                "http_status": 301,
+                "location": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-summary-canadas-anti-spam-legislation"
+              }
+            ],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:10 GMT",
+            "etag": "\"1794447730\"",
+            "byte_count": 25514,
+            "sha256": "6b7922092ff7b4a5f45c70b7bb1166c38b7dd6d541c1c0790c226ea9e9a7e838"
+          },
+          "raw_path": "raw/346dda190ed50d9c39d4.html",
+          "markdown_path": "pia-346dda190ed5_en.md",
+          "markdown_sha256": "49bcd8c2f152acc63eceac15ccc66bed39bd067df7f977409cb997383e4b9fd7",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summary – Canada’s Anti-Spam legislation",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-summary-canadas-anti-spam-legislation",
+            "fr": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/resume-levaluation-facteurs-relatifs-vie-privee-loi-canadienne-anti-pourriel"
+          },
+          "date_modified": "2026-03-12",
+          "date_published": "",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment Summary – Canada’s Anti-Spam legislation",
+          "conversion": "markdownify",
+          "text_sha256": "c1ff9f9ac6e7e57196f70809537001c6be34cebb90372c519e72222129b09dc5",
+          "word_count": 423
+        },
+        "fr": {
+          "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/resume-levaluation-facteurs-relatifs-vie-privee-loi-canadienne-anti-pourriel",
+          "title_from_list": "Loi canadienne anti-pourriel — 2019 ÉVPF metre à jour",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/resume-levaluation-facteurs-relatifs-vie-privee-loi-canadienne-anti-pourriel",
+              "title": "Loi canadienne anti-pourriel — 2019 ÉVPF metre à jour",
+              "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/resume-levaluation-facteurs-relatifs-vie-privee-loi-canadienne-anti-pourriel",
+            "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/resume-levaluation-facteurs-relatifs-vie-privee-loi-canadienne-anti-pourriel"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/resume-levaluation-facteurs-relatifs-vie-privee-loi-canadienne-anti-pourriel",
+            "final_url": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/resume-levaluation-facteurs-relatifs-vie-privee-loi-canadienne-anti-pourriel",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:50:11.873460+00:00",
+            "redirects": [
+              {
+                "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/resume-levaluation-facteurs-relatifs-vie-privee-loi-canadienne-anti-pourriel",
+                "http_status": 301,
+                "location": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/resume-levaluation-facteurs-relatifs-vie-privee-loi-canadienne-anti-pourriel"
+              }
+            ],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:50:13 GMT",
+            "etag": "\"1794448213\"",
+            "byte_count": 26180,
+            "sha256": "423b78e9f493fc5556e710a46d2eec0b54d34ea0f86c929580fed2b77c80c8e3"
+          },
+          "raw_path": "raw/432ed54c58faccae6017.html",
+          "markdown_path": "pia-346dda190ed5_fr.md",
+          "markdown_sha256": "02d69aed0e923320c76c023bfa37924e3f395946147df2815ebb28c59cc44fde",
+          "status": "exported",
+          "page_title": "Résumé de l’évaluation des facteurs relatifs à la vie privée – Loi canadienne anti-pourriel",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-summary-canadas-anti-spam-legislation",
+            "fr": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/resume-levaluation-facteurs-relatifs-vie-privee-loi-canadienne-anti-pourriel"
+          },
+          "date_modified": "2026-03-12",
+          "date_published": "",
+          "has_pia_text": true,
+          "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée – Loi canadienne anti-pourriel",
+          "conversion": "markdownify",
+          "text_sha256": "88419d13a02ca814e974f8f670be356139e0aa16bd69a484129e189ea25bb67a",
+          "word_count": 481
+        }
+      }
+    },
+    {
+      "pia_id": "pia-409ee5e332cb",
+      "title_en": "Privacy Impact Assessment – I-Talent System",
+      "title_fr": "Évaluation des facteurs relatifs à la vie privée – Système I-Talent",
+      "url_en": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-i-talent-system",
+      "url_fr": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-systeme-i-talent",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-i-talent-system",
+        "alternate_url": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-systeme-i-talent"
+      },
+      "sources": {
+        "en": {
+          "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-i-talent-system",
+          "title_from_list": "I-Talent: Human Resources System",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://ised-isde.canada.ca/site/atip-services/en/references",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-i-talent-system",
+              "title": "I-Talent: Human Resources System",
+              "list_url": "https://ised-isde.canada.ca/site/atip-services/en/references",
+              "discovery_method": "pia_section_link"
+            },
+            {
+              "url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-i-talent-system",
+              "title": "Privacy Impact Assessment – I-Talent System",
+              "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+              "discovery_method": "document_language_link"
+            }
+          ],
+          "aliases": [
+            "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-i-talent-system",
+            "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-i-talent-system",
+            "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-i-talent-system"
+          ],
+          "alternative_http_observations": [
+            {
+              "requested_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-i-talent-system",
+              "final_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-i-talent-system",
+              "http_status": 200,
+              "checked_at_utc": "2026-11-12T01:50:28.594177+00:00",
+              "redirects": [],
+              "content_type": "text/html; charset=UTF-8",
+              "encoding": "utf-8",
+              "error": null,
+              "last_modified": "Thu, 12 Nov 2026 01:50:29 GMT",
+              "etag": "\"1794448229\"",
+              "byte_count": 25672,
+              "sha256": "5b5910d4979372be6ff9db8a51669986171d93eec6d783b43d0eb6c3ec22dd3e"
+            },
+            {
+              "requested_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-i-talent-system",
+              "final_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-i-talent-system",
+              "http_status": 200,
+              "checked_at_utc": "2026-11-12T01:50:28.594177+00:00",
+              "redirects": [],
+              "content_type": "text/html; charset=UTF-8",
+              "encoding": "utf-8",
+              "error": null,
+              "last_modified": "Thu, 12 Nov 2026 01:50:29 GMT",
+              "etag": "\"1794448229\"",
+              "byte_count": 25672,
+              "sha256": "5b5910d4979372be6ff9db8a51669986171d93eec6d783b43d0eb6c3ec22dd3e"
+            }
+          ],
+          "http": {
+            "requested_url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-i-talent-system",
+            "final_url": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-i-talent-system",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:07.409530+00:00",
+            "redirects": [
+              {
+                "url": "https://ised-isde.canada.ca/site/ised/en/atip-services/references/privacy-impact-assessment-i-talent-system",
+                "http_status": 301,
+                "location": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-i-talent-system"
+              }
+            ],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:08 GMT",
+            "etag": "\"1794447728\"",
+            "byte_count": 25672,
+            "sha256": "5b5910d4979372be6ff9db8a51669986171d93eec6d783b43d0eb6c3ec22dd3e"
+          },
+          "raw_path": "raw/409ee5e332cb1e12e994.html",
+          "markdown_path": "pia-409ee5e332cb_en.md",
+          "markdown_sha256": "7f3a3f93a47e5542ac441761f0cd19b2fe8ec0f8d605f2edcf3bca1608ed1632",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment – I-Talent System",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-i-talent-system",
+            "fr": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-systeme-i-talent"
+          },
+          "date_modified": "2026-03-12",
+          "date_published": "",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment – I-Talent System",
+          "conversion": "markdownify",
+          "text_sha256": "9b3088604003bf85518e6697a0ee839bebbad04a2c1527afa76ad191b7e383ff",
+          "word_count": 435
+        },
+        "fr": {
+          "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-systeme-i-talent",
+          "title_from_list": "I-Talent : Système de ressources humaines",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-systeme-i-talent",
+              "title": "I-Talent : Système de ressources humaines",
+              "list_url": "https://ised-isde.canada.ca/site/services-aiprp/fr/references",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-systeme-i-talent",
+            "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-systeme-i-talent"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-systeme-i-talent",
+            "final_url": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-systeme-i-talent",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:50:11.877327+00:00",
+            "redirects": [
+              {
+                "url": "https://ised-isde.canada.ca/site/isde/fr/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-systeme-i-talent",
+                "http_status": 301,
+                "location": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-systeme-i-talent"
+              }
+            ],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:50:13 GMT",
+            "etag": "\"1794448213\"",
+            "byte_count": 26606,
+            "sha256": "26e83e377767da570d0e6097c764f2faa2f22a8ed9ed10c63eef672dbfb5be8e"
+          },
+          "raw_path": "raw/3319aaf29f958cea24c6.html",
+          "markdown_path": "pia-409ee5e332cb_fr.md",
+          "markdown_sha256": "0d180ce634ba2131813a60f953aeead2fb5c615289d7301ae5388450235016c3",
+          "status": "exported",
+          "page_title": "Évaluation des facteurs relatifs à la vie privée – Système I-Talent",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://ised-isde.canada.ca/site/ised/en/transparency/atip-services/references/privacy-impact-assessment-i-talent-system",
+            "fr": "https://ised-isde.canada.ca/site/isde/fr/transparence/services-laiprp/references/evaluation-facteurs-relatifs-vie-privee-systeme-i-talent"
+          },
+          "date_modified": "2026-03-12",
+          "date_published": "",
+          "has_pia_text": true,
+          "title": "Évaluation des facteurs relatifs à la vie privée – Système I-Talent",
+          "conversion": "markdownify",
+          "text_sha256": "0eb7f258689b18a2c77ae968fb124ed4d2ea37caf4797f13f49f3b0fe2866c43",
+          "word_count": 489
+        }
+      }
+    }
+  ],
+  "summary": {
+    "pia_count": 13,
+    "paired_count": 13,
+    "source_status_counts": {
+      "exported": 24,
+      "not_pia_content": 2
+    }
+  }
+}

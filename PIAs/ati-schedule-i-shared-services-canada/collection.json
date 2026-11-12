@@ -1,0 +1,1848 @@
+{
+  "schema_version": 1,
+  "collector_version": 1,
+  "collected_at_utc": "2026-11-12T01:50:43.834460+00:00",
+  "institution_id": "ati-schedule-i-shared-services-canada",
+  "gc_orgID": "2292.0",
+  "open_canada_org_id": "a793f17d-6bcd-47dd-97fe-f00835fb4a0d",
+  "open_canada_org_slug": "ssc-spc",
+  "name_en": "Shared Services Canada",
+  "name_fr": "Services partagés Canada",
+  "registry_membership": "current_registry",
+  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "list_pages": {
+    "en": {
+      "indexed_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+          "final_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications.html",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:28.943157+00:00",
+          "redirects": [
+            {
+              "url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+              "http_status": 301,
+              "location": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications"
+            },
+            {
+              "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications",
+              "http_status": 301,
+              "location": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications.html"
+            }
+          ],
+          "content_type": "text/html;charset=utf-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Thu, 12 Nov 2026 00:26:24 GMT",
+          "etag": null,
+          "byte_count": 34221,
+          "sha256": "ed61dce4c15d4f566dcce736404a9543bfabd7a053891fcbee71f3ff7787578d",
+          "raw_path": "raw/00e51fd532a46a743be3.html"
+        }
+      ],
+      "discovered_count": 15,
+      "scopes": [
+        "Privacy Impact Assessment summaries"
+      ],
+      "warnings": []
+    },
+    "fr": {
+      "indexed_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+          "final_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:29.380491+00:00",
+          "redirects": [],
+          "content_type": "text/html;charset=utf-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Thu, 12 Nov 2026 00:31:04 GMT",
+          "etag": null,
+          "byte_count": 38989,
+          "sha256": "91a4d59d9650bf6933fbdc039eec76e057094a770a78ad259a6bb94e4be6513c",
+          "raw_path": "raw/dda6067916d46845a1fb.html"
+        }
+      ],
+      "discovered_count": 15,
+      "scopes": [
+        "Résumés d'évaluations des facteurs relatifs à la vie privée"
+      ],
+      "warnings": []
+    }
+  },
+  "pias": [
+    {
+      "pia_id": "pia-52bb442e087a",
+      "title_en": "Privacy Impact Assessment for the Conflict of Interest and Declaration System",
+      "title_fr": "Résumé de l’évaluation des facteurs relatifs à la vie privée du Système de divulgation des conflits d’intérêts",
+      "url_en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessment-coids.html",
+      "url_fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-evaluation-facteurs-sdci.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessment-coids.html",
+        "alternate_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-evaluation-facteurs-sdci.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessment-coids.html",
+          "title_from_list": "Privacy Impact Assessment for the Conflict of Interest and Declaration System",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessment-coids.html",
+              "title": "Privacy Impact Assessment for the Conflict of Interest and Declaration System",
+              "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessment-coids.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessment-coids.html",
+            "final_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessment-coids.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:18.643331+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:18 GMT",
+            "etag": null,
+            "byte_count": 23583,
+            "sha256": "8da67b03c838052f3c2430cca65b81f100992ab0973b2494a39d56b84ec7debe"
+          },
+          "raw_path": "raw/52bb442e087ab4644bad.html",
+          "markdown_path": "pia-52bb442e087a_en.md",
+          "markdown_sha256": "28bf535ad9c69d2110c609a77e98a4dcf35328f739a1a5761ba53b6ab2bd4ded",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment for the Conflict of Interest and Declaration System",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessment-coids.html",
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-evaluation-facteurs-sdci.html"
+          },
+          "date_modified": "2025-11-24",
+          "date_published": "2018-12-04",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment for the Conflict of Interest and Declaration System",
+          "conversion": "markdownify",
+          "text_sha256": "ddff274ac7cfd49138988b83bd1befb543aa02e2a338034d12d3a8d79b043843",
+          "word_count": 591
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-evaluation-facteurs-sdci.html",
+          "title_from_list": "Résumé de l’évaluation des facteurs relatifs à la vie privée du Système de divulgation des conflits d’intérêts",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+          "discovered_under": "Résumés d'évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-evaluation-facteurs-sdci.html",
+              "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée du Système de divulgation des conflits d’intérêts",
+              "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-evaluation-facteurs-sdci.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-evaluation-facteurs-sdci.html",
+            "final_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-evaluation-facteurs-sdci.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:25.986526+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:26 GMT",
+            "etag": null,
+            "byte_count": 25618,
+            "sha256": "f4cd229f22569d1ea4ba11431e3db3d7762cca2eca7b371066504887c1ce3835"
+          },
+          "raw_path": "raw/5d7e1998593f1b26f8b2.html",
+          "markdown_path": "pia-52bb442e087a_fr.md",
+          "markdown_sha256": "1d4f1c5862fae67d364f28206ece638a6135f45e14e7ce7aacc1980fafbc81cd",
+          "status": "exported",
+          "page_title": "Résumé de l’évaluation des facteurs relatifs à la vie privée du Système de divulgation des conflits d’intérêts",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-evaluation-facteurs-sdci.html",
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessment-coids.html"
+          },
+          "date_modified": "2025-11-24",
+          "date_published": "2018-12-04",
+          "has_pia_text": true,
+          "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée du Système de divulgation des conflits d’intérêts",
+          "conversion": "markdownify",
+          "text_sha256": "5b2d56b82c5e65c6914e6089bea97d859ce69cfa2fb5c9a6e00516f096e64e99",
+          "word_count": 770
+        }
+      }
+    },
+    {
+      "pia_id": "pia-8fe884ae6b0e",
+      "title_en": "Departmental security – ID card section",
+      "title_fr": "Sécurité ministérielle – section sur les cartes d’identité",
+      "url_en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/departmental-security-id-card-section.html",
+      "url_fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/securite-ministerielle-section-sur-les-cartes-identite.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/departmental-security-id-card-section.html",
+        "alternate_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/securite-ministerielle-section-sur-les-cartes-identite.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/departmental-security-id-card-section.html",
+          "title_from_list": "Departmental security – ID card section",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/departmental-security-id-card-section.html",
+              "title": "Departmental security – ID card section",
+              "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/departmental-security-id-card-section.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/departmental-security-id-card-section.html",
+            "final_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/departmental-security-id-card-section.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:18.246666+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 23:21:11 GMT",
+            "etag": null,
+            "byte_count": 24276,
+            "sha256": "5035d9bc85964c8a1f6df2bc1c05465dd01c5d332593f1024f953f88bc5b56f1"
+          },
+          "raw_path": "raw/8fe884ae6b0e7662d37b.html",
+          "markdown_path": "pia-8fe884ae6b0e_en.md",
+          "markdown_sha256": "1ce641558a82225951da7c117de22eda671fca2adf871b466811d6dcb99004a4",
+          "status": "exported",
+          "page_title": "Departmental security – ID card section",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/departmental-security-id-card-section.html",
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/securite-ministerielle-section-sur-les-cartes-identite.html"
+          },
+          "date_modified": "2025-11-27",
+          "date_published": "2025-09-04",
+          "has_pia_text": true,
+          "title": "Departmental security – ID card section",
+          "conversion": "markdownify",
+          "text_sha256": "73960349db134be60f3e7f50d4b402faca26a65b433c8f5308240d169a805ca0",
+          "word_count": 384
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/securite-ministerielle-section-sur-les-cartes-identite.html",
+          "title_from_list": "Sécurité ministérielle – section sur les cartes d’identité",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+          "discovered_under": "Résumés d'évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/securite-ministerielle-section-sur-les-cartes-identite.html",
+              "title": "Sécurité ministérielle – section sur les cartes d’identité",
+              "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/securite-ministerielle-section-sur-les-cartes-identite.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/securite-ministerielle-section-sur-les-cartes-identite.html",
+            "final_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/securite-ministerielle-section-sur-les-cartes-identite.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:26.162367+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:26 GMT",
+            "etag": null,
+            "byte_count": 26030,
+            "sha256": "ff0d6af869a3899e812d4b9bf37a19a0ee49c344f807a85a21a0d71dd23ee629"
+          },
+          "raw_path": "raw/c50af02afeb601e0afc0.html",
+          "markdown_path": "pia-8fe884ae6b0e_fr.md",
+          "markdown_sha256": "72dd4a5fb325c3174ce0c29305fc4af6b34d8129e98854b060a7779e0839db94",
+          "status": "exported",
+          "page_title": "Sécurité ministérielle – section sur les cartes d’identité",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/securite-ministerielle-section-sur-les-cartes-identite.html",
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/departmental-security-id-card-section.html"
+          },
+          "date_modified": "2025-11-27",
+          "date_published": "2025-09-04",
+          "has_pia_text": true,
+          "title": "Sécurité ministérielle – section sur les cartes d’identité",
+          "conversion": "markdownify",
+          "text_sha256": "f6c37043f7c281c992c028ff685e1faee000e653b5cfd7cf238a4ab0902796f4",
+          "word_count": 530
+        }
+      }
+    },
+    {
+      "pia_id": "pia-428c53657eaa",
+      "title_en": "Privacy Impact Assessment Summary of the Digital Communications and Collaboration (DCC) Service",
+      "title_fr": "Résumé de l’évaluation des facteurs relatifs à la vie privée (EFVP) du service de communication et de collaboration numériques (CNN)",
+      "url_en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-dcc-service.html",
+      "url_fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-service-cnn.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-dcc-service.html",
+        "alternate_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-service-cnn.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-dcc-service.html",
+          "title_from_list": "Privacy Impact Assessment Summary of the Digital Communications and Collaboration (DCC) Service",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-dcc-service.html",
+              "title": "Privacy Impact Assessment Summary of the Digital Communications and Collaboration (DCC) Service",
+              "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-dcc-service.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-dcc-service.html",
+            "final_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-dcc-service.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:18.480906+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:18 GMT",
+            "etag": null,
+            "byte_count": 22223,
+            "sha256": "68470e8b169872e69b3d1b59872f0e0484826797d127bce411267e2ada191f76"
+          },
+          "raw_path": "raw/428c53657eaa4f0e0ba8.html",
+          "markdown_path": "pia-428c53657eaa_en.md",
+          "markdown_sha256": "e3cd3df019cd9772775cf1c376a1abdc307eed341da9aea71a3cb16373e1b938",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summary of the Digital Communications and Collaboration (DCC) Service",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-dcc-service.html",
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-service-cnn.html"
+          },
+          "date_modified": "2025-11-24",
+          "date_published": "2022-01-11",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment Summary of the Digital Communications and Collaboration (DCC) Service",
+          "conversion": "markdownify",
+          "text_sha256": "3b04301888f76c5042dded6b32fde98d3709350a331546f1bdb7a513a9f6df64",
+          "word_count": 395
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-service-cnn.html",
+          "title_from_list": "Résumé de l’évaluation des facteurs relatifs à la vie privée (EFVP) du Service de communication et de collaboration numériques (CNN)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+          "discovered_under": "Résumés d'évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-service-cnn.html",
+              "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée (EFVP) du Service de communication et de collaboration numériques (CNN)",
+              "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-service-cnn.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-service-cnn.html",
+            "final_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-service-cnn.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:25.835048+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 23:41:32 GMT",
+            "etag": null,
+            "byte_count": 24166,
+            "sha256": "80162eecea0e388e99efe68760986f423c3fa1a4bc143981da50b56851eb2e3e"
+          },
+          "raw_path": "raw/7cc708d51c0ed19f38fe.html",
+          "markdown_path": "pia-428c53657eaa_fr.md",
+          "markdown_sha256": "f41521b001b0136214da57af30045c96efdc4ddc72591c5ab2292a186a1536fb",
+          "status": "exported",
+          "page_title": "Résumé de l’évaluation des facteurs relatifs à la vie privée (EFVP) du service de communication et de collaboration numériques (CNN)",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-service-cnn.html",
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-dcc-service.html"
+          },
+          "date_modified": "2025-11-24",
+          "date_published": "2022-01-11",
+          "has_pia_text": true,
+          "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée (EFVP) du service de communication et de collaboration numériques (CNN)",
+          "conversion": "markdownify",
+          "text_sha256": "6567fccfc803414270ff57634348925cc6663fe63633bfb23b4959a2b69e3bcf",
+          "word_count": 574
+        }
+      }
+    },
+    {
+      "pia_id": "pia-72d7ea38910e",
+      "title_en": "Privacy Impact Assessment Summary for the Electronic Procurement and Payment System (EPP)",
+      "title_fr": "Résumé de l'évaluation des facteurs relatifs à la vie privée du Système d’approvisionnement et de paiement en ligne (APL)",
+      "url_en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessment-summary-epp-system.html",
+      "url_fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-evaluation-facteurs-relatifs-systeme-apl.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessment-summary-epp-system.html",
+        "alternate_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-evaluation-facteurs-relatifs-systeme-apl.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessment-summary-epp-system.html",
+          "title_from_list": "Privacy Impact Assessment Summary for the Electronic Procurement and Payment System (EPP)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessment-summary-epp-system.html",
+              "title": "Privacy Impact Assessment Summary for the Electronic Procurement and Payment System (EPP)",
+              "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessment-summary-epp-system.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessment-summary-epp-system.html",
+            "final_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessment-summary-epp-system.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:18.668687+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 23:21:12 GMT",
+            "etag": null,
+            "byte_count": 24225,
+            "sha256": "fd416a0c28020776c1dd59827793d96f742126ea45ed19014d488746b3f4ca93"
+          },
+          "raw_path": "raw/72d7ea38910e679a2f8b.html",
+          "markdown_path": "pia-72d7ea38910e_en.md",
+          "markdown_sha256": "6b490f332d593d53d707a07aeb9c4a98a27ebf09881a027d7f0114298df866b0",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summary for the Electronic Procurement and Payment System (EPP)",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessment-summary-epp-system.html",
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-evaluation-facteurs-relatifs-systeme-apl.html"
+          },
+          "date_modified": "2025-11-24",
+          "date_published": "2017-08-23",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment Summary for the Electronic Procurement and Payment System (EPP)",
+          "conversion": "markdownify",
+          "text_sha256": "30a10e53f818d08365c983e117790594e42e121bc12c94ef34f8dc5e8c4d1375",
+          "word_count": 510
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-evaluation-facteurs-relatifs-systeme-apl.html",
+          "title_from_list": "Résumé de l’évaluation des facteurs relatifs à la vie privée du Système d’approvisionnement et de paiement en ligne (APL)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+          "discovered_under": "Résumés d'évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-evaluation-facteurs-relatifs-systeme-apl.html",
+              "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée du Système d’approvisionnement et de paiement en ligne (APL)",
+              "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-evaluation-facteurs-relatifs-systeme-apl.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-evaluation-facteurs-relatifs-systeme-apl.html",
+            "final_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-evaluation-facteurs-relatifs-systeme-apl.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:25.856318+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:26 GMT",
+            "etag": null,
+            "byte_count": 25381,
+            "sha256": "ca107ae42e7350c5df73744b754ca484560e6ae1be44907bdcf47e9d69bdba87"
+          },
+          "raw_path": "raw/b9429904dcd40bd5a134.html",
+          "markdown_path": "pia-72d7ea38910e_fr.md",
+          "markdown_sha256": "5784b07956bc29f20f4928b3c1d9ddb01706022b0b78c43b48d41645bbd5df9d",
+          "status": "exported",
+          "page_title": "Résumé de l'évaluation des facteurs relatifs à la vie privée du Système d’approvisionnement et de paiement en ligne (APL)",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-evaluation-facteurs-relatifs-systeme-apl.html",
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessment-summary-epp-system.html"
+          },
+          "date_modified": "2025-11-24",
+          "date_published": "2017-08-23",
+          "has_pia_text": true,
+          "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée du Système d’approvisionnement et de paiement en ligne (APL)",
+          "conversion": "markdownify",
+          "text_sha256": "55991c0c67fc833b2c74cde7531b5e8b757d540625c90196167839bf14e07493",
+          "word_count": 645
+        }
+      }
+    },
+    {
+      "pia_id": "pia-2150f3d787a9",
+      "title_en": "Privacy Impact Assessment Summary for the Enterprise Mobile Device Management (EMDM) service",
+      "title_fr": "Évaluation des facteurs relatifs à la vie privée du service de gestion des appareils mobiles d’entreprise",
+      "url_en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/public-privacy-impact-assessment-enterprise-mobile-device-management.html",
+      "url_fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-evaluation-facteurs-vie-privee-gestion-appareils-mobiles-entreprise-destine-public.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/public-privacy-impact-assessment-enterprise-mobile-device-management.html",
+        "alternate_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-evaluation-facteurs-vie-privee-gestion-appareils-mobiles-entreprise-destine-public.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/public-privacy-impact-assessment-enterprise-mobile-device-management.html",
+          "title_from_list": "Privacy Impact Assessment Summary for the Enterprise Mobile Device Management (EMDM) service",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/public-privacy-impact-assessment-enterprise-mobile-device-management.html",
+              "title": "Privacy Impact Assessment Summary for the Enterprise Mobile Device Management (EMDM) service",
+              "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/public-privacy-impact-assessment-enterprise-mobile-device-management.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/public-privacy-impact-assessment-enterprise-mobile-device-management.html",
+            "final_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/public-privacy-impact-assessment-enterprise-mobile-device-management.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:18.734757+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 23:21:12 GMT",
+            "etag": null,
+            "byte_count": 22078,
+            "sha256": "6c710921d041cc9c3831eeb88edfb532cd4bebb26bf4dd9fb6360541f94fed96"
+          },
+          "raw_path": "raw/2150f3d787a964eba82b.html",
+          "markdown_path": "pia-2150f3d787a9_en.md",
+          "markdown_sha256": "c979fd6381f1d33980300a22a0f02acef23c4100d0388f247350b840614f7eef",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summary for the Enterprise Mobile Device Management (EMDM) service",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/public-privacy-impact-assessment-enterprise-mobile-device-management.html",
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-evaluation-facteurs-vie-privee-gestion-appareils-mobiles-entreprise-destine-public.html"
+          },
+          "date_modified": "2025-11-24",
+          "date_published": "2025-08-07",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment Summary for the Enterprise Mobile Device Management (EMDM) service",
+          "conversion": "markdownify",
+          "text_sha256": "d586a943413a02902cba22f4900b218bd93cc4dda2a5d48403dbf4dd158f85a9",
+          "word_count": 338
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-evaluation-facteurs-vie-privee-gestion-appareils-mobiles-entreprise-destine-public.html",
+          "title_from_list": "Évaluation des facteurs relatifs à la vie privée du Service de gestion des appareils mobiles d’entreprise",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+          "discovered_under": "Résumés d'évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-evaluation-facteurs-vie-privee-gestion-appareils-mobiles-entreprise-destine-public.html",
+              "title": "Évaluation des facteurs relatifs à la vie privée du Service de gestion des appareils mobiles d’entreprise",
+              "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-evaluation-facteurs-vie-privee-gestion-appareils-mobiles-entreprise-destine-public.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-evaluation-facteurs-vie-privee-gestion-appareils-mobiles-entreprise-destine-public.html",
+            "final_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-evaluation-facteurs-vie-privee-gestion-appareils-mobiles-entreprise-destine-public.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:26.128725+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:26 GMT",
+            "etag": null,
+            "byte_count": 23696,
+            "sha256": "98605d860354aa1a554980557a0ec8aa434bef4ef1cd06de5e81ef19c1a2b8d5"
+          },
+          "raw_path": "raw/a62a2bcb251fc23d5490.html",
+          "markdown_path": "pia-2150f3d787a9_fr.md",
+          "markdown_sha256": "036095b72a3490addea4c207a610ebf8d35fab98cfab98deca2a5764ed4e831b",
+          "status": "exported",
+          "page_title": "Évaluation des facteurs relatifs à la vie privée du service de gestion des appareils mobiles d’entreprise",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-evaluation-facteurs-vie-privee-gestion-appareils-mobiles-entreprise-destine-public.html",
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/public-privacy-impact-assessment-enterprise-mobile-device-management.html"
+          },
+          "date_modified": "2025-11-24",
+          "date_published": "2025-08-07",
+          "has_pia_text": true,
+          "title": "Évaluation des facteurs relatifs à la vie privée du service de gestion des appareils mobiles d’entreprise",
+          "conversion": "markdownify",
+          "text_sha256": "3a438100bd86d584ba9dc44cb4288d1dc02067d4db34691bf9f884ffd0068d99",
+          "word_count": 482
+        }
+      }
+    },
+    {
+      "pia_id": "pia-a00590aaa09c",
+      "title_en": "Enterprise Mobile Device Management Evolution solution",
+      "title_fr": "Solution pour l’évolution du service de gestion des appareils mobiles d’entreprise",
+      "url_en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/enterprise-mobile-device-management-evolution-solution.html",
+      "url_fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/solution-pour-evolution-service-de-gestion-des-appareils-mobiles-d-entreprise.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/enterprise-mobile-device-management-evolution-solution.html",
+        "alternate_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/solution-pour-evolution-service-de-gestion-des-appareils-mobiles-d-entreprise.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/enterprise-mobile-device-management-evolution-solution.html",
+          "title_from_list": "Enterprise Mobile Device Management Evolution solution",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/enterprise-mobile-device-management-evolution-solution.html",
+              "title": "Enterprise Mobile Device Management Evolution solution",
+              "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/enterprise-mobile-device-management-evolution-solution.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/enterprise-mobile-device-management-evolution-solution.html",
+            "final_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/enterprise-mobile-device-management-evolution-solution.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:18.245754+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 23:21:12 GMT",
+            "etag": null,
+            "byte_count": 22208,
+            "sha256": "f7b5121b85183a08eb51aa46da424784a99cb98864360f31d88805afee414beb"
+          },
+          "raw_path": "raw/a00590aaa09cad8ecdc0.html",
+          "markdown_path": "pia-a00590aaa09c_en.md",
+          "markdown_sha256": "1629bb095534393a0dbb24e5f78150e3e79320b960f936cb9ecb8410fe4849a7",
+          "status": "exported",
+          "page_title": "Enterprise Mobile Device Management Evolution solution",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/enterprise-mobile-device-management-evolution-solution.html",
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/solution-pour-evolution-service-de-gestion-des-appareils-mobiles-d-entreprise.html"
+          },
+          "date_modified": "2025-11-27",
+          "date_published": "2025-07-29",
+          "has_pia_text": true,
+          "title": "Enterprise Mobile Device Management Evolution solution",
+          "conversion": "markdownify",
+          "text_sha256": "6a8da85f6d5cb6a66429eee983e1cb24777c572667a716ecb66f365e2cdcc6a6",
+          "word_count": 422
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/solution-pour-evolution-service-de-gestion-des-appareils-mobiles-d-entreprise.html",
+          "title_from_list": "Solution pour l’évolution du service de gestion des appareils mobiles d’entreprise",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+          "discovered_under": "Résumés d'évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/solution-pour-evolution-service-de-gestion-des-appareils-mobiles-d-entreprise.html",
+              "title": "Solution pour l’évolution du service de gestion des appareils mobiles d’entreprise",
+              "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/solution-pour-evolution-service-de-gestion-des-appareils-mobiles-d-entreprise.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/solution-pour-evolution-service-de-gestion-des-appareils-mobiles-d-entreprise.html",
+            "final_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/solution-pour-evolution-service-de-gestion-des-appareils-mobiles-d-entreprise.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:26.292630+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:26 GMT",
+            "etag": null,
+            "byte_count": 24282,
+            "sha256": "1e30537af752690ecec31d668b9045c2080c96e34a5d18536d430172779880ab"
+          },
+          "raw_path": "raw/cfdf44b30bfa53f0975e.html",
+          "markdown_path": "pia-a00590aaa09c_fr.md",
+          "markdown_sha256": "28dd954151347a845c9a996ff77f4856e09400ae9364e920f77a59be7e8fa5dd",
+          "status": "exported",
+          "page_title": "Solution pour l’évolution du service de gestion des appareils mobiles d’entreprise",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/solution-pour-evolution-service-de-gestion-des-appareils-mobiles-d-entreprise.html",
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/enterprise-mobile-device-management-evolution-solution.html"
+          },
+          "date_modified": "2025-11-27",
+          "date_published": "2025-07-29",
+          "has_pia_text": true,
+          "title": "Solution pour l’évolution du service de gestion des appareils mobiles d’entreprise",
+          "conversion": "markdownify",
+          "text_sha256": "fe9dc7d76b34c0ad3a4ed74e7a442afc000366883fe00fa1e9fa3800aabfc93f",
+          "word_count": 584
+        }
+      }
+    },
+    {
+      "pia_id": "pia-8a7bda5e4b5d",
+      "title_en": "Enterprise Security Service Edge",
+      "title_fr": "Service de sécurité d’entreprise EDGE",
+      "url_en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/enterprise-security-service-edge.html",
+      "url_fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/service-de-securite-entreprise-edge.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/enterprise-security-service-edge.html",
+        "alternate_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/service-de-securite-entreprise-edge.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/enterprise-security-service-edge.html",
+          "title_from_list": "Enterprise Security Service Edge",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/enterprise-security-service-edge.html",
+              "title": "Enterprise Security Service Edge",
+              "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/enterprise-security-service-edge.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/enterprise-security-service-edge.html",
+            "final_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/enterprise-security-service-edge.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:18.250078+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 23:21:13 GMT",
+            "etag": null,
+            "byte_count": 23678,
+            "sha256": "0d0523a1446464eb1bb4a4871ec393013d0f78ca3373ee8acda53b44b9ff3a92"
+          },
+          "raw_path": "raw/8a7bda5e4b5d257d745e.html",
+          "markdown_path": "pia-8a7bda5e4b5d_en.md",
+          "markdown_sha256": "b07a6ca802003062e01c120a868f6aa431f65ff1a9f16ceb5f38ba540a816507",
+          "status": "exported",
+          "page_title": "Enterprise Security Service Edge",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/enterprise-security-service-edge.html",
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/service-de-securite-entreprise-edge.html"
+          },
+          "date_modified": "2025-11-27",
+          "date_published": "2025-09-04",
+          "has_pia_text": true,
+          "title": "Enterprise Security Service Edge",
+          "conversion": "markdownify",
+          "text_sha256": "d9c4e5608bf05bc748e6662f5fbd4ea88046d90a43e470f2c0ef98a5aa7641be",
+          "word_count": 300
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/service-de-securite-entreprise-edge.html",
+          "title_from_list": "Service de sécurité d’entreprise EDGE",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+          "discovered_under": "Résumés d'évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/service-de-securite-entreprise-edge.html",
+              "title": "Service de sécurité d’entreprise EDGE",
+              "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/service-de-securite-entreprise-edge.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/service-de-securite-entreprise-edge.html",
+            "final_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/service-de-securite-entreprise-edge.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:26.195978+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:26 GMT",
+            "etag": null,
+            "byte_count": 25116,
+            "sha256": "47ca4cc70e7c21d3258a4ab6560520b87b2bb74e7aa4fcbe7c6ef4f27cfe854b"
+          },
+          "raw_path": "raw/b92b40928f3d0d1257a8.html",
+          "markdown_path": "pia-8a7bda5e4b5d_fr.md",
+          "markdown_sha256": "f70ad582c8ab9bb50cfc4b9cbc174a85ade48f3b443f54d55c398a182ddb29da",
+          "status": "exported",
+          "page_title": "Service de sécurité d’entreprise EDGE",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/service-de-securite-entreprise-edge.html",
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/enterprise-security-service-edge.html"
+          },
+          "date_modified": "2025-11-27",
+          "date_published": "2025-09-04",
+          "has_pia_text": true,
+          "title": "Service de sécurité d’entreprise EDGE",
+          "conversion": "markdownify",
+          "text_sha256": "6063baf4fce6e9062d1ad273f092af092e4bb2a05378e1a8a3c8ca6979780618",
+          "word_count": 420
+        }
+      }
+    },
+    {
+      "pia_id": "pia-a8e7f951b52f",
+      "title_en": "GCKey - Government of Canada Branded Credential Service",
+      "title_fr": "CléGC – Service de justificatifs d’identité portant la marque du gouvernement du Canada",
+      "url_en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/gckey-government-canada-branded-credential-service.html",
+      "url_fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/clegc-service-justificatifs-identite-portant-marque-gouvernement-canada.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/gckey-government-canada-branded-credential-service.html",
+        "alternate_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/clegc-service-justificatifs-identite-portant-marque-gouvernement-canada.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/gckey-government-canada-branded-credential-service.html",
+          "title_from_list": "GCKey - Government of Canada Branded Credential Service",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/gckey-government-canada-branded-credential-service.html",
+              "title": "GCKey - Government of Canada Branded Credential Service",
+              "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/gckey-government-canada-branded-credential-service.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/gckey-government-canada-branded-credential-service.html",
+            "final_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/gckey-government-canada-branded-credential-service.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:18.262816+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 23:00:22 GMT",
+            "etag": null,
+            "byte_count": 23800,
+            "sha256": "5d13de3fe6ce4b5021717a046b02374f122588017fd0498b126c1f8eacc4d5dc"
+          },
+          "raw_path": "raw/a8e7f951b52f6c68e5c5.html",
+          "markdown_path": "pia-a8e7f951b52f_en.md",
+          "markdown_sha256": "bce3fe621da66fb705b1bb91a241ca7fbc0c81df1183c1a89fd944756e017f67",
+          "status": "exported",
+          "page_title": "GCKey - Government of Canada Branded Credential Service",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/gckey-government-canada-branded-credential-service.html",
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/clegc-service-justificatifs-identite-portant-marque-gouvernement-canada.html"
+          },
+          "date_modified": "2025-11-24",
+          "date_published": "2017-04-26",
+          "has_pia_text": true,
+          "title": "GCKey - Government of Canada Branded Credential Service",
+          "conversion": "markdownify",
+          "text_sha256": "0a319ade8479ab95f8a3d072a66a98d0063bb334b382ff25b4c1fedfb401c2fc",
+          "word_count": 544
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/clegc-service-justificatifs-identite-portant-marque-gouvernement-canada.html",
+          "title_from_list": "CléGC – Service de justificatifs d’identité portant la marque du gouvernement du Canada",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+          "discovered_under": "Résumés d'évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/clegc-service-justificatifs-identite-portant-marque-gouvernement-canada.html",
+              "title": "CléGC – Service de justificatifs d’identité portant la marque du gouvernement du Canada",
+              "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/clegc-service-justificatifs-identite-portant-marque-gouvernement-canada.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/clegc-service-justificatifs-identite-portant-marque-gouvernement-canada.html",
+            "final_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/clegc-service-justificatifs-identite-portant-marque-gouvernement-canada.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:25.655179+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:25 GMT",
+            "etag": null,
+            "byte_count": 27142,
+            "sha256": "d21238609c06224f9b0dcdd38a48a2ac073f1ba57b00d75b6e67d8e058e0f406"
+          },
+          "raw_path": "raw/eee652ed0acceb4dbe89.html",
+          "markdown_path": "pia-a8e7f951b52f_fr.md",
+          "markdown_sha256": "b7d01992a69fe8805c6141aa42b53309147dfcf538718f7844292527f3596fa6",
+          "status": "exported",
+          "page_title": "CléGC – Service de justificatifs d’identité portant la marque du gouvernement du Canada",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/clegc-service-justificatifs-identite-portant-marque-gouvernement-canada.html",
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/gckey-government-canada-branded-credential-service.html"
+          },
+          "date_modified": "2025-11-24",
+          "date_published": "2017-04-26",
+          "has_pia_text": true,
+          "title": "CléGC – Service de justificatifs d’identité portant la marque du gouvernement du Canada",
+          "conversion": "markdownify",
+          "text_sha256": "c0a75422e06c8fcdecd0b2d4afb811f91f2e5088aad9e74da312a8fb7fbc94af",
+          "word_count": 971
+        }
+      }
+    },
+    {
+      "pia_id": "pia-6866c527bee6",
+      "title_en": "Government Electronic Directory Services 2.0",
+      "title_fr": "Services d’annuaires gouvernementaux électroniques 2.0",
+      "url_en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessments-summary-government-electronic-directory-services.html",
+      "url_fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/evaluations-facteurs-relatifs-vie-privee-services-annuaires-gouvernementaux-electroniques.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessments-summary-government-electronic-directory-services.html",
+        "alternate_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/evaluations-facteurs-relatifs-vie-privee-services-annuaires-gouvernementaux-electroniques.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessments-summary-government-electronic-directory-services.html",
+          "title_from_list": "Government Electronic Directory Services 2.0 (GEDS 2.0)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessments-summary-government-electronic-directory-services.html",
+              "title": "Government Electronic Directory Services 2.0 (GEDS 2.0)",
+              "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessments-summary-government-electronic-directory-services.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessments-summary-government-electronic-directory-services.html",
+            "final_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessments-summary-government-electronic-directory-services.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:18.728233+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 23:47:33 GMT",
+            "etag": null,
+            "byte_count": 21345,
+            "sha256": "48f8583b5c2f43fdec98205135b79b9166019c87381b844b58bd8c0b1d4c086e"
+          },
+          "raw_path": "raw/6866c527bee6bf90a509.html",
+          "markdown_path": "pia-6866c527bee6_en.md",
+          "markdown_sha256": "e2882ede9a5e7005669f8071e1ad3a82e6d777e60dff899706fa1cc0dd8c2dbf",
+          "status": "exported",
+          "page_title": "Government Electronic Directory Services 2.0",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessments-summary-government-electronic-directory-services.html",
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/evaluations-facteurs-relatifs-vie-privee-services-annuaires-gouvernementaux-electroniques.html"
+          },
+          "date_modified": "2015-03-23",
+          "date_published": "2015-03-23",
+          "has_pia_text": true,
+          "title": "Government Electronic Directory Services 2.0",
+          "conversion": "markdownify",
+          "text_sha256": "7ab3624448996754e2543b7d7cfb3a4f3596bc553c5348c786ec53bb8a545d5e",
+          "word_count": 172
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/evaluations-facteurs-relatifs-vie-privee-services-annuaires-gouvernementaux-electroniques.html",
+          "title_from_list": "Services d’annuaires gouvernementaux électroniques 2.0 (SAGE 2.0)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+          "discovered_under": "Résumés d'évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/evaluations-facteurs-relatifs-vie-privee-services-annuaires-gouvernementaux-electroniques.html",
+              "title": "Services d’annuaires gouvernementaux électroniques 2.0 (SAGE 2.0)",
+              "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/evaluations-facteurs-relatifs-vie-privee-services-annuaires-gouvernementaux-electroniques.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/evaluations-facteurs-relatifs-vie-privee-services-annuaires-gouvernementaux-electroniques.html",
+            "final_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/evaluations-facteurs-relatifs-vie-privee-services-annuaires-gouvernementaux-electroniques.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:25.677045+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:26 GMT",
+            "etag": null,
+            "byte_count": 22215,
+            "sha256": "bb91367d7add21babd7b6fca24f752c8b09df225f86594a2b97b7c76fc5ae372"
+          },
+          "raw_path": "raw/5562ec09ac9da5ee5190.html",
+          "markdown_path": "pia-6866c527bee6_fr.md",
+          "markdown_sha256": "9fb4e7a75049c8c4ab4d621b7273e917927e6f584221bd6f3cfe5af69e40094f",
+          "status": "exported",
+          "page_title": "Services d’annuaires gouvernementaux électroniques 2.0",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/evaluations-facteurs-relatifs-vie-privee-services-annuaires-gouvernementaux-electroniques.html",
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/privacy-impact-assessments-summary-government-electronic-directory-services.html"
+          },
+          "date_modified": "2015-03-23",
+          "date_published": "2015-03-23",
+          "has_pia_text": true,
+          "title": "Services d’annuaires gouvernementaux électroniques 2.0",
+          "conversion": "markdownify",
+          "text_sha256": "ed2f13950f959d04a861bdcfdf6b53878183e5e10f291917389beedf3960600d",
+          "word_count": 211
+        }
+      }
+    },
+    {
+      "pia_id": "pia-66e882595811",
+      "title_en": "Privacy Impact Assessment Summary for the IT Service Management Tool",
+      "title_fr": "Résumé de l’évaluation des facteurs relatifs à la vie privée du projet d’outil de GSTI",
+      "url_en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-it-smt.html",
+      "url_fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-gsti.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-it-smt.html",
+        "alternate_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-gsti.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-it-smt.html",
+          "title_from_list": "Privacy Impact Assessment Summary for the IT Service Management Tool",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-it-smt.html",
+              "title": "Privacy Impact Assessment Summary for the IT Service Management Tool",
+              "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-it-smt.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-it-smt.html",
+            "final_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-it-smt.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:18.557100+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:18 GMT",
+            "etag": null,
+            "byte_count": 22314,
+            "sha256": "2e87d03910976d6a0cb1f52f38468498b237af8e6e29c24496e9ea974357d6a5"
+          },
+          "raw_path": "raw/66e8825958112a7709a2.html",
+          "markdown_path": "pia-66e882595811_en.md",
+          "markdown_sha256": "3d48ecf4e1dfa7d1db98255d4878a812e8ee9d8817fb5da6648adb3111d93253",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summary for the IT Service Management Tool",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-it-smt.html",
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-gsti.html"
+          },
+          "date_modified": "2025-11-24",
+          "date_published": "2022-11-21",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment Summary for the IT Service Management Tool",
+          "conversion": "markdownify",
+          "text_sha256": "c5d25a71be2b01457398a9911d2dfa8f777445dec23d8bcc7c774c20b79f30cf",
+          "word_count": 442
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-gsti.html",
+          "title_from_list": "Résumé de l’évaluation des facteurs relatifs à la vie privée du Projet d’outil de GSTI",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+          "discovered_under": "Résumés d'évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-gsti.html",
+              "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée du Projet d’outil de GSTI",
+              "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-gsti.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-gsti.html",
+            "final_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-gsti.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:25.805187+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:26 GMT",
+            "etag": null,
+            "byte_count": 23783,
+            "sha256": "1da85f80b68db21b9cbddc0787604f4233e60968f9588f7888aa9c5f3c4a3b61"
+          },
+          "raw_path": "raw/a1ac97671c1453e43232.html",
+          "markdown_path": "pia-66e882595811_fr.md",
+          "markdown_sha256": "eb233e8ef7debbf2eaa101c1019374e245e68121efb1f5882180a00d454c0f70",
+          "status": "exported",
+          "page_title": "Résumé de l’évaluation des facteurs relatifs à la vie privée du projet d’outil de GSTI",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-gsti.html",
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-it-smt.html"
+          },
+          "date_modified": "2025-11-24",
+          "date_published": "2022-11-21",
+          "has_pia_text": true,
+          "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée du projet d’outil de GSTI",
+          "conversion": "markdownify",
+          "text_sha256": "1bbcb2f90d059c33968e691455179e00143d11adb241d1523d9c1871748273ea",
+          "word_count": 585
+        }
+      }
+    },
+    {
+      "pia_id": "pia-1620930dd910",
+      "title_en": "Network Monitoring using Secure Cloud Enablement and Defense (SCED) – Enterprise Security Service Edge (ESSE)",
+      "title_fr": "Surveillance du réseau à l’aide de l’Activation et défense du nuage sécurisé (ADNS) – Service de sécurité du périmètre de l’entreprise (SSPE)",
+      "url_en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/network-monitoring-using-sced-esse.html",
+      "url_fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/surveillance-reseau-aide-adns-sspe.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/network-monitoring-using-sced-esse.html",
+        "alternate_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/surveillance-reseau-aide-adns-sspe.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/network-monitoring-using-sced-esse.html",
+          "title_from_list": "Privacy Impact Assessment Summary for the Network Monitoring using Secure Cloud Enablement and Defense (SCED) – Enterprise Security Service Edge (ESSE)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/network-monitoring-using-sced-esse.html",
+              "title": "Privacy Impact Assessment Summary for the Network Monitoring using Secure Cloud Enablement and Defense (SCED) – Enterprise Security Service Edge (ESSE)",
+              "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/network-monitoring-using-sced-esse.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/network-monitoring-using-sced-esse.html",
+            "final_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/network-monitoring-using-sced-esse.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:18.300487+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 23:21:14 GMT",
+            "etag": null,
+            "byte_count": 23399,
+            "sha256": "e9ded86e1466f9f250f33f179035ddf2ac89fcb5561507aa38ea7f2120829b65"
+          },
+          "raw_path": "raw/1620930dd9105a1d8517.html",
+          "markdown_path": "pia-1620930dd910_en.md",
+          "markdown_sha256": "7a541226e3b9584927e54343d52777d3436260d4a97f3babb7fce3bc2fe185c9",
+          "status": "exported",
+          "page_title": "Network Monitoring using Secure Cloud Enablement and Defense (SCED) – Enterprise Security Service Edge (ESSE)",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/network-monitoring-using-sced-esse.html",
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/surveillance-reseau-aide-adns-sspe.html"
+          },
+          "date_modified": "2026-07-14",
+          "date_published": "2026-07-14",
+          "has_pia_text": true,
+          "title": "Network Monitoring using Secure Cloud Enablement and Defense (SCED) – Enterprise Security Service Edge (ESSE)",
+          "conversion": "markdownify",
+          "text_sha256": "c986c077d18d3cb317f658f05189cd6ecf6c980dd96b4d65dbbfba374cb6e956",
+          "word_count": 453
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/surveillance-reseau-aide-adns-sspe.html",
+          "title_from_list": "Surveillance du réseau à l’aide de l’Activation et défense du nuage sécurisé (ADNS) – Service de sécurité du périmètre de l’entreprise (SSPE)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+          "discovered_under": "Résumés d'évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/surveillance-reseau-aide-adns-sspe.html",
+              "title": "Surveillance du réseau à l’aide de l’Activation et défense du nuage sécurisé (ADNS) – Service de sécurité du périmètre de l’entreprise (SSPE)",
+              "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/surveillance-reseau-aide-adns-sspe.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/surveillance-reseau-aide-adns-sspe.html",
+            "final_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/surveillance-reseau-aide-adns-sspe.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:26.197151+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:26 GMT",
+            "etag": null,
+            "byte_count": 25665,
+            "sha256": "b1af2900134fa46249a277a08d7bff6d1d8cd5e2347233b4b702cb087ac464e9"
+          },
+          "raw_path": "raw/c251b7c76787fce0a495.html",
+          "markdown_path": "pia-1620930dd910_fr.md",
+          "markdown_sha256": "83241f156ba567d23b47ed252f695a4ec8eb6f2e307ba21e6d67a9ef0d53a76e",
+          "status": "exported",
+          "page_title": "Surveillance du réseau à l’aide de l’Activation et défense du nuage sécurisé (ADNS) – Service de sécurité du périmètre de l’entreprise (SSPE)",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/surveillance-reseau-aide-adns-sspe.html",
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/network-monitoring-using-sced-esse.html"
+          },
+          "date_modified": "2026-07-14",
+          "date_published": "2026-07-14",
+          "has_pia_text": true,
+          "title": "Surveillance du réseau à l’aide de l’Activation et défense du nuage sécurisé (ADNS) – Service de sécurité du périmètre de l’entreprise (SSPE)",
+          "conversion": "markdownify",
+          "text_sha256": "19dd081ec51675508b633787b147c7c5fce26d43fef3d25dfd20e02ff3caeff8",
+          "word_count": 717
+        }
+      }
+    },
+    {
+      "pia_id": "pia-3b70d7c516cb",
+      "title_en": "Privacy Impact Assessment Summary for the Next Generation HR and Pay Pilot",
+      "title_fr": "Sommaire de l’évaluation des facteurs relatifs à la vie privée du projet pilote du système de la prochaine génération des RH et de la paye",
+      "url_en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-next-gen-hr-pay-pilot.html",
+      "url_fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-systeme-prochaine-gen-rh-paye.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-next-gen-hr-pay-pilot.html",
+        "alternate_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-systeme-prochaine-gen-rh-paye.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-next-gen-hr-pay-pilot.html",
+          "title_from_list": "Privacy Impact Assessment Summary for the Next Generation HR and Pay Pilot",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-next-gen-hr-pay-pilot.html",
+              "title": "Privacy Impact Assessment Summary for the Next Generation HR and Pay Pilot",
+              "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-next-gen-hr-pay-pilot.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-next-gen-hr-pay-pilot.html",
+            "final_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-next-gen-hr-pay-pilot.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:18.623869+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:19 GMT",
+            "etag": null,
+            "byte_count": 21997,
+            "sha256": "632347ba33b37fc83bb501e3dc67c551264290c8c24ecb53bf6d0727ba5f1d6a"
+          },
+          "raw_path": "raw/3b70d7c516cb6ead24ad.html",
+          "markdown_path": "pia-3b70d7c516cb_en.md",
+          "markdown_sha256": "34ab9a42e0bd95eec6015ff4646837e8661539642fc0092e1c1a8e98c6c081d3",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summary for the Next Generation HR and Pay Pilot",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-next-gen-hr-pay-pilot.html",
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-systeme-prochaine-gen-rh-paye.html"
+          },
+          "date_modified": "2025-11-24",
+          "date_published": "2023-06-30",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment Summary for the Next Generation HR and Pay Pilot",
+          "conversion": "markdownify",
+          "text_sha256": "9efb7021ae2c4109c7106952e5dfd695a151ceae3ba7bc03cfef7f9b7e29f70f",
+          "word_count": 378
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-systeme-prochaine-gen-rh-paye.html",
+          "title_from_list": "Résumé de l’évaluation des facteurs relatifs à la vie privée du Projet pilote du système de la prochaine génération des RH et de la paye",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+          "discovered_under": "Résumés d'évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-systeme-prochaine-gen-rh-paye.html",
+              "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée du Projet pilote du système de la prochaine génération des RH et de la paye",
+              "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-systeme-prochaine-gen-rh-paye.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-systeme-prochaine-gen-rh-paye.html",
+            "final_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-systeme-prochaine-gen-rh-paye.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:25.843622+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:26 GMT",
+            "etag": null,
+            "byte_count": 23593,
+            "sha256": "7c6aa55afe23aa802661bd0c25c92e2d7bcd8f7833c923d476fc4ec14eb80a08"
+          },
+          "raw_path": "raw/77ee15d57316c4b9ae31.html",
+          "markdown_path": "pia-3b70d7c516cb_fr.md",
+          "markdown_sha256": "01856c9ee298666f2b273b480288ff2efdc7de1febdc118038ad181931700cf0",
+          "status": "exported",
+          "page_title": "Sommaire de l’évaluation des facteurs relatifs à la vie privée du projet pilote du système de la prochaine génération des RH et de la paye",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-systeme-prochaine-gen-rh-paye.html",
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-next-gen-hr-pay-pilot.html"
+          },
+          "date_modified": "2025-11-24",
+          "date_published": "2023-06-30",
+          "has_pia_text": true,
+          "title": "Sommaire de l’évaluation des facteurs relatifs à la vie privée du projet pilote du système de la prochaine génération des RH et de la paye",
+          "conversion": "markdownify",
+          "text_sha256": "1912e3a757154990174fd86eb757c5392ae72b8f42caa027cee6372fcdaf5711",
+          "word_count": 515
+        }
+      }
+    },
+    {
+      "pia_id": "pia-56b9dab43350",
+      "title_en": "SecureKey Concierge – Credential Broker Service",
+      "title_fr": "SecureKey Service de concierge – Service de courtier de justificatifs d'identité",
+      "url_en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/securekey-concierge-credential-broker-service.html",
+      "url_fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/securekey-service-concierge-service-courtier-justificatifs-didentite.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/securekey-concierge-credential-broker-service.html",
+        "alternate_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/securekey-service-concierge-service-courtier-justificatifs-didentite.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/securekey-concierge-credential-broker-service.html",
+          "title_from_list": "SecureKey Concierge – Credential Broker Service",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/securekey-concierge-credential-broker-service.html",
+              "title": "SecureKey Concierge – Credential Broker Service",
+              "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/securekey-concierge-credential-broker-service.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/securekey-concierge-credential-broker-service.html",
+            "final_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/securekey-concierge-credential-broker-service.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:18.811981+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 23:21:14 GMT",
+            "etag": null,
+            "byte_count": 23921,
+            "sha256": "bd22e58cd968ab7cf367cfae65cc2d5c706f4ddbd3c24064e44950c4976e55ab"
+          },
+          "raw_path": "raw/56b9dab43350f5bda4ac.html",
+          "markdown_path": "pia-56b9dab43350_en.md",
+          "markdown_sha256": "47b661f54ba4722015ad8419369beda63744ac783b5568c0d5a5375b7f25c1b3",
+          "status": "exported",
+          "page_title": "SecureKey Concierge – Credential Broker Service",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/securekey-concierge-credential-broker-service.html",
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/securekey-service-concierge-service-courtier-justificatifs-didentite.html"
+          },
+          "date_modified": "2025-11-24",
+          "date_published": "2017-04-26",
+          "has_pia_text": true,
+          "title": "SecureKey Concierge – Credential Broker Service",
+          "conversion": "markdownify",
+          "text_sha256": "2b3e0cc9fd9022fe94161c40c5e247dd6419f1e087af1e4e461bb8a66c1dd1e3",
+          "word_count": 559
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/securekey-service-concierge-service-courtier-justificatifs-didentite.html",
+          "title_from_list": "SecureKey Service de concierge – Service de courtier de justificatifs d’identité",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+          "discovered_under": "Résumés d'évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/securekey-service-concierge-service-courtier-justificatifs-didentite.html",
+              "title": "SecureKey Service de concierge – Service de courtier de justificatifs d’identité",
+              "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/securekey-service-concierge-service-courtier-justificatifs-didentite.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/securekey-service-concierge-service-courtier-justificatifs-didentite.html",
+            "final_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/securekey-service-concierge-service-courtier-justificatifs-didentite.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:26.212926+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:26 GMT",
+            "etag": null,
+            "byte_count": 25172,
+            "sha256": "6af325ff9bf87ba7ddc3d939dff797681d547e207f6b6e48f53aa719d6ddb5c4"
+          },
+          "raw_path": "raw/40c03ea435c2bc452373.html",
+          "markdown_path": "pia-56b9dab43350_fr.md",
+          "markdown_sha256": "bb2834747a5f16d0c6901a6e288f2b7e174aaa1699a726e8e0c1c0aeae42b217",
+          "status": "exported",
+          "page_title": "SecureKey Service de concierge – Service de courtier de justificatifs d'identité",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/securekey-service-concierge-service-courtier-justificatifs-didentite.html",
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/securekey-concierge-credential-broker-service.html"
+          },
+          "date_modified": "2025-11-24",
+          "date_published": "2017-04-26",
+          "has_pia_text": true,
+          "title": "SecureKey Service de concierge – Service de courtier de justificatifs d'identité",
+          "conversion": "markdownify",
+          "text_sha256": "80837a9b9ea9e4cb66b343c8a1de5fc2d558c94eb86fef43305f5d374e1aae32",
+          "word_count": 714
+        }
+      }
+    },
+    {
+      "pia_id": "pia-4f8858a3b69c",
+      "title_en": "Privacy Impact Assessment Summary for the SSC Enterprise Perimeter Security Service",
+      "title_fr": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le service de sécurité du périmètre d’entreprise de SPC",
+      "url_en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-eps-service.html",
+      "url_fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-service-spe.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-eps-service.html",
+        "alternate_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-service-spe.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-eps-service.html",
+          "title_from_list": "Privacy Impact Assessment Summary for the SSC Enterprise Perimeter Security Service",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-eps-service.html",
+              "title": "Privacy Impact Assessment Summary for the SSC Enterprise Perimeter Security Service",
+              "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-eps-service.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-eps-service.html",
+            "final_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-eps-service.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:18.547923+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 23:21:14 GMT",
+            "etag": null,
+            "byte_count": 22891,
+            "sha256": "f3d45b3f84386ca81832544bf6ea986b64d77c867ab7f32218aa15673f989342"
+          },
+          "raw_path": "raw/4f8858a3b69c44b90d9c.html",
+          "markdown_path": "pia-4f8858a3b69c_en.md",
+          "markdown_sha256": "b961ab67fd73a57045fb63a816b7abefbe51013a0e97af0b548d9092244b9465",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summary for the SSC Enterprise Perimeter Security Service",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-eps-service.html",
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-service-spe.html"
+          },
+          "date_modified": "2025-11-24",
+          "date_published": "2022-01-11",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment Summary for the SSC Enterprise Perimeter Security Service",
+          "conversion": "markdownify",
+          "text_sha256": "f09d705c6e2ea7b2d4ea41a1a921f807652c8e7bb6bf5d0da5358d46a0812705",
+          "word_count": 480
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-service-spe.html",
+          "title_from_list": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le Service de sécurité du périmètre d’entreprise de SPC",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+          "discovered_under": "Résumés d'évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-service-spe.html",
+              "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le Service de sécurité du périmètre d’entreprise de SPC",
+              "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-service-spe.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-service-spe.html",
+            "final_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-service-spe.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:25.841455+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:26 GMT",
+            "etag": null,
+            "byte_count": 24458,
+            "sha256": "e166aade111a81cd68e5b5a967bce229c9f772260e2e6a021f09781c36cc3176"
+          },
+          "raw_path": "raw/a03c92f25687220fbb06.html",
+          "markdown_path": "pia-4f8858a3b69c_fr.md",
+          "markdown_sha256": "a3e8bed3d196047f5e81d736adfac523e694407d3b2a94a6ad60bd9284df0eea",
+          "status": "exported",
+          "page_title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le service de sécurité du périmètre d’entreprise de SPC",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-service-spe.html",
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-eps-service.html"
+          },
+          "date_modified": "2025-11-24",
+          "date_published": "2022-01-11",
+          "has_pia_text": true,
+          "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le service de sécurité du périmètre d’entreprise de SPC",
+          "conversion": "markdownify",
+          "text_sha256": "17ba5ac72b520ca8c313f150d259c79b1fa024849d9e811ef5349b4f126641a3",
+          "word_count": 590
+        }
+      }
+    },
+    {
+      "pia_id": "pia-7496bbe2cb11",
+      "title_en": "Privacy Impact Assessment Summary for the Workplace Communication Services",
+      "title_fr": "Résumé de l’évaluation des facteurs relatifs à la vie privée des Services de communication en milieu de travail",
+      "url_en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-wcs.html",
+      "url_fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-scmt.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-wcs.html",
+        "alternate_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-scmt.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-wcs.html",
+          "title_from_list": "Privacy Impact Assessment Summary for the Workplace Communication Services",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-wcs.html",
+              "title": "Privacy Impact Assessment Summary for the Workplace Communication Services",
+              "list_url": "https://www.canada.ca/en/shared-services/corporate/transparency/access-information-privacy/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-wcs.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-wcs.html",
+            "final_url": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-wcs.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:18.628229+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:18 GMT",
+            "etag": null,
+            "byte_count": 21793,
+            "sha256": "5c810ed9a17f2e7fe1f4550734c02f39dd2f9fe38351d754f30897b0d87b5fed"
+          },
+          "raw_path": "raw/7496bbe2cb11efae3e98.html",
+          "markdown_path": "pia-7496bbe2cb11_en.md",
+          "markdown_sha256": "ccc72ac1830e4a96c740893c2aa0a15cb3d879ac73f53c9ab7c769f4bc0fb27a",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summary for the Workplace Communication Services",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-wcs.html",
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-scmt.html"
+          },
+          "date_modified": "2025-11-24",
+          "date_published": "2024-09-09",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment Summary for the Workplace Communication Services",
+          "conversion": "markdownify",
+          "text_sha256": "89d4c96eab094276c751b60d1cd72999ef33efe08810c2d1c485d943ca23f8ee",
+          "word_count": 345
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-scmt.html",
+          "title_from_list": "Résumé de l’évaluation des facteurs relatifs à la vie privée des Services de communication en milieu de travail",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+          "discovered_under": "Résumés d'évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-scmt.html",
+              "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée des Services de communication en milieu de travail",
+              "list_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-scmt.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-scmt.html",
+            "final_url": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-scmt.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:25.833547+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:26 GMT",
+            "etag": null,
+            "byte_count": 23351,
+            "sha256": "0fa9fe0210a3abae8cf3bb6384525ed12b9d54a981cf0ca7e8c7d2e90050d911"
+          },
+          "raw_path": "raw/bf602238e0c4660d6596.html",
+          "markdown_path": "pia-7496bbe2cb11_fr.md",
+          "markdown_sha256": "1d7ef0fc4f2276560055f1e057c8d54a60577bb36873484486517d548c3a247a",
+          "status": "exported",
+          "page_title": "Résumé de l’évaluation des facteurs relatifs à la vie privée des Services de communication en milieu de travail",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/services-partages/organisation/propos-nous/transparence/acces-information-protection-renseignements-personnels/publications/resume-efvp-scmt.html",
+            "en": "https://www.canada.ca/en/shared-services/corporate/about-us/transparency/access-information-privacy/publications/pia-summary-wcs.html"
+          },
+          "date_modified": "2025-11-24",
+          "date_published": "2024-09-09",
+          "has_pia_text": true,
+          "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée des Services de communication en milieu de travail",
+          "conversion": "markdownify",
+          "text_sha256": "678616d6f76e16626a9d9aaf237bdf0e8d3356065564f2f2cb8f940a53ea3b80",
+          "word_count": 511
+        }
+      }
+    }
+  ],
+  "summary": {
+    "pia_count": 15,
+    "paired_count": 15,
+    "source_status_counts": {
+      "exported": 30
+    }
+  }
+}

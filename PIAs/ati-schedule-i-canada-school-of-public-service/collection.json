@@ -1,0 +1,1759 @@
+{
+  "schema_version": 1,
+  "collector_version": 1,
+  "collected_at_utc": "2026-11-12T01:50:38.139754+00:00",
+  "institution_id": "ati-schedule-i-canada-school-of-public-service",
+  "gc_orgID": "2304.0",
+  "open_canada_org_id": "892B1E0C-3389-4C9F-A6F0-92FE653016C1",
+  "open_canada_org_slug": "csps-efpc",
+  "name_en": "Canada School of Public Service",
+  "name_fr": "École de la fonction publique du Canada",
+  "registry_membership": "current_registry",
+  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "list_pages": {
+    "en": {
+      "indexed_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+          "final_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:29.605629+00:00",
+          "redirects": [],
+          "content_type": "text/html; charset=utf-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": null,
+          "etag": null,
+          "byte_count": 36268,
+          "sha256": "51d784af95af1203cf3a9355e5f0a5246b9d00d1d8e678ac9a383d99e919f050",
+          "raw_path": "raw/9d74ed3070ddaffdee9a.html"
+        }
+      ],
+      "discovered_count": 14,
+      "scopes": [
+        "Completed Privacy Impact Assessments - Summaries"
+      ],
+      "warnings": []
+    },
+    "fr": {
+      "indexed_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-fra.aspx",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-fra.aspx",
+          "final_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-fra.aspx",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:29.631244+00:00",
+          "redirects": [],
+          "content_type": "text/html; charset=utf-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": null,
+          "etag": null,
+          "byte_count": 38459,
+          "sha256": "c92541c0e9c718fb5a5e6cf7a3ab65468136ef277df94e1b0a0c99c7bc8fe313",
+          "raw_path": "raw/a6cb499cf2ac9669c68f.html"
+        }
+      ],
+      "discovered_count": 14,
+      "scopes": [
+        "Évaluations des facteurs relatifs à la vie privée terminées : résumés"
+      ],
+      "warnings": []
+    }
+  },
+  "pias": [
+    {
+      "pia_id": "pia-baea2c84bd47",
+      "title_en": "CSPS Core Privacy Impact Assessment (PIA) Summary",
+      "title_fr": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC",
+      "url_en": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-eng.aspx",
+      "url_fr": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-fra.aspx",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-eng.aspx",
+        "alternate_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-fra.aspx"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-eng.aspx",
+          "title_from_list": "CSPS Core Privacy Impact Assessment (PIA) Summary",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+          "discovered_under": "Completed Privacy Impact Assessments - Summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-eng.aspx",
+              "title": "CSPS Core Privacy Impact Assessment (PIA) Summary",
+              "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-eng.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-eng.aspx",
+            "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-eng.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:28.968847+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 33457,
+            "sha256": "f0a14f171bc7900d54eb71dd076403df45b8db0040ed428c8f4e27ea833e378d"
+          },
+          "raw_path": "raw/baea2c84bd47d26824d7.html",
+          "markdown_path": "pia-baea2c84bd47_en.md",
+          "markdown_sha256": "510fd4732006efddd3b9e4459a2230d21d80c640b3452e93cd766ef948703490",
+          "status": "exported",
+          "page_title": "CSPS Core Privacy Impact Assessment (PIA) Summary",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-fra.aspx"
+          },
+          "date_modified": "2020-12-21",
+          "date_published": "2020-12-21",
+          "has_pia_text": true,
+          "title": "CSPS Core Privacy Impact Assessment (PIA) Summary",
+          "conversion": "markdownify",
+          "text_sha256": "ee78162fe8f02f766b5175d753b5346883896ae4a3abd2238026794599e61c8c",
+          "word_count": 577
+        },
+        "fr": {
+          "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-fra.aspx",
+          "title_from_list": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-fra.aspx",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée terminées : résumés",
+          "discovery_references": [
+            {
+              "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-fra.aspx",
+              "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC",
+              "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-fra.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-fra.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-fra.aspx",
+            "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-fra.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:29.043592+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 34866,
+            "sha256": "f36477950a017a7f2904c4c43b6dd17fbe0923e37838a6b0f0a7e6929f3f69d8"
+          },
+          "raw_path": "raw/0dec482146de04b696d4.html",
+          "markdown_path": "pia-baea2c84bd47_fr.md",
+          "markdown_sha256": "7e326bce92ea4797ccc3f36557b2fbabfb2af4b86b927b43e2ff75f6e1a2f0eb",
+          "status": "exported",
+          "page_title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-eng.aspx"
+          },
+          "date_modified": "2020-12-21",
+          "date_published": "2020-12-21",
+          "has_pia_text": true,
+          "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC",
+          "conversion": "markdownify",
+          "text_sha256": "257598eec3f447150f408c5e5390b05627918b7a7c86c4e39b8633e8c1939fdc",
+          "word_count": 591
+        }
+      }
+    },
+    {
+      "pia_id": "pia-ba7289bcb8e3",
+      "title_en": "CSPS Privacy Impact Assessment (PIA) Summary: AMANDA Enterprise Case Management Solution",
+      "title_fr": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : La solution d'entreprise de gestion de cas AMANDA",
+      "url_en": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-amanada-eng.aspx",
+      "url_fr": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-amanada-fra.aspx",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-amanada-eng.aspx",
+        "alternate_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-amanada-fra.aspx"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-amanada-eng.aspx",
+          "title_from_list": "CSPS Privacy Impact Assessment (PIA) Summary: AMANDA Enterprise Case Management Solution",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+          "discovered_under": "Completed Privacy Impact Assessments - Summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-amanada-eng.aspx",
+              "title": "CSPS Privacy Impact Assessment (PIA) Summary: AMANDA Enterprise Case Management Solution",
+              "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-amanada-eng.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-amanada-eng.aspx",
+            "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-amanada-eng.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:28.049028+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 35026,
+            "sha256": "4bb11d5bce3240927bd5e93ce0846cd5d10ba9320b33c7e1acf0f6090988047e"
+          },
+          "raw_path": "raw/ba7289bcb8e355185f13.html",
+          "markdown_path": "pia-ba7289bcb8e3_en.md",
+          "markdown_sha256": "d36fb1809fa573dee67c0cbb4b8a53bd590f6e95ea36a7e79082ffac86127311",
+          "status": "exported",
+          "page_title": "CSPS Privacy Impact Assessment (PIA) Summary: AMANDA Enterprise Case Management Solution",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-amanada-fra.aspx"
+          },
+          "date_modified": "2026-06-30",
+          "date_published": "2026-06-30",
+          "has_pia_text": true,
+          "title": "CSPS Privacy Impact Assessment (PIA) Summary: AMANDA Enterprise Case Management Solution",
+          "conversion": "markdownify",
+          "text_sha256": "79e3a2141a2f75b4bdad08e48cf1d92763c21b4e8d7691a6bb9ac9a29712ec02",
+          "word_count": 559
+        },
+        "fr": {
+          "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-amanada-fra.aspx",
+          "title_from_list": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : La solution d'entreprise de gestion de cas AMANDA",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-fra.aspx",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée terminées : résumés",
+          "discovery_references": [
+            {
+              "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-amanada-fra.aspx",
+              "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : La solution d'entreprise de gestion de cas AMANDA",
+              "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-fra.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-amanada-fra.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-amanada-fra.aspx",
+            "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-amanada-fra.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:28.132604+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 37176,
+            "sha256": "437087c797486ec1991584b291e83d95a0febe7e89f8b9c520e8df2271fb6122"
+          },
+          "raw_path": "raw/1fdea05939791b40f816.html",
+          "markdown_path": "pia-ba7289bcb8e3_fr.md",
+          "markdown_sha256": "56a52ae3476ceb83f53c665ab1b1776d85af438f350806640d9f28e87feeadec",
+          "status": "exported",
+          "page_title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : La solution d'entreprise de gestion de cas AMANDA",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-amanada-eng.aspx"
+          },
+          "date_modified": "2026-06-30",
+          "date_published": "2026-06-30",
+          "has_pia_text": true,
+          "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : La solution d'entreprise de gestion de cas AMANDA",
+          "conversion": "markdownify",
+          "text_sha256": "679e5d1f889b373529ce4e9643f046d3f8a61b14ecf671823277a9050017bc0c",
+          "word_count": 756
+        }
+      }
+    },
+    {
+      "pia_id": "pia-2a3bd97148d5",
+      "title_en": "CSPS Privacy Impact Assessment (PIA) Summary: Accommodation Survey",
+      "title_fr": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Sondage sur l'accommodation",
+      "url_en": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-accommodation-survey-eng.aspx",
+      "url_fr": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-accommodation-survey-fra.aspx",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-accommodation-survey-eng.aspx",
+        "alternate_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-accommodation-survey-fra.aspx"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-accommodation-survey-eng.aspx",
+          "title_from_list": "CSPS Privacy Impact Assessment (PIA) Summary: Accommodation Survey",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+          "discovered_under": "Completed Privacy Impact Assessments - Summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-accommodation-survey-eng.aspx",
+              "title": "CSPS Privacy Impact Assessment (PIA) Summary: Accommodation Survey",
+              "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-accommodation-survey-eng.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-accommodation-survey-eng.aspx",
+            "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-accommodation-survey-eng.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:27.918318+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 31901,
+            "sha256": "a44ea2581d5b0e444535fa0019bf2c296df4bab39862dd3921e7d64c910e99a6"
+          },
+          "raw_path": "raw/2a3bd97148d5a9c2a8b5.html",
+          "markdown_path": "pia-2a3bd97148d5_en.md",
+          "markdown_sha256": "35bae489795a31e17a0cbac1abaa90b4e29eb6e820e54f86b3b71b144aee7f3c",
+          "status": "exported",
+          "page_title": "CSPS Privacy Impact Assessment (PIA) Summary: Accommodation Survey",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-accommodation-survey-fra.aspx"
+          },
+          "date_modified": "2021-12-08",
+          "date_published": "2021-12-08",
+          "has_pia_text": true,
+          "title": "CSPS Privacy Impact Assessment (PIA) Summary: Accommodation Survey",
+          "conversion": "markdownify",
+          "text_sha256": "8d9d01fff6034f1e4408dbcd2ec895b99ec5bc9e4046423a34ad9e4fbb72318e",
+          "word_count": 381
+        },
+        "fr": {
+          "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-accommodation-survey-fra.aspx",
+          "title_from_list": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Sondage sur l'accommodation",
+          "kind": "page",
+          "discovery_method": "document_language_link",
+          "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+          "discovered_under": null,
+          "discovery_references": [
+            {
+              "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-accommodation-survey-fra.aspx",
+              "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Sondage sur l'accommodation",
+              "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+              "discovery_method": "document_language_link"
+            }
+          ],
+          "aliases": [
+            "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-accommodation-survey-fra.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-accommodation-survey-fra.aspx",
+            "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-accommodation-survey-fra.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:43:17.898500+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 33474,
+            "sha256": "7f952bfc5e05d40cc179ab400b52343666bc3a163caad0e711f00dffa4d0816f"
+          },
+          "raw_path": "raw/194b4c07674def3510d0.html",
+          "markdown_path": "pia-2a3bd97148d5_fr.md",
+          "markdown_sha256": "d4faab560de6a8c69dc49fd4a5b13c78fcbf76b4a041a4367d806495d0ee3f73",
+          "status": "exported",
+          "page_title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Sondage sur l'accommodation",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-accommodation-survey-eng.aspx"
+          },
+          "date_modified": "2021-12-08",
+          "date_published": "2021-12-08",
+          "has_pia_text": true,
+          "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Sondage sur l'accommodation",
+          "conversion": "markdownify",
+          "text_sha256": "eb114333b657812983c06a8074b44501f34c1bd35855fa1595d469e6c53ac6e0",
+          "word_count": 405
+        }
+      }
+    },
+    {
+      "pia_id": "pia-139181fcebb6",
+      "title_en": "CSPS Privacy Impact Assessment (PIA) Summary: Client Services Environment",
+      "title_fr": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Environnement de service à la clientèle",
+      "url_en": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-client-services-environment-eng.aspx",
+      "url_fr": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-client-services-environment-fra.aspx",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-client-services-environment-eng.aspx",
+        "alternate_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-client-services-environment-fra.aspx"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-client-services-environment-eng.aspx",
+          "title_from_list": "CSPS Privacy Impact Assessment (PIA) Summary: Client Services Environment",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+          "discovered_under": "Completed Privacy Impact Assessments - Summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-client-services-environment-eng.aspx",
+              "title": "CSPS Privacy Impact Assessment (PIA) Summary: Client Services Environment",
+              "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-client-services-environment-eng.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-client-services-environment-eng.aspx",
+            "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-client-services-environment-eng.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:28.832582+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 33612,
+            "sha256": "549cff827cf95fd35510091395f7d944865fd2ddaa498612823a1ae063e975d1"
+          },
+          "raw_path": "raw/139181fcebb61b0a6f90.html",
+          "markdown_path": "pia-139181fcebb6_en.md",
+          "markdown_sha256": "d548ddad2e80d736c5286887b03a80cc47223321ce3ce33d68a8e24bfa827437",
+          "status": "exported",
+          "page_title": "CSPS Privacy Impact Assessment (PIA) Summary: Client Services Environment",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-client-services-environment-fra.aspx"
+          },
+          "date_modified": "2022-05-06",
+          "date_published": "2022-05-06",
+          "has_pia_text": true,
+          "title": "CSPS Privacy Impact Assessment (PIA) Summary: Client Services Environment",
+          "conversion": "markdownify",
+          "text_sha256": "b9463fcfefbb2c44340bfe215918ad19d8fd4f91ed863dff331f61c0818de40c",
+          "word_count": 605
+        },
+        "fr": {
+          "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-client-services-environment-fra.aspx",
+          "title_from_list": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Environnement de service à la clientèle",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-fra.aspx",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée terminées : résumés",
+          "discovery_references": [
+            {
+              "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-client-services-environment-fra.aspx",
+              "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Environnement de service à la clientèle",
+              "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-fra.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-client-services-environment-fra.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-client-services-environment-fra.aspx",
+            "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-client-services-environment-fra.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:28.904350+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 35381,
+            "sha256": "fff80fd06ee7f4f8b76c2b9adbabc856ab206c1ee081b73030a978b4c9ccdf6a"
+          },
+          "raw_path": "raw/5f141fcd4be75daba3e3.html",
+          "markdown_path": "pia-139181fcebb6_fr.md",
+          "markdown_sha256": "a5f2918ec4879040751806480a969be46722a0f4df1da7e4643c2dbc87b9769f",
+          "status": "exported",
+          "page_title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Environnement de service à la clientèle",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-client-services-environment-eng.aspx"
+          },
+          "date_modified": "2022-05-06",
+          "date_published": "2022-05-06",
+          "has_pia_text": true,
+          "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Environnement de service à la clientèle",
+          "conversion": "markdownify",
+          "text_sha256": "2c0d6a380c267e60e3140213c9695f322b4cdb22ab226b2b1d166ae493357d8b",
+          "word_count": 689
+        }
+      }
+    },
+    {
+      "pia_id": "pia-bc593a1c42de",
+      "title_en": "CSPS Privacy Impact Assessment (PIA) Summary: Brightspace – Power BI Reporting Tool",
+      "title_fr": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Brightspace – Outil d'établissement de rapports Power BI",
+      "url_en": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-brightspace-power-bi-eng.aspx",
+      "url_fr": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-brightspace-power-bi-fra.aspx",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-brightspace-power-bi-eng.aspx",
+        "alternate_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-brightspace-power-bi-fra.aspx"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-brightspace-power-bi-eng.aspx",
+          "title_from_list": "CSPS Privacy Impact Assessment (PIA) Summary: Brightspace - Power BI Reporting Tool",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+          "discovered_under": "Completed Privacy Impact Assessments - Summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-brightspace-power-bi-eng.aspx",
+              "title": "CSPS Privacy Impact Assessment (PIA) Summary: Brightspace - Power BI Reporting Tool",
+              "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-brightspace-power-bi-eng.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-brightspace-power-bi-eng.aspx",
+            "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-brightspace-power-bi-eng.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:28.532926+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 42364,
+            "sha256": "7b5f41fd70b0143b0f5c039adf666dacb13d50b1eea9dacd9c900a0bf0b33d97"
+          },
+          "raw_path": "raw/bc593a1c42deda634a4d.html",
+          "markdown_path": "pia-bc593a1c42de_en.md",
+          "markdown_sha256": "9bff496f7f3f71deddb12a806d6605b0db974a13c8ba01663f371565d3eb2346",
+          "status": "exported",
+          "page_title": "CSPS Privacy Impact Assessment (PIA) Summary: Brightspace – Power BI Reporting Tool",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-brightspace-power-bi-fra.aspx"
+          },
+          "date_modified": "2023-11-16",
+          "date_published": "2023-10-03",
+          "has_pia_text": true,
+          "title": "CSPS Privacy Impact Assessment (PIA) Summary: Brightspace – Power BI Reporting Tool",
+          "conversion": "markdownify",
+          "text_sha256": "b8639ed5f31d15a000cda24c898c60911fadcb921c22bdfef536de9732284bcd",
+          "word_count": 1534
+        },
+        "fr": {
+          "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-brightspace-power-bi-fra.aspx",
+          "title_from_list": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Brightspace - Outil d'établissement de rapports Power BI",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-fra.aspx",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée terminées : résumés",
+          "discovery_references": [
+            {
+              "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-brightspace-power-bi-fra.aspx",
+              "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Brightspace - Outil d'établissement de rapports Power BI",
+              "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-fra.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-brightspace-power-bi-fra.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-brightspace-power-bi-fra.aspx",
+            "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-brightspace-power-bi-fra.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:28.764133+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 45516,
+            "sha256": "1b8de748aaad61b4f22f98a636280be3d3faeffc6d2cd984c4511ed18cd7d793"
+          },
+          "raw_path": "raw/33398c3fe0fee02efd5f.html",
+          "markdown_path": "pia-bc593a1c42de_fr.md",
+          "markdown_sha256": "288ec745ee3146706564edbb352da35efad601a60107b96b8c0bdb3d5e0b7b39",
+          "status": "exported",
+          "page_title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Brightspace – Outil d'établissement de rapports Power BI",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-brightspace-power-bi-eng.aspx"
+          },
+          "date_modified": "2023-11-16",
+          "date_published": "2023-10-03",
+          "has_pia_text": true,
+          "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Brightspace – Outil d'établissement de rapports Power BI",
+          "conversion": "markdownify",
+          "text_sha256": "21505ed2ddb97106bef004ef78535f8f6e2bf6f2853cce4dd0aa3f5157f62262",
+          "word_count": 1807
+        }
+      }
+    },
+    {
+      "pia_id": "pia-247974d0cb62",
+      "title_en": "CSPS Privacy Impact Assessment (PIA) Summary: InStage",
+      "title_fr": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : InStage",
+      "url_en": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-instage-eng.aspx",
+      "url_fr": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-instage-fra.aspx",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-instage-eng.aspx",
+        "alternate_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-instage-fra.aspx"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-instage-eng.aspx",
+          "title_from_list": "CSPS Privacy Impact Assessment (PIA) Summary: InStage",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+          "discovered_under": "Completed Privacy Impact Assessments - Summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-instage-eng.aspx",
+              "title": "CSPS Privacy Impact Assessment (PIA) Summary: InStage",
+              "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-instage-eng.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-instage-eng.aspx",
+            "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-instage-eng.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:29.103046+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 33084,
+            "sha256": "bc37266d02927a36e56ee942592532ec9295d2935c1dcaac28af8af0bb30d342"
+          },
+          "raw_path": "raw/247974d0cb62559f2691.html",
+          "markdown_path": "pia-247974d0cb62_en.md",
+          "markdown_sha256": "1bd1ab6e601e3c8aa81ed27baa44bd25db2c120bf555c853bc0c42cc1901694b",
+          "status": "exported",
+          "page_title": "CSPS Privacy Impact Assessment (PIA) Summary: InStage",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-instage-fra.aspx"
+          },
+          "date_modified": "2022-05-06",
+          "date_published": "2022-05-06",
+          "has_pia_text": true,
+          "title": "CSPS Privacy Impact Assessment (PIA) Summary: InStage",
+          "conversion": "markdownify",
+          "text_sha256": "b90ae8be7cc188b3c552106b66fb9dddafc072c28b92441ca97ed5d1963514d5",
+          "word_count": 545
+        },
+        "fr": {
+          "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-instage-fra.aspx",
+          "title_from_list": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : InStage",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-fra.aspx",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée terminées : résumés",
+          "discovery_references": [
+            {
+              "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-instage-fra.aspx",
+              "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : InStage",
+              "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-fra.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-instage-fra.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-instage-fra.aspx",
+            "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-instage-fra.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:29.140518+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 34741,
+            "sha256": "e09d9077e5a89384423618648a044129e5671adb3209cdd203bd980bb3186d17"
+          },
+          "raw_path": "raw/ba70eaad242ef402557e.html",
+          "markdown_path": "pia-247974d0cb62_fr.md",
+          "markdown_sha256": "543a1510773b7af9eb7782e4e19b627850f38a2f781cd820f19e38af8f17a333",
+          "status": "exported",
+          "page_title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : InStage",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-instage-eng.aspx"
+          },
+          "date_modified": "2022-05-06",
+          "date_published": "2022-05-06",
+          "has_pia_text": true,
+          "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : InStage",
+          "conversion": "markdownify",
+          "text_sha256": "94e847499a0055cbce5dbef3edc9d9aa5511a74a2fa21715f1e6d9e9d8e59878",
+          "word_count": 583
+        }
+      }
+    },
+    {
+      "pia_id": "pia-006bcb76cbe8",
+      "title_en": "CSPS Privacy Impact Assessment (PIA) Summary: Learning Management System (Brightspace) and Data Warehouse Solution",
+      "title_fr": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Programme de Système de gestion de l'apprentissage (Brightspace) et solution d'entrepôt de données",
+      "url_en": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-brightspace-data-eng.aspx",
+      "url_fr": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-brightspace-data-fra.aspx",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-brightspace-data-eng.aspx",
+        "alternate_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-brightspace-data-fra.aspx"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-brightspace-data-eng.aspx",
+          "title_from_list": "CSPS Privacy Impact Assessment (PIA) Summary: Learning Management System (Brightspace) and Data Warehouse Solution",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+          "discovered_under": "Completed Privacy Impact Assessments - Summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-brightspace-data-eng.aspx",
+              "title": "CSPS Privacy Impact Assessment (PIA) Summary: Learning Management System (Brightspace) and Data Warehouse Solution",
+              "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-brightspace-data-eng.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-brightspace-data-eng.aspx",
+            "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-brightspace-data-eng.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:28.448045+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 34800,
+            "sha256": "96bd1a1a3c96fe9227003c034b717da9a84d4d6a07966de29a8d5b5f3a8c26a0"
+          },
+          "raw_path": "raw/006bcb76cbe83f70b3a3.html",
+          "markdown_path": "pia-006bcb76cbe8_en.md",
+          "markdown_sha256": "80ffc1ef07af64ce8272f02be594aaa83153f0b6b3ab683a67288fcf77486623",
+          "status": "exported",
+          "page_title": "CSPS Privacy Impact Assessment (PIA) Summary: Learning Management System (Brightspace) and Data Warehouse Solution",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-brightspace-data-fra.aspx"
+          },
+          "date_modified": "2022-06-08",
+          "date_published": "2022-06-08",
+          "has_pia_text": true,
+          "title": "CSPS Privacy Impact Assessment (PIA) Summary: Learning Management System (Brightspace) and Data Warehouse Solution",
+          "conversion": "markdownify",
+          "text_sha256": "91a118f60b918c42c50da9fff881a9a2e9c35667b38ba89c9d287531e8da53ea",
+          "word_count": 659
+        },
+        "fr": {
+          "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-brightspace-data-fra.aspx",
+          "title_from_list": "Résumé de l'évaluation de l'impact sur la vie privée (ERVP) de l'EFPC : Programme de Système de gestion de l'apprentissage (Brightspace) et solution d'entrepôt de données",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-fra.aspx",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée terminées : résumés",
+          "discovery_references": [
+            {
+              "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-brightspace-data-fra.aspx",
+              "title": "Résumé de l'évaluation de l'impact sur la vie privée (ERVP) de l'EFPC : Programme de Système de gestion de l'apprentissage (Brightspace) et solution d'entrepôt de données",
+              "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-fra.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-brightspace-data-fra.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-brightspace-data-fra.aspx",
+            "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-brightspace-data-fra.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:28.475322+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 36876,
+            "sha256": "e6988dcc276ab31060eb1b7f2725390e00ee08d5b6abceb4cb627f4855d98be4"
+          },
+          "raw_path": "raw/87d277e32b13fd96b966.html",
+          "markdown_path": "pia-006bcb76cbe8_fr.md",
+          "markdown_sha256": "aabefab6bbcbce0dace1f78cbf082782ac9ab10fc02f52242aeabf604e73c335",
+          "status": "exported",
+          "page_title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Programme de Système de gestion de l'apprentissage (Brightspace) et solution d'entrepôt de données",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-brightspace-data-eng.aspx"
+          },
+          "date_modified": "2022-06-08",
+          "date_published": "2022-06-08",
+          "has_pia_text": true,
+          "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Programme de Système de gestion de l'apprentissage (Brightspace) et solution d'entrepôt de données",
+          "conversion": "markdownify",
+          "text_sha256": "2fca367b7fff2d2b90e970d24c23e7861f52f076e38def9c72b426c767bbea1c",
+          "word_count": 755
+        }
+      }
+    },
+    {
+      "pia_id": "pia-af47dfa56b50",
+      "title_en": "CSPS Privacy Impact Assessment (PIA) Summary: Mentorship Plus Program",
+      "title_fr": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Programme de Mentorat Plus",
+      "url_en": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-mentorship-plus-eng.aspx",
+      "url_fr": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-mentorship-plus-fra.aspx",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-mentorship-plus-eng.aspx",
+        "alternate_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-mentorship-plus-fra.aspx"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-mentorship-plus-eng.aspx",
+          "title_from_list": "CSPS Privacy Impact Assessment (PIA) Summary: Mentorship Plus Program",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+          "discovered_under": "Completed Privacy Impact Assessments - Summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-mentorship-plus-eng.aspx",
+              "title": "CSPS Privacy Impact Assessment (PIA) Summary: Mentorship Plus Program",
+              "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-mentorship-plus-eng.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-mentorship-plus-eng.aspx",
+            "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-mentorship-plus-eng.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:29.282960+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 32919,
+            "sha256": "3e470682dc6bf1c2410178133cada389ddd0f1e6013364c0d39de843b9d1537b"
+          },
+          "raw_path": "raw/af47dfa56b50e30fea62.html",
+          "markdown_path": "pia-af47dfa56b50_en.md",
+          "markdown_sha256": "b67688f603ffc05550748d0e6e0df69daa7cfd38fbf3b6568947d1e07391e97e",
+          "status": "exported",
+          "page_title": "CSPS Privacy Impact Assessment (PIA) Summary: Mentorship Plus Program",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-mentorship-plus-fra.aspx"
+          },
+          "date_modified": "2022-06-08",
+          "date_published": "2022-06-08",
+          "has_pia_text": true,
+          "title": "CSPS Privacy Impact Assessment (PIA) Summary: Mentorship Plus Program",
+          "conversion": "markdownify",
+          "text_sha256": "b5d305cea5f8975207cf1bf9d3cbae487e784b1b4ccddab56f4b05efaeac1036",
+          "word_count": 538
+        },
+        "fr": {
+          "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-mentorship-plus-fra.aspx",
+          "title_from_list": "Résumé de l'évaluation de l'impact sur la vie privée (ERVP) de l'EFPC : Programme de Mentorat Plus",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-fra.aspx",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée terminées : résumés",
+          "discovery_references": [
+            {
+              "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-mentorship-plus-fra.aspx",
+              "title": "Résumé de l'évaluation de l'impact sur la vie privée (ERVP) de l'EFPC : Programme de Mentorat Plus",
+              "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-fra.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-mentorship-plus-fra.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-mentorship-plus-fra.aspx",
+            "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-mentorship-plus-fra.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:29.312664+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 34476,
+            "sha256": "676cd0a6177695765816919201e278616ce4d59ad5617180b17156591318d8ee"
+          },
+          "raw_path": "raw/baeb6414b043853f061a.html",
+          "markdown_path": "pia-af47dfa56b50_fr.md",
+          "markdown_sha256": "44b62f4b914ee3ede0b7b8629c32b57f6f782e534a100c608f38b4b7e8e2a7a3",
+          "status": "exported",
+          "page_title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Programme de Mentorat Plus",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-mentorship-plus-eng.aspx"
+          },
+          "date_modified": "2022-06-08",
+          "date_published": "2022-06-08",
+          "has_pia_text": true,
+          "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Programme de Mentorat Plus",
+          "conversion": "markdownify",
+          "text_sha256": "0c7cbfa79900185fb880a47c74abd6d7782bd53cefd5e6367ef3128b4382faec",
+          "word_count": 583
+        }
+      }
+    },
+    {
+      "pia_id": "pia-76fec646c9eb",
+      "title_en": "CSPS Privacy Impact Assessment (PIA) Summary: Microsoft Azure",
+      "title_fr": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Microsoft Azure",
+      "url_en": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-azure-eng.aspx",
+      "url_fr": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-azure-fra.aspx",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-azure-eng.aspx",
+        "alternate_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-azure-fra.aspx"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-azure-eng.aspx",
+          "title_from_list": "CSPS Privacy Impact Assessment (PIA) Summary: Microsoft Azure",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+          "discovered_under": "Completed Privacy Impact Assessments - Summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-azure-eng.aspx",
+              "title": "CSPS Privacy Impact Assessment (PIA) Summary: Microsoft Azure",
+              "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-azure-eng.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-azure-eng.aspx",
+            "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-azure-eng.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:28.254245+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 39319,
+            "sha256": "0dee0f574ef9e60383919657f930514f00d4ef1c8dc3e5142eaa58407044519d"
+          },
+          "raw_path": "raw/76fec646c9eba6e3e6f7.html",
+          "markdown_path": "pia-76fec646c9eb_en.md",
+          "markdown_sha256": "376c8caaf9cf429a0e575b3b7716cb46773b085a6d35c9e2adb579cd7b54b759",
+          "status": "exported",
+          "page_title": "CSPS Privacy Impact Assessment (PIA) Summary: Microsoft Azure",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-azure-fra.aspx"
+          },
+          "date_modified": "2023-12-08",
+          "date_published": "2023-12-08",
+          "has_pia_text": true,
+          "title": "CSPS Privacy Impact Assessment (PIA) Summary: Microsoft Azure",
+          "conversion": "markdownify",
+          "text_sha256": "9c2fc59918f8f430d41a6adc5b48a954168cdc9735ad8211f1bcee976c0d12de",
+          "word_count": 1002
+        },
+        "fr": {
+          "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-azure-fra.aspx",
+          "title_from_list": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Microsoft Azure",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-fra.aspx",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée terminées : résumés",
+          "discovery_references": [
+            {
+              "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-azure-fra.aspx",
+              "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Microsoft Azure",
+              "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-fra.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-azure-fra.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-azure-fra.aspx",
+            "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-azure-fra.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:28.405581+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 41327,
+            "sha256": "d641ea6a754f7d4f673425171530efa26d741b25742fac8a9f1955606d4cacf5"
+          },
+          "raw_path": "raw/ab9646e9c00c56e83b02.html",
+          "markdown_path": "pia-76fec646c9eb_fr.md",
+          "markdown_sha256": "867d6dce27ddadd519717c7fb6c521560d65f7a7b8d3960a7b66632f574fb2c7",
+          "status": "exported",
+          "page_title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Microsoft Azure",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-azure-eng.aspx"
+          },
+          "date_modified": "2023-12-08",
+          "date_published": "2023-12-08",
+          "has_pia_text": true,
+          "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Microsoft Azure",
+          "conversion": "markdownify",
+          "text_sha256": "521e3a26be472aafc5ba9dac15ad9b40d35b47ea95d7cf00455c1ed1abe1dd7a",
+          "word_count": 1114
+        }
+      }
+    },
+    {
+      "pia_id": "pia-5f254a259d54",
+      "title_en": "CSPS Privacy Impact Assessment (PIA) Summary: Microsoft Office 365",
+      "title_fr": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Microsoft Office 365",
+      "url_en": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-microsoft-office365-eng.aspx",
+      "url_fr": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-microsoft-office365-fra.aspx",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-microsoft-office365-eng.aspx",
+        "alternate_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-microsoft-office365-fra.aspx"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-microsoft-office365-eng.aspx",
+          "title_from_list": "CSPS Privacy Impact Assessment (PIA) Summary: Microsoft Office 365",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+          "discovered_under": "Completed Privacy Impact Assessments - Summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-microsoft-office365-eng.aspx",
+              "title": "CSPS Privacy Impact Assessment (PIA) Summary: Microsoft Office 365",
+              "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-microsoft-office365-eng.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-microsoft-office365-eng.aspx",
+            "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-microsoft-office365-eng.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:29.320044+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 32336,
+            "sha256": "a8811a785c1f164f8d3548ba0c0e76fb90d1a14d535f0aaaa1f4333b6b0a84ee"
+          },
+          "raw_path": "raw/5f254a259d545d785b0c.html",
+          "markdown_path": "pia-5f254a259d54_en.md",
+          "markdown_sha256": "84131b112d98637a0aa1de2714af13b3520e4224b7267e704bce7b7e1cf306e5",
+          "status": "exported",
+          "page_title": "CSPS Privacy Impact Assessment (PIA) Summary: Microsoft Office 365",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-microsoft-office365-fra.aspx"
+          },
+          "date_modified": "2021-12-08",
+          "date_published": "2021-12-08",
+          "has_pia_text": true,
+          "title": "CSPS Privacy Impact Assessment (PIA) Summary: Microsoft Office 365",
+          "conversion": "markdownify",
+          "text_sha256": "a927e3e013976e356db826fb26c1762f924810daa03898cefe6f5c4cc658253c",
+          "word_count": 458
+        },
+        "fr": {
+          "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-microsoft-office365-fra.aspx",
+          "title_from_list": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Microsoft Office 365",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-fra.aspx",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée terminées : résumés",
+          "discovery_references": [
+            {
+              "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-microsoft-office365-fra.aspx",
+              "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Microsoft Office 365",
+              "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-fra.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-microsoft-office365-fra.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-microsoft-office365-fra.aspx",
+            "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-microsoft-office365-fra.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:29.342733+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 33737,
+            "sha256": "949300f81f06eb4a159fd953f9b9d755679ed900d3a0d372992caeb7deac2502"
+          },
+          "raw_path": "raw/977f77262a5bc839990f.html",
+          "markdown_path": "pia-5f254a259d54_fr.md",
+          "markdown_sha256": "e28a86247bae606cd333caa4bcdd45ab50df7c95470c96b0d15bda57d13ebc22",
+          "status": "exported",
+          "page_title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Microsoft Office 365",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-microsoft-office365-eng.aspx"
+          },
+          "date_modified": "2021-12-08",
+          "date_published": "2021-12-08",
+          "has_pia_text": true,
+          "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Microsoft Office 365",
+          "conversion": "markdownify",
+          "text_sha256": "a51fbfc550d9bf60a52946529de326e1514a572c59f0a428677fcc69a061b994",
+          "word_count": 474
+        }
+      }
+    },
+    {
+      "pia_id": "pia-45eac2cc2d7b",
+      "title_en": "CSPS Privacy Impact Assessment (PIA) Summary: Microsoft 365 and ThinkOn Compass Data Protect for M365",
+      "title_fr": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Microsoft 365 et ThinkOn Compass Data Protect pour M365",
+      "url_en": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-microsoft-office365-thinkon-eng.aspx",
+      "url_fr": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-microsoft-office365-thinkon-fra.aspx",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-microsoft-office365-thinkon-eng.aspx",
+        "alternate_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-microsoft-office365-thinkon-fra.aspx"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-microsoft-office365-thinkon-eng.aspx",
+          "title_from_list": "CSPS Privacy Impact Assessment (PIA) Summary: Microsoft 365 and ThinkOn Compass Data Protect for M365",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+          "discovered_under": "Completed Privacy Impact Assessments - Summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-microsoft-office365-thinkon-eng.aspx",
+              "title": "CSPS Privacy Impact Assessment (PIA) Summary: Microsoft 365 and ThinkOn Compass Data Protect for M365",
+              "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-microsoft-office365-thinkon-eng.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-microsoft-office365-thinkon-eng.aspx",
+            "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-microsoft-office365-thinkon-eng.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:29.350260+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 42374,
+            "sha256": "c5a85671f6e9d32845353569b31e96721b8a101a6012a41f29efa704e5827881"
+          },
+          "raw_path": "raw/45eac2cc2d7bece1b989.html",
+          "markdown_path": "pia-45eac2cc2d7b_en.md",
+          "markdown_sha256": "306287fcdc9bc87ffea3884e0fdf5a7bc666787d4e3984e1a1b110e5dfb9ccca",
+          "status": "exported",
+          "page_title": "CSPS Privacy Impact Assessment (PIA) Summary: Microsoft 365 and ThinkOn Compass Data Protect for M365",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-microsoft-office365-thinkon-fra.aspx"
+          },
+          "date_modified": "2023-11-16",
+          "date_published": "2023-10-03",
+          "has_pia_text": true,
+          "title": "CSPS Privacy Impact Assessment (PIA) Summary: Microsoft 365 and ThinkOn Compass Data Protect for M365",
+          "conversion": "markdownify",
+          "text_sha256": "7a9b3bb7209a7c700b6e18a14175068edeb3c45a90bb90fa7a9035cbb6d30ce6",
+          "word_count": 1237
+        },
+        "fr": {
+          "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-microsoft-office365-thinkon-fra.aspx",
+          "title_from_list": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Microsoft 365 et ThinkOn Compass Data Protect pour M365",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-fra.aspx",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée terminées : résumés",
+          "discovery_references": [
+            {
+              "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-microsoft-office365-thinkon-fra.aspx",
+              "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Microsoft 365 et ThinkOn Compass Data Protect pour M365",
+              "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-fra.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-microsoft-office365-thinkon-fra.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-microsoft-office365-thinkon-fra.aspx",
+            "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-microsoft-office365-thinkon-fra.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:29.384166+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 45592,
+            "sha256": "1d23fa6212da3ee4b399065d8e08335f5a51fedba643ba0edcb6c385c9d3b27f"
+          },
+          "raw_path": "raw/3a455e912554ea1361db.html",
+          "markdown_path": "pia-45eac2cc2d7b_fr.md",
+          "markdown_sha256": "b6c03eeb1cdb17c38788bf0cdbb741a1b35989a516a99e2d9f28d340ddce835f",
+          "status": "exported",
+          "page_title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Microsoft 365 et ThinkOn Compass Data Protect pour M365",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-microsoft-office365-thinkon-eng.aspx"
+          },
+          "date_modified": "2023-11-16",
+          "date_published": "2023-10-03",
+          "has_pia_text": true,
+          "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Microsoft 365 et ThinkOn Compass Data Protect pour M365",
+          "conversion": "markdownify",
+          "text_sha256": "4d2b30d8137f68287250366b88563a6416bac46b40e665b8ef5e750fd9f6554a",
+          "word_count": 1408
+        }
+      }
+    },
+    {
+      "pia_id": "pia-018d2a9f7f66",
+      "title_en": "CSPS Privacy Impact Assessment (PIA) Summary: Public Service Learning, Training and Development Activities",
+      "title_fr": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Activités d'apprentissage, de formation et de perfectionnement de la fonction publique",
+      "url_en": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-learning-activities-eng.aspx",
+      "url_fr": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-learning-activities-fra.aspx",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-learning-activities-eng.aspx",
+        "alternate_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-learning-activities-fra.aspx"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-learning-activities-eng.aspx",
+          "title_from_list": "CSPS Privacy Impact Assessment (PIA) Summary: Public Service Learning, Training and Development Activities",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+          "discovered_under": "Completed Privacy Impact Assessments - Summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-learning-activities-eng.aspx",
+              "title": "CSPS Privacy Impact Assessment (PIA) Summary: Public Service Learning, Training and Development Activities",
+              "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-learning-activities-eng.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-learning-activities-eng.aspx",
+            "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-learning-activities-eng.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:29.183176+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 35354,
+            "sha256": "7f26d63b8562747efcfc9d5c6fade6b5fa100278b8a6fb729000eb9499c1346a"
+          },
+          "raw_path": "raw/018d2a9f7f66208101c2.html",
+          "markdown_path": "pia-018d2a9f7f66_en.md",
+          "markdown_sha256": "cc47c8bc88ec9854c25f5d44ebbc158f0f72ff1b7c2be1c379214748aa41d50a",
+          "status": "exported",
+          "page_title": "CSPS Privacy Impact Assessment (PIA) Summary: Public Service Learning, Training and Development Activities",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-learning-activities-fra.aspx"
+          },
+          "date_modified": "2026-07-07",
+          "date_published": "2026-07-07",
+          "has_pia_text": true,
+          "title": "CSPS Privacy Impact Assessment (PIA) Summary: Public Service Learning, Training and Development Activities",
+          "conversion": "markdownify",
+          "text_sha256": "f60d8842f2e7cae89ab2ca1b579fc37a349e6deb7e92df7693e19077aa7b4690",
+          "word_count": 663
+        },
+        "fr": {
+          "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-learning-activities-fra.aspx",
+          "title_from_list": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Activités d'apprentissage, de formation et de perfectionnement de la fonction publique",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-fra.aspx",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée terminées : résumés",
+          "discovery_references": [
+            {
+              "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-learning-activities-fra.aspx",
+              "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Activités d'apprentissage, de formation et de perfectionnement de la fonction publique",
+              "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-fra.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-learning-activities-fra.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-learning-activities-fra.aspx",
+            "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-learning-activities-fra.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:29.223238+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 38358,
+            "sha256": "72e02c5febb3961f66f7174f5c8792bf2e29649e6e2acfa03bac6fd08207e81b"
+          },
+          "raw_path": "raw/4a43dfdd43795c283c1c.html",
+          "markdown_path": "pia-018d2a9f7f66_fr.md",
+          "markdown_sha256": "3aaf0222944cc56aa365f8b1d69d6b38471d48683745a9dfb6f1cc3efd9fed55",
+          "status": "exported",
+          "page_title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Activités d'apprentissage, de formation et de perfectionnement de la fonction publique",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-learning-activities-eng.aspx"
+          },
+          "date_modified": "2026-07-07",
+          "date_published": "2026-07-07",
+          "has_pia_text": true,
+          "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Activités d'apprentissage, de formation et de perfectionnement de la fonction publique",
+          "conversion": "markdownify",
+          "text_sha256": "6036b8e0c5f2f7c165270597096fa4feb2f7df3ac7a28ac3e8f647c16ea59b78",
+          "word_count": 920
+        }
+      }
+    },
+    {
+      "pia_id": "pia-4893994c1401",
+      "title_en": "CSPS Privacy Impact Assessment (PIA) Summary: Qualtrics and NextGen Data Warehouse",
+      "title_fr": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Qualtrics et l'entrepôt de données prochaine génération",
+      "url_en": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-qualtrics-next-gen-eng.aspx",
+      "url_fr": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-qualtrics-next-gen-fra.aspx",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-qualtrics-next-gen-eng.aspx",
+        "alternate_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-qualtrics-next-gen-fra.aspx"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-qualtrics-next-gen-eng.aspx",
+          "title_from_list": "CSPS Privacy Impact Assessment (PIA) Summary: Qualtrics and NextGen Data Warehouse",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+          "discovered_under": "Completed Privacy Impact Assessments - Summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-qualtrics-next-gen-eng.aspx",
+              "title": "CSPS Privacy Impact Assessment (PIA) Summary: Qualtrics and NextGen Data Warehouse",
+              "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-qualtrics-next-gen-eng.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-qualtrics-next-gen-eng.aspx",
+            "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-qualtrics-next-gen-eng.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:29.446985+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 33524,
+            "sha256": "0ea0d78f9f08909127ec0607e95788cab03b77ba4779f787c66f9396f96abbc2"
+          },
+          "raw_path": "raw/4893994c14017081f0f2.html",
+          "markdown_path": "pia-4893994c1401_en.md",
+          "markdown_sha256": "7113f6ad9956af24261c847b74abb67baf8d9b294d0768a43310aaec57d61214",
+          "status": "exported",
+          "page_title": "CSPS Privacy Impact Assessment (PIA) Summary: Qualtrics and NextGen Data Warehouse",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-qualtrics-next-gen-fra.aspx"
+          },
+          "date_modified": "2022-06-08",
+          "date_published": "2022-06-08",
+          "has_pia_text": true,
+          "title": "CSPS Privacy Impact Assessment (PIA) Summary: Qualtrics and NextGen Data Warehouse",
+          "conversion": "markdownify",
+          "text_sha256": "f778e81a15e5aa5a9770a0fab5f094060a83c169b87aeb3ee58c047a56b006ec",
+          "word_count": 495
+        },
+        "fr": {
+          "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-qualtrics-next-gen-fra.aspx",
+          "title_from_list": "Résumé de l'évaluation de l'impact sur la vie privée (ERVP) de l'EFPC : Qualtrics et l'entrepôt de données prochaine génération",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-fra.aspx",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée terminées : résumés",
+          "discovery_references": [
+            {
+              "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-qualtrics-next-gen-fra.aspx",
+              "title": "Résumé de l'évaluation de l'impact sur la vie privée (ERVP) de l'EFPC : Qualtrics et l'entrepôt de données prochaine génération",
+              "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-fra.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-qualtrics-next-gen-fra.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-qualtrics-next-gen-fra.aspx",
+            "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-qualtrics-next-gen-fra.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:29.507819+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 35393,
+            "sha256": "5f3f0036545d586a88463d9a221b2bb272895a88324a7777cb1b57784ff01b74"
+          },
+          "raw_path": "raw/5c0e7f07b19b9f1d51a3.html",
+          "markdown_path": "pia-4893994c1401_fr.md",
+          "markdown_sha256": "ccf8d5dae7d2cfc2a7273c4ac9dc9570f0662e549ab975dabe3efc0e11b46063",
+          "status": "exported",
+          "page_title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Qualtrics et l'entrepôt de données prochaine génération",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-qualtrics-next-gen-eng.aspx"
+          },
+          "date_modified": "2022-06-08",
+          "date_published": "2022-06-08",
+          "has_pia_text": true,
+          "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Qualtrics et l'entrepôt de données prochaine génération",
+          "conversion": "markdownify",
+          "text_sha256": "3d26f3585594ec4607b3707d44240725e80a2a8189fec074876d0f896f550388",
+          "word_count": 602
+        }
+      }
+    },
+    {
+      "pia_id": "pia-da19d58ef106",
+      "title_en": "CSPS Privacy Impact Assessment (PIA) Summary: Telework Agreement Digital Platform",
+      "title_fr": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Plateforme numérique de l'accord de télétravail",
+      "url_en": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-telework-agreement-eng.aspx",
+      "url_fr": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-telework-agreement-fra.aspx",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-telework-agreement-eng.aspx",
+        "alternate_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-telework-agreement-fra.aspx"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-telework-agreement-eng.aspx",
+          "title_from_list": "CSPS Privacy Impact Assessment (PIA) Summary: Telework Agreement Digital Platform",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+          "discovered_under": "Completed Privacy Impact Assessments - Summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-telework-agreement-eng.aspx",
+              "title": "CSPS Privacy Impact Assessment (PIA) Summary: Telework Agreement Digital Platform",
+              "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-eng.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-telework-agreement-eng.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-telework-agreement-eng.aspx",
+            "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-telework-agreement-eng.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:29.563302+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 32564,
+            "sha256": "a57a8bf7c18427dce18669c637e9f9b975d21b9b43d8bb0342b240e358cb2cd5"
+          },
+          "raw_path": "raw/da19d58ef1067364a994.html",
+          "markdown_path": "pia-da19d58ef106_en.md",
+          "markdown_sha256": "7d1645fe970b378c1295780fde1bf9b41354cd8a6f0c81009b463d8499793453",
+          "status": "exported",
+          "page_title": "CSPS Privacy Impact Assessment (PIA) Summary: Telework Agreement Digital Platform",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-telework-agreement-fra.aspx"
+          },
+          "date_modified": "2023-01-13",
+          "date_published": "2023-01-13",
+          "has_pia_text": true,
+          "title": "CSPS Privacy Impact Assessment (PIA) Summary: Telework Agreement Digital Platform",
+          "conversion": "markdownify",
+          "text_sha256": "796577937dba51f297232f4adca76a02d234bed7f88eeb70e7f630be24140ad8",
+          "word_count": 454
+        },
+        "fr": {
+          "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-telework-agreement-fra.aspx",
+          "title_from_list": "Résumé de l'évaluation de l'impact sur la vie privée (ERVP) de l'EFPC : Plateforme numérique de l'accord de télétravail",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-fra.aspx",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée terminées : résumés",
+          "discovery_references": [
+            {
+              "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-telework-agreement-fra.aspx",
+              "title": "Résumé de l'évaluation de l'impact sur la vie privée (ERVP) de l'EFPC : Plateforme numérique de l'accord de télétravail",
+              "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-fra.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-telework-agreement-fra.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-telework-agreement-fra.aspx",
+            "final_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-telework-agreement-fra.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:29.565057+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 34141,
+            "sha256": "dcd1d59fcc94799bae1a6e210000c98fe2f0e143c11a56335a4470458cfc7e4c"
+          },
+          "raw_path": "raw/5d496b7fcd8ecf971ce2.html",
+          "markdown_path": "pia-da19d58ef106_fr.md",
+          "markdown_sha256": "38c8acb13075ba562313ddc30cdcf9740edc218ada57f693887fe221ed1ba44b",
+          "status": "exported",
+          "page_title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Plateforme numérique de l'accord de télétravail",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-telework-agreement-eng.aspx"
+          },
+          "date_modified": "2023-01-13",
+          "date_published": "2023-01-13",
+          "has_pia_text": true,
+          "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Plateforme numérique de l'accord de télétravail",
+          "conversion": "markdownify",
+          "text_sha256": "99560d1ca8eeccd5870fd49c9099727948721e6ca77c38cbe6fedcf309e5204e",
+          "word_count": 492
+        }
+      }
+    },
+    {
+      "pia_id": "pia-6ee520cd099e",
+      "title_en": null,
+      "title_fr": "Errors / Erreur",
+      "url_en": null,
+      "url_fr": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-marketing-comm-fra.aspx",
+      "pairing_status": "missing_counterpart",
+      "pairing_method": "unpaired",
+      "pairing_evidence": null,
+      "sources": {
+        "fr": {
+          "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-marketing-comm-fra.aspx",
+          "title_from_list": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Services de marketing et de communication",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-fra.aspx",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée terminées : résumés",
+          "discovery_references": [
+            {
+              "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-marketing-comm-fra.aspx",
+              "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée (EFVP) de l'EFPC : Services de marketing et de communication",
+              "list_url": "https://www.csps-efpc.gc.ca/transparency/completedaccessinformationrequests/index-fra.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-marketing-comm-fra.aspx",
+            "https://www.csps-efpc.gc.ca/error/default.aspx?aspxerrorpath=/about_us/currentreport/pia-marketing-comm-fra.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-marketing-comm-fra.aspx",
+            "final_url": "https://www.csps-efpc.gc.ca/error/default.aspx?aspxerrorpath=/about_us/currentreport/pia-marketing-comm-fra.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:29.247547+00:00",
+            "redirects": [
+              {
+                "url": "https://www.csps-efpc.gc.ca/about_us/currentreport/pia-marketing-comm-fra.aspx",
+                "http_status": 302,
+                "location": "https://www.csps-efpc.gc.ca/error/default.aspx?aspxerrorpath=/about_us/currentreport/pia-marketing-comm-fra.aspx"
+              }
+            ],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 11860,
+            "sha256": "fb548023653bf6e35c7e59fe6a866c60eec0ee840050d6d41d3e5634d2078b11"
+          },
+          "raw_path": "raw/6ee520cd099eee9f06bc.html",
+          "markdown_path": null,
+          "markdown_sha256": null,
+          "status": "soft_error_page",
+          "page_title": "Errors / Erreur",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.csps-efpc.gc.ca/error/default.aspx?aspxerrorpath=/about_us/currentreport/pia-marketing-comm-eng.aspx"
+          },
+          "date_modified": "2021-02-05",
+          "date_published": "2012-10-10",
+          "has_pia_text": false,
+          "title": "Errors / Erreur"
+        }
+      }
+    }
+  ],
+  "summary": {
+    "pia_count": 15,
+    "paired_count": 14,
+    "source_status_counts": {
+      "exported": 28,
+      "soft_error_page": 1
+    }
+  }
+}

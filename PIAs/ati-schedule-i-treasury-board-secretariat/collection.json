@@ -1,0 +1,1877 @@
+{
+  "schema_version": 1,
+  "collector_version": 1,
+  "collected_at_utc": "2026-11-12T01:50:47.313967+00:00",
+  "institution_id": "ati-schedule-i-treasury-board-secretariat",
+  "gc_orgID": "2242.0",
+  "open_canada_org_id": "81765FCD-32B3-4708-A593-3AA00705E62B",
+  "open_canada_org_slug": "tbs-sct",
+  "name_en": "Treasury Board Secretariat",
+  "name_fr": "Secrétariat du Conseil du Trésor",
+  "registry_membership": "current_registry",
+  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "list_pages": {
+    "en": {
+      "indexed_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+          "final_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:28.947098+00:00",
+          "redirects": [],
+          "content_type": "text/html;charset=utf-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Wed, 11 Nov 2026 22:41:04 GMT",
+          "etag": null,
+          "byte_count": 38328,
+          "sha256": "d612f5a9c00495059d348d3b9e893a578486c9065fc6b16a372c30cb7c04622d",
+          "raw_path": "raw/f17fc348e2f066eabd8e.html"
+        }
+      ],
+      "discovered_count": 16,
+      "scopes": [
+        "Privacy Impact Assessment summaries"
+      ],
+      "warnings": []
+    },
+    "fr": {
+      "indexed_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+          "final_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:29.211003+00:00",
+          "redirects": [],
+          "content_type": "text/html;charset=utf-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Thu, 12 Nov 2026 00:26:25 GMT",
+          "etag": null,
+          "byte_count": 43800,
+          "sha256": "a227bdcfa1d6db8e29a3493ca16d534f4e892df975d9bf73970b2172b2955ef1",
+          "raw_path": "raw/31fec1c5092dfafe5e2d.html"
+        }
+      ],
+      "discovered_count": 16,
+      "scopes": [
+        "Évaluations des facteurs relatifs à la vie Privée"
+      ],
+      "warnings": []
+    }
+  },
+  "pias": [
+    {
+      "pia_id": "pia-a4bf0b056f0e",
+      "title_en": "Privacy Impact Assessment for Self-Identification Modernization",
+      "title_fr": "Évaluation des facteurs relatifs à la vie privée (EFVP) pour la modernisation de l’auto identification",
+      "url_en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-self-identification-modernization.html",
+      "url_fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/evaluation-facteurs-vie-privee-modernisation-auto-identification.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-self-identification-modernization.html",
+        "alternate_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/evaluation-facteurs-vie-privee-modernisation-auto-identification.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-self-identification-modernization.html",
+          "title_from_list": "Privacy Impact Assessment for Self-Identification Modernization",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-self-identification-modernization.html",
+              "title": "Privacy Impact Assessment for Self-Identification Modernization",
+              "list_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-self-identification-modernization.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-self-identification-modernization.html",
+            "final_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-self-identification-modernization.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:18.910864+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:19 GMT",
+            "etag": null,
+            "byte_count": 29755,
+            "sha256": "f069c20a3d6cee9ddc3b7dc535b9ce6ec180d8fb661966c88b7aac0640541ddc"
+          },
+          "raw_path": "raw/a4bf0b056f0e94dce88b.html",
+          "markdown_path": "pia-a4bf0b056f0e_en.md",
+          "markdown_sha256": "cbae7fb190ff15d5cb066971444f6b050a11c9677fcd7e796a98e54fcd6e3046",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment for Self-Identification Modernization",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-self-identification-modernization.html",
+            "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/evaluation-facteurs-vie-privee-modernisation-auto-identification.html"
+          },
+          "date_modified": "2026-06-11",
+          "date_published": "2026-05-29",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment for Self-Identification Modernization",
+          "conversion": "markdownify",
+          "text_sha256": "e5a9f8991efbbb3fbc98de76cbbc8136014f8a73fc7bf41b31a633999cd72da6",
+          "word_count": 1365
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/evaluation-facteurs-vie-privee-modernisation-auto-identification.html",
+          "title_from_list": "Évaluation des facteurs relatifs à la vie privée (EFVP) pour la modernisation de l’auto identification",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie Privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/evaluation-facteurs-vie-privee-modernisation-auto-identification.html",
+              "title": "Évaluation des facteurs relatifs à la vie privée (EFVP) pour la modernisation de l’auto identification",
+              "list_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/evaluation-facteurs-vie-privee-modernisation-auto-identification.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/evaluation-facteurs-vie-privee-modernisation-auto-identification.html",
+            "final_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/evaluation-facteurs-vie-privee-modernisation-auto-identification.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:24.242615+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:24 GMT",
+            "etag": null,
+            "byte_count": 33571,
+            "sha256": "8cc7e3542ff70f965f6b4956a7c8c62fd2cbe74c2e9a13c972a7ae740998bb15"
+          },
+          "raw_path": "raw/d72cc535fa75192d7bc9.html",
+          "markdown_path": "pia-a4bf0b056f0e_fr.md",
+          "markdown_sha256": "8bd0dd941f5a4a2dc39c1cab6d17cfa17086339a0726b6e25f05e257958d62bd",
+          "status": "exported",
+          "page_title": "Évaluation des facteurs relatifs à la vie privée (EFVP) pour la modernisation de l’auto identification",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/evaluation-facteurs-vie-privee-modernisation-auto-identification.html",
+            "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-self-identification-modernization.html"
+          },
+          "date_modified": "2026-06-11",
+          "date_published": "2026-05-29",
+          "has_pia_text": true,
+          "title": "Évaluation des facteurs relatifs à la vie privée (EFVP) pour la modernisation de l’auto identification",
+          "conversion": "markdownify",
+          "text_sha256": "7220898f58f7886eca047099dafc9982ebd9259380578ce7bd427a9a56bc5c8f",
+          "word_count": 1721
+        }
+      }
+    },
+    {
+      "pia_id": "pia-7e95a4bbe2c3",
+      "title_en": "Privacy Impact Assessment for the enhanced TBS Application Portal and TBS Identity Hub",
+      "title_fr": "Évaluation des facteurs relatifs à la vie privée pour le Portail des applications du SCT (PASx) amélioré et le Centre d’identité du SCT",
+      "url_en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-application-portal-tbs-identity-hub.html",
+      "url_fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/evaluation-facteurs-vie-privee-portail-applications-centre-identite-sct.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-application-portal-tbs-identity-hub.html",
+        "alternate_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/evaluation-facteurs-vie-privee-portail-applications-centre-identite-sct.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-application-portal-tbs-identity-hub.html",
+          "title_from_list": "Privacy Impact Assessment for the enhanced TBS Application Portal and TBS Identity Hub",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-application-portal-tbs-identity-hub.html",
+              "title": "Privacy Impact Assessment for the enhanced TBS Application Portal and TBS Identity Hub",
+              "list_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-application-portal-tbs-identity-hub.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-application-portal-tbs-identity-hub.html",
+            "final_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-application-portal-tbs-identity-hub.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:18.844993+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:19 GMT",
+            "etag": null,
+            "byte_count": 31013,
+            "sha256": "55920b9b3862812393dafbfdbf9a86b4d811233b3dd9875387a102edc2f209bd"
+          },
+          "raw_path": "raw/7e95a4bbe2c32cc2360e.html",
+          "markdown_path": "pia-7e95a4bbe2c3_en.md",
+          "markdown_sha256": "c84858b189a37f30634032a91b9c26907b816dfadc479bed58e8e81368eec92e",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment for the enhanced TBS Application Portal and TBS Identity Hub",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-application-portal-tbs-identity-hub.html",
+            "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/evaluation-facteurs-vie-privee-portail-applications-centre-identite-sct.html"
+          },
+          "date_modified": "2026-01-27",
+          "date_published": "2026-01-27",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment for the enhanced TBS Application Portal and TBS Identity Hub",
+          "conversion": "markdownify",
+          "text_sha256": "3a3acb3a4535803f3239be82390c9114fbe56640f2c13e6cc55630077f48fcd1",
+          "word_count": 702
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/evaluation-facteurs-vie-privee-portail-applications-centre-identite-sct.html",
+          "title_from_list": "Évaluation des facteurs relatifs à la vie privée pour le Portail des applications du SCT (PASx) amélioré et le Centre d’identité du SCT",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie Privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/evaluation-facteurs-vie-privee-portail-applications-centre-identite-sct.html",
+              "title": "Évaluation des facteurs relatifs à la vie privée pour le Portail des applications du SCT (PASx) amélioré et le Centre d’identité du SCT",
+              "list_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/evaluation-facteurs-vie-privee-portail-applications-centre-identite-sct.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/evaluation-facteurs-vie-privee-portail-applications-centre-identite-sct.html",
+            "final_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/evaluation-facteurs-vie-privee-portail-applications-centre-identite-sct.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:24.258009+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:24 GMT",
+            "etag": null,
+            "byte_count": 30741,
+            "sha256": "0c7cb8f2600a7920b6a82f8b34254f38d16d5009e19791d8cea514cf367deea8"
+          },
+          "raw_path": "raw/481ea605a54d2f791305.html",
+          "markdown_path": "pia-7e95a4bbe2c3_fr.md",
+          "markdown_sha256": "582a5f114cb38f1300d5abe5125308f08b938bfb629300052b20f64c1c298e49",
+          "status": "exported",
+          "page_title": "Évaluation des facteurs relatifs à la vie privée pour le Portail des applications du SCT (PASx) amélioré et le Centre d’identité du SCT",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/evaluation-facteurs-vie-privee-portail-applications-centre-identite-sct.html",
+            "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-application-portal-tbs-identity-hub.html"
+          },
+          "date_modified": "2026-01-27",
+          "date_published": "2026-01-27",
+          "has_pia_text": true,
+          "title": "Évaluation des facteurs relatifs à la vie privée pour le Portail des applications du SCT (PASx) amélioré et le Centre d’identité du SCT",
+          "conversion": "markdownify",
+          "text_sha256": "48506a9c3ab32cd0794513499d9f8e708ebb416f82c9d136a954c9175ed4b7f7",
+          "word_count": 891
+        }
+      }
+    },
+    {
+      "pia_id": "pia-d0f7966ec193",
+      "title_en": "Privacy Impact Assessment for the Workforce Organization and Classification",
+      "title_fr": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour l’organisation et classification des effectifs (OCE), Programme de classification – Apprentissage",
+      "url_en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/workforce-organization-classification.html",
+      "url_fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/organisation-classification-effectifs-programme-classification-apprentissage.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/workforce-organization-classification.html",
+        "alternate_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/organisation-classification-effectifs-programme-classification-apprentissage.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/workforce-organization-classification.html",
+          "title_from_list": "Privacy Impact Assessment for the Workforce Organization and Classification",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/workforce-organization-classification.html",
+              "title": "Privacy Impact Assessment for the Workforce Organization and Classification",
+              "list_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/workforce-organization-classification.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/workforce-organization-classification.html",
+            "final_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/workforce-organization-classification.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:19.307849+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 23:45:58 GMT",
+            "etag": null,
+            "byte_count": 22768,
+            "sha256": "ffc97d7531bb0891e31f7bd90c630db4930336745f4e7e5187cbe35b5ac7fe3f"
+          },
+          "raw_path": "raw/d0f7966ec193c316c005.html",
+          "markdown_path": "pia-d0f7966ec193_en.md",
+          "markdown_sha256": "b2df59c0a2c92d550093b79f5874e57a8f3baf0fa93c9879d2dd4dd1a7f27faf",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment for the Workforce Organization and Classification",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/workforce-organization-classification.html",
+            "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/organisation-classification-effectifs-programme-classification-apprentissage.html"
+          },
+          "date_modified": "2025-05-22",
+          "date_published": "2025-05-21",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment for the Workforce Organization and Classification",
+          "conversion": "markdownify",
+          "text_sha256": "a9e6a205aefd1fc8dfc0e8f66d0d9be784984c1dbb9b97081f9be939673c9758",
+          "word_count": 391
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/organisation-classification-effectifs-programme-classification-apprentissage.html",
+          "title_from_list": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour l’organisation et classification des effectifs (OCE), Programme de classification – Apprentissage",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie Privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/organisation-classification-effectifs-programme-classification-apprentissage.html",
+              "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour l’organisation et classification des effectifs (OCE), Programme de classification – Apprentissage",
+              "list_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/organisation-classification-effectifs-programme-classification-apprentissage.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/organisation-classification-effectifs-programme-classification-apprentissage.html",
+            "final_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/organisation-classification-effectifs-programme-classification-apprentissage.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:24.336684+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:24 GMT",
+            "etag": null,
+            "byte_count": 24708,
+            "sha256": "3a5f245ee63ffdb7195db05c66e810e5d00510fefb8deb0b5a879eabb31b2d8e"
+          },
+          "raw_path": "raw/f932668dc5e8d8cbdb6e.html",
+          "markdown_path": "pia-d0f7966ec193_fr.md",
+          "markdown_sha256": "658dda2fc0a959fec99eab40cd5d3856e30b720e5219e4c2947b60f4dc968be0",
+          "status": "exported",
+          "page_title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour l’organisation et classification des effectifs (OCE), Programme de classification – Apprentissage",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/organisation-classification-effectifs-programme-classification-apprentissage.html",
+            "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/workforce-organization-classification.html"
+          },
+          "date_modified": "2025-05-22",
+          "date_published": "2025-05-21",
+          "has_pia_text": true,
+          "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour l’organisation et classification des effectifs (OCE), Programme de classification – Apprentissage",
+          "conversion": "markdownify",
+          "text_sha256": "d20aba13e2a90757041b28514a52c10d335f25e89ff558529002c4ce57928574",
+          "word_count": 569
+        }
+      }
+    },
+    {
+      "pia_id": "pia-ee33cd91394d",
+      "title_en": "Privacy Impact Assessment for VidCruiter Application Tracker Tool (VidCruiter)",
+      "title_fr": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour l’outil de suivi des candidatures VidCruiter",
+      "url_en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-vidcruiter-application-tracker-tool-vidcruiter.html",
+      "url_fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-vie-privee-outil-suivi-candidatures-vidcruiter.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-vidcruiter-application-tracker-tool-vidcruiter.html",
+        "alternate_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-vie-privee-outil-suivi-candidatures-vidcruiter.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-vidcruiter-application-tracker-tool-vidcruiter.html",
+          "title_from_list": "Privacy Impact Assessment for VidCruiter Application Tracker Tool (VidCruiter)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-vidcruiter-application-tracker-tool-vidcruiter.html",
+              "title": "Privacy Impact Assessment for VidCruiter Application Tracker Tool (VidCruiter)",
+              "list_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-vidcruiter-application-tracker-tool-vidcruiter.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-vidcruiter-application-tracker-tool-vidcruiter.html",
+            "final_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-vidcruiter-application-tracker-tool-vidcruiter.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:19.300242+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 00:52:02 GMT",
+            "etag": null,
+            "byte_count": 24813,
+            "sha256": "f4d8ba20861be80e3924c80a5e04b4eb97fa2f7cb3b09f0ccbc08e6edf74d1e3"
+          },
+          "raw_path": "raw/ee33cd91394d2356ac39.html",
+          "markdown_path": "pia-ee33cd91394d_en.md",
+          "markdown_sha256": "dc89b680382cfb84191ada847869dadd78e330b378012c2f112a286f535ce47e",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment for VidCruiter Application Tracker Tool (VidCruiter)",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-vidcruiter-application-tracker-tool-vidcruiter.html",
+            "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-vie-privee-outil-suivi-candidatures-vidcruiter.html"
+          },
+          "date_modified": "2025-05-15",
+          "date_published": "2025-05-15",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment for VidCruiter Application Tracker Tool (VidCruiter)",
+          "conversion": "markdownify",
+          "text_sha256": "91b70d296ec0d3475d15cee06b6916f94aeb6182ffd563d8434835fc8accd8bf",
+          "word_count": 660
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-vie-privee-outil-suivi-candidatures-vidcruiter.html",
+          "title_from_list": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour l’outil de suivi des candidatures VidCruiter",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie Privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-vie-privee-outil-suivi-candidatures-vidcruiter.html",
+              "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour l’outil de suivi des candidatures VidCruiter",
+              "list_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-vie-privee-outil-suivi-candidatures-vidcruiter.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-vie-privee-outil-suivi-candidatures-vidcruiter.html",
+            "final_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-vie-privee-outil-suivi-candidatures-vidcruiter.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:24.478172+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:24 GMT",
+            "etag": null,
+            "byte_count": 27093,
+            "sha256": "e41e482219c4e75e8b38f7f574f20f87e5b583b77f3fa631c771f97888262c4d"
+          },
+          "raw_path": "raw/d75b3a0a73ff3175d8de.html",
+          "markdown_path": "pia-ee33cd91394d_fr.md",
+          "markdown_sha256": "7b0a9b403aa7e56bbd449ffb9fc477fa001f83daa6ad1c355d970a2690b6a046",
+          "status": "exported",
+          "page_title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour l’outil de suivi des candidatures VidCruiter",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-vie-privee-outil-suivi-candidatures-vidcruiter.html",
+            "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-vidcruiter-application-tracker-tool-vidcruiter.html"
+          },
+          "date_modified": "2025-05-15",
+          "date_published": "2025-05-15",
+          "has_pia_text": true,
+          "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour l’outil de suivi des candidatures VidCruiter",
+          "conversion": "markdownify",
+          "text_sha256": "7867c6038106e8046ca4ec589d3095f47abd98690da157262b0bd2c311fa4688",
+          "word_count": 908
+        }
+      }
+    },
+    {
+      "pia_id": "pia-e79c377d0064",
+      "title_en": "Privacy Impact Assessment Summary for Using Artificial Intelligence to Automate Candidate Evaluations in the Staffing Process’s Assessment Phase",
+      "title_fr": "Résumé de l’évaluation des facteurs relatifs à la vie privée liés à l’utilisation de l’intelligence artificielle pour automatiser l’évaluation des candidatures lors de la phase d’évaluation du processus de dotation",
+      "url_en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-using-artificial-intelligence-automate-candidate-evaluations.html",
+      "url_fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-vie-privee-utilisation-intelligence-artificielle-automatiser-evaluation-candidatures.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-using-artificial-intelligence-automate-candidate-evaluations.html",
+        "alternate_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-vie-privee-utilisation-intelligence-artificielle-automatiser-evaluation-candidatures.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-using-artificial-intelligence-automate-candidate-evaluations.html",
+          "title_from_list": "Privacy Impact Assessment Summary for Using Artificial Intelligence to Automate Candidate Evaluations in the Staffing Process’s Assessment Phase",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-using-artificial-intelligence-automate-candidate-evaluations.html",
+              "title": "Privacy Impact Assessment Summary for Using Artificial Intelligence to Automate Candidate Evaluations in the Staffing Process’s Assessment Phase",
+              "list_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-using-artificial-intelligence-automate-candidate-evaluations.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-using-artificial-intelligence-automate-candidate-evaluations.html",
+            "final_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-using-artificial-intelligence-automate-candidate-evaluations.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:19.237420+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:19 GMT",
+            "etag": null,
+            "byte_count": 28266,
+            "sha256": "1e0934791965093a990111749421489a73bfac0f6eb32a50f6fb773c6ab8e387"
+          },
+          "raw_path": "raw/e79c377d0064d9854215.html",
+          "markdown_path": "pia-e79c377d0064_en.md",
+          "markdown_sha256": "aec56f10b3227aae7122116a640283dfd37efee4c00b976e4bf94fa5ac96e8a6",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summary for Using Artificial Intelligence to Automate Candidate Evaluations in the Staffing Process’s Assessment Phase",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-using-artificial-intelligence-automate-candidate-evaluations.html",
+            "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-vie-privee-utilisation-intelligence-artificielle-automatiser-evaluation-candidatures.html"
+          },
+          "date_modified": "2024-05-28",
+          "date_published": "2024-05-28",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment Summary for Using Artificial Intelligence to Automate Candidate Evaluations in the Staffing Process’s Assessment Phase",
+          "conversion": "markdownify",
+          "text_sha256": "d31d8a2b8cefa92a9b629fb6ea932755aaf38a4c0dc8ca0ce79f6de2863a802f",
+          "word_count": 1050
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-vie-privee-utilisation-intelligence-artificielle-automatiser-evaluation-candidatures.html",
+          "title_from_list": "Résumé de l’évaluation des facteurs relatifs à la vie privée liés à l’utilisation de l’intelligence artificielle pour automatiser l’évaluation des candidatures lors de la phase d’évaluation du processus de dotation",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie Privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-vie-privee-utilisation-intelligence-artificielle-automatiser-evaluation-candidatures.html",
+              "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée liés à l’utilisation de l’intelligence artificielle pour automatiser l’évaluation des candidatures lors de la phase d’évaluation du processus de dotation",
+              "list_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-vie-privee-utilisation-intelligence-artificielle-automatiser-evaluation-candidatures.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-vie-privee-utilisation-intelligence-artificielle-automatiser-evaluation-candidatures.html",
+            "final_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-vie-privee-utilisation-intelligence-artificielle-automatiser-evaluation-candidatures.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:24.591242+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:24 GMT",
+            "etag": null,
+            "byte_count": 31430,
+            "sha256": "f744f376c6d9d9376e1684aa297417560c1870ef4d281b4fa16f7a8b39643cc6"
+          },
+          "raw_path": "raw/e6d577087abe7c6cac8e.html",
+          "markdown_path": "pia-e79c377d0064_fr.md",
+          "markdown_sha256": "df37c80319325565c14e7f7504792352aeb023dfab8b36da133f21966fc7cdab",
+          "status": "exported",
+          "page_title": "Résumé de l’évaluation des facteurs relatifs à la vie privée liés à l’utilisation de l’intelligence artificielle pour automatiser l’évaluation des candidatures lors de la phase d’évaluation du processus de dotation",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-vie-privee-utilisation-intelligence-artificielle-automatiser-evaluation-candidatures.html",
+            "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-using-artificial-intelligence-automate-candidate-evaluations.html"
+          },
+          "date_modified": "2024-05-28",
+          "date_published": "2024-05-28",
+          "has_pia_text": true,
+          "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée liés à l’utilisation de l’intelligence artificielle pour automatiser l’évaluation des candidatures lors de la phase d’évaluation du processus de dotation",
+          "conversion": "markdownify",
+          "text_sha256": "9b6f1a3ab285d51a18129a39adad15807622d2731b5ca632f42e00c7431b4256",
+          "word_count": 1440
+        }
+      }
+    },
+    {
+      "pia_id": "pia-52b1b1aaf244",
+      "title_en": "Privacy Impact Assessment Summary for the Mosaic Leadership Development Program",
+      "title_fr": "Sommaire de l’évaluation des facteurs relatifs à la vie privée (EFVP) pour le programme de perfectionnement en leadership Mosaïque",
+      "url_en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-mldp.html",
+      "url_fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-efvp.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-mldp.html",
+        "alternate_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-efvp.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-mldp.html",
+          "title_from_list": "Privacy Impact Assessment Summary for the Mosaic Leadership Development Program",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-mldp.html",
+              "title": "Privacy Impact Assessment Summary for the Mosaic Leadership Development Program",
+              "list_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-mldp.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-mldp.html",
+            "final_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-mldp.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:19.053986+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:19 GMT",
+            "etag": null,
+            "byte_count": 27904,
+            "sha256": "8b8b539d84643578d1cd7ad9b0ff3cb23412ebb0d7e81e78e434d058f4ae5169"
+          },
+          "raw_path": "raw/52b1b1aaf244e74eb115.html",
+          "markdown_path": "pia-52b1b1aaf244_en.md",
+          "markdown_sha256": "c5be2efa6b5be70e28a1cb4f36e8a1a8dffed462d208fe9b4e9aecf4bcae9556",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summary for the Mosaic Leadership Development Program",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-mldp.html",
+            "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-efvp.html"
+          },
+          "date_modified": "2024-02-08",
+          "date_published": "2024-02-08",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment Summary for the Mosaic Leadership Development Program",
+          "conversion": "markdownify",
+          "text_sha256": "df9d0779b5c00dc5a952c10d8c6fbd8c6617a83632ccf0d460f4cf2cce8b9c15",
+          "word_count": 1209
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-efvp.html",
+          "title_from_list": "Sommaire de l’évaluation des facteurs relatifs à la vie privée (EFVP) pour le programme de perfectionnement en leadership Mosaïque",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie Privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-efvp.html",
+              "title": "Sommaire de l’évaluation des facteurs relatifs à la vie privée (EFVP) pour le programme de perfectionnement en leadership Mosaïque",
+              "list_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-efvp.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-efvp.html",
+            "final_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-efvp.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:24.367246+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:24 GMT",
+            "etag": null,
+            "byte_count": 31268,
+            "sha256": "b454225e121a30b3fd109882af8dfc9d5333cb6b6bad66166ad22c0c4bbd8f46"
+          },
+          "raw_path": "raw/b8d2aa45f6885ddb6c29.html",
+          "markdown_path": "pia-52b1b1aaf244_fr.md",
+          "markdown_sha256": "8873c0ba0861281a21020c70de7c9fe050c455ab84cfc7a25d129d84f1d28669",
+          "status": "exported",
+          "page_title": "Sommaire de l’évaluation des facteurs relatifs à la vie privée (EFVP) pour le programme de perfectionnement en leadership Mosaïque",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-efvp.html",
+            "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-mldp.html"
+          },
+          "date_modified": "2024-02-08",
+          "date_published": "2024-02-08",
+          "has_pia_text": true,
+          "title": "Sommaire de l’évaluation des facteurs relatifs à la vie privée (EFVP) pour le programme de perfectionnement en leadership Mosaïque",
+          "conversion": "markdownify",
+          "text_sha256": "ee61df9ddf71bbc4b44be0c1062e441e08ac012cbbb17bae6fb962e3b46e8f16",
+          "word_count": 1549
+        }
+      }
+    },
+    {
+      "pia_id": "pia-247dbf89bc53",
+      "title_en": "Privacy Impact Assessment Summary for Phoenix Damages Claims Processing – Consolidated PIA",
+      "title_fr": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le traitement des demandes d’indemnisation relatives à Phénix – Évaluation consolidée des facteurs relatifs à la vie privée",
+      "url_en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-phoenix-damages-claims-processing-consolidated-pia.html",
+      "url_fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-vie-privee-traitement-demandes-indemnisation-relatives-phenix-evaluation-consolidee-facteurs-relatifs-vie-privee.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-phoenix-damages-claims-processing-consolidated-pia.html",
+        "alternate_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-vie-privee-traitement-demandes-indemnisation-relatives-phenix-evaluation-consolidee-facteurs-relatifs-vie-privee.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-phoenix-damages-claims-processing-consolidated-pia.html",
+          "title_from_list": "Privacy Impact Assessment Summary for Phoenix Damages Claims Processing – Consolidated PIA",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-phoenix-damages-claims-processing-consolidated-pia.html",
+              "title": "Privacy Impact Assessment Summary for Phoenix Damages Claims Processing – Consolidated PIA",
+              "list_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-phoenix-damages-claims-processing-consolidated-pia.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-phoenix-damages-claims-processing-consolidated-pia.html",
+            "final_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-phoenix-damages-claims-processing-consolidated-pia.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:19.123396+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:19 GMT",
+            "etag": null,
+            "byte_count": 30846,
+            "sha256": "21fea8bfa901500eff102e1040eeda0772d1cfd333a956effcc9acd72039fb51"
+          },
+          "raw_path": "raw/247dbf89bc537175983b.html",
+          "markdown_path": "pia-247dbf89bc53_en.md",
+          "markdown_sha256": "8d380b96ee37c7700321c5bfe3127d392f935a1e053b092f82d83a3644567d16",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summary for Phoenix Damages Claims Processing – Consolidated PIA",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-phoenix-damages-claims-processing-consolidated-pia.html",
+            "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-vie-privee-traitement-demandes-indemnisation-relatives-phenix-evaluation-consolidee-facteurs-relatifs-vie-privee.html"
+          },
+          "date_modified": "2024-05-17",
+          "date_published": "2024-05-16",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment Summary for Phoenix Damages Claims Processing – Consolidated PIA",
+          "conversion": "markdownify",
+          "text_sha256": "7c80eaad53cb009c5ed9f2676b560efb8194650af46d63440ec040f070c4bcbb",
+          "word_count": 1474
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-vie-privee-traitement-demandes-indemnisation-relatives-phenix-evaluation-consolidee-facteurs-relatifs-vie-privee.html",
+          "title_from_list": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le traitement des demandes d’indemnisation relatives à Phénix – Évaluation consolidée des facteurs relatifs à la vie privée",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie Privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-vie-privee-traitement-demandes-indemnisation-relatives-phenix-evaluation-consolidee-facteurs-relatifs-vie-privee.html",
+              "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le traitement des demandes d’indemnisation relatives à Phénix – Évaluation consolidée des facteurs relatifs à la vie privée",
+              "list_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-vie-privee-traitement-demandes-indemnisation-relatives-phenix-evaluation-consolidee-facteurs-relatifs-vie-privee.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-vie-privee-traitement-demandes-indemnisation-relatives-phenix-evaluation-consolidee-facteurs-relatifs-vie-privee.html",
+            "final_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-vie-privee-traitement-demandes-indemnisation-relatives-phenix-evaluation-consolidee-facteurs-relatifs-vie-privee.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:24.588746+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:24 GMT",
+            "etag": null,
+            "byte_count": 35368,
+            "sha256": "5519b2a62e375b7aa8d0a945957e9d0819b08002424007a243ddf02f2024a001"
+          },
+          "raw_path": "raw/13011be692c2015d9bb9.html",
+          "markdown_path": "pia-247dbf89bc53_fr.md",
+          "markdown_sha256": "1c822339bb540b41959694044f721660ea7d52b9300a8d7b45d8d0a92507a1aa",
+          "status": "exported",
+          "page_title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le traitement des demandes d’indemnisation relatives à Phénix – Évaluation consolidée des facteurs relatifs à la vie privée",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-vie-privee-traitement-demandes-indemnisation-relatives-phenix-evaluation-consolidee-facteurs-relatifs-vie-privee.html",
+            "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-phoenix-damages-claims-processing-consolidated-pia.html"
+          },
+          "date_modified": "2024-05-17",
+          "date_published": "2024-05-16",
+          "has_pia_text": true,
+          "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le traitement des demandes d’indemnisation relatives à Phénix – Évaluation consolidée des facteurs relatifs à la vie privée",
+          "conversion": "markdownify",
+          "text_sha256": "33059bb80579f26f19fa90738f45e46877e998cf805c3dd5917f059d3dd08f8a",
+          "word_count": 1927
+        }
+      }
+    },
+    {
+      "pia_id": "pia-5000800f8b25",
+      "title_en": "Privacy Impact Assessment: Government of Canada Vaccine Attestation Tracking System (GC-VATS)",
+      "title_fr": "Résumé de la mise à jour sur l’évaluation des facteurs relatifs à la vie privée pour le Système de suivi pour l’attestation à la vaccination du gouvernement du Canada (SSAV GC)",
+      "url_en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-gcvats.html",
+      "url_fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-ssavgc.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-gcvats.html",
+        "alternate_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-ssavgc.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-gcvats.html",
+          "title_from_list": "Privacy Impact Assessment: Government of Canada Vaccine Attestation Tracking System (GC-VATS)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-gcvats.html",
+              "title": "Privacy Impact Assessment: Government of Canada Vaccine Attestation Tracking System (GC-VATS)",
+              "list_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-gcvats.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-gcvats.html",
+            "final_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-gcvats.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:19.050900+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:19 GMT",
+            "etag": null,
+            "byte_count": 33888,
+            "sha256": "ffa2633d47319043504aeede04836bc42b48d5bcd87149d25fa70220a6d3515b"
+          },
+          "raw_path": "raw/5000800f8b25e4a5323f.html",
+          "markdown_path": "pia-5000800f8b25_en.md",
+          "markdown_sha256": "88dc80759d0fc77b591638e9e92a94d8d5ed4bcfc760e0f5677561e8a678a942",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment: Government of Canada Vaccine Attestation Tracking System (GC-VATS)",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-gcvats.html",
+            "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-ssavgc.html"
+          },
+          "date_modified": "2023-02-22",
+          "date_published": "2023-02-16",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment: Government of Canada Vaccine Attestation Tracking System (GC-VATS)",
+          "conversion": "markdownify",
+          "text_sha256": "6eb5fac8848c1b128713521742dc9ddc82213a9f3bfe9fd100671b621fd0cbb5",
+          "word_count": 1854
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-ssavgc.html",
+          "title_from_list": "Résumé de la mise à jour sur l’évaluation des facteurs relatifs à la vie privée pour le Système de suivi pour l’attestation à la vaccination du gouvernement du Canada (SSAV GC)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie Privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-ssavgc.html",
+              "title": "Résumé de la mise à jour sur l’évaluation des facteurs relatifs à la vie privée pour le Système de suivi pour l’attestation à la vaccination du gouvernement du Canada (SSAV GC)",
+              "list_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-ssavgc.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-ssavgc.html",
+            "final_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-ssavgc.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:24.435506+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:24 GMT",
+            "etag": null,
+            "byte_count": 38100,
+            "sha256": "d5733f68af1a8f6f30548f76ef17df9e99e80a0c858a6bc38d4b0c586418e7fa"
+          },
+          "raw_path": "raw/5c29a34a92bc0f10d7a1.html",
+          "markdown_path": "pia-5000800f8b25_fr.md",
+          "markdown_sha256": "54b424e54677eb53d9cba23e41d340b315660d8f7593467d9ecb2f539ea39e6f",
+          "status": "exported",
+          "page_title": "Résumé de la mise à jour sur l’évaluation des facteurs relatifs à la vie privée pour le Système de suivi pour l’attestation à la vaccination du gouvernement du Canada (SSAV GC)",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-ssavgc.html",
+            "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-gcvats.html"
+          },
+          "date_modified": "2023-02-22",
+          "date_published": "2023-02-16",
+          "has_pia_text": true,
+          "title": "Résumé de la mise à jour sur l’évaluation des facteurs relatifs à la vie privée pour le Système de suivi pour l’attestation à la vaccination du gouvernement du Canada (SSAV GC)",
+          "conversion": "markdownify",
+          "text_sha256": "7618799fb79afa3f07761c89a2fc92c46dbedfab8480aead5fa9faf81aed19b2",
+          "word_count": 2469
+        }
+      }
+    },
+    {
+      "pia_id": "pia-39417c351ae6",
+      "title_en": "Privacy Impact Assessment Summary for the Online Regulatory Consultation System (ORCS)",
+      "title_fr": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le Système de consultation en ligne sur la réglementation (SCLR)",
+      "url_en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-orcs.html",
+      "url_fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-sclr.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-orcs.html",
+        "alternate_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-sclr.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-orcs.html",
+          "title_from_list": "Privacy Impact Assessment Summary for the Online Regulatory Consultation System (ORCS)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-orcs.html",
+              "title": "Privacy Impact Assessment Summary for the Online Regulatory Consultation System (ORCS)",
+              "list_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-orcs.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-orcs.html",
+            "final_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-orcs.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:19.057980+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 00:17:01 GMT",
+            "etag": null,
+            "byte_count": 29019,
+            "sha256": "77ca50029df5ce46f8f0d4d8cd6162a4a4585dbeabcb6429cb5e3d686375ece4"
+          },
+          "raw_path": "raw/39417c351ae697752c99.html",
+          "markdown_path": "pia-39417c351ae6_en.md",
+          "markdown_sha256": "4af6b292674e03e47c34edb59d16cc21b9d6d28c0f4355627471abaa940f83af",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summary for the Online Regulatory Consultation System (ORCS)",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-orcs.html",
+            "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-sclr.html"
+          },
+          "date_modified": "2022-12-09",
+          "date_published": "2022-12-09",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment Summary for the Online Regulatory Consultation System (ORCS)",
+          "conversion": "markdownify",
+          "text_sha256": "64b12b96ef13675694f143efef40f38abc0d9b049d4f19976c70d231dc098698",
+          "word_count": 1301
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-sclr.html",
+          "title_from_list": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le Système de consultation en ligne sur la réglementation (SCLR)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie Privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-sclr.html",
+              "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le Système de consultation en ligne sur la réglementation (SCLR)",
+              "list_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-sclr.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-sclr.html",
+            "final_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-sclr.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:24.425852+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:24 GMT",
+            "etag": null,
+            "byte_count": 32597,
+            "sha256": "f60524d3779c53e22f8b6b6d55321cfe7050c3575cb131316db15e2349abe94d"
+          },
+          "raw_path": "raw/6c291113ddfcffd4616c.html",
+          "markdown_path": "pia-39417c351ae6_fr.md",
+          "markdown_sha256": "fa0cec0b369a2ab4241acc1ba31862bd10ef87957bff71129749ed47838b57b2",
+          "status": "exported",
+          "page_title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le Système de consultation en ligne sur la réglementation (SCLR)",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-sclr.html",
+            "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-orcs.html"
+          },
+          "date_modified": "2022-12-09",
+          "date_published": "2022-12-09",
+          "has_pia_text": true,
+          "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le Système de consultation en ligne sur la réglementation (SCLR)",
+          "conversion": "markdownify",
+          "text_sha256": "fbc92ad17d585b740a8c0569401618fed8ecee04418a8fc70f4e3340b1e9467f",
+          "word_count": 1668
+        }
+      }
+    },
+    {
+      "pia_id": "pia-7d55c594900c",
+      "title_en": "Privacy Impact Assessment Summary for the Tier 3 Phoenix Claims Process",
+      "title_fr": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le processus de réclamations de niveau 3 attribuables à Phénix",
+      "url_en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-tier-3-phoenix-claims-process.html",
+      "url_fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-processus-reclamations-niveau-3-phenix.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-tier-3-phoenix-claims-process.html",
+        "alternate_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-processus-reclamations-niveau-3-phenix.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-tier-3-phoenix-claims-process.html",
+          "title_from_list": "Privacy Impact Assessment Summary for the Tier 3 Phoenix Claims Process",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-tier-3-phoenix-claims-process.html",
+              "title": "Privacy Impact Assessment Summary for the Tier 3 Phoenix Claims Process",
+              "list_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-tier-3-phoenix-claims-process.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-tier-3-phoenix-claims-process.html",
+            "final_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-tier-3-phoenix-claims-process.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:19.230480+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 23:36:18 GMT",
+            "etag": null,
+            "byte_count": 25977,
+            "sha256": "2291f5da140539ed718c193b50fe638d4c35e28c6be8789ddb8c4a8994b3d64c"
+          },
+          "raw_path": "raw/7d55c594900cdacf19e5.html",
+          "markdown_path": "pia-7d55c594900c_en.md",
+          "markdown_sha256": "7e2614e4c2f36485adc764134b33513e8a013ca6aefbcc8496f57c07f857b413",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summary for the Tier 3 Phoenix Claims Process",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-tier-3-phoenix-claims-process.html",
+            "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-processus-reclamations-niveau-3-phenix.html"
+          },
+          "date_modified": "2021-10-15",
+          "date_published": "2021-10-15",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment Summary for the Tier 3 Phoenix Claims Process",
+          "conversion": "markdownify",
+          "text_sha256": "820097268f2898d980b1566d5d8a5bbb542e99ea6f6e3146a8f90d8c5eca544a",
+          "word_count": 883
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-processus-reclamations-niveau-3-phenix.html",
+          "title_from_list": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le processus de réclamations de niveau 3 attribuables à Phénix",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie Privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-processus-reclamations-niveau-3-phenix.html",
+              "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le processus de réclamations de niveau 3 attribuables à Phénix",
+              "list_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-processus-reclamations-niveau-3-phenix.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-processus-reclamations-niveau-3-phenix.html",
+            "final_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-processus-reclamations-niveau-3-phenix.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:24.391038+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:24 GMT",
+            "etag": null,
+            "byte_count": 28928,
+            "sha256": "f6e8c9445e7b9d9b5ba5e9521fecfe61cb3f8aa3f4301e27a9c1238dc2ddc8a1"
+          },
+          "raw_path": "raw/4432e7b9a83f318d05ed.html",
+          "markdown_path": "pia-7d55c594900c_fr.md",
+          "markdown_sha256": "f87764ae5d7c84b0b85ee00c097501c172ace1b87b85762db3ca92b57fe14c1a",
+          "status": "exported",
+          "page_title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le processus de réclamations de niveau 3 attribuables à Phénix",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/resume-evaluation-facteurs-relatifs-processus-reclamations-niveau-3-phenix.html",
+            "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat/privacy-impact-assessment-summary-tier-3-phoenix-claims-process.html"
+          },
+          "date_modified": "2021-10-15",
+          "date_published": "2021-10-15",
+          "has_pia_text": true,
+          "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le processus de réclamations de niveau 3 attribuables à Phénix",
+          "conversion": "markdownify",
+          "text_sha256": "68fa46d6ca76c0367ef2d056f3b7be1cb0064c54bf1e67017e5ec98b2aed60be",
+          "word_count": 1179
+        }
+      }
+    },
+    {
+      "pia_id": "pia-4d2891435eae",
+      "title_en": "Privacy Impact Assessment Summary for Talent Cloud",
+      "title_fr": "Résumé de l’évaluation des facteurs relatifs à la vie privée dans le cadre du nuage de talents",
+      "url_en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summaries-treasury-board-canada-secretariat/privacy-impact-assessment-talent-cloud.html",
+      "url_fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/evaluations-facteurs-relatifs-vie-privee-secretariat-conseil-tresor/evaluation-facteurs-relatifs-vie-privee-nuage-talents.html",
+      "pairing_status": "paired",
+      "pairing_method": "reviewed_bilingual_list_titles",
+      "pairing_evidence": {
+        "institution_id": "ati-schedule-i-treasury-board-secretariat",
+        "url_en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summaries-treasury-board-canada-secretariat/privacy-impact-assessment-talent-cloud.html",
+        "url_fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/evaluations-facteurs-relatifs-vie-privee-secretariat-conseil-tresor/evaluation-facteurs-relatifs-vie-privee-nuage-talents.html",
+        "title_en": "Privacy Impact Assessment Summary for Talent Cloud",
+        "title_fr": "Résumé de l’évaluation des facteurs relatifs à la vie privée dans le cadre du nuage de talents",
+        "rationale": "Reviewed bilingual list labels identify the same program and version. Both target pages fail, preventing a document-level language-switch check. Distinguishes Talent Cloud from Talent Cloud Beta and the original Phoenix Claims Process from later tiers/consolidated assessments."
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summaries-treasury-board-canada-secretariat/privacy-impact-assessment-talent-cloud.html",
+          "title_from_list": "Privacy Impact Assessment Summary for Talent Cloud",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summaries-treasury-board-canada-secretariat/privacy-impact-assessment-talent-cloud.html",
+              "title": "Privacy Impact Assessment Summary for Talent Cloud",
+              "list_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summaries-treasury-board-canada-secretariat/privacy-impact-assessment-talent-cloud.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summaries-treasury-board-canada-secretariat/privacy-impact-assessment-talent-cloud.html",
+            "final_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summaries-treasury-board-canada-secretariat/privacy-impact-assessment-talent-cloud.html",
+            "http_status": 404,
+            "checked_at_utc": "2026-11-12T01:50:12.480242+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "",
+            "error": "HTTP Error 404: Not Found",
+            "byte_count": 10000,
+            "sha256": "94922003107c4fdb8b08d16c128ec468a55335e83e2dc6823c5d3ddf1297bc0c"
+          },
+          "raw_path": null,
+          "markdown_path": null,
+          "markdown_sha256": null,
+          "status": "http_error"
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/evaluations-facteurs-relatifs-vie-privee-secretariat-conseil-tresor/evaluation-facteurs-relatifs-vie-privee-nuage-talents.html",
+          "title_from_list": "Résumé de l’évaluation des facteurs relatifs à la vie privée dans le cadre du nuage de talents",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie Privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/evaluations-facteurs-relatifs-vie-privee-secretariat-conseil-tresor/evaluation-facteurs-relatifs-vie-privee-nuage-talents.html",
+              "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée dans le cadre du nuage de talents",
+              "list_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/evaluations-facteurs-relatifs-vie-privee-secretariat-conseil-tresor/evaluation-facteurs-relatifs-vie-privee-nuage-talents.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/evaluations-facteurs-relatifs-vie-privee-secretariat-conseil-tresor/evaluation-facteurs-relatifs-vie-privee-nuage-talents.html",
+            "final_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/evaluations-facteurs-relatifs-vie-privee-secretariat-conseil-tresor/evaluation-facteurs-relatifs-vie-privee-nuage-talents.html",
+            "http_status": 404,
+            "checked_at_utc": "2026-11-12T01:50:12.633668+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "",
+            "error": "HTTP Error 404: Not Found",
+            "byte_count": 10000,
+            "sha256": "eaf658b0d19152c4fa0f8e0224120b1e76c907a44c2ff1236a50f6c5e458fea4"
+          },
+          "raw_path": null,
+          "markdown_path": null,
+          "markdown_sha256": null,
+          "status": "http_error"
+        }
+      }
+    },
+    {
+      "pia_id": "pia-380920935151",
+      "title_en": "Privacy Impact Assessment Summary for Phoenix Claims Process",
+      "title_fr": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le processus de réclamation",
+      "url_en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summaries-treasury-board-canada-secretariat/privacy-impact-assessment-claims-process.html",
+      "url_fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/evaluations-facteurs-relatifs-vie-privee-secretariat-conseil-tresor/evaluation-facteurs-relatifs-vie-privee-processus-reclamation.html",
+      "pairing_status": "paired",
+      "pairing_method": "reviewed_bilingual_list_titles",
+      "pairing_evidence": {
+        "institution_id": "ati-schedule-i-treasury-board-secretariat",
+        "url_en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summaries-treasury-board-canada-secretariat/privacy-impact-assessment-claims-process.html",
+        "url_fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/evaluations-facteurs-relatifs-vie-privee-secretariat-conseil-tresor/evaluation-facteurs-relatifs-vie-privee-processus-reclamation.html",
+        "title_en": "Privacy Impact Assessment Summary for Phoenix Claims Process",
+        "title_fr": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le processus de réclamation",
+        "rationale": "Reviewed bilingual list labels identify the same program and version. Both target pages fail, preventing a document-level language-switch check. Distinguishes Talent Cloud from Talent Cloud Beta and the original Phoenix Claims Process from later tiers/consolidated assessments."
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summaries-treasury-board-canada-secretariat/privacy-impact-assessment-claims-process.html",
+          "title_from_list": "Privacy Impact Assessment Summary for Phoenix Claims Process",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summaries-treasury-board-canada-secretariat/privacy-impact-assessment-claims-process.html",
+              "title": "Privacy Impact Assessment Summary for Phoenix Claims Process",
+              "list_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summaries-treasury-board-canada-secretariat/privacy-impact-assessment-claims-process.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summaries-treasury-board-canada-secretariat/privacy-impact-assessment-claims-process.html",
+            "final_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summaries-treasury-board-canada-secretariat/privacy-impact-assessment-claims-process.html",
+            "http_status": 404,
+            "checked_at_utc": "2026-11-12T01:50:12.286380+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "",
+            "error": "HTTP Error 404: Not Found",
+            "byte_count": 10000,
+            "sha256": "94922003107c4fdb8b08d16c128ec468a55335e83e2dc6823c5d3ddf1297bc0c"
+          },
+          "raw_path": null,
+          "markdown_path": null,
+          "markdown_sha256": null,
+          "status": "http_error"
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/evaluations-facteurs-relatifs-vie-privee-secretariat-conseil-tresor/evaluation-facteurs-relatifs-vie-privee-processus-reclamation.html",
+          "title_from_list": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le processus de réclamation",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie Privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/evaluations-facteurs-relatifs-vie-privee-secretariat-conseil-tresor/evaluation-facteurs-relatifs-vie-privee-processus-reclamation.html",
+              "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le processus de réclamation",
+              "list_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/evaluations-facteurs-relatifs-vie-privee-secretariat-conseil-tresor/evaluation-facteurs-relatifs-vie-privee-processus-reclamation.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/evaluations-facteurs-relatifs-vie-privee-secretariat-conseil-tresor/evaluation-facteurs-relatifs-vie-privee-processus-reclamation.html",
+            "final_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/evaluations-facteurs-relatifs-vie-privee-secretariat-conseil-tresor/evaluation-facteurs-relatifs-vie-privee-processus-reclamation.html",
+            "http_status": 404,
+            "checked_at_utc": "2026-11-12T01:50:12.739416+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "",
+            "error": "HTTP Error 404: Not Found",
+            "byte_count": 10000,
+            "sha256": "eaf658b0d19152c4fa0f8e0224120b1e76c907a44c2ff1236a50f6c5e458fea4"
+          },
+          "raw_path": null,
+          "markdown_path": null,
+          "markdown_sha256": null,
+          "status": "http_error"
+        }
+      }
+    },
+    {
+      "pia_id": "pia-ba9b78ee3322",
+      "title_en": "Privacy Impact Assessment for Talent Cloud - Beta",
+      "title_fr": "Résumé de l’évaluation des facteurs relatifs à la vie privée dans le cadre du nuage de talents - Bêta",
+      "url_en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summaries-treasury-board-canada-secretariat/privacy-impact-assessment-talent-cloud-beta.html",
+      "url_fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/evaluations-facteurs-relatifs-vie-privee-secretariat-conseil-tresor/evaluation-facteurs-relatifs-vie-privee-nuage-talents-beta.html",
+      "pairing_status": "paired",
+      "pairing_method": "reviewed_bilingual_list_titles",
+      "pairing_evidence": {
+        "institution_id": "ati-schedule-i-treasury-board-secretariat",
+        "url_en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summaries-treasury-board-canada-secretariat/privacy-impact-assessment-talent-cloud-beta.html",
+        "url_fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/evaluations-facteurs-relatifs-vie-privee-secretariat-conseil-tresor/evaluation-facteurs-relatifs-vie-privee-nuage-talents-beta.html",
+        "title_en": "Privacy Impact Assessment for Talent Cloud - Beta",
+        "title_fr": "Résumé de l’évaluation des facteurs relatifs à la vie privée dans le cadre du nuage de talents - Bêta",
+        "rationale": "Reviewed bilingual list labels identify the same program and version. Both target pages fail, preventing a document-level language-switch check. Distinguishes Talent Cloud from Talent Cloud Beta and the original Phoenix Claims Process from later tiers/consolidated assessments."
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summaries-treasury-board-canada-secretariat/privacy-impact-assessment-talent-cloud-beta.html",
+          "title_from_list": "Privacy Impact Assessment for Talent Cloud - Beta",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summaries-treasury-board-canada-secretariat/privacy-impact-assessment-talent-cloud-beta.html",
+              "title": "Privacy Impact Assessment for Talent Cloud - Beta",
+              "list_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summaries-treasury-board-canada-secretariat/privacy-impact-assessment-talent-cloud-beta.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summaries-treasury-board-canada-secretariat/privacy-impact-assessment-talent-cloud-beta.html",
+            "final_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summaries-treasury-board-canada-secretariat/privacy-impact-assessment-talent-cloud-beta.html",
+            "http_status": 404,
+            "checked_at_utc": "2026-11-12T01:50:12.287425+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "",
+            "error": "HTTP Error 404: Not Found",
+            "byte_count": 10000,
+            "sha256": "94922003107c4fdb8b08d16c128ec468a55335e83e2dc6823c5d3ddf1297bc0c"
+          },
+          "raw_path": null,
+          "markdown_path": null,
+          "markdown_sha256": null,
+          "status": "http_error"
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/evaluations-facteurs-relatifs-vie-privee-secretariat-conseil-tresor/evaluation-facteurs-relatifs-vie-privee-nuage-talents-beta.html",
+          "title_from_list": "Résumé de l’évaluation des facteurs relatifs à la vie privée dans le cadre du nuage de talents - Bêta",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie Privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/evaluations-facteurs-relatifs-vie-privee-secretariat-conseil-tresor/evaluation-facteurs-relatifs-vie-privee-nuage-talents-beta.html",
+              "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée dans le cadre du nuage de talents - Bêta",
+              "list_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/evaluations-facteurs-relatifs-vie-privee-secretariat-conseil-tresor/evaluation-facteurs-relatifs-vie-privee-nuage-talents-beta.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/evaluations-facteurs-relatifs-vie-privee-secretariat-conseil-tresor/evaluation-facteurs-relatifs-vie-privee-nuage-talents-beta.html",
+            "final_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/evaluations-facteurs-relatifs-vie-privee-secretariat-conseil-tresor/evaluation-facteurs-relatifs-vie-privee-nuage-talents-beta.html",
+            "http_status": 404,
+            "checked_at_utc": "2026-11-12T01:50:12.633048+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "",
+            "error": "HTTP Error 404: Not Found",
+            "byte_count": 10000,
+            "sha256": "eaf658b0d19152c4fa0f8e0224120b1e76c907a44c2ff1236a50f6c5e458fea4"
+          },
+          "raw_path": null,
+          "markdown_path": null,
+          "markdown_sha256": null,
+          "status": "http_error"
+        }
+      }
+    },
+    {
+      "pia_id": "pia-eda376e1d517",
+      "title_en": "Privacy Impact Assessment for Government of Canada Relocation Support Services",
+      "title_fr": "Évaluation des facteurs relatifs à la vie privée pour les Services de soutien à la réinstallation du gouvernement du Canada",
+      "url_en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-government-canada-relocation-support-services.html",
+      "url_fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/evaluation-facteurs-relatifs-vie-privee-services-soutien-reinstallation-gouvernement-canada.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-government-canada-relocation-support-services.html",
+        "alternate_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/evaluation-facteurs-relatifs-vie-privee-services-soutien-reinstallation-gouvernement-canada.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-government-canada-relocation-support-services.html",
+          "title_from_list": "Privacy Impact Assessment for Government of Canada Relocation Support Services",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-government-canada-relocation-support-services.html",
+              "title": "Privacy Impact Assessment for Government of Canada Relocation Support Services",
+              "list_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-government-canada-relocation-support-services.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-government-canada-relocation-support-services.html",
+            "final_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-government-canada-relocation-support-services.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:19.575189+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:29:50 GMT",
+            "etag": null,
+            "byte_count": 26788,
+            "sha256": "c7ff74ac0170217fd4d74b01daaad9959b95d39e704bed99428d95c9730b9c68"
+          },
+          "raw_path": "raw/eda376e1d51708b0a169.html",
+          "markdown_path": "pia-eda376e1d517_en.md",
+          "markdown_sha256": "b54450e76769d111a6452c8afe5698ed0036686c2dba4c81d3a4d3d75bb93338",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment for Government of Canada Relocation Support Services",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-government-canada-relocation-support-services.html",
+            "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/evaluation-facteurs-relatifs-vie-privee-services-soutien-reinstallation-gouvernement-canada.html"
+          },
+          "date_modified": "2016-12-29",
+          "date_published": "2017-01-19",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment for Government of Canada Relocation Support Services",
+          "conversion": "markdownify",
+          "text_sha256": "33c3b5977090314f1038277af0fe73f2f70d694dad3b2549066a0b9939523ea7",
+          "word_count": 913
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/evaluation-facteurs-relatifs-vie-privee-services-soutien-reinstallation-gouvernement-canada.html",
+          "title_from_list": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour les Services de soutien à la réinstallation du gouvernement du Canada",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie Privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/evaluation-facteurs-relatifs-vie-privee-services-soutien-reinstallation-gouvernement-canada.html",
+              "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour les Services de soutien à la réinstallation du gouvernement du Canada",
+              "list_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/evaluation-facteurs-relatifs-vie-privee-services-soutien-reinstallation-gouvernement-canada.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/evaluation-facteurs-relatifs-vie-privee-services-soutien-reinstallation-gouvernement-canada.html",
+            "final_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/evaluation-facteurs-relatifs-vie-privee-services-soutien-reinstallation-gouvernement-canada.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:24.622414+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:25 GMT",
+            "etag": null,
+            "byte_count": 28878,
+            "sha256": "bbb403356fe933e1158936791d34b51c57204f5e4612f29ece5c4276768cc661"
+          },
+          "raw_path": "raw/05d380ec308e7eb84ec9.html",
+          "markdown_path": "pia-eda376e1d517_fr.md",
+          "markdown_sha256": "a866ac3737f6bc0dcd142890fa583234b18c404eee582113c560b53d3b46eb8b",
+          "status": "exported",
+          "page_title": "Évaluation des facteurs relatifs à la vie privée pour les Services de soutien à la réinstallation du gouvernement du Canada",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/evaluation-facteurs-relatifs-vie-privee-services-soutien-reinstallation-gouvernement-canada.html",
+            "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-government-canada-relocation-support-services.html"
+          },
+          "date_modified": "2017-01-19",
+          "date_published": "2017-01-19",
+          "has_pia_text": true,
+          "title": "Évaluation des facteurs relatifs à la vie privée pour les Services de soutien à la réinstallation du gouvernement du Canada",
+          "conversion": "markdownify",
+          "text_sha256": "4aa48a6f3fc77daecfe24074033419c9a0e780711ad23556a08de405914def5a",
+          "word_count": 1177
+        }
+      }
+    },
+    {
+      "pia_id": "pia-dc724a8613e8",
+      "title_en": "Privacy Impact Assessment Summary for the Certification Program for the Federal Government Procurement and Materiel Management Communities",
+      "title_fr": "Résumé de l'évaluation des facteurs relatifs à la vie privée pour le cadre du Programme de certification pour la collectivité des acquisitions et de la gestion du matériel du gouvernement fédéral",
+      "url_en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summary-certification-program-federal-government-procurement-materiel-management-communities.html",
+      "url_fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/resume-evaluation-facteurs-relatifs-vie-privee-cadre-programme-certification-collectivite-acquisitions-gestion-materiel-gouvernement-federal.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summary-certification-program-federal-government-procurement-materiel-management-communities.html",
+        "alternate_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/resume-evaluation-facteurs-relatifs-vie-privee-cadre-programme-certification-collectivite-acquisitions-gestion-materiel-gouvernement-federal.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summary-certification-program-federal-government-procurement-materiel-management-communities.html",
+          "title_from_list": "Privacy Impact Assessment Summary for the Certification Program for the Federal Government Procurement and Materiel Management Communities",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summary-certification-program-federal-government-procurement-materiel-management-communities.html",
+              "title": "Privacy Impact Assessment Summary for the Certification Program for the Federal Government Procurement and Materiel Management Communities",
+              "list_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summary-certification-program-federal-government-procurement-materiel-management-communities.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summary-certification-program-federal-government-procurement-materiel-management-communities.html",
+            "final_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summary-certification-program-federal-government-procurement-materiel-management-communities.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:19.951976+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:20 GMT",
+            "etag": null,
+            "byte_count": 26193,
+            "sha256": "1e63a2686c14ee469aa16d73a5086992d3c99ee8179749aaa126a2c3563fb309"
+          },
+          "raw_path": "raw/dc724a8613e88d2c6532.html",
+          "markdown_path": "pia-dc724a8613e8_en.md",
+          "markdown_sha256": "5ab4972bb5b43770c5ba23e7ac0ac063aa34c5815add4c122231dd1e21ecd6a8",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summary for the Certification Program for the Federal Government Procurement and Materiel Management Communities",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summary-certification-program-federal-government-procurement-materiel-management-communities.html",
+            "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/resume-evaluation-facteurs-relatifs-vie-privee-cadre-programme-certification-collectivite-acquisitions-gestion-materiel-gouvernement-federal.html"
+          },
+          "date_modified": "2016-04-27",
+          "date_published": "2016-04-11",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment Summary for the Certification Program for the Federal Government Procurement and Materiel Management Communities",
+          "conversion": "markdownify",
+          "text_sha256": "10bc98b7acd4365daf55a8ba8acf35759dc7c29726b7e777ebb245be45b88764",
+          "word_count": 667
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/resume-evaluation-facteurs-relatifs-vie-privee-cadre-programme-certification-collectivite-acquisitions-gestion-materiel-gouvernement-federal.html",
+          "title_from_list": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le cadre du Programme de certification pour la collectivité des acquisitions et de la gestion du matériel du gouvernement fédéral",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie Privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/resume-evaluation-facteurs-relatifs-vie-privee-cadre-programme-certification-collectivite-acquisitions-gestion-materiel-gouvernement-federal.html",
+              "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le cadre du Programme de certification pour la collectivité des acquisitions et de la gestion du matériel du gouvernement fédéral",
+              "list_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/resume-evaluation-facteurs-relatifs-vie-privee-cadre-programme-certification-collectivite-acquisitions-gestion-materiel-gouvernement-federal.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/resume-evaluation-facteurs-relatifs-vie-privee-cadre-programme-certification-collectivite-acquisitions-gestion-materiel-gouvernement-federal.html",
+            "final_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/resume-evaluation-facteurs-relatifs-vie-privee-cadre-programme-certification-collectivite-acquisitions-gestion-materiel-gouvernement-federal.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:24.749644+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:25 GMT",
+            "etag": null,
+            "byte_count": 28522,
+            "sha256": "02af134ff95e7a5893c146eb03a7cb88b24a3cfd4fb3de0f87b3782150862ad9"
+          },
+          "raw_path": "raw/fe3d77121466d3f00616.html",
+          "markdown_path": "pia-dc724a8613e8_fr.md",
+          "markdown_sha256": "02de8fcf9607e5e2f54886ead973206e84064d2c91c5b81f4920788ccff77ac8",
+          "status": "exported",
+          "page_title": "Résumé de l'évaluation des facteurs relatifs à la vie privée pour le cadre du Programme de certification pour la collectivité des acquisitions et de la gestion du matériel du gouvernement fédéral",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/resume-evaluation-facteurs-relatifs-vie-privee-cadre-programme-certification-collectivite-acquisitions-gestion-materiel-gouvernement-federal.html",
+            "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summary-certification-program-federal-government-procurement-materiel-management-communities.html"
+          },
+          "date_modified": "2016-04-27",
+          "date_published": "2016-04-11",
+          "has_pia_text": true,
+          "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée pour le cadre du Programme de certification pour la collectivité des acquisitions et de la gestion du matériel du gouvernement fédéral",
+          "conversion": "markdownify",
+          "text_sha256": "fba73ed9512c509fba0c19d35a5e41d208e4f6b4574a6f87f12793eefe7f5bf5",
+          "word_count": 931
+        }
+      }
+    },
+    {
+      "pia_id": "pia-ea2a6c578eb6",
+      "title_en": "Privacy Impact Assessment Summary for the Public Service Performance Management Application (PSPM App)",
+      "title_fr": "Résumé de l'évaluation des facteurs relatifs à la vie privée pour l'application de gestion du rendement de la fonction publique (application GRFP)",
+      "url_en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summary-public-service-performance-management-application.html",
+      "url_fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/resume-evaluation-facteurs-relatifs-vie-privee-application-gestion-rendement-fonction-publique.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summary-public-service-performance-management-application.html",
+        "alternate_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/resume-evaluation-facteurs-relatifs-vie-privee-application-gestion-rendement-fonction-publique.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summary-public-service-performance-management-application.html",
+          "title_from_list": "Privacy Impact Assessment Summary for the Public Service Performance Management Application (PSPM App)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summary-public-service-performance-management-application.html",
+              "title": "Privacy Impact Assessment Summary for the Public Service Performance Management Application (PSPM App)",
+              "list_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/reports/access-information-privacy-reports-treasury-board-secretariat.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summary-public-service-performance-management-application.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summary-public-service-performance-management-application.html",
+            "final_url": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summary-public-service-performance-management-application.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:19.958137+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:20 GMT",
+            "etag": null,
+            "byte_count": 41753,
+            "sha256": "507a1b9fb6e35a7b5659fe214eaf99237734beeed26cc318258abf15891a087a"
+          },
+          "raw_path": "raw/ea2a6c578eb6c1fdf593.html",
+          "markdown_path": "pia-ea2a6c578eb6_en.md",
+          "markdown_sha256": "4b8561afb0a1da50c84cdc9dc6002c6eb8f4dd8c545df01d4a3d418068a3b7dd",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summary for the Public Service Performance Management Application (PSPM App)",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summary-public-service-performance-management-application.html",
+            "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/resume-evaluation-facteurs-relatifs-vie-privee-application-gestion-rendement-fonction-publique.html"
+          },
+          "date_modified": "2015-11-26",
+          "date_published": "2015-11-26",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment Summary for the Public Service Performance Management Application (PSPM App)",
+          "conversion": "markdownify",
+          "text_sha256": "5a296785b03626cde21e400d49fc035a3e79f060ec1c8726abea1abca709a181",
+          "word_count": 2231
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/resume-evaluation-facteurs-relatifs-vie-privee-application-gestion-rendement-fonction-publique.html",
+          "title_from_list": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour l’application de gestion du rendement de la fonction publique (application GRFP)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie Privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/resume-evaluation-facteurs-relatifs-vie-privee-application-gestion-rendement-fonction-publique.html",
+              "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour l’application de gestion du rendement de la fonction publique (application GRFP)",
+              "list_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/resume-evaluation-facteurs-relatifs-vie-privee-application-gestion-rendement-fonction-publique.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/resume-evaluation-facteurs-relatifs-vie-privee-application-gestion-rendement-fonction-publique.html",
+            "final_url": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/resume-evaluation-facteurs-relatifs-vie-privee-application-gestion-rendement-fonction-publique.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:24.746400+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:24 GMT",
+            "etag": null,
+            "byte_count": 47101,
+            "sha256": "f4483ea9aa31be0924c11f679ac9a6751aaa944c397a6f73c7550f9bca2d18dc"
+          },
+          "raw_path": "raw/a30886715c74b2f94354.html",
+          "markdown_path": "pia-ea2a6c578eb6_fr.md",
+          "markdown_sha256": "d10117f61aad67946d2f9a07610731eca0b0d51a354c11f2acb216cc26c3c475",
+          "status": "exported",
+          "page_title": "Résumé de l'évaluation des facteurs relatifs à la vie privée pour l'application de gestion du rendement de la fonction publique (application GRFP)",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/transparence/resume-evaluation-facteurs-relatifs-vie-privee-application-gestion-rendement-fonction-publique.html",
+            "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/transparency/privacy-impact-assessment-summary-public-service-performance-management-application.html"
+          },
+          "date_modified": "2015-11-26",
+          "date_published": "2015-11-26",
+          "has_pia_text": true,
+          "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée pour l'application de gestion du rendement de la fonction publique (application GRFP)",
+          "conversion": "markdownify",
+          "text_sha256": "34808b3141c10a4754ce709decbdbb1815d26ae38bc8caa39e6398769996489c",
+          "word_count": 2871
+        }
+      }
+    }
+  ],
+  "summary": {
+    "pia_count": 16,
+    "paired_count": 16,
+    "source_status_counts": {
+      "exported": 26,
+      "http_error": 6
+    }
+  }
+}

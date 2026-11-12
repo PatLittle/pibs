@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "collector_version": 1,
+  "collected_at_utc": "2026-11-12T01:50:42.096446+00:00",
+  "institution_id": "ati-schedule-i-federal-economic-development-agency-for-northern-ontario",
+  "gc_orgID": "2299.0",
+  "open_canada_org_id": "d83ab29c-c1e3-437c-97bb-bb5984ae6666",
+  "open_canada_org_slug": "fednor",
+  "name_en": "Federal Economic Development Agency for Northern Ontario",
+  "name_fr": "Agence fédérale de développement économique pour le Nord de l’Ontario",
+  "registry_membership": "current_registry",
+  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "list_pages": {
+    "en": {
+      "indexed_url": "https://fednor.canada.ca/en/transparency/access-information-and-privacy",
+      "index_resolution": "needs_review",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "no_summaries_discovered",
+      "captures": [
+        {
+          "requested_url": "https://fednor.canada.ca/en/transparency/access-information-and-privacy",
+          "final_url": "https://fednor.canada.ca/en/transparency/access-information-and-privacy",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:26.827384+00:00",
+          "redirects": [],
+          "content_type": "text/html; charset=UTF-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Mon, 09 Nov 2026 21:48:08 GMT",
+          "etag": "\"1794260888\"",
+          "byte_count": 27330,
+          "sha256": "d2fc9394a4d28bc41a09ce8f00b0e292226a16f28569a2030fc63285c5ab3fd3",
+          "raw_path": "raw/cd4fc54666ce37557b92.html"
+        }
+      ],
+      "discovered_count": 0,
+      "scopes": [],
+      "warnings": []
+    },
+    "fr": {
+      "indexed_url": "https://fednor.canada.ca/fr/transparence/acces-linformation-protection-renseignements-personnels",
+      "index_resolution": "needs_review",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "no_summaries_discovered",
+      "captures": [
+        {
+          "requested_url": "https://fednor.canada.ca/fr/transparence/acces-linformation-protection-renseignements-personnels",
+          "final_url": "https://fednor.canada.ca/fr/transparence/acces-linformation-protection-renseignements-personnels",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:26.829858+00:00",
+          "redirects": [],
+          "content_type": "text/html; charset=UTF-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Mon, 09 Nov 2026 23:58:09 GMT",
+          "etag": "\"1794268689\"",
+          "byte_count": 29614,
+          "sha256": "09a0c4dd02e98ed0e4e634d0551c4ba6cf1efca2af9da3ff700f0e51bfd3d3b0",
+          "raw_path": "raw/400821af292d29cf35eb.html"
+        }
+      ],
+      "discovered_count": 0,
+      "scopes": [],
+      "warnings": []
+    }
+  },
+  "pias": [],
+  "summary": {
+    "pia_count": 0,
+    "paired_count": 0,
+    "source_status_counts": {}
+  }
+}

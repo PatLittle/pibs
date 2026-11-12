@@ -19,6 +19,7 @@ flowchart LR
     S --> X
     S --> P[PIA list discovery<br/>from intermediate artifacts]
     P --> PL[Bilingual PIA index<br/>and HTTP/evidence checks]
+    PL --> PC[Individual PIA collection<br/>organization JSON and EN/FR Markdown]
     X --> H[Compiled PIB, class<br/>and PIB-to-class tables]
     H --> W[Static PIBS explorer<br/>GitHub Pages]
     H --> F[My Info features, evidence,<br/>questionnaire and retention rules]
@@ -61,7 +62,9 @@ flowchart LR
    The parallel [PIA list discovery stage](PIAs/README.md) parses these same
    intermediate Markdown/HTML artifacts, joins organization IDs, and checks
    bilingual summary-list URLs. `PIAs/index.csv` preserves source-link presence,
-   HTTP codes, and unresolved cases; individual assessments are a later stage.
+   HTTP codes, and unresolved cases. `PIAs/collect_content.py` follows those lists
+   and writes per-organization JSON, raw captures, and bilingual Markdown for
+   individual summaries, preserving failures and translation-pairing evidence.
 4. **Derive products and publish.** `build_my_info_features.py` combines
    institution and standard PIBs into one-row-per-PIB features, category
    assignments, record-level evidence, the bilingual questionnaire, and a

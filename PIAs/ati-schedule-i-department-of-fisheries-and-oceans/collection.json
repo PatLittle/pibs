@@ -1,0 +1,2054 @@
+{
+  "schema_version": 1,
+  "collector_version": 1,
+  "collected_at_utc": "2026-11-12T01:50:31.442661+00:00",
+  "institution_id": "ati-schedule-i-department-of-fisheries-and-oceans",
+  "gc_orgID": "2226.0",
+  "open_canada_org_id": "E56460A0-2055-4BF4-A693-EA238E0746E7",
+  "open_canada_org_slug": "dfo-mpo",
+  "name_en": "Department of Fisheries and Oceans",
+  "name_fr": "Ministère des Pêches et des Océans",
+  "registry_membership": "current_registry",
+  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "list_pages": {
+    "en": {
+      "indexed_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+          "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:29.686638+00:00",
+          "redirects": [],
+          "content_type": "text/html",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": null,
+          "etag": null,
+          "byte_count": 17298,
+          "sha256": "82b0a74b75c52c336d3cbe0d3b43c2475538658fd875b5e456341af8c3e76b15",
+          "raw_path": "raw/662eea52a039469b7a25.html"
+        }
+      ],
+      "discovered_count": 17,
+      "scopes": [
+        "Privacy impact assessment summaries"
+      ],
+      "warnings": []
+    },
+    "fr": {
+      "indexed_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+          "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:29.933381+00:00",
+          "redirects": [],
+          "content_type": "text/html",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": null,
+          "etag": null,
+          "byte_count": 18251,
+          "sha256": "a602c5de41c5deafd13259b25ff3b02ad25b5740492cedcbdd7b8c3515f8cd50",
+          "raw_path": "raw/3a90fe8d9f42674900c5.html"
+        }
+      ],
+      "discovered_count": 17,
+      "scopes": [
+        "Sommaires des évaluations des facteurs relatifs à la vie privée"
+      ],
+      "warnings": []
+    }
+  },
+  "pias": [
+    {
+      "pia_id": "pia-a05be857e72b",
+      "title_en": "Summary of the Privacy Impact Assessment for Oyster Licence Retirement Grant Program",
+      "title_fr": "Résumé de l'évaluation des facteurs relatifs à la vie privée du Programme de subventions pour le retrait de permis de pêche aux huîtres",
+      "url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/oyster-licence-retirement-retrait-permis-peche-huitres-eng.html",
+      "url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/oyster-licence-retirement-retrait-permis-peche-huitres-fra.html",
+      "pairing_status": "paired",
+      "pairing_method": "matching_language_variant_url",
+      "pairing_evidence": {
+        "normalized_url_key": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/oyster-licence-retirement-retrait-permis-peche-huitres-{lang}.html",
+        "observed_url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/oyster-licence-retirement-retrait-permis-peche-huitres-eng.html",
+        "observed_url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/oyster-licence-retirement-retrait-permis-peche-huitres-fra.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/oyster-licence-retirement-retrait-permis-peche-huitres-eng.html",
+          "title_from_list": "Oyster Licence Retirement Grant Program",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/oyster-licence-retirement-retrait-permis-peche-huitres-eng.html",
+              "title": "Oyster Licence Retirement Grant Program",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/oyster-licence-retirement-retrait-permis-peche-huitres-eng.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/oyster-licence-retirement-retrait-permis-peche-huitres-eng.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/oyster-licence-retirement-retrait-permis-peche-huitres-eng.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:31.194657+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 18957,
+            "sha256": "fec617728824b4b3f7aaf5ba5c9c29310bdda8d5873510e45192b5afa518f4e9"
+          },
+          "raw_path": "raw/a05be857e72b1cfa31c4.html",
+          "markdown_path": "pia-a05be857e72b_en.md",
+          "markdown_sha256": "6e7b87306c1a693be9bd4df3a99ce134cf3739ae1f05acf37bf2c32f5ad094ea",
+          "status": "exported",
+          "page_title": "Summary of the Privacy Impact Assessment for Oyster Licence Retirement Grant Program",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2026-09-18",
+          "date_published": "2026-09-18",
+          "has_pia_text": true,
+          "title": "Summary of the Privacy Impact Assessment for Oyster Licence Retirement Grant Program",
+          "conversion": "markdownify",
+          "text_sha256": "8792c50bda64b890a4048586d727b94c1bd3391998b89141fd9fa4381dc99be2",
+          "word_count": 577
+        },
+        "fr": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/oyster-licence-retirement-retrait-permis-peche-huitres-fra.html",
+          "title_from_list": "Programme de subventions pour le retrait de permis de pêche aux huîtres",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+          "discovered_under": "Sommaires des évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/oyster-licence-retirement-retrait-permis-peche-huitres-fra.html",
+              "title": "Programme de subventions pour le retrait de permis de pêche aux huîtres",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/oyster-licence-retirement-retrait-permis-peche-huitres-fra.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/oyster-licence-retirement-retrait-permis-peche-huitres-fra.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/oyster-licence-retirement-retrait-permis-peche-huitres-fra.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:31.346432+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 21009,
+            "sha256": "455b85d8acc107afb589e57e4e4cae679885a3af596624ec8b81d9d047e3d20b"
+          },
+          "raw_path": "raw/c7772cd7f738d581cee8.html",
+          "markdown_path": "pia-a05be857e72b_fr.md",
+          "markdown_sha256": "7095c7551801cf14ca0bfed54ef372c4204ad1f2f666ec2d08cc63422f397da5",
+          "status": "exported",
+          "page_title": "Résumé de l'évaluation des facteurs relatifs à la vie privée du Programme de subventions pour le retrait de permis de pêche aux huîtres",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2026-09-18",
+          "date_published": "2026-09-18",
+          "has_pia_text": true,
+          "title": "Résumé de l'évaluation des facteurs relatifs à la vie privée du Programme de subventions pour le retrait de permis de pêche aux huîtres",
+          "conversion": "markdownify",
+          "text_sha256": "6103b39e94d898c0ff5018e116e7d2de3198569cb63f07aa2ebf61b81446ea38",
+          "word_count": 752
+        }
+      }
+    },
+    {
+      "pia_id": "pia-cdd3d5570126",
+      "title_en": "Summary of the Privacy Impact Assessment for the Occupational Health and Safety Information System – Workplace Compensation Claims Process",
+      "title_fr": "Résumé de l’évaluation des facteurs relatifs à la vie privée du Système d’information sur la santé et la sécurité au travail – Processus de demandes d’indemnisation en milieu de travail",
+      "url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/occupational-health-safety-eng.html",
+      "url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/occupational-health-safety-fra.html",
+      "pairing_status": "paired",
+      "pairing_method": "matching_language_variant_url",
+      "pairing_evidence": {
+        "normalized_url_key": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/occupational-health-safety-{lang}.html",
+        "observed_url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/occupational-health-safety-eng.html",
+        "observed_url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/occupational-health-safety-fra.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/occupational-health-safety-eng.html",
+          "title_from_list": "Occupational Health and Safety Information System – Workplace Compensation Claims Process",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/occupational-health-safety-eng.html",
+              "title": "Occupational Health and Safety Information System – Workplace Compensation Claims Process",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/occupational-health-safety-eng.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/occupational-health-safety-eng.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/occupational-health-safety-eng.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:31.072924+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 19633,
+            "sha256": "667247b70c58c3994b392053538bc537c62be927d396e3833b55e521e70f12dc"
+          },
+          "raw_path": "raw/cdd3d5570126285a2c7f.html",
+          "markdown_path": "pia-cdd3d5570126_en.md",
+          "markdown_sha256": "656426729fe9477b63428d27c1f76f2eb7a3d1d099e8f30da26e50fb7b8f3918",
+          "status": "exported",
+          "page_title": "Summary of the Privacy Impact Assessment for the Occupational Health and Safety Information System – Workplace Compensation Claims Process",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2026-04-23",
+          "date_published": "2026-04-23",
+          "has_pia_text": true,
+          "title": "Summary of the Privacy Impact Assessment for the Occupational Health and Safety Information System – Workplace Compensation Claims Process",
+          "conversion": "markdownify",
+          "text_sha256": "b492dc62da3793a3d7a1470a605e323c319964f570e9bf661f24dda85aa8d4c3",
+          "word_count": 517
+        },
+        "fr": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/occupational-health-safety-fra.html",
+          "title_from_list": "Système d’information sur la santé et la sécurité au travail – Processus de demandes d’indemnisation en milieu de travail",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+          "discovered_under": "Sommaires des évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/occupational-health-safety-fra.html",
+              "title": "Système d’information sur la santé et la sécurité au travail – Processus de demandes d’indemnisation en milieu de travail",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/occupational-health-safety-fra.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/occupational-health-safety-fra.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/occupational-health-safety-fra.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:31.117512+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 21503,
+            "sha256": "4836947e30ccfdcd092cdcd41a4c706c6cfb1b13a096c1b70e6eaa0b68ba4ee3"
+          },
+          "raw_path": "raw/89b28610235a2738bbab.html",
+          "markdown_path": "pia-cdd3d5570126_fr.md",
+          "markdown_sha256": "e109484c8bb8cfc9c329a357410b2de1899ccd0b025080297ab9bd650c99333c",
+          "status": "exported",
+          "page_title": "Résumé de l’évaluation des facteurs relatifs à la vie privée du Système d’information sur la santé et la sécurité au travail – Processus de demandes d’indemnisation en milieu de travail",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2026-04-23",
+          "date_published": "2026-04-23",
+          "has_pia_text": true,
+          "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée du Système d’information sur la santé et la sécurité au travail – Processus de demandes d’indemnisation en milieu de travail",
+          "conversion": "markdownify",
+          "text_sha256": "3768ee9a56c159bbca1a241afdb2d72cc93eb9b61a58dc8a0a606956afc02635",
+          "word_count": 726
+        }
+      }
+    },
+    {
+      "pia_id": "pia-d34013fba266",
+      "title_en": "Summary of the Privacy Impact Assessment for the Possession and Export of Elver Licence",
+      "title_fr": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le permis de possession et d’exportation de civelles",
+      "url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/elver-licence-permis-civelles-eng.html",
+      "url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/elver-licence-permis-civelles-fra.html",
+      "pairing_status": "paired",
+      "pairing_method": "matching_language_variant_url",
+      "pairing_evidence": {
+        "normalized_url_key": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/elver-licence-permis-civelles-{lang}.html",
+        "observed_url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/elver-licence-permis-civelles-eng.html",
+        "observed_url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/elver-licence-permis-civelles-fra.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/elver-licence-permis-civelles-eng.html",
+          "title_from_list": "Possession and Export of Elver Licence Information",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/elver-licence-permis-civelles-eng.html",
+              "title": "Possession and Export of Elver Licence Information",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/elver-licence-permis-civelles-eng.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/elver-licence-permis-civelles-eng.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/elver-licence-permis-civelles-eng.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:29.707916+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 19928,
+            "sha256": "d74b500334020caca4971f5e597167f2da08c75e757c15c99afce33fb4465c51"
+          },
+          "raw_path": "raw/d34013fba266276e5886.html",
+          "markdown_path": "pia-d34013fba266_en.md",
+          "markdown_sha256": "c75390c7bcca5a9d4a91e828344b45ff398e080afd0862c1927a692d2820b0aa",
+          "status": "exported",
+          "page_title": "Summary of the Privacy Impact Assessment for the Possession and Export of Elver Licence",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2025-07-31",
+          "date_published": "2025-07-23",
+          "has_pia_text": true,
+          "title": "Summary of the Privacy Impact Assessment for the Possession and Export of Elver Licence",
+          "conversion": "markdownify",
+          "text_sha256": "1edc417369562100a300fd90a5d2cbfc6d9d005e2465cd8319ae8ec858ac2023",
+          "word_count": 662
+        },
+        "fr": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/elver-licence-permis-civelles-fra.html",
+          "title_from_list": "Information sur le permis de possession et d’exportation de civelles",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+          "discovered_under": "Sommaires des évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/elver-licence-permis-civelles-fra.html",
+              "title": "Information sur le permis de possession et d’exportation de civelles",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/elver-licence-permis-civelles-fra.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/elver-licence-permis-civelles-fra.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/elver-licence-permis-civelles-fra.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:29.782299+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 21798,
+            "sha256": "fdb8bcf39fd022b983822a20500d2a691ceafda8ecc5deceeb23c6c4ac67067a"
+          },
+          "raw_path": "raw/aa9268fef6dedea70fef.html",
+          "markdown_path": "pia-d34013fba266_fr.md",
+          "markdown_sha256": "93d14bef490cb1ccea6b96b7e893b5d4aca03e23a5b5285d6dbd08b25f7a0604",
+          "status": "exported",
+          "page_title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le permis de possession et d’exportation de civelles",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2025-07-31",
+          "date_published": "2025-07-23",
+          "has_pia_text": true,
+          "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le permis de possession et d’exportation de civelles",
+          "conversion": "markdownify",
+          "text_sha256": "f6bb60180efa480ed0c9acf0e92a8e4a69bb90cdd6022a7d1a626e93fe0f060d",
+          "word_count": 881
+        }
+      }
+    },
+    {
+      "pia_id": "pia-1a66712cbc52",
+      "title_en": "Open Source Information Collection (OSIC) Initiative",
+      "title_fr": "Initiative de collecte de renseignements de source ouverte",
+      "url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/information-collection-collecte-renseignements-eng.html",
+      "url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/information-collection-collecte-renseignements-fra.html",
+      "pairing_status": "paired",
+      "pairing_method": "matching_language_variant_url",
+      "pairing_evidence": {
+        "normalized_url_key": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/information-collection-collecte-renseignements-{lang}.html",
+        "observed_url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/information-collection-collecte-renseignements-eng.html",
+        "observed_url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/information-collection-collecte-renseignements-fra.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/information-collection-collecte-renseignements-eng.html",
+          "title_from_list": "Open Source Information Collection (OSIC) Initiative",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/information-collection-collecte-renseignements-eng.html",
+              "title": "Open Source Information Collection (OSIC) Initiative",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/information-collection-collecte-renseignements-eng.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/information-collection-collecte-renseignements-eng.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/information-collection-collecte-renseignements-eng.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:30.264854+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 20137,
+            "sha256": "1f096d30621be112bb5ce918b224878c97ce0c84a66eaf7413d9a1db0fdcc138"
+          },
+          "raw_path": "raw/1a66712cbc52993286d4.html",
+          "markdown_path": "pia-1a66712cbc52_en.md",
+          "markdown_sha256": "0bbcd10cb8317a0f25d26951e7c321fa360c34fed4b7c89488b2c0f27743995c",
+          "status": "exported",
+          "page_title": "Open Source Information Collection (OSIC) Initiative",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2024-04-03",
+          "date_published": "2024-04-03",
+          "has_pia_text": true,
+          "title": "Open Source Information Collection (OSIC) Initiative",
+          "conversion": "markdownify",
+          "text_sha256": "fd93eca58980186c3d2a1a7a11f0fa100cf1e903c232f6402666e46e04c966fe",
+          "word_count": 753
+        },
+        "fr": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/information-collection-collecte-renseignements-fra.html",
+          "title_from_list": "Initiative de collecte de renseignements de source ouverte",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+          "discovered_under": "Sommaires des évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/information-collection-collecte-renseignements-fra.html",
+              "title": "Initiative de collecte de renseignements de source ouverte",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/information-collection-collecte-renseignements-fra.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/information-collection-collecte-renseignements-fra.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/information-collection-collecte-renseignements-fra.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:30.481997+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 22758,
+            "sha256": "fb22e4598149c66cb20eadc48058c9c144d87fc3724ba701824f0908898d4dce"
+          },
+          "raw_path": "raw/3dcdfbf2613afcc18f8d.html",
+          "markdown_path": "pia-1a66712cbc52_fr.md",
+          "markdown_sha256": "cce78686262d1fe8ab11940d917fdbf6233e6e32007f1a93657d0b4de243d3dc",
+          "status": "exported",
+          "page_title": "Initiative de collecte de renseignements de source ouverte",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2024-04-03",
+          "date_published": "2024-04-03",
+          "has_pia_text": true,
+          "title": "Initiative de collecte de renseignements de source ouverte",
+          "conversion": "markdownify",
+          "text_sha256": "bc703f2ed31005dc600dc259837c396698b8701a050c20a23b5bddea1705baa6",
+          "word_count": 1047
+        }
+      }
+    },
+    {
+      "pia_id": "pia-0d75e126b3a3",
+      "title_en": "FishingBC App and National Recreational Licensing System (NRLS) Integration Initiative",
+      "title_fr": "Initiative de l’intégration de l’application FishingBC au Système national d’émission de permis de pêche récréative (SNEPR)",
+      "url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/fishingbc-app-nrls-snepr-eng.html",
+      "url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/fishingbc-app-nrls-snepr-fra.html",
+      "pairing_status": "paired",
+      "pairing_method": "matching_language_variant_url",
+      "pairing_evidence": {
+        "normalized_url_key": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/fishingbc-app-nrls-snepr-{lang}.html",
+        "observed_url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/fishingbc-app-nrls-snepr-eng.html",
+        "observed_url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/fishingbc-app-nrls-snepr-fra.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/fishingbc-app-nrls-snepr-eng.html",
+          "title_from_list": "FishingBC App and National Recreational Licensing System (NRLS) Integration Initiative",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/fishingbc-app-nrls-snepr-eng.html",
+              "title": "FishingBC App and National Recreational Licensing System (NRLS) Integration Initiative",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/fishingbc-app-nrls-snepr-eng.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/fishingbc-app-nrls-snepr-eng.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/fishingbc-app-nrls-snepr-eng.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:29.784533+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 19009,
+            "sha256": "015024510911f992a16b129a47e918a7e25c2ad6b42c07daa1062b71fa713f82"
+          },
+          "raw_path": "raw/0d75e126b3a3a186f37d.html",
+          "markdown_path": "pia-0d75e126b3a3_en.md",
+          "markdown_sha256": "bf7f1b85f331e6e6099fce27d7ec143a61fc5fed7318c2c548148736b3e83ee7",
+          "status": "exported",
+          "page_title": "FishingBC App and National Recreational Licensing System (NRLS) Integration Initiative",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2023-08-02",
+          "date_published": "2023-08-02",
+          "has_pia_text": true,
+          "title": "FishingBC App and National Recreational Licensing System (NRLS) Integration Initiative",
+          "conversion": "markdownify",
+          "text_sha256": "6eb82aa4e9d81947c8c6e8eb8e5ffb5e7bb4725e5181f6c88b179f0d46836087",
+          "word_count": 701
+        },
+        "fr": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/fishingbc-app-nrls-snepr-fra.html",
+          "title_from_list": "Initiative de l’intégration de l’application FishingBC au Système national d’émission de permis de pêche récréative (SNEPR)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+          "discovered_under": "Sommaires des évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/fishingbc-app-nrls-snepr-fra.html",
+              "title": "Initiative de l’intégration de l’application FishingBC au Système national d’émission de permis de pêche récréative (SNEPR)",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/fishingbc-app-nrls-snepr-fra.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/fishingbc-app-nrls-snepr-fra.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/fishingbc-app-nrls-snepr-fra.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:29.794396+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 21504,
+            "sha256": "d2f5df676b6103e1f88de94df42b044561c856446ec582a93af5d07989d28c45"
+          },
+          "raw_path": "raw/607bce469a1c797de6c1.html",
+          "markdown_path": "pia-0d75e126b3a3_fr.md",
+          "markdown_sha256": "6cb54a299a4323231aaeb54dd038dc45a55e2eda740c25dbd3eb977e1079031e",
+          "status": "exported",
+          "page_title": "Initiative de l’intégration de l’application FishingBC au Système national d’émission de permis de pêche récréative (SNEPR)",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2023-08-04",
+          "date_published": "2023-08-02",
+          "has_pia_text": true,
+          "title": "Initiative de l’intégration de l’application FishingBC au Système national d’émission de permis de pêche récréative (SNEPR)",
+          "conversion": "markdownify",
+          "text_sha256": "a2919d7d6bc42c2a96cfa18a4b966ab5827c36672b5ad2af7f88a29e3b26c528",
+          "word_count": 928
+        }
+      }
+    },
+    {
+      "pia_id": "pia-e2534a29ac38",
+      "title_en": "Pacific Salmon Strategy Initiative, Initiative 15.2",
+      "title_fr": "Stratégie relative au saumon du Pacifique, initiative 15.2",
+      "url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-2-eng.html",
+      "url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-2-fra.html",
+      "pairing_status": "paired",
+      "pairing_method": "matching_language_variant_url",
+      "pairing_evidence": {
+        "normalized_url_key": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-2-{lang}.html",
+        "observed_url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-2-eng.html",
+        "observed_url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-2-fra.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-2-eng.html",
+          "title_from_list": "Pacific Salmon Strategy Initiative, Initiative 15.2",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-2-eng.html",
+              "title": "Pacific Salmon Strategy Initiative, Initiative 15.2",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-2-eng.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-2-eng.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-2-eng.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:31.570405+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 17438,
+            "sha256": "43b30b9cf9cb49f06d48752acf178eab18e0261abb798f32f29f6a8c1e0e965f"
+          },
+          "raw_path": "raw/e2534a29ac38de88980a.html",
+          "markdown_path": "pia-e2534a29ac38_en.md",
+          "markdown_sha256": "7d756a2962f7c687febb935c66984e369c866531c1929a2bc3e54d1762c0da9a",
+          "status": "exported",
+          "page_title": "Pacific Salmon Strategy Initiative, Initiative 15.2",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2022-07-21",
+          "date_published": "2022-07-19",
+          "has_pia_text": true,
+          "title": "Pacific Salmon Strategy Initiative, Initiative 15.2",
+          "conversion": "markdownify",
+          "text_sha256": "c245af653e514ea80de4c69404455fdeaa836b0413d2e89dab24eacaaa155f37",
+          "word_count": 428
+        },
+        "fr": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-2-fra.html",
+          "title_from_list": "Stratégie relative au saumon du Pacifique, initiative 15,2",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+          "discovered_under": "Sommaires des évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-2-fra.html",
+              "title": "Stratégie relative au saumon du Pacifique, initiative 15,2",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-2-fra.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-2-fra.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-2-fra.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:31.637526+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 18781,
+            "sha256": "702cceaaab4c533ae9de0ccaa1df26f838fe67be1488d5f4573753d581f6d88f"
+          },
+          "raw_path": "raw/c1f0ccc1607acd87f285.html",
+          "markdown_path": "pia-e2534a29ac38_fr.md",
+          "markdown_sha256": "797e6179ae07d0070c53b9ba456cd5544c3466cc582f3585b05f4c112284e366",
+          "status": "exported",
+          "page_title": "Stratégie relative au saumon du Pacifique, initiative 15.2",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2022-07-21",
+          "date_published": "2022-07-19",
+          "has_pia_text": true,
+          "title": "Stratégie relative au saumon du Pacifique, initiative 15.2",
+          "conversion": "markdownify",
+          "text_sha256": "954a47503d44345b1bf526a1d8d62a325026d6d79a59c92a87835406e1b17b13",
+          "word_count": 574
+        }
+      }
+    },
+    {
+      "pia_id": "pia-9d5fcae13a0a",
+      "title_en": "Pacific Salmon Strategy Initiative, Initiative 15.3",
+      "title_fr": "Stratégie relative au saumon du Pacifique, initiative 15.3",
+      "url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-3-eng.html",
+      "url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-3-fra.html",
+      "pairing_status": "paired",
+      "pairing_method": "matching_language_variant_url",
+      "pairing_evidence": {
+        "normalized_url_key": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-3-{lang}.html",
+        "observed_url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-3-eng.html",
+        "observed_url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-3-fra.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-3-eng.html",
+          "title_from_list": "Pacific Salmon Strategy Initiative, Initiative 15.3",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-3-eng.html",
+              "title": "Pacific Salmon Strategy Initiative, Initiative 15.3",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-3-eng.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-3-eng.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-3-eng.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:31.678762+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 19297,
+            "sha256": "9d6a1698b7247ab8a87bae091413e556c47a462dc8209377c2ced1961c02847a"
+          },
+          "raw_path": "raw/9d5fcae13a0aa621c683.html",
+          "markdown_path": "pia-9d5fcae13a0a_en.md",
+          "markdown_sha256": "62beb78b5891997f70c6c894379c1435007765538c4aa78045b5f448310438aa",
+          "status": "exported",
+          "page_title": "Pacific Salmon Strategy Initiative, Initiative 15.3",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2022-06-27",
+          "date_published": "2022-06-27",
+          "has_pia_text": true,
+          "title": "Pacific Salmon Strategy Initiative, Initiative 15.3",
+          "conversion": "markdownify",
+          "text_sha256": "344e532e0c17a34f6487e24e2dfcc2770b07abd89924334d15654aa6d8398d8f",
+          "word_count": 671
+        },
+        "fr": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-3-fra.html",
+          "title_from_list": "Stratégie relative au saumon du Pacifique, initiative 15,3",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+          "discovered_under": "Sommaires des évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-3-fra.html",
+              "title": "Stratégie relative au saumon du Pacifique, initiative 15,3",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-3-fra.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-3-fra.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-3-fra.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:31.736780+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 21046,
+            "sha256": "42d48cf79471bff2faea6bc4b1e3a86618fc144fbfbc3fa5566aa81a77c9ba27"
+          },
+          "raw_path": "raw/dd1981bd0bf0fb8fb367.html",
+          "markdown_path": "pia-9d5fcae13a0a_fr.md",
+          "markdown_sha256": "2773425edb9ac60b5baf2d4ec664b2155f72b8b7257e6ae66363b7657dd23129",
+          "status": "exported",
+          "page_title": "Stratégie relative au saumon du Pacifique, initiative 15.3",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2022-06-27",
+          "date_published": "2022-06-27",
+          "has_pia_text": false,
+          "title": "Stratégie relative au saumon du Pacifique, initiative 15.3",
+          "conversion": "markdownify",
+          "text_sha256": "9155627ec9080a88a8eaebaaad0ed7ed94abfe1ca51ed147cd8fc64d4a791417",
+          "word_count": 866
+        }
+      }
+    },
+    {
+      "pia_id": "pia-c3a3d9ff955d",
+      "title_en": "Pacific Salmon Strategy Initiative, Initiative 15.4",
+      "title_fr": "Stratégie relative au saumon du Pacifique, initiative 15,4",
+      "url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-4-eng.html",
+      "url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-4-fra.html",
+      "pairing_status": "paired",
+      "pairing_method": "matching_language_variant_url",
+      "pairing_evidence": {
+        "normalized_url_key": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-4-{lang}.html",
+        "observed_url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-4-eng.html",
+        "observed_url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-4-fra.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-4-eng.html",
+          "title_from_list": "Pacific Salmon Strategy Initiative, Initiative 15.4",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-4-eng.html",
+              "title": "Pacific Salmon Strategy Initiative, Initiative 15.4",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-4-eng.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-4-eng.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-4-eng.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:31.808438+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 16974,
+            "sha256": "1ccb1840c590db97e9b4392e99d1c46e190a2a156ddd0216c5bef54748a238ac"
+          },
+          "raw_path": "raw/c3a3d9ff955d8af950ed.html",
+          "markdown_path": "pia-c3a3d9ff955d_en.md",
+          "markdown_sha256": "268850e8fe87a249976def22aad90c4f9d5e7e9d78546ed393933a92a375efeb",
+          "status": "exported",
+          "page_title": "Pacific Salmon Strategy Initiative, Initiative 15.4",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2023-02-28",
+          "date_published": "2023-02-28",
+          "has_pia_text": true,
+          "title": "Pacific Salmon Strategy Initiative, Initiative 15.4",
+          "conversion": "markdownify",
+          "text_sha256": "8bc845dfe1d090eaff5bc12cb9e40c507a37e0b25c8acffcb391853fac96d629",
+          "word_count": 420
+        },
+        "fr": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-4-fra.html",
+          "title_from_list": "Stratégie relative au saumon du Pacifique, initiative 15,4",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+          "discovered_under": "Sommaires des évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-4-fra.html",
+              "title": "Stratégie relative au saumon du Pacifique, initiative 15,4",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-4-fra.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-4-fra.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pss-ssp-initiative-15-4-fra.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:31.856721+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 18272,
+            "sha256": "ad0d221cbb43c5ef514719eb23a22546ce4a3efd31b3e3e07182d48bbd1f82f4"
+          },
+          "raw_path": "raw/bef2655179a61d12f9e5.html",
+          "markdown_path": "pia-c3a3d9ff955d_fr.md",
+          "markdown_sha256": "79569119c1c05d8e3c0d3af515df453f7b2e68d6f0d7e4da8e3a1db74ec4cd3d",
+          "status": "exported",
+          "page_title": "Stratégie relative au saumon du Pacifique, initiative 15,4",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2023-02-28",
+          "date_published": "2023-02-28",
+          "has_pia_text": true,
+          "title": "Stratégie relative au saumon du Pacifique, initiative 15,4",
+          "conversion": "markdownify",
+          "text_sha256": "aaadff372fe4391ad9fd77cce297b6475f859d2abc86cc61cc03112ab9523311",
+          "word_count": 561
+        }
+      }
+    },
+    {
+      "pia_id": "pia-ed441fb60596",
+      "title_en": "Fishery Officer Body Worn Camera (“BWC”) Pilot Project",
+      "title_fr": "Projet pilote sur le port de caméras d’intervention par les agents des pêches",
+      "url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pilot-project-projet-pilote-eng.html",
+      "url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pilot-project-projet-pilote-fra.html",
+      "pairing_status": "paired",
+      "pairing_method": "matching_language_variant_url",
+      "pairing_evidence": {
+        "normalized_url_key": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pilot-project-projet-pilote-{lang}.html",
+        "observed_url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pilot-project-projet-pilote-eng.html",
+        "observed_url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pilot-project-projet-pilote-fra.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pilot-project-projet-pilote-eng.html",
+          "title_from_list": "Fishery Officer Body Worn Camera (“BWC”) Pilot Project",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pilot-project-projet-pilote-eng.html",
+              "title": "Fishery Officer Body Worn Camera (“BWC”) Pilot Project",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pilot-project-projet-pilote-eng.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pilot-project-projet-pilote-eng.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pilot-project-projet-pilote-eng.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:31.346872+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 18347,
+            "sha256": "ecb96d695dd56792eb15386fc8f29987f22e5e1ad22e1e2dd6583be06c243737"
+          },
+          "raw_path": "raw/ed441fb60596ebeb2fe8.html",
+          "markdown_path": "pia-ed441fb60596_en.md",
+          "markdown_sha256": "51eb7824e5329f984c5e93fc3474a9220101671c0ade206a4aeecc25f67c83fb",
+          "status": "exported",
+          "page_title": "Fishery Officer Body Worn Camera (“BWC”) Pilot Project",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2022-05-18",
+          "date_published": "2022-05-11",
+          "has_pia_text": true,
+          "title": "Fishery Officer Body Worn Camera (“BWC”) Pilot Project",
+          "conversion": "markdownify",
+          "text_sha256": "a6c6d048083ac9b98879c74dc5297414827f7cbccc0662caf8a77c02881ec119",
+          "word_count": 607
+        },
+        "fr": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pilot-project-projet-pilote-fra.html",
+          "title_from_list": "Projet pilote sur le port de caméras d'intervention par les agents des pêches",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+          "discovered_under": "Sommaires des évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pilot-project-projet-pilote-fra.html",
+              "title": "Projet pilote sur le port de caméras d'intervention par les agents des pêches",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pilot-project-projet-pilote-fra.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pilot-project-projet-pilote-fra.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/pilot-project-projet-pilote-fra.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:31.385075+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 20264,
+            "sha256": "e1b0f0f6aaa4d58e36ffe48d9880eab2041de3ef842c7b0a24c976d40fc8f981"
+          },
+          "raw_path": "raw/42b6b57909b64fadfde6.html",
+          "markdown_path": "pia-ed441fb60596_fr.md",
+          "markdown_sha256": "546d75e24f8b5354ae034adf9a8d84ae3ecf0cbb287486cdf27e9276b41ea1f5",
+          "status": "exported",
+          "page_title": "Projet pilote sur le port de caméras d’intervention par les agents des pêches",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2022-05-18",
+          "date_published": "2022-05-11",
+          "has_pia_text": true,
+          "title": "Projet pilote sur le port de caméras d’intervention par les agents des pêches",
+          "conversion": "markdownify",
+          "text_sha256": "bba7a4ecdb7d840b828e39a68066646b2a1a56521db5ccbe4c9834efc0f11a73",
+          "word_count": 809
+        }
+      }
+    },
+    {
+      "pia_id": "pia-9e46f4c37c1c",
+      "title_en": "Aquatic Invasive Species Program",
+      "title_fr": "Le programme d'espèces aquatiques envahissantes",
+      "url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/invasive-envahissante-eng.html",
+      "url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/invasive-envahissante-fra.html",
+      "pairing_status": "paired",
+      "pairing_method": "matching_language_variant_url",
+      "pairing_evidence": {
+        "normalized_url_key": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/invasive-envahissante-{lang}.html",
+        "observed_url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/invasive-envahissante-eng.html",
+        "observed_url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/invasive-envahissante-fra.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/invasive-envahissante-eng.html",
+          "title_from_list": "Aquatic Invasive Species Program",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/invasive-envahissante-eng.html",
+              "title": "Aquatic Invasive Species Program",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/invasive-envahissante-eng.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/invasive-envahissante-eng.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/invasive-envahissante-eng.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:30.830164+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 22168,
+            "sha256": "d15e5b836b5efc05863d498fc32f1e6cbfc8ffc0db2cf8232e12591b2b1772e3"
+          },
+          "raw_path": "raw/9e46f4c37c1c482ca948.html",
+          "markdown_path": "pia-9e46f4c37c1c_en.md",
+          "markdown_sha256": "c0f2d3d506cd2a3f27f99331e4134499198d4e3afcefbf6f6747257ee103b6db",
+          "status": "exported",
+          "page_title": "Aquatic Invasive Species Program",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2021-06-01",
+          "date_published": "2021-05-11",
+          "has_pia_text": true,
+          "title": "Aquatic Invasive Species Program",
+          "conversion": "markdownify",
+          "text_sha256": "a29a343734b8a8dabfcf75ecad2d3f4f6e606e481d92f96d3403e87bba0d5c78",
+          "word_count": 1118
+        },
+        "fr": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/invasive-envahissante-fra.html",
+          "title_from_list": "Programme d'espèces aquatiques envahissantes",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+          "discovered_under": "Sommaires des évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/invasive-envahissante-fra.html",
+              "title": "Programme d'espèces aquatiques envahissantes",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/invasive-envahissante-fra.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/invasive-envahissante-fra.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/invasive-envahissante-fra.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:30.865208+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 25338,
+            "sha256": "c7c68ac2f27dfa15e4717cd83316ca2485704aa90bfeb1cfcbb75f39630c9012"
+          },
+          "raw_path": "raw/b3b36c348b0dd172bb8a.html",
+          "markdown_path": "pia-9e46f4c37c1c_fr.md",
+          "markdown_sha256": "c6def3be300038ef727e8293b8db63b6057c12daa20c1181194f62f844851722",
+          "status": "exported",
+          "page_title": "Le programme d'espèces aquatiques envahissantes",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2021-06-01",
+          "date_published": "2021-05-11",
+          "has_pia_text": true,
+          "title": "Le programme d'espèces aquatiques envahissantes",
+          "conversion": "markdownify",
+          "text_sha256": "98041bfbb4175b685eacbafd8cef659834823b953ab1470a2f85dc39842dd9ba",
+          "word_count": 1468
+        }
+      }
+    },
+    {
+      "pia_id": "pia-aa48cf5f7929",
+      "title_en": "Atlantic Fisheries Fund",
+      "title_fr": "Fonds des pêches de l'Atlantique",
+      "url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/atlantic-atlantique-eng.html",
+      "url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/atlantic-atlantique-fra.html",
+      "pairing_status": "paired",
+      "pairing_method": "matching_language_variant_url",
+      "pairing_evidence": {
+        "normalized_url_key": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/atlantic-atlantique-{lang}.html",
+        "observed_url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/atlantic-atlantique-eng.html",
+        "observed_url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/atlantic-atlantique-fra.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/atlantic-atlantique-eng.html",
+          "title_from_list": "Atlantic Fisheries Fund",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/atlantic-atlantique-eng.html",
+              "title": "Atlantic Fisheries Fund",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/atlantic-atlantique-eng.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/atlantic-atlantique-eng.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/atlantic-atlantique-eng.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:29.645369+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 22089,
+            "sha256": "c5a364a2a02afcbda2ecfd3a65614231d724d40fa99a56f32ab4b5d1d5141672"
+          },
+          "raw_path": "raw/aa48cf5f792969f56767.html",
+          "markdown_path": "pia-aa48cf5f7929_en.md",
+          "markdown_sha256": "72bcc3d93bf0db326d8a0b5591932453ffb1a6706dbf74b9b59c4a08821f546f",
+          "status": "exported",
+          "page_title": "Atlantic Fisheries Fund",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2021-06-01",
+          "date_published": "2021-05-11",
+          "has_pia_text": true,
+          "title": "Atlantic Fisheries Fund",
+          "conversion": "markdownify",
+          "text_sha256": "c1deb2f4a8bce740fec3189d09c871ddca40d58a4ade4bfc2ac681ed9100900b",
+          "word_count": 1183
+        },
+        "fr": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/atlantic-atlantique-fra.html",
+          "title_from_list": "Programme des fonds des pêches de l’Atlantique",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+          "discovered_under": "Sommaires des évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/atlantic-atlantique-fra.html",
+              "title": "Programme des fonds des pêches de l’Atlantique",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/atlantic-atlantique-fra.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/atlantic-atlantique-fra.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/atlantic-atlantique-fra.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:29.655348+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 25029,
+            "sha256": "097ec7b61df57dc8e5e3cc4a4322e1516769124a883fc9f1e64f961bf725dda0"
+          },
+          "raw_path": "raw/5f78ef5ac2f87c4a75a9.html",
+          "markdown_path": "pia-aa48cf5f7929_fr.md",
+          "markdown_sha256": "98ad1115b6253e9e80711c46bb301e05fb3d83d05a892bc39d620db267fb8ddf",
+          "status": "exported",
+          "page_title": "Fonds des pêches de l'Atlantique",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2021-06-01",
+          "date_published": "2021-05-11",
+          "has_pia_text": true,
+          "title": "Fonds des pêches de l'Atlantique",
+          "conversion": "markdownify",
+          "text_sha256": "33f8038c154824efb83617c0fb4e48d7a9713f643a0401131fc1164a0d24b059",
+          "word_count": 1575
+        }
+      }
+    },
+    {
+      "pia_id": "pia-d6989dc6f968",
+      "title_en": "Fisheries and Aquaculture Clean Technology Adoption Program",
+      "title_fr": "Le Programme d'adoption de technologies propres pour les pêches et l'aquaculture",
+      "url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/adoption-program-programme-adoption-eng.html",
+      "url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/adoption-program-programme-adoption-fra.html",
+      "pairing_status": "paired",
+      "pairing_method": "matching_language_variant_url",
+      "pairing_evidence": {
+        "normalized_url_key": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/adoption-program-programme-adoption-{lang}.html",
+        "observed_url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/adoption-program-programme-adoption-eng.html",
+        "observed_url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/adoption-program-programme-adoption-fra.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/adoption-program-programme-adoption-eng.html",
+          "title_from_list": "Fisheries and Aquaculture Clean Technology Adoption Program",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/adoption-program-programme-adoption-eng.html",
+              "title": "Fisheries and Aquaculture Clean Technology Adoption Program",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/adoption-program-programme-adoption-eng.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/adoption-program-programme-adoption-eng.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/adoption-program-programme-adoption-eng.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:29.575949+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 21723,
+            "sha256": "62b3dc880b71e693edbd0c8309de6521f93ee583cfdbb9f94c398ec72c2e01e4"
+          },
+          "raw_path": "raw/d6989dc6f9689a6b421e.html",
+          "markdown_path": "pia-d6989dc6f968_en.md",
+          "markdown_sha256": "7944e3e619dc4149647c1227c0d880dd6e31a285619e836b3438b78c91b394eb",
+          "status": "exported",
+          "page_title": "Fisheries and Aquaculture Clean Technology Adoption Program",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2021-09-28",
+          "date_published": "2021-05-11",
+          "has_pia_text": true,
+          "title": "Fisheries and Aquaculture Clean Technology Adoption Program",
+          "conversion": "markdownify",
+          "text_sha256": "03496ab458d46f322cc569f45e651e478f85a635dadaaa69a732548cbaefbee6",
+          "word_count": 1061
+        },
+        "fr": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/adoption-program-programme-adoption-fra.html",
+          "title_from_list": "Programme d'adoption de technologies propres pour les pêches et l'aquaculture",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+          "discovered_under": "Sommaires des évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/adoption-program-programme-adoption-fra.html",
+              "title": "Programme d'adoption de technologies propres pour les pêches et l'aquaculture",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/adoption-program-programme-adoption-fra.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/adoption-program-programme-adoption-fra.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/adoption-program-programme-adoption-fra.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:29.643760+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 24325,
+            "sha256": "216b021d6b556467a0d07aa7150419a8c0aa18c4dcade582037a69b2180a0b44"
+          },
+          "raw_path": "raw/2254d2ed0cdbf086caaa.html",
+          "markdown_path": "pia-d6989dc6f968_fr.md",
+          "markdown_sha256": "d6671ff9fa738e722c588c7952e3b06dcd43241310ed35a73c4deebd80b25379",
+          "status": "exported",
+          "page_title": "Le Programme d'adoption de technologies propres pour les pêches et l'aquaculture",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2021-09-28",
+          "date_published": "2021-05-11",
+          "has_pia_text": true,
+          "title": "Le Programme d'adoption de technologies propres pour les pêches et l'aquaculture",
+          "conversion": "markdownify",
+          "text_sha256": "ab0d56ae97d57f5d85d1fd2ecdfaeb5ae364202a8b2f723c9f5b2a7923002b79",
+          "word_count": 1386
+        }
+      }
+    },
+    {
+      "pia_id": "pia-8236ff2f8883",
+      "title_en": "Ice Assistance Emergency Program",
+      "title_fr": "Programme d'urgence d'aide liée aux conditions des glaces",
+      "url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/programme-urgence-emergency-program-eng.html",
+      "url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/programme-urgence-emergency-program-fra.html",
+      "pairing_status": "paired",
+      "pairing_method": "matching_language_variant_url",
+      "pairing_evidence": {
+        "normalized_url_key": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/programme-urgence-emergency-program-{lang}.html",
+        "observed_url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/programme-urgence-emergency-program-eng.html",
+        "observed_url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/programme-urgence-emergency-program-fra.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/programme-urgence-emergency-program-eng.html",
+          "title_from_list": "Ice Assistance Emergency Program",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/programme-urgence-emergency-program-eng.html",
+              "title": "Ice Assistance Emergency Program",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/programme-urgence-emergency-program-eng.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/programme-urgence-emergency-program-eng.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/programme-urgence-emergency-program-eng.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:31.446258+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 23077,
+            "sha256": "bb5e618648dc6bbd74f428dafdfe9897aa065aa5f3300b4a7b1f3c3e7648e9b2"
+          },
+          "raw_path": "raw/8236ff2f88834889ca3c.html",
+          "markdown_path": "pia-8236ff2f8883_en.md",
+          "markdown_sha256": "dd61c21513dc16ae26146d9d42cbf31601c8c321305de4c61306dc2ee0057cb8",
+          "status": "exported",
+          "page_title": "Ice Assistance Emergency Program",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2021-06-01",
+          "date_published": "2021-05-11",
+          "has_pia_text": true,
+          "title": "Ice Assistance Emergency Program",
+          "conversion": "markdownify",
+          "text_sha256": "8e368bef6a069e64c123f787cf4f389f1726591b04d30ca5a29b6ef77f0a6db9",
+          "word_count": 1333
+        },
+        "fr": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/programme-urgence-emergency-program-fra.html",
+          "title_from_list": "Programme d’urgence d’aide liée aux conditions des glaces",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+          "discovered_under": "Sommaires des évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/programme-urgence-emergency-program-fra.html",
+              "title": "Programme d’urgence d’aide liée aux conditions des glaces",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/programme-urgence-emergency-program-fra.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/programme-urgence-emergency-program-fra.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/programme-urgence-emergency-program-fra.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:31.506340+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 26689,
+            "sha256": "8df7a35d079e332293163c045ee9799f2ca514beb9a719e8762a3c98ba8ba457"
+          },
+          "raw_path": "raw/d2802b0615fa972f3c22.html",
+          "markdown_path": "pia-8236ff2f8883_fr.md",
+          "markdown_sha256": "e93b926b135e0edde55c53e459e83f0aa516ef4fa95322db4d31a7ea4d82fa1f",
+          "status": "exported",
+          "page_title": "Programme d'urgence d'aide liée aux conditions des glaces",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2021-06-01",
+          "date_published": "2021-05-11",
+          "has_pia_text": true,
+          "title": "Programme d'urgence d'aide liée aux conditions des glaces",
+          "conversion": "markdownify",
+          "text_sha256": "cd3b6c3fa5e435ed962efd5fb64d8d779aac4f1c4def5dbdbe4366c07ce43a8c",
+          "word_count": 1791
+        }
+      }
+    },
+    {
+      "pia_id": "pia-721ad845e4b0",
+      "title_en": "National Fisheries Intelligence Service",
+      "title_fr": "Service national de renseignements sur les pêches",
+      "url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/intelligence-service-renseignements-eng.html",
+      "url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/intelligence-service-renseignements-fra.html",
+      "pairing_status": "paired",
+      "pairing_method": "matching_language_variant_url",
+      "pairing_evidence": {
+        "normalized_url_key": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/intelligence-service-renseignements-{lang}.html",
+        "observed_url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/intelligence-service-renseignements-eng.html",
+        "observed_url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/intelligence-service-renseignements-fra.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/intelligence-service-renseignements-eng.html",
+          "title_from_list": "National Fisheries Intelligence Service",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/intelligence-service-renseignements-eng.html",
+              "title": "National Fisheries Intelligence Service",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/intelligence-service-renseignements-eng.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/intelligence-service-renseignements-eng.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/intelligence-service-renseignements-eng.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:30.499931+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 21641,
+            "sha256": "a3153f947b40ab442990ecd4c236f2b87fe6f5c95f951a02806b669898a90a28"
+          },
+          "raw_path": "raw/721ad845e4b089644a18.html",
+          "markdown_path": "pia-721ad845e4b0_en.md",
+          "markdown_sha256": "9a901fc436f50ffcd0b01858e2e7d30d460ac2feffa5325724f49f90b4b5cf17",
+          "status": "exported",
+          "page_title": "National Fisheries Intelligence Service",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2021-06-01",
+          "date_published": "2021-05-11",
+          "has_pia_text": true,
+          "title": "National Fisheries Intelligence Service",
+          "conversion": "markdownify",
+          "text_sha256": "2a4462e01a04c9c181d027a8bc676b9231f63351a82781e59ec43910420b124a",
+          "word_count": 1104
+        },
+        "fr": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/intelligence-service-renseignements-fra.html",
+          "title_from_list": "Service national de renseignements sur les pêches",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+          "discovered_under": "Sommaires des évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/intelligence-service-renseignements-fra.html",
+              "title": "Service national de renseignements sur les pêches",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/intelligence-service-renseignements-fra.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/intelligence-service-renseignements-fra.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/intelligence-service-renseignements-fra.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:30.602658+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 24891,
+            "sha256": "1ce89b1983871a4a12beaa2f187d754554ee83503b7bda8055d64085a9e088da"
+          },
+          "raw_path": "raw/89a4af3b924245810122.html",
+          "markdown_path": "pia-721ad845e4b0_fr.md",
+          "markdown_sha256": "8cd55520818b2109f74494400a4ee2ff8fa2ad5fd37afca15a4194369ce41e97",
+          "status": "exported",
+          "page_title": "Service national de renseignements sur les pêches",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2021-06-01",
+          "date_published": "2021-05-11",
+          "has_pia_text": true,
+          "title": "Service national de renseignements sur les pêches",
+          "conversion": "markdownify",
+          "text_sha256": "6c643305701f62cee575354440fbc8781dd1c103951da87055ac6bf8d530aa99",
+          "word_count": 1546
+        }
+      }
+    },
+    {
+      "pia_id": "pia-6f5510aa8093",
+      "title_en": "National Introductions and Transfers Program",
+      "title_fr": "Programme national d’introductions et de transferts",
+      "url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/introductions-transfers-introductions-transfert-eng.html",
+      "url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/introductions-transfers-introductions-transfert-fra.html",
+      "pairing_status": "paired",
+      "pairing_method": "matching_language_variant_url",
+      "pairing_evidence": {
+        "normalized_url_key": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/introductions-transfers-introductions-transfert-{lang}.html",
+        "observed_url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/introductions-transfers-introductions-transfert-eng.html",
+        "observed_url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/introductions-transfers-introductions-transfert-fra.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/introductions-transfers-introductions-transfert-eng.html",
+          "title_from_list": "National Introductions and Transfers Program",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/introductions-transfers-introductions-transfert-eng.html",
+              "title": "National Introductions and Transfers Program",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/introductions-transfers-introductions-transfert-eng.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/introductions-transfers-introductions-transfert-eng.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/introductions-transfers-introductions-transfert-eng.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:30.709564+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 21503,
+            "sha256": "1bcf7af5f698d0e989cfe6339241b60600cf0d03e7ed227e8d5a2b5d4a4a018d"
+          },
+          "raw_path": "raw/6f5510aa809320c42257.html",
+          "markdown_path": "pia-6f5510aa8093_en.md",
+          "markdown_sha256": "2b0ede7e8c202c9a75b75aadd7955c929f5238e387e956cb087cda073f61e1a8",
+          "status": "exported",
+          "page_title": "National Introductions and Transfers Program",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2025-01-16",
+          "date_published": "2021-05-11",
+          "has_pia_text": true,
+          "title": "National Introductions and Transfers Program",
+          "conversion": "markdownify",
+          "text_sha256": "f1569e4fb366fb3c1e8bd16ca974dba06d9c974cd51360949b0d9221be27e154",
+          "word_count": 907
+        },
+        "fr": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/introductions-transfers-introductions-transfert-fra.html",
+          "title_from_list": "Programme national d'introductions et de transferts",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+          "discovered_under": "Sommaires des évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/introductions-transfers-introductions-transfert-fra.html",
+              "title": "Programme national d'introductions et de transferts",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/introductions-transfers-introductions-transfert-fra.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/introductions-transfers-introductions-transfert-fra.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/introductions-transfers-introductions-transfert-fra.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:30.745904+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 24456,
+            "sha256": "3c45f398c9fe09160845f38ac96dcbfe5d4a4252372bc497134d3db4362b7bf9"
+          },
+          "raw_path": "raw/c128f07bccecb165f7e5.html",
+          "markdown_path": "pia-6f5510aa8093_fr.md",
+          "markdown_sha256": "867509567db0a32c0c1aba58175f000d830f5c98d69c8d39cb358223a4d9f2b8",
+          "status": "exported",
+          "page_title": "Programme national d’introductions et de transferts",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2025-01-16",
+          "date_published": "2021-05-11",
+          "has_pia_text": true,
+          "title": "Programme national d’introductions et de transferts",
+          "conversion": "markdownify",
+          "text_sha256": "05b132e4cabf210e904b874ccb61b7050e7872f8f326da4fedf39be3e47b2886",
+          "word_count": 1204
+        }
+      }
+    },
+    {
+      "pia_id": "pia-e6fe3fab33fa",
+      "title_en": "Student Bridging Portal using VidCruiter's Applicant Tracking System (VidTracking)",
+      "title_fr": "Portail d'intégration des étudiants conçu à l'aide du système de suivi des candidatures de VidCruiter (VidTracking)",
+      "url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/student-bridging-portail-integration-eng.html",
+      "url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/student-bridging-portail-integration-fra.html",
+      "pairing_status": "paired",
+      "pairing_method": "matching_language_variant_url",
+      "pairing_evidence": {
+        "normalized_url_key": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/student-bridging-portail-integration-{lang}.html",
+        "observed_url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/student-bridging-portail-integration-eng.html",
+        "observed_url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/student-bridging-portail-integration-fra.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/student-bridging-portail-integration-eng.html",
+          "title_from_list": "Student Bridging Portal using VidCruiter’s Applicant Tracking System (VidTracking)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/student-bridging-portail-integration-eng.html",
+              "title": "Student Bridging Portal using VidCruiter’s Applicant Tracking System (VidTracking)",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/student-bridging-portail-integration-eng.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/student-bridging-portail-integration-eng.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/student-bridging-portail-integration-eng.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:31.933428+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 20324,
+            "sha256": "ed75d04a6d276cadf7780255768de4894a8161f78ecee3590d6facba9fac42ab"
+          },
+          "raw_path": "raw/e6fe3fab33fa53449cd4.html",
+          "markdown_path": "pia-e6fe3fab33fa_en.md",
+          "markdown_sha256": "6da3f24c5d1f579d58b23d4a601461c8cda6e282a400dae1a613e83a5ae6d9f7",
+          "status": "exported",
+          "page_title": "Student Bridging Portal using VidCruiter's Applicant Tracking System (VidTracking)",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2021-06-01",
+          "date_published": "2021-05-11",
+          "has_pia_text": true,
+          "title": "Student Bridging Portal using VidCruiter's Applicant Tracking System (VidTracking)",
+          "conversion": "markdownify",
+          "text_sha256": "2fe6531df0531760bb356056058672c161dae87eac2cdc40048121588d5be385",
+          "word_count": 834
+        },
+        "fr": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/student-bridging-portail-integration-fra.html",
+          "title_from_list": "Portail de transition des étudiants utilisant le système de suivi des candidats de VidCruiter (VidTracking)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+          "discovered_under": "Sommaires des évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/student-bridging-portail-integration-fra.html",
+              "title": "Portail de transition des étudiants utilisant le système de suivi des candidats de VidCruiter (VidTracking)",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/student-bridging-portail-integration-fra.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/student-bridging-portail-integration-fra.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/student-bridging-portail-integration-fra.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:31.974498+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 22801,
+            "sha256": "bc1fbf60c790630679486466c7c560b7009d1da429889d4dede3badabc0e128b"
+          },
+          "raw_path": "raw/075f38c0605e57a524cf.html",
+          "markdown_path": "pia-e6fe3fab33fa_fr.md",
+          "markdown_sha256": "966f2378b9ea3bc4cd4f07a68fe0b2db66f0d6dc6d95bc1b0f419da1a6ad2cb1",
+          "status": "exported",
+          "page_title": "Portail d'intégration des étudiants conçu à l'aide du système de suivi des candidatures de VidCruiter (VidTracking)",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2021-06-01",
+          "date_published": "2021-05-11",
+          "has_pia_text": true,
+          "title": "Portail d'intégration des étudiants conçu à l'aide du système de suivi des candidatures de VidCruiter (VidTracking)",
+          "conversion": "markdownify",
+          "text_sha256": "28f577d1fdeb9f19ae05cf9530b65f126feacd4a549d323297099a1b9e16c2ae",
+          "word_count": 1084
+        }
+      }
+    },
+    {
+      "pia_id": "pia-5e5d895ac87e",
+      "title_en": "SAP S/4HANA - Government of Canada Finance and Materiel Management Solution",
+      "title_fr": "SAP S/4HANA – Solution de gestion des finances et du matériel du gouvernement du Canada",
+      "url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/materiel-solution-eng.html",
+      "url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/materiel-solution-fra.html",
+      "pairing_status": "paired",
+      "pairing_method": "matching_language_variant_url",
+      "pairing_evidence": {
+        "normalized_url_key": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/materiel-solution-{lang}.html",
+        "observed_url_en": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/materiel-solution-eng.html",
+        "observed_url_fr": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/materiel-solution-fra.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/materiel-solution-eng.html",
+          "title_from_list": "SAP S/4HANA - Government of Canada Finance and Materiel Management Solution",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/materiel-solution-eng.html",
+              "title": "SAP S/4HANA - Government of Canada Finance and Materiel Management Solution",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-eng.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/materiel-solution-eng.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/materiel-solution-eng.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/materiel-solution-eng.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:30.953417+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 17885,
+            "sha256": "310a303e319eebba70922cd9cf4bed88a4bd23da53d8d1dbf4eb81fffde001f6"
+          },
+          "raw_path": "raw/5e5d895ac87e194813ec.html",
+          "markdown_path": "pia-5e5d895ac87e_en.md",
+          "markdown_sha256": "839f6c050959d1e4bcf1729010422a8f272d8a2da77169d61572052883c43770",
+          "status": "exported",
+          "page_title": "SAP S/4HANA - Government of Canada Finance and Materiel Management Solution",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2023-10-17",
+          "date_published": "2023-10-10",
+          "has_pia_text": true,
+          "title": "SAP S/4HANA - Government of Canada Finance and Materiel Management Solution",
+          "conversion": "markdownify",
+          "text_sha256": "c9cbde21d97324c33dd72f9a707b6ea4986053b8c2c9b4f283b2b15c8e20c0cc",
+          "word_count": 580
+        },
+        "fr": {
+          "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/materiel-solution-fra.html",
+          "title_from_list": "SAP S/4HANA – Solution de gestion des finances et du matériel du gouvernement du Canada",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+          "discovered_under": "Sommaires des évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/materiel-solution-fra.html",
+              "title": "SAP S/4HANA – Solution de gestion des finances et du matériel du gouvernement du Canada",
+              "list_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/summaries-sommaires-fra.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/materiel-solution-fra.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/materiel-solution-fra.html",
+            "final_url": "https://www.dfo-mpo.gc.ca/transparency-transparence/atip-aiprp/privacy-privee/materiel-solution-fra.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:30.984985+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 19683,
+            "sha256": "0c52bc78e0389866db3842e45e9356190ced38791f14ca73ead4cd4a7e158f61"
+          },
+          "raw_path": "raw/e415786f0533aa30145f.html",
+          "markdown_path": "pia-5e5d895ac87e_fr.md",
+          "markdown_sha256": "8d7e63526b8738440fe6c7ad9130d0f9cf37358b6047bbc6a5984819925bef2f",
+          "status": "exported",
+          "page_title": "SAP S/4HANA – Solution de gestion des finances et du matériel du gouvernement du Canada",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.dfo-mpo.gc.ca/scripts/language.asp"
+          },
+          "date_modified": "2023-10-17",
+          "date_published": "2023-10-10",
+          "has_pia_text": true,
+          "title": "SAP S/4HANA – Solution de gestion des finances et du matériel du gouvernement du Canada",
+          "conversion": "markdownify",
+          "text_sha256": "5fd10bad85ef3a6d82fbe6923586865b1346c5d88d5ff656aea38f9e040453b2",
+          "word_count": 790
+        }
+      }
+    }
+  ],
+  "summary": {
+    "pia_count": 17,
+    "paired_count": 17,
+    "source_status_counts": {
+      "exported": 34
+    }
+  }
+}

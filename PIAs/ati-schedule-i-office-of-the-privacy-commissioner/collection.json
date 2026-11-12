@@ -1,0 +1,1032 @@
+{
+  "schema_version": 1,
+  "collector_version": 1,
+  "collected_at_utc": "2026-11-12T01:50:42.121126+00:00",
+  "institution_id": "ati-schedule-i-office-of-the-privacy-commissioner",
+  "gc_orgID": "2282.0",
+  "open_canada_org_id": "1E85EDF7-8D3C-4E68-8B47-D17B5A69BD42",
+  "open_canada_org_slug": "opc-cpvp",
+  "name_en": "Office of the Privacy Commissioner",
+  "name_fr": "Commissariat à la protection de la vie privée",
+  "registry_membership": "current_registry",
+  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "list_pages": {
+    "en": {
+      "indexed_url": "https://www.priv.gc.ca/en/privacy-topics/federal-government-privacy/privacy-impact-assessments/",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.priv.gc.ca/en/privacy-topics/federal-government-privacy/privacy-impact-assessments/",
+          "final_url": "https://www.priv.gc.ca/en/privacy-topics/federal-government-privacy/privacy-impact-assessments/",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:30.538982+00:00",
+          "redirects": [],
+          "content_type": "text/html; charset=utf-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": null,
+          "etag": null,
+          "byte_count": 21648,
+          "sha256": "98125d9443f022295642dcc56597ce2caabad7633d13a0ef63085268511f58cd",
+          "raw_path": "raw/d83a5197d0fb45da7a18.html"
+        },
+        {
+          "requested_url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/",
+          "final_url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:36:29.112678+00:00",
+          "redirects": [],
+          "content_type": "text/html; charset=utf-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": null,
+          "etag": null,
+          "byte_count": 26670,
+          "sha256": "5f775d0c846bdd0aad695d2ad40bc703864d346e5b8b6366d2647567b66981b9",
+          "raw_path": "raw/59c34a9b5da9d0624275.html"
+        }
+      ],
+      "discovered_count": 8,
+      "scopes": [
+        "Privacy Impact Assessments (PIAs)"
+      ],
+      "warnings": []
+    },
+    "fr": {
+      "indexed_url": "https://www.priv.gc.ca/fr/sujets-lies-a-la-protection-de-la-vie-privee/protection-des-renseignements-personnels-pour-les-institutions-federales/evaluations-des-facteurs-relatifs-a-la-vie-privee/",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.priv.gc.ca/fr/sujets-lies-a-la-protection-de-la-vie-privee/protection-des-renseignements-personnels-pour-les-institutions-federales/evaluations-des-facteurs-relatifs-a-la-vie-privee/",
+          "final_url": "https://www.priv.gc.ca/fr/sujets-lies-a-la-protection-de-la-vie-privee/protection-des-renseignements-personnels-pour-les-institutions-federales/evaluations-des-facteurs-relatifs-a-la-vie-privee/",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:30.686090+00:00",
+          "redirects": [],
+          "content_type": "text/html; charset=utf-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": null,
+          "etag": null,
+          "byte_count": 24094,
+          "sha256": "fb602c76057e8c84fa123c11ec8ac400490dd4835e8cf8216fb77fee7b733170",
+          "raw_path": "raw/8053df3e2e9d3db0fd29.html"
+        },
+        {
+          "requested_url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/",
+          "final_url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:36:29.947820+00:00",
+          "redirects": [],
+          "content_type": "text/html; charset=utf-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": null,
+          "etag": null,
+          "byte_count": 29403,
+          "sha256": "7636dc16ebbe6e1ad3c2080c3acfe62c392a9a7936e0c282f6563e3a3589a579",
+          "raw_path": "raw/c4e31af0af6a816af7fc.html"
+        }
+      ],
+      "discovered_count": 8,
+      "scopes": [
+        "Évaluations des facteurs relatifs à la vie privée (EFVP)"
+      ],
+      "warnings": []
+    }
+  },
+  "pias": [
+    {
+      "pia_id": "pia-2092b8840af2",
+      "title_en": "Privacy impact assessment summary for the Office of the Privacy Commissioner of Canada Youth Council",
+      "title_fr": "Résumé de l’évaluation des facteurs relatifs à la vie privée du Conseil jeunesse du Commissariat à la protection de la vie privée du Canada",
+      "url_en": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/pias_yc/",
+      "url_fr": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_cj/",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/pias_yc/",
+        "alternate_url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_cj/"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/pias_yc/",
+          "title_from_list": "Privacy impact assessment summary for the Office of the Privacy Commissioner of Canada Youth Council",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.priv.gc.ca/en/privacy-topics/federal-government-privacy/privacy-impact-assessments/",
+          "discovered_under": "OPC Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/pias_yc/",
+              "title": "Privacy impact assessment summary for the Office of the Privacy Commissioner of Canada Youth Council",
+              "list_url": "https://www.priv.gc.ca/en/privacy-topics/federal-government-privacy/privacy-impact-assessments/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/pias_yc/"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/pias_yc/",
+            "final_url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/pias_yc/",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:32.762625+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 21226,
+            "sha256": "86e706bf076e9e89bfd2a91d2eabb6b646901bb9653cd99d91a2da97690deb7b"
+          },
+          "raw_path": "raw/2092b8840af24a673fd0.html",
+          "markdown_path": "pia-2092b8840af2_en.md",
+          "markdown_sha256": "4f1aa1ea22209d340a08dc91e426d059da1a527e07c8f32d69f061fd7cabf400",
+          "status": "exported",
+          "page_title": "Privacy impact assessment summary for the Office of the Privacy Commissioner of Canada Youth Council",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_cj/"
+          },
+          "date_modified": "2025-10-01",
+          "date_published": "2025-10-01",
+          "has_pia_text": true,
+          "title": "Privacy impact assessment summary for the Office of the Privacy Commissioner of Canada Youth Council",
+          "conversion": "markdownify",
+          "text_sha256": "ce1e389f1697f5475ad17312680e3f9fa1c1a038e4aeeb4fe955cfae5c2e78dc",
+          "word_count": 416
+        },
+        "fr": {
+          "url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_cj/",
+          "title_from_list": "Résumé de l’évaluation des facteurs relatifs à la vie privée du Conseil jeunesse du Commissariat à la protection de la vie privée du Canada",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.priv.gc.ca/fr/sujets-lies-a-la-protection-de-la-vie-privee/protection-des-renseignements-personnels-pour-les-institutions-federales/evaluations-des-facteurs-relatifs-a-la-vie-privee/",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée du Commissariat",
+          "discovery_references": [
+            {
+              "url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_cj/",
+              "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée du Conseil jeunesse du Commissariat à la protection de la vie privée du Canada",
+              "list_url": "https://www.priv.gc.ca/fr/sujets-lies-a-la-protection-de-la-vie-privee/protection-des-renseignements-personnels-pour-les-institutions-federales/evaluations-des-facteurs-relatifs-a-la-vie-privee/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_cj/"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_cj/",
+            "final_url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_cj/",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:33.336373+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 23416,
+            "sha256": "0ed98906a6f049934f8308b5f3e0e2d2e6c38fc4e01ff4632c496fc79ea767a2"
+          },
+          "raw_path": "raw/dadffda612d382e05234.html",
+          "markdown_path": "pia-2092b8840af2_fr.md",
+          "markdown_sha256": "a749c19add286ee0165b908c8e02ba7c264a918916c51303939ad1b8928c2c5d",
+          "status": "exported",
+          "page_title": "Résumé de l’évaluation des facteurs relatifs à la vie privée du Conseil jeunesse du Commissariat à la protection de la vie privée du Canada",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/pias_yc/"
+          },
+          "date_modified": "2025-10-01",
+          "date_published": "2025-10-01",
+          "has_pia_text": true,
+          "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée du Conseil jeunesse du Commissariat à la protection de la vie privée du Canada",
+          "conversion": "markdownify",
+          "text_sha256": "9371df38549f006b4e3c1f54bccfc72a4c81d5307494c22e5ec68e604e671a8f",
+          "word_count": 581
+        }
+      }
+    },
+    {
+      "pia_id": "pia-01c195371b0b",
+      "title_en": "Privacy impact assessment summary for Microsoft Office 365 cloud project",
+      "title_fr": "Résumé de l’évaluation des facteurs relatifs à la vie privée du projet infonuagique Microsoft Office 365",
+      "url_en": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/pias_cloud/",
+      "url_fr": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_infonuagique/",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/pias_cloud/",
+        "alternate_url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_infonuagique/"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/pias_cloud/",
+          "title_from_list": "Privacy impact assessment summary for Microsoft Office 365 cloud project",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.priv.gc.ca/en/privacy-topics/federal-government-privacy/privacy-impact-assessments/",
+          "discovered_under": "OPC Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/pias_cloud/",
+              "title": "Privacy impact assessment summary for Microsoft Office 365 cloud project",
+              "list_url": "https://www.priv.gc.ca/en/privacy-topics/federal-government-privacy/privacy-impact-assessments/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/pias_cloud/"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/pias_cloud/",
+            "final_url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/pias_cloud/",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:32.465902+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 43422,
+            "sha256": "37d405be53cc0f4218f294df4f1ab759cefae3a272f78038bdae2c5bfbba94d8"
+          },
+          "raw_path": "raw/01c195371b0b0589666e.html",
+          "markdown_path": "pia-01c195371b0b_en.md",
+          "markdown_sha256": "a0cf2195419cf8a48dc86847ed55718031729f6cebbd4a34cef9cf51ccbeb5e2",
+          "status": "exported",
+          "page_title": "Privacy impact assessment summary for Microsoft Office 365 cloud project",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_infonuagique/"
+          },
+          "date_modified": "2022-06-22",
+          "date_published": "2022-06-22",
+          "has_pia_text": true,
+          "title": "Privacy impact assessment summary for Microsoft Office 365 cloud project",
+          "conversion": "markdownify",
+          "text_sha256": "e48c7269963224714dab844a5080b50b9a7f5f6ecebd6e9c00f3c7ffd845c95e",
+          "word_count": 2158
+        },
+        "fr": {
+          "url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_infonuagique/",
+          "title_from_list": "Résumé de l’évaluation des facteurs relatifs à la vie privée du projet infonuagique Microsoft Office 365",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.priv.gc.ca/fr/sujets-lies-a-la-protection-de-la-vie-privee/protection-des-renseignements-personnels-pour-les-institutions-federales/evaluations-des-facteurs-relatifs-a-la-vie-privee/",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée du Commissariat",
+          "discovery_references": [
+            {
+              "url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_infonuagique/",
+              "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée du projet infonuagique Microsoft Office 365",
+              "list_url": "https://www.priv.gc.ca/fr/sujets-lies-a-la-protection-de-la-vie-privee/protection-des-renseignements-personnels-pour-les-institutions-federales/evaluations-des-facteurs-relatifs-a-la-vie-privee/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_infonuagique/"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_infonuagique/",
+            "final_url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_infonuagique/",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:33.351092+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 51550,
+            "sha256": "dad9a4eadb29190b7085e3488cc16e89f0373d658da544f9a9f632f9cbec5f83"
+          },
+          "raw_path": "raw/e796dbfe1045a283dcdd.html",
+          "markdown_path": "pia-01c195371b0b_fr.md",
+          "markdown_sha256": "7709b49673cb4f6706178f032924ed56071068dc94ac28f9f8be2829a6ad4e52",
+          "status": "exported",
+          "page_title": "Résumé de l’évaluation des facteurs relatifs à la vie privée du projet infonuagique Microsoft Office 365",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/pias_cloud/"
+          },
+          "date_modified": "2022-06-22",
+          "date_published": "2022-06-22",
+          "has_pia_text": true,
+          "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée du projet infonuagique Microsoft Office 365",
+          "conversion": "markdownify",
+          "text_sha256": "c1cd053a018a09d1e1d678d21959cbc5d1e26b995f6ed8b0001d367412c5ba2b",
+          "word_count": 2671
+        }
+      }
+    },
+    {
+      "pia_id": "pia-ba385efc9abd",
+      "title_en": "Privacy Impact Assessment Summary on the Online Complaint Form",
+      "title_fr": "Résumé de l’évaluation des facteurs relatifs à la vie privée concernant le formulaire de plainte en ligne",
+      "url_en": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/pias_ocf/",
+      "url_fr": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_ocf/",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/pias_ocf/",
+        "alternate_url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_ocf/"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/pias_ocf/",
+          "title_from_list": "Privacy Impact Assessment Summary on the Online Complaint Form",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.priv.gc.ca/en/privacy-topics/federal-government-privacy/privacy-impact-assessments/",
+          "discovered_under": "OPC Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/pias_ocf/",
+              "title": "Privacy Impact Assessment Summary on the Online Complaint Form",
+              "list_url": "https://www.priv.gc.ca/en/privacy-topics/federal-government-privacy/privacy-impact-assessments/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/pias_ocf/"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/pias_ocf/",
+            "final_url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/pias_ocf/",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:32.537430+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 31877,
+            "sha256": "50f444a7bffdeafbc968e5ba4809270437dbfa9a0b1fd78d41fc5ce2725c2a08"
+          },
+          "raw_path": "raw/ba385efc9abd5611ccd1.html",
+          "markdown_path": "pia-ba385efc9abd_en.md",
+          "markdown_sha256": "b935bbac608caf12dc4bd1890e85b317866f7579c336be516a93ec3736ff0616",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summary on the Online Complaint Form",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_ocf/"
+          },
+          "date_modified": "2019-09-24",
+          "date_published": "2019-09-24",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment Summary on the Online Complaint Form",
+          "conversion": "markdownify",
+          "text_sha256": "683318309ec75a514130de4a1a8eaa3667175fc69efffd6931cc194a71120625",
+          "word_count": 1602
+        },
+        "fr": {
+          "url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_ocf/",
+          "title_from_list": "Résumé de l’évaluation des facteurs relatifs à la vie privée concernant le formulaire de plainte en ligne",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.priv.gc.ca/fr/sujets-lies-a-la-protection-de-la-vie-privee/protection-des-renseignements-personnels-pour-les-institutions-federales/evaluations-des-facteurs-relatifs-a-la-vie-privee/",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée du Commissariat",
+          "discovery_references": [
+            {
+              "url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_ocf/",
+              "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée concernant le formulaire de plainte en ligne",
+              "list_url": "https://www.priv.gc.ca/fr/sujets-lies-a-la-protection-de-la-vie-privee/protection-des-renseignements-personnels-pour-les-institutions-federales/evaluations-des-facteurs-relatifs-a-la-vie-privee/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_ocf/"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_ocf/",
+            "final_url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_ocf/",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:33.356123+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 34566,
+            "sha256": "5acf424b9a65a33f2fa0fe168ada0bceb213e25dc211c7d4c24085c86296bd60"
+          },
+          "raw_path": "raw/ad25c106b03ea7a3f642.html",
+          "markdown_path": "pia-ba385efc9abd_fr.md",
+          "markdown_sha256": "0e5e57b2e403cefa21b0e831454aa9ba616ce17abb4ea845717258183d8ca980",
+          "status": "exported",
+          "page_title": "Résumé de l’évaluation des facteurs relatifs à la vie privée concernant le formulaire de plainte en ligne",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/pias_ocf/"
+          },
+          "date_modified": "2019-09-24",
+          "date_published": "2019-09-24",
+          "has_pia_text": true,
+          "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée concernant le formulaire de plainte en ligne",
+          "conversion": "markdownify",
+          "text_sha256": "3eaec48b54909dab28508f84d70c83316cad6bcabbc4fdf2d770a60d8e6ec818",
+          "word_count": 2000
+        }
+      }
+    },
+    {
+      "pia_id": "pia-1300c0dd8865",
+      "title_en": "The Collection and Retention of Information for the Expression of Interest",
+      "title_fr": "La collecte et la conservation de renseignements pour la déclaration d'intérêt",
+      "url_en": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/pias_eoi/",
+      "url_fr": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_eoi/",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/pias_eoi/",
+        "alternate_url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_eoi/"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/pias_eoi/",
+          "title_from_list": "The Collection and Retention of Information for the Expression of Interest",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.priv.gc.ca/en/privacy-topics/federal-government-privacy/privacy-impact-assessments/",
+          "discovered_under": "OPC Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/pias_eoi/",
+              "title": "The Collection and Retention of Information for the Expression of Interest",
+              "list_url": "https://www.priv.gc.ca/en/privacy-topics/federal-government-privacy/privacy-impact-assessments/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/pias_eoi/"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/pias_eoi/",
+            "final_url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/pias_eoi/",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:32.478742+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 31417,
+            "sha256": "638db4c7c1e478d1796abe504be2cfe7cc74e31d2a828c201464061a09ed5ad8"
+          },
+          "raw_path": "raw/1300c0dd8865a6e267b3.html",
+          "markdown_path": "pia-1300c0dd8865_en.md",
+          "markdown_sha256": "04e048c20f26dab4210044194999381ed2eeac1e6399a28b5401921b71e3e6d9",
+          "status": "exported",
+          "page_title": "The Collection and Retention of Information for the Expression of Interest",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_eoi/"
+          },
+          "date_modified": "2018-03-26",
+          "date_published": "2018-03-26",
+          "has_pia_text": true,
+          "title": "The Collection and Retention of Information for the Expression of Interest",
+          "conversion": "markdownify",
+          "text_sha256": "5340db6611498745f33853b898d7967e308cb540f6b39803fcdbc3de12fd6439",
+          "word_count": 1637
+        },
+        "fr": {
+          "url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_eoi/",
+          "title_from_list": "La collecte et la conservation de renseignements pour la déclaration d'intérêt",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.priv.gc.ca/fr/sujets-lies-a-la-protection-de-la-vie-privee/protection-des-renseignements-personnels-pour-les-institutions-federales/evaluations-des-facteurs-relatifs-a-la-vie-privee/",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée du Commissariat",
+          "discovery_references": [
+            {
+              "url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_eoi/",
+              "title": "La collecte et la conservation de renseignements pour la déclaration d'intérêt",
+              "list_url": "https://www.priv.gc.ca/fr/sujets-lies-a-la-protection-de-la-vie-privee/protection-des-renseignements-personnels-pour-les-institutions-federales/evaluations-des-facteurs-relatifs-a-la-vie-privee/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_eoi/"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_eoi/",
+            "final_url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/refvp_eoi/",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:33.350481+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 35272,
+            "sha256": "94ce03f2b604dd4b2ea937e50687ba6e3900d1634d91da402df5babc79384c32"
+          },
+          "raw_path": "raw/0e358294bde5b1d15031.html",
+          "markdown_path": "pia-1300c0dd8865_fr.md",
+          "markdown_sha256": "59e50faecc5a0bdce990c4ee0cc9fe5bac9ef4f6ff4339f7e160b2606276490c",
+          "status": "exported",
+          "page_title": "La collecte et la conservation de renseignements pour la déclaration d'intérêt",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/pias_eoi/"
+          },
+          "date_modified": "2018-03-26",
+          "date_published": "2018-03-26",
+          "has_pia_text": true,
+          "title": "La collecte et la conservation de renseignements pour la déclaration d'intérêt",
+          "conversion": "markdownify",
+          "text_sha256": "9f471a85cc9abb235abbfb37e9a325d8444a9aad85642f34a936d84ab4674c5d",
+          "word_count": 2006
+        }
+      }
+    },
+    {
+      "pia_id": "pia-0ac443733ea6",
+      "title_en": "Archived - Multi–Institutional Privacy Impact Assessment Summary on the 30 Victoria Multi-Tenants Camera and Security System",
+      "title_fr": "Archivée - Résumé de l'évaluation pluriorganisationnelle des facteurs relatifs à la vie privée concernant le Système de sécurité et de caméras de surveillance pour l'édifice à locataires multiples du 30, rue Victoria",
+      "url_en": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/mtcss/",
+      "url_fr": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/mtcss/",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/mtcss/",
+        "alternate_url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/mtcss/"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/mtcss/",
+          "title_from_list": "Multi–Institutional Privacy Impact Assessment Summary on the 30 Victoria Multi-Tenants Camera and Security System",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.priv.gc.ca/en/privacy-topics/federal-government-privacy/privacy-impact-assessments/",
+          "discovered_under": "OPC Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/mtcss/",
+              "title": "Multi–Institutional Privacy Impact Assessment Summary on the 30 Victoria Multi-Tenants Camera and Security System",
+              "list_url": "https://www.priv.gc.ca/en/privacy-topics/federal-government-privacy/privacy-impact-assessments/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/mtcss/"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/mtcss/",
+            "final_url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/mtcss/",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:32.363014+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 32598,
+            "sha256": "0462b35085e4c6a755f3157c4c7df38b5dbd7b4b499abfaa66f32382513da60b"
+          },
+          "raw_path": "raw/0ac443733ea6b8fc5ae5.html",
+          "markdown_path": "pia-0ac443733ea6_en.md",
+          "markdown_sha256": "0420ed3e93cf7881126686409210a625bbdca18fc48cec4747e27d7e3a4c73cd",
+          "status": "exported",
+          "page_title": "Archived - Multi–Institutional Privacy Impact Assessment Summary on the 30 Victoria Multi-Tenants Camera and Security System",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/mtcss/"
+          },
+          "date_modified": "2016-04-21",
+          "date_published": "2016-04-21",
+          "has_pia_text": true,
+          "title": "Archived - Multi–Institutional Privacy Impact Assessment Summary on the 30 Victoria Multi-Tenants Camera and Security System",
+          "conversion": "markdownify",
+          "text_sha256": "294880034aeb3da6fabaccb75861b468375b2dd7d6ad5f7076285129fe1b3a5d",
+          "word_count": 1718
+        },
+        "fr": {
+          "url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/mtcss/",
+          "title_from_list": "Résumé de l'évaluation pluriorganisationnelle des facteurs relatifs à la vie privée concernant le Système de sécurité et de caméras de surveillance pour l'édifice à locataires multiples du 30, rue Victoria",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.priv.gc.ca/fr/sujets-lies-a-la-protection-de-la-vie-privee/protection-des-renseignements-personnels-pour-les-institutions-federales/evaluations-des-facteurs-relatifs-a-la-vie-privee/",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée du Commissariat",
+          "discovery_references": [
+            {
+              "url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/mtcss/",
+              "title": "Résumé de l'évaluation pluriorganisationnelle des facteurs relatifs à la vie privée concernant le Système de sécurité et de caméras de surveillance pour l'édifice à locataires multiples du 30, rue Victoria",
+              "list_url": "https://www.priv.gc.ca/fr/sujets-lies-a-la-protection-de-la-vie-privee/protection-des-renseignements-personnels-pour-les-institutions-federales/evaluations-des-facteurs-relatifs-a-la-vie-privee/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/mtcss/"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/mtcss/",
+            "final_url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/mtcss/",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:33.031968+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 36987,
+            "sha256": "466a088165489b6625e376ef6a5c516920a94f0a469674138ee8d119bbfcb89b"
+          },
+          "raw_path": "raw/a48a6213e5fc2ffbcee4.html",
+          "markdown_path": "pia-0ac443733ea6_fr.md",
+          "markdown_sha256": "ebca95ea59805f0523a8e1d25757ef95d9977f3c9a1bc4b184fdbc4e7e75b983",
+          "status": "exported",
+          "page_title": "Archivée - Résumé de l'évaluation pluriorganisationnelle des facteurs relatifs à la vie privée concernant le Système de sécurité et de caméras de surveillance pour l'édifice à locataires multiples du 30, rue Victoria",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/mtcss/"
+          },
+          "date_modified": "2016-04-21",
+          "date_published": "2016-04-21",
+          "has_pia_text": true,
+          "title": "Archivée - Résumé de l'évaluation pluriorganisationnelle des facteurs relatifs à la vie privée concernant le Système de sécurité et de caméras de surveillance pour l'édifice à locataires multiples du 30, rue Victoria",
+          "conversion": "markdownify",
+          "text_sha256": "d29bf879c21dbf29f46f3bdf3e37cee5db87d40289a961f991dbc43c0cd4df1e",
+          "word_count": 2113
+        }
+      }
+    },
+    {
+      "pia_id": "pia-28355305b355",
+      "title_en": "Privacy Impact Assessment Summary on the Online Request Form",
+      "title_fr": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le formulaire de demande en ligne",
+      "url_en": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/orf/",
+      "url_fr": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/orf/",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/orf/",
+        "alternate_url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/orf/"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/orf/",
+          "title_from_list": "Privacy Impact Assessment Summary on the Online Request Form",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.priv.gc.ca/en/privacy-topics/federal-government-privacy/privacy-impact-assessments/",
+          "discovered_under": "OPC Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/orf/",
+              "title": "Privacy Impact Assessment Summary on the Online Request Form",
+              "list_url": "https://www.priv.gc.ca/en/privacy-topics/federal-government-privacy/privacy-impact-assessments/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/orf/"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/orf/",
+            "final_url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/orf/",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:32.438970+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 29554,
+            "sha256": "6d875b2721448862c0882ec01b2da9a56b9159c31383236d9083758ef515a4e8"
+          },
+          "raw_path": "raw/28355305b355b3822c0a.html",
+          "markdown_path": "pia-28355305b355_en.md",
+          "markdown_sha256": "d17ab8821754ace66ddab8f752c263e5d9ac6c02a41fd0b29a3342e7a7385eb3",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summary on the Online Request Form",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/orf/"
+          },
+          "date_modified": "2015-04-27",
+          "date_published": "2015-04-27",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment Summary on the Online Request Form",
+          "conversion": "markdownify",
+          "text_sha256": "ec115dd36ff6e2325cb753fe5d73e6b2f811e4899ab0095a07f32be50532a155",
+          "word_count": 1424
+        },
+        "fr": {
+          "url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/orf/",
+          "title_from_list": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le formulaire de demande en ligne",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.priv.gc.ca/fr/sujets-lies-a-la-protection-de-la-vie-privee/protection-des-renseignements-personnels-pour-les-institutions-federales/evaluations-des-facteurs-relatifs-a-la-vie-privee/",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée du Commissariat",
+          "discovery_references": [
+            {
+              "url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/orf/",
+              "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le formulaire de demande en ligne",
+              "list_url": "https://www.priv.gc.ca/fr/sujets-lies-a-la-protection-de-la-vie-privee/protection-des-renseignements-personnels-pour-les-institutions-federales/evaluations-des-facteurs-relatifs-a-la-vie-privee/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/orf/"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/orf/",
+            "final_url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/orf/",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:33.334602+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 31480,
+            "sha256": "a5f8e6afb365f96abf8099d4363ee55675649053c5fc42d76c65828015731611"
+          },
+          "raw_path": "raw/41e398053a94439ca657.html",
+          "markdown_path": "pia-28355305b355_fr.md",
+          "markdown_sha256": "b93c7c4bbe30339c974e192d25e7ff9bd279ffabb24c017c7bdf26db4fe0f608",
+          "status": "exported",
+          "page_title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le formulaire de demande en ligne",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/orf/"
+          },
+          "date_modified": "2015-04-27",
+          "date_published": "2015-04-27",
+          "has_pia_text": true,
+          "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée pour le formulaire de demande en ligne",
+          "conversion": "markdownify",
+          "text_sha256": "ef6da63aaa3d35b53d272e08b364bdfa4a0d0b203b60fe36dcddbf0a59694703",
+          "word_count": 1699
+        }
+      }
+    },
+    {
+      "pia_id": "pia-74f07efba391",
+      "title_en": "Privacy Impact Assessment Summary on the “Snappy” Tool",
+      "title_fr": "Résumé de l’évaluation des facteurs relatifs à la vie privée de l’Outil « Snappy»",
+      "url_en": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/st/",
+      "url_fr": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/st/",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/st/",
+        "alternate_url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/st/"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/st/",
+          "title_from_list": "Privacy Impact Assessment Summary on the “Snappy” Tool",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.priv.gc.ca/en/privacy-topics/federal-government-privacy/privacy-impact-assessments/",
+          "discovered_under": "OPC Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/st/",
+              "title": "Privacy Impact Assessment Summary on the “Snappy” Tool",
+              "list_url": "https://www.priv.gc.ca/en/privacy-topics/federal-government-privacy/privacy-impact-assessments/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/st/"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/st/",
+            "final_url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/st/",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:32.920473+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 29105,
+            "sha256": "4c7854bb270a7653876a44faa14fd19ad72fda0213cc715fa8c7e9a0a02332df"
+          },
+          "raw_path": "raw/74f07efba3912dd75c5c.html",
+          "markdown_path": "pia-74f07efba391_en.md",
+          "markdown_sha256": "343dd960f86f487641200dedbadc902665745c16e5921aacff9bdaae089a6ef6",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summary on the “Snappy” Tool",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/st/"
+          },
+          "date_modified": "2015-04-27",
+          "date_published": "2015-04-27",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment Summary on the “Snappy” Tool",
+          "conversion": "markdownify",
+          "text_sha256": "a3863fc84c4a7afde5cf8327c99234b5b63333742d6d52a69c097a69ff693a8d",
+          "word_count": 1413
+        },
+        "fr": {
+          "url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/st/",
+          "title_from_list": "Résumé de l’évaluation des facteurs relatifs à la vie privée de l’Outil « Snappy»",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.priv.gc.ca/fr/sujets-lies-a-la-protection-de-la-vie-privee/protection-des-renseignements-personnels-pour-les-institutions-federales/evaluations-des-facteurs-relatifs-a-la-vie-privee/",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée du Commissariat",
+          "discovery_references": [
+            {
+              "url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/st/",
+              "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée de l’Outil « Snappy»",
+              "list_url": "https://www.priv.gc.ca/fr/sujets-lies-a-la-protection-de-la-vie-privee/protection-des-renseignements-personnels-pour-les-institutions-federales/evaluations-des-facteurs-relatifs-a-la-vie-privee/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/st/"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/st/",
+            "final_url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/st/",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:33.366411+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 34182,
+            "sha256": "e4afbcbacef5d10d9c0dd7e3cd47660700a12282cc06f36379f789c1c85a3c99"
+          },
+          "raw_path": "raw/7ea66feecc802aeb70d1.html",
+          "markdown_path": "pia-74f07efba391_fr.md",
+          "markdown_sha256": "905a9691e6a5035d30c7e295559e558bc24b112af73606ce3e01c678923d1bed",
+          "status": "exported",
+          "page_title": "Résumé de l’évaluation des facteurs relatifs à la vie privée de l’Outil « Snappy»",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/st/"
+          },
+          "date_modified": "2015-04-27",
+          "date_published": "2015-04-27",
+          "has_pia_text": true,
+          "title": "Résumé de l’évaluation des facteurs relatifs à la vie privée de l’Outil « Snappy»",
+          "conversion": "markdownify",
+          "text_sha256": "8307326e064bb7703cb476c710c4b8ce88e034680506363c7530a0faa2c08342",
+          "word_count": 1716
+        }
+      }
+    },
+    {
+      "pia_id": "pia-0575a1f98e22",
+      "title_en": "Privacy Impact Assessment Summary on Canada's anti-spam legislation",
+      "title_fr": "Sommaire de l’évaluation des facteurs relatifs à la vie privée sur la Loi canadienne anti-pourriel",
+      "url_en": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/casl-lcap/",
+      "url_fr": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/casl-lcap/",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/casl-lcap/",
+        "alternate_url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/casl-lcap/"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/casl-lcap/",
+          "title_from_list": "Privacy Impact Assessment Summary on Canada's anti-spam legislation",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.priv.gc.ca/en/privacy-topics/federal-government-privacy/privacy-impact-assessments/",
+          "discovered_under": "OPC Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/casl-lcap/",
+              "title": "Privacy Impact Assessment Summary on Canada's anti-spam legislation",
+              "list_url": "https://www.priv.gc.ca/en/privacy-topics/federal-government-privacy/privacy-impact-assessments/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/casl-lcap/"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/casl-lcap/",
+            "final_url": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/casl-lcap/",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:32.348219+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 42587,
+            "sha256": "0ec9ca5ebacced85dffbd3ee1d476dc56f75780fc1701ace13337a27969b97f2"
+          },
+          "raw_path": "raw/0575a1f98e224096aae2.html",
+          "markdown_path": "pia-0575a1f98e22_en.md",
+          "markdown_sha256": "e3e1b4e2290a9ca15e42a7f1e81d8b31ec4ea59618956f42eba8a9834a809d9b",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summary on Canada's anti-spam legislation",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/casl-lcap/"
+          },
+          "date_modified": "2014-11-25",
+          "date_published": "2014-11-25",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment Summary on Canada's anti-spam legislation",
+          "conversion": "markdownify",
+          "text_sha256": "22668f77265a6bcd6bd5473b40fd515eb13063d42b2f6b27323ec97612d5c881",
+          "word_count": 3570
+        },
+        "fr": {
+          "url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/casl-lcap/",
+          "title_from_list": "Sommaire de l’évaluation des facteurs relatifs à la vie privée sur la Loi canadienne anti-pourriel",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.priv.gc.ca/fr/sujets-lies-a-la-protection-de-la-vie-privee/protection-des-renseignements-personnels-pour-les-institutions-federales/evaluations-des-facteurs-relatifs-a-la-vie-privee/",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée du Commissariat",
+          "discovery_references": [
+            {
+              "url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/casl-lcap/",
+              "title": "Sommaire de l’évaluation des facteurs relatifs à la vie privée sur la Loi canadienne anti-pourriel",
+              "list_url": "https://www.priv.gc.ca/fr/sujets-lies-a-la-protection-de-la-vie-privee/protection-des-renseignements-personnels-pour-les-institutions-federales/evaluations-des-facteurs-relatifs-a-la-vie-privee/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/casl-lcap/"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/casl-lcap/",
+            "final_url": "https://www.priv.gc.ca/fr/a-propos-du-commissariat/rapports-operationnels-du-commissariat/evaluations-des-facteurs-relatifs-a-la-vie-privee-du-commissariat/casl-lcap/",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:32.963882+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 54419,
+            "sha256": "b69fca0b69d2a39c284347c0bb5ebc2a7b35ffdbfa34bd8626f4154ebc1680c6"
+          },
+          "raw_path": "raw/297334c756b216284083.html",
+          "markdown_path": "pia-0575a1f98e22_fr.md",
+          "markdown_sha256": "ea064950ce41e313bf2d31086c92f7d624bf20b9270042edef718bdf44ca6973",
+          "status": "exported",
+          "page_title": "Sommaire de l’évaluation des facteurs relatifs à la vie privée sur la Loi canadienne anti-pourriel",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.priv.gc.ca/en/about-the-opc/opc-operational-reports/opc-privacy-impact-assessments/casl-lcap/"
+          },
+          "date_modified": "2014-11-25",
+          "date_published": "2014-11-25",
+          "has_pia_text": true,
+          "title": "Sommaire de l’évaluation des facteurs relatifs à la vie privée sur la Loi canadienne anti-pourriel",
+          "conversion": "markdownify",
+          "text_sha256": "46b39ed9f55cefe369edc33e9d5df42bc1e3809462e30888a466a54562f300d5",
+          "word_count": 4536
+        }
+      }
+    }
+  ],
+  "summary": {
+    "pia_count": 8,
+    "paired_count": 8,
+    "source_status_counts": {
+      "exported": 16
+    }
+  }
+}

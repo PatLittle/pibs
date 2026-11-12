@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "collector_version": 1,
+  "collected_at_utc": "2026-11-12T01:50:43.099474+00:00",
+  "institution_id": "ati-schedule-i-parole-board-of-canada",
+  "gc_orgID": "2267.0",
+  "open_canada_org_id": "6AF7EAE0-2351-43BB-AD44-262BDDD45E08",
+  "open_canada_org_slug": "pbc-clcc",
+  "name_en": "Parole Board of Canada",
+  "name_fr": "Commission des libérations conditionnelles du Canada",
+  "registry_membership": "current_registry",
+  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "list_pages": {
+    "en": {
+      "indexed_url": "https://www.canada.ca/en/parole-board/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessments.html",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.canada.ca/en/parole-board/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessments.html",
+          "final_url": "https://www.canada.ca/en/parole-board/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessments.html",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:28.819605+00:00",
+          "redirects": [],
+          "content_type": "text/html;charset=utf-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Thu, 12 Nov 2026 00:26:22 GMT",
+          "etag": null,
+          "byte_count": 20741,
+          "sha256": "a5e4c3f6f0bd9f76ce99da6875de46fb39ce948e5dd6ffa0ffe83685322eeddf",
+          "raw_path": "raw/ed1f10ae6c2767dc2acf.html"
+        }
+      ],
+      "discovered_count": 2,
+      "scopes": [
+        "Privacy Impact Assessments (PIA)"
+      ],
+      "warnings": []
+    },
+    "fr": {
+      "indexed_url": "https://www.canada.ca/fr/commission-liberations-conditionnelles/organisation/transparence/access-a-information-et-protection-des-renseignements-personnels/evaluations-des-facteurs-relatifs-a-la-vie-privee.html",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.canada.ca/fr/commission-liberations-conditionnelles/organisation/transparence/access-a-information-et-protection-des-renseignements-personnels/evaluations-des-facteurs-relatifs-a-la-vie-privee.html",
+          "final_url": "https://www.canada.ca/fr/commission-liberations-conditionnelles/organisation/transparence/access-a-information-et-protection-des-renseignements-personnels/evaluations-des-facteurs-relatifs-a-la-vie-privee.html",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:29.043482+00:00",
+          "redirects": [],
+          "content_type": "text/html;charset=utf-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Thu, 12 Nov 2026 00:26:22 GMT",
+          "etag": null,
+          "byte_count": 22036,
+          "sha256": "c64f8f1228f2bf3b380e2282ee1f56a01e369afbd8b3ecc2ac186cb66f297a3c",
+          "raw_path": "raw/045caaf7c203a552deff.html"
+        }
+      ],
+      "discovered_count": 2,
+      "scopes": [
+        "Évaluations des facteurs relatifs à la vie privée (EFRVP)"
+      ],
+      "warnings": []
+    }
+  },
+  "pias": [
+    {
+      "pia_id": "pia-3783d51f07f4",
+      "title_en": "PIA Summary for the Documentum Interim E-file Project",
+      "title_fr": "Résumé de l'EFRVP pour le projet transitoire du dossier électronique dans Documentum",
+      "url_en": "https://www.canada.ca/en/parole-board/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessments/summary-e-file-project.html",
+      "url_fr": "https://www.canada.ca/fr/commission-liberations-conditionnelles/organisation/transparence/access-a-information-et-protection-des-renseignements-personnels/evaluations-des-facteurs-relatifs-a-la-vie-privee/resume-de-projet-transitoire-du-dossier-electronique.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/parole-board/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessments/summary-e-file-project.html",
+        "alternate_url": "https://www.canada.ca/fr/commission-liberations-conditionnelles/organisation/transparence/access-a-information-et-protection-des-renseignements-personnels/evaluations-des-facteurs-relatifs-a-la-vie-privee/resume-de-projet-transitoire-du-dossier-electronique.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/parole-board/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessments/summary-e-file-project.html",
+          "title_from_list": "PIA Summary for the Documentum Interim E-file Project",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/parole-board/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessments.html",
+          "discovered_under": "Privacy Impact Assessments (PIA)",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/parole-board/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessments/summary-e-file-project.html",
+              "title": "PIA Summary for the Documentum Interim E-file Project",
+              "list_url": "https://www.canada.ca/en/parole-board/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessments.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/parole-board/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessments/summary-e-file-project.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/parole-board/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessments/summary-e-file-project.html",
+            "final_url": "https://www.canada.ca/en/parole-board/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessments/summary-e-file-project.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:16.331633+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:16 GMT",
+            "etag": null,
+            "byte_count": 21719,
+            "sha256": "2d06434a8cc8b59e52e488e0ccf09b1f9c5a529a6430533e0f46f41ffd09aacc"
+          },
+          "raw_path": "raw/3783d51f07f44727d607.html",
+          "markdown_path": "pia-3783d51f07f4_en.md",
+          "markdown_sha256": "f36d0ee5b6bfa6919d356ae62f73eb3e61ab1140d8ee6ffbb154d465579032c8",
+          "status": "exported",
+          "page_title": "PIA Summary for the Documentum Interim E-file Project",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/parole-board/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessments/summary-e-file-project.html",
+            "fr": "https://www.canada.ca/fr/commission-liberations-conditionnelles/organisation/transparence/access-a-information-et-protection-des-renseignements-personnels/evaluations-des-facteurs-relatifs-a-la-vie-privee/resume-de-projet-transitoire-du-dossier-electronique.html"
+          },
+          "date_modified": "2019-01-14",
+          "date_published": "2015-09-18",
+          "has_pia_text": true,
+          "title": "PIA Summary for the Documentum Interim E-file Project",
+          "conversion": "markdownify",
+          "text_sha256": "9219d6bd63d82099657ac93e0ca236556e2e577b943f15a52450230d0a24ce5e",
+          "word_count": 212
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/commission-liberations-conditionnelles/organisation/transparence/access-a-information-et-protection-des-renseignements-personnels/evaluations-des-facteurs-relatifs-a-la-vie-privee/resume-de-projet-transitoire-du-dossier-electronique.html",
+          "title_from_list": "Résumé de l' EFRVP pour le projet transitoire du dossier électronique dans Documentum",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/commission-liberations-conditionnelles/organisation/transparence/access-a-information-et-protection-des-renseignements-personnels/evaluations-des-facteurs-relatifs-a-la-vie-privee.html",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée (EFRVP)",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/commission-liberations-conditionnelles/organisation/transparence/access-a-information-et-protection-des-renseignements-personnels/evaluations-des-facteurs-relatifs-a-la-vie-privee/resume-de-projet-transitoire-du-dossier-electronique.html",
+              "title": "Résumé de l' EFRVP pour le projet transitoire du dossier électronique dans Documentum",
+              "list_url": "https://www.canada.ca/fr/commission-liberations-conditionnelles/organisation/transparence/access-a-information-et-protection-des-renseignements-personnels/evaluations-des-facteurs-relatifs-a-la-vie-privee.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/commission-liberations-conditionnelles/organisation/transparence/access-a-information-et-protection-des-renseignements-personnels/evaluations-des-facteurs-relatifs-a-la-vie-privee/resume-de-projet-transitoire-du-dossier-electronique.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/commission-liberations-conditionnelles/organisation/transparence/access-a-information-et-protection-des-renseignements-personnels/evaluations-des-facteurs-relatifs-a-la-vie-privee/resume-de-projet-transitoire-du-dossier-electronique.html",
+            "final_url": "https://www.canada.ca/fr/commission-liberations-conditionnelles/organisation/transparence/access-a-information-et-protection-des-renseignements-personnels/evaluations-des-facteurs-relatifs-a-la-vie-privee/resume-de-projet-transitoire-du-dossier-electronique.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:20.282390+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:20 GMT",
+            "etag": null,
+            "byte_count": 23601,
+            "sha256": "36c01010d665397621971bfa7bae4e2a8882f2258b2bf6a282bc3010d2c5da87"
+          },
+          "raw_path": "raw/9d68e8c72188ba432306.html",
+          "markdown_path": "pia-3783d51f07f4_fr.md",
+          "markdown_sha256": "5248707988af3a37bb1e6bceecca822c46981c2bb589e4545dd48ce0a01be2af",
+          "status": "exported",
+          "page_title": "Résumé de l'EFRVP pour le projet transitoire du dossier électronique dans Documentum",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/commission-liberations-conditionnelles/organisation/transparence/access-a-information-et-protection-des-renseignements-personnels/evaluations-des-facteurs-relatifs-a-la-vie-privee/resume-de-projet-transitoire-du-dossier-electronique.html",
+            "en": "https://www.canada.ca/en/parole-board/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessments/summary-e-file-project.html"
+          },
+          "date_modified": "2016-09-15",
+          "date_published": "2015-09-18",
+          "has_pia_text": true,
+          "title": "Résumé de l'EFRVP pour le projet transitoire du dossier électronique dans Documentum",
+          "conversion": "markdownify",
+          "text_sha256": "9d12ecb0b9a974472e56f04d7d92ed6e6686f3ee999c1ed33070aa0f55ee6e5e",
+          "word_count": 326
+        }
+      }
+    },
+    {
+      "pia_id": "pia-f76eaea8a957",
+      "title_en": "PIA Summary for the Integrated Decision System (IDS)",
+      "title_fr": "Résumé de l'EFRVP pour le système intégré des décisions (SID)",
+      "url_en": "https://www.canada.ca/en/parole-board/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessments/summary-ids.html",
+      "url_fr": "https://www.canada.ca/fr/commission-liberations-conditionnelles/organisation/transparence/access-a-information-et-protection-des-renseignements-personnels/evaluations-des-facteurs-relatifs-a-la-vie-privee/resume-efrvp.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/parole-board/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessments/summary-ids.html",
+        "alternate_url": "https://www.canada.ca/fr/commission-liberations-conditionnelles/organisation/transparence/access-a-information-et-protection-des-renseignements-personnels/evaluations-des-facteurs-relatifs-a-la-vie-privee/resume-efrvp.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/parole-board/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessments/summary-ids.html",
+          "title_from_list": "PIA Summary for the Integrated Decision System ( IDS )",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/parole-board/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessments.html",
+          "discovered_under": "Privacy Impact Assessments (PIA)",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/parole-board/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessments/summary-ids.html",
+              "title": "PIA Summary for the Integrated Decision System ( IDS )",
+              "list_url": "https://www.canada.ca/en/parole-board/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessments.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/parole-board/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessments/summary-ids.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/parole-board/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessments/summary-ids.html",
+            "final_url": "https://www.canada.ca/en/parole-board/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessments/summary-ids.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:16.370345+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:16 GMT",
+            "etag": null,
+            "byte_count": 21784,
+            "sha256": "9799db5250bf7ae037a37425725626513ea8e297cbf98caa2970ff97bf9920d3"
+          },
+          "raw_path": "raw/f76eaea8a957d8b572e0.html",
+          "markdown_path": "pia-f76eaea8a957_en.md",
+          "markdown_sha256": "09d0959f0d4fb4abaa75e37da6a0a3c5bc8d437764a5f37d08ae983e2c2a6a9f",
+          "status": "exported",
+          "page_title": "PIA Summary for the Integrated Decision System (IDS)",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/parole-board/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessments/summary-ids.html",
+            "fr": "https://www.canada.ca/fr/commission-liberations-conditionnelles/organisation/transparence/access-a-information-et-protection-des-renseignements-personnels/evaluations-des-facteurs-relatifs-a-la-vie-privee/resume-efrvp.html"
+          },
+          "date_modified": "2019-01-14",
+          "date_published": "2015-09-18",
+          "has_pia_text": true,
+          "title": "PIA Summary for the Integrated Decision System (IDS)",
+          "conversion": "markdownify",
+          "text_sha256": "5abce14e2fea799470ff719cdaa5d3cd7abe5067aeb6e01b02b77970105253cd",
+          "word_count": 217
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/commission-liberations-conditionnelles/organisation/transparence/access-a-information-et-protection-des-renseignements-personnels/evaluations-des-facteurs-relatifs-a-la-vie-privee/resume-efrvp.html",
+          "title_from_list": "Résumé de l' EFRVP pour le système intégré des décisions ( SID )",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/commission-liberations-conditionnelles/organisation/transparence/access-a-information-et-protection-des-renseignements-personnels/evaluations-des-facteurs-relatifs-a-la-vie-privee.html",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée (EFRVP)",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/commission-liberations-conditionnelles/organisation/transparence/access-a-information-et-protection-des-renseignements-personnels/evaluations-des-facteurs-relatifs-a-la-vie-privee/resume-efrvp.html",
+              "title": "Résumé de l' EFRVP pour le système intégré des décisions ( SID )",
+              "list_url": "https://www.canada.ca/fr/commission-liberations-conditionnelles/organisation/transparence/access-a-information-et-protection-des-renseignements-personnels/evaluations-des-facteurs-relatifs-a-la-vie-privee.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/commission-liberations-conditionnelles/organisation/transparence/access-a-information-et-protection-des-renseignements-personnels/evaluations-des-facteurs-relatifs-a-la-vie-privee/resume-efrvp.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/commission-liberations-conditionnelles/organisation/transparence/access-a-information-et-protection-des-renseignements-personnels/evaluations-des-facteurs-relatifs-a-la-vie-privee/resume-efrvp.html",
+            "final_url": "https://www.canada.ca/fr/commission-liberations-conditionnelles/organisation/transparence/access-a-information-et-protection-des-renseignements-personnels/evaluations-des-facteurs-relatifs-a-la-vie-privee/resume-efrvp.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:20.294425+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:20 GMT",
+            "etag": null,
+            "byte_count": 23489,
+            "sha256": "6072e3f7375031409fb002b3f0811ebe00d926ccbcc959edca6e260ba84369e8"
+          },
+          "raw_path": "raw/8505d472ff944af3e269.html",
+          "markdown_path": "pia-f76eaea8a957_fr.md",
+          "markdown_sha256": "7f2773478dac8041a578c9cd1a7643fbe9f30ac29f899a1324f75464df5eb4e1",
+          "status": "exported",
+          "page_title": "Résumé de l'EFRVP pour le système intégré des décisions (SID)",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/commission-liberations-conditionnelles/organisation/transparence/access-a-information-et-protection-des-renseignements-personnels/evaluations-des-facteurs-relatifs-a-la-vie-privee/resume-efrvp.html",
+            "en": "https://www.canada.ca/en/parole-board/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessments/summary-ids.html"
+          },
+          "date_modified": "2016-09-15",
+          "date_published": "2015-09-18",
+          "has_pia_text": true,
+          "title": "Résumé de l'EFRVP pour le système intégré des décisions (SID)",
+          "conversion": "markdownify",
+          "text_sha256": "aa41cee26f650f65927acb1ebce23c0372c4c1bddec097630ffbb99c2a6f4d1f",
+          "word_count": 316
+        }
+      }
+    }
+  ],
+  "summary": {
+    "pia_count": 2,
+    "paired_count": 2,
+    "source_status_counts": {
+      "exported": 4
+    }
+  }
+}

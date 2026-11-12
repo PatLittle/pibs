@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "collector_version": 1,
+  "collected_at_utc": "2026-11-12T01:50:38.059180+00:00",
+  "institution_id": "ati-schedule-i-canada-foundation-for-innovation",
+  "gc_orgID": "3443.0",
+  "open_canada_org_id": "345d68bd-a46c-5b03-9e88-d98335eb2b8c",
+  "open_canada_org_slug": "innovation",
+  "name_en": "Canada Foundation for Innovation",
+  "name_fr": "Fondation canadienne pour l’innovation",
+  "registry_membership": "current_registry",
+  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "list_pages": {
+    "en": {
+      "indexed_url": "https://www.innovation.ca/access-information-privacy/summaries-completed-privacy-impact-assessments-pias",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.innovation.ca/access-information-privacy/summaries-completed-privacy-impact-assessments-pias",
+          "final_url": "https://www.innovation.ca/access-information-privacy/summaries-completed-privacy-impact-assessments-pias",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:30.372140+00:00",
+          "redirects": [],
+          "content_type": "text/html; charset=UTF-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Wed, 11 Nov 2026 23:57:55 GMT",
+          "etag": null,
+          "byte_count": 60996,
+          "sha256": "7489c7e83b8b053751d0d268f98a19722acd01b4073293909c6e8232f73b138c",
+          "raw_path": "raw/6af08e4a94ed73f21e07.html"
+        }
+      ],
+      "discovered_count": 1,
+      "scopes": [
+        "Summaries of completed Privacy Impact Assessments (PIAs)"
+      ],
+      "warnings": []
+    },
+    "fr": {
+      "indexed_url": "https://www.innovation.ca/fr/acces-linformation-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.innovation.ca/fr/acces-linformation-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie",
+          "final_url": "https://www.innovation.ca/fr/acces-linformation-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:30.423846+00:00",
+          "redirects": [],
+          "content_type": "text/html; charset=UTF-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Thu, 12 Nov 2026 00:26:32 GMT",
+          "etag": null,
+          "byte_count": 63224,
+          "sha256": "fa237675008f60fbf3fe19de5295592d0a24a994343308bf7dae26c2e7bfe685",
+          "raw_path": "raw/8e9a71523f3e2e2efcc3.html"
+        }
+      ],
+      "discovered_count": 1,
+      "scopes": [
+        "Sommaires des évaluations des facteurs relatifs à la vie privée complétées"
+      ],
+      "warnings": []
+    }
+  },
+  "pias": [
+    {
+      "pia_id": "pia-dc3b51bd4006",
+      "title_en": "Research Infrastructure Funding Programs",
+      "title_fr": "Programmes de financement de l'infrastructure de recherche",
+      "url_en": "https://www.innovation.ca/access-information-privacy/summaries-completed-privacy-impact-assessments-pias/research",
+      "url_fr": "https://www.innovation.ca/fr/acces-linformation-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-0",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.innovation.ca/access-information-privacy/summaries-completed-privacy-impact-assessments-pias/research",
+        "alternate_url": "https://www.innovation.ca/fr/acces-linformation-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-0"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.innovation.ca/access-information-privacy/summaries-completed-privacy-impact-assessments-pias/research",
+          "title_from_list": "Research Infrastructure Funding Programs",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.innovation.ca/access-information-privacy/summaries-completed-privacy-impact-assessments-pias",
+          "discovered_under": "Summaries of completed Privacy Impact Assessments (PIAs)",
+          "discovery_references": [
+            {
+              "url": "https://www.innovation.ca/access-information-privacy/summaries-completed-privacy-impact-assessments-pias/research",
+              "title": "Research Infrastructure Funding Programs",
+              "list_url": "https://www.innovation.ca/access-information-privacy/summaries-completed-privacy-impact-assessments-pias",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.innovation.ca/access-information-privacy/summaries-completed-privacy-impact-assessments-pias/research"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.innovation.ca/access-information-privacy/summaries-completed-privacy-impact-assessments-pias/research",
+            "final_url": "https://www.innovation.ca/access-information-privacy/summaries-completed-privacy-impact-assessments-pias/research",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:32.107120+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 22:30:23 GMT",
+            "etag": null,
+            "byte_count": 79715,
+            "sha256": "f854f422959d25f054837bbfe277225a6549049ebc4a6ccf871ddb2fcbeda459"
+          },
+          "raw_path": "raw/dc3b51bd4006027c9731.html",
+          "markdown_path": "pia-dc3b51bd4006_en.md",
+          "markdown_sha256": "500a9b436cefc5d248f176f2c88062c3e495f561c054a2984249b90cedbe1464",
+          "status": "exported",
+          "page_title": "Research Infrastructure Funding Programs",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.innovation.ca/access-information-privacy/summaries-completed-privacy-impact-assessments-pias/research",
+            "fr": "https://www.innovation.ca/fr/acces-linformation-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-0"
+          },
+          "date_modified": null,
+          "date_published": null,
+          "has_pia_text": true,
+          "title": "Research Infrastructure Funding Programs",
+          "conversion": "markdownify",
+          "text_sha256": "7270c2b4404bc03831014ecf868deb5bb181dbc0c2a199b448fc0a592274b5b2",
+          "word_count": 2612
+        },
+        "fr": {
+          "url": "https://www.innovation.ca/fr/acces-linformation-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-0",
+          "title_from_list": "Programmes de financement de l'infrastructure de recherche",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.innovation.ca/fr/acces-linformation-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie",
+          "discovered_under": "Sommaires des évaluations des facteurs relatifs à la vie privée complétées",
+          "discovery_references": [
+            {
+              "url": "https://www.innovation.ca/fr/acces-linformation-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-0",
+              "title": "Programmes de financement de l'infrastructure de recherche",
+              "list_url": "https://www.innovation.ca/fr/acces-linformation-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.innovation.ca/fr/acces-linformation-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-0"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.innovation.ca/fr/acces-linformation-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-0",
+            "final_url": "https://www.innovation.ca/fr/acces-linformation-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-0",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:32.109828+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 23:44:58 GMT",
+            "etag": null,
+            "byte_count": 86834,
+            "sha256": "f04a722fb68eb05f0daaf10d952eaf4ab556b987b27ad1f6923719561503f1b6"
+          },
+          "raw_path": "raw/e093137d74766f30362e.html",
+          "markdown_path": "pia-dc3b51bd4006_fr.md",
+          "markdown_sha256": "eddb957196fd6d4ba26f84ae78b87ddcd29f36a6acaad043dba7af3556137150",
+          "status": "exported",
+          "page_title": "Programmes de financement de l'infrastructure de recherche",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.innovation.ca/access-information-privacy/summaries-completed-privacy-impact-assessments-pias/research",
+            "fr": "https://www.innovation.ca/fr/acces-linformation-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-0"
+          },
+          "date_modified": null,
+          "date_published": null,
+          "has_pia_text": true,
+          "title": "Programmes de financement de l'infrastructure de recherche",
+          "conversion": "markdownify",
+          "text_sha256": "4aeb05f0e9b78d876bc60e7c13bc96646e09cbf029cde16d46c991e4065dde5b",
+          "word_count": 3310
+        }
+      }
+    }
+  ],
+  "summary": {
+    "pia_count": 1,
+    "paired_count": 1,
+    "source_status_counts": {
+      "exported": 2
+    }
+  }
+}

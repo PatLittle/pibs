@@ -1,0 +1,521 @@
+{
+  "schema_version": 1,
+  "collector_version": 1,
+  "collected_at_utc": "2026-11-12T01:50:43.697025+00:00",
+  "institution_id": "ati-schedule-i-public-service-commission",
+  "gc_orgID": "2286.0",
+  "open_canada_org_id": "2FFBA23B-83C0-425B-8846-952A407F3D6E",
+  "open_canada_org_slug": "psc-cfp",
+  "name_en": "Public Service Commission",
+  "name_fr": "Commission de la fonction publique",
+  "registry_membership": "current_registry",
+  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "list_pages": {
+    "en": {
+      "indexed_url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessment-summaries.html",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessment-summaries.html",
+          "final_url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessment-summaries.html",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:28.901460+00:00",
+          "redirects": [],
+          "content_type": "text/html;charset=utf-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Thu, 12 Nov 2026 00:02:15 GMT",
+          "etag": null,
+          "byte_count": 23357,
+          "sha256": "c94ea9da88012c11c7e532398641ccf751ee37a6e7f17197e35aecca88c9194c",
+          "raw_path": "raw/a9076d594a7c6558598e.html"
+        }
+      ],
+      "discovered_count": 4,
+      "scopes": [
+        "Privacy Impact Assessment summaries"
+      ],
+      "warnings": []
+    },
+    "fr": {
+      "indexed_url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee.html",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "N",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee.html",
+          "final_url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee.html",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:29.025589+00:00",
+          "redirects": [],
+          "content_type": "text/html;charset=utf-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Thu, 12 Nov 2026 00:31:04 GMT",
+          "etag": null,
+          "byte_count": 24665,
+          "sha256": "01ff09f611b8be52befcbc0de6af208d4e821745f7cc112fe887981e6099e6da",
+          "raw_path": "raw/28d0fbd6a92b0719f1b4.html"
+        }
+      ],
+      "discovered_count": 4,
+      "scopes": [
+        "Sommaires des évaluations des facteurs relatifs à la vie privée"
+      ],
+      "warnings": []
+    }
+  },
+  "pias": [
+    {
+      "pia_id": "pia-c1ac34284a4b",
+      "title_en": "Privacy Impact Assessment Summary – Personnel Psychology Centre",
+      "title_fr": "Sommaire d'évaluation des facteurs relatifs à la vie privée – Centre de psychologie du personnel",
+      "url_en": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessment-summaries/pias-personnel-psychology-centre.html",
+      "url_fr": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/sefrvp-centre-de-psychologie-du-personnel.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessment-summaries/pias-personnel-psychology-centre.html",
+        "alternate_url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/sefrvp-centre-de-psychologie-du-personnel.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessment-summaries/pias-personnel-psychology-centre.html",
+          "title_from_list": "Privacy Impact Assessment Summary – Personnel Psychology Centre",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessment-summaries.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessment-summaries/pias-personnel-psychology-centre.html",
+              "title": "Privacy Impact Assessment Summary – Personnel Psychology Centre",
+              "list_url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessment-summaries.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessment-summaries/pias-personnel-psychology-centre.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessment-summaries/pias-personnel-psychology-centre.html",
+            "final_url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessment-summaries/pias-personnel-psychology-centre.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:17.272424+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:17 GMT",
+            "etag": null,
+            "byte_count": 27576,
+            "sha256": "2575ea380eb1e01abdc11014f4499799ed99a209ee15326ddfa05335929e5f67"
+          },
+          "raw_path": "raw/c1ac34284a4bcf36f9bb.html",
+          "markdown_path": "pia-c1ac34284a4b_en.md",
+          "markdown_sha256": "24b1de687ac87a871c1634d3ec5e4b342e97535ad31645c4c1605c10e779208a",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summary – Personnel Psychology Centre",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessment-summaries/pias-personnel-psychology-centre.html",
+            "fr": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/sefrvp-centre-de-psychologie-du-personnel.html"
+          },
+          "date_modified": "2021-11-02",
+          "date_published": "2021-11-02",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment Summary – Personnel Psychology Centre",
+          "conversion": "markdownify",
+          "text_sha256": "ef4a4b2e77cb7b91ed9d0785430e734da8a986dcaf4cab36a7e4a910e5db446e",
+          "word_count": 762
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/sefrvp-centre-de-psychologie-du-personnel.html",
+          "title_from_list": "Sommaire d'évaluation des facteurs relatifs à la vie privée – Centre de psychologie du personnel",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee.html",
+          "discovered_under": "Sommaires des évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/sefrvp-centre-de-psychologie-du-personnel.html",
+              "title": "Sommaire d'évaluation des facteurs relatifs à la vie privée – Centre de psychologie du personnel",
+              "list_url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/sefrvp-centre-de-psychologie-du-personnel.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/sefrvp-centre-de-psychologie-du-personnel.html",
+            "final_url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/sefrvp-centre-de-psychologie-du-personnel.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:20.256266+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:20 GMT",
+            "etag": null,
+            "byte_count": 29638,
+            "sha256": "0a4d8d67830e150543f9672fc222510b521064b8b5eb94b29414f2d464f77c25"
+          },
+          "raw_path": "raw/f5fa7a281aa6016750a7.html",
+          "markdown_path": "pia-c1ac34284a4b_fr.md",
+          "markdown_sha256": "3d49cf27ffbc560a5b87fbf13b97539a67986fd979bef8d9f06638ac8de73c7e",
+          "status": "exported",
+          "page_title": "Sommaire d'évaluation des facteurs relatifs à la vie privée – Centre de psychologie du personnel",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/sefrvp-centre-de-psychologie-du-personnel.html",
+            "en": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessment-summaries/pias-personnel-psychology-centre.html"
+          },
+          "date_modified": "2021-11-02",
+          "date_published": "2021-11-02",
+          "has_pia_text": true,
+          "title": "Sommaire d'évaluation des facteurs relatifs à la vie privée – Centre de psychologie du personnel",
+          "conversion": "markdownify",
+          "text_sha256": "cad91723cdc821f1674ce4bd5221e8a87e6c6226a21dd154b0ddfe2c5698a78a",
+          "word_count": 954
+        }
+      }
+    },
+    {
+      "pia_id": "pia-eb303efacf7d",
+      "title_en": "Privacy Impact Assessment Summary - Investigations Directorate (ID)",
+      "title_fr": "Résumé d'évaluation des facteurs relatifs à la vie privée - Direction des enquêtes (DE)",
+      "url_en": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessment-summaries/pia-summary-investigations-directorate.html",
+      "url_fr": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/resume-efrvp-direction-enquetes.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessment-summaries/pia-summary-investigations-directorate.html",
+        "alternate_url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/resume-efrvp-direction-enquetes.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessment-summaries/pia-summary-investigations-directorate.html",
+          "title_from_list": "Privacy Impact Assessment Summary - Investigations Directorate (ID)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessment-summaries.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessment-summaries/pia-summary-investigations-directorate.html",
+              "title": "Privacy Impact Assessment Summary - Investigations Directorate (ID)",
+              "list_url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessment-summaries.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessment-summaries/pia-summary-investigations-directorate.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessment-summaries/pia-summary-investigations-directorate.html",
+            "final_url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessment-summaries/pia-summary-investigations-directorate.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:17.175293+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:17 GMT",
+            "etag": null,
+            "byte_count": 26530,
+            "sha256": "711b50cd648361e4adbdb9be8862d3e5d9c8d78cb3c8e5e748ae18ad4014ee93"
+          },
+          "raw_path": "raw/eb303efacf7db0786f65.html",
+          "markdown_path": "pia-eb303efacf7d_en.md",
+          "markdown_sha256": "8713bb9e9e0717510f582ee60e093508465c644d44d29889b309f7051cd52b35",
+          "status": "exported",
+          "page_title": "Privacy Impact Assessment Summary - Investigations Directorate (ID)",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessment-summaries/pia-summary-investigations-directorate.html",
+            "fr": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/resume-efrvp-direction-enquetes.html"
+          },
+          "date_modified": "2020-02-21",
+          "date_published": "2020-02-21",
+          "has_pia_text": true,
+          "title": "Privacy Impact Assessment Summary - Investigations Directorate (ID)",
+          "conversion": "markdownify",
+          "text_sha256": "c661e4c8cb23279d60a50188afcc79c24447c4aed9f2b56d09d376da956aaf29",
+          "word_count": 598
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/resume-efrvp-direction-enquetes.html",
+          "title_from_list": "Résumé d'évaluation des facteurs relatifs à la vie privée - Direction des enquêtes (DE)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee.html",
+          "discovered_under": "Sommaires des évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/resume-efrvp-direction-enquetes.html",
+              "title": "Résumé d'évaluation des facteurs relatifs à la vie privée - Direction des enquêtes (DE)",
+              "list_url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/resume-efrvp-direction-enquetes.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/resume-efrvp-direction-enquetes.html",
+            "final_url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/resume-efrvp-direction-enquetes.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:20.115952+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:20 GMT",
+            "etag": null,
+            "byte_count": 28186,
+            "sha256": "111e9b45409f9dcac9eedb8e65a6ed4c0637b1e9d30528e4daaa0beb9c5dbd2c"
+          },
+          "raw_path": "raw/1cd4d9054b9769c2ca10.html",
+          "markdown_path": "pia-eb303efacf7d_fr.md",
+          "markdown_sha256": "775cb8a0a6e8ecda0361c853220320e61285261886a8f750e65e9af6b21c4128",
+          "status": "exported",
+          "page_title": "Résumé d'évaluation des facteurs relatifs à la vie privée - Direction des enquêtes (DE)",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/resume-efrvp-direction-enquetes.html",
+            "en": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessment-summaries/pia-summary-investigations-directorate.html"
+          },
+          "date_modified": "2020-02-21",
+          "date_published": "2020-02-21",
+          "has_pia_text": true,
+          "title": "Résumé d'évaluation des facteurs relatifs à la vie privée - Direction des enquêtes (DE)",
+          "conversion": "markdownify",
+          "text_sha256": "5b856330deeb4df996d9fb6faf9f631ce0bb2914028a814d9f9ad38b2f555f2c",
+          "word_count": 717
+        }
+      }
+    },
+    {
+      "pia_id": "pia-fd61b8b624fb",
+      "title_en": "Public Service Resourcing System, Privacy Impact Assessment Addendum",
+      "title_fr": "Système de ressourcement de la fonction publique, addendum sur l'évaluation des facteurs relatifs à la vie privée",
+      "url_en": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessments/public-service-resourcing-system-privacy-impact-assessment-addendum.html",
+      "url_fr": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/resume-publier-evaluation-facteurs-relatifs-vie-privee-environnement-analytique-commission-fonction-publique/systeme-ressourcement-fonction-publique-addendum-evaluation-facteurs-relatifs-vie-privee.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/resume-publier-evaluation-facteurs-relatifs-vie-privee-environnement-analytique-commission-fonction-publique/systeme-ressourcement-fonction-publique-addendum-evaluation-facteurs-relatifs-vie-privee.html",
+        "alternate_url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessments/public-service-resourcing-system-privacy-impact-assessment-addendum.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessments/public-service-resourcing-system-privacy-impact-assessment-addendum.html",
+          "title_from_list": "Public Service Resourcing System, Privacy Impact Assessment Addendum",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessment-summaries.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessments/public-service-resourcing-system-privacy-impact-assessment-addendum.html",
+              "title": "Public Service Resourcing System, Privacy Impact Assessment Addendum",
+              "list_url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessment-summaries.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessments/public-service-resourcing-system-privacy-impact-assessment-addendum.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessments/public-service-resourcing-system-privacy-impact-assessment-addendum.html",
+            "final_url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessments/public-service-resourcing-system-privacy-impact-assessment-addendum.html",
+            "http_status": 404,
+            "checked_at_utc": "2026-11-12T01:50:11.954466+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "",
+            "error": "HTTP Error 404: Not Found",
+            "byte_count": 10000,
+            "sha256": "94922003107c4fdb8b08d16c128ec468a55335e83e2dc6823c5d3ddf1297bc0c"
+          },
+          "raw_path": null,
+          "markdown_path": null,
+          "markdown_sha256": null,
+          "status": "http_error"
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/resume-publier-evaluation-facteurs-relatifs-vie-privee-environnement-analytique-commission-fonction-publique/systeme-ressourcement-fonction-publique-addendum-evaluation-facteurs-relatifs-vie-privee.html",
+          "title_from_list": "Système de ressourcement de la fonction publique, addendum sur l'évaluation des facteurs relatifs à la vie privée",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee.html",
+          "discovered_under": "Sommaires des évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/resume-publier-evaluation-facteurs-relatifs-vie-privee-environnement-analytique-commission-fonction-publique/systeme-ressourcement-fonction-publique-addendum-evaluation-facteurs-relatifs-vie-privee.html",
+              "title": "Système de ressourcement de la fonction publique, addendum sur l'évaluation des facteurs relatifs à la vie privée",
+              "list_url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/resume-publier-evaluation-facteurs-relatifs-vie-privee-environnement-analytique-commission-fonction-publique/systeme-ressourcement-fonction-publique-addendum-evaluation-facteurs-relatifs-vie-privee.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/resume-publier-evaluation-facteurs-relatifs-vie-privee-environnement-analytique-commission-fonction-publique/systeme-ressourcement-fonction-publique-addendum-evaluation-facteurs-relatifs-vie-privee.html",
+            "final_url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/resume-publier-evaluation-facteurs-relatifs-vie-privee-environnement-analytique-commission-fonction-publique/systeme-ressourcement-fonction-publique-addendum-evaluation-facteurs-relatifs-vie-privee.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:20.248742+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:20 GMT",
+            "etag": null,
+            "byte_count": 53354,
+            "sha256": "1d972c5ebc414c20cab6a2c6102f645cfac536f43d433406244f581f9086944f"
+          },
+          "raw_path": "raw/844a90479b5563a93fe6.html",
+          "markdown_path": "pia-fd61b8b624fb_fr.md",
+          "markdown_sha256": "0f27c8a6bf8b3facfeb2b7934fc82bbaa2b779b1abc76d97e799acea0043f978",
+          "status": "exported",
+          "page_title": "Système de ressourcement de la fonction publique, addendum sur l'évaluation des facteurs relatifs à la vie privée",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/resume-publier-evaluation-facteurs-relatifs-vie-privee-environnement-analytique-commission-fonction-publique/systeme-ressourcement-fonction-publique-addendum-evaluation-facteurs-relatifs-vie-privee.html",
+            "en": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessments/public-service-resourcing-system-privacy-impact-assessment-addendum.html"
+          },
+          "date_modified": "2015-07-15",
+          "date_published": "2015-07-15",
+          "has_pia_text": true,
+          "title": "Système de ressourcement de la fonction publique, addendum sur l'évaluation des facteurs relatifs à la vie privée",
+          "conversion": "markdownify",
+          "text_sha256": "604ae377833eb85e9df1e3f558ebf04c36880c892d970ce19ef908cab5a1171e",
+          "word_count": 3489
+        }
+      }
+    },
+    {
+      "pia_id": "pia-75e42a1e7eae",
+      "title_en": "Analytical Environment",
+      "title_fr": "Résumé à publier - Évaluation des facteurs relatifs à la vie privée de l’Environnement analytique de la Commission de la fonction publique",
+      "url_en": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessments/summary-publication-privacy-impact-assessment-public-service-commission-analytical-environment.html",
+      "url_fr": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/resume-publier-evaluation-facteurs-relatifs-vie-privee-environnement-analytique-commission-fonction-publique.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/resume-publier-evaluation-facteurs-relatifs-vie-privee-environnement-analytique-commission-fonction-publique.html",
+        "alternate_url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessments/summary-publication-privacy-impact-assessment-public-service-commission-analytical-environment.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessments/summary-publication-privacy-impact-assessment-public-service-commission-analytical-environment.html",
+          "title_from_list": "Analytical Environment",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessment-summaries.html",
+          "discovered_under": "Privacy Impact Assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessments/summary-publication-privacy-impact-assessment-public-service-commission-analytical-environment.html",
+              "title": "Analytical Environment",
+              "list_url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessment-summaries.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessments/summary-publication-privacy-impact-assessment-public-service-commission-analytical-environment.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessments/summary-publication-privacy-impact-assessment-public-service-commission-analytical-environment.html",
+            "final_url": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessments/summary-publication-privacy-impact-assessment-public-service-commission-analytical-environment.html",
+            "http_status": 404,
+            "checked_at_utc": "2026-11-12T01:50:11.955073+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "",
+            "error": "HTTP Error 404: Not Found",
+            "byte_count": 10000,
+            "sha256": "94922003107c4fdb8b08d16c128ec468a55335e83e2dc6823c5d3ddf1297bc0c"
+          },
+          "raw_path": null,
+          "markdown_path": null,
+          "markdown_sha256": null,
+          "status": "http_error"
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/resume-publier-evaluation-facteurs-relatifs-vie-privee-environnement-analytique-commission-fonction-publique.html",
+          "title_from_list": "Environnement analytique",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee.html",
+          "discovered_under": "Sommaires des évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/resume-publier-evaluation-facteurs-relatifs-vie-privee-environnement-analytique-commission-fonction-publique.html",
+              "title": "Environnement analytique",
+              "list_url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/resume-publier-evaluation-facteurs-relatifs-vie-privee-environnement-analytique-commission-fonction-publique.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/resume-publier-evaluation-facteurs-relatifs-vie-privee-environnement-analytique-commission-fonction-publique.html",
+            "final_url": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/resume-publier-evaluation-facteurs-relatifs-vie-privee-environnement-analytique-commission-fonction-publique.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:20.233204+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:20 GMT",
+            "etag": null,
+            "byte_count": 30329,
+            "sha256": "9c1117cacbf40042b87796bebbd8fe0eb9928fb93cb17278f2a917e1f5b75de3"
+          },
+          "raw_path": "raw/ea637168dcea21581217.html",
+          "markdown_path": "pia-75e42a1e7eae_fr.md",
+          "markdown_sha256": "27b9d345ac59602324eb901139863e39a080096c0090322b6f34067329f14f74",
+          "status": "exported",
+          "page_title": "Résumé à publier - Évaluation des facteurs relatifs à la vie privée de l’Environnement analytique de la Commission de la fonction publique",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/commission-fonction-publique/organisation/propos-nous/bureau-acces-information-protection-renseignements-personnels/sommaires-evaluations-facteurs-relatifs-vie-privee/resume-publier-evaluation-facteurs-relatifs-vie-privee-environnement-analytique-commission-fonction-publique.html",
+            "en": "https://www.canada.ca/en/public-service-commission/corporate/about-us/access-information-privacy-office/access-information-privacy/privacy-impact-assessments/summary-publication-privacy-impact-assessment-public-service-commission-analytical-environment.html"
+          },
+          "date_modified": "2015-03-24",
+          "date_published": "2015-03-16",
+          "has_pia_text": true,
+          "title": "Résumé à publier - Évaluation des facteurs relatifs à la vie privée de l’Environnement analytique de la Commission de la fonction publique",
+          "conversion": "markdownify",
+          "text_sha256": "30caa2e0b0cc13c2328f307e8dba47f95f198e0dee021b261249a55b2b5e9ceb",
+          "word_count": 1125
+        }
+      }
+    }
+  ],
+  "summary": {
+    "pia_count": 4,
+    "paired_count": 4,
+    "source_status_counts": {
+      "exported": 6,
+      "http_error": 2
+    }
+  }
+}

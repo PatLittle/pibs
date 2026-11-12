@@ -1,0 +1,1143 @@
+{
+  "schema_version": 1,
+  "collector_version": 1,
+  "collected_at_utc": "2026-11-12T01:50:40.521040+00:00",
+  "institution_id": "ati-schedule-i-canadian-nuclear-safety-commission",
+  "gc_orgID": "2308.0",
+  "open_canada_org_id": "261F1DF4-DD3A-4DAD-939B-55B4F2853FBB",
+  "open_canada_org_slug": "cnsc-ccsn",
+  "name_en": "Canadian Nuclear Safety Commission",
+  "name_fr": "Commission canadienne de sûreté nucléaire",
+  "registry_membership": "current_registry",
+  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "list_pages": {
+    "en": {
+      "indexed_url": "http://www.nuclearsafety.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "http://www.nuclearsafety.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/",
+          "final_url": "https://www.cnsc-ccsn.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:25.263671+00:00",
+          "redirects": [
+            {
+              "url": "http://www.nuclearsafety.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/",
+              "http_status": 307,
+              "location": "https://www.nuclearsafety.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/"
+            },
+            {
+              "url": "https://www.nuclearsafety.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/",
+              "http_status": 302,
+              "location": "https://www.cnsc-ccsn.gc.ca/eng/corporate/transparency/access-to-information-and-privacy"
+            },
+            {
+              "url": "https://www.cnsc-ccsn.gc.ca/eng/corporate/transparency/access-to-information-and-privacy",
+              "http_status": 301,
+              "location": "https://www.cnsc-ccsn.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/"
+            }
+          ],
+          "content_type": "text/html",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Tue, 10 Nov 2026 20:46:50 GMT",
+          "etag": "\"0d989c5471dd1:0\"",
+          "byte_count": 35504,
+          "sha256": "5ef6ec64423455726b0f4c142b171066268d532847670388806783fce86520aa",
+          "raw_path": "raw/b438836d59a171cd8df3.html"
+        }
+      ],
+      "discovered_count": 10,
+      "scopes": [
+        "Privacy impact assessment (PIA)"
+      ],
+      "warnings": []
+    },
+    "fr": {
+      "indexed_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "N",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/",
+          "final_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:29.394274+00:00",
+          "redirects": [],
+          "content_type": "text/html",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Tue, 10 Nov 2026 20:46:54 GMT",
+          "etag": "\"0336b9e5471dd1:0\"",
+          "byte_count": 38328,
+          "sha256": "3452daeb7900e5685fd45585d30775a1e13eb7451565b6b091acd33cbb61379c",
+          "raw_path": "raw/b40c70e8240741b4a20e.html"
+        }
+      ],
+      "discovered_count": 10,
+      "scopes": [
+        "Évaluation des facteurs relatifs à la vie privée"
+      ],
+      "warnings": []
+    }
+  },
+  "pias": [
+    {
+      "pia_id": "pia-a88c68f8d2b8",
+      "title_en": "External Reference Checking Process",
+      "title_fr": "Processus de vérification des références externes",
+      "url_en": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/June-2017-External-Reference-Checking-Process-eng.pdf/object",
+      "url_fr": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/June-2017-External-Reference-Checking-Process-fra.pdf/object",
+      "pairing_status": "paired",
+      "pairing_method": "matching_language_variant_url",
+      "pairing_evidence": {
+        "normalized_url_key": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/June-2017-External-Reference-Checking-Process-{lang}.pdf/object",
+        "observed_url_en": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/June-2017-External-Reference-Checking-Process-eng.pdf/object",
+        "observed_url_fr": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/June-2017-External-Reference-Checking-Process-fra.pdf/object"
+      },
+      "sources": {
+        "en": {
+          "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/June-2017-External-Reference-Checking-Process-eng.pdf/object",
+          "title_from_list": "External Reference Checking Process",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "http://www.nuclearsafety.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/",
+          "discovered_under": "Privacy impact assessment (PIA)",
+          "discovery_references": [
+            {
+              "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/June-2017-External-Reference-Checking-Process-eng.pdf/object",
+              "title": "External Reference Checking Process",
+              "list_url": "http://www.nuclearsafety.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/June-2017-External-Reference-Checking-Process-eng.pdf/object"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/June-2017-External-Reference-Checking-Process-eng.pdf/object",
+            "final_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/June-2017-External-Reference-Checking-Process-eng.pdf/object",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:00.242061+00:00",
+            "redirects": [],
+            "content_type": "application/pdf",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 31 Oct 2024 16:48:05 GMT",
+            "etag": "\"0x8DCF9CBCAAF7EF1\"",
+            "byte_count": 2080078,
+            "sha256": "eb1eebead3030feff01dbbc05a1c12cb99ce1a91b3928f013bd8b2d3a4a1bf43"
+          },
+          "raw_path": "raw/a88c68f8d2b8a243747f.pdf",
+          "markdown_path": "pia-a88c68f8d2b8_en.md",
+          "markdown_sha256": "cc1707debf617e9ec104b6f82671bc5c8007181ad9c29d49deb994dcd84157e4",
+          "status": "exported",
+          "title": "External Reference Checking Process",
+          "conversion": "pdftotext -layout",
+          "text_sha256": "8110fc89a5fd5e2e7f7545a7b9c4b9c1f084f33889c6ba9d7aa9aa2bc5aeee74",
+          "word_count": 1087
+        },
+        "fr": {
+          "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/June-2017-External-Reference-Checking-Process-fra.pdf/object",
+          "title_from_list": "Processus de vérification des références externes",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/June-2017-External-Reference-Checking-Process-fra.pdf/object",
+              "title": "Processus de vérification des références externes",
+              "list_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/June-2017-External-Reference-Checking-Process-fra.pdf/object"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/June-2017-External-Reference-Checking-Process-fra.pdf/object",
+            "final_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/June-2017-External-Reference-Checking-Process-fra.pdf/object",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:00.728115+00:00",
+            "redirects": [],
+            "content_type": "application/pdf",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 31 Oct 2024 16:48:10 GMT",
+            "etag": "\"0x8DCF9CBCDBB631E\"",
+            "byte_count": 2090059,
+            "sha256": "cebb66c2346d8390da0e40d309621b6ae601f4eae7d74630db72478dec85a0e5"
+          },
+          "raw_path": "raw/0cde0ce0d8012be6cb6c.pdf",
+          "markdown_path": "pia-a88c68f8d2b8_fr.md",
+          "markdown_sha256": "5526fe0167a8e93b353e67bc95dd415da78eb93f8c6ba70ece3775b192e5355d",
+          "status": "exported",
+          "title": "Processus de vérification des références externes",
+          "conversion": "pdftotext -layout",
+          "text_sha256": "4490f2418fff73999f2648a663327cc95d53df32a79bf2518f733aaa54f9f196",
+          "word_count": 1303
+        }
+      }
+    },
+    {
+      "pia_id": "pia-900f14841cde",
+      "title_en": "CNSC Financial Guarantees Program",
+      "title_fr": "Programme de garanties financières de la CCSN",
+      "url_en": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/September-2016-Financial-Guarantees-Program-eng.pdf/object",
+      "url_fr": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/September-2016-Financial-Guarantees-Program-fra.pdf/object",
+      "pairing_status": "paired",
+      "pairing_method": "matching_language_variant_url",
+      "pairing_evidence": {
+        "normalized_url_key": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/September-2016-Financial-Guarantees-Program-{lang}.pdf/object",
+        "observed_url_en": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/September-2016-Financial-Guarantees-Program-eng.pdf/object",
+        "observed_url_fr": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/September-2016-Financial-Guarantees-Program-fra.pdf/object"
+      },
+      "sources": {
+        "en": {
+          "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/September-2016-Financial-Guarantees-Program-eng.pdf/object",
+          "title_from_list": "CNSC Financial Guarantees Program",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "http://www.nuclearsafety.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/",
+          "discovered_under": "Privacy impact assessment (PIA)",
+          "discovery_references": [
+            {
+              "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/September-2016-Financial-Guarantees-Program-eng.pdf/object",
+              "title": "CNSC Financial Guarantees Program",
+              "list_url": "http://www.nuclearsafety.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/September-2016-Financial-Guarantees-Program-eng.pdf/object"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/September-2016-Financial-Guarantees-Program-eng.pdf/object",
+            "final_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/September-2016-Financial-Guarantees-Program-eng.pdf/object",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:00.814047+00:00",
+            "redirects": [],
+            "content_type": "application/pdf",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 31 Oct 2024 16:48:11 GMT",
+            "etag": "\"0x8DCF9CBCE823FB1\"",
+            "byte_count": 315362,
+            "sha256": "20db973635d8a82dba536cc1a3d2ee9c0979cfdcfa20bfaabae289fce1929101"
+          },
+          "raw_path": "raw/900f14841cde9daabe30.pdf",
+          "markdown_path": "pia-900f14841cde_en.md",
+          "markdown_sha256": "ba1327f9cee9cbbe8059ad5019035fcf52e3c2d1d01bf0fa55458abe2fdb983d",
+          "status": "exported",
+          "title": "CNSC Financial Guarantees Program",
+          "conversion": "pdftotext -layout",
+          "text_sha256": "e3a6fbb446328aef2dc8161139c3e92a22b9219c4f394dd0726ed80eba3c8333",
+          "word_count": 1258
+        },
+        "fr": {
+          "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/September-2016-Financial-Guarantees-Program-fra.pdf/object",
+          "title_from_list": "Programme de garanties financières de la CCSN",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/September-2016-Financial-Guarantees-Program-fra.pdf/object",
+              "title": "Programme de garanties financières de la CCSN",
+              "list_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/September-2016-Financial-Guarantees-Program-fra.pdf/object"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/September-2016-Financial-Guarantees-Program-fra.pdf/object",
+            "final_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/September-2016-Financial-Guarantees-Program-fra.pdf/object",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:01.486170+00:00",
+            "redirects": [],
+            "content_type": "application/pdf",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 31 Oct 2024 16:47:58 GMT",
+            "etag": "\"0x8DCF9CBC6CF528E\"",
+            "byte_count": 289744,
+            "sha256": "275e4dad67c1e0dba3cde051602dda7f44ddbc71a9c9071c5f70454c8b1953f1"
+          },
+          "raw_path": "raw/fdce2713384bb4ebc9c3.pdf",
+          "markdown_path": "pia-900f14841cde_fr.md",
+          "markdown_sha256": "ce7c558770f2977e5ca5a603430551fbf3d99482ac27e98f0e52b5c8a3abbc47",
+          "status": "exported",
+          "title": "Programme de garanties financières de la CCSN",
+          "conversion": "pdftotext -layout",
+          "text_sha256": "41d62a477aa6c8f8a1b501b7f7911ffcd4015ec65ddfe10b550831af16c03dcf",
+          "word_count": 1625
+        }
+      }
+    },
+    {
+      "pia_id": "pia-f5755dde91e0",
+      "title_en": "CNSC Participant Funding Program",
+      "title_fr": "Programme de financement des participants de la CCSN",
+      "url_en": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/Web-Summary-Participant-Funding-Program-PIA-eng.pdf/object",
+      "url_fr": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/Web-Summary-Participant-Funding-Program-PIA-fra.pdf/object",
+      "pairing_status": "paired",
+      "pairing_method": "matching_language_variant_url",
+      "pairing_evidence": {
+        "normalized_url_key": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/Web-Summary-Participant-Funding-Program-PIA-{lang}.pdf/object",
+        "observed_url_en": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/Web-Summary-Participant-Funding-Program-PIA-eng.pdf/object",
+        "observed_url_fr": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/Web-Summary-Participant-Funding-Program-PIA-fra.pdf/object"
+      },
+      "sources": {
+        "en": {
+          "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/Web-Summary-Participant-Funding-Program-PIA-eng.pdf/object",
+          "title_from_list": "CNSC Participant Funding Program",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "http://www.nuclearsafety.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/",
+          "discovered_under": "Privacy impact assessment (PIA)",
+          "discovery_references": [
+            {
+              "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/Web-Summary-Participant-Funding-Program-PIA-eng.pdf/object",
+              "title": "CNSC Participant Funding Program",
+              "list_url": "http://www.nuclearsafety.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/Web-Summary-Participant-Funding-Program-PIA-eng.pdf/object"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/Web-Summary-Participant-Funding-Program-PIA-eng.pdf/object",
+            "final_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/Web-Summary-Participant-Funding-Program-PIA-eng.pdf/object",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:01.550925+00:00",
+            "redirects": [],
+            "content_type": "application/pdf",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 31 Oct 2024 16:48:14 GMT",
+            "etag": "\"0x8DCF9CBD00A548D\"",
+            "byte_count": 267444,
+            "sha256": "a055ac8e96ef5748caaf227267b5899df90ae26b168995f49fe8f6467d2f0091"
+          },
+          "raw_path": "raw/f5755dde91e028cf04c1.pdf",
+          "markdown_path": "pia-f5755dde91e0_en.md",
+          "markdown_sha256": "c3181105d0b7c63686bf9914aa692fe0a745066fe2892cfa2f125b835e5ffa38",
+          "status": "exported",
+          "title": "CNSC Participant Funding Program",
+          "conversion": "pdftotext -layout",
+          "text_sha256": "34f2d7bca382ea6d9252c0c85c2ad45aa3266ea4d0c156bc8fbc8dab7d4f4dda",
+          "word_count": 1496
+        },
+        "fr": {
+          "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/Web-Summary-Participant-Funding-Program-PIA-fra.pdf/object",
+          "title_from_list": "Programme de financement des participants de la CCSN",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/Web-Summary-Participant-Funding-Program-PIA-fra.pdf/object",
+              "title": "Programme de financement des participants de la CCSN",
+              "list_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/Web-Summary-Participant-Funding-Program-PIA-fra.pdf/object"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/Web-Summary-Participant-Funding-Program-PIA-fra.pdf/object",
+            "final_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/Web-Summary-Participant-Funding-Program-PIA-fra.pdf/object",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:01.637387+00:00",
+            "redirects": [],
+            "content_type": "application/pdf",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 31 Oct 2024 16:47:58 GMT",
+            "etag": "\"0x8DCF9CBC6BCB7A8\"",
+            "byte_count": 252953,
+            "sha256": "8714d458cc7952ac6d39f25ed36bc132698ac530727273927e7b77b7e5825f6d"
+          },
+          "raw_path": "raw/32693110785894e4c92f.pdf",
+          "markdown_path": "pia-f5755dde91e0_fr.md",
+          "markdown_sha256": "18081d1cb965e51bfde8b529dde2839008218b8ad8cd0e2d2f1a8aa98d61291f",
+          "status": "exported",
+          "title": "Programme de financement des participants de la CCSN",
+          "conversion": "pdftotext -layout",
+          "text_sha256": "f24a6f0293b8a0602d39fb61bbed54c885ea4a0b997d606386da5c8512af487a",
+          "word_count": 1926
+        }
+      }
+    },
+    {
+      "pia_id": "pia-81131d4b16cb",
+      "title_en": "Outsourced Reference Checking Process",
+      "title_fr": "Processus de vérification des références confié à l'extérieur",
+      "url_en": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/February-14-2012-Outsourced-Reference-Checking-Process_e.pdf/object",
+      "url_fr": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/February-14-2012-Outsourced-Reference-Checking-Process_f.pdf/object",
+      "pairing_status": "paired",
+      "pairing_method": "matching_language_variant_url",
+      "pairing_evidence": {
+        "normalized_url_key": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/February-14-2012-Outsourced-Reference-Checking-Process_{lang}.pdf/object",
+        "observed_url_en": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/February-14-2012-Outsourced-Reference-Checking-Process_e.pdf/object",
+        "observed_url_fr": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/February-14-2012-Outsourced-Reference-Checking-Process_f.pdf/object"
+      },
+      "sources": {
+        "en": {
+          "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/February-14-2012-Outsourced-Reference-Checking-Process_e.pdf/object",
+          "title_from_list": "Outsourced Reference Checking Process",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "http://www.nuclearsafety.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/",
+          "discovered_under": "Privacy impact assessment (PIA)",
+          "discovery_references": [
+            {
+              "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/February-14-2012-Outsourced-Reference-Checking-Process_e.pdf/object",
+              "title": "Outsourced Reference Checking Process",
+              "list_url": "http://www.nuclearsafety.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/February-14-2012-Outsourced-Reference-Checking-Process_e.pdf/object"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/February-14-2012-Outsourced-Reference-Checking-Process_e.pdf/object",
+            "final_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/February-14-2012-Outsourced-Reference-Checking-Process_e.pdf/object",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:58.864986+00:00",
+            "redirects": [],
+            "content_type": "application/pdf",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 31 Oct 2024 16:48:03 GMT",
+            "etag": "\"0x8DCF9CBC947BEC5\"",
+            "byte_count": 165330,
+            "sha256": "bdd5dfe57d30ae4d0ed9e6545a36beb57531b483a603dd6b704d757c5abd7923"
+          },
+          "raw_path": "raw/81131d4b16cb181bffc1.pdf",
+          "markdown_path": "pia-81131d4b16cb_en.md",
+          "markdown_sha256": "6a48c5fb8ad2f06d45168f559e9af877448088dc504286a6753bab8d5e5d73ca",
+          "status": "exported",
+          "title": "Outsourced Reference Checking Process",
+          "conversion": "pdftotext -layout",
+          "text_sha256": "ca4096bc2d3759568983b39d7a29b962351997e8dda38b5df3d46e824aecbb12",
+          "word_count": 583
+        },
+        "fr": {
+          "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/February-14-2012-Outsourced-Reference-Checking-Process_f.pdf/object",
+          "title_from_list": "Processus de vérification des références confié à l'extérieur",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/February-14-2012-Outsourced-Reference-Checking-Process_f.pdf/object",
+              "title": "Processus de vérification des références confié à l'extérieur",
+              "list_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/February-14-2012-Outsourced-Reference-Checking-Process_f.pdf/object"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/February-14-2012-Outsourced-Reference-Checking-Process_f.pdf/object",
+            "final_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/February-14-2012-Outsourced-Reference-Checking-Process_f.pdf/object",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:58.874157+00:00",
+            "redirects": [],
+            "content_type": "application/pdf",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 31 Oct 2024 16:48:01 GMT",
+            "etag": "\"0x8DCF9CBC85A25F0\"",
+            "byte_count": 167638,
+            "sha256": "e534a85d5c840e4ffa2c94f54a6ddb8dbfd36076fa0aa87b607586150ec6555f"
+          },
+          "raw_path": "raw/65a21240638521ea543a.pdf",
+          "markdown_path": "pia-81131d4b16cb_fr.md",
+          "markdown_sha256": "4bbe706fea322b56eddffb004d107e4a9f6c26d09eefbb36d2a9cf571d4dfbb5",
+          "status": "exported",
+          "title": "Processus de vérification des références confié à l'extérieur",
+          "conversion": "pdftotext -layout",
+          "text_sha256": "8cd67fc6f38f1b98d224982dd444342b29d85a2010bb01c2c3ef30ea10663289",
+          "word_count": 786
+        }
+      }
+    },
+    {
+      "pia_id": "pia-3f169ca4885b",
+      "title_en": "CNSC Planning Management and Reporting System",
+      "title_fr": "Système de planification, de gestion et de production de rapports de la CCSN",
+      "url_en": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-CPMRS_e.pdf/object",
+      "url_fr": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-CPMRS_f.pdf/object",
+      "pairing_status": "paired",
+      "pairing_method": "matching_language_variant_url",
+      "pairing_evidence": {
+        "normalized_url_key": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-CPMRS_{lang}.pdf/object",
+        "observed_url_en": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-CPMRS_e.pdf/object",
+        "observed_url_fr": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-CPMRS_f.pdf/object"
+      },
+      "sources": {
+        "en": {
+          "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-CPMRS_e.pdf/object",
+          "title_from_list": "CNSC Planning Management and Reporting System",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "http://www.nuclearsafety.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/",
+          "discovered_under": "Privacy impact assessment (PIA)",
+          "discovery_references": [
+            {
+              "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-CPMRS_e.pdf/object",
+              "title": "CNSC Planning Management and Reporting System",
+              "list_url": "http://www.nuclearsafety.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-CPMRS_e.pdf/object"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-CPMRS_e.pdf/object",
+            "final_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-CPMRS_e.pdf/object",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:58.647839+00:00",
+            "redirects": [],
+            "content_type": "application/pdf",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 31 Oct 2024 16:48:10 GMT",
+            "etag": "\"0x8DCF9CBCDCB1850\"",
+            "byte_count": 175749,
+            "sha256": "f772324c7211e1db9205f97d8956fd9edfdf83bcbcb94a46f531006fd3082f73"
+          },
+          "raw_path": "raw/3f169ca4885b1096f49d.pdf",
+          "markdown_path": "pia-3f169ca4885b_en.md",
+          "markdown_sha256": "34b60922ebbfa433b5dd92e90582c6e80bd4aca40bd676f94c00118caa5d0083",
+          "status": "exported",
+          "title": "CNSC Planning Management and Reporting System",
+          "conversion": "pdftotext -layout",
+          "text_sha256": "50f736bddcde792071abdb16391898fbdb4e4c1ec6bdf8c89b5a0b93239f26b4",
+          "word_count": 457
+        },
+        "fr": {
+          "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-CPMRS_f.pdf/object",
+          "title_from_list": "Système de planification, de gestion et de production de rapports de la CCSN",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-CPMRS_f.pdf/object",
+              "title": "Système de planification, de gestion et de production de rapports de la CCSN",
+              "list_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-CPMRS_f.pdf/object"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-CPMRS_f.pdf/object",
+            "final_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-CPMRS_f.pdf/object",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:58.671185+00:00",
+            "redirects": [],
+            "content_type": "application/pdf",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 31 Oct 2024 16:48:11 GMT",
+            "etag": "\"0x8DCF9CBCE17F495\"",
+            "byte_count": 171639,
+            "sha256": "edc6601f3819677b7303218139f19485acd3720e348855b7f70ab1242bbdcbc0"
+          },
+          "raw_path": "raw/65291c8c0aa68ed8c7c2.pdf",
+          "markdown_path": "pia-3f169ca4885b_fr.md",
+          "markdown_sha256": "bc3dd7c3f481c6d5ecfb2545d26065581b73c0b3a2ebd0ae0c7f5eb89effd99b",
+          "status": "exported",
+          "title": "Système de planification, de gestion et de production de rapports de la CCSN",
+          "conversion": "pdftotext -layout",
+          "text_sha256": "2370faddc717b3061fadde7a7cc7baac275970b4e48c1d301cc4241b383ab763",
+          "word_count": 616
+        }
+      }
+    },
+    {
+      "pia_id": "pia-a2efe4aa6e63",
+      "title_en": "Human Resources Information System",
+      "title_fr": "Système d'information sur les ressources humaines",
+      "url_en": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-HRIS_e.pdf/object",
+      "url_fr": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-HRIS_f.pdf/object",
+      "pairing_status": "paired",
+      "pairing_method": "matching_language_variant_url",
+      "pairing_evidence": {
+        "normalized_url_key": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-HRIS_{lang}.pdf/object",
+        "observed_url_en": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-HRIS_e.pdf/object",
+        "observed_url_fr": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-HRIS_f.pdf/object"
+      },
+      "sources": {
+        "en": {
+          "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-HRIS_e.pdf/object",
+          "title_from_list": "Human Resources Information System",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "http://www.nuclearsafety.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/",
+          "discovered_under": "Privacy impact assessment (PIA)",
+          "discovery_references": [
+            {
+              "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-HRIS_e.pdf/object",
+              "title": "Human Resources Information System",
+              "list_url": "http://www.nuclearsafety.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-HRIS_e.pdf/object"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-HRIS_e.pdf/object",
+            "final_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-HRIS_e.pdf/object",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:58.760545+00:00",
+            "redirects": [],
+            "content_type": "application/pdf",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 31 Oct 2024 16:48:01 GMT",
+            "etag": "\"0x8DCF9CBC87A7A80\"",
+            "byte_count": 231828,
+            "sha256": "cefd04df2a1318c5cef281b4d0111bcfbe49afed059f49428af990d430b143b6"
+          },
+          "raw_path": "raw/a2efe4aa6e6340360222.pdf",
+          "markdown_path": "pia-a2efe4aa6e63_en.md",
+          "markdown_sha256": "ec290e29b573b9d576128dc3cfbe10cbad1ace5aa030d260bf08defd4a0e4255",
+          "status": "exported",
+          "title": "Human Resources Information System",
+          "conversion": "pdftotext -layout",
+          "text_sha256": "0f58dbdfa6fca9c765c21894c8e18c996b09e9ee3dba9f6eeb07c1d6b2933f34",
+          "word_count": 426
+        },
+        "fr": {
+          "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-HRIS_f.pdf/object",
+          "title_from_list": "Système d'information sur les ressources humaines",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-HRIS_f.pdf/object",
+              "title": "Système d'information sur les ressources humaines",
+              "list_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-HRIS_f.pdf/object"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-HRIS_f.pdf/object",
+            "final_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-HRIS_f.pdf/object",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:58.769864+00:00",
+            "redirects": [],
+            "content_type": "application/pdf",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 31 Oct 2024 16:48:07 GMT",
+            "etag": "\"0x8DCF9CBCBE5AEF1\"",
+            "byte_count": 69554,
+            "sha256": "a49df1adec4831fa7651a37932e6b3a5a793f42fe9cc249d509d686bfd469c1f"
+          },
+          "raw_path": "raw/974ecb6b914380457d09.pdf",
+          "markdown_path": "pia-a2efe4aa6e63_fr.md",
+          "markdown_sha256": "a928879d7021f497a7b2b3fcfb22e01efb1b3753057d93fda67994e03602c1b9",
+          "status": "exported",
+          "title": "Système d'information sur les ressources humaines",
+          "conversion": "pdftotext -layout",
+          "text_sha256": "49011a3a6f4825b047517893e2b5eaff3845ccf6bf4056b8f084ce48b88b089f",
+          "word_count": 582
+        }
+      }
+    },
+    {
+      "pia_id": "pia-f9a5c22907a5",
+      "title_en": "Annual Compliance Reporting Online",
+      "title_fr": "Rapport annuel de la conformité en ligne",
+      "url_en": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-ACR-On-line_e.pdf/object",
+      "url_fr": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-ACR-On-line_f.pdf/object",
+      "pairing_status": "paired",
+      "pairing_method": "matching_language_variant_url",
+      "pairing_evidence": {
+        "normalized_url_key": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-ACR-On-line_{lang}.pdf/object",
+        "observed_url_en": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-ACR-On-line_e.pdf/object",
+        "observed_url_fr": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-ACR-On-line_f.pdf/object"
+      },
+      "sources": {
+        "en": {
+          "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-ACR-On-line_e.pdf/object",
+          "title_from_list": "Annual Compliance Reporting Online",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "http://www.nuclearsafety.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/",
+          "discovered_under": "Privacy impact assessment (PIA)",
+          "discovery_references": [
+            {
+              "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-ACR-On-line_e.pdf/object",
+              "title": "Annual Compliance Reporting Online",
+              "list_url": "http://www.nuclearsafety.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-ACR-On-line_e.pdf/object"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-ACR-On-line_e.pdf/object",
+            "final_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-ACR-On-line_e.pdf/object",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:58.527337+00:00",
+            "redirects": [],
+            "content_type": "application/pdf",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 31 Oct 2024 16:48:13 GMT",
+            "etag": "\"0x8DCF9CBCF4DFD96\"",
+            "byte_count": 176495,
+            "sha256": "968a4b09697d7455383e892d199a9b11975b3c30289d7f134cdd71fb93397157"
+          },
+          "raw_path": "raw/f9a5c22907a5b9db64d8.pdf",
+          "markdown_path": "pia-f9a5c22907a5_en.md",
+          "markdown_sha256": "a5a0b47a89667882ad14cf191de475d6f5530c434950f133e53564809d04d22f",
+          "status": "exported",
+          "title": "Annual Compliance Reporting Online",
+          "conversion": "pdftotext -layout",
+          "text_sha256": "bc4b1611563f5f89dbf88703978faf3cde90bf5d6697395f87d4f0afc3731d31",
+          "word_count": 545
+        },
+        "fr": {
+          "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-ACR-On-line_f.pdf/object",
+          "title_from_list": "Rapport annuel de la conformité en ligne",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-ACR-On-line_f.pdf/object",
+              "title": "Rapport annuel de la conformité en ligne",
+              "list_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-ACR-On-line_f.pdf/object"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-ACR-On-line_f.pdf/object",
+            "final_url": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/April-2012-PIA-Summaries-ACR-On-line_f.pdf/object",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:58.555434+00:00",
+            "redirects": [],
+            "content_type": "application/pdf",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 31 Oct 2024 16:48:12 GMT",
+            "etag": "\"0x8DCF9CBCED694FF\"",
+            "byte_count": 169926,
+            "sha256": "64ebeb87b058ec36d401758bd1c403f1d88a43a2819740ecf32be53a7e3d3907"
+          },
+          "raw_path": "raw/e7755360f69eff1e2c6d.pdf",
+          "markdown_path": "pia-f9a5c22907a5_fr.md",
+          "markdown_sha256": "00101ee63d1b5838acf0b28a9c96ce54f9f2008e9c28a2812899af93098ecdfd",
+          "status": "exported",
+          "title": "Rapport annuel de la conformité en ligne",
+          "conversion": "pdftotext -layout",
+          "text_sha256": "f9b656321f765dc50889f0e07fa62c534b7088a5b196c980f1e884e1ba08dc7f",
+          "word_count": 748
+        }
+      }
+    },
+    {
+      "pia_id": "pia-e0277b638b04",
+      "title_en": "Privacy impact assessment – Njoyn e-recruiting and applicant tracking system",
+      "title_fr": "Évaluation des facteurs relatifs à la vie privée – Le système de recrutement électronique et de suivi des candidatures Njoyn",
+      "url_en": "https://www.cnsc-ccsn.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-njoyn-e-recruiting-and-applicant-tracking-system/",
+      "url_fr": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-njoyn-e-recruiting-and-applicant-tracking-system/",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.cnsc-ccsn.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-njoyn-e-recruiting-and-applicant-tracking-system/",
+        "alternate_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-njoyn-e-recruiting-and-applicant-tracking-system/"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.cnsc-ccsn.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-njoyn-e-recruiting-and-applicant-tracking-system/",
+          "title_from_list": "Applicant Tracking System",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "http://www.nuclearsafety.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/",
+          "discovered_under": "Privacy impact assessment (PIA)",
+          "discovery_references": [
+            {
+              "url": "https://www.cnsc-ccsn.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-njoyn-e-recruiting-and-applicant-tracking-system/",
+              "title": "Applicant Tracking System",
+              "list_url": "http://www.nuclearsafety.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.cnsc-ccsn.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-njoyn-e-recruiting-and-applicant-tracking-system/"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.cnsc-ccsn.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-njoyn-e-recruiting-and-applicant-tracking-system/",
+            "final_url": "https://www.cnsc-ccsn.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-njoyn-e-recruiting-and-applicant-tracking-system/",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:27.589727+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Tue, 10 Nov 2026 20:46:50 GMT",
+            "etag": "\"0d989c5471dd1:0\"",
+            "byte_count": 32311,
+            "sha256": "6c05336eb41653eb62ba365d2cc079b20ffce23b727d511b33c18cc6bb6feab6"
+          },
+          "raw_path": "raw/e0277b638b0465700d9f.html",
+          "markdown_path": "pia-e0277b638b04_en.md",
+          "markdown_sha256": "8c880211c5c8151e0d9fa6773952cc6ba386a4dd564425db5888c0043358025d",
+          "status": "exported",
+          "page_title": "Privacy impact assessment – Njoyn e-recruiting and applicant tracking system",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-njoyn-e-recruiting-and-applicant-tracking-system/"
+          },
+          "date_modified": "2020-05-28",
+          "date_published": null,
+          "has_pia_text": true,
+          "title": "Privacy impact assessment – Njoyn e-recruiting and applicant tracking system",
+          "conversion": "markdownify",
+          "text_sha256": "d85fdec7bf54c81b3890f372718e4dcbe059d475bf8dbd80aa26d75a71bab424",
+          "word_count": 739
+        },
+        "fr": {
+          "url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-njoyn-e-recruiting-and-applicant-tracking-system/",
+          "title_from_list": "Système de suivi des candidatures",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-njoyn-e-recruiting-and-applicant-tracking-system/",
+              "title": "Système de suivi des candidatures",
+              "list_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-njoyn-e-recruiting-and-applicant-tracking-system/"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-njoyn-e-recruiting-and-applicant-tracking-system/",
+            "final_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-njoyn-e-recruiting-and-applicant-tracking-system/",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:27.869480+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Tue, 10 Nov 2026 20:46:54 GMT",
+            "etag": "\"0336b9e5471dd1:0\"",
+            "byte_count": 35447,
+            "sha256": "51c319daf69a90ff144fa000e550348f13d1ea7b0eb85355b022182fc8a47168"
+          },
+          "raw_path": "raw/84f28aa15baf349126e6.html",
+          "markdown_path": "pia-e0277b638b04_fr.md",
+          "markdown_sha256": "d193aee0c674f6a1aa8d01c79206e2ac851cdb4f0a172cc8d0c185d2113105c2",
+          "status": "exported",
+          "page_title": "Évaluation des facteurs relatifs à la vie privée – Le système de recrutement électronique et de suivi des candidatures Njoyn",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.cnsc-ccsn.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-njoyn-e-recruiting-and-applicant-tracking-system/"
+          },
+          "date_modified": "2020-05-28",
+          "date_published": null,
+          "has_pia_text": true,
+          "title": "Évaluation des facteurs relatifs à la vie privée – Le système de recrutement électronique et de suivi des candidatures Njoyn",
+          "conversion": "markdownify",
+          "text_sha256": "2d812746910ab920616c6c7f7a7d99c185dac96bc20dd6098ecb367e6cf0b67e",
+          "word_count": 1015
+        }
+      }
+    },
+    {
+      "pia_id": "pia-5ef30e165725",
+      "title_en": "Privacy impact assessment – electronic Individual Learning Plan",
+      "title_fr": "Évaluation des facteurs relatifs à la vie privée – le Plan d'apprentissage personnel électronique",
+      "url_en": "https://www.cnsc-ccsn.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-electronic-individual-learning-plan/",
+      "url_fr": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-electronic-individual-learning-plan/",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.cnsc-ccsn.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-electronic-individual-learning-plan/",
+        "alternate_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-electronic-individual-learning-plan/"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.cnsc-ccsn.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-electronic-individual-learning-plan/",
+          "title_from_list": "Electronic Individual Learning Plan",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "http://www.nuclearsafety.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/",
+          "discovered_under": "Privacy impact assessment (PIA)",
+          "discovery_references": [
+            {
+              "url": "https://www.cnsc-ccsn.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-electronic-individual-learning-plan/",
+              "title": "Electronic Individual Learning Plan",
+              "list_url": "http://www.nuclearsafety.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.cnsc-ccsn.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-electronic-individual-learning-plan/"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.cnsc-ccsn.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-electronic-individual-learning-plan/",
+            "final_url": "https://www.cnsc-ccsn.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-electronic-individual-learning-plan/",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:27.460184+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Tue, 10 Nov 2026 20:46:50 GMT",
+            "etag": "\"0d989c5471dd1:0\"",
+            "byte_count": 32674,
+            "sha256": "8f0d8a484c47ce43753cf5a5d244ed226ce35c8fcf5665a9b6932d2e1e4d4483"
+          },
+          "raw_path": "raw/5ef30e1657256f3f5527.html",
+          "markdown_path": "pia-5ef30e165725_en.md",
+          "markdown_sha256": "64ba97a1396db7511b5d756239f6ef4966c3cb8716be699145bba948d7c4392e",
+          "status": "exported",
+          "page_title": "Privacy impact assessment – electronic Individual Learning Plan",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-electronic-individual-learning-plan/"
+          },
+          "date_modified": "2020-05-28",
+          "date_published": null,
+          "has_pia_text": true,
+          "title": "Privacy impact assessment – electronic Individual Learning Plan",
+          "conversion": "markdownify",
+          "text_sha256": "cc1b27280ee50307c01d8d9f0a3dc4f4035af7d87942019ade66e1344224376d",
+          "word_count": 758
+        },
+        "fr": {
+          "url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-electronic-individual-learning-plan/",
+          "title_from_list": "Plan d’apprentissage personnel électronique",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-electronic-individual-learning-plan/",
+              "title": "Plan d’apprentissage personnel électronique",
+              "list_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-electronic-individual-learning-plan/"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-electronic-individual-learning-plan/",
+            "final_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-electronic-individual-learning-plan/",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:27.827610+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Tue, 10 Nov 2026 20:46:54 GMT",
+            "etag": "\"0336b9e5471dd1:0\"",
+            "byte_count": 35605,
+            "sha256": "5b6cb8ef6f2f2bdb4f411a8b1c0e627a745e75ffc613f033ccaf25d0ed15e537"
+          },
+          "raw_path": "raw/3994bf3b6bca7e3ac9d4.html",
+          "markdown_path": "pia-5ef30e165725_fr.md",
+          "markdown_sha256": "7832da544b7c3b8d2aaa77a366855e4444d479d99a354ab798e8904f62cfa811",
+          "status": "exported",
+          "page_title": "Évaluation des facteurs relatifs à la vie privée – le Plan d'apprentissage personnel électronique",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.cnsc-ccsn.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-electronic-individual-learning-plan/"
+          },
+          "date_modified": "2020-05-28",
+          "date_published": null,
+          "has_pia_text": true,
+          "title": "Évaluation des facteurs relatifs à la vie privée – le Plan d'apprentissage personnel électronique",
+          "conversion": "markdownify",
+          "text_sha256": "c4b9d0ea17b35f57b9a42da286ca2f8375094db6d95728101ba24d267f356d5a",
+          "word_count": 1006
+        }
+      }
+    },
+    {
+      "pia_id": "pia-f32c64d35406",
+      "title_en": "Privacy impact assessment – Personal Information Profile",
+      "title_fr": "Évaluation des facteurs relatifs à la vie privée – Le Profil d'information personnelle",
+      "url_en": "https://www.cnsc-ccsn.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-personal-information-profile/",
+      "url_fr": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-personal-information-profile/",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.cnsc-ccsn.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-personal-information-profile/",
+        "alternate_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-personal-information-profile/"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.cnsc-ccsn.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-personal-information-profile/",
+          "title_from_list": "Personal Information Profile",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "http://www.nuclearsafety.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/",
+          "discovered_under": "Privacy impact assessment (PIA)",
+          "discovery_references": [
+            {
+              "url": "https://www.cnsc-ccsn.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-personal-information-profile/",
+              "title": "Personal Information Profile",
+              "list_url": "http://www.nuclearsafety.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.cnsc-ccsn.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-personal-information-profile/"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.cnsc-ccsn.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-personal-information-profile/",
+            "final_url": "https://www.cnsc-ccsn.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-personal-information-profile/",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:27.745961+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Tue, 10 Nov 2026 20:46:50 GMT",
+            "etag": "\"0d989c5471dd1:0\"",
+            "byte_count": 32090,
+            "sha256": "0904f240648f215ea2e3352041ebecc8e0ec789aa309d76ef13c9e4d02475d0e"
+          },
+          "raw_path": "raw/f32c64d35406999c1d07.html",
+          "markdown_path": "pia-f32c64d35406_en.md",
+          "markdown_sha256": "60f8d8e9288fba3842ac3459d36a066729c7c4e628f7a11748b58bcfcefcb965",
+          "status": "exported",
+          "page_title": "Privacy impact assessment – Personal Information Profile",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-personal-information-profile/"
+          },
+          "date_modified": "2020-05-28",
+          "date_published": null,
+          "has_pia_text": true,
+          "title": "Privacy impact assessment – Personal Information Profile",
+          "conversion": "markdownify",
+          "text_sha256": "71f627bc8a2c15ad5d969448044418a68151c77757766890166da54125bc1d92",
+          "word_count": 677
+        },
+        "fr": {
+          "url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-personal-information-profile/",
+          "title_from_list": "Profil d’information personnelle",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-personal-information-profile/",
+              "title": "Profil d’information personnelle",
+              "list_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-personal-information-profile/"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-personal-information-profile/",
+            "final_url": "https://www.cnsc-ccsn.gc.ca/fra/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-personal-information-profile/",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:27.911051+00:00",
+            "redirects": [],
+            "content_type": "text/html",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Tue, 10 Nov 2026 20:46:54 GMT",
+            "etag": "\"0336b9e5471dd1:0\"",
+            "byte_count": 34988,
+            "sha256": "20b5034b3989dff7bf96f8c91baa2fab714e8a257242ad663b88c75874d7bc92"
+          },
+          "raw_path": "raw/0b105d290f584b57b6ba.html",
+          "markdown_path": "pia-f32c64d35406_fr.md",
+          "markdown_sha256": "3f60e18ad59ff4ee85aa36b8e9ba1653ab3f37524beb29ab78985ea3821912c4",
+          "status": "exported",
+          "page_title": "Évaluation des facteurs relatifs à la vie privée – Le Profil d'information personnelle",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://www.cnsc-ccsn.gc.ca/eng/corporate/transparency/access-to-information-and-privacy/privacy-impact-assessment-personal-information-profile/"
+          },
+          "date_modified": "2020-05-28",
+          "date_published": null,
+          "has_pia_text": true,
+          "title": "Évaluation des facteurs relatifs à la vie privée – Le Profil d'information personnelle",
+          "conversion": "markdownify",
+          "text_sha256": "6f9fee6af5adba9c598759f1cbbccc253fb377bf6d95b155a9259800bb9eb3e8",
+          "word_count": 950
+        }
+      }
+    }
+  ],
+  "summary": {
+    "pia_count": 10,
+    "paired_count": 10,
+    "source_status_counts": {
+      "exported": 20
+    }
+  }
+}

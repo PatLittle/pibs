@@ -1,0 +1,2312 @@
+{
+  "schema_version": 1,
+  "collector_version": 1,
+  "collected_at_utc": "2026-11-12T01:50:41.403607+00:00",
+  "institution_id": "ati-schedule-i-correctional-service-of-canada",
+  "gc_orgID": "2255.0",
+  "open_canada_org_id": "3EEE5483-9B34-492D-AE39-3C378F3C2354",
+  "open_canada_org_slug": "csc-scc",
+  "name_en": "Correctional Service of Canada",
+  "name_fr": "Service correctionnel du Canada",
+  "registry_membership": "current_registry",
+  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "list_pages": {
+    "en": {
+      "indexed_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+          "final_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:28.504748+00:00",
+          "redirects": [],
+          "content_type": "text/html;charset=utf-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Thu, 12 Nov 2026 00:18:06 GMT",
+          "etag": null,
+          "byte_count": 26295,
+          "sha256": "32f75f62788d28e3f53c0cef6443f3ee32b36efa5f5df04b4d8131ac9fdfb794",
+          "raw_path": "raw/3c34203d0340bc92b4a5.html"
+        }
+      ],
+      "discovered_count": 19,
+      "scopes": [
+        "Privacy impact assessments"
+      ],
+      "warnings": []
+    },
+    "fr": {
+      "indexed_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+          "final_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:29.345476+00:00",
+          "redirects": [],
+          "content_type": "text/html;charset=utf-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Thu, 12 Nov 2026 00:26:20 GMT",
+          "etag": null,
+          "byte_count": 27817,
+          "sha256": "5791fc0cf1c07866d7eeefdc4686895fd037177b70916ac1cde1e535f670b660",
+          "raw_path": "raw/f9b2033dadb4df0193ef.html"
+        }
+      ],
+      "discovered_count": 19,
+      "scopes": [
+        "Évaluation des facteurs relatifs à la vie privée"
+      ],
+      "warnings": []
+    }
+  },
+  "pias": [
+    {
+      "pia_id": "pia-c09d1129a710",
+      "title_en": "Electronic Statement of Observation Report",
+      "title_fr": "Rapport d’observation ou déclaration électronique",
+      "url_en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-statement-observation.html",
+      "url_fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/rapports-observation-declaration.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-statement-observation.html",
+        "alternate_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/rapports-observation-declaration.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-statement-observation.html",
+          "title_from_list": "Electronic Statement of Observation ( eSOR )",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+          "discovered_under": "Privacy impact assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-statement-observation.html",
+              "title": "Electronic Statement of Observation ( eSOR )",
+              "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-statement-observation.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-statement-observation.html",
+            "final_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-statement-observation.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:12.566422+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:12 GMT",
+            "etag": null,
+            "byte_count": 27362,
+            "sha256": "afdd0fa338fb50923f8d02fc67ecbf0928e17aedc38c658b8bc73d65cd0881b8"
+          },
+          "raw_path": "raw/c09d1129a7103ec5bc4c.html",
+          "markdown_path": "pia-c09d1129a710_en.md",
+          "markdown_sha256": "9d452dde9cd01a54978e992d761ecf55dea8508dc1251398da2fad5a71c99124",
+          "status": "exported",
+          "page_title": "Electronic Statement of Observation Report",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-statement-observation.html",
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/rapports-observation-declaration.html"
+          },
+          "date_modified": "2024-09-06",
+          "date_published": "2024-09-06",
+          "has_pia_text": true,
+          "title": "Electronic Statement of Observation Report",
+          "conversion": "markdownify",
+          "text_sha256": "ad4d09a386d0b6074c838de150fcb042383e3967af466681d97993674f8b2d37",
+          "word_count": 738
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/rapports-observation-declaration.html",
+          "title_from_list": "Rapports électroniques d'observation et déclaration",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/rapports-observation-declaration.html",
+              "title": "Rapports électroniques d'observation et déclaration",
+              "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/rapports-observation-declaration.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/rapports-observation-declaration.html",
+            "final_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/rapports-observation-declaration.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:25.372214+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:25 GMT",
+            "etag": null,
+            "byte_count": 29572,
+            "sha256": "d4f920093509bdb58c10d2d4d9fc6359e4b459ce0357b8104cca1951b92ad32d"
+          },
+          "raw_path": "raw/2ee6534fdeb44ab5969d.html",
+          "markdown_path": "pia-c09d1129a710_fr.md",
+          "markdown_sha256": "8971dba0e8673e4e52a22aac58983959711e1468e132b012352b46be46eb7a0e",
+          "status": "exported",
+          "page_title": "Rapport d’observation ou déclaration électronique",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/rapports-observation-declaration.html",
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-statement-observation.html"
+          },
+          "date_modified": "2024-09-06",
+          "date_published": "2024-09-06",
+          "has_pia_text": true,
+          "title": "Rapport d’observation ou déclaration électronique",
+          "conversion": "markdownify",
+          "text_sha256": "6e19707ed68fc0f2e1ffe5f6c0401ed5f74a30352a7cc3669a0f3ea77fe2c595",
+          "word_count": 909
+        }
+      }
+    },
+    {
+      "pia_id": "pia-d3792b414525",
+      "title_en": "National Intercept Centre",
+      "title_fr": "Centre national d'interception",
+      "url_en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/national-intercept-centre.html",
+      "url_fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/centre-national-interception.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/national-intercept-centre.html",
+        "alternate_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/centre-national-interception.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/national-intercept-centre.html",
+          "title_from_list": "National Intercept Centre",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+          "discovered_under": "Privacy impact assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/national-intercept-centre.html",
+              "title": "National Intercept Centre",
+              "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/national-intercept-centre.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/national-intercept-centre.html",
+            "final_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/national-intercept-centre.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:12.736925+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:13 GMT",
+            "etag": null,
+            "byte_count": 29243,
+            "sha256": "75d4637fe26f4c4ae553e49084b5cfe53fc914dbb41f59aaf700e72496a2681c"
+          },
+          "raw_path": "raw/d3792b41452520b68b88.html",
+          "markdown_path": "pia-d3792b414525_en.md",
+          "markdown_sha256": "eaed8b1668fef832176a659fe72db1ae4c6357baca8246008ec65117ddc6dd96",
+          "status": "exported",
+          "page_title": "National Intercept Centre",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/national-intercept-centre.html",
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/centre-national-interception.html"
+          },
+          "date_modified": "2024-12-31",
+          "date_published": "2024-06-14",
+          "has_pia_text": true,
+          "title": "National Intercept Centre",
+          "conversion": "markdownify",
+          "text_sha256": "b372fe31509b8f4df0eb298fd3b9968f5a3d18d51f134ce39509f03c3c4b7880",
+          "word_count": 1025
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/centre-national-interception.html",
+          "title_from_list": "Centre national d’interception",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/centre-national-interception.html",
+              "title": "Centre national d’interception",
+              "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/centre-national-interception.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/centre-national-interception.html",
+            "final_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/centre-national-interception.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:24.882304+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:25 GMT",
+            "etag": null,
+            "byte_count": 31336,
+            "sha256": "d6c735ae4dc112bfa46436a65521be3344c2e6502917e5665919de1a7cc83837"
+          },
+          "raw_path": "raw/bc3b0a3784814abf1c5b.html",
+          "markdown_path": "pia-d3792b414525_fr.md",
+          "markdown_sha256": "f7a28512afd85c918a060fc9f9e5027ef5a3c203ce4279c0bb2bbb19e25b1c88",
+          "status": "exported",
+          "page_title": "Centre national d'interception",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/centre-national-interception.html",
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/national-intercept-centre.html"
+          },
+          "date_modified": "2026-09-02",
+          "date_published": "2024-06-17",
+          "has_pia_text": true,
+          "title": "Centre national d'interception",
+          "conversion": "markdownify",
+          "text_sha256": "08efe47e71abb371ea374a1517f88ee3fc7a29b69154ab98b4846b3256b00680",
+          "word_count": 1125
+        }
+      }
+    },
+    {
+      "pia_id": "pia-a9f0540f0911",
+      "title_en": "Digital Education Project",
+      "title_fr": "Le Projet d'éducation numérique",
+      "url_en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/digital-education-project.html",
+      "url_fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/projet-education-numerique.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/digital-education-project.html",
+        "alternate_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/projet-education-numerique.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/digital-education-project.html",
+          "title_from_list": "Digital Education Project",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+          "discovered_under": "Privacy impact assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/digital-education-project.html",
+              "title": "Digital Education Project",
+              "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/digital-education-project.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/digital-education-project.html",
+            "final_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/digital-education-project.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:12.048535+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:12 GMT",
+            "etag": null,
+            "byte_count": 26371,
+            "sha256": "623ffdc4c3d1051a09f235ac8251590e07ae094e479324a437c45a7652fd8cb7"
+          },
+          "raw_path": "raw/a9f0540f091185349eea.html",
+          "markdown_path": "pia-a9f0540f0911_en.md",
+          "markdown_sha256": "f7eb1a2902d5b85776c2e935c692741c2a634377427391cbfcc9f1e3fe3894b2",
+          "status": "exported",
+          "page_title": "Digital Education Project",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/digital-education-project.html",
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/projet-education-numerique.html"
+          },
+          "date_modified": "2024-12-31",
+          "date_published": "2024-06-14",
+          "has_pia_text": true,
+          "title": "Digital Education Project",
+          "conversion": "markdownify",
+          "text_sha256": "9651b4585e62af6d0a82efaffe5bf741e4e298ca3ac1ef6ddb07dfd474409eb3",
+          "word_count": 548
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/projet-education-numerique.html",
+          "title_from_list": "Le Projet d'éducation numérique",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/projet-education-numerique.html",
+              "title": "Le Projet d'éducation numérique",
+              "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/projet-education-numerique.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/projet-education-numerique.html",
+            "final_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/projet-education-numerique.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:25.339301+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:25 GMT",
+            "etag": null,
+            "byte_count": 27992,
+            "sha256": "59786fd747fb24d99943d8f7bd7e989eb636c5458d886702bf872062e3f1f574"
+          },
+          "raw_path": "raw/549f12821cae4c989d53.html",
+          "markdown_path": "pia-a9f0540f0911_fr.md",
+          "markdown_sha256": "92677b1245c1fd5ebb082ee3e101952ca0d04298fe89e8a8650b4f76407320c3",
+          "status": "exported",
+          "page_title": "Le Projet d'éducation numérique",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/projet-education-numerique.html",
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/digital-education-project.html"
+          },
+          "date_modified": "2026-09-02",
+          "date_published": "2024-06-17",
+          "has_pia_text": true,
+          "title": "Le Projet d'éducation numérique",
+          "conversion": "markdownify",
+          "text_sha256": "f9e6f03425adae692ace0e62a92a90dd58c05a2586d96ad0a56eb1daf3b150ea",
+          "word_count": 636
+        }
+      }
+    },
+    {
+      "pia_id": "pia-4b0bc656e357",
+      "title_en": "Video visitation",
+      "title_fr": "Les visites par vidéoconférence",
+      "url_en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/video-visitation.html",
+      "url_fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/visites-par-videoconference.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/video-visitation.html",
+        "alternate_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/visites-par-videoconference.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/video-visitation.html",
+          "title_from_list": "Video Visitation",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+          "discovered_under": "Privacy impact assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/video-visitation.html",
+              "title": "Video Visitation",
+              "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/video-visitation.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/video-visitation.html",
+            "final_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/video-visitation.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:12.973822+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:13 GMT",
+            "etag": null,
+            "byte_count": 26239,
+            "sha256": "42e738e926ff5860af6d2bf31638f9943556016c2310417632a225fe3b0b7720"
+          },
+          "raw_path": "raw/4b0bc656e357e150172d.html",
+          "markdown_path": "pia-4b0bc656e357_en.md",
+          "markdown_sha256": "fc3bd36346fc6d9dbc6f2737864a70014d4c9006d2869e0bdf5780fc20738707",
+          "status": "exported",
+          "page_title": "Video visitation",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/video-visitation.html",
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/visites-par-videoconference.html"
+          },
+          "date_modified": "2021-02-15",
+          "date_published": "2024-07-15",
+          "has_pia_text": true,
+          "title": "Video visitation",
+          "conversion": "markdownify",
+          "text_sha256": "c55db820934ff94e8b16825dcc38eb36e56e3805f2b69335b01d8ab4b7c1d61d",
+          "word_count": 873
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/visites-par-videoconference.html",
+          "title_from_list": "Les visites par vidéoconférence",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/visites-par-videoconference.html",
+              "title": "Les visites par vidéoconférence",
+              "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/visites-par-videoconference.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/visites-par-videoconference.html",
+            "final_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/visites-par-videoconference.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:25.621988+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 00:40:51 GMT",
+            "etag": null,
+            "byte_count": 28214,
+            "sha256": "141b0199299350aab6a0cf2aec780e74b6e98f937fa6530d7b865dc1554eeee1"
+          },
+          "raw_path": "raw/cbb72226cfede9d59010.html",
+          "markdown_path": "pia-4b0bc656e357_fr.md",
+          "markdown_sha256": "f13265a1f25679333a4b69ff92807f539c2a011714a25162c3e1c1ac71b8df2e",
+          "status": "exported",
+          "page_title": "Les visites par vidéoconférence",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/visites-par-videoconference.html",
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/video-visitation.html"
+          },
+          "date_modified": "2021-02-15",
+          "date_published": "2024-07-15",
+          "has_pia_text": true,
+          "title": "Les visites par vidéoconférence",
+          "conversion": "markdownify",
+          "text_sha256": "dc3507e9a18b92caa7237c3abb9afd0d7f5d823a7748d87774886e43e7031b40",
+          "word_count": 1048
+        }
+      }
+    },
+    {
+      "pia_id": "pia-57c8ec2bb455",
+      "title_en": "Electronic Monitoring Pilot II (EM-PII)",
+      "title_fr": "Projet pilote de surveillance électronique II (SE-PPII)",
+      "url_en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-monitoring-pilot.html",
+      "url_fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/pilote-de-surveillance-electronique.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-monitoring-pilot.html",
+        "alternate_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/pilote-de-surveillance-electronique.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-monitoring-pilot.html",
+          "title_from_list": "Electronic Monitoring Pilot II (EM - PII)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+          "discovered_under": "Privacy impact assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-monitoring-pilot.html",
+              "title": "Electronic Monitoring Pilot II (EM - PII)",
+              "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-monitoring-pilot.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-monitoring-pilot.html",
+            "final_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-monitoring-pilot.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:12.227777+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 23:43:28 GMT",
+            "etag": null,
+            "byte_count": 25682,
+            "sha256": "0a07be8ad9acd4e820554f2545431093558599c8dcd61c376165b1f4179f4673"
+          },
+          "raw_path": "raw/57c8ec2bb455c4093484.html",
+          "markdown_path": "pia-57c8ec2bb455_en.md",
+          "markdown_sha256": "7af0a2ca0b64e48c07b6cf1668e92c4e803173e6be5dbac94b934b77575ce3f7",
+          "status": "exported",
+          "page_title": "Electronic Monitoring Pilot II (EM-PII)",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-monitoring-pilot.html",
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/pilote-de-surveillance-electronique.html"
+          },
+          "date_modified": "2021-02-15",
+          "date_published": "2024-07-15",
+          "has_pia_text": true,
+          "title": "Electronic Monitoring Pilot II (EM-PII)",
+          "conversion": "markdownify",
+          "text_sha256": "e5ef8cdb71b33dfe5ec8def8274b9a7532400dc14633d4d5b97f03a2a744fad8",
+          "word_count": 828
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/pilote-de-surveillance-electronique.html",
+          "title_from_list": "Projet pilote de surveillance électronique II (SE-PPII)",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/pilote-de-surveillance-electronique.html",
+              "title": "Projet pilote de surveillance électronique II (SE-PPII)",
+              "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/pilote-de-surveillance-electronique.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/pilote-de-surveillance-electronique.html",
+            "final_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/pilote-de-surveillance-electronique.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:25.210487+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:25 GMT",
+            "etag": null,
+            "byte_count": 28235,
+            "sha256": "e3b9b9f86de1b9bafeb1a255d0a93878d199888cebfdddfdb5048429403ccc84"
+          },
+          "raw_path": "raw/dcd63b123cc92f17897b.html",
+          "markdown_path": "pia-57c8ec2bb455_fr.md",
+          "markdown_sha256": "0ebae9ec557ebfcb4079f4f839aee80a2480b59c21d7d816317ee57d04da4958",
+          "status": "exported",
+          "page_title": "Projet pilote de surveillance électronique II (SE-PPII)",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/pilote-de-surveillance-electronique.html",
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-monitoring-pilot.html"
+          },
+          "date_modified": "2021-02-15",
+          "date_published": "2024-07-15",
+          "has_pia_text": true,
+          "title": "Projet pilote de surveillance électronique II (SE-PPII)",
+          "conversion": "markdownify",
+          "text_sha256": "4053c6923b727c21affa143c5760af45e1bfd4763892dbc91f1589ceb26a303d",
+          "word_count": 1072
+        }
+      }
+    },
+    {
+      "pia_id": "pia-b7c549ca6c1c",
+      "title_en": "Disclosure for health research",
+      "title_fr": "Divulgation pour la recherche sur la santé",
+      "url_en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/disclosure-health-research.html",
+      "url_fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/divulgation-recherche-sante.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/disclosure-health-research.html",
+        "alternate_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/divulgation-recherche-sante.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/disclosure-health-research.html",
+          "title_from_list": "Disclosure for Health Research",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+          "discovered_under": "Privacy impact assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/disclosure-health-research.html",
+              "title": "Disclosure for Health Research",
+              "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/disclosure-health-research.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/disclosure-health-research.html",
+            "final_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/disclosure-health-research.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:12.052965+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:12 GMT",
+            "etag": null,
+            "byte_count": 28349,
+            "sha256": "695a9e8e5088750364e17152e8503bc5f272c7f71c3c6102eb7f5a10c3a83039"
+          },
+          "raw_path": "raw/b7c549ca6c1c9d8f3719.html",
+          "markdown_path": "pia-b7c549ca6c1c_en.md",
+          "markdown_sha256": "e7788cc04c4c132e594a4c89e4ed30568d80fbb1dc1c67363c27457deb015578",
+          "status": "exported",
+          "page_title": "Disclosure for health research",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/disclosure-health-research.html",
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/divulgation-recherche-sante.html"
+          },
+          "date_modified": "2021-02-15",
+          "date_published": "2024-07-15",
+          "has_pia_text": true,
+          "title": "Disclosure for health research",
+          "conversion": "markdownify",
+          "text_sha256": "fdccd9a45f72f6a4b32e4ab0fcbc1d19b60ae36a2515479e0a554dc655bf062e",
+          "word_count": 1111
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/divulgation-recherche-sante.html",
+          "title_from_list": "Divulgation pour la recherche sur la santé",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/divulgation-recherche-sante.html",
+              "title": "Divulgation pour la recherche sur la santé",
+              "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/divulgation-recherche-sante.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/divulgation-recherche-sante.html",
+            "final_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/divulgation-recherche-sante.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:25.000066+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:25 GMT",
+            "etag": null,
+            "byte_count": 31131,
+            "sha256": "df3fc75ac0266d1b2bbb70c73904ae8c720c46048563807f8c0d2a5ab857f8d4"
+          },
+          "raw_path": "raw/e1ed2d8ef35055828499.html",
+          "markdown_path": "pia-b7c549ca6c1c_fr.md",
+          "markdown_sha256": "89499215ec5572e00259d154bc3a513fc347c90f26f065f5898137e018db9784",
+          "status": "exported",
+          "page_title": "Divulgation pour la recherche sur la santé",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/divulgation-recherche-sante.html",
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/disclosure-health-research.html"
+          },
+          "date_modified": "2021-02-15",
+          "date_published": "2024-07-15",
+          "has_pia_text": true,
+          "title": "Divulgation pour la recherche sur la santé",
+          "conversion": "markdownify",
+          "text_sha256": "c0d1c65e89a11fccba6640b29ed1ea288e6799af55d547b5c6b645eb6a0b929b",
+          "word_count": 1329
+        }
+      }
+    },
+    {
+      "pia_id": "pia-089f326661ee",
+      "title_en": "MOU: Use and Disclosure of Information with Respect to Periods of Incarceration for the Administration of the Old Age Security Act",
+      "title_fr": "PE : l'utilisation et la divulgation des renseignements concernant les périodes d'incarcération pour l'application de la Loi sur la sécurité de la vieillesse",
+      "url_en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/mou-disclosure-of-information-incarceration-old-age-security-act.html",
+      "url_fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/pe-divulgation-loi-sur-la-securite-de-la-vieillesse.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/mou-disclosure-of-information-incarceration-old-age-security-act.html",
+        "alternate_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/pe-divulgation-loi-sur-la-securite-de-la-vieillesse.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/mou-disclosure-of-information-incarceration-old-age-security-act.html",
+          "title_from_list": "Memorandum of Understanding regarding the Use and Disclosure of Information with Respect to Periods of Incarceration for the Administration of the Old Age Security Act",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+          "discovered_under": "Privacy impact assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/mou-disclosure-of-information-incarceration-old-age-security-act.html",
+              "title": "Memorandum of Understanding regarding the Use and Disclosure of Information with Respect to Periods of Incarceration for the Administration of the Old Age Security Act",
+              "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/mou-disclosure-of-information-incarceration-old-age-security-act.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/mou-disclosure-of-information-incarceration-old-age-security-act.html",
+            "final_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/mou-disclosure-of-information-incarceration-old-age-security-act.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:12.686864+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:13 GMT",
+            "etag": null,
+            "byte_count": 23497,
+            "sha256": "546c9ce082cbc6cb127d6f2607dc1a37be01e8b4846d95d363d5c2c803a62077"
+          },
+          "raw_path": "raw/089f326661eea8ffc05e.html",
+          "markdown_path": "pia-089f326661ee_en.md",
+          "markdown_sha256": "22d8565968b40e651342c4d6c2fca5afd4d7cbb315303bebdb707a4d0f8c37d5",
+          "status": "exported",
+          "page_title": "MOU: Use and Disclosure of Information with Respect to Periods of Incarceration for the Administration of the Old Age Security Act",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/mou-disclosure-of-information-incarceration-old-age-security-act.html",
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/pe-divulgation-loi-sur-la-securite-de-la-vieillesse.html"
+          },
+          "date_modified": "2021-02-02",
+          "date_published": "2024-07-15",
+          "has_pia_text": true,
+          "title": "MOU: Use and Disclosure of Information with Respect to Periods of Incarceration for the Administration of the Old Age Security Act",
+          "conversion": "markdownify",
+          "text_sha256": "6c92c6db9159932b3cbcddfdd3905be6bc200028d370b05d42573e492bd9324c",
+          "word_count": 376
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/pe-divulgation-loi-sur-la-securite-de-la-vieillesse.html",
+          "title_from_list": "Protocole d'entente sur l'utilisation et la divulgation des renseignements concernant les périodes d'incarcération pour l'application de la Loi sur la sécurité de la vieillesse",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/pe-divulgation-loi-sur-la-securite-de-la-vieillesse.html",
+              "title": "Protocole d'entente sur l'utilisation et la divulgation des renseignements concernant les périodes d'incarcération pour l'application de la Loi sur la sécurité de la vieillesse",
+              "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/pe-divulgation-loi-sur-la-securite-de-la-vieillesse.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/pe-divulgation-loi-sur-la-securite-de-la-vieillesse.html",
+            "final_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/pe-divulgation-loi-sur-la-securite-de-la-vieillesse.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:25.178006+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:25 GMT",
+            "etag": null,
+            "byte_count": 24918,
+            "sha256": "bdd4d2ed9d5c2f918f2aa7d0ace1c11fcba73657b3ee45c5b9c728b58d6279db"
+          },
+          "raw_path": "raw/2fe80f7bc6231374c00f.html",
+          "markdown_path": "pia-089f326661ee_fr.md",
+          "markdown_sha256": "450bfc267d1453a55089b7d9e126748739bcd3ae32d0a3e9f8182cb4b07177d8",
+          "status": "exported",
+          "page_title": "PE : l'utilisation et la divulgation des renseignements concernant les périodes d'incarcération pour l'application de la Loi sur la sécurité de la vieillesse",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/pe-divulgation-loi-sur-la-securite-de-la-vieillesse.html",
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/mou-disclosure-of-information-incarceration-old-age-security-act.html"
+          },
+          "date_modified": "2021-02-02",
+          "date_published": "2024-07-15",
+          "has_pia_text": true,
+          "title": "PE : l'utilisation et la divulgation des renseignements concernant les périodes d'incarcération pour l'application de la Loi sur la sécurité de la vieillesse",
+          "conversion": "markdownify",
+          "text_sha256": "0725b8ac11fc5115f4961e843f059eb672be92ec34b5265104cccde5d13eee19",
+          "word_count": 470
+        }
+      }
+    },
+    {
+      "pia_id": "pia-f6f0e98a6d5b",
+      "title_en": "Uniform program",
+      "title_fr": "Programme d'uniformes",
+      "url_en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/uniform-program.html",
+      "url_fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/programme-uniformes.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/uniform-program.html",
+        "alternate_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/programme-uniformes.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/uniform-program.html",
+          "title_from_list": "Uniform Program",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+          "discovered_under": "Privacy impact assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/uniform-program.html",
+              "title": "Uniform Program",
+              "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/uniform-program.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/uniform-program.html",
+            "final_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/uniform-program.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:12.916132+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:13 GMT",
+            "etag": null,
+            "byte_count": 22666,
+            "sha256": "61fe4ab4be94af289566564118f70ac68237160130099fa1e1c66bc2fca55279"
+          },
+          "raw_path": "raw/f6f0e98a6d5b146eeb9d.html",
+          "markdown_path": "pia-f6f0e98a6d5b_en.md",
+          "markdown_sha256": "61496cecb7fbcfaaf53acb6ad518a1d7bf911fa80919f4d9f356accb56ac5952",
+          "status": "exported",
+          "page_title": "Uniform program",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/uniform-program.html",
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/programme-uniformes.html"
+          },
+          "date_modified": "2021-02-15",
+          "date_published": "2024-07-15",
+          "has_pia_text": true,
+          "title": "Uniform program",
+          "conversion": "markdownify",
+          "text_sha256": "3bd471a622ac6e14946eced2efed505edc882e2ec445aa65856213396b75d2e9",
+          "word_count": 331
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/programme-uniformes.html",
+          "title_from_list": "Programme d'uniformes",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/programme-uniformes.html",
+              "title": "Programme d'uniformes",
+              "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/programme-uniformes.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/programme-uniformes.html",
+            "final_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/programme-uniformes.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:25.333070+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:25 GMT",
+            "etag": null,
+            "byte_count": 23687,
+            "sha256": "c9c4fed1042ca1d321849adc38aeb380c9822d833c13021512c4e8796f3ccd96"
+          },
+          "raw_path": "raw/00710ebacce36d110d6c.html",
+          "markdown_path": "pia-f6f0e98a6d5b_fr.md",
+          "markdown_sha256": "ab2aae94fb90078e9e88c9369042fb149cc3bfc7411c3140ff8c66586664383c",
+          "status": "exported",
+          "page_title": "Programme d'uniformes",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/programme-uniformes.html",
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/uniform-program.html"
+          },
+          "date_modified": "2021-02-15",
+          "date_published": "2024-07-15",
+          "has_pia_text": true,
+          "title": "Programme d'uniformes",
+          "conversion": "markdownify",
+          "text_sha256": "0af4937683cb58d2254274cd8323dfaef19ab63f1026872ab030930f3626df83",
+          "word_count": 399
+        }
+      }
+    },
+    {
+      "pia_id": "pia-439b0f386734",
+      "title_en": "Human Resources Management System",
+      "title_fr": "Système de gestion des ressources humaines",
+      "url_en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/hr-management-system.html",
+      "url_fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/systeme-des-ressources-humaines.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/hr-management-system.html",
+        "alternate_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/systeme-des-ressources-humaines.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/hr-management-system.html",
+          "title_from_list": "Human Resources Management System",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+          "discovered_under": "Privacy impact assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/hr-management-system.html",
+              "title": "Human Resources Management System",
+              "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/hr-management-system.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/hr-management-system.html",
+            "final_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/hr-management-system.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:12.679761+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 00:54:52 GMT",
+            "etag": null,
+            "byte_count": 22240,
+            "sha256": "1553bf7b1a69089aa19299b8c88b74f662c5d337795766f19e165b3b33ecedff"
+          },
+          "raw_path": "raw/439b0f38673414d70c53.html",
+          "markdown_path": "pia-439b0f386734_en.md",
+          "markdown_sha256": "22f7d4d06b277f004d4113babd189953ccb0fc601ab54236b77d2dd6cc1dcaac",
+          "status": "exported",
+          "page_title": "Human Resources Management System",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/hr-management-system.html",
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/systeme-des-ressources-humaines.html"
+          },
+          "date_modified": "2021-02-15",
+          "date_published": "2024-07-15",
+          "has_pia_text": true,
+          "title": "Human Resources Management System",
+          "conversion": "markdownify",
+          "text_sha256": "15d53a35c8735b41bc5f6cfd09424c6f6d1f2d00fd6c3e8ce7d0954133025ac4",
+          "word_count": 267
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/systeme-des-ressources-humaines.html",
+          "title_from_list": "Système de gestion des ressources humaines",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/systeme-des-ressources-humaines.html",
+              "title": "Système de gestion des ressources humaines",
+              "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/systeme-des-ressources-humaines.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/systeme-des-ressources-humaines.html",
+            "final_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/systeme-des-ressources-humaines.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:25.550293+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:25 GMT",
+            "etag": null,
+            "byte_count": 23409,
+            "sha256": "d337d13b8608d4b84af5c2e1cba722d0173037bbb07995515245960b40b0c8aa"
+          },
+          "raw_path": "raw/50fb600b47f95a609ffd.html",
+          "markdown_path": "pia-439b0f386734_fr.md",
+          "markdown_sha256": "309f23b8e91de079283fb9c906e13fb361cd2c8261bf2801d8548387891988cd",
+          "status": "exported",
+          "page_title": "Système de gestion des ressources humaines",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/systeme-des-ressources-humaines.html",
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/hr-management-system.html"
+          },
+          "date_modified": "2021-02-15",
+          "date_published": "2024-07-15",
+          "has_pia_text": true,
+          "title": "Système de gestion des ressources humaines",
+          "conversion": "markdownify",
+          "text_sha256": "00e797f8077043a1c267384ec2deb5c97319201ecdf34f1e489ab17b12a5b173",
+          "word_count": 357
+        }
+      }
+    },
+    {
+      "pia_id": "pia-0214b704b6d1",
+      "title_en": "Computerized Mental Health Intake Screening System",
+      "title_fr": "Système informatisé de dépistage des troubles mentaux à l'évaluation initiale",
+      "url_en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/computerized-mental-health-intake.html",
+      "url_fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/systeme-informatise-troubles-mentaux.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/computerized-mental-health-intake.html",
+        "alternate_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/systeme-informatise-troubles-mentaux.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/computerized-mental-health-intake.html",
+          "title_from_list": "Computerized Mental Health Intake Screening System",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+          "discovered_under": "Privacy impact assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/computerized-mental-health-intake.html",
+              "title": "Computerized Mental Health Intake Screening System",
+              "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/computerized-mental-health-intake.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/computerized-mental-health-intake.html",
+            "final_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/computerized-mental-health-intake.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:11.980736+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:12 GMT",
+            "etag": null,
+            "byte_count": 24617,
+            "sha256": "abdc8a61a5e240e8b48550fd1d19bcef50b44d2538f4c69e78876122dbcd2550"
+          },
+          "raw_path": "raw/0214b704b6d117d23e62.html",
+          "markdown_path": "pia-0214b704b6d1_en.md",
+          "markdown_sha256": "24f364db01511e818c83d20ad263c10167e8dce3a0ecb1c4756b73ac13df42ee",
+          "status": "exported",
+          "page_title": "Computerized Mental Health Intake Screening System",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/computerized-mental-health-intake.html",
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/systeme-informatise-troubles-mentaux.html"
+          },
+          "date_modified": "2021-02-15",
+          "date_published": "2024-07-15",
+          "has_pia_text": true,
+          "title": "Computerized Mental Health Intake Screening System",
+          "conversion": "markdownify",
+          "text_sha256": "7c443e21b0b9774af64bef02823ab89e20ebcba3763ee0a43b3b764b5290bba7",
+          "word_count": 639
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/systeme-informatise-troubles-mentaux.html",
+          "title_from_list": "Système informatisé de dépistage des troubles mentaux à l'évaluation initiale",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/systeme-informatise-troubles-mentaux.html",
+              "title": "Système informatisé de dépistage des troubles mentaux à l'évaluation initiale",
+              "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/systeme-informatise-troubles-mentaux.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/systeme-informatise-troubles-mentaux.html",
+            "final_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/systeme-informatise-troubles-mentaux.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:25.602656+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:25 GMT",
+            "etag": null,
+            "byte_count": 26656,
+            "sha256": "bede307fa2aac2dc74d50ed4059d146d2a468c5183c3899434c41a5128c3054c"
+          },
+          "raw_path": "raw/6a167a03bf1938fea43a.html",
+          "markdown_path": "pia-0214b704b6d1_fr.md",
+          "markdown_sha256": "9cae6887ee3aced9944afc8cfafa68531eb3a73f56af91211a29644ae1ca3f19",
+          "status": "exported",
+          "page_title": "Système informatisé de dépistage des troubles mentaux à l'évaluation initiale",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/systeme-informatise-troubles-mentaux.html",
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/computerized-mental-health-intake.html"
+          },
+          "date_modified": "2021-02-15",
+          "date_published": "2024-07-15",
+          "has_pia_text": true,
+          "title": "Système informatisé de dépistage des troubles mentaux à l'évaluation initiale",
+          "conversion": "markdownify",
+          "text_sha256": "d796301bb72c7a4e503e45bdfa3d6a362fa1d6924313eab62b68205aeda06f4d",
+          "word_count": 830
+        }
+      }
+    },
+    {
+      "pia_id": "pia-0919edb109dd",
+      "title_en": "Express Lane Staffing (ELS)",
+      "title_fr": "Dotation par voie express (DVE)",
+      "url_en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/express-lane-staffing.html",
+      "url_fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/dotation-par-voie-express.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/express-lane-staffing.html",
+        "alternate_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/dotation-par-voie-express.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/express-lane-staffing.html",
+          "title_from_list": "Express Lane Staffing",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+          "discovered_under": "Privacy impact assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/express-lane-staffing.html",
+              "title": "Express Lane Staffing",
+              "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/express-lane-staffing.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/express-lane-staffing.html",
+            "final_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/express-lane-staffing.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:12.676987+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:12 GMT",
+            "etag": null,
+            "byte_count": 20981,
+            "sha256": "6a5ee9302ca08d534ea56bb0dcf333246f591b0660adfe7b99a68d1898676252"
+          },
+          "raw_path": "raw/0919edb109dd0cd51e9d.html",
+          "markdown_path": "pia-0919edb109dd_en.md",
+          "markdown_sha256": "00151afe8c94564ef961113838ee6df0f081542f4eea7bf1b64f2603153d1e12",
+          "status": "exported",
+          "page_title": "Express Lane Staffing (ELS)",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/express-lane-staffing.html",
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/dotation-par-voie-express.html"
+          },
+          "date_modified": "2021-02-15",
+          "date_published": "2024-07-15",
+          "has_pia_text": true,
+          "title": "Express Lane Staffing (ELS)",
+          "conversion": "markdownify",
+          "text_sha256": "7d492cac0561d547cf0ea572472a49b35247d9edb0f61a05f1b4048aa629729f",
+          "word_count": 121
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/dotation-par-voie-express.html",
+          "title_from_list": "Dotation par voie express",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/dotation-par-voie-express.html",
+              "title": "Dotation par voie express",
+              "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/dotation-par-voie-express.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/dotation-par-voie-express.html",
+            "final_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/dotation-par-voie-express.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:25.011819+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 23:01:49 GMT",
+            "etag": null,
+            "byte_count": 21695,
+            "sha256": "53121025c65855cabd5ad751e79dee81f82899edf94800cdeb7a15efb45c852e"
+          },
+          "raw_path": "raw/a73cb859197b58a5a9dd.html",
+          "markdown_path": "pia-0919edb109dd_fr.md",
+          "markdown_sha256": "be1b7c052695bb7483e2b04df58211898d285f62b50c1450002a556c24344d0f",
+          "status": "exported",
+          "page_title": "Dotation par voie express (DVE)",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/dotation-par-voie-express.html",
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/express-lane-staffing.html"
+          },
+          "date_modified": "2021-02-15",
+          "date_published": "2024-07-15",
+          "has_pia_text": true,
+          "title": "Dotation par voie express (DVE)",
+          "conversion": "markdownify",
+          "text_sha256": "a27064ddfa578b35973dcc604afc6349d9b5547ae002a40c712ef208d010f111",
+          "word_count": 165
+        }
+      }
+    },
+    {
+      "pia_id": "pia-e6eb8b54499f",
+      "title_en": "Electronic Monitoring Program Pilot",
+      "title_fr": "Programme pilote de surveillance électronique",
+      "url_en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-monitoring-program.html",
+      "url_fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/programme-pilote-de-surveillance.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-monitoring-program.html",
+        "alternate_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/programme-pilote-de-surveillance.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-monitoring-program.html",
+          "title_from_list": "Electronic Monitoring Program Pilot",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+          "discovered_under": "Privacy impact assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-monitoring-program.html",
+              "title": "Electronic Monitoring Program Pilot",
+              "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-monitoring-program.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-monitoring-program.html",
+            "final_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-monitoring-program.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:12.406218+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:12 GMT",
+            "etag": null,
+            "byte_count": 24157,
+            "sha256": "f83cf531ce5565b87f6a76ea307f9b9cf880e5ce3e9415a4b173640f4d29acfe"
+          },
+          "raw_path": "raw/e6eb8b54499feed6d2a1.html",
+          "markdown_path": "pia-e6eb8b54499f_en.md",
+          "markdown_sha256": "6c747372871fdf7916d63339225269e708bcea695ba8cad7c4acd4dd69c56286",
+          "status": "exported",
+          "page_title": "Electronic Monitoring Program Pilot",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-monitoring-program.html",
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/programme-pilote-de-surveillance.html"
+          },
+          "date_modified": "2021-02-15",
+          "date_published": "2024-07-15",
+          "has_pia_text": true,
+          "title": "Electronic Monitoring Program Pilot",
+          "conversion": "markdownify",
+          "text_sha256": "6abb91479d167d2855ee485e9ff647a82bca3cfa7d15f7efea8ed48c2ce37816",
+          "word_count": 570
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/programme-pilote-de-surveillance.html",
+          "title_from_list": "Programme pilote de surveillance électronique",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/programme-pilote-de-surveillance.html",
+              "title": "Programme pilote de surveillance électronique",
+              "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/programme-pilote-de-surveillance.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/programme-pilote-de-surveillance.html",
+            "final_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/programme-pilote-de-surveillance.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:25.332576+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:25 GMT",
+            "etag": null,
+            "byte_count": 25103,
+            "sha256": "9582f8179acf2e919abfeed57164cb2db5252c20388b8b4f8cc5e2b95e9b11b6"
+          },
+          "raw_path": "raw/fce01715e9deec10e152.html",
+          "markdown_path": "pia-e6eb8b54499f_fr.md",
+          "markdown_sha256": "d6e4171767200956dadd8defeb469530eb5e4e53bc4a146ff7aded4702f72f58",
+          "status": "exported",
+          "page_title": "Programme pilote de surveillance électronique",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/programme-pilote-de-surveillance.html",
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-monitoring-program.html"
+          },
+          "date_modified": "2021-02-15",
+          "date_published": "2024-07-15",
+          "has_pia_text": true,
+          "title": "Programme pilote de surveillance électronique",
+          "conversion": "markdownify",
+          "text_sha256": "c765bcc280659aa08721c4081a60ddef808f6a43f6175128ca6f07e6960806dd",
+          "word_count": 606
+        }
+      }
+    },
+    {
+      "pia_id": "pia-2feb5568a37b",
+      "title_en": "Telework at the ATIP Office of Correctional Service Canada",
+      "title_fr": "Régime de télétravail au bureau de l'AIPRP du Service correctionnel du Canada",
+      "url_en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/telework-at-the-atip.html",
+      "url_fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/regime-de-teletravail-au-bureau-de-aiprp.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/telework-at-the-atip.html",
+        "alternate_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/regime-de-teletravail-au-bureau-de-aiprp.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/telework-at-the-atip.html",
+          "title_from_list": "Telework at the ATIP Office of CSC",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+          "discovered_under": "Privacy impact assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/telework-at-the-atip.html",
+              "title": "Telework at the ATIP Office of CSC",
+              "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/telework-at-the-atip.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/telework-at-the-atip.html",
+            "final_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/telework-at-the-atip.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:12.895722+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 00:28:57 GMT",
+            "etag": null,
+            "byte_count": 24304,
+            "sha256": "50defce742049807bad47ee85cdfe001774dc1d0f1191770466aafe5f7b72606"
+          },
+          "raw_path": "raw/2feb5568a37b04d622bb.html",
+          "markdown_path": "pia-2feb5568a37b_en.md",
+          "markdown_sha256": "27bb049ee0b7ced4118ea11e4153a594e5ace73e7e87bae032354f6b327cfa52",
+          "status": "exported",
+          "page_title": "Telework at the ATIP Office of Correctional Service Canada",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/telework-at-the-atip.html",
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/regime-de-teletravail-au-bureau-de-aiprp.html"
+          },
+          "date_modified": "2021-02-15",
+          "date_published": "2024-07-15",
+          "has_pia_text": true,
+          "title": "Telework at the ATIP Office of Correctional Service Canada",
+          "conversion": "markdownify",
+          "text_sha256": "973fa4ea9d2297c6ff227c4f12fb20b61aee5c4ad8e3f48582c196ac185d6030",
+          "word_count": 534
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/regime-de-teletravail-au-bureau-de-aiprp.html",
+          "title_from_list": "Régime de télétravail au bureau de l' AIPRP du SCC",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/regime-de-teletravail-au-bureau-de-aiprp.html",
+              "title": "Régime de télétravail au bureau de l' AIPRP du SCC",
+              "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/regime-de-teletravail-au-bureau-de-aiprp.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/regime-de-teletravail-au-bureau-de-aiprp.html",
+            "final_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/regime-de-teletravail-au-bureau-de-aiprp.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:25.400952+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:25 GMT",
+            "etag": null,
+            "byte_count": 26229,
+            "sha256": "f77371f1fb806d13e8bc0e2309b81c693e2b4bdd31c17216cf051dcfee2675d9"
+          },
+          "raw_path": "raw/23024e633936eb0ed1bd.html",
+          "markdown_path": "pia-2feb5568a37b_fr.md",
+          "markdown_sha256": "781f5a6c7cb644cee2b8157f1bc90314162d25d3119b02b0f1745bab39c52b8b",
+          "status": "exported",
+          "page_title": "Régime de télétravail au bureau de l'AIPRP du Service correctionnel du Canada",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/regime-de-teletravail-au-bureau-de-aiprp.html",
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/telework-at-the-atip.html"
+          },
+          "date_modified": "2021-02-15",
+          "date_published": "2024-07-15",
+          "has_pia_text": true,
+          "title": "Régime de télétravail au bureau de l'AIPRP du Service correctionnel du Canada",
+          "conversion": "markdownify",
+          "text_sha256": "6f1e989c2a04755aa040bcf8ababca2d877dc0b331b6534cfd67a997b59785f4",
+          "word_count": 725
+        }
+      }
+    },
+    {
+      "pia_id": "pia-1b091a0dc393",
+      "title_en": "Exchange of personal information between Correctional Service Canada and Passport Canada",
+      "title_fr": "Échange de renseignements personnels entre le Service correctionnel du Canada et Passeport Canada",
+      "url_en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/exchange-of-personal-information.html",
+      "url_fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/echange-de-renseignements-personnels.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/exchange-of-personal-information.html",
+        "alternate_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/echange-de-renseignements-personnels.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/exchange-of-personal-information.html",
+          "title_from_list": "Exchange of Personal Information between CSC and Passport Canada",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+          "discovered_under": "Privacy impact assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/exchange-of-personal-information.html",
+              "title": "Exchange of Personal Information between CSC and Passport Canada",
+              "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/exchange-of-personal-information.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/exchange-of-personal-information.html",
+            "final_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/exchange-of-personal-information.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:12.660118+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:12 GMT",
+            "etag": null,
+            "byte_count": 22683,
+            "sha256": "25587df65feacd9a45c00eecd95fbe1b2c037828751b055a1d3fa31678f7d3c0"
+          },
+          "raw_path": "raw/1b091a0dc393e5d2c1e5.html",
+          "markdown_path": "pia-1b091a0dc393_en.md",
+          "markdown_sha256": "fae926be229f3b2f19788932acc1b6af2e94d6a13c460f4efdc11f40cab0f2c4",
+          "status": "exported",
+          "page_title": "Exchange of personal information between Correctional Service Canada and Passport Canada",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/exchange-of-personal-information.html",
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/echange-de-renseignements-personnels.html"
+          },
+          "date_modified": "2021-02-15",
+          "date_published": "2024-07-15",
+          "has_pia_text": true,
+          "title": "Exchange of personal information between Correctional Service Canada and Passport Canada",
+          "conversion": "markdownify",
+          "text_sha256": "f4d3df828af8cb176b25007dce81c0f34c280fb8ff3c54aa5568566902ce6ba4",
+          "word_count": 281
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/echange-de-renseignements-personnels.html",
+          "title_from_list": "Échange de renseignements personnels entre le SCC et Passeport Canada",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/echange-de-renseignements-personnels.html",
+              "title": "Échange de renseignements personnels entre le SCC et Passeport Canada",
+              "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/echange-de-renseignements-personnels.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/echange-de-renseignements-personnels.html",
+            "final_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/echange-de-renseignements-personnels.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:25.036621+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:25 GMT",
+            "etag": null,
+            "byte_count": 24294,
+            "sha256": "9adc44605880ad23b499b0fa8c89abd3658c1145e45e45482e37a754c0549ca7"
+          },
+          "raw_path": "raw/d05835445482c0b67b1e.html",
+          "markdown_path": "pia-1b091a0dc393_fr.md",
+          "markdown_sha256": "a154e2d3cb41c97231165246987025d8593a7e07d10070bb710811233ae7cf51",
+          "status": "exported",
+          "page_title": "Échange de renseignements personnels entre le Service correctionnel du Canada et Passeport Canada",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/echange-de-renseignements-personnels.html",
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/exchange-of-personal-information.html"
+          },
+          "date_modified": "2021-02-15",
+          "date_published": "2024-07-15",
+          "has_pia_text": true,
+          "title": "Échange de renseignements personnels entre le Service correctionnel du Canada et Passeport Canada",
+          "conversion": "markdownify",
+          "text_sha256": "2fc8988312e5882f543bd1db4d0a0d05ad35739cb71a7d0695d497fcd4e2c248",
+          "word_count": 428
+        }
+      }
+    },
+    {
+      "pia_id": "pia-0b00606224d4",
+      "title_en": "Electronic sharing of offender information with provincial governments",
+      "title_fr": "Communication électronique de renseignements sur les délinquants avec les gouvernements provinciaux",
+      "url_en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-sharing-provincial-governments.html",
+      "url_fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/communication-electronique-gouvernements-provinciaux.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-sharing-provincial-governments.html",
+        "alternate_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/communication-electronique-gouvernements-provinciaux.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-sharing-provincial-governments.html",
+          "title_from_list": "Electronic Sharing of Offenders' Information with Provincial Governments",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+          "discovered_under": "Privacy impact assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-sharing-provincial-governments.html",
+              "title": "Electronic Sharing of Offenders' Information with Provincial Governments",
+              "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-sharing-provincial-governments.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-sharing-provincial-governments.html",
+            "final_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-sharing-provincial-governments.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:12.451209+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:12 GMT",
+            "etag": null,
+            "byte_count": 25875,
+            "sha256": "def461b86c3a23f70361e24673bd529410fddb41969f937305400ad54d7b5797"
+          },
+          "raw_path": "raw/0b00606224d45ec63d17.html",
+          "markdown_path": "pia-0b00606224d4_en.md",
+          "markdown_sha256": "ac684847530b37eddb5e2ecba136a2b2cc14cf3261a2cc0a266953210f2ce18a",
+          "status": "exported",
+          "page_title": "Electronic sharing of offender information with provincial governments",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-sharing-provincial-governments.html",
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/communication-electronique-gouvernements-provinciaux.html"
+          },
+          "date_modified": "2021-02-15",
+          "date_published": "2024-07-15",
+          "has_pia_text": true,
+          "title": "Electronic sharing of offender information with provincial governments",
+          "conversion": "markdownify",
+          "text_sha256": "6b86f1fe21721f7cb0f73a484879cf493dfd2f1a33782adcd96757075c7159ca",
+          "word_count": 630
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/communication-electronique-gouvernements-provinciaux.html",
+          "title_from_list": "Communication électronique de renseignements sur les délinquants avec les gouvernements provinciaux",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/communication-electronique-gouvernements-provinciaux.html",
+              "title": "Communication électronique de renseignements sur les délinquants avec les gouvernements provinciaux",
+              "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/communication-electronique-gouvernements-provinciaux.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/communication-electronique-gouvernements-provinciaux.html",
+            "final_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/communication-electronique-gouvernements-provinciaux.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:24.885506+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:25 GMT",
+            "etag": null,
+            "byte_count": 27513,
+            "sha256": "41de2f5c4b2110d7c8ec41a961b21aa382fe8c75074ee7223e08dfd147a33373"
+          },
+          "raw_path": "raw/2f37a13a7dcc8a1a5ab6.html",
+          "markdown_path": "pia-0b00606224d4_fr.md",
+          "markdown_sha256": "6c24a72b35cd764687d60e95cff628e949f4c7ec47950836ee1f0448aaede2b1",
+          "status": "exported",
+          "page_title": "Communication électronique de renseignements sur les délinquants avec les gouvernements provinciaux",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/communication-electronique-gouvernements-provinciaux.html",
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-sharing-provincial-governments.html"
+          },
+          "date_modified": "2021-02-15",
+          "date_published": "2024-07-15",
+          "has_pia_text": true,
+          "title": "Communication électronique de renseignements sur les délinquants avec les gouvernements provinciaux",
+          "conversion": "markdownify",
+          "text_sha256": "f2f662e071c5f6ff917fc6b2ca5083aba24e96466cc84c647a4aa910122a8c1d",
+          "word_count": 712
+        }
+      }
+    },
+    {
+      "pia_id": "pia-7e831fbf5ba0",
+      "title_en": "Electronic sharing of offender information via InfoPol with police forces",
+      "title_fr": "Communication électronique de renseignements sur les délinquants avec les services de police par l'entremise d'InfoPol",
+      "url_en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-sharing-infopol.html",
+      "url_fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/communication-electronique-infopol.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-sharing-infopol.html",
+        "alternate_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/communication-electronique-infopol.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-sharing-infopol.html",
+          "title_from_list": "Electronic Sharing of Offenders' Information via InfoPol with Police Forces",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+          "discovered_under": "Privacy impact assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-sharing-infopol.html",
+              "title": "Electronic Sharing of Offenders' Information via InfoPol with Police Forces",
+              "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-sharing-infopol.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-sharing-infopol.html",
+            "final_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-sharing-infopol.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:12.443775+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:12 GMT",
+            "etag": null,
+            "byte_count": 23544,
+            "sha256": "4df7c464f33baea92e42f314f985ac9881e8a74e73d3f7c91332cf4e5513704f"
+          },
+          "raw_path": "raw/7e831fbf5ba061810951.html",
+          "markdown_path": "pia-7e831fbf5ba0_en.md",
+          "markdown_sha256": "d4c38c114d093715173a1c61f33770ece609b87dfcf33da9a1ec8303426df52b",
+          "status": "exported",
+          "page_title": "Electronic sharing of offender information via InfoPol with police forces",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-sharing-infopol.html",
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/communication-electronique-infopol.html"
+          },
+          "date_modified": "2025-01-31",
+          "date_published": "2025-01-22",
+          "has_pia_text": true,
+          "title": "Electronic sharing of offender information via InfoPol with police forces",
+          "conversion": "markdownify",
+          "text_sha256": "841df0c44b6818b75658bd872c28d26bf5aacd26f8c1a555669a96527f480851",
+          "word_count": 383
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/communication-electronique-infopol.html",
+          "title_from_list": "Communication électronique de renseignements sur les délinquants avec les services de police par l'entremise d'InfoPol",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/communication-electronique-infopol.html",
+              "title": "Communication électronique de renseignements sur les délinquants avec les services de police par l'entremise d'InfoPol",
+              "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/communication-electronique-infopol.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/communication-electronique-infopol.html",
+            "final_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/communication-electronique-infopol.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:24.898438+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:25 GMT",
+            "etag": null,
+            "byte_count": 24831,
+            "sha256": "bd763d6f3372e7383046bdc7caa3479b8a58270c4c1d483d2202cb70d7e5528a"
+          },
+          "raw_path": "raw/8cbb5cd79335c52cfe10.html",
+          "markdown_path": "pia-7e831fbf5ba0_fr.md",
+          "markdown_sha256": "6d8f5d825b26677ee54fe211b2bdb170c2d7499e5363a5a63b671567b709def6",
+          "status": "exported",
+          "page_title": "Communication électronique de renseignements sur les délinquants avec les services de police par l'entremise d'InfoPol",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/communication-electronique-infopol.html",
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/electronic-sharing-infopol.html"
+          },
+          "date_modified": "2025-01-31",
+          "date_published": "2025-01-22",
+          "has_pia_text": true,
+          "title": "Communication électronique de renseignements sur les délinquants avec les services de police par l'entremise d'InfoPol",
+          "conversion": "markdownify",
+          "text_sha256": "c08e5bc3f3d9b8ae830e78fca868fb8fd32eca0ba4c13900cfd8437bcd6051a0",
+          "word_count": 447
+        }
+      }
+    },
+    {
+      "pia_id": "pia-f6d9774ba916",
+      "title_en": "Ontario Sex Offender Registry",
+      "title_fr": "Registre des délinquants sexuels de l'Ontario",
+      "url_en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/ontario-sex-offender-registry.html",
+      "url_fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/registre-delinquants-sexuels-ontario.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/ontario-sex-offender-registry.html",
+        "alternate_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/registre-delinquants-sexuels-ontario.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/ontario-sex-offender-registry.html",
+          "title_from_list": "Ontario Sex Offender Registry",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+          "discovered_under": "Privacy impact assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/ontario-sex-offender-registry.html",
+              "title": "Ontario Sex Offender Registry",
+              "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/ontario-sex-offender-registry.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/ontario-sex-offender-registry.html",
+            "final_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/ontario-sex-offender-registry.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:12.740804+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 23:14:49 GMT",
+            "etag": null,
+            "byte_count": 24814,
+            "sha256": "4e290f685b25a566621384b1714ffff89a56862529f476dfa4f0d00aeadd2b54"
+          },
+          "raw_path": "raw/f6d9774ba916bff549a0.html",
+          "markdown_path": "pia-f6d9774ba916_en.md",
+          "markdown_sha256": "316a5ab463dc6c1271a706a3c9ed196c54065d06ec7ba2e6c4c23681740bbde2",
+          "status": "exported",
+          "page_title": "Ontario Sex Offender Registry",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/ontario-sex-offender-registry.html",
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/registre-delinquants-sexuels-ontario.html"
+          },
+          "date_modified": "2021-02-15",
+          "date_published": "2024-07-15",
+          "has_pia_text": true,
+          "title": "Ontario Sex Offender Registry",
+          "conversion": "markdownify",
+          "text_sha256": "dbd65c2946af9e9dac18a379efac550b6b4bb10a73a969d6288ac37afcd539ad",
+          "word_count": 497
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/registre-delinquants-sexuels-ontario.html",
+          "title_from_list": "Registre des délinquants sexuels de l'Ontario",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/registre-delinquants-sexuels-ontario.html",
+              "title": "Registre des délinquants sexuels de l'Ontario",
+              "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/registre-delinquants-sexuels-ontario.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/registre-delinquants-sexuels-ontario.html",
+            "final_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/registre-delinquants-sexuels-ontario.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:25.443820+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:25 GMT",
+            "etag": null,
+            "byte_count": 26231,
+            "sha256": "f041bd92f250f0d56b5c43c6a7ad0e4effc6d4382e98566236ed2ba73092c4a4"
+          },
+          "raw_path": "raw/5d4891eca4746f5762e6.html",
+          "markdown_path": "pia-f6d9774ba916_fr.md",
+          "markdown_sha256": "5c258bde5ee89aa6ef5666f6f9b078b48fc3c8d4ac0952802753676a161745c7",
+          "status": "exported",
+          "page_title": "Registre des délinquants sexuels de l'Ontario",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/registre-delinquants-sexuels-ontario.html",
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/ontario-sex-offender-registry.html"
+          },
+          "date_modified": "2021-02-15",
+          "date_published": "2024-07-15",
+          "has_pia_text": true,
+          "title": "Registre des délinquants sexuels de l'Ontario",
+          "conversion": "markdownify",
+          "text_sha256": "281156c07700203382bb55aa46754a05af02849c924fee3118ac6e836c3dd6ab",
+          "word_count": 569
+        }
+      }
+    },
+    {
+      "pia_id": "pia-dd69fd6370e8",
+      "title_en": "Not Found",
+      "title_fr": "Communication électronique de renseignements sur les délinquants avec les organismes offrant des services postlibératoires",
+      "url_en": "https://www.canada.ca/atip/007006-0013-en.shtml",
+      "url_fr": "https://www.canada.ca/aiprp/007006-0013-fr.shtml",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/aiprp/007006-0013-fr.shtml",
+        "alternate_url": "https://www.canada.ca/errors/404.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/atip/007006-0013-en.shtml",
+          "title_from_list": "Electronic Sharing of Offenders' Information with Post-Penal Agencies",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+          "discovered_under": "Privacy impact assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/atip/007006-0013-en.shtml",
+              "title": "Electronic Sharing of Offenders' Information with Post-Penal Agencies",
+              "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/atip/007006-0013-en.shtml",
+            "https://www.canada.ca/errors/404.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/atip/007006-0013-en.shtml",
+            "final_url": "https://www.canada.ca/errors/404.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:11.925610+00:00",
+            "redirects": [
+              {
+                "url": "https://www.canada.ca/atip/007006-0013-en.shtml",
+                "http_status": 302,
+                "location": "https://www.canada.ca/errors/404.html"
+              }
+            ],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 22:33:33 GMT",
+            "etag": null,
+            "byte_count": 13215,
+            "sha256": "de367a1e08b7bdeaeae65e8522cd26e69da1a2ffaee26aa2e18a7cc6f592bc15"
+          },
+          "raw_path": "raw/dd69fd6370e8539bdb44.html",
+          "markdown_path": null,
+          "markdown_sha256": null,
+          "status": "soft_error_page",
+          "page_title": "Not Found",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/errors/404.html"
+          },
+          "date_modified": "2025-08-08",
+          "date_published": "2015-10-13",
+          "has_pia_text": false,
+          "title": "Not Found"
+        },
+        "fr": {
+          "url": "https://www.canada.ca/aiprp/007006-0013-fr.shtml",
+          "title_from_list": "Communication électronique de renseignements sur les délinquants avec les organismes offrant des services postlibératoires",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/aiprp/007006-0013-fr.shtml",
+              "title": "Communication électronique de renseignements sur les délinquants avec les organismes offrant des services postlibératoires",
+              "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/aiprp/007006-0013-fr.shtml",
+            "https://www.canada.ca/errors/404.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/aiprp/007006-0013-fr.shtml",
+            "final_url": "https://www.canada.ca/errors/404.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:11.918195+00:00",
+            "redirects": [
+              {
+                "url": "https://www.canada.ca/aiprp/007006-0013-fr.shtml",
+                "http_status": 302,
+                "location": "https://www.canada.ca/errors/404.html"
+              }
+            ],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 22:33:33 GMT",
+            "etag": null,
+            "byte_count": 13215,
+            "sha256": "c79ca62b5d932e15673c2c800b3c0e7c4bc74c39a7385970276d1cf703204c7d"
+          },
+          "raw_path": "raw/dd8783a5395f0e88e3d0.html",
+          "markdown_path": null,
+          "markdown_sha256": null,
+          "status": "language_mismatch",
+          "page_title": "Not Found",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/errors/404.html"
+          },
+          "date_modified": "2025-08-08",
+          "date_published": "2015-10-13",
+          "has_pia_text": false
+        }
+      }
+    },
+    {
+      "pia_id": "pia-d276a9fa69cf",
+      "title_en": "Salary Management System",
+      "title_fr": "Système de gestion des salaires",
+      "url_en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/salary-management-system.html",
+      "url_fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/systeme-gestion-salaires.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/salary-management-system.html",
+        "alternate_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/systeme-gestion-salaires.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/salary-management-system.html",
+          "title_from_list": "Salary Management System",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+          "discovered_under": "Privacy impact assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/salary-management-system.html",
+              "title": "Salary Management System",
+              "list_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/salary-management-system.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/salary-management-system.html",
+            "final_url": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/salary-management-system.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:12.763809+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:12 GMT",
+            "etag": null,
+            "byte_count": 22757,
+            "sha256": "c89a230c5d0c393d5e3fb60781208c961c1259a9ce3ebbee0d85dbd421ea4b0a"
+          },
+          "raw_path": "raw/d276a9fa69cfed09aec1.html",
+          "markdown_path": "pia-d276a9fa69cf_en.md",
+          "markdown_sha256": "681cbf938b7311ca7049790b826e9fcfc48f1e8ea5b11666de4afc8044380bd9",
+          "status": "exported",
+          "page_title": "Salary Management System",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/salary-management-system.html",
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/systeme-gestion-salaires.html"
+          },
+          "date_modified": "2021-02-02",
+          "date_published": "2024-07-15",
+          "has_pia_text": true,
+          "title": "Salary Management System",
+          "conversion": "markdownify",
+          "text_sha256": "b5edec9f4a0f932b01faf5d4ed64e4a257b1703da92a74e90861f8bf5c742ae0",
+          "word_count": 269
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/systeme-gestion-salaires.html",
+          "title_from_list": "Système de gestion des salaires",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/systeme-gestion-salaires.html",
+              "title": "Système de gestion des salaires",
+              "list_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/systeme-gestion-salaires.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/systeme-gestion-salaires.html",
+            "final_url": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/systeme-gestion-salaires.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:25.587014+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:25 GMT",
+            "etag": null,
+            "byte_count": 23764,
+            "sha256": "1475a4eab062fb301cc91dc7bde7db3588059688ce017e364c0cd4d65bf72811"
+          },
+          "raw_path": "raw/c9709e19bb257788f3b2.html",
+          "markdown_path": "pia-d276a9fa69cf_fr.md",
+          "markdown_sha256": "fb529dd3f0230e6897454488c1355816131cffba4a3c65b324194c6b21c29643",
+          "status": "exported",
+          "page_title": "Système de gestion des salaires",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/service-correctionnel/organisation/transparence/info-source/evaluation-facteurs-privee/systeme-gestion-salaires.html",
+            "en": "https://www.canada.ca/en/correctional-service/corporate/transparency/info-source/privacy-impact-assessments/salary-management-system.html"
+          },
+          "date_modified": "2021-02-02",
+          "date_published": "2024-07-15",
+          "has_pia_text": true,
+          "title": "Système de gestion des salaires",
+          "conversion": "markdownify",
+          "text_sha256": "966b0df79ac5b9651147ba7528943da890c39ae8eaed952d17d4b710a6aa72c1",
+          "word_count": 381
+        }
+      }
+    }
+  ],
+  "summary": {
+    "pia_count": 19,
+    "paired_count": 19,
+    "source_status_counts": {
+      "exported": 36,
+      "soft_error_page": 1,
+      "language_mismatch": 1
+    }
+  }
+}

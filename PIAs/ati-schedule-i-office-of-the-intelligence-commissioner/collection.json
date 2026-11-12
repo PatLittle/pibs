@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "collector_version": 1,
+  "collected_at_utc": "2026-11-12T01:50:42.120630+00:00",
+  "institution_id": "ati-schedule-i-office-of-the-intelligence-commissioner",
+  "gc_orgID": "2275.0",
+  "open_canada_org_id": "626F5B6F-4BC3-4622-A60C-EA10FDCCAA90",
+  "open_canada_org_slug": "ocsec-bccst",
+  "name_en": "Office of the Intelligence Commissioner",
+  "name_fr": "Bureau du commissaire au renseignement",
+  "registry_membership": "current_registry",
+  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "list_pages": {
+    "en": {
+      "indexed_url": null,
+      "index_resolution": "no_link_found",
+      "pia_link_in_infosource": "N",
+      "review_note": null,
+      "status": "no_indexed_url",
+      "captures": [],
+      "discovered_count": 0
+    },
+    "fr": {
+      "indexed_url": null,
+      "index_resolution": "no_link_found",
+      "pia_link_in_infosource": "N",
+      "review_note": null,
+      "status": "no_indexed_url",
+      "captures": [],
+      "discovered_count": 0
+    }
+  },
+  "pias": [],
+  "summary": {
+    "pia_count": 0,
+    "paired_count": 0,
+    "source_status_counts": {}
+  }
+}

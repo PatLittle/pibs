@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "collector_version": 1,
+  "collected_at_utc": "2026-11-12T01:50:31.398494+00:00",
+  "institution_id": "ati-schedule-i-department-of-finance",
+  "gc_orgID": "2225.0",
+  "open_canada_org_id": "05D03DCB-5906-4555-A5A1-84D86E9E94DD",
+  "open_canada_org_slug": "fin",
+  "name_en": "Department of Finance",
+  "name_fr": "Ministère des Finances",
+  "registry_membership": "current_registry",
+  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "list_pages": {
+    "en": {
+      "indexed_url": "https://www.canada.ca/en/department-finance/corporate/transparency/access-information-privacy/reports.html",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.canada.ca/en/department-finance/corporate/transparency/access-information-privacy/reports.html",
+          "final_url": "https://www.canada.ca/en/department-finance/corporate/transparency/access-information-privacy/reports.html",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:28.506791+00:00",
+          "redirects": [],
+          "content_type": "text/html;charset=utf-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Thu, 12 Nov 2026 00:26:05 GMT",
+          "etag": null,
+          "byte_count": 24408,
+          "sha256": "6720c8223afa15cee18c286873990dc3c2779a0238866cbf9c478ca58fbbba31",
+          "raw_path": "raw/cbf4f1507c3e2f43e2f5.html"
+        }
+      ],
+      "discovered_count": 2,
+      "scopes": [
+        "Privacy Impact Assessments"
+      ],
+      "warnings": []
+    },
+    "fr": {
+      "indexed_url": "https://www.canada.ca/fr/ministere-finances/organisation/transparence/acces-information-protection-renseignements-personnels/rapports.html",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.canada.ca/fr/ministere-finances/organisation/transparence/acces-information-protection-renseignements-personnels/rapports.html",
+          "final_url": "https://www.canada.ca/fr/ministere-finances/organisation/transparence/acces-information-protection-renseignements-personnels/rapports.html",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:29.191716+00:00",
+          "redirects": [],
+          "content_type": "text/html;charset=utf-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Thu, 12 Nov 2026 00:26:19 GMT",
+          "etag": null,
+          "byte_count": 25999,
+          "sha256": "75ce96986fdcec98ea4a7d56083b2be987efc284f249e2b67088ae25c967bd31",
+          "raw_path": "raw/673f67b0f68c4c627ae5.html"
+        }
+      ],
+      "discovered_count": 2,
+      "scopes": [
+        "Évaluations des facteurs relatifs à la vie privée"
+      ],
+      "warnings": []
+    }
+  },
+  "pias": [
+    {
+      "pia_id": "pia-df61bc0c429a",
+      "title_en": "Retail Payment Activities Act",
+      "title_fr": "Loi sur les activités associées aux paiements de détail",
+      "url_en": "https://www.canada.ca/en/department-finance/corporate/transparency/access-information-privacy/reports/rpaa-laapd.html",
+      "url_fr": "https://www.canada.ca/fr/ministere-finances/organisation/transparence/acces-information-protection-renseignements-personnels/rapports/rpaa-laapd.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/department-finance/corporate/transparency/access-information-privacy/reports/rpaa-laapd.html",
+        "alternate_url": "https://www.canada.ca/fr/ministere-finances/organisation/transparence/acces-information-protection-renseignements-personnels/rapports/rpaa-laapd.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/department-finance/corporate/transparency/access-information-privacy/reports/rpaa-laapd.html",
+          "title_from_list": "Retail Payment Activities Act",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/department-finance/corporate/transparency/access-information-privacy/reports.html",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/department-finance/corporate/transparency/access-information-privacy/reports/rpaa-laapd.html",
+              "title": "Retail Payment Activities Act",
+              "list_url": "https://www.canada.ca/en/department-finance/corporate/transparency/access-information-privacy/reports.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/department-finance/corporate/transparency/access-information-privacy/reports/rpaa-laapd.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/department-finance/corporate/transparency/access-information-privacy/reports/rpaa-laapd.html",
+            "final_url": "https://www.canada.ca/en/department-finance/corporate/transparency/access-information-privacy/reports/rpaa-laapd.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:13.011612+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:13 GMT",
+            "etag": null,
+            "byte_count": 24822,
+            "sha256": "d1ff7571a067e849134239233ca3548f8d86979ddb1235d288c262fe24525260"
+          },
+          "raw_path": "raw/df61bc0c429a81bb57c9.html",
+          "markdown_path": "pia-df61bc0c429a_en.md",
+          "markdown_sha256": "96b2ff2a7a689b645d733b44307bdd982cb216e49ca2b666dc939d123ede66ed",
+          "status": "exported",
+          "page_title": "Retail Payment Activities Act",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/department-finance/corporate/transparency/access-information-privacy/reports/rpaa-laapd.html",
+            "fr": "https://www.canada.ca/fr/ministere-finances/organisation/transparence/acces-information-protection-renseignements-personnels/rapports/rpaa-laapd.html"
+          },
+          "date_modified": "2025-01-20",
+          "date_published": "2025-01-20",
+          "has_pia_text": true,
+          "title": "Retail Payment Activities Act",
+          "conversion": "markdownify",
+          "text_sha256": "620c57e817bf7391d5b5fb3974104f5c40115199c0028c04e9bf66e7f4164e58",
+          "word_count": 717
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/ministere-finances/organisation/transparence/acces-information-protection-renseignements-personnels/rapports/rpaa-laapd.html",
+          "title_from_list": "Loi sur les activités associées aux paiements de détail",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/ministere-finances/organisation/transparence/acces-information-protection-renseignements-personnels/rapports.html",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/ministere-finances/organisation/transparence/acces-information-protection-renseignements-personnels/rapports/rpaa-laapd.html",
+              "title": "Loi sur les activités associées aux paiements de détail",
+              "list_url": "https://www.canada.ca/fr/ministere-finances/organisation/transparence/acces-information-protection-renseignements-personnels/rapports.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/ministere-finances/organisation/transparence/acces-information-protection-renseignements-personnels/rapports/rpaa-laapd.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/ministere-finances/organisation/transparence/acces-information-protection-renseignements-personnels/rapports/rpaa-laapd.html",
+            "final_url": "https://www.canada.ca/fr/ministere-finances/organisation/transparence/acces-information-protection-renseignements-personnels/rapports/rpaa-laapd.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:22.354184+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:22 GMT",
+            "etag": null,
+            "byte_count": 26822,
+            "sha256": "e63ada4664b02781b33d9527cbcbe691d203a36ff6e4b0c4451dad853918e437"
+          },
+          "raw_path": "raw/33195b00272430d68124.html",
+          "markdown_path": "pia-df61bc0c429a_fr.md",
+          "markdown_sha256": "b9272a2ecff6373f3e4225a975e6e3a93eb6d8a606c47b57c5afd46d72110d92",
+          "status": "exported",
+          "page_title": "Loi sur les activités associées aux paiements de détail",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/ministere-finances/organisation/transparence/acces-information-protection-renseignements-personnels/rapports/rpaa-laapd.html",
+            "en": "https://www.canada.ca/en/department-finance/corporate/transparency/access-information-privacy/reports/rpaa-laapd.html"
+          },
+          "date_modified": "2025-01-20",
+          "date_published": "2025-01-20",
+          "has_pia_text": true,
+          "title": "Loi sur les activités associées aux paiements de détail",
+          "conversion": "markdownify",
+          "text_sha256": "aef3589983789ec8ad0ea9009814eb31ed22b4a5cd9b9053658d816e61903943",
+          "word_count": 907
+        }
+      }
+    },
+    {
+      "pia_id": "pia-16b075107af2",
+      "title_en": "Information Sharing Authority for National Security and Financial Integrity",
+      "title_fr": "Pouvoir d'échange de renseignements aux fins de sécurité nationale et d'intégrité financière",
+      "url_en": "https://www.canada.ca/en/department-finance/corporate/transparency/access-information-privacy/reports/information-sharing-authority-national-security-financial-integrity.html",
+      "url_fr": "https://www.canada.ca/fr/ministere-finances/organisation/transparence/acces-information-protection-renseignements-personnels/rapports/pouvoir-dechange-renseignements-fins-securite-nationale-et-dintegrite-financiere.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/department-finance/corporate/transparency/access-information-privacy/reports/information-sharing-authority-national-security-financial-integrity.html",
+        "alternate_url": "https://www.canada.ca/fr/ministere-finances/organisation/transparence/acces-information-protection-renseignements-personnels/rapports/pouvoir-dechange-renseignements-fins-securite-nationale-et-dintegrite-financiere.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/department-finance/corporate/transparency/access-information-privacy/reports/information-sharing-authority-national-security-financial-integrity.html",
+          "title_from_list": "Information Sharing Authority for National Security and Financial Integrity",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/department-finance/corporate/transparency/access-information-privacy/reports.html",
+          "discovered_under": "Privacy Impact Assessments",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/department-finance/corporate/transparency/access-information-privacy/reports/information-sharing-authority-national-security-financial-integrity.html",
+              "title": "Information Sharing Authority for National Security and Financial Integrity",
+              "list_url": "https://www.canada.ca/en/department-finance/corporate/transparency/access-information-privacy/reports.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/department-finance/corporate/transparency/access-information-privacy/reports/information-sharing-authority-national-security-financial-integrity.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/department-finance/corporate/transparency/access-information-privacy/reports/information-sharing-authority-national-security-financial-integrity.html",
+            "final_url": "https://www.canada.ca/en/department-finance/corporate/transparency/access-information-privacy/reports/information-sharing-authority-national-security-financial-integrity.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:13.007573+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:13 GMT",
+            "etag": null,
+            "byte_count": 22391,
+            "sha256": "82f2a2f07189ca629ebe2d9745bba8b6fac5819f3098da077751f1eda483389a"
+          },
+          "raw_path": "raw/16b075107af28c616036.html",
+          "markdown_path": "pia-16b075107af2_en.md",
+          "markdown_sha256": "ee0a68e2a2974b6ebe45d638f949b6bcb89916772ce2aba46df1c282515720c8",
+          "status": "exported",
+          "page_title": "Information Sharing Authority for National Security and Financial Integrity",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/department-finance/corporate/transparency/access-information-privacy/reports/information-sharing-authority-national-security-financial-integrity.html",
+            "fr": "https://www.canada.ca/fr/ministere-finances/organisation/transparence/acces-information-protection-renseignements-personnels/rapports/pouvoir-dechange-renseignements-fins-securite-nationale-et-dintegrite-financiere.html"
+          },
+          "date_modified": "2025-09-02",
+          "date_published": "2025-09-02",
+          "has_pia_text": true,
+          "title": "Information Sharing Authority for National Security and Financial Integrity",
+          "conversion": "markdownify",
+          "text_sha256": "bde6eefc0837038f1434a74f1449fd10572d871ddf8749a315787344b196e16e",
+          "word_count": 342
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/ministere-finances/organisation/transparence/acces-information-protection-renseignements-personnels/rapports/pouvoir-dechange-renseignements-fins-securite-nationale-et-dintegrite-financiere.html",
+          "title_from_list": "Pouvoir d'échange de renseignements aux fins de sécurité nationale et d'intégrité financière",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/ministere-finances/organisation/transparence/acces-information-protection-renseignements-personnels/rapports.html",
+          "discovered_under": "Évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/ministere-finances/organisation/transparence/acces-information-protection-renseignements-personnels/rapports/pouvoir-dechange-renseignements-fins-securite-nationale-et-dintegrite-financiere.html",
+              "title": "Pouvoir d'échange de renseignements aux fins de sécurité nationale et d'intégrité financière",
+              "list_url": "https://www.canada.ca/fr/ministere-finances/organisation/transparence/acces-information-protection-renseignements-personnels/rapports.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/ministere-finances/organisation/transparence/acces-information-protection-renseignements-personnels/rapports/pouvoir-dechange-renseignements-fins-securite-nationale-et-dintegrite-financiere.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/ministere-finances/organisation/transparence/acces-information-protection-renseignements-personnels/rapports/pouvoir-dechange-renseignements-fins-securite-nationale-et-dintegrite-financiere.html",
+            "final_url": "https://www.canada.ca/fr/ministere-finances/organisation/transparence/acces-information-protection-renseignements-personnels/rapports/pouvoir-dechange-renseignements-fins-securite-nationale-et-dintegrite-financiere.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:22.308814+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:23 GMT",
+            "etag": null,
+            "byte_count": 23562,
+            "sha256": "794effcbcb9bb0536189f97faf7f332309bb86f1e55220378f80db1a06d889bf"
+          },
+          "raw_path": "raw/c7810ba32614d9dd7e2c.html",
+          "markdown_path": "pia-16b075107af2_fr.md",
+          "markdown_sha256": "3f348688c3b012048f875f1883122ff265d84f16a6c3b063a061b0376cad9eee",
+          "status": "exported",
+          "page_title": "Pouvoir d'échange de renseignements aux fins de sécurité nationale et d'intégrité financière",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/ministere-finances/organisation/transparence/acces-information-protection-renseignements-personnels/rapports/pouvoir-dechange-renseignements-fins-securite-nationale-et-dintegrite-financiere.html",
+            "en": "https://www.canada.ca/en/department-finance/corporate/transparency/access-information-privacy/reports/information-sharing-authority-national-security-financial-integrity.html"
+          },
+          "date_modified": "2025-09-02",
+          "date_published": "2025-09-02",
+          "has_pia_text": true,
+          "title": "Pouvoir d'échange de renseignements aux fins de sécurité nationale et d'intégrité financière",
+          "conversion": "markdownify",
+          "text_sha256": "2e254478df7af703b5d9793157afc11629e7505e00451a45ba3ab3aeeffd0e5c",
+          "word_count": 441
+        }
+      }
+    }
+  ],
+  "summary": {
+    "pia_count": 2,
+    "paired_count": 2,
+    "source_status_counts": {
+      "exported": 4
+    }
+  }
+}

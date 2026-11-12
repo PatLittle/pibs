@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "collector_version": 1,
+  "collected_at_utc": "2026-11-12T01:50:42.119105+00:00",
+  "institution_id": "ati-schedule-i-office-of-the-correctional-investigator-of-canada",
+  "gc_orgID": "2276.0",
+  "open_canada_org_id": "11e44621-6b0c-47aa-88a2-4afa97e07090",
+  "open_canada_org_slug": "oci-bec",
+  "name_en": "Office of the Correctional Investigator of Canada",
+  "name_fr": "Bureau de l’enquêteur correctionnel du Canada",
+  "registry_membership": "current_registry",
+  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "list_pages": {
+    "en": {
+      "indexed_url": null,
+      "index_resolution": "no_link_found",
+      "pia_link_in_infosource": "N",
+      "review_note": null,
+      "status": "no_indexed_url",
+      "captures": [],
+      "discovered_count": 0
+    },
+    "fr": {
+      "indexed_url": null,
+      "index_resolution": "no_link_found",
+      "pia_link_in_infosource": "N",
+      "review_note": null,
+      "status": "no_indexed_url",
+      "captures": [],
+      "discovered_count": 0
+    }
+  },
+  "pias": [],
+  "summary": {
+    "pia_count": 0,
+    "paired_count": 0,
+    "source_status_counts": {}
+  }
+}

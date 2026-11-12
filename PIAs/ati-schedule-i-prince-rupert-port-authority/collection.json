@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "collector_version": 1,
+  "collected_at_utc": "2026-11-12T01:50:43.140640+00:00",
+  "institution_id": "ati-schedule-i-prince-rupert-port-authority",
+  "gc_orgID": "3489.0",
+  "open_canada_org_id": "57b2f507-4d22-42ed-a844-85498d0091c6",
+  "open_canada_org_slug": "prpa-appr",
+  "name_en": "Prince Rupert Port Authority",
+  "name_fr": "Administration portuaire de Prince-Rupert",
+  "registry_membership": "current_registry",
+  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "list_pages": {
+    "en": {
+      "indexed_url": "https://www.rupertport.com/transparency/",
+      "index_resolution": "http_error",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "http_error",
+      "captures": [
+        {
+          "requested_url": "https://www.rupertport.com/transparency/",
+          "final_url": "https://www.rupertport.com/transparency/",
+          "http_status": 503,
+          "checked_at_utc": "2026-11-12T01:49:47.792469+00:00",
+          "redirects": [],
+          "content_type": "text/plain",
+          "encoding": "",
+          "error": "HTTP Error 503: Service Unavailable",
+          "byte_count": 91,
+          "sha256": "2f85832e31ca57711e6107af6b142363351ae516adb71c69afc643fac26be7f6",
+          "raw_path": null
+        }
+      ],
+      "discovered_count": 0,
+      "scopes": [],
+      "warnings": []
+    },
+    "fr": {
+      "indexed_url": "https://www.rupertport.com/fr/transparence/",
+      "index_resolution": "http_error",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "http_error",
+      "captures": [
+        {
+          "requested_url": "https://www.rupertport.com/fr/transparence/",
+          "final_url": "https://www.rupertport.com/fr/transparence/",
+          "http_status": 503,
+          "checked_at_utc": "2026-11-12T01:49:47.725180+00:00",
+          "redirects": [],
+          "content_type": "text/plain",
+          "encoding": "",
+          "error": "HTTP Error 503: Service Unavailable",
+          "byte_count": 91,
+          "sha256": "2f85832e31ca57711e6107af6b142363351ae516adb71c69afc643fac26be7f6",
+          "raw_path": null
+        }
+      ],
+      "discovered_count": 0,
+      "scopes": [],
+      "warnings": []
+    }
+  },
+  "pias": [],
+  "summary": {
+    "pia_count": 0,
+    "paired_count": 0,
+    "source_status_counts": {}
+  }
+}

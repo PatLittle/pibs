@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "collector_version": 1,
+  "collected_at_utc": "2026-11-12T01:50:42.106986+00:00",
+  "institution_id": "ati-schedule-i-mackenzie-valley-environmental-impact-review-board",
+  "gc_orgID": "",
+  "open_canada_org_id": "6048d791-7971-4f05-b549-5dec1d7e7742",
+  "open_canada_org_slug": "mveirb-oervm",
+  "name_en": "Mackenzie Valley Environmental Impact Review Board",
+  "name_fr": "Office d’examen des répercussions environnementales de la vallée du Mackenzie",
+  "registry_membership": "current_registry",
+  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "list_pages": {
+    "en": {
+      "indexed_url": null,
+      "index_resolution": "no_link_found",
+      "pia_link_in_infosource": "N",
+      "review_note": null,
+      "status": "no_indexed_url",
+      "captures": [],
+      "discovered_count": 0
+    },
+    "fr": {
+      "indexed_url": null,
+      "index_resolution": "no_link_found",
+      "pia_link_in_infosource": "N",
+      "review_note": null,
+      "status": "no_indexed_url",
+      "captures": [],
+      "discovered_count": 0
+    }
+  },
+  "pias": [],
+  "summary": {
+    "pia_count": 0,
+    "paired_count": 0,
+    "source_status_counts": {}
+  }
+}

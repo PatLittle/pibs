@@ -1,0 +1,449 @@
+{
+  "schema_version": 1,
+  "collector_version": 1,
+  "collected_at_utc": "2026-11-12T01:50:44.188807+00:00",
+  "institution_id": "ati-schedule-i-social-sciences-and-humanities-research-council",
+  "gc_orgID": "2316.0",
+  "open_canada_org_id": "DF295E03-841D-49BE-AAE6-32BB6AC093FB",
+  "open_canada_org_slug": "sshrc-crsh",
+  "name_en": "Social Sciences and Humanities Research Council",
+  "name_fr": "Conseil de recherches en sciences humaines",
+  "registry_membership": "current_registry",
+  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "list_pages": {
+    "en": {
+      "indexed_url": "http://www.sshrc-crsh.gc.ca/en/about-sshrc/transparency/privacy-impact-assessments.aspx",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "http://www.sshrc-crsh.gc.ca/en/about-sshrc/transparency/privacy-impact-assessments.aspx",
+          "final_url": "https://sshrc-crsh.canada.ca/en/about-sshrc/transparency/privacy-impact-assessments.aspx",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:25.275457+00:00",
+          "redirects": [
+            {
+              "url": "http://www.sshrc-crsh.gc.ca/en/about-sshrc/transparency/privacy-impact-assessments.aspx",
+              "http_status": 302,
+              "location": "https://www.sshrc-crsh.gc.ca/en/about-sshrc/transparency/privacy-impact-assessments.aspx"
+            },
+            {
+              "url": "https://www.sshrc-crsh.gc.ca/en/about-sshrc/transparency/privacy-impact-assessments.aspx",
+              "http_status": 302,
+              "location": "https://sshrc-crsh.canada.ca/en/about-sshrc/transparency/privacy-impact-assessments.aspx"
+            }
+          ],
+          "content_type": "text/html; charset=utf-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": null,
+          "etag": null,
+          "byte_count": 14882,
+          "sha256": "6ae805f954374c4771c67bb188858d1dda27c79323c6645cf0de8158d77edf87",
+          "raw_path": "raw/894a3c4cf7f5cb56a57c.html"
+        }
+      ],
+      "discovered_count": 3,
+      "scopes": [
+        "PIA summaries"
+      ],
+      "warnings": []
+    },
+    "fr": {
+      "indexed_url": "http://www.sshrc-crsh.gc.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee.aspx",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "http://www.sshrc-crsh.gc.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee.aspx",
+          "final_url": "https://sshrc-crsh.canada.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee.aspx",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:26.174599+00:00",
+          "redirects": [
+            {
+              "url": "http://www.sshrc-crsh.gc.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee.aspx",
+              "http_status": 302,
+              "location": "https://www.sshrc-crsh.gc.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee.aspx"
+            },
+            {
+              "url": "https://www.sshrc-crsh.gc.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee.aspx",
+              "http_status": 302,
+              "location": "https://sshrc-crsh.canada.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee.aspx"
+            }
+          ],
+          "content_type": "text/html; charset=utf-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": null,
+          "etag": null,
+          "byte_count": 15940,
+          "sha256": "89679784acb1d2bb12a4da4a9d7c56bc91f8a75e56393c950db0f0b62eb18783",
+          "raw_path": "raw/c399778c383004eabd2d.html"
+        }
+      ],
+      "discovered_count": 2,
+      "scopes": [
+        "Sommaires d’évaluation des facteurs relatifs à la vie privée"
+      ],
+      "warnings": []
+    }
+  },
+  "pias": [
+    {
+      "pia_id": "pia-ae9ea1ba7536",
+      "title_en": "Equity, Diversity and Inclusion Self-Identification Questionnaire Privacy Impact Assessment Summary (2023)",
+      "title_fr": "Formulaire de déclaration volontaire sur l’équité, la diversité et l’inclusion – Sommaire d’évaluation des facteurs relatifs à la vie privée (2023)",
+      "url_en": "https://sshrc-crsh.canada.ca/en/about-sshrc/transparency/privacy-impact-assessments/equity-diversity-and-inclusion-self-identification-questionnaire.aspx",
+      "url_fr": "https://sshrc-crsh.canada.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee/formulaire-declaration-volontaire-equite-diversity-et-inclusion.aspx",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://sshrc-crsh.canada.ca/en/about-sshrc/transparency/privacy-impact-assessments/equity-diversity-and-inclusion-self-identification-questionnaire.aspx",
+        "alternate_url": "https://sshrc-crsh.canada.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee/formulaire-declaration-volontaire-equite-diversity-et-inclusion.aspx"
+      },
+      "sources": {
+        "en": {
+          "url": "https://sshrc-crsh.canada.ca/en/about-sshrc/transparency/privacy-impact-assessments/equity-diversity-and-inclusion-self-identification-questionnaire.aspx",
+          "title_from_list": "Equity, Diversity and Inclusion Self-Identification Questionnaire",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "http://www.sshrc-crsh.gc.ca/en/about-sshrc/transparency/privacy-impact-assessments.aspx",
+          "discovered_under": "PIA summaries",
+          "discovery_references": [
+            {
+              "url": "https://sshrc-crsh.canada.ca/en/about-sshrc/transparency/privacy-impact-assessments/equity-diversity-and-inclusion-self-identification-questionnaire.aspx",
+              "title": "Equity, Diversity and Inclusion Self-Identification Questionnaire",
+              "list_url": "http://www.sshrc-crsh.gc.ca/en/about-sshrc/transparency/privacy-impact-assessments.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://sshrc-crsh.canada.ca/en/about-sshrc/transparency/privacy-impact-assessments/equity-diversity-and-inclusion-self-identification-questionnaire.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://sshrc-crsh.canada.ca/en/about-sshrc/transparency/privacy-impact-assessments/equity-diversity-and-inclusion-self-identification-questionnaire.aspx",
+            "final_url": "https://sshrc-crsh.canada.ca/en/about-sshrc/transparency/privacy-impact-assessments/equity-diversity-and-inclusion-self-identification-questionnaire.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:10.253504+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 25337,
+            "sha256": "ddd65355b2d3f1032bbde242d3db3e4388056e267b96ec034e16e9fbef1d6ee5"
+          },
+          "raw_path": "raw/ae9ea1ba753672a1d3c6.html",
+          "markdown_path": "pia-ae9ea1ba7536_en.md",
+          "markdown_sha256": "90fc4dfdfa13872dfccf84db61c0d70ac0c4d26eb5764ae3e5919adfa73bab8a",
+          "status": "exported",
+          "page_title": "Equity, Diversity and Inclusion Self-Identification Questionnaire Privacy Impact Assessment Summary (2023)",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://sshrc-crsh.canada.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee/formulaire-declaration-volontaire-equite-diversity-et-inclusion.aspx"
+          },
+          "date_modified": "2025-06-06",
+          "date_published": "2025-06-06",
+          "has_pia_text": true,
+          "title": "Equity, Diversity and Inclusion Self-Identification Questionnaire Privacy Impact Assessment Summary (2023)",
+          "conversion": "markdownify",
+          "text_sha256": "af396cf2847ee806de86bdd21f9419f24bb6c94e5484c34be1cadce24ca18292",
+          "word_count": 1531
+        },
+        "fr": {
+          "url": "https://sshrc-crsh.canada.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee/formulaire-declaration-volontaire-equite-diversity-et-inclusion.aspx",
+          "title_from_list": "Formulaire de déclaration volontaire sur l’équité, la diversité et l’inclusion – Sommaire d’évaluation des facteurs relatifs à la vie privée (2023)",
+          "kind": "page",
+          "discovery_method": "document_language_link",
+          "list_url": "http://www.sshrc-crsh.gc.ca/en/about-sshrc/transparency/privacy-impact-assessments.aspx",
+          "discovered_under": null,
+          "discovery_references": [
+            {
+              "url": "https://sshrc-crsh.canada.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee/formulaire-declaration-volontaire-equite-diversity-et-inclusion.aspx",
+              "title": "Formulaire de déclaration volontaire sur l’équité, la diversité et l’inclusion – Sommaire d’évaluation des facteurs relatifs à la vie privée (2023)",
+              "list_url": "http://www.sshrc-crsh.gc.ca/en/about-sshrc/transparency/privacy-impact-assessments.aspx",
+              "discovery_method": "document_language_link"
+            }
+          ],
+          "aliases": [
+            "https://sshrc-crsh.canada.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee/formulaire-declaration-volontaire-equite-diversity-et-inclusion.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://sshrc-crsh.canada.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee/formulaire-declaration-volontaire-equite-diversity-et-inclusion.aspx",
+            "final_url": "https://sshrc-crsh.canada.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee/formulaire-declaration-volontaire-equite-diversity-et-inclusion.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:43:16.694508+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 30602,
+            "sha256": "54e392c9cc6ebf6a2aa1a0f56cfcc09994dac57ddfe472d71d33834eed887516"
+          },
+          "raw_path": "raw/e605cee12c096f1f46c7.html",
+          "markdown_path": "pia-ae9ea1ba7536_fr.md",
+          "markdown_sha256": "1bb3fb7e721d0600c461baf64a293ab56c0303e7100bc7c5cbc48923503771ab",
+          "status": "exported",
+          "page_title": "Formulaire de déclaration volontaire sur l’équité, la diversité et l’inclusion – Sommaire d’évaluation des facteurs relatifs à la vie privée (2023)",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://sshrc-crsh.canada.ca/en/about-sshrc/transparency/privacy-impact-assessments/equity-diversity-and-inclusion-self-identification-questionnaire.aspx"
+          },
+          "date_modified": "2025-06-06",
+          "date_published": "2025-06-06",
+          "has_pia_text": true,
+          "title": "Formulaire de déclaration volontaire sur l’équité, la diversité et l’inclusion – Sommaire d’évaluation des facteurs relatifs à la vie privée (2023)",
+          "conversion": "markdownify",
+          "text_sha256": "789a6e60252fa646f6af24a8343e0992a51adc308847775b70f02c63f3999ea7",
+          "word_count": 2166
+        }
+      }
+    },
+    {
+      "pia_id": "pia-d4835bba9e3f",
+      "title_en": "Canada 150 Research Chairs Program Privacy Impact Assessment Summary (2019)",
+      "title_fr": "Programme des chaires de recherche Canada 150 – Sommaire d’évaluation des facteurs relatifs à la vie privée (2019)",
+      "url_en": "https://sshrc-crsh.canada.ca/en/about-sshrc/transparency/privacy-impact-assessments/canada-150-research-chairs-program.aspx",
+      "url_fr": "https://sshrc-crsh.canada.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee/programme-chaires-recherche-canada-150.aspx",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://sshrc-crsh.canada.ca/en/about-sshrc/transparency/privacy-impact-assessments/canada-150-research-chairs-program.aspx",
+        "alternate_url": "https://sshrc-crsh.canada.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee/programme-chaires-recherche-canada-150.aspx"
+      },
+      "sources": {
+        "en": {
+          "url": "https://sshrc-crsh.canada.ca/en/about-sshrc/transparency/privacy-impact-assessments/canada-150-research-chairs-program.aspx",
+          "title_from_list": "Canada 150 Research Chairs Program",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "http://www.sshrc-crsh.gc.ca/en/about-sshrc/transparency/privacy-impact-assessments.aspx",
+          "discovered_under": "PIA summaries",
+          "discovery_references": [
+            {
+              "url": "https://sshrc-crsh.canada.ca/en/about-sshrc/transparency/privacy-impact-assessments/canada-150-research-chairs-program.aspx",
+              "title": "Canada 150 Research Chairs Program",
+              "list_url": "http://www.sshrc-crsh.gc.ca/en/about-sshrc/transparency/privacy-impact-assessments.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://sshrc-crsh.canada.ca/en/about-sshrc/transparency/privacy-impact-assessments/canada-150-research-chairs-program.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://sshrc-crsh.canada.ca/en/about-sshrc/transparency/privacy-impact-assessments/canada-150-research-chairs-program.aspx",
+            "final_url": "https://sshrc-crsh.canada.ca/en/about-sshrc/transparency/privacy-impact-assessments/canada-150-research-chairs-program.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:10.250652+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 21911,
+            "sha256": "6e34d71b655a3e38a2f72968ba966be52f897e235dc427750e99805f3cf77009"
+          },
+          "raw_path": "raw/d4835bba9e3ffaac3818.html",
+          "markdown_path": "pia-d4835bba9e3f_en.md",
+          "markdown_sha256": "6170ee11f3b8957e5e618f66c09a0182fa22c978d029a2a532cfe83704f43592",
+          "status": "exported",
+          "page_title": "Canada 150 Research Chairs Program Privacy Impact Assessment Summary (2019)",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://sshrc-crsh.canada.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee/programme-chaires-recherche-canada-150.aspx"
+          },
+          "date_modified": "2025-06-06",
+          "date_published": "2025-06-06",
+          "has_pia_text": true,
+          "title": "Canada 150 Research Chairs Program Privacy Impact Assessment Summary (2019)",
+          "conversion": "markdownify",
+          "text_sha256": "7108da93e76bcce55da365a73928858da94f24fe4afa9a365962f8efd3ed3e4b",
+          "word_count": 1066
+        },
+        "fr": {
+          "url": "https://sshrc-crsh.canada.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee/programme-chaires-recherche-canada-150.aspx",
+          "title_from_list": "Programme des chaires de recherche Canada 150",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "http://www.sshrc-crsh.gc.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee.aspx",
+          "discovered_under": "Sommaires d’évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://sshrc-crsh.canada.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee/programme-chaires-recherche-canada-150.aspx",
+              "title": "Programme des chaires de recherche Canada 150",
+              "list_url": "http://www.sshrc-crsh.gc.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://sshrc-crsh.canada.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee/programme-chaires-recherche-canada-150.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://sshrc-crsh.canada.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee/programme-chaires-recherche-canada-150.aspx",
+            "final_url": "https://sshrc-crsh.canada.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee/programme-chaires-recherche-canada-150.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:10.868969+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 24580,
+            "sha256": "97aa6bf5ffc2d3c6dafa47c8fc13a91ec9b982c4ca99c9593e043a9885bc7e81"
+          },
+          "raw_path": "raw/8eb5798fbcd75cdb2b70.html",
+          "markdown_path": "pia-d4835bba9e3f_fr.md",
+          "markdown_sha256": "1bb8dccab0dc15a12deacf8bd4693292d0d0bda51f2d275050199d1c4d90cd41",
+          "status": "exported",
+          "page_title": "Programme des chaires de recherche Canada 150 – Sommaire d’évaluation des facteurs relatifs à la vie privée (2019)",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://sshrc-crsh.canada.ca/en/about-sshrc/transparency/privacy-impact-assessments/canada-150-research-chairs-program.aspx"
+          },
+          "date_modified": "2025-06-06",
+          "date_published": "2025-06-06",
+          "has_pia_text": true,
+          "title": "Programme des chaires de recherche Canada 150 – Sommaire d’évaluation des facteurs relatifs à la vie privée (2019)",
+          "conversion": "markdownify",
+          "text_sha256": "7008bca612eeae9eeec9630eacc0766d14a9d6a0c4140f3e3660002aa6a38fad",
+          "word_count": 1403
+        }
+      }
+    },
+    {
+      "pia_id": "pia-1f1a9f91d51b",
+      "title_en": "Research Portal Privacy Impact Assessment Summary (2015)",
+      "title_fr": "Portail de recherche – Sommaire de l’évaluation des facteurs relatifs à la vie privée des organismes (2015)",
+      "url_en": "https://sshrc-crsh.canada.ca/en/about-sshrc/transparency/privacy-impact-assessments/research-portal.aspx",
+      "url_fr": "https://sshrc-crsh.canada.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee/portail-recherche.aspx",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://sshrc-crsh.canada.ca/en/about-sshrc/transparency/privacy-impact-assessments/research-portal.aspx",
+        "alternate_url": "https://sshrc-crsh.canada.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee/portail-recherche.aspx"
+      },
+      "sources": {
+        "en": {
+          "url": "https://sshrc-crsh.canada.ca/en/about-sshrc/transparency/privacy-impact-assessments/research-portal.aspx",
+          "title_from_list": "Research Portal",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "http://www.sshrc-crsh.gc.ca/en/about-sshrc/transparency/privacy-impact-assessments.aspx",
+          "discovered_under": "PIA summaries",
+          "discovery_references": [
+            {
+              "url": "https://sshrc-crsh.canada.ca/en/about-sshrc/transparency/privacy-impact-assessments/research-portal.aspx",
+              "title": "Research Portal",
+              "list_url": "http://www.sshrc-crsh.gc.ca/en/about-sshrc/transparency/privacy-impact-assessments.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://sshrc-crsh.canada.ca/en/about-sshrc/transparency/privacy-impact-assessments/research-portal.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://sshrc-crsh.canada.ca/en/about-sshrc/transparency/privacy-impact-assessments/research-portal.aspx",
+            "final_url": "https://sshrc-crsh.canada.ca/en/about-sshrc/transparency/privacy-impact-assessments/research-portal.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:10.660018+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 21269,
+            "sha256": "5a07e86753a682bd4f19ee74667462de11d7fcb2dda0868e41e928fcdb513c71"
+          },
+          "raw_path": "raw/1f1a9f91d51ba9086e3f.html",
+          "markdown_path": "pia-1f1a9f91d51b_en.md",
+          "markdown_sha256": "6ee0c79fdd08e2e27282472bfdd5c9abfa48697d03ce11093df6a2c99ebe7375",
+          "status": "exported",
+          "page_title": "Research Portal Privacy Impact Assessment Summary (2015)",
+          "html_language": "en",
+          "language_alternates": {
+            "fr": "https://sshrc-crsh.canada.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee/portail-recherche.aspx"
+          },
+          "date_modified": "2025-06-06",
+          "date_published": "2025-06-06",
+          "has_pia_text": true,
+          "title": "Research Portal Privacy Impact Assessment Summary (2015)",
+          "conversion": "markdownify",
+          "text_sha256": "fae4e980656370b99fdf50a9a03d79953fd0b90456beeb2a7f308c68a1b15bf2",
+          "word_count": 1013
+        },
+        "fr": {
+          "url": "https://sshrc-crsh.canada.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee/portail-recherche.aspx",
+          "title_from_list": "Portail de recherche",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "http://www.sshrc-crsh.gc.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee.aspx",
+          "discovered_under": "Sommaires d’évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://sshrc-crsh.canada.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee/portail-recherche.aspx",
+              "title": "Portail de recherche",
+              "list_url": "http://www.sshrc-crsh.gc.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee.aspx",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://sshrc-crsh.canada.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee/portail-recherche.aspx"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://sshrc-crsh.canada.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee/portail-recherche.aspx",
+            "final_url": "https://sshrc-crsh.canada.ca/fr/sujet-crsh/transparence/evaluation-facteurs-relatifs-vie-privee/portail-recherche.aspx",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:10.753971+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": null,
+            "etag": null,
+            "byte_count": 23786,
+            "sha256": "364e275f24be11716a5e1dc893866167c554f882e97eb4c8aa51dc7a73940b13"
+          },
+          "raw_path": "raw/7735b47b9f63561160d5.html",
+          "markdown_path": "pia-1f1a9f91d51b_fr.md",
+          "markdown_sha256": "2fc775e3a1ac5a3958c5a072981918116967cdfc7cfbadf40151e49c93ca79a7",
+          "status": "exported",
+          "page_title": "Portail de recherche – Sommaire de l’évaluation des facteurs relatifs à la vie privée des organismes (2015)",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://sshrc-crsh.canada.ca/en/about-sshrc/transparency/privacy-impact-assessments/research-portal.aspx"
+          },
+          "date_modified": "2025-06-06",
+          "date_published": "2025-06-06",
+          "has_pia_text": true,
+          "title": "Portail de recherche – Sommaire de l’évaluation des facteurs relatifs à la vie privée des organismes (2015)",
+          "conversion": "markdownify",
+          "text_sha256": "9ef8c5631d4fd1fea26fe8ea9f85b45eed526fc437fd27d288ab2137c4b092d4",
+          "word_count": 1293
+        }
+      }
+    }
+  ],
+  "summary": {
+    "pia_count": 3,
+    "paired_count": 3,
+    "source_status_counts": {
+      "exported": 6
+    }
+  }
+}

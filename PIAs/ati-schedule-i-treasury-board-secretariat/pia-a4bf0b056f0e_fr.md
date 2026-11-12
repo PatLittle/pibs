@@ -1,0 +1,62 @@
+---
+title: "Évaluation des facteurs relatifs à la vie privée (EFVP) pour la modernisation de l’auto identification"
+institution_id: "ati-schedule-i-treasury-board-secretariat"
+language: "fr"
+source_url: "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/rapports/rapports-acces-information-protection-reseignements-personnels-secretariat-conseil-tresor/evaluation-facteurs-vie-privee-modernisation-auto-identification.html"
+retrieved_at_utc: "2026-11-12T01:42:24.242615+00:00"
+http_status: 200
+source_sha256: "8cc7e3542ff70f965f6b4956a7c8c62fd2cbe74c2e9a13c972a7ae740998bb15"
+content_kind: "page"
+---
+
+# Évaluation des facteurs relatifs à la vie privée (EFVP) pour la modernisation de l’auto identification
+
+Le Bureau du dirigeant principal des ressources humaines (BDPRH) assiste le Conseil du Trésor dans son rôle d’employeur en favorisant l’excellence en matière de gestion des ressources humaines et en veillant à l’harmonisation des mesures mises en œuvre au sein de la fonction publique. Il s’acquitte de son mandat tout en respectant les obligations de reddition de comptes et les responsabilités incombant au sous-ministre.
+
+En 2020, conformément à son mandat de favoriser l’équité, la diversité et l’inclusion dans la fonction publique, le BDPRH a lancé son Projet de modernisation de l’auto-identification, dont l’objectif était d’examiner et d’évaluer les processus, les pratiques et les systèmes d’auto-identification des employés, ainsi que d’actualiser le questionnaire d’auto-identification du gouvernement du Canada. Le BDPRH recueille les données sur l’auto-identification conformément aux pouvoirs qui lui sont conférés par la *Loi sur l’équité en matière d’emploi*, la *Loi sur la gestion des finances publiques* et la *Loi sur la protection des renseignements personnels*.
+
+## Raisons pour lesquelles une évaluation des facteurs relatifs à la vie privée a été réalisée
+
+Le BDPRH a décidé de réaliser une évaluation des facteurs relatifs à la vie privée (EFVP) en ce qui concerne le Projet de modernisation de l’auto-identification, ainsi que le développement du questionnaire d’auto-identification actualisé et d’une nouvelle application centralisée dans le Portail des applications (PAS) du Secrétariat du Conseil du Trésor du Canada (SCT). Même si les renseignements recueillis à partir du questionnaire d’auto-identification ne serviront pas à prendre des décisions qui touchent directement les employés, il reste que certains d’entre eux sont des renseignements personnels. De plus, le Projet de modernisation de l’auto-identification aura une incidence sur la manière dont les renseignements personnels seront recueillis et traités par le SCT et le gouvernement du Canada.
+
+En 2024, on a rédigé un addenda à l’EFVP initiale du Projet de modernisation de l’auto-identification afin de soutenir l’intégration d’un questionnaire d’auto-identification dans un autre format (AIAF) et d’un protocole pour la distribution, la collecte, le stockage et la saisie des données des questionnaires d’AIAF.
+
+La mise en place d’un questionnaire d’AIAF permet d’inclure les employés qui ne sont pas en mesure de faire leur auto-identification en ligne dans l’application centralisée pour les raisons suivantes :
+
+- les besoins en matière d’adaptation ne sont pas comblés par les fonctions d’accessibilité de l’application;
+- des exigences opérationnelles les empêchent d’accéder à l’application en ligne à tout moment pendant leurs heures de travail tout au long de l’année (par exemple, l’employé travaille dans une région éloignée sans accès fiable à Internet).
+
+## Renseignements supplémentaires
+
+EFVP du Projet de modernisation de l’auto-identification
+
+1. Manque de clarté quant au pouvoir législatif dont dispose l’OCHRO pour recueillir un ensemble élargi de données relatives à l’équité, à la diversité et à l’inclusion (EDI) à des fins administratives ou non administratives – risque atténué – le BDPRH a établi qu’elle disposait du pouvoir de recueillir des données EDI par le biais du nouveau questionnaire d’auto-identification afin de remplir les obligations qui incombent au Conseil du Trésor en tant qu’employeur en vertu de la Loi sur l’équité en matière d’emploi et d’assumer sa responsabilité en matière de gestion efficace des ressources humaines en vertu de la Loi sur la gestion des finances publiques.
+2. Manque de clarté quant à savoir si la protection des droits des individus prévue dans la *Charte canadienne des droits et libertés* a été suffisamment prise en considération. *Risque atténué* : Les renseignements d’auto-identification sont recueillis auprès des employés sur une base volontaire et avec l’autorisation légale appropriée.
+3. Absence de documents attestant la diligence raisonnable, notamment des politiques publiques officielles ou des décisions documentées. *Risque atténué :* Le BDPRH a mis en place un cadre opérationnel et stratégique solide afin non seulement de garantir la bonne gestion du Projet de modernisation de l’auto-identification, mais aussi de veiller à ce que les obligations en matière de reddition de comptes et les responsabilités en matière de confidentialité découlant du projet soient attribuées et documentées.
+4. L’objectif de la collecte, de l’utilisation et de la divulgation des renseignements personnels sur l’EDI n’a pas été clairement défini et étayé par des politiques et des procédures documentées. *Risque atténué* : Des énoncés de confidentialité ont été rédigés en vue de leur inclusion dans l’application d’auto-identification en ligne hébergée par le PAS.
+5. Plusieurs politiques de conservation et d’élimination sont en place pour ce qui concerne les données sur l’équité en matière d’emploi recueillies par le BDPRH, la Commission de la fonction publique et le Système de gestion des ressources humaines de l’administration publique centrale. *Risque atténué* : Le gouvernement du Canada conservera les renseignements d’auto-identification pendant une période d’au moins deux ans et d’au plus dix ans après le départ d’un employé de la fonction publique fédérale. Cette mesure est conforme aux échéanciers de conservation et d’élimination ainsi qu’aux autorisations connexes concernant les renseignements personnels.
+6. Risque de collecte excessive de renseignements en raison de l’utilisation de champs de texte libre. *Risque atténué* : Les champs de texte libre comportent un nombre de caractères limité (50), ce qui décourage la saisie de détails excessifs. De plus, dans les notes de bas de page, on demande aux employés d’éviter de saisir des renseignements personnels sensibles tels que des antécédents médicaux, des noms de personnes ou des comptes rendus de problèmes en milieu de travail.
+7. Au moment de la réalisation de l’EFVP, aucune évaluation à jour et fiable de la menace et des risques ni aucune évaluation et autorisation de sécurité (EAS) n’avait été effectuée en lien avec l’application. *Risque atténué* : Le PAS qui hébergera le questionnaire d’auto-identification ainsi que l’application et la base de données d’auto-identification connexes ont tous deux été soumis au processus d’EAS du SCT et ont reçu une autorisation d’exploitation.
+8. L’utilisation et la divulgation des renseignements personnels sur l’équité en matière d’emploi et l’EDI, dans le contexte d’une utilisation administrative des données, pourraient révéler des renseignements sur l’employé qui n’étaient pas connus publiquement. Elles pourraient également présenter un risque pour l’employé pouvant se manifester de diverses manières, et notamment mettre en péril sa sécurité personnelle. *Risque atténué* : Comme il a été mentionné précédemment, le PAS qui hébergera le questionnaire d’auto-identification actualisé et sa base de données connexe, à savoir la base de données d’auto-identification, ont tous deux été soumis au processus d’EAS du SCT et ont reçu une autorisation d’exploitation. Les tests de sécurité et de vulnérabilité se poursuivront tout au long de l’utilisation des systèmes, conformément aux politiques sur la sécurité du SCT.
+
+Addenda à l’EFPV du Projet de modernisation de l’auto-identification : Questionnaire d’AIAF, politiques et procédures
+
+1. Il peut y avoir des différences dans la façon dont chaque ministère s’acquitte de ses responsabilités en matière de gestion de la distribution, de la collecte, du stockage et de la saisie des données du questionnaire d’AIAF. *Risque atténué* : On enverra un message avant le lancement de l’application d’auto-identification afin de s’assurer que tous les chefs des ressources humaines des ministères et tous les responsables de l’AIAF sont conscients de leurs responsabilités et de leurs obligations en matière de reddition de comptes.
+2. Les ministères peuvent assigner les tâches de responsables de l’AIAF à des employés qui ne disposent pas de la cote de sécurité appropriée. *Risque* *atténué :* Le protocole d’AIAF et l’Entente d’échange de renseignements (EER) liée à l’auto-identification précisent l’un et l’autre que tous les responsables ministériels de l’AIAF, y compris les étudiants et les fournisseurs, doivent disposer d’une cote de fiabilité.
+3. Les employés à qui ont été assignées des tâches de responsables de l’AIAF peuvent ne pas posséder de connaissances suffisantes pour traiter et protéger les renseignements personnels conformément à la *Loi sur la protection des renseignements personnels*. *Risque atténué* : Le protocole d’AIAF et l’EER liée à l’auto-identification précisent l’un et l’autre que tous les responsables ministériels de l’AIAF, y compris les étudiants et les fournisseurs, doivent avoir suivi une formation sur la protection des renseignements personnels et l’intendance des données, comme le cours de l’École de la fonction publique du Canada intitulé « Protection des renseignements personnels au sein du gouvernement du Canada ».
+4. Les employés qui utilisent le questionnaire d’AIAF peuvent ne pas connaître l’objectif de la collecte, de l’utilisation et de la divulgation des données d’auto-identification contenant des renseignements personnels sur l’EDI. *Risque atténué* : Le questionnaire d’AIAF comprendra les mêmes renseignements que ceux qui figurent dans l’application d’auto-identification en ligne relativement à l’objectif, à la collecte et à la gestion des données d’auto-identification, ainsi qu’un énoncé de confidentialité officiel détaillé (annexe D). Ces renseignements apparaîtront sur les pages précédant le questionnaire, et il sera possible de les modifier au besoin pour tenir compte des procédures particulières liées à l’AIAF en matière de gestion des renseignements d’auto-identification.
+5. Il existe un risque de collecte excessive ou insuffisante des renseignements saisis par les responsables de l’AIAF que les employés fournissent dans les zones de texte libre du questionnaire d’AIAF. *Risque atténué* : Les responsables de l’AIAF sont tenus de saisir tout le texte fourni par les employés dans les zones de texte libre du questionnaire d’AIAF, afin de s’assurer que ces données sont traitées de la même manière que les données saisies directement par les employés dans l’application d’auto-identification en ligne pendant le processus de tri et de nettoyage des données. Dans le but de limiter la collecte de renseignements ne relevant pas du champ d’application du questionnaire d’auto-identification, on a inclus dans le questionnaire d’AIAF les mêmes rappels de confidentialité que ceux décrits dans l’EFVP principale concernant l’auto-identification.
+6. Les employés qui doivent utiliser un questionnaire d’AIAF pour effectuer leur auto-identification pourraient avoir des préoccupations quant à la manière de modifier ou de supprimer leurs données d’auto-identification dans la base de données centralisée. *Risque atténué* : On a inclus des procédures et des modèles de notification à l’intention des responsables de l’AIAF dans le protocole d’AIAF afin d’indiquer aux employés la marche à suivre pour modifier leurs renseignements d’auto-identification.
+
+## Fichiers de renseignements personnels connexes
+
+Modernisation de l’auto-identification
+
+**Numéro du fichier :** SCT PCU 760
+
+## Pour obtenir de plus amples renseignements sur la présente Évaluation des facteurs relatifs à la vie privée
+
+Michael Wesley-James  
+Directeur, Équité, diversité et inclusion  
+Outils et politique relative aux données  
+[michael.wesley-james@tbs-sct.gc.ca](mailto:michael.wesley-james@tbs-sct.gc.ca)

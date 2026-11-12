@@ -1,0 +1,2422 @@
+{
+  "schema_version": 1,
+  "collector_version": 1,
+  "collected_at_utc": "2026-11-12T01:50:30.751398+00:00",
+  "institution_id": "ati-schedule-i-department-of-agriculture-and-agri-food",
+  "gc_orgID": "2222.0",
+  "open_canada_org_id": "2ABCCA59-6C57-4886-99E7-85EC6C719218",
+  "open_canada_org_slug": "aafc-aac",
+  "name_en": "Department of Agriculture and Agri-Food",
+  "name_fr": "Ministère de l’Agriculture et de l’Agroalimentaire",
+  "registry_membership": "current_registry",
+  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "list_pages": {
+    "en": {
+      "indexed_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+          "final_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:26.299223+00:00",
+          "redirects": [],
+          "content_type": "text/html; charset=UTF-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Thu, 12 Nov 2026 00:26:05 GMT",
+          "etag": "W/\"1794443165-gzip\"",
+          "byte_count": 32016,
+          "sha256": "eed17fd1ac4c6cb27c1d9a8515d077ddab81750a8c940bf35d5af4c9345c1977",
+          "raw_path": "raw/473a1036cfaf767ed546.html"
+        }
+      ],
+      "discovered_count": 19,
+      "scopes": [
+        "Privacy impact assessment summaries"
+      ],
+      "warnings": []
+    },
+    "fr": {
+      "indexed_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+          "final_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:26.563191+00:00",
+          "redirects": [],
+          "content_type": "text/html; charset=UTF-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Wed, 11 Nov 2026 00:03:45 GMT",
+          "etag": "W/\"1794355425-gzip\"",
+          "byte_count": 34009,
+          "sha256": "8a6a26f422d5e784871ff56dfca3bdf65e76004713236778b78c2b1b5f90f093",
+          "raw_path": "raw/663af0d5926b8d1f42ec.html"
+        }
+      ],
+      "discovered_count": 20,
+      "scopes": [
+        "Évaluation des facteurs relatifs à la vie privée"
+      ],
+      "warnings": []
+    }
+  },
+  "pias": [
+    {
+      "pia_id": "pia-08460b35bfb4",
+      "title_en": "Prescribed Presence in the Workplace Monitoring Program Privacy Impact Assessment",
+      "title_fr": "Programme de surveillance de la présence prescrite au lieu de travail - Évaluation des facteurs relatifs à la vie privée",
+      "url_en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/prescribed-presence-workplace-monitoring-program-privacy-impact-assessment",
+      "url_fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/programme-surveillance-presence-prescrite-au-lieu-travail-evaluation-facteurs-relatifs-vie-privee",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/prescribed-presence-workplace-monitoring-program-privacy-impact-assessment",
+        "alternate_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/programme-surveillance-presence-prescrite-au-lieu-travail-evaluation-facteurs-relatifs-vie-privee"
+      },
+      "sources": {
+        "en": {
+          "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/prescribed-presence-workplace-monitoring-program-privacy-impact-assessment",
+          "title_from_list": "Prescribed Presence in the Workplace Monitoring Program",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/prescribed-presence-workplace-monitoring-program-privacy-impact-assessment",
+              "title": "Prescribed Presence in the Workplace Monitoring Program",
+              "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/prescribed-presence-workplace-monitoring-program-privacy-impact-assessment"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/prescribed-presence-workplace-monitoring-program-privacy-impact-assessment",
+            "final_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/prescribed-presence-workplace-monitoring-program-privacy-impact-assessment",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:57.460483+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 06:48:38 GMT",
+            "etag": "W/\"1794379718-gzip\"",
+            "byte_count": 29820,
+            "sha256": "0bbc822ccf3eb440bf073a2d20a567936af8ab2b40a3764cc5a59830628ccc06"
+          },
+          "raw_path": "raw/08460b35bfb4b12d7ccd.html",
+          "markdown_path": "pia-08460b35bfb4_en.md",
+          "markdown_sha256": "04f501e5707816a989692f49884739614191935ec7afc8c3445b50761b58009a",
+          "status": "exported",
+          "page_title": "Prescribed Presence in the Workplace Monitoring Program Privacy Impact Assessment",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "http://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/prescribed-presence-workplace-monitoring-program-privacy-impact-assessment",
+            "fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/programme-surveillance-presence-prescrite-au-lieu-travail-evaluation-facteurs-relatifs-vie-privee"
+          },
+          "date_modified": "2026-10-02",
+          "date_published": "2026-10-02",
+          "has_pia_text": true,
+          "title": "Prescribed Presence in the Workplace Monitoring Program Privacy Impact Assessment",
+          "conversion": "markdownify",
+          "text_sha256": "da27ebfccd308f879bfa2353a2e6b38ea292aadbdca1a4735b19de7e6b1f357a",
+          "word_count": 752
+        },
+        "fr": {
+          "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/programme-surveillance-presence-prescrite-au-lieu-travail-evaluation-facteurs-relatifs-vie-privee",
+          "title_from_list": "Programme de surveillance de la présence prescrite au lieu de travail",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/programme-surveillance-presence-prescrite-au-lieu-travail-evaluation-facteurs-relatifs-vie-privee",
+              "title": "Programme de surveillance de la présence prescrite au lieu de travail",
+              "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/programme-surveillance-presence-prescrite-au-lieu-travail-evaluation-facteurs-relatifs-vie-privee"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/programme-surveillance-presence-prescrite-au-lieu-travail-evaluation-facteurs-relatifs-vie-privee",
+            "final_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/programme-surveillance-presence-prescrite-au-lieu-travail-evaluation-facteurs-relatifs-vie-privee",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:58.452579+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 07:03:40 GMT",
+            "etag": "W/\"1794380620-gzip\"",
+            "byte_count": 31853,
+            "sha256": "7c1b4a80ec051da33b565d67cf5572b17104cb46265aa1b39c322a77c85060e0"
+          },
+          "raw_path": "raw/38cc0472fe3491669464.html",
+          "markdown_path": "pia-08460b35bfb4_fr.md",
+          "markdown_sha256": "2c82a0ecfd7863307d2c0e8a209445823dde0349bcea1a3f99b72fb45b6c8a8a",
+          "status": "exported",
+          "page_title": "Programme de surveillance de la présence prescrite au lieu de travail - Évaluation des facteurs relatifs à la vie privée",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/prescribed-presence-workplace-monitoring-program-privacy-impact-assessment",
+            "fr": "http://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/programme-surveillance-presence-prescrite-au-lieu-travail-evaluation-facteurs-relatifs-vie-privee"
+          },
+          "date_modified": "2026-10-02",
+          "date_published": "2026-10-02",
+          "has_pia_text": true,
+          "title": "Programme de surveillance de la présence prescrite au lieu de travail - Évaluation des facteurs relatifs à la vie privée",
+          "conversion": "markdownify",
+          "text_sha256": "556f6ca7ce8070d33093b5c7aa767cebbca7d0aad45f157e7e27fcaa328baa56",
+          "word_count": 969
+        }
+      }
+    },
+    {
+      "pia_id": "pia-add9e7d320e2",
+      "title_en": "Personnel Security Screening Program",
+      "title_fr": "Programme de filtrage de sécurité du personnel — évaluation des facteurs relatifs à la vie privée",
+      "url_en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/personnel-security-screening-program",
+      "url_fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/programme-filtrage-securite-du-personnel-evaluation-facteurs-relatifs-vie-privee",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/personnel-security-screening-program",
+        "alternate_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/programme-filtrage-securite-du-personnel-evaluation-facteurs-relatifs-vie-privee"
+      },
+      "sources": {
+        "en": {
+          "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/personnel-security-screening-program",
+          "title_from_list": "Personnel Security Screening Program",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/personnel-security-screening-program",
+              "title": "Personnel Security Screening Program",
+              "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/personnel-security-screening-program"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/personnel-security-screening-program",
+            "final_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/personnel-security-screening-program",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:57.383078+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 06:48:39 GMT",
+            "etag": "W/\"1794379719-gzip\"",
+            "byte_count": 28146,
+            "sha256": "5bd0ab7bd17acd330cf9bf584a26564eb1284c0da1e448eb7b1cc26a39d6c973"
+          },
+          "raw_path": "raw/add9e7d320e214724661.html",
+          "markdown_path": "pia-add9e7d320e2_en.md",
+          "markdown_sha256": "5b80c6f984eb536b3e9bcfbaa88e70b375907aaef4cf8ddf8202de7401095251",
+          "status": "exported",
+          "page_title": "Personnel Security Screening Program",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "http://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/personnel-security-screening-program",
+            "fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/programme-filtrage-securite-du-personnel-evaluation-facteurs-relatifs-vie-privee"
+          },
+          "date_modified": "2026-10-02",
+          "date_published": "2026-10-02",
+          "has_pia_text": true,
+          "title": "Personnel Security Screening Program",
+          "conversion": "markdownify",
+          "text_sha256": "bf1f30496aa549ef97d31b2ab88a33aa4fe88ca265093ce67389ed50b436229d",
+          "word_count": 542
+        },
+        "fr": {
+          "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/programme-filtrage-securite-du-personnel-evaluation-facteurs-relatifs-vie-privee",
+          "title_from_list": "Programme de filtrage de sécurité du personnel",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/programme-filtrage-securite-du-personnel-evaluation-facteurs-relatifs-vie-privee",
+              "title": "Programme de filtrage de sécurité du personnel",
+              "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/programme-filtrage-securite-du-personnel-evaluation-facteurs-relatifs-vie-privee"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/programme-filtrage-securite-du-personnel-evaluation-facteurs-relatifs-vie-privee",
+            "final_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/programme-filtrage-securite-du-personnel-evaluation-facteurs-relatifs-vie-privee",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:58.420448+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 07:03:40 GMT",
+            "etag": "W/\"1794380620-gzip\"",
+            "byte_count": 29753,
+            "sha256": "a4c33bad4ca03b2eecacd3c12d56d0933c9a44f31a6c97fd3c5ab26f429351e4"
+          },
+          "raw_path": "raw/415e4063fd9b4c272328.html",
+          "markdown_path": "pia-add9e7d320e2_fr.md",
+          "markdown_sha256": "f09c772b951af5aa7015ff815d84dabd845e67922c64fc549b14114cb7facc41",
+          "status": "exported",
+          "page_title": "Programme de filtrage de sécurité du personnel — évaluation des facteurs relatifs à la vie privée",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/personnel-security-screening-program",
+            "fr": "http://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/programme-filtrage-securite-du-personnel-evaluation-facteurs-relatifs-vie-privee"
+          },
+          "date_modified": "2026-10-02",
+          "date_published": "2026-10-02",
+          "has_pia_text": true,
+          "title": "Programme de filtrage de sécurité du personnel — évaluation des facteurs relatifs à la vie privée",
+          "conversion": "markdownify",
+          "text_sha256": "d4d0d5aa28ab9ed62b419f22b6f76847b205f2a02388545ab2facc21923d8131",
+          "word_count": 722
+        }
+      }
+    },
+    {
+      "pia_id": "pia-49df22872dfd",
+      "title_en": "Canada Brand Privacy Impact Assessment",
+      "title_fr": "Évaluation des facteurs relatifs à la vie privée de la marque Canada",
+      "url_en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/canada-brand-privacy-impact-assessment",
+      "url_fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/evaluation-facteurs-relatifs-vie-privee-marque-canada",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/canada-brand-privacy-impact-assessment",
+        "alternate_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/evaluation-facteurs-relatifs-vie-privee-marque-canada"
+      },
+      "sources": {
+        "en": {
+          "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/canada-brand-privacy-impact-assessment",
+          "title_from_list": "Canada Brand Program",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/canada-brand-privacy-impact-assessment",
+              "title": "Canada Brand Program",
+              "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/canada-brand-privacy-impact-assessment"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/canada-brand-privacy-impact-assessment",
+            "final_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/canada-brand-privacy-impact-assessment",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:56.303130+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 02:00:05 GMT",
+            "etag": "W/\"1794362405-gzip\"",
+            "byte_count": 27520,
+            "sha256": "aed4dc4dd3616cd82b6e0513526438077aa0a1df15d079c9b948837de937ecca"
+          },
+          "raw_path": "raw/49df22872dfd9000873c.html",
+          "markdown_path": "pia-49df22872dfd_en.md",
+          "markdown_sha256": "6af067593b0c6514887ad5109a32c9415ec241948ba7601cd1274aa735d7da20",
+          "status": "exported",
+          "page_title": "Canada Brand Privacy Impact Assessment",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/canada-brand-privacy-impact-assessment",
+            "fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/evaluation-facteurs-relatifs-vie-privee-marque-canada"
+          },
+          "date_modified": "2025-08-18",
+          "date_published": "2025-08-18",
+          "has_pia_text": true,
+          "title": "Canada Brand Privacy Impact Assessment",
+          "conversion": "markdownify",
+          "text_sha256": "a07afc8279bc0c1d8aa77cafcf8c96451a8dbc864caa8b933a5abda871d934dc",
+          "word_count": 364
+        },
+        "fr": {
+          "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/evaluation-facteurs-relatifs-vie-privee-marque-canada",
+          "title_from_list": "Programme de la marque Canada",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/evaluation-facteurs-relatifs-vie-privee-marque-canada",
+              "title": "Programme de la marque Canada",
+              "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/evaluation-facteurs-relatifs-vie-privee-marque-canada"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/evaluation-facteurs-relatifs-vie-privee-marque-canada",
+            "final_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/evaluation-facteurs-relatifs-vie-privee-marque-canada",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:57.682644+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 02:00:14 GMT",
+            "etag": "W/\"1794362414-gzip\"",
+            "byte_count": 28929,
+            "sha256": "01a0368c84239ca065d9619dfd6253f3c9a3fdef3a03d187186156444880a736"
+          },
+          "raw_path": "raw/f78d409645338e1587fa.html",
+          "markdown_path": "pia-49df22872dfd_fr.md",
+          "markdown_sha256": "a8e8151cfb6c05f661793bd83424d7ad54d9bb993d52b526c43cd01c24209a39",
+          "status": "exported",
+          "page_title": "Évaluation des facteurs relatifs à la vie privée de la marque Canada",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/canada-brand-privacy-impact-assessment",
+            "fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/evaluation-facteurs-relatifs-vie-privee-marque-canada"
+          },
+          "date_modified": "2025-08-18",
+          "date_published": "2025-08-18",
+          "has_pia_text": true,
+          "title": "Évaluation des facteurs relatifs à la vie privée de la marque Canada",
+          "conversion": "markdownify",
+          "text_sha256": "b6646e48b07cd98a30b27887f061d6aa36bfc1589971d92051ebfaa2c2327bee",
+          "word_count": 475
+        }
+      }
+    },
+    {
+      "pia_id": "pia-b95d654d60f6",
+      "title_en": "Security Incident Management Program Privacy Impact Assessment",
+      "title_fr": "Évaluation des facteurs relatifs à la vie privée pour le Programme de gestion des incidents de sécurité",
+      "url_en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/security-incident-management-program-privacy-impact-assessment",
+      "url_fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/evaluation-facteurs-relatifs-vie-privee-programme-gestion-incidents-securite",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/security-incident-management-program-privacy-impact-assessment",
+        "alternate_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/evaluation-facteurs-relatifs-vie-privee-programme-gestion-incidents-securite"
+      },
+      "sources": {
+        "en": {
+          "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/security-incident-management-program-privacy-impact-assessment",
+          "title_from_list": "Security Incident Management Program",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/security-incident-management-program-privacy-impact-assessment",
+              "title": "Security Incident Management Program",
+              "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/security-incident-management-program-privacy-impact-assessment"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/security-incident-management-program-privacy-impact-assessment",
+            "final_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/security-incident-management-program-privacy-impact-assessment",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:57.259581+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 07:05:38 GMT",
+            "etag": "W/\"1794380738-gzip\"",
+            "byte_count": 28823,
+            "sha256": "4fd678470d319adf9b09eb4cff0648d4114e54ec273b5ed0c5f011ebb111fa7f"
+          },
+          "raw_path": "raw/b95d654d60f6f071fa1f.html",
+          "markdown_path": "pia-b95d654d60f6_en.md",
+          "markdown_sha256": "66239531f5b922a5744ade11ca2e5f56bccbb8008edb9272299cbc6176e16064",
+          "status": "exported",
+          "page_title": "Security Incident Management Program Privacy Impact Assessment",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "http://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/security-incident-management-program-privacy-impact-assessment",
+            "fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/evaluation-facteurs-relatifs-vie-privee-programme-gestion-incidents-securite"
+          },
+          "date_modified": "2025-08-15",
+          "date_published": "2025-08-15",
+          "has_pia_text": true,
+          "title": "Security Incident Management Program Privacy Impact Assessment",
+          "conversion": "markdownify",
+          "text_sha256": "a5a5b3ddbf9e2733fa640478e839698d5721c9c0e606a95b93fcd8aa872a8901",
+          "word_count": 493
+        },
+        "fr": {
+          "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/evaluation-facteurs-relatifs-vie-privee-programme-gestion-incidents-securite",
+          "title_from_list": "Programme de gestion des incidents de sécurité",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/evaluation-facteurs-relatifs-vie-privee-programme-gestion-incidents-securite",
+              "title": "Programme de gestion des incidents de sécurité",
+              "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/evaluation-facteurs-relatifs-vie-privee-programme-gestion-incidents-securite"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/evaluation-facteurs-relatifs-vie-privee-programme-gestion-incidents-securite",
+            "final_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/evaluation-facteurs-relatifs-vie-privee-programme-gestion-incidents-securite",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:57.756678+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 02:00:53 GMT",
+            "etag": "W/\"1794362453-gzip\"",
+            "byte_count": 30794,
+            "sha256": "1a5dff7ca13d7b743533b83d09b6a45673ae1fd86cc0e29ed5aa50aeb60990f3"
+          },
+          "raw_path": "raw/6f861a65466a2cc19031.html",
+          "markdown_path": "pia-b95d654d60f6_fr.md",
+          "markdown_sha256": "d7329538fe54ff191db1416bb02a57971b20441aa61b284d0dfb003de55d48c9",
+          "status": "exported",
+          "page_title": "Évaluation des facteurs relatifs à la vie privée pour le Programme de gestion des incidents de sécurité",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/security-incident-management-program-privacy-impact-assessment",
+            "fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/evaluation-facteurs-relatifs-vie-privee-programme-gestion-incidents-securite"
+          },
+          "date_modified": "2025-08-15",
+          "date_published": "2025-08-15",
+          "has_pia_text": true,
+          "title": "Évaluation des facteurs relatifs à la vie privée pour le Programme de gestion des incidents de sécurité",
+          "conversion": "markdownify",
+          "text_sha256": "5fc6b26e0e767270deaf7b38e5597f1e42d3d88f709bef0628766a8fac5d33a7",
+          "word_count": 699
+        }
+      }
+    },
+    {
+      "pia_id": "pia-fbd0c05b0cb9",
+      "title_en": "Generic Grant and Contribution Programming Privacy Impact Assessment",
+      "title_fr": "Programmes génériques de subventions et de contributions – Évaluation des facteurs relatifs à la vie privée",
+      "url_en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/generic-grant-and-contribution-programming",
+      "url_fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/programmes-generiques-de-subventions-et-de-contributions-evaluation-facteurs-relatifs-vie-privee",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/generic-grant-and-contribution-programming",
+        "alternate_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/programmes-generiques-de-subventions-et-de-contributions-evaluation-facteurs-relatifs-vie-privee"
+      },
+      "sources": {
+        "en": {
+          "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/generic-grant-and-contribution-programming",
+          "title_from_list": "Generic Grant and Contribution Programming",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/generic-grant-and-contribution-programming",
+              "title": "Generic Grant and Contribution Programming",
+              "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/generic-grant-and-contribution-programming"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/generic-grant-and-contribution-programming",
+            "final_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/generic-grant-and-contribution-programming",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:57.056139+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 07:05:38 GMT",
+            "etag": "W/\"1794380738-gzip\"",
+            "byte_count": 30231,
+            "sha256": "ebbcf9515429ada5fdec645715269e04b6254cb2ecea53a811ac4321a24c3b76"
+          },
+          "raw_path": "raw/fbd0c05b0cb9fe4f5c8a.html",
+          "markdown_path": "pia-fbd0c05b0cb9_en.md",
+          "markdown_sha256": "1adcb4520e8335e0a0d95ffc4d63be5c26f22f2ba9ca10a290748cde30183f37",
+          "status": "exported",
+          "page_title": "Generic Grant and Contribution Programming Privacy Impact Assessment",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "http://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/generic-grant-and-contribution-programming",
+            "fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/programmes-generiques-de-subventions-et-de-contributions-evaluation-facteurs-relatifs-vie-privee"
+          },
+          "date_modified": "2025-07-29",
+          "date_published": "2025-07-29",
+          "has_pia_text": true,
+          "title": "Generic Grant and Contribution Programming Privacy Impact Assessment",
+          "conversion": "markdownify",
+          "text_sha256": "5fde1f586b19e7dbecf2d50c82257cbe54cae510c6ccfa26789dc58dae2f541e",
+          "word_count": 815
+        },
+        "fr": {
+          "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/programmes-generiques-de-subventions-et-de-contributions-evaluation-facteurs-relatifs-vie-privee",
+          "title_from_list": "Programmes génériques de subventions et de contributions",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/programmes-generiques-de-subventions-et-de-contributions-evaluation-facteurs-relatifs-vie-privee",
+              "title": "Programmes génériques de subventions et de contributions",
+              "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/programmes-generiques-de-subventions-et-de-contributions-evaluation-facteurs-relatifs-vie-privee"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/programmes-generiques-de-subventions-et-de-contributions-evaluation-facteurs-relatifs-vie-privee",
+            "final_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/programmes-generiques-de-subventions-et-de-contributions-evaluation-facteurs-relatifs-vie-privee",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:58.154124+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 02:08:09 GMT",
+            "etag": "W/\"1794362889-gzip\"",
+            "byte_count": 32466,
+            "sha256": "e553acddefdf08d973378a5ba237031e30dfd5309b14deb373cc298f67727e3b"
+          },
+          "raw_path": "raw/7154f792360348826005.html",
+          "markdown_path": "pia-fbd0c05b0cb9_fr.md",
+          "markdown_sha256": "86e747618afaf376c2cbdef6948550a42a8699d5fa3534dfac128ea7ea855d4c",
+          "status": "exported",
+          "page_title": "Programmes génériques de subventions et de contributions – Évaluation des facteurs relatifs à la vie privée",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/generic-grant-and-contribution-programming",
+            "fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/programmes-generiques-de-subventions-et-de-contributions-evaluation-facteurs-relatifs-vie-privee"
+          },
+          "date_modified": "2025-07-29",
+          "date_published": "2025-07-29",
+          "has_pia_text": true,
+          "title": "Programmes génériques de subventions et de contributions – Évaluation des facteurs relatifs à la vie privée",
+          "conversion": "markdownify",
+          "text_sha256": "79fdef233c8da870f8cc5f240d76ee5b6c25bc9e3252a9958bf1c2d3e5b4598d",
+          "word_count": 1021
+        }
+      }
+    },
+    {
+      "pia_id": "pia-9fa43bd8ab3d",
+      "title_en": "National fleet management Privacy Impact Assessment",
+      "title_fr": "Gestion du parc automobile national — Évaluation des facteurs relatifs à la vie privée",
+      "url_en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/national-fleet-management-privacy-impact-assessment",
+      "url_fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/gestion-du-parc-automobile-national-evaluation-facteurs-relatifs-vie-privee",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/national-fleet-management-privacy-impact-assessment",
+        "alternate_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/gestion-du-parc-automobile-national-evaluation-facteurs-relatifs-vie-privee"
+      },
+      "sources": {
+        "en": {
+          "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/national-fleet-management-privacy-impact-assessment",
+          "title_from_list": "National fleet management",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/national-fleet-management-privacy-impact-assessment",
+              "title": "National fleet management",
+              "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/national-fleet-management-privacy-impact-assessment"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/national-fleet-management-privacy-impact-assessment",
+            "final_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/national-fleet-management-privacy-impact-assessment",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:57.160538+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 07:05:28 GMT",
+            "etag": "W/\"1794380728-gzip\"",
+            "byte_count": 28319,
+            "sha256": "b02afd9ed2c688888fbd808570c13a955170973d570f4b7a8bc7ae9ae5d75f07"
+          },
+          "raw_path": "raw/9fa43bd8ab3d5d30a036.html",
+          "markdown_path": "pia-9fa43bd8ab3d_en.md",
+          "markdown_sha256": "df3cbb5242e48f4ab712e4fc3f53f8e59c7d2715470659be00de32c664b1c1f5",
+          "status": "exported",
+          "page_title": "National fleet management Privacy Impact Assessment",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "http://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/national-fleet-management-privacy-impact-assessment",
+            "fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/gestion-du-parc-automobile-national-evaluation-facteurs-relatifs-vie-privee"
+          },
+          "date_modified": "2024-10-04",
+          "date_published": "2024-10-04",
+          "has_pia_text": true,
+          "title": "National fleet management Privacy Impact Assessment",
+          "conversion": "markdownify",
+          "text_sha256": "3f1e1797d00b90a2801b622d42341b057c978fe09b3a94cfb6b6cc62f409a385",
+          "word_count": 586
+        },
+        "fr": {
+          "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/gestion-du-parc-automobile-national-evaluation-facteurs-relatifs-vie-privee",
+          "title_from_list": "Gestion du parc automobile national",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/gestion-du-parc-automobile-national-evaluation-facteurs-relatifs-vie-privee",
+              "title": "Gestion du parc automobile national",
+              "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/gestion-du-parc-automobile-national-evaluation-facteurs-relatifs-vie-privee"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/gestion-du-parc-automobile-national-evaluation-facteurs-relatifs-vie-privee",
+            "final_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/gestion-du-parc-automobile-national-evaluation-facteurs-relatifs-vie-privee",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:57.893591+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 03:58:19 GMT",
+            "etag": "W/\"1794369499-gzip\"",
+            "byte_count": 30400,
+            "sha256": "493d119158a294296a987c650743beb50f4966ab28964d079bf84fc163f32c5c"
+          },
+          "raw_path": "raw/104890124356c9cc6704.html",
+          "markdown_path": "pia-9fa43bd8ab3d_fr.md",
+          "markdown_sha256": "951476a315184f78ba7d10d8f73d890fbb51158ee97653e4c2ce8ad8bc977193",
+          "status": "exported",
+          "page_title": "Gestion du parc automobile national — Évaluation des facteurs relatifs à la vie privée",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/national-fleet-management-privacy-impact-assessment",
+            "fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/gestion-du-parc-automobile-national-evaluation-facteurs-relatifs-vie-privee"
+          },
+          "date_modified": "2024-10-04",
+          "date_published": "2024-10-04",
+          "has_pia_text": true,
+          "title": "Gestion du parc automobile national — Évaluation des facteurs relatifs à la vie privée",
+          "conversion": "markdownify",
+          "text_sha256": "67450e5e674a3262ba4071bb63caf33dc00745b4730e9eee8b90aa5e4ab79de0",
+          "word_count": 762
+        }
+      }
+    },
+    {
+      "pia_id": "pia-62bb6147a6df",
+      "title_en": "VidCruiter Privacy Impact Assessment",
+      "title_fr": "VidCruiter — Évaluation des facteurs relatifs à la vie privée",
+      "url_en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/vidcruiter",
+      "url_fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/vidcruiter",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/vidcruiter",
+        "alternate_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/vidcruiter"
+      },
+      "sources": {
+        "en": {
+          "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/vidcruiter",
+          "title_from_list": "VidCruiter",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/vidcruiter",
+              "title": "VidCruiter",
+              "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/vidcruiter"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/vidcruiter",
+            "final_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/vidcruiter",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:57.363118+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 07:04:56 GMT",
+            "etag": "W/\"1794380696-gzip\"",
+            "byte_count": 26924,
+            "sha256": "242d580a79b8c6f498e4e4d87e0a3b1d7ecb13a2b76360fbf2223a5828e0c06a"
+          },
+          "raw_path": "raw/62bb6147a6df032e2256.html",
+          "markdown_path": "pia-62bb6147a6df_en.md",
+          "markdown_sha256": "ff1ae0f599d89362593cb892dd4b84a6942602acd7ed0e29f1f0e002b5106862",
+          "status": "exported",
+          "page_title": "VidCruiter Privacy Impact Assessment",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "http://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/vidcruiter",
+            "fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/vidcruiter"
+          },
+          "date_modified": "2022-10-24",
+          "date_published": "2022-10-27",
+          "has_pia_text": true,
+          "title": "VidCruiter Privacy Impact Assessment",
+          "conversion": "markdownify",
+          "text_sha256": "80ab93c4f8ddd4b7a7bed84985e3e2e2aa5e2bfb4ef196fae3f16d7af0187e68",
+          "word_count": 364
+        },
+        "fr": {
+          "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/vidcruiter",
+          "title_from_list": "VidCruiter",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/vidcruiter",
+              "title": "VidCruiter",
+              "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/vidcruiter"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/vidcruiter",
+            "final_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/vidcruiter",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:58.350345+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 03:33:05 GMT",
+            "etag": "W/\"1794367985-gzip\"",
+            "byte_count": 28455,
+            "sha256": "52c4fb618300b95d5c3a1e7343e1f40e2da1bbe539ec49cc568b9a8b6993f2a0"
+          },
+          "raw_path": "raw/a22e05fe076e5de24db7.html",
+          "markdown_path": "pia-62bb6147a6df_fr.md",
+          "markdown_sha256": "45c1abc959a0c3bad76c0a86e097f91c17611ff7244f4387483395e37efdcb42",
+          "status": "exported",
+          "page_title": "VidCruiter — Évaluation des facteurs relatifs à la vie privée",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/vidcruiter",
+            "fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/vidcruiter"
+          },
+          "date_modified": "2022-10-24",
+          "date_published": "2022-10-27",
+          "has_pia_text": true,
+          "title": "VidCruiter — Évaluation des facteurs relatifs à la vie privée",
+          "conversion": "markdownify",
+          "text_sha256": "ea2d8decdf166b9601bd931b2f1c1363f5adfef1a1346bb9e51d4e0ba63c8700",
+          "word_count": 477
+        }
+      }
+    },
+    {
+      "pia_id": "pia-32b8922f1fac",
+      "title_en": "Emergency On-Farm Support Fund Privacy Impact Assessment",
+      "title_fr": "Fonds d’urgence pour les mesures de soutien à la ferme — Évaluation des facteurs relatifs à la vie privée",
+      "url_en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/emergency-farm-support-fund",
+      "url_fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/fonds-urgence-mesures-soutien-ferme",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/emergency-farm-support-fund",
+        "alternate_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/fonds-urgence-mesures-soutien-ferme"
+      },
+      "sources": {
+        "en": {
+          "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/emergency-farm-support-fund",
+          "title_from_list": "Emergency On-Farm Support Fund",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/emergency-farm-support-fund",
+              "title": "Emergency On-Farm Support Fund",
+              "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/emergency-farm-support-fund"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/emergency-farm-support-fund",
+            "final_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/emergency-farm-support-fund",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:56.946970+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 07:04:44 GMT",
+            "etag": "W/\"1794380684-gzip\"",
+            "byte_count": 27517,
+            "sha256": "68010d36330b0f0b515273607abb8db23da00ed1787883e1664de39b22e0ee98"
+          },
+          "raw_path": "raw/32b8922f1facff21e731.html",
+          "markdown_path": "pia-32b8922f1fac_en.md",
+          "markdown_sha256": "2f1cff1515b4720bba491c7665ec0c7475a56b1751de6694c8caa953c33a0e9d",
+          "status": "exported",
+          "page_title": "Emergency On-Farm Support Fund Privacy Impact Assessment",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "http://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/emergency-farm-support-fund",
+            "fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/fonds-urgence-mesures-soutien-ferme"
+          },
+          "date_modified": "2022-03-21",
+          "date_published": "2022-03-21",
+          "has_pia_text": true,
+          "title": "Emergency On-Farm Support Fund Privacy Impact Assessment",
+          "conversion": "markdownify",
+          "text_sha256": "83f6ab21a6b8476dcf02e64d2818f90e1700ac0437e6fa512063b38402254594",
+          "word_count": 453
+        },
+        "fr": {
+          "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/fonds-urgence-mesures-soutien-ferme",
+          "title_from_list": "Fonds d’urgence pour les mesures de soutien à la ferme",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/fonds-urgence-mesures-soutien-ferme",
+              "title": "Fonds d’urgence pour les mesures de soutien à la ferme",
+              "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/fonds-urgence-mesures-soutien-ferme"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/fonds-urgence-mesures-soutien-ferme",
+            "final_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/fonds-urgence-mesures-soutien-ferme",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:57.854733+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 07:10:18 GMT",
+            "etag": "W/\"1794381018-gzip\"",
+            "byte_count": 29386,
+            "sha256": "10052e1e3ad5f0df443524107e56cdfb95f45938329dc356d7e86469868c99b3"
+          },
+          "raw_path": "raw/28d385cf487d559e7e52.html",
+          "markdown_path": "pia-32b8922f1fac_fr.md",
+          "markdown_sha256": "c8abfdbf0791ec02c1894f5f495b8a53cd5cd3b9c7d9306a491ce4a586272e36",
+          "status": "exported",
+          "page_title": "Fonds d’urgence pour les mesures de soutien à la ferme — Évaluation des facteurs relatifs à la vie privée",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/emergency-farm-support-fund",
+            "fr": "http://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/fonds-urgence-mesures-soutien-ferme"
+          },
+          "date_modified": "2022-03-21",
+          "date_published": "2022-03-21",
+          "has_pia_text": true,
+          "title": "Fonds d’urgence pour les mesures de soutien à la ferme — Évaluation des facteurs relatifs à la vie privée",
+          "conversion": "markdownify",
+          "text_sha256": "092e54cbd6962cb08d11a7cf3fec73950da91805b2e73b979fd8b07ecd25ef80",
+          "word_count": 614
+        }
+      }
+    },
+    {
+      "pia_id": "pia-2010ff1cebeb",
+      "title_en": "Direct Dairy Payment Program - Privacy impact assessments",
+      "title_fr": "Programme de paiements directs pour les producteurs laitiers - Évaluation des facteurs relatifs à la vie privée",
+      "url_en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/direct-dairy-payment-program",
+      "url_fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/programme-paiements-directs-producteurs-laitiers",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/direct-dairy-payment-program",
+        "alternate_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/programme-paiements-directs-producteurs-laitiers"
+      },
+      "sources": {
+        "en": {
+          "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/direct-dairy-payment-program",
+          "title_from_list": "Direct Dairy Payment Program",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/direct-dairy-payment-program",
+              "title": "Direct Dairy Payment Program",
+              "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/direct-dairy-payment-program"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/direct-dairy-payment-program",
+            "final_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/direct-dairy-payment-program",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:56.847865+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 07:03:56 GMT",
+            "etag": "W/\"1794380636-gzip\"",
+            "byte_count": 27127,
+            "sha256": "26288270f4cb87989f9fda64ece3753687aa23e90e0b6ed44e0d744822b8883d"
+          },
+          "raw_path": "raw/2010ff1cebebe9d2a759.html",
+          "markdown_path": "pia-2010ff1cebeb_en.md",
+          "markdown_sha256": "251bd7d2475b94fe527d2c9f4a6b9a38530f854339fbdd62be99e08453c5fc47",
+          "status": "exported",
+          "page_title": "Direct Dairy Payment Program - Privacy impact assessments",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "http://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/direct-dairy-payment-program",
+            "fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/programme-paiements-directs-producteurs-laitiers"
+          },
+          "date_modified": "2020-11-09",
+          "date_published": "2020-11-09",
+          "has_pia_text": true,
+          "title": "Direct Dairy Payment Program - Privacy impact assessments",
+          "conversion": "markdownify",
+          "text_sha256": "ecd9784a86901a48b67887b777dec264a363cf952dd89206fd9d27229ec4fa54",
+          "word_count": 396
+        },
+        "fr": {
+          "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/programme-paiements-directs-producteurs-laitiers",
+          "title_from_list": "Programme de paiements directs pour les producteurs laitiers",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/programme-paiements-directs-producteurs-laitiers",
+              "title": "Programme de paiements directs pour les producteurs laitiers",
+              "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/programme-paiements-directs-producteurs-laitiers"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/programme-paiements-directs-producteurs-laitiers",
+            "final_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/programme-paiements-directs-producteurs-laitiers",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:58.106971+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 07:07:05 GMT",
+            "etag": "W/\"1794380825-gzip\"",
+            "byte_count": 28405,
+            "sha256": "034eca4d7191a9112a7fd9d3ef1bfcb10c0726f9e618fba97bb626b0baa09b3e"
+          },
+          "raw_path": "raw/d66c50611a004f2fe552.html",
+          "markdown_path": "pia-2010ff1cebeb_fr.md",
+          "markdown_sha256": "8afc47bdc95f7ba788336167d93681f6d8fb5b4d670a661ee2930a13875fc538",
+          "status": "exported",
+          "page_title": "Programme de paiements directs pour les producteurs laitiers - Évaluation des facteurs relatifs à la vie privée",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/direct-dairy-payment-program",
+            "fr": "http://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/programme-paiements-directs-producteurs-laitiers"
+          },
+          "date_modified": "2020-11-09",
+          "date_published": "2020-11-09",
+          "has_pia_text": true,
+          "title": "Programme de paiements directs pour les producteurs laitiers - Évaluation des facteurs relatifs à la vie privée",
+          "conversion": "markdownify",
+          "text_sha256": "ea7e3dd438042a02fbebf8a075602b64438cf1089bf0eedfb81481f93aa6ccc8",
+          "word_count": 478
+        }
+      }
+    },
+    {
+      "pia_id": "pia-f1fbdff4b419",
+      "title_en": "Mandatory Isolation Support for Temporary Foreign Workers Program - Privacy impact assessments",
+      "title_fr": "Programme d’aide pour l’isolement obligatoire des travailleurs étrangers temporaires - Évaluation des facteurs relatifs à la vie privée",
+      "url_en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-5",
+      "url_fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/aide-lisolement-obligatoire-travailleurs",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-5",
+        "alternate_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/aide-lisolement-obligatoire-travailleurs"
+      },
+      "sources": {
+        "en": {
+          "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-5",
+          "title_from_list": "Mandatory Isolation Support for Temporary Foreign Workers Program",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-5",
+              "title": "Mandatory Isolation Support for Temporary Foreign Workers Program",
+              "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/en/department/transparency/access-information-protection-5"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-5",
+            "final_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-5",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:56.295750+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 06:27:29 GMT",
+            "etag": "W/\"1794378449-gzip\"",
+            "byte_count": 27272,
+            "sha256": "9a46a987a0e120568805738c01cc3e7cc056baa56b69250b25b2d5ffd4189b83"
+          },
+          "raw_path": "raw/f1fbdff4b419fdd7be58.html",
+          "markdown_path": "pia-f1fbdff4b419_en.md",
+          "markdown_sha256": "fdeb074a54c85694bc727ad7eda2bbb61dfeb3acf8b70493a317971666c56421",
+          "status": "exported",
+          "page_title": "Mandatory Isolation Support for Temporary Foreign Workers Program - Privacy impact assessments",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "http://agriculture.canada.ca/en/department/transparency/access-information-protection-5",
+            "fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/aide-lisolement-obligatoire-travailleurs"
+          },
+          "date_modified": "2020-11-09",
+          "date_published": "2020-11-09",
+          "has_pia_text": true,
+          "title": "Mandatory Isolation Support for Temporary Foreign Workers Program - Privacy impact assessments",
+          "conversion": "markdownify",
+          "text_sha256": "e6e2731a4b708305f82377d6fa667a18631002502580aed40f2301175e84b196",
+          "word_count": 399
+        },
+        "fr": {
+          "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/aide-lisolement-obligatoire-travailleurs",
+          "title_from_list": "Programme d’aide pour l’isolement obligatoire des travailleurs étrangers temporaires",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/aide-lisolement-obligatoire-travailleurs",
+              "title": "Programme d’aide pour l’isolement obligatoire des travailleurs étrangers temporaires",
+              "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/aide-lisolement-obligatoire-travailleurs"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/aide-lisolement-obligatoire-travailleurs",
+            "final_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/aide-lisolement-obligatoire-travailleurs",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:57.578480+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 07:09:27 GMT",
+            "etag": "W/\"1794380967-gzip\"",
+            "byte_count": 28979,
+            "sha256": "072f357dce28be0f40b14fbdcf451bf35ca3f86c3583be751dde1cc241dc2d3e"
+          },
+          "raw_path": "raw/c2926404910996887bed.html",
+          "markdown_path": "pia-f1fbdff4b419_fr.md",
+          "markdown_sha256": "6d85e5f241c42eb3d084508c55136d376fb151c4f365301fcfb659c287401771",
+          "status": "exported",
+          "page_title": "Programme d’aide pour l’isolement obligatoire des travailleurs étrangers temporaires - Évaluation des facteurs relatifs à la vie privée",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-5",
+            "fr": "http://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/aide-lisolement-obligatoire-travailleurs"
+          },
+          "date_modified": "2020-11-09",
+          "date_published": "2020-11-09",
+          "has_pia_text": true,
+          "title": "Programme d’aide pour l’isolement obligatoire des travailleurs étrangers temporaires - Évaluation des facteurs relatifs à la vie privée",
+          "conversion": "markdownify",
+          "text_sha256": "8c91805bddaf1678a8c3512291813a0b77ae9e02d8816ec0d938c86e634e474b",
+          "word_count": 556
+        }
+      }
+    },
+    {
+      "pia_id": "pia-d3e1e04fc5be",
+      "title_en": "AgriStability Privacy Impact Assessment",
+      "title_fr": "Programme Agri-stabilité — évaluation des facteurs relatifs à la vie privée",
+      "url_en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/agristability",
+      "url_fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/agri-stabilite",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/agristability",
+        "alternate_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/agri-stabilite"
+      },
+      "sources": {
+        "en": {
+          "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/agristability",
+          "title_from_list": "AgriStability Privacy Impact Assessment",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/agristability",
+              "title": "AgriStability Privacy Impact Assessment",
+              "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/agristability"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/agristability",
+            "final_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/agristability",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:56.297975+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 02:52:22 GMT",
+            "etag": "W/\"1794365542-gzip\"",
+            "byte_count": 26405,
+            "sha256": "e0a58630fb3a289a5fb110e796f9bbc3b3e33562a7f29d8ef75f3e4eff02acef"
+          },
+          "raw_path": "raw/d3e1e04fc5bea0a2a091.html",
+          "markdown_path": "pia-d3e1e04fc5be_en.md",
+          "markdown_sha256": "436337c7a4fd34e5ba53ace40d38568132bf821827fc56e18b9ddd263871c653",
+          "status": "exported",
+          "page_title": "AgriStability Privacy Impact Assessment",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/agristability",
+            "fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/agri-stabilite"
+          },
+          "date_modified": "2022-01-27",
+          "date_published": "2022-01-27",
+          "has_pia_text": true,
+          "title": "AgriStability Privacy Impact Assessment",
+          "conversion": "markdownify",
+          "text_sha256": "c3f014e03b01fbc83420c4e1428d3321ba8a20914a46305952dbe8413a21b308",
+          "word_count": 329
+        },
+        "fr": {
+          "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/agri-stabilite",
+          "title_from_list": "Programme Agri-stabilité — évaluation des facteurs relatifs à la vie privée",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/agri-stabilite",
+              "title": "Programme Agri-stabilité — évaluation des facteurs relatifs à la vie privée",
+              "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/agri-stabilite"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/agri-stabilite",
+            "final_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/agri-stabilite",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:57.560094+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 07:10:06 GMT",
+            "etag": "W/\"1794381006-gzip\"",
+            "byte_count": 27717,
+            "sha256": "873fdda4deedf729d6a1736f655f6e12751ba097f966c612e3124960130280d2"
+          },
+          "raw_path": "raw/4c55a95e48561c868fe8.html",
+          "markdown_path": "pia-d3e1e04fc5be_fr.md",
+          "markdown_sha256": "f623df75c02d634de735b889fe86fa4cee24180d9e629103c11edf7c519b981f",
+          "status": "exported",
+          "page_title": "Programme Agri-stabilité — évaluation des facteurs relatifs à la vie privée",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/agristability",
+            "fr": "http://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/agri-stabilite"
+          },
+          "date_modified": "2022-01-27",
+          "date_published": "2022-01-27",
+          "has_pia_text": true,
+          "title": "Programme Agri-stabilité — évaluation des facteurs relatifs à la vie privée",
+          "conversion": "markdownify",
+          "text_sha256": "eae9911c14bf9cfd8e3344a5e2812cd628dced63e57a3213f2edf5e584e348ac",
+          "word_count": 425
+        }
+      }
+    },
+    {
+      "pia_id": "pia-2488915e71bd",
+      "title_en": "AgriInvest Privacy Impact Assessment",
+      "title_fr": "Agri-investissement — évaluation des facteurs relatifs à la vie privée",
+      "url_en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/agriinvest",
+      "url_fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/agri-investissement",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/agriinvest",
+        "alternate_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/agri-investissement"
+      },
+      "sources": {
+        "en": {
+          "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/agriinvest",
+          "title_from_list": "AgriInvest Privacy Impact Assessment",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/agriinvest",
+              "title": "AgriInvest Privacy Impact Assessment",
+              "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/agriinvest"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/agriinvest",
+            "final_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/agriinvest",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:56.296180+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 07:04:34 GMT",
+            "etag": "W/\"1794380674-gzip\"",
+            "byte_count": 27349,
+            "sha256": "341092cfa59ea3e70988f1f43a9c60c5d903884ba3242a5570bfaec76a8da233"
+          },
+          "raw_path": "raw/2488915e71bd1cea0f3b.html",
+          "markdown_path": "pia-2488915e71bd_en.md",
+          "markdown_sha256": "4ae0e3f452ec749b6c02039ad8854e7ce1fbc82ef822d4a34f9b16eb398cf180",
+          "status": "exported",
+          "page_title": "AgriInvest Privacy Impact Assessment",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "http://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/agriinvest",
+            "fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/agri-investissement"
+          },
+          "date_modified": "2022-01-27",
+          "date_published": "2022-01-27",
+          "has_pia_text": true,
+          "title": "AgriInvest Privacy Impact Assessment",
+          "conversion": "markdownify",
+          "text_sha256": "d669700fdf48265f20de90ce825ed739bcc52197b91ad61dc56d4c0b67b751a9",
+          "word_count": 461
+        },
+        "fr": {
+          "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/agri-investissement",
+          "title_from_list": "Agri-investissement — évaluation des facteurs relatifs à la vie privée",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/agri-investissement",
+              "title": "Agri-investissement — évaluation des facteurs relatifs à la vie privée",
+              "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/agri-investissement"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/agri-investissement",
+            "final_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/agri-investissement",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:57.478769+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 07:10:06 GMT",
+            "etag": "W/\"1794381006-gzip\"",
+            "byte_count": 28876,
+            "sha256": "df181abb1a175bf829afbbbad62ce9c650909549c2bf17fb86921e867cc57574"
+          },
+          "raw_path": "raw/d5bf0a362c91a82eb0a0.html",
+          "markdown_path": "pia-2488915e71bd_fr.md",
+          "markdown_sha256": "18df07e33267b850be913efb43b8b656a7372b10608f3b258f8a05de502ff462",
+          "status": "exported",
+          "page_title": "Agri-investissement — évaluation des facteurs relatifs à la vie privée",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/agriinvest",
+            "fr": "http://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/agri-investissement"
+          },
+          "date_modified": "2022-01-27",
+          "date_published": "2022-01-27",
+          "has_pia_text": true,
+          "title": "Agri-investissement — évaluation des facteurs relatifs à la vie privée",
+          "conversion": "markdownify",
+          "text_sha256": "bed2bda183c6b406ec151b7f6e283b078533f17c0c388ef35df6bbe0ca681d4f",
+          "word_count": 581
+        }
+      }
+    },
+    {
+      "pia_id": "pia-38afe8d849b6",
+      "title_en": "Enterprise Secure Access Service",
+      "title_fr": "Service d’accès sécurisé d’entreprise",
+      "url_en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/enterprise-secure-access-service",
+      "url_fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/service-acces-securise-entreprise",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/enterprise-secure-access-service",
+        "alternate_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/service-acces-securise-entreprise"
+      },
+      "sources": {
+        "en": {
+          "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/enterprise-secure-access-service",
+          "title_from_list": "Enterprise Secure Access Service",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/enterprise-secure-access-service",
+              "title": "Enterprise Secure Access Service",
+              "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/enterprise-secure-access-service"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/enterprise-secure-access-service",
+            "final_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/enterprise-secure-access-service",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:57.050403+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 07:04:04 GMT",
+            "etag": "W/\"1794380644-gzip\"",
+            "byte_count": 27771,
+            "sha256": "8591a2b697cef71eb82b900476fe720e7c67f607389be5120637566729cce3fd"
+          },
+          "raw_path": "raw/38afe8d849b65687a916.html",
+          "markdown_path": "pia-38afe8d849b6_en.md",
+          "markdown_sha256": "e3c476fe8cbcdcbc035a814333a09d241359ba249bf1017123bd7fb612125331",
+          "status": "exported",
+          "page_title": "Enterprise Secure Access Service",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "http://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/enterprise-secure-access-service",
+            "fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/service-acces-securise-entreprise"
+          },
+          "date_modified": "2012-11-06",
+          "date_published": "2012-11-06",
+          "has_pia_text": true,
+          "title": "Enterprise Secure Access Service",
+          "conversion": "markdownify",
+          "text_sha256": "0f2673977b138cb461e2b629a2189bff7e9c3f5c3d71a5079012369f79e530a6",
+          "word_count": 362
+        },
+        "fr": {
+          "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/service-acces-securise-entreprise",
+          "title_from_list": "Service d'accès sécurisé d'entreprise",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/service-acces-securise-entreprise",
+              "title": "Service d'accès sécurisé d'entreprise",
+              "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/service-acces-securise-entreprise"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/service-acces-securise-entreprise",
+            "final_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/service-acces-securise-entreprise",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:58.211889+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 07:08:30 GMT",
+            "etag": "W/\"1794380910-gzip\"",
+            "byte_count": 28955,
+            "sha256": "55e7b5e9702214425b3951b525836ecbd3aff0e465d6ba8219f5ef04b8369aa8"
+          },
+          "raw_path": "raw/e4ea56c71ac11462da4f.html",
+          "markdown_path": "pia-38afe8d849b6_fr.md",
+          "markdown_sha256": "cd27a87e454dd0c0af27a97220996f34270796a7c4f8d2bde08b15bc3e847bec",
+          "status": "exported",
+          "page_title": "Service d’accès sécurisé d’entreprise",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/enterprise-secure-access-service",
+            "fr": "http://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/service-acces-securise-entreprise"
+          },
+          "date_modified": "2012-11-06",
+          "date_published": "2012-11-06",
+          "has_pia_text": true,
+          "title": "Service d’accès sécurisé d’entreprise",
+          "conversion": "markdownify",
+          "text_sha256": "477b881a65a65a1a1a82020f85f756c8cce02e589265d822de6a85135b3f4358",
+          "word_count": 440
+        }
+      }
+    },
+    {
+      "pia_id": "pia-600cb0f6e670",
+      "title_en": "Canadian Agricultural Loans Act Program",
+      "title_fr": "Programme de la Loi canadienne sur les prêts agricoles",
+      "url_en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/canadian-agricultural-loans-act",
+      "url_fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/loi-canadienne-prets-agricoles",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/canadian-agricultural-loans-act",
+        "alternate_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/loi-canadienne-prets-agricoles"
+      },
+      "sources": {
+        "en": {
+          "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/canadian-agricultural-loans-act",
+          "title_from_list": "Canadian Agricultural Loans Act Program",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/canadian-agricultural-loans-act",
+              "title": "Canadian Agricultural Loans Act Program",
+              "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/canadian-agricultural-loans-act"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/canadian-agricultural-loans-act",
+            "final_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/canadian-agricultural-loans-act",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:56.829476+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 07:04:11 GMT",
+            "etag": "W/\"1794380651-gzip\"",
+            "byte_count": 26538,
+            "sha256": "47f105df55c4de472492c581d643c88cf3fd63b853bd61b635f5bcac7801ac69"
+          },
+          "raw_path": "raw/600cb0f6e670f69753be.html",
+          "markdown_path": "pia-600cb0f6e670_en.md",
+          "markdown_sha256": "65e0c1a3c44d71eea71befd75746378d66bd245d09e9e412c51531e90efa9ff3",
+          "status": "exported",
+          "page_title": "Canadian Agricultural Loans Act Program",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "http://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/canadian-agricultural-loans-act",
+            "fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/loi-canadienne-prets-agricoles"
+          },
+          "date_modified": "2020-02-24",
+          "date_published": "2011-04-19",
+          "has_pia_text": true,
+          "title": "Canadian Agricultural Loans Act Program",
+          "conversion": "markdownify",
+          "text_sha256": "452eb189ae75a2b43ad2554984ea6e06114415e1d202fbcc34ec74792420a8b6",
+          "word_count": 315
+        },
+        "fr": {
+          "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/loi-canadienne-prets-agricoles",
+          "title_from_list": "Programme de la Loi canadienne sur les prêts agricoles",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/loi-canadienne-prets-agricoles",
+              "title": "Programme de la Loi canadienne sur les prêts agricoles",
+              "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/loi-canadienne-prets-agricoles"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/loi-canadienne-prets-agricoles",
+            "final_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/loi-canadienne-prets-agricoles",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:57.999323+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 07:09:19 GMT",
+            "etag": "W/\"1794380959-gzip\"",
+            "byte_count": 27862,
+            "sha256": "353197b09ce2fd0ac2f78b1312fdf493f94c0e5d1273b69128c265e1200486d1"
+          },
+          "raw_path": "raw/864cc5c7b294e4e2e103.html",
+          "markdown_path": "pia-600cb0f6e670_fr.md",
+          "markdown_sha256": "95940c5367b274e101a64dc4a0efcc123393a1896b2cfe4afe058e98a2f35d77",
+          "status": "exported",
+          "page_title": "Programme de la Loi canadienne sur les prêts agricoles",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/canadian-agricultural-loans-act",
+            "fr": "http://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/loi-canadienne-prets-agricoles"
+          },
+          "date_modified": "2020-02-24",
+          "date_published": "2011-04-19",
+          "has_pia_text": true,
+          "title": "Programme de la Loi canadienne sur les prêts agricoles",
+          "conversion": "markdownify",
+          "text_sha256": "1007512dad72dd68940c32f7310d6c24e1ccc66a87faaed998de7a7bf0d763ac",
+          "word_count": 418
+        }
+      }
+    },
+    {
+      "pia_id": "pia-78bb1170222d",
+      "title_en": "Integrated Financial and Material System, Salary Forecasting Tool",
+      "title_fr": "Système intégré des finances et du matériel, Outil de prévisions salariales",
+      "url_en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/salary-forecasting-tool",
+      "url_fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/outil-previsions-salariales",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/salary-forecasting-tool",
+        "alternate_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/outil-previsions-salariales"
+      },
+      "sources": {
+        "en": {
+          "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/salary-forecasting-tool",
+          "title_from_list": "Integrated Financial and Material System, Salary Forecasting Tool",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/salary-forecasting-tool",
+              "title": "Integrated Financial and Material System, Salary Forecasting Tool",
+              "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/salary-forecasting-tool"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/salary-forecasting-tool",
+            "final_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/salary-forecasting-tool",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:57.255144+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 06:29:48 GMT",
+            "etag": "W/\"1794378588-gzip\"",
+            "byte_count": 26763,
+            "sha256": "bc40eec140bd52c13de0ccc20796589db474f5bac267c1c292335148d3da4cbf"
+          },
+          "raw_path": "raw/78bb1170222dde60db1d.html",
+          "markdown_path": "pia-78bb1170222d_en.md",
+          "markdown_sha256": "b12a410f78d0e7d3220e87343eddf161c6081268952fbdb5075223f032d2e44d",
+          "status": "exported",
+          "page_title": "Integrated Financial and Material System, Salary Forecasting Tool",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/salary-forecasting-tool",
+            "fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/outil-previsions-salariales"
+          },
+          "date_modified": "2010-07-22",
+          "date_published": "2010-07-21",
+          "has_pia_text": true,
+          "title": "Integrated Financial and Material System, Salary Forecasting Tool",
+          "conversion": "markdownify",
+          "text_sha256": "38bbb2374b12416f60d5682d60e414495989c1f0acf48750bc776503c2173a28",
+          "word_count": 272
+        },
+        "fr": {
+          "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/outil-previsions-salariales",
+          "title_from_list": "Système intégré des finances et du matériel, Outil de prévisions salariales",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/outil-previsions-salariales",
+              "title": "Système intégré des finances et du matériel, Outil de prévisions salariales",
+              "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/outil-previsions-salariales"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/outil-previsions-salariales",
+            "final_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/outil-previsions-salariales",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:58.053075+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 07:08:05 GMT",
+            "etag": "W/\"1794380885-gzip\"",
+            "byte_count": 27812,
+            "sha256": "929ad1794a9f83b6e3da53e5e8662f8e82427ae146626147868b3fd73bd9a7bd"
+          },
+          "raw_path": "raw/846daf6a43f865f957ee.html",
+          "markdown_path": "pia-78bb1170222d_fr.md",
+          "markdown_sha256": "c0279fe0fa11e2c8dedc3c621510768f8dbeb64539273d5ef94a6b0fd7febd9d",
+          "status": "exported",
+          "page_title": "Système intégré des finances et du matériel, Outil de prévisions salariales",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/salary-forecasting-tool",
+            "fr": "http://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/outil-previsions-salariales"
+          },
+          "date_modified": "2010-07-22",
+          "date_published": "2010-07-21",
+          "has_pia_text": true,
+          "title": "Système intégré des finances et du matériel, Outil de prévisions salariales",
+          "conversion": "markdownify",
+          "text_sha256": "bbeaacb8e5e39bea438b7f849b3c1c14d609db4160a1dde1de1d97e41f3aa098",
+          "word_count": 340
+        }
+      }
+    },
+    {
+      "pia_id": "pia-2fc21dd63d54",
+      "title_en": "Tax Information Slips and Tax Information Slip System",
+      "title_fr": "Les feuillets de renseignements fiscaux et le système de feuillets de renseignements fiscaux",
+      "url_en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/tax-information-slips",
+      "url_fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/feuillets-renseignements-fiscaux",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/tax-information-slips",
+        "alternate_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/feuillets-renseignements-fiscaux"
+      },
+      "sources": {
+        "en": {
+          "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/tax-information-slips",
+          "title_from_list": "Tax Information Slips and Tax Information Slip System",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/tax-information-slips",
+              "title": "Tax Information Slips and Tax Information Slip System",
+              "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/tax-information-slips"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/tax-information-slips",
+            "final_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/tax-information-slips",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:57.360961+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 07:04:33 GMT",
+            "etag": "W/\"1794380673-gzip\"",
+            "byte_count": 26497,
+            "sha256": "686cd37aa170100636497e353fa7ddbe4dc6f95d5fdd20a35c2cb78c29ccb68c"
+          },
+          "raw_path": "raw/2fc21dd63d54154fdc3d.html",
+          "markdown_path": "pia-2fc21dd63d54_en.md",
+          "markdown_sha256": "44c8410c5298fe5d8e8a5acdace6b0bc745c3b3373112638b0e8c035d082e801",
+          "status": "exported",
+          "page_title": "Tax Information Slips and Tax Information Slip System",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "http://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/tax-information-slips",
+            "fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/feuillets-renseignements-fiscaux"
+          },
+          "date_modified": "2022-01-27",
+          "date_published": "2022-01-27",
+          "has_pia_text": true,
+          "title": "Tax Information Slips and Tax Information Slip System",
+          "conversion": "markdownify",
+          "text_sha256": "c04d2b6a79703197fd84a91f7f817aa679c81086da5a1b923e37b3c5b1c88135",
+          "word_count": 331
+        },
+        "fr": {
+          "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/feuillets-renseignements-fiscaux",
+          "title_from_list": "Les feuillets de renseignements fiscaux et le système de feuillets de renseignements fiscaux",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/feuillets-renseignements-fiscaux",
+              "title": "Les feuillets de renseignements fiscaux et le système de feuillets de renseignements fiscaux",
+              "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/feuillets-renseignements-fiscaux"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/feuillets-renseignements-fiscaux",
+            "final_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/feuillets-renseignements-fiscaux",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:57.788732+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 07:10:04 GMT",
+            "etag": "W/\"1794381004-gzip\"",
+            "byte_count": 27538,
+            "sha256": "34b8aba0d1939eae662681f90f6a7cdfa3565346a612de2886fb53c348384c81"
+          },
+          "raw_path": "raw/745060d46e5d78ade369.html",
+          "markdown_path": "pia-2fc21dd63d54_fr.md",
+          "markdown_sha256": "5340ed343274d4952ec19c51a9fab610a1bab01ffe8010b98a199fe823f31cb7",
+          "status": "exported",
+          "page_title": "Les feuillets de renseignements fiscaux et le système de feuillets de renseignements fiscaux",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/tax-information-slips",
+            "fr": "http://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/feuillets-renseignements-fiscaux"
+          },
+          "date_modified": "2022-01-27",
+          "date_published": "2022-01-27",
+          "has_pia_text": true,
+          "title": "Les feuillets de renseignements fiscaux et le système de feuillets de renseignements fiscaux",
+          "conversion": "markdownify",
+          "text_sha256": "270e2956f590ec04e23243774699118420401976ef9954baddf19bb32d9a484f",
+          "word_count": 407
+        }
+      }
+    },
+    {
+      "pia_id": "pia-ccbc021cacd8",
+      "title_en": "Business Risk Management Suite Delivery Modules",
+      "title_fr": "Modules de prestation des programmes de gestion des risques de l'entreprise",
+      "url_en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/business-risk-management",
+      "url_fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/gestion-risques-entreprise",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/business-risk-management",
+        "alternate_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/gestion-risques-entreprise"
+      },
+      "sources": {
+        "en": {
+          "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/business-risk-management",
+          "title_from_list": "Business Risk Management Suite Delivery Modules",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/business-risk-management",
+              "title": "Business Risk Management Suite Delivery Modules",
+              "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/business-risk-management"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/business-risk-management",
+            "final_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/business-risk-management",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:56.297441+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 07:04:34 GMT",
+            "etag": "W/\"1794380674-gzip\"",
+            "byte_count": 26458,
+            "sha256": "d3201bd71468edd07581089dd721e2e6e1da7fae8796d9085937a3b630ffd8b1"
+          },
+          "raw_path": "raw/ccbc021cacd8598de447.html",
+          "markdown_path": "pia-ccbc021cacd8_en.md",
+          "markdown_sha256": "378c0205c70643c2fb5be681ffd09c06f2b76de55a676f52b068d3b9c7fd459e",
+          "status": "exported",
+          "page_title": "Business Risk Management Suite Delivery Modules",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "http://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/business-risk-management",
+            "fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/gestion-risques-entreprise"
+          },
+          "date_modified": "2022-01-27",
+          "date_published": "2022-01-27",
+          "has_pia_text": true,
+          "title": "Business Risk Management Suite Delivery Modules",
+          "conversion": "markdownify",
+          "text_sha256": "af70df1c362b71020ad9cc5ef3b93d8f4442faed6ae9d3a344a72b955b3f95d8",
+          "word_count": 369
+        },
+        "fr": {
+          "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/gestion-risques-entreprise",
+          "title_from_list": "Modules de prestation des programmes de gestion des risques de l'entreprise",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/gestion-risques-entreprise",
+              "title": "Modules de prestation des programmes de gestion des risques de l'entreprise",
+              "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/gestion-risques-entreprise"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/gestion-risques-entreprise",
+            "final_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/gestion-risques-entreprise",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:57.957376+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 07:10:05 GMT",
+            "etag": "W/\"1794381005-gzip\"",
+            "byte_count": 27721,
+            "sha256": "b84d6d5e55e5057b85d952fdab43f0869b43cabd2668b209d0a76968f4ad2c41"
+          },
+          "raw_path": "raw/66d59f6933dc98c3fde5.html",
+          "markdown_path": "pia-ccbc021cacd8_fr.md",
+          "markdown_sha256": "06123c66c8907f594d828895551b01f616d5997377f29018f5752869204e4cb9",
+          "status": "exported",
+          "page_title": "Modules de prestation des programmes de gestion des risques de l'entreprise",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/business-risk-management",
+            "fr": "http://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/gestion-risques-entreprise"
+          },
+          "date_modified": "2022-01-27",
+          "date_published": "2022-01-27",
+          "has_pia_text": true,
+          "title": "Modules de prestation des programmes de gestion des risques de l'entreprise",
+          "conversion": "markdownify",
+          "text_sha256": "c4385ede829c6285c5d379b6365913ebf410e2c286d81acc13b9ede740a5aebc",
+          "word_count": 453
+        }
+      }
+    },
+    {
+      "pia_id": "pia-b57bfd66b124",
+      "title_en": "Government of Canada Human Resource Management System (Oracle PeopleSoft Enterprise application), version 8.9",
+      "title_fr": "La version 8.9 du système de gestion des ressources humaines (SGRH) du Gouvernement du Canada (application d'Oracle PeopleSoft Enterprise)",
+      "url_en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/human-resource-management-system",
+      "url_fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/systeme-gestion-ressources-humaines",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/human-resource-management-system",
+        "alternate_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/systeme-gestion-ressources-humaines"
+      },
+      "sources": {
+        "en": {
+          "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/human-resource-management-system",
+          "title_from_list": "Government of Canada Human Resource Management System",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/human-resource-management-system",
+              "title": "Government of Canada Human Resource Management System",
+              "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/human-resource-management-system"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/human-resource-management-system",
+            "final_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/human-resource-management-system",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:57.115534+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 07:04:07 GMT",
+            "etag": "W/\"1794380647-gzip\"",
+            "byte_count": 29551,
+            "sha256": "31745e0df1cf215386367cff69987a890435a27d1d3275e05a5da0391dbe9797"
+          },
+          "raw_path": "raw/b57bfd66b1243c227925.html",
+          "markdown_path": "pia-b57bfd66b124_en.md",
+          "markdown_sha256": "30c117df32cd82a827314d327a0a125d73d1aeb8ff08e6ced774602c2202e17a",
+          "status": "exported",
+          "page_title": "Government of Canada Human Resource Management System (Oracle PeopleSoft Enterprise application), version 8.9",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "http://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/human-resource-management-system",
+            "fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/systeme-gestion-ressources-humaines"
+          },
+          "date_modified": "2009-11-21",
+          "date_published": "2009-11-20",
+          "has_pia_text": true,
+          "title": "Government of Canada Human Resource Management System (Oracle PeopleSoft Enterprise application), version 8.9",
+          "conversion": "markdownify",
+          "text_sha256": "27d87dc2d852892c56cf499b64139b95466bc86d98542f717bffa65ccc0a20b5",
+          "word_count": 553
+        },
+        "fr": {
+          "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/systeme-gestion-ressources-humaines",
+          "title_from_list": "Système de gestion des ressources humaines du Gouvernement du Canada",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/systeme-gestion-ressources-humaines",
+              "title": "Système de gestion des ressources humaines du Gouvernement du Canada",
+              "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/systeme-gestion-ressources-humaines"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/systeme-gestion-ressources-humaines",
+            "final_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/systeme-gestion-ressources-humaines",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:58.252134+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 03:50:23 GMT",
+            "etag": "W/\"1794369023-gzip\"",
+            "byte_count": 31257,
+            "sha256": "7f543d89296002796e7c04b0ee62742465371207525e1fee716a0149a4a321b4"
+          },
+          "raw_path": "raw/f7fdc259fbb8c04dc8d8.html",
+          "markdown_path": "pia-b57bfd66b124_fr.md",
+          "markdown_sha256": "2bfac0b0f17a98462da36ab013a82f8a160ee1d3100221a63565c96894e254f8",
+          "status": "exported",
+          "page_title": "La version 8.9 du système de gestion des ressources humaines (SGRH) du Gouvernement du Canada (application d'Oracle PeopleSoft Enterprise)",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/human-resource-management-system",
+            "fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/systeme-gestion-ressources-humaines"
+          },
+          "date_modified": "2009-11-21",
+          "date_published": "2009-11-20",
+          "has_pia_text": true,
+          "title": "La version 8.9 du système de gestion des ressources humaines (SGRH) du Gouvernement du Canada (application d'Oracle PeopleSoft Enterprise)",
+          "conversion": "markdownify",
+          "text_sha256": "b5d6a8b87ca91dc7ffd396376afe9b426454c9756291e0383326993dfc98fbda",
+          "word_count": 691
+        }
+      }
+    },
+    {
+      "pia_id": "pia-cedc170f76b6",
+      "title_en": "Land-Based System",
+      "title_fr": "Système terrestre",
+      "url_en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/land-based-system",
+      "url_fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/systeme-terrestre",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/land-based-system",
+        "alternate_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/systeme-terrestre"
+      },
+      "sources": {
+        "en": {
+          "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/land-based-system",
+          "title_from_list": "Land-Based System",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+          "discovered_under": "Privacy impact assessment summaries",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/land-based-system",
+              "title": "Land-Based System",
+              "list_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/land-based-system"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/land-based-system",
+            "final_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/land-based-system",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:57.153322+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 07:04:05 GMT",
+            "etag": "W/\"1794380645-gzip\"",
+            "byte_count": 27059,
+            "sha256": "8ae224fe8a85cc8358585daacd6480b49aca575777c1d7a8e575f145da6140e6"
+          },
+          "raw_path": "raw/cedc170f76b6c9e45aca.html",
+          "markdown_path": "pia-cedc170f76b6_en.md",
+          "markdown_sha256": "fc68e47841bf62b0bd3d5ccf4451394dc059b2b4ddc99022fd9f2746a8702fde",
+          "status": "exported",
+          "page_title": "Land-Based System",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "http://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/land-based-system",
+            "fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/systeme-terrestre"
+          },
+          "date_modified": "2019-01-25",
+          "date_published": "2010-08-04",
+          "has_pia_text": true,
+          "title": "Land-Based System",
+          "conversion": "markdownify",
+          "text_sha256": "857b6da85a2c902cb54ccbbf1f7c150f57f447c2ec8816f14a2d4fef5fb84c53",
+          "word_count": 328
+        },
+        "fr": {
+          "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/systeme-terrestre",
+          "title_from_list": "Système terrestre",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/systeme-terrestre",
+              "title": "Système terrestre",
+              "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/systeme-terrestre"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/systeme-terrestre",
+            "final_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/systeme-terrestre",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:58.318955+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 07:08:40 GMT",
+            "etag": "W/\"1794380920-gzip\"",
+            "byte_count": 28316,
+            "sha256": "55793425f11efc5fe26365ca1e568d74b53ec6b5ea3e1809f7a2969887067b8e"
+          },
+          "raw_path": "raw/d253554aac6108e61105.html",
+          "markdown_path": "pia-cedc170f76b6_fr.md",
+          "markdown_sha256": "57cefc371299adac0309e6a445f87f9345a094e3a68cb30cb98b637e07bd317c",
+          "status": "exported",
+          "page_title": "Système terrestre",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/land-based-system",
+            "fr": "http://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/systeme-terrestre"
+          },
+          "date_modified": "2019-01-25",
+          "date_published": "2010-08-04",
+          "has_pia_text": true,
+          "title": "Système terrestre",
+          "conversion": "markdownify",
+          "text_sha256": "84f00c63d479ee8669b07de27a60ce4580c6353d69d10b3b8ebab284daec20dc",
+          "word_count": 450
+        }
+      }
+    },
+    {
+      "pia_id": "pia-24ae5911f8f5",
+      "title_en": "Environment Programs",
+      "title_fr": "Programmes environnementaux",
+      "url_en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/environment",
+      "url_fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/environnement",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/environnement",
+        "alternate_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/environment"
+      },
+      "sources": {
+        "fr": {
+          "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/environnement",
+          "title_from_list": "Cadre stratégique pour l'agriculture : Programmes environnementaux",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+          "discovered_under": "Évaluation des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/environnement",
+              "title": "Cadre stratégique pour l'agriculture : Programmes environnementaux",
+              "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/environnement"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/environnement",
+            "final_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/environnement",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:41:57.657771+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 07:08:01 GMT",
+            "etag": "W/\"1794380881-gzip\"",
+            "byte_count": 30554,
+            "sha256": "7bff046dc1451cf08b973dfb3b6ae9d25eea804f4d6596163bc46d701566a149"
+          },
+          "raw_path": "raw/0d92d37fa906feb34f69.html",
+          "markdown_path": "pia-24ae5911f8f5_fr.md",
+          "markdown_sha256": "4cf74db5d0522baf0731fd093f40acb3151499963da34b278e510d1d7e97d5d3",
+          "status": "exported",
+          "page_title": "Programmes environnementaux",
+          "html_language": "fr",
+          "language_alternates": {
+            "en": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/environment",
+            "fr": "http://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/environnement"
+          },
+          "date_modified": "2009-11-06",
+          "date_published": "2009-11-06",
+          "has_pia_text": true,
+          "title": "Programmes environnementaux",
+          "conversion": "markdownify",
+          "text_sha256": "8fc7e38f6f6d8ef236ade7a40fd3db8899bdc5058bcedf0d6b88595cdc4870db",
+          "word_count": 653
+        },
+        "en": {
+          "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/environment",
+          "title_from_list": "Environment Programs",
+          "kind": "page",
+          "discovery_method": "document_language_link",
+          "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+          "discovered_under": null,
+          "discovery_references": [
+            {
+              "url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/environment",
+              "title": "Environment Programs",
+              "list_url": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations",
+              "discovery_method": "document_language_link"
+            }
+          ],
+          "aliases": [
+            "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/environment"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/environment",
+            "final_url": "https://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/environment",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:43:08.596474+00:00",
+            "redirects": [],
+            "content_type": "text/html; charset=UTF-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Wed, 11 Nov 2026 07:04:01 GMT",
+            "etag": "W/\"1794380641-gzip\"",
+            "byte_count": 28862,
+            "sha256": "e9f1defc5b2f1b4cc3f498d34e408eb28a08aa2c043c6a436ffbfe45d44b58b1"
+          },
+          "raw_path": "raw/24ae5911f8f518c57b0b.html",
+          "markdown_path": "pia-24ae5911f8f5_en.md",
+          "markdown_sha256": "897810dff2d3922b55464e9a48beb45be4213e86aa5557f893d45192aa0fadac",
+          "status": "exported",
+          "page_title": "Environment Programs",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "http://agriculture.canada.ca/en/department/transparency/access-information-protection-privacy/assessments/environment",
+            "fr": "https://agriculture.canada.ca/fr/ministere/transparence/acces-linformation-protection-renseignements-personnels/evaluations/environnement"
+          },
+          "date_modified": "2009-11-06",
+          "date_published": "2009-11-06",
+          "has_pia_text": true,
+          "title": "Environment Programs",
+          "conversion": "markdownify",
+          "text_sha256": "630c62e20305fa21ca79010013601dd0ec9337624219654a56a0f603447e6d31",
+          "word_count": 517
+        }
+      }
+    }
+  ],
+  "summary": {
+    "pia_count": 20,
+    "paired_count": 20,
+    "source_status_counts": {
+      "exported": 40
+    }
+  }
+}

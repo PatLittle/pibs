@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "collector_version": 1,
+  "collected_at_utc": "2026-11-12T01:50:35.061411+00:00",
+  "institution_id": "ati-schedule-i-department-of-natural-resources",
+  "gc_orgID": "2234.0",
+  "open_canada_org_id": "9391E0A2-9717-4755-B548-4499C21F917B",
+  "open_canada_org_slug": "nrcan-rncan",
+  "name_en": "Department of Natural Resources",
+  "name_fr": "Ministère des Ressources naturelles",
+  "registry_membership": "current_registry",
+  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "list_pages": {
+    "en": {
+      "indexed_url": "https://natural-resources.canada.ca/corporate/transparency/privacy-impact-assessments-pia",
+      "index_resolution": "http_error",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "http_error",
+      "captures": [
+        {
+          "requested_url": "https://natural-resources.canada.ca/corporate/transparency/privacy-impact-assessments-pia",
+          "final_url": "https://natural-resources.canada.ca/corporate/transparency/privacy-impact-assessments-pia",
+          "http_status": 403,
+          "checked_at_utc": "2026-11-12T01:49:47.105167+00:00",
+          "redirects": [],
+          "content_type": "text/html",
+          "encoding": "",
+          "error": "HTTP Error 403: Forbidden",
+          "byte_count": 919,
+          "sha256": "06ce9ffead676de8ea087e4e08a9686b620f5700a00edf5217d7964f89d34445",
+          "raw_path": null
+        }
+      ],
+      "discovered_count": 0,
+      "scopes": [],
+      "warnings": []
+    },
+    "fr": {
+      "indexed_url": "https://ressources-naturelles.canada.ca/organisation/transparence/evaluations-facteurs-relatifs-vie-privee-efvp",
+      "index_resolution": "http_error",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "http_error",
+      "captures": [
+        {
+          "requested_url": "https://ressources-naturelles.canada.ca/organisation/transparence/evaluations-facteurs-relatifs-vie-privee-efvp",
+          "final_url": "https://ressources-naturelles.canada.ca/organisation/transparence/evaluations-facteurs-relatifs-vie-privee-efvp",
+          "http_status": 403,
+          "checked_at_utc": "2026-11-12T01:49:47.108000+00:00",
+          "redirects": [],
+          "content_type": "text/html",
+          "encoding": "",
+          "error": "HTTP Error 403: Forbidden",
+          "byte_count": 919,
+          "sha256": "6df31198e3dce396a5211081e9344ada2333b4bcbd5f9825b8bf16851bfc1b9f",
+          "raw_path": null
+        }
+      ],
+      "discovered_count": 0,
+      "scopes": [],
+      "warnings": []
+    }
+  },
+  "pias": [],
+  "summary": {
+    "pia_count": 0,
+    "paired_count": 0,
+    "source_status_counts": {}
+  }
+}

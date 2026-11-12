@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "collector_version": 1,
+  "collected_at_utc": "2026-11-12T01:50:31.355574+00:00",
+  "institution_id": "ati-schedule-i-department-of-the-environment",
+  "gc_orgID": "2237.0",
+  "open_canada_org_id": "49E2ADF4-AD7A-43EB-85C8-6433D37ED62C",
+  "open_canada_org_slug": "ec",
+  "name_en": "Department of the Environment",
+  "name_fr": "Ministère de l’Environnement",
+  "registry_membership": "current_registry",
+  "source_index_sha256": "5267d39e75a6e736281822ace3ef19b10c5fb8674193a901c218c155c7e27d9a",
+  "list_pages": {
+    "en": {
+      "indexed_url": "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy.html",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy.html",
+          "final_url": "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy.html",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:28.705456+00:00",
+          "redirects": [],
+          "content_type": "text/html;charset=utf-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Thu, 12 Nov 2026 00:20:20 GMT",
+          "etag": null,
+          "byte_count": 24150,
+          "sha256": "6c0df6fb172a85c31c5b73be4583a7d00a8d2befd5808aa435b960649d6d88f2",
+          "raw_path": "raw/97f850d5496c210ef9de.html"
+        }
+      ],
+      "discovered_count": 2,
+      "scopes": [
+        "Privacy Impact Assessment Summaries"
+      ],
+      "warnings": []
+    },
+    "fr": {
+      "indexed_url": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels.html",
+      "index_resolution": "list_detected",
+      "pia_link_in_infosource": "Y",
+      "review_note": null,
+      "status": "discovered",
+      "captures": [
+        {
+          "requested_url": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels.html",
+          "final_url": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels.html",
+          "http_status": 200,
+          "checked_at_utc": "2026-11-12T01:34:29.134483+00:00",
+          "redirects": [],
+          "content_type": "text/html;charset=utf-8",
+          "encoding": "utf-8",
+          "error": null,
+          "last_modified": "Thu, 12 Nov 2026 00:26:05 GMT",
+          "etag": null,
+          "byte_count": 25738,
+          "sha256": "5f309422221a638b79a83c09bab3ccebdb032ec3753b272f91ba2a7f0a92d2a3",
+          "raw_path": "raw/962f9633eed76a0f01db.html"
+        }
+      ],
+      "discovered_count": 2,
+      "scopes": [
+        "Sommaires d’évaluations des facteurs relatifs à la vie privée"
+      ],
+      "warnings": []
+    }
+  },
+  "pias": [
+    {
+      "pia_id": "pia-5505011f5975",
+      "title_en": "Migratory Birds Program Privacy Impact Assessment",
+      "title_fr": "Évaluation des facteurs relatifs à la vie privée du programme des oiseaux migrateurs",
+      "url_en": "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy/migratory-birds-program.html",
+      "url_fr": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels/programme-oiseaux-migrateurs.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy/migratory-birds-program.html",
+        "alternate_url": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels/programme-oiseaux-migrateurs.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy/migratory-birds-program.html",
+          "title_from_list": "Migratory Birds Program Privacy Impact Assessment",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy.html",
+          "discovered_under": "Privacy Impact Assessment Summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy/migratory-birds-program.html",
+              "title": "Migratory Birds Program Privacy Impact Assessment",
+              "list_url": "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy/migratory-birds-program.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy/migratory-birds-program.html",
+            "final_url": "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy/migratory-birds-program.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:14.828875+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 00:42:00 GMT",
+            "etag": null,
+            "byte_count": 21867,
+            "sha256": "8c83b51ca44f1f910f7bfb19d737d49e51c43e3fa76c6bd812624e7a3eb48b2a"
+          },
+          "raw_path": "raw/5505011f5975f1591dae.html",
+          "markdown_path": "pia-5505011f5975_en.md",
+          "markdown_sha256": "4fef2426947384f5c76d1109b10cd678021e474bf234367966522c27b783ca94",
+          "status": "exported",
+          "page_title": "Migratory Birds Program Privacy Impact Assessment",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy/migratory-birds-program.html",
+            "fr": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels/programme-oiseaux-migrateurs.html"
+          },
+          "date_modified": "2026-05-21",
+          "date_published": "2026-05-21",
+          "has_pia_text": true,
+          "title": "Migratory Birds Program Privacy Impact Assessment",
+          "conversion": "markdownify",
+          "text_sha256": "17de6159846f68d020942b13d714d42b866216f7fcd8d6ae92889f8ce685b6ab",
+          "word_count": 242
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels/programme-oiseaux-migrateurs.html",
+          "title_from_list": "Évaluation des facteurs relatifs à la vie privée du programme des oiseaux migrateurs",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels.html",
+          "discovered_under": "Sommaires d’évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels/programme-oiseaux-migrateurs.html",
+              "title": "Évaluation des facteurs relatifs à la vie privée du programme des oiseaux migrateurs",
+              "list_url": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels/programme-oiseaux-migrateurs.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels/programme-oiseaux-migrateurs.html",
+            "final_url": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels/programme-oiseaux-migrateurs.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:20.550034+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 00:57:19 GMT",
+            "etag": null,
+            "byte_count": 23338,
+            "sha256": "33ed711ff819e2e43ae295d01652f8755452e0ec3a7ab0fb63c203f8a975ad30"
+          },
+          "raw_path": "raw/d81b34b39d5abc82ee2e.html",
+          "markdown_path": "pia-5505011f5975_fr.md",
+          "markdown_sha256": "d0f0a62be0c00da6ace512482f2765a92759229bf21705aa021bd6f928ad9a7f",
+          "status": "exported",
+          "page_title": "Évaluation des facteurs relatifs à la vie privée du programme des oiseaux migrateurs",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels/programme-oiseaux-migrateurs.html",
+            "en": "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy/migratory-birds-program.html"
+          },
+          "date_modified": "2026-05-21",
+          "date_published": "2026-05-21",
+          "has_pia_text": true,
+          "title": "Évaluation des facteurs relatifs à la vie privée du programme des oiseaux migrateurs",
+          "conversion": "markdownify",
+          "text_sha256": "3a7f0af8c1fb098d6f750143b20ee2002715203edcd8943812a7dba61745ae4a",
+          "word_count": 355
+        }
+      }
+    },
+    {
+      "pia_id": "pia-21018a56f19b",
+      "title_en": "Science Horizons Youth Internship Program",
+      "title_fr": "Programme de stages Horizons Sciences pour les jeunes",
+      "url_en": "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy/science-horizons-youth-internship-program.html",
+      "url_fr": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels/programme-stages-horizons-science-jeunes.html",
+      "pairing_status": "paired",
+      "pairing_method": "explicit_language_link",
+      "pairing_evidence": {
+        "from_url": "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy/science-horizons-youth-internship-program.html",
+        "alternate_url": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels/programme-stages-horizons-science-jeunes.html"
+      },
+      "sources": {
+        "en": {
+          "url": "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy/science-horizons-youth-internship-program.html",
+          "title_from_list": "Science and Horizons Youth Internship Program",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy.html",
+          "discovered_under": "Privacy Impact Assessment Summaries",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy/science-horizons-youth-internship-program.html",
+              "title": "Science and Horizons Youth Internship Program",
+              "list_url": "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy/science-horizons-youth-internship-program.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy/science-horizons-youth-internship-program.html",
+            "final_url": "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy/science-horizons-youth-internship-program.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:14.857318+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 00:42:25 GMT",
+            "etag": null,
+            "byte_count": 21441,
+            "sha256": "e68695d5b2c5a81aceb438d06b3fc83598a2fbccf8584c1729298a8a5f9b10c1"
+          },
+          "raw_path": "raw/21018a56f19b0cc28252.html",
+          "markdown_path": "pia-21018a56f19b_en.md",
+          "markdown_sha256": "5f0de7690b589c8622fd414707d7048fd94172392cebb61343a3e78c4370e12a",
+          "status": "exported",
+          "page_title": "Science Horizons Youth Internship Program",
+          "html_language": "en",
+          "language_alternates": {
+            "en": "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy/science-horizons-youth-internship-program.html",
+            "fr": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels/programme-stages-horizons-science-jeunes.html"
+          },
+          "date_modified": "2024-09-09",
+          "date_published": "2024-09-09",
+          "has_pia_text": true,
+          "title": "Science Horizons Youth Internship Program",
+          "conversion": "markdownify",
+          "text_sha256": "86cf289dbee800c700e0028e6e69994b38cc421c4623adf20343792a3de9ebf8",
+          "word_count": 186
+        },
+        "fr": {
+          "url": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels/programme-stages-horizons-science-jeunes.html",
+          "title_from_list": "Programme de stages Horizons Sciences pour les jeunes",
+          "kind": "page",
+          "discovery_method": "pia_section_link",
+          "list_url": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels.html",
+          "discovered_under": "Sommaires d’évaluations des facteurs relatifs à la vie privée",
+          "discovery_references": [
+            {
+              "url": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels/programme-stages-horizons-science-jeunes.html",
+              "title": "Programme de stages Horizons Sciences pour les jeunes",
+              "list_url": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels.html",
+              "discovery_method": "pia_section_link"
+            }
+          ],
+          "aliases": [
+            "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels/programme-stages-horizons-science-jeunes.html"
+          ],
+          "alternative_http_observations": [],
+          "http": {
+            "requested_url": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels/programme-stages-horizons-science-jeunes.html",
+            "final_url": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels/programme-stages-horizons-science-jeunes.html",
+            "http_status": 200,
+            "checked_at_utc": "2026-11-12T01:42:20.569456+00:00",
+            "redirects": [],
+            "content_type": "text/html;charset=utf-8",
+            "encoding": "utf-8",
+            "error": null,
+            "last_modified": "Thu, 12 Nov 2026 01:42:21 GMT",
+            "etag": null,
+            "byte_count": 22454,
+            "sha256": "41f2cfbe478d69eaa3849be0962d096ea553fdeb7ecf0e5b58a42b4506ac8e05"
+          },
+          "raw_path": "raw/2f99bdd64aeb0c094d04.html",
+          "markdown_path": "pia-21018a56f19b_fr.md",
+          "markdown_sha256": "346485eedfb347b44d852ef36e16ed2223e43fc0374a683b128b274574db18af",
+          "status": "exported",
+          "page_title": "Programme de stages Horizons Sciences pour les jeunes",
+          "html_language": "fr",
+          "language_alternates": {
+            "fr": "https://www.canada.ca/fr/environnement-changement-climatique/organisation/transparence/acces-information-protection-renseignements-personnels/programme-stages-horizons-science-jeunes.html",
+            "en": "https://www.canada.ca/en/environment-climate-change/corporate/transparency/access-information-privacy/science-horizons-youth-internship-program.html"
+          },
+          "date_modified": "2024-09-09",
+          "date_published": "2024-09-09",
+          "has_pia_text": true,
+          "title": "Programme de stages Horizons Sciences pour les jeunes",
+          "conversion": "markdownify",
+          "text_sha256": "69ad1fd3290d5b84ebe34f61e9063a953eec87eb28a8d3c8fb597574200c4295",
+          "word_count": 249
+        }
+      }
+    }
+  ],
+  "summary": {
+    "pia_count": 2,
+    "paired_count": 2,
+    "source_status_counts": {
+      "exported": 4
+    }
+  }
+}
