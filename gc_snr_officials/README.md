@@ -90,6 +90,23 @@ Observed communications span **2008-07-02 to 2026-11-06**. Current counts, hashe
 for the ZIP and both input members, encoding, join/group definitions and freshness
 are always recorded in `data/manifest.json`; these counts are a dated snapshot.
 
+**Observed refresh limitation (2026-11-12):** the official OCL ZIP was successfully
+downloaded in the collection workspace, but GitHub-hosted runners receive HTTP
+403 from the same endpoint, including with a browser-compatible client. Scheduled
+runs retain the verified committed snapshot, its last-success date and counts;
+the manifest and About panel expose `retained_after_error` and the HTTP error.
+This does not remove the collected DPOH data. A fresh official download can be
+replayed on an environment with access, then validated and committed:
+
+```sh
+python gc_snr_officials/scripts/refresh_dpoh.py --zip-file /path/to/communications_ocl_cal.zip
+python gc_snr_officials/scripts/build_matches.py
+python gc_snr_officials/scripts/validate.py --require-appointments
+```
+
+Local replay records its capture method and the ZIP/member hashes. The primary
+export still contributes only the report ID and communication date.
+
 OIC evidence uses `processed-csvs/orders.csv` from `PatLittle/oic-data`, pinned to
 the upstream main commit at collection time. The Action matches complete observed
 normalized names in order précis text and retains the matched original/normalized
