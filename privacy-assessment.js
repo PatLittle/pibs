@@ -1,4 +1,4 @@
-import {getJson, dateLabel, languageLabel, statusLabel, fold, escapeHtml as esc} from './privacy-assessment-utils.js';
+import {getJson, dateLabel, languageLabel, statusLabel, fold, referenceList, number, escapeHtml as esc} from './privacy-assessment-utils.js';
 
 const $ = id => document.getElementById(id);
 let assessment;
@@ -77,6 +77,11 @@ async function init() {
     $('back-to-assessments').href = back.href;
     $('assessment-type').textContent = assessment.type === 'Privacy assessment' ? 'Collected privacy assessment summary' : assessment.type;
     sourceDetails();
+    $('reader-pib-count').textContent = `PIBs (${number(assessment.pib_count)})`;
+    $('reader-cor-count').textContent = `Classes of Records (${number(assessment.cor_count)})`;
+    $('reader-pibs').innerHTML = referenceList(assessment.references.pibs);
+    $('reader-cors').innerHTML = referenceList(assessment.references.classes_of_records);
+    $('reader-word-counts').textContent = `Words · EN: ${assessment.word_count_en == null ? 'not available' : number(assessment.word_count_en)} · FR: ${assessment.word_count_fr == null ? 'not available' : number(assessment.word_count_fr)}`;
     renderLanguage(params.get('lang') === 'fr' ? 'fr' : 'en');
     for (const lang of ['en', 'fr']) $('language-' + lang).addEventListener('click', () => { if (lang !== requestedLanguage) renderLanguage(lang, true); });
     window.addEventListener('popstate', () => renderLanguage(new URLSearchParams(location.search).get('lang') || 'en'));

@@ -1,0 +1,274 @@
+---
+title: "Opérations des centres de contact v 2.0 - Sommaire d'évaluation des facteurs relatifs à la vie privée"
+institution_id: "ati-schedule-i-canada-revenue-agency"
+language: "fr"
+source_url: "https://www.canada.ca/fr/agence-revenu/services/a-propos-agence-revenu-canada-arc/protection-vos-renseignements-personnels/evaluation-facteurs-relatifs-a-vie-privee/operations-centres-contact-v2.html"
+retrieved_at_utc: "2026-11-12T05:49:10.287886+00:00"
+http_status: 200
+source_sha256: "277ef4a5ba81291db4f14a4b2a1c33beea7f234b9c5cc6786eff29933c4f4984"
+content_kind: "page"
+---
+
+# Opérations des centres de contact v 2.0 - Sommaire d'évaluation des facteurs relatifs à la vie privée
+
+## Direction des services aux centres d’appels, Direction générale de cotisation, de prestation et de service Direction des recouvrements, Direction générale des recouvrements et de la vérification
+
+## Aperçu et amorce d’une ÉFVP
+
+#### **Institution fédérale**
+
+Agence du revenu du Canada
+
+#### **Fonctionnaire responsable de l’ÉFVP**
+
+Frank Vermaeten  
+Sous-commissaire  
+Direction générale de cotisation, de prestation et de service
+
+Michael Snaauw  
+Sous-commissaire  
+Direction générale des recouvrements et de la vérification
+
+#### **Responsable de l’institution fédérale ou délégué aux fins de l’article 10 de la Loi sur la protection des renseignements personnels**
+
+Marie-Claude Juneau  
+Coordonnatrice de l’AIPRP
+
+#### **Nom du programme ou de l’activité de l’institution fédérale**
+
+Services de communications
+
+#### **Description de la catégorie de document et du fichier de renseignements personnels**
+
+Catégories de documents spécifiques à l’institution ou ordinaire :  
+Communications  
+Numéro de document : ARC NDP 939
+
+Description des FRP spécifiques à l’institution ou ordinaire :  
+Communications publiques  
+Numéro du fichier de renseignements personnels AR: ARC POU 914
+
+#### **Autorisation légale pour le programme ou l’activité**
+
+- paragraphe 220(1) de la [Loi de l’impôt sur le revenu](https://www.canlii.org/fr/ca/legis/lois/lrc-1985-c-1-5e-suppl/derniere "Loi de l’impôt sur le revenu") (LIR);
+- article 237 de la LIR;
+- alinéa 241(4)h) de la LIR;
+- alinéa 241(4)j) de la LIR;
+- paragraphe 241(5) de la LIR;
+- paragraphe 275(1) de la [Loi sur la taxe d’accise](https://www.canlii.org/fr/ca/legis/lois/lrc-1985-c-e-15/derniere/lrc-1985-c-e-15.html "Loi sur la taxe d’accise") (LTA);
+- alinéa 277(1)d) de la LTA;
+- alinéa 51(1)b) de la [Loi sur l’Agence du revenu du Canada](http://laws-lois.justice.gc.ca/fra/lois/C-10.11/index.html "Loi sur l’Agence du revenu du Canada");
+- [Loi sur la gestion des finances publiques](https://www.canlii.org/fr/ca/legis/lois/lrc-1985-c-f-11/derniere/lrc-1985-c-f-11.html "Loi sur la gestion des finances publiques").
+
+### Résumé du projet, de l’initiative ou des modifications
+
+#### Aperçu du programme ou de l’activité
+
+##### Centre d’appels pour les demandes téléphoniques
+
+Les centres d’appels pour les demandes de renseignements fournissent un soutien aux particuliers, aux bénéficiaires de prestations, aux entreprises et aux fiducies, afin de leur aider à respecter leurs obligations fiscales et à les sensibiliser aux prestations auxquelles ils ont droit, et les aider avec leurs demandes de renseignements générales ou spécifiques au compte. Ce programme favorise l’observation, car il fournit aux contribuables les renseignements exacts et opportuns dont ils ont besoin pour se conformer aux lois fiscales du Canada et permet aux appelants de régler tout problème ou d’obtenir les renseignements dont ils ont besoin pour respecter leurs obligations fiscales et à recevoir les prestations auxquelles ils ont droit.
+
+Les centres d’appels pour les demandes renseignements traitent des millions de demandes de renseignements sur l’impôt chaque année et demeurent une voie essentielle pour la prestation de services aux contribuables. Ces demandes de renseignements sont traitées au moyen d’une combinaison de réponses fournies par les agents et de réponses téléphoniques automatisées.
+
+Le système de réponse vocale interactive (RVI) fournit des renseignements généraux et spécifiques aux compte (authentifiés sécurisés). Les centres d’appels surveillent également les appels téléphoniques pour l’assurance de la qualité au moyen du Programme national d’apprentissage de la qualité et de l’exactitude (PNAQE). Le PNAQE utilise un outil normalisé d’apprentissage de la qualité (un formulaire normalisé) qui permet aux écoutants accrédités du PNAQE d’aider les agents des services téléphoniques afin d’améliorer la qualité et l’exactitude. Les résultats du PNAQE sont utilisés pour donner de la rétroaction à chacun des agents; déterminer leurs besoins en formation; repérer les tendances locales, régionales et nationales; et réaliser des gains en efficience. Ainsi, la qualité du service que nous offrons à nos clients sera améliorée.
+
+##### Centres des appels de la gestion des créances
+
+Les centres des appels de la gestion des créances (CAGC) de l’Agence du revenu du Canada traitent les appels téléphoniques de haut volume et de faible complexité qui ont trait au recouvrement et à l’observation en provenance de partout au Canada, y compris prendre des ententes de paiement selon les limites établies. Ils fournissent un contact personnel préliminaire en faisant des appels externes pour aviser les contribuables de leurs dettes en souffrance ou en répondant aux demandes de renseignements téléphoniques entrantes relatives à des tentatives d’appels précédentes, des lettres ou des avis..
+
+Le système de réponse vocale interactive (RVI) fournit des renseignements généraux et spécifiques aux compte (authentifiés sécurisés). Les CAGC surveillent également les appels téléphoniques pour l’assurance de la qualité au moyen de l’Équipe du soutien de la qualité (ESQ). L’ESQ utilise un outil normalisé d’apprentissage de la qualité (un formulaire normalisé) qui permet aux agents de l’ESQ d’aider les agents des services téléphoniques afin d’améliorer la qualité et l’exactitude. Les résultats du formulaire de l’ESQ sont utilisés pour donner de la rétroaction à chacun des agents; déterminer leurs besoins en formation; repérer les tendances locales, régionales et nationales; et réaliser des gains en efficience. Ainsi, la qualité du service que nous offrons à nos clients sera améliorée.
+
+#### Quoi de neuf
+
+Le gouvernement du Canada, sous la direction de Services partagés Canada (SPC), remplace son infrastructure vieillissante dans le cadre de l’Initiative de transformation des centres de contact (ITCC). L’objectif de l’ITCC consiste à regrouper tous les centres de contact des ministères partenaires sur une plateforme nationale du service de centre de contact hébergé (SCCH) commune, modernisée, gérée de façon centralisée et entièrement hébergée. Dans le cadre de cette initiative, l’Agence modernise ses centres d’appels pour que les Canadiens reçoivent une norme de service plus élevée.
+
+La Direction générale de cotisation‚ de prestation et de service (DGCPS) supervisera la migration de ses huit centres d’appels pour les demandes de renseignements (demandes de renseignements des particuliers, des entreprises et des bénéficiaires de prestations), tandis que la Direction générale des recouvrements et de la vérification (DGRV) supervisera la migration du reste des centres de contact de l’Agence, y compris les centres des appels de la gestion des créances (CAGC).
+
+SPC a embauché IBM Canada Ltée pour bâtir l’infrastructure qui hébergera le SCCH. IBM Canada Ltée fournira l’environnement du SCCH qui acceptera et acheminera les appels provenant du Canada, des États-Unis et du monde entier à des endroits partout au Canada. Les agents, les superviseurs, les chefs d’équipe et les administrateurs de centres de contact qui sont embauchés par l’Agence ou engagés par contrat par celle-ci seront situés dans les installations de l’Agence et dans d’autres emplacements autorisés (n’importe où ils ont accès à un ordinateur ou à un téléphone, à condition qu'ils sont autorisés, comme les télétravailleurs) au Canada.
+
+À titre d’autorité technique et financière du SCCH, SPC détiendra, maintiendra et appuiera l’infrastructure. Les données de l’Agence générées ou stockées dans des bases de données de l’infrastructure de SPC ou d’IBM Canada Ltée appartiennent à l’Agence et demeurent sous le contrôle de l’Agence.
+
+Ce SCCH fournira aux centres d’appels de l’Agence les nouvelles technologies et améliorations suivantes :
+
+- migration d’un processus d’acheminement des appels locaux à une solution automatisée d’acheminement des appels centralisée qui permettra d’envoyer les appels au premier agent disponible dans n’importe quel centre d’appels au Canada;
+- migration d’un système local de réponse vocale interactive (RVI) à un système normalisé centralisé de RVI qui permettra à l’Agence de présenter des messages plus opportuns aux appelants afin de les aider à utiliser l’option de libre-service;
+- acheminement basé sur les compétences qui permettra aux appelants de joindre le bon agent immédiatement, plutôt que d’avoir à parler avec plusieurs agents pour trouver les réponses;
+- une solution de gestion de l’effectif qui automatisera les tâches liées à la prévision, à l’ordonnancement et à la gestion du trafic, qui sont actuellement exécutées manuellement;
+- une solution de gestion de la qualité composée de divers attributs (enregistrement des appels, enregistrement des écrans et formulaires d’évaluation) qui seront utilisés pour l’encadrement des agents en ce qui a trait au traitement des appels afin d’améliorer la qualité ainsi que le service offert aux appelants.
+
+Les activités d’assurance de la qualité permettent à l’Agence de vérifier la qualité et l’exactitude des renseignements fournis aux contribuables par téléphone. L’Agence effectue une écoute côte à côte depuis 2009, et cette approche ne répond pas à nos besoins. Le vérificateur général a souligné récemment le fait que l’Agence devrait veiller à ce que ses pratiques en matière d’assurance de la qualité génèrent des résultats plus efficaces en vue d’améliorer l’exactitude des réponses, d’identifier des opportunités d’amélioration continue, de cibler les besoins en matière de formation et de faire un suivi à cet égard. Avec la migration à venir vers le nouveau SCCH, l’Agence s’appuiera sur les enregistrements des appels et des écrans pour effectuer des activités d’assurance de la qualité continues avec un groupe d’écoutants accrédités et de chefs d’équipe d’agents. On s’attend à ce que les résultats améliorent l’exactitude des renseignements fournis aux appelants en mettant l’accent sur les besoins en matière de rendement, de formation et d’encadrement des employés, et en cernant les possibilités pour l'amélioration des produits de formation et des processus. Les enregistrements ne seront pas utilisés pour former les agents, ce sont plutôt les observations provenant des séances d’écoute qui aboutissent à la formation des agents.
+
+La solution de gestion de la qualité permettra aux évaluateurs d’effectuer des évaluations objectives et uniformes des interactions entre les agents et les contribuables. Les attributs d’enregistrement des appels et des écrans permettront d’enregistrer les interactions audio entre les contribuables et les agents, ainsi que l’écran d’ordinateur des agents à mesure qu’ils traitent l’appel. Genesys Interaction Recording (GIR) utilise l’application SpeechMiner pour écouter les enregistrements d’appels et d’écrans qui sont stockés dans la plateforme GIR. SpeechMiner comprend un lecteur de médias intégré qui peut écouter les enregistrements d’appels. Le lecteur offre également aux personnes autorisées l’option d’exporter l’enregistrement. Les utilisateurs sélectionnés pourront chercher des appels à partir de l’ID d’agent, du secteur d’activité, du point de départ de la RVI, de l’ensemble des compétences de l’agent (au moyen de l’ID d’agent), de la durée des appels et de diverses autres données consultables. Les renseignements supplémentaires qui seront saisis dans le cadre du Programme national d’apprentissage de la qualité et de l’exactitude (PNAQE) et de l’Équipe de soutien de la qualité (ESQ) comprennent : les renseignements sur les employés limités au nom, l’emplacement du bureau et l’ID utilisateur de l’employé évalué; le nom de l’écoutant agréé effectuant l’examen et l’évaluation des demandes de renseignements; la date à laquelle les enregistrements ont été examinés et évalués, et les observations de l’écoutant agréé sur les habiletés, les politiques et les procédures de communication de l’employé; les compétences en recherche de renseignements; et l’exactitude de la réponse lors du traitement de l’appel et de la réponse à la demande de renseignements. Dans le cadre des programmes de surveillance de la qualité, les enregistrements ne sont pas extraits de la base de données de l’application SpeechMiner et ne sont pas conservés dans le dossier d’un employé ou d’un contribuable.
+
+Avec la mise en place de l’enregistrement des appels et des écrans, le programme poursuivra les évaluations aux fins d’assurance de la qualité à l’aide de cette nouvelle technologie. La gestion de la qualité fait référence au PNAQE et à l’ESQ à l’aide d’enregistrements des appels et des écrans pour évaluer les appels aux fins d’assurance de la qualité et de l’exactitude.
+
+La mise à profit de la technologie de gestion de la qualité permettra à l’Agence de fournir aux agents un effet mesurable de la qualité et de l’exactitude des appels. Les centres d’appels seront en mesure d’améliorer l’exactitude de leurs réponses aux contribuables. Dans le cadre du PNAQE, les écoutants accrédités surveilleront et évalueront au moins six appels tous les trois mois pour chaque agent de centre d’appels pour les demandes de renseignements, et les agents de soutien de la qualité surveilleront et évalueront au moins deux appels par mois pour chaque agent du Centre des appels de la gestion des créances (CAGC). Les observations ne seront pas effectuées en temps réel avec les enregistrements des appels et des écrans. Elles sont plutôt fondées sur des renseignements historiques. Les enregistrements des appels et des écrans seront synchronisés lors de la lecture pour que l’écoutant accrédité puisse simultanément voir et entendre ce qui s’est passé pendant l’appel, et ainsi avoir une vue d’ensemble de l’expérience du contribuable. En écoutant l’appel et en observant l’activité d’écran de l’agent au cours du traitement de l’appel, l’évaluateur doit remplir un formulaire d’évaluation normalisé dans l’application SpeechMiner. Par la suite, il organisera une réunion afin de fournir une rétroaction à un agent au sujet de l’appel qui a fait l’objet d’une surveillance et d’une évaluation. L’écoutant accrédité peut faire jouer des parties de l’enregistrement pour l’agent afin d’appuyer les commentaires fournis. Une copie des formulaires d’évaluation dûment remplis sera transmise à l’agent.
+
+Les administrateurs de la gestion de la qualité situés à l’administration centrale, les gestionnaires de la gestion de la qualité ainsi que les évaluateurs et les analystes de la gestion de la qualité (les écoutants accrédités et les agents de l’ESQ) auront accès aux enregistrements. Seuls le coordonnateur et l’écoutant agréé locaux du PNAQE du centre d’appels pour les demandes de renseignements auront accès aux enregistrements d’appels des agents de chaque centre d’appels. Le coordonnateur du PNAQE sera en mesure de faire des recherches et de sélectionner des appels en fonction des critères établis, en plus de fournir aux écoutants accrédités des appels à examiner. Les écoutants accrédités auront seulement accès aux appels de leur centre d’appels.
+
+Au CAGC, les agents de l’ESQ et le chef d’équipe de l’ESQ auront accès aux enregistrements d’appels pour les agents dans les trois centres d’appels. L’ESQ recevra un ensemble de paramètres et sélectionnera les appels à partir de n’importe quel centre d’appels du CAGC dans un délai de 30 jours. Les procédures en vigueur seront suivies et ne changeront que dans le cadre de la mise en œuvre du SCCH afin d’assurer une plus grande uniformité dans le processus de surveillance de la qualité.
+
+Pour assurer l’uniformité de l’évaluation des appels par les écoutants accrédités, les enregistrements des appels et des écrans seront également utilisés pour les séances d’étalonnage. Les enregistrements seront joués devant un petit groupe d’écoutants accrédités, ce qui leur donnera l’occasion d’évaluer un appel et de participer à une discussion afin de comparer les évaluations des autres et de parvenir à un consensus sur la façon d’évaluer l’appel. L’objectif de ces séances est d’aider à assurer l’uniformité quant à la façon dont les appels sont évalués aux fins d’assurance de la qualité.
+
+L’Agence établira une équipe centralisée à l’échelle nationale (Section de l’assurance de la qualité à l’échelle nationale) pour évaluer la qualité et l’exactitude des renseignements fournis au niveau du programme et en faire rapport, à l’extérieur du processus de PNAQE. Cette équipe centralisée évaluera la qualité et l’exactitude des appels de tous les centres d’appels et établira des rapports à cet égard. Cette démarche permettra d’assurer l’uniformité dans l’ensemble du réseau national, de tirer parti des fonctionnalités d’amélioration de la qualité de la nouvelle technologie, de favoriser l’amélioration continue et de cibler les besoins en matière de formation. Toutes ces démarches feront en sorte que les Canadiens auront une meilleure expérience lorsqu’ils communiquent avec l’Agence. Pour accéder à l’application SpeechMiner, les membres de l’équipe nationale se verront attribuer l’accès comme évaluateurs de l’exactitude à l’Administration centrale et gestionnaires de l’exactitude à l’Administration centrale. Les membres de l’ESQ seront en mesure de surveiller tous les agents de tous les centres d’appels afin de créer une uniformité à l’échelle nationale (par opposition à l’état actuel où un membre de l’ESQ peut uniquement surveiller les appels qui sont traités par un agent dans son centre d’appels). Les formulaires d’évaluation remplis ne seront pas extraits de l’application SpeechMiner.
+
+Le nouveau poste de travail du superviseur permettra aux chefs d’équipe d’avoir accès à une écoute de qualité à distance. Les chefs d’équipe auront un accès limité aux enregistrements d’appels dans l’application SpeechMiner afin de compléter les séances d’écoute côte à côte traditionnelles. À l’aide de ces outils, les chefs d’équipe évalueront les enregistrements des appels et des écrans de la même façon qu’ils évaluent les appels pendant les séances d’écoute côte à côte. Pendant les séances de rétroaction, les chefs d’équipe donneront aux agents leurs résultats pour les appels en direct et enregistrés. La façon dont les chefs d’équipe prennent des notes et préparent les évaluations de rendement ne changera pas à la suite de la migration des centres d’appels vers la nouvelle plateforme; ces dossiers ne seront pas saisis ou stockés dans le SCCH.
+
+Les enregistrements des appels et des écrans ne seront pas stockés dans le dossier d’un employé. Chaque enregistrement d’appel et d’écran sera identifié de façon unique avec un ID d’interaction. Dans les cas où les enregistrements ont été examinés dans le cadre de la gestion du rendement (afin d’évaluer le rendement d’un particulier) ou dans le cadre de la surveillance de la qualité (afin d’orienter les recommandations individuelles en matière de formation et de rendement), les numéros de référence uniques seront indiqués dans le dossier de l’employé. Cela permettra de relier manuellement tout enregistrement pertinent au dossier de l’employé. Les processus et les procédures entourant l’utilisation d’enregistrements aux fins de gestion de la qualité et de gestion du rendement font actuellement l’objet de discussions et sont en cours d’élaboration.
+
+#### Portée de l’évaluation des facteurs relatifs à la vie privée
+
+La présente évaluation des facteurs relatifs à la vie privée cible et évalue les risques pour la protection des renseignements personnels dans le cadre des opérations des Centre d’appels pour les demandes téléphoniques et des Centres des appels de la gestion des créances de l’Agence, qui comprend les éléments suivants :
+
+- les renseignements personnels qui sont utilisés pour administrer les activités des centres d’appels, y compris les enregistrements des appels et des écrans;
+- les fonctions nouvelles et améliorées offertes dans le cadre du SCCH que les centres d’appels de l’Agence mettront en œuvre, y compris la gestion de l’effectif, la gestion de la qualité, le système de réponse vocale interactive, le libre-service et la composition sortante;
+- l’intégration des bases de données de l’Agence et les applications logicielles utilisées pour administrer les activités des centres d’appels.
+
+Les agents des centres d’appels peuvent recueillir et utiliser des renseignements personnels et avoir besoin d’accéder à des systèmes propres aux programmes et de les mettre à jour pendant les appels. Ces activités sont menées en lien avec divers programmes de l’Agence (p. ex., le Programme d’allocation canadienne pour enfants, Programme des déclarations et des remboursements de la TPS/TVH et Programmes gouvernementaux des recouvrements). Les renseignements personnels liés à ces activités sont établis dans les évaluations des facteurs relatifs à la vie privée applicables au programme. Toutefois, cette évaluation des facteurs relatifs à la vie privée tient compte du niveau de risque pour les renseignements personnels qui sont saisis dans les centres de contact, ainsi que des mesures de protection qui sont en place pour protéger les renseignements.
+
+De plus, puisque SPC a le mandat de centraliser et de gérer les réseaux de télécommunications du gouvernement du Canada, les éléments suivants seront abordés dans l’évaluation des facteurs relatifs à la vie privée de son centre de contact hébergé de Services partagés Canada, et, par conséquent, ne seront pas visés par la présente évaluation des facteurs relatifs à la vie privée :
+
+- les éléments de données personnelles des utilisateurs du SCCH du gouvernement du Canada recueillis pour la prestation, l’administration et la gestion de l’infrastructure du SCCH, y compris les activités de surveillance de la sécurité et de vérification;
+- les services de réseau de données, y compris tous les logiciels, les serveurs, les centres de données, les bases de données, les réseaux, les commutateurs téléphoniques, le câblage, les concentrateurs, les routeurs et tout autre matériel requis pour appuyer la communication de données entre les appareils informatiques (c.-à-d. l’infrastructure);
+- les services de communication vocale, y compris les services locaux et interurbains à l’échelle mondiale, ainsi que les services protégés de transmission de la voix et d’autres services connexes;
+- la connectivité des emplacements des agents des centres d’appels de l’Agence vers les centres de données d’IBM Canada Ltée
+
+Les personnes autorisées au sein de la DGCPS peuvent exporter des enregistrements des centres de données d’IBM Canada Ltée au besoin, afin de répondre aux demandes administratives, comme les demandes d’AIPRP. Pour les CAGC, l’exportation d’enregistrements d’appels à l’extérieur des centres de données d’IBM Canada Ltée relèvera de la responsabilité de la Section nationale du contrôle du trafic et du programme du CAGC. Tous les appels qui sont exportés seront stockés de façon sécuritaire à l’Administration centrale sur un lecteur commun ayant un accès limité.
+
+Cette évaluation des facteurs relatifs à la vie privée sera examinée et mise à jour, au besoin, si l’Agence décide d’adopter d’autres caractéristiques et améliorations, ainsi que lorsque les autres centres d’appels migreront vers la nouvelle plateforme.
+
+### Détermination et classement du risque
+
+#### **A) Type de programme ou d’activité**
+
+Administration des programmes, des activités et des services.
+
+**Niveau de risque pour la vie privée :** 2
+
+**Détails :** Les renseignements personnels sont utilisés pour administrer les activités des centres d’appels, dont la validation de l’identité de l’appelant, s’il y a lieu, et la surveillance des interactions entre les agents et les appelants, saisies par les enregistrements des appels et des écrans aux fins d’assurance de la qualité.
+
+#### **B) Type de renseignements personnels en jeu et contexte**
+
+Renseignements personnels de nature délicate, dont les profils détaillés, les allégations ou les soupçons, les échantillons de substances corporelles, ou le contexte des renseignements personnels de nature particulièrement délicate.
+
+**Niveau de risque pour la vie privée :** 4
+
+**Détails :** Les agents des centres d’appels peuvent recevoir des renseignements personnels précis afin de valider l’identité de l’appelant (numéro d’assurance sociale, adresse, coordonnées, date de naissance et autres numéros d’identification). De plus, d’autres renseignements personnels peuvent être recueillis et utilisés afin notamment de répondre à des demandes de renseignements précises de l’appelant, de traiter des questions liées à l’observation, d’envoyer des renseignements précis et de mettre à jour le compte d’un appelant, comme des renseignements financiers, des antécédents en matière de crédit, des renseignements sur les cartes de crédit, des informations relatives à la langue et des renseignements médicaux.
+
+Ces renseignements sont recueillis et utilisés dans le but d’administrer des programmes d’impôt et de prestations précis (p. ex., le Programme d’allocation canadienne pour enfants, le Programme des déclarations et des remboursements de la TPS/TVH et le Programme gouvernemental des recouvrements) et sont donc examinés dans le cadre des évaluations des facteurs relatifs à la vie privée des particuliers de ces programmes.
+
+##### Gestion de la qualité
+
+La surveillance du Programme national d’apprentissage de la qualité et de l’exactitude (PNAQE) et de l’Équipe du soutien de la qualité (ESQ) s’occupe de la saisie des renseignements sur les employés comme le nom, l’emplacement du bureau et l’ID utilisateur de l’agent surveillé, le nom de l’employé effectuant la surveillance, la date de la séance de surveillance et les observations du contrôleur sur les habiletés en communication, les compétences en recherche de renseignements, l’exactitude des réponses lors du traitement des appels et des demandes de renseignements de l’agent, ainsi que la façon dont l’agent respecte les politiques et les procédures pendant les appels. Les enregistrements ne seront examinés que dans le but de remplir les formulaires d’évaluation et ne seront pas conservés dans le dossier de l’agent ou du contribuable.
+
+##### Gestion de l’effectif, fonctions d’établissement de rapports, configuration et administration
+
+Les renseignements personnels supplémentaires comprennent les qualifications linguistiques des employés, l’ensemble des compétences, le rendement au travail et d’autres paramètres personnels liés au poste découlant de leur utilisation des systèmes de SCCH dans l’exécution des responsabilités associées à leur travail, y compris les enregistrements audio de leurs interactions avec les appelants.
+
+Avec la mise en œuvre du SCCH, les employés pourront consulter l’horaire des autres employés (qui ont les mêmes contrats) au moyen d’une fonction connue sous le nom de Shift Trading (échange de postes). La fonction Shift Trading sera disponible, mais elle ne sera pas utilisée à la date de mise en œuvre et sera examinée à un moment donné dans l’avenir pour déterminer la meilleure façon de l’utiliser.
+
+##### Données d’appels téléphoniques
+
+Le SCCH permettra de saisir les données d’appels téléphoniques, y compris la date, l’heure, les numéros de téléphone et la durée de l’appel. Le système permettra également de saisir les numéros de téléphone privés non répertoriés ou non publiés, les numéros de téléphone cellulaire personnels et les numéros de téléphone non gouvernementaux pendant les appels sortants. Les appels sortants effectués par le composeur téléphonique sortant automatisé permettront également de saisir ces renseignements, y compris si quelqu’un a répondu à l’appel et à qui l’appel a été transféré à la suite de la connexion. Les appels « entrants » à partir de ces types de numéros de téléphone seront également saisis à moins que l’appelant invoque la « fonction de blocage des appels » disponible de son côté. Ce type de renseignements de l’appelant est considéré comme relevant de l’Agence et sera recueilli et stocké dans le centre de données du fournisseur afin de faciliter l’assurance de la qualité des agents des centres d’appels et d’effectuer l’assurance de la qualité du service.
+
+#### C) Partenaires de programme ou d’activité et participation du secteur privé
+
+Avec des gouvernements étrangers, des organisations internationales et/ou des organisations du secteur privé.
+
+**Niveau de risque pour la vie privée :** 4
+
+**Détails :** Services partagés Canada (SPC) a embauché IBM Canada Ltée pour bâtir l’infrastructure (serveurs, matériel, centres de données, bases de données, réseaux, commutateurs téléphoniques) qui hébergera le SCCH au moyen duquel les appels seront acheminés. À titre d’autorité technique et financière du SCCH, SPC détiendra, maintiendra et appuiera l’infrastructure. Les données de l’Agence générées ou stockées dans des bases de données de l’infrastructure de SPC ou d’IBM Canada Ltée appartiennent à l’Agence et demeurent sous le contrôle de l’Agence.
+
+SPC est responsable d’effectuer des évaluations de sécurité régulières sur le SCCH et ses bases de données, et de veiller à ce que les risques cernés soient traités immédiatement. SPC fournira un soutien opérationnel à l’Agence et est responsable des processus opérationnels de sécurité lorsque IBM Canada Ltée ou l’Agence les demande. SPC fournira aux administrateurs de l’Agence des activités de création et de gestion du compte du Portail de services.
+
+Tous les renseignements personnels sous le contrôle de l’Agence, qui sont conservés dans le SCCH, seront stockés dans un format chiffré et ne sont pas facilement accessibles à tous les utilisateurs à l’extérieur du SCCH. Dans le SCCH, les renseignements et l’accès aux renseignements sont gérés au niveau de l’application et l’accès d’IBM Canada Ltée sera limité aux utilisateurs nécessaires au soutien aux applications.
+
+Tous les renseignements transmis au moyen de l’application Genesys seront inspectés par SPC pour détecter les logiciels malveillants potentiels. Cela signifie que tous les types de renseignements personnels peuvent être recueillis dans le but d’effectuer cette activité, car toutes les données chiffrées seront déchiffrées et analysées pour détecter les menaces potentielles à la sécurité.
+
+Dans le cadre de l’opération du SCCH au nom du gouvernement, IBM Canada Ltée ne recueille, n’utilise ni ne divulgue des renseignements personnels à ses propres fins au-delà de celles nécessaires à l’exploitation du système, et ne fait que faciliter le travail des utilisateurs fédéraux du système ou le traitement des renseignements au nom du gouvernement (dans la mesure permise par la loi habilitante du programme gouvernemental pertinent). Par conséquent, son rôle se limite à celui d’un fournisseur de services électroniques au gouvernement fédéral. IBM Canada Ltée peut également recueillir ou obtenir des métadonnées relatives à l’utilisation et à l’exploitation des systèmes et des fonctions du SCCH, afin de s’assurer que les objectifs de qualité et de sécurité sont atteints et de recueillir des renseignements sur les journaux concernant l’utilisateur, le système, l’application, la base de données et les événements liés au système de sécurité, au besoin, pour assurer la confidentialité, l’intégrité, la disponibilité et la vérifiabilité du système.
+
+#### D) Durée du programme ou de l’activité :
+
+Pogramme à long terme.
+
+**Niveau de risque pour la vie privée :** 3
+
+**Détails :** Ces activités n’ont pas de date d’élimination progressive.
+
+#### E) Population du programme
+
+Le programme touche certains particuliers à des fins administratives externes.
+
+**Niveau de risque pour la vie privée :** 3
+
+**Détails :** Les activités des centres d’appels de l’Agence touchent certains employés (p. ex., les agents des centres d’appels), ainsi que les personnes qui communiquent avec l’Agence par l’intermédiaire des centres d’appels.
+
+#### F) Technologie et vie privée
+
+L’activité ou le programme (nouveau ou modifié) comporte-t-il la mise en œuvre d’un nouveau système électronique, d’un logiciel ou d’un programme d’application, y compris un collecticiel (ou logiciel de groupe) qui est utilisé pour soutenir le programme ou l’activité eu égard à la création, la collecte ou la manipulation de renseignements personnels?
+
+**Risque pour la vie privée :** Oui
+
+**Détails** : Services partagés Canada (SPC) a embauché IBM Canada Ltée pour bâtir l’infrastructure (serveurs, matériel, centres de données, bases de données, réseaux, commutateurs téléphoniques) qui hébergera le SCCH au moyen duquel les appels seront acheminés.
+
+Le programme, nouveau ou modifié, ou l’activité est-il une modification des anciens systèmes et services de la TI?
+
+**Risque pour la vie privée** : Non
+
+**Détails** : Le système est en cours d’élaboration afin de remplacer l’ancien système.
+
+Le programme, nouveau ou modifié, ou l’activité comprend la mise en œuvre d’une ou de plusieurs des technologies suivantes :
+
+##### Méthode d’identification améliorée
+
+Cela comprend la technologie biométrique (c.-à-d. la reconnaissance de visage, l’analyse de la démarche, la lecture de l’iris, l’analyse des empreintes digitales, l’empreinte vocale, l’identification par radiofréquence (IRF), etc.) ainsi que la technologie « E-ZPass », les nouvelles cartes d’identité, y compris les cartes à bande magnétique, les « cartes intelligentes » (c.-à-d. des cartes d’identité dans lesquelles on a intégré une antenne ou une plage de contact qui est reliée à un microprocesseur et à une puce de mémoire ou une seulement à une puce de mémoire dotée d’une logique non programmable).
+
+**Risque pour la vie privée :** Non
+
+##### Utilisation de la surveillance
+
+Cela comprend les technologies de surveillance telles que les dispositifs d’enregistrement audio ou vidéo, l’imagerie thermique, les dispositifs de reconnaissance, l’IRF, la surveillance clandestine et l’interception, la surveillance assistée par ordinateur, y compris les pistes de vérification, la surveillance par satellite, entre autres.
+
+**Risque pour la vie privée :** Oui
+
+**Détails** : Les activités du Programme national d’apprentissage de la qualité et de l’exactitude (PNAQE) et de l’Équipe du soutien de la qualité (ESQ) de l’Agence comprennent la surveillance des appels des agents des centres d’appels par les écoutants accrédités et les membres de l’ESQ aux fins d’assurance de la qualité. Dans le cadre de la gestion de la qualité, la nouvelle technologie permettra d’enregistrer des interactions vocales et à l’écran entre les appelants et les agents des services téléphoniques, de sorte que les centres d’appels puissent améliorer les processus d’assurance de la qualité et de surveillance, ainsi que mieux déterminer les exigences en matière de formation et accroître la qualité des appels.
+
+Les employés et les appelants seront informés que les appels pourraient être enregistrés aux fins d’assurance de la qualité. Les appelants des demandes téléphoniques seront avisés au moyen de messages de RVI : « Veuillez noter que votre appel, y compris le temps passé en attente, pourrait être enregistré aux fins d’assurance de la qualité. » [traduction libre] Des messages seront également ajoutés au site Web externe de l’Agence afin d’informer les appelants que leurs appels peuvent être enregistrés et qu’ils peuvent exprimer leur refus s’ils le souhaitent. Dans les cas où les appelants refusent que leurs interactions avec les agents des centres d’appels pour les demandes de renseignements soient enregistrées, un rappel sera organisé. Dans les cas où les appelants refusent que leurs interactions avec les agents du Centre des appels de la gestion des créances soient enregistrées, des agents sélectionnés seront en mesure de mettre fin à l’enregistrement d’un appel en cours.
+
+##### Utilisation de l’analyse automatisée des renseignements personnels, du rapprochement des renseignements personnels et des techniques de découverte des connaissances
+
+Pour l’application de la Directive sur l’ÉFVP, les institutions fédérales doivent déterminer les activités qui consistent à utiliser une technologie automatisée pour analyser, créer, comparer, déterminer ou extraire des éléments des renseignements personnels. De telles activités comprendraient le rapprochement de renseignements personnels, le couplage de dossiers, l’exploration et la comparaison de renseignements personnels, la découverte de connaissances, de même que le filtrage ou l’analyse de renseignements personnels. Ce genre d’activités consiste à recourir à une certaine forme d’intelligence artificielle et/ou d’apprentissage automatique pour découvrir des connaissances (renseignements), des tendances ou des modèles ou pour prédire des comportements.
+
+**Risque pour la vie privée :** Oui
+
+**Détails** : Le système de réponse vocale interactive (RVI) est un système téléphonique qui permet de fournir des données ou de les recueillir par téléphone au moyen d’un clavier. Les centres d’appels de l’Agence ont configuré leur fonction de RVI de façon qu’une base de données structurée soit utilisée pour fournir aux appelants des renseignements généraux et propres à un compte selon le secteur d’activité.
+
+Les contribuables qui communiquent avec le CAGC pourront vérifier les soldes de leur compte et établir une entente de paiement (selon les paramètres définis) au moyen de la nouvelle option de libre-service par l’intermédiaire du système de RVI du SCCH. Ce type de système nécessite l’intégration des systèmes afin de s’assurer que les données du client sont disponibles de façon utile et intégrée. Les systèmes de RVI du SCCH offriront aux contribuables diverses voies de communication. À l’heure actuelle, le système de RVI du CAGC n’offrira que la communication vocale pendant l’examen des politiques actuelles entourant la communication avec les contribuables.
+
+#### G) Transmission des renseignements personnels
+
+Les renseignements personnels sont transférés à des dispositifs portatifs ou sont imprimés (clé USB, disquette, ordinateur portatif, ou tout transfert de renseignements personnels à un support de données différent.).
+
+**Niveau de risque pour la vie privée :** 3
+
+**Détails** : Les enregistrements des appels et des écrans seront utilisés pour administrer les activités du Programme national d’apprentissage de la qualité et de l’exactitude (PNAQE), de la Section de l’assurance de la qualité à l’échelle nationale et de l’Équipe du soutien de la qualité (ESQ).
+
+Les renseignements saisis dans les formulaires d’évaluation de la PNAQE et de la Section de l’assurance de la qualité à l’échelle nationale, qui ont été intégrés dans l’application SpeechMiner, peuvent être imprimés dans le format des rapports; ces rapports ne comprendront pas la transcription de l’appel. Ces rapports ne contiennent pas les renseignements personnels de l’appelant, mais ils peuvent contenir les renseignements personnels des employés. Les enregistrements des appels et des écrans utilisés dans ces évaluations seront conservés dans l’application SpeechMiner pendant deux ans, après quoi ils seront automatiquement supprimés du système.
+
+Les examens des enregistrements des appels et des écrans seront utilisés pour évaluer les agents des centres d’appels pour les demandes de renseignements aux fins de gestion du rendement. Contrairement au PNAQE, il n’y a pas de formulaire d’évaluation dans l’application SpeechMiner pour la gestion du rendement.
+
+En tant que service d’infrastructure, le SCCH recueille et stocke les renseignements personnels et assure la connectivité entre les clients (le public et les autres employés du gouvernement du Canada) et les agents (employés ou entrepreneurs de l’Agence). La solution du SCCH est hébergée dans les locaux d’IBM Canada Ltée. La solution IBM Canada Ltée est rattachée au Centre des opérations de sécurité (COS) de SPC aux fins de surveillance des événements de sécurité et est coordonnée avec la capacité d’intervention en cas d’incident d’IBM Canada Ltée. Le plan actuel est de stocker tous les enregistrements sur les serveurs d’IBM Canada Ltée, à moins qu’il soit nécessaire de les exporter afin de répondre aux demandes d’AIPRP. Les serveurs d’IBM Canada Ltée sont certifiés pour protéger les documents jusqu’à la mention Protégé B.
+
+L’outil SpeechMiner qui fournit une fonctionnalité d’écoute et de visualisation des enregistrements des appels et des écrans est une application Web. SpeechMiner offre une option afin d’empêcher la suppression d’un enregistrement. Si un enregistrement est étiqueté, il ne sera pas éliminé après la période de conservation de 30 jours. Le système est configuré pour chiffrer les interactions exportées. Un enregistrement d’appel exporté sera chiffré au moyen de WinZip.
+
+Les rôles liés à l’exportation et à la suppression d’enregistrements demeureront au sein de l’Agence plutôt qu’auprès de SPC. À l’heure actuelle, seul le vérificateur de la gestion de la qualité est autorisé à exporter les enregistrements audio et les enregistrements d’écran. Les secteurs de programme élaboreront des processus internes liés à l’attribution et à la surveillance de ce rôle. Les enregistrements des appels et des écrans seront seulement exportés, au besoin, afin de répondre aux demandes d’AIPRP ou aux demandes légales. Tous les autres enregistrements d’appels inutilisés demeureront dans les centres de données d’IBM Canada Ltée pendant 30 jours, après quoi ils seront automatiquement supprimés du système. Les enregistrements utilisés à des fins administratives seront marqués manuellement pour ne pas être supprimés et être conservés dans les centres de données d’IBM Canada Ltée, conformément à l’Autorisation de disposition applicable.
+
+Le service géré par le SCCH peut accepter des appels de partout au Canada et à l’échelle internationale, et les acheminera aux agents de l’ensemble du Canada.
+
+Les appelants peuvent communiquer avec l’Agence au moyen de la téléphonie traditionnelle (réseau téléphonique commuté public, Centrex, PBX ou mobile) et d’autres voies de communication, comme le service de voix sur le protocole Internet (VoIP).
+
+Pour accéder aux renseignements sur les comptes au moyen de l’application libre-service de réponse vocale interactive (RVI), un appelant sélectionne le service de RVI, qui invite l’appelant à saisir ses renseignements d’identification (p. ex., son NAS, sa date de naissance et la ligne 150 de sa déclaration de revenus). L’application de RVI envoie ces renseignements par l’intermédiaire du gestionnaire d’interface de RVI (CJIM) à l’ordinateur central. Les renseignements récupérés sont ensuite convertis en un message d’enregistrement vocal à l’égard du contribuable.
+
+#### H) Risque possible pour le particulier ou l’employé
+
+**Détails** : En raison de la nature des renseignements personnels recueillis et utilisés dans le cadre des activités des centres d’appels, une atteinte à la vie privée pourrait entraîner une atteinte à la réputation, un embarras, une perte financière et un vol d’identité.

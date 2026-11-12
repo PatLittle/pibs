@@ -51,6 +51,13 @@
         </section>
         <p class="muted" id="collection-date">Loading the collected holdings…</p>
         <p class="notice">These holdings include PIA summaries and related privacy evaluations. Some source links could not be retrieved or need review; those entries remain visible. Counts reflect this collection, not every assessment an institution may have completed.</p>
+        <section class="section-block" aria-labelledby="progress-heading">
+          <div class="section-heading"><p class="section-eyebrow">Collection progress</p><h2 id="progress-heading">Connecting privacy assessments to PIB holdings</h2><p>We use the PIB holdings already in this repository as a practical baseline for tracking collection progress.</p></div>
+          <div class="insight-grid">
+            <article class="panel collection-progress-card"><h3 id="institution-progress-label">Institutions with readable PIAs</h3><div class="progress-numbers"><strong id="progress-institutions">—</strong><span id="progress-institution-percent"></span></div><progress id="institution-progress" value="0" max="1" aria-labelledby="institution-progress-label"></progress><p>Institutions with PIB holdings where we have collected at least one readable privacy assessment.</p><a href="table.html?dataset=pibs">Explore the PIB holdings</a></article>
+            <article class="panel collection-progress-card"><h3 id="pib-progress-label">PIB records explicitly cited</h3><div class="progress-numbers"><strong id="progress-pibs">—</strong><span id="progress-pib-percent"></span></div><progress id="pib-progress" value="0" max="1" aria-labelledby="pib-progress-label"></progress><p>Unique institution-specific PIBs matched to an ID mentioned in collected assessment text. Standard PIBs are counted in the table, but excluded from this baseline.</p><a href="privacy-assessments.html?references=pibs#assessments">Browse assessments mentioning PIB IDs</a></article>
+          </div><p class="muted">These indicators measure our collection and its explicit references. They do not imply that each PIB requires its own PIA or that every existing PIA has been published.</p>
+        </section>
         <section class="section-block" id="coverage" aria-labelledby="coverage-heading">
           <div class="section-heading"><p class="section-eyebrow">At a glance</p><h2 id="coverage-heading">Coverage and composition</h2><p>Repository-wide counts. Select a department in the chart or use the table filters to explore its assessments.</p></div>
           <div class="insight-grid">
@@ -63,13 +70,15 @@
           <div class="section-heading"><p class="section-eyebrow">Explore the collection</p><h2 id="assessments-heading">Find a privacy assessment</h2><p>Browse bilingual titles and open an assessment to read its collected content and source details.</p></div>
           <form id="assessment-filters" class="assessment-filters" role="search" aria-label="Filter assessments">
             <div class="assessment-filters__department"><label for="department"><strong>Department or institution</strong></label><select id="department" class="form-control"><option value="">All departments</option></select></div>
-            <div class="assessment-filters__search"><label for="assessment-search"><strong>Search assessments</strong></label><input type="search" id="assessment-search" class="form-control" placeholder="Title, legal name or GC organization ID" autocomplete="off"></div>
+            <div class="assessment-filters__search"><label for="assessment-search"><strong>Search assessments</strong></label><input type="search" id="assessment-search" class="form-control" placeholder="Title, legal name, PIB / CoR ID or GC ID" autocomplete="off"></div>
             <div><label for="availability"><strong>Availability</strong></label><select id="availability" class="form-control"><option value="">All records</option><option value="both">Both languages</option><option value="readable">Readable copy</option><option value="none">No readable copy</option></select></div>
+            <div><label for="references-filter"><strong>References</strong></label><select id="references-filter" class="form-control"><option value="">All assessments</option><option value="pibs">Mentions PIB IDs</option><option value="cors">Mentions CoR IDs</option></select></div>
             <div><label for="page-size"><strong>Rows per page</strong></label><select id="page-size" class="form-control"><option>10</option><option selected>25</option><option>50</option><option>100</option></select></div>
             <button type="button" id="clear-filters" class="btn btn-default">Clear filters</button>
           </form>
+          <p class="muted">Reference counts are distinct IDs across EN/FR copies. “None identified” means no explicit ID was found. Word counts show each language separately. <a href="data/privacy_assessment_index.csv" download>Download the assessment index (CSV)</a>.</p>
           <p id="assessment-status" class="muted" role="status" aria-live="polite">Loading assessments…</p>
-          <p class="table-scroll-hint">On a small screen, scroll the table horizontally to see all columns.</p>
+          <p class="table-scroll-hint">Scroll horizontally to see PIB and CoR references, counts, and word counts. The Open action stays available.</p>
           <div class="table-wrap" tabindex="0" role="region" aria-label="Assessment results table; scroll horizontally">
             <table class="table table-bordered table-striped assessment-table">
               <caption class="wb-inv">Privacy assessments and their legal institutions</caption>
@@ -79,6 +88,11 @@
                 <th scope="col"><button type="button" data-sort="gc_orgID">GC organization ID<span class="sort-indicator" aria-hidden="true"></span></button></th>
                 <th scope="col"><button type="button" data-sort="title_en">Title EN<span class="sort-indicator" aria-hidden="true"></span></button></th>
                 <th scope="col"><button type="button" data-sort="title_fr">Title FR<span class="sort-indicator" aria-hidden="true"></span></button></th>
+                <th scope="col">PIBs mentioned</th>
+                <th scope="col"><button type="button" data-sort="pib_count">PIB count<span class="sort-indicator" aria-hidden="true"></span></button></th>
+                <th scope="col">CoRs mentioned</th>
+                <th scope="col"><button type="button" data-sort="cor_count">CoR count<span class="sort-indicator" aria-hidden="true"></span></button></th>
+                <th scope="col"><button type="button" data-sort="word_count" title="Sort by English words, or French when English is unavailable">Words (EN / FR)<span class="sort-indicator" aria-hidden="true"></span></button></th>
                 <th scope="col">Read</th>
               </tr></thead><tbody id="assessment-rows"></tbody>
             </table>
