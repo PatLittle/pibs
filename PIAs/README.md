@@ -285,7 +285,8 @@ collection has a reviewed document-type taxonomy.
 strips collection front matter, renders Markdown tables/headings/lists, sanitizes
 source HTML using an allowlist, and copies the original Markdown for downloads.
 Only successful exports get rendered content. Raw collection HTML/PDF files are
-not copied into the website. The upstream organization JSON and Markdown remain
+not copied into the website. `site/.nojekyll` keeps Pages from converting the
+Markdown download assets into generated HTML pages. The upstream organization JSON and Markdown remain
 the source of truth.
 
 `build_site_assets.py` invokes this builder, and the main Pages workflow rebuilds

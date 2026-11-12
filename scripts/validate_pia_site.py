@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 def validate():
     errors = []
     site = ROOT / 'site'
+    if not (site / '.nojekyll').exists(): errors.append('Static Pages marker missing: Markdown downloads must not be processed by Jekyll')
     payload = json.loads((site / 'data/privacy_assessments.json').read_text())
     manifest = json.loads((ROOT / 'PIAs/collection_manifest.json').read_text())
     records = payload['records']
