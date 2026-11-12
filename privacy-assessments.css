@@ -70,3 +70,6 @@
 .reference-more summary { cursor: pointer; color: var(--blue); }
 .word-count-line { display: block; white-space: nowrap; font-size: .85rem; }
 .assessment-reference-panel { padding: 1.25rem; margin: 1rem 0; border: 1px solid var(--border); background: var(--surface-soft); }
+
+.schedule-i-baseline strong, .schedule-i-baseline span { display: block; }
+.schedule-i-baseline { font-size: 1rem; line-height: 1.5; }
