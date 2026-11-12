@@ -1,3 +1,6 @@
 # Preserve collected source responses byte-for-byte without whitespace checks.
 institutions_infosource_docs/**/snapshots/**/raw/* -diff
 institutions_infosource_docs/**/snapshots/**/supplemental/*/source.html -diff
+
+# Published Markdown copies preserve source hard breaks and checksums.
+site/privacy-assessments/content/**/*.md -whitespace
