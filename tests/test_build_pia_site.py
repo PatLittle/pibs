@@ -45,8 +45,10 @@ class PiaProgressTests(unittest.TestCase):
             root=Path(temp)
             (root/'institutions_infosource_docs').mkdir()
             (root/'institutions_infosource_docs/pib_table_en_fr_all.csv').write_text('institution_id,bank_number_key\na,A PPU 001\nb,B PPU 002\n')
+            (root/'institution_registry.csv').write_text('institution_id,access_act_schedule\na,I\nb,I\nc,I\na,I\nd,II\n')
             row={'institution_id':'a','available_languages':['en'],'pib_count':1,'cor_count':0,'references':{'pibs':[{'matched_records':[{'dataset':'pibs','institution_id':'a','record_id':'A PPU 001'}]}]}}
             with patch('scripts.build_pia_site.ROOT',root): progress=pib_progress([row,row])
+            self.assertEqual(progress['schedule_i_institutions'],3)
             self.assertEqual(progress['institutions_with_pibs'],2)
             self.assertEqual(progress['institutions_with_pibs_and_readable_pias'],1)
             self.assertEqual(progress['pib_records_cited'],1)

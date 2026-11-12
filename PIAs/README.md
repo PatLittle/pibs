@@ -427,3 +427,5 @@ Missing Info Source holdings were recovered by following the official VAC table 
 PCO’s security bank is published as **PCO PPE 801** in English and **BCP PPU 801** in French. Both observed identifiers are retained as separate unmatched rows; no source code was silently corrected. Consequently PCO has six banks per language but seven merged rows.
 
 The refreshed repository contains **819 assessment records**, **808 bilingual pairs**, and **1,611 readable language exports**. The site metrics and assessment references are rebuilt against **1,205 institution PIB rows** and **2,545 institution CoR rows**. Progress compares institutions and explicit references to collected PIB holdings; it does not estimate the total number of PIAs government should publish.
+
+The institution progress card also displays the total unique ATIA Schedule I institutions from `institution_registry.csv` on two lines. This broader legal-registry context is separate from the collected-PIB denominator used by the progress bar.

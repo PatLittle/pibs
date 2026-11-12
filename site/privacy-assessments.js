@@ -36,6 +36,7 @@ function overview() {
   for (const [id, value] of [['stat-assessments', summary.records], ['stat-departments', summary.departments], ['stat-documents', summary.markdown_exports], ['stat-bilingual', summary.availability.both]]) $(id).textContent = number(value);
   $('collection-date').textContent = 'Collection updated: ' + dateLabel(catalogue.collection_generated_at_utc) + '. Counts include all repository entries, including sources that need review.';
   const progress = summary.progress;
+  $('progress-schedule-i').textContent = `${number(progress.schedule_i_institutions)} institutions in Schedule I`;
   $('progress-institutions').textContent = `${number(progress.institutions_with_pibs_and_readable_pias)} of ${number(progress.institutions_with_pibs)}`;
   $('progress-institution-percent').textContent = progress.institution_coverage_percent + '%';
   $('institution-progress').max = progress.institutions_with_pibs || 1;

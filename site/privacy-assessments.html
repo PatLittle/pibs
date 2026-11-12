@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/css/theme.min.css" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="prototype-label.css" />
-    <link rel="stylesheet" href="privacy-assessments.css" />
+    <link rel="stylesheet" href="privacy-assessments.css?v=20261112-schedule-i" />
   </head>
   <body vocab="http://schema.org/" typeof="WebPage">
     <gcds-header lang-href="#" skip-to-href="#main-content">
@@ -54,7 +54,7 @@
         <section class="section-block" aria-labelledby="progress-heading">
           <div class="section-heading"><p class="section-eyebrow">Collection progress</p><h2 id="progress-heading">Connecting privacy assessments to PIB holdings</h2><p>We use the PIB holdings already in this repository as a practical baseline for tracking collection progress.</p></div>
           <div class="insight-grid">
-            <article class="panel collection-progress-card"><h3 id="institution-progress-label">Institutions with readable PIAs</h3><div class="progress-numbers"><strong id="progress-institutions">—</strong><span id="progress-institution-percent"></span></div><progress id="institution-progress" value="0" max="1" aria-labelledby="institution-progress-label"></progress><p>Institutions with PIB holdings where we have collected at least one readable privacy assessment.</p><a href="table.html?dataset=pibs">Explore the PIB holdings</a></article>
+            <article class="panel collection-progress-card"><h3 id="institution-progress-label">Institutions with readable PIAs</h3><div class="progress-numbers"><strong id="progress-institutions">—</strong><span id="progress-institution-percent"></span></div><progress id="institution-progress" value="0" max="1" aria-labelledby="institution-progress-label"></progress><p>Institutions with PIB holdings where we have collected at least one readable privacy assessment.</p><p class="schedule-i-baseline"><strong id="progress-schedule-i">— institutions in Schedule I</strong><span>of the Access to Information Act</span></p><a href="table.html?dataset=pibs">Explore the PIB holdings</a></article>
             <article class="panel collection-progress-card"><h3 id="pib-progress-label">PIB records explicitly cited</h3><div class="progress-numbers"><strong id="progress-pibs">—</strong><span id="progress-pib-percent"></span></div><progress id="pib-progress" value="0" max="1" aria-labelledby="pib-progress-label"></progress><p>Unique institution-specific PIBs matched to an ID mentioned in collected assessment text. Standard PIBs are counted in the table, but excluded from this baseline.</p><a href="privacy-assessments.html?references=pibs#assessments">Browse assessments mentioning PIB IDs</a></article>
           </div><p class="muted">These indicators measure our collection and its explicit references. They do not imply that each PIB requires its own PIA or that every existing PIA has been published.</p>
         </section>
@@ -103,6 +103,6 @@
       </div>
     </main>
     <footer class="site-footer"><div class="site-footer__inner"><div><strong>Info Source Data Explorer</strong><p>Wrangle then try to Untangle.</p></div><nav aria-label="Footer navigation"><a href="index.html">Overview</a><a href="table.html?dataset=institutions">Institutions</a><a href="privacy-assessments.html">Privacy Assessments</a><a href="https://github.com/PatLittle/pibs/tree/main/PIAs">Source collection</a></nav></div></footer>
-    <script type="module" src="privacy-assessments.js"></script>
+    <script type="module" src="privacy-assessments.js?v=20261112-schedule-i"></script>
   </body>
 </html>

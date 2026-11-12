@@ -64,11 +64,13 @@ def record_type(pia: dict) -> str:
 def pib_progress(records):
     with (ROOT / 'institutions_infosource_docs/pib_table_en_fr_all.csv').open() as handle:
         banks = list(csv.DictReader(handle))
+    with (ROOT / 'institution_registry.csv').open() as handle:
+        schedule_i = {r['institution_id'] for r in csv.DictReader(handle) if r['access_act_schedule'] == 'I'}
     known = {(r['institution_id'],r['bank_number_key']) for r in banks}
     departments = {org for org, _ in known}
     with_pias = {r['institution_id'] for r in records if r['available_languages']} & departments
     cited = {(m['institution_id'],m['record_id']) for r in records for ref in r['references']['pibs'] for m in ref['matched_records'] if m['dataset'] == 'pibs'} & known
-    return {'institutions_with_pibs':len(departments), 'institutions_with_pibs_and_readable_pias':len(with_pias),
+    return {'schedule_i_institutions':len(schedule_i), 'institutions_with_pibs':len(departments), 'institutions_with_pibs_and_readable_pias':len(with_pias),
             'institution_coverage_percent':round(100*len(with_pias)/len(departments),1) if departments else 0,
             'pib_records':len(known), 'pib_records_cited':len(cited),
             'pib_reference_coverage_percent':round(100*len(cited)/len(known),1) if known else 0,

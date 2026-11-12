@@ -49,7 +49,10 @@ def validate():
         pib_rows = list(csv.DictReader(handle))
     expected_institutions = {r['institution_id'] for r in pib_rows}
     actual_institutions = {r['institution_id'] for r in records if r['available_languages']} & expected_institutions
+    with (ROOT / 'institution_registry.csv').open() as handle:
+        schedule_i = {r['institution_id'] for r in csv.DictReader(handle) if r['access_act_schedule'] == 'I'}
     progress = payload['summary']['progress']
+    if progress['schedule_i_institutions'] != len(schedule_i): errors.append('Incorrect Schedule I institution total')
     if progress['institutions_with_pibs'] != len(expected_institutions) or progress['institutions_with_pibs_and_readable_pias'] != len(actual_institutions): errors.append('Incorrect collection progress denominator/numerator')
     summary = payload['summary']
     if exports != summary['markdown_exports'] or exports != manifest['source_status_counts']['exported']: errors.append('PIA export totals do not match')
