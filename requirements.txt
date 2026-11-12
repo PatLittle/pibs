@@ -7,3 +7,4 @@ pandas>=2.3
 requests>=2.32
 unidecode>=1.4
 markdownify>=1.2,<2
+Markdown>=3.7,<4

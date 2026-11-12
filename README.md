@@ -65,6 +65,9 @@ flowchart LR
    HTTP codes, and unresolved cases. `PIAs/collect_content.py` follows those lists
    and writes per-organization JSON, raw captures, and bilingual Markdown for
    individual summaries, preserving failures and translation-pairing evidence.
+   The [Privacy Assessments section](https://patlittle.github.io/pibs/privacy-assessments.html)
+   publishes a filterable bilingual catalogue, holdings metrics, and Markdown
+   readers with source and language-availability details.
 4. **Derive products and publish.** `build_my_info_features.py` combines
    institution and standard PIBs into one-row-per-PIB features, category
    assignments, record-level evidence, the bilingual questionnaire, and a

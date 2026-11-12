@@ -1,0 +1,53 @@
+/* Assessment pages extend the shared explorer design system. */
+.assessment-filters { display: flex; flex-wrap: wrap; gap: 1rem; align-items: end; padding: 1.25rem; border: 1px solid var(--border); background: var(--surface-soft); }
+.assessment-filters label { display: block; margin-bottom: .35rem; }
+.assessment-filters__department { flex: 2 1 280px; min-width: 0; }
+.assessment-filters__search { flex: 2 1 260px; }
+.assessment-filters .form-control { width: 100%; height: auto; min-height: 44px; }
+.assessment-filters select { max-width: 100%; }
+.assessment-table { min-width: 1000px; width: 100%; font-size: .95rem; }
+.assessment-table th { background: var(--surface-soft); vertical-align: top; }
+.assessment-table th button { padding: 0; border: 0; background: none; color: var(--blue-dark); text-align: left; font: inherit; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+.assessment-table td { vertical-align: top !important; overflow-wrap: anywhere; }
+.assessment-table th:nth-child(1), .assessment-table th:nth-child(2) { width: 19%; }
+.assessment-table th:nth-child(4), .assessment-table th:nth-child(5) { width: 23%; }
+.assessment-table th:nth-child(3) { width: 9%; }
+.assessment-table th:last-child { width: 7%; }
+.assessment-table td .button-link { white-space: nowrap; }
+.assessment-badge { display: inline-block; margin: .5rem .25rem 0 0; padding: .2rem .45rem; font-size: .76rem; line-height: 1.4; color: var(--blue-dark); background: var(--blue-pale); border-radius: .2rem; }
+.assessment-badge--warning { color: #664500; background: #fff3d1; }
+.assessment-table td.empty-results { padding: 2rem; text-align: center; }
+.assessment-reader-page { max-width: 1170px; }
+.assessment-reader-page h1 { max-width: 1000px; overflow-wrap: anywhere; }
+.assessment-institution { color: var(--blue-dark); font-weight: 700; }
+.reader-toolbar { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: space-between; align-items: center; padding: 1rem 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.document-language { display: inline-flex; gap: 0; border: 1px solid var(--blue); border-radius: .2rem; overflow: visible; }
+.document-language button { padding: .65rem 1rem; min-height: 44px; border: 0; background: white; color: var(--blue-dark); font: inherit; font-weight: 700; }
+.document-language button + button { border-left: 1px solid var(--blue); }
+.document-language button[aria-pressed="true"] { color: white; background: var(--blue-dark); }
+.document-language button:focus-visible { position: relative; z-index: 1; }
+.button-link--secondary { background: white; color: var(--blue-dark); }
+.button-link--secondary:hover { background: var(--blue-pale); color: var(--blue-dark); }
+.assessment-document { max-width: 900px; padding: 1rem 0 2rem; line-height: 1.75; overflow-wrap: anywhere; }
+.assessment-document h2, .assessment-document h3 { line-height: 1.25; margin-top: 2rem; }
+.assessment-document img { max-width: 100%; height: auto; }
+.assessment-document table { display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse; margin: 1rem 0; }
+.assessment-document th, .assessment-document td { padding: .6rem; border: 1px solid var(--border); vertical-align: top; }
+.assessment-document th { background: var(--surface-soft); }
+.assessment-document pre { max-width: 100%; overflow: auto; white-space: pre-wrap; }
+.assessment-source-details { padding: 1.25rem; border: 1px solid var(--border); background: var(--surface-soft); margin: 1rem 0 2rem; }
+.assessment-source-details summary { cursor: pointer; font-weight: 700; }
+.assessment-source-details dl { margin-top: 1rem; }
+.assessment-source-details dd { margin-bottom: .8rem; overflow-wrap: anywhere; }
+#language-availability-notice { margin-top: 1rem; }
+[hidden] { display: none !important; }
+@media (max-width: 600px) {
+  .assessment-filters { padding: 1rem; }
+  .assessment-filters > div { flex-basis: 100%; }
+  .reader-toolbar { align-items: flex-start; flex-direction: column; }
+  .reader-toolbar .record-links { gap: .5rem; }
+}
+@media print {
+  gcds-header, .site-footer, .reader-toolbar, .breadcrumb { display: none; }
+  .assessment-document { max-width: none; }
+}

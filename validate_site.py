@@ -10,6 +10,8 @@ from urllib.parse import urlsplit
 
 from bs4 import BeautifulSoup
 
+from scripts.validate_pia_site import validate as validate_pia_assets
+
 
 SITE = Path("site")
 DATASETS = {
@@ -94,6 +96,7 @@ def main() -> None:
         if not table.find(id=identifier):
             errors.append(f"table explorer missing component: {identifier}")
 
+    errors.extend(validate_pia_assets())
     if errors:
         raise SystemExit("Site validation failed:\n- " + "\n- ".join(errors))
     print(
