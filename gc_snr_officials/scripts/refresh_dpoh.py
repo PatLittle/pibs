@@ -190,7 +190,7 @@ def refresh(root=ROOT, zip_file=None):
                 provenance = dict(source_url=SOURCE_URL, sha256=hashlib.sha256(path.read_bytes()).hexdigest(), bytes=path.stat().st_size,
                                   capture_method='local_archive', processed_at_utc=datetime.now(timezone.utc).isoformat())
             else:
-                provenance = dict(**download(SOURCE_URL, path), capture_method='http_get')
+                provenance = dict(**download(SOURCE_URL, path, user_agent='Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'), capture_method='http_get')
             records, counts = aggregate_zip(path, today)
             if meta.get('raw_count') and counts['raw_count'] < meta['raw_count'] * .5:
                 raise ValueError('Joined count dropped by more than 50%; retained for review')

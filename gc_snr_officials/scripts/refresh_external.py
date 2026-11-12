@@ -23,9 +23,9 @@ DUMPS = {
 }
 
 
-def download(url, destination):
+def download(url, destination, user_agent=None):
     session = requests.Session()
-    session.headers['User-Agent'] = 'GC-Senior-Officials-Transparency/1.0 (+https://github.com/PatLittle/pibs)'
+    session.headers['User-Agent'] = user_agent or 'GC-Senior-Officials-Transparency/1.0 (+https://github.com/PatLittle/pibs)'
     session.mount('https://', HTTPAdapter(max_retries=Retry(total=2, backoff_factor=1, status_forcelist=[429, 500, 502, 503, 504])))
     digest, size = hashlib.sha256(), 0
     try:
