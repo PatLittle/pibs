@@ -1,7 +1,7 @@
-import { connections, fold, label, search } from './graph-model.mjs';
+import { connections, fold, label, search, matchesType } from './graph-model.mjs';
 
 // The same palette drives the diagram, record cards, chips and legend.
-export const NODE_COLORS = { pib: '#1f5a94', pia: '#087a82', institution: '#754b94', class: '#b47700', reference: '#d7dee5' };
+export const NODE_COLORS = { pib: '#1f5a94', pia: '#087a82', institution: '#754b94', class: '#b47700', category: '#a13d64', pib_type: '#546b31', reference: '#d7dee5' };
 
 export function connectedRecords(index, id, relation = '') {
   const records = new Map();
@@ -16,7 +16,7 @@ export function connectedRecords(index, id, relation = '') {
 export function browseRecords(index, { anchor, scope = 'connected', relation = '', query = '', type = '', sort = 'name', lang = 'en' }) {
   const terms = fold(query).split(/\s+/).filter(Boolean);
   const entries = scope === 'all' ? search(index, query, type, '', lang).map(node => ({ node, edges: [] })) :
-    connectedRecords(index, anchor, relation).filter(({ node }) => (!type || node.type === type) &&
+    connectedRecords(index, anchor, relation).filter(({ node }) => matchesType(node, type) &&
       terms.every(term => fold([node.identifier, node.label_en, node.label_fr, ...(node.aliases || [])].join(' ')).includes(term)));
   return entries.sort((a, b) => (sort === 'degree' ? index.adjacency.get(b.node.id).length - index.adjacency.get(a.node.id).length : 0) ||
     label(a.node, lang).localeCompare(label(b.node, lang), lang) || a.node.id.localeCompare(b.node.id));

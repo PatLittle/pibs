@@ -3,6 +3,9 @@ export const PAGE = 25;
 export const MAX_NODES = 250;
 export const fold = value => String(value || '').normalize('NFD').replace(/\p{Diacritic}/gu, '').toLowerCase();
 export const label = (node, lang) => node['label_' + lang] || node.label_en || node.label_fr || node.identifier;
+export const matchesType = (node, type) => !type || node.type === type ||
+  (type === 'standard-pib' && node.type === 'pib' && node.scope === 'standard') ||
+  (type === 'standard-class' && node.type === 'class' && node.scope === 'standard');
 
 export function indexGraph(graph) {
   const nodes = new Map(graph.nodes.map(n => [n.id, n]));
@@ -18,11 +21,11 @@ export function indexGraph(graph) {
 
 export function search(index, query, type = '', institution = '', lang = 'en') {
   const terms = fold(query).split(/\s+/).filter(Boolean);
-  return [...index.nodes.values()].filter(n => (!type || n.type === type) &&
+  return [...index.nodes.values()].filter(n => matchesType(n, type) &&
     (!institution || n.institution_id === institution) &&
     terms.every(t => fold([n.identifier, n.label_en, n.label_fr, ...(n.aliases || [])].join(' ')).includes(t)))
     .sort((a, b) => {
-      const rank = { pia: 0, pib: 1, institution: 2, class: 3, reference: 4 };
+      const rank = { pia: 0, pib: 1, institution: 2, class: 3, category: 4, pib_type: 5, reference: 6 };
       const priority = !terms.length && !type ? rank[a.type] - rank[b.type] : 0;
       return priority || label(a, lang).localeCompare(label(b, lang), lang) || a.id.localeCompare(b.id);
     });
@@ -61,7 +64,7 @@ export function parseState(url, index) {
   }
   return { root, selected: p.get('node') || root, edge: p.get('edge') || '', expanded,
     lang: p.get('lang') === 'fr' ? 'fr' : 'en',
-    relation: ['listed_by', 'references', 'related_class'].includes(p.get('relation')) ? p.get('relation') : '' };
+    relation: ['listed_by', 'references', 'related_class', 'has_type', 'category_match'].includes(p.get('relation')) ? p.get('relation') : '' };
 }
 
 export function stateURL(base, state) {
