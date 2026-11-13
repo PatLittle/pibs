@@ -20,7 +20,9 @@ examples with matching records; clearing all three restores the five examples.
 points and navigation to details, browsing, provenance, display and sharing.
 Back/Next, a menu of every stop, Restart and Exit are always available; Escape
 exits. The highlighted controls remain usable. Conditional panels open for their
-steps, including on mobile. Finishing or exiting restores the previous graph,
+steps. Each step focuses Next (Finish on the last step), allowing Enter to
+advance without repeated tabbing. Step four highlights the header language link.
+The tour works on mobile. Finishing or exiting restores the previous graph,
 selection, search, browser settings and URL. A fullscreen tour temporarily returns
 to the page and restores fullscreen on exit. The GCDS header provides the sole
 language switch; exit fullscreen to use it.

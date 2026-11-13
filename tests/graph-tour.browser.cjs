@@ -51,24 +51,34 @@ const ready = p => p.waitForFunction(() => document.getElementById('view-status'
     assert.equal(await page.locator('#tour-step option').count(), TOUR_STEPS.length);
     for (let i = 0; i < TOUR_STEPS.length; i++) {
       const step = TOUR_STEPS[i];
-      if (i) await page.locator('#tour-next').click();
+      if (i) await page.keyboard.press('Enter');
       await page.waitForFunction(id => document.getElementById('graph-tour').dataset.step === id && document.querySelector('.tour-card').getAttribute('aria-busy') === 'false', step.id);
+      await page.waitForFunction(() => document.activeElement === document.getElementById('tour-next'));
+      if (step.id === 'header') {
+        assert.equal(i, 3, 'Step four explains the language toggle');
+        const language = await page.locator('gcds-header').getByRole('link', { name: 'Français', exact: true }).boundingBox();
+        const spotlight = await page.locator('.tour-spotlight').boundingBox();
+        assert.ok(Math.abs(spotlight.width - language.width - 10) < 2, 'Highlight the language link, not the entire header');
+      }
       assert.ok(await page.locator(step.target).first().isVisible(), `Tour target must be visible: ${step.id}`);
       const box = await page.locator('.tour-card').boundingBox();
       assert.ok(box.x >= 0 && box.y >= 0 && box.x + box.width <= 1441 && box.y + box.height <= 1001, step.id);
       if (step.id === 'diagram') await page.screenshot({ path: output + '/graph-tour-desktop.png' });
-      if (step.id === 'search') {
-        // The tour explains real, usable controls instead of a screenshot.
-        await page.locator('#search').fill('PSU 905');
-        assert.ok((await page.locator('#results').textContent()).includes('Electronic Network'));
-      }
     }
-    await page.locator('#tour-next').click();
+    await page.keyboard.press('Enter');
     await page.waitForSelector('#graph-tour[hidden]', {state:'attached'});
     assert.equal(page.url(), before.url);
     assert.equal(await page.locator('#view-status').textContent(), before.status);
     assert.equal(await page.locator('#detail').textContent(), before.text);
     assert.equal(await page.locator('#tour-launch').evaluate(n => document.activeElement === n), true);
+    await page.locator('#tour-launch').click();
+    await page.selectOption('#tour-step', String(TOUR_STEPS.findIndex(s => s.id === 'search')));
+    await page.waitForFunction(() => document.getElementById('graph-tour').dataset.step === 'search' && document.activeElement === document.getElementById('tour-next'));
+    // Users can still interact with the highlighted feature deliberately.
+    await page.locator('#search').fill('PSU 905');
+    assert.ok((await page.locator('#results').textContent()).includes('Electronic Network'));
+    await page.keyboard.press('Escape');
+    await page.waitForFunction(() => document.getElementById('graph-tour').hidden && document.activeElement === document.getElementById('tour-launch'));
     await page.locator('#tour-launch').click(); await page.selectOption('#tour-step', String(TOUR_STEPS.findIndex(s => s.id === 'tabs')));
     await page.waitForFunction(() => document.getElementById('graph-tour').dataset.step === 'tabs');
     await page.locator('#tour-restart').click();
@@ -96,6 +106,7 @@ const ready = p => p.waitForFunction(() => document.getElementById('view-status'
       const step = TOUR_STEPS[i];
       await mobile.selectOption('#tour-step', String(i));
       await mobile.waitForFunction(id => document.getElementById('graph-tour').dataset.step === id && document.querySelector('.tour-card').getAttribute('aria-busy') === 'false', step.id);
+      await mobile.waitForFunction(() => document.activeElement === document.getElementById('tour-next'));
       assert.ok(await mobile.locator(step.target).first().isVisible(), `Mobile target: ${step.id}`);
       assert.equal(await mobile.locator('#tour-title').textContent(), step.title_fr);
       const box = await mobile.locator('.tour-card').boundingBox();
