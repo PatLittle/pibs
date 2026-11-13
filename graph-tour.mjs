@@ -2,9 +2,9 @@
 // conditional controls revealed by prepare(). The highlighted area stays usable.
 export const TOUR_STEPS = [
   ['examples', '#examples', 'search', 'Start exploring', 'Five paths into the evidence', 'Choose any of the five stories. Each opens real connected records; the counts describe direct links and represented institutions, not shared personal records.', 'Commencer', 'Cinq parcours dans les sources', 'Choisissez un des cinq parcours. Chacun ouvre de vrais documents liés; les comptes décrivent les liens directs et les institutions représentées, et non un partage de renseignements.'],
-  ['header', 'gcds-header', 'search', 'Share and more', 'Use the standard header navigation', 'Use the header’s Français/English link to switch language while preserving your graph view. Its menus open the overview, institution and reference tables, privacy assessments and network explorer. On narrow screens, open the navigation menu first. Skip to main content bypasses the header.', 'Partager et autres outils', 'Utiliser l’en-tête standard', 'Le lien Français/English de l’en-tête change la langue en conservant la vue. Les menus ouvrent aperçu, tableaux institutionnels et de référence, évaluations et explorateur. Sur petit écran, ouvrez d’abord le menu. Passer au contenu principal permet de sauter l’en-tête.'],
   ['find', '#search-heading', 'search', 'Start exploring', 'Reopen your starting points', 'Find a starting point opens or closes the examples and search controls. Return here whenever you want another starting point.', 'Commencer', 'Retrouver les points de départ', 'Trouver un point de départ ouvre ou ferme les exemples et la recherche. Revenez ici pour commencer un autre parcours.'],
   ['search', '#search', 'search', 'Start exploring', 'Search in either language', 'Search names, bank numbers and recorded aliases in English or French. Clear the search and both filters to return to the five examples.', 'Commencer', 'Chercher dans les deux langues', 'Cherchez des noms, numéros de fichier et alias en français ou en anglais. Effacez la recherche et les deux filtres pour retrouver les cinq exemples.'],
+  ['header', 'gcds-header', 'search', 'Start exploring', 'Change language in the header', 'Use the header’s Français/English link to switch language while preserving your graph view. Its menus open the overview, institution and reference tables, privacy assessments and network explorer. On narrow screens, open the navigation menu first. Skip to main content bypasses the header.', 'Commencer', 'Changer de langue dans l’en-tête', 'Le lien Français/English de l’en-tête change la langue en conservant la vue. Les menus ouvrent aperçu, tableaux institutionnels et de référence, évaluations et explorateur. Sur petit écran, ouvrez d’abord le menu. Passer au contenu principal permet de sauter l’en-tête.'],
   ['node-type', '#node-type', 'search', 'Start exploring', 'Start from any kind of record', 'Choose banks, standard banks, classes, standard classes, assessments, institutions, personal-information categories or PIB types. Standard records remain distinct from institution-specific records.', 'Commencer', 'Choisir un type de document', 'Choisissez fichiers, fichiers ordinaires, catégories de documents, catégories ordinaires, évaluations, institutions, catégories de renseignements personnels ou types de FRP.'],
   ['institution', '#institution', 'search', 'Start exploring', 'Narrow to an institution', 'This filter restricts search to records attributed to one institution. Government-wide standards and vocabulary nodes have no institution owner, so clear it to find them.', 'Commencer', 'Préciser une institution', 'Ce filtre limite la recherche aux documents attribués à une institution. Les normes pangouvernementales et vocabulaires n’ont pas d’institution propriétaire : effacez le filtre pour les trouver.'],
   ['results', '#results', 'results', 'Start exploring', 'Open a result', 'Select a search result to open its record and connections. More results loads additional matches; it does not add them all to the diagram.', 'Commencer', 'Ouvrir un résultat', 'Sélectionnez un résultat pour ouvrir son document et ses liens. Plus de résultats affiche d’autres correspondances sans toutes les ajouter au graphique.'],
@@ -60,6 +60,22 @@ export function createTour({ lang, prepare, snapshot, restore }) {
     Object.assign(card.style, { left: Math.max(8, Math.min(w - cw - 8, x)) + 'px', top: Math.max(8, Math.min(h - ch - 8, y)) + 'px' });
   }
   const targetObserver = new ResizeObserver(position);
+  function languageLink(root = document.querySelector('gcds-header')) {
+    if (!root) return null;
+    if (root.shadowRoot) {
+      const found = languageLink(root.shadowRoot);
+      if (found) return found;
+    }
+    const alternate = fr() ? 'en' : 'fr';
+    for (const a of root.querySelectorAll('a[href]')) {
+      if (new URL(a.href, location.href).searchParams.get('lang') === alternate) return a;
+    }
+    for (const element of root.querySelectorAll('*')) {
+      const found = element.shadowRoot && languageLink(element.shadowRoot);
+      if (found) return found;
+    }
+    return null;
+  }
   async function go(i) {
     const request = ++token; current = Math.max(0, Math.min(TOUR_STEPS.length - 1, i));
     card.setAttribute('aria-busy', 'true');
@@ -76,7 +92,7 @@ export function createTour({ lang, prepare, snapshot, restore }) {
     $('tour-step').value = current;
     await prepare(step);
     if (!active || request !== token) return;
-    target = document.querySelector(step.target);
+    target = step.id === 'header' ? languageLink() : document.querySelector(step.target);
     targetObserver.disconnect();
     if (target) targetObserver.observe(target);
     targetObserver.observe(card);
@@ -84,7 +100,11 @@ export function createTour({ lang, prepare, snapshot, restore }) {
     card.setAttribute('aria-busy', 'false');
     target?.scrollIntoView({ block: innerWidth < 700 ? 'start' : 'center', inline: 'nearest', behavior: 'instant' });
     if (innerWidth < 700 && target) window.scrollBy(0, -30);
-    requestAnimationFrame(() => { position(); card.focus({ preventScroll: true }); });
+    requestAnimationFrame(() => {
+      if (!active || request !== token) return;
+      position();
+      $('tour-next').focus({ preventScroll: true });
+    });
   }
   async function close() {
     if (!active) return;
