@@ -50,6 +50,28 @@ class GraphBuildTests(unittest.TestCase):
             self.assertEqual(self.nodes[edge['target']]['type'], 'reference')
             self.assertGreater(len(self.nodes[edge['target']]['candidates']), 1)
 
+    def test_vocabulary_edges_keep_derived_and_documented_evidence_distinct(self):
+        self.assertEqual(sum(n['type'] == 'category' for n in self.nodes.values()), 25)
+        self.assertEqual(sum(n['type'] == 'pib_type' for n in self.nodes.values()), 6)
+        categories = [e for e in self.graph['edges'] if e['type'] == 'category_match']
+        self.assertTrue(categories)
+        for edge in categories:
+            self.assertEqual(edge['basis'], 'derived')
+            self.assertEqual(self.nodes[edge['source']]['type'], 'pib')
+            self.assertEqual(self.nodes[edge['target']]['type'], 'category')
+            for item in edge['evidence']:
+                self.assertTrue(item['excerpt'])
+                self.assertTrue(item['rule'])
+                self.assertGreater(item['confidence'], 0)
+                self.assertIn(item['field'], ['description_en', 'description_fr', 'specific_information_types_en', 'specific_information_types_fr'])
+        typed = [e for e in self.graph['edges'] if e['type'] == 'has_type']
+        self.assertTrue(typed)
+        self.assertTrue(all(e['basis'] == 'documented' for e in typed))
+        # The standard access-request bank explicitly cites the standard class.
+        links = [e for e in self.graph['edges'] if e['source'] == 'pib:standard:PSU 901' and e['target'] == 'class:standard:930']
+        self.assertEqual(len(links), 1)
+        self.assertEqual({i['language'] for i in links[0]['evidence']}, {'en', 'fr'})
+
     def test_bilingual_alias_evidence_is_one_edge(self):
         ident = 'pia:ati-schedule-i-administrative-tribunals-support-service-of-canada/pia-95a42118fc3d'
         edges = [e for e in self.graph['edges'] if e['source'] == ident and e['target'] == 'pib:standard:PSU 905']
@@ -68,6 +90,12 @@ class GraphBuildTests(unittest.TestCase):
                 self.assertEqual(before, {p.relative_to(root): p.read_bytes() for p in root.rglob('*.json')})
             with patch('scripts.validate_graph.build', return_value=self.graph):
                 validate(root)
+                attribute_shard = next((root / 'site/data/graph-attributes').glob('*.json'))
+                attribute_bytes = attribute_shard.read_bytes()
+                attribute_shard.write_text('{}')
+                with self.assertRaisesRegex(ValueError, 'Attribute checksum'):
+                    validate(root)
+                attribute_shard.write_bytes(attribute_bytes)
                 shard = next((root / 'site/data/graph-evidence').glob('*.json'))
                 shard.write_text('{}')
                 with self.assertRaisesRegex(ValueError, 'checksum'): validate(root)

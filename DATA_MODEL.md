@@ -43,3 +43,13 @@ confidence and source-field evidence, and is presented as an estimate rather tha
 institution-specific PIBs can share one feature table without conflating reused bank numbers. The
 full category, interaction, retention, bilingual, and matching evidence is retained in
 `my_info_derivation_evidence.jsonl`.
+
+The Network Explorer's schema-version-2 projection in `site/data/graph.json`
+exposes institutions, institution and standard PIBs/classes, privacy assessments,
+personal-information categories, PIB types, and unresolved references as nodes.
+PIB-to-type edges match the source's controlled type value. Category edges reuse
+the existing deterministic description classifier against the current PIB rows;
+they carry an explicit `derived` basis, source-field evidence, rule and confidence.
+Documented references and inferred category matches are distinct relationships.
+Explicit standard PIB PRN/NDP references connect to standard classes. No standard
+PIB-to-institution adoption is inferred. See [graph methodology](docs/GRAPH_EXPLORER.md).

@@ -25,6 +25,7 @@ on:
       - "scripts/validate_pia_site.py"
       - "scripts/build_graph.py"
       - "scripts/validate_graph.py"
+      - "my_info/categories.py"
       - "tests/test_build_graph.py"
       - "tests/graph.test.mjs"
       - "tests/graph.browser.cjs"

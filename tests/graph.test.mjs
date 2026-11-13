@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { PAGE, MAX_NODES, indexGraph, search, connections, neighborhood, parseState, stateURL } from '../site/graph-model.mjs';
 import { browseRecords, connectedRecords, pageRecords, recordStats } from '../site/graph-records.mjs';
+import { EXAMPLES, exampleStats, exampleState } from '../site/graph-examples.mjs';
 
 const graph = JSON.parse(readFileSync(new URL('../site/data/graph.json', import.meta.url)));
 const index = indexGraph(graph);
@@ -15,6 +16,34 @@ test('French aliases, accent folding and institution/type filters search real re
   assert.ok(search(index, bank.label_fr.normalize('NFD').replace(/\p{Diacritic}/gu, ''), 'pib', bank.institution_id || '').some(n => n.id === bank.id));
   assert.equal(search(index, 'no-such-identifier-zzzzz').length, 0);
   assert.ok(search(index, '', 'pia').every(n => n.type === 'pia'));
+});
+
+test('all five editorial examples resolve and reveal real institution paths', () => {
+  assert.equal(EXAMPLES.length, 5);
+  assert.equal(new Set(EXAMPLES.map(e => e.id)).size, 5);
+  for (const example of EXAMPLES) {
+    assert.ok(index.nodes.has(example.id));
+    const stats = exampleStats(index, example.id);
+    assert.ok(stats.records >= 20 && stats.institutions >= 1);
+    const state = exampleState(index, example.id, 'fr'), view = neighborhood(index, state);
+    assert.ok(view.nodes.some(n => n.type === 'institution'));
+    assert.ok(view.edges.length > 20);
+    assert.deepEqual(parseState(stateURL(base, state), index), state);
+  }
+});
+
+test('standard records and vocabulary types are independently discoverable', () => {
+  assert.equal(search(index, '', 'standard-pib').length, 49);
+  assert.equal(search(index, '', 'standard-class').length, 33);
+  assert.equal(search(index, '', 'category').length, 25);
+  assert.equal(search(index, '', 'pib_type').length, 6);
+  assert.ok(browseRecords(index, {scope: 'all', type: 'standard-pib'}).every(r => r.node.scope === 'standard'));
+  const category = graph.nodes.find(n => n.type === 'category' && connections(index, n.id).length > 0);
+  const state = parseState(base + '?node=' + encodeURIComponent(category.id) + '&relation=category_match', index);
+  const view = neighborhood(index, state);
+  assert.ok(view.edges.length > 0);
+  assert.ok(view.edges.every(e => e.type === 'category_match' && e.basis === 'derived'));
+  assert.deepEqual(parseState(stateURL(base, state), index), state);
 });
 
 test('one hop starts small; expanding a standard bank preserves prior paths', () => {

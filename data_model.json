@@ -148,5 +148,58 @@
     "job_manifest": "data/collection_jobs/institution_collection_jobs_2026-08-15.jsonl",
     "institution_manifest_pattern": "institutions_infosource_docs/<institution_id>/source_manifest.json",
     "raw_snapshot_pattern": "institutions_infosource_docs/<institution_id>/snapshots/<date>/raw/"
+  },
+  "graph_projection": {
+    "path": "site/data/graph.json",
+    "schema_version": 2,
+    "node_types": [
+      "institution",
+      "pib",
+      "class",
+      "pia",
+      "category",
+      "pib_type",
+      "reference"
+    ],
+    "scopes": {
+      "pib": [
+        "institution",
+        "standard"
+      ],
+      "class": [
+        "institution",
+        "standard"
+      ]
+    },
+    "relationships": {
+      "listed_by": {
+        "basis": "documented",
+        "meaning": "Record attribution to an institution"
+      },
+      "references": {
+        "basis": "documented",
+        "meaning": "Explicit PIA citation; not full-bank assessment coverage"
+      },
+      "related_class": {
+        "basis": "documented",
+        "meaning": "Explicit institution or standard PIB class reference"
+      },
+      "has_type": {
+        "basis": "documented",
+        "meaning": "Exact controlled PIB type value"
+      },
+      "category_match": {
+        "basis": "derived",
+        "meaning": "Existing description-based category classifier; not an official assignment",
+        "evidence": [
+          "source_path",
+          "field",
+          "excerpt",
+          "rule",
+          "confidence"
+        ]
+      }
+    },
+    "methodology": "docs/GRAPH_EXPLORER.md"
   }
 }

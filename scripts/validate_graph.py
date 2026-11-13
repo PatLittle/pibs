@@ -13,6 +13,22 @@ from scripts.build_graph import build
 def validate(root=ROOT):
     root = Path(root)
     actual = json.loads((root / 'site/data/graph.json').read_text())
+    attributes = {}
+    for path, checksum in actual.pop('attribute_files').items():
+        raw = (root / 'site' / path).read_bytes()
+        if hashlib.sha256(raw).hexdigest() != checksum:
+            raise ValueError(f'Attribute checksum mismatch: {path}')
+        attributes[path] = json.loads(raw)
+    used_attributes = set()
+    for node in actual['nodes']:
+        if 'attribute_url' in node:
+            path = node.pop('attribute_url')
+            node['attributes'] = attributes[path][node['id']]
+            used_attributes.add((path, node['id']))
+        elif node['type'] in ('pib', 'class'):
+            node['attributes'] = {}
+    if used_attributes != {(path, ident) for path, items in attributes.items() for ident in items}:
+        raise ValueError('Orphan attributes in graph assets')
     evidence = {}
     expected_files = actual.pop('evidence_files')
     for path, checksum in expected_files.items():

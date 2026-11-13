@@ -34,7 +34,7 @@ const ready = page => page.waitForFunction(() => document.getElementById('view-s
     assert.ok((await page.locator('#detail a[href*="#L"]').count()) > 0);
     const edgeURL = page.url();
     await page.reload(); await page.waitForSelector('.graph-evidence'); assert.equal(page.url(), edgeURL);
-    await page.locator('#language').click(); assert.equal(await page.locator('html').getAttribute('lang'), 'fr');
+    await page.locator('gcds-header').getByRole('link', { name: 'Français', exact: true }).click(); await page.waitForSelector('.graph-evidence'); assert.equal(await page.locator('html').getAttribute('lang'), 'fr');
     await page.goBack(); assert.equal(await page.locator('html').getAttribute('lang'), 'en');
     await page.locator('#search-heading').click(); await page.locator('#search').fill('POU 905');
     await page.locator('#results button').filter({ hasText: 'PSU 905' }).first().click();
@@ -109,9 +109,9 @@ const ready = page => page.waitForFunction(() => document.getElementById('view-s
     assert.equal(await mobile.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1), true);
     const boxes = await mobile.locator('#explorer, #cy, #inspector').evaluateAll(ns => ns.map(n => { const r = n.getBoundingClientRect(); return {x:r.x,y:r.y,w:r.width,h:r.height}; }));
     assert.ok(boxes.every(b => b.x >= 0 && b.y >= 0 && b.x + b.w <= 391 && b.y + b.h <= 845));
-    assert.ok(boxes[1].h >= 140 && boxes[2].h >= 190);
+    assert.ok(boxes[1].h >= 140 && boxes[2].h >= 190, JSON.stringify(boxes));
     await mobile.screenshot({ path: output + '/graph-fullscreen-mobile.png' });
-    await mobile.locator('#workspace-language').click(); assert.equal(await mobile.locator('html').getAttribute('lang'), 'en');
+
     await mobile.locator('#fullscreen').click(); await mobile.waitForSelector('#explorer:not(.is-expanded)');
 
     // Explicit viewport fallback, Escape, tab containment and missing diagram.
@@ -123,7 +123,7 @@ const ready = page => page.waitForFunction(() => document.getElementById('view-s
     assert.ok((await fallback.locator('#view-status').textContent()).includes('connection list remain available'));
     await fallback.locator('#fullscreen').click(); await fallback.waitForSelector('#explorer.is-expanded');
     assert.equal(await fallback.evaluate(() => document.fullscreenElement), null);
-    await fallback.locator('#workspace-language').focus(); await fallback.keyboard.press('Shift+Tab');
+    await fallback.locator('#workspace-tour').focus(); await fallback.keyboard.press('Shift+Tab');
     assert.equal(await fallback.evaluate(() => document.getElementById('explorer').contains(document.activeElement)), true);
     await fallback.keyboard.press('Escape'); await fallback.waitForSelector('#explorer:not(.is-expanded)');
     assert.equal(await fallback.locator('#fullscreen').evaluate(n => n === document.activeElement), true);

@@ -1,12 +1,27 @@
 import { PAGE, MAX_NODES, label, indexGraph, search, connections, neighborhood, parseState, stateURL } from './graph-model.mjs';
 
 import { NODE_COLORS, browseRecords, pageRecords, recordStats } from './graph-records.mjs';
+import { EXAMPLES, exampleStats, exampleState } from './graph-examples.mjs';
+import { createTour } from './graph-tour.mjs';
 
 const $ = id => document.getElementById(id);
 const words = {
   en: {
+    tourLaunch: 'Start guided tour', examplesHeading: 'Five paths worth exploring',
+    examplesIntro: 'Choose a story to open a connected view, or search the full inventory below.',
+    examplesStatus: 'Five curated starting points. Enter a name or choose a filter to search all records.',
+    exampleCounts: (r, i) => `${r} directly connected records · ${i} represented institutions`,
+    standardPib: 'Standard PIB', standardClass: 'Standard Class of Records', category: 'Personal-information category', pib_type: 'PIB type',
+    has_type: 'Has PIB type', category_match: 'Category match (derived)',
+    derivedNote: 'Category links are estimated matches from PIB descriptions, not official assignments. Confidence describes the matching rule, not the likelihood that an institution holds your information.',
+    derived: 'Derived match', documented: 'Documented relationship', confidence: 'Rule confidence', rule: 'Matching rule',
+    attributes: 'Record attributes', purpose: 'Purpose', class_of_individuals: 'People covered', consistent_uses: 'Consistent uses', retention_disposal: 'Retention and disposal', document_types: 'Document types', date_last_modified: 'Source modification date',
+    institutionalContext: 'Institution', represented: 'Represented institutions', institutionScope: 'Institution-specific',
+    derivedLegend: 'Dotted: derived category match', unresolvedLegend: 'Dashed: unresolved reference',
+    attributeError: 'Attributes could not be loaded. Retry or open the full record.', retry: 'Retry',
+    aliasesLabel: 'Other recorded identifiers',
     skip: 'Skip to main content', eyebrow: 'Follow the evidence', title: 'PIB / PIA network explorer',
-    intro: 'Start with a bank or an assessment. Select a node to reveal its connections; select a line to inspect the source evidence.',
+    intro: 'Start with an example, a record, a personal-information category or a PIB type. Select a node to reveal its connections; select a line to inspect the source evidence.',
     notice: 'A reference is a citation, not proof that an assessment covers the entire bank. Missing links reflect collected evidence, not the absence of an assessment. Dashed lines lead to unresolved references.',
     find: 'Find a starting point', search: 'Name or identifier (English or French)', recordType: 'Record type', allTypes: 'All types',
     pib: 'PIB', pia: 'Privacy assessment', institution: 'Institution', class: 'Class of Records', reference: 'Unresolved reference',
@@ -45,8 +60,21 @@ const words = {
     summary: s => `${s.nodes.toLocaleString('en-CA')} nodes · ${s.node_types.pib.toLocaleString('en-CA')} PIBs · ${s.node_types.pia.toLocaleString('en-CA')} assessments · source evidence on every relationship`,
   },
   fr: {
+    tourLaunch: 'Commencer la visite guidée', examplesHeading: 'Cinq parcours à découvrir',
+    examplesIntro: 'Choisissez un parcours pour ouvrir une vue connectée, ou cherchez dans l’inventaire ci-dessous.',
+    examplesStatus: 'Cinq points de départ choisis. Saisissez un nom ou choisissez un filtre pour chercher tous les documents.',
+    exampleCounts: (r, i) => `${r} documents directement liés · ${i} institutions représentées`,
+    standardPib: 'FRP ordinaire', standardClass: 'Catégorie de documents ordinaire', category: 'Catégorie de renseignements personnels', pib_type: 'Type de FRP',
+    has_type: 'A le type de FRP', category_match: 'Correspondance de catégorie (dérivée)',
+    derivedNote: 'Les liens de catégorie sont des estimations tirées des descriptions des FRP, et non des attributions officielles. La confiance concerne la règle de correspondance, pas la probabilité qu’une institution détienne vos renseignements.',
+    derived: 'Correspondance dérivée', documented: 'Relation documentée', confidence: 'Confiance de la règle', rule: 'Règle de correspondance',
+    attributes: 'Attributs du document', purpose: 'Fin', class_of_individuals: 'Personnes visées', consistent_uses: 'Usages compatibles', retention_disposal: 'Conservation et élimination', document_types: 'Types de documents', date_last_modified: 'Date de modification de la source',
+    institutionalContext: 'Institution', represented: 'Institutions représentées', institutionScope: 'Propre à une institution',
+    derivedLegend: 'Petits points : catégorie dérivée', unresolvedLegend: 'Pointillés : référence non résolue',
+    attributeError: 'Impossible de charger les attributs. Réessayez ou ouvrez le document complet.', retry: 'Réessayer',
+    aliasesLabel: 'Autres identifiants dans les sources',
     skip: 'Passer au contenu principal', eyebrow: 'Suivre les sources', title: 'Explorateur de liens FRP / EFVP',
-    intro: 'Commencez par un fichier ou une évaluation. Sélectionnez un nœud pour découvrir ses liens, puis une ligne pour consulter les preuves.',
+    intro: 'Commencez par un exemple, un document, une catégorie de renseignements personnels ou un type de FRP. Sélectionnez un nœud pour découvrir ses liens, puis une ligne pour consulter les preuves.',
     notice: 'Une référence est une citation, sans garantir que l’évaluation couvre tout le fichier. Les liens absents reflètent les preuves recueillies, sans démontrer l’absence d’une évaluation. Les lignes pointillées mènent à des références non résolues.',
     find: 'Trouver un point de départ', search: 'Nom ou identifiant (français ou anglais)', recordType: 'Type de document', allTypes: 'Tous les types',
     pib: 'FRP', pia: 'Évaluation de la vie privée', institution: 'Institution', class: 'Catégorie de documents', reference: 'Référence non résolue',
@@ -85,11 +113,14 @@ const words = {
     summary: s => `${s.nodes.toLocaleString('fr-CA')} nœuds · ${s.node_types.pib.toLocaleString('fr-CA')} FRP · ${s.node_types.pia.toLocaleString('fr-CA')} évaluations · preuves pour chaque relation`,
   }
 };
-let index, data, state, cy, resultLimit = 12, currentView, lastViewKey = '';
+let index, data, state, cy, tour, resultLimit = 12, currentView, lastViewKey = '';
 let recordEntries = [], activeTab = 'detail', expandedMode = false, nativeMode = false, previousFocus;
 const browser = { anchor: '', scope: 'connected', query: '', type: '', sort: 'name', page: 1, size: 8 };
 const inertElements = new Map();
 const evidenceCache = new Map();
+const attributeCache = new Map();
+let evidenceReady = Promise.resolve();
+let attributeReady = Promise.resolve();
 const t = key => words[state?.lang || (new URLSearchParams(location.search).get('lang') === 'fr' ? 'fr' : 'en')][key] || key;
 const el = (tag, text, cls) => { const node = document.createElement(tag); if (text != null) node.textContent = text; if (cls) node.className = cls; return node; };
 function button(text, action) { const b = el('button', text); b.type = 'button'; b.addEventListener('click', action); return b; }
@@ -105,9 +136,6 @@ function localize() {
   document.documentElement.lang = state.lang;
   document.title = t('title') + ' - Info Source Data Explorer';
   document.querySelectorAll('[data-i18n]').forEach(n => { n.textContent = t(n.dataset.i18n); });
-  for (const id of ['language', 'workspace-language']) {
-    $(id).textContent = state.lang === 'en' ? 'Français' : 'English'; $(id).lang = state.lang === 'en' ? 'fr' : 'en';
-  }
   $('fullscreen').textContent = t(expandedMode ? 'exitFullscreen' : 'fullscreen');
   $('toggle-panel').textContent = t($('explorer').classList.contains('panel-hidden') ? 'showPanel' : 'hidePanel');
   $('cy').setAttribute('aria-label', t('canvasLabel'));
@@ -140,8 +168,23 @@ function localize() {
   $('data-summary').textContent = t('summary')(data.summary);
 }
 function renderSearch() {
+  const curated = !$('search').value.trim() && !$('node-type').value && !$('institution').value;
+  $('examples').hidden = !curated;
+  $('example-list').replaceChildren();
+  for (const example of EXAMPLES.filter(e => index.nodes.has(e.id))) {
+    const li = el('li'), node = index.nodes.get(example.id);
+    const b = button(example['title_' + state.lang], () => openExample(example.id));
+    b.dataset.example = example.id; b.dataset.nodeType = node.type;
+    b.append(el('span', example['text_' + state.lang], 'example-description'));
+    const stats = exampleStats(index, example.id);
+    b.append(el('small', t('exampleCounts')(stats.records, stats.institutions)));
+    li.append(b); $('example-list').append(li);
+  }
   const matches = search(index, $('search').value, $('node-type').value, $('institution').value, state.lang);
   $('results').replaceChildren();
+  if (curated) {
+    $('search-status').textContent = t('examplesStatus'); $('more-results').hidden = true; return;
+  }
   for (const node of matches.slice(0, resultLimit)) {
     const li = el('li');
     const b = button(label(node, state.lang), () => selectNode(node.id, true));
@@ -151,6 +194,13 @@ function renderSearch() {
   }
   $('search-status').textContent = matches.length ? t('results')(Math.min(resultLimit, matches.length), matches.length) : t('noMatch');
   $('more-results').hidden = matches.length <= resultLimit;
+}
+function openExample(id) {
+  state = exampleState(index, id, state.lang);
+  browser.anchor = id; browser.scope = 'connected'; browser.page = 1; browser.query = ''; browser.type = '';
+  syncBrowserControls(); setTab('detail'); render(true);
+  $('inspector-heading').focus({ preventScroll: true });
+  $('explorer').scrollIntoView({ block: 'start' });
 }
 async function evidenceList(edge, container) {
   container.textContent = t('loading');
@@ -165,6 +215,9 @@ async function evidenceList(edge, container) {
       const section = el('div', null, 'graph-evidence');
       section.append(el('strong', (item.language || '').toUpperCase() + ' · ' + (item.mention || item.field || '')));
       if (item.excerpt) { const quote = el('blockquote', item.excerpt); if (item.language) quote.lang = item.language; section.append(quote); }
+      if (edge.basis === 'derived') section.append(el('p', t('derivedNote'), 'record-alert'));
+      if (item.confidence != null) section.append(el('p', t('confidence') + ': ' + Math.round(item.confidence * 100) + '%'));
+      if (item.rule) section.append(el('p', t('rule') + ': ' + item.rule));
       if (item.source_url) section.append(link(t('source'), item.source_url), document.createTextNode(' · '));
       section.append(link(t('artifact') + (item.line ? ` · ${t('line')} ${item.line}` : ''), repositoryLink(item.source_path, item.line)));
       const audit = el('details', null, 'evidence-audit'); audit.append(el('summary', t('evidenceAudit')));
@@ -177,6 +230,26 @@ async function evidenceList(edge, container) {
   } catch {
     evidenceCache.delete(edge.evidence_url);
     container.textContent = t('evidenceError');
+  }
+}
+async function recordAttributes(node, container) {
+  container.textContent = t('loading');
+  try {
+    if (!attributeCache.has(node.attribute_url)) attributeCache.set(node.attribute_url, fetch(node.attribute_url).then(async r => {
+      if (!r.ok) throw new Error('Attributes HTTP ' + r.status);
+      return r.json();
+    }));
+    const attributes = (await attributeCache.get(node.attribute_url))[node.id];
+    container.replaceChildren(el('h5', t('attributes')));
+    for (const key of ['pib_type', 'purpose', 'class_of_individuals', 'consistent_uses', 'retention_disposal', 'document_types', 'date_last_modified']) {
+      const value = attributes[key] || attributes[key + '_' + state.lang];
+      if (!value) continue;
+      const field = el('details'); field.append(el('summary', t(key)), el('p', value)); container.append(field);
+    }
+  } catch {
+    attributeCache.delete(node.attribute_url);
+    container.replaceChildren(el('p', t('attributeError')));
+    container.append(button(t('retry'), () => recordAttributes(node, container)));
   }
 }
 function setTab(tab, focus = false) {
@@ -206,14 +279,14 @@ function inspect() {
   const edge = index.edges.get(state.edge);
   if (edge) {
     const card = el('article', null, 'record-card'); card.dataset.nodeType = index.nodes.get(edge.target).type;
-    card.append(el('span', t(edge.resolution), 'record-badge'), el('h4', t(edge.type)), el('p', t('evidenceNote'), 'record-note'));
+    card.append(el('span', t(edge.basis === 'derived' ? 'derived' : edge.resolution), 'record-badge'), el('h4', t(edge.type)), el('p', t(edge.basis === 'derived' ? 'derivedNote' : edge.type === 'references' ? 'evidenceNote' : 'documented'), 'record-note'));
     const endpoints = el('div', null, 'edge-endpoints');
     for (const id of [edge.source, edge.target]) {
       const node = index.nodes.get(id), b = button(label(node, state.lang), () => selectNode(id));
       b.dataset.nodeType = node.type; endpoints.append(b);
     }
     card.append(endpoints); $('detail').append(card);
-    const evidence = el('div'); card.append(evidence); evidenceList(edge, evidence);
+    const evidence = el('div'); card.append(evidence); evidenceReady = evidenceList(edge, evidence);
     return;
   }
   const node = index.nodes.get(state.selected);
@@ -221,9 +294,17 @@ function inspect() {
   const card = el('article', null, 'record-card'); card.dataset.nodeType = node.type;
   const title = el('h4', label(node, state.lang));
   if (!node['label_' + state.lang]) title.lang = node.label_en ? 'en' : 'fr';
-  card.append(el('span', t(node.type) + (node.scope === 'standard' ? ' · ' + t('standard') : ''), 'record-badge'), title, el('p', node.identifier, 'record-identifier'));
+  card.append(el('span', t(node.type) + (node.scope ? ' · ' + t(node.scope === 'standard' ? 'standard' : 'institutionScope') : ''), 'record-badge'), title, el('p', node.identifier, 'record-identifier'));
+  const aliases = [...new Set((node.aliases || []).filter(v => v && v !== node.identifier && /\s/.test(v)))];
+  if (aliases.length) card.append(el('p', t('aliasesLabel') + ': ' + aliases.join(' · '), 'record-note'));
+  if (node.institution_id && node.type !== 'institution') {
+    const institution = index.nodes.get('institution:' + node.institution_id);
+    if (institution) card.append(button(label(institution, state.lang), () => selectNode(institution.id)));
+  }
+  if (node.type === 'category') card.append(el('p', t('derivedNote'), 'record-alert'));
   const stats = recordStats(index, node.id, state.relation), metrics = el('div', null, 'record-metrics');
-  for (const [count, name] of [[stats.records, 'directRecords'], [stats.relationships, 'directEdges']]) {
+  const represented = new Set(connections(index, node.id, state.relation).map(e => index.nodes.get(e.source === node.id ? e.target : e.source).institution_id).filter(Boolean));
+  for (const [count, name] of [[stats.records, 'directRecords'], [stats.relationships, 'directEdges'], [represented.size, 'represented']]) {
     const metric = el('div', null, 'record-metric'); metric.append(el('strong', count), el('span', t(name))); metrics.append(metric);
   }
   card.append(metrics);
@@ -235,6 +316,10 @@ function inspect() {
   card.append(chips);
   const description = node['description_' + state.lang];
   if (description) card.append(el('p', description, 'record-description'));
+  if (node.attribute_url) {
+    const group = el('section', null, 'record-attributes'); card.append(group);
+    attributeReady = recordAttributes(node, group);
+  }
   if (node.resolution) card.append(el('p', t(node.resolution), 'record-alert'));
   if (node.candidates?.length) card.append(el('p', t('candidates') + ': ' + node.candidates.join('; '), 'record-note'));
   if (node.type === 'pia' && !node.available_languages.length) card.append(el('p', t('unavailable'), 'record-alert'));
@@ -257,10 +342,10 @@ function renderConnections() {
   for (const { node, edges } of page.items) {
     const li = el('li'); li.dataset.nodeType = node.type; li.dataset.recordId = node.id; li.dataset.selected = String(node.id === state.selected);
     const b = button(label(node, state.lang), () => selectNode(node.id, false, true)); b.className = 'record-row-title';
-    li.append(el('span', t(node.type), 'record-badge'), b, el('small', node.identifier), el('small', t('degree')(index.adjacency.get(node.id).length)));
+    li.append(el('span', t(node.type) + (node.scope === 'standard' ? ' · ' + t('standard') : ''), 'record-badge'), b, el('small', node.identifier), el('small', t('degree')(index.adjacency.get(node.id).length)));
     for (const edge of edges) {
       const evidence = button(t('inspect') + ' · ' + t(edge.type), () => selectEdge(edge.id)); evidence.className = 'evidence-button';
-      li.append(el('small', t(edge.resolution)), evidence);
+      li.append(el('small', t(edge.basis === 'derived' ? 'derived' : edge.resolution)), evidence);
     }
     $('connections').append(li);
   }
@@ -318,7 +403,62 @@ function render(push = false) {
   $('reset').disabled = !currentView.nodes.length;
   $('share-link').hidden = true; $('share-status').textContent = '';
   const url = stateURL(location.href, state);
-  if (push) history.pushState(null, '', url);
+  if (push && !tour?.active) history.pushState(null, '', url);
+}
+function snapshotTour() {
+  return { state: { ...state, expanded: new Map(state.expanded) }, browser: { ...browser }, activeTab,
+    resultLimit, openSections: [...$('detail').querySelectorAll('details')].map(n => n.open),
+    panelScroll: ['record-panel', 'connections', 'browser-panel', 'browser-filters'].map(id => [id, $(id).scrollTop]),
+    searchOpen: $('search-panel').open, filtersOpen: $('browser-filters').open,
+    search: $('search').value, type: $('node-type').value, institution: $('institution').value,
+    hidden: $('explorer').classList.contains('panel-hidden'), expanded: expandedMode,
+    highlight: $('highlight').checked, url: location.href, scroll: [scrollX, scrollY],
+    positions: cy?.nodes().map(n => ({ id: n.id(), position: { ...n.position() } })),
+    zoom: cy?.zoom(), pan: cy ? { ...cy.pan() } : null };
+}
+async function restoreTour(saved) {
+  state = saved.state; Object.assign(browser, saved.browser);
+  resultLimit = saved.resultLimit;
+  $('search').value = saved.search; $('node-type').value = saved.type;
+  $('institution').value = saved.institution; $('highlight').checked = saved.highlight;
+  syncBrowserControls(); setTab(saved.activeTab); render();
+  if (state.edge) await evidenceReady;
+  else if (index.nodes.get(state.selected)?.attribute_url) await attributeReady;
+  $('detail').querySelectorAll('details').forEach((n, i) => { n.open = saved.openSections[i] || false; });
+  $('search-panel').open = saved.searchOpen; $('browser-filters').open = saved.filtersOpen;
+  $('explorer').classList.toggle('panel-hidden', saved.hidden); $('inspector').inert = saved.hidden;
+  $('toggle-panel').textContent = t(saved.hidden ? 'showPanel' : 'hidePanel'); $('toggle-panel').setAttribute('aria-expanded', String(!saved.hidden));
+  if (expandedMode !== saved.expanded) await toggleFullscreen();
+  await new Promise(requestAnimationFrame);
+  if (cy && saved.positions) { cy.nodes().positions(n => saved.positions.find(p => p.id === n.id())?.position || n.position()); cy.zoom(saved.zoom); cy.pan(saved.pan); }
+  for (const [id, top] of saved.panelScroll) $(id).scrollTop = top;
+  history.replaceState(null, '', saved.url);
+  window.scrollTo(...saved.scroll);
+}
+async function prepareTour(step) {
+  if (expandedMode) await toggleFullscreen();
+  $('search-panel').open = step.setup === 'search' || step.setup === 'results';
+  if (step.setup === 'search') {
+    $('search').value = ''; $('node-type').value = ''; $('institution').value = ''; renderSearch(); return;
+  }
+  if (step.setup === 'results') {
+    $('search').value = ''; $('node-type').value = 'pib'; $('institution').value = ''; renderSearch(); return;
+  }
+  if (step.setup === 'attributes' || step.setup === 'expand') {
+    const id = step.setup === 'attributes' ? 'pib:standard:PSU 905' : EXAMPLES[4].id;
+    state = exampleState(index, id, state.lang); state.expanded = new Map([[id, PAGE]]); browser.anchor = id;
+  }
+  if (step.setup === 'evidence') {
+    state = exampleState(index, EXAMPLES[0].id, state.lang);
+    state.edge = connections(index, state.root).find(e => e.type === 'references').id;
+  } else state.edge = '';
+  if (!state.root || !index.nodes.has(state.selected)) state = exampleState(index, EXAMPLES[0].id, state.lang);
+  state.relation = ''; browser.query = ''; browser.type = ''; browser.page = 1;
+  browser.anchor = state.selected; browser.scope = step.setup === 'all' ? 'all' : 'connected';
+  syncBrowserControls(); setTab(['browse', 'all'].includes(step.setup) ? 'browser' : 'detail'); render();
+  $('browser-filters').open = true;
+  if (step.setup === 'evidence') await evidenceReady;
+  if (step.setup === 'attributes') await attributeReady;
 }
 function selectNode(id, start = false, keepBrowser = false) {
   if (!index.nodes.has(id)) return;
@@ -453,8 +593,9 @@ async function init() {
     const response = await fetch('data/graph.json');
     if (!response.ok) throw new Error('Graph HTTP ' + response.status);
     data = await response.json(); index = indexGraph(data); state = parseState(location.href, index);
+    if (!state.root && !new URL(location.href).searchParams.has('node')) state = exampleState(index, EXAMPLES[0].id, state.lang);
     browser.anchor = state.selected;
-    $('search-panel').open = !state.root || !index.nodes.has(state.root);
+    $('search-panel').open = !new URL(location.href).searchParams.has('node') || !index.nodes.has(state.root);
     if (typeof window.cytoscape === 'function') {
       cy = window.cytoscape({ container: $('cy'), elements: [], minZoom: .1, maxZoom: 3, wheelSensitivity: .2,
         style: [
@@ -463,9 +604,12 @@ async function init() {
           { selector: 'node[type="pia"]', style: { shape: 'diamond', width: 42, height: 42 } },
           { selector: 'node[type="institution"]', style: { shape: 'round-rectangle', width: 46 } },
           { selector: 'node[type="class"]', style: { shape: 'rectangle' } },
+          { selector: 'node[type="category"]', style: { shape: 'tag' } },
+          { selector: 'node[type="pib_type"]', style: { shape: 'pentagon' } },
           { selector: 'node[type="reference"]', style: { shape: 'hexagon', 'border-style': 'dashed' } },
           { selector: 'edge', style: { width: 1.5, 'line-color': '#7a8b9b', 'target-arrow-color': '#7a8b9b', 'target-arrow-shape': 'triangle', 'curve-style': 'bezier' } },
           { selector: 'edge[resolution != "resolved"]', style: { 'line-style': 'dashed' } },
+          { selector: 'edge[basis="derived"]', style: { 'line-style': 'dotted', 'line-color': '#a13d64', 'target-arrow-color': '#a13d64' } },
           { selector: 'edge.active', style: { 'line-color': '#087a82', 'target-arrow-color': '#087a82', width: 4 } },
           { selector: 'node.active', style: { 'border-width': 4, 'border-color': '#172b42', 'underlay-color': 'data(color)', 'underlay-opacity': .2, 'underlay-padding': 7 } },
           { selector: '.dimmed', style: { opacity: .15 } },
@@ -480,7 +624,6 @@ async function init() {
     $('relation').addEventListener('change', () => { state.relation = $('relation').value; state.expanded = new Map([[state.root, PAGE]]); state.selected = state.root; state.edge = ''; render(true); });
     $('fit').addEventListener('click', () => cy?.fit(undefined, 40));
     $('reset').addEventListener('click', () => selectNode(state.selected, true));
-    for (const id of ['language', 'workspace-language']) $(id).addEventListener('click', () => { state.lang = state.lang === 'en' ? 'fr' : 'en'; render(true); });
     initializeWorkspace();
     if (!index.nodes.has(state.selected)) { browser.scope = 'all'; syncBrowserControls(); setTab('browser'); }
     $('share').addEventListener('click', async () => {
@@ -490,6 +633,8 @@ async function init() {
     });
     window.addEventListener('popstate', () => { state = parseState(location.href, index); browser.anchor = state.selected; browser.page = 1; render(); });
     render();
+    tour = createTour({ lang: () => state.lang, prepare: prepareTour, snapshot: snapshotTour, restore: restoreTour });
+    for (const id of ['tour-launch', 'workspace-tour']) { $(id).disabled = false; $(id).addEventListener('click', () => tour.start()); }
   } catch (error) {
     $('view-status').textContent = t('loadError'); $('view-status').setAttribute('role', 'alert');
     for (const id of ['search', 'node-type', 'institution']) $(id).disabled = true;

@@ -7,10 +7,34 @@ The existing GCDS header, prototype label, colours and navigation are retained.
 
 ## Explore
 
+The initial page offers five bilingual, curated starting points: shared security
+and staffing classes; the standard network-monitoring bank; CRA human-resources
+analytics; and the Privacy Commissioner's Office 365 assessment. Counts come from
+the current graph. Represented institutions means distinct institution IDs on
+directly connected records, not proven adoption or shared personal information.
+Each story opens a bounded view with a few institution paths. Supplied deep links
+take precedence over the default view. Search text or either filter replaces the
+examples with matching records; clearing all three restores the five examples.
+
+**Start guided tour** offers 36 clickable spotlight stops ordered from starting
+points and navigation to details, browsing, provenance, display and sharing.
+Back/Next, a menu of every stop, Restart and Exit are always available; Escape
+exits. The highlighted controls remain usable. Conditional panels open for their
+steps, including on mobile. Finishing or exiting restores the previous graph,
+selection, search, browser settings and URL. A fullscreen tour temporarily returns
+to the page and restores fullscreen on exit. The GCDS header provides the sole
+language switch; exit fullscreen to use it.
+
+Standard PIBs and standard classes have dedicated search/list filter options.
+Personal-information categories and PIB types are independent searchable nodes.
+Record details show scope, institution, description, direct connection counts,
+represented institutions, and expandable attributes such as purpose, people
+covered, uses, retention and document types where available.
+
 **Full screen** opens the graph and its record panel together. Browsers that
 cannot grant native fullscreen use a viewport-filling workspace instead. The
 exit button or Escape restores the page and keyboard focus. **Hide records**
-temporarily gives the entire workspace to the graph. The language switch and
+temporarily gives the entire workspace to the graph. The guided tour and
 graph controls remain available inside fullscreen, including on mobile.
 
 The record panel has **Record** and **Browse records** tabs. Browse either the
@@ -68,6 +92,8 @@ Example using an actual assessment:
 | `institutions_infosource_docs/pib_table_en_fr_all.csv` | Institutional PIBs, identifiers, bilingual titles/descriptions |
 | `institutions_infosource_docs/cor_table_en_fr_all.csv` | Institutional Classes of Records |
 | `spib_en_fr.csv`, `standard_classes_of_records_en_fr.csv` | Government-wide records, kept separate from institutional records |
+| `pi_categories_en_fr.csv`, `pib_type_values.csv` | Category vocabulary and controlled PIB type nodes |
+| `my_info/categories.py` | Existing deterministic description-based category rules, reused against current source rows |
 | `institutions_infosource_docs/pib_cor_links.csv` | Existing compiled PIB/class references and resolution status |
 | `PIAs/*/collection.json` | Assessment identities, availability, existing matches and line evidence |
 | Referenced PIA Markdown, `PIAs/collection_manifest.json` | Verified source checksums and collection provenance |
@@ -77,10 +103,15 @@ Example using an actual assessment:
 | `listed_by` | Record → institution: inventory attribution from the existing CSV/collection model |
 | `references` | PIA → PIB/class: explicit reference extracted by `PIAs/reference_extraction.py` |
 | `related_class` | PIB → class: compiled related-record reference, retaining literal reference, language, scope and resolution |
+| `has_type` | PIB → type: exact controlled-value match from the source PIB type field |
+| `category_match` | PIB → category: derived description-based match with source field, matched text, rule and confidence; dotted line and explicit derived label |
 
 A citation does **not** assert that a PIA assesses the entire bank. No edges
-are inferred from similar titles, shared institutions, categories, laws or
-programs. The graph adds no matching algorithm: a PIA target must resolve to
+are inferred from similar titles, shared institutions, laws or programs.
+Category links reuse the existing classifier and remain estimated assignments;
+they never create institution-to-standard-bank adoption edges or PIA citations.
+Standard PIBs' explicit PRN/NDP references also resolve to standard classes;
+unknown identifiers remain unresolved reference nodes. A PIA target must resolve to
 one existing source-scoped node using upstream `matched_records`. Multiple
 matches stay ambiguous rather than creating factual edges to every candidate.
 Unresolved citations become `reference` nodes with distinct shape/colour and
@@ -93,6 +124,7 @@ Opaque, stable node IDs:
 - `pib:{institution_id}:{bank_number_key}` / `pib:standard:{bank_number_key}`
 - `class:{institution_id}:{record_number}` / `class:standard:{record_number}`
 - `pia:{institution_id}/{pia_id}`
+- `category:{PI_CAT_ID}` / `pib-type:{pib_code}`
 - Reference/edge IDs are deterministic SHA-256 prefixes of the source/reference
   identity or source/target/predicate, independent of labels.
 
@@ -113,13 +145,21 @@ python scripts/build_graph.py
 python scripts/validate_graph.py
 ```
 
-`site/data/graph.json` contains schema version 1, nodes/edges, counts, collection
+`site/data/graph.json` contains schema version 2, nodes/edges, counts, collection
 timestamp and SHA-256 hashes of consumed inputs. Each edge has an
 `evidence_count` and `evidence_url` pointing to one of 32 static
 `site/data/graph-evidence/*.json` shards. Shards map edge IDs to full evidence
 arrays; their checksums appear in `evidence_files`. The browser loads and caches
 provenance on edge inspection. Record descriptions are excerpts capped at
 1,000 characters; complete content remains in the existing tables/readers.
+PIB/class nodes also carry available source attributes. Relationships have an
+explicit `basis` of `documented` or `derived`; resolution remains separate.
+The classifier source hash is part of the consumed-input fingerprint.
+Full attributes load on selection from 32 `graph-attributes/*.json` shards,
+referenced by each node's `attribute_url`; `attribute_files` records their
+checksums. Validation reassembles attributes and rejects stale or orphan shards.
+Keeping long purpose/use/retention fields outside the index avoids downloading
+all of that detail before a visitor selects a record.
 
 The index is downloaded once and indexed in memory. Only bounded neighbourhoods
 are rendered. Future scaling can partition the index while retaining IDs and
@@ -139,6 +179,7 @@ node --test tests/graph.test.mjs tests/privacy_assessments.test.mjs
 python -m http.server 8766 --directory site
 # Another terminal, with Playwright/Chromium installed:
 node tests/graph.browser.cjs
+node tests/graph-tour.browser.cjs
 ```
 
 The browser test defaults to `http://127.0.0.1:8766/`; override `GRAPH_TEST_BASE`,

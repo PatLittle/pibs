@@ -13,6 +13,9 @@ on:
       - 'institutions_infosource_docs/*.csv'
       - 'spib_en_fr.csv'
       - 'standard_classes_of_records_en_fr.csv'
+      - 'pi_categories_en_fr.csv'
+      - 'pib_type_values.csv'
+      - 'my_info/categories.py'
       - '.github/workflows/graph-review.yml'
   workflow_dispatch:
 
@@ -53,6 +56,7 @@ jobs:
             sleep 1
           done
           node tests/graph.browser.cjs
+          node tests/graph-tour.browser.cjs
       - name: Save browser screenshots
         if: always()
         uses: actions/upload-artifact@v4
