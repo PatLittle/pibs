@@ -1,4 +1,4 @@
-# PIB / PIA network explorer
+# PI Network Explorer
 
 `site/graph.html` is a buildless Cytoscape.js page in the existing GitHub Pages
 site. It uses native JavaScript and generated static data, with no database or
