@@ -4,88 +4,88 @@
       "file": "senior_designated_officials.csv",
       "url": "https://www.tbs-sct.canada.ca/ap/list-liste/sdomm-csdgm-eng.asp",
       "row_count": 93,
-      "last_success": "2026-11-13",
+      "last_success": "2026-11-14",
       "status": "current"
     },
     "audit-committee": {
       "file": "audit_committee_members.csv",
       "url": "https://www.canada.ca/en/treasury-board-secretariat/services/audit-evaluation/departmental-audit-committees/appointed-members.html",
       "row_count": 145,
-      "last_success": "2026-11-13",
+      "last_success": "2026-11-14",
       "status": "current"
     },
     "cae": {
       "file": "chief_audit_executives.csv",
       "url": "https://www.tbs-sct.canada.ca/ap/list-liste/cae-dpv-eng.asp",
       "row_count": 52,
-      "last_success": "2026-11-13",
+      "last_success": "2026-11-14",
       "status": "current"
     },
     "cfo": {
       "file": "chief_financial_officers.csv",
       "url": "https://www.tbs-sct.canada.ca/ap/list-liste/cfo-dpf-eng.asp",
       "row_count": 107,
-      "last_success": "2026-11-13",
+      "last_success": "2026-11-14",
       "status": "current"
     },
     "cio": {
       "file": "chief_information_officers.csv",
       "url": "https://www.tbs-sct.canada.ca/ap/list-liste/cio-dpi-eng.asp",
       "row_count": 85,
-      "last_success": "2026-11-13",
+      "last_success": "2026-11-14",
       "status": "current"
     },
     "results": {
       "file": "results_officials.csv",
       "url": "https://www.tbs-sct.canada.ca/ap/list-liste/sdorp-csdbi-eng.asp",
       "row_count": 27,
-      "last_success": "2026-11-13",
+      "last_success": "2026-11-14",
       "status": "current"
     },
     "project-management": {
       "file": "project_programme_management_officials.csv",
       "url": "https://www.tbs-sct.canada.ca/ap/list-liste/sdoppm-csdgpp-eng.asp",
       "row_count": 90,
-      "last_success": "2026-11-13",
+      "last_success": "2026-11-14",
       "status": "current"
     },
     "appointments": {
       "file": "appointments.csv",
       "url": "https://federal-organizations.canada.ca/gindex.php?lang=en&t=1",
       "row_count": 1432,
-      "last_success": "2026-11-13",
+      "last_success": "2026-11-14",
       "status": "current",
       "profile_count": 195,
       "profile_failures": []
     }
   },
   "disclosures": {
-    "snapshot_date": "2026-11-13",
+    "snapshot_date": "2026-11-14",
     "hospitality": {
-      "raw_count": 68693,
-      "unique_count": 4887,
+      "raw_count": 68697,
+      "unique_count": 4889,
       "source_url": "https://open.canada.ca/data/en/datastore/dump/7b301f1a-2a7a-48bd-9ea9-e0ac4a5313ed?format=json",
-      "sha256": "ea9473b4d9ffe8100483c84cbf42ed32547fec3d622e649319563ed6bee134a0",
-      "bytes": 32554922,
+      "sha256": "2b1be1d9e7e0530e288015c6288c4bf346f0bbfaaa835f2f27754e4ed5b1eab6",
+      "bytes": 32556831,
       "date_anomaly_count": 3,
       "latest_observed_date": "2026-11-05",
-      "last_success": "2026-11-13",
+      "last_success": "2026-11-14",
       "status": "current"
     },
     "travel": {
-      "raw_count": 157141,
-      "unique_count": 15588,
+      "raw_count": 157184,
+      "unique_count": 15591,
       "source_url": "https://open.canada.ca/data/en/datastore/dump/8282db2a-878f-475c-af10-ad56aa8fa72c?format=json",
-      "sha256": "2d90f3709fc8f3ac156df9f2fecb5afe122d671a0c92e73c3e35b6ba716345e4",
-      "bytes": 83641986,
+      "sha256": "f96b99d49030f4d41ab3de9c8c91403369f2245bc4c3787a7e315145ee4d12e7",
+      "bytes": 83663656,
       "date_anomaly_count": 13,
       "latest_observed_date": "2026-10-22",
-      "last_success": "2026-11-13",
+      "last_success": "2026-11-14",
       "status": "current"
     },
     "dpoh": {
       "status": "retained_after_error",
-      "last_attempt": "2026-11-13",
+      "last_attempt": "2026-11-14",
       "source_url": "https://lobbycanada.gc.ca/media/mqbbmaqk/communications_ocl_cal.zip",
       "sha256": "9232d457b8e298a087c940e93a219399c8c0c242c55d28b476142759d8fb1d21",
       "bytes": 25005073,
@@ -133,28 +133,28 @@
       "error": "403 Client Error: Forbidden for url: https://lobbycanada.gc.ca/media/mqbbmaqk/communications_ocl_cal.zip"
     }
   },
-  "oic_snapshot_date": "2026-11-13",
-  "last_attempt": "2026-11-13",
+  "oic_snapshot_date": "2026-11-14",
+  "last_attempt": "2026-11-14",
   "refresh_warnings": [],
   "oic": {
-    "last_success": "2026-11-13",
-    "source_url": "https://raw.githubusercontent.com/PatLittle/oic-data/8a3806eff32f955cef067e0349442418a5455d53/processed-csvs/orders.csv",
+    "last_success": "2026-11-14",
+    "source_url": "https://raw.githubusercontent.com/PatLittle/oic-data/650e6e3da3ce7e6da6e5728b88ccff4a147c04dc/processed-csvs/orders.csv",
     "sha256": "41af63c7e7e80aac0ff940dc00ec412de8c1427ea1a04dde28d7625bd6dd9c55",
     "bytes": 24013329,
     "order_count": 67616,
     "matched_order_count": 7967,
     "person_key_count": 3444,
     "latest_order_date": "2026-11-05",
-    "source_commit": "8a3806eff32f955cef067e0349442418a5455d53",
+    "source_commit": "650e6e3da3ce7e6da6e5728b88ccff4a147c04dc",
     "status": "current",
     "match_method": "complete observed normalized name in order precis"
   },
-  "external_last_attempt": "2026-11-13",
+  "external_last_attempt": "2026-11-14",
   "external_refresh_warnings": [],
   "name_normalization_version": 3,
   "nicknames": {
     "status": "current",
-    "last_success": "2026-11-13",
+    "last_success": "2026-11-14",
     "url": "https://raw.githubusercontent.com/carltonnorthern/nicknames/master/names.csv",
     "sha256": "e6a4e5a55ca5b47a4146dbc118f26c71c63053d4b79ca9659de8e74efb65847e",
     "relationship_rows": 2827
