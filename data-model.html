@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Full network data model · PIBS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="data-model.css" />
+    <script type="module" src="data-model.mjs"></script>
+  </head>
+  <body>
+    <main class="schema-page">
+      <a href="graph.html">← Network explorer</a>
+      <h1>Full network data model</h1>
+      <p>
+        Every source table, nested field and network projection. Vocabulary and
+        evidence are shown as supporting data, not additional record entities.
+        The external AIA source remains external.
+      </p>
+      <p id="schema-summary" role="status">Loading schema…</p>
+      <div class="schema-toolbar">
+        <label for="schema-search"
+          >Find a table or field<input
+            id="schema-search"
+            type="search"
+            placeholder="institution_id, ADMresponsible, references…"
+            autocomplete="off"
+        /></label>
+        <div>
+          <button id="schema-out" aria-label="Zoom out">−</button
+          ><button id="schema-in" aria-label="Zoom in">+</button
+          ><button id="schema-fit">Fit diagram</button>
+        </div>
+        <a href="data/network-schema.svg" download>Download full SVG</a
+        ><a href="data/network-schema.json" download
+          >Download field catalogue</a
+        >
+      </div>
+      <div id="schema-results" role="status"></div>
+      <div
+        id="schema-canvas"
+        tabindex="0"
+        role="region"
+        aria-label="Full data model diagram. Drag to pan, scroll to zoom. Use arrow keys to pan, plus and minus to zoom."
+      ></div>
+      <p class="muted">
+        Every field is drawn. Search or select a table below to zoom to it. Drag
+        to pan; use +/− to zoom. PK/FK mark keys. Solid connectors denote source
+        joins; dashed connectors denote derived associations; dotted connectors
+        denote projections. Matching rules are described by each connector’s
+        label, never implied to be a guaranteed foreign key.
+      </p>
+      <section>
+        <h2>Tables and fields</h2>
+        <div id="schema-tables"></div>
+      </section>
+    </main>
+  </body>
+</html>
