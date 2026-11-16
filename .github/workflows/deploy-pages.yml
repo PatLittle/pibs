@@ -24,6 +24,10 @@ on:
       - "scripts/build_pia_site.py"
       - "scripts/validate_pia_site.py"
       - "scripts/build_graph.py"
+      - "scripts/build_network_schema.py"
+      - "data_model.json"
+      - "tests/test_network_schema.py"
+      - "tests/graph-focus.test.mjs"
       - "scripts/validate_graph.py"
       - "my_info/categories.py"
       - "tests/test_build_graph.py"
@@ -85,11 +89,13 @@ jobs:
           node --test tests/privacy_assessments.test.mjs
           node --check site/privacy-assessments.js
           node --check site/privacy-assessment.js
-          python -m unittest tests.test_build_graph
-          node --test tests/graph.test.mjs tests/aia.test.mjs
+          python -m unittest tests.test_network_schema tests.test_build_graph
+          node --test tests/graph-focus.test.mjs tests/graph.test.mjs tests/aia.test.mjs
           node --check site/aia-data.mjs
           node --check site/link-aia.mjs
           node --check site/graph.mjs
+          node --check site/graph-focus.mjs
+          node --check site/data-model.mjs
           node --check site/graph-attributes.mjs
 
       - name: Prepare independent main-site payload

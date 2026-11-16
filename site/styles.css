@@ -1,6 +1,6 @@
 :root {
   --ink: #26374a;
-  --muted: #53657a;
+  --muted: #475668;
   --blue: #1f5a94;
   --blue-dark: #153f68;
   --blue-pale: #eaf3fb;
@@ -8,7 +8,7 @@
   --gold: #e5a000;
   --surface: #ffffff;
   --surface-soft: #f5f7f9;
-  --border: #d7dee5;
+  --border: #c1c8ce;
   --shadow: 0 10px 26px rgba(38, 55, 74, 0.09);
 }
 

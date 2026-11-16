@@ -1,149 +1,188 @@
-// Run against a static server; needs Playwright and Chromium.
-const { chromium } = require('playwright');
-const { readFileSync, existsSync, mkdirSync } = require('node:fs');
-const assert = require('node:assert/strict');
-const graph = JSON.parse(readFileSync('site/data/graph.json', 'utf8'));
-const pia = graph.nodes.find(n => n.id === 'pia:ati-schedule-i-administrative-tribunals-support-service-of-canada/pia-95a42118fc3d');
-const base = process.env.GRAPH_TEST_BASE || 'http://127.0.0.1:8766/';
-const output = process.env.GRAPH_TEST_OUTPUT || 'work';
-mkdirSync(output, { recursive: true });
-const degrees = new Map();
-for (const e of graph.edges) for (const id of [e.source, e.target]) degrees.set(id, (degrees.get(id) || 0) + 1);
-const institution = graph.nodes.filter(n => n.type === 'institution').sort((a, b) => degrees.get(b.id) - degrees.get(a.id))[0];
-const nodeURL = id => base + 'graph.html?node=' + encodeURIComponent(id);
-const ready = page => page.waitForFunction(() => document.getElementById('view-status').textContent.includes('visible nodes'));
-
+const { chromium } = require("playwright");
+const { mkdirSync, readFileSync } = require("node:fs");
+const assert = require("node:assert/strict");
+const base = process.env.GRAPH_TEST_BASE || "http://127.0.0.1:8766/",
+  out = process.env.GRAPH_TEST_OUTPUT || "/tmp/pibs-focus-check";
+mkdirSync(out, { recursive: true });
+const aiaURL = JSON.parse(readFileSync("site/aia-source.json")).url;
+const bank = "pib:standard:PSU 905",
+  uuid = "11111111-1111-4111-8111-111111111111";
+const fixture = {
+  package_id: uuid,
+  title_en: "Fixture Algorithmic Assessment",
+  title_fr: "Évaluation algorithmique de test",
+  organization_en: "Treasury Board of Canada Secretariat",
+  organization_fr: "Secrétariat du Conseil du Trésor du Canada",
+  dataset_url: "https://example.test/dataset/" + uuid,
+  version: "v1.0.1",
+  source: "published",
+  data: {
+    ADMresponsible: "Example Official",
+    aboutDataSource12: "PSU 905",
+    projectDetailsDescription: "Synthetic browser fixture.",
+  },
+  translationsOnResult: { ADMresponsible: "Example Official" },
+  derived: { impact_level: 2 },
+};
 (async () => {
-  const browser = await chromium.launch({ headless: true,
-    executablePath: process.env.BROWSER_EXECUTABLE || (existsSync('/usr/bin/chromium') ? '/usr/bin/chromium' : undefined), args: ['--no-sandbox'] });
+  const browser = await chromium.launch({
+    headless: true,
+    executablePath: process.env.BROWSER_EXECUTABLE,
+    args: ["--no-sandbox"],
+  });
   try {
-    const context = await browser.newContext({ viewport: { width: 1600, height: 1000 } });
-    await context.route('**/aia-results.jsonl', route => route.abort());
-    const page = await context.newPage();
-    const errors = [], evidenceRequests = [];
-    page.on('pageerror', e => errors.push(e.message));
-    page.on('request', r => { if (r.url().includes('/graph-evidence/')) evidenceRequests.push(r.url()); });
-    await page.goto(nodeURL(pia.id)); await ready(page);
-    assert.equal(await page.locator('#cy canvas').count(), 3);
-    assert.equal(evidenceRequests.length, 0, 'Evidence is loaded on demand');
-    assert.equal(await page.locator('#inspector #browser-panel, #inspector #record-navigation, #inspector .record-actions').count(), 0);
-    assert.equal(await page.locator('#detail details[open]').count(), 0, 'All node attributes start collapsed');
-    assert.equal(await page.locator('#toggle-panel svg').count(), 1);
-    assert.equal(await page.locator('#toggle-panel').getAttribute('aria-label'), 'Hide information panel');
-    assert.equal(await page.locator('#node-type option[value="category"], #node-type option[value="pib_type"]').count(), 0);
-
-    assert.equal(await page.locator('.record-card').getAttribute('data-node-type'), 'pia');
-    assert.equal(await page.locator('.record-card').evaluate(n => getComputedStyle(n).borderTopColor), 'rgb(8, 122, 130)');
-    assert.ok((await page.locator('#detail').textContent()).includes(pia.label_en));
-    await page.locator('#browser-panel').evaluate(n => { n.open = true; });
-    await page.locator('#connections .evidence-button').filter({ hasText: 'References' }).first().click();
-    await page.locator('.edge-evidence > summary').click(); await page.waitForSelector('.graph-evidence');
-    assert.ok(evidenceRequests.length > 0);
-    assert.ok((await page.locator('#detail a[href*="#L"]').count()) > 0);
-    const edgeURL = page.url();
-    await page.reload(); await page.locator('.edge-evidence > summary').click(); await page.waitForSelector('.graph-evidence'); assert.equal(page.url(), edgeURL);
-    await page.locator('gcds-header').getByText('Français', { exact: true }).click(); await page.locator('.edge-evidence > summary').click(); await page.waitForSelector('.graph-evidence'); assert.equal(await page.locator('html').getAttribute('lang'), 'fr');
-    await page.goBack(); assert.equal(await page.locator('html').getAttribute('lang'), 'en');
-    await page.locator('#search-heading').click(); await page.locator('#search').fill('POU 905');
-    await page.locator('#results button').filter({ hasText: 'PSU 905' }).first().click();
-    assert.equal(await page.locator('.record-card').getAttribute('data-node-type'), 'pib');
-    assert.equal(await page.locator('.record-card').evaluate(n => getComputedStyle(n).borderTopColor), 'rgb(31, 90, 148)');
-    // Colour-coded summary chips open the corresponding list of real neighbours.
-    await page.locator('.type-chips button[data-node-type="pia"]').click();
-    assert.equal(await page.locator('#browser-type').inputValue(), 'pia');
-    assert.ok((await page.locator('#connections li').evaluateAll(ns => ns.map(n => n.dataset.nodeType))).every(type => type === 'pia'));
-
-    // Full screen retains a pageable list, independent of graph expansion.
-    await page.goto(nodeURL(institution.id)); await ready(page);
-    assert.ok((await page.locator('#view-status').textContent()).startsWith('26 visible nodes'));
-    await page.locator('#expand').click();
-    assert.ok((await page.locator('#view-status').textContent()).startsWith('51 visible nodes'));
-    await page.locator('#fullscreen').click(); await page.waitForSelector('#explorer.is-expanded');
-    await page.waitForFunction(() => document.fullscreenElement?.id === 'explorer');
-    assert.equal(await page.locator('#explorer').getAttribute('aria-modal'), 'true');
-    assert.equal(await page.locator('#search-panel').evaluate(n => n.inert), true);
-    await page.locator('#browser-panel').evaluate(n => { n.open = true; });
-    assert.equal(await page.locator('#connections li').count(), 8);
-    assert.ok((await page.locator('#page-status').textContent()).startsWith('Page 1 of'));
-    const first = await page.locator('#connections li').evaluateAll(ns => ns.map(n => n.dataset.recordId));
-    await page.evaluate(() => document.fonts.ready);
-    const before = await page.locator('#cy').screenshot();
-    const graphStatus = await page.locator('#view-status').textContent();
-    await page.locator('#next-page').click();
-    const second = await page.locator('#connections li').evaluateAll(ns => ns.map(n => n.dataset.recordId));
-    assert.equal(first.some(id => second.includes(id)), false);
-    assert.equal(await page.locator('#view-status').textContent(), graphStatus);
-    assert.equal(Buffer.compare(before, await page.locator('#cy').screenshot()), 0, 'Paging must not move the graph');
-    await page.screenshot({ path: output + '/graph-fullscreen-browser.png' });
-    await page.locator('#connections .record-row-title').first().click();
-    assert.equal(new URL(page.url()).searchParams.get('node'), second[0]);
-    assert.ok((await page.locator('#record-position').textContent()).startsWith('Record 9 of'));
-    await page.locator('#next-record').click();
-    assert.equal(new URL(page.url()).searchParams.get('node'), second[1]);
-    await page.locator('#previous-record').click();
-    assert.equal(new URL(page.url()).searchParams.get('node'), second[0]);
-    await page.locator('#browser-panel').evaluate(n => { n.open = true; });
-    assert.ok((await page.locator('#page-status').textContent()).startsWith('Page 2 of'));
-    assert.ok((await page.locator('#browser-anchor').textContent()).includes(institution.label_en));
-    await page.selectOption('#browser-scope', 'all'); await page.selectOption('#browser-type', 'pib');
-    await page.selectOption('#browser-sort', 'degree');
-    const ranked = await page.locator('#connections li').evaluateAll(ns => ns.map(n => n.dataset.recordId));
-    assert.ok(ranked.slice(1).every((id, i) => (degrees.get(ranked[i]) || 0) >= (degrees.get(id) || 0)));
-    assert.equal(degrees.get(ranked[0]), Math.max(...graph.nodes.filter(n => n.type === 'pib').map(n => degrees.get(n.id) || 0)));
-    await page.locator('#browser-query').fill('POU 905');
-    assert.ok((await page.locator('#connections').textContent()).includes('PSU 905'));
-    assert.equal(await page.locator('#next-page').isDisabled(), true);
-    await page.locator('#browser-query').fill('zz-no-matching-record'); assert.equal(await page.locator('#connections li').count(), 0);
-    assert.equal(await page.locator('#next-page').isDisabled(), true);
-    await page.locator('#browser-query').fill(''); await page.selectOption('#records-per-page', '16');
-    assert.equal(await page.locator('#connections li').count(), 16);
-    await page.locator('#toggle-panel').click(); assert.equal(await page.locator('#inspector').isVisible(), false);
-    assert.equal(await page.locator('#toggle-panel').getAttribute('aria-label'), 'Show information panel');
-    assert.equal(await page.locator('#browser-panel').isVisible(), true, 'Hiding information keeps navigation available');
-    await page.locator('#toggle-panel').click(); assert.equal(await page.locator('#inspector').isVisible(), true);
-    await page.locator('#highlight').uncheck(); assert.equal(await page.locator('#highlight').isChecked(), false);
-    // Browser-initiated exit restores page access and keyboard focus.
-    await page.evaluate(() => document.exitFullscreen()); await page.waitForSelector('#explorer:not(.is-expanded)');
-    assert.equal(await page.locator('#search-panel').evaluate(n => n.inert), false);
-    assert.equal(await page.locator('#fullscreen').evaluate(n => n === document.activeElement), true);
-
-    // A portrait layout keeps both graph and browser usable in full screen.
-    const mobile = await browser.newPage({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
-    mobile.on('pageerror', e => errors.push(e.message));
-    await mobile.goto(nodeURL(pia.id) + '&lang=fr'); await mobile.waitForSelector('.record-card');
-    await mobile.locator('#fullscreen').click(); await mobile.waitForSelector('#explorer.is-expanded');
-    await mobile.locator('#browse-heading').click(); await mobile.locator('#browser-filters summary').click(); await mobile.selectOption('#browser-scope', 'all');
-    await mobile.selectOption('#browser-type', 'pib'); await mobile.locator('#browser-query').fill('POU 905');
-    await mobile.locator('#connections .record-row-title').first().click();
-    assert.ok((await mobile.locator('#detail').textContent()).includes('PSU 905'));
-    assert.equal(await mobile.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1), true);
-    const boxes = await mobile.locator('#cy, #inspector').evaluateAll(ns => ns.map(n => { const r = n.getBoundingClientRect(); return {x:r.x,w:r.width,h:r.height}; }));
-    assert.ok(boxes.every(b => b.x >= 0 && b.x + b.w <= 391 && b.h >= 190));
-    assert.equal(await mobile.locator('#inspector #browser-panel').count(), 0);
-    await mobile.screenshot({ path: output + '/graph-fullscreen-mobile.png' });
-
-    await mobile.locator('#fullscreen').click(); await mobile.waitForSelector('#explorer:not(.is-expanded)');
-
-    // Explicit viewport fallback, Escape, tab containment and missing diagram.
-    const fallback = await browser.newPage({ viewport: { width: 1280, height: 800 } });
-    fallback.on('pageerror', e => errors.push(e.message));
-    await fallback.addInitScript(() => Object.defineProperty(Element.prototype, 'requestFullscreen', { configurable: true, value: undefined }));
-    await fallback.route('**/vendor/cytoscape-*.js', route => route.abort());
-    await fallback.goto(nodeURL(pia.id)); await fallback.waitForSelector('.record-card');
-    assert.ok((await fallback.locator('#view-status').textContent()).includes('connection list remain available'));
-    await fallback.locator('#fullscreen').click(); await fallback.waitForSelector('#explorer.is-expanded');
-    assert.equal(await fallback.evaluate(() => document.fullscreenElement), null);
-    await fallback.locator('#workspace-tour').focus(); await fallback.keyboard.press('Shift+Tab');
-    assert.equal(await fallback.evaluate(() => document.getElementById('explorer').contains(document.activeElement)), true);
-    await fallback.keyboard.press('Escape'); await fallback.waitForSelector('#explorer:not(.is-expanded)');
-    assert.equal(await fallback.locator('#fullscreen').evaluate(n => n === document.activeElement), true);
-    await fallback.goto(base + 'graph.html?node=nonexistent');
-    await fallback.waitForFunction(() => document.getElementById('view-status').textContent.includes('not in the current graph'));
-    const failed = await browser.newPage();
-    await failed.route('**/data/graph.json', route => route.fulfill({ status: 503, body: '{}' }));
-    await failed.goto(base + 'graph.html'); await failed.waitForSelector('#view-status[role="alert"]');
-    assert.ok((await failed.locator('#view-status').textContent()).includes('could not be loaded'));
+    const context = await browser.newContext({
+      viewport: { width: 1500, height: 1000 },
+    });
+    await context.route(aiaURL, (r) =>
+      r.fulfill({
+        status: 200,
+        body: JSON.stringify(fixture) + "\n",
+        headers: { "access-control-allow-origin": "*" },
+      }),
+    );
+    const page = await context.newPage(),
+      errors = [];
+    page.on("pageerror", (e) => errors.push(e.message));
+    await page.goto(base + "graph.html", { waitUntil: "domcontentloaded" });
+    await page.waitForSelector("#stories .story");
+    assert.equal(await page.locator("#stories .story").count(), 3);
+    assert.equal(await page.locator("#exploration").isHidden(), true);
+    assert.equal(
+      await page
+        .locator("#node-type,#relation,#fullscreen,#tour-launch,#browser-panel")
+        .count(),
+      0,
+      "No independent navigation modes or diagram settings",
+    );
+    assert.ok(
+      !(await page.locator("gcds-header").textContent()).includes("navPia"),
+    );
+    await page.locator("#stories .story").first().click();
+    await page.waitForSelector('[data-attribute="pib_type_details"]');
+    assert.equal(new URL(page.url()).searchParams.get("node"), bank);
+    assert.equal(await page.locator("#detail details[open]").count(), 0);
+    assert.equal(
+      await page.locator('.connection-group[data-node-type="pia"]').count(),
+      1,
+    );
+    assert.equal(
+      await page.locator('.connection-group[data-node-type="aia"]').count(),
+      1,
+    );
+    assert.equal(
+      await page.locator("#map-links path").count(),
+      await page.locator(".connection-group").count(),
+    );
+    const group = page.locator('.connection-group[data-node-type="pia"]'),
+      before = await group.locator("li").count();
+    await group.locator(".more-connections").click();
+    assert.ok((await group.locator("li").count()) > before);
+    assert.equal(new URL(page.url()).searchParams.get("node"), bank);
+    await group.locator(".evidence-button").first().click();
+    assert.equal(
+      await page.locator(".edge-evidence").evaluate((n) => n.open),
+      false,
+    );
+    await page.locator(".edge-evidence>summary").click();
+    await page.waitForSelector(".graph-evidence blockquote");
+    assert.ok(await page.locator('.graph-evidence a[href*="#L"]').count());
+    const evidenceURL = page.url();
+    await page.reload();
+    await page.locator(".edge-evidence>summary").click();
+    await page.waitForSelector(".graph-evidence blockquote");
+    assert.equal(page.url(), evidenceURL);
+    await page
+      .locator('.connection-group[data-node-type="pia"] .connection-title')
+      .first()
+      .click();
+    assert.equal(await page.locator("#trail button").count(), 2);
+    const target = new URL(page.url()).searchParams.get("node");
+    assert.notEqual(target, bank);
+    await page.locator("#back").click();
+    assert.equal(new URL(page.url()).searchParams.get("node"), bank);
+    await page.locator(".bridge-proof").first().click();
+    assert.equal(await page.locator(".path-evidence").count(), 2);
+    await page.locator(".path-evidence .edge-evidence>summary").first().click();
+    await page.waitForSelector(".path-evidence .graph-evidence");
+    await page.locator(".bridge-target").first().click();
+    assert.equal(await page.locator("#trail button").count(), 3);
+    const pathURL = page.url(),
+      pathTitle = await page.locator("#focus-heading").textContent();
+    await page.reload();
+    await page.waitForSelector("#focus-heading");
+    assert.equal(await page.locator("#focus-heading").textContent(), pathTitle);
+    assert.equal(await page.locator("#trail button").count(), 3);
+    assert.equal(page.url(), pathURL);
+    await page.locator("#toggle-panel").click();
+    assert.equal(await page.locator("#inspector").isVisible(), false);
+    assert.equal(await page.locator("#connection-groups").isVisible(), true);
+    await page.locator("#toggle-panel").click();
+    assert.equal(await page.locator("#inspector").isVisible(), true);
+    await page.locator("#search").fill("Fixture Algorithmic");
+    await page.locator("#results button").first().click();
+    assert.equal(new URL(page.url()).searchParams.get("node"), "aia:" + uuid);
+    assert.ok(
+      (await page.locator("#detail").textContent()).includes(
+        "Example Official",
+      ),
+    );
+    assert.equal(await page.locator("#detail details[open]").count(), 0);
+    await page.screenshot({ path: out + "/focus-desktop.png", fullPage: true });
+    await page
+      .locator("gcds-header")
+      .getByText("Français", { exact: true })
+      .click();
+    await page.waitForSelector("#focus-heading");
+    assert.equal(await page.locator("html").getAttribute("lang"), "fr");
+    assert.equal(new URL(page.url()).searchParams.get("node"), "aia:" + uuid);
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.locator("#close-panel").click();
+    assert.equal(await page.locator("#inspector").isVisible(), false);
+    await page.locator(".connection-title").first().click();
+    assert.equal(await page.locator("#inspector").isVisible(), true);
+    assert.equal(await page.locator("#detail details[open]").count(), 0);
+    await page.locator("#close-panel").click();
+    assert.ok(
+      await page.evaluate(
+        () => document.documentElement.scrollWidth <= innerWidth + 1,
+      ),
+    );
+    await page.screenshot({
+      path: out + "/focus-mobile-fr.png",
+      fullPage: true,
+    });
+    const fail = await context.newPage();
+    await fail.route("**/data/graph.json", (r) =>
+      r.fulfill({ status: 503, body: "{}" }),
+    );
+    await fail.goto(base + "graph.html");
+    await fail.waitForSelector('#load-status[role="alert"]');
+    const outage = await context.newPage();
+    await outage.route(aiaURL, (r) => r.abort());
+    await outage.goto(base + "graph.html?node=" + encodeURIComponent(bank));
+    await outage.waitForSelector("#focus-heading");
+    assert.ok(
+      (await outage.locator("#load-status").textContent()).includes(
+        "unavailable",
+      ),
+    );
+    assert.ok(await outage.locator(".connection-group").count());
+    await outage.goto(base + "graph.html?node=unknown-node");
+    await outage.waitForSelector("#stories .story");
+    assert.ok(
+      (await outage.locator("#load-status").textContent()).includes(
+        "not in the current collection",
+      ),
+    );
     assert.deepEqual(errors, []);
-    console.log('Graph browser checks passed: native/fallback full screen, record/page navigation, fixed-map pagination, shared palette, hub sorting, bilingual mobile, evidence, history and failure states.');
-  } finally { await browser.close(); }
-})().catch(error => { console.error(error); process.exitCode = 1; });
+    console.log(
+      "Passed: simple landing, complete typed connections, source evidence, continuation, valid two-step paths, URL/history, AIA names, collapsed attributes, panel toggle, French mobile, missing feed/record and load failure.",
+    );
+  } finally {
+    await browser.close();
+  }
+})().catch((e) => {
+  console.error(e);
+  process.exit(1);
+});

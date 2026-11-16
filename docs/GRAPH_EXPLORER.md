@@ -1,220 +1,165 @@
 # PI Network Explorer
 
-`site/graph.html` is a buildless Cytoscape.js page in the existing GitHub Pages
-site. It uses native JavaScript and generated static data, with no database or
-backend. Cytoscape.js 3.33.1 is vendored with its MIT licence in `site/vendor/`.
-The existing GCDS header, prototype label, colours and navigation are retained.
+The explorer has one task: follow documented connections between records.
+`site/graph.html` uses native HTML and SVG, with one search and one selected record.
+There are no independent browse modes, relationship filters, layout controls,
+fullscreen modes, or tour controls competing with that task.
 
-## Explore
+## Model first
 
-The initial page offers five bilingual, curated starting points: shared security
-and staffing classes; the standard network-monitoring bank; CRA human-resources
-analytics; and the Privacy Commissioner's Office 365 assessment. Counts come from
-the current graph. Represented institutions means distinct institution IDs on
-directly connected records, not proven adoption or shared personal information.
-Each story opens a bounded view with a few institution paths. Supplied deep links
-take precedence over the default view. Search text or either filter replaces the
-examples with matching records; clearing all three restores the five examples.
+The [complete model diagram](../site/data-model.html) contains every table and
+field in the network's owning sources and runtime projection. It provides a
+searchable field catalogue, zoom/pan, keyboard navigation, a standalone
+[SVG](../site/data/network-schema.svg), and machine-readable
+[schema](../site/data/network-schema.json). `data_model.json` declares canonical
+CSV keys and foreign keys; the inventory also inspects nested PIA documents,
+external AIA field shapes, lazy attributes and evidence shards.
 
-**Start guided tour** offers 36 clickable spotlight stops ordered from starting
-points and navigation to details, browsing, provenance, display and sharing.
-Back/Next, a menu of every stop, Restart and Exit are always available; Escape
-exits. The highlighted controls remain usable. Conditional panels open for their
-steps. Each step focuses Next (Finish on the last step), allowing Enter to
-advance without repeated tabbing. Step four highlights the header language link.
-The tour works on mobile. Finishing or exiting restores the previous graph,
-selection, search, browser settings and URL. A fullscreen tour temporarily returns
-to the page and restores fullscreen on exit. The GCDS header provides the sole
-language switch; exit fullscreen to use it.
+The full schema distinguishes:
 
-Standard PIBs and standard classes have dedicated search/list filter options.
-PIB types and personal-information categories are **attributes**, not nodes or
-relationships. Selecting any node opens the **Information panel**: all available
-fields start collapsed, including bilingual descriptions, purpose, people covered,
-uses, retention, source URLs, metadata and nested values. PIB type and category
-values appear first. Category entries retain bilingual labels, derived status,
-matching text, source field, rule and confidence. The full available PIB/class
-CSV row is included in its lazy attribute shard.
+- source records: institutions, institutional/standard PIBs and classes;
+- assessments: organization inventories, PIAs, language sources and citations;
+- external AIA metadata, survey answers, translations and calculated results;
+- controlled vocabularies and supporting derived My Info tables;
+- the browser's typed node, edge, evidence and manifest projections.
 
-Selecting an edge opens its collapsed attributes and **Source evidence** section.
-Expand the latter for excerpts and provenance. Related-record navigation stays
-outside the information panel: the selection bar above the map holds connected
-records, start-here/full-record actions, institution navigation, type counts and
-expansion. **Browse records** below the map opens the independent searchable,
-paginated list. Previous/Next record controls also sit below the map. Browsing or
-paging does not replace the sidebar or move the diagram.
+The PIA collection manifest's organization map is represented as
+`organizations.{institution_id}`. Distinct map keys are data, not different fields.
+Array contents use `[]` field paths. Parent institution/package IDs on normalized
+nested records are explicitly identified as inherited keys. Polymorphic graph
+endpoints point to one node type at a time, not all types simultaneously.
 
-**Full screen** keeps the diagram, information panel and separate navigation in
-one scrollable workspace. Browsers that cannot grant native fullscreen use a
-viewport-filling workspace. Escape or Exit full screen restores the page and
-keyboard focus. The sidebar icon toggles only the information panel. Its tooltip,
-accessible action label and `aria-expanded` state switch between Show/Hide
-information panel. Hiding it preserves the selection, graph, list and filters.
-On mobile the panel is a drawer over the map, so hiding it reveals the full map.
+PIB type and personal-information category remain bank attributes. Their
+supporting tables belong in a schema diagram but are not extra network entities.
+AIA senior officials are organization-scoped name observations, not verified
+current officeholders or automatically merged people from other collections.
 
-Browse either a fixed record's connections or the full inventory, filter bilingual
-names/aliases and record types, and choose 8, 16 or 24 records per page. List
-pagination is independent of the 250-node drawing limit. The connection anchor
-stays fixed while reading successive records; **Connections of selected record**
-explicitly changes it. A record outside the visible neighbourhood is brought into
-view or becomes a new graph root when needed.
+## What changed in the interaction
 
-Cards, badges, list accents and navigation chips use the diagram's colours and
-text labels. Direct counts and type chips follow the active relationship filter.
-**Most connected** sorts by observed direct-edge count across the collected
-graph; it is a discovery aid, not a privacy-risk or completeness score. References
-that need resolution remain labelled. **Highlight direct connections** dims
-unrelated visible elements without hiding them or altering the graph's counts.
-List paging and evidence inspection preserve the map's positions and viewport;
-new topology triggers a layout. Fullscreen resizing fits the current view.
+The previous design exposed traversal implementation choices to visitors. Its
+map, record browser, relationship filters, pagination, expansion, layout and tour
+were separate navigation systems. The new design follows the data's actual shape:
 
-Search bilingual names, identifiers and recorded aliases; filter search by
-institution or record type. Selecting a result opens its first 25 connections.
-Select another node to retain the path and expand its neighbourhood. Use
-**Show more connections** for additional batches, or **Start here** / **Reset
-to selected node** to begin a new view. Rendering is capped at 250 nodes; the
-interface reports that limit. A native keyboard-accessible connection list
-offers the same navigation and evidence inspection even if the diagram fails.
+1. **Find one record.** Search bilingual names, identifiers and recorded aliases.
+   PIA/EFVP, PIB/FRP and AIA/EIA also narrow by familiar record type. Three curated
+   starting stories provide examples. The landing landscape describes the six
+   real record types; its type-level arrangement is a model illustration, not a
+   claim of a direct edge between every pair of records.
+2. **Read its connections.** Keep the selected record at the top. Group all its
+   neighbours by type, relationship and direction: assessments citing a bank,
+   classes a bank references, the owning institution, or officials named in an
+   AIA. Each group shows its complete count. The first three records are visible;
+   Show more reveals another twelve within that group. No category is omitted
+   and records are sorted by localized label, not hash or an opaque score.
+3. **Follow the next record.** Clicking a record replaces the focus while adding
+   a breadcrumb to the documented path. Previous record or a breadcrumb retraces
+   that path. There is no ever-expanding graph to manage. Search starts a new path.
+4. **Discover a real bridge.** “Where this record can lead” offers up to four
+   two-step paths across citations, related classes and named-official links.
+   Each path names the intermediate record and offers both source links. Generic
+   shared-institution attribution is excluded from these suggestions. An indirect
+   path never becomes an asserted direct edge. Candidates are selected
+   deterministically, preferring citation paths, cross-institution records and
+   distinct target types; this is navigation ordering, not a confidence score.
+5. **Inspect why.** A small, labelled evidence button opens the exact edge in the
+   information panel. Evidence starts collapsed and loads when opened. Both
+   original sources and repository line evidence remain available. Every node's
+   available fields start collapsed; bilingual values and nested evidence are
+   retained. Long attributes load from their owning shard when selected.
 
-Select an edge or **Inspect evidence** for source excerpts, original URLs,
-repository paths, line numbers, collection dates and checksums. Controls and
-record/graph labels switch between English and French. Missing source titles
-fall back to the available language. Excerpts retain their source language.
-Unavailable PIA collection entries remain explicitly labelled in details.
+The branches in the display connect the focus to groups of its actual neighbours;
+they do not add relationships between unrelated records. The evidence button on
+each record identifies the exact underlying edge. When a neighbour is also
+connected to the preceding breadcrumb record, that additional observed connection
+is labelled in context.
 
-Table dialogs and PIA readers link into the graph; graph details link back to
-those pages. **Copy view link** preserves root, selected node or edge,
-expansion order/counts, relationship filter and language. Browser Back/Forward
-restores these states. Positions, zoom and search-form values are transient.
-Record-list filters, anchor and page are also transient. Fullscreen requires a
-user action and is not automatically entered from a shared link.
+The information panel has an accessible sidebar icon and a close button. Hiding
+it only changes the display. On mobile it becomes a drawer; closing it reveals
+the connection map. The selected record, path and source references remain intact.
 
-Example using an actual assessment:
+## Identity and meaning
 
-`graph.html?node=pia%3Aati-schedule-i-administrative-tribunals-support-service-of-canada%2Fpia-95a42118fc3d&lang=fr`
-
-## Inputs and relationship meaning
-
-| Canonical input | Use |
-| --- | --- |
-| `institution_registry.csv` | Institution identity, bilingual legal names and source URLs |
-| `institutions_infosource_docs/pib_table_en_fr_all.csv` | Institutional PIBs, identifiers, bilingual titles/descriptions |
-| `institutions_infosource_docs/cor_table_en_fr_all.csv` | Institutional Classes of Records |
-| `spib_en_fr.csv`, `standard_classes_of_records_en_fr.csv` | Government-wide records, kept separate from institutional records |
-| `pi_categories_en_fr.csv`, `pib_type_values.csv` | Category vocabulary and controlled PIB type attribute definitions |
-| `my_info/categories.py` | Existing deterministic description-based category rules, reused against current source rows |
-| `institutions_infosource_docs/pib_cor_links.csv` | Existing compiled PIB/class references and resolution status |
-| `PIAs/*/collection.json` | Assessment identities, availability, existing matches and line evidence |
-| Referenced PIA Markdown, `PIAs/collection_manifest.json` | Verified source checksums and collection provenance |
-
-| Predicate | Direction and evidence |
-| --- | --- |
-| `listed_by` | Record → institution: inventory attribution from the existing CSV/collection model |
-| `references` | PIA → PIB/class: explicit reference extracted by `PIAs/reference_extraction.py` |
-| `related_class` | PIB → class: compiled related-record reference, retaining literal reference, language, scope and resolution |
-
-A citation does **not** assert that a PIA assesses the entire bank. No edges
-are inferred from similar titles, shared institutions, laws or programs.
-Category attributes reuse the existing classifier and remain estimated assignments;
-they never create institution-to-standard-bank adoption edges or PIA citations.
-Standard PIBs' explicit PRN/NDP references also resolve to standard classes;
-unknown identifiers remain unresolved reference nodes. A PIA target must resolve to
-one existing source-scoped node using upstream `matched_records`. Multiple
-matches stay ambiguous rather than creating factual edges to every candidate.
-Unresolved citations become `reference` nodes with distinct shape/colour and
-dashed edges; these describe literal citations, not invented PIBs or classes.
-An absent link does not establish that no assessment or relationship exists.
-
-Opaque, stable node IDs:
+Canonical source-scoped identities remain unchanged:
 
 - `institution:{institution_id}`
 - `pib:{institution_id}:{bank_number_key}` / `pib:standard:{bank_number_key}`
 - `class:{institution_id}:{record_number}` / `class:standard:{record_number}`
 - `pia:{institution_id}/{pia_id}`
-- Reference/edge IDs are deterministic SHA-256 prefixes of the source/reference
-  identity or source/target/predicate, independent of labels.
+- runtime `aia:{package_id}` and `official:{u_id}`
+- unresolved reference and edge IDs derived from their source identity.
 
-## Static assets and rebuild
+| Predicate | Meaning |
+| --- | --- |
+| `listed_by` | Inventory attribution to an institution |
+| `references` | Explicit source citation; it does not establish full assessment coverage |
+| `related_class` | Literal PIB-to-class reference, retaining scope and resolution |
+| `responsible_official` | AIA explicitly names a responsible senior official |
 
-With the repository's Python requirements installed, run from its root:
+Unknown or multiple targets remain unresolved/ambiguous reference nodes. They
+are not promoted into real holdings or used as intermediates in recommended
+paths. Missing links do not establish that an assessment or relationship is absent.
+PIB categories preserve derived basis, source-field excerpts, rule and confidence
+inside attributes. Risk level and survey version belong to the AIA alone.
+
+“Copy path link” retains selected record, evidence edge, language and breadcrumb
+path. Browser Back/Forward and the header language link preserve that context.
+Breadcrumbs from URLs are validated against actual adjacency. Older `node`/`root`
+links from tables and assessment readers continue to work. Old expansion/filter
+parameters are not controls in the new interface. Group reveal counts and panel
+visibility are transient.
+
+## Source and schema builds
+
+The graph remains schema version 3, with source hashes, lazy attribute/evidence
+shards and deterministic source-evidenced edges. Its canonical inputs are the
+institution registry, PIB/class tables and linkage table, standard bank/class
+references, category/type vocabularies, classifier, PIA inventories and PIA
+collection manifest. The collected graph is generated offline.
+
+The external AIA URL is configured in `site/aia-source.json`. Both the AIA page
+and explorer load it in browser memory. No AIA payload, normalized AIA catalogue,
+official-name row or runtime AIA graph is stored in this repository. Its schema
+inventory stores only field names, types, aggregate counts and source checksum.
+An offline schema rebuild retains that last explicitly inspected external shape.
+To inspect a changed source, fetch it outside the checkout and supply its path:
 
 ```sh
-python build_site_assets.py
+python scripts/build_network_schema.py --aia-file /path/outside/repo/aia-results.jsonl
+```
+
+Without that option, no network request or external data copy is made. Schema
+artifacts are rebuilt with the regular site build after the graph. Refreshing
+external field names does not silently promote new survey codes into interpreted
+answers. See [AIA matching methodology](AIA_INTEGRATION.md).
+
+An unavailable AIA feed is labelled and the collected graph remains usable.
+An unknown deep link opens the starting stories with an explanation. Failed
+attribute/evidence requests can be retried.
+
+## Targeted contrast adjustment
+
+Only two shared tokens in `site/styles.css` changed for this request:
+
+| Target | Before | After | Contrast against white |
+| --- | --- | --- | --- |
+| Muted text | `#53657a` | `#475668` | 5.98 → 7.50 (about +25%) |
+| Light-grey outlines | `#d7dee5` | `#c1c8ce` | 1.36 → 1.69 (about +25%) |
+
+Other global colours, typography, fills, borders' widths and spacing are untouched
+by the contrast adjustment. The explorer's structural redesign is a separate change.
+
+## Checks
+
+```sh
 python validate_site.py
-```
-
-The existing build refreshes PIA references and reader assets, then generates
-the graph. For a graph-only rebuild after the owning pipelines have run:
-
-```sh
-python scripts/build_graph.py
-python scripts/validate_graph.py
-```
-
-`site/data/graph.json` contains schema version 3, nodes/edges, counts, collection
-timestamp and SHA-256 hashes of consumed inputs. Each edge has an
-`evidence_count` and `evidence_url` pointing to one of 32 static
-`site/data/graph-evidence/*.json` shards. Shards map edge IDs to full evidence
-arrays; their checksums appear in `evidence_files`. The browser loads and caches
-provenance on edge inspection. Record descriptions are excerpts capped at
-1,000 characters; complete content remains in the existing tables/readers.
-PIB/class nodes carry all non-empty fields from their source rows. Relationships
-have a documented basis; derived category assignments are held inside attributes,
-with their own evidence and confidence. Resolution remains separate.
-The classifier source hash is part of the consumed-input fingerprint.
-Full attributes load on selection from 32 `graph-attributes/*.json` shards,
-referenced by each node's `attribute_url`; `attribute_files` records their
-checksums. Validation reassembles attributes and rejects stale or orphan shards.
-Keeping long purpose/use/retention fields outside the index avoids downloading
-all of that detail before a visitor selects a record.
-
-The index is downloaded once and indexed in memory. Only bounded neighbourhoods
-are rendered. Future scaling can partition the index while retaining IDs and
-the evidence model. This release does not publish RDF/JSON-LD.
-
-Generation is deterministic and offline. Validation reassembles provenance,
-checks hashes/counts/endpoints and compares against a fresh canonical build.
-It fails on stale graph assets or changed PIA Markdown checksums. The existing
-Pages workflow rebuilds and validates the graph. A separate PR workflow checks
-the graph and browser interactions without deployment.
-
-## Tests
-
-```sh
-python -m unittest tests.test_build_graph tests.test_build_pia_site
-node --test tests/graph.test.mjs tests/privacy_assessments.test.mjs
-python -m http.server 8766 --directory site
-# Another terminal, with Playwright/Chromium installed:
+python validate_data_model.py
+python -m unittest tests.test_network_schema tests.test_build_graph tests.test_build_pia_site
+node --test tests/graph-focus.test.mjs tests/graph.test.mjs tests/aia.test.mjs tests/privacy_assessments.test.mjs
 node tests/graph.browser.cjs
-node tests/graph-tour.browser.cjs
+node tests/network-schema.browser.cjs
 ```
 
-The browser test defaults to `http://127.0.0.1:8766/`; override `GRAPH_TEST_BASE`,
-`BROWSER_EXECUTABLE` and `GRAPH_TEST_OUTPUT` if needed. It covers real records,
-lazy provenance, bilingual aliases, view URLs/history, expansion, filters,
-mobile overflow, unknown records, missing data and diagram failure. It also
-checks native/fallback fullscreen and exit, focus containment/restoration,
-fixed-map pagination, previous/next record navigation, shared node/card colours,
-type-summary shortcuts, hub sorting and portrait fullscreen layout.
-Screenshots default to `work/`.
-
-
-## External AIA overlay
-
-The network additionally loads `site/aia-source.json` and the configured external
-JSONL at runtime. `aia-data.mjs` adds `aia:{package_id}` and organization-scoped
-`official:{u_id}` nodes in browser memory. The tracked graph JSON and its download
-remain the base collected graph. Registry node aliases now preserve existing
-bilingual preferred/harmonized names and abbreviations for exact AIA organization
-matching. No external AIA payload is stored by the build.
-
-AIA nodes show survey version, supplied impact level, project ID, provenance and
-named senior official. The two new types are searchable, filterable and included
-in the legend and connection counts. `responsible_official` is a selectable,
-shareable relationship filter. Explicit record citations and exact PIA source
-URLs carry inline field/excerpt evidence; unresolved matches keep dashed
-reference nodes. AIA details open the Link AIA page and vice versa. An unavailable
-feed leaves the base graph usable and displays a retry-by-reload notice.
-
-See [AIA inventory and matching rules](AIA_INTEGRATION.md) for fields, source
-location migration, risk/version caveats and proposed future review matches.
+The browser checks use Playwright/Chromium and a synthetic AIA fixture rather
+than copying source rows into tests. They cover evidence, traversal, two-step
+paths, URL/language restoration, collapsed attributes, display toggling, mobile
+width, unavailable sources and the complete searchable model diagram.

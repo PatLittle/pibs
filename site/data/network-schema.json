@@ -1,0 +1,8283 @@
+{
+  "schema_version": 1,
+  "scope": "All canonical tables used by the network; supporting My Info tables; nested PIA and external AIA source shapes; browser graph projection. Field names/types/keys only, never external AIA record values.",
+  "external_source": {
+    "inspected_on": "2026-11-16",
+    "sha256": "bf7040fd7f803d3eb39eee7f0ff282a93d28322ca4022d5aeacb833c9bc9ada7",
+    "url": "https://patlittle.github.io/aia-eia-js/aia-analysis-data/aia-results.jsonl"
+  },
+  "runtime_shapes": {
+    "aia": {
+      "fields": [
+        {
+          "name": "aliases",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "aliases[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "attributes.impact_level",
+          "types": [
+            "number",
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.project_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.provenance",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.senior_official",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.senior_official_uid",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.survey_version",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "description_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "description_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "external_source",
+          "types": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "identifier",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "label_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "label_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "record_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "sources",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "sources.dataset",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "type",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "rows": 39
+    },
+    "official": {
+      "fields": [
+        {
+          "name": "description_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "description_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "external_source",
+          "types": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "identifier",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "label_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "label_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "record_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "sources",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "sources.dataset",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "type",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "rows": 4
+    },
+    "reference": {
+      "fields": [
+        {
+          "name": "candidates",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "candidates[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "identifier",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_id",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "label_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "label_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "reference_kind",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "resolution",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "sources",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "sources.dataset",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "type",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "rows": 483
+    },
+    "matches": {
+      "fields": [
+        {
+          "name": "id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "official",
+          "types": [
+            "null",
+            "object"
+          ]
+        },
+        {
+          "name": "official.name_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "official.name_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "official.u_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "organization_match",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "organization_match.candidates",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "organization_match.candidates[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "organization_match.institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "organization_match.resolution",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "package_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "references",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "references[]",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "references[].candidates",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "references[].candidates[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "references[].evidence",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "references[].evidence[]",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "references[].evidence[].excerpt",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "references[].evidence[].field",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "references[].evidence[].language",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "references[].evidence[].mention",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "references[].evidence[].method",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "references[].evidence[].source_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "references[].kind",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "references[].mention",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "references[].resolution",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "rows": 39
+    },
+    "edges": {
+      "fields": [
+        {
+          "name": "basis",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "evidence",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "evidence[]",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "evidence[].excerpt",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "evidence[].field",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "evidence[].language",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "evidence[].mention",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "evidence[].method",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "evidence[].source_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "resolution",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "source",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "target",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "type",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "rows": 84
+    },
+    "evidence": {
+      "fields": [
+        {
+          "name": "excerpt",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "field",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "language",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "mention",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "method",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "source_url",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "rows": 121
+    }
+  },
+  "tables": [
+    {
+      "id": "institution_registry",
+      "label": "institution registry",
+      "source": "institution_registry.csv",
+      "layer": "records",
+      "rows": 148,
+      "primary_key": [
+        "institution_id"
+      ],
+      "fields": [
+        {
+          "name": "institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "access_act_schedule",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "access_act_group",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "access_act_order",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "legal_name_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "legal_name_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "access_act_source_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "gc_orgID",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "open_gov_match_method",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "open_gov_match_score",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "harmonized_name",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "nom_harmonise",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "preferred_name",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "nom_prefere",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "lead_department",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "ministere_responsable",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "FAA_LGFP",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "abbreviation",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "abreviation",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "status_statut",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "end_date_fin",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "website",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "site_web",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "open_gov_ouvert",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infobaseID",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "rg",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "ati",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "pop",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "phoenix",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "open_canada_org_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "open_canada_org_slug",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "open_canada_title_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "open_canada_title_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "open_canada_state",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "open_canada_approval_status",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "open_canada_department_number",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "open_canada_umd_number",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "open_canada_ati_email",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "open_canada_registry_access",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "organization_list_match_method",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "organization_list_match_score",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "due_en_name",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "due_en_annual_due_date",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "due_en_appendix_section",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "due_en_match_method",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "due_en_match_score",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "due_fr_name",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "due_fr_annual_due_date",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "due_fr_appendix_section",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "due_fr_match_method",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "due_fr_match_score",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infosource_en_name",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infosource_en_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infosource_en_match_method",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infosource_en_match_score",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infosource_fr_name",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infosource_fr_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infosource_fr_match_method",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infosource_fr_match_score",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "reporting_entity_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "reporting_entity_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "annual_due_date_override",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infosource_url_en_override",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infosource_url_fr_override",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "pibs_url_en_override",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "pibs_url_fr_override",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "classes_url_en_override",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "classes_url_fr_override",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "url_evidence_en_override",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "url_evidence_fr_override",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "notes",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "annual_due_date",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "due_date_match_status",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infosource_url_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infosource_url_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "pibs_url_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "classes_of_records_url_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "pibs_url_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "classes_of_records_url_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "tbs_due_dates_source_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "tbs_due_dates_source_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "tbs_central_list_source_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "tbs_central_list_source_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infosource_url_evidence_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infosource_url_evidence_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "organization_list_source",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "org_info_source",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "org_names_source",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "registry_as_of_date",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infosource_validation_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infosource_http_status_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infosource_final_url_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infosource_validation_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infosource_http_status_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infosource_final_url_fr",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": "Schedule I institution authority and publication metadata.",
+      "foreign_keys": []
+    },
+    {
+      "id": "institution_classes_of_records",
+      "label": "institution classes of records",
+      "source": "institutions_infosource_docs/cor_table_en_fr_all.csv",
+      "layer": "records",
+      "rows": 2545,
+      "primary_key": [
+        "institution_id",
+        "record_number"
+      ],
+      "fields": [
+        {
+          "name": "institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "gc_orgID",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_name_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_name_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "record_number",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "name_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "name_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "document_types_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "document_types_fr",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": "",
+      "foreign_keys": [
+        {
+          "fields": [
+            "institution_id"
+          ],
+          "references": "institution_registry",
+          "reference_fields": [
+            "institution_id"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "institution_personal_information_banks",
+      "label": "institution personal information banks",
+      "source": "institutions_infosource_docs/pib_table_en_fr_all.csv",
+      "layer": "records",
+      "rows": 1205,
+      "primary_key": [
+        "institution_id",
+        "bank_number_key"
+      ],
+      "fields": [
+        {
+          "name": "institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "gc_orgID",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_name_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_name_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "bank_number_key",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "pib_type",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "title_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "title_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "bank_number_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "bank_number_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "description_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "description_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "specific_information_types_en",
+          "types": [
+            "json-array"
+          ]
+        },
+        {
+          "name": "specific_information_types_fr",
+          "types": [
+            "json-array"
+          ]
+        },
+        {
+          "name": "standard_personal_information_category_ids",
+          "types": [
+            "json-array"
+          ]
+        },
+        {
+          "name": "standard_personal_information_categories_en",
+          "types": [
+            "json-array"
+          ]
+        },
+        {
+          "name": "standard_personal_information_categories_fr",
+          "types": [
+            "json-array"
+          ]
+        },
+        {
+          "name": "class_of_individuals_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "class_of_individuals_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "note_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "note_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "social_insurance_number_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "social_insurance_number_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "purpose_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "purpose_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consistent_uses_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consistent_uses_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "retention_and_disposal_standards_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "retention_and_disposal_standards_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "rda_number_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "rda_number_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "related_record_number_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "related_record_number_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "last_updated_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "last_updated_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "tbs_registration_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "tbs_registration_fr",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": "Registry-keyed PIBs. Specific information types are conservative source-language derivations from explicit description lists. Standard personal-information categories are conceptual, multi-label derivations from descriptions and those specific types.",
+      "foreign_keys": [
+        {
+          "fields": [
+            "institution_id"
+          ],
+          "references": "institution_registry",
+          "reference_fields": [
+            "institution_id"
+          ]
+        },
+        {
+          "fields": [
+            "pib_type"
+          ],
+          "references": "pib_type_values",
+          "reference_fields": [
+            "pib_type"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pib_cor_links",
+      "label": "pib cor links",
+      "source": "institutions_infosource_docs/pib_cor_links.csv",
+      "layer": "records",
+      "rows": 2512,
+      "primary_key": [
+        "institution_id",
+        "bank_number_key",
+        "language",
+        "related_record_number"
+      ],
+      "fields": [
+        {
+          "name": "institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "bank_number_key",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "language",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "related_record_number",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "relationship_scope",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "resolved",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "cor_record_number",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": "Normalized many-to-many links parsed from PIB related-record fields.",
+      "foreign_keys": [
+        {
+          "fields": [
+            "institution_id",
+            "bank_number_key"
+          ],
+          "references": "institution_personal_information_banks",
+          "reference_fields": [
+            "institution_id",
+            "bank_number_key"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "standard_classes_of_records",
+      "label": "standard classes of records",
+      "source": "standard_classes_of_records_en_fr.csv",
+      "layer": "records",
+      "rows": 33,
+      "primary_key": [
+        "record_number"
+      ],
+      "fields": [
+        {
+          "name": "record_number",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "record_number_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "record_number_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "title_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "title_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "description_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "description_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "document_types_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "document_types_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "url_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "url_fr",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": "",
+      "foreign_keys": []
+    },
+    {
+      "id": "standard_personal_information_banks",
+      "label": "standard personal information banks",
+      "source": "spib_en_fr.csv",
+      "layer": "records",
+      "rows": 49,
+      "primary_key": [
+        "bank_number_key"
+      ],
+      "fields": [
+        {
+          "name": "bank_number_key",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "pib_type",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "bank_number_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "bank_number_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "entry_id_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "entry_id_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "entry_title_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "entry_title_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "description_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "description_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "note_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "note_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "date_last_modified",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "class_of_individuals_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "class_of_individuals_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "purpose_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "purpose_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consistent_uses_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consistent_uses_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "retention_disposal_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "retention_disposal_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "rda_number_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "rda_number_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "related_record_number_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "related_record_number_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "url_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "url_fr",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": "",
+      "foreign_keys": [
+        {
+          "fields": [
+            "pib_type"
+          ],
+          "references": "pib_type_values",
+          "reference_fields": [
+            "pib_type"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pib_type_values",
+      "label": "pib type values",
+      "source": "pib_type_values.csv",
+      "layer": "vocabulary",
+      "rows": 6,
+      "primary_key": [
+        "pib_code"
+      ],
+      "fields": [
+        {
+          "name": "pib_code",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "pib_type",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "scope_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "scope_fr",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": "",
+      "foreign_keys": []
+    },
+    {
+      "id": "personal_information_categories",
+      "label": "personal information categories",
+      "source": "pi_categories_en_fr.csv",
+      "layer": "vocabulary",
+      "rows": 25,
+      "primary_key": [
+        "PI_CAT_ID"
+      ],
+      "fields": [
+        {
+          "name": "PI_CAT_ID",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "name_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "name_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "examples_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "examples_fr",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": "Official controlled vocabulary. My Info assignments are explicitly marked as derived from narrative evidence rather than authoritative source assignments.",
+      "foreign_keys": []
+    },
+    {
+      "id": "my_info_pib_features",
+      "label": "my info pib features",
+      "source": "data/derived/my_info/my_info_pib_features.csv",
+      "layer": "support",
+      "rows": 1254,
+      "primary_key": [
+        "record_id"
+      ],
+      "fields": [
+        {
+          "name": "record_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "scope",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "gc_orgID",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_name_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_name_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "bank_number_key",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "pib_type",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "title_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "title_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "source_url_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "source_url_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "specific_information_types_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "specific_information_types_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "category_ids",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "category_count",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "category_max_confidence",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "category_ambiguous",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "category_unclassified",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "unmapped_concepts",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "interaction_topic_codes",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "interaction_topic_max_confidence",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "individual_role_codes",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "service_action_codes",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "question_codes",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "question_count",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "candidate_question_codes",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "candidate_question_count",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "time_follow_up_required",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "privacy_caveat_codes",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "retention_rule_type",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "retention_reference_events",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "retention_minimum_years",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "retention_maximum_years",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "retention_disposition",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "retention_confidence",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "retention_language_agreement",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "retention_requires_institution_contact",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "retention_requires_schedule_lookup",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "retention_has_indefinite_component",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "retention_has_immediate_disposal",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "retention_is_under_review",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "retention_text_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "retention_text_fr",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": "Compact, source-scoped derived features for the My Info questionnaire. Full matching evidence is retained in the adjacent JSONL artifact.",
+      "foreign_keys": []
+    },
+    {
+      "id": "my_info_pib_category_assignments",
+      "label": "my info pib category assignments",
+      "source": "data/derived/my_info/my_info_pib_category_assignments.csv",
+      "layer": "support",
+      "rows": 6958,
+      "primary_key": [
+        "record_id",
+        "PI_CAT_ID"
+      ],
+      "fields": [
+        {
+          "name": "record_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "scope",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "bank_number_key",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "PI_CAT_ID",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "confidence",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "evidence_count",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "evidence_json",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": "Derived, evidence-backed many-to-many assignments from PIB records to the official category vocabulary.",
+      "foreign_keys": [
+        {
+          "fields": [
+            "PI_CAT_ID"
+          ],
+          "references": "personal_information_categories",
+          "reference_fields": [
+            "PI_CAT_ID"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pia_manifest",
+      "label": "PIA collection manifest",
+      "source": "PIAs/collection_manifest.json",
+      "layer": "assessments",
+      "rows": 1,
+      "primary_key": [],
+      "fields": [
+        {
+          "name": "collector_sha256",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "collector_version",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "generated_at_utc",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "organization_count",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "organizations",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "organizations.{institution_id}",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "organizations.{institution_id}.paired_count",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "organizations.{institution_id}.pia_count",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "organizations.{institution_id}.source_status_counts",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "organizations.{institution_id}.source_status_counts.{status}",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "organizations_with_pias",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "paired_count",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "pia_count",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "schema_version",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "source_index_sha256",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "source_status_counts",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "source_status_counts.{status}",
+          "types": [
+            "number"
+          ]
+        }
+      ],
+      "note": "Collection-level schema, counts and provenance, not a record entity."
+    },
+    {
+      "id": "pia_inventories",
+      "label": "PIA organization inventories",
+      "source": "PIAs/*/collection.json (organization)",
+      "layer": "assessments",
+      "rows": 149,
+      "primary_key": [
+        "institution_id"
+      ],
+      "fields": [
+        {
+          "name": "collected_at_utc",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "collector_version",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "gc_orgID",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "list_pages.en",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "list_pages.en.captures",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "list_pages.en.captures[]",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "list_pages.en.captures[].byte_count",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "list_pages.en.captures[].checked_at_utc",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.en.captures[].content_type",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.en.captures[].encoding",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.en.captures[].error",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.en.captures[].etag",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.en.captures[].final_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.en.captures[].http_status",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "list_pages.en.captures[].last_modified",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.en.captures[].raw_path",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.en.captures[].redirects",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "list_pages.en.captures[].redirects[]",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "list_pages.en.captures[].redirects[].http_status",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "list_pages.en.captures[].redirects[].location",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.en.captures[].redirects[].url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.en.captures[].requested_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.en.captures[].sha256",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.en.discovered_count",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "list_pages.en.index_resolution",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.en.indexed_url",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.en.pia_link_in_infosource",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.en.review_note",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.en.scopes",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "list_pages.en.scopes[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.en.status",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.en.warnings",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "list_pages.en.warnings[]",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "list_pages.en.warnings[].reason",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.en.warnings[].title",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.fr",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "list_pages.fr.captures",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "list_pages.fr.captures[]",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "list_pages.fr.captures[].byte_count",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "list_pages.fr.captures[].checked_at_utc",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.fr.captures[].content_type",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.fr.captures[].encoding",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.fr.captures[].error",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.fr.captures[].etag",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.fr.captures[].final_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.fr.captures[].http_status",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "list_pages.fr.captures[].last_modified",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.fr.captures[].raw_path",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.fr.captures[].redirects",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "list_pages.fr.captures[].redirects[]",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "list_pages.fr.captures[].redirects[].http_status",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "list_pages.fr.captures[].redirects[].location",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.fr.captures[].redirects[].url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.fr.captures[].requested_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.fr.captures[].sha256",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.fr.discovered_count",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "list_pages.fr.index_resolution",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.fr.indexed_url",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.fr.pia_link_in_infosource",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.fr.review_note",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.fr.scopes",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "list_pages.fr.scopes[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.fr.status",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.fr.warnings",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "list_pages.fr.warnings[]",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "list_pages.fr.warnings[].reason",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "list_pages.fr.warnings[].title",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "name_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "name_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "open_canada_org_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "open_canada_org_slug",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "pias",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "registry_membership",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "schema_version",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "source_index_sha256",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "summary",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "summary.paired_count",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "summary.pia_count",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "summary.source_status_counts",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "summary.source_status_counts.{status}",
+          "types": [
+            "number"
+          ]
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "pias",
+      "label": "Privacy assessments",
+      "source": "PIAs/*/collection.json → pias[]",
+      "layer": "assessments",
+      "rows": 819,
+      "primary_key": [
+        "institution_id",
+        "pia_id"
+      ],
+      "fields": [
+        {
+          "name": "cor_count",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "cor_ids",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "cor_ids[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "pairing_evidence",
+          "types": [
+            "null",
+            "object"
+          ]
+        },
+        {
+          "name": "pairing_evidence.alternate_page_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "pairing_evidence.alternate_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "pairing_evidence.from_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "pairing_evidence.institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "pairing_evidence.normalized_url_key",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "pairing_evidence.observed_url_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "pairing_evidence.observed_url_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "pairing_evidence.rationale",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "pairing_evidence.section_key",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "pairing_evidence.section_key[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "pairing_evidence.title_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "pairing_evidence.title_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "pairing_evidence.url_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "pairing_evidence.url_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "pairing_method",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "pairing_status",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "pia_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "pib_count",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "pib_ids",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "pib_ids[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "references",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "references.extraction_version",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "sources",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "title_en",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "title_fr",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "url_en",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "url_fr",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "word_count",
+          "types": [
+            "null",
+            "number"
+          ]
+        },
+        {
+          "name": "word_count_en",
+          "types": [
+            "null",
+            "number"
+          ]
+        },
+        {
+          "name": "word_count_fr",
+          "types": [
+            "null",
+            "number"
+          ]
+        },
+        {
+          "name": "word_count_language",
+          "types": [
+            "null",
+            "string"
+          ]
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "pia_sources",
+      "label": "PIA language sources",
+      "source": "pias[].sources.{language}",
+      "layer": "assessments",
+      "rows": 1627,
+      "primary_key": [
+        "institution_id",
+        "pia_id",
+        "language"
+      ],
+      "fields": [
+        {
+          "name": "aliases",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "aliases[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "alternative_http_observations",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "alternative_http_observations[]",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "alternative_http_observations[].byte_count",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "alternative_http_observations[].checked_at_utc",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "alternative_http_observations[].content_type",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "alternative_http_observations[].encoding",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "alternative_http_observations[].error",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "alternative_http_observations[].etag",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "alternative_http_observations[].final_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "alternative_http_observations[].http_status",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "alternative_http_observations[].last_modified",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "alternative_http_observations[].redirects",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "alternative_http_observations[].redirects[]",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "alternative_http_observations[].redirects[].http_status",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "alternative_http_observations[].redirects[].location",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "alternative_http_observations[].redirects[].url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "alternative_http_observations[].requested_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "alternative_http_observations[].sha256",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "anchor",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "anchor_type",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "conversion",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "cor_ids",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "cor_ids[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "date_modified",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "date_published",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "discovered_under",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "discovery_method",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "discovery_references",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "discovery_references[]",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "discovery_references[].discovery_method",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "discovery_references[].list_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "discovery_references[].title",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "discovery_references[].url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "has_pia_text",
+          "types": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "html_language",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "http",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "http.byte_count",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "http.checked_at_utc",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "http.content_type",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "http.encoding",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "http.error",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "http.etag",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "http.final_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "http.http_status",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "http.last_modified",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "http.redirects",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "http.redirects[]",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "http.redirects[].http_status",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "http.redirects[].location",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "http.redirects[].url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "http.requested_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "http.sha256",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "kind",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "language",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "language_alternates",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "language_alternates.en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "language_alternates.fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "list_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "markdown_path",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "markdown_sha256",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "page_title",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "pia_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "pib_ids",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "pib_ids[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "raw_path",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "review_note",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "source_heading",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "status",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "text_sha256",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "title",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "title_from_list",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "word_count",
+          "types": [
+            "number"
+          ]
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "pia_references",
+      "label": "PIA citations and evidence",
+      "source": "pias[].references.{kind}[]",
+      "layer": "assessments",
+      "rows": 1247,
+      "primary_key": [
+        "institution_id",
+        "pia_id",
+        "kind",
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "evidence",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "evidence[]",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "evidence[].excerpt",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "evidence[].language",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "evidence[].line",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "evidence[].mention",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "evidence[].method",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "evidence[].source_path",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "kind",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "matched_records",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "matched_records[]",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "matched_records[].dataset",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "matched_records[].institution_id",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "matched_records[].record_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "pia_id",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "aia_source",
+      "label": "AIA source records",
+      "source": "https://patlittle.github.io/aia-eia-js/aia-analysis-data/aia-results.jsonl",
+      "layer": "external",
+      "rows": 39,
+      "primary_key": [
+        "package_id"
+      ],
+      "fields": [
+        {
+          "name": "currentPage",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "data",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "dataset_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "derived",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "metadata_created",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "metadata_modified",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "organization_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "organization_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "package_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "recovered_path",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "resource_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "resource_urls",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "resource_urls[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "source",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "title_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "title_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "translationsOnResult",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "version",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": "External JSONL; schema only is stored here. No AIA values are copied into this repository."
+    },
+    {
+      "id": "aia_answers",
+      "label": "AIA survey answers",
+      "source": "https://patlittle.github.io/aia-eia-js/aia-analysis-data/aia-results.jsonl",
+      "layer": "external",
+      "rows": 39,
+      "primary_key": [
+        "package_id (parent)"
+      ],
+      "fields": [
+        {
+          "name": "ADMresponsible",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "ServiceID",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutAlgorithm1",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutAlgorithm11",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutAlgorithm11A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutAlgorithm11B",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutAlgorithm2",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutAlgorithm3",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "aboutAlgorithm3[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutAlgorithm4",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "aboutAlgorithm4[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutAlgorithm5",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutAlgorithm6",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutAlgorithm7",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutAlgorithm8",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutAlgorithm8A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutAlgorithm9",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataSource1",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataSource10",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataSource11",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataSource12",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataSource13",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataSource14",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "aboutDataSource14[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataSource15",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataSource15Y",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataSource16",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataSource16N",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataSource17",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataSource17U",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataSource17Y",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataSource2",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataSource3",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataSource4",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataSource5",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataSource6",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataSource7",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataSource8",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataSource9",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataSourceType1",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataSourceType2",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "aboutDataSourceType2[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataSourceType3",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataSourceType3A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataType1",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataType2",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "aboutDataType2[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutSystem1",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "aboutSystem10A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutSystem11",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutSystem12",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutSystem1[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutSystem2",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutSystem3",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutSystem3C",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutSystem4",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutSystem4C",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutSystem5",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutSystem6",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutSystem7",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutSystem8",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutSystem8A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutSystem9",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "businessDrivers1",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "businessDrivers10",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "businessDrivers11",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "businessDrivers11[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "businessDrivers12",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "businessDrivers1[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "businessDrivers3",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "businessDrivers4",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "businessDrivers5",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "businessDrivers5B",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "businessDrivers6",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "businessDrivers6A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "businessDrivers6B",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "businessDrivers6C",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "businessDrivers6D",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "businessDrivers7",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "businessDrivers8",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "businessDrivers9",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consultationDesign1",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consultationDesign2",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "consultationDesign2-other",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consultationDesign2[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consultationDesign3",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consultationDesign4",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "consultationDesign4-other",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consultationDesign4[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consultationImplementation1",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consultationImplementation2",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "consultationImplementation2-NS",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "consultationImplementation2-NS[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consultationImplementation2-other",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consultationImplementation2[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consultationImplementation3",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consultationImplementation4",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "consultationImplementation4-NS",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "consultationImplementation4-NS[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consultationImplementation4-other",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consultationImplementation4[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consultationImplementation5",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consultationImplementation6",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consultationImplementation7",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consultationImplementation7A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consultationImplementation8",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "consultationImplementation8A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consultationImplementation8[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consultationImplementation9",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consultedTeams",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "dataQualityDesign1",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "dataQualityDesign10",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "dataQualityDesign2",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "dataQualityDesign3",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "dataQualityDesign4",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "dataQualityDesign5",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "dataQualityDesign6",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "dataQualityDesign7",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "dataQualityDesign8",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "dataQualityDesign9",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "dataQualityImplementation1",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "dataQualityImplementation10",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "dataQualityImplementation11",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "dataQualityImplementation12",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "dataQualityImplementation2",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "dataQualityImplementation3",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "dataQualityImplementation4",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "dataQualityImplementation5",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "dataQualityImplementation6",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "dataQualityImplementation6A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "dataQualityImplementation7",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "dataQualityImplementation8",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "dataQualityImplementation9",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "decisionSector1",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "decisionSector1[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "decisionSector2",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "decisionSector3",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessDesign1",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessDesign10",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessDesign11",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessDesign12",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessDesign13",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessDesign14",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessDesign15",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessDesign16",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessDesign17",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessDesign2",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessDesign3",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessDesign4",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessDesign5",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessDesign6",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessDesign7",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessDesign8",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessDesign9",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation1",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation10",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation11",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation12",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation12A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation13",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation13A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation14",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation15",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation16",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation17",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation18",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation18A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation19",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation1A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation2",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation20",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation21",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "fairnessImplementation21[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation22",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation22A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation23",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation24",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation24A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation24AA",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation3",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation4",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation5",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation6",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation7",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation8",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation9",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact1",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact10",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact11",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact12",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact13",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact14",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact15",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact16",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact18",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact18A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact18B",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact18C",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact19I",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact19IN",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact19IY",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact2",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact20",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact21",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact22",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact23",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact23N",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact23Y",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact24",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact25",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact26",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact27",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact27YN",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact28",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact28A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact3",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact30",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact31",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact3A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact4",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact4A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact5",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact6",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact7",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact8",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact9",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "motivation-other",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "privacyDesign1",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "privacyDesign2",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "privacyDesign3",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "privacyDesign4",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "privacyDesign5",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "privacyDesign7",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "privacyImplementation1",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "privacyImplementation2",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "privacyImplementation2A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "privacyImplementation3",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "privacyImplementation4",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "privacyImplementation5",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "privacyImplementation6",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "privacyImplementation7",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "privacyImplementation8",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "privacyImplementation9",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "privacyImplementation9A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "projectAIAnumber",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "projectAuthority1",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "projectAuthority2",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "projectDetailsBranch",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "projectDetailsDepartment-NS",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "projectDetailsDescription",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "projectDetailsID",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "projectDetailsJob",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "projectDetailsPhase",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "projectDetailsProgram",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "projectDetailsRespondent",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "projectDetailsTitle",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "riskProfile1",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "riskProfile10",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "riskProfile2",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "riskProfile2A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "riskProfile3",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "riskProfile4",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "riskProfile4B",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "riskProfile5",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "riskProfile7",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "riskProfile8",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "riskProfile8A",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": "External JSONL; schema only is stored here. No AIA values are copied into this repository."
+    },
+    {
+      "id": "aia_translations",
+      "label": "AIA translated answers",
+      "source": "https://patlittle.github.io/aia-eia-js/aia-analysis-data/aia-results.jsonl",
+      "layer": "external",
+      "rows": 39,
+      "primary_key": [
+        "package_id (parent)"
+      ],
+      "fields": [
+        {
+          "name": "ADMresponsible",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "ServiceID",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutAlgorithm11A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutAlgorithm11B",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutAlgorithm6",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutAlgorithm7",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutAlgorithm9A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataSource12",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataSource13",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataSource15Y",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataSource16N",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataSource17U",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataSource17Y",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutDataSourceType3A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutSystem12",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutSystem2",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutSystem3C",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutSystem4C",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "aboutSystem8A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "businessDrivers10",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "businessDrivers12",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "businessDrivers3",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "businessDrivers4",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "businessDrivers5B",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "businessDrivers6",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "businessDrivers6A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "businessDrivers6B",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "businessDrivers6C",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "businessDrivers6D",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "businessDrivers7",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "businessDrivers8",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consultationDesign2-other",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consultationDesign9",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consultationImplementation2-other",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consultationImplementation4-other",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consultationImplementation5",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consultationImplementation7A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consultationImplementation8A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consultationImplementation9",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "consultedTeams",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "dataQualityImplementation11",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "dataQualityImplementation12",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "dataQualityImplementation6A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "decisionSector2",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "decisionSector3",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation12A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation13A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation18A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fairnessImplementation24AA",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact10",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact12",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact14",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact16",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact18A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact18B",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact18C",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact19IN",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact19IY",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact20",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact21",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact23",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact23N",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact23Y",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact25",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact27YN",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact28A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact31",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact3A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact4",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "impact8",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "motivation-other",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "privacyDesign2A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "privacyImplementation2A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "privacyImplementation5",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "privacyImplementation6",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "privacyImplementation8",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "privacyImplementation9A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "projectAIAnumber",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "projectAuthority2",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "projectDetailsBranch",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "projectDetailsDescription",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "projectDetailsID",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "projectDetailsJob",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "projectDetailsProgram",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "projectDetailsRespondent",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "projectDetailsTitle",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "riskProfile2A",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "riskProfile4B",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "riskProfile8A",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": "External JSONL; schema only is stored here. No AIA values are copied into this repository."
+    },
+    {
+      "id": "aia_derived",
+      "label": "AIA calculated results",
+      "source": "https://patlittle.github.io/aia-eia-js/aia-analysis-data/aia-results.jsonl",
+      "layer": "external",
+      "rows": 39,
+      "primary_key": [
+        "package_id (parent)"
+      ],
+      "fields": [
+        {
+          "name": "answered_nonconditional_count",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "answered_question_count",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "completeness_pct",
+          "types": [
+            "null",
+            "number"
+          ]
+        },
+        {
+          "name": "eligible_question_count",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "final_score",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "impact_level",
+          "types": [
+            "null",
+            "number"
+          ]
+        },
+        {
+          "name": "impact_level_label",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "mitigation_score",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "nonconditional_completeness_pct",
+          "types": [
+            "null",
+            "number"
+          ]
+        },
+        {
+          "name": "nonconditional_question_count",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "project_phase",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "raw_risk_score",
+          "types": [
+            "number"
+          ]
+        }
+      ],
+      "note": "External JSONL; schema only is stored here. No AIA values are copied into this repository."
+    },
+    {
+      "id": "aia_matches",
+      "label": "AIA normalized identities and citations",
+      "source": "site/aia-data.mjs → records[] (browser memory)",
+      "layer": "projection",
+      "rows": 39,
+      "primary_key": [
+        "package_id"
+      ],
+      "fields": [
+        {
+          "name": "id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "official",
+          "types": [
+            "null",
+            "object"
+          ]
+        },
+        {
+          "name": "official.name_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "official.name_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "official.u_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "organization_match",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "organization_match.candidates",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "organization_match.candidates[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "organization_match.institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "organization_match.resolution",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "package_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "references",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "references[]",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "references[].candidates",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "references[].candidates[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "references[].evidence",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "references[].evidence[]",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "references[].evidence[].excerpt",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "references[].evidence[].field",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "references[].evidence[].language",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "references[].evidence[].mention",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "references[].evidence[].method",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "references[].evidence[].source_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "references[].kind",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "references[].mention",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "references[].resolution",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": "Normalized organization status, organization-scoped official name_en/name_fr/u_id and literal citation groups. Schema only; no AIA values are stored."
+    },
+    {
+      "id": "node_class",
+      "label": "Network class",
+      "source": "site/data/graph.json → nodes[] + lazy attributes; AIA references may add runtime fields",
+      "layer": "projection",
+      "rows": 2578,
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "aliases",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "aliases[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attribute_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "attributes.description_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.description_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.document_types_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.document_types_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.gc_orgID",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.institution_name_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.institution_name_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.name_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.name_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.record_number",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.record_number_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.record_number_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.title_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.title_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.url_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.url_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "description_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "description_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "identifier",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_id",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "label_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "label_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "record_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "scope",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "source_path",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "sources",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "sources.en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "sources.fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "type",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "node_institution",
+      "label": "Network institution",
+      "source": "site/data/graph.json → nodes[] + lazy attributes; AIA references may add runtime fields",
+      "layer": "projection",
+      "rows": 148,
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "aliases",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "aliases[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "identifier",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "label_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "label_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "record_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "source_path",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "sources",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "sources.en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "sources.fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "type",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "node_pia",
+      "label": "Network pia",
+      "source": "site/data/graph.json → nodes[] + lazy attributes; AIA references may add runtime fields",
+      "layer": "projection",
+      "rows": 819,
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "available_languages",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "available_languages[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "collected_at_utc",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "identifier",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "label_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "label_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "record_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "source_path",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "source_status",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "source_status.en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "source_status.fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "sources",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "sources.en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "sources.fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "type",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "node_pib",
+      "label": "Network pib",
+      "source": "site/data/graph.json → nodes[] + lazy attributes; AIA references may add runtime fields",
+      "layer": "projection",
+      "rows": 1254,
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "aliases",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "aliases[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attribute_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "attributes.bank_number_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.bank_number_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.bank_number_key",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.class_of_individuals_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.class_of_individuals_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.consistent_uses_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.consistent_uses_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.date_last_modified",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.description_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.description_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.entry_id_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.entry_id_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.entry_title_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.entry_title_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.gc_orgID",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.institution_name_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.institution_name_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.last_updated_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.last_updated_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.note_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.note_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.personal_information_categories",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "attributes.personal_information_categories[]",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "attributes.personal_information_categories[].basis",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.personal_information_categories[].evidence",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "attributes.personal_information_categories[].evidence[]",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "attributes.personal_information_categories[].evidence[].confidence",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "attributes.personal_information_categories[].evidence[].excerpt",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.personal_information_categories[].evidence[].field",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.personal_information_categories[].evidence[].language",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.personal_information_categories[].evidence[].rule",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.personal_information_categories[].evidence[].source_path",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.personal_information_categories[].evidence[].source_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.personal_information_categories[].id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.personal_information_categories[].label_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.personal_information_categories[].label_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.personal_information_categories[].vocabulary_path",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.pib_type",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.pib_type_details",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "attributes.pib_type_details.basis",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.pib_type_details.pib_code",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.pib_type_details.pib_type",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.pib_type_details.scope_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.pib_type_details.scope_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.pib_type_details.source_path",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.purpose_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.purpose_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.rda_number_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.rda_number_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.related_record_number_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.related_record_number_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.retention_and_disposal_standards_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.retention_and_disposal_standards_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.retention_disposal_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.retention_disposal_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.social_insurance_number_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.social_insurance_number_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.specific_information_types_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.specific_information_types_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.standard_personal_information_categories_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.standard_personal_information_categories_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.standard_personal_information_category_ids",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.tbs_registration_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.tbs_registration_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.title_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.title_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.url_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.url_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "description_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "description_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "identifier",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_id",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "label_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "label_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "record_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "scope",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "source_path",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "sources",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "sources.en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "sources.fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "type",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "node_reference",
+      "label": "Network reference",
+      "source": "site/data/graph.json → nodes[] + lazy attributes; AIA references may add runtime fields",
+      "layer": "projection",
+      "rows": 469,
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "candidates",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "candidates[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "identifier",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_id",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "label_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "label_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "reference_kind",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "resolution",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "sources",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "type",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "sources.dataset",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "node_aia",
+      "label": "Network aia",
+      "source": "site/aia-data.mjs (browser memory)",
+      "layer": "projection",
+      "rows": 39,
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "aliases",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "aliases[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "attributes.impact_level",
+          "types": [
+            "number",
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.project_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.provenance",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.senior_official",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.senior_official_uid",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.survey_version",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "description_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "description_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "external_source",
+          "types": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "identifier",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "label_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "label_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "record_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "sources",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "sources.dataset",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "type",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "node_official",
+      "label": "Network official",
+      "source": "site/aia-data.mjs (browser memory)",
+      "layer": "projection",
+      "rows": 4,
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "description_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "description_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "external_source",
+          "types": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "identifier",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "label_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "label_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "record_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "sources",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "sources.dataset",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "type",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "graph_edges",
+      "label": "Network relationships",
+      "source": "site/data/graph.json → edges[]; AIA edges inline",
+      "layer": "projection",
+      "rows": 7545,
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "basis",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "evidence_count",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "evidence_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "resolution",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "source",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "target",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "type",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "evidence",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "evidence[]",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "evidence[].excerpt",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "evidence[].field",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "evidence[].language",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "evidence[].mention",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "evidence[].method",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "evidence[].source_url",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "graph_evidence",
+      "label": "Relationship evidence",
+      "source": "site/data/graph-evidence/*.json; AIA evidence inline",
+      "layer": "projection",
+      "rows": 14126,
+      "primary_key": [
+        "edge_id (shard parent)",
+        "ordinal (array)"
+      ],
+      "fields": [
+        {
+          "name": "checked_at_utc",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "excerpt",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "field",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "language",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "line",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "markdown_sha256",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "mention",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "method",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "relationship_scope",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "source_path",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "source_url",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "graph_manifest",
+      "label": "Graph manifest",
+      "source": "site/data/graph.json (manifest)",
+      "layer": "projection",
+      "rows": 1,
+      "primary_key": [],
+      "fields": [
+        {
+          "name": "collection_generated_at_utc",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "schema_version",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "summary",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "summary.edges",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "summary.node_types",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "summary.node_types.class",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "summary.node_types.institution",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "summary.node_types.pia",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "summary.node_types.pib",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "summary.node_types.reference",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "summary.nodes",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "summary.resolutions",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "summary.resolutions.ambiguous",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "summary.resolutions.resolved",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "summary.resolutions.unresolved",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "inputs",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "attribute_files",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "evidence_files",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "inputs.{path}",
+          "types": [
+            "sha256 string"
+          ]
+        },
+        {
+          "name": "attribute_files.{path}",
+          "types": [
+            "sha256 string"
+          ]
+        },
+        {
+          "name": "evidence_files.{path}",
+          "types": [
+            "sha256 string"
+          ]
+        },
+        {
+          "name": "nodes",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "edges",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "summary.node_types.aia",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "summary.node_types.official",
+          "types": [
+            "number"
+          ]
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "relationships": [
+    {
+      "source": "institution_classes_of_records",
+      "target": "institution_registry",
+      "label": "institution_id → institution_id",
+      "basis": "documented",
+      "fields": [
+        "institution_id"
+      ]
+    },
+    {
+      "source": "institution_personal_information_banks",
+      "target": "institution_registry",
+      "label": "institution_id → institution_id",
+      "basis": "documented",
+      "fields": [
+        "institution_id"
+      ]
+    },
+    {
+      "source": "institution_personal_information_banks",
+      "target": "pib_type_values",
+      "label": "pib_type → pib_type",
+      "basis": "documented",
+      "fields": [
+        "pib_type"
+      ]
+    },
+    {
+      "source": "pib_cor_links",
+      "target": "institution_personal_information_banks",
+      "label": "institution_id, bank_number_key → institution_id, bank_number_key",
+      "basis": "documented",
+      "fields": [
+        "institution_id",
+        "bank_number_key"
+      ]
+    },
+    {
+      "source": "standard_personal_information_banks",
+      "target": "pib_type_values",
+      "label": "pib_type → pib_type",
+      "basis": "documented",
+      "fields": [
+        "pib_type"
+      ]
+    },
+    {
+      "source": "my_info_pib_category_assignments",
+      "target": "personal_information_categories",
+      "label": "PI_CAT_ID → PI_CAT_ID",
+      "basis": "documented",
+      "fields": [
+        "PI_CAT_ID"
+      ]
+    },
+    {
+      "source": "pib_cor_links",
+      "target": "institution_classes_of_records",
+      "label": "resolved institutional class",
+      "basis": "documented",
+      "fields": [
+        "institution_id",
+        "cor_record_number"
+      ]
+    },
+    {
+      "source": "pib_cor_links",
+      "target": "standard_classes_of_records",
+      "label": "resolved standard class",
+      "basis": "documented",
+      "fields": [
+        "cor_record_number"
+      ]
+    },
+    {
+      "source": "my_info_pib_category_assignments",
+      "target": "my_info_pib_features",
+      "label": "source-scoped record_id",
+      "basis": "derived",
+      "fields": [
+        "record_id"
+      ]
+    },
+    {
+      "source": "my_info_pib_features",
+      "target": "institution_personal_information_banks",
+      "label": "source-scoped record identity",
+      "basis": "derived",
+      "fields": []
+    },
+    {
+      "source": "pias",
+      "target": "pia_manifest",
+      "label": "collection provenance and collection date",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "standard_personal_information_banks",
+      "target": "standard_classes_of_records",
+      "label": "literal PRN/NDP reference, if uniquely resolved",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "pia_inventories",
+      "target": "institution_registry",
+      "label": "institution_id",
+      "basis": "documented",
+      "fields": [
+        "institution_id"
+      ]
+    },
+    {
+      "source": "pias",
+      "target": "pia_inventories",
+      "label": "inherits institution_id",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "pia_sources",
+      "target": "pias",
+      "label": "assessment + language",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "pia_references",
+      "target": "pias",
+      "label": "assessment identity",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "pia_references",
+      "target": "institution_personal_information_banks",
+      "label": "unique matched_records[] → PIB",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "pia_references",
+      "target": "standard_personal_information_banks",
+      "label": "unique matched_records[] → standard PIB",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "pia_references",
+      "target": "institution_classes_of_records",
+      "label": "unique matched_records[] → class",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "pia_references",
+      "target": "standard_classes_of_records",
+      "label": "unique matched_records[] → standard class",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "aia_answers",
+      "target": "aia_source",
+      "label": "same source line / package_id (parent)",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "aia_translations",
+      "target": "aia_source",
+      "label": "same source line / package_id (parent)",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "aia_derived",
+      "target": "aia_source",
+      "label": "same source line / package_id (parent)",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "aia_source",
+      "target": "institution_registry",
+      "label": "unique exact bilingual organization name/alias",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "aia_answers",
+      "target": "institution_personal_information_banks",
+      "label": "explicit literal PIB code; uniquely resolved",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "aia_answers",
+      "target": "standard_personal_information_banks",
+      "label": "explicit literal standard PIB code",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "aia_answers",
+      "target": "pias",
+      "label": "exact cited PIA source URL",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "aia_matches",
+      "target": "aia_source",
+      "label": "package_id → source UUID",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "aia_matches",
+      "target": "institution_registry",
+      "label": "nullable institution_id; unique organization match",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "node_official",
+      "target": "aia_matches",
+      "label": "official.u_id → organization-scoped observed name",
+      "basis": "projection",
+      "fields": []
+    },
+    {
+      "source": "graph_edges",
+      "target": "graph_evidence",
+      "label": "edge id → evidence[]",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "graph_edges",
+      "target": "node_institution",
+      "label": "source / target node id",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "graph_edges",
+      "target": "node_pib",
+      "label": "source / target node id",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "graph_edges",
+      "target": "node_class",
+      "label": "source / target node id",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "graph_edges",
+      "target": "node_pia",
+      "label": "source / target node id",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "graph_edges",
+      "target": "node_reference",
+      "label": "source / target node id",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "graph_edges",
+      "target": "node_aia",
+      "label": "source / target node id",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "graph_edges",
+      "target": "node_official",
+      "label": "source / target node id",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "node_institution",
+      "target": "institution_registry",
+      "label": "projection / retained source identity",
+      "basis": "projection",
+      "fields": []
+    },
+    {
+      "source": "node_pib",
+      "target": "institution_personal_information_banks",
+      "label": "projection / retained source identity",
+      "basis": "projection",
+      "fields": []
+    },
+    {
+      "source": "node_pib",
+      "target": "standard_personal_information_banks",
+      "label": "projection / retained source identity",
+      "basis": "projection",
+      "fields": []
+    },
+    {
+      "source": "node_class",
+      "target": "institution_classes_of_records",
+      "label": "projection / retained source identity",
+      "basis": "projection",
+      "fields": []
+    },
+    {
+      "source": "node_class",
+      "target": "standard_classes_of_records",
+      "label": "projection / retained source identity",
+      "basis": "projection",
+      "fields": []
+    },
+    {
+      "source": "node_pia",
+      "target": "pias",
+      "label": "projection / retained source identity",
+      "basis": "projection",
+      "fields": []
+    },
+    {
+      "source": "node_aia",
+      "target": "aia_source",
+      "label": "projection / retained source identity",
+      "basis": "projection",
+      "fields": []
+    },
+    {
+      "source": "node_official",
+      "target": "aia_answers",
+      "label": "projection / retained source identity",
+      "basis": "projection",
+      "fields": []
+    }
+  ],
+  "summary": {
+    "tables": 30,
+    "fields": 1137,
+    "relationships": 46
+  }
+}

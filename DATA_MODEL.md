@@ -57,6 +57,19 @@ start collapsed in the information panel; navigation and browsing sit outside it
 See [graph methodology](docs/GRAPH_EXPLORER.md).
 
 
+## Complete network schema diagram
+
+The [interactive full model](site/data-model.html), [standalone SVG](site/data/network-schema.svg)
+and [field catalogue](site/data/network-schema.json) inventory every source table,
+nested record shape and graph-projection field. `scripts/build_network_schema.py`
+reads owning CSV headers and actual PIA/graph structures. External AIA schema is
+field metadata only; the payload remains outside the repository. Collection maps
+use parameterized keys rather than counting each institution name as a field.
+
+The explorer follows this structure with one selected record, meaningful groups
+of direct connections and explicit two-step evidence paths. A shared owner alone
+does not create a recommended path. See [interaction design and source meaning](docs/GRAPH_EXPLORER.md).
+
 ## External AIA projection
 
 Algorithmic Impact Assessments are an external, browser-loaded source configured

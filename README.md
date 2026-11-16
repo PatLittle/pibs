@@ -2,6 +2,9 @@
 
 The [PIB / PIA network explorer](https://patlittle.github.io/pibs/graph.html)
 connects the collected inventories through source-evidenced relationships.
+Start with one record, follow its grouped connections, and inspect the source
+behind each link. The [full data-model diagram](https://patlittle.github.io/pibs/data-model.html)
+includes every source table and field, with a searchable catalogue and SVG export.
 See the [graph methodology and rebuild guide](docs/GRAPH_EXPLORER.md) for identity,
 provenance, unresolved references, bilingual navigation and validation.
 
