@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Link AIA - Info Source Data Explorer</title>
+<meta name="description" content="Algorithmic impact assessments: scope, senior officials, impact levels, survey versions, and explicit connections to information holdings.">
+<link rel="stylesheet" href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.40.0/dist/gcds/gcds.css">
+<script type="module" src="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.40.0/dist/gcds/gcds.esm.js"></script>
+<link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="prototype-label.css"><link rel="stylesheet" href="aia.css">
+<script type="module" src="link-aia.mjs"></script></head><body>
+<a class="skip-link" href="#main-content" data-aia="skip">Skip to main content</a>
+    <gcds-header lang-href="#" skip-to-href="#main-content">
+      <div class="prototype-signature" slot="signature"><span class="prototype-label-text" style="display:none">Prototype - For Discussion</span><gcds-signature></gcds-signature></div>
+      <gcds-breadcrumbs slot="breadcrumb"><gcds-breadcrumbs-item href="index.html">Info Source Data Explorer</gcds-breadcrumbs-item></gcds-breadcrumbs>
+      <gcds-top-nav id="dataset-nav" slot="menu" label="Info Source data explorer navigation">
+        <gcds-nav-link href="index.html" slot="home">Overview</gcds-nav-link>
+        <gcds-nav-group menu-label="Institution data submenu" open-trigger="Institution data" close-trigger="Close institution data">
+          <gcds-nav-link data-dataset-nav="institutions" href="table.html?dataset=institutions">Institutions</gcds-nav-link>
+          <gcds-nav-link data-dataset-nav="pibs" href="table.html?dataset=pibs">PIBs</gcds-nav-link>
+          <gcds-nav-link data-dataset-nav="classes" href="table.html?dataset=classes">Classes of Records</gcds-nav-link>
+          <gcds-nav-link data-dataset-nav="links" href="table.html?dataset=links">PIB-to-class linkages</gcds-nav-link>
+        </gcds-nav-group>
+        <gcds-nav-group menu-label="Reference data submenu" open-trigger="Reference data" close-trigger="Close reference data">
+          <gcds-nav-link data-dataset-nav="standard-pibs" href="table.html?dataset=standard-pibs">Standard PIBs</gcds-nav-link>
+          <gcds-nav-link data-dataset-nav="standard-classes" href="table.html?dataset=standard-classes">Standard classes</gcds-nav-link>
+          <gcds-nav-link data-dataset-nav="categories" href="table.html?dataset=categories">Categories</gcds-nav-link>
+          <gcds-nav-link data-dataset-nav="pib-types" href="table.html?dataset=pib-types">PIB types</gcds-nav-link>
+        </gcds-nav-group>
+        <gcds-nav-link href="privacy-assessments.html" data-i18n="navPia">Privacy Assessments</gcds-nav-link>
+        <gcds-nav-link current href="link-aia.html">Link AIA</gcds-nav-link>
+        <gcds-nav-link href="graph.html" data-i18n="navGraph">PI Network Explorer</gcds-nav-link>
+      </gcds-top-nav>
+    </gcds-header>
+<main id="main-content">
+<section class="hero"><p class="hero__eyebrow" data-aia="eyebrow">Algorithms &amp; accountability</p><h1 class="hero__title" data-aia="title">Link AIA</h1><p class="hero__lede" data-aia="intro">Explore algorithmic impact assessments, the officials named in them, and their connections to federal information holdings.</p><div class="hero__actions"><a class="button-link button-link--light" href="#assessments" data-aia="browse">Browse assessments</a><a class="button-link button-link--outline" href="graph.html" data-aia="network">Explore the network</a></div></section>
+<div class="page-container">
+<p id="aia-status" role="status" aria-live="polite" data-aia="loading">Loading the external AIA source…</p><button type="button" id="retry" hidden data-aia="retry">Retry</button>
+<p class="notice" data-aia="notice">Counts describe this feed, not all federal AI systems. Impact levels are supplied by the analysis feed, not recalculated here. A named official is a source observation, not confirmation of current tenure. Respondents are kept separate.</p>
+<div id="aia-content" hidden>
+<section class="stat-grid" aria-label="AIA overview" id="aia-stats"></section>
+<p id="source-details" class="muted"></p>
+<section class="section-block"><h2 data-aia="scope">Scope and composition</h2><p data-aia="scopeNote">Charts describe the entire loaded feed. Filters below apply to the record table.</p><div class="insight-grid"><article class="panel"><h3 data-aia="risk">Impact level</h3><div id="risk-bars" class="bar-list"></div></article><article class="panel"><h3 data-aia="version">Survey version</h3><div id="version-bars" class="bar-list"></div></article><article class="panel"><h3 data-aia="organizations">Organizations</h3><div id="organization-bars" class="bar-list"></div></article><article class="panel"><h3 data-aia="provenance">Source provenance</h3><div id="provenance-bars" class="bar-list"></div></article></div></section>
+<section class="section-block"><h2 data-aia="officials">Responsible senior officials</h2><p data-aia="officialNote">Only ADMresponsible supplies this role. Names in the source and its translation are preserved as EN/FR fields. The generated u_id groups the same normalized name within one organization; it is not a government-issued person ID. Missing names remain missing.</p><div class="table-scroll"><table class="aia-table aia-officials"><thead><tr><th data-aia="nameEN">Name (EN/source)</th><th data-aia="nameFR">Name (FR/translation)</th><th>u_id</th><th data-aia="organization">Organization</th><th data-aia="records">Assessments</th></tr></thead><tbody id="official-rows"></tbody></table></div></section>
+<section class="section-block" id="assessments"><h2 data-aia="find">Find an AIA</h2><form id="aia-filters" class="aia-filters" role="search"><div><label for="aia-search" data-aia="search">Title, name, identifier or cited record</label><input type="search" id="aia-search" autocomplete="off"></div><div><label for="aia-organization" data-aia="organization">Organization</label><select id="aia-organization"></select></div><div><label for="aia-risk" data-aia="risk">Impact level</label><select id="aia-risk"></select></div><div><label for="aia-version" data-aia="version">Survey version</label><select id="aia-version"></select></div><div><label for="aia-official" data-aia="officials">Responsible senior officials</label><select id="aia-official"><option value="" data-aia="all">All</option><option value="yes" data-aia="named">Named</option><option value="no" data-aia="missing">Not recorded</option></select></div><button type="button" id="clear" data-aia="clear">Clear filters</button></form><p id="aia-results" role="status"></p><div class="table-scroll"><table class="aia-table aia-records"><thead><tr><th data-aia="assessment">Assessment / ID</th><th data-aia="organization">Organization</th><th data-aia="officials">Responsible senior officials</th><th data-aia="risk">Impact level</th><th data-aia="version">Survey version</th><th data-aia="references">Explicit references</th></tr></thead><tbody id="aia-rows"></tbody></table></div></section>
+<section class="section-block" id="record-detail" hidden tabindex="-1"></section>
+<section class="section-block"><h2 data-aia="matching">What should link?</h2><div id="match-summary" class="notice"></div><div id="match-plan"></div></section>
+<details class="section-block"><summary data-aia="inventory">Field inventory and availability</summary><p data-aia="inventoryNote">Non-empty values by field across the loaded records. A field can be absent because a different survey version was used. Survey answer codes are preserved; their meaning must be checked against that version.</p><div class="table-scroll"><table class="aia-table"><thead><tr><th data-aia="field">Source field</th><th data-aia="available">Available records</th><th data-aia="types">Value types</th></tr></thead><tbody id="inventory-rows"></tbody></table></div></details>
+</div><noscript>This page needs JavaScript to load the external feed. / JavaScript est requis pour charger la source externe.</noscript>
+</div></main><footer class="site-footer"><div class="site-footer__inner"><strong>Info Source Data Explorer</strong><a href="https://github.com/PatLittle/pibs/blob/main/docs/AIA_INTEGRATION.md" data-aia="methodology">Inventory and matching methodology</a><a id="aia-source-link" href="https://patlittle.github.io/aia-eia-js/aia-analysis-data/aia-results.jsonl" data-aia="source">External AIA source</a></div></footer></body></html>

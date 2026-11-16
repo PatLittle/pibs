@@ -179,3 +179,6 @@ body.graph-expanded { overflow: hidden; }
 }
 .graph-legend .line-key::before { width: 1.3rem; height: 0; border: 0; border-top: 2px dashed #53657a; background: none; border-radius: 0; vertical-align: middle; }
 .graph-legend .derived-key::before { border-top: 3px dotted #a13d64; }
+
+.aia, [data-node-type="aia"] { --node-color: #c35a21; --node-soft: #fff0e8; }
+.official, [data-node-type="official"] { --node-color: #5a608c; --node-soft: #efeff8; }

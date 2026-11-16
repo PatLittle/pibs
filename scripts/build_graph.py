@@ -56,6 +56,7 @@ def build(root=ROOT):
         add_node(dict(id='institution:' + r['institution_id'], type='institution',
                       identifier=r['institution_id'], institution_id=r['institution_id'],
                       label_en=r['legal_name_en'], label_fr=r['legal_name_fr'],
+                      aliases=sorted({r.get(k, '') for k in ('harmonized_name', 'nom_harmonise', 'preferred_name', 'nom_prefere', 'open_canada_title_en', 'open_canada_title_fr', 'abbreviation', 'abreviation')} - {''}),
                       sources={lang: r.get('infosource_url_' + lang, '') for lang in ('en', 'fr')},
                       record_url='table.html?' + urlencode(dict(dataset='institutions', institution_id=r['institution_id'], open='record')),
                       source_path='institution_registry.csv'))

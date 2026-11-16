@@ -5,6 +5,13 @@ connects the collected inventories through source-evidenced relationships.
 See the [graph methodology and rebuild guide](docs/GRAPH_EXPLORER.md) for identity,
 provenance, unresolved references, bilingual navigation and validation.
 
+The [Link AIA page](https://patlittle.github.io/pibs/link-aia.html) loads an
+external Algorithmic Impact Assessment feed, inventories its scope, and connects
+explicit citations and named responsible officials to the network. See the
+[AIA field inventory and matching proposal](docs/AIA_INTEGRATION.md). The feed
+URL is configured in `site/aia-source.json`; AIA records are loaded in the browser
+and are not copied into this repository.
+
 ## End-to-end data pipeline
 
 The legal registry, source captures, extracted holdings, derived survey logic, and

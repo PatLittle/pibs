@@ -53,3 +53,17 @@ they carry an explicit `derived` basis, source-field evidence, rule and confiden
 Documented references and inferred category matches are distinct relationships.
 Explicit standard PIB PRN/NDP references connect to standard classes. No standard
 PIB-to-institution adoption is inferred. See [graph methodology](docs/GRAPH_EXPLORER.md).
+
+
+## External AIA projection
+
+Algorithmic Impact Assessments are an external, browser-loaded source configured
+in `site/aia-source.json`, rather than an additional persisted CSV table in
+`data_model.json`. The normalized in-memory AIA key is `package_id` (a unique
+source UUID), and `institution_id` is a nullable, uniquely resolved registry
+foreign key. Responsible officials retain `name_en`, `name_fr` and a generated
+organization-scoped `u_id`. AIA → official and explicit AIA → PIB/class/PIA
+references are many-to-many; unknown or ambiguous citations retain their evidence
+and candidate IDs without asserting foreign-key matches. Survey version and
+feed-derived risk level belong to the AIA alone. No AIA data is copied into the
+repository. See [field mappings and matching proposal](docs/AIA_INTEGRATION.md).

@@ -8,6 +8,7 @@ on:
       - 'build_site_assets.py'
       - 'validate_site.py'
       - 'tests/*graph*'
+      - 'tests/aia.test.mjs'
       - 'PIAs/**'
       - 'institution_registry.csv'
       - 'institutions_infosource_docs/*.csv'
@@ -42,7 +43,9 @@ jobs:
         run: |
           python validate_site.py
           python -m unittest tests.test_build_graph tests.test_build_pia_site
-          node --test tests/graph.test.mjs tests/privacy_assessments.test.mjs
+          node --test tests/graph.test.mjs tests/privacy_assessments.test.mjs tests/aia.test.mjs
+          node --check site/aia-data.mjs
+          node --check site/link-aia.mjs
           node --check site/graph.mjs
       - name: Check graph in Chromium
         env:

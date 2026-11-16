@@ -192,3 +192,24 @@ checks native/fallback fullscreen and exit, focus containment/restoration,
 fixed-map pagination, previous/next record navigation, shared node/card colours,
 type-summary shortcuts, hub sorting and portrait fullscreen layout.
 Screenshots default to `work/`.
+
+
+## External AIA overlay
+
+The network additionally loads `site/aia-source.json` and the configured external
+JSONL at runtime. `aia-data.mjs` adds `aia:{package_id}` and organization-scoped
+`official:{u_id}` nodes in browser memory. The tracked graph JSON and its download
+remain the base collected graph. Registry node aliases now preserve existing
+bilingual preferred/harmonized names and abbreviations for exact AIA organization
+matching. No external AIA payload is stored by the build.
+
+AIA nodes show survey version, supplied impact level, project ID, provenance and
+named senior official. The two new types are searchable, filterable and included
+in the legend and connection counts. `responsible_official` is a selectable,
+shareable relationship filter. Explicit record citations and exact PIA source
+URLs carry inline field/excerpt evidence; unresolved matches keep dashed
+reference nodes. AIA details open the Link AIA page and vice versa. An unavailable
+feed leaves the base graph usable and displays a retry-by-reload notice.
+
+See [AIA inventory and matching rules](AIA_INTEGRATION.md) for fields, source
+location migration, risk/version caveats and proposed future review matches.
