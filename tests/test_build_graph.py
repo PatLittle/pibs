@@ -50,24 +50,27 @@ class GraphBuildTests(unittest.TestCase):
             self.assertEqual(self.nodes[edge['target']]['type'], 'reference')
             self.assertGreater(len(self.nodes[edge['target']]['candidates']), 1)
 
-    def test_vocabulary_edges_keep_derived_and_documented_evidence_distinct(self):
-        self.assertEqual(sum(n['type'] == 'category' for n in self.nodes.values()), 25)
-        self.assertEqual(sum(n['type'] == 'pib_type' for n in self.nodes.values()), 6)
-        categories = [e for e in self.graph['edges'] if e['type'] == 'category_match']
+    def test_vocabulary_is_attributes_with_derived_evidence_preserved(self):
+        self.assertFalse(any(n['type'] in ('category', 'pib_type') for n in self.nodes.values()))
+        self.assertFalse(any(e['type'] in ('category_match', 'has_type') for e in self.graph['edges']))
+        banks = [n for n in self.nodes.values() if n['type'] == 'pib']
+        categories = [c for n in banks for c in n['attributes']['personal_information_categories']]
         self.assertTrue(categories)
-        for edge in categories:
-            self.assertEqual(edge['basis'], 'derived')
-            self.assertEqual(self.nodes[edge['source']]['type'], 'pib')
-            self.assertEqual(self.nodes[edge['target']]['type'], 'category')
-            for item in edge['evidence']:
+        for category in categories:
+            self.assertEqual(category['basis'], 'derived')
+            self.assertTrue(category['label_en'])
+            self.assertTrue(category['label_fr'])
+            for item in category['evidence']:
                 self.assertTrue(item['excerpt'])
                 self.assertTrue(item['rule'])
                 self.assertGreater(item['confidence'], 0)
                 self.assertIn(item['field'], ['description_en', 'description_fr', 'specific_information_types_en', 'specific_information_types_fr'])
-        typed = [e for e in self.graph['edges'] if e['type'] == 'has_type']
+        typed = [n['attributes']['pib_type_details'] for n in banks if n['attributes']['pib_type_details']]
         self.assertTrue(typed)
-        self.assertTrue(all(e['basis'] == 'documented' for e in typed))
-        # The standard access-request bank explicitly cites the standard class.
+        self.assertTrue(all(t['basis'] == 'documented' for t in typed))
+        with (ROOT / 'spib_en_fr.csv').open() as handle:
+            source = next(r for r in csv.DictReader(handle) if r['bank_number_key'] == 'PSU 905')
+        self.assertTrue(all(self.nodes['pib:standard:PSU 905']['attributes'][k] == v for k, v in source.items() if v != ''))
         links = [e for e in self.graph['edges'] if e['source'] == 'pib:standard:PSU 901' and e['target'] == 'class:standard:930']
         self.assertEqual(len(links), 1)
         self.assertEqual({i['language'] for i in links[0]['evidence']}, {'en', 'fr'})

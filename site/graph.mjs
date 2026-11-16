@@ -1,3 +1,4 @@
+import { nodeAttributes, attributeLabel } from './graph-attributes.mjs';
 import { loadAIA } from './aia-data.mjs';
 import { PAGE, MAX_NODES, label, indexGraph, search, connections, neighborhood, parseState, stateURL } from './graph-model.mjs';
 
@@ -14,23 +15,23 @@ const words = {
     examplesStatus: 'Five curated starting points. Enter a name or choose a filter to search all records.',
     exampleCounts: (r, i) => `${r} directly connected records · ${i} represented institutions`,
     standardPib: 'Standard PIB', standardClass: 'Standard Class of Records', category: 'Personal-information category', pib_type: 'PIB type',
-    has_type: 'Has PIB type', category_match: 'Category match (derived)',
-    derivedNote: 'Category links are estimated matches from PIB descriptions, not official assignments. Confidence describes the matching rule, not the likelihood that an institution holds your information.',
+    derivedNote: 'Category values are estimated matches from PIB descriptions, not official assignments. Confidence describes the matching rule, not the likelihood that an institution holds your information.',
     derived: 'Derived match', documented: 'Documented relationship', confidence: 'Rule confidence', rule: 'Matching rule',
-    attributes: 'Record attributes', purpose: 'Purpose', class_of_individuals: 'People covered', consistent_uses: 'Consistent uses', retention_disposal: 'Retention and disposal', document_types: 'Document types', date_last_modified: 'Source modification date',
+    attributes: 'All attributes', personal_information_categories: 'Personal-information categories (derived)', pib_type_details: 'PIB type definition', label: 'Title', description: 'Description', id: 'Unique ID', identifier: 'Identifier', institution_id: 'Institution ID', scope: 'Scope', sources: 'Original sources', source_status: 'Source availability', available_languages: 'Available languages', aliases: 'Other recorded identifiers', source_path: 'Repository source', record_url: 'Full record URL', evidence: 'Source evidence', type: 'Type', basis: 'Basis', resolution: 'Resolution', source: 'Source', target: 'Target', evidence_count: 'Evidence count',
+     purpose: 'Purpose', class_of_individuals: 'People covered', consistent_uses: 'Consistent uses', retention_disposal: 'Retention and disposal', document_types: 'Document types', date_last_modified: 'Source modification date',
     institutionalContext: 'Institution', represented: 'Represented institutions', institutionScope: 'Institution-specific',
-    derivedLegend: 'Dotted: derived category match', unresolvedLegend: 'Dashed: unresolved reference',
+    unresolvedLegend: 'Dashed: unresolved reference',
     attributeError: 'Attributes could not be loaded. Retry or open the full record.', retry: 'Retry',
     aliasesLabel: 'Other recorded identifiers',
     skip: 'Skip to main content', eyebrow: 'Follow the evidence', title: 'PI Network Explorer',
-    intro: 'Start with an example, a record, a personal-information category or a PIB type. Select a node to reveal its connections; select a line to inspect the source evidence.',
+    intro: 'Start with an example, an institution, an assessment or a record. Select a node to reveal its connections; select a line to inspect the source evidence.',
     notice: 'A reference is a citation, not proof that an assessment covers the entire bank. Missing links reflect collected evidence, not the absence of an assessment. Dashed lines lead to unresolved references.',
     find: 'Find a starting point', search: 'Name or identifier (English or French)', recordType: 'Record type', allTypes: 'All types',
     pib: 'PIB', pia: 'Privacy assessment', institution: 'Institution', class: 'Class of Records', reference: 'Unresolved reference',
     allInstitutions: 'All institutions', moreResults: 'More results', network: 'Explore connections', relationship: 'Relationship',
     allRelations: 'All relationships', references: 'References', related_class: 'Related class', listed_by: 'Listed under institution',
     fit: 'Fit graph', reset: 'Reset to selected node', share: 'Copy view link', loading: 'Loading graph data…',
-    empty: 'Choose a search result to start exploring.', details: 'Record and evidence', connections: 'Connections of the selected node',
+    empty: 'Choose a search result to start exploring.', details: 'Information panel', connections: 'Connections of the selected node',
     expand: 'Show more connections', overview: 'Overview', navPia: 'Privacy Assessments', navGraph: 'PI Network Explorer',
     download: 'Download base graph JSON', methodology: 'Graph methodology', open: 'Open full record', source: 'Original source',
     artifact: 'Repository evidence', inspect: 'Inspect evidence', focus: 'Start here', resolved: 'Matched record',
@@ -47,7 +48,7 @@ const words = {
     copyLabel: 'View link', exported: 'Readable copy collected', http_error: 'Source retrieval failed',
     insufficient_content: 'Insufficient collected text', soft_error_page: 'Source returned an error page',
     not_pia_content: 'Source content requires review', language_mismatch: 'Source language requires review',
-    workspace: 'Explore the network', fullscreen: 'Full screen', exitFullscreen: 'Exit full screen', hidePanel: 'Hide records', showPanel: 'Show records', browseControls: 'Find and sort records',
+    workspace: 'Explore the network', fullscreen: 'Full screen', exitFullscreen: 'Exit full screen', hidePanel: 'Hide information panel', showPanel: 'Show information panel', browseControls: 'Find and sort records',
     highlight: 'Highlight direct connections', recordTab: 'Record', browseTab: 'Browse records', previousRecord: 'Previous record', nextRecord: 'Next record',
     browseScope: 'Browse', connectedScope: 'Connected records', allScope: 'All collected records', useSelected: 'Connections of selected record',
     filterRecords: 'Filter these records', sort: 'Sort', sortName: 'Name', sortDegree: 'Most connected', previous: 'Previous', next: 'Next', pageSize: 'Records per page',
@@ -68,23 +69,23 @@ const words = {
     examplesStatus: 'Cinq points de départ choisis. Saisissez un nom ou choisissez un filtre pour chercher tous les documents.',
     exampleCounts: (r, i) => `${r} documents directement liés · ${i} institutions représentées`,
     standardPib: 'FRP ordinaire', standardClass: 'Catégorie de documents ordinaire', category: 'Catégorie de renseignements personnels', pib_type: 'Type de FRP',
-    has_type: 'A le type de FRP', category_match: 'Correspondance de catégorie (dérivée)',
-    derivedNote: 'Les liens de catégorie sont des estimations tirées des descriptions des FRP, et non des attributions officielles. La confiance concerne la règle de correspondance, pas la probabilité qu’une institution détienne vos renseignements.',
+    derivedNote: 'Les valeurs de catégorie sont des estimations tirées des descriptions des FRP, et non des attributions officielles. La confiance concerne la règle de correspondance, pas la probabilité qu’une institution détienne vos renseignements.',
     derived: 'Correspondance dérivée', documented: 'Relation documentée', confidence: 'Confiance de la règle', rule: 'Règle de correspondance',
-    attributes: 'Attributs du document', purpose: 'Fin', class_of_individuals: 'Personnes visées', consistent_uses: 'Usages compatibles', retention_disposal: 'Conservation et élimination', document_types: 'Types de documents', date_last_modified: 'Date de modification de la source',
+    attributes: 'Tous les attributs', personal_information_categories: 'Catégories de renseignements personnels (dérivées)', pib_type_details: 'Définition du type de FRP', label: 'Titre', description: 'Description', id: 'ID unique', identifier: 'Identifiant', institution_id: 'ID de l’institution', scope: 'Portée', sources: 'Sources originales', source_status: 'Disponibilité des sources', available_languages: 'Langues disponibles', aliases: 'Autres identifiants', source_path: 'Source dans le dépôt', record_url: 'URL du document complet', evidence: 'Preuves dans la source', type: 'Type', basis: 'Fondement', resolution: 'Résolution', source: 'Source', target: 'Cible', evidence_count: 'Nombre de preuves',
+     purpose: 'Fin', class_of_individuals: 'Personnes visées', consistent_uses: 'Usages compatibles', retention_disposal: 'Conservation et élimination', document_types: 'Types de documents', date_last_modified: 'Date de modification de la source',
     institutionalContext: 'Institution', represented: 'Institutions représentées', institutionScope: 'Propre à une institution',
-    derivedLegend: 'Petits points : catégorie dérivée', unresolvedLegend: 'Pointillés : référence non résolue',
+    unresolvedLegend: 'Pointillés : référence non résolue',
     attributeError: 'Impossible de charger les attributs. Réessayez ou ouvrez le document complet.', retry: 'Réessayer',
     aliasesLabel: 'Autres identifiants dans les sources',
     skip: 'Passer au contenu principal', eyebrow: 'Suivre les sources', title: 'Explorateur du réseau de RP',
-    intro: 'Commencez par un exemple, un document, une catégorie de renseignements personnels ou un type de FRP. Sélectionnez un nœud pour découvrir ses liens, puis une ligne pour consulter les preuves.',
+    intro: 'Commencez par un exemple, une institution, une évaluation ou un document. Sélectionnez un nœud pour découvrir ses liens, puis une ligne pour consulter les preuves.',
     notice: 'Une référence est une citation, sans garantir que l’évaluation couvre tout le fichier. Les liens absents reflètent les preuves recueillies, sans démontrer l’absence d’une évaluation. Les lignes pointillées mènent à des références non résolues.',
     find: 'Trouver un point de départ', search: 'Nom ou identifiant (français ou anglais)', recordType: 'Type de document', allTypes: 'Tous les types',
     pib: 'FRP', pia: 'Évaluation de la vie privée', institution: 'Institution', class: 'Catégorie de documents', reference: 'Référence non résolue',
     allInstitutions: 'Toutes les institutions', moreResults: 'Plus de résultats', network: 'Explorer les liens', relationship: 'Relation',
     allRelations: 'Toutes les relations', references: 'Fait référence à', related_class: 'Catégorie connexe', listed_by: 'Répertorié sous l’institution',
     fit: 'Ajuster le graphique', reset: 'Recentrer sur le nœud sélectionné', share: 'Copier le lien de cette vue', loading: 'Chargement du graphique…',
-    empty: 'Choisissez un résultat pour commencer.', details: 'Document et preuves', connections: 'Liens du nœud sélectionné',
+    empty: 'Choisissez un résultat pour commencer.', details: 'Panneau d’information', connections: 'Liens du nœud sélectionné',
     expand: 'Afficher plus de liens', overview: 'Aperçu', navPia: 'Évaluations de la vie privée', navGraph: 'Explorateur du réseau de RP',
     download: 'Télécharger le graphique de base JSON', methodology: 'Méthode du graphique', open: 'Ouvrir le document complet', source: 'Source originale',
     artifact: 'Preuve dans le dépôt', inspect: 'Consulter les preuves', focus: 'Commencer ici', resolved: 'Document correspondant',
@@ -101,7 +102,7 @@ const words = {
     copyLabel: 'Lien de la vue', exported: 'Copie lisible recueillie', http_error: 'Échec de récupération de la source',
     insufficient_content: 'Texte recueilli insuffisant', soft_error_page: 'La source a renvoyé une page d’erreur',
     not_pia_content: 'Contenu source à vérifier', language_mismatch: 'Langue de la source à vérifier',
-    workspace: 'Explorer le réseau', fullscreen: 'Plein écran', exitFullscreen: 'Quitter le plein écran', hidePanel: 'Masquer les documents', showPanel: 'Afficher les documents', browseControls: 'Trouver et trier les documents',
+    workspace: 'Explorer le réseau', fullscreen: 'Plein écran', exitFullscreen: 'Quitter le plein écran', hidePanel: 'Masquer le panneau d’information', showPanel: 'Afficher le panneau d’information', browseControls: 'Trouver et trier les documents',
     highlight: 'Surligner les liens directs', recordTab: 'Document', browseTab: 'Parcourir', previousRecord: 'Document précédent', nextRecord: 'Document suivant',
     browseScope: 'Parcourir', connectedScope: 'Documents liés', allScope: 'Tous les documents recueillis', useSelected: 'Liens du document sélectionné',
     filterRecords: 'Filtrer ces documents', sort: 'Trier', sortName: 'Nom', sortDegree: 'Le plus de liens', previous: 'Précédent', next: 'Suivant', pageSize: 'Documents par page',
@@ -117,7 +118,7 @@ const words = {
   }
 };
 let index, data, state, cy, tour, resultLimit = 12, currentView, lastViewKey = '';
-let recordEntries = [], activeTab = 'detail', expandedMode = false, nativeMode = false, previousFocus;
+let recordEntries = [], expandedMode = false, nativeMode = false, previousFocus;
 const browser = { anchor: '', scope: 'connected', query: '', type: '', sort: 'name', page: 1, size: 8 };
 const inertElements = new Map();
 const evidenceCache = new Map();
@@ -140,7 +141,7 @@ function localize() {
   document.title = t('title') + ' - Info Source Data Explorer';
   document.querySelectorAll('[data-i18n]').forEach(n => { n.textContent = t(n.dataset.i18n); });
   $('fullscreen').textContent = t(expandedMode ? 'exitFullscreen' : 'fullscreen');
-  $('toggle-panel').textContent = t($('explorer').classList.contains('panel-hidden') ? 'showPanel' : 'hidePanel');
+  updatePanelToggle();
   $('cy').setAttribute('aria-label', t('canvasLabel'));
   $('share-link').setAttribute('aria-label', t('copyLabel'));
   document.querySelector('.graph-legend').setAttribute('aria-label', t('legend'));
@@ -201,7 +202,7 @@ function renderSearch() {
 function openExample(id) {
   state = exampleState(index, id, state.lang);
   browser.anchor = id; browser.scope = 'connected'; browser.page = 1; browser.query = ''; browser.type = '';
-  syncBrowserControls(); setTab('detail'); render(true);
+  syncBrowserControls(); openInfoPanel(); render(true);
   $('inspector-heading').focus({ preventScroll: true });
   $('explorer').scrollIntoView({ block: 'start' });
 }
@@ -236,42 +237,77 @@ async function evidenceList(edge, container) {
     container.textContent = t('evidenceError');
   }
 }
+function attributeValue(value, container) {
+  if (Array.isArray(value)) {
+    if (!value.length) { container.append(el('p', '—')); return; }
+    const list = el('ul', null, 'attribute-list');
+    for (const item of value) {
+      const li = el('li');
+      if (item && typeof item === 'object') {
+        const detail = el('details');
+        detail.append(el('summary', item['label_' + state.lang] || item.label_en || item.id || t('evidence')));
+        if (item.basis === 'derived') detail.append(el('p', t('derivedNote'), 'record-alert'));
+        for (const [key, entry] of Object.entries(item)) appendAttribute(detail, key, entry);
+        li.append(detail);
+      } else attributeValue(item, li);
+      list.append(li);
+    }
+    container.append(list);
+  } else if (value && typeof value === 'object') {
+    for (const [key, entry] of Object.entries(value)) appendAttribute(container, key, entry);
+  } else if (typeof value === 'string' && /^https?:\/\//.test(value)) container.append(link(value, value));
+  else container.append(el('p', value == null || value === '' ? '—' : String(value)));
+}
+function appendAttribute(container, key, value) {
+  const field = el('details', null, 'record-attribute'); field.dataset.attribute = key;
+  const summary = attributeLabel(key, t) + (Array.isArray(value) ? ' · ' + value.length : '');
+  field.append(el('summary', summary));
+  const content = el('div', null, 'attribute-value');
+  if (['source_path', 'vocabulary_path'].includes(key) && value) content.append(link(value, repositoryLink(value)));
+  else attributeValue(value, content); field.append(content); container.append(field);
+}
 async function recordAttributes(node, container) {
-  container.textContent = t('loading');
+  const display = attributes => {
+    const opened = new Set([...container.querySelectorAll(':scope > details[open]')].map(n => n.dataset.attribute));
+    container.replaceChildren(el('h5', t('attributes')));
+    for (const [key, value] of Object.entries(nodeAttributes(node, attributes))) appendAttribute(container, key, value);
+    container.querySelectorAll(':scope > details').forEach(n => { n.open = opened.has(n.dataset.attribute); });
+  };
+  display({});
+  if (!node.attribute_url) return;
+  const status = el('p', t('loading'), 'record-note'); container.append(status);
   try {
-    if (!node.attributes && !attributeCache.has(node.attribute_url)) attributeCache.set(node.attribute_url, fetch(node.attribute_url).then(async r => {
+    if (!attributeCache.has(node.attribute_url)) attributeCache.set(node.attribute_url, fetch(node.attribute_url).then(async r => {
       if (!r.ok) throw new Error('Attributes HTTP ' + r.status);
       return r.json();
     }));
-    const attributes = node.attributes || (await attributeCache.get(node.attribute_url))[node.id];
-    container.replaceChildren(el('h5', t('attributes')));
-    for (const key of ['pib_type', 'purpose', 'class_of_individuals', 'consistent_uses', 'retention_disposal', 'document_types', 'date_last_modified', 'survey_version', 'impact_level', 'senior_official', 'senior_official_uid', 'project_id', 'provenance']) {
-      const value = attributes[key] || attributes[key + '_' + state.lang];
-      if (!value) continue;
-      const field = el('details'); field.append(el('summary', t(key)), el('p', value)); container.append(field);
-    }
+    const attributes = (await attributeCache.get(node.attribute_url))[node.id];
+    if (!attributes) throw new Error('Missing record attributes');
+    display(attributes);
   } catch {
-    attributeCache.delete(node.attribute_url);
-    container.replaceChildren(el('p', t('attributeError')));
+    attributeCache.delete(node.attribute_url); status.textContent = t('attributeError');
     container.append(button(t('retry'), () => recordAttributes(node, container)));
   }
 }
-function setTab(tab, focus = false) {
-  activeTab = tab;
-  $('explorer').classList.remove('panel-hidden'); $('inspector').inert = false;
-  $('toggle-panel').setAttribute('aria-expanded', 'true'); $('toggle-panel').textContent = t('hidePanel');
-  for (const name of ['detail', 'browser']) {
-    const selected = name === tab;
-    $('tab-' + name).setAttribute('aria-selected', String(selected));
-    $('tab-' + name).tabIndex = selected ? 0 : -1;
-    $(name === 'detail' ? 'record-panel' : 'browser-panel').hidden = !selected;
-  }
-  if (focus) $('tab-' + tab).focus({ preventScroll: true });
+function updatePanelToggle() {
+  const hidden = $('explorer').classList.contains('panel-hidden');
+  const toggle = $('toggle-panel');
+  toggle.setAttribute('aria-expanded', String(!hidden));
+  toggle.setAttribute('aria-label', t(hidden ? 'showPanel' : 'hidePanel'));
+  toggle.title = t(hidden ? 'showPanel' : 'hidePanel');
+  $('inspector').inert = hidden;
+}
+function openInfoPanel() {
+  $('explorer').classList.remove('panel-hidden'); updatePanelToggle();
   requestAnimationFrame(() => cy?.resize());
+}
+function openRecordBrowser(focus = false) {
+  $('browser-panel').open = true;
+  if (focus) { $('browse-heading').focus({ preventScroll: true }); $('browser-panel').scrollIntoView({ block: 'nearest' }); }
 }
 function showConnections(type = '') {
   browser.anchor = state.selected; browser.scope = 'connected'; browser.type = type; browser.query = ''; browser.page = 1;
-  syncBrowserControls(); renderConnections(); setTab('browser', true);
+  syncBrowserControls(); renderConnections(); openRecordBrowser(true);
 }
 function syncBrowserControls() {
   $('browser-scope').value = browser.scope; $('browser-type').value = browser.type;
@@ -279,18 +315,24 @@ function syncBrowserControls() {
   $('records-per-page').value = String(browser.size);
 }
 function inspect() {
-  $('detail').replaceChildren();
+  $('detail').replaceChildren(); $('selection-actions').replaceChildren(); $('selection-types').replaceChildren(); $('selection-summary').replaceChildren();
   const edge = index.edges.get(state.edge);
   if (edge) {
     const card = el('article', null, 'record-card'); card.dataset.nodeType = index.nodes.get(edge.target).type;
-    card.append(el('span', t(edge.basis === 'derived' ? 'derived' : edge.resolution), 'record-badge'), el('h4', t(edge.type)), el('p', t(edge.basis === 'derived' ? 'derivedNote' : edge.type === 'references' ? 'evidenceNote' : 'documented'), 'record-note'));
-    const endpoints = el('div', null, 'edge-endpoints');
+    card.append(el('span', t(edge.resolution), 'record-badge'), el('h4', t(edge.type)), el('p', t(edge.type === 'references' ? 'evidenceNote' : 'documented'), 'record-note'));
+    const attributes = el('section', null, 'record-attributes'); attributes.append(el('h5', t('attributes')));
+    for (const [key, value] of Object.entries(edge)) if (!['evidence', 'evidence_url'].includes(key)) appendAttribute(attributes, key, value);
+    card.append(attributes);
+    const evidence = el('details', null, 'edge-evidence');
+    evidence.append(el('summary', t('evidence') + ' · ' + (edge.evidence_count || edge.evidence?.length || 0)));
+    const contents = el('div'); evidence.append(contents); card.append(evidence);
+    evidenceReady = evidenceList(edge, contents);
+    $('detail').append(card);
+    $('selection-summary').append(el('strong', t(edge.type)));
     for (const id of [edge.source, edge.target]) {
       const node = index.nodes.get(id), b = button(label(node, state.lang), () => selectNode(id));
-      b.dataset.nodeType = node.type; endpoints.append(b);
+      b.dataset.nodeType = node.type; $('selection-actions').append(b);
     }
-    card.append(endpoints); $('detail').append(card);
-    const evidence = el('div'); card.append(evidence); evidenceReady = evidenceList(edge, evidence);
     return;
   }
   const node = index.nodes.get(state.selected);
@@ -298,46 +340,25 @@ function inspect() {
   const card = el('article', null, 'record-card'); card.dataset.nodeType = node.type;
   const title = el('h4', label(node, state.lang));
   if (!node['label_' + state.lang]) title.lang = node.label_en ? 'en' : 'fr';
-  card.append(el('span', t(node.type) + (node.scope ? ' · ' + t(node.scope === 'standard' ? 'standard' : 'institutionScope') : ''), 'record-badge'), title, el('p', node.identifier, 'record-identifier'));
-  const aliases = [...new Set((node.aliases || []).filter(v => v && v !== node.identifier && /\s/.test(v)))];
-  if (aliases.length) card.append(el('p', t('aliasesLabel') + ': ' + aliases.join(' · '), 'record-note'));
-  if (node.institution_id && node.type !== 'institution') {
-    const institution = index.nodes.get('institution:' + node.institution_id);
-    if (institution) card.append(button(label(institution, state.lang), () => selectNode(institution.id)));
-  }
-  if (node.type === 'category') card.append(el('p', t('derivedNote'), 'record-alert'));
-  const stats = recordStats(index, node.id, state.relation), metrics = el('div', null, 'record-metrics');
-  const represented = new Set(connections(index, node.id, state.relation).map(e => index.nodes.get(e.source === node.id ? e.target : e.source).institution_id).filter(Boolean));
-  for (const [count, name] of [[stats.records, 'directRecords'], [stats.relationships, 'directEdges'], [represented.size, 'represented']]) {
-    const metric = el('div', null, 'record-metric'); metric.append(el('strong', count), el('span', t(name))); metrics.append(metric);
-  }
-  card.append(metrics);
-  if (stats.unresolved) card.append(el('p', t('unresolvedCount')(stats.unresolved), 'record-alert'));
-  const chips = el('div', null, 'type-chips'); chips.setAttribute('aria-label', t('typeBreakdown'));
-  for (const [type, count] of Object.entries(stats.types)) if (count) {
-    const chip = button(t(type) + ' · ' + count, () => showConnections(type)); chip.dataset.nodeType = type; chips.append(chip);
-  }
-  card.append(chips);
-  const description = node['description_' + state.lang];
-  if (description) card.append(el('p', description, 'record-description'));
-  if (node.attribute_url || node.attributes) {
-    const group = el('section', null, 'record-attributes'); card.append(group);
-    attributeReady = recordAttributes(node, group);
-  }
+  card.append(el('span', t(node.type), 'record-badge'), title, el('p', node.identifier, 'record-identifier'));
+  const group = el('section', null, 'record-attributes'); card.append(group);
+  attributeReady = recordAttributes(node, group);
   if (node.resolution) card.append(el('p', t(node.resolution), 'record-alert'));
-  if (node.candidates?.length) card.append(el('p', t('candidates') + ': ' + node.candidates.join('; '), 'record-note'));
   if (node.type === 'pia' && !node.available_languages.length) card.append(el('p', t('unavailable'), 'record-alert'));
-  const actions = el('div', null, 'record-actions');
+  $('detail').append(card);
+  const stats = recordStats(index, node.id, state.relation);
+  $('selection-summary').append(el('strong', label(node, state.lang)), el('span', `${stats.records} ${t('directRecords').toLowerCase()} · ${stats.relationships} ${t('directEdges').toLowerCase()}`, 'record-note'));
+  for (const [type, count] of Object.entries(stats.types)) if (count) {
+    const chip = button(t(type) + ' · ' + count, () => showConnections(type)); chip.dataset.nodeType = type; $('selection-types').append(chip);
+  }
+  const actions = $('selection-actions');
   const browse = button(t('connectedScope'), () => showConnections()); browse.className = 'primary-action'; actions.append(browse);
   actions.append(button(t('focus'), () => selectNode(node.id, true)));
   if (node.record_url) { const url = new URL(node.record_url, location.href); url.searchParams.set('lang', state.lang); actions.append(link(t('open'), url.href)); }
-  card.append(actions);
-  const sources = el('details', null, 'record-sources'); sources.append(el('summary', t('sourceDetails')));
-  for (const [lang, status] of Object.entries(node.source_status || {})) sources.append(el('p', lang.toUpperCase() + ' · ' + t(status)));
-  if (node.collected_at_utc) sources.append(el('p', t('observed') + ': ' + node.collected_at_utc));
-  for (const [lang, url] of Object.entries(node.sources || {})) if (url) sources.append(link(`${t('source')} · ${lang.toUpperCase()}`, url));
-  if (node.source_path) sources.append(link(t('artifact'), repositoryLink(node.source_path)));
-  card.append(sources); $('detail').append(card);
+  if (node.institution_id && node.type !== 'institution') {
+    const institution = index.nodes.get('institution:' + node.institution_id);
+    if (institution) actions.append(button(label(institution, state.lang), () => selectNode(institution.id)));
+  }
 }
 function renderConnections() {
   recordEntries = browseRecords(index, { ...browser, relation: state.relation, lang: state.lang });
@@ -410,7 +431,7 @@ function render(push = false) {
   if (push && !tour?.active) history.pushState(null, '', url);
 }
 function snapshotTour() {
-  return { state: { ...state, expanded: new Map(state.expanded) }, browser: { ...browser }, activeTab,
+  return { state: { ...state, expanded: new Map(state.expanded) }, browser: { ...browser }, browserOpen: $('browser-panel').open,
     resultLimit, openSections: [...$('detail').querySelectorAll('details')].map(n => n.open),
     panelScroll: ['record-panel', 'connections', 'browser-panel', 'browser-filters'].map(id => [id, $(id).scrollTop]),
     searchOpen: $('search-panel').open, filtersOpen: $('browser-filters').open,
@@ -425,13 +446,13 @@ async function restoreTour(saved) {
   resultLimit = saved.resultLimit;
   $('search').value = saved.search; $('node-type').value = saved.type;
   $('institution').value = saved.institution; $('highlight').checked = saved.highlight;
-  syncBrowserControls(); setTab(saved.activeTab); render();
+  syncBrowserControls(); render(); $('browser-panel').open = saved.browserOpen;
   if (state.edge) await evidenceReady;
-  else if (index.nodes.get(state.selected)?.attribute_url) await attributeReady;
+  else await attributeReady;
   $('detail').querySelectorAll('details').forEach((n, i) => { n.open = saved.openSections[i] || false; });
   $('search-panel').open = saved.searchOpen; $('browser-filters').open = saved.filtersOpen;
   $('explorer').classList.toggle('panel-hidden', saved.hidden); $('inspector').inert = saved.hidden;
-  $('toggle-panel').textContent = t(saved.hidden ? 'showPanel' : 'hidePanel'); $('toggle-panel').setAttribute('aria-expanded', String(!saved.hidden));
+  updatePanelToggle();
   if (expandedMode !== saved.expanded) await toggleFullscreen();
   await new Promise(requestAnimationFrame);
   if (cy && saved.positions) { cy.nodes().positions(n => saved.positions.find(p => p.id === n.id())?.position || n.position()); cy.zoom(saved.zoom); cy.pan(saved.pan); }
@@ -459,9 +480,9 @@ async function prepareTour(step) {
   if (!state.root || !index.nodes.has(state.selected)) state = exampleState(index, EXAMPLES[0].id, state.lang);
   state.relation = ''; browser.query = ''; browser.type = ''; browser.page = 1;
   browser.anchor = state.selected; browser.scope = step.setup === 'all' ? 'all' : 'connected';
-  syncBrowserControls(); setTab(['browse', 'all'].includes(step.setup) ? 'browser' : 'detail'); render();
+  syncBrowserControls(); openInfoPanel(); render(); $('browser-panel').open = ['browse', 'all'].includes(step.setup);
   $('browser-filters').open = true;
-  if (step.setup === 'evidence') await evidenceReady;
+  if (step.setup === 'evidence') { await evidenceReady; $('detail').querySelector('.edge-evidence').open = true; $('detail').querySelector('.evidence-audit').open = true; }
   if (step.setup === 'attributes') await attributeReady;
 }
 function selectNode(id, start = false, keepBrowser = false) {
@@ -475,16 +496,17 @@ function selectNode(id, start = false, keepBrowser = false) {
   }
   if (start || !currentView.nodes.some(n => n.id === id)) { state.root = id; state.expanded = new Map(); }
   $('search-panel').open = false;
-  state.selected = id; state.edge = '';
+  state.selected = id; state.edge = ''; $('record-panel').scrollTop = 0;
   if (!keepBrowser) { browser.anchor = id; browser.page = 1; browser.query = ''; browser.type = ''; syncBrowserControls(); }
-  setTab('detail');
+  openInfoPanel();
   if (!state.expanded.has(id)) state.expanded.set(id, PAGE);
   render(true);
+  if (keepBrowser) $('inspector').scrollIntoView({ block: 'nearest' });
   $('inspector-heading').tabIndex = -1;
   $('inspector-heading').focus({ preventScroll: true });
 }
 function selectEdge(id) {
-  state.edge = id; setTab('detail'); render(true);
+  state.edge = id; openInfoPanel(); render(true);
   $('inspector-heading').tabIndex = -1;
   $('inspector-heading').focus({ preventScroll: true });
   $('inspector').scrollIntoView({ block: 'nearest' });
@@ -558,18 +580,9 @@ function initializeWorkspace() {
   });
   $('toggle-panel').addEventListener('click', () => {
     const hidden = $('explorer').classList.toggle('panel-hidden'); $('inspector').inert = hidden;
-    $('toggle-panel').setAttribute('aria-expanded', String(!hidden));
-    $('toggle-panel').textContent = t(hidden ? 'showPanel' : 'hidePanel');
+    updatePanelToggle();
     requestAnimationFrame(() => cy?.resize());
   });
-  for (const name of ['detail', 'browser']) {
-    $('tab-' + name).addEventListener('click', () => setTab(name));
-    $('tab-' + name).addEventListener('keydown', event => {
-      if (['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) {
-        event.preventDefault(); setTab(event.key === 'Home' ? 'detail' : event.key === 'End' ? 'browser' : activeTab === 'detail' ? 'browser' : 'detail', true);
-      }
-    });
-  }
   for (const [id, key] of [['browser-scope', 'scope'], ['browser-query', 'query'], ['browser-type', 'type'], ['browser-sort', 'sort'], ['records-per-page', 'size']]) {
     $(id).addEventListener(id === 'browser-query' ? 'input' : 'change', () => {
       browser[key] = $(id).value; browser.page = 1; renderConnections(); $('connections').scrollTop = 0;
@@ -620,12 +633,9 @@ async function init() {
           { selector: 'node[type="pia"]', style: { shape: 'diamond', width: 42, height: 42 } },
           { selector: 'node[type="institution"]', style: { shape: 'round-rectangle', width: 46 } },
           { selector: 'node[type="class"]', style: { shape: 'rectangle' } },
-          { selector: 'node[type="category"]', style: { shape: 'tag' } },
-          { selector: 'node[type="pib_type"]', style: { shape: 'pentagon' } },
           { selector: 'node[type="reference"]', style: { shape: 'hexagon', 'border-style': 'dashed' } },
           { selector: 'edge', style: { width: 1.5, 'line-color': '#7a8b9b', 'target-arrow-color': '#7a8b9b', 'target-arrow-shape': 'triangle', 'curve-style': 'bezier' } },
           { selector: 'edge[resolution != "resolved"]', style: { 'line-style': 'dashed' } },
-          { selector: 'edge[basis="derived"]', style: { 'line-style': 'dotted', 'line-color': '#a13d64', 'target-arrow-color': '#a13d64' } },
           { selector: 'edge.active', style: { 'line-color': '#087a82', 'target-arrow-color': '#087a82', width: 4 } },
           { selector: 'node.active', style: { 'border-width': 4, 'border-color': '#172b42', 'underlay-color': 'data(color)', 'underlay-opacity': .2, 'underlay-padding': 7 } },
           { selector: '.dimmed', style: { opacity: .15 } },
@@ -641,7 +651,7 @@ async function init() {
     $('fit').addEventListener('click', () => cy?.fit(undefined, 40));
     $('reset').addEventListener('click', () => selectNode(state.selected, true));
     initializeWorkspace();
-    if (!index.nodes.has(state.selected)) { browser.scope = 'all'; syncBrowserControls(); setTab('browser'); }
+    if (!index.nodes.has(state.selected)) { browser.scope = 'all'; syncBrowserControls(); openRecordBrowser(); }
     $('share').addEventListener('click', async () => {
       const url = stateURL(location.href, state).href;
       try { await navigator.clipboard.writeText(url); $('share-status').textContent = t('copied'); }

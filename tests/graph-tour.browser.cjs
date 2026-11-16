@@ -35,17 +35,15 @@ const ready = p => p.waitForFunction(() => document.getElementById('view-status'
     assert.ok((await page.locator('#search-status').textContent()).includes('49'));
     await page.selectOption('#node-type', 'standard-class');
     assert.ok((await page.locator('#search-status').textContent()).includes('33'));
-    await page.selectOption('#node-type', 'category');
+    assert.equal(await page.locator('#node-type option[value="category"], #node-type option[value="pib_type"]').count(), 0);
+    await page.selectOption('#node-type', 'standard-pib');
+    await page.locator('#search').fill('PSU 905');
     await page.locator('#results button').first().click();
-    assert.ok((await page.locator('#detail').textContent()).includes('estimated matches'));
-    await page.locator('#tab-browser').click();
-    await page.locator('#connections .evidence-button').first().click();
-    await page.waitForSelector('.graph-evidence');
-    assert.ok((await page.locator('#detail').textContent()).includes('Rule confidence'));
-    assert.ok((await page.locator('#detail').textContent()).includes('Matching rule'));
-    await page.locator('#search-heading').click(); await page.selectOption('#node-type', 'pib_type');
-    await page.locator('#results button').first().click();
-    assert.equal(await page.locator('.record-card').getAttribute('data-node-type'), 'pib_type');
+    await page.waitForSelector('[data-attribute="pib_type_details"] > summary');
+    assert.equal(await page.locator('#detail details[open]').count(), 0);
+    await page.locator('[data-attribute="pib_type_details"] > summary').click();
+    assert.equal(await page.locator('[data-attribute="pib_type_details"]').evaluate(n => n.open), true);
+    assert.ok(await page.locator('[data-attribute="personal_information_categories"] > summary').count());
     const before = { url: page.url(), status: await page.locator('#view-status').textContent(), text: await page.locator('#detail').textContent() };
     await page.locator('#tour-launch').click();
     assert.equal(await page.locator('#tour-step option').count(), TOUR_STEPS.length);
@@ -94,7 +92,7 @@ const ready = p => p.waitForFunction(() => document.getElementById('view-status'
     await page.locator('#fullscreen').click();
     // Use the actual design-system language link, preserving the selected node.
     const selected = new URL(page.url()).searchParams.get('node');
-    await page.locator('gcds-header').getByRole('link', { name: 'Français', exact: true }).click(); await ready(page);
+    await page.locator('gcds-header').getByText('Français', { exact: true }).click(); await ready(page);
     assert.equal(await page.locator('html').getAttribute('lang'), 'fr');
     assert.equal(new URL(page.url()).searchParams.get('node'), selected);
     const mobile = await browser.newPage({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
@@ -121,9 +119,9 @@ const ready = p => p.waitForFunction(() => document.getElementById('view-status'
     await retry.route('**/graph-attributes/*.json', route => ++attempts === 1 ? route.fulfill({status:503, body:'{}'}) : route.continue());
     await retry.goto(base + 'graph.html?node=' + encodeURIComponent('pib:standard:PSU 905'));
     await retry.locator('.record-attributes button').click();
-    await retry.waitForSelector('.record-attributes summary');
+    await retry.waitForSelector('[data-attribute="pib_type_details"] > summary');
     assert.equal(attempts, 2, 'Failed attribute shards can be retried');
     assert.deepEqual(errors, []);
-    console.log(`Passed five curated starts, category/type evidence, standard filters, header language switch, fullscreen restoration, and all ${TOUR_STEPS.length} tour stops on desktop and French mobile.`);
+    console.log(`Passed five curated starts, category/type attributes, standard filters, header language switch, fullscreen restoration, and all ${TOUR_STEPS.length} tour stops on desktop and French mobile.`);
   } finally { await browser.close(); }
 })().catch(e => { console.error(e); process.exitCode = 1; });

@@ -90,6 +90,7 @@ jobs:
           node --check site/aia-data.mjs
           node --check site/link-aia.mjs
           node --check site/graph.mjs
+          node --check site/graph-attributes.mjs
 
       - name: Prepare independent main-site payload
         run: |

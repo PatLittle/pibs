@@ -28,32 +28,39 @@ to the page and restores fullscreen on exit. The GCDS header provides the sole
 language switch; exit fullscreen to use it.
 
 Standard PIBs and standard classes have dedicated search/list filter options.
-Personal-information categories and PIB types are independent searchable nodes.
-Record details show scope, institution, description, direct connection counts,
-represented institutions, and expandable attributes such as purpose, people
-covered, uses, retention and document types where available.
+PIB types and personal-information categories are **attributes**, not nodes or
+relationships. Selecting any node opens the **Information panel**: all available
+fields start collapsed, including bilingual descriptions, purpose, people covered,
+uses, retention, source URLs, metadata and nested values. PIB type and category
+values appear first. Category entries retain bilingual labels, derived status,
+matching text, source field, rule and confidence. The full available PIB/class
+CSV row is included in its lazy attribute shard.
 
-**Full screen** opens the graph and its record panel together. Browsers that
-cannot grant native fullscreen use a viewport-filling workspace instead. The
-exit button or Escape restores the page and keyboard focus. **Hide records**
-temporarily gives the entire workspace to the graph. The guided tour and
-graph controls remain available inside fullscreen, including on mobile.
+Selecting an edge opens its collapsed attributes and **Source evidence** section.
+Expand the latter for excerpts and provenance. Related-record navigation stays
+outside the information panel: the selection bar above the map holds connected
+records, start-here/full-record actions, institution navigation, type counts and
+expansion. **Browse records** below the map opens the independent searchable,
+paginated list. Previous/Next record controls also sit below the map. Browsing or
+paging does not replace the sidebar or move the diagram.
 
-The record panel has **Record** and **Browse records** tabs. Browse either the
-selected record's connections or the full collected inventory, filter bilingual
+**Full screen** keeps the diagram, information panel and separate navigation in
+one scrollable workspace. Browsers that cannot grant native fullscreen use a
+viewport-filling workspace. Escape or Exit full screen restores the page and
+keyboard focus. The sidebar icon toggles only the information panel. Its tooltip,
+accessible action label and `aria-expanded` state switch between Show/Hide
+information panel. Hiding it preserves the selection, graph, list and filters.
+On mobile the panel is a drawer over the map, so hiding it reveals the full map.
+
+Browse either a fixed record's connections or the full inventory, filter bilingual
 names/aliases and record types, and choose 8, 16 or 24 records per page. List
-pagination is independent of the drawing limit: it can browse all source records
-without adding them all to the map. Selecting a list record opens its details;
-**Previous record** and **Next record** follow that filtered list. The connection
-anchor stays fixed while cycling, so navigation does not silently replace the
-list with each new record's neighbours. **Connections of selected record**
-explicitly starts a new connection list. Records outside the bounded visible
-neighbourhood are brought into view or become a new graph root when necessary.
+pagination is independent of the 250-node drawing limit. The connection anchor
+stays fixed while reading successive records; **Connections of selected record**
+explicitly changes it. A record outside the visible neighbourhood is brought into
+view or becomes a new graph root when needed.
 
-Cards, badges, list accents and type chips use the same colour values as the
-diagram, with text labels so colour is not the only distinction. Record cards
-show direct relationship/record counts and clickable neighbour-type counts,
-following the active relationship filter.
+Cards, badges, list accents and navigation chips use the diagram's colours and
+text labels. Direct counts and type chips follow the active relationship filter.
 **Most connected** sorts by observed direct-edge count across the collected
 graph; it is a discovery aid, not a privacy-risk or completeness score. References
 that need resolution remain labelled. **Highlight direct connections** dims
@@ -94,7 +101,7 @@ Example using an actual assessment:
 | `institutions_infosource_docs/pib_table_en_fr_all.csv` | Institutional PIBs, identifiers, bilingual titles/descriptions |
 | `institutions_infosource_docs/cor_table_en_fr_all.csv` | Institutional Classes of Records |
 | `spib_en_fr.csv`, `standard_classes_of_records_en_fr.csv` | Government-wide records, kept separate from institutional records |
-| `pi_categories_en_fr.csv`, `pib_type_values.csv` | Category vocabulary and controlled PIB type nodes |
+| `pi_categories_en_fr.csv`, `pib_type_values.csv` | Category vocabulary and controlled PIB type attribute definitions |
 | `my_info/categories.py` | Existing deterministic description-based category rules, reused against current source rows |
 | `institutions_infosource_docs/pib_cor_links.csv` | Existing compiled PIB/class references and resolution status |
 | `PIAs/*/collection.json` | Assessment identities, availability, existing matches and line evidence |
@@ -105,12 +112,10 @@ Example using an actual assessment:
 | `listed_by` | Record → institution: inventory attribution from the existing CSV/collection model |
 | `references` | PIA → PIB/class: explicit reference extracted by `PIAs/reference_extraction.py` |
 | `related_class` | PIB → class: compiled related-record reference, retaining literal reference, language, scope and resolution |
-| `has_type` | PIB → type: exact controlled-value match from the source PIB type field |
-| `category_match` | PIB → category: derived description-based match with source field, matched text, rule and confidence; dotted line and explicit derived label |
 
 A citation does **not** assert that a PIA assesses the entire bank. No edges
 are inferred from similar titles, shared institutions, laws or programs.
-Category links reuse the existing classifier and remain estimated assignments;
+Category attributes reuse the existing classifier and remain estimated assignments;
 they never create institution-to-standard-bank adoption edges or PIA citations.
 Standard PIBs' explicit PRN/NDP references also resolve to standard classes;
 unknown identifiers remain unresolved reference nodes. A PIA target must resolve to
@@ -126,7 +131,6 @@ Opaque, stable node IDs:
 - `pib:{institution_id}:{bank_number_key}` / `pib:standard:{bank_number_key}`
 - `class:{institution_id}:{record_number}` / `class:standard:{record_number}`
 - `pia:{institution_id}/{pia_id}`
-- `category:{PI_CAT_ID}` / `pib-type:{pib_code}`
 - Reference/edge IDs are deterministic SHA-256 prefixes of the source/reference
   identity or source/target/predicate, independent of labels.
 
@@ -147,15 +151,16 @@ python scripts/build_graph.py
 python scripts/validate_graph.py
 ```
 
-`site/data/graph.json` contains schema version 2, nodes/edges, counts, collection
+`site/data/graph.json` contains schema version 3, nodes/edges, counts, collection
 timestamp and SHA-256 hashes of consumed inputs. Each edge has an
 `evidence_count` and `evidence_url` pointing to one of 32 static
 `site/data/graph-evidence/*.json` shards. Shards map edge IDs to full evidence
 arrays; their checksums appear in `evidence_files`. The browser loads and caches
 provenance on edge inspection. Record descriptions are excerpts capped at
 1,000 characters; complete content remains in the existing tables/readers.
-PIB/class nodes also carry available source attributes. Relationships have an
-explicit `basis` of `documented` or `derived`; resolution remains separate.
+PIB/class nodes carry all non-empty fields from their source rows. Relationships
+have a documented basis; derived category assignments are held inside attributes,
+with their own evidence and confidence. Resolution remains separate.
 The classifier source hash is part of the consumed-input fingerprint.
 Full attributes load on selection from 32 `graph-attributes/*.json` shards,
 referenced by each node's `attribute_url`; `attribute_files` records their

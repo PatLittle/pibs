@@ -62,22 +62,11 @@ def build(root=ROOT):
                       source_path='institution_registry.csv'))
 
     category_path = 'pi_categories_en_fr.csv'
-    for r in read(category_path, True):
-        add_node(dict(id='category:' + r['PI_CAT_ID'], type='category', identifier=r['PI_CAT_ID'],
-                      label_en=r['name_en'], label_fr=r['name_fr'],
-                      description_en=r['examples_en'], description_fr=r['examples_fr'],
-                      source_path=category_path, sources={},
-                      record_url='table.html?' + urlencode(dict(dataset='categories', PI_CAT_ID=r['PI_CAT_ID'], open='record'))))
+    category_rows = {r['PI_CAT_ID']: r for r in read(category_path, True)}
     definitions = load_category_definitions(root / category_path)
     inputs['my_info/categories.py'] = hashlib.sha256((root / 'my_info/categories.py').read_bytes()).hexdigest()
     type_path = 'pib_type_values.csv'
     type_rows = read(type_path, True)
-    for r in type_rows:
-        add_node(dict(id='pib-type:' + r['pib_code'], type='pib_type', identifier=r['pib_code'],
-                      label_en=r['pib_type'], label_fr=r['scope_fr'],
-                      description_en=r['scope_en'], description_fr=r['scope_fr'],
-                      source_path=type_path, sources={},
-                      record_url='table.html?' + urlencode(dict(dataset='pib-types', pib_code=r['pib_code'], open='record'))))
 
     tables = [('pibs', 'institutions_infosource_docs/pib_table_en_fr_all.csv', 'bank_number_key', 'title'),
               ('classes', 'institutions_infosource_docs/cor_table_en_fr_all.csv', 'record_number', 'name'),
@@ -97,28 +86,27 @@ def build(root=ROOT):
                         label_en=r.get(title + '_en', ''), label_fr=r.get(title + '_fr', ''),
                         description_en=r.get('description_en', '')[:1000],
                         description_fr=r.get('description_fr', '')[:1000],
-                        attributes={field: r[field] for field in (
-                            'pib_type', 'purpose_en', 'purpose_fr', 'class_of_individuals_en', 'class_of_individuals_fr',
-                            'consistent_uses_en', 'consistent_uses_fr', 'retention_disposal_en', 'retention_disposal_fr',
-                            'document_types_en', 'document_types_fr', 'date_last_modified') if r.get(field)},
+                        attributes={field: value for field, value in r.items() if value != ''},
                         aliases=[r.get(('bank_number_' if 'pibs' in dataset else 'record_number_') + lang, '') for lang in ('en', 'fr')] +
                                 [r.get('entry_id_' + lang, '') for lang in ('en', 'fr')],
                         sources=sources, source_path=path,
                         record_url='table.html?' + urlencode({'dataset': dataset, **({'institution_id': org} if org else {}), key: r[key], 'open': 'record'}))
             add_node(node)
             if node['type'] == 'pib':
-                for value in type_rows:
-                    if r.get('pib_type') != value['pib_type']: continue
-                    add_edge(ident, 'pib-type:' + value['pib_code'], 'has_type',
-                             [dict(source_path=path, field='pib_type', mention=r['pib_type'],
-                                   method='controlled_pib_type', vocabulary_path=type_path)])
-                for assignment in classify_record(r, definitions).assignments:
-                    add_edge(ident, 'category:' + assignment.category_id, 'category_match',
-                             [dict(source_path=path, field=e.field, language=e.language,
-                                   excerpt=e.matched_text, mention=assignment.category_id,
-                                   method='derived_description_category_match', rule=e.rule,
-                                   confidence=e.confidence, source_url=sources.get(e.language, ''))
-                              for e in assignment.evidence])
+                # Vocabulary values describe a bank; they are not graph entities.
+                node['attributes']['pib_type_details'] = next((
+                    {**value, 'source_path': type_path, 'basis': 'documented'}
+                    for value in type_rows if r.get('pib_type') == value['pib_type']), {})
+                node['attributes']['personal_information_categories'] = [
+                    dict(id=assignment.category_id,
+                         label_en=category_rows[assignment.category_id]['name_en'],
+                         label_fr=category_rows[assignment.category_id]['name_fr'],
+                         basis='derived', vocabulary_path=category_path,
+                         evidence=[dict(source_path=path, field=e.field, language=e.language,
+                                        excerpt=e.matched_text, rule=e.rule, confidence=e.confidence,
+                                        source_url=sources.get(e.language, ''))
+                                   for e in assignment.evidence])
+                    for assignment in classify_record(r, definitions).assignments]
             if dataset == 'pibs': pib_rows[(org, r[key])] = r
             if dataset == 'standard-pibs': standard_pib_rows[ident] = r
             if org:
@@ -215,7 +203,7 @@ def build(root=ROOT):
 
     for edge in edges.values():
         edge['basis'] = 'derived' if edge['type'] == 'category_match' else 'documented'
-    result = dict(schema_version=2, collection_generated_at_utc=manifest['generated_at_utc'],
+    result = dict(schema_version=3, collection_generated_at_utc=manifest['generated_at_utc'],
                   nodes=sorted(nodes.values(), key=lambda n: n['id']),
                   edges=sorted(edges.values(), key=lambda e: e['id']))
     result['summary'] = dict(nodes=len(nodes), edges=len(edges),

@@ -17,24 +17,32 @@ const ready = page => page.waitForFunction(() => document.getElementById('view-s
   const browser = await chromium.launch({ headless: true,
     executablePath: process.env.BROWSER_EXECUTABLE || (existsSync('/usr/bin/chromium') ? '/usr/bin/chromium' : undefined), args: ['--no-sandbox'] });
   try {
-    const page = await browser.newPage({ viewport: { width: 1600, height: 1000 } });
+    const context = await browser.newContext({ viewport: { width: 1600, height: 1000 } });
+    await context.route('**/aia-results.jsonl', route => route.abort());
+    const page = await context.newPage();
     const errors = [], evidenceRequests = [];
     page.on('pageerror', e => errors.push(e.message));
     page.on('request', r => { if (r.url().includes('/graph-evidence/')) evidenceRequests.push(r.url()); });
     await page.goto(nodeURL(pia.id)); await ready(page);
     assert.equal(await page.locator('#cy canvas').count(), 3);
     assert.equal(evidenceRequests.length, 0, 'Evidence is loaded on demand');
+    assert.equal(await page.locator('#inspector #browser-panel, #inspector #record-navigation, #inspector .record-actions').count(), 0);
+    assert.equal(await page.locator('#detail details[open]').count(), 0, 'All node attributes start collapsed');
+    assert.equal(await page.locator('#toggle-panel svg').count(), 1);
+    assert.equal(await page.locator('#toggle-panel').getAttribute('aria-label'), 'Hide information panel');
+    assert.equal(await page.locator('#node-type option[value="category"], #node-type option[value="pib_type"]').count(), 0);
+
     assert.equal(await page.locator('.record-card').getAttribute('data-node-type'), 'pia');
     assert.equal(await page.locator('.record-card').evaluate(n => getComputedStyle(n).borderTopColor), 'rgb(8, 122, 130)');
     assert.ok((await page.locator('#detail').textContent()).includes(pia.label_en));
-    await page.locator('#tab-browser').click();
+    await page.locator('#browser-panel').evaluate(n => { n.open = true; });
     await page.locator('#connections .evidence-button').filter({ hasText: 'References' }).first().click();
-    await page.waitForSelector('.graph-evidence');
+    await page.locator('.edge-evidence > summary').click(); await page.waitForSelector('.graph-evidence');
     assert.ok(evidenceRequests.length > 0);
     assert.ok((await page.locator('#detail a[href*="#L"]').count()) > 0);
     const edgeURL = page.url();
-    await page.reload(); await page.waitForSelector('.graph-evidence'); assert.equal(page.url(), edgeURL);
-    await page.locator('gcds-header').getByRole('link', { name: 'Français', exact: true }).click(); await page.waitForSelector('.graph-evidence'); assert.equal(await page.locator('html').getAttribute('lang'), 'fr');
+    await page.reload(); await page.locator('.edge-evidence > summary').click(); await page.waitForSelector('.graph-evidence'); assert.equal(page.url(), edgeURL);
+    await page.locator('gcds-header').getByText('Français', { exact: true }).click(); await page.locator('.edge-evidence > summary').click(); await page.waitForSelector('.graph-evidence'); assert.equal(await page.locator('html').getAttribute('lang'), 'fr');
     await page.goBack(); assert.equal(await page.locator('html').getAttribute('lang'), 'en');
     await page.locator('#search-heading').click(); await page.locator('#search').fill('POU 905');
     await page.locator('#results button').filter({ hasText: 'PSU 905' }).first().click();
@@ -54,7 +62,7 @@ const ready = page => page.waitForFunction(() => document.getElementById('view-s
     await page.waitForFunction(() => document.fullscreenElement?.id === 'explorer');
     assert.equal(await page.locator('#explorer').getAttribute('aria-modal'), 'true');
     assert.equal(await page.locator('#search-panel').evaluate(n => n.inert), true);
-    await page.locator('#tab-browser').click();
+    await page.locator('#browser-panel').evaluate(n => { n.open = true; });
     assert.equal(await page.locator('#connections li').count(), 8);
     assert.ok((await page.locator('#page-status').textContent()).startsWith('Page 1 of'));
     const first = await page.locator('#connections li').evaluateAll(ns => ns.map(n => n.dataset.recordId));
@@ -74,7 +82,7 @@ const ready = page => page.waitForFunction(() => document.getElementById('view-s
     assert.equal(new URL(page.url()).searchParams.get('node'), second[1]);
     await page.locator('#previous-record').click();
     assert.equal(new URL(page.url()).searchParams.get('node'), second[0]);
-    await page.locator('#tab-browser').click();
+    await page.locator('#browser-panel').evaluate(n => { n.open = true; });
     assert.ok((await page.locator('#page-status').textContent()).startsWith('Page 2 of'));
     assert.ok((await page.locator('#browser-anchor').textContent()).includes(institution.label_en));
     await page.selectOption('#browser-scope', 'all'); await page.selectOption('#browser-type', 'pib');
@@ -90,6 +98,8 @@ const ready = page => page.waitForFunction(() => document.getElementById('view-s
     await page.locator('#browser-query').fill(''); await page.selectOption('#records-per-page', '16');
     assert.equal(await page.locator('#connections li').count(), 16);
     await page.locator('#toggle-panel').click(); assert.equal(await page.locator('#inspector').isVisible(), false);
+    assert.equal(await page.locator('#toggle-panel').getAttribute('aria-label'), 'Show information panel');
+    assert.equal(await page.locator('#browser-panel').isVisible(), true, 'Hiding information keeps navigation available');
     await page.locator('#toggle-panel').click(); assert.equal(await page.locator('#inspector').isVisible(), true);
     await page.locator('#highlight').uncheck(); assert.equal(await page.locator('#highlight').isChecked(), false);
     // Browser-initiated exit restores page access and keyboard focus.
@@ -102,14 +112,14 @@ const ready = page => page.waitForFunction(() => document.getElementById('view-s
     mobile.on('pageerror', e => errors.push(e.message));
     await mobile.goto(nodeURL(pia.id) + '&lang=fr'); await mobile.waitForSelector('.record-card');
     await mobile.locator('#fullscreen').click(); await mobile.waitForSelector('#explorer.is-expanded');
-    await mobile.locator('#tab-browser').click(); await mobile.locator('#browser-filters summary').click(); await mobile.selectOption('#browser-scope', 'all');
+    await mobile.locator('#browse-heading').click(); await mobile.locator('#browser-filters summary').click(); await mobile.selectOption('#browser-scope', 'all');
     await mobile.selectOption('#browser-type', 'pib'); await mobile.locator('#browser-query').fill('POU 905');
     await mobile.locator('#connections .record-row-title').first().click();
     assert.ok((await mobile.locator('#detail').textContent()).includes('PSU 905'));
     assert.equal(await mobile.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1), true);
-    const boxes = await mobile.locator('#explorer, #cy, #inspector').evaluateAll(ns => ns.map(n => { const r = n.getBoundingClientRect(); return {x:r.x,y:r.y,w:r.width,h:r.height}; }));
-    assert.ok(boxes.every(b => b.x >= 0 && b.y >= 0 && b.x + b.w <= 391 && b.y + b.h <= 845));
-    assert.ok(boxes[1].h >= 140 && boxes[2].h >= 190, JSON.stringify(boxes));
+    const boxes = await mobile.locator('#cy, #inspector').evaluateAll(ns => ns.map(n => { const r = n.getBoundingClientRect(); return {x:r.x,w:r.width,h:r.height}; }));
+    assert.ok(boxes.every(b => b.x >= 0 && b.x + b.w <= 391 && b.h >= 190));
+    assert.equal(await mobile.locator('#inspector #browser-panel').count(), 0);
     await mobile.screenshot({ path: output + '/graph-fullscreen-mobile.png' });
 
     await mobile.locator('#fullscreen').click(); await mobile.waitForSelector('#explorer:not(.is-expanded)');

@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { PAGE, MAX_NODES, indexGraph, search, connections, neighborhood, parseState, stateURL } from '../site/graph-model.mjs';
 import { browseRecords, connectedRecords, pageRecords, recordStats } from '../site/graph-records.mjs';
+import { nodeAttributes, attributeLabel } from '../site/graph-attributes.mjs';
 import { EXAMPLES, exampleStats, exampleState } from '../site/graph-examples.mjs';
 
 const graph = JSON.parse(readFileSync(new URL('../site/data/graph.json', import.meta.url)));
@@ -32,18 +33,27 @@ test('all five editorial examples resolve and reveal real institution paths', ()
   }
 });
 
-test('standard records and vocabulary types are independently discoverable', () => {
+test('standard records remain discoverable while categories and PIB types are attributes', () => {
   assert.equal(search(index, '', 'standard-pib').length, 49);
   assert.equal(search(index, '', 'standard-class').length, 33);
-  assert.equal(search(index, '', 'category').length, 25);
-  assert.equal(search(index, '', 'pib_type').length, 6);
+  assert.equal(search(index, '', 'category').length, 0);
+  assert.equal(search(index, '', 'pib_type').length, 0);
+  assert.ok(!graph.edges.some(e => ['category_match', 'has_type'].includes(e.type)));
   assert.ok(browseRecords(index, {scope: 'all', type: 'standard-pib'}).every(r => r.node.scope === 'standard'));
-  const category = graph.nodes.find(n => n.type === 'category' && connections(index, n.id).length > 0);
-  const state = parseState(base + '?node=' + encodeURIComponent(category.id) + '&relation=category_match', index);
-  const view = neighborhood(index, state);
-  assert.ok(view.edges.length > 0);
-  assert.ok(view.edges.every(e => e.type === 'category_match' && e.basis === 'derived'));
-  assert.deepEqual(parseState(stateURL(base, state), index), state);
+  assert.equal(parseState(base + '?node=' + encodeURIComponent(pia) + '&relation=category_match', index).relation, '');
+});
+
+test('attribute inspection keeps every field, language, nested value and zero without exposing loading pointers', () => {
+  const attributes = { purpose_en: 'purpose', purpose_fr: 'fin', count: 0, present: false,
+    personal_information_categories: [{id:'PI_CAT_01', basis:'derived', evidence:[{confidence:.9}]}] };
+  const node = { id:'sample', description_en:'summary', attribute_url:'shard.json', attributes:{custom:'inline'} };
+  const values = nodeAttributes(node, {...attributes, description_en:'complete description'});
+  assert.equal(values.id, 'sample'); assert.equal(values.description_en, 'complete description');
+  assert.equal(values.count, 0); assert.equal(values.present, false); assert.equal(values.custom, 'inline');
+  assert.deepEqual(values.personal_information_categories, attributes.personal_information_categories);
+  assert.ok(!('attribute_url' in values));
+  assert.equal(attributeLabel('purpose_fr', key => ({purpose:'Fin'}[key] || key)), 'Fin (FR)');
+  assert.equal(attributeLabel('unmapped_field', key => key), 'Unmapped field');
 });
 
 test('one hop starts small; expanding a standard bank preserves prior paths', () => {
