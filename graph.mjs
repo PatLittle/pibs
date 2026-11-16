@@ -1,3 +1,4 @@
+import { loadAIA } from './aia-data.mjs';
 import { PAGE, MAX_NODES, label, indexGraph, search, connections, neighborhood, parseState, stateURL } from './graph-model.mjs';
 
 import { NODE_COLORS, browseRecords, pageRecords, recordStats } from './graph-records.mjs';
@@ -7,6 +8,7 @@ import { createTour } from './graph-tour.mjs';
 const $ = id => document.getElementById(id);
 const words = {
   en: {
+    aia: 'Algorithmic impact assessment', official: 'Responsible senior official', responsible_official: 'Names responsible official', navAia: 'Link AIA', survey_version: 'Survey version', impact_level: 'Impact level (feed-derived)', senior_official: 'Responsible official', senior_official_uid: 'Official u_id', project_id: 'Project ID', provenance: 'Source provenance',
     tourLaunch: 'Start guided tour', examplesHeading: 'Five paths worth exploring',
     examplesIntro: 'Choose a story to open a connected view, or search the full inventory below.',
     examplesStatus: 'Five curated starting points. Enter a name or choose a filter to search all records.',
@@ -30,7 +32,7 @@ const words = {
     fit: 'Fit graph', reset: 'Reset to selected node', share: 'Copy view link', loading: 'Loading graph data…',
     empty: 'Choose a search result to start exploring.', details: 'Record and evidence', connections: 'Connections of the selected node',
     expand: 'Show more connections', overview: 'Overview', navPia: 'Privacy Assessments', navGraph: 'PI Network Explorer',
-    download: 'Download graph JSON', methodology: 'Graph methodology', open: 'Open full record', source: 'Original source',
+    download: 'Download base graph JSON', methodology: 'Graph methodology', open: 'Open full record', source: 'Original source',
     artifact: 'Repository evidence', inspect: 'Inspect evidence', focus: 'Start here', resolved: 'Matched record',
     unresolved: 'No unique matching record', ambiguous: 'Ambiguous reference', standard: 'Government-wide standard',
     noMatch: 'No matching records. Try another identifier or clear the filters.', unavailable: 'No readable assessment copy was collected.',
@@ -57,9 +59,10 @@ const words = {
     results: (shown, total) => `${shown} of ${total} matching records`,
     view: (n, e) => `${n} visible nodes · ${e} relationships`,
     connectionCount: (n, total) => `${n} of ${total} connections shown for this node`,
-    summary: s => `${s.nodes.toLocaleString('en-CA')} nodes · ${s.node_types.pib.toLocaleString('en-CA')} PIBs · ${s.node_types.pia.toLocaleString('en-CA')} assessments · source evidence on every relationship`,
+    summary: s => `${s.nodes.toLocaleString('en-CA')} nodes · ${s.node_types.pib.toLocaleString('en-CA')} PIBs · ${s.node_types.pia.toLocaleString('en-CA')} assessments · ${s.node_types.aia || 0} AIAs · ${s.node_types.official || 0} named officials · source evidence on every relationship`,
   },
   fr: {
+    aia: 'Évaluation de l’incidence algorithmique', official: 'Cadre supérieur responsable', responsible_official: 'Nomme le cadre responsable', navAia: 'Liens EIA', survey_version: 'Version du questionnaire', impact_level: 'Niveau d’incidence (source)', senior_official: 'Cadre responsable', senior_official_uid: 'u_id du cadre', project_id: 'ID du projet', provenance: 'Provenance',
     tourLaunch: 'Commencer la visite guidée', examplesHeading: 'Cinq parcours à découvrir',
     examplesIntro: 'Choisissez un parcours pour ouvrir une vue connectée, ou cherchez dans l’inventaire ci-dessous.',
     examplesStatus: 'Cinq points de départ choisis. Saisissez un nom ou choisissez un filtre pour chercher tous les documents.',
@@ -83,7 +86,7 @@ const words = {
     fit: 'Ajuster le graphique', reset: 'Recentrer sur le nœud sélectionné', share: 'Copier le lien de cette vue', loading: 'Chargement du graphique…',
     empty: 'Choisissez un résultat pour commencer.', details: 'Document et preuves', connections: 'Liens du nœud sélectionné',
     expand: 'Afficher plus de liens', overview: 'Aperçu', navPia: 'Évaluations de la vie privée', navGraph: 'Explorateur du réseau de RP',
-    download: 'Télécharger le graphique JSON', methodology: 'Méthode du graphique', open: 'Ouvrir le document complet', source: 'Source originale',
+    download: 'Télécharger le graphique de base JSON', methodology: 'Méthode du graphique', open: 'Ouvrir le document complet', source: 'Source originale',
     artifact: 'Preuve dans le dépôt', inspect: 'Consulter les preuves', focus: 'Commencer ici', resolved: 'Document correspondant',
     unresolved: 'Aucune correspondance unique', ambiguous: 'Référence ambiguë', standard: 'Norme pangouvernementale',
     noMatch: 'Aucun résultat. Essayez un autre identifiant ou effacez les filtres.', unavailable: 'Aucune copie lisible de cette évaluation n’a été recueillie.',
@@ -110,7 +113,7 @@ const words = {
     results: (shown, total) => `${shown} résultats affichés sur ${total}`,
     view: (n, e) => `${n} nœuds visibles · ${e} relations`,
     connectionCount: (n, total) => `${n} liens affichés sur ${total} pour ce nœud`,
-    summary: s => `${s.nodes.toLocaleString('fr-CA')} nœuds · ${s.node_types.pib.toLocaleString('fr-CA')} FRP · ${s.node_types.pia.toLocaleString('fr-CA')} évaluations · preuves pour chaque relation`,
+    summary: s => `${s.nodes.toLocaleString('fr-CA')} nœuds · ${s.node_types.pib.toLocaleString('fr-CA')} FRP · ${s.node_types.pia.toLocaleString('fr-CA')} évaluations · ${s.node_types.aia || 0} EIA · ${s.node_types.official || 0} cadres nommés · preuves pour chaque relation`,
   }
 };
 let index, data, state, cy, tour, resultLimit = 12, currentView, lastViewKey = '';
@@ -150,7 +153,7 @@ function localize() {
     'table.html?dataset=pibs': ['PIBs', 'FRP'], 'table.html?dataset=classes': ['Classes of Records', 'Catégories de documents'],
     'table.html?dataset=links': ['PIB-to-class linkages', 'Liens FRP-catégories'], 'table.html?dataset=standard-pibs': ['Standard PIBs', 'FRP ordinaires'],
     'table.html?dataset=standard-classes': ['Standard classes', 'Catégories ordinaires'], 'table.html?dataset=categories': ['Categories', 'Catégories'],
-    'table.html?dataset=pib-types': ['PIB types', 'Types de FRP'] };
+    'table.html?dataset=pib-types': ['PIB types', 'Types de FRP'], 'link-aia.html': ['Link AIA', 'Liens EIA'] };
   document.querySelectorAll('gcds-nav-link').forEach(n => { if (nav[n.getAttribute('href')]) n.textContent = nav[n.getAttribute('href')][state.lang === 'fr' ? 1 : 0]; });
   document.querySelectorAll('gcds-nav-group').forEach((n, i) => {
     const group = state.lang === 'fr' ? ['Données institutionnelles', 'Données de référence'][i] : ['Institution data', 'Reference data'][i];
@@ -205,21 +208,22 @@ function openExample(id) {
 async function evidenceList(edge, container) {
   container.textContent = t('loading');
   try {
-    if (!evidenceCache.has(edge.evidence_url)) evidenceCache.set(edge.evidence_url, fetch(edge.evidence_url).then(async r => {
+    if (!edge.evidence && !evidenceCache.has(edge.evidence_url)) evidenceCache.set(edge.evidence_url, fetch(edge.evidence_url).then(async r => {
       if (!r.ok) throw new Error('Evidence HTTP ' + r.status);
       return r.json();
     }));
-    const shard = await evidenceCache.get(edge.evidence_url);
+    const items = edge.evidence || (await evidenceCache.get(edge.evidence_url))[edge.id];
     container.replaceChildren();
-    for (const item of shard[edge.id]) {
+    for (const item of items) {
       const section = el('div', null, 'graph-evidence');
       section.append(el('strong', (item.language || '').toUpperCase() + ' · ' + (item.mention || item.field || '')));
-      if (item.excerpt) { const quote = el('blockquote', item.excerpt); if (item.language) quote.lang = item.language; section.append(quote); }
+      if (item.field) section.append(el('small', item.field));
+      if (item.excerpt) { const quote = el('blockquote', item.excerpt); if (/^[a-z]{2}$/i.test(item.language || '')) quote.lang = item.language; section.append(quote); }
       if (edge.basis === 'derived') section.append(el('p', t('derivedNote'), 'record-alert'));
       if (item.confidence != null) section.append(el('p', t('confidence') + ': ' + Math.round(item.confidence * 100) + '%'));
       if (item.rule) section.append(el('p', t('rule') + ': ' + item.rule));
       if (item.source_url) section.append(link(t('source'), item.source_url), document.createTextNode(' · '));
-      section.append(link(t('artifact') + (item.line ? ` · ${t('line')} ${item.line}` : ''), repositoryLink(item.source_path, item.line)));
+      if (item.source_path) section.append(link(t('artifact') + (item.line ? ` · ${t('line')} ${item.line}` : ''), repositoryLink(item.source_path, item.line)));
       const audit = el('details', null, 'evidence-audit'); audit.append(el('summary', t('evidenceAudit')));
       if (item.method) audit.append(el('small', t('method') + ': ' + item.method));
       if (item.checked_at_utc) audit.append(el('small', t('observed') + ': ' + item.checked_at_utc));
@@ -235,13 +239,13 @@ async function evidenceList(edge, container) {
 async function recordAttributes(node, container) {
   container.textContent = t('loading');
   try {
-    if (!attributeCache.has(node.attribute_url)) attributeCache.set(node.attribute_url, fetch(node.attribute_url).then(async r => {
+    if (!node.attributes && !attributeCache.has(node.attribute_url)) attributeCache.set(node.attribute_url, fetch(node.attribute_url).then(async r => {
       if (!r.ok) throw new Error('Attributes HTTP ' + r.status);
       return r.json();
     }));
-    const attributes = (await attributeCache.get(node.attribute_url))[node.id];
+    const attributes = node.attributes || (await attributeCache.get(node.attribute_url))[node.id];
     container.replaceChildren(el('h5', t('attributes')));
-    for (const key of ['pib_type', 'purpose', 'class_of_individuals', 'consistent_uses', 'retention_disposal', 'document_types', 'date_last_modified']) {
+    for (const key of ['pib_type', 'purpose', 'class_of_individuals', 'consistent_uses', 'retention_disposal', 'document_types', 'date_last_modified', 'survey_version', 'impact_level', 'senior_official', 'senior_official_uid', 'project_id', 'provenance']) {
       const value = attributes[key] || attributes[key + '_' + state.lang];
       if (!value) continue;
       const field = el('details'); field.append(el('summary', t(key)), el('p', value)); container.append(field);
@@ -316,7 +320,7 @@ function inspect() {
   card.append(chips);
   const description = node['description_' + state.lang];
   if (description) card.append(el('p', description, 'record-description'));
-  if (node.attribute_url) {
+  if (node.attribute_url || node.attributes) {
     const group = el('section', null, 'record-attributes'); card.append(group);
     attributeReady = recordAttributes(node, group);
   }
@@ -592,7 +596,17 @@ async function init() {
   try {
     const response = await fetch('data/graph.json');
     if (!response.ok) throw new Error('Graph HTTP ' + response.status);
-    data = await response.json(); index = indexGraph(data); state = parseState(location.href, index);
+    data = await response.json();
+    // External data is optional: a failed feed must leave the collected graph usable.
+    try { data = (await loadAIA(structuredClone(data))).graph; }
+    catch (error) {
+      const warning = el('p', new URLSearchParams(location.search).get('lang') === 'fr' ?
+        'Source EIA indisponible. Le réseau recueilli reste accessible; réessayez en rechargeant la page.' :
+        'The AIA feed is unavailable. The collected network remains available; reload to retry.', 'notice');
+      warning.id = 'aia-network-status'; warning.setAttribute('role', 'status'); $('data-summary').after(warning);
+      console.warn(error);
+    }
+    index = indexGraph(data); state = parseState(location.href, index);
     if (!state.root && !new URL(location.href).searchParams.has('node')) state = exampleState(index, EXAMPLES[0].id, state.lang);
     browser.anchor = state.selected;
     $('search-panel').open = !new URL(location.href).searchParams.has('node') || !index.nodes.has(state.root);
@@ -601,6 +615,8 @@ async function init() {
         style: [
           { selector: 'node', style: { 'background-color': 'data(color)', label: 'data(label)', color: '#26374a', 'font-size': 11,
             'text-wrap': 'ellipsis', 'text-max-width': 130, 'text-valign': 'bottom', 'text-margin-y': 7, width: 32, height: 32, 'border-color': '#26374a', 'border-width': 1 } },
+          { selector: 'node[type="aia"]', style: { shape: 'hexagon', width: 44, height: 44 } },
+          { selector: 'node[type="official"]', style: { shape: 'ellipse', width: 36, height: 36 } },
           { selector: 'node[type="pia"]', style: { shape: 'diamond', width: 42, height: 42 } },
           { selector: 'node[type="institution"]', style: { shape: 'round-rectangle', width: 46 } },
           { selector: 'node[type="class"]', style: { shape: 'rectangle' } },

@@ -1,7 +1,7 @@
 import { connections, fold, label, search, matchesType } from './graph-model.mjs';
 
 // The same palette drives the diagram, record cards, chips and legend.
-export const NODE_COLORS = { pib: '#1f5a94', pia: '#087a82', institution: '#754b94', class: '#b47700', category: '#a13d64', pib_type: '#546b31', reference: '#d7dee5' };
+export const NODE_COLORS = { aia: '#c35a21', official: '#5a608c', pib: '#1f5a94', pia: '#087a82', institution: '#754b94', class: '#b47700', category: '#a13d64', pib_type: '#546b31', reference: '#d7dee5' };
 
 export function connectedRecords(index, id, relation = '') {
   const records = new Map();
