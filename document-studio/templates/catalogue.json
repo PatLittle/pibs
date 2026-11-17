@@ -109,7 +109,22 @@
       },
       "category": "publication",
       "source": "Official PIB submission form A–N; Annexes A/B in source Word forms",
-      "seed": null
+      "seed": null,
+      "form": {
+        "kind": "pib_submission",
+        "number": "TBS/SCT 350-67E",
+        "number_fr": "TBS/SCT 350-67F",
+        "title": {
+          "en": "Personal Information Bank Submission",
+          "fr": "Présentation d’un fichier de renseignements personnels"
+        },
+        "group": "privacy",
+        "completion_mode": "prescribed_word",
+        "official_sources": {
+          "en": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/personal-information-bank-submission-form-en.docx",
+          "fr": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/personal-information-bank-submission-form-fr.docx"
+        }
+      }
     },
     {
       "id": "annual_update",
@@ -153,7 +168,22 @@
       },
       "category": "publication",
       "source": "Official bilingual TBS Word template",
-      "seed": null
+      "seed": null,
+      "form": {
+        "kind": "pia_web_summary",
+        "number": "TBS/SCT 350-68E",
+        "number_fr": "TBS/SCT 350-68F",
+        "title": {
+          "en": "Privacy Impact Assessment Web Summary",
+          "fr": "Résumé Web de l’évaluation des facteurs relatifs à la vie privée"
+        },
+        "group": "privacy",
+        "completion_mode": "prescribed_word",
+        "official_sources": {
+          "en": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/privacy-impact-assessment-web-summary-template-en.docx",
+          "fr": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/privacy-impact-assessment-web-summary-template-fr.docx"
+        }
+      }
     },
     {
       "id": "privacy_checklist",
@@ -164,7 +194,22 @@
       },
       "category": "publication",
       "source": "Official bilingual TBS Word template",
-      "seed": null
+      "seed": null,
+      "form": {
+        "kind": "privacy_checklist",
+        "number": "TBS/SCT 350-65E",
+        "number_fr": "TBS/SCT 350-65F",
+        "title": {
+          "en": "Privacy Checklist",
+          "fr": "Liste de vérification relative à la protection de la vie privée"
+        },
+        "group": "privacy",
+        "completion_mode": "prescribed_word",
+        "official_sources": {
+          "en": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/privacy-checklist-template-en.docx",
+          "fr": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/privacy-checklist-template-fr.docx"
+        }
+      }
     },
     {
       "id": "privacy_impact_assessment",
@@ -175,7 +220,22 @@
       },
       "category": "publication",
       "source": "Official bilingual TBS Word template",
-      "seed": null
+      "seed": null,
+      "form": {
+        "kind": "privacy_impact_assessment",
+        "number": "TBS/SCT 350-66E",
+        "number_fr": "TBS/SCT 350-66F",
+        "title": {
+          "en": "Privacy Impact Assessment",
+          "fr": "Évaluation des facteurs relatifs à la vie privée"
+        },
+        "group": "privacy",
+        "completion_mode": "prescribed_word",
+        "official_sources": {
+          "en": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/privacy-impact-assessment-template-en.docx",
+          "fr": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/privacy-impact-assessment-template-fr.docx"
+        }
+      }
     },
     {
       "id": "privacy_protocol",
@@ -186,7 +246,230 @@
       },
       "category": "publication",
       "source": "Official bilingual TBS Word template",
-      "seed": null
+      "seed": null,
+      "form": {
+        "kind": "privacy_protocol",
+        "number": "TBS/SCT 350-69E",
+        "number_fr": "TBS/SCT 350-69F",
+        "title": {
+          "en": "Privacy Protocol · non-mandatory template",
+          "fr": "Protocole de protection des renseignements personnels · modèle non obligatoire"
+        },
+        "group": "privacy",
+        "completion_mode": "adaptable_word_template",
+        "official_sources": {
+          "en": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/privacy-protocol-template-en.docx",
+          "fr": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/privacy-protocol-template-fr.docx"
+        }
+      }
+    },
+    {
+      "id": "access_request",
+      "kind": "access_request",
+      "title": {
+        "en": "Access to Information Request",
+        "fr": "Demande d’accès à l’information"
+      },
+      "category": "publication",
+      "source": "TBS/SCT 350-57",
+      "seed": null,
+      "form": {
+        "kind": "access_request",
+        "number": "TBS/SCT 350-57",
+        "number_fr": "TBS/SCT 350-57",
+        "title": {
+          "en": "Access to Information Request",
+          "fr": "Demande d’accès à l’information"
+        },
+        "group": "access",
+        "completion_mode": "official_request",
+        "official_sources": {
+          "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/forms/350-57.html",
+          "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/formulaires/350-57.html"
+        }
+      }
+    },
+    {
+      "id": "personal_information_request",
+      "kind": "personal_information_request",
+      "title": {
+        "en": "Personal Information Request",
+        "fr": "Demande de renseignements personnels"
+      },
+      "category": "publication",
+      "source": "TBS/SCT 350-58",
+      "seed": null,
+      "form": {
+        "kind": "personal_information_request",
+        "number": "TBS/SCT 350-58",
+        "number_fr": "TBS/SCT 350-58",
+        "title": {
+          "en": "Personal Information Request",
+          "fr": "Demande de renseignements personnels"
+        },
+        "group": "access",
+        "completion_mode": "official_request",
+        "official_sources": {
+          "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/forms/350-58.html",
+          "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/formulaires/350-58.html"
+        }
+      }
+    },
+    {
+      "id": "request_consent",
+      "kind": "request_consent",
+      "title": {
+        "en": "Consent for a Personal Information Request",
+        "fr": "Consentement pour une demande de renseignements personnels"
+      },
+      "category": "publication",
+      "source": "TBS/SCT 350-60E",
+      "seed": null,
+      "form": {
+        "kind": "request_consent",
+        "number": "TBS/SCT 350-60E",
+        "number_fr": "TBS/SCT 350-60F",
+        "title": {
+          "en": "Consent for a Personal Information Request",
+          "fr": "Consentement pour une demande de renseignements personnels"
+        },
+        "group": "access",
+        "completion_mode": "official_signature",
+        "official_sources": {
+          "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/forms/350-60e.html",
+          "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/formulaires/350-60e.html"
+        }
+      }
+    },
+    {
+      "id": "request_authorization",
+      "kind": "request_authorization",
+      "title": {
+        "en": "Authorization to Make a Personal Information Request",
+        "fr": "Autorisation de présenter une demande de renseignements personnels"
+      },
+      "category": "publication",
+      "source": "TBS/SCT 350-55E",
+      "seed": null,
+      "form": {
+        "kind": "request_authorization",
+        "number": "TBS/SCT 350-55E",
+        "number_fr": "TBS/SCT 350-55F",
+        "title": {
+          "en": "Authorization to Make a Personal Information Request",
+          "fr": "Autorisation de présenter une demande de renseignements personnels"
+        },
+        "group": "access",
+        "completion_mode": "official_signature",
+        "official_sources": {
+          "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/forms/350-55e.html",
+          "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/formulaires/350-55e.html"
+        }
+      }
+    },
+    {
+      "id": "record_correction",
+      "kind": "record_correction",
+      "title": {
+        "en": "Record Correction Request",
+        "fr": "Demande de correction de dossier"
+      },
+      "category": "publication",
+      "source": "TBS/SCT 350-11",
+      "seed": null,
+      "form": {
+        "kind": "record_correction",
+        "number": "TBS/SCT 350-11",
+        "number_fr": "TBS/SCT 350-11",
+        "title": {
+          "en": "Record Correction Request",
+          "fr": "Demande de correction de dossier"
+        },
+        "group": "access",
+        "completion_mode": "official_request",
+        "official_sources": {
+          "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/forms/350-11.html",
+          "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/formulaires/350-11.html"
+        }
+      }
+    },
+    {
+      "id": "access_statistics",
+      "kind": "access_statistics",
+      "title": {
+        "en": "Statistical Report on the Access to Information Act",
+        "fr": "Rapport statistique sur la Loi sur l’accès à l’information"
+      },
+      "category": "publication",
+      "source": "TBS/SCT 350-62",
+      "seed": null,
+      "form": {
+        "kind": "access_statistics",
+        "number": "TBS/SCT 350-62",
+        "number_fr": "TBS/SCT 350-62",
+        "title": {
+          "en": "Statistical Report on the Access to Information Act",
+          "fr": "Rapport statistique sur la Loi sur l’accès à l’information"
+        },
+        "group": "access",
+        "completion_mode": "official_xml_xls",
+        "official_sources": {
+          "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/forms/350-62.html",
+          "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/formulaires/350-62.html"
+        }
+      }
+    },
+    {
+      "id": "privacy_statistics",
+      "kind": "privacy_statistics",
+      "title": {
+        "en": "Statistical Report on the Privacy Act",
+        "fr": "Rapport statistique sur la Loi sur la protection des renseignements personnels"
+      },
+      "category": "publication",
+      "source": "TBS/SCT 350-63",
+      "seed": null,
+      "form": {
+        "kind": "privacy_statistics",
+        "number": "TBS/SCT 350-63",
+        "number_fr": "TBS/SCT 350-63",
+        "title": {
+          "en": "Statistical Report on the Privacy Act",
+          "fr": "Rapport statistique sur la Loi sur la protection des renseignements personnels"
+        },
+        "group": "access",
+        "completion_mode": "official_xml_xls",
+        "official_sources": {
+          "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/forms/350-63.html",
+          "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/formulaires/350-63.html"
+        }
+      }
+    },
+    {
+      "id": "material_privacy_breach",
+      "kind": "material_privacy_breach",
+      "title": {
+        "en": "Privacy Act Material Breach Report",
+        "fr": "Rapport d’atteinte substantielle à la vie privée"
+      },
+      "category": "publication",
+      "source": "TBS/SCT 350-64E",
+      "seed": null,
+      "form": {
+        "kind": "material_privacy_breach",
+        "number": "TBS/SCT 350-64E",
+        "number_fr": "TBS/SCT 350-64F",
+        "title": {
+          "en": "Privacy Act Material Breach Report",
+          "fr": "Rapport d’atteinte substantielle à la vie privée"
+        },
+        "group": "privacy",
+        "completion_mode": "official_dynamic_pdf",
+        "official_sources": {
+          "en": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/350-64e-eng.pdf",
+          "fr": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/350-64f-fra.pdf"
+        }
+      }
     },
     {
       "id": "standard-cor-930",
@@ -9225,6 +9508,203 @@
             ]
           }
         ]
+      }
+    }
+  ],
+  "atip_forms": [
+    {
+      "kind": "access_request",
+      "number": "TBS/SCT 350-57",
+      "number_fr": "TBS/SCT 350-57",
+      "title": {
+        "en": "Access to Information Request",
+        "fr": "Demande d’accès à l’information"
+      },
+      "group": "access",
+      "completion_mode": "official_request",
+      "official_sources": {
+        "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/forms/350-57.html",
+        "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/formulaires/350-57.html"
+      }
+    },
+    {
+      "kind": "personal_information_request",
+      "number": "TBS/SCT 350-58",
+      "number_fr": "TBS/SCT 350-58",
+      "title": {
+        "en": "Personal Information Request",
+        "fr": "Demande de renseignements personnels"
+      },
+      "group": "access",
+      "completion_mode": "official_request",
+      "official_sources": {
+        "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/forms/350-58.html",
+        "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/formulaires/350-58.html"
+      }
+    },
+    {
+      "kind": "request_consent",
+      "number": "TBS/SCT 350-60E",
+      "number_fr": "TBS/SCT 350-60F",
+      "title": {
+        "en": "Consent for a Personal Information Request",
+        "fr": "Consentement pour une demande de renseignements personnels"
+      },
+      "group": "access",
+      "completion_mode": "official_signature",
+      "official_sources": {
+        "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/forms/350-60e.html",
+        "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/formulaires/350-60e.html"
+      }
+    },
+    {
+      "kind": "request_authorization",
+      "number": "TBS/SCT 350-55E",
+      "number_fr": "TBS/SCT 350-55F",
+      "title": {
+        "en": "Authorization to Make a Personal Information Request",
+        "fr": "Autorisation de présenter une demande de renseignements personnels"
+      },
+      "group": "access",
+      "completion_mode": "official_signature",
+      "official_sources": {
+        "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/forms/350-55e.html",
+        "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/formulaires/350-55e.html"
+      }
+    },
+    {
+      "kind": "record_correction",
+      "number": "TBS/SCT 350-11",
+      "number_fr": "TBS/SCT 350-11",
+      "title": {
+        "en": "Record Correction Request",
+        "fr": "Demande de correction de dossier"
+      },
+      "group": "access",
+      "completion_mode": "official_request",
+      "official_sources": {
+        "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/forms/350-11.html",
+        "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/formulaires/350-11.html"
+      }
+    },
+    {
+      "kind": "access_statistics",
+      "number": "TBS/SCT 350-62",
+      "number_fr": "TBS/SCT 350-62",
+      "title": {
+        "en": "Statistical Report on the Access to Information Act",
+        "fr": "Rapport statistique sur la Loi sur l’accès à l’information"
+      },
+      "group": "access",
+      "completion_mode": "official_xml_xls",
+      "official_sources": {
+        "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/forms/350-62.html",
+        "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/formulaires/350-62.html"
+      }
+    },
+    {
+      "kind": "privacy_statistics",
+      "number": "TBS/SCT 350-63",
+      "number_fr": "TBS/SCT 350-63",
+      "title": {
+        "en": "Statistical Report on the Privacy Act",
+        "fr": "Rapport statistique sur la Loi sur la protection des renseignements personnels"
+      },
+      "group": "access",
+      "completion_mode": "official_xml_xls",
+      "official_sources": {
+        "en": "https://www.canada.ca/en/treasury-board-secretariat/corporate/forms/350-63.html",
+        "fr": "https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/formulaires/350-63.html"
+      }
+    },
+    {
+      "kind": "material_privacy_breach",
+      "number": "TBS/SCT 350-64E",
+      "number_fr": "TBS/SCT 350-64F",
+      "title": {
+        "en": "Privacy Act Material Breach Report",
+        "fr": "Rapport d’atteinte substantielle à la vie privée"
+      },
+      "group": "privacy",
+      "completion_mode": "official_dynamic_pdf",
+      "official_sources": {
+        "en": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/350-64e-eng.pdf",
+        "fr": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/350-64f-fra.pdf"
+      }
+    },
+    {
+      "kind": "privacy_checklist",
+      "number": "TBS/SCT 350-65E",
+      "number_fr": "TBS/SCT 350-65F",
+      "title": {
+        "en": "Privacy Checklist",
+        "fr": "Liste de vérification relative à la protection de la vie privée"
+      },
+      "group": "privacy",
+      "completion_mode": "prescribed_word",
+      "official_sources": {
+        "en": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/privacy-checklist-template-en.docx",
+        "fr": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/privacy-checklist-template-fr.docx"
+      }
+    },
+    {
+      "kind": "privacy_impact_assessment",
+      "number": "TBS/SCT 350-66E",
+      "number_fr": "TBS/SCT 350-66F",
+      "title": {
+        "en": "Privacy Impact Assessment",
+        "fr": "Évaluation des facteurs relatifs à la vie privée"
+      },
+      "group": "privacy",
+      "completion_mode": "prescribed_word",
+      "official_sources": {
+        "en": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/privacy-impact-assessment-template-en.docx",
+        "fr": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/privacy-impact-assessment-template-fr.docx"
+      }
+    },
+    {
+      "kind": "pib_submission",
+      "number": "TBS/SCT 350-67E",
+      "number_fr": "TBS/SCT 350-67F",
+      "title": {
+        "en": "Personal Information Bank Submission",
+        "fr": "Présentation d’un fichier de renseignements personnels"
+      },
+      "group": "privacy",
+      "completion_mode": "prescribed_word",
+      "official_sources": {
+        "en": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/personal-information-bank-submission-form-en.docx",
+        "fr": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/personal-information-bank-submission-form-fr.docx"
+      }
+    },
+    {
+      "kind": "pia_web_summary",
+      "number": "TBS/SCT 350-68E",
+      "number_fr": "TBS/SCT 350-68F",
+      "title": {
+        "en": "Privacy Impact Assessment Web Summary",
+        "fr": "Résumé Web de l’évaluation des facteurs relatifs à la vie privée"
+      },
+      "group": "privacy",
+      "completion_mode": "prescribed_word",
+      "official_sources": {
+        "en": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/privacy-impact-assessment-web-summary-template-en.docx",
+        "fr": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/privacy-impact-assessment-web-summary-template-fr.docx"
+      }
+    },
+    {
+      "kind": "privacy_protocol",
+      "number": "TBS/SCT 350-69E",
+      "number_fr": "TBS/SCT 350-69F",
+      "title": {
+        "en": "Privacy Protocol · non-mandatory template",
+        "fr": "Protocole de protection des renseignements personnels · modèle non obligatoire"
+      },
+      "group": "privacy",
+      "completion_mode": "adaptable_word_template",
+      "official_sources": {
+        "en": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/privacy-protocol-template-en.docx",
+        "fr": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/privacy-protocol-template-fr.docx"
       }
     }
   ]

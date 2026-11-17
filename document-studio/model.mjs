@@ -1,3 +1,5 @@
+import {validateATIP} from './atip-validation.mjs';
+import {buildXMP} from './metadata.mjs';
 // One schema governs defaults, editing, import and export. No source prose executes.
 export const VERSION = '1.0.0';
 export const SCHEMA_ID = 'https://patlittle.github.io/pibs/document-studio/templates/document.schema.json';
@@ -45,7 +47,7 @@ export function newDocument(schema, template) {
   return {schema_version:VERSION,schema_id:SCHEMA_ID,document_id:uid(),status:'draft',payload};
 }
 
-const SUPPORTED=new Set(['$schema','$id','$defs','$ref','title','description','type','const','enum','properties','required','additionalProperties','items','minLength','minItems','uniqueItems','format','default','readOnly','oneOf','anyOf']);
+const SUPPORTED=new Set(['$schema','$id','$defs','$ref','title','description','type','const','enum','properties','required','additionalProperties','items','minLength','minItems','uniqueItems','format','default','readOnly','oneOf','anyOf','pattern']);
 export function validateSchemaDefinition(schema) {
   function walk(rule){if(rule.format&&!['date','uri','email'].includes(rule.format))throw Error('Unsupported schema format: '+rule.format);if(rule.type&&!['string','object','array','boolean'].includes(rule.type))throw Error('Unsupported schema type: '+rule.type);for(const key of Object.keys(rule))if(!SUPPORTED.has(key)&&!key.startsWith('x-'))throw Error('Unsupported schema keyword: '+key);
     for(const value of Object.values(rule.properties||{}))walk(value);
@@ -88,6 +90,7 @@ export function validate(document,schema,{complete=true}={}) {
       value.forEach((v,i)=>visit(v,rule.items,[...path,i],locked));
     }
     if(actual==='string'){
+      if(complete&&rule.pattern&&!(new RegExp(rule.pattern)).test(value))issue(path,'pattern','Use the required value format / Utiliser le format de valeur requis.');
       if(complete&&value.trim().length<(rule.minLength||0))issue(path,'minLength','Complete this field / Remplir ce champ.');
       if(complete&&value&&rule.format==='uri'&&!validURL(value))issue(path,'format','Use a complete http(s) URL / Utiliser une URL http(s) complète.');
       if(complete&&value&&rule.format==='date'&&!validDate(value))issue(path,'format','Use a valid YYYY-MM-DD date / Utiliser une date AAAA-MM-JJ valide.');
@@ -142,6 +145,10 @@ export function validate(document,schema,{complete=true}={}) {
       if(complete&&!assignment.document_program_id&&!assignment.owner_org?.trim())issue([...path,'programs',i,'owner_org'],'required','Provide the organization code for an external program / Indiquer le code d’organisation du programme externe.');
       if(complete&&assignment.document_program_id&&!programs.has(assignment.document_program_id))issue([...path,'programs',i,'document_program_id'],'foreignKey','The assigned document program was removed / Le programme assigné a été supprimé du document.');
     });
+  }
+  if(complete){
+    validateATIP(document,issue);
+    if(document.metadata)try{buildXMP(document,{instanceID:'uuid:00000000-0000-0000-0000-000000000000'});}catch(e){issue(['metadata'],'metadata',e.message);}
   }
   return issues;
 }

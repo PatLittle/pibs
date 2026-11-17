@@ -69,7 +69,7 @@ export function renderMarkdown(doc,schema){
       }
       return;
     }
-    if(value!==''&&value!==undefined&&value!==null)chunks.push('**'+cleanMarkdown(title)+':** '+cleanMarkdown(typeof value==='boolean'?(value?'Yes / Oui':'No / Non'):definition.enum?enumText(value):value));
+    if(value!==''&&value!==undefined&&value!==null)chunks.push('**'+cleanMarkdown(title)+':** '+cleanMarkdown(typeof value==='boolean'?(value?'Yes / Oui':'No / Non'):definition.enum?enumText(value,definition):value));
   }
   render(root,rule,2,'payload');
   const people=collect(root,'person');if(people.length){heading('Organization chart · entered reporting lines / Organigramme · liens hiérarchiques saisis',2);chunks.push(mermaidChart(people));}
@@ -92,7 +92,7 @@ export function importDocument(text,schema){
     if(Object.keys(meta).some(k=>!['document_studio','document'].includes(k)))throw Error('Unknown document metadata / Métadonnées inconnues.');
     doc=meta.document;
     const structural=validate(doc,schema,{complete:doc?.status==='review_ready'});if(structural.length)throw Error(structural.map(i=>i.path+' '+i.message).join('\n'));
-    if(match[2].trim()!==renderMarkdown(doc,schema).trim())throw Error('The visible Markdown differs from its structured content. Open the original file or edit its JSON data and regenerate; no text has been discarded. / Le Markdown visible diffère du contenu structuré. Ouvrir l’original ou modifier les données JSON puis régénérer; aucun texte n’a été supprimé.');
+    if(match[2].trim()!==renderMarkdown(doc,schema).replace(/\r\n/g,'\n').trim())throw Error('The visible Markdown differs from its structured content. Open the original file or edit its JSON data and regenerate; no text has been discarded. / Le Markdown visible diffère du contenu structuré. Ouvrir l’original ou modifier les données JSON puis régénérer; aucun texte n’a été supprimé.');
   }
   if(doc?.schema_id!==SCHEMA_ID||doc?.schema_version!==VERSION)throw Error('This document uses another schema / Ce document utilise un autre schéma.');
   const issues=validate(doc,schema,{complete:doc.status==='review_ready'});if(issues.length)throw Error(issues.map(i=>i.path+' '+i.message).join('\n'));

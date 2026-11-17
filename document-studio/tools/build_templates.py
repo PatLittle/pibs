@@ -10,6 +10,7 @@ import hashlib
 import json
 import re
 import forms
+import atip
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin, urlsplit
@@ -266,14 +267,25 @@ def build():
     form_data=json.loads((OUT/'forms.json').read_text())
     form_kinds,form_coverage=forms.extend(defs,form_data,bi,text,neutral,enum,obj,ref,array)
     public_kinds.extend(form_kinds)
+    atip_data=json.loads((OUT/'atip.json').read_text())
+    atip_kinds,atip_coverage=atip.extend(defs,atip_data,bi,text,neutral,enum,obj,ref,array)
+    public_kinds.extend(atip_kinds)
     # All validation keywords here are supported in the browser and independently checked with Draft 2020-12.
+    metadata_fields={'title':text('PDF title','Titre du PDF',False),'description':text('Description / abstract','Description / résumé',False),'copyright_notice':text('Copyright notice','Mention de droit d’auteur',False),'rights_usage_terms':text('Rights and usage terms','Conditions d’utilisation',False)}
+    for key,en,fr in [('creators','Creators / authors','Créateurs / auteurs'),('keywords','Keywords','Mots-clés'),('subject_codes','IPTC subject codes','Codes de sujet IPTC'),('scene_codes','IPTC scene codes','Codes de scène IPTC')]:metadata_fields[key]={'type':'array','items':{'type':'string','minLength':1},'uniqueItems':True,'x-label':bi(en,fr)}
+    for key,en,fr in [('creator_job_title','Creator job title','Titre du poste du créateur'),('credit','Credit / provider','Crédit / fournisseur'),('source','Source','Source'),('headline','Headline','Titre principal'),('caption_writer','Description writer','Auteur de la description'),('instructions','Handling instructions','Consignes de traitement'),('intellectual_genre','IPTC intellectual genre','Genre intellectuel IPTC'),('country_code','IPTC country code','Code de pays IPTC'),('contact_phone','Creator telephone','Téléphone du créateur'),('contact_address','Creator address','Adresse du créateur'),('contact_city','City','Ville'),('contact_region','Region / province','Région / province'),('contact_postal_code','Postal code','Code postal'),('contact_country','Country','Pays')]:metadata_fields[key]=neutral(en,fr)
+    for key,en,fr in [('rights_url','Rights statement URL','URL des droits'),('digital_source_type','IPTC digital source type URI','URI du type de source numérique IPTC'),('contact_url','Creator website','Site Web du créateur')]:metadata_fields[key]=url(en,fr)
+    metadata_fields['contact_email']=neutral('Creator email','Courriel du créateur',format='email');metadata_fields['creation_date']=neutral('Creation date, if known','Date de création, si connue',format='date')
+    metadata_fields['additional_properties']={'type':'array','items':{'type':'object','properties':{'namespace':neutral('Namespace URI','URI de l’espace de noms',minLength=1),'prefix':neutral('Prefix','Préfixe',minLength=1),'property':neutral('Property','Propriété',minLength=1),'type':{'enum':['text','bag','seq','lang_alt','structure']},'value':{'type':'string'}},'required':['namespace','prefix','property','type','value'],'additionalProperties':False},'x-label':bi('Additional XMP / IPTC properties','Propriétés XMP / IPTC supplémentaires')}
+    pdf_metadata={'type':'object','properties':metadata_fields,'additionalProperties':False,'x-label':bi('PDF metadata','Métadonnées du PDF')}
     schema={'$schema':'https://json-schema.org/draft/2020-12/schema','$id':SCHEMA_ID,'title':'Bilingual Info Source document envelope','type':'object','properties':{'schema_version':{'const':VERSION},'schema_id':{'const':SCHEMA_ID},'document_id':{'type':'string','minLength':1},'status':{'enum':['draft','review_ready']},'payload':{'oneOf':[ref(k) for k in public_kinds]}},'required':['schema_version','schema_id','document_id','status','payload'],'additionalProperties':False,'$defs':defs}
+    schema['properties']['metadata']=pdf_metadata
     write('document.schema.json',schema)
     templates=[]
     for key in public_kinds:
         definition=defs[key]
         if key=='person':continue
-        templates.append(dict(id=key,kind=key,title=definition['x-label'],category='publication' if key in ['infosource','organization_chart','pib_submission','annual_update']+form_kinds else 'component',source=definition['x-source'],seed=None))
+        templates.append(dict(id=key,kind=key,title=definition['x-label'],category='publication' if key in ['infosource','organization_chart','pib_submission','annual_update']+form_kinds+atip_kinds else 'component',source=definition['x-source'],seed=None))
     for key,payload in library['classes'].items():templates.append(dict(id='standard-cor-'+key,kind='cor',title=payload['title'],category='standard_cor',source='classes',seed=payload))
     for key,payload in library['pibs'].items():templates.append(dict(id='standard-pib-'+key.lower().replace(' ','-'),kind='pib',title=payload['title'],category='standard_pib',source='banks',seed=payload))
     for group in library['internal_groups']:
@@ -283,16 +295,20 @@ def build():
             payload['pibs']=[library['pibs'][k] for k in item['pibs']];classes.append(payload)
         seed=dict(kind='program',id=group['key'],program_id='',title=group['title'],description=group['description'],activities=[],classes=classes)
         templates.append(dict(id=group['key'],kind='program',title=group['title'],category='internal_service',source='internal',seed=seed))
-    write('catalogue.json',dict(schema_version=VERSION,templates=templates))
+    register={r['kind']:r for r in atip_data['register']}
+    for template in templates:
+        if template['kind'] in register:template['form']=register[template['kind']]
+    write('catalogue.json',dict(schema_version=VERSION,templates=templates,atip_forms=atip_data['register']))
     with (ROOT/'data/service_inventory/programs.csv').open() as f:programs=list(csv.DictReader(f))
     write('programs.json',dict(source='data/service_inventory/programs.csv',sha256=hashlib.sha256((ROOT/'data/service_inventory/programs.csv').read_bytes()).hexdigest(),note='Organization-scoped program codes observed in Service Inventory. These are suggested identifiers, not inferred assignments or current tenure.',programs=[dict(program_id=r['program_id'],owner_org=r['owner_org'],program_title=bi(r['name_en'],r['name_fr'])) for r in programs]))
     requirements=[dict(id=key,source=REQ,template=kind,coverage=description) for key,kind,description in [
       ('4.1.3','infosource','Last-updated date'),('4.3','annual_update','Bilingual links, changes, SIN programs and feedback response'),('4.4','infosource','Fixed bilingual introduction'),('4.5','infosource','History, legislative foundation, parliamentary reporting and subsidiaries'),('4.6','infosource','Mandate, program responsibilities and major policies'),('4.7.2','program','Repeatable programs, optional activities, classes and adjacent PIBs'),('4.7.3','cor','Title, note, records description, document types, disclosure summaries, format and number'),('4.7.4','pib','Registered and pending-status PIBs with bilingual notes'),('4.7.6','program','All 11 Internal Services groups, selected for applicability'),('4.8','personal_information_class','Repeatable classes of personal information'),('4.9','manual','Repeatable manuals, sorted by title in exported Markdown'),('4.10','infosource','Required access/contact fields and official additional-information wording'),('PIB A–N','pib_submission','All sections of the bilingual submission form; annexes remain source references'),('PROJECT-ORG','person','User-requested reporting links, name, position, classification and required program assignments')]]
-    write('requirements.json',dict(schema_version=VERSION,requirements=requirements,form_fields=form_coverage,forms=[dict(kind=k,sections=len(form_data['forms'][k]['en'])) for k in form_kinds],supported_kinds=public_kinds))
+    write('requirements.json',dict(schema_version=VERSION,requirements=requirements,form_fields=form_coverage,forms=[dict(kind=k,sections=len(form_data['forms'][k]['en'])) for k in form_kinds],supported_kinds=public_kinds,atip_fields=atip_coverage,atip_forms=atip_data['register']))
     print(dict(templates=len(templates),kinds=len(defs),**json.loads((OUT/'sources.json').read_text())['counts']))
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('--source-dir',type=Path);args=p.parse_args();OUT.mkdir(parents=True,exist_ok=True)
+    p=argparse.ArgumentParser();p.add_argument('--source-dir',type=Path);p.add_argument('--atip-source-dir',type=Path);args=p.parse_args();OUT.mkdir(parents=True,exist_ok=True)
+    if args.atip_source_dir:atip.capture(args.atip_source_dir,OUT)
     if args.source_dir:
         forms.capture(args.source_dir,OUT)
         source_library(args.source_dir)
