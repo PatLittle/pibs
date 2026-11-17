@@ -71,6 +71,7 @@ jobs:
         env:
           NODE_PATH: /tmp/graph-browser/node_modules
           GRAPH_TEST_OUTPUT: work
+          GRAPH_TEST_BASE: http://127.0.0.1:8766/
         run: |
           python -m http.server 8766 --directory site > /tmp/graph-http.log 2>&1 &
           server_pid=$!
