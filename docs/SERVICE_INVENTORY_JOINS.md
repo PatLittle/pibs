@@ -81,10 +81,21 @@ from that list remain separate from actual published observations: 4,430 of the
 They are retained as historical source assertions, with that status in evidence;
 absence from a current code list does not prove a historical relationship invalid.
 
-The current choice list also assigns the codes in **21 published DFO service
-observations** to DND. The graph preserves the published owner and exposes these
-exceptions in service attributes and the import manifest. It never transfers
-those services to the code-list owner or joins across owners by ID alone.
+The current choice list assigns the codes in **21 published DFO service
+observations (11 distinct service IDs)** to DND. These observations cover
+2023–2024 and 2024–2025, before the **September 2, 2025 transfer of the Canadian
+Coast Guard from Fisheries and Oceans to National Defence**. The user identified
+this organizational history, confirmed by the
+[official transfer announcement](https://www.canada.ca/en/department-national-defence/news/2025/09/national-defence-welcomes-the-canadian-coast-guard-to-the-defence-team.html)
+and [transfer order SI/2025-96](https://gazette.gc.ca/rp-pr/p2/2025/2025-09-24/html/si-tr96-eng.html).
+The difference between the historical reporting owner and the current code-list
+owner is therefore expected transfer context, not evidence of an invalid source
+identifier. The graph retains the original department and fiscal year, and shows
+the code-list comparison under organization history. It does not retroactively
+move the records or merge departmental identities by code alone. A future dated
+succession crosswalk can explicitly connect predecessor and successor records;
+the transfer announcement alone does not establish continuity for every program
+or every similarly numbered service.
 
 The three unmapped owner slugs are `fja-cmf`, `cas-satj`, `cics-scic`. Their service,
 program and standard records remain accessible with their raw organization
@@ -147,7 +158,10 @@ channels, fees and online-service flags are attributes, not entities.
    [service-data project](https://github.com/gcperformance/service-data) offers
    useful organization and service/program crosswalk candidates; audit those
    against authoritative identifiers before merging them. Resolve the three
-   unmatched organizations and 21 owner/code-list discrepancies explicitly.
+   unmatched organizations explicitly. Model the Coast Guard transfer with
+   effective dates and supported predecessor/successor service and program keys;
+   preserve DFO observations before transfer and DND observations afterward.
+   SI/2025-96 is also a concrete legal-instrument link for that organizational event.
 
 These are proposed next extensions; hierarchy, finance and legal edges have not
 been manufactured from this schema.

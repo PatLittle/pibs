@@ -78,6 +78,7 @@ const words = {
   under_program: ["Reported program", "Programme déclaré"],
   has_standard: ["Service standard", "Norme de service"],
   references_service: ["Cited service ID", "ID de service cité"],
+  identifier_catalog_exceptions: ["Organization history · reporting owner and current code list", "Historique organisationnel · organisation déclarante et liste actuelle"],
   annual_observations: ["Annual observations · all source fields", "Observations annuelles · tous les champs sources"],
   fiscal_years: ["Reported fiscal years", "Exercices déclarés"],
   owner_org: ["Open Canada organization ID", "ID d’organisation du Canada ouvert"],
