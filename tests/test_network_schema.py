@@ -26,6 +26,12 @@ class NetworkSchemaTests(unittest.TestCase):
             self.assertEqual(fields,[f['name'] for f in t['fields']])
         for r in self.actual['relationships']:
             self.assertIn(r['source'],self.tables);self.assertIn(r['target'],self.tables)
+    def test_service_fields_and_join_endpoints_are_complete(self):
+        self.assertEqual(len(self.tables['service_inventory']['fields']),46)
+        self.assertEqual(len(self.tables['service_standards']['fields']),24)
+        self.assertEqual(self.tables['service_inventory']['primary_key'],['owner_org','fiscal_yr','service_id'])
+        pairs={(r['source'],r['target']) for r in self.actual['relationships']}
+        self.assertTrue({('aia_answers','service_inventory'),('service_program_links','service_programs'),('service_standards','service_inventory'),('node_service','service_inventory')}<=pairs)
     def test_external_aia_is_schema_only_and_has_required_fields(self):
         fields={f['name'] for f in self.tables['aia_answers']['fields']}
         self.assertTrue({'ADMresponsible','projectDetailsDepartment-NS','aboutDataSource12'}<=fields)

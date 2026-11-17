@@ -2,6 +2,9 @@ import { connections, label, fold } from "./graph-model.mjs";
 const KINDS = [
   "pia",
   "aia",
+  "service",
+  "program",
+  "service_standard",
   "pib",
   "class",
   "official",
@@ -118,10 +121,16 @@ export function validTrail(index, ids, focus) {
   return result.at(-1) === focus ? result : [focus];
 }
 export function findRecords(index, query, lang = "en") {
-  const terms = fold(query).split(/\s+/).filter(Boolean),
+  const standardPattern = /\bservice standards?\b|\bnormes? de service\b/g;
+  const standardType = /\bservice standards?\b|\bnormes? de service\b/.test(fold(query));
+  const terms = fold(query).replace(standardPattern, "").split(/\s+/).filter(Boolean),
     types = {
       aia: "aia",
       eia: "aia",
+      service: "service",
+      services: "service",
+      program: "program",
+      programme: "program",
       pia: "pia",
       efvp: "pia",
       pib: "pib",
@@ -129,7 +138,7 @@ export function findRecords(index, query, lang = "en") {
     };
   return [...index.nodes.values()]
     .filter((n) =>
-      terms.every((t) =>
+      (!standardType || n.type === "service_standard") && terms.every((t) =>
         types[t]
           ? n.type === types[t]
           : fold(

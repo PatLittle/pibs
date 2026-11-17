@@ -24,8 +24,13 @@ on:
       - "scripts/build_pia_site.py"
       - "scripts/validate_pia_site.py"
       - "scripts/build_graph.py"
+      - "scripts/service_graph.py"
+      - "scripts/import_service_inventory.py"
+      - "data/service_inventory/**"
+      - "tests/test_service_inventory.py"
       - "scripts/build_network_schema.py"
       - "data_model.json"
+      - "validate_data_model.py"
       - "tests/test_network_schema.py"
       - "tests/graph-focus.test.mjs"
       - "scripts/validate_graph.py"
@@ -89,7 +94,7 @@ jobs:
           node --test tests/privacy_assessments.test.mjs
           node --check site/privacy-assessments.js
           node --check site/privacy-assessment.js
-          python -m unittest tests.test_network_schema tests.test_build_graph
+          python -m unittest tests.test_network_schema tests.test_build_graph tests.test_service_inventory
           node --test tests/graph-focus.test.mjs tests/graph.test.mjs tests/aia.test.mjs
           node --check site/aia-data.mjs
           node --check site/link-aia.mjs

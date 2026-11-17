@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "inspected_at_utc": "2026-11-17T00:15:30.391899+00:00",
+  "dataset_url": "https://open.canada.ca/data/en/dataset/3ac0d080-6149-499a-8b06-7ce5f00ec56c",
+  "schema_url": "https://open.canada.ca/data/recombinant-published-schema/service.json",
+  "schema_sha256": "754f9da1bbe07788026e79243447a40fd351159fba796489a047d784edbe663a",
+  "key_authority_url": "https://github.com/open-data/ckanext-canada/blob/master/ckanext/canada/tables/service.yaml",
+  "source_inputs": {
+    "service": {
+      "resource_id": "c0cf9766-b85b-48c3-b295-34f72305aaf6",
+      "url": "https://open.canada.ca/data/dataset/3ac0d080-6149-499a-8b06-7ce5f00ec56c/resource/c0cf9766-b85b-48c3-b295-34f72305aaf6/download/service.csv",
+      "sha256": "80d18c4dc2c71ec70d645688972c3b33782e1d05dc14336724867300f0801aa9",
+      "bytes": 6716316,
+      "rows": 3593
+    },
+    "service-std": {
+      "resource_id": "8736cd7e-9bf9-4a45-9eee-a6cb3c43c07e",
+      "url": "https://open.canada.ca/data/dataset/3ac0d080-6149-499a-8b06-7ce5f00ec56c/resource/8736cd7e-9bf9-4a45-9eee-a6cb3c43c07e/download/service-std.csv",
+      "sha256": "4d9cb4b453352f06f1cdd8ac5d52223c57e83dbbf3d34480fa61fcffca98ee28",
+      "bytes": 4498511,
+      "rows": 4899
+    }
+  },
+  "summary": {
+    "service_observations": 3593,
+    "services": 1879,
+    "standard_observations": 4899,
+    "standards": 2875,
+    "programs": 648,
+    "service_program_observations": 4479,
+    "program_reference_statuses": {
+      "resolved": 4479,
+      "invalid_suffix": 60
+    },
+    "organization_statuses": {
+      "resolved": 79,
+      "unresolved": 3
+    },
+    "fields_audited": 70,
+    "service_identifier_statuses": {
+      "listed": 3572,
+      "owner_not_listed": 21
+    }
+  },
+  "outputs": {
+    "field_join_audit.json": "0da4f2c007a08d2f1512660668aa69e2c0ba62c0398c32bc82db7777623d2162",
+    "organizations.csv": "c50f338169b524454055f27016868d7b5af81668c6b5dfa0cdc931fb81c08260",
+    "program_references.csv": "28fdc493bb75aa0aa461e53a8afacfd54e9a564d443e022b07a66562b1f5884e",
+    "programs.csv": "00cb55c21822b617f8d1b2ecf11ba09c1dccd99773c57c24845446ef407bf31b",
+    "schema_fields.json": "74a0875fb3b8004650a3e4de7595e38b2fdc9a871fac112f4c8b611735d1bc70",
+    "service-std.csv": "f3a46e00b34266683deaf74677ee724cec244e6f37636fbbe28b7a3a8cc6d1fe",
+    "service.csv": "b15c5f297e6f15027fc91cc1005a5d1304e677576dede12bbf9483ca8a9c7ef1",
+    "service_program_links.csv": "7438ff39355c56de66eb21ab39c20b8e7e3d6bd27fc37cfc16b93715e1c94b8e"
+  },
+  "service_identifier_exceptions": [
+    {
+      "owner_org": "dfo-mpo",
+      "fiscal_yr": "2023-2024",
+      "service_id": "1036",
+      "status": "owner_not_listed",
+      "catalog_owners": [
+        "dnd-mdn"
+      ]
+    },
+    {
+      "owner_org": "dfo-mpo",
+      "fiscal_yr": "2023-2024",
+      "service_id": "1037",
+      "status": "owner_not_listed",
+      "catalog_owners": [
+        "dnd-mdn"
+      ]
+    },
+    {
+      "owner_org": "dfo-mpo",
+      "fiscal_yr": "2023-2024",
+      "service_id": "1038",
+      "status": "owner_not_listed",
+      "catalog_owners": [
+        "dnd-mdn"
+      ]
+    },
+    {
+      "owner_org": "dfo-mpo",
+      "fiscal_yr": "2023-2024",
+      "service_id": "1041",
+      "status": "owner_not_listed",
+      "catalog_owners": [
+        "dnd-mdn"
+      ]
+    },
+    {
+      "owner_org": "dfo-mpo",
+      "fiscal_yr": "2023-2024",
+      "service_id": "1043",
+      "status": "owner_not_listed",
+      "catalog_owners": [
+        "dnd-mdn"
+      ]
+    },
+    {
+      "owner_org": "dfo-mpo",
+      "fiscal_yr": "2023-2024",
+      "service_id": "1044",
+      "status": "owner_not_listed",
+      "catalog_owners": [
+        "dnd-mdn"
+      ]
+    },
+    {
+      "owner_org": "dfo-mpo",
+      "fiscal_yr": "2023-2024",
+      "service_id": "1045",
+      "status": "owner_not_listed",
+      "catalog_owners": [
+        "dnd-mdn"
+      ]
+    },
+    {
+      "owner_org": "dfo-mpo",
+      "fiscal_yr": "2023-2024",
+      "service_id": "996",
+      "status": "owner_not_listed",
+      "catalog_owners": [
+        "dnd-mdn"
+      ]
+    },
+    {
+      "owner_org": "dfo-mpo",
+      "fiscal_yr": "2023-2024",
+      "service_id": "SRV03374",
+      "status": "owner_not_listed",
+      "catalog_owners": [
+        "dnd-mdn"
+      ]
+    },
+    {
+      "owner_org": "dfo-mpo",
+      "fiscal_yr": "2023-2024",
+      "service_id": "SRV03402",
+      "status": "owner_not_listed",
+      "catalog_owners": [
+        "dnd-mdn"
+      ]
+    },
+    {
+      "owner_org": "dfo-mpo",
+      "fiscal_yr": "2024-2025",
+      "service_id": "1036",
+      "status": "owner_not_listed",
+      "catalog_owners": [
+        "dnd-mdn"
+      ]
+    },
+    {
+      "owner_org": "dfo-mpo",
+      "fiscal_yr": "2024-2025",
+      "service_id": "1037",
+      "status": "owner_not_listed",
+      "catalog_owners": [
+        "dnd-mdn"
+      ]
+    },
+    {
+      "owner_org": "dfo-mpo",
+      "fiscal_yr": "2024-2025",
+      "service_id": "1038",
+      "status": "owner_not_listed",
+      "catalog_owners": [
+        "dnd-mdn"
+      ]
+    },
+    {
+      "owner_org": "dfo-mpo",
+      "fiscal_yr": "2024-2025",
+      "service_id": "1041",
+      "status": "owner_not_listed",
+      "catalog_owners": [
+        "dnd-mdn"
+      ]
+    },
+    {
+      "owner_org": "dfo-mpo",
+      "fiscal_yr": "2024-2025",
+      "service_id": "1043",
+      "status": "owner_not_listed",
+      "catalog_owners": [
+        "dnd-mdn"
+      ]
+    },
+    {
+      "owner_org": "dfo-mpo",
+      "fiscal_yr": "2024-2025",
+      "service_id": "1044",
+      "status": "owner_not_listed",
+      "catalog_owners": [
+        "dnd-mdn"
+      ]
+    },
+    {
+      "owner_org": "dfo-mpo",
+      "fiscal_yr": "2024-2025",
+      "service_id": "1045",
+      "status": "owner_not_listed",
+      "catalog_owners": [
+        "dnd-mdn"
+      ]
+    },
+    {
+      "owner_org": "dfo-mpo",
+      "fiscal_yr": "2024-2025",
+      "service_id": "4109",
+      "status": "owner_not_listed",
+      "catalog_owners": [
+        "dnd-mdn"
+      ]
+    },
+    {
+      "owner_org": "dfo-mpo",
+      "fiscal_yr": "2024-2025",
+      "service_id": "996",
+      "status": "owner_not_listed",
+      "catalog_owners": [
+        "dnd-mdn"
+      ]
+    },
+    {
+      "owner_org": "dfo-mpo",
+      "fiscal_yr": "2024-2025",
+      "service_id": "SRV03374",
+      "status": "owner_not_listed",
+      "catalog_owners": [
+        "dnd-mdn"
+      ]
+    },
+    {
+      "owner_org": "dfo-mpo",
+      "fiscal_yr": "2024-2025",
+      "service_id": "SRV03402",
+      "status": "owner_not_listed",
+      "catalog_owners": [
+        "dnd-mdn"
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "model_version": "1.4",
+  "model_version": "1.5",
   "description": "Relational model for authoritative institutions, Info Source holdings, and controlled vocabularies.",
   "tables": {
     "institution_registry": {
@@ -168,6 +168,155 @@
         }
       ],
       "description": "Derived, evidence-backed many-to-many assignments from PIB records to the official category vocabulary."
+    },
+    "service_organizations": {
+      "path": "data/service_inventory/organizations.csv",
+      "primary_key": [
+        "owner_org"
+      ],
+      "description": "Exact Open Canada organization-slug crosswalk; unresolved or ambiguous institution_id is blank.",
+      "foreign_keys": [
+        {
+          "fields": [
+            "institution_id"
+          ],
+          "references": "institution_registry",
+          "reference_fields": [
+            "institution_id"
+          ]
+        }
+      ],
+      "json_array_fields": [
+        "candidates"
+      ]
+    },
+    "service_inventory": {
+      "path": "data/service_inventory/service.csv",
+      "primary_key": [
+        "owner_org",
+        "fiscal_yr",
+        "service_id"
+      ],
+      "description": "All 46 published fields. Annual observations; stable graph identity is owner_org + service_id.",
+      "foreign_keys": [
+        {
+          "fields": [
+            "owner_org"
+          ],
+          "references": "service_organizations",
+          "reference_fields": [
+            "owner_org"
+          ]
+        }
+      ]
+    },
+    "service_standards": {
+      "path": "data/service_inventory/service-std.csv",
+      "primary_key": [
+        "owner_org",
+        "fiscal_yr",
+        "service_id",
+        "service_standard_id"
+      ],
+      "description": "All 24 published fields. Annual standards refer to the service in the same organization and fiscal year.",
+      "foreign_keys": [
+        {
+          "fields": [
+            "owner_org",
+            "fiscal_yr",
+            "service_id"
+          ],
+          "references": "service_inventory",
+          "reference_fields": [
+            "owner_org",
+            "fiscal_yr",
+            "service_id"
+          ]
+        }
+      ]
+    },
+    "service_programs": {
+      "path": "data/service_inventory/programs.csv",
+      "primary_key": [
+        "owner_org",
+        "program_id"
+      ],
+      "description": "Observed program codes scoped to organization. Bilingual labels come from the inspected code list; not historical names or GC InfoBase numeric IDs.",
+      "foreign_keys": [
+        {
+          "fields": [
+            "owner_org"
+          ],
+          "references": "service_organizations",
+          "reference_fields": [
+            "owner_org"
+          ]
+        }
+      ],
+      "json_array_fields": [
+        "valid_fiscal_years"
+      ]
+    },
+    "service_program_links": {
+      "path": "data/service_inventory/service_program_links.csv",
+      "primary_key": [
+        "owner_org",
+        "fiscal_yr",
+        "service_id",
+        "program_id"
+      ],
+      "description": "Literal program codes from actual service observations; no relationships inferred from allowed-value lists.",
+      "foreign_keys": [
+        {
+          "fields": [
+            "owner_org",
+            "fiscal_yr",
+            "service_id"
+          ],
+          "references": "service_inventory",
+          "reference_fields": [
+            "owner_org",
+            "fiscal_yr",
+            "service_id"
+          ]
+        },
+        {
+          "fields": [
+            "owner_org",
+            "program_id"
+          ],
+          "references": "service_programs",
+          "reference_fields": [
+            "owner_org",
+            "program_id"
+          ]
+        }
+      ]
+    },
+    "service_program_references": {
+      "path": "data/service_inventory/program_references.csv",
+      "primary_key": [
+        "owner_org",
+        "fiscal_yr",
+        "service_id",
+        "program_id"
+      ],
+      "description": "Every reported program reference, including invalid markers; unresolved references have no program foreign key.",
+      "foreign_keys": [
+        {
+          "fields": [
+            "owner_org",
+            "fiscal_yr",
+            "service_id"
+          ],
+          "references": "service_inventory",
+          "reference_fields": [
+            "owner_org",
+            "fiscal_yr",
+            "service_id"
+          ]
+        }
+      ]
     }
   },
   "relationships": [
@@ -215,7 +364,10 @@
       "pib",
       "class",
       "pia",
-      "reference"
+      "reference",
+      "service",
+      "program",
+      "service_standard"
     ],
     "scopes": {
       "pib": [
@@ -234,7 +386,7 @@
       },
       "references": {
         "basis": "documented",
-        "meaning": "Explicit PIA citation; not full-bank assessment coverage"
+        "meaning": "Explicit citation; unresolved identifiers remain references, not resolved entities"
       },
       "related_class": {
         "basis": "documented",
@@ -243,6 +395,19 @@
       "responsible_official": {
         "basis": "documented",
         "meaning": "AIA names a responsible official; not a current-tenure assertion",
+        "runtime": true
+      },
+      "under_program": {
+        "basis": "documented",
+        "meaning": "Service reports this exact organization-scoped program code; evidence retains fiscal year"
+      },
+      "has_standard": {
+        "basis": "documented",
+        "meaning": "Standard belongs to service using exact owner_org, fiscal_yr and service_id"
+      },
+      "references_service": {
+        "basis": "documented",
+        "meaning": "AIA cites exact ServiceID, uniquely resolved within its matched institution; no fiscal year or coverage inferred",
         "runtime": true
       }
     },
@@ -257,6 +422,7 @@
     "attribute_vocabularies": {
       "pib_type": "Controlled PIB type value and definition",
       "personal_information_categories": "Derived values with rule, confidence and source evidence; not graph entities"
-    }
+    },
+    "service_inventory_source": "data/service_inventory/manifest.json"
   }
 }

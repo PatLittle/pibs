@@ -18,6 +18,7 @@ from urllib.parse import urlencode
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from my_info.categories import classify_record, load_category_definitions
+from scripts.service_graph import add_service_inventory
 
 
 def record_id(dataset, institution, identifier):
@@ -200,6 +201,8 @@ def build(root=ROOT):
                     if evidence:
                         add_edge(ident, target, 'references', evidence,
                                  'resolved' if resolved else nodes[target]['resolution'])
+
+    add_service_inventory(root, read, nodes, add_node, add_edge)
 
     for edge in edges.values():
         edge['basis'] = 'derived' if edge['type'] == 'category_match' else 'documented'

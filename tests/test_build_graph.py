@@ -38,7 +38,7 @@ class GraphBuildTests(unittest.TestCase):
             if edge['resolution'] != 'resolved': self.assertEqual(target['type'], 'reference')
             for item in edge['evidence']:
                 self.assertTrue((ROOT / item['source_path']).is_file())
-                if edge['type'] == 'references':
+                if edge['type'] == 'references' and self.nodes[edge['source']]['type'] == 'pia':
                     self.assertGreater(item['line'], 0)
                     self.assertTrue(item['excerpt'])
                     self.assertEqual(len(item['markdown_sha256']), 64)

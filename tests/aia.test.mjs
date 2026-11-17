@@ -78,3 +78,20 @@ test('loader uses configurable external URL and reports outages or empty feeds',
   await assert.rejects(loadAIA(graph(),async()=>({ok:false,status:503})),/503/);
   await assert.rejects(loadAIA(graph(),async url=>url==='aia-source.json'?{ok:true,json:async()=>config}:{ok:true,text:async()=>'',headers:new Headers()}),/empty/);
 });
+
+test('AIA service IDs resolve literally within the matched institution, with no year or risk propagation', async()=>{
+  const g=graph();g.nodes.push({id:'service:one:001',type:'service',identifier:'001',institution_id:'one'}, {id:'service:two:001',type:'service',identifier:'001',institution_id:'two'});
+  const r=row();r.data.ServiceID='001';
+  const result=await integrateAIA(g,[r]),match=result.records[0].service_match;
+  assert.deepEqual(match.candidates,['service:one:001']);assert.equal(match.resolution,'resolved');
+  const edge=result.graph.edges.find(e=>e.type==='references_service');assert.equal(edge.target,'service:one:001');
+  assert.equal(edge.evidence[0].field,'data.ServiceID');assert.equal(result.graph.nodes.find(n=>n.id===edge.target).attributes,undefined);
+  assert.equal(recordStats(indexGraph(result.graph),'aia:'+uuid).types.service,1);
+  const other=graph();other.nodes.push({id:'service:two:001',type:'service',identifier:'001',institution_id:'two'});
+  const unresolved=await integrateAIA(other,[r]);assert.equal(unresolved.records[0].service_match.resolution,'unresolved');
+  assert.equal(unresolved.graph.nodes.find(n=>n.id===unresolved.graph.edges.find(e=>e.type==='references_service').target).type,'reference');
+  r.data.ServiceID='1';assert.equal((await integrateAIA(g,[r])).records[0].service_match.resolution,'unresolved');
+  r.data.ServiceID='N/A';assert.ok(!(await integrateAIA(graph(),[r])).graph.edges.some(e=>e.type==='references_service'));
+  const ambiguous=graph();ambiguous.nodes.push(...[1,2].map(i=>({id:'service:duplicate:'+i,type:'service',identifier:'001',institution_id:'one'})));
+  r.data.ServiceID='001';assert.equal((await integrateAIA(ambiguous,[r])).records[0].service_match.resolution,'ambiguous');
+});

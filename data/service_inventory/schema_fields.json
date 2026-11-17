@@ -1,0 +1,1501 @@
+{
+  "dataset_type": "service",
+  "title": {
+    "en": "Service Inventory",
+    "fr": "Répertoire de services"
+  },
+  "source_url": "https://open.canada.ca/data/recombinant-published-schema/service.json",
+  "sha256": "754f9da1bbe07788026e79243447a40fd351159fba796489a047d784edbe663a",
+  "resources": [
+    {
+      "resource_name": "service",
+      "title": {
+        "en": "Service Identification Information & Metrics",
+        "fr": "Renseignements sur l'identification des services, données volumétriques"
+      },
+      "fields": [
+        {
+          "id": "fiscal_yr",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Fiscal Year",
+            "fr": "Exercice financier"
+          },
+          "description": {
+            "en": "Identifies the fiscal year (April 1 to March 31) during which service activities took place. For example, records for fiscal year 2023-2024 should include applications received from April 1, 2023, to March 31, 2024.\n",
+            "fr": "Indique l'exercice financier (1 avril au 31 mars) durant lequel les activités du service ont eu lieu. Par exemple, les données pour l’exercice financier 2023-2024 devraient inclure les demandes de service qui ont été reçues entre le 1er avril 2023 et le 31 mars 2024.\n"
+          },
+          "validation": {
+            "en": "This field must not be empty.",
+            "fr": "Ce champ ne doit pas être vide."
+          },
+          "datastore_type": "text",
+          "choice_count": 13
+        },
+        {
+          "id": "service_id",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Service ID Number",
+            "fr": "Numéro d'identification du service"
+          },
+          "description": {
+            "en": "The unique number assigned to a service in the inventory to make it easier to refer to specific services.",
+            "fr": "Le numéro unique attribué à un service dans le répertoire afin de faciliter le référencement à des services précis."
+          },
+          "validation": {
+            "en": "This field must not be empty.\nThis field cannot contain commas.\n",
+            "fr": "Ce champ ne doit pas être vide.\nCe champ ne peut pas contenir de virgules.\n"
+          },
+          "datastore_type": "text",
+          "choice_count": 2673
+        },
+        {
+          "id": "service_name_en",
+          "character_limit": 350,
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Service Name (English)",
+            "fr": "Nom du service (anglais)"
+          },
+          "description": {
+            "en": "Identifies the official name of the service.",
+            "fr": "Indique le nom officiel du service."
+          },
+          "validation": {
+            "en": "This field must not be empty.\nThis field has a maximum length of 350 characters.\n",
+            "fr": "Ce champ ne doit pas être vide.\nCe champ a une longueur maximale de 350 caractères.\n"
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "service_name_fr",
+          "character_limit": 350,
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Service Name (French)",
+            "fr": "Nom du service (français)"
+          },
+          "description": {
+            "en": "Identifies the official name of the service.",
+            "fr": "Indique le nom officiel du service."
+          },
+          "validation": {
+            "en": "This field must not be empty.\nThis field has a maximum length of 350 characters.\n",
+            "fr": "Ce champ ne doit pas être vide.\nCe champ a une longueur maximale de 350 caractères.\n"
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "service_description_en",
+          "character_limit": 1800,
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Service Description (English)",
+            "fr": "Description du service (anglais)"
+          },
+          "description": {
+            "en": "Provides a brief description of the service, in plain language.",
+            "fr": "Offre une brève description du service, en langage simple."
+          },
+          "validation": {
+            "en": "This field must not be empty.\nThis field has a maximum length of 1800 characters.\n",
+            "fr": "Ce champ ne doit pas être vide.\nCe champ a une longueur maximale de 1800 caractères.\n"
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "service_description_fr",
+          "character_limit": 1800,
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Service Description (French)",
+            "fr": "Description du service (français)"
+          },
+          "description": {
+            "en": "Provides a brief description of the service, in plain language.",
+            "fr": "Offre une brève description du service, en langage simple."
+          },
+          "validation": {
+            "en": "This field must not be empty.\nThis field has a maximum length of 1800 characters.\n",
+            "fr": "Ce champ ne doit pas être vide.\nCe champ a une longueur maximale de 1800 caractères.\n"
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "service_type",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Service Type",
+            "fr": "Type de service"
+          },
+          "description": {
+            "en": "Identifies the service type as outlined in the Guideline on Service and Digital. Multiple values must be separated by a comma (,).",
+            "fr": "Indique le type de service tel qu'indiqué dans la Ligne directrice sur les services et le numérique. Séparez les entrées par une virgule (,) s’il y en a plusieurs qui s’appliquent."
+          },
+          "validation": {
+            "en": "This field must not be empty.",
+            "fr": "Ce champ ne doit pas être vide."
+          },
+          "datastore_type": "_text",
+          "choice_count": 8
+        },
+        {
+          "id": "service_recipient_type",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Service Recipient Type",
+            "fr": "Type de bénéficiaire du service"
+          },
+          "description": {
+            "en": "Targeted, client-based services: serve specific clients or groups, such as people, businesses, GC employees. Untargeted, Societal-based Service: serve society, not distinct people or groups, such as military, pure science.\n",
+            "fr": "Services ciblés axés sur les clients : Répondent aux besoins de clients ou de groupes particuliers, par exemple les personnes, les entreprises ou les employés du GC. Services non ciblés axés sur la société : Répondent aux besoins de la société en général et non aux besoins de personnes ou de groupes distincts, par exemple les forces armées ou la science pure.\n"
+          },
+          "validation": {
+            "en": "This field must not be empty.",
+            "fr": "Ce champ ne doit pas être vide."
+          },
+          "datastore_type": "text",
+          "choice_count": 2
+        },
+        {
+          "id": "service_scope",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Service Scope",
+            "fr": "Étendue du service"
+          },
+          "description": {
+            "en": "Indicates whether the service is external or internal to government. Multiple values must be separated by a comma (,).",
+            "fr": "Indique si le service est offert aux clients externes ou internes au gouvernement. Séparez les entrées par une virgule (,) s’il y en a plusieurs qui s’appliquent."
+          },
+          "validation": {
+            "en": "This field must not be empty.",
+            "fr": "Ce champ ne doit pas être vide."
+          },
+          "datastore_type": "_text",
+          "choice_count": 4
+        },
+        {
+          "id": "client_target_groups",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Client/Target Groups",
+            "fr": "Clients/groupes cibles"
+          },
+          "description": {
+            "en": "Identifies the clients or target groups of the service. Multiple values must be separated by a comma (,).",
+            "fr": "Identifie les clients ou les groupes de services cibles. Séparez les entrées par une virgule (,) s’il y en a plusieurs qui s’appliquent."
+          },
+          "validation": {
+            "en": "This field must not be empty.",
+            "fr": "Ce champ ne doit pas être vide."
+          },
+          "datastore_type": "_text",
+          "choice_count": 6
+        },
+        {
+          "id": "program_id",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Program ID Code",
+            "fr": "Code d'identification du programme"
+          },
+          "description": {
+            "en": "Identifies the unique program code associated with program elements for all strategic outcomes, programs, sub-programs, and sub-sub-programs. The Program codes in the government-wide Chart of Accounts can be used.\nCorporate planners in the department/agency who are responsible for the Policy on Results can assist in identifying this, if needed. Multiple values must be separated by a comma (,).\n",
+            "fr": "Indique le code de programme unique associé aux éléments de programme pour tous les résultats stratégiques, les programmes, les sous-programmes et les sous-sous-programmes. Les codes de programme du Plan comptable à l'échelle de l'administration fédérale peuvent être utilisés.\nLes planificateurs ministériels du ministère ou de l'organisme responsables de la Politique sur les résultats peuvent aider à déterminer le code d'identification du programme, au besoin. Séparez les entrées par une virgule (,) s’il y en a plusieurs qui s’appliquent.\n"
+          },
+          "validation": {
+            "en": "This field must not be empty.",
+            "fr": "Ce champ ne doit pas être vide."
+          },
+          "datastore_type": "_text",
+          "choices_suffixes": {
+            "-INV": {
+              "en": "Invalid for Organization",
+              "fr": "non valide pour l'organisation"
+            }
+          },
+          "choice_count": 1231
+        },
+        {
+          "id": "program_name_en",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Program Name (English)",
+            "fr": "Désignation du programme (anglais)"
+          },
+          "description": {
+            "en": "Identifies the name of the program under which the service is delivered.",
+            "fr": "Indique le nom du programme sous lequel le service est offert."
+          },
+          "datastore_type": "_text",
+          "choice_count": 0
+        },
+        {
+          "id": "program_name_fr",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Program Name (French)",
+            "fr": "Désignation du programme (français)"
+          },
+          "description": {
+            "en": "Identifies the name of the program under which the service is delivered.",
+            "fr": "Indique le nom du programme sous lequel le service est offert."
+          },
+          "datastore_type": "_text",
+          "choice_count": 0
+        },
+        {
+          "id": "client_feedback_channel",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Client Feedback, by Channel",
+            "fr": "Commentaires des clients, par canal"
+          },
+          "description": {
+            "en": "Identifies which channels, if any, provide users of a service an opportunity to provide feedback on their level of satisfaction with the service. Multiple values must be separated by a comma (,).\n",
+            "fr": "Détermine quels canaux, s'il y a lieu, offrent aux utilisateurs d'un service l'occasion de donner une rétroaction sur leur niveau de satisfaction à l'égard du service. Séparez les entrées par une virgule (,) s’il y en a plusieurs qui s’appliquent.\n"
+          },
+          "validation": {
+            "en": "This field must not be empty.",
+            "fr": "Ce champ ne doit pas être vide."
+          },
+          "datastore_type": "_text",
+          "choice_count": 8
+        },
+        {
+          "id": "automated_decision_system",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Automated Decision System",
+            "fr": "Système décisionnel automatisé"
+          },
+          "description": {
+            "en": "An automated decision system is defined in the Directive on Automated Decision-Making and means any technology that either assists or replaces the judgment of human decision-makers, such as those that draw from fields like statistics, linguistics and computer science, and use techniques such as rules-based systems, regression, predictive analytics, machine learning, deep learning, and neural networks.\nFor the scope of this question, please answer yes if the service uses an automated decision systems to make or assist officers in making administrative decisions, those that affect legal rights, privileges or interests of clients, whether internal or external. When a system is an automated decision system that makes or assists an officer in making, the requirements of the Directive must be met, and an Algorithmic Impact Assessment published. Refer to the Guide on the Scope of the Directive on Automated Decision-Making to learn more about whether the system is in scope of the Directive on Automated Decision-Making. You can also reach out to your department’s Chief Information and Chief Data Offices to learn more about whether the system falls in scope of the Directive.\n",
+            "fr": "Un système décisionnel automatisé est défini dans la Directive sur la prise de décisions automatisée et désigne toute technologie qui assiste ou remplace le jugement des décideurs humains, comme ceux qui proviennent de domaines tels que les statistiques, la linguistique et les sciences informatiques, et utilisent des techniques telles que les systèmes basés sur des règles, la régression, l’analytique prédictive, l’apprentissage automatique, l’apprentissage en profondeur et les réseaux neuronaux.\nPour la portée de cette question, veuillez répondre \"oui\" si le service utilise des systèmes décisionnel automatisé pour prendre ou aider les agents à prendre des décisions administratives, celles qui affectent les droits juridiques, les privilèges ou les intérêts des clients, qu'ils soient internes ou externes. Lorsqu'un système est un système décisionnel automatisé qui prend ou aide un agent à prendre des décisions, les exigences de la Directive doivent être respectées, et une Évaluation de l'incidence algorithmique doit être publiée. Référez-vous au Guide sur la portée de la Directive sur la prise de décisions automatisée pour en savoir plus sur la portée de la Directive sur la prise de décision automatisée. Vous pouvez également contacter les bureaux du Dirigeant principal de l'information et du Dirigeant principal des données de votre ministère pour en savoir plus sur la portée de la Directive.\n"
+          },
+          "validation": {
+            "en": "This field must not be empty.",
+            "fr": "Ce champ ne doit pas être vide."
+          },
+          "datastore_type": "text",
+          "choice_count": 2
+        },
+        {
+          "id": "automated_decision_system_description_en",
+          "character_limit": 1800,
+          "obligation": {
+            "en": "Optional",
+            "fr": "Facultatif"
+          },
+          "label": {
+            "en": "Automated Decision System Description (English)",
+            "fr": "Description du système décisionnel automatisé (anglais)"
+          },
+          "description": {
+            "en": "Describe what the system does. Include: the name or title of the system, the role of the system in the decision, whether it is full or partial automation, and how officers use the system to make or inform the decision. Include whether or not an Algorithmic Impact Assessment is published, and if not indicate the reason for not publishing one.\n",
+            "fr": "Décrivez ce que fait le système. Inclure : le nom ou titre du système, le rôle du système dans la prise de décision, s'il s'agit d'une automatisation complète ou partielle, et comment les agents utilisent le système pour prendre ou informer la décision. Indiquer si une Évaluation de l'incidence algorithmique est publiée ou non, et si ce n'est pas le cas, indiquez la raison pour laquelle elle n'est pas publiée.\n"
+          },
+          "validation": {
+            "en": "This field is required due to a response in a different field.\nThis field has a maximum length of 1800 characters.\n",
+            "fr": "Ce champ est requis en raison d'une réponse présente dans un autre champ.\nCe champ a une longueur maximale de 1800 caractères.\n"
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "automated_decision_system_description_fr",
+          "character_limit": 1800,
+          "obligation": {
+            "en": "Optional",
+            "fr": "Facultatif"
+          },
+          "label": {
+            "en": "Automated Decision System Description (French)",
+            "fr": "Description du système décisionnel automatisé (français)"
+          },
+          "description": {
+            "en": "Describe what the system does. Include: the name or title of the system, the role of the system in the decision, whether it is full or partial automation, and how officers use the system to make or inform the decision. Include whether or not an Algorithmic Impact Assessment is published, and if not indicate the reason for not publishing one.\n",
+            "fr": "Décrivez ce que fait le système. Inclure : le nom ou titre du système, le rôle du système dans la prise de décision, s'il s'agit d'une automatisation complète ou partielle, et comment les agents utilisent le système pour prendre ou informer la décision. Indiquer si une Évaluation de l'incidence algorithmique est publiée ou non, et si ce n'est pas le cas, indiquez la raison pour laquelle elle n'est pas publiée.\n"
+          },
+          "validation": {
+            "en": "This field is required due to a response in a different field.\nThis field has a maximum length of 1800 characters.\n",
+            "fr": "Ce champ est requis en raison d'une réponse présente dans un autre champ.\nCe champ a une longueur maximale de 1800 caractères.\n"
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "service_fee",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Service Fees",
+            "fr": "Frais de service"
+          },
+          "description": {
+            "en": "Identifies whether a service fee is collected for the provision of the service.",
+            "fr": "Indique si des frais de service sont perçus pour la prestation du service."
+          },
+          "validation": {
+            "en": "This field must not be empty.",
+            "fr": "Ce champ ne doit pas être vide."
+          },
+          "datastore_type": "text",
+          "choice_count": 2
+        },
+        {
+          "id": "os_account_registration",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Online Services: Account Registration/Enrollment",
+            "fr": "Services en ligne : Enregistrement/inscription du compte"
+          },
+          "description": {
+            "en": "Identifies whether a client can register or enroll for a personal account where they can make use of other interaction points (applying for services, providing information, seeing their status, submitting feedback, etc.).\n",
+            "fr": "Indique si un client peut s'inscrire ou s'inscrire à un compte personnel où il peut utiliser d'autres points d'interaction (demander des services, fournir des renseignements, voir son statut, soumettre des commentaires, etc.).\n"
+          },
+          "validation": {
+            "en": "This field must not be empty.",
+            "fr": "Ce champ ne doit pas être vide."
+          },
+          "datastore_type": "text",
+          "choice_count": 3
+        },
+        {
+          "id": "os_authentication",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Online Services: Authentication",
+            "fr": "Services en ligne : Authentification"
+          },
+          "description": {
+            "en": "Identifies whether a client can authenticate their identity online.",
+            "fr": "Indique si un client peut confirmer son identité en ligne."
+          },
+          "validation": {
+            "en": "This field must not be empty.",
+            "fr": "Ce champ ne doit pas être vide."
+          },
+          "datastore_type": "text",
+          "choice_count": 3
+        },
+        {
+          "id": "os_application",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Online Services: Application",
+            "fr": "Services en ligne : Demande"
+          },
+          "description": {
+            "en": "Identifies whether a client can apply for a service online.",
+            "fr": "Indique si un client peut présenter une demande de service en ligne."
+          },
+          "validation": {
+            "en": "This field must not be empty.",
+            "fr": "Ce champ ne doit pas être vide."
+          },
+          "datastore_type": "text",
+          "choice_count": 3
+        },
+        {
+          "id": "os_decision",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Online Services: Decision",
+            "fr": "Services en ligne : Décision"
+          },
+          "description": {
+            "en": "Identifies whether a client can be notified online of the outcome of their request for this service.",
+            "fr": "Indique si un client peut être informé en ligne du résultat de sa demande de ce service."
+          },
+          "validation": {
+            "en": "This field must not be empty.",
+            "fr": "Ce champ ne doit pas être vide."
+          },
+          "datastore_type": "text",
+          "choice_count": 3
+        },
+        {
+          "id": "os_issuance",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Online Services: Issuance",
+            "fr": "Services en ligne : Émission"
+          },
+          "description": {
+            "en": "Identifies whether a client can receive the service online, perhaps in the form of permits, certificates, money or information.",
+            "fr": "Indique si un client peut recevoir le service en ligne, peut-être sous forme de permis, de certificats, d'argent ou d'information."
+          },
+          "validation": {
+            "en": "This field must not be empty.",
+            "fr": "Ce champ ne doit pas être vide."
+          },
+          "datastore_type": "text",
+          "choice_count": 3
+        },
+        {
+          "id": "os_issue_resolution_feedback",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Online Services: Issue Resolution and Feedback",
+            "fr": "Services en ligne : Solution de problème et rétroaction"
+          },
+          "description": {
+            "en": "Identifies whether a client can seek resolution to their issues or provide feedback online.",
+            "fr": "Indique si un client peut demander une résolution à ses problèmes avec le service ou fournir de la rétroaction en ligne."
+          },
+          "validation": {
+            "en": "This field must not be empty.",
+            "fr": "Ce champ ne doit pas être vide."
+          },
+          "datastore_type": "text",
+          "choice_count": 3
+        },
+        {
+          "id": "os_comments_client_interaction_en",
+          "character_limit": 1000,
+          "obligation": {
+            "en": "Optional",
+            "fr": "Facultatif"
+          },
+          "label": {
+            "en": "Comments on Online Services - Client Interaction Points (English)",
+            "fr": "Commentaires sur les services électroniques - points d'interaction avec les clients (anglais)"
+          },
+          "description": {
+            "en": "Comments related to online services - client Interaction points (English). For any interaction points reported as \"Not Applicable\", comments have to be provided.\n",
+            "fr": "Commentaires en anglais en lien avec les services en ligne - points d'interaction avec les clients. Pour tout point d'interaction signalés comme « sans objet », des commentaires doivent être fournis.\n"
+          },
+          "validation": {
+            "en": "This field is required due to a response in a different field.\nThis field has a maximum length of 1000 characters.\n",
+            "fr": "Ce champ est requis en raison d'une réponse présente dans un autre champ.\nCe champ a une longueur maximale de 1000 caractères.\n"
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "os_comments_client_interaction_fr",
+          "character_limit": 1000,
+          "obligation": {
+            "en": "Optional",
+            "fr": "Facultatif"
+          },
+          "label": {
+            "en": "Comments on Online Services - Client Interaction Points (French)",
+            "fr": "Commentaires sur les services électroniques - points d'interaction avec les clients (français)"
+          },
+          "description": {
+            "en": "Comments related to online services - client Interaction points (French). For any interaction points reported as \"Not Applicable\", comments have to be provided.\n",
+            "fr": "Commentaires en français en lien avec les services en ligne - points d'interaction avec les clients (français). Pour tout point d'interaction signalés comme « sans objet », des commentaires doivent être fournis.\n"
+          },
+          "validation": {
+            "en": "This field is required due to a response in a different field.\nThis field has a maximum length of 1000 characters.\n",
+            "fr": "Ce champ est requis en raison d'une réponse présente dans un autre champ.\nCe champ a une longueur maximale de 1000 caractères.\n"
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "last_service_review",
+          "obligation": {
+            "en": "Optional",
+            "fr": "Facultatif"
+          },
+          "label": {
+            "en": "Year of last service review",
+            "fr": "Année du dernier examen de service"
+          },
+          "description": {
+            "en": "Identifies the fiscal year when the most recent service review was completed.",
+            "fr": "Identifie l’exercice financier lors duquel le plus récent examen de service a été mené."
+          },
+          "datastore_type": "text",
+          "choice_count": 25
+        },
+        {
+          "id": "last_service_improvement",
+          "obligation": {
+            "en": "Optional",
+            "fr": "Facultatif"
+          },
+          "label": {
+            "en": "Year of last service improvement based on client feedback",
+            "fr": "Année de la dernière amélioration du service sur la base de la rétroaction du client"
+          },
+          "description": {
+            "en": "Identifies the most recent year in which this service was improved based on client feedback.",
+            "fr": "Identifie l'exercice financier la plus récente au cours de laquelle ce service a été amélioré en fonction des commentaires des clients."
+          },
+          "datastore_type": "text",
+          "choice_count": 25
+        },
+        {
+          "id": "sin_usage",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Use of Social Insurance Number",
+            "fr": "Utilisation du numéro d'assurance sociale (NAS)"
+          },
+          "description": {
+            "en": "Identifies whether the Social Insurance Number (SIN) is used in the delivery of the service.",
+            "fr": "Indique si le numéro d'assurance sociale (NAS) est utilisé dans la prestation du service."
+          },
+          "validation": {
+            "en": "This field must not be empty.",
+            "fr": "Ce champ ne doit pas être vide."
+          },
+          "datastore_type": "text",
+          "choice_count": 3
+        },
+        {
+          "id": "cra_bn_identifier_usage",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Use of CRA Business Number as Standard Identifier",
+            "fr": "Utilisation du numéro d’entreprise de l’ARC en tant qu’identificateur standard"
+          },
+          "description": {
+            "en": "Identifies whether the Canada Revenue Agency's Business Number is used in the delivery of the service as the standard identifier in accordance with the Data reference standard on the business number.\n",
+            "fr": "Indique si le numéro d’entreprise de l’Agence du revenu du Canada est utilisé dans la prestation des services en tant qu’identificateur standard, conformément à la Norme référentielle relative aux données sur le numéro d’entreprise.\n"
+          },
+          "validation": {
+            "en": "This field must not be empty.",
+            "fr": "Ce champ ne doit pas être vide."
+          },
+          "datastore_type": "text",
+          "choice_count": 3
+        },
+        {
+          "id": "num_phone_enquiries",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Number of Telephone Enquiries Received",
+            "fr": "Nombre de demandes de renseignements reçues par telephone"
+          },
+          "description": {
+            "en": "Identifies the number of enquiries about the service received in this fiscal year. Note: This field represents only requests for information about the service. Report service requests or applications submitted by telephone in the \"telephone applications\" field. A value of 0 means no calls were received; ND means no data was collected; and NA means it is not possible to submit telephone enquiries.\nNote: This field is not included in 'Total Applications'.\n",
+            "fr": "Indique le nombre de demandes d'information reçues par téléphone au cours d'un exercice financier. Remarque: Ce champ indique seulement le nombre de demandes d'information au sujet d'un service. Servez-vous du champ « Nombre de demandes soumises par téléphone » pour les demandes de prestation de service reçues par téléphone. La valeur 0 signifie qu'aucun appel n'a été reçu, ND signifie qu'aucune donnée n'est disponible, et NA signifie qu'il n'est pas possible de présenter des demandes d’information par téléphone.\nRemarque : Ce champ n'est pas inclus dans « Nombre total de demandes ».\n"
+          },
+          "validation": {
+            "en": "This field must not be empty.\nThis field must be either a number, \"NA\", or \"ND\"\nThis value must not be negative.\n",
+            "fr": "Ce champ ne doit pas être vide.\nCe champ doit contenir soit un chiffre, soit « NA », soit « ND ».\nCette valeur ne doit pas être négative.\n"
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "num_applications_by_phone",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Number of Applications Submitted by Telephone",
+            "fr": "Nombre de demandes soumises par téléphone"
+          },
+          "description": {
+            "en": "Identifies the number of applications submitted in a fiscal year for the telephone channel. A value of 0 means no applications were received for this channel; ND means there is no data collected for this channel; and NA means no applications can be submitted through this channel.\n",
+            "fr": "Indique le nombre de demandes de prestation de service reçues par téléphone au cours d'un exercice. La valeur 0 signifie qu'aucune demande n'a été reçue via ce mode de prestation, aucune donnée (ND) signifie qu'aucune donnée n’est disponible, et sans objet (NA) signifie que le service n’est pas offert au moyen de ce mode de prestation.\n"
+          },
+          "validation": {
+            "en": "This field must not be empty.\nThis field must be either a number, \"NA\", or \"ND\"\nThis value must not be negative.\n",
+            "fr": "Ce champ ne doit pas être vide.\nCe champ doit contenir soit un chiffre, soit « NA », soit « ND ».\nCette valeur ne doit pas être négative.\n"
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "num_website_visits",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Number of Website Visits",
+            "fr": "Nombre de visites sur le site Web"
+          },
+          "description": {
+            "en": "Identifies the number of visits to the service's website in a fiscal year. A value of 0 means there were no visits; ND means there is no data collected website visits; and NA means there is no associated public website.\nNote: This field is not included in 'Total Applications'.\n",
+            "fr": "Indique le nombre de de visites au site Web du service lors d'un exercice financier. La valeur 0 signifie qu'aucune visite au site Web n’a été enregistrée, aucune donnée (ND) signifie que le nombre de visites n’est pas mesuré, et sans objet (NA) signifie qu’il n’y a aucune site web à visiter.\nRemarque : Ce champ n'est pas inclus dans « Nombre total de demandes ».\n"
+          },
+          "validation": {
+            "en": "This field must not be empty.\nThis field must be either a number, \"NA\", or \"ND\"\nThis value must not be negative.\n",
+            "fr": "Ce champ ne doit pas être vide.\nCe champ doit contenir soit un chiffre, soit « NA », soit « ND ».\nCette valeur ne doit pas être négative.\n"
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "num_applications_online",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Number of Applications Submitted Online",
+            "fr": "Nombre de demandes soumises en ligne"
+          },
+          "description": {
+            "en": "Identifies the number of applications submitted in a fiscal year for the online channel. A value of 0 means no applications were received for this channel; ND means there is no data collected for this channel; and NA means no applications can be submitted through this channel. Examples include applications received via a website/online portal, via web forms (e.g., MyPayEnquiry) and digitally administered audits and evaluations.\n",
+            "fr": "Indique le nombre de demandes de prestation de service reçues en ligne au cours d'un exercice. La valeur 0 signifie qu'aucune demande n'a été reçue via ce mode de prestation, aucune donnée (ND) signifie qu'aucune donnée n’est disponible, et sans objet (NA) signifie que le service n’est pas offert au moyen de ce mode de prestation. Il s'agit par exemple des demandes reçues sur un site Web ou un portail en ligne, sur des formulaires Web (p. ex., Ma demande de paye) et des vérifications et évaluations administrés numériquement.\n"
+          },
+          "validation": {
+            "en": "This field must not be empty.\nThis field must be either a number, \"NA\", or \"ND\"\nThis value must not be negative.\n",
+            "fr": "Ce champ ne doit pas être vide.\nCe champ doit contenir soit un chiffre, soit « NA », soit « ND ».\nCette valeur ne doit pas être négative.\n"
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "num_applications_in_person",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Number of Applications Submitted In-Person",
+            "fr": "Nombre de demandes soumises en personne"
+          },
+          "description": {
+            "en": "Identifies number of applications received in-person in a fiscal year for the service. A value of 0 means no applications were received for this channel; ND means there is no data collected for this channel; and NA means no applications can be submitted through this channel. Examples include in-person applications, volume of inspections, audits, evaluations, etc.\n",
+            "fr": "Indique le nombre de demandes de prestation de service reçues en personne au cours d'un exercice. La valeur 0 signifie qu'aucune demande n'a été reçue via ce mode de prestation, aucune donnée (ND) signifie qu'aucune donnée n’est disponible, et sans objet (NA) signifie que le service n’est pas offert au moyen de ce mode de prestation. Il s’agit par exemple des demandes en personne, du volume d'inspections, d'audits, d'évaluations, etc.\n"
+          },
+          "validation": {
+            "en": "This field must not be empty.\nThis field must be either a number, \"NA\", or \"ND\"\nThis value must not be negative.\n",
+            "fr": "Ce champ ne doit pas être vide.\nCe champ doit contenir soit un chiffre, soit « NA », soit « ND ».\nCette valeur ne doit pas être négative.\n"
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "num_applications_by_mail",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Number of Applications Submitted via Postal Mail",
+            "fr": "Nombre de demandes soumises par la poste"
+          },
+          "description": {
+            "en": "Identifies the number of applications received through postal mail in a fiscal year. A value of 0 means no applications were received for this channel; ND means there is no data collected for this channel; and NA means no applications can be submitted through this channel.\n",
+            "fr": "Indique le nombre de demandes de prestation de service reçues par la poste au cours d'un exercice. La valeur 0 signifie qu'aucune demande n'a été reçue via ce mode de prestation, aucune donnée (ND) signifie qu'aucune donnée n’est disponible, et sans objet (NA) signifie que le service n’est pas offert au moyen de ce mode de prestation.\n"
+          },
+          "validation": {
+            "en": "This field must not be empty.\nThis field must be either a number, \"NA\", or \"ND\"\nThis value must not be negative.\n",
+            "fr": "Ce champ ne doit pas être vide.\nCe champ doit contenir soit un chiffre, soit « NA », soit « ND ».\nCette valeur ne doit pas être négative.\n"
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "num_applications_by_email",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Number of Applications Submitted by Email",
+            "fr": "Nombre de demandes soumises par courriel"
+          },
+          "description": {
+            "en": "Identifies the number of applications received through email in a fiscal year for the service. A value of 0 means no applications were received for this channel; ND means there is no data collected for this channel; and NA means no applications can be submitted through this channel.\nExamples include applications received by email and audits, reviews and evaluations by email.\n",
+            "fr": "Indique le nombre de demandes de prestation de service reçues par courriel au cours d'un exercice. La valeur 0 signifie qu'aucune demande n'a été reçue via ce mode de prestation, aucune donnée (ND) signifie qu'aucune donnée n’est disponible, et sans objet (NA) signifie que le service n’est pas offert au moyen de ce mode de prestation.\nIl s'agit par exemple des demandes reçues par courriel et des audits, examens et évaluations par courriel.\n"
+          },
+          "validation": {
+            "en": "This field must not be empty.\nThis field must be either a number, \"NA\", or \"ND\"\nThis value must not be negative.\n",
+            "fr": "Ce champ ne doit pas être vide.\nCe champ doit contenir soit un chiffre, soit « NA », soit « ND ».\nCette valeur ne doit pas être négative.\n"
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "num_applications_by_fax",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Number of Applications Submitted by Fax",
+            "fr": "Nombre de demandes soumises par fax"
+          },
+          "description": {
+            "en": "Identifies the number of applications received through fax in a fiscal year for the service. A value of 0 means no applications were received for this channel; ND means there is no data collected for this channel; and NA means no applications can be submitted through this channel.\n",
+            "fr": "Indique le nombre de demandes de prestation de service reçues par télécopieur au cours d'un exercice. La valeur 0 signifie qu'aucune demande n'a été reçue via ce mode de prestation, aucune donnée (ND) signifie qu'aucune donnée n’est disponible, et sans objet (NA) signifie que le service n’est pas offert au moyen de ce mode de prestation.\n"
+          },
+          "validation": {
+            "en": "This field must not be empty.\nThis field must be either a number, \"NA\", or \"ND\"\nThis value must not be negative.\n",
+            "fr": "Ce champ ne doit pas être vide.\nCe champ doit contenir soit un chiffre, soit « NA », soit « ND ».\nCette valeur ne doit pas être négative.\n"
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "num_applications_by_other",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Number of Applications Submitted via other channels",
+            "fr": "Nombre de demandes soumises par les autre modes de prestations"
+          },
+          "description": {
+            "en": "Identifies the number of applications received through other channels not listed in a fiscal year for the service. A value of 0 means no applications were received for this channel; ND means there is no data collected for this channel; and NA means no applications can be submitted through this channel.\nIf service volumes are not tracked by channel, please include service volumes in this field. As well, please include in this field volumes for funding allocations without applications or other services that do not require applications (e.g. medical screening at intake, investigations, hearings, advice) or which do not disaggregate service demand by delivery channel.\nNote: Volumes reported in each channel should be mutually exclusive. Do not report the same application or interaction in more than one channel.\n",
+            "fr": "Indique le nombre de demandes de prestation de service reçues par des modes de prestations qui ne sont pas énumérés dans ce gabarit au cours d'un exercice. La valeur 0 signifie qu'aucune demande n'a été reçue via ce mode de prestation, aucune donnée (ND) signifie qu'aucune donnée n’est disponible, et sans objet (NA) signifie que le service n’est pas offert au moyen de ce mode de prestation.\nSi les volumes de service ne sont pas suivis par canal, veuillez inclure les volumes de service dans ce champ. De même, veuillez inclure dans ce champ les volumes d'allocations de fonds sans demandes ou d'autres services qui ne nécessitent pas de demandes (p. ex., examen médical à l'admission, enquêtes, audiences, conseils) ou qui ne ventilent pas la demande de service par canal de prestation.\nRemarque : les volumes déclarés dans chaque canal doivent s'exclure mutuellement. Ne déclarez pas la même demande ou interaction dans plus d'un canal.\n"
+          },
+          "validation": {
+            "en": "This field must not be empty.\nThis field must be either a number, \"NA\", or \"ND\"\nThis value must not be negative.\n",
+            "fr": "Ce champ ne doit pas être vide.\nCe champ doit contenir soit un chiffre, soit « NA », soit « ND ».\nCette valeur ne doit pas être négative.\n"
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "num_applications_total",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Total Number of Applications",
+            "fr": "Nombre total de demandes soumises"
+          },
+          "description": {
+            "en": "Identifies the total number of applications submitted in a fiscal year for all application channels.",
+            "fr": "Indique le nombre total de demandes reçues au cours d'un exercice pour tous les modes de prestation."
+          },
+          "datastore_type": "int",
+          "choice_count": 0
+        },
+        {
+          "id": "special_remarks_en",
+          "character_limit": 2000,
+          "obligation": {
+            "en": "This field is mandatory if there is an amount reported under “Number of applications submitted via other channels”",
+            "fr": "Ce champ est requis s’il y a un montant rapporté sous le champ « Nombre de demandes soumises par les autres modes de prestation »"
+          },
+          "label": {
+            "en": "Special Remarks (English)",
+            "fr": "Remarques spéciales (anglais)"
+          },
+          "description": {
+            "en": "Provides additional space for comments related to volumetrics information. Please refer to associated Field ID, where applicable. For comments related to other fields, departments can create and publish an explanatory note on their website with a link to the GC Service Inventory dataset. This field is mandatory if there is an amount reported under “Number of applications submitted via other channels”\n",
+            "fr": "Fournit de l'espace supplémentaire pour les commentaires relatifs aux renseignements sur les volumes. Veuillez vous reporter au code d'identification du champ, s'il y a lieu. Pour les commentaires relatifs à d'autres champs, les ministères peuvent publier une note explicative sur leur site Web suivi d'un lien vers l'ensemble de données du Répertoire des services du GC. Ce champ est requis s’il y a un montant rapporté sous le champ « Nombre de demandes soumises par les autres modes de prestation »\n"
+          },
+          "validation": {
+            "en": "This field has a maximum length of 2000 characters.",
+            "fr": "Ce champ a une longueur maximale de 2000 caractères."
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "special_remarks_fr",
+          "character_limit": 2000,
+          "obligation": {
+            "en": "This field is mandatory if there is an amount reported under “Number of applications submitted via other channels”",
+            "fr": "Ce champ est requis s’il y a un montant rapporté sous le champ « Nombre de demandes soumises par les autres modes de prestation »"
+          },
+          "label": {
+            "en": "Special Remarks (French)",
+            "fr": "Remarques spéciales (français)"
+          },
+          "description": {
+            "en": "Provides additional space for comments related to volumetrics information. Please refer to associated Field ID, where applicable. For comments related to other fields, departments can create and publish an explanatory note on their website with a link to the GC Service Inventory dataset. This field is mandatory if there is an amount reported under “Number of applications submitted via other channels”\n",
+            "fr": "Fournit de l'espace supplémentaire pour les commentaires relatifs aux renseignements sur les volumes. Veuillez vous reporter au code d'identification du champ, s'il y a lieu. Pour les commentaires relatifs à d'autres champs, les ministères peuvent publier une note explicative sur leur site Web suivi d'un lien vers l'ensemble de données du Répertoire des services du GC. Ce champ est requis s’il y a un montant rapporté sous le champ « Nombre de demandes soumises par les autres modes de prestation »\n"
+          },
+          "validation": {
+            "en": "This field has a maximum length of 2000 characters.",
+            "fr": "Ce champ a une longueur maximale de 2000 caractères."
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "service_uri_en",
+          "character_limit": 1500,
+          "obligation": {
+            "en": "Optional",
+            "fr": "Facultatif"
+          },
+          "label": {
+            "en": "URL to Service (English)",
+            "fr": "URL du service (anglais)"
+          },
+          "description": {
+            "en": "Identifies the departmental webpage where the service is described and/or accessed.",
+            "fr": "Indique la page Web du ministère où le service est décrit ou peut être lancé."
+          },
+          "validation": {
+            "en": "This field has a maximum length of 1500 characters.",
+            "fr": "Ce champ a une longueur maximale de 1500 caractères."
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "service_uri_fr",
+          "character_limit": 1500,
+          "obligation": {
+            "en": "Optional",
+            "fr": "Facultatif"
+          },
+          "label": {
+            "en": "URL to Service (French)",
+            "fr": "URL du service (français)"
+          },
+          "description": {
+            "en": "Identifies the departmental webpage where the service is described and/or accessed.",
+            "fr": "Indique la page Web du ministère où le service est décrit ou peut être lancé."
+          },
+          "validation": {
+            "en": "This field has a maximum length of 1500 characters.",
+            "fr": "Ce champ a une longueur maximale de 1500 caractères."
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "owner_org",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Department ID",
+            "fr": "ID du ministère"
+          },
+          "description": {
+            "en": "Identifies the applied ID of the department or agency.",
+            "fr": "Identifie le code d'usage du ministère ou de l'organisme."
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "owner_org_title",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Department Name",
+            "fr": "Nom du ministère"
+          },
+          "description": {
+            "en": "Identifies the applied title of the department or agency.",
+            "fr": "Identifie le titre d'usage du ministère ou de l'organisme."
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        }
+      ],
+      "recombinant_key": [
+        "fiscal_yr",
+        "service_id"
+      ],
+      "aggregate_key": [
+        "owner_org",
+        "fiscal_yr",
+        "service_id"
+      ]
+    },
+    {
+      "resource_name": "service-std",
+      "title": {
+        "en": "Service Standards & Performance Results",
+        "fr": "Normes de service et résultats de rendement"
+      },
+      "fields": [
+        {
+          "id": "fiscal_yr",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Fiscal Year",
+            "fr": "Exercice financier"
+          },
+          "description": {
+            "en": "Identifies the fiscal year (April 1 to March 31) during which service activities took place. For example, records for fiscal year 2023-2024 should include applications received from April 1, 2023, to March 31, 2024.\n",
+            "fr": "Indique l'exercice financier (1 avril au 31 mars) durant lequel les activités du service ont eu lieu. Par exemple, les données pour l’exercice financier 2023-2024 devraient inclure les demandes de service qui ont été reçues entre le 1er avril 2023 et le 31 mars 2024.\n"
+          },
+          "validation": {
+            "en": "This field must not be empty.",
+            "fr": "Ce champ ne doit pas être vide."
+          },
+          "datastore_type": "text",
+          "choice_count": 13
+        },
+        {
+          "id": "service_id",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Service ID Number",
+            "fr": "Numéro d'identification du service"
+          },
+          "description": {
+            "en": "The unique number assigned to a service in the inventory to make it easier to refer to specific services.",
+            "fr": "Le numéro unique attribué à un service dans le répertoire afin de faciliter le référencement à des services précis."
+          },
+          "validation": {
+            "en": "This field must not be empty.\nThis field cannot contain commas.\n",
+            "fr": "Ce champ ne doit pas être vide.\nCe champ ne peut pas contenir de virgules.\n"
+          },
+          "datastore_type": "text",
+          "choice_count": 2673
+        },
+        {
+          "id": "service_name_en",
+          "character_limit": 350,
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Service Name (English)",
+            "fr": "Nom du service (anglais)"
+          },
+          "description": {
+            "en": "Identifies the official name of the service.",
+            "fr": "Indique le nom officiel du service."
+          },
+          "validation": {
+            "en": "This field must not be empty.\nThis field has a maximum length of 350 characters.\n",
+            "fr": "Ce champ ne doit pas être vide.\nCe champ a une longueur maximale de 350 caractères.\n"
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "service_name_fr",
+          "character_limit": 350,
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Service Name (French)",
+            "fr": "Nom du service (français)"
+          },
+          "description": {
+            "en": "Identifies the official name of the service.",
+            "fr": "Indique le nom officiel du service."
+          },
+          "validation": {
+            "en": "This field must not be empty.\nThis field has a maximum length of 350 characters.\n",
+            "fr": "Ce champ ne doit pas être vide.\nCe champ a une longueur maximale de 350 caractères.\n"
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "service_standard_id",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Service Standard ID",
+            "fr": "Numéro d'identification de la norme relative aux services"
+          },
+          "description": {
+            "en": "Identifies the unique number assigned to each service standard for that service. Makes it easier for reference purposes as one service may have multiple standards.\n",
+            "fr": "Indique le numéro unique attribué à chaque norme de service pour ce service. Facilite le référencement, car un service peut avoir de multiples normes.\n"
+          },
+          "validation": {
+            "en": "This field must not be empty.\nThis field cannot contain commas.\n",
+            "fr": "Ce champ ne doit pas être vide.\nCe champ ne peut pas contenir de virgules.\n"
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "service_standard_en",
+          "character_limit": 500,
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Service Standard (English)",
+            "fr": "Norme relative aux services (anglais)"
+          },
+          "description": {
+            "en": "Identifies the service standard related to a particular service. See Guideline on Service and Digital for format to be used when defining service standards.\n",
+            "fr": "Indique la norme de service ayant trait à un service en particulier. Voir la Ligne directrice sur les services et le numérique afin de connaître le format à utiliser pour définir une norme de service.\n"
+          },
+          "validation": {
+            "en": "This field must not be empty.\nThis field has a maximum length of 500 characters.\n",
+            "fr": "Ce champ ne doit pas être vide.\nCe champ a une longueur maximale de 500 caractères.\n"
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "service_standard_fr",
+          "character_limit": 500,
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Service Standard (French)",
+            "fr": "Norme relative aux services (français)"
+          },
+          "description": {
+            "en": "Identifies the service standard related to a particular service. See Guideline on Service and Digital for format to be used when defining service standards.\n",
+            "fr": "Indique la norme de service ayant trait à un service en particulier. Voir la Ligne directrice sur les services et le numérique afin de connaître le format à utiliser pour définir les normes relatives aux services.\n"
+          },
+          "validation": {
+            "en": "This field must not be empty.\nThis field has a maximum length of 500 characters.\n",
+            "fr": "Ce champ ne doit pas être vide.\nCe champ a une longueur maximale de 500 caractères.\n"
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "type",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Service Standard Type",
+            "fr": "Type de norme relative aux services"
+          },
+          "description": {
+            "en": "Identifies the type of service standard as defined in the Guideline on Service and Digital. Access: a commitment outlining the ease and convenience the client should experience when attempting to access a service. Accuracy: a commitment stipulating that the client will receive a service that is up to date, free of errors, and complete. Timeliness: a commitment stating how long the client should expect to wait to receive a service once the service has been accessed.\n",
+            "fr": "Indique le type de norme de service défini selon la Ligne directrice sur les services et le numérique. Accès : un engagement qui décrit la facilité et la convivialité que devrait connaître le client lorsqu'il essaie d'accéder à un service. Exactitude : un engagement qui stipule que le client recevra un service complet et à jour qui est exempt d'erreurs. Délai : un engagement qui indique le temps d'attente que devrait connaître le client pour recevoir un service une fois qu'il y a accédé.\n"
+          },
+          "validation": {
+            "en": "This field must not be empty.",
+            "fr": "Ce champ ne doit pas être vide."
+          },
+          "datastore_type": "text",
+          "choice_count": 4
+        },
+        {
+          "id": "channel",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Service Standard Channel",
+            "fr": "Mode de prestation de la norme de service"
+          },
+          "description": {
+            "en": "Identifies the service channel to which the service standard applies",
+            "fr": "Indique le mode de prestation de service à laquelle s'applique la norme de service"
+          },
+          "validation": {
+            "en": "This field must not be empty.",
+            "fr": "Ce champ ne doit pas être vide."
+          },
+          "datastore_type": "text",
+          "choice_count": 7
+        },
+        {
+          "id": "channel_comments_en",
+          "character_limit": 1500,
+          "obligation": {
+            "en": "Optional",
+            "fr": "Facultatif"
+          },
+          "label": {
+            "en": "Comments on the service standard channel (English)",
+            "fr": "Commentaires sur le mode de prestation de la norme de service (anglais)"
+          },
+          "description": {
+            "en": "Comments related to the service standard channel and provides explanation of \"Other\" channel selection.",
+            "fr": "Commentaires en lien au mode de prestation de la norme de service et fournit une explication de la sélection des modes de prestation « Autre »."
+          },
+          "validation": {
+            "en": "This field has a maximum length of 1500 characters.",
+            "fr": "Ce champ a une longueur maximale de 1500 caractères."
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "channel_comments_fr",
+          "character_limit": 1500,
+          "obligation": {
+            "en": "Optional",
+            "fr": "Facultatif"
+          },
+          "label": {
+            "en": "Comments on the service standard channel (French)",
+            "fr": "Commentaires sur le mode de prestation de la norme de service (Francais)"
+          },
+          "description": {
+            "en": "Comments related to the service standard channel and provides explanation of \"Other\" channel selection.",
+            "fr": "Commentaires en lien au mode de prestation de la norme de service et fournit une explication de la sélection des modes de prestation « Autre »."
+          },
+          "validation": {
+            "en": "This field has a maximum length of 1500 characters.",
+            "fr": "Ce champ a une longueur maximale de 1500 caractères."
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "target",
+          "obligation": {
+            "en": "Optional",
+            "fr": "Facultatif"
+          },
+          "label": {
+            "en": "Service Standard Target",
+            "fr": "Cible de la norme relative aux services"
+          },
+          "description": {
+            "en": "The frequency that the organization expects to meet service standard (reported as a percentage).",
+            "fr": "Fréquence à laquelle l'organisation s'attend à respecter la norme de service (exprimée en pourcentage)."
+          },
+          "validation": {
+            "en": "This field must be a single number between 0 and 1 representing a percentage.",
+            "fr": "Ce champ doit contenir un seul chiffre entre 0 et 1 représentant un pourcentage."
+          },
+          "datastore_type": "numeric",
+          "choice_count": 0
+        },
+        {
+          "id": "volume_meeting_target",
+          "obligation": {
+            "en": "Optional",
+            "fr": "Facultatif"
+          },
+          "label": {
+            "en": "Business Volume That Met Service Standard Target",
+            "fr": "Volume d'activités qui respectent la norme de service"
+          },
+          "description": {
+            "en": "Identifies the number of final outputs issued appropriate to the service (eg. payments issued, requests completed, etc) during the fiscal year that met a particular service standard target for a service. Blank indicates no information available, while 0 indicates that no final outputs issued met service standard targets. Note, this value must be less than or equal to the Total Volume.\n",
+            "fr": "Indique le nombre total d'opérations de service effectuées (p. ex. les paiements émis, les demandes traitées, etc.) au cours de l'exercice auxquelles s'appliquent cette norme de service. Un champ vide indique qu'aucune information n'est disponible, tandis que 0 indique qu'aucune opération n'a été effectuée. Remarque : cette valeur doit être inférieure ou égale au volumes totaux.\n"
+          },
+          "validation": {
+            "en": "This value must not be negative.\nVolume Meeting Target can not exceed Total Volume.\n",
+            "fr": "Cette valeur ne doit être négative.\nLes volumes atteignant la cible ne peuvent pas dépasser le volume total.\n"
+          },
+          "datastore_type": "bigint",
+          "choice_count": 0
+        },
+        {
+          "id": "total_volume",
+          "obligation": {
+            "en": "Optional",
+            "fr": "Facultatif"
+          },
+          "label": {
+            "en": "Total Volume",
+            "fr": "Volumes totaux"
+          },
+          "description": {
+            "en": "Identifies the total number of final outputs issued appropriate to the service (eg. payments issued, requests completed, etc) during the fiscal year. Blank indicates no information available, while 0 indicates no final outputs issued.\n",
+            "fr": "Indique le nombre total d'opérations de service effectuées (p. ex. les paiements émis, les demandes traitées, etc.) au cours de l'exercice auxquelles s'appliquent cette norme de service. Un champ vide indique qu'aucune information n'est disponible, tandis que 0 indique qu'aucune opération n'a été effectuée.\n"
+          },
+          "validation": {
+            "en": "This value must not be negative.",
+            "fr": "Cette valeur ne doit pas être négative."
+          },
+          "datastore_type": "bigint",
+          "choice_count": 0
+        },
+        {
+          "id": "performance",
+          "obligation": {
+            "en": "Optional",
+            "fr": "Facultatif"
+          },
+          "label": {
+            "en": "Performance",
+            "fr": "Performance"
+          },
+          "description": {
+            "en": "Identifies the result achieved for this service standard. This is the \"Business Volume That Met Service Standard Target\" divided by the \"Total Volume\".\n",
+            "fr": "Indique le rendement de cette norme de service. Il s'agit du « Volume d'activités qui respectent la norme de service » divisé par le « Volumes totaux ».\n"
+          },
+          "datastore_type": "numeric",
+          "choice_count": 0
+        },
+        {
+          "id": "comments_en",
+          "character_limit": 2000,
+          "obligation": {
+            "en": "Optional",
+            "fr": "Facultatif"
+          },
+          "label": {
+            "en": "Comments on the service standard in general (English)",
+            "fr": "Commentaires sur la norme de service en général (anglais)"
+          },
+          "description": {
+            "en": "Comments related to the service standard in general.",
+            "fr": "Commentaires en lien à la norme de service en general."
+          },
+          "validation": {
+            "en": "This field has a maximum length of 2000 characters.",
+            "fr": "Ce champ a une longueur maximale de 2000 caractères."
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "comments_fr",
+          "character_limit": 2000,
+          "obligation": {
+            "en": "Optional",
+            "fr": "Facultatif"
+          },
+          "label": {
+            "en": "Comments on the service standard in general (French)",
+            "fr": "Commentaires sur la norme de service en général (français)"
+          },
+          "description": {
+            "en": "Comments related to the service standard in general.",
+            "fr": "Commentaires en lien à la norme de service en general."
+          },
+          "validation": {
+            "en": "This field has a maximum length of 2000 characters.",
+            "fr": "Ce champ a une longueur maximale de 2000 caractères."
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "target_met",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Was the target met",
+            "fr": "La cible était-elle atteinte"
+          },
+          "datastore_type": "text",
+          "choice_count": 3
+        },
+        {
+          "id": "standards_targets_uri_en",
+          "character_limit": 1500,
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "URL to Service Standards and Targets (English)",
+            "fr": "URL vers les normes de service et les cibles (anglais)"
+          },
+          "description": {
+            "en": "Identifies the departmental webpage (Canada.ca) where the service standards and targets are published.",
+            "fr": "Indique la page Web ministérielle (Canada.ca) où les normes de service et les cibles sont publiées."
+          },
+          "validation": {
+            "en": "This field must not be empty.\nThis field has a maximum length of 1500 characters.\n",
+            "fr": "Ce champ ne doit pas être vide.\nCe champ a une longueur maximale de 1500 caractères.\n"
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "standards_targets_uri_fr",
+          "character_limit": 1500,
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "URL to Service Standards and Targets (French)",
+            "fr": "URL vers les normes de service et les cibles (français)"
+          },
+          "description": {
+            "en": "Identifies the departmental webpage (Canada.ca) where the service standards and targets are published.",
+            "fr": "Indique la page Web ministérielle (Canada.ca) où les normes de service et les cibles sont publiées."
+          },
+          "validation": {
+            "en": "This field must not be empty.\nThis field has a maximum length of 1500 characters.\n",
+            "fr": "Ce champ ne doit pas être vide.\nCe champ a une longueur maximale de 1500 caractères.\n"
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "performance_results_uri_en",
+          "character_limit": 1500,
+          "obligation": {
+            "en": "Optional",
+            "fr": "Facultatif"
+          },
+          "label": {
+            "en": "URL to Real-Time Performance Results (English)",
+            "fr": "URL aux résultats de rendement en temps réel (anglais)"
+          },
+          "description": {
+            "en": "Identifies the departmental webpage where the real-time performance results for a service are published.",
+            "fr": "Indique la page Web (en anglais) sur laquelle les résultats de rendement en temps réel d'un service sont publiés."
+          },
+          "validation": {
+            "en": "This field has a maximum length of 1500 characters.",
+            "fr": "Ce champ a une longueur maximale de 1500 caractères."
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "performance_results_uri_fr",
+          "character_limit": 1500,
+          "obligation": {
+            "en": "Optional",
+            "fr": "Facultatif"
+          },
+          "label": {
+            "en": "URL to Real-Time Performance Results (French)",
+            "fr": "URL aux résultats de rendement en temps réel (français)"
+          },
+          "description": {
+            "en": "Identifies the departmental webpage where the real-time performance results for a service are published.",
+            "fr": "Indique la page Web (en anglais) sur laquelle les résultats de rendement en temps réel d'un service sont publiés."
+          },
+          "validation": {
+            "en": "This field has a maximum length of 1500 characters.",
+            "fr": "Ce champ a une longueur maximale de 1500 caractères."
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "owner_org",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Department ID",
+            "fr": "ID du ministère"
+          },
+          "description": {
+            "en": "Identifies the applied ID of the department or agency.",
+            "fr": "Identifie l’ID d'usage du ministère ou de l'organisme."
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        },
+        {
+          "id": "owner_org_title",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Department Name",
+            "fr": "Nom du ministère"
+          },
+          "description": {
+            "en": "Identifies the applied title of the department or agency.",
+            "fr": "Identifie le titre d'usage du ministère ou de l'organisme."
+          },
+          "datastore_type": "text",
+          "choice_count": 0
+        }
+      ],
+      "recombinant_key": [
+        "fiscal_yr",
+        "service_id",
+        "service_standard_id"
+      ],
+      "aggregate_key": [
+        "owner_org",
+        "fiscal_yr",
+        "service_id",
+        "service_standard_id"
+      ]
+    }
+  ]
+}

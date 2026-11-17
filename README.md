@@ -546,3 +546,13 @@ through CKAN, which prevents English and French entries from being split during 
 Schedule I institutions always write to the registry's stable `ati-schedule-i-*` content folder,
 including when these legacy operational refresh tools are used. Numeric content folders remain
 only for operational-directory entities that do not have a Schedule I registry counterpart.
+
+### Service Inventory in the network
+
+Services now connect institutions to their reported programs and service standards.
+AIA service IDs are joined literally within a uniquely matched institution.
+Reporting-year observations retain all 70 supplied fields as expandable attributes.
+See the [Service Inventory field inventory, join ledger and next steps](docs/SERVICE_INVENTORY_JOINS.md),
+and the [complete interactive model](https://patlittle.github.io/pibs/data-model.html).
+Normalized owning inputs live in `data/service_inventory/`; the import manifest
+records their source URLs and checksums. AIA records remain externally hosted.

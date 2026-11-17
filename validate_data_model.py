@@ -21,7 +21,7 @@ def main() -> None:
         if not path.exists():
             errors.append(f"{name}: missing {path}")
             continue
-        frame = pd.read_csv(path, dtype=str).fillna("")
+        frame = pd.read_csv(path, dtype=str, keep_default_na=False).fillna("")
         frames[name] = frame
         key = table.get("primary_key", [])
         missing_columns = [column for column in key if column not in frame.columns]

@@ -18,6 +18,7 @@ external AIA field shapes, lazy attributes and evidence shards.
 The full schema distinguishes:
 
 - source records: institutions, institutional/standard PIBs and classes;
+- Service Inventory services, programs, standards and annual join observations;
 - assessments: organization inventories, PIAs, language sources and citations;
 - external AIA metadata, survey answers, translations and calculated results;
 - controlled vocabularies and supporting derived My Info tables;
@@ -42,7 +43,7 @@ were separate navigation systems. The new design follows the data's actual shape
 
 1. **Find one record.** Search bilingual names, identifiers and recorded aliases.
    PIA/EFVP, PIB/FRP and AIA/EIA also narrow by familiar record type. Three curated
-   starting stories provide examples. The landing landscape describes the six
+   starting stories provide examples. The landing landscape describes the connected
    real record types; its type-level arrangement is a model illustration, not a
    claim of a direct edge between every pair of records.
 2. **Read its connections.** Keep the selected record at the top. Group all its
@@ -163,3 +164,15 @@ The browser checks use Playwright/Chromium and a synthetic AIA fixture rather
 than copying source rows into tests. They cover evidence, traversal, two-step
 paths, URL/language restoration, collapsed attributes, display toggling, mobile
 width, unavailable sources and the complete searchable model diagram.
+
+## Service Inventory extension
+
+Service, program and service-standard nodes use the same focused navigation,
+bilingual search, source evidence and collapsed information panel. The Study
+Permit starting story connects an AIA’s literal service ID to its reported program
+and standards. Annual fields remain nested observations and every program/standard
+edge retains its reporting year. No assessment risk level is propagated to services.
+
+The [Service Inventory field inventory and join ledger](SERVICE_INVENTORY_JOINS.md)
+documents all 70 fields, scoped identities, exact institution matching, invalid
+program references, code-list discrepancies and the next joinable datasets.

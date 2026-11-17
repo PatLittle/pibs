@@ -1,0 +1,562 @@
+[
+  {
+    "resource": "service",
+    "field": "fiscal_yr",
+    "label_en": "Fiscal Year",
+    "label_fr": "Exercice financier",
+    "type": "text",
+    "treatment": "annual observation key and temporal join guard"
+  },
+  {
+    "resource": "service",
+    "field": "service_id",
+    "label_en": "Service ID Number",
+    "label_fr": "Numéro d'identification du service",
+    "type": "text",
+    "treatment": "organization-scoped service identity; annual observation key"
+  },
+  {
+    "resource": "service",
+    "field": "service_name_en",
+    "label_en": "Service Name (English)",
+    "label_fr": "Nom du service (anglais)",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service",
+    "field": "service_name_fr",
+    "label_en": "Service Name (French)",
+    "label_fr": "Nom du service (français)",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service",
+    "field": "service_description_en",
+    "label_en": "Service Description (English)",
+    "label_fr": "Description du service (anglais)",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service",
+    "field": "service_description_fr",
+    "label_en": "Service Description (French)",
+    "label_fr": "Description du service (français)",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service",
+    "field": "service_type",
+    "label_en": "Service Type",
+    "label_fr": "Type de service",
+    "type": "_text",
+    "treatment": "repeated categorical attribute; not extra graph nodes"
+  },
+  {
+    "resource": "service",
+    "field": "service_recipient_type",
+    "label_en": "Service Recipient Type",
+    "label_fr": "Type de bénéficiaire du service",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service",
+    "field": "service_scope",
+    "label_en": "Service Scope",
+    "label_fr": "Étendue du service",
+    "type": "_text",
+    "treatment": "repeated categorical attribute; not extra graph nodes"
+  },
+  {
+    "resource": "service",
+    "field": "client_target_groups",
+    "label_en": "Client/Target Groups",
+    "label_fr": "Clients/groupes cibles",
+    "type": "_text",
+    "treatment": "repeated categorical attribute; not extra graph nodes"
+  },
+  {
+    "resource": "service",
+    "field": "program_id",
+    "label_en": "Program ID Code",
+    "label_fr": "Code d'identification du programme",
+    "type": "_text",
+    "treatment": "split repeated literal codes; join on owner_org + program_id; never strip -INV"
+  },
+  {
+    "resource": "service",
+    "field": "program_name_en",
+    "label_en": "Program Name (English)",
+    "label_fr": "Désignation du programme (anglais)",
+    "type": "_text",
+    "treatment": "labels only; not positionally zipped to program IDs"
+  },
+  {
+    "resource": "service",
+    "field": "program_name_fr",
+    "label_en": "Program Name (French)",
+    "label_fr": "Désignation du programme (français)",
+    "type": "_text",
+    "treatment": "labels only; not positionally zipped to program IDs"
+  },
+  {
+    "resource": "service",
+    "field": "client_feedback_channel",
+    "label_en": "Client Feedback, by Channel",
+    "label_fr": "Commentaires des clients, par canal",
+    "type": "_text",
+    "treatment": "repeated categorical attribute; not extra graph nodes"
+  },
+  {
+    "resource": "service",
+    "field": "automated_decision_system",
+    "label_en": "Automated Decision System",
+    "label_fr": "Système décisionnel automatisé",
+    "type": "text",
+    "treatment": "reported attribute, not an entity identifier or proof of an assessment/individual/business link"
+  },
+  {
+    "resource": "service",
+    "field": "automated_decision_system_description_en",
+    "label_en": "Automated Decision System Description (English)",
+    "label_fr": "Description du système décisionnel automatisé (anglais)",
+    "type": "text",
+    "treatment": "narrative attribute; explicit PIA URLs/identifiers may provide evidence, not title-similarity joins"
+  },
+  {
+    "resource": "service",
+    "field": "automated_decision_system_description_fr",
+    "label_en": "Automated Decision System Description (French)",
+    "label_fr": "Description du système décisionnel automatisé (français)",
+    "type": "text",
+    "treatment": "narrative attribute; explicit PIA URLs/identifiers may provide evidence, not title-similarity joins"
+  },
+  {
+    "resource": "service",
+    "field": "service_fee",
+    "label_en": "Service Fees",
+    "label_fr": "Frais de service",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service",
+    "field": "os_account_registration",
+    "label_en": "Online Services: Account Registration/Enrollment",
+    "label_fr": "Services en ligne : Enregistrement/inscription du compte",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service",
+    "field": "os_authentication",
+    "label_en": "Online Services: Authentication",
+    "label_fr": "Services en ligne : Authentification",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service",
+    "field": "os_application",
+    "label_en": "Online Services: Application",
+    "label_fr": "Services en ligne : Demande",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service",
+    "field": "os_decision",
+    "label_en": "Online Services: Decision",
+    "label_fr": "Services en ligne : Décision",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service",
+    "field": "os_issuance",
+    "label_en": "Online Services: Issuance",
+    "label_fr": "Services en ligne : Émission",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service",
+    "field": "os_issue_resolution_feedback",
+    "label_en": "Online Services: Issue Resolution and Feedback",
+    "label_fr": "Services en ligne : Solution de problème et rétroaction",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service",
+    "field": "os_comments_client_interaction_en",
+    "label_en": "Comments on Online Services - Client Interaction Points (English)",
+    "label_fr": "Commentaires sur les services électroniques - points d'interaction avec les clients (anglais)",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service",
+    "field": "os_comments_client_interaction_fr",
+    "label_en": "Comments on Online Services - Client Interaction Points (French)",
+    "label_fr": "Commentaires sur les services électroniques - points d'interaction avec les clients (français)",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service",
+    "field": "last_service_review",
+    "label_en": "Year of last service review",
+    "label_fr": "Année du dernier examen de service",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service",
+    "field": "last_service_improvement",
+    "label_en": "Year of last service improvement based on client feedback",
+    "label_fr": "Année de la dernière amélioration du service sur la base de la rétroaction du client",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service",
+    "field": "sin_usage",
+    "label_en": "Use of Social Insurance Number",
+    "label_fr": "Utilisation du numéro d'assurance sociale (NAS)",
+    "type": "text",
+    "treatment": "reported attribute, not an entity identifier or proof of an assessment/individual/business link"
+  },
+  {
+    "resource": "service",
+    "field": "cra_bn_identifier_usage",
+    "label_en": "Use of CRA Business Number as Standard Identifier",
+    "label_fr": "Utilisation du numéro d’entreprise de l’ARC en tant qu’identificateur standard",
+    "type": "text",
+    "treatment": "reported attribute, not an entity identifier or proof of an assessment/individual/business link"
+  },
+  {
+    "resource": "service",
+    "field": "num_phone_enquiries",
+    "label_en": "Number of Telephone Enquiries Received",
+    "label_fr": "Nombre de demandes de renseignements reçues par telephone",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service",
+    "field": "num_applications_by_phone",
+    "label_en": "Number of Applications Submitted by Telephone",
+    "label_fr": "Nombre de demandes soumises par téléphone",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service",
+    "field": "num_website_visits",
+    "label_en": "Number of Website Visits",
+    "label_fr": "Nombre de visites sur le site Web",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service",
+    "field": "num_applications_online",
+    "label_en": "Number of Applications Submitted Online",
+    "label_fr": "Nombre de demandes soumises en ligne",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service",
+    "field": "num_applications_in_person",
+    "label_en": "Number of Applications Submitted In-Person",
+    "label_fr": "Nombre de demandes soumises en personne",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service",
+    "field": "num_applications_by_mail",
+    "label_en": "Number of Applications Submitted via Postal Mail",
+    "label_fr": "Nombre de demandes soumises par la poste",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service",
+    "field": "num_applications_by_email",
+    "label_en": "Number of Applications Submitted by Email",
+    "label_fr": "Nombre de demandes soumises par courriel",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service",
+    "field": "num_applications_by_fax",
+    "label_en": "Number of Applications Submitted by Fax",
+    "label_fr": "Nombre de demandes soumises par fax",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service",
+    "field": "num_applications_by_other",
+    "label_en": "Number of Applications Submitted via other channels",
+    "label_fr": "Nombre de demandes soumises par les autre modes de prestations",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service",
+    "field": "num_applications_total",
+    "label_en": "Total Number of Applications",
+    "label_fr": "Nombre total de demandes soumises",
+    "type": "int",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service",
+    "field": "special_remarks_en",
+    "label_en": "Special Remarks (English)",
+    "label_fr": "Remarques spéciales (anglais)",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service",
+    "field": "special_remarks_fr",
+    "label_en": "Special Remarks (French)",
+    "label_fr": "Remarques spéciales (français)",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service",
+    "field": "service_uri_en",
+    "label_en": "URL to Service (English)",
+    "label_fr": "URL du service (anglais)",
+    "type": "text",
+    "treatment": "source URL attribute; exact assessment-page matches only; no domain-only joins"
+  },
+  {
+    "resource": "service",
+    "field": "service_uri_fr",
+    "label_en": "URL to Service (French)",
+    "label_fr": "URL du service (français)",
+    "type": "text",
+    "treatment": "source URL attribute; exact assessment-page matches only; no domain-only joins"
+  },
+  {
+    "resource": "service",
+    "field": "owner_org",
+    "label_en": "Department ID",
+    "label_fr": "ID du ministère",
+    "type": "text",
+    "treatment": "join: exact registry open_canada_org_slug"
+  },
+  {
+    "resource": "service",
+    "field": "owner_org_title",
+    "label_en": "Department Name",
+    "label_fr": "Nom du ministère",
+    "type": "text",
+    "treatment": "context only; never substitute for organization ID"
+  },
+  {
+    "resource": "service-std",
+    "field": "fiscal_yr",
+    "label_en": "Fiscal Year",
+    "label_fr": "Exercice financier",
+    "type": "text",
+    "treatment": "annual observation key and temporal join guard"
+  },
+  {
+    "resource": "service-std",
+    "field": "service_id",
+    "label_en": "Service ID Number",
+    "label_fr": "Numéro d'identification du service",
+    "type": "text",
+    "treatment": "organization-scoped service identity; annual observation key"
+  },
+  {
+    "resource": "service-std",
+    "field": "service_name_en",
+    "label_en": "Service Name (English)",
+    "label_fr": "Nom du service (anglais)",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service-std",
+    "field": "service_name_fr",
+    "label_en": "Service Name (French)",
+    "label_fr": "Nom du service (français)",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service-std",
+    "field": "service_standard_id",
+    "label_en": "Service Standard ID",
+    "label_fr": "Numéro d'identification de la norme relative aux services",
+    "type": "text",
+    "treatment": "service-scoped standard identity; annual standard observation key"
+  },
+  {
+    "resource": "service-std",
+    "field": "service_standard_en",
+    "label_en": "Service Standard (English)",
+    "label_fr": "Norme relative aux services (anglais)",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service-std",
+    "field": "service_standard_fr",
+    "label_en": "Service Standard (French)",
+    "label_fr": "Norme relative aux services (français)",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service-std",
+    "field": "type",
+    "label_en": "Service Standard Type",
+    "label_fr": "Type de norme relative aux services",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service-std",
+    "field": "channel",
+    "label_en": "Service Standard Channel",
+    "label_fr": "Mode de prestation de la norme de service",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service-std",
+    "field": "channel_comments_en",
+    "label_en": "Comments on the service standard channel (English)",
+    "label_fr": "Commentaires sur le mode de prestation de la norme de service (anglais)",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service-std",
+    "field": "channel_comments_fr",
+    "label_en": "Comments on the service standard channel (French)",
+    "label_fr": "Commentaires sur le mode de prestation de la norme de service (Francais)",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service-std",
+    "field": "target",
+    "label_en": "Service Standard Target",
+    "label_fr": "Cible de la norme relative aux services",
+    "type": "numeric",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service-std",
+    "field": "volume_meeting_target",
+    "label_en": "Business Volume That Met Service Standard Target",
+    "label_fr": "Volume d'activités qui respectent la norme de service",
+    "type": "bigint",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service-std",
+    "field": "total_volume",
+    "label_en": "Total Volume",
+    "label_fr": "Volumes totaux",
+    "type": "bigint",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service-std",
+    "field": "performance",
+    "label_en": "Performance",
+    "label_fr": "Performance",
+    "type": "numeric",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service-std",
+    "field": "comments_en",
+    "label_en": "Comments on the service standard in general (English)",
+    "label_fr": "Commentaires sur la norme de service en général (anglais)",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service-std",
+    "field": "comments_fr",
+    "label_en": "Comments on the service standard in general (French)",
+    "label_fr": "Commentaires sur la norme de service en général (français)",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service-std",
+    "field": "target_met",
+    "label_en": "Was the target met",
+    "label_fr": "La cible était-elle atteinte",
+    "type": "text",
+    "treatment": "annual source attribute; not an identity join"
+  },
+  {
+    "resource": "service-std",
+    "field": "standards_targets_uri_en",
+    "label_en": "URL to Service Standards and Targets (English)",
+    "label_fr": "URL vers les normes de service et les cibles (anglais)",
+    "type": "text",
+    "treatment": "source URL attribute; exact assessment-page matches only; no domain-only joins"
+  },
+  {
+    "resource": "service-std",
+    "field": "standards_targets_uri_fr",
+    "label_en": "URL to Service Standards and Targets (French)",
+    "label_fr": "URL vers les normes de service et les cibles (français)",
+    "type": "text",
+    "treatment": "source URL attribute; exact assessment-page matches only; no domain-only joins"
+  },
+  {
+    "resource": "service-std",
+    "field": "performance_results_uri_en",
+    "label_en": "URL to Real-Time Performance Results (English)",
+    "label_fr": "URL aux résultats de rendement en temps réel (anglais)",
+    "type": "text",
+    "treatment": "source URL attribute; exact assessment-page matches only; no domain-only joins"
+  },
+  {
+    "resource": "service-std",
+    "field": "performance_results_uri_fr",
+    "label_en": "URL to Real-Time Performance Results (French)",
+    "label_fr": "URL aux résultats de rendement en temps réel (français)",
+    "type": "text",
+    "treatment": "source URL attribute; exact assessment-page matches only; no domain-only joins"
+  },
+  {
+    "resource": "service-std",
+    "field": "owner_org",
+    "label_en": "Department ID",
+    "label_fr": "ID du ministère",
+    "type": "text",
+    "treatment": "join: exact registry open_canada_org_slug"
+  },
+  {
+    "resource": "service-std",
+    "field": "owner_org_title",
+    "label_en": "Department Name",
+    "label_fr": "Nom du ministère",
+    "type": "text",
+    "treatment": "context only; never substitute for organization ID"
+  }
+]

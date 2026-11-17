@@ -67,6 +67,13 @@ export function explicitReferences(row, institution, nodes) {
   }
   return [...refs.values()];
 }
+export function serviceMatch(value, institution, nodes) {
+  const source_id = String(value ?? '').trim();
+  if (!source_id || /^(?:n\/?a|none|not applicable|s\/?o|sans objet)$/i.test(source_id))
+    return { source_id, resolution: 'missing', candidates: [] };
+  const candidates = institution ? nodes.filter(n => n.type === 'service' && n.institution_id === institution && n.identifier === source_id).map(n => n.id) : [];
+  return { source_id, resolution: candidates.length === 1 ? 'resolved' : candidates.length ? 'ambiguous' : 'unresolved', candidates };
+}
 export async function integrateAIA(graph, rows) {
   const originalNodes = [...graph.nodes];
   const records = [];
@@ -83,15 +90,18 @@ export async function integrateAIA(graph, rows) {
     const institution = organization.institution_id;
     const official = await officialIdentity(row.data.ADMresponsible, row.translationsOnResult?.ADMresponsible, institution || row.organization_en);
     const references = explicitReferences(row, institution, originalNodes);
+    const service_match = serviceMatch(row.data.ServiceID, institution, originalNodes);
+    if (service_match.resolution !== 'missing') references.push({ kind: 'service', mention: service_match.source_id, resolution: service_match.resolution, candidates: service_match.candidates,
+      evidence: [{ field: 'data.ServiceID', mention: service_match.source_id, source_url: row.dataset_url, method: 'exact_service_id_with_unique_matched_institution' }] });
     const id = 'aia:' + row.package_id;
-    const record = { ...row, id, institution_id: institution, organization_match: organization, official, references };
+    const record = { ...row, id, institution_id: institution, organization_match: organization, official, service_match, references };
     records.push(record);
     const level = row.derived?.impact_level;
     addNode({ id, type: 'aia', identifier: row.package_id, institution_id: institution,
       label_en: row.title_en || row.data.projectDetailsTitle || '', label_fr: row.title_fr || '',
       description_en: row.data.projectDetailsDescription || '', description_fr: row.translationsOnResult?.projectDetailsDescription || '',
-      aliases: [row.data.projectDetailsID, row.data.projectAIAnumber, row.data.projectDetailsTitle, row.translationsOnResult?.projectDetailsTitle].filter(Boolean),
-      attributes: { survey_version: row.version || '', impact_level: level ?? '', senior_official: official ? (official.name_en || official.name_fr) : '', senior_official_uid: official?.u_id || '', project_id: row.data.projectDetailsID || '', provenance: row.source || '' },
+      aliases: [row.data.ServiceID, row.data.projectDetailsID, row.data.projectAIAnumber, row.data.projectDetailsTitle, row.translationsOnResult?.projectDetailsTitle].filter(Boolean),
+      attributes: { service_id: service_match.source_id, service_match_resolution: service_match.resolution, survey_version: row.version || '', impact_level: level ?? '', senior_official: official ? (official.name_en || official.name_fr) : '', senior_official_uid: official?.u_id || '', project_id: row.data.projectDetailsID || '', provenance: row.source || '' },
       record_url: 'link-aia.html?record=' + encodeURIComponent(row.package_id), sources: { dataset: row.dataset_url }, external_source: true });
     if (institution) addEdge(id, 'institution:' + institution, 'listed_by', [{ field: 'organization_en / organization_fr', mention: row.organization_en, source_url: row.dataset_url, method: 'unique_exact_registry_name_alias' }]);
     if (official) {
@@ -106,7 +116,7 @@ export async function integrateAIA(graph, rows) {
       const target = ref.resolution === 'resolved' ? ref.candidates[0] : 'aia-reference:' + row.package_id + '/' + encodeURIComponent(ref.kind + ':' + ref.mention);
       if (ref.resolution !== 'resolved') addNode({ id: target, type: 'reference', identifier: ref.mention, label_en: ref.mention, label_fr: ref.mention,
         institution_id: institution, reference_kind: ref.kind, resolution: ref.resolution, candidates: ref.candidates, sources: { dataset: row.dataset_url } });
-      addEdge(id, target, 'references', ref.evidence, ref.resolution);
+      addEdge(id, target, ref.kind === 'service' ? 'references_service' : 'references', ref.evidence, ref.resolution);
     }
   }
   graph.edges.push(...edgeMap.values());

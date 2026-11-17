@@ -118,3 +118,13 @@ test("one search supports bilingual identifiers, type words and named entities",
   assert.ok(findRecords(index, "PIA").every((n) => n.type === "pia"));
   assert.equal(findRecords(index, "zz-no-record-here").length, 0);
 });
+
+
+test("service, program and bilingual standard searches include the new entity types",()=>{
+  assert.ok(findRecords(index,"service 1428").some(n=>n.id==="service:cic:1428"));
+  assert.ok(findRecords(index,"programme BGD02","fr").some(n=>n.id==="program:cic:BGD02"));
+  for(const query of ["service standards 1715","normes de service 1715"]){
+    const rows=findRecords(index,query);assert.ok(rows.some(n=>n.id==="service-standard:cic:1428:1715"));
+    assert.ok(rows.every(n=>n.type==="service_standard"));
+  }
+});

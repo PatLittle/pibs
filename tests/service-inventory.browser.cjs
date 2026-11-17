@@ -1,0 +1,64 @@
+const {chromium}=require('playwright');
+const {readFileSync,mkdirSync}=require('node:fs');
+const assert=require('node:assert/strict');
+const base=process.env.GRAPH_TEST_BASE||'http://127.0.0.1:8766/';
+const out=process.env.GRAPH_TEST_OUTPUT||'/tmp/pibs-service-browser';mkdirSync(out,{recursive:true});
+const aiaURL=JSON.parse(readFileSync('site/aia-source.json')).url;
+// Synthetic AIA values; actual Service Inventory keys and rows are local fixtures.
+const uuid='22222222-2222-4222-8222-222222222222';
+const fixture={package_id:uuid,title_en:'Study permit AIA fixture',title_fr:'EIA de test du permis d’études',organization_en:'Immigration, Refugees and Citizenship Canada',organization_fr:'Immigration, Réfugiés et Citoyenneté Canada',dataset_url:'https://example.test/dataset/'+uuid,version:'v1.0.1',data:{ServiceID:'1428',ADMresponsible:'Example Official'},translationsOnResult:{},derived:{impact_level:2}};
+(async()=>{
+ const browser=await chromium.launch({headless:true,executablePath:process.env.BROWSER_EXECUTABLE,args:['--no-sandbox']});
+ try{
+  const page=await browser.newPage({viewport:{width:1500,height:1000}}),errors=[];
+  page.on('pageerror',e=>errors.push(e.message));
+  await page.route(aiaURL,r=>r.fulfill({status:200,body:JSON.stringify(fixture)+'\n',headers:{'access-control-allow-origin':'*'}}));
+  await page.goto(base+'graph.html?node='+encodeURIComponent('service:cic:1428'),{waitUntil:'domcontentloaded'});
+  await page.waitForSelector('[data-attribute="annual_observations"]');
+  assert.match(await page.locator('#focus-heading').innerText(),/Study Permit/i);
+  for(const type of ['program','service_standard','institution','aia'])assert.equal(await page.locator('.connection-group[data-node-type="'+type+'"]').count(),1,type);
+  assert.equal(await page.locator('#detail details[open]').count(),0);
+  const annual=page.locator('#detail .record-attributes > [data-attribute="annual_observations"]');
+  await annual.locator(':scope > summary').click();
+  const summaries=annual.locator('.attribute-value > ul > li > details > summary');
+  assert.ok((await summaries.allTextContents()).includes('2023-2024'));
+  const observations=annual.locator('.attribute-value > ul > li > details');
+  await observations.first().locator(':scope > summary').click();
+  assert.equal(await observations.first().locator(':scope > [data-attribute]').count(),46);
+  const program=page.locator('.connection-group[data-node-type="program"]');
+  await program.locator('.evidence-button').first().click();
+  await page.locator('.edge-evidence > summary').click();
+  await page.waitForSelector('.graph-evidence');
+  assert.match(await page.locator('.graph-evidence').first().innerText(),/program_id/);
+  assert.ok((await page.locator('.graph-evidence a').first().getAttribute('href')).includes('datastore_search'));
+  await page.screenshot({path:out+'/service-connections.png',fullPage:true});
+  await program.locator('button.connection-title').first().click();
+  assert.equal(new URL(page.url()).searchParams.get('node'),'program:cic:BGD02');
+  await page.waitForSelector('[data-attribute="valid_fiscal_years"]');
+  await page.goto(base+'link-aia.html?record='+uuid);
+  await page.waitForSelector('#record-detail .aia-reference');
+  assert.ok((await page.locator('#record-detail a[href*="graph.html"]').allTextContents()).length);
+  assert.ok((await page.locator('#record-detail a').evaluateAll(nodes=>nodes.map(n=>n.href))).some(href=>href.includes(encodeURIComponent('service:cic:1428'))));
+  assert.ok(!(await page.locator('#record-detail').innerText()).includes('undefined'));
+  await page.goto(base+'graph.html?lang=fr&node='+encodeURIComponent('service:cic:1428'));
+  await page.waitForSelector('[data-attribute="annual_observations"]');
+  assert.match(await page.locator('#focus-heading').innerText(),/Permis/i);
+  assert.match(await page.locator('.connection-group[data-node-type="program"] h3').innerText(),/Programme/);
+  await page.setViewportSize({width:390,height:844});
+  await page.locator('#close-panel').click();
+  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
+  await page.screenshot({path:out+'/service-mobile-fr.png',fullPage:true});
+  // Standard identifiers are source-defined. Select an actual ID via the graph instead.
+  const graph=JSON.parse(readFileSync('site/data/graph.json'));
+  const standard=graph.edges.find(e=>e.source==='service:cic:1428'&&e.type==='has_standard').target;
+  await page.goto(base+'graph.html?node='+encodeURIComponent(standard));
+  await page.waitForSelector('[data-attribute="annual_observations"]');
+  const stdAnnual=page.locator('#detail .record-attributes > [data-attribute="annual_observations"]');
+  await stdAnnual.locator(':scope > summary').click();
+  const first=stdAnnual.locator('.attribute-value > ul > li > details').first();
+  await first.locator(':scope > summary').click();
+  assert.equal(await first.locator(':scope > [data-attribute]').count(),24);
+  assert.deepEqual(errors,[]);
+  console.log('Passed Service Inventory: scoped AIA bridge, service/program/standard traversal, annual 46/24 fields, source evidence, French and mobile.');
+ }finally{await browser.close();}
+})().catch(e=>{console.error(e);process.exit(1);});

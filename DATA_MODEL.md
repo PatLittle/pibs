@@ -82,3 +82,16 @@ references are many-to-many; unknown or ambiguous citations retain their evidenc
 and candidate IDs without asserting foreign-key matches. Survey version and
 feed-derived risk level belong to the AIA alone. No AIA data is copied into the
 repository. See [field mappings and matching proposal](docs/AIA_INTEGRATION.md).
+
+## Service Inventory joins
+
+The Service Inventory adds annual service and standard observations, an exact
+organization-slug crosswalk, organization-scoped programs, and normalized annual
+service/program links. All 70 published fields are retained. The graph presents
+stable service/program/standard entities and nests reporting-year observations
+in their collapsed attributes. External AIA `data.ServiceID` resolves by literal
+service ID within a uniquely matched institution.
+
+See the [field inventory and join ledger](docs/SERVICE_INVENTORY_JOINS.md) for
+composite keys, provenance, unresolved codes, evidence limits and proposed
+GC InfoBase program-architecture and Justice legal-authority joins.

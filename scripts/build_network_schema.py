@@ -69,6 +69,16 @@ def build(aia_file=None):
     relation('pia_references','standard_personal_information_banks','unique matched_records[] → standard PIB')
     relation('pia_references','institution_classes_of_records','unique matched_records[] → class')
     relation('pia_references','standard_classes_of_records','unique matched_records[] → standard class')
+    service_base=ROOT/'data/service_inventory'
+    service_manifest=json.loads((service_base/'manifest.json').read_text())
+    table('service_import_manifest','Service Inventory import provenance','data/service_inventory/manifest.json',[service_manifest],'support',fields=schema([service_manifest],maps={'source_inputs':'{resource}','outputs':'{path}'}))
+    catalogue=json.loads((service_base/'schema_fields.json').read_text())
+    table('service_schema_metadata','Service Inventory supplied field definitions','data/service_inventory/schema_fields.json',[catalogue],'support',note='All 70 field definitions; allowed-value counts only, not an inferred service-program relationship table.')
+    audit=json.loads((service_base/'field_join_audit.json').read_text())
+    table('service_field_audit','Service Inventory field join decisions','data/service_inventory/field_join_audit.json',audit,'support',['resource','field'])
+    relation('service_inventory','service_import_manifest','normalized source snapshot, resource IDs and checksums')
+    relation('service_standards','service_import_manifest','normalized source snapshot, resource IDs and checksums')
+    relation('service_field_audit','service_schema_metadata','resource + field definition')
     graph=json.loads((ROOT/'site/data/graph.json').read_text())
     shards={path:json.loads((ROOT/'site'/path).read_text()) for path in graph['attribute_files']}
     for node in graph['nodes']:
@@ -91,7 +101,7 @@ import {parseJSONL,integrateAIA} from './site/aia-data.mjs';
 const graph=JSON.parse(fs.readFileSync(process.argv[1]));
 const result=await integrateAIA(graph,parseJSONL(fs.readFileSync(process.argv[2],'utf8')));
 function shape(rows){const keys=new Map();function walk(v,p){if(p){if(!keys.has(p))keys.set(p,new Set());keys.get(p).add(v===null?'null':Array.isArray(v)?'array':typeof v);}if(Array.isArray(v)){for(const a of v)walk(a,p+'[]');}else if(v&&typeof v==='object'){for(const[k,a]of Object.entries(v))walk(a,p?p+'.'+k:k);}}for(const r of rows)walk(r,'');return [...keys].sort((a,b)=>a[0].localeCompare(b[0])).map(([name,t])=>({name,types:[...t].sort()}));}
-const edges=result.graph.edges.filter(e=>e.id.startsWith('aia-edge:'));console.log(JSON.stringify({...Object.fromEntries(['aia','official','reference'].map(t=>[t,{fields:shape(result.graph.nodes.filter(n=>n.type===t)),rows:result.graph.nodes.filter(n=>n.type===t).length}])),matches:{fields:shape(result.records.map(r=>({id:r.id,package_id:r.package_id,institution_id:r.institution_id,organization_match:r.organization_match,official:r.official,references:r.references}))),rows:result.records.length},edges:{fields:shape(edges),rows:edges.length},evidence:{fields:shape(edges.flatMap(e=>e.evidence)),rows:edges.reduce((n,e)=>n+e.evidence.length,0)}}));"""
+const edges=result.graph.edges.filter(e=>e.id.startsWith('aia-edge:'));console.log(JSON.stringify({...Object.fromEntries(['aia','official','reference'].map(t=>[t,{fields:shape(result.graph.nodes.filter(n=>n.type===t)),rows:result.graph.nodes.filter(n=>n.type===t).length}])),matches:{fields:shape(result.records.map(r=>({id:r.id,package_id:r.package_id,institution_id:r.institution_id,organization_match:r.organization_match,official:r.official,service_match:r.service_match,references:r.references}))),rows:result.records.length},edges:{fields:shape(edges),rows:edges.length},evidence:{fields:shape(edges.flatMap(e=>e.evidence)),rows:edges.reduce((n,e)=>n+e.evidence.length,0)}}));"""
         runtime=json.loads(subprocess.check_output(['node','--input-type=module','-e',js,str(ROOT/'site/data/graph.json'),str(Path(aia_file).resolve())],cwd=ROOT))
         external_meta=dict(inspected_on=date.today().isoformat(),sha256=hashlib.sha256(raw).hexdigest(),url=config['url'])
     else:
@@ -103,8 +113,9 @@ const edges=result.graph.edges.filter(e=>e.id.startsWith('aia-edge:'));console.l
     relation('aia_answers','institution_personal_information_banks','explicit literal PIB code; uniquely resolved')
     relation('aia_answers','standard_personal_information_banks','explicit literal standard PIB code')
     relation('aia_answers','pias','exact cited PIA source URL')
+    relation('aia_answers','service_inventory','ServiceID = service_id + unique matched institution; stable identity, no year inferred', fields=['ServiceID'])
     if 'matches' in runtime:
-        table('aia_matches','AIA normalized identities and citations','site/aia-data.mjs → records[] (browser memory)',[None]*runtime['matches']['rows'],'projection',['package_id'],runtime['matches']['fields'],note='Normalized organization status, organization-scoped official name_en/name_fr/u_id and literal citation groups. Schema only; no AIA values are stored.')
+        table('aia_matches','AIA normalized identities and citations','site/aia-data.mjs → records[] (browser memory)',[None]*runtime['matches']['rows'],'projection',['package_id'],runtime['matches']['fields'],note='Normalized service/organization status, organization-scoped official name_en/name_fr/u_id and literal citation groups. Schema only; no AIA values are stored.')
         relation('aia_matches','aia_source','package_id → source UUID')
         relation('aia_matches','institution_registry','nullable institution_id; unique organization match')
         relation('node_official','aia_matches','official.u_id → organization-scoped observed name','projection')
@@ -125,9 +136,9 @@ const edges=result.graph.edges.filter(e=>e.id.startsWith('aia-edge:'));console.l
     table('graph_manifest','Graph manifest','site/data/graph.json (manifest)',[{k:v for k,v in graph.items() if k not in ('nodes','edges','attribute_files','evidence_files','inputs')}],'projection')
     manifest=tables[-1];manifest['fields'].extend([dict(name=k,types=['object']) for k in ('inputs','attribute_files','evidence_files')]);manifest['fields'].extend([dict(name=k+'.{path}',types=['sha256 string']) for k in ('inputs','attribute_files','evidence_files')]);manifest['fields'].extend([dict(name=k,types=['array']) for k in ('nodes','edges')]);manifest['fields'].extend([dict(name='summary.node_types.'+k,types=['number']) for k in ('aia','official')])
     relation('graph_edges','graph_evidence','edge id → evidence[]')
-    for typ in ('institution','pib','class','pia','reference','aia','official'): relation('graph_edges','node_'+typ,'source / target node id')
-    for a,b in [('node_institution','institution_registry'),('node_pib','institution_personal_information_banks'),('node_pib','standard_personal_information_banks'),('node_class','institution_classes_of_records'),('node_class','standard_classes_of_records'),('node_pia','pias'),('node_aia','aia_source'),('node_official','aia_answers')]: relation(a,b,'projection / retained source identity','projection')
-    return dict(schema_version=1,scope='All canonical tables used by the network; supporting My Info tables; nested PIA and external AIA source shapes; browser graph projection. Field names/types/keys only, never external AIA record values.',external_source=external_meta,runtime_shapes=runtime,tables=tables,relationships=relations,summary=dict(tables=len(tables),fields=sum(len(t['fields']) for t in tables),relationships=len(relations)))
+    for typ in ('institution','pib','class','pia','reference','aia','official','service','program','service_standard'): relation('graph_edges','node_'+typ,'source / target node id')
+    for a,b in [('node_institution','institution_registry'),('node_pib','institution_personal_information_banks'),('node_pib','standard_personal_information_banks'),('node_class','institution_classes_of_records'),('node_class','standard_classes_of_records'),('node_pia','pias'),('node_aia','aia_source'),('node_official','aia_answers'),('node_service','service_inventory'),('node_program','service_programs'),('node_service_standard','service_standards')]: relation(a,b,'projection / retained source identity','projection')
+    return dict(schema_version=1,scope='All canonical tables used by the network; Service Inventory and year-scoped program/standard joins; supporting My Info tables; nested PIA and external AIA source shapes; browser graph projection. Field names/types/keys only, never external AIA record values.',external_source=external_meta,runtime_shapes=runtime,tables=tables,relationships=relations,summary=dict(tables=len(tables),fields=sum(len(t['fields']) for t in tables),relationships=len(relations)))
 
 def write(model):
     OUT.write_text(json.dumps(model,ensure_ascii=False,indent=2)+'\n')

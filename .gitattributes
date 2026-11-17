@@ -12,3 +12,7 @@ PIAs/*/raw/* -diff
 # CSV writers use standard CRLF record separators.
 PIAs/*.csv whitespace=cr-at-eol
 site/data/privacy_assessment_index.csv whitespace=cr-at-eol
+
+# Service Inventory source cells retain published whitespace and embedded newlines.
+data/service_inventory/service.csv -whitespace
+data/service_inventory/service-std.csv -whitespace
