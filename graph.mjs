@@ -37,8 +37,8 @@ const words = {
     "Choisissez un document. Découvrez ses liens, examinez les preuves, puis suivez le prochain lien.",
   ],
   search: [
-    "Find an institution, assessment, bank, class or named official",
-    "Trouver une institution, une évaluation, un fichier, une catégorie de documents ou un cadre nommé",
+    "Find an institution, service, program, assessment, bank or class",
+    "Trouver une institution, un service, un programme, une évaluation, un fichier ou une catégorie de documents",
   ],
   clear: ["Clear", "Effacer"],
   loading: ["Loading connections…", "Chargement des liens…"],
@@ -47,8 +47,8 @@ const words = {
     "Un ensemble de renseignements interconnectés",
   ],
   shapeNote: [
-    "Institutions provide context. Assessments cite banks and classes. AIAs can name responsible officials. Each connection has source evidence.",
-    "Les institutions donnent le contexte. Les évaluations citent des fichiers et catégories de documents. Les EIA peuvent nommer des cadres responsables. Chaque lien conserve ses preuves.",
+    "Services connect institutions to programs and standards. An AIA can cite a service or a bank and name an official. Each connection retains its source evidence.",
+    "Les services relient les institutions aux programmes et aux normes. Une EIA peut citer un service ou un fichier et nommer un cadre. Chaque lien conserve ses preuves.",
   ],
   start: ["Start with a connected story", "Commencer par un parcours lié"],
   back: ["← Previous record", "← Document précédent"],
@@ -72,6 +72,19 @@ const words = {
     "Télécharger le graphique de base JSON",
   ],
   method: ["Method and evidence limits", "Méthode et limites des preuves"],
+  service: ["Service", "Service"],
+  program: ["Program", "Programme"],
+  service_standard: ["Service standard", "Norme de service"],
+  under_program: ["Reported program", "Programme déclaré"],
+  has_standard: ["Service standard", "Norme de service"],
+  references_service: ["Cited service ID", "ID de service cité"],
+  annual_observations: ["Annual observations · all source fields", "Observations annuelles · tous les champs sources"],
+  fiscal_years: ["Reported fiscal years", "Exercices déclarés"],
+  owner_org: ["Open Canada organization ID", "ID d’organisation du Canada ouvert"],
+  service_id: ["Service ID", "ID de service"],
+  program_id: ["Program code", "Code de programme"],
+  service_standard_id: ["Service standard ID", "ID de norme de service"],
+  service_match_resolution: ["Service ID match", "Correspondance de l’ID de service"],
   institution: ["Institution", "Institution"],
   pia: ["Privacy assessment", "Évaluation de la vie privée"],
   aia: [
@@ -243,6 +256,15 @@ function setPanel(show) {
   );
 }
 function relationPhrase(group) {
+  if (group.relation === "under_program") return group.outgoing
+    ? text("Programs reported for this service", "Programmes déclarés pour ce service")
+    : text("Services reporting this program", "Services déclarant ce programme");
+  if (group.relation === "has_standard") return group.outgoing
+    ? text("Standards reported for this service", "Normes déclarées pour ce service")
+    : text("Service reporting this standard", "Service déclarant cette norme");
+  if (group.relation === "references_service") return group.outgoing
+    ? text("Service ID cited in this AIA", "ID de service cité dans cette EIA")
+    : text("AIAs citing this service ID", "EIA citant cet ID de service");
   if (group.relation === "listed_by")
     return group.outgoing
       ? text("This record is listed under", "Ce document est répertorié sous")
@@ -522,7 +544,8 @@ function attributeValue(value, container) {
         d.append(
           el(
             "summary",
-            item["label_" + lang] ||
+            item.fiscal_yr ||
+              item["label_" + lang] ||
               item.label_en ||
               item.id ||
               text("Evidence", "Preuve"),
@@ -799,7 +822,10 @@ async function init() {
       );
     }
     $("stories").replaceChildren();
-    for (const example of [EXAMPLES[2], EXAMPLES[3], EXAMPLES[4]])
+    for (const example of [EXAMPLES[2], EXAMPLES[3], { id: 'service:cic:1428',
+      title_en: 'Study permits: service, program and AIA', title_fr: 'Permis d’études : service, programme et EIA',
+      text_en: 'Follow service 1428 to program BGD02, its service standards and an AIA citing its ID. Annual facts remain inspectable.',
+      text_fr: 'Suivez le service 1428 vers le programme BGD02, ses normes et une EIA citant son ID. Les données annuelles restent consultables.' }])
       if (index.nodes.has(example.id)) {
         const b = button(
           example["title_" + lang],

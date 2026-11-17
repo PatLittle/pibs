@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "scope": "All canonical tables used by the network; supporting My Info tables; nested PIA and external AIA source shapes; browser graph projection. Field names/types/keys only, never external AIA record values.",
+  "scope": "All canonical tables used by the network; Service Inventory and year-scoped program/standard joins; supporting My Info tables; nested PIA and external AIA source shapes; browser graph projection. Field names/types/keys only, never external AIA record values.",
   "external_source": {
     "inspected_on": "2026-11-16",
     "sha256": "bf7040fd7f803d3eb39eee7f0ff282a93d28322ca4022d5aeacb833c9bc9ada7",
@@ -54,6 +54,18 @@
         },
         {
           "name": "attributes.senior_official_uid",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.service_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.service_match_resolution",
           "types": [
             "string"
           ]
@@ -219,6 +231,12 @@
     "reference": {
       "fields": [
         {
+          "name": "attribute_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
           "name": "candidates",
           "types": [
             "array"
@@ -286,13 +304,19 @@
           ]
         },
         {
+          "name": "sources.inventory",
+          "types": [
+            "string"
+          ]
+        },
+        {
           "name": "type",
           "types": [
             "string"
           ]
         }
       ],
-      "rows": 483
+      "rows": 539
     },
     "matches": {
       "fields": [
@@ -458,6 +482,36 @@
           "types": [
             "string"
           ]
+        },
+        {
+          "name": "service_match",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "service_match.candidates",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "service_match.candidates[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "service_match.resolution",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "service_match.source_id",
+          "types": [
+            "string"
+          ]
         }
       ],
       "rows": 39
@@ -549,7 +603,7 @@
           ]
         }
       ],
-      "rows": 84
+      "rows": 86
     },
     "evidence": {
       "fields": [
@@ -590,7 +644,7 @@
           ]
         }
       ],
-      "rows": 121
+      "rows": 123
     }
   },
   "tables": [
@@ -2284,6 +2338,743 @@
       ]
     },
     {
+      "id": "service_organizations",
+      "label": "service organizations",
+      "source": "data/service_inventory/organizations.csv",
+      "layer": "records",
+      "rows": 82,
+      "primary_key": [
+        "owner_org"
+      ],
+      "fields": [
+        {
+          "name": "owner_org",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "owner_org_title",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "resolution",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "method",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "candidates",
+          "types": [
+            "json-array"
+          ]
+        }
+      ],
+      "note": "Exact Open Canada organization-slug crosswalk; unresolved or ambiguous institution_id is blank.",
+      "foreign_keys": [
+        {
+          "fields": [
+            "institution_id"
+          ],
+          "references": "institution_registry",
+          "reference_fields": [
+            "institution_id"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "service_inventory",
+      "label": "service inventory",
+      "source": "data/service_inventory/service.csv",
+      "layer": "records",
+      "rows": 3593,
+      "primary_key": [
+        "owner_org",
+        "fiscal_yr",
+        "service_id"
+      ],
+      "fields": [
+        {
+          "name": "fiscal_yr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "service_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "service_name_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "service_name_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "service_description_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "service_description_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "service_type",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "service_recipient_type",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "service_scope",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "client_target_groups",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "program_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "program_name_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "program_name_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "client_feedback_channel",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "automated_decision_system",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "automated_decision_system_description_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "automated_decision_system_description_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "service_fee",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "os_account_registration",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "os_authentication",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "os_application",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "os_decision",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "os_issuance",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "os_issue_resolution_feedback",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "os_comments_client_interaction_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "os_comments_client_interaction_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "last_service_review",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "last_service_improvement",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "sin_usage",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "cra_bn_identifier_usage",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "num_phone_enquiries",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "num_applications_by_phone",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "num_website_visits",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "num_applications_online",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "num_applications_in_person",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "num_applications_by_mail",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "num_applications_by_email",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "num_applications_by_fax",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "num_applications_by_other",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "num_applications_total",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "special_remarks_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "special_remarks_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "service_uri_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "service_uri_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "owner_org",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "owner_org_title",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": "All 46 published fields. Annual observations; stable graph identity is owner_org + service_id.",
+      "foreign_keys": [
+        {
+          "fields": [
+            "owner_org"
+          ],
+          "references": "service_organizations",
+          "reference_fields": [
+            "owner_org"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "service_standards",
+      "label": "service standards",
+      "source": "data/service_inventory/service-std.csv",
+      "layer": "records",
+      "rows": 4899,
+      "primary_key": [
+        "owner_org",
+        "fiscal_yr",
+        "service_id",
+        "service_standard_id"
+      ],
+      "fields": [
+        {
+          "name": "fiscal_yr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "service_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "service_name_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "service_name_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "service_standard_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "service_standard_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "service_standard_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "type",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "channel",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "channel_comments_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "channel_comments_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "target",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "volume_meeting_target",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "total_volume",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "performance",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "comments_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "comments_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "target_met",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "standards_targets_uri_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "standards_targets_uri_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "performance_results_uri_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "performance_results_uri_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "owner_org",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "owner_org_title",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": "All 24 published fields. Annual standards refer to the service in the same organization and fiscal year.",
+      "foreign_keys": [
+        {
+          "fields": [
+            "owner_org",
+            "fiscal_yr",
+            "service_id"
+          ],
+          "references": "service_inventory",
+          "reference_fields": [
+            "owner_org",
+            "fiscal_yr",
+            "service_id"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "service_programs",
+      "label": "service programs",
+      "source": "data/service_inventory/programs.csv",
+      "layer": "records",
+      "rows": 648,
+      "primary_key": [
+        "owner_org",
+        "program_id"
+      ],
+      "fields": [
+        {
+          "name": "owner_org",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "program_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "name_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "name_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "valid_fiscal_years",
+          "types": [
+            "json-array"
+          ]
+        },
+        {
+          "name": "label_source",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": "Observed program codes scoped to organization. Bilingual labels come from the inspected code list; not historical names or GC InfoBase numeric IDs.",
+      "foreign_keys": [
+        {
+          "fields": [
+            "owner_org"
+          ],
+          "references": "service_organizations",
+          "reference_fields": [
+            "owner_org"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "service_program_links",
+      "label": "service program links",
+      "source": "data/service_inventory/service_program_links.csv",
+      "layer": "records",
+      "rows": 4479,
+      "primary_key": [
+        "owner_org",
+        "fiscal_yr",
+        "service_id",
+        "program_id"
+      ],
+      "fields": [
+        {
+          "name": "owner_org",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fiscal_yr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "service_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "program_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "vocabulary_year_status",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": "Literal program codes from actual service observations; no relationships inferred from allowed-value lists.",
+      "foreign_keys": [
+        {
+          "fields": [
+            "owner_org",
+            "fiscal_yr",
+            "service_id"
+          ],
+          "references": "service_inventory",
+          "reference_fields": [
+            "owner_org",
+            "fiscal_yr",
+            "service_id"
+          ]
+        },
+        {
+          "fields": [
+            "owner_org",
+            "program_id"
+          ],
+          "references": "service_programs",
+          "reference_fields": [
+            "owner_org",
+            "program_id"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "service_program_references",
+      "label": "service program references",
+      "source": "data/service_inventory/program_references.csv",
+      "layer": "records",
+      "rows": 4539,
+      "primary_key": [
+        "owner_org",
+        "fiscal_yr",
+        "service_id",
+        "program_id"
+      ],
+      "fields": [
+        {
+          "name": "owner_org",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fiscal_yr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "service_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "program_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "resolution",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "vocabulary_year_status",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": "Every reported program reference, including invalid markers; unresolved references have no program foreign key.",
+      "foreign_keys": [
+        {
+          "fields": [
+            "owner_org",
+            "fiscal_yr",
+            "service_id"
+          ],
+          "references": "service_inventory",
+          "reference_fields": [
+            "owner_org",
+            "fiscal_yr",
+            "service_id"
+          ]
+        }
+      ]
+    },
+    {
       "id": "pia_manifest",
       "label": "PIA collection manifest",
       "source": "PIAs/collection_manifest.json",
@@ -3747,6 +4538,546 @@
         },
         {
           "name": "pia_id",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "service_import_manifest",
+      "label": "Service Inventory import provenance",
+      "source": "data/service_inventory/manifest.json",
+      "layer": "support",
+      "rows": 1,
+      "primary_key": [],
+      "fields": [
+        {
+          "name": "dataset_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "inspected_at_utc",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "key_authority_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "outputs",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "outputs.{path}",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "schema_sha256",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "schema_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "schema_version",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "service_identifier_exceptions",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "service_identifier_exceptions[]",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "service_identifier_exceptions[].catalog_owners",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "service_identifier_exceptions[].catalog_owners[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "service_identifier_exceptions[].fiscal_yr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "service_identifier_exceptions[].owner_org",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "service_identifier_exceptions[].service_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "service_identifier_exceptions[].status",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "source_inputs",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "source_inputs.{resource}",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "source_inputs.{resource}.bytes",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "source_inputs.{resource}.resource_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "source_inputs.{resource}.rows",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "source_inputs.{resource}.sha256",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "source_inputs.{resource}.url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "summary",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "summary.fields_audited",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "summary.organization_statuses",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "summary.organization_statuses.resolved",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "summary.organization_statuses.unresolved",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "summary.program_reference_statuses",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "summary.program_reference_statuses.invalid_suffix",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "summary.program_reference_statuses.resolved",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "summary.programs",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "summary.service_identifier_statuses",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "summary.service_identifier_statuses.listed",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "summary.service_identifier_statuses.owner_not_listed",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "summary.service_observations",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "summary.service_program_observations",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "summary.services",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "summary.standard_observations",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "summary.standards",
+          "types": [
+            "number"
+          ]
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "service_schema_metadata",
+      "label": "Service Inventory supplied field definitions",
+      "source": "data/service_inventory/schema_fields.json",
+      "layer": "support",
+      "rows": 1,
+      "primary_key": [],
+      "fields": [
+        {
+          "name": "dataset_type",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "resources",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "resources[]",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "resources[].aggregate_key",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "resources[].aggregate_key[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "resources[].fields",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "resources[].fields[]",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "resources[].fields[].character_limit",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "resources[].fields[].choice_count",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "resources[].fields[].choices_suffixes",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "resources[].fields[].choices_suffixes.-INV",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "resources[].fields[].choices_suffixes.-INV.en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "resources[].fields[].choices_suffixes.-INV.fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "resources[].fields[].datastore_type",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "resources[].fields[].description",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "resources[].fields[].description.en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "resources[].fields[].description.fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "resources[].fields[].id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "resources[].fields[].label",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "resources[].fields[].label.en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "resources[].fields[].label.fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "resources[].fields[].obligation",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "resources[].fields[].obligation.en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "resources[].fields[].obligation.fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "resources[].fields[].validation",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "resources[].fields[].validation.en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "resources[].fields[].validation.fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "resources[].recombinant_key",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "resources[].recombinant_key[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "resources[].resource_name",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "resources[].title",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "resources[].title.en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "resources[].title.fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "sha256",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "source_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "title",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "title.en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "title.fr",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": "All 70 field definitions; allowed-value counts only, not an inferred service-program relationship table."
+    },
+    {
+      "id": "service_field_audit",
+      "label": "Service Inventory field join decisions",
+      "source": "data/service_inventory/field_join_audit.json",
+      "layer": "support",
+      "rows": 70,
+      "primary_key": [
+        "resource",
+        "field"
+      ],
+      "fields": [
+        {
+          "name": "field",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "label_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "label_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "resource",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "treatment",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "type",
           "types": [
             "string"
           ]
@@ -6297,9 +7628,39 @@
           "types": [
             "string"
           ]
+        },
+        {
+          "name": "service_match",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "service_match.candidates",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "service_match.candidates[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "service_match.resolution",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "service_match.source_id",
+          "types": [
+            "string"
+          ]
         }
       ],
-      "note": "Normalized organization status, organization-scoped official name_en/name_fr/u_id and literal citation groups. Schema only; no AIA values are stored."
+      "note": "Normalized service/organization status, organization-scoped official name_en/name_fr/u_id and literal citation groups. Schema only; no AIA values are stored."
     },
     {
       "id": "node_class",
@@ -7268,15 +8629,197 @@
       "note": ""
     },
     {
-      "id": "node_reference",
-      "label": "Network reference",
+      "id": "node_program",
+      "label": "Network program",
       "source": "site/data/graph.json → nodes[] + lazy attributes; AIA references may add runtime fields",
       "layer": "projection",
-      "rows": 469,
+      "rows": 648,
       "primary_key": [
         "id"
       ],
       "fields": [
+        {
+          "name": "aliases",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "attribute_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "attributes.identity_scope",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.label_source",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.name_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.name_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.owner_org",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.program_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.valid_fiscal_years",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "attributes.valid_fiscal_years[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "identifier",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_id",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "label_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "label_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "owner_org",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "source_path",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "sources",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "sources.code_list",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "type",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "node_reference",
+      "label": "Network reference",
+      "source": "site/data/graph.json → nodes[] + lazy attributes; AIA references may add runtime fields",
+      "layer": "projection",
+      "rows": 524,
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "attribute_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "attributes.note",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.owner_org",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.reported_fiscal_years",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "attributes.reported_fiscal_years[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.reported_status",
+          "types": [
+            "string"
+          ]
+        },
         {
           "name": "candidates",
           "types": [
@@ -7339,6 +8882,12 @@
           ]
         },
         {
+          "name": "sources.inventory",
+          "types": [
+            "string"
+          ]
+        },
+        {
           "name": "type",
           "types": [
             "string"
@@ -7346,6 +8895,772 @@
         },
         {
           "name": "sources.dataset",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "node_service",
+      "label": "Network service",
+      "source": "site/data/graph.json → nodes[] + lazy attributes; AIA references may add runtime fields",
+      "layer": "projection",
+      "rows": 1879,
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "aliases",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "aliases[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attribute_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[]",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].automated_decision_system",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].automated_decision_system_description_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].automated_decision_system_description_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].client_feedback_channel",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].client_target_groups",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].cra_bn_identifier_usage",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].fiscal_yr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].last_service_improvement",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].last_service_review",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].num_applications_by_email",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].num_applications_by_fax",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].num_applications_by_mail",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].num_applications_by_other",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].num_applications_by_phone",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].num_applications_in_person",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].num_applications_online",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].num_applications_total",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].num_phone_enquiries",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].num_website_visits",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].os_account_registration",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].os_application",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].os_authentication",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].os_comments_client_interaction_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].os_comments_client_interaction_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].os_decision",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].os_issuance",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].os_issue_resolution_feedback",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].owner_org",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].owner_org_title",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].program_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].program_name_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].program_name_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].service_description_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].service_description_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].service_fee",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].service_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].service_name_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].service_name_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].service_recipient_type",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].service_scope",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].service_type",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].service_uri_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].service_uri_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].sin_usage",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].special_remarks_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].special_remarks_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.fiscal_years",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "attributes.fiscal_years[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.identifier_catalog_exceptions",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "attributes.identifier_catalog_exceptions[]",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "attributes.identifier_catalog_exceptions[].catalog_owners",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "attributes.identifier_catalog_exceptions[].catalog_owners[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.identifier_catalog_exceptions[].fiscal_yr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.identifier_catalog_exceptions[].owner_org",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.identifier_catalog_exceptions[].service_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.identifier_catalog_exceptions[].status",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.organization_resolution",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.owner_org",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "description_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "description_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "identifier",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_id",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "label_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "label_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "owner_org",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "record_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "source_path",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "sources",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "sources.inventory",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "type",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "node_service_standard",
+      "label": "Network service_standard",
+      "source": "site/data/graph.json → nodes[] + lazy attributes; AIA references may add runtime fields",
+      "layer": "projection",
+      "rows": 2875,
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "aliases",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "aliases[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attribute_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[]",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].channel",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].channel_comments_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].channel_comments_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].comments_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].comments_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].fiscal_yr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].owner_org",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].owner_org_title",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].performance",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].performance_results_uri_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].performance_results_uri_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].service_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].service_name_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].service_name_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].service_standard_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].service_standard_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].service_standard_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].standards_targets_uri_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].standards_targets_uri_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].target",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].target_met",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].total_volume",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].type",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.annual_observations[].volume_meeting_target",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.fiscal_years",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "attributes.fiscal_years[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.owner_org",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.service_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.service_standard_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "identifier",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_id",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "label_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "label_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "owner_org",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "record_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "source_path",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "sources",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "sources.inventory",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "type",
           "types": [
             "string"
           ]
@@ -7408,6 +9723,18 @@
         },
         {
           "name": "attributes.senior_official_uid",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.service_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.service_match_resolution",
           "types": [
             "string"
           ]
@@ -7583,7 +9910,7 @@
       "label": "Network relationships",
       "source": "site/data/graph.json → edges[]; AIA edges inline",
       "layer": "projection",
-      "rows": 7545,
+      "rows": 15575,
       "primary_key": [
         "id"
       ],
@@ -7692,7 +10019,7 @@
       "label": "Relationship evidence",
       "source": "site/data/graph-evidence/*.json; AIA evidence inline",
       "layer": "projection",
-      "rows": 14126,
+      "rows": 27770,
       "primary_key": [
         "edge_id (shard parent)",
         "ordinal (array)"
@@ -7712,6 +10039,12 @@
         },
         {
           "name": "field",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fiscal_yr",
           "types": [
             "string"
           ]
@@ -7747,6 +10080,24 @@
           ]
         },
         {
+          "name": "owner_org",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "registry_field",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "registry_source_path",
+          "types": [
+            "string"
+          ]
+        },
+        {
           "name": "relationship_scope",
           "types": [
             "string"
@@ -7759,7 +10110,19 @@
           ]
         },
         {
+          "name": "source_sha256",
+          "types": [
+            "string"
+          ]
+        },
+        {
           "name": "source_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "vocabulary_year_status",
           "types": [
             "string"
           ]
@@ -7830,7 +10193,25 @@
           ]
         },
         {
+          "name": "summary.node_types.program",
+          "types": [
+            "number"
+          ]
+        },
+        {
           "name": "summary.node_types.reference",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "summary.node_types.service",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "summary.node_types.service_standard",
           "types": [
             "number"
           ]
@@ -7986,6 +10367,76 @@
       ]
     },
     {
+      "source": "service_organizations",
+      "target": "institution_registry",
+      "label": "institution_id → institution_id",
+      "basis": "documented",
+      "fields": [
+        "institution_id"
+      ]
+    },
+    {
+      "source": "service_inventory",
+      "target": "service_organizations",
+      "label": "owner_org → owner_org",
+      "basis": "documented",
+      "fields": [
+        "owner_org"
+      ]
+    },
+    {
+      "source": "service_standards",
+      "target": "service_inventory",
+      "label": "owner_org, fiscal_yr, service_id → owner_org, fiscal_yr, service_id",
+      "basis": "documented",
+      "fields": [
+        "owner_org",
+        "fiscal_yr",
+        "service_id"
+      ]
+    },
+    {
+      "source": "service_programs",
+      "target": "service_organizations",
+      "label": "owner_org → owner_org",
+      "basis": "documented",
+      "fields": [
+        "owner_org"
+      ]
+    },
+    {
+      "source": "service_program_links",
+      "target": "service_inventory",
+      "label": "owner_org, fiscal_yr, service_id → owner_org, fiscal_yr, service_id",
+      "basis": "documented",
+      "fields": [
+        "owner_org",
+        "fiscal_yr",
+        "service_id"
+      ]
+    },
+    {
+      "source": "service_program_links",
+      "target": "service_programs",
+      "label": "owner_org, program_id → owner_org, program_id",
+      "basis": "documented",
+      "fields": [
+        "owner_org",
+        "program_id"
+      ]
+    },
+    {
+      "source": "service_program_references",
+      "target": "service_inventory",
+      "label": "owner_org, fiscal_yr, service_id → owner_org, fiscal_yr, service_id",
+      "basis": "documented",
+      "fields": [
+        "owner_org",
+        "fiscal_yr",
+        "service_id"
+      ]
+    },
+    {
       "source": "pib_cor_links",
       "target": "institution_classes_of_records",
       "label": "resolved institutional class",
@@ -8093,6 +10544,27 @@
       "fields": []
     },
     {
+      "source": "service_inventory",
+      "target": "service_import_manifest",
+      "label": "normalized source snapshot, resource IDs and checksums",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "service_standards",
+      "target": "service_import_manifest",
+      "label": "normalized source snapshot, resource IDs and checksums",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "service_field_audit",
+      "target": "service_schema_metadata",
+      "label": "resource + field definition",
+      "basis": "documented",
+      "fields": []
+    },
+    {
       "source": "aia_answers",
       "target": "aia_source",
       "label": "same source line / package_id (parent)",
@@ -8140,6 +10612,15 @@
       "label": "exact cited PIA source URL",
       "basis": "documented",
       "fields": []
+    },
+    {
+      "source": "aia_answers",
+      "target": "service_inventory",
+      "label": "ServiceID = service_id + unique matched institution; stable identity, no year inferred",
+      "basis": "documented",
+      "fields": [
+        "ServiceID"
+      ]
     },
     {
       "source": "aia_matches",
@@ -8219,6 +10700,27 @@
       "fields": []
     },
     {
+      "source": "graph_edges",
+      "target": "node_service",
+      "label": "source / target node id",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "graph_edges",
+      "target": "node_program",
+      "label": "source / target node id",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "graph_edges",
+      "target": "node_service_standard",
+      "label": "source / target node id",
+      "basis": "documented",
+      "fields": []
+    },
+    {
       "source": "node_institution",
       "target": "institution_registry",
       "label": "projection / retained source identity",
@@ -8273,11 +10775,32 @@
       "label": "projection / retained source identity",
       "basis": "projection",
       "fields": []
+    },
+    {
+      "source": "node_service",
+      "target": "service_inventory",
+      "label": "projection / retained source identity",
+      "basis": "projection",
+      "fields": []
+    },
+    {
+      "source": "node_program",
+      "target": "service_programs",
+      "label": "projection / retained source identity",
+      "basis": "projection",
+      "fields": []
+    },
+    {
+      "source": "node_service_standard",
+      "target": "service_standards",
+      "label": "projection / retained source identity",
+      "basis": "projection",
+      "fields": []
     }
   ],
   "summary": {
-    "tables": 30,
-    "fields": 1137,
-    "relationships": 46
+    "tables": 42,
+    "fields": 1482,
+    "relationships": 63
   }
 }

@@ -3,7 +3,7 @@
 export function nodeAttributes(node, attributes = {}) {
   const { attribute_url, attributes: inline, ...metadata } = node;
   const values = { ...metadata, ...(inline || {}), ...attributes };
-  const first = ['pib_type', 'personal_information_categories', 'pib_type_details',
+  const first = ['service_id', 'service_standard_id', 'program_id', 'owner_org', 'fiscal_years', 'annual_observations', 'service_match_resolution', 'pib_type', 'personal_information_categories', 'pib_type_details',
     'survey_version', 'impact_level', 'senior_official', 'senior_official_uid',
     'purpose_en', 'purpose_fr', 'description_en', 'description_fr',
     'class_of_individuals_en', 'class_of_individuals_fr', 'consistent_uses_en', 'consistent_uses_fr',

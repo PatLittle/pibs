@@ -25,7 +25,7 @@ export function search(index, query, type = '', institution = '', lang = 'en') {
     (!institution || n.institution_id === institution) &&
     terms.every(t => fold([n.identifier, n.label_en, n.label_fr, ...(n.aliases || [])].join(' ')).includes(t)))
     .sort((a, b) => {
-      const rank = { aia: 0, official: 1, pia: 0, pib: 1, institution: 2, class: 3, reference: 6 };
+      const rank = { service: 1, program: 2, service_standard: 4, aia: 0, official: 1, pia: 0, pib: 1, institution: 2, class: 3, reference: 6 };
       const priority = !terms.length && !type ? rank[a.type] - rank[b.type] : 0;
       return priority || label(a, lang).localeCompare(label(b, lang), lang) || a.id.localeCompare(b.id);
     });
@@ -64,7 +64,7 @@ export function parseState(url, index) {
   }
   return { root, selected: p.get('node') || root, edge: p.get('edge') || '', expanded,
     lang: p.get('lang') === 'fr' ? 'fr' : 'en',
-    relation: ['responsible_official', 'listed_by', 'references', 'related_class'].includes(p.get('relation')) ? p.get('relation') : '' };
+    relation: ['under_program', 'has_standard', 'references_service', 'responsible_official', 'listed_by', 'references', 'related_class'].includes(p.get('relation')) ? p.get('relation') : '' };
 }
 
 export function stateURL(base, state) {

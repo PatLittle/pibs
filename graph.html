@@ -117,7 +117,7 @@
       </p>
       <form id="record-search" role="search">
         <label for="search" data-i18n="search"
-          >Find an institution, assessment, bank, class or named official</label
+          >Find an institution, service, program, assessment, bank or class</label
         >
         <div class="search-input">
           <input
@@ -142,6 +142,13 @@
         <h2 data-i18n="shape">One connected information landscape</h2>
         <div id="landscape" aria-label="The network's record types">
           <div class="landscape-institution" data-kind="institution"></div>
+          <div class="landscape-assessments">
+            <div data-kind="service_standard"></div>
+            <span aria-hidden="true">←</span>
+            <div data-kind="service"></div>
+            <span aria-hidden="true">→</span>
+            <div data-kind="program"></div>
+          </div>
           <div class="landscape-assessments">
             <div data-kind="pia"></div>
             <span aria-hidden="true">↔</span>
