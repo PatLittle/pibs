@@ -39,10 +39,34 @@ const section=(page,parts)=>page.locator('section[data-field-path='+JSON.stringi
   const programIndex=programs.findIndex(p=>p.owner_org==='cic'&&p.program_id==='BGD02');assert.ok(programIndex>=0);await assignments.locator('.program-picker select').selectOption('inventory:'+programIndex);await assignments.getByRole('button',{name:'Assign selected program',exact:true}).click();assert.equal(await page.locator('#issue-count').innerText(),'0');
   const [ready]=await Promise.all([page.waitForEvent('download'),page.locator('#ready-download').click()]);await ready.saveAs(output+'/organization-chart.md');assert.match(fs.readFileSync(output+'/organization-chart.md','utf8'),/BGD02/);
   await page.locator('#outline button').filter({hasText:'People and reporting lines'}).click();await page.screenshot({path:output+'/organization-chart-desktop.png',fullPage:true});
+  // Display language does not discard the other language; PDF uses the selected view.
+  for(const mode of ['en','fr','bil']){
+   await page.locator('#document-language').selectOption(mode);
+   assert.match(await page.locator('.paper-top h2').innerText(),mode==='fr'?/Personnes/:/People/);
+   const chartText=await page.locator('.chart-node').filter({hasText:'Morgan Example'}).innerText();
+   assert.equal(chartText.includes('Deputy head'),mode!=='fr',mode+': '+chartText);assert.equal(chartText.includes('Administrateur général'),mode!=='en',mode+': '+chartText);
+  }
+  await page.locator('#pdf-metadata').click();
+  await page.locator('[data-metadata-key="creators"]').fill('Fictional browser author');
+  await page.locator('[data-metadata-key="contact_email"]').fill('browser@example.invalid');
+  await page.locator('#metadata-form button[type="submit"]').click();await page.waitForSelector('#metadata-dialog:not([open])',{state:'attached'});
+  for(const mode of ['en','fr','bil']){
+   await page.locator('#document-language').selectOption(mode);
+   const [pdf]=await Promise.all([page.waitForEvent('download'),page.locator('#pdf-download').click()]);
+   const path=output+'/browser-'+mode+'.pdf';await pdf.saveAs(path);const bytes=fs.readFileSync(path);assert.ok(bytes.length>10000);assert.equal(bytes.subarray(0,5).toString(),'%PDF-');assert.ok(bytes.includes(Buffer.from('browser@example.invalid')));assert.ok(pdf.suggestedFilename().endsWith('.'+mode.toUpperCase()+'.pdf'));
+  }
+  const [canonical]=await Promise.all([page.waitForEvent('download'),page.locator('#draft-download').click()]);await canonical.saveAs(output+'/with-metadata.md');const md=fs.readFileSync(output+'/with-metadata.md','utf8');assert.match(md,/Fictional browser author/);assert.match(md,/Administrateur général/);assert.match(md,/Deputy head/);
+  await page.locator('#outline button').filter({hasText:'People and reporting lines'}).click();await page.screenshot({path:output+'/language-and-pdf-controls.png',fullPage:true});
   await page.locator('.chart-node').filter({hasText:'Morgan Example'}).click();await input(page,['payload','people',0,'reports_to']).selectOption(fixture.payload.people[2].id);assert.notEqual(await page.locator('#issue-count').innerText(),'0');await input(page,['payload','people',0,'reports_to']).selectOption('');assert.equal(await page.locator('#issue-count').innerText(),'0');
   // Source form sections and repeated-table columns are editable through the same interface.
-  for(const id of ['pib_submission','pia_web_summary','privacy_checklist','privacy_impact_assessment','privacy_protocol']){
+  for(const {kind:id} of JSON.parse(fs.readFileSync('site/document-studio/templates/catalogue.json')).atip_forms){
    await page.locator('#new-document').click();await page.locator('[data-template-id="'+id+'"]').click();assert.equal(await page.locator('#app-error').isHidden(),true,id);assert.ok((await page.locator('#outline button').count())>=1);
+   if(id==='material_privacy_breach'){
+    await page.locator('#outline button').filter({hasText:'Report identification'}).click();await input(page,['payload','report','ReportState']).selectOption('ReportState-2');await input(page,['payload','report','OPCFileNumber']).fill('EXAMPLE-OPC-1');
+   }
+   if(id==='access_statistics'){
+    await page.locator('#outline button').filter({hasText:'1.1 Number of requests'}).first().click();await page.getByRole('button',{name:'Set empty numeric cells in this table to 0',exact:true}).click();assert.equal(await page.locator('#paper input').first().inputValue(),'0');
+   }
    if(id==='privacy_impact_assessment'){
     await page.locator('#outline button').filter({hasText:'4. Handling of personal information'}).click();
     // Locate the 13-column handling table using the generated schema metadata.
@@ -56,6 +80,6 @@ const section=(page,parts)=>page.locator('section[data-field-path='+JSON.stringi
   const unusualId=structuredClone(fixture);unusualId.document_id='__proto__';await page.locator('#open-file').setInputFiles({name:'literal-id.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(unusualId))});await page.waitForTimeout(250);assert.ok(await page.evaluate(key=>Object.hasOwn(JSON.parse(localStorage.getItem(key)).documents,'__proto__'),KEY));
   assert.deepEqual(errors,[]);
   const recovery=await context.newPage();await recovery.addInitScript(({key})=>localStorage.setItem(key,'{"version":"old","documents":{"preserve":"content"}}'),{key:KEY});await recovery.goto(base+'document-studio/');await recovery.waitForSelector('[data-edit-path]');assert.equal(await recovery.locator('#recover-drafts').isVisible(),true);assert.ok((await recovery.evaluate(key=>localStorage.getItem(key),KEY)).includes('preserve'));
-  console.log('Passed Document Studio: bilingual visual editing/autosave, nested standard templates, five forms, 13-column repeated table, enforced program assignments, reporting-cycle checks, Markdown downloads/import, French mobile and recovery.');
+  console.log('Passed Document Studio: bilingual visual editing/autosave, nested standard templates, all 13 ATIP forms, EN/FR/BIL views and PDF downloads with metadata, 13-column repeated table, enforced program assignments, reporting-cycle checks, Markdown downloads/import, French mobile and recovery.');
  }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exit(1);});

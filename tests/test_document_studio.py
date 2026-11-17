@@ -37,6 +37,18 @@ class DocumentStudioTests(unittest.TestCase):
         self.assertEqual(source['counts'],dict(internal_groups=11,standard_classes=33,standard_pibs=49))
         self.assertTrue(source['link_exceptions'],'Preserve legacy-link differences rather than hiding them')
 
+    def test_atip_provenance_and_bundled_pdf_assets(self):
+        atip=json.loads((APP/'templates/atip.json').read_text())
+        self.assertEqual(len(atip['register']),13)
+        self.assertEqual(len(atip['sources']),16)
+        for source in atip['sources']:
+            self.assertEqual(len(source['sha256']),64)
+            self.assertTrue(source['url'].startswith('https://www.canada.ca/'))
+        for asset in json.loads((APP/'vendor/manifest.json').read_text()):
+            content=(APP/asset['path']).read_bytes()
+            self.assertEqual(len(content),asset['bytes'])
+            self.assertEqual(hashlib.sha256(content).hexdigest(),asset['sha256'])
+
     def test_offline_template_build_is_deterministic(self):
         before={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in (APP/'templates').glob('*.json')}
         subprocess.run([sys.executable,str(APP/'tools/build_templates.py')],cwd=ROOT,check=True,capture_output=True)

@@ -8,10 +8,10 @@ globalThis.crypto ||= webcrypto;
 const read=name=>JSON.parse(readFileSync(new URL('../site/document-studio/'+name,import.meta.url),'utf8'));
 const schema=read('templates/document.schema.json'),catalogue=read('templates/catalogue.json'),library=read('templates/library.json'),example=read('examples/organization-chart.json');
 
-test('all 110 templates instantiate with schema-constrained structure and unique component IDs',()=>{
- validateSchemaDefinition(schema);assert.equal(catalogue.templates.length,110);
+test('all 118 templates instantiate with schema-constrained structure and unique component IDs',()=>{
+ validateSchemaDefinition(schema);assert.equal(catalogue.templates.length,118);
  for(const template of catalogue.templates){const doc=newDocument(schema,template);assert.deepEqual(validate(doc,schema,{complete:false}),[],template.id);const copy=newDocument(schema,template);assert.notEqual(doc.document_id,copy.document_id);assert.notEqual(doc.payload.id,copy.payload.id);}
- const unsafe=structuredClone(schema);unsafe.$defs.person.properties.name.pattern='.*';assert.throws(()=>validateSchemaDefinition(unsafe),/Unsupported schema keyword/);
+ const unsafe=structuredClone(schema);unsafe.$defs.person.properties.name.minimum=0;assert.throws(()=>validateSchemaDefinition(unsafe),/Unsupported schema keyword/);
 });
 test('the complete Info Source family includes every standard template and official internal-service nesting',()=>{
  assert.equal(Object.keys(library.classes).length,33);assert.equal(Object.keys(library.pibs).length,49);assert.equal(library.internal_groups.length,11);

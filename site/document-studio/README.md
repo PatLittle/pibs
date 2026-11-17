@@ -11,7 +11,9 @@ framework, CDN, server account or connection to a document storage service.
 1. Choose **New document / Nouveau document**, then a template. The default is a
    complete Info Source publication. All templates can also be browsed under All.
 2. Write directly on the document. English and French are paired on the same page;
-   changing the interface language does not remove either language. Bold, italic,
+   choose **EN**, **FR**, or **BIL** above the paper to display one or both languages.
+   The separate interface-language button changes navigation labels. Neither
+   control removes translated content from the saved document. Bold, italic,
    lists and links are available in editable text. Template headings and fixed
    official wording stay locked to the selected document schema.
 3. Use the outline to enter a section. Add a program, then an activity where
@@ -26,7 +28,12 @@ framework, CDN, server account or connection to a document storage service.
    origin; download files to keep or share them. Multiple documents appear in the
    saved-drafts selector. Failed browser storage is reported without disabling
    downloads; unrecognized saved data is preserved with a recovery download.
-6. Use **items to complete / éléments à compléter** to jump to missing or
+6. Choose **PDF details / Métadonnées** to supply authorship, rights, keywords and
+   contact information. **Export PDF** downloads the current EN, FR or BIL view
+   with embedded XMP/IPTC metadata and the organization chart where present.
+   Incomplete documents receive a DRAFT / BROUILLON label. The `.md` remains the
+   editable, bilingual source; PDF is a presentation copy.
+7. Use **items to complete / éléments à compléter** to jump to missing or
    inconsistent fields. A review-ready `.md` download requires complete paired
    content and all implemented structural and relationship checks to pass.
    Review-ready is not legal compliance certification, a signature, TBS approval,
@@ -40,7 +47,7 @@ responsables compétents. Aucun envoi ni publication automatique n’a lieu.
 
 ## Template inventory and official sources
 
-The initial library has **110 templates and reusable components**:
+The library has **118 templates and reusable components**:
 
 - The full Info Source publication; program, activity, class of records,
   institution-specific/central PIB, disclosure summary, class of personal
@@ -52,6 +59,13 @@ The initial library has **110 templates and reusable components**:
 - All five supplied TBS Word template families in English and French:
   **PIB Submission Form (A–N)**, **PIA Web Summary**, **Privacy Checklist**,
   **Privacy Impact Assessment**, and **Privacy Protocol**.
+- The remaining eight TBS ATIP form families: **material privacy breach report**,
+  **access request**, **personal information request**, **consent**,
+  **authorization**, **record correction**, and the **Access Act / Privacy Act
+  statistical reports**. Together with the five Word families, these cover all
+  **13 ATIP families** in the captured TBS register, before the unrelated Phoenix
+  pay-system section. Browse **Privacy & PIA** or **Access forms**, or search by
+  form number.
 - A reusable participating-institution component, organization chart, and
   position/program assignments. Organization-chart fields are project extensions,
   not claimed requirements of the official Info Source publication.
@@ -104,6 +118,96 @@ Government source material is attributed to Canada.ca and its published
 [terms](https://www.canada.ca/en/transparency/terms.html). Source descriptions and
 instructions are parsed as template data, never executed as commands. The editor
 preserves the source document's stated mandatory/non-mandatory context.
+
+## ATIP preparation and official completion formats
+
+[atip.json](templates/atip.json) records the 13 bilingual form entries, official
+URLs, SHA-256 source checksums, HTML instructions, statistical input labels and
+coordinates, and static breach-PDF field labels/instructions. Each form displays
+its number and official EN/FR links. Source documents are reference material;
+source instructions are never executed or treated as instructions to this app.
+
+| TBS/SCT form | Studio option | Official completion consideration |
+|---|---|---|
+| 350-57 | Access request | Official request/signature/payment process |
+| 350-58 | Personal information request | Official request/attestation process |
+| 350-60E/F | Consent | Official signatures remain separate |
+| 350-55E/F | Authorization | Official signatures remain separate |
+| 350-11 | Record correction | Official correction/attestation process |
+| 350-62 | Access Act statistics | Submit the official XML/XLS; Studio is a worksheet |
+| 350-63 | Privacy Act statistics | Submit the official XML/XLS; Studio is a worksheet |
+| 350-64E/F | Material privacy breach | Complete the official dynamic PDF in suitable desktop PDF software |
+| 350-65E/F | Privacy checklist | Prescribed Word template |
+| 350-66E/F | PIA | Prescribed Word template and approval process |
+| 350-67E/F | PIB submission | Prescribed Word form |
+| 350-68E/F | PIA web summary | Prescribed template and publication after approval |
+| 350-69E/F | Privacy protocol | The template is non-mandatory and adaptable |
+
+The breach model maps **all 175 source field identifiers** in each language.
+Exclusive choices are grouped; independent checkboxes remain separate. The hidden
+form-identification field is retained as locked administrative metadata. Original
+reports have source-specific conditional completion checks; amendments require an
+existing OPC file number and bilingual amendment summary and can leave other
+sections blank. These checks do not reproduce Adobe JavaScript, signatures,
+automated sending, or the original form’s dynamic behavior. Do not enter affected
+individuals’ names/identifiers or sensitive system-security details; follow the
+linked source instructions. Studio PDF is a preparation copy, not an official
+filled submission form.
+
+The statistical models retain **691 English / 692 French access-report inputs**
+and **592 inputs per language for the privacy report**. Values are nonnegative
+numeric strings, except institution name and reporting dates. Empty numeric cells
+can explicitly be set to zero for one table. No official spreadsheet formulas or
+cross-table reconciliation is claimed. The sources contain duplicate or differing
+IDs and one French-only access cell with an empty source ID. Alignment uses exact
+IDs with table/row/cell disambiguation, or verified coordinates; every exception is
+recorded in `atip.json`. The French-only cell is retained with its French source
+label in the English column as well, rather than inventing a translation.
+`requirements.json.atip_fields` maps every statistical and breach field to its
+source ID(s). Existing Word coverage stays under `form_fields`.
+
+## PDF and embedded metadata
+
+PDFs are generated locally using bundled **pdf-lib 1.17.1**, **@pdf-lib/fontkit
+1.1.1**, and embedded Noto Sans regular/bold fonts. No external PDF service receives
+the document. Assets load only on PDF export. French accents are retained as real
+text; unsupported characters produce an explicit error instead of disappearing.
+The PDF body follows EN/FR/BIL; the canonical `.md` always retains both languages.
+Bilingual text uses two columns. Position records appear in full, with a vector
+chain-of-command diagram on a separate page. Long content paginates.
+
+Each PDF includes the PDF Info dictionary and a catalog-linked `/Metadata` XML
+stream containing RDF XMP. IPTC Core and IPTC Extension properties are embedded
+**inside that XMP packet**, the appropriate mapping for PDF; legacy JPEG IPTC-IIM
+blocks are not added. Automatic metadata includes document/schema identity,
+selected language(s), draft/review status, creation/modification times, creator
+software, a stable DocumentID, a fresh InstanceID, and official form number/source
+URLs when applicable. Author-supplied metadata includes bilingual title,
+description, copyright and usage terms; creators, keywords, credit, source,
+headline, writer, instructions, creation date, rights link, subject/scene codes,
+country code, digital-source type and structured creator contact information.
+
+**All supplied applicable metadata is embedded; unspecified fields remain absent.**
+Studio does not fabricate ownership, creators, contact details, or irrelevant
+photo/camera/location data. Advanced additional properties support any valid,
+non-reserved namespace and text, Bag, Seq, language-alternative and structured
+RDF values. Populated standard fields cannot be overridden by an additional
+property. Example additional property (the `value` is a JSON string):
+
+```json
+[{"namespace":"http://iptc.org/std/Iptc4xmpExt/2008-02-29/","prefix":"Iptc4xmpExt","property":"OrganisationInImageName","type":"bag","value":"[\"Example institution\"]"}]
+```
+
+Metadata is retained in the document’s optional `metadata` object for later edits
+and `.md` reopen. EN/FR PDF bodies contain the chosen language; metadata may still
+contain bilingual title/rights alternatives. Exported files are not PDF/A,
+electronically signed, encrypted, or tagged accessible PDFs. Official submission
+and accessible publication requirements need their own review.
+
+References: [pdf-lib API](https://pdf-lib.js.org/docs/api/classes/pdfdocument),
+[IPTC Photo Metadata standard](https://www.iptc.org/std/photometadata/specification/IPTC-PhotoMetadata-2025.1.html).
+Bundled asset origins/checksums are in [vendor/manifest.json](vendor/manifest.json),
+with upstream MIT notices and the font SIL Open Font License alongside the assets.
 
 ## People, positions and program assignments
 
@@ -191,6 +295,8 @@ relationship/content rules are implemented in `model.mjs`, with checks in tests.
 | `model.mjs` | Defaults, IDs, validation, program references and chart layout |
 | `markdown.mjs`, `vocabulary.mjs` | Safe rendering, bilingual labels and file round-trip |
 | `tools/build_templates.py` | Authored Info Source schema and template/library builder |
+| `pdf.mjs`, `metadata.mjs`, `fonts/`, `vendor/` | Local PDF rendering, embedded XMP/IPTC and licensed dependencies |
+| `tools/atip.py`, `atip-validation.mjs` | ATIP register, captured HTML/PDF field models and conditional breach checks |
 | `tools/forms.py` | Safe OpenXML extraction and Word-question/table schemas |
 | `templates/*.json` | Generated owning schema, catalogue and captured-source metadata |
 | `examples/*` | Fictional complete example, not institutional source data |
@@ -207,7 +313,7 @@ Build offline from the captured metadata:
 ```sh
 .venv/bin/python site/document-studio/tools/build_templates.py
 .venv/bin/python -m unittest tests.test_document_studio
-node --test tests/document-studio.test.mjs
+node --test tests/document-studio.test.mjs tests/document-studio-pdf.test.mjs
 python3 -m http.server 8772 --directory site
 ```
 
@@ -229,3 +335,14 @@ the requirement map before publishing. The `Info Source` current-source parser
 fails if a bilingual standard entry disappears or the source catalogue count
 changes. Word heading/block/table alignment changes also stop a refresh for review.
 The normal site workflow builds offline and never downloads fresh Word templates.
+
+To refresh the additional ATIP captures, keep the seven bilingual HTML pairs named
+`350-57-en.html`, `350-57-fr.html`, etc., and the breach PDFs named
+`350-64e-eng.pdf` / `350-64-fr.pdf` outside the checkout. Run the builder with
+`--atip-source-dir /path/to/captures`. This capture-only path additionally needs
+`pdfminer.six` and `pdfplumber`; it extracts static fields/text without running PDF
+JavaScript. Inspect alignment exceptions and source-field coverage before committing.
+PDF tests use `pdfplumber` to independently inspect the actual PDF text, XMP,
+IPTC Core/Extension and PDF Info, rather than only checking exporter internals.
+Schema additions are backward-compatible within version 1.0.0: earlier documents
+without the optional metadata object and existing template bodies still reopen.
