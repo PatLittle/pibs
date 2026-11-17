@@ -32,6 +32,9 @@ on:
       - "data_model.json"
       - "validate_data_model.py"
       - "tests/test_network_schema.py"
+      - "tests/test_document_studio.py"
+      - "tests/document-studio.test.mjs"
+      - "tests/document-studio.browser.cjs"
       - "tests/graph-focus.test.mjs"
       - "scripts/validate_graph.py"
       - "my_info/categories.py"
@@ -69,7 +72,7 @@ jobs:
           node-version: "22"
 
       - name: Install site build dependencies
-        run: python -m pip install --disable-pip-version-check beautifulsoup4 "Markdown>=3.7,<4"
+        run: python -m pip install --disable-pip-version-check beautifulsoup4 "Markdown>=3.7,<4" "jsonschema>=4.23,<5"
 
       - name: Sync dataset files into site payload
         run: |
@@ -100,6 +103,12 @@ jobs:
           node --check site/link-aia.mjs
           node --check site/graph.mjs
           node --check site/graph-focus.mjs
+          python -m unittest tests.test_document_studio
+          node --test tests/document-studio.test.mjs
+          node --check site/document-studio/studio.mjs
+          node --check site/document-studio/model.mjs
+          node --check site/document-studio/markdown.mjs
+          node --check site/document-studio/vocabulary.mjs
           node --check site/data-model.mjs
           node --check site/graph-attributes.mjs
 

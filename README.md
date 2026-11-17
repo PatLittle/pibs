@@ -556,3 +556,13 @@ See the [Service Inventory field inventory, join ledger and next steps](docs/SER
 and the [complete interactive model](https://patlittle.github.io/pibs/data-model.html).
 Normalized owning inputs live in `data/service_inventory/`; the import manifest
 records their source URLs and checksums. AIA records remain externally hosted.
+
+### Document Studio
+
+[Document Studio](https://patlittle.github.io/pibs/document-studio/) is a separate
+visual authoring section linked from the website footer. It creates one bilingual
+`.md` file with a versioned document schema, repeatable components and validation.
+The template family covers Info Source, its standard records/internal services,
+and all five supplied TBS privacy/PIB forms. The People section shows explicit
+DG-and-above reporting lines, classifications and required program assignments.
+See the [complete feature and schema guide](site/document-studio/README.md).

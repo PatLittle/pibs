@@ -1,0 +1,839 @@
+{
+  "inspected_at_utc": "2026-11-17T06:51:38.224970+00:00",
+  "effective_date": "2023-07-01",
+  "sources": [
+    {
+      "id": "requirements",
+      "url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/access-informatio-policies-guidance/programs-holdings-online-publishing-requirements.html",
+      "language": "en",
+      "sha256": "e62f4c98fc483ed1d43985b96daab2b3feeef246301e95ca396f554ae44b8a4b",
+      "date_modified": null
+    },
+    {
+      "id": "requirements-fr",
+      "url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/access-informatio-policies-guidance/programs-holdings-online-publishing-requirements.html",
+      "language": "fr",
+      "sha256": "665a0ff8dd0e4e13aa4f910000806826fb79619f79f04a08d7d8cd887ad3f5a7",
+      "date_modified": null
+    },
+    {
+      "id": "internal",
+      "url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/internal-services.html",
+      "language": "en",
+      "sha256": "30c71cf832fb15f5012faa3285ce407fce4578528153ca9e0f951a5a6e9ff376",
+      "date_modified": null
+    },
+    {
+      "id": "internal-fr",
+      "url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/internal-services.html",
+      "language": "fr",
+      "sha256": "7b342499add226f34aaa9e1ff367aee16d55714e2174175b03cccef8a4364bbf",
+      "date_modified": null
+    },
+    {
+      "id": "classes",
+      "url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-classes-records.html",
+      "language": "en",
+      "sha256": "a692e08253bf879cce3770b212fbfd03c3306c401ae9a30123d7af3ebe4bd244",
+      "date_modified": null
+    },
+    {
+      "id": "classes-fr",
+      "url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-classes-records.html",
+      "language": "fr",
+      "sha256": "70a44f42a7ec14177f9df4cac488d2b6b776ef709595d09b8e674d99c241af69",
+      "date_modified": null
+    },
+    {
+      "id": "banks",
+      "url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-personal-information-banks.html",
+      "language": "en",
+      "sha256": "ef8e736d4b98a2c77263fb0fa305c58bcc0797faf979e9f9e6b4625518912899",
+      "date_modified": null
+    },
+    {
+      "id": "banks-fr",
+      "url": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/info-source/standard-personal-information-banks.html",
+      "language": "fr",
+      "sha256": "ccd327bb5c6d290c3fa6f6c40a0a0dbd03e28bda9b677a7eb5dab97e781fb97d",
+      "date_modified": null
+    },
+    {
+      "id": "pib-submission-en",
+      "url": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/personal-information-bank-submission-form-en.docx",
+      "language": "en",
+      "sha256": "3b6bc698249b5218f92da2847fd6bdccb848f5caf80591ecf21a82e9844f3510"
+    },
+    {
+      "id": "pib-submission-fr",
+      "url": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/personal-information-bank-submission-form-fr.docx",
+      "language": "fr",
+      "sha256": "bf8eb9970ce9adbac2f1d6e5222111b0da700cc4d53a27ff59d35fde2ce5b4b2"
+    },
+    {
+      "id": "pia_web_summary-en",
+      "language": "en",
+      "url": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/privacy-impact-assessment-web-summary-template-en.docx",
+      "sha256": "fc4d51cee0c334ddbf3548688aff1ed7769d6e5c9a2acb5e8024007e0bf3f34a",
+      "bytes": 83897
+    },
+    {
+      "id": "pia_web_summary-fr",
+      "language": "fr",
+      "url": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/privacy-impact-assessment-web-summary-template-fr.docx",
+      "sha256": "1153135322dcbfd8743e89e38a297e37326d4bbbe7f16d2152cbb8fe551282ba",
+      "bytes": 80597
+    },
+    {
+      "id": "privacy_checklist-en",
+      "language": "en",
+      "url": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/privacy-checklist-template-en.docx",
+      "sha256": "4dc010518e1a2f54c5dc3b9f0e5f1d8ed52317541ce91d5ed8fdedbac93a510c",
+      "bytes": 82172
+    },
+    {
+      "id": "privacy_checklist-fr",
+      "language": "fr",
+      "url": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/privacy-checklist-template-fr.docx",
+      "sha256": "650d391f7704d740a47a9276c03a73956400e1e37a3a4a5200be322241a1d995",
+      "bytes": 88419
+    },
+    {
+      "id": "privacy_impact_assessment-en",
+      "language": "en",
+      "url": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/privacy-impact-assessment-template-en.docx",
+      "sha256": "6196f6b02534c6281c2ce1dd7061ac4dca5d266629dd61f3282a819248b87ec1",
+      "bytes": 173500
+    },
+    {
+      "id": "privacy_impact_assessment-fr",
+      "language": "fr",
+      "url": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/privacy-impact-assessment-template-fr.docx",
+      "sha256": "3dd7c976626abc811debc720ad395a53e2e2bf62fd6f47276a164ffab9652d3f",
+      "bytes": 204929
+    },
+    {
+      "id": "privacy_protocol-en",
+      "language": "en",
+      "url": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/privacy-protocol-template-en.docx",
+      "sha256": "84ee37a670b4b151b1e6ee7e7be996f51f2f4c13ad343304d31c63a09a187818",
+      "bytes": 119970
+    },
+    {
+      "id": "privacy_protocol-fr",
+      "language": "fr",
+      "url": "https://www.canada.ca/content/dam/tbs-sct/documents/forms/privacy-protocol-template-fr.docx",
+      "sha256": "d7bedc3ea1f4c32ea8768fe2e7664abe6c8a428f7936c229602b186acb476852",
+      "bytes": 152946
+    }
+  ],
+  "link_exceptions": [
+    {
+      "language": "en",
+      "source_fragment": "pse917",
+      "source_label": "Identification Cards and Access Badges Personal Information Bank",
+      "target_bank": "PSU 907",
+      "method": "explicit_prior_identifier_in_current_source_note",
+      "evidence": "This personal information bank was formerly two separate personal information banks: Security Video Surveillance and Temporary Visitor Access Control Logs and Access Badges PSU 907 and Identification and Access Cards PSE 917.",
+      "note": "A published standard-bank note explicitly identifies the former PIB; repeated links to its successor are deduplicated within the class."
+    },
+    {
+      "language": "en",
+      "source_fragment": "psu9072",
+      "source_label": "Security Video Surveillance and Temporary Visitor Access Control Logs and Building Passes Personal Information Bank",
+      "target_bank": "PSU 907",
+      "method": "curated_consolidation_from_explicit_source_note",
+      "evidence": "This personal information bank was formerly two separate personal information banks: Security Video Surveillance and Temporary Visitor Access Control Logs and Access Badges PSU 907 and Identification and Access Cards PSE 917.",
+      "note": "The Internal Services template still names the former surveillance/visitor-log bank. The current TBS note explicitly consolidates that bank and PSE 917 into Physical Access Controls."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd912",
+      "target_class": "912",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd939",
+      "target_class": "939",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd914",
+      "target_class": "914",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd933",
+      "target_class": "933",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd919",
+      "target_class": "919",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "pse9021",
+      "source_label": "Fichier de renseignements personnels sur la dotation",
+      "method": "unresolved_published_link",
+      "note": "Retained for audit. The current English Internal Services relationship and independently matched French standard-bank description are used; no identifier is guessed from this broken link."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd942",
+      "target_class": "942",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd946",
+      "target_class": "946",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd927",
+      "target_class": "927",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd923",
+      "target_class": "923",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd949",
+      "target_class": "949",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd940",
+      "target_class": "940",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd920",
+      "target_class": "920",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "pse9021",
+      "source_label": "Fichier de renseignements personnels sur la dotation",
+      "method": "unresolved_published_link",
+      "note": "Retained for audit. The current English Internal Services relationship and independently matched French standard-bank description are used; no identifier is guessed from this broken link."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd926",
+      "target_class": "926",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd936",
+      "target_class": "936",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd924",
+      "target_class": "924",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd924",
+      "target_class": "941",
+      "source_label": "Catégorie de document en matière de rémunération et avantages sociaux",
+      "method": "unique_literal_current_title_in_source_label",
+      "note": "The French Internal Services label names a current standard class but its old fragment uses a different number."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd922",
+      "target_class": "922",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "pse9071",
+      "source_label": "Fichier de renseignements personnels sur la santé et sécurité au travail",
+      "method": "unresolved_published_link",
+      "note": "Retained for audit. The current English Internal Services relationship and independently matched French standard-bank description are used; no identifier is guessed from this broken link."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd930",
+      "target_class": "930",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd944",
+      "target_class": "944",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd932",
+      "target_class": "932",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd902",
+      "target_class": "902",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd904",
+      "target_class": "904",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd947",
+      "target_class": "947",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd943",
+      "target_class": "943",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd916",
+      "target_class": "916",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd945",
+      "target_class": "945",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd948",
+      "target_class": "948",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd948",
+      "source_label": "Fichier de renseignements personnels sur la gestion des biens immobiliers",
+      "method": "unresolved_published_link",
+      "note": "Retained for audit. The current English Internal Services relationship and independently matched French standard-bank description are used; no identifier is guessed from this broken link."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd938",
+      "target_class": "938",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd937",
+      "target_class": "937",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd935",
+      "target_class": "935",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd928",
+      "target_class": "928",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd931",
+      "target_class": "931",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "pse917",
+      "source_label": "Fichier de renseignements personnels sur les cartes d’identité et les laissez-passer",
+      "target_bank": "PSU 907",
+      "method": "explicit_prior_identifier_in_current_source_note",
+      "evidence": "This personal information bank was formerly two separate personal information banks: Security Video Surveillance and Temporary Visitor Access Control Logs and Access Badges PSU 907 and Identification and Access Cards PSE 917.",
+      "note": "A published standard-bank note explicitly identifies the former PIB; repeated links to its successor are deduplicated within the class."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd901",
+      "target_class": "901",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_fragment": "npd934",
+      "target_class": "934",
+      "method": "published_link_prefix_typo",
+      "note": "Internal Services uses npd rather than ndp; the numeric standard-record key is retained and checked against the bilingual catalogue."
+    },
+    {
+      "language": "fr",
+      "source_group": "Services de gestion financière",
+      "method": "bilingual_template_link_difference",
+      "english_current_relationships": [
+        {
+          "number": "914",
+          "pibs": [
+            "PSU 931",
+            "PSU 932",
+            "PSU 940"
+          ]
+        }
+      ],
+      "french_published_links": [
+        {
+          "number": "914",
+          "pibs": [
+            "PSU 940",
+            "PSU 931",
+            "PSU 932"
+          ]
+        }
+      ],
+      "note": "English template links establish nesting. French field content comes from the independently keyed current French descriptions. Broken or conflicting French template links are not treated as proof of a different bank."
+    },
+    {
+      "language": "fr",
+      "source_group": "Services de gestion des ressources humaines",
+      "method": "bilingual_template_link_difference",
+      "english_current_relationships": [
+        {
+          "number": "940",
+          "pibs": [
+            "PSE 920"
+          ]
+        },
+        {
+          "number": "919",
+          "pibs": [
+            "PSE 902"
+          ]
+        },
+        {
+          "number": "941",
+          "pibs": [
+            "PSE 903",
+            "PSE 904"
+          ]
+        },
+        {
+          "number": "942",
+          "pibs": [
+            "PSE 918"
+          ]
+        },
+        {
+          "number": "933",
+          "pibs": [
+            "PSU 908"
+          ]
+        },
+        {
+          "number": "949",
+          "pibs": [
+            "PSU 935",
+            "PSE 930"
+          ]
+        },
+        {
+          "number": "926",
+          "pibs": [
+            "PSU 933",
+            "PSE 911",
+            "PSE 910",
+            "PSE 919",
+            "PSU 906",
+            "PSE 915"
+          ]
+        },
+        {
+          "number": "922",
+          "pibs": [
+            "PSE 916",
+            "PSE 919",
+            "PSE 907",
+            "PSE 908"
+          ]
+        },
+        {
+          "number": "923",
+          "pibs": [
+            "PSE 906"
+          ]
+        },
+        {
+          "number": "946",
+          "pibs": [
+            "PSE 911",
+            "PSE 912"
+          ]
+        },
+        {
+          "number": "920",
+          "pibs": [
+            "PSU 911",
+            "PSE 901",
+            "PSU 934",
+            "PSU 917",
+            "PSE 902",
+            "PSE 915"
+          ]
+        },
+        {
+          "number": "936",
+          "pibs": [
+            "PSU 910"
+          ]
+        },
+        {
+          "number": "927",
+          "pibs": [
+            "PSE 905"
+          ]
+        }
+      ],
+      "french_published_links": [
+        {
+          "number": "933",
+          "pibs": [
+            "PSU 908"
+          ]
+        },
+        {
+          "number": "919",
+          "pibs": []
+        },
+        {
+          "number": "942",
+          "pibs": [
+            "PSE 918"
+          ]
+        },
+        {
+          "number": "946",
+          "pibs": [
+            "PSE 912",
+            "PSE 911"
+          ]
+        },
+        {
+          "number": "927",
+          "pibs": [
+            "PSE 905"
+          ]
+        },
+        {
+          "number": "923",
+          "pibs": [
+            "PSE 906"
+          ]
+        },
+        {
+          "number": "949",
+          "pibs": [
+            "PSE 930",
+            "PSU 935"
+          ]
+        },
+        {
+          "number": "940",
+          "pibs": [
+            "PSE 920"
+          ]
+        },
+        {
+          "number": "920",
+          "pibs": [
+            "PSE 915",
+            "PSU 917",
+            "PSU 911",
+            "PSE 901",
+            "PSU 934"
+          ]
+        },
+        {
+          "number": "926",
+          "pibs": [
+            "PSE 915",
+            "PSU 906",
+            "PSE 910",
+            "PSE 919",
+            "PSE 911",
+            "PSU 933"
+          ]
+        },
+        {
+          "number": "936",
+          "pibs": [
+            "PSU 910"
+          ]
+        },
+        {
+          "number": "941",
+          "pibs": [
+            "PSE 903",
+            "PSE 904"
+          ]
+        },
+        {
+          "number": "922",
+          "pibs": [
+            "PSE 908",
+            "PSE 916",
+            "PSE 919"
+          ]
+        }
+      ],
+      "note": "English template links establish nesting. French field content comes from the independently keyed current French descriptions. Broken or conflicting French template links are not treated as proof of a different bank."
+    },
+    {
+      "language": "fr",
+      "source_group": "Services de gestion et de surveillance",
+      "method": "bilingual_template_link_difference",
+      "english_current_relationships": [
+        {
+          "number": "904",
+          "pibs": [
+            "PSU 937",
+            "PSU 938"
+          ]
+        },
+        {
+          "number": "943",
+          "pibs": [
+            "PSU 902"
+          ]
+        },
+        {
+          "number": "916",
+          "pibs": [
+            "PSU 942",
+            "PSU 941"
+          ]
+        },
+        {
+          "number": "947",
+          "pibs": []
+        }
+      ],
+      "french_published_links": [
+        {
+          "number": "904",
+          "pibs": [
+            "PSU 938",
+            "PSU 937"
+          ]
+        },
+        {
+          "number": "947",
+          "pibs": []
+        },
+        {
+          "number": "943",
+          "pibs": [
+            "PSE 902"
+          ]
+        },
+        {
+          "number": "916",
+          "pibs": [
+            "PSU 942",
+            "PSU 941"
+          ]
+        }
+      ],
+      "note": "English template links establish nesting. French field content comes from the independently keyed current French descriptions. Broken or conflicting French template links are not treated as proof of a different bank."
+    },
+    {
+      "language": "fr",
+      "source_group": "Services de gestion des biens immobiliers",
+      "method": "bilingual_template_link_difference",
+      "english_current_relationships": [
+        {
+          "number": "948",
+          "pibs": [
+            "PSU 948"
+          ]
+        }
+      ],
+      "french_published_links": [
+        {
+          "number": "948",
+          "pibs": []
+        }
+      ],
+      "note": "English template links establish nesting. French field content comes from the independently keyed current French descriptions. Broken or conflicting French template links are not treated as proof of a different bank."
+    },
+    {
+      "language": "fr",
+      "source_group": "Services de gestion de voyages et autres services administratifs",
+      "method": "bilingual_template_link_difference",
+      "english_current_relationships": [
+        {
+          "number": "901",
+          "pibs": [
+            "PSE 914"
+          ]
+        },
+        {
+          "number": "938",
+          "pibs": [
+            "PSU 918",
+            "PSU 919"
+          ]
+        },
+        {
+          "number": "928",
+          "pibs": [
+            "PSU 903"
+          ]
+        },
+        {
+          "number": "937",
+          "pibs": [
+            "PSU 913"
+          ]
+        },
+        {
+          "number": "935",
+          "pibs": [
+            "PSU 908",
+            "PSU 909"
+          ]
+        },
+        {
+          "number": "931",
+          "pibs": [
+            "PSU 907",
+            "PSU 906",
+            "PSU 917",
+            "PSU 939"
+          ]
+        },
+        {
+          "number": "934",
+          "pibs": [
+            "PSU 909"
+          ]
+        }
+      ],
+      "french_published_links": [
+        {
+          "number": "938",
+          "pibs": [
+            "PSU 919",
+            "PSU 918"
+          ]
+        },
+        {
+          "number": "937",
+          "pibs": [
+            "PSU 913"
+          ]
+        },
+        {
+          "number": "935",
+          "pibs": [
+            "PSU 908",
+            "PSU 909"
+          ]
+        },
+        {
+          "number": "928",
+          "pibs": [
+            "PSU 903"
+          ]
+        },
+        {
+          "number": "931",
+          "pibs": [
+            "PSU 907",
+            "PSU 917",
+            "PSU 906",
+            "PSU 939",
+            "PSE 907"
+          ]
+        },
+        {
+          "number": "901",
+          "pibs": [
+            "PSE 914"
+          ]
+        },
+        {
+          "number": "934",
+          "pibs": [
+            "PSU 909"
+          ]
+        }
+      ],
+      "note": "English template links establish nesting. French field content comes from the independently keyed current French descriptions. Broken or conflicting French template links are not treated as proof of a different bank."
+    }
+  ],
+  "counts": {
+    "internal_groups": 11,
+    "standard_classes": 33,
+    "standard_pibs": 49
+  },
+  "notes": [
+    "Source descriptions are data, never executable instructions.",
+    "Standard references do not establish institutional applicability.",
+    "The 2019 decentralized requirements are superseded; use the 2023 requirements linked here."
+  ]
+}

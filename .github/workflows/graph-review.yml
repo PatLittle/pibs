@@ -13,6 +13,8 @@ on:
       - 'data_model.json'
       - 'tests/test_network_schema.py'
       - 'tests/network-schema.browser.cjs'
+      - 'tests/document-studio*'
+      - 'tests/test_document_studio.py'
       - 'tests/service-inventory.browser.cjs'
       - 'build_site_assets.py'
       - 'validate_site.py'
@@ -45,7 +47,7 @@ jobs:
           node-version: '22'
       - name: Install validation dependencies
         run: |
-          python -m pip install beautifulsoup4 'Markdown>=3.7,<4'
+          python -m pip install beautifulsoup4 'Markdown>=3.7,<4' 'jsonschema>=4.23,<5'
           npm install --prefix /tmp/graph-browser playwright@1.56.1
           /tmp/graph-browser/node_modules/.bin/playwright install --with-deps chromium
       - name: Validate canonical graph and site
@@ -57,6 +59,12 @@ jobs:
           node --check site/link-aia.mjs
           node --check site/graph.mjs
           node --check site/graph-focus.mjs
+          python -m unittest tests.test_document_studio
+          node --test tests/document-studio.test.mjs
+          node --check site/document-studio/studio.mjs
+          node --check site/document-studio/model.mjs
+          node --check site/document-studio/markdown.mjs
+          node --check site/document-studio/vocabulary.mjs
           node --check site/data-model.mjs
           node --check site/graph-attributes.mjs
       - name: Check graph in Chromium
@@ -73,6 +81,7 @@ jobs:
           done
           node tests/graph.browser.cjs
           node tests/network-schema.browser.cjs
+          node tests/document-studio.browser.cjs
           node tests/service-inventory.browser.cjs
       - name: Save browser screenshots
         if: always()
