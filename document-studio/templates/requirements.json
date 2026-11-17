@@ -1,0 +1,1884 @@
+{
+  "schema_version": "1.0.0",
+  "requirements": [
+    {
+      "id": "4.1.3",
+      "source": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/access-informatio-policies-guidance/programs-holdings-online-publishing-requirements.html",
+      "template": "infosource",
+      "coverage": "Last-updated date"
+    },
+    {
+      "id": "4.3",
+      "source": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/access-informatio-policies-guidance/programs-holdings-online-publishing-requirements.html",
+      "template": "annual_update",
+      "coverage": "Bilingual links, changes, SIN programs and feedback response"
+    },
+    {
+      "id": "4.4",
+      "source": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/access-informatio-policies-guidance/programs-holdings-online-publishing-requirements.html",
+      "template": "infosource",
+      "coverage": "Fixed bilingual introduction"
+    },
+    {
+      "id": "4.5",
+      "source": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/access-informatio-policies-guidance/programs-holdings-online-publishing-requirements.html",
+      "template": "infosource",
+      "coverage": "History, legislative foundation, parliamentary reporting and subsidiaries"
+    },
+    {
+      "id": "4.6",
+      "source": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/access-informatio-policies-guidance/programs-holdings-online-publishing-requirements.html",
+      "template": "infosource",
+      "coverage": "Mandate, program responsibilities and major policies"
+    },
+    {
+      "id": "4.7.2",
+      "source": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/access-informatio-policies-guidance/programs-holdings-online-publishing-requirements.html",
+      "template": "program",
+      "coverage": "Repeatable programs, optional activities, classes and adjacent PIBs"
+    },
+    {
+      "id": "4.7.3",
+      "source": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/access-informatio-policies-guidance/programs-holdings-online-publishing-requirements.html",
+      "template": "cor",
+      "coverage": "Title, note, records description, document types, disclosure summaries, format and number"
+    },
+    {
+      "id": "4.7.4",
+      "source": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/access-informatio-policies-guidance/programs-holdings-online-publishing-requirements.html",
+      "template": "pib",
+      "coverage": "Registered and pending-status PIBs with bilingual notes"
+    },
+    {
+      "id": "4.7.6",
+      "source": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/access-informatio-policies-guidance/programs-holdings-online-publishing-requirements.html",
+      "template": "program",
+      "coverage": "All 11 Internal Services groups, selected for applicability"
+    },
+    {
+      "id": "4.8",
+      "source": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/access-informatio-policies-guidance/programs-holdings-online-publishing-requirements.html",
+      "template": "personal_information_class",
+      "coverage": "Repeatable classes of personal information"
+    },
+    {
+      "id": "4.9",
+      "source": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/access-informatio-policies-guidance/programs-holdings-online-publishing-requirements.html",
+      "template": "manual",
+      "coverage": "Repeatable manuals, sorted by title in exported Markdown"
+    },
+    {
+      "id": "4.10",
+      "source": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/access-informatio-policies-guidance/programs-holdings-online-publishing-requirements.html",
+      "template": "infosource",
+      "coverage": "Required access/contact fields and official additional-information wording"
+    },
+    {
+      "id": "PIB A–N",
+      "source": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/access-informatio-policies-guidance/programs-holdings-online-publishing-requirements.html",
+      "template": "pib_submission",
+      "coverage": "All sections of the bilingual submission form; annexes remain source references"
+    },
+    {
+      "id": "PROJECT-ORG",
+      "source": "https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/access-informatio-policies-guidance/programs-holdings-online-publishing-requirements.html",
+      "template": "person",
+      "coverage": "User-requested reporting links, name, position, classification and required program assignments"
+    }
+  ],
+  "form_fields": [
+    {
+      "document_type": "pia_web_summary",
+      "section": "section_02",
+      "field": "response_001",
+      "source_location": "pia_web_summary/section/1/paragraph/1"
+    },
+    {
+      "document_type": "pia_web_summary",
+      "section": "section_03",
+      "field": "response_001",
+      "source_location": "pia_web_summary/section/2/paragraph/1"
+    },
+    {
+      "document_type": "pia_web_summary",
+      "section": "section_04",
+      "field": "response_001",
+      "source_location": "pia_web_summary/section/3/paragraph/1"
+    },
+    {
+      "document_type": "pia_web_summary",
+      "section": "section_05",
+      "field": "response_001",
+      "source_location": "pia_web_summary/section/4/paragraph/1"
+    },
+    {
+      "document_type": "pia_web_summary",
+      "section": "section_06",
+      "field": "response_001",
+      "source_location": "pia_web_summary/section/5/paragraph/1"
+    },
+    {
+      "document_type": "pia_web_summary",
+      "section": "section_07",
+      "field": "response_001",
+      "source_location": "pia_web_summary/section/6/paragraph/1"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_03",
+      "field": "response_001",
+      "source_location": "privacy_checklist/section/2/paragraph/0"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_03",
+      "field": "response_002",
+      "source_location": "privacy_checklist/section/2/paragraph/1"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_04",
+      "field": "response_001",
+      "source_location": "privacy_checklist/section/3/paragraph/1"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_04",
+      "field": "response_002",
+      "source_location": "privacy_checklist/section/3/paragraph/2"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_04",
+      "field": "response_003",
+      "source_location": "privacy_checklist/section/3/paragraph/3"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_04",
+      "field": "response_004",
+      "source_location": "privacy_checklist/section/3/paragraph/4"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_04",
+      "field": "response_005",
+      "source_location": "privacy_checklist/section/3/paragraph/6"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_04",
+      "field": "response_006",
+      "source_location": "privacy_checklist/section/3/paragraph/7"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_04",
+      "field": "response_007",
+      "source_location": "privacy_checklist/section/3/paragraph/8"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_04",
+      "field": "response_008",
+      "source_location": "privacy_checklist/section/3/paragraph/9"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_05",
+      "field": "response_001",
+      "source_location": "privacy_checklist/section/4/paragraph/4"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_06",
+      "field": "response_001",
+      "source_location": "privacy_checklist/section/5/paragraph/1"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_08",
+      "field": "response_001",
+      "source_location": "privacy_checklist/section/7/paragraph/1"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_09",
+      "field": "response_001",
+      "source_location": "privacy_checklist/section/8/paragraph/1"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_10",
+      "field": "response_001",
+      "source_location": "privacy_checklist/section/9/paragraph/2"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_10",
+      "field": "response_002",
+      "source_location": "privacy_checklist/section/9/paragraph/4"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_10",
+      "field": "response_003",
+      "source_location": "privacy_checklist/section/9/paragraph/10"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_10",
+      "field": "response_004",
+      "source_location": "privacy_checklist/section/9/paragraph/12"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_11",
+      "field": "response_001",
+      "source_location": "privacy_checklist/section/10/paragraph/1"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_11",
+      "field": "response_002",
+      "source_location": "privacy_checklist/section/10/paragraph/2"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_11",
+      "field": "response_003",
+      "source_location": "privacy_checklist/section/10/paragraph/4"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_11",
+      "field": "response_004",
+      "source_location": "privacy_checklist/section/10/paragraph/5"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_11",
+      "field": "response_005",
+      "source_location": "privacy_checklist/section/10/paragraph/6"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_11",
+      "field": "response_006",
+      "source_location": "privacy_checklist/section/10/paragraph/9"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_11",
+      "field": "response_007",
+      "source_location": "privacy_checklist/section/10/paragraph/10"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_11",
+      "field": "response_008",
+      "source_location": "privacy_checklist/section/10/paragraph/11"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_11",
+      "field": "response_009",
+      "source_location": "privacy_checklist/section/10/paragraph/12"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_11",
+      "field": "response_010",
+      "source_location": "privacy_checklist/section/10/paragraph/13"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_11",
+      "field": "response_011",
+      "source_location": "privacy_checklist/section/10/paragraph/14"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_12",
+      "field": "response_001",
+      "source_location": "privacy_checklist/section/11/paragraph/1"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_12",
+      "field": "response_002",
+      "source_location": "privacy_checklist/section/11/paragraph/2"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_13",
+      "field": "response_001",
+      "source_location": "privacy_checklist/section/12/paragraph/0"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_13",
+      "field": "response_002",
+      "source_location": "privacy_checklist/section/12/paragraph/1"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_13",
+      "field": "response_003",
+      "source_location": "privacy_checklist/section/12/paragraph/3"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_13",
+      "field": "response_004",
+      "source_location": "privacy_checklist/section/12/paragraph/5"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_14",
+      "field": "response_001",
+      "source_location": "privacy_checklist/section/13/paragraph/3"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_14",
+      "field": "response_002",
+      "source_location": "privacy_checklist/section/13/paragraph/4"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_14",
+      "field": "response_003",
+      "source_location": "privacy_checklist/section/13/paragraph/9"
+    },
+    {
+      "document_type": "privacy_checklist",
+      "section": "section_14",
+      "field": "response_004",
+      "source_location": "privacy_checklist/section/13/paragraph/10"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_03",
+      "field": "response_001",
+      "source_location": "privacy_impact_assessment/section/2/paragraph/0"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_03",
+      "field": "response_002",
+      "source_location": "privacy_impact_assessment/section/2/paragraph/1"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_04",
+      "field": "response_001",
+      "source_location": "privacy_impact_assessment/section/3/paragraph/1"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_04",
+      "field": "response_002",
+      "source_location": "privacy_impact_assessment/section/3/paragraph/2"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_04",
+      "field": "response_003",
+      "source_location": "privacy_impact_assessment/section/3/paragraph/3"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_05",
+      "field": "response_001",
+      "source_location": "privacy_impact_assessment/section/4/paragraph/1"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_05",
+      "field": "response_002",
+      "source_location": "privacy_impact_assessment/section/4/paragraph/2"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_05",
+      "field": "response_003",
+      "source_location": "privacy_impact_assessment/section/4/paragraph/3"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_05",
+      "field": "response_004",
+      "source_location": "privacy_impact_assessment/section/4/paragraph/4"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_05",
+      "field": "response_005",
+      "source_location": "privacy_impact_assessment/section/4/paragraph/6"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_05",
+      "field": "response_006",
+      "source_location": "privacy_impact_assessment/section/4/paragraph/7"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_05",
+      "field": "response_007",
+      "source_location": "privacy_impact_assessment/section/4/paragraph/8"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_05",
+      "field": "response_008",
+      "source_location": "privacy_impact_assessment/section/4/paragraph/9"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_06",
+      "field": "response_001",
+      "source_location": "privacy_impact_assessment/section/5/paragraph/3"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_07",
+      "field": "response_001",
+      "source_location": "privacy_impact_assessment/section/6/paragraph/1"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_09",
+      "field": "response_001",
+      "source_location": "privacy_impact_assessment/section/8/paragraph/0"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_09",
+      "field": "response_002",
+      "source_location": "privacy_impact_assessment/section/8/paragraph/2"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_11",
+      "field": "response_001",
+      "source_location": "privacy_impact_assessment/section/10/paragraph/0"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_11",
+      "field": "response_002",
+      "source_location": "privacy_impact_assessment/section/10/paragraph/1"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_11",
+      "field": "response_003",
+      "source_location": "privacy_impact_assessment/section/10/paragraph/4"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_11",
+      "field": "response_004",
+      "source_location": "privacy_impact_assessment/section/10/paragraph/6"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_11",
+      "field": "response_005",
+      "source_location": "privacy_impact_assessment/section/10/paragraph/9"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_12",
+      "field": "response_001",
+      "source_location": "privacy_impact_assessment/section/11/paragraph/0"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_12",
+      "field": "table_08/rows[]",
+      "source_location": "privacy_impact_assessment/section/11/table/7",
+      "columns": 13
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_13",
+      "field": "table_05/rows[]",
+      "source_location": "privacy_impact_assessment/section/12/table/4",
+      "columns": 2
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_15",
+      "field": "table_01/question_001",
+      "source_location": "privacy_impact_assessment/section/14/table/0/row/1"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_15",
+      "field": "table_01/question_002",
+      "source_location": "privacy_impact_assessment/section/14/table/0/row/2"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_15",
+      "field": "table_01/question_003",
+      "source_location": "privacy_impact_assessment/section/14/table/0/row/3"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_15",
+      "field": "table_01/question_004",
+      "source_location": "privacy_impact_assessment/section/14/table/0/row/4"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_15",
+      "field": "table_01/question_005",
+      "source_location": "privacy_impact_assessment/section/14/table/0/row/5"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_16",
+      "field": "table_01/question_001",
+      "source_location": "privacy_impact_assessment/section/15/table/0/row/1"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_16",
+      "field": "table_01/question_002",
+      "source_location": "privacy_impact_assessment/section/15/table/0/row/2"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_16",
+      "field": "table_01/question_003",
+      "source_location": "privacy_impact_assessment/section/15/table/0/row/3"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_16",
+      "field": "table_01/question_004",
+      "source_location": "privacy_impact_assessment/section/15/table/0/row/4"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_16",
+      "field": "table_01/question_005",
+      "source_location": "privacy_impact_assessment/section/15/table/0/row/5"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_16",
+      "field": "table_01/question_006",
+      "source_location": "privacy_impact_assessment/section/15/table/0/row/6"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_16",
+      "field": "table_01/question_007",
+      "source_location": "privacy_impact_assessment/section/15/table/0/row/7"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_16",
+      "field": "table_01/question_008",
+      "source_location": "privacy_impact_assessment/section/15/table/0/row/8"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_16",
+      "field": "table_01/question_009",
+      "source_location": "privacy_impact_assessment/section/15/table/0/row/9"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_16",
+      "field": "table_01/question_010",
+      "source_location": "privacy_impact_assessment/section/15/table/0/row/10"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_16",
+      "field": "table_01/question_011",
+      "source_location": "privacy_impact_assessment/section/15/table/0/row/11"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_16",
+      "field": "table_01/question_012",
+      "source_location": "privacy_impact_assessment/section/15/table/0/row/12"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_16",
+      "field": "table_01/question_013",
+      "source_location": "privacy_impact_assessment/section/15/table/0/row/13"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_16",
+      "field": "table_01/question_014",
+      "source_location": "privacy_impact_assessment/section/15/table/0/row/14"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_16",
+      "field": "table_01/question_015",
+      "source_location": "privacy_impact_assessment/section/15/table/0/row/15"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_16",
+      "field": "table_01/question_016",
+      "source_location": "privacy_impact_assessment/section/15/table/0/row/16"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_16",
+      "field": "table_01/question_017",
+      "source_location": "privacy_impact_assessment/section/15/table/0/row/17"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_16",
+      "field": "table_01/question_018",
+      "source_location": "privacy_impact_assessment/section/15/table/0/row/18"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_16",
+      "field": "table_01/question_019",
+      "source_location": "privacy_impact_assessment/section/15/table/0/row/19"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_17",
+      "field": "table_01/question_001",
+      "source_location": "privacy_impact_assessment/section/16/table/0/row/1"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_17",
+      "field": "table_01/question_002",
+      "source_location": "privacy_impact_assessment/section/16/table/0/row/2"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_17",
+      "field": "table_01/question_003",
+      "source_location": "privacy_impact_assessment/section/16/table/0/row/3"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_17",
+      "field": "table_01/question_004",
+      "source_location": "privacy_impact_assessment/section/16/table/0/row/4"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_17",
+      "field": "table_01/question_005",
+      "source_location": "privacy_impact_assessment/section/16/table/0/row/5"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_17",
+      "field": "table_01/question_006",
+      "source_location": "privacy_impact_assessment/section/16/table/0/row/6"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_17",
+      "field": "table_01/question_007",
+      "source_location": "privacy_impact_assessment/section/16/table/0/row/7"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_17",
+      "field": "table_01/question_008",
+      "source_location": "privacy_impact_assessment/section/16/table/0/row/8"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_17",
+      "field": "table_01/question_009",
+      "source_location": "privacy_impact_assessment/section/16/table/0/row/9"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_17",
+      "field": "table_01/question_010",
+      "source_location": "privacy_impact_assessment/section/16/table/0/row/10"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_17",
+      "field": "table_01/question_011",
+      "source_location": "privacy_impact_assessment/section/16/table/0/row/11"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_17",
+      "field": "table_01/question_012",
+      "source_location": "privacy_impact_assessment/section/16/table/0/row/12"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_17",
+      "field": "table_01/question_013",
+      "source_location": "privacy_impact_assessment/section/16/table/0/row/13"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_17",
+      "field": "table_01/question_014",
+      "source_location": "privacy_impact_assessment/section/16/table/0/row/14"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_17",
+      "field": "table_01/question_015",
+      "source_location": "privacy_impact_assessment/section/16/table/0/row/15"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_17",
+      "field": "table_01/question_016",
+      "source_location": "privacy_impact_assessment/section/16/table/0/row/16"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_17",
+      "field": "table_01/question_017",
+      "source_location": "privacy_impact_assessment/section/16/table/0/row/17"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_17",
+      "field": "table_01/question_018",
+      "source_location": "privacy_impact_assessment/section/16/table/0/row/18"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_17",
+      "field": "table_01/question_019",
+      "source_location": "privacy_impact_assessment/section/16/table/0/row/19"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_18",
+      "field": "table_01/question_001",
+      "source_location": "privacy_impact_assessment/section/17/table/0/row/1"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_18",
+      "field": "table_01/question_002",
+      "source_location": "privacy_impact_assessment/section/17/table/0/row/2"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_18",
+      "field": "table_01/question_003",
+      "source_location": "privacy_impact_assessment/section/17/table/0/row/3"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_18",
+      "field": "table_01/question_004",
+      "source_location": "privacy_impact_assessment/section/17/table/0/row/4"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_18",
+      "field": "table_01/question_005",
+      "source_location": "privacy_impact_assessment/section/17/table/0/row/5"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_18",
+      "field": "table_01/question_006",
+      "source_location": "privacy_impact_assessment/section/17/table/0/row/6"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_18",
+      "field": "table_01/question_007",
+      "source_location": "privacy_impact_assessment/section/17/table/0/row/7"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_18",
+      "field": "table_01/question_008",
+      "source_location": "privacy_impact_assessment/section/17/table/0/row/8"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_18",
+      "field": "table_01/question_009",
+      "source_location": "privacy_impact_assessment/section/17/table/0/row/9"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_18",
+      "field": "table_01/question_010",
+      "source_location": "privacy_impact_assessment/section/17/table/0/row/10"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_18",
+      "field": "table_01/question_011",
+      "source_location": "privacy_impact_assessment/section/17/table/0/row/11"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_19",
+      "field": "table_01/question_001",
+      "source_location": "privacy_impact_assessment/section/18/table/0/row/1"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_19",
+      "field": "table_01/question_002",
+      "source_location": "privacy_impact_assessment/section/18/table/0/row/2"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_19",
+      "field": "table_01/question_003",
+      "source_location": "privacy_impact_assessment/section/18/table/0/row/3"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_20",
+      "field": "table_01/question_001",
+      "source_location": "privacy_impact_assessment/section/19/table/0/row/1"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_20",
+      "field": "table_01/question_002",
+      "source_location": "privacy_impact_assessment/section/19/table/0/row/2"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_20",
+      "field": "table_01/question_003",
+      "source_location": "privacy_impact_assessment/section/19/table/0/row/3"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_20",
+      "field": "table_01/question_004",
+      "source_location": "privacy_impact_assessment/section/19/table/0/row/4"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_20",
+      "field": "table_01/question_005",
+      "source_location": "privacy_impact_assessment/section/19/table/0/row/5"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_20",
+      "field": "table_01/question_006",
+      "source_location": "privacy_impact_assessment/section/19/table/0/row/6"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_20",
+      "field": "table_01/question_007",
+      "source_location": "privacy_impact_assessment/section/19/table/0/row/7"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_20",
+      "field": "table_01/question_008",
+      "source_location": "privacy_impact_assessment/section/19/table/0/row/8"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_20",
+      "field": "table_01/question_009",
+      "source_location": "privacy_impact_assessment/section/19/table/0/row/9"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_20",
+      "field": "table_01/question_010",
+      "source_location": "privacy_impact_assessment/section/19/table/0/row/10"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_20",
+      "field": "table_01/question_011",
+      "source_location": "privacy_impact_assessment/section/19/table/0/row/11"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_20",
+      "field": "table_01/question_012",
+      "source_location": "privacy_impact_assessment/section/19/table/0/row/12"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_20",
+      "field": "table_01/question_013",
+      "source_location": "privacy_impact_assessment/section/19/table/0/row/13"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_21",
+      "field": "table_01/question_001",
+      "source_location": "privacy_impact_assessment/section/20/table/0/row/1"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_21",
+      "field": "table_01/question_002",
+      "source_location": "privacy_impact_assessment/section/20/table/0/row/2"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_21",
+      "field": "table_01/question_003",
+      "source_location": "privacy_impact_assessment/section/20/table/0/row/3"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_21",
+      "field": "table_01/question_004",
+      "source_location": "privacy_impact_assessment/section/20/table/0/row/4"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_21",
+      "field": "table_01/question_005",
+      "source_location": "privacy_impact_assessment/section/20/table/0/row/5"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_21",
+      "field": "table_01/question_006",
+      "source_location": "privacy_impact_assessment/section/20/table/0/row/6"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_21",
+      "field": "table_01/question_007",
+      "source_location": "privacy_impact_assessment/section/20/table/0/row/7"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_21",
+      "field": "table_01/question_008",
+      "source_location": "privacy_impact_assessment/section/20/table/0/row/8"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_21",
+      "field": "table_01/question_009",
+      "source_location": "privacy_impact_assessment/section/20/table/0/row/9"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_21",
+      "field": "table_01/question_010",
+      "source_location": "privacy_impact_assessment/section/20/table/0/row/10"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_21",
+      "field": "table_01/question_011",
+      "source_location": "privacy_impact_assessment/section/20/table/0/row/11"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_21",
+      "field": "table_01/question_012",
+      "source_location": "privacy_impact_assessment/section/20/table/0/row/12"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_21",
+      "field": "table_01/question_013",
+      "source_location": "privacy_impact_assessment/section/20/table/0/row/13"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_21",
+      "field": "table_01/question_014",
+      "source_location": "privacy_impact_assessment/section/20/table/0/row/14"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_21",
+      "field": "table_01/question_015",
+      "source_location": "privacy_impact_assessment/section/20/table/0/row/15"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_21",
+      "field": "table_01/question_016",
+      "source_location": "privacy_impact_assessment/section/20/table/0/row/16"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_21",
+      "field": "table_01/question_017",
+      "source_location": "privacy_impact_assessment/section/20/table/0/row/17"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_21",
+      "field": "table_01/question_018",
+      "source_location": "privacy_impact_assessment/section/20/table/0/row/18"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_21",
+      "field": "table_01/question_019",
+      "source_location": "privacy_impact_assessment/section/20/table/0/row/19"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_21",
+      "field": "table_01/question_020",
+      "source_location": "privacy_impact_assessment/section/20/table/0/row/20"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_21",
+      "field": "table_01/question_021",
+      "source_location": "privacy_impact_assessment/section/20/table/0/row/21"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_22",
+      "field": "table_01/question_001",
+      "source_location": "privacy_impact_assessment/section/21/table/0/row/1"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_22",
+      "field": "table_01/question_002",
+      "source_location": "privacy_impact_assessment/section/21/table/0/row/2"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_22",
+      "field": "table_01/question_003",
+      "source_location": "privacy_impact_assessment/section/21/table/0/row/3"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_22",
+      "field": "table_01/question_004",
+      "source_location": "privacy_impact_assessment/section/21/table/0/row/4"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_22",
+      "field": "table_01/question_005",
+      "source_location": "privacy_impact_assessment/section/21/table/0/row/5"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_22",
+      "field": "table_01/question_006",
+      "source_location": "privacy_impact_assessment/section/21/table/0/row/6"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_22",
+      "field": "table_01/question_007",
+      "source_location": "privacy_impact_assessment/section/21/table/0/row/7"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_22",
+      "field": "table_01/question_008",
+      "source_location": "privacy_impact_assessment/section/21/table/0/row/8"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_23",
+      "field": "table_01/question_001",
+      "source_location": "privacy_impact_assessment/section/22/table/0/row/1"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_23",
+      "field": "table_01/question_002",
+      "source_location": "privacy_impact_assessment/section/22/table/0/row/2"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_23",
+      "field": "table_01/question_003",
+      "source_location": "privacy_impact_assessment/section/22/table/0/row/3"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_23",
+      "field": "table_01/question_004",
+      "source_location": "privacy_impact_assessment/section/22/table/0/row/4"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_23",
+      "field": "table_01/question_005",
+      "source_location": "privacy_impact_assessment/section/22/table/0/row/5"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_23",
+      "field": "table_01/question_006",
+      "source_location": "privacy_impact_assessment/section/22/table/0/row/6"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_24",
+      "field": "table_01/question_001",
+      "source_location": "privacy_impact_assessment/section/23/table/0/row/1"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_24",
+      "field": "table_01/question_002",
+      "source_location": "privacy_impact_assessment/section/23/table/0/row/2"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_24",
+      "field": "table_01/question_003",
+      "source_location": "privacy_impact_assessment/section/23/table/0/row/3"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_24",
+      "field": "table_01/question_004",
+      "source_location": "privacy_impact_assessment/section/23/table/0/row/4"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_24",
+      "field": "table_01/question_005",
+      "source_location": "privacy_impact_assessment/section/23/table/0/row/5"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_24",
+      "field": "table_01/question_006",
+      "source_location": "privacy_impact_assessment/section/23/table/0/row/6"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_24",
+      "field": "table_01/question_007",
+      "source_location": "privacy_impact_assessment/section/23/table/0/row/7"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_25",
+      "field": "table_01/rows[]",
+      "source_location": "privacy_impact_assessment/section/24/table/0",
+      "columns": 3
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_26",
+      "field": "table_01/rows[]",
+      "source_location": "privacy_impact_assessment/section/25/table/0",
+      "columns": 4
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_27",
+      "field": "table_02/rows[]",
+      "source_location": "privacy_impact_assessment/section/26/table/1",
+      "columns": 5
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_29",
+      "field": "table_05/rows[]",
+      "source_location": "privacy_impact_assessment/section/28/table/4",
+      "columns": 7
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_30",
+      "field": "table_04/rows[]",
+      "source_location": "privacy_impact_assessment/section/29/table/3",
+      "columns": 6
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_31",
+      "field": "response_001",
+      "source_location": "privacy_impact_assessment/section/30/paragraph/2"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_31",
+      "field": "response_002",
+      "source_location": "privacy_impact_assessment/section/30/paragraph/3"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_31",
+      "field": "response_003",
+      "source_location": "privacy_impact_assessment/section/30/paragraph/9"
+    },
+    {
+      "document_type": "privacy_impact_assessment",
+      "section": "section_31",
+      "field": "response_004",
+      "source_location": "privacy_impact_assessment/section/30/paragraph/10"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_03",
+      "field": "table_02/question_001",
+      "source_location": "privacy_protocol/section/2/table/1/row/1"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_03",
+      "field": "table_02/question_002",
+      "source_location": "privacy_protocol/section/2/table/1/row/2"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_03",
+      "field": "table_02/question_003",
+      "source_location": "privacy_protocol/section/2/table/1/row/3"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_03",
+      "field": "table_02/question_004",
+      "source_location": "privacy_protocol/section/2/table/1/row/4"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_03",
+      "field": "table_04/question_001",
+      "source_location": "privacy_protocol/section/2/table/3/row/1"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_03",
+      "field": "table_04/question_002",
+      "source_location": "privacy_protocol/section/2/table/3/row/2"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_03",
+      "field": "table_04/question_003",
+      "source_location": "privacy_protocol/section/2/table/3/row/3"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_03",
+      "field": "table_04/question_004",
+      "source_location": "privacy_protocol/section/2/table/3/row/4"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_03",
+      "field": "table_06/question_001",
+      "source_location": "privacy_protocol/section/2/table/5/row/1"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_03",
+      "field": "table_06/question_002",
+      "source_location": "privacy_protocol/section/2/table/5/row/2"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_03",
+      "field": "table_06/question_003",
+      "source_location": "privacy_protocol/section/2/table/5/row/3"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_04",
+      "field": "table_02/question_001",
+      "source_location": "privacy_protocol/section/3/table/1/row/1"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_04",
+      "field": "table_02/question_002",
+      "source_location": "privacy_protocol/section/3/table/1/row/2"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_04",
+      "field": "table_02/question_003",
+      "source_location": "privacy_protocol/section/3/table/1/row/3"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_04",
+      "field": "table_02/question_004",
+      "source_location": "privacy_protocol/section/3/table/1/row/4"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_04",
+      "field": "table_02/question_005",
+      "source_location": "privacy_protocol/section/3/table/1/row/5"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_06",
+      "field": "table_01/question_001",
+      "source_location": "privacy_protocol/section/5/table/0/row/1"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_06",
+      "field": "table_01/question_002",
+      "source_location": "privacy_protocol/section/5/table/0/row/2"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_07",
+      "field": "table_01/question_001",
+      "source_location": "privacy_protocol/section/6/table/0/row/1"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_07",
+      "field": "table_01/question_002",
+      "source_location": "privacy_protocol/section/6/table/0/row/2"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_07",
+      "field": "table_01/question_003",
+      "source_location": "privacy_protocol/section/6/table/0/row/3"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_07",
+      "field": "table_01/question_004",
+      "source_location": "privacy_protocol/section/6/table/0/row/4"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_07",
+      "field": "table_01/question_005",
+      "source_location": "privacy_protocol/section/6/table/0/row/5"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_08",
+      "field": "table_01/question_001",
+      "source_location": "privacy_protocol/section/7/table/0/row/1"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_08",
+      "field": "table_01/question_002",
+      "source_location": "privacy_protocol/section/7/table/0/row/2"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_08",
+      "field": "table_01/question_003",
+      "source_location": "privacy_protocol/section/7/table/0/row/3"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_08",
+      "field": "table_01/question_004",
+      "source_location": "privacy_protocol/section/7/table/0/row/4"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_08",
+      "field": "table_01/question_005",
+      "source_location": "privacy_protocol/section/7/table/0/row/5"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_08",
+      "field": "table_01/question_006",
+      "source_location": "privacy_protocol/section/7/table/0/row/6"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_08",
+      "field": "table_01/question_007",
+      "source_location": "privacy_protocol/section/7/table/0/row/7"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_08",
+      "field": "table_01/question_008",
+      "source_location": "privacy_protocol/section/7/table/0/row/8"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_09",
+      "field": "table_02/rows[]",
+      "source_location": "privacy_protocol/section/8/table/1",
+      "columns": 6
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_10",
+      "field": "table_01/question_001",
+      "source_location": "privacy_protocol/section/9/table/0/row/1"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_10",
+      "field": "table_01/question_002",
+      "source_location": "privacy_protocol/section/9/table/0/row/2"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_10",
+      "field": "table_01/question_003",
+      "source_location": "privacy_protocol/section/9/table/0/row/3"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_10",
+      "field": "table_01/question_004",
+      "source_location": "privacy_protocol/section/9/table/0/row/4"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_10",
+      "field": "table_01/question_005",
+      "source_location": "privacy_protocol/section/9/table/0/row/5"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_10",
+      "field": "table_01/question_006",
+      "source_location": "privacy_protocol/section/9/table/0/row/6"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_10",
+      "field": "table_01/question_007",
+      "source_location": "privacy_protocol/section/9/table/0/row/7"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_10",
+      "field": "table_01/question_008",
+      "source_location": "privacy_protocol/section/9/table/0/row/8"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_11",
+      "field": "table_01/question_001",
+      "source_location": "privacy_protocol/section/10/table/0/row/1"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_11",
+      "field": "table_01/question_002",
+      "source_location": "privacy_protocol/section/10/table/0/row/2"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_11",
+      "field": "table_01/question_003",
+      "source_location": "privacy_protocol/section/10/table/0/row/3"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_11",
+      "field": "table_01/question_004",
+      "source_location": "privacy_protocol/section/10/table/0/row/4"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_11",
+      "field": "table_01/question_005",
+      "source_location": "privacy_protocol/section/10/table/0/row/5"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_11",
+      "field": "table_01/question_006",
+      "source_location": "privacy_protocol/section/10/table/0/row/6"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_12",
+      "field": "table_01/question_001",
+      "source_location": "privacy_protocol/section/11/table/0/row/1"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_12",
+      "field": "table_01/question_002",
+      "source_location": "privacy_protocol/section/11/table/0/row/2"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_12",
+      "field": "table_01/question_003",
+      "source_location": "privacy_protocol/section/11/table/0/row/3"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_12",
+      "field": "table_01/question_004",
+      "source_location": "privacy_protocol/section/11/table/0/row/4"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_12",
+      "field": "table_01/question_005",
+      "source_location": "privacy_protocol/section/11/table/0/row/5"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_12",
+      "field": "table_01/question_006",
+      "source_location": "privacy_protocol/section/11/table/0/row/6"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_12",
+      "field": "table_01/question_007",
+      "source_location": "privacy_protocol/section/11/table/0/row/7"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_12",
+      "field": "table_01/question_008",
+      "source_location": "privacy_protocol/section/11/table/0/row/8"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_12",
+      "field": "table_01/question_009",
+      "source_location": "privacy_protocol/section/11/table/0/row/9"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_12",
+      "field": "table_01/question_010",
+      "source_location": "privacy_protocol/section/11/table/0/row/10"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_12",
+      "field": "table_01/question_011",
+      "source_location": "privacy_protocol/section/11/table/0/row/11"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_13",
+      "field": "table_01/question_001",
+      "source_location": "privacy_protocol/section/12/table/0/row/1"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_13",
+      "field": "table_01/question_002",
+      "source_location": "privacy_protocol/section/12/table/0/row/2"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_13",
+      "field": "table_01/question_003",
+      "source_location": "privacy_protocol/section/12/table/0/row/3"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_13",
+      "field": "table_01/question_004",
+      "source_location": "privacy_protocol/section/12/table/0/row/4"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_13",
+      "field": "table_01/question_005",
+      "source_location": "privacy_protocol/section/12/table/0/row/5"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_13",
+      "field": "table_01/question_006",
+      "source_location": "privacy_protocol/section/12/table/0/row/6"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_14",
+      "field": "table_01/question_001",
+      "source_location": "privacy_protocol/section/13/table/0/row/1"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_14",
+      "field": "table_01/question_002",
+      "source_location": "privacy_protocol/section/13/table/0/row/2"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_14",
+      "field": "table_01/question_003",
+      "source_location": "privacy_protocol/section/13/table/0/row/3"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_14",
+      "field": "table_01/question_004",
+      "source_location": "privacy_protocol/section/13/table/0/row/4"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_14",
+      "field": "table_01/question_005",
+      "source_location": "privacy_protocol/section/13/table/0/row/5"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_14",
+      "field": "table_01/question_006",
+      "source_location": "privacy_protocol/section/13/table/0/row/6"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_16",
+      "field": "response_001",
+      "source_location": "privacy_protocol/section/15/paragraph/0"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_16",
+      "field": "table_04/question_001",
+      "source_location": "privacy_protocol/section/15/table/3/row/1"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_16",
+      "field": "table_04/question_002",
+      "source_location": "privacy_protocol/section/15/table/3/row/2"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_16",
+      "field": "table_04/question_003",
+      "source_location": "privacy_protocol/section/15/table/3/row/3"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_16",
+      "field": "table_04/question_004",
+      "source_location": "privacy_protocol/section/15/table/3/row/4"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_16",
+      "field": "table_04/question_005",
+      "source_location": "privacy_protocol/section/15/table/3/row/5"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_16",
+      "field": "table_04/question_006",
+      "source_location": "privacy_protocol/section/15/table/3/row/6"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_17",
+      "field": "table_02/question_001",
+      "source_location": "privacy_protocol/section/16/table/1/row/1"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_17",
+      "field": "table_02/question_002",
+      "source_location": "privacy_protocol/section/16/table/1/row/2"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_17",
+      "field": "table_02/question_003",
+      "source_location": "privacy_protocol/section/16/table/1/row/3"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_17",
+      "field": "table_02/question_004",
+      "source_location": "privacy_protocol/section/16/table/1/row/4"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_17",
+      "field": "table_02/question_005",
+      "source_location": "privacy_protocol/section/16/table/1/row/5"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_17",
+      "field": "table_02/question_006",
+      "source_location": "privacy_protocol/section/16/table/1/row/6"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_17",
+      "field": "table_02/question_007",
+      "source_location": "privacy_protocol/section/16/table/1/row/7"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_17",
+      "field": "table_02/question_008",
+      "source_location": "privacy_protocol/section/16/table/1/row/8"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_17",
+      "field": "table_02/question_009",
+      "source_location": "privacy_protocol/section/16/table/1/row/9"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_17",
+      "field": "table_02/question_010",
+      "source_location": "privacy_protocol/section/16/table/1/row/10"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_17",
+      "field": "table_02/question_011",
+      "source_location": "privacy_protocol/section/16/table/1/row/11"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_17",
+      "field": "table_02/question_012",
+      "source_location": "privacy_protocol/section/16/table/1/row/12"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_17",
+      "field": "table_02/question_013",
+      "source_location": "privacy_protocol/section/16/table/1/row/13"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_17",
+      "field": "table_02/question_014",
+      "source_location": "privacy_protocol/section/16/table/1/row/14"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_18",
+      "field": "table_01/question_001",
+      "source_location": "privacy_protocol/section/17/table/0/row/1"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_18",
+      "field": "table_01/question_003",
+      "source_location": "privacy_protocol/section/17/table/0/row/3"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_18",
+      "field": "table_01/question_004",
+      "source_location": "privacy_protocol/section/17/table/0/row/4"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_19",
+      "field": "table_02/rows[]",
+      "source_location": "privacy_protocol/section/18/table/1",
+      "columns": 4
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_20",
+      "field": "response_001",
+      "source_location": "privacy_protocol/section/19/paragraph/2"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_20",
+      "field": "response_002",
+      "source_location": "privacy_protocol/section/19/paragraph/3"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_20",
+      "field": "response_003",
+      "source_location": "privacy_protocol/section/19/paragraph/5"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_20",
+      "field": "response_004",
+      "source_location": "privacy_protocol/section/19/paragraph/9"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_20",
+      "field": "response_005",
+      "source_location": "privacy_protocol/section/19/paragraph/10"
+    },
+    {
+      "document_type": "privacy_protocol",
+      "section": "section_20",
+      "field": "response_006",
+      "source_location": "privacy_protocol/section/19/paragraph/12"
+    }
+  ],
+  "forms": [
+    {
+      "kind": "pia_web_summary",
+      "sections": 7
+    },
+    {
+      "kind": "privacy_checklist",
+      "sections": 14
+    },
+    {
+      "kind": "privacy_impact_assessment",
+      "sections": 35
+    },
+    {
+      "kind": "privacy_protocol",
+      "sections": 21
+    }
+  ],
+  "supported_kinds": [
+    "disclosure",
+    "pib",
+    "cor",
+    "activity",
+    "program",
+    "personal_information_class",
+    "manual",
+    "program_assignment",
+    "person",
+    "organization_chart",
+    "pib_submission",
+    "annual_update",
+    "infosource",
+    "participating_institution",
+    "pia_web_summary",
+    "privacy_checklist",
+    "privacy_impact_assessment",
+    "privacy_protocol"
+  ]
+}
