@@ -10,6 +10,7 @@
     <script type="module" src="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@0.40.0/dist/gcds/gcds.esm.js"></script>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="../prototype-label.css" />
+    <link rel="stylesheet" href="../feature-tour.css" />
   </head>
   <body>
     <gcds-header lang-href="#" skip-to-href="#survey-main">
@@ -24,12 +25,15 @@
           <p class="beta-label">Beta · Prototype</p>
           <h1 id="page-title">What personal information might the federal government have about you?</h1>
           <p id="page-lede" class="lede">Answer questions about your interactions with federal programs. My Info will estimate which published Personal Information Banks may apply and whether the records are likely still held.</p>
+          <button class="button button-secondary" type="button" data-feature-tour-launch hidden>Try the tour</button>
         </div>
         <aside class="privacy-card">
           <strong id="privacy-title">Private by design</strong>
           <p id="privacy-copy">Your answers stay in this browser tab. They are not saved or sent to the My Info MCP service.</p>
         </aside>
       </section>
+
+      <div data-feature-tour="my-info" hidden></div>
 
       <div id="loading" class="loading" role="status">Loading the survey…</div>
       <div id="error" class="error-panel" role="alert" hidden></div>
@@ -85,5 +89,6 @@
     </footer>
 
     <script type="module" src="app.mjs"></script>
+    <script type="module" src="../feature-tour.mjs"></script>
   </body>
 </html>
