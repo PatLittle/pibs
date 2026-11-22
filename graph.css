@@ -653,3 +653,5 @@
 [data-kind="service"], [data-node-type="service"] { --node-color: #246f62; --node-soft: #edf6f3; }
 [data-kind="program"], [data-node-type="program"] { --node-color: #725b29; --node-soft: #faf5e8; }
 [data-kind="service_standard"], [data-node-type="service_standard"] { --node-color: #536781; --node-soft: #f0f3f8; }
+[data-kind="account_code"], [data-node-type="account_code"] { --node-color: #683a81; --node-soft: #f4edf9; }
+[data-kind="infobase_program"], [data-node-type="infobase_program"] { --node-color: #496025; --node-soft: #eef4e4; }

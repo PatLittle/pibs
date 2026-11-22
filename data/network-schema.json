@@ -3008,6 +3008,496 @@
       ]
     },
     {
+      "id": "public_accounts_codes",
+      "label": "public accounts codes",
+      "source": "site/data/public-accounts-codes.csv",
+      "layer": "records",
+      "rows": 1439,
+      "primary_key": [
+        "fiscal_yr",
+        "accounts_entity",
+        "account_code"
+      ],
+      "fields": [
+        {
+          "name": "fiscal_yr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "accounts_entity",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "account_code",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "code_kind",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "parent_code",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "name_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "description_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "portfolio_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "expenditure_category_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "department_specific_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "source_records",
+          "types": [
+            "json-array"
+          ]
+        },
+        {
+          "name": "notes_en",
+          "types": [
+            "json-array"
+          ]
+        }
+      ],
+      "note": "2025–2026 Chart of Accounts programs, core responsibilities and non-budgetary codes. Programme hierarchy uses the published same-row parent code scoped by fiscal year and entity.",
+      "foreign_keys": []
+    },
+    {
+      "id": "public_accounts_departments",
+      "label": "public accounts departments",
+      "source": "site/data/public-accounts-departments.csv",
+      "layer": "records",
+      "rows": 137,
+      "primary_key": [
+        "fiscal_yr",
+        "accounts_entity",
+        "department_number"
+      ],
+      "fields": [
+        {
+          "name": "fiscal_yr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "accounts_entity",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "department_number",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "department_label_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "resolution",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "entity_matches_department",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "candidate_institutions",
+          "types": [
+            "json-array"
+          ]
+        },
+        {
+          "name": "source_records",
+          "types": [
+            "json-array"
+          ]
+        }
+      ],
+      "note": "One row per accounting department number listed for each Chart entity. The nullable institution key requires a unique Receiver General number in the registry.",
+      "foreign_keys": [
+        {
+          "fields": [
+            "institution_id"
+          ],
+          "references": "institution_registry",
+          "reference_fields": [
+            "institution_id"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "public_accounts_service_links",
+      "label": "public accounts service links",
+      "source": "site/data/public-accounts-service-links.csv",
+      "layer": "records",
+      "rows": 158,
+      "primary_key": [
+        "owner_org",
+        "fiscal_yr",
+        "service_id",
+        "program_id"
+      ],
+      "fields": [
+        {
+          "name": "fiscal_yr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "owner_org",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "service_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "program_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "accounts_entity",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "department_number",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": "Observed same-year Service Inventory program references joined to exactly one Chart record through the service owner and Receiver General number.",
+      "foreign_keys": [
+        {
+          "fields": [
+            "owner_org",
+            "fiscal_yr",
+            "service_id",
+            "program_id"
+          ],
+          "references": "service_program_references",
+          "reference_fields": [
+            "owner_org",
+            "fiscal_yr",
+            "service_id",
+            "program_id"
+          ]
+        },
+        {
+          "fields": [
+            "fiscal_yr",
+            "accounts_entity",
+            "program_id"
+          ],
+          "references": "public_accounts_codes",
+          "reference_fields": [
+            "fiscal_yr",
+            "accounts_entity",
+            "account_code"
+          ]
+        },
+        {
+          "fields": [
+            "fiscal_yr",
+            "accounts_entity",
+            "department_number"
+          ],
+          "references": "public_accounts_departments",
+          "reference_fields": [
+            "fiscal_yr",
+            "accounts_entity",
+            "department_number"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "public_accounts_infobase_links",
+      "label": "public accounts infobase links",
+      "source": "site/data/public-accounts-infobase-links.csv",
+      "layer": "records",
+      "rows": 3200,
+      "primary_key": [
+        "fiscal_yr",
+        "resource_kind",
+        "infobase_org_id",
+        "program_code"
+      ],
+      "fields": [
+        {
+          "name": "fiscal_yr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "resource_kind",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infobase_org_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "program_code",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "activity_type",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "source_program_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "source_rows",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "accounts_entity",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "department_number",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "resource_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "source_code_field",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "source_url",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": "Verified external GC InfoBase keys scoped by resource, reporting year, program or core responsibility code and the registry's distinct InfoBase organization ID.",
+      "foreign_keys": [
+        {
+          "fields": [
+            "fiscal_yr",
+            "accounts_entity",
+            "program_code"
+          ],
+          "references": "public_accounts_codes",
+          "reference_fields": [
+            "fiscal_yr",
+            "accounts_entity",
+            "account_code"
+          ]
+        },
+        {
+          "fields": [
+            "fiscal_yr",
+            "accounts_entity",
+            "department_number"
+          ],
+          "references": "public_accounts_departments",
+          "reference_fields": [
+            "fiscal_yr",
+            "accounts_entity",
+            "department_number"
+          ]
+        },
+        {
+          "fields": [
+            "institution_id"
+          ],
+          "references": "institution_registry",
+          "reference_fields": [
+            "institution_id"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "public_accounts_catalogue_links",
+      "label": "public accounts catalogue links",
+      "source": "site/data/public-accounts-catalogue-links.csv",
+      "layer": "records",
+      "rows": 554,
+      "primary_key": [
+        "fiscal_yr",
+        "owner_org",
+        "program_id"
+      ],
+      "fields": [
+        {
+          "name": "fiscal_yr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "owner_org",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "program_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "accounts_entity",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "department_number",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": "Shared owner-scoped codes in the Service Inventory reference catalogue and the Chart. Fiscal year identifies the Chart snapshot.",
+      "foreign_keys": [
+        {
+          "fields": [
+            "owner_org",
+            "program_id"
+          ],
+          "references": "service_programs",
+          "reference_fields": [
+            "owner_org",
+            "program_id"
+          ]
+        },
+        {
+          "fields": [
+            "fiscal_yr",
+            "accounts_entity",
+            "program_id"
+          ],
+          "references": "public_accounts_codes",
+          "reference_fields": [
+            "fiscal_yr",
+            "accounts_entity",
+            "account_code"
+          ]
+        },
+        {
+          "fields": [
+            "fiscal_yr",
+            "accounts_entity",
+            "department_number"
+          ],
+          "references": "public_accounts_departments",
+          "reference_fields": [
+            "fiscal_yr",
+            "accounts_entity",
+            "department_number"
+          ]
+        }
+      ]
+    },
+    {
       "id": "service_program_references",
       "label": "service program references",
       "source": "data/service_inventory/program_references.csv",
@@ -5078,6 +5568,449 @@
         },
         {
           "name": "type",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "public_accounts_join_audit",
+      "label": "Public Accounts import and unmatched service references",
+      "source": "site/data/public-accounts-join-audit.json",
+      "layer": "support",
+      "rows": 1,
+      "primary_key": [],
+      "fields": [
+        {
+          "name": "codes_by_kind",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "codes_by_kind.core_responsibility",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "codes_by_kind.non_budgetary",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "codes_by_kind.program",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "department_links",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "department_links.ambiguous",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "department_links.resolved",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "department_links.unmatched",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "department_numbers",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "documentation_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "fiscal_yr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infobase",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "infobase.resources",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "infobase.resources.federal_programs",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "infobase.resources.federal_programs.distinct_keys",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "infobase.resources.federal_programs.outcomes",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "infobase.resources.federal_programs.outcomes.activity_type_mismatch",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "infobase.resources.federal_programs.outcomes.ambiguous_source_key",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "infobase.resources.federal_programs.outcomes.linked",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "infobase.resources.federal_programs.outcomes.no_chart_code_for_owner",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "infobase.resources.federal_programs.outcomes.unresolved_infobase_org",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "infobase.resources.federal_programs.resource_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infobase.resources.federal_programs.rows_without_key",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "infobase.resources.federal_programs.source_rows",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "infobase.resources.federal_programs.source_year_field",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infobase.resources.federal_programs.source_year_value",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "infobase.resources.performance",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "infobase.resources.performance.distinct_keys",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "infobase.resources.performance.outcomes",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "infobase.resources.performance.outcomes.linked",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "infobase.resources.performance.outcomes.no_chart_code_for_owner",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "infobase.resources.performance.outcomes.unresolved_infobase_org",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "infobase.resources.performance.resource_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infobase.resources.performance.rows_without_key",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "infobase.resources.performance.source_rows",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "infobase.resources.performance.source_year_field",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infobase.resources.performance.source_year_value",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infobase.resources.spending_fte",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "infobase.resources.spending_fte.distinct_keys",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "infobase.resources.spending_fte.outcomes",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "infobase.resources.spending_fte.outcomes.linked",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "infobase.resources.spending_fte.outcomes.no_chart_code_for_owner",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "infobase.resources.spending_fte.outcomes.unresolved_infobase_org",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "infobase.resources.spending_fte.resource_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infobase.resources.spending_fte.rows_without_key",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "infobase.resources.spending_fte.source_rows",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "infobase.resources.spending_fte.source_year_field",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infobase.resources.spending_fte.source_year_value",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infobase.retrieved_on",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infobase.snapshot_sha256",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infobase.source_path",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "owner_program_pairs_with_same_year_evidence",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "resolved_institutions",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "resolved_service_references",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "same_year_service_references",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "services_with_chart_codes",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "shared_service_catalogue_codes",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "source_fields",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "source_fields[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "source_rows",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "source_sha256",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "source_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "unresolved_service_references",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "unresolved_service_references[]",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "unresolved_service_references[].chart_status",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "unresolved_service_references[].fiscal_yr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "unresolved_service_references[].institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "unresolved_service_references[].owner_org",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "unresolved_service_references[].program_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "unresolved_service_references[].resolution",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "unresolved_service_references[].service_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "unresolved_service_references[].vocabulary_year_status",
           "types": [
             "string"
           ]
@@ -7663,6 +8596,278 @@
       "note": "Normalized service/organization status, organization-scoped official name_en/name_fr/u_id and literal citation groups. Schema only; no AIA values are stored."
     },
     {
+      "id": "node_account_code",
+      "label": "Network account_code",
+      "source": "site/data/graph.json → nodes[] + lazy attributes; AIA references may add runtime fields",
+      "layer": "projection",
+      "rows": 1439,
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "aliases",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "aliases[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attribute_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "attributes.account_code",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.accounts_entity",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.code_kind",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.department_links",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "attributes.department_links[]",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "attributes.department_links[].accounts_entity",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.department_links[].candidate_institutions",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "attributes.department_links[].candidate_institutions[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.department_links[].department_label_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.department_links[].department_number",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.department_links[].entity_matches_department",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.department_links[].fiscal_yr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.department_links[].institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.department_links[].resolution",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.department_links[].source_records",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "attributes.department_links[].source_records[]",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "attributes.department_specific_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.description_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.expenditure_category_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.fiscal_yr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.name_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.notes_en",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "attributes.notes_en[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.parent_code",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.portfolio_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.source_language",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.source_records",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "attributes.source_records[]",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "description_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "identifier",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_id",
+          "types": [
+            "null",
+            "string"
+          ]
+        },
+        {
+          "name": "label_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "label_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "record_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "source_path",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "sources",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "sources.chart_of_accounts",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "type",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": ""
+    },
+    {
       "id": "node_class",
       "label": "Network class",
       "source": "site/data/graph.json → nodes[] + lazy attributes; AIA references may add runtime fields",
@@ -7873,6 +9078,235 @@
         },
         {
           "name": "sources.fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "type",
+          "types": [
+            "string"
+          ]
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "node_infobase_program",
+      "label": "Network infobase_program",
+      "source": "site/data/graph.json → nodes[] + lazy attributes; AIA references may add runtime fields",
+      "layer": "projection",
+      "rows": 1325,
+      "primary_key": [
+        "id"
+      ],
+      "fields": [
+        {
+          "name": "aliases",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "aliases[]",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attribute_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "attributes.fiscal_yr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.infobase_org_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.infobase_resources",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "attributes.infobase_resources[]",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "attributes.infobase_resources[].accounts_entity",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.infobase_resources[].activity_type",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.infobase_resources[].department_number",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.infobase_resources[].fiscal_yr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.infobase_resources[].infobase_org_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.infobase_resources[].institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.infobase_resources[].label_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.infobase_resources[].program_code",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.infobase_resources[].resource_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.infobase_resources[].resource_kind",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.infobase_resources[].source_code_field",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.infobase_resources[].source_program_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.infobase_resources[].source_rows",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "attributes.infobase_resources[].source_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.label_source",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "attributes.program_code",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "identifier",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "label_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "label_fr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "record_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "source_path",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "sources",
+          "types": [
+            "object"
+          ]
+        },
+        {
+          "name": "sources.Expenditures and FTE by program",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "sources.Federal Programs",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "sources.Performance by program and organization",
           "types": [
             "string"
           ]
@@ -9910,7 +11344,7 @@
       "label": "Network relationships",
       "source": "site/data/graph.json → edges[]; AIA edges inline",
       "layer": "projection",
-      "rows": 15575,
+      "rows": 20100,
       "primary_key": [
         "id"
       ],
@@ -10019,16 +11453,52 @@
       "label": "Relationship evidence",
       "source": "site/data/graph-evidence/*.json; AIA evidence inline",
       "layer": "projection",
-      "rows": 27770,
+      "rows": 34170,
       "primary_key": [
         "edge_id (shard parent)",
         "ordinal (array)"
       ],
       "fields": [
         {
+          "name": "accounts_entity",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "chart_source_url",
+          "types": [
+            "string"
+          ]
+        },
+        {
           "name": "checked_at_utc",
           "types": [
             "string"
+          ]
+        },
+        {
+          "name": "comparison",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "department_label_en",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "department_number",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "entity_matches_department",
+          "types": [
+            "boolean"
           ]
         },
         {
@@ -10045,6 +11515,30 @@
         },
         {
           "name": "fiscal_yr",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "infobase_org_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "institution_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "inventory_source_path",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "inventory_source_url",
           "types": [
             "string"
           ]
@@ -10104,9 +11598,33 @@
           ]
         },
         {
+          "name": "resource_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
+          "name": "service_id",
+          "types": [
+            "string"
+          ]
+        },
+        {
           "name": "source_path",
           "types": [
             "string"
+          ]
+        },
+        {
+          "name": "source_records",
+          "types": [
+            "array"
+          ]
+        },
+        {
+          "name": "source_records[]",
+          "types": [
+            "number"
           ]
         },
         {
@@ -10169,7 +11687,19 @@
           ]
         },
         {
+          "name": "summary.node_types.account_code",
+          "types": [
+            "number"
+          ]
+        },
+        {
           "name": "summary.node_types.class",
+          "types": [
+            "number"
+          ]
+        },
+        {
+          "name": "summary.node_types.infobase_program",
           "types": [
             "number"
           ]
@@ -10426,6 +11956,112 @@
       ]
     },
     {
+      "source": "public_accounts_departments",
+      "target": "institution_registry",
+      "label": "institution_id → institution_id",
+      "basis": "documented",
+      "fields": [
+        "institution_id"
+      ]
+    },
+    {
+      "source": "public_accounts_service_links",
+      "target": "service_program_references",
+      "label": "owner_org, fiscal_yr, service_id, program_id → owner_org, fiscal_yr, service_id, program_id",
+      "basis": "documented",
+      "fields": [
+        "owner_org",
+        "fiscal_yr",
+        "service_id",
+        "program_id"
+      ]
+    },
+    {
+      "source": "public_accounts_service_links",
+      "target": "public_accounts_codes",
+      "label": "fiscal_yr, accounts_entity, program_id → fiscal_yr, accounts_entity, account_code",
+      "basis": "documented",
+      "fields": [
+        "fiscal_yr",
+        "accounts_entity",
+        "program_id"
+      ]
+    },
+    {
+      "source": "public_accounts_service_links",
+      "target": "public_accounts_departments",
+      "label": "fiscal_yr, accounts_entity, department_number → fiscal_yr, accounts_entity, department_number",
+      "basis": "documented",
+      "fields": [
+        "fiscal_yr",
+        "accounts_entity",
+        "department_number"
+      ]
+    },
+    {
+      "source": "public_accounts_infobase_links",
+      "target": "public_accounts_codes",
+      "label": "fiscal_yr, accounts_entity, program_code → fiscal_yr, accounts_entity, account_code",
+      "basis": "documented",
+      "fields": [
+        "fiscal_yr",
+        "accounts_entity",
+        "program_code"
+      ]
+    },
+    {
+      "source": "public_accounts_infobase_links",
+      "target": "public_accounts_departments",
+      "label": "fiscal_yr, accounts_entity, department_number → fiscal_yr, accounts_entity, department_number",
+      "basis": "documented",
+      "fields": [
+        "fiscal_yr",
+        "accounts_entity",
+        "department_number"
+      ]
+    },
+    {
+      "source": "public_accounts_infobase_links",
+      "target": "institution_registry",
+      "label": "institution_id → institution_id",
+      "basis": "documented",
+      "fields": [
+        "institution_id"
+      ]
+    },
+    {
+      "source": "public_accounts_catalogue_links",
+      "target": "service_programs",
+      "label": "owner_org, program_id → owner_org, program_id",
+      "basis": "documented",
+      "fields": [
+        "owner_org",
+        "program_id"
+      ]
+    },
+    {
+      "source": "public_accounts_catalogue_links",
+      "target": "public_accounts_codes",
+      "label": "fiscal_yr, accounts_entity, program_id → fiscal_yr, accounts_entity, account_code",
+      "basis": "documented",
+      "fields": [
+        "fiscal_yr",
+        "accounts_entity",
+        "program_id"
+      ]
+    },
+    {
+      "source": "public_accounts_catalogue_links",
+      "target": "public_accounts_departments",
+      "label": "fiscal_yr, accounts_entity, department_number → fiscal_yr, accounts_entity, department_number",
+      "basis": "documented",
+      "fields": [
+        "fiscal_yr",
+        "accounts_entity",
+        "department_number"
+      ]
+    },
+    {
       "source": "service_program_references",
       "target": "service_inventory",
       "label": "owner_org, fiscal_yr, service_id → owner_org, fiscal_yr, service_id",
@@ -10561,6 +12197,41 @@
       "source": "service_field_audit",
       "target": "service_schema_metadata",
       "label": "resource + field definition",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "public_accounts_codes",
+      "target": "public_accounts_codes",
+      "label": "published parent in same fiscal year and entity",
+      "basis": "documented",
+      "fields": [
+        "fiscal_yr",
+        "accounts_entity",
+        "parent_code"
+      ]
+    },
+    {
+      "source": "public_accounts_codes",
+      "target": "public_accounts_departments",
+      "label": "fiscal year and accounting entity",
+      "basis": "documented",
+      "fields": [
+        "fiscal_yr",
+        "accounts_entity"
+      ]
+    },
+    {
+      "source": "public_accounts_service_links",
+      "target": "public_accounts_join_audit",
+      "label": "same-year join outcomes and source checksum",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "public_accounts_infobase_links",
+      "target": "public_accounts_join_audit",
+      "label": "resource scope, join outcomes and snapshot checksum",
       "basis": "documented",
       "fields": []
     },
@@ -10721,6 +12392,34 @@
       "fields": []
     },
     {
+      "source": "graph_edges",
+      "target": "node_account_code",
+      "label": "source / target node id",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "graph_edges",
+      "target": "node_infobase_program",
+      "label": "source / target node id",
+      "basis": "documented",
+      "fields": []
+    },
+    {
+      "source": "node_account_code",
+      "target": "public_accounts_codes",
+      "label": "fiscal year + accounting entity + code",
+      "basis": "projection",
+      "fields": []
+    },
+    {
+      "source": "node_infobase_program",
+      "target": "public_accounts_infobase_links",
+      "label": "fiscal year + InfoBase organization ID + code",
+      "basis": "projection",
+      "fields": []
+    },
+    {
       "source": "node_institution",
       "target": "institution_registry",
       "label": "projection / retained source identity",
@@ -10799,8 +12498,8 @@
     }
   ],
   "summary": {
-    "tables": 42,
-    "fields": 1482,
-    "relationships": 63
+    "tables": 50,
+    "fields": 1696,
+    "relationships": 81
   }
 }

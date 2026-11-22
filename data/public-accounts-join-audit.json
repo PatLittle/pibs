@@ -1,0 +1,197 @@
+{
+  "fiscal_yr": "2025-2026",
+  "source_url": "https://open.canada.ca/data/en/dataset/3c371e57-d487-49fa-bb0d-352ae8dd6e4e/resource/467a253b-fd0e-4123-acb3-7641252d8ffe",
+  "documentation_url": "https://donnees-data.tpsgc-pwgsc.gc.ca/ba1/cp-pc/soutien-support-eng.html",
+  "source_sha256": "d21f4f0672e1f08d0476e5b3c19da836044a5216539fe41b8fa3ee1272c22cb8",
+  "source_rows": 1233,
+  "source_fields": [
+    "Min-portfolio_Portefeuille-min_eng",
+    "Other-than-budgetary-expenditures_Autres-que-depenses-budgetaires_eng",
+    "Entity_Entite_eng",
+    "Prog-core-resp-code_Code-prog-resp-essent",
+    "Prog-core-resp-name_Nom-prog-resp-essent_eng",
+    "Prog-core-resp-desc_Desc-prog-resp-essent_eng",
+    "Prog-inv-code_Code-rep-prog",
+    "Prog-inv-name_Nom-rep-prog_eng",
+    "Prog-inv-desc_Desc-rep-prog_eng",
+    "Notes_eng",
+    "Dept-specific_Particulier-au-min_eng"
+  ],
+  "codes_by_kind": {
+    "core_responsibility": 310,
+    "program": 1115,
+    "non_budgetary": 14
+  },
+  "department_numbers": 107,
+  "department_links": {
+    "resolved": 113,
+    "unmatched": 23,
+    "ambiguous": 1
+  },
+  "resolved_institutions": 83,
+  "same_year_service_references": 169,
+  "resolved_service_references": 158,
+  "services_with_chart_codes": 134,
+  "owner_program_pairs_with_same_year_evidence": 52,
+  "shared_service_catalogue_codes": 554,
+  "unresolved_service_references": [
+    {
+      "owner_org": "cpc-cpp",
+      "fiscal_yr": "2025-2026",
+      "service_id": "2150",
+      "program_id": "BXF01",
+      "resolution": "resolved",
+      "vocabulary_year_status": "not_listed_in_current_choice_snapshot",
+      "institution_id": "ati-schedule-i-civilian-review-and-complaints-commission-for-the-royal-canadian-mounted-police",
+      "chart_status": "no_matching_chart_code_for_owner"
+    },
+    {
+      "owner_org": "cpc-cpp",
+      "fiscal_yr": "2025-2026",
+      "service_id": "2150",
+      "program_id": "BXF02",
+      "resolution": "resolved",
+      "vocabulary_year_status": "not_listed_in_current_choice_snapshot",
+      "institution_id": "ati-schedule-i-civilian-review-and-complaints-commission-for-the-royal-canadian-mounted-police",
+      "chart_status": "no_matching_chart_code_for_owner"
+    },
+    {
+      "owner_org": "cpc-cpp",
+      "fiscal_yr": "2025-2026",
+      "service_id": "2151",
+      "program_id": "BXF01",
+      "resolution": "resolved",
+      "vocabulary_year_status": "not_listed_in_current_choice_snapshot",
+      "institution_id": "ati-schedule-i-civilian-review-and-complaints-commission-for-the-royal-canadian-mounted-police",
+      "chart_status": "no_matching_chart_code_for_owner"
+    },
+    {
+      "owner_org": "cpc-cpp",
+      "fiscal_yr": "2025-2026",
+      "service_id": "2151",
+      "program_id": "BXF02",
+      "resolution": "resolved",
+      "vocabulary_year_status": "not_listed_in_current_choice_snapshot",
+      "institution_id": "ati-schedule-i-civilian-review-and-complaints-commission-for-the-royal-canadian-mounted-police",
+      "chart_status": "no_matching_chart_code_for_owner"
+    },
+    {
+      "owner_org": "cpc-cpp",
+      "fiscal_yr": "2025-2026",
+      "service_id": "2152",
+      "program_id": "BXF01",
+      "resolution": "resolved",
+      "vocabulary_year_status": "not_listed_in_current_choice_snapshot",
+      "institution_id": "ati-schedule-i-civilian-review-and-complaints-commission-for-the-royal-canadian-mounted-police",
+      "chart_status": "no_matching_chart_code_for_owner"
+    },
+    {
+      "owner_org": "cpc-cpp",
+      "fiscal_yr": "2025-2026",
+      "service_id": "2152",
+      "program_id": "BXF02",
+      "resolution": "resolved",
+      "vocabulary_year_status": "not_listed_in_current_choice_snapshot",
+      "institution_id": "ati-schedule-i-civilian-review-and-complaints-commission-for-the-royal-canadian-mounted-police",
+      "chart_status": "no_matching_chart_code_for_owner"
+    },
+    {
+      "owner_org": "cpc-cpp",
+      "fiscal_yr": "2025-2026",
+      "service_id": "2152",
+      "program_id": "BXF03",
+      "resolution": "resolved",
+      "vocabulary_year_status": "not_listed_in_current_choice_snapshot",
+      "institution_id": "ati-schedule-i-civilian-review-and-complaints-commission-for-the-royal-canadian-mounted-police",
+      "chart_status": "no_matching_chart_code_for_owner"
+    },
+    {
+      "owner_org": "pmprb-cepmb",
+      "fiscal_yr": "2025-2026",
+      "service_id": "1822",
+      "program_id": "BVM01",
+      "resolution": "resolved",
+      "vocabulary_year_status": "not_listed_in_current_choice_snapshot",
+      "institution_id": "ati-schedule-i-patented-medicine-prices-review-board",
+      "chart_status": "no_matching_chart_code_for_owner"
+    },
+    {
+      "owner_org": "rcmp-grc",
+      "fiscal_yr": "2025-2026",
+      "service_id": "4187",
+      "program_id": "AYO00",
+      "resolution": "resolved",
+      "vocabulary_year_status": "not_listed_in_current_choice_snapshot",
+      "institution_id": "ati-schedule-i-royal-canadian-mounted-police",
+      "chart_status": "no_matching_chart_code_for_owner"
+    },
+    {
+      "owner_org": "rcmp-grc",
+      "fiscal_yr": "2025-2026",
+      "service_id": "SRV03003",
+      "program_id": "AYO00",
+      "resolution": "resolved",
+      "vocabulary_year_status": "not_listed_in_current_choice_snapshot",
+      "institution_id": "ati-schedule-i-royal-canadian-mounted-police",
+      "chart_status": "no_matching_chart_code_for_owner"
+    },
+    {
+      "owner_org": "rcmp-grc",
+      "fiscal_yr": "2025-2026",
+      "service_id": "SRV03003",
+      "program_id": "AYR00",
+      "resolution": "resolved",
+      "vocabulary_year_status": "not_listed_in_current_choice_snapshot",
+      "institution_id": "ati-schedule-i-royal-canadian-mounted-police",
+      "chart_status": "no_matching_chart_code_for_owner"
+    }
+  ],
+  "infobase": {
+    "source_path": "data/public_accounts/infobase-2526-keys.json.gz",
+    "snapshot_sha256": "2918030af3c58dc07f30671a8f43fea0cb3b265edd0ea33e726f7d0ea7ac1103",
+    "retrieved_on": "2026-11-21",
+    "resources": {
+      "spending_fte": {
+        "resource_id": "64774bc1-c90a-4ae2-a3ac-d9b50673a895",
+        "source_year_field": "fy_ef",
+        "source_year_value": "2025-2026",
+        "source_rows": 1146,
+        "rows_without_key": 0,
+        "distinct_keys": 1146,
+        "outcomes": {
+          "linked": 1110,
+          "unresolved_infobase_org": 20,
+          "no_chart_code_for_owner": 16
+        }
+      },
+      "performance": {
+        "resource_id": "09c15494-788e-4991-ad00-2bd905c4f225",
+        "source_year_field": "fy_ef",
+        "source_year_value": "2025-26",
+        "source_rows": 2687,
+        "rows_without_key": 0,
+        "distinct_keys": 905,
+        "outcomes": {
+          "linked": 868,
+          "unresolved_infobase_org": 21,
+          "no_chart_code_for_owner": 16
+        }
+      },
+      "federal_programs": {
+        "resource_id": "8d3cd22d-15b0-468a-bb75-c1e736107c45",
+        "source_year_field": "year",
+        "source_year_value": 2025,
+        "source_rows": 1696,
+        "rows_without_key": 28,
+        "distinct_keys": 1668,
+        "outcomes": {
+          "linked": 1222,
+          "activity_type_mismatch": 45,
+          "unresolved_infobase_org": 155,
+          "no_chart_code_for_owner": 36,
+          "ambiguous_source_key": 210
+        }
+      }
+    }
+  }
+}

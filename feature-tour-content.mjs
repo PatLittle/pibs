@@ -60,6 +60,11 @@ export const tourSections = {
         action: "Open Link AIA", href: "link-aia.html",
       },
       {
+        title: "Trace a service to its Public Accounts codes",
+        copy: "Find the 2025–2026 Chart of Accounts code reported for a service. Follow it to the core responsibility, accounting department or matching GC InfoBase records.",
+        action: "See Public Accounts program codes", href: "#public-accounts-heading",
+      },
+      {
         title: "Inspect the network data model",
         copy: "See the kinds of records and relationships that make up the network, then inspect the fields available for each type.",
         action: "Open the data model", href: "data-model.html",

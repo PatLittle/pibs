@@ -4,6 +4,8 @@ const KINDS = [
   "aia",
   "service",
   "program",
+  "account_code",
+  "infobase_program",
   "service_standard",
   "pib",
   "class",
@@ -11,6 +13,7 @@ const KINDS = [
   "institution",
   "reference",
 ];
+const CONTEXT_RELATIONS = new Set(["listed_by", "accounted_by", "shares_account_code"]);
 export function focusGroups(index, id, lang = "en") {
   const groups = new Map();
   for (const edge of connections(index, id)) {
@@ -54,11 +57,11 @@ export function bridgePaths(index, id, limit = 4) {
     ]),
     candidates = new Map();
   for (const first of connections(index, id)) {
-    if (first.type === "listed_by") continue;
+    if (CONTEXT_RELATIONS.has(first.type)) continue;
     const via = first.source === id ? first.target : first.source;
     if (index.nodes.get(via).type === "reference") continue;
     for (const second of connections(index, via)) {
-      if (second.type === "listed_by") continue;
+      if (CONTEXT_RELATIONS.has(second.type)) continue;
       const target = second.source === via ? second.target : second.source,
         node = index.nodes.get(target);
       if (
@@ -122,8 +125,13 @@ export function validTrail(index, ids, focus) {
 }
 export function findRecords(index, query, lang = "en") {
   const standardPattern = /\bservice standards?\b|\bnormes? de service\b/g;
-  const standardType = /\bservice standards?\b|\bnormes? de service\b/.test(fold(query));
-  const terms = fold(query).replace(standardPattern, "").split(/\s+/).filter(Boolean),
+  const accountsPattern = /\b(?:public accounts|chart of accounts|comptes publics|plan comptable)\b/g;
+  const infobasePattern = /\b(?:infobase du gc|(?:gc )?info ?base)\b/g;
+  const queryText = fold(query);
+  const requestedType = queryText.match(infobasePattern) ? "infobase_program" :
+    queryText.match(accountsPattern) ? "account_code" :
+    queryText.match(standardPattern) ? "service_standard" : "";
+  const terms = queryText.replace(infobasePattern, "").replace(accountsPattern, "").replace(standardPattern, "").split(/\s+/).filter(Boolean),
     types = {
       aia: "aia",
       eia: "aia",
@@ -138,8 +146,8 @@ export function findRecords(index, query, lang = "en") {
     };
   return [...index.nodes.values()]
     .filter((n) =>
-      (!standardType || n.type === "service_standard") && terms.every((t) =>
-        types[t]
+      (!requestedType || n.type === requestedType) && terms.every((t) =>
+        !requestedType && types[t]
           ? n.type === types[t]
           : fold(
               [n.identifier, n.label_en, n.label_fr, ...(n.aliases || [])].join(
