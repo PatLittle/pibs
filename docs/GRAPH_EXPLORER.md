@@ -7,11 +7,11 @@ fullscreen modes, or tour controls competing with that task.
 
 ## Model first
 
-The [complete model diagram](../site/data-model.html) contains every table and
+The [complete model diagram](https://patlittle.github.io/pibs/data-model.html) contains every table and
 field in the network's owning sources and runtime projection. It provides a
 searchable field catalogue, zoom/pan, keyboard navigation, a standalone
-[SVG](../site/data/network-schema.svg), and machine-readable
-[schema](../site/data/network-schema.json). `data_model.json` declares canonical
+[SVG](https://patlittle.github.io/pibs/data/network-schema.svg), and machine-readable
+[schema](https://patlittle.github.io/pibs/data/network-schema.json). `data_model.json` declares canonical
 CSV keys and foreign keys; the inventory also inspects nested PIA documents,
 external AIA field shapes, lazy attributes and evidence shards.
 
@@ -19,6 +19,7 @@ The full schema distinguishes:
 
 - source records: institutions, institutional/standard PIBs and classes;
 - Service Inventory services, programs, standards and annual join observations;
+- 2025–2026 Chart of Accounts codes, department attributions, annual service joins and GC InfoBase program keys;
 - assessments: organization inventories, PIAs, language sources and citations;
 - external AIA metadata, survey answers, translations and calculated results;
 - controlled vocabularies and supporting derived My Info tables;
@@ -58,7 +59,9 @@ were separate navigation systems. The new design follows the data's actual shape
 4. **Discover a real bridge.** “Where this record can lead” offers up to four
    two-step paths across citations, related classes and named-official links.
    Each path names the intermediate record and offers both source links. Generic
-   shared-institution attribution is excluded from these suggestions. An indirect
+   shared-institution attribution, accounting departments and catalogue-only comparisons
+   are excluded from these suggestions. Same-year links can lead from a service to
+   GC InfoBase through the Chart. An indirect
    path never becomes an asserted direct edge. Candidates are selected
    deterministically, preferring citation paths, cross-institution records and
    distinct target types; this is navigation ordering, not a confidence score.
@@ -95,6 +98,11 @@ Canonical source-scoped identities remain unchanged:
 | `references` | Explicit source citation; it does not establish full assessment coverage |
 | `related_class` | Literal PIB-to-class reference, retaining scope and resolution |
 | `responsible_official` | AIA explicitly names a responsible senior official |
+| `account_core_responsibility` | The Chart names the parent responsibility on the same source row |
+| `accounted_by` | An accounting department resolves by its Receiver General number |
+| `reports_account_code` | The service observation and Chart agree on institution, code and fiscal year |
+| `shares_account_code` | The Service Inventory catalogue and Chart share an institution-scoped code |
+| `matches_infobase_program` | Chart and GC InfoBase code, institution and fiscal year agree |
 
 Unknown or multiple targets remain unresolved/ambiguous reference nodes. They
 are not promoted into real holdings or used as intermediates in recommended

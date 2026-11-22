@@ -59,8 +59,9 @@ See [graph methodology](docs/GRAPH_EXPLORER.md).
 
 ## Complete network schema diagram
 
-The [interactive full model](site/data-model.html), [standalone SVG](site/data/network-schema.svg)
-and [field catalogue](site/data/network-schema.json) inventory every source table,
+The [interactive full model](https://patlittle.github.io/pibs/data-model.html),
+[standalone SVG](https://patlittle.github.io/pibs/data/network-schema.svg)
+and [field catalogue](https://patlittle.github.io/pibs/data/network-schema.json) inventory every source table,
 nested record shape and graph-projection field. `scripts/build_network_schema.py`
 reads owning CSV headers and actual PIA/graph structures. External AIA schema is
 field metadata only; the payload remains outside the repository. Collection maps
@@ -93,5 +94,18 @@ in their collapsed attributes. External AIA `data.ServiceID` resolves by literal
 service ID within a uniquely matched institution.
 
 See the [field inventory and join ledger](docs/SERVICE_INVENTORY_JOINS.md) for
-composite keys, provenance, unresolved codes, evidence limits and proposed
-GC InfoBase program-architecture and Justice legal-authority joins.
+composite keys, provenance, unresolved codes and evidence limits.
+
+## Public Accounts and GC InfoBase
+
+The 2025–2026 Chart of Accounts uses `(fiscal_yr, accounts_entity, account_code)`
+for programs, core responsibilities and non-budgetary codes. A published program
+row identifies its parent core code. Department attributions retain the Chart's
+Receiver General number, even where the accounting department and named entity
+differ. A unique registry `rg` value resolves an accounting department.
+
+An observed Service Inventory program reference can join by fiscal year, code
+and institution. GC InfoBase joins the other side through the same institution
+and its separate `infobaseID`. The join ledger distinguishes an annual service
+reference, a catalogue comparison, and an external record key. See the
+[Public Accounts join ledger](docs/PUBLIC_ACCOUNTS_JOINS.md).

@@ -557,6 +557,14 @@ and the [complete interactive model](https://patlittle.github.io/pibs/data-model
 Normalized owning inputs live in `data/service_inventory/`; the import manifest
 records their source URLs and checksums. AIA records remain externally hosted.
 
+### Public Accounts program codes
+
+The 2025–2026 Chart of Accounts connects Service Inventory observations to core
+responsibilities and GC InfoBase program records through the institution
+registry. The [join ledger](docs/PUBLIC_ACCOUNTS_JOINS.md) explains the keys,
+evidence and coverage. The [Explorer](https://patlittle.github.io/pibs/index.html#public-accounts)
+provides the code list and join downloads.
+
 ### Document Studio
 
 [Document Studio](https://patlittle.github.io/pibs/document-studio/) is a separate

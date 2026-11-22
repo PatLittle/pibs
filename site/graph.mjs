@@ -47,8 +47,8 @@ const words = {
     "Un ensemble de renseignements interconnectés",
   ],
   shapeNote: [
-    "Services connect institutions to programs and standards. An AIA can cite a service or a bank and name an official. Each connection retains its source evidence.",
-    "Les services relient les institutions aux programmes et aux normes. Une EIA peut citer un service ou un fichier et nommer un cadre. Chaque lien conserve ses preuves.",
+    "Follow a service through its 2025–2026 Chart of Accounts code to GC InfoBase spending, staffing or performance records. An AIA can also cite services and banks and name an official.",
+    "Suivez un service par son code du plan comptable de 2025–2026 jusqu’aux données sur les dépenses, les effectifs ou le rendement de l’InfoBase du GC. Une EIA peut aussi citer des services et des fichiers et nommer un cadre.",
   ],
   start: ["Start with a connected story", "Commencer par un parcours lié"],
   back: ["← Previous record", "← Document précédent"],
@@ -75,6 +75,16 @@ const words = {
   service: ["Service", "Service"],
   program: ["Program", "Programme"],
   service_standard: ["Service standard", "Norme de service"],
+  account_code: ["Chart of Accounts code", "Code du plan comptable"],
+  infobase_program: ["GC InfoBase program record", "Fiche de programme de l’InfoBase du GC"],
+  matches_infobase_program: ["Same-year GC InfoBase record", "Fiche de l’InfoBase du GC du même exercice"],
+  infobase_resources: ["GC InfoBase source records", "Données sources de l’InfoBase du GC"],
+  account_core_responsibility: ["Core responsibility", "Responsabilité essentielle"],
+  accounted_by: ["Accounting department", "Ministère comptable"],
+  reports_account_code: ["Same-year Chart code", "Code du plan comptable du même exercice"],
+  shares_account_code: ["Shared catalogue code", "Code de catalogue commun"],
+  accounts_entity: ["Chart entity", "Entité du plan comptable"],
+  department_links: ["Accounting departments", "Ministères comptables"],
   under_program: ["Reported program", "Programme déclaré"],
   has_standard: ["Service standard", "Norme de service"],
   references_service: ["Cited service ID", "ID de service cité"],
@@ -257,6 +267,21 @@ function setPanel(show) {
   );
 }
 function relationPhrase(group) {
+  if (group.relation === "matches_infobase_program") return group.outgoing
+    ? text("GC InfoBase records with the same code and year", "Fiches de l’InfoBase du GC ayant le même code et le même exercice")
+    : text("Matching Chart of Accounts code", "Code correspondant du plan comptable");
+  if (group.relation === "account_core_responsibility") return group.outgoing
+    ? text("Core responsibility in the Chart", "Responsabilité essentielle dans le plan comptable")
+    : text("Programs under this core responsibility", "Programmes liés à cette responsabilité essentielle");
+  if (group.relation === "accounted_by") return group.outgoing
+    ? text("Accounting departments listed in the Chart", "Ministères comptables inscrits au plan comptable")
+    : text("Chart codes reported under this accounting department", "Codes déclarés sous ce ministère comptable");
+  if (group.relation === "reports_account_code") return group.outgoing
+    ? text("Chart codes matched in the same fiscal year", "Codes du plan comptable appariés pour le même exercice")
+    : text("Services reporting this code in the same fiscal year", "Services déclarant ce code pour le même exercice");
+  if (group.relation === "shares_account_code") return group.outgoing
+    ? text("Shared code in the 2025–2026 Chart", "Code commun dans le plan comptable de 2025–2026")
+    : text("Matching Service Inventory catalogue codes", "Codes correspondants du catalogue des services");
   if (group.relation === "under_program") return group.outgoing
     ? text("Programs reported for this service", "Programmes déclarés pour ce service")
     : text("Services reporting this program", "Services déclarant ce programme");

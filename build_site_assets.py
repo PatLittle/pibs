@@ -14,6 +14,7 @@ from scripts.build_pia_site import build as build_pia_assets
 from PIAs.reference_extraction import enrich_collections
 from scripts.build_graph import write as build_graph_assets
 from scripts.build_network_schema import build as network_schema, write as write_network_schema
+from scripts.public_accounts import write as write_public_accounts
 
 
 SITE_DATA = Path("site/data")
@@ -31,6 +32,7 @@ def percent(numerator: int, denominator: int) -> float:
 def main() -> None:
     enrich_collections()
     build_pia_assets()
+    write_public_accounts(Path("."))
     build_graph_assets()
     write_network_schema(network_schema())
     SITE_DATA.mkdir(parents=True, exist_ok=True)

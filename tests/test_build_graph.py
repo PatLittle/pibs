@@ -8,6 +8,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 from scripts.build_graph import ROOT, build, record_id, write
+from scripts.public_accounts import FISCAL_YEAR, account_id
 from scripts.validate_graph import validate
 
 
@@ -81,6 +82,40 @@ class GraphBuildTests(unittest.TestCase):
         self.assertEqual(len(edges), 1)
         self.assertEqual({e['language'] for e in edges[0]['evidence']}, {'en', 'fr'})
         self.assertEqual({e['mention'] for e in edges[0]['evidence']}, {'PSU 905', 'POU 905'})
+
+    def test_public_accounts_bridges_same_year_service_and_infobase(self):
+        entity = "Canadian Institutes of Health Research"
+        chart_id = account_id(entity, "BUI01")
+        info_id = f"infobase-program:{FISCAL_YEAR}:74:BUI01"
+        edges = {(e["source"], e["target"], e["type"]): e for e in self.graph["edges"]}
+        annual = edges["service:cihr-irsc:1121", chart_id, "reports_account_code"]
+        self.assertEqual({e["fiscal_yr"] for e in annual["evidence"]}, {FISCAL_YEAR})
+        self.assertEqual(annual["evidence"][0]["department_number"], "061")
+        self.assertIn((chart_id, account_id(entity, "BUI00"), "account_core_responsibility"), edges)
+        gc = edges[chart_id, info_id, "matches_infobase_program"]["evidence"]
+        self.assertEqual({e["infobase_org_id"] for e in gc}, {"74"})
+        self.assertEqual({e["department_number"] for e in gc}, {"061"})
+        self.assertTrue({"federal_programs", "spending_fte"} <= {
+            row["resource_kind"] for row in self.nodes[info_id]["attributes"]["infobase_resources"]
+        })
+
+    def test_accounts_keep_catalogue_matches_and_ambiguous_departments_separate(self):
+        edges = self.graph["edges"]
+        study_permit = [e for e in edges if e["source"] == "service:cic:1428"]
+        self.assertFalse(any(e["type"] == "reports_account_code" for e in study_permit))
+        self.assertTrue(any(e["type"] == "shares_account_code" and e["source"] == "program:cic:BGD02" for e in edges))
+
+        account_nodes = [n for n in self.nodes.values() if n["type"] == "account_code"]
+        ambiguous = {
+            n["id"] for n in account_nodes
+            if any(d["department_number"] == "096" and d["resolution"] == "ambiguous"
+                   for d in n["attributes"]["department_links"])
+        }
+        self.assertTrue(ambiguous)
+        self.assertFalse(any(e["type"] == "accounted_by" and e["source"] in ambiguous for e in edges))
+        internal_services = [n for n in account_nodes if n["identifier"] == "ISS01"]
+        self.assertGreater(len(internal_services), 1)
+        self.assertEqual(len(internal_services), len({n["attributes"]["accounts_entity"] for n in internal_services}))
 
     def test_generated_assets_are_deterministic_and_shards_validated(self):
         with tempfile.TemporaryDirectory() as tmp:

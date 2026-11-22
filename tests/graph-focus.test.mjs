@@ -13,6 +13,19 @@ const graph = JSON.parse(
   ),
   index = indexGraph(graph),
   bank = "pib:standard:PSU 905";
+
+test("a reported Chart code connects a service to a GC InfoBase record", () => {
+  const service = "service:cihr-irsc:1121";
+  const chart = findRecords(index, "Public Accounts BUI01");
+  assert.equal(chart.length, 1);
+  assert.equal(chart[0].type, "account_code");
+  assert.deepEqual(findRecords(index, "InfoBase du GC BUI01", "fr").map(n => n.id), [
+    "infobase-program:2025-2026:74:BUI01",
+  ]);
+  assert.ok(bridgePaths(index, service).some(path =>
+    index.nodes.get(path.via).type === "account_code" &&
+    index.nodes.get(path.target).type === "infobase_program"));
+});
 test("groups account for every documented connection and retain its direction and evidence ID", () => {
   const groups = focusGroups(index, bank),
     seen = [];

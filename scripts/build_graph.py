@@ -18,6 +18,8 @@ from urllib.parse import urlencode
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from my_info.categories import classify_record, load_category_definitions
+from scripts import public_accounts
+from scripts import infobase_program_keys
 from scripts.service_graph import add_service_inventory
 
 
@@ -203,6 +205,10 @@ def build(root=ROOT):
                                  'resolved' if resolved else nodes[target]['resolution'])
 
     add_service_inventory(root, read, nodes, add_node, add_edge)
+    accounts = public_accounts.build(root, registry, read)
+    inputs[public_accounts.SOURCE] = hashlib.sha256((root / public_accounts.SOURCE).read_bytes()).hexdigest()
+    inputs[infobase_program_keys.SOURCE] = accounts["audit"]["infobase"]["snapshot_sha256"]
+    public_accounts.add_to_graph(accounts, add_node, add_edge)
 
     for edge in edges.values():
         edge['basis'] = 'derived' if edge['type'] == 'category_match' else 'documented'

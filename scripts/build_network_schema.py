@@ -79,6 +79,16 @@ def build(aia_file=None):
     relation('service_inventory','service_import_manifest','normalized source snapshot, resource IDs and checksums')
     relation('service_standards','service_import_manifest','normalized source snapshot, resource IDs and checksums')
     relation('service_field_audit','service_schema_metadata','resource + field definition')
+    accounts_audit_path = 'site/data/public-accounts-join-audit.json'
+    accounts_audit = json.loads((ROOT / accounts_audit_path).read_text(encoding='utf-8'))
+    table('public_accounts_join_audit', 'Public Accounts import and unmatched service references',
+          accounts_audit_path, [accounts_audit], 'support')
+    relation('public_accounts_codes', 'public_accounts_codes', 'published parent in same fiscal year and entity',
+             fields=['fiscal_yr', 'accounts_entity', 'parent_code'])
+    relation('public_accounts_codes', 'public_accounts_departments', 'fiscal year and accounting entity',
+             fields=['fiscal_yr', 'accounts_entity'])
+    relation('public_accounts_service_links', 'public_accounts_join_audit', 'same-year join outcomes and source checksum')
+    relation('public_accounts_infobase_links', 'public_accounts_join_audit', 'resource scope, join outcomes and snapshot checksum')
     graph=json.loads((ROOT/'site/data/graph.json').read_text())
     shards={path:json.loads((ROOT/'site'/path).read_text()) for path in graph['attribute_files']}
     for node in graph['nodes']:
@@ -137,6 +147,11 @@ const edges=result.graph.edges.filter(e=>e.id.startsWith('aia-edge:'));console.l
     manifest=tables[-1];manifest['fields'].extend([dict(name=k,types=['object']) for k in ('inputs','attribute_files','evidence_files')]);manifest['fields'].extend([dict(name=k+'.{path}',types=['sha256 string']) for k in ('inputs','attribute_files','evidence_files')]);manifest['fields'].extend([dict(name=k,types=['array']) for k in ('nodes','edges')]);manifest['fields'].extend([dict(name='summary.node_types.'+k,types=['number']) for k in ('aia','official')])
     relation('graph_edges','graph_evidence','edge id → evidence[]')
     for typ in ('institution','pib','class','pia','reference','aia','official','service','program','service_standard'): relation('graph_edges','node_'+typ,'source / target node id')
+    for typ in ('account_code', 'infobase_program'):
+        relation('graph_edges', 'node_' + typ, 'source / target node id')
+    relation('node_account_code', 'public_accounts_codes', 'fiscal year + accounting entity + code', 'projection')
+    relation('node_infobase_program', 'public_accounts_infobase_links',
+             'fiscal year + InfoBase organization ID + code', 'projection')
     for a,b in [('node_institution','institution_registry'),('node_pib','institution_personal_information_banks'),('node_pib','standard_personal_information_banks'),('node_class','institution_classes_of_records'),('node_class','standard_classes_of_records'),('node_pia','pias'),('node_aia','aia_source'),('node_official','aia_answers'),('node_service','service_inventory'),('node_program','service_programs'),('node_service_standard','service_standards')]: relation(a,b,'projection / retained source identity','projection')
     return dict(schema_version=1,scope='All canonical tables used by the network; Service Inventory and year-scoped program/standard joins; supporting My Info tables; nested PIA and external AIA source shapes; browser graph projection. Field names/types/keys only, never external AIA record values.',external_source=external_meta,runtime_shapes=runtime,tables=tables,relationships=relations,summary=dict(tables=len(tables),fields=sum(len(t['fields']) for t in tables),relationships=len(relations)))
 

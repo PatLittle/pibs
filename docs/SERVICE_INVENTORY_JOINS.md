@@ -46,6 +46,10 @@ have an exact owner/year/service parent.
 
 ## Implemented joins
 
+The 2025–2026 Chart of Accounts also links annual Service Inventory reports to
+GC InfoBase. See the [Public Accounts join ledger](PUBLIC_ACCOUNTS_JOINS.md) for
+the accounting department and reporting-year guards.
+
 | Source → target | Common key and guard | Graph behavior |
 |---|---|---|
 | Service organization → institution registry | `owner_org = open_canada_org_slug`, exactly one registry match | Service and program `listed_by` institution. 79 of 82 source owners resolve. |
@@ -125,18 +129,19 @@ channels, fees and online-service flags are attributes, not entities.
 
 ## Next joinable data, in recommended order
 
-1. **GC InfoBase Federal Programs and program architecture.** The
+1. **GC InfoBase program architecture across years.** The
    [GC InfoBase dataset](https://open.canada.ca/data/en/dataset/a35cf382-690c-4221-a971-cf0fd189a46f)
    Federal Programs resource `8d3cd22d-15b0-468a-bb75-c1e736107c45` exposes `year`,
    `organization_id`, `dept_code`, `program_code`, typed numeric `id`, `type`,
-   `parent_type`, `parent_id` and bilingual names. Match Service Inventory
-   **program_id to InfoBase program_code**, using `institution_registry.infobaseID`
-   to crosswalk the organization and an explicitly verified fiscal-year mapping.
-   Do not join the text code to InfoBase's numeric `id`/`program_id`. Then follow
+   `parent_type`, `parent_id` and bilingual names. The Public Accounts integration
+   matches 2025–2026 program codes using `institution_registry.infobaseID`.
+   Extend that across years with the corresponding annual Charts. Then follow
    `(year, parent_type, parent_id)` to the typed `(year, type, id)` parent within
    the same organization after checking uniqueness. This is the strongest next
    extension: it can supply annual architecture and responsibility context.
-2. **Program spending, FTEs and results.** The same InfoBase package supplies
+2. **More detailed program spending, FTEs and results.** The crosswalk already
+   links to the program-level Departmental Plans and Results Reports resources
+   for 2025–2026. The same InfoBase package also supplies
    spending (`55934650-3380-44d5-82c1-bb68f8cc5abb`), FTE
    (`49569acc-b550-412e-b789-01d1ac96d879`) and result-indicator
    (`89bfbbec-ac42-48be-aa4f-7454bd7e10f8`) resources. Use the verified annual,

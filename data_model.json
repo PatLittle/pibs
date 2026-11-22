@@ -293,6 +293,91 @@
         }
       ]
     },
+    "public_accounts_codes": {
+      "path": "site/data/public-accounts-codes.csv",
+      "primary_key": ["fiscal_yr", "accounts_entity", "account_code"],
+      "json_array_fields": ["source_records", "notes_en"],
+      "description": "2025–2026 Chart of Accounts programs, core responsibilities and non-budgetary codes. Programme hierarchy uses the published same-row parent code scoped by fiscal year and entity."
+    },
+    "public_accounts_departments": {
+      "path": "site/data/public-accounts-departments.csv",
+      "primary_key": ["fiscal_yr", "accounts_entity", "department_number"],
+      "json_array_fields": ["source_records", "candidate_institutions"],
+      "foreign_keys": [
+        {
+          "fields": ["institution_id"],
+          "references": "institution_registry",
+          "reference_fields": ["institution_id"]
+        }
+      ],
+      "description": "One row per accounting department number listed for each Chart entity. The nullable institution key requires a unique Receiver General number in the registry."
+    },
+    "public_accounts_service_links": {
+      "path": "site/data/public-accounts-service-links.csv",
+      "primary_key": ["owner_org", "fiscal_yr", "service_id", "program_id"],
+      "foreign_keys": [
+        {
+          "fields": ["owner_org", "fiscal_yr", "service_id", "program_id"],
+          "references": "service_program_references",
+          "reference_fields": ["owner_org", "fiscal_yr", "service_id", "program_id"]
+        },
+        {
+          "fields": ["fiscal_yr", "accounts_entity", "program_id"],
+          "references": "public_accounts_codes",
+          "reference_fields": ["fiscal_yr", "accounts_entity", "account_code"]
+        },
+        {
+          "fields": ["fiscal_yr", "accounts_entity", "department_number"],
+          "references": "public_accounts_departments",
+          "reference_fields": ["fiscal_yr", "accounts_entity", "department_number"]
+        }
+      ],
+      "description": "Observed same-year Service Inventory program references joined to exactly one Chart record through the service owner and Receiver General number."
+    },
+    "public_accounts_infobase_links": {
+      "path": "site/data/public-accounts-infobase-links.csv",
+      "primary_key": ["fiscal_yr", "resource_kind", "infobase_org_id", "program_code"],
+      "foreign_keys": [
+        {
+          "fields": ["fiscal_yr", "accounts_entity", "program_code"],
+          "references": "public_accounts_codes",
+          "reference_fields": ["fiscal_yr", "accounts_entity", "account_code"]
+        },
+        {
+          "fields": ["fiscal_yr", "accounts_entity", "department_number"],
+          "references": "public_accounts_departments",
+          "reference_fields": ["fiscal_yr", "accounts_entity", "department_number"]
+        },
+        {
+          "fields": ["institution_id"],
+          "references": "institution_registry",
+          "reference_fields": ["institution_id"]
+        }
+      ],
+      "description": "Verified external GC InfoBase keys scoped by resource, reporting year, program or core responsibility code and the registry's distinct InfoBase organization ID."
+    },
+    "public_accounts_catalogue_links": {
+      "path": "site/data/public-accounts-catalogue-links.csv",
+      "primary_key": ["fiscal_yr", "owner_org", "program_id"],
+      "foreign_keys": [
+        {
+          "fields": ["owner_org", "program_id"],
+          "references": "service_programs",
+          "reference_fields": ["owner_org", "program_id"]
+        },
+        {
+          "fields": ["fiscal_yr", "accounts_entity", "program_id"],
+          "references": "public_accounts_codes",
+          "reference_fields": ["fiscal_yr", "accounts_entity", "account_code"]
+        },
+        {
+          "fields": ["fiscal_yr", "accounts_entity", "department_number"],
+          "references": "public_accounts_departments",
+          "reference_fields": ["fiscal_yr", "accounts_entity", "department_number"]
+        }
+      ],
+      "description": "Shared owner-scoped codes in the Service Inventory reference catalogue and the Chart. Fiscal year identifies the Chart snapshot."
+    },
     "service_program_references": {
       "path": "data/service_inventory/program_references.csv",
       "primary_key": [
@@ -367,7 +452,9 @@
       "reference",
       "service",
       "program",
-      "service_standard"
+      "service_standard",
+      "account_code",
+      "infobase_program"
     ],
     "scopes": {
       "pib": [
@@ -405,6 +492,26 @@
         "basis": "documented",
         "meaning": "Standard belongs to service using exact owner_org, fiscal_yr and service_id"
       },
+      "account_core_responsibility": {
+        "basis": "documented",
+        "meaning": "Program cites this core responsibility in the same Chart source record"
+      },
+      "accounted_by": {
+        "basis": "documented",
+        "meaning": "Chart lists an accounting department number that uniquely resolves to institution_registry.rg"
+      },
+      "reports_account_code": {
+        "basis": "documented",
+        "meaning": "Service reports an exact program code that resolves in the same year and owner scope"
+      },
+      "shares_account_code": {
+        "basis": "documented",
+        "meaning": "Service Inventory programme catalogue shares an owner-scoped code with the 2025–2026 Chart"
+      },
+      "matches_infobase_program": {
+        "basis": "documented",
+        "meaning": "Chart and GC InfoBase share a code and fiscal year, with RG and InfoBase organization identifiers resolving to the same registry institution"
+      },
       "references_service": {
         "basis": "documented",
         "meaning": "AIA cites exact ServiceID, uniquely resolved within its matched institution; no fiscal year or coverage inferred",
@@ -423,6 +530,7 @@
       "pib_type": "Controlled PIB type value and definition",
       "personal_information_categories": "Derived values with rule, confidence and source evidence; not graph entities"
     },
-    "service_inventory_source": "data/service_inventory/manifest.json"
+    "service_inventory_source": "data/service_inventory/manifest.json",
+    "public_accounts_source": "data/public_accounts/cp-pc-2526-eng.csv.gz"
   }
 }

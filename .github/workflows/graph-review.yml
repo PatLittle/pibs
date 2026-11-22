@@ -7,6 +7,9 @@ on:
       - 'scripts/*graph.py'
       - 'scripts/import_service_inventory.py'
       - 'data/service_inventory/**'
+      - 'data/public_accounts/**'
+      - 'scripts/public_accounts.py'
+      - 'scripts/infobase_program_keys.py'
       - 'tests/test_service_inventory.py'
       - 'validate_data_model.py'
       - 'scripts/build_network_schema.py'
@@ -53,6 +56,9 @@ jobs:
           /tmp/graph-browser/node_modules/.bin/playwright install --with-deps chromium
       - name: Validate canonical graph and site
         run: |
+          python -m scripts.public_accounts
+          python scripts/build_graph.py
+          python scripts/build_network_schema.py
           python validate_site.py
           python -m unittest tests.test_network_schema tests.test_build_graph tests.test_service_inventory tests.test_build_pia_site
           node --test tests/graph-focus.test.mjs tests/graph.test.mjs tests/privacy_assessments.test.mjs tests/aia.test.mjs
